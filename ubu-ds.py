@@ -7,6 +7,12 @@ import pexpect
 import numpy as np
 import pickle
 
+
+pack_dbgsym_list = list()
+
+
+
+
 def get_all_ubuntu_dbgsym_packages():
     pack_with_dbgsym = subprocess.run(['apt-cache', 'search', 'dbgsym'], capture_output=True, universal_newlines=True)
     pack_with_dbgsym_out = pack_with_dbgsym.stdout
@@ -14,7 +20,7 @@ def get_all_ubuntu_dbgsym_packages():
 
     #print(f'pack_with_dbgsym_out: {pack_with_dbgsym_out}')
 
-    pack_dbgsym_list = list()
+    
     for l in pack_with_dbgsym_out:
         #print(f'dbgsym: {l.split()[0]}')
         if l.split() and l.split()[0].endswith('-dbgsym'):
@@ -530,4 +536,4 @@ for package in pack_dbgsym_list:
    
        
             
-    return pack_dbgsym_list
+    #return pack_dbgsym_list
