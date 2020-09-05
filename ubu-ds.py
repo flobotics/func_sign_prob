@@ -9,8 +9,13 @@ import pickle
 
 
 pack_dbgsym_list = list()
-config_dir = "/home/infloflo/test"
+new_binaries_in_package = list()
+funcs_and_ret_types = list()
+funcs_and_ret_types_filtered = list()
+dataset = list()
 
+config_dir = "/home/infloflo/test/"
+gcloud = True
 
 
 def get_all_ubuntu_dbgsym_packages():
@@ -41,7 +46,8 @@ def get_all_ubuntu_dbgsym_packages():
     return pack_dbgsym_list
         
 def get_binaries_in_package(package):
-
+    global new_binaries_in_package
+    
     package_work = list()
     c = 0
     already_done = False
@@ -69,9 +75,10 @@ def get_binaries_in_package(package):
 
         ###install the package
         child = pexpect.spawn('sudo DEBIAN_FRONTEND=noninteractive apt install -y {0}'.format(f_without_dbgsym), timeout=None)
-        child.expect('ubu:', timeout=None)
-        # enter the password
-        child.sendline('ubu\n')
+        if not gcloud:
+		child.expect('ubu:', timeout=None)
+		# enter the password
+		child.sendline('ubu\n')
         #print(child.read())
         tmp = child.read()
 
@@ -93,10 +100,11 @@ def get_binaries_in_package(package):
 
         ###if we found some binaries in package, we install the -dbgsym package
         if len(binaries_in_package) > 0:
-            child = pexpect.spawn('sudo DEBIAN_FRONTEND=noninteractive apt install -y {0}'.format(package), timeout=None)
-            child.expect('ubu:', timeout=None)
-            ### enter the password
-            child.sendline('ubu\n')
+            if not gcloud:
+            	child = pexpect.spawn('sudo DEBIAN_FRONTEND=noninteractive apt install -y {0}'.format(package), timeout=None)
+            	child.expect('ubu:', timeout=None)
+            	### enter the password
+            	child.sendline('ubu\n')
             #print(child.read())
             tmp = child.read()
 
@@ -131,7 +139,7 @@ def get_binaries_in_package(package):
 
 
         ###check if we already got these binaries in our package-binaries.txt
-        new_binaries_in_package = list()
+        #new_binaries_in_package = list()
         found_bin = False
 
         if len(real_binaries_in_package) > 0:
@@ -170,9 +178,10 @@ def get_binaries_in_package(package):
     
     
 def get_function_signatures_and_ret_types(gdb_output):
+    global funcs_and_ret_types
     all_funcs = list()
     ret_types = set()
-    funcs_and_ret_types = list()
+    #funcs_and_ret_types = list()
     baseFileName = ''
 
     out = gdb_output.stdout
@@ -235,6 +244,7 @@ def get_function_signatures_and_ret_types(gdb_output):
     
     
 def get_types_from_names(funcs_and_ret_types, binary_name):
+    global funcs_and_ret_types_filtered
     # does not find **  ?????
     #legal_types = ['void', 'void *', '**' 'unsigned', 'char', 'static', '_Bool', 'int', 'wchar_t',
     #               'ssize_t', 'unsigned', 'struct', 'long', 'enum']
@@ -323,7 +333,7 @@ def get_types_from_names(funcs_and_ret_types, binary_name):
 
 
     #filter all with DELETE as ret_type
-    funcs_and_ret_types_filtered = list()
+    #funcs_and_ret_types_filtered = list()
 
     for f,r, fn, b in funcs_and_ret_types:
         if r == 'DELETE':
@@ -332,10 +342,12 @@ def get_types_from_names(funcs_and_ret_types, binary_name):
         else:
             funcs_and_ret_types_filtered.append((f,r,fn,b))
             
+    return funcs_and_ret_types_filtered
+            
             
 def get_disassemble(funcs_and_ret_types_filtered, binary_name):
     
-    dataset = list()
+    #dataset = list()
     disas_list = list()
 
     for a,b,funcName, baseFileName in funcs_and_ret_types_filtered:
@@ -400,7 +412,7 @@ def get_disassemble(funcs_and_ret_types_filtered, binary_name):
             
 
     #print(funcs_and_ret_types_filtered)
-    return funcs_and_ret_types_filtered
+    #return funcs_and_ret_types_filtered
 
     #type: ['type', '=', 'int', '(*)(int,', 'int)']
     #type: ['type', '=', 'int', '(*)(WORD_LIST', '*)']  
