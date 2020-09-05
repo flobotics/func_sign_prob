@@ -14,6 +14,7 @@ pack_dbgsym_list = list()
 
 
 def get_all_ubuntu_dbgsym_packages():
+    global pack_dbgsym_list
     pack_with_dbgsym = subprocess.run(['apt-cache', 'search', 'dbgsym'], capture_output=True, universal_newlines=True)
     pack_with_dbgsym_out = pack_with_dbgsym.stdout
     pack_with_dbgsym_out = pack_with_dbgsym_out.split('\n')
