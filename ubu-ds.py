@@ -15,6 +15,7 @@ funcs_and_ret_types_filtered = list()
 dataset = list()
 
 config_dir = "/home/infloflo/test/"
+pickles_dir = "ubuntu-20-04-pickles/"
 gcloud = True
 
 
@@ -42,12 +43,15 @@ def get_all_ubuntu_dbgsym_packages():
     #print(len(pack_dbgsym_list))
     if len(pack_dbgsym_list) == 0:
         print("install ubuntu debug symbol packages")
+        ###clear list, so that next run does not use old list
+        pack_dbgsym_list = []
         
     return pack_dbgsym_list
         
 def get_binaries_in_package(package):
     global new_binaries_in_package
-    
+    ###clear for next run, to not use old values
+    new_binaries_in_package = []
     package_work = list()
     c = 0
     already_done = False
@@ -61,6 +65,8 @@ def get_binaries_in_package(package):
     #check if we got this package already 
     file = open(config_dir + "package-all.txt", "r+")
     for pack in file:
+        #print(f'pack: {pack}')
+        #print(f'package: {package}')
         if package in pack:
             print("Skip package, already in package-all.txt file")
             already_done = True
@@ -171,6 +177,8 @@ def get_binaries_in_package(package):
                 file.close()
             else:
                 print("No binaries to write to package-binaries.txt file")
+                ###clear list, so that next run does not use old list
+                new_binaries_in_package = []
 
 
     return new_binaries_in_package
@@ -245,6 +253,8 @@ def get_function_signatures_and_ret_types(gdb_output):
     
 def get_types_from_names(funcs_and_ret_types, binary_name):
     global funcs_and_ret_types_filtered
+    funcs_and_ret_types_filtered = []
+
     # does not find **  ?????
     #legal_types = ['void', 'void *', '**' 'unsigned', 'char', 'static', '_Bool', 'int', 'wchar_t',
     #               'ssize_t', 'unsigned', 'struct', 'long', 'enum']
@@ -258,6 +268,8 @@ def get_types_from_names(funcs_and_ret_types, binary_name):
 
     counter = -1
     replace_str = ''
+
+    print(f'len(funcs_and_ret_types):{len(funcs_and_ret_types)}')
     #(funcSignature, ret_type, funcName, baseFileName)
     #for ret_type in ret_types:
     for func, ret_type, f, b in funcs_and_ret_types:
@@ -269,7 +281,7 @@ def get_types_from_names(funcs_and_ret_types, binary_name):
             else:
                 #not legal type, look with gdb ptype what type it is, and replace it
                 #print(f'---not found in legal types:{ret_type}')
-
+                #print(f'---binary_name:{binary_name}')
                 gdb_output_ptype = subprocess.run(["gdb",  "-batch", "-ex", "file {0}".format(binary_name), "-ex", "ptype {0}".format(ret_type)], capture_output=True, universal_newlines=True)
                 out_ptype = gdb_output_ptype.stdout
                 #print(f'out_ptype: {out_ptype}', flush=True)
@@ -346,7 +358,8 @@ def get_types_from_names(funcs_and_ret_types, binary_name):
             
             
 def get_disassemble(funcs_and_ret_types_filtered, binary_name):
-    
+    global dataset 
+    dataset = []
     #dataset = list()
     disas_list = list()
 
@@ -494,7 +507,7 @@ def save_list_to_tfrecord(ds_list, package):
 
 
 def save_list_to_pickle(ds_list, package_name):
-    with open("{0}.pickle".format(package_name), 'wb') as f:
+    with open(config_dir + pickles_dir + "{0}.pickle".format(package_name), 'wb') as f:
         pickle.dump(ds_list, f)    
         
         
@@ -505,7 +518,7 @@ for package in pack_dbgsym_list:
     c += 1
     print(f'Package-nr:{c} of {len(pack_dbgsym_list)}, Name:{package}')
     
-    new_binaries_in_package = get_binaries_in_package(package)
+    new_binaries_in_package = get_binaries_in_package(package.replace('-dbgsym',''))
     #break
     
     
@@ -518,9 +531,11 @@ for package in pack_dbgsym_list:
         func_and_ret_types = get_function_signatures_and_ret_types(gdb_output)
         #print(f'func_and_ret_types: {func_and_ret_types}')
 
+        print(f'Get types from names')
         extended_func_and_ret_types = get_types_from_names(func_and_ret_types, b)
         #print(f'extended_func_and_ret_types: {extended_func_and_ret_types}')
 
+        print(f'Get disassembly')
         disassemble_out = get_disassemble(extended_func_and_ret_types, b)
         #c = 0
         for d in disassemble_out:
@@ -540,6 +555,7 @@ for package in pack_dbgsym_list:
     #break
 
     if len(ds_list) > 0:
+        print(f'Write pickle file')
         save_list_to_pickle(ds_list, package.replace('-dbgsym', ''))
     
 #package_dataset = build_tf_dataset(ds_list)
