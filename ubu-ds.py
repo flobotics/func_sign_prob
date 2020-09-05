@@ -9,7 +9,7 @@ import pickle
 
 
 pack_dbgsym_list = list()
-
+config_dir = "/home/infloflo/test"
 
 
 
@@ -38,6 +38,7 @@ def get_all_ubuntu_dbgsym_packages():
     if len(pack_dbgsym_list) == 0:
         print("install ubuntu debug symbol packages")
         
+    return pack_dbgsym_list
         
 def get_binaries_in_package(package):
 
@@ -52,7 +53,7 @@ def get_binaries_in_package(package):
     #print(f'package-nr:{c} of {len(pack_dbgsym_list)}, Name:{package}')
 
     #check if we got this package already 
-    file = open("/home/ubu/jupyter-notebooks/ds-builder/package-all.txt", "r+")
+    file = open(config_dir + "package-all.txt", "r+")
     for pack in file:
         if package in pack:
             print("Skip package, already in package-all.txt file")
@@ -61,7 +62,7 @@ def get_binaries_in_package(package):
 
     if not already_done:
         ###we write the package name into package-all.txt to know that we got it already
-        file = open("/home/ubu/jupyter-notebooks/ds-builder/package-all.txt", "a+")
+        file = open(config_dir + "package-all.txt", "a+")
         print(f"Write to package-all.txt file: {f_without_dbgsym}")
         file.write(str(f_without_dbgsym) + '\n')
         file.close()
@@ -117,13 +118,13 @@ def get_binaries_in_package(package):
 
         ###Write package to package-work.txt, to know that this package got binaries
         if len(real_binaries_in_package) > 0:
-            file = open("/home/ubu/jupyter-notebooks/ds-builder/package-work.txt", "a+")
+            file = open(config_dir + "package-work.txt", "a+")
             print(f"Write to package-work.txt file: {f_without_dbgsym}")
             file.write(str(f_without_dbgsym) + '\n')
             file.close()
         ###Write package to package-dontwork.txt, to know that this package got NO binaries
         else:
-            file = open("/home/ubu/jupyter-notebooks/ds-builder/package-dontwork.txt", "a+")
+            file = open(config_dir + "package-dontwork.txt", "a+")
             print(f"Write to package-dontwork.txt file: {f_without_dbgsym}")
             file.write(str(f_without_dbgsym) + '\n')
             file.close()
@@ -134,7 +135,7 @@ def get_binaries_in_package(package):
         found_bin = False
 
         if len(real_binaries_in_package) > 0:
-            file = open("/home/ubu/jupyter-notebooks/ds-builder/package-binaries.txt", "r+")
+            file = open(config_dir + "package-binaries.txt", "r+")
             #check if binary is still in the file, if not ,put it into new list  
             for b in real_binaries_in_package:
                 #print(f'b:{b}')
@@ -155,7 +156,7 @@ def get_binaries_in_package(package):
             file.close()
 
             if len(new_binaries_in_package) > 0:
-                file = open("/home/ubu/jupyter-notebooks/ds-builder/package-binaries.txt", "a+")
+                file = open(config_dir + "package-binaries.txt", "a+")
                 print(f"Write to package-binaries.txt file: {new_binaries_in_package}")
                 for b in new_binaries_in_package:
                     file.write(str(b) + '\n')
