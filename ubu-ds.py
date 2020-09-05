@@ -76,9 +76,9 @@ def get_binaries_in_package(package):
         ###install the package
         child = pexpect.spawn('sudo DEBIAN_FRONTEND=noninteractive apt install -y {0}'.format(f_without_dbgsym), timeout=None)
         if not gcloud:
-		child.expect('ubu:', timeout=None)
-		# enter the password
-		child.sendline('ubu\n')
+            child.expect('ubu:', timeout=None)
+            # enter the password
+            child.sendline('ubu\n')
         #print(child.read())
         tmp = child.read()
 
