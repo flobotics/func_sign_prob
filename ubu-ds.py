@@ -1,8 +1,8 @@
 import subprocess
 import os
-import tensorflow as tf
-from tensorflow import keras
-from tensorflow.keras.preprocessing.text import Tokenizer
+#import tensorflow as tf
+#from tensorflow import keras
+#from tensorflow.keras.preprocessing.text import Tokenizer
 import pexpect
 import numpy as np
 import pickle
