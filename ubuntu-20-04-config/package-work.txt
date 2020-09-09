@@ -40,3 +40,4 @@ openssl
 openhpid
 openhpi-clients
 ldap-utils
+slapd
