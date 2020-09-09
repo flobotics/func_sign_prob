@@ -337,3 +337,4 @@
 /usr/bin/totem-video-thumbnailer
 /usr/sbin/tcpdump
 /usr/bin/time
+/usr/bin/tracker
