@@ -68,3 +68,4 @@ fuse
 fontconfig
 file-roller
 fakeroot
+seccomp
