@@ -12,3 +12,4 @@ kerneloops
 kmod
 kbd
 bsd-mailx
+bc

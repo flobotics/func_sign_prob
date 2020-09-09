@@ -74,3 +74,4 @@
 /usr/sbin/setvesablank
 /usr/sbin/vcstime
 /usr/bin/bsd-mailx
+/usr/bin/bc
