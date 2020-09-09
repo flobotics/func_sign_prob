@@ -82,3 +82,4 @@ tcl8.6
 install-info
 info
 tar
+thin-provisioning-tools
