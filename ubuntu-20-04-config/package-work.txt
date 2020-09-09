@@ -70,3 +70,4 @@ file-roller
 fakeroot
 seccomp
 tgt
+transmission-gtk

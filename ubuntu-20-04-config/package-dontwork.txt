@@ -9,3 +9,4 @@ ocl-icd-libopencl1
 openssh-sftp-server
 freeradius-dhcp
 tdsodbc
+python3-talloc
