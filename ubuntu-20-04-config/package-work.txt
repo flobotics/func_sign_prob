@@ -10,3 +10,4 @@ keyutils
 klibc-utils
 kerneloops
 kmod
+kbd
