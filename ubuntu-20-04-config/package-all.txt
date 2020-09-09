@@ -80,3 +80,4 @@ fontconfig
 file-roller
 fakeroot
 seccomp
+tgt
