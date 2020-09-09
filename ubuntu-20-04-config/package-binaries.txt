@@ -299,3 +299,5 @@
 /usr/bin/xqxdecode
 /usr/bin/zjsdecode
 /usr/bin/fetchmail
+/usr/bin/find
+/usr/bin/xargs

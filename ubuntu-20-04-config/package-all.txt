@@ -70,3 +70,4 @@ tdsodbc
 freeipmi-tools
 printer-driver-foo2zjs
 fetchmail
+findutils
