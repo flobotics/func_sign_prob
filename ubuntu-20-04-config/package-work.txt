@@ -4,3 +4,9 @@ keepalived
 keyutils
 klibc-utils
 kerneloops
+kexec-tools
+keepalived
+keyutils
+klibc-utils
+kerneloops
+kmod

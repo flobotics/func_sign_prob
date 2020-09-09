@@ -45,3 +45,4 @@
 /usr/lib/klibc/bin/zcat
 /usr/bin/kerneloops-submit
 /usr/sbin/kerneloops
+/bin/kmod
