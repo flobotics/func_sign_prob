@@ -7,20 +7,14 @@ import pexpect
 import numpy as np
 import pickle
 
-
-pack_dbgsym_list = list()
-new_binaries_in_package = list()
-funcs_and_ret_types = list()
-funcs_and_ret_types_filtered = list()
-dataset = list()
-
-config_dir = "/home/infloflo/test/"
+base_path = "/home/ubu/git/func_sign_prob/"
+config_dir = "ubuntu-20-04-config/"
 pickles_dir = "ubuntu-20-04-pickles/"
-gcloud = True
+gcloud = False
 
 
 def get_all_ubuntu_dbgsym_packages():
-    global pack_dbgsym_list
+    pack_dbgsym_list = list()
     pack_with_dbgsym = subprocess.run(['apt-cache', 'search', 'dbgsym'], capture_output=True, universal_newlines=True)
     pack_with_dbgsym_out = pack_with_dbgsym.stdout
     pack_with_dbgsym_out = pack_with_dbgsym_out.split('\n')
@@ -43,13 +37,12 @@ def get_all_ubuntu_dbgsym_packages():
     #print(len(pack_dbgsym_list))
     if len(pack_dbgsym_list) == 0:
         print("install ubuntu debug symbol packages")
-        ###clear list, so that next run does not use old list
-        pack_dbgsym_list = []
         
     return pack_dbgsym_list
         
 def get_binaries_in_package(package):
-    global new_binaries_in_package
+    new_binaries_in_package = list()
+    
     ###clear for next run, to not use old values
     new_binaries_in_package = []
     package_work = list()
@@ -63,7 +56,7 @@ def get_binaries_in_package(package):
     #print(f'package-nr:{c} of {len(pack_dbgsym_list)}, Name:{package}')
 
     #check if we got this package already 
-    file = open(config_dir + "package-all.txt", "r+")
+    file = open(base_path + config_dir + "package-all.txt", "r+")
     for pack in file:
         #print(f'pack: {pack}')
         #print(f'package: {package}')
@@ -74,7 +67,7 @@ def get_binaries_in_package(package):
 
     if not already_done:
         ###we write the package name into package-all.txt to know that we got it already
-        file = open(config_dir + "package-all.txt", "a+")
+        file = open(base_path + config_dir + "package-all.txt", "a+")
         print(f"Write to package-all.txt file: {f_without_dbgsym}")
         file.write(str(f_without_dbgsym) + '\n')
         file.close()
@@ -132,13 +125,13 @@ def get_binaries_in_package(package):
 
         ###Write package to package-work.txt, to know that this package got binaries
         if len(real_binaries_in_package) > 0:
-            file = open(config_dir + "package-work.txt", "a+")
+            file = open(base_path + config_dir + "package-work.txt", "a+")
             print(f"Write to package-work.txt file: {f_without_dbgsym}")
             file.write(str(f_without_dbgsym) + '\n')
             file.close()
         ###Write package to package-dontwork.txt, to know that this package got NO binaries
         else:
-            file = open(config_dir + "package-dontwork.txt", "a+")
+            file = open(base_path + config_dir + "package-dontwork.txt", "a+")
             print(f"Write to package-dontwork.txt file: {f_without_dbgsym}")
             file.write(str(f_without_dbgsym) + '\n')
             file.close()
@@ -149,7 +142,7 @@ def get_binaries_in_package(package):
         found_bin = False
 
         if len(real_binaries_in_package) > 0:
-            file = open(config_dir + "package-binaries.txt", "r+")
+            file = open(base_path + config_dir + "package-binaries.txt", "r+")
             #check if binary is still in the file, if not ,put it into new list  
             for b in real_binaries_in_package:
                 #print(f'b:{b}')
@@ -170,7 +163,7 @@ def get_binaries_in_package(package):
             file.close()
 
             if len(new_binaries_in_package) > 0:
-                file = open(config_dir + "package-binaries.txt", "a+")
+                file = open(base_path + config_dir + "package-binaries.txt", "a+")
                 print(f"Write to package-binaries.txt file: {new_binaries_in_package}")
                 for b in new_binaries_in_package:
                     file.write(str(b) + '\n')
@@ -186,7 +179,7 @@ def get_binaries_in_package(package):
     
     
 def get_function_signatures_and_ret_types(gdb_output):
-    global funcs_and_ret_types
+    funcs_and_ret_types = list()
     all_funcs = list()
     ret_types = set()
     #funcs_and_ret_types = list()
@@ -252,8 +245,7 @@ def get_function_signatures_and_ret_types(gdb_output):
     
     
 def get_types_from_names(funcs_and_ret_types, binary_name):
-    global funcs_and_ret_types_filtered
-    funcs_and_ret_types_filtered = []
+    funcs_and_ret_types_filtered = list()
 
     # does not find **  ?????
     #legal_types = ['void', 'void *', '**' 'unsigned', 'char', 'static', '_Bool', 'int', 'wchar_t',
@@ -358,9 +350,7 @@ def get_types_from_names(funcs_and_ret_types, binary_name):
             
             
 def get_disassemble(funcs_and_ret_types_filtered, binary_name):
-    global dataset 
-    dataset = []
-    #dataset = list()
+    dataset = list()
     disas_list = list()
 
     for a,b,funcName, baseFileName in funcs_and_ret_types_filtered:
@@ -507,32 +497,33 @@ def save_list_to_tfrecord(ds_list, package):
 
 
 def save_list_to_pickle(ds_list, package_name):
-    with open(config_dir + pickles_dir + "{0}.pickle".format(package_name), 'wb') as f:
+    with open(base_path + pickles_dir + "{0}.pickle".format(package_name), 'wb') as f:
         pickle.dump(ds_list, f)    
         
         
-pack_dbgsym_list = get_all_ubuntu_dbgsym_packages()
+###get all packages with -dbgsym at the end
+packages_with_dbgsym = get_all_ubuntu_dbgsym_packages()
 c = 0
 
-for package in pack_dbgsym_list:
+###we loop through all packages with -dbgsym at the end
+for package in packages_with_dbgsym:
     c += 1
-    print(f'Package-nr:{c} of {len(pack_dbgsym_list)}, Name:{package}')
+    print(f'Package-nr:{c} of {len(packages_with_dbgsym)}, Name:{package}')
     
-    new_binaries_in_package = get_binaries_in_package(package.replace('-dbgsym',''))
-    #break
-    
+    ###get all binaries that are inside this package (without -dbgsym)
+    all_binaries_in_package = get_binaries_in_package(package.replace('-dbgsym',''))  
     
     ds_list = list()
 
-    for b in new_binaries_in_package:
+    for b in all_binaries_in_package:
 
         print(f'Get functions from binary: {b}')
         gdb_output = subprocess.run(["gdb",  "-batch", "-ex", "file {}".format(b), "-ex", "info functions"], capture_output=True, universal_newlines=True)
-        func_and_ret_types = get_function_signatures_and_ret_types(gdb_output)
+        func_sign_and_ret_types = get_function_signatures_and_ret_types(gdb_output)
         #print(f'func_and_ret_types: {func_and_ret_types}')
 
         print(f'Get types from names')
-        extended_func_and_ret_types = get_types_from_names(func_and_ret_types, b)
+        extended_func_and_ret_types = get_types_from_names(func_sign_and_ret_types, b)
         #print(f'extended_func_and_ret_types: {extended_func_and_ret_types}')
 
         print(f'Get disassembly')
