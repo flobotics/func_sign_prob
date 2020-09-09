@@ -1,1 +1,7 @@
 
+kexec-tools
+keepalived
+keyutils
+klibc-utils
+kerneloops
+kmod

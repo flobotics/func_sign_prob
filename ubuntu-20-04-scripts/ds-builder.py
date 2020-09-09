@@ -9,10 +9,10 @@ import pickle
 import getopt
 import sys
 
-base_path = "/home/ubu/git/func_sign_prob/"
+base_path = "/home/infloflo/git/func_sign_prob/"
 config_dir = "ubuntu-20-04-config/"
 pickles_dir = "ubuntu-20-04-pickles/"
-gcloud = False
+gcloud = True 
 
 
 def get_all_ubuntu_dbgsym_packages():
@@ -101,11 +101,11 @@ def get_binaries_in_package(package):
 
         ###if we found some binaries in package, we install the -dbgsym package
         if len(binaries_in_package) > 0:
+            child = pexpect.spawn('sudo DEBIAN_FRONTEND=noninteractive apt install -y {0}'.format(package), timeout=None)
             if not gcloud:
-            	child = pexpect.spawn('sudo DEBIAN_FRONTEND=noninteractive apt install -y {0}'.format(package), timeout=None)
-            	child.expect('ubu:', timeout=None)
+                child.expect('ubu:', timeout=None)
             	### enter the password
-            	child.sendline('ubu\n')
+                child.sendline('ubu\n')
             #print(child.read())
             tmp = child.read()
 
@@ -509,11 +509,11 @@ def push_pickle_to_github(package_name):
     
     git_out = subprocess.run(["git", "add", "."], capture_output=True, universal_newlines=True)
     out = git_out.stdout
-    print(f'out1: {out}')
+    #print(f'out1: {out}')
     
     git_out = subprocess.run(["git", "commit", "-m", package_name], capture_output=True, universal_newlines=True)
     out = git_out.stdout
-    print(f'out2: {out}')
+    #print(f'out2: {out}')
     
     if '/' in git_pwd:
         git_pwd = git_pwd.replace('/', '%2F')
@@ -521,7 +521,7 @@ def push_pickle_to_github(package_name):
     url = "https://" + git_user + ":" + git_pwd + "@github.com/flobotics/func_sign_prob.git"
     git_out = subprocess.run(["git", "push", url, "--all"], capture_output=True, universal_newlines=True)
     out = git_out.stdout
-    print(f'out3: {out}')
+    #print(f'out3: {out}')
     
         
     
@@ -543,6 +543,7 @@ if git_user == '' or git_pwd == '':
     exit()
 else:
     print(f"git-user:{git_user}  git-pwd:{git_pwd}")
+
 ###get all packages with -dbgsym at the end
 packages_with_dbgsym = get_all_ubuntu_dbgsym_packages()
 c = 0
@@ -553,7 +554,7 @@ for package in packages_with_dbgsym:
     print(f'Package-nr:{c} of {len(packages_with_dbgsym)}, Name:{package}')
     
     ###get all binaries that are inside this package (without -dbgsym)
-    all_binaries_in_package = get_binaries_in_package(package.replace('-dbgsym',''))  
+    all_binaries_in_package = get_binaries_in_package(package)  
     
     ds_list = list()
 
