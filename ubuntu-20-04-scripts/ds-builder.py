@@ -529,9 +529,9 @@ def push_pickle_to_github(package_name):
     #child.sendline(git_user + '\n')
     #print(child.read())
     
-    child.expect('ubu:', timeout=None)
-    child.sendline(git_pwd + '\n')
-    print(child.read())
+    #child.expect('ubu:', timeout=None)
+    #child.sendline(git_pwd + '\n')
+    #print(child.read())
     #tmp = child.read()
         
     

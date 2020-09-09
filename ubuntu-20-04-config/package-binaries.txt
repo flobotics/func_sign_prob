@@ -444,3 +444,7 @@
 /sbin/crda
 /sbin/regdbdump
 /usr/bin/curl
+/sbin/cryptsetup
+/sbin/cryptsetup-reencrypt
+/sbin/integritysetup
+/sbin/veritysetup

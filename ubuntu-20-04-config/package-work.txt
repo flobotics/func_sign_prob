@@ -111,3 +111,4 @@ cups-daemon
 cron
 crda
 curl
+cryptsetup-bin
