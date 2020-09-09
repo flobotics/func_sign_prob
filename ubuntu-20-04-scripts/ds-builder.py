@@ -6,6 +6,8 @@ import os
 import pexpect
 import numpy as np
 import pickle
+import getopt
+import sys
 
 base_path = "/home/ubu/git/func_sign_prob/"
 config_dir = "ubuntu-20-04-config/"
@@ -499,8 +501,50 @@ def save_list_to_tfrecord(ds_list, package):
 def save_list_to_pickle(ds_list, package_name):
     with open(base_path + pickles_dir + "{0}.pickle".format(package_name), 'wb') as f:
         pickle.dump(ds_list, f)    
+
+   
+def push_pickle_to_github(package_name):
+    global git_user
+    global git_pwd
+    
+    git_out = subprocess.run(["git", "add", "."], capture_output=True, universal_newlines=True)
+    out = git_out.stdout
+    print(f'out: {out}')
+    
+    git_out = subprocess.run(["git", "commit", "-m", package_name], capture_output=True, universal_newlines=True)
+    out = git_out.stdout
+    print(f'out: {out}')
+    
+    child = pexpect.spawn('git', 'push', 'origin', 'master', timeout=None)
+    child.expect('ubu:', timeout=None)
+    # enter the password
+    child.sendline(git_user + '\n')
+    #print(child.read())
+    
+    child.expect('ubu:', timeout=None)
+    child.sendline(git_pwd + '\n')
+    print(child.read())
+    #tmp = child.read()
+        
+    
         
         
+git_user = ''
+git_pwd = ''
+        
+opts, args = getopt.getopt(sys.argv[1:], "ho:v", ["help", "git-user=", "git-pwd="])
+
+for o, a in opts:
+    if o == "--git-user":
+        git_user = a
+    elif o == '--git-pwd':
+        git_pwd = a
+        
+if git_user == '' or git_pwd == '':
+    print("fogot git credentials")
+    exit()
+else:
+    print(f"git-user:{git_user}  git-pwd:{git_pwd}")
 ###get all packages with -dbgsym at the end
 packages_with_dbgsym = get_all_ubuntu_dbgsym_packages()
 c = 0

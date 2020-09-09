@@ -134,3 +134,13 @@ ibus-hangul
 iptraf-ng
 corosync
 cmake
+cifs-utils
+cracklib-runtime
+chrony
+colord
+cheese
+cups-ipp-utils
+cups-bsd
+cups-ppdc
+cups-client
+cups-daemon

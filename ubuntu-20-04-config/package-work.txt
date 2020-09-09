@@ -104,3 +104,7 @@ isc-dhcp-client
 iptraf-ng
 corosync
 cmake
+cups-ipp-utils
+cups-bsd
+cups-ppdc
+cups-daemon
