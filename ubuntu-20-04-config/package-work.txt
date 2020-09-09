@@ -13,3 +13,4 @@ kmod
 kbd
 bsd-mailx
 bc
+dc
