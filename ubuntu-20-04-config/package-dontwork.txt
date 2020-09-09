@@ -3,3 +3,4 @@ bind9-libs
 backuppc
 python3-brlapi
 printer-driver-brlaser
+tk8.6-blt2.5

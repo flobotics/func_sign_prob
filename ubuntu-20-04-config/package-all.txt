@@ -41,3 +41,5 @@ brltty
 python3-brlapi
 printer-driver-brlaser
 bison
+tk8.6-blt2.5
+openssl
