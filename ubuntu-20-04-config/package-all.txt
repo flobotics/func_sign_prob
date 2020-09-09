@@ -18,3 +18,4 @@ dc
 bogl-bterm
 bsdmainutils
 bash
+bridge-utils
