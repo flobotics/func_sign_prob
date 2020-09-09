@@ -129,3 +129,4 @@
 /usr/sbin/nsec3hash
 /usr/bin/host
 /usr/bin/baobab
+/usr/bin/locale-check

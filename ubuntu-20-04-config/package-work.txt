@@ -26,3 +26,4 @@ bind9-utils
 bind9
 bind9-host
 baobab
+base-files
