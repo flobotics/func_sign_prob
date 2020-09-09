@@ -247,3 +247,9 @@
 /usr/bin/ssh-agent
 /usr/bin/ssh-keygen
 /usr/bin/ssh-keyscan
+/usr/bin/radclient
+/usr/bin/radeapclient
+/usr/bin/radsniff
+/usr/bin/radwho
+/usr/bin/rlm_ippool_tool
+/usr/bin/smbencrypt
