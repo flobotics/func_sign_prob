@@ -92,3 +92,11 @@
 /bin/bash
 /usr/bin/clear_console
 /sbin/brctl
+/bin/btrfs
+/bin/btrfs-convert
+/bin/btrfs-find-root
+/bin/btrfs-image
+/bin/btrfs-map-logical
+/bin/btrfs-select-super
+/bin/btrfstune
+/sbin/mkfs.btrfs

@@ -18,3 +18,4 @@ bogl-bterm
 bsdmainutils
 bash
 bridge-utils
+btrfs-progs
