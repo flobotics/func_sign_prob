@@ -338,3 +338,4 @@
 /usr/sbin/tcpdump
 /usr/bin/time
 /usr/bin/tracker
+/usr/bin/wish8.6
