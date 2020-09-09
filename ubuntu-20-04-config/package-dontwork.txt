@@ -10,3 +10,5 @@ openssh-sftp-server
 freeradius-dhcp
 tdsodbc
 python3-talloc
+tracker-miner-fs
+tracker-extract

@@ -340,3 +340,4 @@
 /usr/bin/tracker
 /usr/bin/wish8.6
 /usr/bin/tclsh8.6
+/usr/bin/install-info

@@ -91,3 +91,6 @@ time
 tracker
 tk8.6
 tcl8.6
+tracker-miner-fs
+tracker-extract
+install-info
