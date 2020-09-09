@@ -74,3 +74,4 @@ findutils
 fwupd
 fbset
 flex
+file
