@@ -18,3 +18,5 @@ ibus-gtk3
 ibus-unikey
 ibus-libpinyin
 ibus-m17n
+ibus-chewing
+ibus-hangul

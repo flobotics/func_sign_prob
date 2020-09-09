@@ -127,3 +127,6 @@ iproute2
 indent
 isc-dhcp-server
 isc-dhcp-client
+ibus-chewing
+ibus-hangul
+iptraf-ng
