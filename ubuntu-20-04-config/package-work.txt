@@ -93,3 +93,4 @@ iputils-ping
 iputils-tracepath
 iputils-arping
 iw
+iucode-tool
