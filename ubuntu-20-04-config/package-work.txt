@@ -80,3 +80,4 @@ tracker
 tk8.6
 tcl8.6
 install-info
+info
