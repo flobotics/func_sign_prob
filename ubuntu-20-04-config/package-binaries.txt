@@ -418,3 +418,9 @@
 /sbin/dhclient
 /usr/sbin/iptraf-ng
 /usr/sbin/rvnamed-ng
+/usr/sbin/corosync
+/usr/sbin/corosync-cfgtool
+/usr/sbin/corosync-cmapctl
+/usr/sbin/corosync-cpgtool
+/usr/sbin/corosync-keygen
+/usr/sbin/corosync-quorumtool

@@ -108,3 +108,4 @@ indent
 isc-dhcp-server
 isc-dhcp-client
 iptraf-ng
+corosync
