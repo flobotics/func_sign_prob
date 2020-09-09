@@ -214,3 +214,4 @@
 /usr/bin/ovn-sbctl
 /usr/bin/ovn-trace
 /usr/bin/ovn-controller
+/usr/bin/ovn-northd

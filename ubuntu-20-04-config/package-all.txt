@@ -54,3 +54,4 @@ ocl-icd-libopencl1
 optipng
 ovn-common
 ovn-host
+ovn-central
