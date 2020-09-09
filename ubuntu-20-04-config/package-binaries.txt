@@ -89,3 +89,5 @@
 /usr/bin/ncal
 /usr/bin/printerbanner
 /usr/bin/ul
+/bin/bash
+/usr/bin/clear_console

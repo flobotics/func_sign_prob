@@ -17,3 +17,4 @@ bc
 dc
 bogl-bterm
 bsdmainutils
+bash
