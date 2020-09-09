@@ -114,3 +114,4 @@ ibus-libpinyin
 iw
 iucode-tool
 icu-devtools
+ippusbxd

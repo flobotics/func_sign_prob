@@ -382,3 +382,4 @@
 /usr/sbin/gennorm2
 /usr/sbin/gensprep
 /usr/sbin/icupkg
+/usr/sbin/ippusbxd
