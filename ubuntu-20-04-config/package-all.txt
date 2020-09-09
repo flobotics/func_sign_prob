@@ -76,3 +76,4 @@ fbset
 flex
 file
 fuse
+fontconfig
