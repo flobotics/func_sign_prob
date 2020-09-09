@@ -226,3 +226,16 @@
 /usr/bin/solterm
 /usr/sbin/openvpn
 /usr/bin/vmware-user-suid-wrapper
+/sbin/mount.vmhgfs
+/usr/bin/VGAuthService
+/usr/bin/vmhgfs-fuse
+/usr/bin/vmtoolsd
+/usr/bin/vmware-checkvm
+/usr/bin/vmware-hgfsclient
+/usr/bin/vmware-namespace-cmd
+/usr/bin/vmware-rpctool
+/usr/bin/vmware-toolbox-cmd
+/usr/bin/vmware-vgauth-cmd
+/usr/bin/vmware-vgauth-smoketest
+/usr/bin/vmware-vmblock-fuse
+/usr/bin/vmware-xferlogs
