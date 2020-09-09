@@ -384,3 +384,10 @@
 /usr/sbin/icupkg
 /usr/sbin/ippusbxd
 /sbin/ipvsadm
+/usr/sbin/findchip
+/usr/sbin/irattach
+/usr/sbin/irdadump
+/usr/sbin/irdaping
+/usr/sbin/irnetd
+/usr/sbin/irpsion5
+/usr/sbin/smcinit

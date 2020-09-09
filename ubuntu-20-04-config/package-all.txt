@@ -116,3 +116,4 @@ iucode-tool
 icu-devtools
 ippusbxd
 ipvsadm
+irda-utils
