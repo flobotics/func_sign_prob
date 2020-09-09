@@ -16,3 +16,4 @@ bsd-mailx
 bc
 dc
 bogl-bterm
+bsdmainutils

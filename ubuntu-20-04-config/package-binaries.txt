@@ -77,3 +77,15 @@
 /usr/bin/bc
 /usr/bin/dc
 /usr/bin/bterm
+/usr/bin/bsd-from
+/usr/bin/bsd-write
+/usr/bin/calendar
+/usr/bin/col
+/usr/bin/colcrt
+/usr/bin/colrm
+/usr/bin/column
+/usr/bin/hexdump
+/usr/bin/look
+/usr/bin/ncal
+/usr/bin/printerbanner
+/usr/bin/ul
