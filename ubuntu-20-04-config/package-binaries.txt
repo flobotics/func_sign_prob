@@ -131,3 +131,5 @@
 /usr/bin/baobab
 /usr/bin/locale-check
 /usr/sbin/update-passwd
+/usr/sbin/bcache-super-show
+/usr/sbin/make-bcache
