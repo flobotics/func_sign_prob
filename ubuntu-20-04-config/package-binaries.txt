@@ -190,3 +190,17 @@
 /usr/sbin/slappasswd
 /usr/sbin/slapschema
 /usr/sbin/slaptest
+/sbin/debugfs.ocfs2
+/sbin/defragfs.ocfs2
+/sbin/fsck.ocfs2
+/sbin/mkfs.ocfs2
+/sbin/mount.ocfs2
+/sbin/mounted.ocfs2
+/sbin/o2cb
+/sbin/o2cb_ctl
+/sbin/o2cluster
+/sbin/o2image
+/sbin/ocfs2_hb_ctl
+/sbin/tunefs.ocfs2
+/usr/bin/o2info
+/usr/sbin/o2hbmonitor
