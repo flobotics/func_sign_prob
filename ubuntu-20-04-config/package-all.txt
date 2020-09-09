@@ -33,3 +33,4 @@ base-passwd
 bcache-tools
 backuppc
 bolt
+bzip2
