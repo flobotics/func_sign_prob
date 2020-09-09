@@ -149,3 +149,4 @@
 /usr/bin/vstp
 /usr/bin/bison
 /usr/bin/openssl
+/usr/sbin/openhpid
