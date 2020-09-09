@@ -32,3 +32,4 @@ bcache-tools
 bolt
 bzip2
 bubblewrap
+b43-fwcutter
