@@ -130,3 +130,4 @@
 /usr/bin/host
 /usr/bin/baobab
 /usr/bin/locale-check
+/usr/sbin/update-passwd

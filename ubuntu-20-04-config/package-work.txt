@@ -27,3 +27,4 @@ bind9
 bind9-host
 baobab
 base-files
+base-passwd
