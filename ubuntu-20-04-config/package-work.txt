@@ -72,3 +72,4 @@ seccomp
 tgt
 transmission-gtk
 tmux
+thermald
