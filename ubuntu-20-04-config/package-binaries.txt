@@ -391,3 +391,4 @@
 /usr/sbin/irnetd
 /usr/sbin/irpsion5
 /usr/sbin/smcinit
+/sbin/ipset
