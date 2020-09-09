@@ -55,3 +55,4 @@ optipng
 ovn-common
 ovn-host
 ovn-central
+openipmi

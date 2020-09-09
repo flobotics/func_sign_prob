@@ -215,3 +215,12 @@
 /usr/bin/ovn-trace
 /usr/bin/ovn-controller
 /usr/bin/ovn-northd
+/usr/bin/ipmi_sim
+/usr/bin/ipmi_ui
+/usr/bin/ipmilan
+/usr/bin/openipmi_eventd
+/usr/bin/openipmicmd
+/usr/bin/openipmish
+/usr/bin/rmcp_ping
+/usr/bin/sdrcomp
+/usr/bin/solterm
