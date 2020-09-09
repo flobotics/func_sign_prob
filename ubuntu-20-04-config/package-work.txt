@@ -57,3 +57,4 @@ freeradius-utils
 freeradius
 fprintd
 freeipmi-tools
+printer-driver-foo2zjs
