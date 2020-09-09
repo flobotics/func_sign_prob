@@ -127,3 +127,4 @@
 /usr/sbin/named-journalprint
 /usr/sbin/named-nzd2nzf
 /usr/sbin/nsec3hash
+/usr/bin/host
