@@ -100,3 +100,5 @@ thin-provisioning-tools
 tmispell-voikko
 tinycdb
 t1utils
+python3-tdb
+tdb-tools

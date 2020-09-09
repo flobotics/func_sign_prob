@@ -352,3 +352,7 @@
 /usr/bin/t1disasm
 /usr/bin/t1mac
 /usr/bin/t1unmac
+/usr/bin/tdbbackup.tdbtools
+/usr/bin/tdbdump
+/usr/bin/tdbrestore
+/usr/bin/tdbtool
