@@ -16,3 +16,4 @@ python3-tdb
 ibus-gtk
 ibus-gtk3
 ibus-unikey
+ibus-libpinyin
