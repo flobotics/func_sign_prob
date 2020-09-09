@@ -255,3 +255,7 @@
 /usr/bin/smbencrypt
 /usr/sbin/freeradius
 /usr/sbin/radmin
+/usr/bin/fprintd-delete
+/usr/bin/fprintd-enroll
+/usr/bin/fprintd-list
+/usr/bin/fprintd-verify

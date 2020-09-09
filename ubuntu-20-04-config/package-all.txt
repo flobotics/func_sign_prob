@@ -65,3 +65,4 @@ openssh-client
 freeradius-dhcp
 freeradius-utils
 freeradius
+fprintd
