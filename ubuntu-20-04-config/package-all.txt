@@ -95,3 +95,4 @@ tracker-miner-fs
 tracker-extract
 install-info
 info
+tar

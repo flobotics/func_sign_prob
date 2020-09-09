@@ -342,3 +342,5 @@
 /usr/bin/tclsh8.6
 /usr/bin/install-info
 /usr/bin/info
+/bin/tar
+/usr/sbin/rmt-tar
