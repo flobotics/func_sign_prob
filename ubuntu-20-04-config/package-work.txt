@@ -35,3 +35,4 @@ bubblewrap
 b43-fwcutter
 xbrlapi
 brltty
+bison

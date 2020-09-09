@@ -147,3 +147,4 @@
 /usr/bin/brltty-ttb
 /usr/bin/eutp
 /usr/bin/vstp
+/usr/bin/bison
