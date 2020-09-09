@@ -240,3 +240,10 @@
 /usr/bin/vmware-vmblock-fuse
 /usr/bin/vmware-xferlogs
 /usr/sbin/sshd
+/usr/bin/scp
+/usr/bin/sftp
+/usr/bin/ssh
+/usr/bin/ssh-add
+/usr/bin/ssh-agent
+/usr/bin/ssh-keygen
+/usr/bin/ssh-keyscan
