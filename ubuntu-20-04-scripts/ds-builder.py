@@ -509,16 +509,24 @@ def push_pickle_to_github(package_name):
     
     git_out = subprocess.run(["git", "add", "."], capture_output=True, universal_newlines=True)
     out = git_out.stdout
-    print(f'out: {out}')
+    print(f'out1: {out}')
     
     git_out = subprocess.run(["git", "commit", "-m", package_name], capture_output=True, universal_newlines=True)
     out = git_out.stdout
-    print(f'out: {out}')
+    print(f'out2: {out}')
     
-    child = pexpect.spawn('git', 'push', 'origin', 'master', timeout=None)
-    child.expect('ubu:', timeout=None)
+    if '/' in git_pwd:
+        git_pwd = git_pwd.replace('/', '%2F')
+    
+    url = "https://" + git_user + ":" + git_pwd + "@github.com/flobotics/func_sign_prob.git"
+    git_out = subprocess.run(["git", "push", url, "--all"], capture_output=True, universal_newlines=True)
+    out = git_out.stdout
+    print(f'out3: {out}')
+    
+    #child = pexpect.spawn('git', 'push', 'origin', 'master' '--all', timeout=None)
+    #child.expect('ubu:', timeout=None)
     # enter the password
-    child.sendline(git_user + '\n')
+    #child.sendline(git_user + '\n')
     #print(child.read())
     
     child.expect('ubu:', timeout=None)
@@ -592,6 +600,8 @@ for package in packages_with_dbgsym:
     if len(ds_list) > 0:
         print(f'Write pickle file')
         save_list_to_pickle(ds_list, package.replace('-dbgsym', ''))
+        
+        push_pickle_to_github(package.replace('-dbgsym', ''))
     
 #package_dataset = build_tf_dataset(ds_list)
 

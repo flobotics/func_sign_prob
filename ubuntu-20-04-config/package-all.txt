@@ -144,3 +144,9 @@ cups-bsd
 cups-ppdc
 cups-client
 cups-daemon
+cups-core-drivers
+cdebconf
+cron
+crda
+ccache
+curl
