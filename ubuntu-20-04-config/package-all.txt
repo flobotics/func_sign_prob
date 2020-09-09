@@ -125,3 +125,4 @@ iptables
 irqbalance
 iproute2
 indent
+isc-dhcp-server

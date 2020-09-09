@@ -413,3 +413,5 @@
 /usr/sbin/arpd
 /usr/sbin/genl
 /usr/bin/indent
+/usr/bin/omshell
+/usr/sbin/dhcpd
