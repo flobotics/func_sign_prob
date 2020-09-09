@@ -383,3 +383,4 @@
 /usr/sbin/gensprep
 /usr/sbin/icupkg
 /usr/sbin/ippusbxd
+/sbin/ipvsadm
