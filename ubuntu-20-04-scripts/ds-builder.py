@@ -523,16 +523,6 @@ def push_pickle_to_github(package_name):
     out = git_out.stdout
     print(f'out3: {out}')
     
-    #child = pexpect.spawn('git', 'push', 'origin', 'master' '--all', timeout=None)
-    #child.expect('ubu:', timeout=None)
-    # enter the password
-    #child.sendline(git_user + '\n')
-    #print(child.read())
-    
-    #child.expect('ubu:', timeout=None)
-    #child.sendline(git_pwd + '\n')
-    #print(child.read())
-    #tmp = child.read()
         
     
         
