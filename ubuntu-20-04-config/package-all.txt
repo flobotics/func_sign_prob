@@ -34,3 +34,4 @@ bcache-tools
 backuppc
 bolt
 bzip2
+bubblewrap
