@@ -73,3 +73,4 @@ fetchmail
 findutils
 fwupd
 fbset
+flex
