@@ -54,3 +54,4 @@ open-vm-tools
 openssh-server
 openssh-client
 freeradius-utils
+freeradius

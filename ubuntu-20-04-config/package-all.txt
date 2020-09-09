@@ -64,3 +64,4 @@ openssh-sftp-server
 openssh-client
 freeradius-dhcp
 freeradius-utils
+freeradius
