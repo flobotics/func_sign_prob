@@ -56,3 +56,4 @@ openssh-client
 freeradius-utils
 freeradius
 fprintd
+freeipmi-tools
