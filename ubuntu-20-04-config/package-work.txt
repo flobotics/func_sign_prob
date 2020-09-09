@@ -58,3 +58,4 @@ freeradius
 fprintd
 freeipmi-tools
 printer-driver-foo2zjs
+fetchmail
