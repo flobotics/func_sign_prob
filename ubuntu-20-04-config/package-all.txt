@@ -109,3 +109,4 @@ initramfs-tools-bin
 ibus-unikey
 iputils-ping
 iputils-tracepath
+iputils-arping
