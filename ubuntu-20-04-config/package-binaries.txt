@@ -396,3 +396,6 @@
 /usr/sbin/iio-sensor-proxy
 /usr/bin/botti
 /usr/bin/irssi
+/usr/sbin/nfnl_osf
+/usr/sbin/xtables-legacy-multi
+/usr/sbin/xtables-nft-multi

@@ -120,3 +120,5 @@ irda-utils
 ipset
 iio-sensor-proxy
 irssi
+ibus-m17n
+iptables
