@@ -239,3 +239,4 @@
 /usr/bin/vmware-vgauth-smoketest
 /usr/bin/vmware-vmblock-fuse
 /usr/bin/vmware-xferlogs
+/usr/sbin/sshd
