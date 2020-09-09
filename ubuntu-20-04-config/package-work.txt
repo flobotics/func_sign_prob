@@ -29,3 +29,4 @@ baobab
 base-files
 base-passwd
 bcache-tools
+bolt
