@@ -71,3 +71,4 @@ fakeroot
 seccomp
 tgt
 transmission-gtk
+tmux
