@@ -88,3 +88,5 @@ tinycdb
 t1utils
 tdb-tools
 ibus
+initramfs-tools-bin
+iputils-ping

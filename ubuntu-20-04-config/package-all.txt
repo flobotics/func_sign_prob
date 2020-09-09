@@ -103,3 +103,8 @@ t1utils
 python3-tdb
 tdb-tools
 ibus
+ibus-gtk
+ibus-gtk3
+initramfs-tools-bin
+ibus-unikey
+iputils-ping

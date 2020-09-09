@@ -13,3 +13,6 @@ python3-talloc
 tracker-miner-fs
 tracker-extract
 python3-tdb
+ibus-gtk
+ibus-gtk3
+ibus-unikey

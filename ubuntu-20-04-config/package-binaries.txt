@@ -358,3 +358,6 @@
 /usr/bin/tdbtool
 /usr/bin/ibus
 /usr/bin/ibus-daemon
+/usr/lib/initramfs-tools/bin/rzscontrol
+/usr/lib/initramfs-tools/bin/wait-for-root
+/bin/ping
