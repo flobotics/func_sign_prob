@@ -307,3 +307,5 @@
 /usr/bin/fwupdmgr
 /usr/bin/fwupdtool
 /usr/bin/fwupdtpmevlog
+/bin/con2fbmap
+/bin/fbset
