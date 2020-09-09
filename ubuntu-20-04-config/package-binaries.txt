@@ -361,3 +361,5 @@
 /usr/lib/initramfs-tools/bin/rzscontrol
 /usr/lib/initramfs-tools/bin/wait-for-root
 /bin/ping
+/usr/bin/tracepath
+/usr/bin/traceroute6.iputils

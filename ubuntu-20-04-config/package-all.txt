@@ -108,3 +108,4 @@ ibus-gtk3
 initramfs-tools-bin
 ibus-unikey
 iputils-ping
+iputils-tracepath
