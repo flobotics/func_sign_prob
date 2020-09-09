@@ -140,3 +140,4 @@
 /bin/bzip2recover
 /usr/bin/bwrap
 /usr/bin/b43-fwcutter
+/usr/bin/xbrlapi
