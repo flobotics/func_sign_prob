@@ -64,3 +64,4 @@ fwupd
 fbset
 flex
 file
+fuse

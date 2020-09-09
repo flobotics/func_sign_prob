@@ -311,3 +311,6 @@
 /bin/fbset
 /usr/bin/flex
 /usr/bin/file
+/bin/fusermount
+/bin/ulockmgr_server
+/sbin/mount.fuse
