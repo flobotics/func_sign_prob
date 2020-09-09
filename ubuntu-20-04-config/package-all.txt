@@ -122,3 +122,4 @@ iio-sensor-proxy
 irssi
 ibus-m17n
 iptables
+irqbalance
