@@ -39,3 +39,4 @@ bison
 openssl
 openhpid
 openhpi-clients
+ldap-utils

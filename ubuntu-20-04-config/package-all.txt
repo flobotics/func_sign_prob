@@ -46,3 +46,4 @@ openssl
 os-prober
 openhpid
 openhpi-clients
+ldap-utils
