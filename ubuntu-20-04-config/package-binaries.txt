@@ -101,3 +101,4 @@
 /bin/btrfstune
 /sbin/mkfs.btrfs
 /bin/busybox
+/usr/lib/initramfs-tools/bin/busybox

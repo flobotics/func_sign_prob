@@ -21,3 +21,4 @@ bash
 bridge-utils
 btrfs-progs
 busybox-static
+busybox-initramfs
