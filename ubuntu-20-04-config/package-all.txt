@@ -49,3 +49,4 @@ openhpi-clients
 ldap-utils
 slapd
 ocfs2-tools
+open-iscsi

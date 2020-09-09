@@ -204,3 +204,7 @@
 /sbin/tunefs.ocfs2
 /usr/bin/o2info
 /usr/sbin/o2hbmonitor
+/sbin/iscsi-iname
+/sbin/iscsiadm
+/sbin/iscsid
+/sbin/iscsistart
