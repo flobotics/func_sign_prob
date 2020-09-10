@@ -285,3 +285,5 @@ x11-xserver-utils
 xfonts-utils
 xserver-xorg-core
 xwayland
+xserver-xephyr
+xdg-dbus-proxy
