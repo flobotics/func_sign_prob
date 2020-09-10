@@ -415,3 +415,4 @@ network-manager-pptp-gnome
 whiptail
 python3-newt
 netcat-openbsd
+ncurses-bin

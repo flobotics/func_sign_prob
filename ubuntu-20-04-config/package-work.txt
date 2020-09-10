@@ -335,3 +335,4 @@ nut-client
 nvidia-settings
 whiptail
 netcat-openbsd
+ncurses-bin
