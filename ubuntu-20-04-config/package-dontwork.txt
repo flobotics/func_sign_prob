@@ -54,3 +54,4 @@ cups-filters-core-drivers
 cups-pk-helper
 qemu-system-gui
 qemu-block-extra
+xserver-xorg-video-amdgpu

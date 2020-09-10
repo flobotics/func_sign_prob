@@ -270,3 +270,4 @@ quagga-bgpd
 quagga-isisd
 quagga-ripd
 xsltproc
+xfsprogs
