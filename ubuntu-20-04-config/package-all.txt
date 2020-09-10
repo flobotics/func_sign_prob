@@ -368,3 +368,4 @@ zsh
 zlib1g
 zfs-zed
 zfsutils-linux
+zerofree

@@ -298,3 +298,4 @@ xxd
 zsh
 zfs-zed
 zfsutils-linux
+zerofree

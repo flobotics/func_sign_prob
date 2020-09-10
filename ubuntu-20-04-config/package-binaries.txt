@@ -832,3 +832,4 @@
 /sbin/zhack
 /sbin/zpool
 /sbin/zstreamdump
+/usr/sbin/zerofree
