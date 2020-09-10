@@ -306,3 +306,4 @@ update-notifier
 odbcinst
 udisks2
 unzip
+usb-modeswitch

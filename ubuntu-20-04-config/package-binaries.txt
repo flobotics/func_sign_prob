@@ -844,3 +844,5 @@
 /usr/bin/unzip
 /usr/bin/unzipsfx
 /usr/bin/zipinfo
+/usr/sbin/usb_modeswitch
+/usr/sbin/usb_modeswitch_dispatcher

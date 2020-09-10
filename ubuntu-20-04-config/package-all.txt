@@ -377,3 +377,5 @@ odbcinst
 odbcinst1debian2
 udisks2
 unzip
+ubiquity-frontend-gtk
+usb-modeswitch
