@@ -1031,3 +1031,6 @@
 /sbin/wpa_cli
 /sbin/wpa_supplicant
 /usr/bin/wpa_passphrase
+/usr/bin/w3m
+/usr/lib/w3m/cgi-bin/w3mbookmark
+/usr/lib/w3m/cgi-bin/w3mhelperpanel

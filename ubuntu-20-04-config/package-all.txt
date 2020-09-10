@@ -424,3 +424,4 @@ gnome-session-canberra
 wireless-tools
 whoopsie
 wpasupplicant
+w3m
