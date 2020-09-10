@@ -409,3 +409,4 @@ numactl
 nut-server
 nut-snmp
 nut-cgi
+nut-client

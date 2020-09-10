@@ -1006,3 +1006,8 @@
 /usr/lib/cgi-bin/nut/upsimage.cgi
 /usr/lib/cgi-bin/nut/upsset.cgi
 /usr/lib/cgi-bin/nut/upsstats.cgi
+/bin/upsc
+/bin/upscmd
+/bin/upslog
+/bin/upsrw
+/sbin/upssched
