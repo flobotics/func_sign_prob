@@ -433,3 +433,6 @@
 /usr/bin/setcifsacl
 /usr/sbin/cifs.idmap
 /usr/sbin/cifs.upcall
+/usr/sbin/cracklib-check
+/usr/sbin/cracklib-packer
+/usr/sbin/cracklib-unpacker
