@@ -704,3 +704,4 @@
 /usr/sbin/watchquagga
 /usr/sbin/zebra
 /usr/sbin/pimd
+/usr/sbin/ospf6d
