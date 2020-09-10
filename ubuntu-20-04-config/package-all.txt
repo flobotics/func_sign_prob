@@ -365,3 +365,5 @@ vim
 vim-tiny
 xxd
 zsh
+zlib1g
+zfs-zed

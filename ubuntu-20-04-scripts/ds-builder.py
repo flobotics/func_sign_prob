@@ -404,7 +404,7 @@ def get_types_from_names(funcs_and_ret_types, binary_name, verbose=False):
         
         
 def proc_disas(funcName, baseFileName, binary_name):
-    verbose = True
+    verbose = False 
     gdb_output_disas = subprocess.run(["gdb",  "-batch", "-ex", "file {0}".format(binary_name), "-ex", "disassemble {0}".format(funcName)], capture_output=True, universal_newlines=True)
     out = gdb_output_disas.stdout
     out_list = out.split('\n')

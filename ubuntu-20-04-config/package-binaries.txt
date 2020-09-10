@@ -825,3 +825,4 @@
 /usr/bin/vim.tiny
 /usr/bin/xxd
 /bin/zsh
+/usr/sbin/zed

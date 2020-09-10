@@ -296,3 +296,4 @@ vim
 vim-tiny
 xxd
 zsh
+zfs-zed
