@@ -43,3 +43,5 @@ ibus-chewing
 ibus-hangul
 cups-core-drivers
 cdebconf
+casper
+cryptsetup

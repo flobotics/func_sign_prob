@@ -231,3 +231,4 @@ cron
 crda
 ccache
 curl
+cryptsetup-bin
