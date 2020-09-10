@@ -1011,3 +1011,5 @@
 /bin/upslog
 /bin/upsrw
 /sbin/upssched
+/usr/bin/nvidia-settings
+/usr/bin/whiptail

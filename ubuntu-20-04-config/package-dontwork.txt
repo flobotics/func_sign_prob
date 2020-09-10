@@ -75,3 +75,4 @@ nfs-ganesha-ceph
 network-manager-openvpn-gnome
 netplan.io
 nut-snmp
+network-manager-pptp-gnome
