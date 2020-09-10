@@ -403,3 +403,6 @@ nginx-core
 nautilus-sendto
 network-manager-openvpn-gnome
 nicstat
+network-manager-gnome
+netplan.io
+numactl

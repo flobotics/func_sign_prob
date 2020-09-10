@@ -327,3 +327,5 @@ nano
 nginx-core
 nautilus-sendto
 nicstat
+network-manager-gnome
+numactl
