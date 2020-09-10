@@ -302,3 +302,4 @@ coreutils
 clamav-freshclam
 clamdscan
 clamav-daemon
+crash

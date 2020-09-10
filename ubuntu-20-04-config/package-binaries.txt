@@ -640,3 +640,4 @@
 /usr/bin/clamdtop
 /usr/bin/clamonacc
 /usr/sbin/clamd
+/usr/bin/crash
