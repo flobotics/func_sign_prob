@@ -834,3 +834,4 @@
 /sbin/zstreamdump
 /usr/sbin/zerofree
 /usr/bin/zenity
+/sbin/zsysd

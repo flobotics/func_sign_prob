@@ -370,3 +370,4 @@ zfs-zed
 zfsutils-linux
 zerofree
 zenity
+zsys
