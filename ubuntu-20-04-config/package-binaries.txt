@@ -796,3 +796,10 @@
 /usr/bin/cvt
 /usr/bin/gtf
 /usr/bin/Xwayland
+/usr/bin/Xephyr
+/usr/bin/xdg-dbus-proxy
+/usr/bin/xmlsec1
+/usr/bin/smproxy
+/usr/bin/xsm
+/usr/bin/xinit
+/usr/bin/vmwarectrl

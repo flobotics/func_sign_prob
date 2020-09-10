@@ -350,3 +350,9 @@ xfonts-utils
 xserver-xorg-legacy
 xserver-xorg-core
 xwayland
+xserver-xephyr
+xdg-dbus-proxy
+xmlsec1
+x11-session-utils
+xinit
+xserver-xorg-video-vmware
