@@ -288,3 +288,5 @@ ceph-mds
 python3-cephfs
 ceph-mgr
 radosgw
+python3-rbd
+ceph-common
