@@ -317,3 +317,4 @@ qemu-system-mips
 qemu-system-x86
 qemu-system-ppc
 quota
+quagga-core

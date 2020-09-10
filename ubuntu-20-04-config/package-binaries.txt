@@ -700,3 +700,6 @@
 /usr/sbin/setquota
 /usr/sbin/warnquota
 /usr/sbin/xqmstats
+/usr/bin/vtysh
+/usr/sbin/watchquagga
+/usr/sbin/zebra
