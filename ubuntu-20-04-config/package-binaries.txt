@@ -515,3 +515,7 @@
 /usr/bin/rbd
 /usr/bin/rbd-replay
 /usr/bin/rbd-replay-prep
+/usr/bin/ceph-kvstore-tool
+/usr/bin/crushtool
+/usr/bin/monmaptool
+/usr/bin/osdmaptool

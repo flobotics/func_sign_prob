@@ -290,3 +290,4 @@ ceph-mgr
 radosgw
 python3-rbd
 ceph-common
+ceph-base

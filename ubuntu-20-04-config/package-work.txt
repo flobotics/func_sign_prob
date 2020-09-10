@@ -239,3 +239,4 @@ ceph-mds
 ceph-mgr
 radosgw
 ceph-common
+ceph-base
