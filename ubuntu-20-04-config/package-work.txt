@@ -305,3 +305,4 @@ usbmuxd
 update-notifier
 odbcinst
 udisks2
+unzip
