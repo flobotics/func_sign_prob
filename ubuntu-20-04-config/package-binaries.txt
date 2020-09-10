@@ -447,3 +447,7 @@
 /usr/bin/ippfind
 /usr/bin/ipptool
 /usr/sbin/ippeveprinter
+/usr/bin/lpq
+/usr/bin/lpr
+/usr/bin/lprm
+/usr/sbin/lpc

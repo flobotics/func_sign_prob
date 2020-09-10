@@ -265,3 +265,4 @@ chrony
 colord
 cheese
 cups-ipp-utils
+cups-bsd
