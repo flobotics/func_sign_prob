@@ -230,3 +230,4 @@ cups-daemon
 cron
 crda
 ccache
+curl
