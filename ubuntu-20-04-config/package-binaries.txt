@@ -949,3 +949,4 @@
 /sbin/route
 /sbin/slattach
 /usr/sbin/arp
+/usr/bin/telnet.netkit
