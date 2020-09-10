@@ -303,3 +303,4 @@ zenity
 zsys
 usbmuxd
 update-notifier
+odbcinst
