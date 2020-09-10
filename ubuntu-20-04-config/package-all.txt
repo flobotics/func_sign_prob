@@ -416,3 +416,8 @@ whiptail
 python3-newt
 netcat-openbsd
 ncurses-bin
+ncurses-examples
+uno-libs-private
+ure
+python3-uno
+gnome-session-canberra

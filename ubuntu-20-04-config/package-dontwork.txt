@@ -77,3 +77,7 @@ netplan.io
 nut-snmp
 network-manager-pptp-gnome
 python3-newt
+ncurses-examples
+uno-libs-private
+ure
+python3-uno

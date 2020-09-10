@@ -336,3 +336,4 @@ nvidia-settings
 whiptail
 netcat-openbsd
 ncurses-bin
+gnome-session-canberra
