@@ -456,3 +456,13 @@
 /usr/bin/ppdi
 /usr/bin/ppdmerge
 /usr/bin/ppdpo
+/usr/bin/cancel
+/usr/bin/cupstestppd
+/usr/bin/lp
+/usr/bin/lpoptions
+/usr/bin/lpstat
+/usr/sbin/cupsaccept
+/usr/sbin/cupsctl
+/usr/sbin/lpadmin
+/usr/sbin/lpinfo
+/usr/sbin/lpmove

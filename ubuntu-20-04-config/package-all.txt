@@ -267,3 +267,4 @@ cheese
 cups-ipp-utils
 cups-bsd
 cups-ppdc
+cups-client
