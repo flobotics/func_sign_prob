@@ -838,3 +838,5 @@
 /usr/sbin/usbmuxd
 /usr/bin/update-notifier
 /usr/bin/odbcinst
+/sbin/umount.udisks2
+/usr/bin/udisksctl

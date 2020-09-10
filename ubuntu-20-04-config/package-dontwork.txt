@@ -68,3 +68,4 @@ xserver-xorg-video-fbdev
 xserver-xorg-video-vesa
 vino
 zlib1g
+odbcinst1debian2
