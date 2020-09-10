@@ -955,3 +955,14 @@
 /usr/bin/ntfsck
 /usr/bin/ntfsdump_logfile
 /usr/bin/ntfsmftalloc
+/sbin/mount.nfs
+/sbin/rpc.statd
+/sbin/showmount
+/sbin/sm-notify
+/usr/sbin/blkmapd
+/usr/sbin/nfsidmap
+/usr/sbin/nfsstat
+/usr/sbin/rpc.gssd
+/usr/sbin/rpc.idmapd
+/usr/sbin/rpc.svcgssd
+/usr/sbin/rpcdebug

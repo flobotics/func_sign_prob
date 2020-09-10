@@ -319,3 +319,4 @@ net-tools
 telnet
 nbd-server
 ntfs-3g-dev
+nfs-common
