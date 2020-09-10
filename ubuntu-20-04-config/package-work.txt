@@ -267,3 +267,4 @@ quagga-ospf6d
 quagga-ospfd
 quagga-ripngd
 quagga-bgpd
+quagga-isisd
