@@ -349,3 +349,4 @@ x11-xserver-utils
 xfonts-utils
 xserver-xorg-legacy
 xserver-xorg-core
+xwayland
