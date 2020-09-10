@@ -740,3 +740,4 @@
 /usr/bin/lzmainfo
 /usr/bin/xz
 /usr/bin/xdg-user-dirs-update
+/usr/bin/xinput
