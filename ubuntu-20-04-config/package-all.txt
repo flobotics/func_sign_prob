@@ -406,3 +406,4 @@ nicstat
 network-manager-gnome
 netplan.io
 numactl
+nut-server

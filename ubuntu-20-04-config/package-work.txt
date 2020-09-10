@@ -329,3 +329,4 @@ nautilus-sendto
 nicstat
 network-manager-gnome
 numactl
+nut-server
