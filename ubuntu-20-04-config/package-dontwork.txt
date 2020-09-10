@@ -56,3 +56,4 @@ qemu-system-gui
 qemu-block-extra
 xserver-xorg-video-amdgpu
 xdg-desktop-portal
+xserver-xorg-input-libinput
