@@ -992,3 +992,4 @@
 /usr/sbin/snmpd
 /bin/nano
 /usr/sbin/nginx
+/usr/bin/nautilus-sendto
