@@ -1037,3 +1037,5 @@
 /usr/bin/wget
 /usr/bin/whoopsie-preferences
 /usr/bin/wdiff
+/usr/bin/mkpasswd
+/usr/bin/whois

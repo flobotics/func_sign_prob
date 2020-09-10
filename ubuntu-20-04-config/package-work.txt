@@ -344,3 +344,4 @@ w3m
 wget
 whoopsie-preferences
 wdiff
+whois
