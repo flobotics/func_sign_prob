@@ -303,3 +303,4 @@ clamav-freshclam
 clamdscan
 clamav-daemon
 crash
+sasl2-bin

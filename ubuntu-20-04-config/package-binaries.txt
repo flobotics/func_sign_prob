@@ -641,3 +641,11 @@
 /usr/bin/clamonacc
 /usr/sbin/clamd
 /usr/bin/crash
+/usr/bin/sasl-sample-client
+/usr/sbin/sasl-sample-server
+/usr/sbin/saslauthd
+/usr/sbin/sasldbconverter2
+/usr/sbin/sasldblistusers2
+/usr/sbin/saslpasswd2
+/usr/sbin/saslpluginviewer
+/usr/sbin/testsaslauthd
