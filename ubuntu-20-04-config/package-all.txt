@@ -329,3 +329,5 @@ xsltproc
 xserver-xorg-video-amdgpu
 xfsprogs
 xfsdump
+xdg-desktop-portal
+x11-xkb-utils

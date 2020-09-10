@@ -729,3 +729,10 @@
 /sbin/xfsdump
 /sbin/xfsrestore
 /usr/sbin/xfsinvutil
+/usr/bin/setxkbmap
+/usr/bin/xkbbell
+/usr/bin/xkbcomp
+/usr/bin/xkbevd
+/usr/bin/xkbprint
+/usr/bin/xkbvleds
+/usr/bin/xkbwatch
