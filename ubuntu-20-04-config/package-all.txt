@@ -298,3 +298,4 @@ cups-filters
 cups-browsed
 cups-filters-core-drivers
 cluster-glue
+coreutils
