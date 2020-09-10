@@ -273,3 +273,4 @@ xsltproc
 xfsprogs
 xfsdump
 x11-xkb-utils
+xauth

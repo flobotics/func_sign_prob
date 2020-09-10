@@ -331,3 +331,4 @@ xfsprogs
 xfsdump
 xdg-desktop-portal
 x11-xkb-utils
+xauth
