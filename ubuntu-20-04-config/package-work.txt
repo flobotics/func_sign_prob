@@ -315,3 +315,4 @@ util-linux
 fdisk
 rfkill
 ubuntu-drivers-common
+net-tools

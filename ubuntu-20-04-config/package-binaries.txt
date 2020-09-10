@@ -938,3 +938,14 @@
 /sbin/sfdisk
 /usr/sbin/rfkill
 /usr/bin/gpu-manager
+/bin/netstat
+/sbin/ifconfig
+/sbin/ipmaddr
+/sbin/iptunnel
+/sbin/mii-tool
+/sbin/nameif
+/sbin/plipconfig
+/sbin/rarp
+/sbin/route
+/sbin/slattach
+/usr/sbin/arp
