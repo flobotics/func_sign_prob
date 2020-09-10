@@ -472,3 +472,4 @@
 /usr/lib/cups/cgi-bin/jobs.cgi
 /usr/lib/cups/cgi-bin/printers.cgi
 /usr/sbin/cupsfilter
+/usr/sbin/cupsd

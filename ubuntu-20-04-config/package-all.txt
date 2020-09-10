@@ -269,3 +269,4 @@ cups-bsd
 cups-ppdc
 cups-client
 cups
+cups-daemon
