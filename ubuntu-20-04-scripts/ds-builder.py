@@ -8,9 +8,10 @@ import numpy as np
 import pickle
 import getopt
 import sys
+from multiprocessing import Pool
 
 base_path = "/home/infloflo/git/func_sign_prob/"
-#base_path = "/home/ubu/git/func_sign_prob/"
+#base_path = "/home/ubu/git/test/func_sign_prob/"
 config_dir = "ubuntu-20-04-config/"
 pickles_dir = "ubuntu-20-04-pickles/"
 gcloud = True 
@@ -400,82 +401,103 @@ def get_types_from_names(funcs_and_ret_types, binary_name, verbose=False):
                 funcs_and_ret_types_filtered.append((f,r,fn,b))
             
     return funcs_and_ret_types_filtered
+        
+        
+def proc_disas(funcName, baseFileName, binary_name):
+    verbose = False
+    gdb_output_disas = subprocess.run(["gdb",  "-batch", "-ex", "file {0}".format(binary_name), "-ex", "disassemble {0}".format(funcName)], capture_output=True, universal_newlines=True)
+    out = gdb_output_disas.stdout
+    out_list = out.split('\n')
+    out_split = list()
+    disas_list = []
+
+    for out_list_item in out_list:
+        if 'Dump of assembler code' in out_list_item:
+            if verbose:
+                print('Start of assembler code')
+            pass
+        elif '\t' in out_list_item:
+            if verbose:
+                print(f'out_list_item: {out_list_item}')
+            out_split = out_list_item.split('\t')
+            if verbose:
+                print(f'out_split[1]: {out_split[1]}')
+                
+            out_split_val = out_split[1]
+            ###remove comments
+            if '<' in out_split_val:
+                out_split_idx = out_split_val.index('<')
+                out_split_val = out_split_val[:out_split_idx]
+            if '#' in out_split_val:   
+                out_split_idx = out_split_val.index('#')
+                out_split_val = out_split_val[:out_split_idx]
+
+            ###remove trailing whitespace which could result from above 'remove comments'
+            out_split_val = out_split_val.rstrip()
+
+            ###make space between these signs to better split
+            out_split_val = out_split_val.replace(',', ' , ')
+            out_split_val = out_split_val.replace('(', ' ( ')
+            out_split_val = out_split_val.replace(')', ' ) ')
+            out_split_val = out_split_val.replace(':', ' : ')
+
+            ###replace all numbers with 0x or -0x...
+            v = list()
+            for val in out_split_val.split():
+                if '0x' in val:
+                    if val[0] == '$':
+                        if val[1] == '-':
+                            v.append('$-0x')
+                        else:
+                            v.append('$0x')
+                    elif val[0] == '-':
+                        v.append('-0x')
+                    else:
+                        v.append('0x')
+                else:
+                    v.append(val)
+            out_split_val = ' '.join(v)
+
+            if verbose:
+                print(f'One assembly line after filtering:{out_split_val}')
+            if out_split_val:
+                disas_list.append(out_split_val)
+
+        else:
+            if verbose:
+                print(f"Mostly empty line or end of assembly or SOMETHING WRONG:{out_list_item}")
+            pass        
+        
+     
+    return disas_list 
+        
             
             
 def get_disassemble(funcs_and_ret_types_filtered, binary_name, verbose=False):
     dataset = list()
     disas_list = list()
+    proc_disas_list = list()
 
+    if len(funcs_and_ret_types_filtered) < 1:
+        print(f'len funcs_and_ret_types_filtered: {len(funcs_and_ret_types_filtered)}')
+        return dataset
+    
+    p = Pool(len(funcs_and_ret_types_filtered))
     for a,b,funcName, baseFileName in funcs_and_ret_types_filtered:
-        gdb_output_disas = subprocess.run(["gdb",  "-batch", "-ex", "file {0}".format(binary_name), "-ex", "disassemble {0}".format(funcName)], capture_output=True, universal_newlines=True)
-        out = gdb_output_disas.stdout
-        out_list = out.split('\n')
-        out_split = list()
-        disas_list = []
-
-        for out_list_item in out_list:
-            if 'Dump of assembler code' in out_list_item:
-                if verbose:
-                    print('Start of assembler code')
-                pass
-            elif '\t' in out_list_item:
-                if verbose:
-                    print(f'out_list_item: {out_list_item}')
-                out_split = out_list_item.split('\t')
-                if verbose:
-                    print(f'out_split[1]: {out_split[1]}')
-                    
-                out_split_val = out_split[1]
-                ###remove comments
-                if '<' in out_split_val:
-                    out_split_idx = out_split_val.index('<')
-                    out_split_val = out_split_val[:out_split_idx]
-                if '#' in out_split_val:   
-                    out_split_idx = out_split_val.index('#')
-                    out_split_val = out_split_val[:out_split_idx]
-
-                ###remove trailing whitespace which could result from above 'remove comments'
-                out_split_val = out_split_val.rstrip()
-
-                ###make space between these signs to better split
-                out_split_val = out_split_val.replace(',', ' , ')
-                out_split_val = out_split_val.replace('(', ' ( ')
-                out_split_val = out_split_val.replace(')', ' ) ')
-                out_split_val = out_split_val.replace(':', ' : ')
-
-                ###replace all numbers with 0x or -0x...
-                v = list()
-                for val in out_split_val.split():
-                    if '0x' in val:
-                        if val[0] == '$':
-                            if val[1] == '-':
-                                v.append('$-0x')
-                            else:
-                                v.append('$0x')
-                        elif val[0] == '-':
-                            v.append('-0x')
-                        else:
-                            v.append('0x')
-                    else:
-                        v.append(val)
-                out_split_val = ' '.join(v)
-
-                if verbose:
-                    print(f'One assembly line after filtering:{out_split_val}')
-                if out_split_val:
-                    disas_list.append(out_split_val)
-
-            else:
-                if verbose:
-                    print(f"Mostly empty line or end of assembly or SOMETHING WRONG:{out_list_item}")
-                pass
+        proc_disas_list.append((funcName, baseFileName, binary_name))
         
-        if verbose:
-            print(f'dias_list:{disas_list}')
-            
-        if a and b and funcName and baseFileName and disas_list:
-            dataset.append((a,b,funcName, baseFileName, disas_list))
+    all_disas = p.starmap(proc_disas, proc_disas_list)
 
+    #for disas in all_disas:
+    c = 0
+    for a,b,funcName, baseFileName in funcs_and_ret_types_filtered:
+        if a and b and funcName and baseFileName and all_disas[c]:
+            dataset.append((a,b,funcName, baseFileName, all_disas[c]))
+        c += 1    
+            
+            
+
+   
     if verbose:
         print(f'One dataset item: dataset[0]: {next(iter(dataset))}')
         
@@ -633,19 +655,29 @@ for package in filtered_pkgs_with_dbgsym:
         print(f'Get function signature and return type from binary: {b}')
         func_sign_and_ret_types = get_function_signatures_and_ret_types(b)
         #print(f'func_sign_and_ret_types: {func_sign_and_ret_types}')
-
+        
+        if not func_sign_and_ret_types:
+            print("NO func_sign_and_ret_types")
+            break
+        
         print(f'Get return-types from names we dont know')
         extended_func_and_ret_types = get_types_from_names(func_sign_and_ret_types, b, False)
         #print(f'extended_func_and_ret_types: {extended_func_and_ret_types}')
 
+        if not extended_func_and_ret_types:
+            print("NO extended_func_and_ret_types")
+            break
+
         print(f'Get disassembly')
         disassemble_out = get_disassemble(extended_func_and_ret_types, b)
         
-        ###save everything to a list to store it later
-        for funcSign, returnType, funcName, funcFileName, disassembly_list in disassemble_out:
-            if funcSign and returnType and funcName and funcFileName and disassembly_list:
-                ds_list.append((funcSign, returnType, funcName, funcFileName, disassembly_list, package.replace('-dbgsym', ''), b))
-                
+        if disassemble_out:
+            ###save everything to a list to store it later
+            for funcSign, returnType, funcName, funcFileName, disassembly_list in disassemble_out:
+                if funcSign and returnType and funcName and funcFileName and disassembly_list:
+                    ds_list.append((funcSign, returnType, funcName, funcFileName, disassembly_list, package.replace('-dbgsym', ''), b))
+        else:
+             print(f'NO disassemble_out')           
 
     if len(ds_list) > 0:
         print(f'Write pickle file')
