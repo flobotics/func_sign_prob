@@ -218,3 +218,4 @@ corosync
 cmake
 cifs-utils
 cracklib-runtime
+chrony
