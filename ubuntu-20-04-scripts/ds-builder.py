@@ -482,7 +482,7 @@ def get_disassemble(funcs_and_ret_types_filtered, binary_name, verbose=False):
         print(f'len funcs_and_ret_types_filtered: {len(funcs_and_ret_types_filtered)}')
         return dataset
     
-    p = Pool(len(funcs_and_ret_types_filtered))
+    p = Pool(4)
     for a,b,funcName, baseFileName in funcs_and_ret_types_filtered:
         proc_disas_list.append((funcName, baseFileName, binary_name))
         
