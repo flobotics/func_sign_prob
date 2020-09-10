@@ -1036,3 +1036,4 @@
 /usr/lib/w3m/cgi-bin/w3mhelperpanel
 /usr/bin/wget
 /usr/bin/whoopsie-preferences
+/usr/bin/wdiff
