@@ -793,3 +793,5 @@
 /usr/bin/fonttosfnt
 /usr/bin/mkfontscale
 /usr/bin/ucs2any
+/usr/bin/cvt
+/usr/bin/gtf

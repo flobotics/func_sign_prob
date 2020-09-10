@@ -62,3 +62,4 @@ xserver-xorg-video-ati
 xserver-xorg-video-qxl
 xdg-desktop-portal-gtk
 xserver-xorg-video-dummy
+xserver-xorg-legacy

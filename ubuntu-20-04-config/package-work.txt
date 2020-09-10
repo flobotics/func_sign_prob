@@ -283,3 +283,4 @@ xdg-user-dirs-gtk
 xserver-xorg-input-wacom
 x11-xserver-utils
 xfonts-utils
+xserver-xorg-core
