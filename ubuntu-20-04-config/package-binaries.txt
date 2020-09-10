@@ -788,3 +788,8 @@
 /usr/bin/xsetroot
 /usr/bin/xstdcmap
 /usr/bin/xvidtune
+/usr/bin/bdftopcf
+/usr/bin/bdftruncate
+/usr/bin/fonttosfnt
+/usr/bin/mkfontscale
+/usr/bin/ucs2any
