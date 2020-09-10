@@ -703,3 +703,4 @@
 /usr/bin/vtysh
 /usr/sbin/watchquagga
 /usr/sbin/zebra
+/usr/sbin/pimd
