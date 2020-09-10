@@ -421,3 +421,4 @@ uno-libs-private
 ure
 python3-uno
 gnome-session-canberra
+wireless-tools

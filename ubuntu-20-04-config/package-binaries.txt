@@ -1021,3 +1021,9 @@
 /usr/bin/tput
 /usr/bin/tset
 /usr/bin/canberra-gtk-play
+/sbin/iwconfig
+/sbin/iwevent
+/sbin/iwgetid
+/sbin/iwlist
+/sbin/iwpriv
+/sbin/iwspy
