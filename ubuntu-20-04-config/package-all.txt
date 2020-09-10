@@ -283,3 +283,5 @@ printer-driver-c2esp
 genisoimage
 containerd
 conntrack
+gstreamer1.0-clutter-3.0
+ceph-mds

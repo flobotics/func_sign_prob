@@ -235,3 +235,4 @@ cryptsetup-bin
 genisoimage
 containerd
 conntrack
+ceph-mds

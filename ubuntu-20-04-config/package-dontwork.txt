@@ -46,3 +46,4 @@ cdebconf
 casper
 cryptsetup
 printer-driver-c2esp
+gstreamer1.0-clutter-3.0

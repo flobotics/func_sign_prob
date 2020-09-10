@@ -496,3 +496,4 @@
 /usr/bin/containerd-stress
 /usr/bin/ctr
 /usr/sbin/conntrack
+/usr/bin/ceph-mds
