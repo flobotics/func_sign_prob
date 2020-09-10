@@ -74,3 +74,4 @@ nautilus-share
 nfs-ganesha-ceph
 network-manager-openvpn-gnome
 netplan.io
+nut-snmp

@@ -330,3 +330,4 @@ nicstat
 network-manager-gnome
 numactl
 nut-server
+nut-cgi

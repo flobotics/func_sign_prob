@@ -407,3 +407,5 @@ network-manager-gnome
 netplan.io
 numactl
 nut-server
+nut-snmp
+nut-cgi
