@@ -244,3 +244,4 @@ ceph-osd
 ceph-mon
 cups-filters
 cups-browsed
+cluster-glue
