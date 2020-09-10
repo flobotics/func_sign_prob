@@ -498,3 +498,7 @@
 /usr/sbin/conntrack
 /usr/bin/ceph-mds
 /usr/bin/ceph-mgr
+/usr/bin/radosgw
+/usr/bin/radosgw-es
+/usr/bin/radosgw-object-expirer
+/usr/bin/radosgw-token

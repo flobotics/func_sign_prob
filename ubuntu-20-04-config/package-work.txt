@@ -237,3 +237,4 @@ containerd
 conntrack
 ceph-mds
 ceph-mgr
+radosgw
