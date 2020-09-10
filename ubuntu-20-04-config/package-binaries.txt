@@ -950,3 +950,5 @@
 /sbin/slattach
 /usr/sbin/arp
 /usr/bin/telnet.netkit
+/bin/nbd-server
+/bin/nbd-trdump

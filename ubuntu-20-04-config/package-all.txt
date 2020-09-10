@@ -390,3 +390,4 @@ rfkill
 ubuntu-drivers-common
 net-tools
 telnet
+nbd-server
