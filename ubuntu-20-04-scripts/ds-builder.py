@@ -10,43 +10,71 @@ import getopt
 import sys
 
 base_path = "/home/infloflo/git/func_sign_prob/"
+#base_path = "/home/ubu/git/func_sign_prob/"
 config_dir = "ubuntu-20-04-config/"
 pickles_dir = "ubuntu-20-04-pickles/"
 gcloud = True 
 
 
-def get_all_ubuntu_dbgsym_packages():
+### get a list with all packages with ending -dbgsym
+def get_all_ubuntu_dbgsym_packages(verbose=False):
     pack_dbgsym_list = list()
     pack_with_dbgsym = subprocess.run(['apt-cache', 'search', 'dbgsym'], capture_output=True, universal_newlines=True)
     pack_with_dbgsym_out = pack_with_dbgsym.stdout
     pack_with_dbgsym_out = pack_with_dbgsym_out.split('\n')
-
-    #print(f'pack_with_dbgsym_out: {pack_with_dbgsym_out}')
-
     
     for l in pack_with_dbgsym_out:
-        #print(f'dbgsym: {l.split()[0]}')
+        if verbose and l:
+            print(f'Pkg: {l}')
         if l.split() and l.split()[0].endswith('-dbgsym'):
-            #print(f'dbgsym: {l.split()[0]}')
-            if l.split()[0].startswith('lib') or l.split()[0].startswith('firmware'):
-                pass
-            elif 'plugin' in l.split()[0]:
-                pass
-            else:
-                pack_dbgsym_list.append(l.split()[0])
+            if verbose:
+                print('Pkg ends with -dbgsym, add to list')
+            pack_dbgsym_list.append(l.split()[0])
+        else:
+            if verbose:
+                print('Pkg ends not with -dbgsym, dont add to list')
+            pass
 
-
-    #print(len(pack_dbgsym_list))
+    if verbose:
+        print(f'We got >{len(pack_dbgsym_list)}< pkgs in our dbgsym list')
+        
     if len(pack_dbgsym_list) == 0:
-        print("install ubuntu debug symbol packages")
+        print("Install ubuntu debug symbol packages")
         
     return pack_dbgsym_list
-        
-def get_binaries_in_package(package):
-    new_binaries_in_package = list()
+
+
+
+def filter_dbgsym_package_list(dbgsym_list, verbose=False):
+    new_list = list()
     
-    ###clear for next run, to not use old values
-    new_binaries_in_package = []
+    for item in dbgsym_list:
+        subItem = item.split()[0]
+        
+        
+        if subItem.startswith('lib') or subItem.startswith('firmware'):
+            if verbose:
+                print(f'Filter out, because of >lib,firmware< {subItem}')
+            pass
+        elif 'plugin' in subItem:
+            if verbose:
+                print(f'Filter out, because of >plugin< {subItem}')
+            pass
+        else:
+            if verbose:
+                print(f'Add to filtered list >{subItem}<')
+            new_list.append(subItem)
+    
+    if verbose:
+        print(f'Length of filtered_pkgs_with_dbgsym:{len(new_list)}')
+    
+    return new_list
+
+
+
+        
+def get_binaries_in_package(package, verbose=False):
+    new_binaries_in_package = list()
     package_work = list()
     c = 0
     already_done = False
@@ -54,23 +82,25 @@ def get_binaries_in_package(package):
 
     f_without_dbgsym = package.replace('-dbgsym', '')
     already_done = False
-    #c += 1
-    #print(f'package-nr:{c} of {len(pack_dbgsym_list)}, Name:{package}')
 
     #check if we got this package already 
     file = open(base_path + config_dir + "package-all.txt", "r+")
     for pack in file:
-        #print(f'pack: {pack}')
-        #print(f'package: {package}')
-        if package in pack:
-            print("Skip package, already in package-all.txt file")
+        if f_without_dbgsym in pack:
+            if verbose:
+                print(f"Skip package >{f_without_dbgsym}<, already in package-all.txt file")
             already_done = True
+            break
+        
+    if verbose and not already_done:
+        print(f"Package >{f_without_dbgsym}< not in package-all.txt file")
     file.close()
 
     if not already_done:
         ###we write the package name into package-all.txt to know that we got it already
         file = open(base_path + config_dir + "package-all.txt", "a+")
-        print(f"Write to package-all.txt file: {f_without_dbgsym}")
+        if verbose:
+            print(f"Write to package-all.txt file: {f_without_dbgsym}")
         file.write(str(f_without_dbgsym) + '\n')
         file.close()
 
@@ -102,15 +132,16 @@ def get_binaries_in_package(package):
         ###if we found some binaries in package, we install the -dbgsym package
         if len(binaries_in_package) > 0:
             child = pexpect.spawn('sudo DEBIAN_FRONTEND=noninteractive apt install -y {0}'.format(package), timeout=None)
+            ### if you run in google cloud, it directly installs the pkg
             if not gcloud:
                 child.expect('ubu:', timeout=None)
-            	### enter the password
+                ### enter the password
                 child.sendline('ubu\n')
             #print(child.read())
             tmp = child.read()
 
-
-        print(f'In package >{f_without_dbgsym}< are these binaries: {binaries_in_package}')
+        if verbose:
+            print(f'In package >{f_without_dbgsym}< are these binaries: {binaries_in_package}')
 
         ###check if binaries are binaries or scripts,etc.
         real_binaries_in_package = list()
@@ -123,18 +154,21 @@ def get_binaries_in_package(package):
                 if ('ELF 64-bit LSB shared object' in line) or ('ELF 64-bit LSB executable' in line):
                     real_binaries_in_package.append(b)
 
-        print(f'Real binaries:{real_binaries_in_package}')
+        if verbose:
+            print(f'Real binaries:{real_binaries_in_package}')
 
         ###Write package to package-work.txt, to know that this package got binaries
         if len(real_binaries_in_package) > 0:
             file = open(base_path + config_dir + "package-work.txt", "a+")
-            print(f"Write to package-work.txt file: {f_without_dbgsym}")
+            if verbose:
+                print(f"Write to package-work.txt file: {f_without_dbgsym}")
             file.write(str(f_without_dbgsym) + '\n')
             file.close()
         ###Write package to package-dontwork.txt, to know that this package got NO binaries
         else:
             file = open(base_path + config_dir + "package-dontwork.txt", "a+")
-            print(f"Write to package-dontwork.txt file: {f_without_dbgsym}")
+            if verbose:
+                print(f"Write to package-dontwork.txt file: {f_without_dbgsym}")
             file.write(str(f_without_dbgsym) + '\n')
             file.close()
 
@@ -166,34 +200,33 @@ def get_binaries_in_package(package):
 
             if len(new_binaries_in_package) > 0:
                 file = open(base_path + config_dir + "package-binaries.txt", "a+")
-                print(f"Write to package-binaries.txt file: {new_binaries_in_package}")
+                if verbose:
+                    print(f"Write to package-binaries.txt file: {new_binaries_in_package}")
+                    
                 for b in new_binaries_in_package:
                     file.write(str(b) + '\n')
                 file.close()
             else:
-                print("No binaries to write to package-binaries.txt file")
-                ###clear list, so that next run does not use old list
-                new_binaries_in_package = []
+                if verbose:
+                    print("No binaries to write to package-binaries.txt file")
+                pass
 
 
     return new_binaries_in_package
-    #print(package_work)
     
     
-def get_function_signatures_and_ret_types(gdb_output):
+def get_function_signatures_and_ret_types(binaryName, verbose=False):
     funcs_and_ret_types = list()
     all_funcs = list()
     ret_types = set()
-    #funcs_and_ret_types = list()
     baseFileName = ''
+
+    gdb_output = subprocess.run(["gdb",  "-batch", "-ex", "file {}".format(binaryName), "-ex", "info functions"], capture_output=True, universal_newlines=True)
 
     out = gdb_output.stdout
     out_list = out.split('\n')
-    #print(f'out_list[0]: {out_list[0]}')
-    #print(f'out_list: {out_list}')
 
     for line in out_list:
-        #found_ret_type = False
         linesplit = line.split()
         #print(f'linesplit: {linesplit}')
         if linesplit:
@@ -228,7 +261,9 @@ def get_function_signatures_and_ret_types(gdb_output):
                             ret_types.add(ret_type)
                             funcName = funcSignature[new_idx+1:idx]
                             #print(f'funcName: {funcName}')
-                            funcs_and_ret_types.append((funcSignature, ret_type, funcName, baseFileName))
+                            
+                            if funcSignature and ret_type and funcName and baseFileName:
+                                funcs_and_ret_types.append((funcSignature, ret_type, funcName, baseFileName))
                             #print(funcs_and_ret_types[0])
                             #if 'enum' in ret_type:
                                 #print(f'ret_type: {ret_type}')
@@ -239,14 +274,10 @@ def get_function_signatures_and_ret_types(gdb_output):
                             pass
 
 
-    #print(len(ret_types))
-    #print(ret_types)
-
-    #print(funcs_and_ret_types)
     return funcs_and_ret_types
     
     
-def get_types_from_names(funcs_and_ret_types, binary_name):
+def get_types_from_names(funcs_and_ret_types, binary_name, verbose=False):
     funcs_and_ret_types_filtered = list()
 
     # does not find **  ?????
@@ -263,95 +294,115 @@ def get_types_from_names(funcs_and_ret_types, binary_name):
     counter = -1
     replace_str = ''
 
-    print(f'len(funcs_and_ret_types):{len(funcs_and_ret_types)}')
+    if verbose:
+        print(f'Binary_name:{binary_name}')
+        print(f'len(funcs_and_ret_types):{len(funcs_and_ret_types)}')
+        
     #(funcSignature, ret_type, funcName, baseFileName)
-    #for ret_type in ret_types:
     for func, ret_type, f, b in funcs_and_ret_types:
         counter += 1
         for ret_type_split in ret_type.split():
             if ret_type in legal_types:
-                #print(f'Found legal type')
+                if verbose:
+                    print(f'Found legal return type:{ret_type}')
                 break
             else:
                 #not legal type, look with gdb ptype what type it is, and replace it
-                #print(f'---not found in legal types:{ret_type}')
-                #print(f'---binary_name:{binary_name}')
+                if verbose:
+                    print(f'Not found in legal types:{ret_type}')
+                    
+                ###ask gdb for type
+                #type: ['type', '=', 'int', '(*)(int,', 'int)']
+                #type: ['type', '=', 'int', '(*)(WORD_LIST', '*)']  
                 gdb_output_ptype = subprocess.run(["gdb",  "-batch", "-ex", "file {0}".format(binary_name), "-ex", "ptype {0}".format(ret_type)], capture_output=True, universal_newlines=True)
                 out_ptype = gdb_output_ptype.stdout
-                #print(f'out_ptype: {out_ptype}', flush=True)
+                if verbose:
+                    print(f'gdb_ptype: {out_ptype}', flush=True)
 
                 notFound = True
                 type = out_ptype.split()
                 if len(type) == 3:
                     if type[2] == 'long':
-                        #print("found long")
+                        if verbose:
+                            print("found long")
                         replace_str = 'long'
                         notFound = False
                     elif type[2] == 'int':
-                        #print("found int")
-                        #print(type)
+                        if verbose:
+                            print("found int")
                         replace_str = 'int'
                         notFound = False
                     elif type[2] == 'void':
-                        #print("found void")
+                        if verbose:
+                            print("found void")
                         replace_str = 'void'
                         notFound = False
 
                 if len(type) == 4:
                     if type[2] == 'unsigned' and type[3] == 'long':
-                        #print("found unsigned long")
+                        if verbose:
+                            print("found unsigned long")
                         replace_str = 'unsigned long'
                         notFound = False
                     elif type[2] == 'void' and type[3] == '*':
-                        #print("found void *")
+                        if verbose:
+                            print("found void *")
                         replace_str = 'void *'
                         notFound = False
                     elif type[2] == 'const' and type[3] == 'char':
-                        #print("found const char")
+                        if verbose:
+                            print("found const char")
                         replace_str = 'const char'
                         notFound = False
                     elif type[2] == 'int' and type[3] == '*':
-                        #print("found int *")
+                        if verbose:
+                            print("found int *")
                         replace_str = 'int *'
                         notFound = False
 
                 if len(type) == 5:
                     if type[2] == 'const' and type[3] == 'char' and type[4] == '**':
-                        #print("found const char **")
+                        if verbose:
+                            print("found const char **")
                         replace_str = 'const char **'
                         notFound = False
 
                 if notFound and len(type) >= 3:
                     if type[2] == 'struct':
-                        #print("found struct")
+                        if verbose:
+                            print("found struct")
                         replace_str = 'struct'
                         notFound = False
 
                 if notFound:
-                    #print(f'type: {type}')
+                    if verbose:
+                        print(f'type: {type}')
                     funcs_and_ret_types[counter] = (funcs_and_ret_types[counter][0], 'DELETE', funcs_and_ret_types[counter][2], funcs_and_ret_types[counter][3])
-                    #print(funcs_and_ret_types[counter])
+                    if verbose:
+                        print(funcs_and_ret_types[counter])
                     break
                 else:
                     funcs_and_ret_types[counter] = (funcs_and_ret_types[counter][0], replace_str, funcs_and_ret_types[counter][2], funcs_and_ret_types[counter][3])
-                    #print(funcs_and_ret_types[counter])
+                    if verbose:
+                        print(funcs_and_ret_types[counter])
                     break
 
 
     #filter all with DELETE as ret_type
-    #funcs_and_ret_types_filtered = list()
 
     for f,r, fn, b in funcs_and_ret_types:
         if r == 'DELETE':
-            #print("delettte")
+            if verbose:
+                print("delete function because no real/good return type found")
             pass
         else:
-            funcs_and_ret_types_filtered.append((f,r,fn,b))
+            if f and r and fn and b:
+                funcs_and_ret_types_filtered.append((f,r,fn,b))
             
     return funcs_and_ret_types_filtered
             
             
-def get_disassemble(funcs_and_ret_types_filtered, binary_name):
+def get_disassemble(funcs_and_ret_types_filtered, binary_name, verbose=False):
     dataset = list()
     disas_list = list()
 
@@ -364,13 +415,18 @@ def get_disassemble(funcs_and_ret_types_filtered, binary_name):
 
         for out_list_item in out_list:
             if 'Dump of assembler code' in out_list_item:
-                #print('Dump')
+                if verbose:
+                    print('Start of assembler code')
                 pass
             elif '\t' in out_list_item:
-                #print(f'out_list_item: {out_list_item}')
+                if verbose:
+                    print(f'out_list_item: {out_list_item}')
                 out_split = out_list_item.split('\t')
-                #print(f'out_split[1]: {out_split[1]}')
+                if verbose:
+                    print(f'out_split[1]: {out_split[1]}')
+                    
                 out_split_val = out_split[1]
+                ###remove comments
                 if '<' in out_split_val:
                     out_split_idx = out_split_val.index('<')
                     out_split_val = out_split_val[:out_split_idx]
@@ -378,13 +434,16 @@ def get_disassemble(funcs_and_ret_types_filtered, binary_name):
                     out_split_idx = out_split_val.index('#')
                     out_split_val = out_split_val[:out_split_idx]
 
+                ###remove trailing whitespace which could result from above 'remove comments'
                 out_split_val = out_split_val.rstrip()
 
+                ###make space between these signs to better split
                 out_split_val = out_split_val.replace(',', ' , ')
                 out_split_val = out_split_val.replace('(', ' ( ')
                 out_split_val = out_split_val.replace(')', ' ) ')
                 out_split_val = out_split_val.replace(':', ' : ')
 
+                ###replace all numbers with 0x or -0x...
                 v = list()
                 for val in out_split_val.split():
                     if '0x' in val:
@@ -401,26 +460,27 @@ def get_disassemble(funcs_and_ret_types_filtered, binary_name):
                         v.append(val)
                 out_split_val = ' '.join(v)
 
-
-                #print(f'out_split_val:{out_split_val}')
-                disas_list.append(out_split_val)
+                if verbose:
+                    print(f'One assembly line after filtering:{out_split_val}')
+                if out_split_val:
+                    disas_list.append(out_split_val)
 
             else:
-                #print(f"SOMETHING WRONG:{out_list_item}")
+                if verbose:
+                    print(f"Mostly empty line or end of assembly or SOMETHING WRONG:{out_list_item}")
                 pass
         
-        #print(f'dias_list:{disas_list}')
-        dataset.append((a,b,funcName, baseFileName, disas_list))
-
-    #print(f'dataset[0]: {next(iter(dataset))}')
-    return dataset          
+        if verbose:
+            print(f'dias_list:{disas_list}')
             
+        if a and b and funcName and baseFileName and disas_list:
+            dataset.append((a,b,funcName, baseFileName, disas_list))
 
-    #print(funcs_and_ret_types_filtered)
-    #return funcs_and_ret_types_filtered
+    if verbose:
+        print(f'One dataset item: dataset[0]: {next(iter(dataset))}')
+        
+    return dataset          
 
-    #type: ['type', '=', 'int', '(*)(int,', 'int)']
-    #type: ['type', '=', 'int', '(*)(WORD_LIST', '*)']  
   
   
 def build_tf_dataset(ds_list):
@@ -539,54 +599,53 @@ for o, a in opts:
         git_pwd = a
         
 if git_user == '' or git_pwd == '':
-    print("fogot git credentials")
+    print("You forgot git credentials")
     exit()
 else:
     print(f"git-user:{git_user}  git-pwd:{git_pwd}")
 
 ###get all packages with -dbgsym at the end
-packages_with_dbgsym = get_all_ubuntu_dbgsym_packages()
+pkgs_with_dbgsym = get_all_ubuntu_dbgsym_packages(False)
+
+###filter out some packages, e.g. which start with firmware
+filtered_pkgs_with_dbgsym = filter_dbgsym_package_list(pkgs_with_dbgsym, False)
+
+
+
 c = 0
 
 ###we loop through all packages with -dbgsym at the end
-for package in packages_with_dbgsym:
+for package in filtered_pkgs_with_dbgsym:
     c += 1
-    print(f'Package-nr:{c} of {len(packages_with_dbgsym)}, Name:{package}')
+    print(f'Package-nr:{c} of {len(filtered_pkgs_with_dbgsym)}, Name:{package}')
     
     ###get all binaries that are inside this package (without -dbgsym)
-    all_binaries_in_package = get_binaries_in_package(package)  
-    
+    all_binaries_in_package = get_binaries_in_package(package, False)  
+    print(all_binaries_in_package)
+    #if c == 2:
+        #sys.exit(0)
+        
+        
     ds_list = list()
 
     for b in all_binaries_in_package:
 
-        print(f'Get functions from binary: {b}')
-        gdb_output = subprocess.run(["gdb",  "-batch", "-ex", "file {}".format(b), "-ex", "info functions"], capture_output=True, universal_newlines=True)
-        func_sign_and_ret_types = get_function_signatures_and_ret_types(gdb_output)
-        #print(f'func_and_ret_types: {func_and_ret_types}')
+        print(f'Get function signature and return type from binary: {b}')
+        func_sign_and_ret_types = get_function_signatures_and_ret_types(b)
+        #print(f'func_sign_and_ret_types: {func_sign_and_ret_types}')
 
-        print(f'Get types from names')
-        extended_func_and_ret_types = get_types_from_names(func_sign_and_ret_types, b)
+        print(f'Get return-types from names we dont know')
+        extended_func_and_ret_types = get_types_from_names(func_sign_and_ret_types, b, False)
         #print(f'extended_func_and_ret_types: {extended_func_and_ret_types}')
 
         print(f'Get disassembly')
         disassemble_out = get_disassemble(extended_func_and_ret_types, b)
-        #c = 0
-        for d in disassemble_out:
-            ds_list.append([d[0], d[1], d[2], d[3], d[4], package.replace('-dbgsym', ''), b])
-            #print(f'disassemble_out:{d}')
-            #print(f'disassemble_out[0]:{d[0]}')
-            #c += 1
-            #if c > 1:
-            #    break
-        #print(f'dataset[0]: {next(iter(disassemble_out))}')
-
-        #break
-    #break
         
-#for ds_list_item in ds_list:
-    #print(f'ds_list_item:{ds_list_item}')
-    #break
+        ###save everything to a list to store it later
+        for funcSign, returnType, funcName, funcFileName, disassembly_list in disassemble_out:
+            if funcSign and returnType and funcName and funcFileName and disassembly_list:
+                ds_list.append((funcSign, returnType, funcName, funcFileName, disassembly_list, package.replace('-dbgsym', ''), b))
+                
 
     if len(ds_list) > 0:
         print(f'Write pickle file')
@@ -594,12 +653,9 @@ for package in packages_with_dbgsym:
         
         push_pickle_to_github(package.replace('-dbgsym', ''))
     
-#package_dataset = build_tf_dataset(ds_list)
+        #package_dataset = build_tf_dataset(ds_list)
 
-#save_list_to_tfrecord(ds_list, package.replace('-dbgsym', ''))       
+        #save_list_to_tfrecord(ds_list, package.replace('-dbgsym', ''))       
         
     
-   
-       
-            
-    #return pack_dbgsym_list
+
