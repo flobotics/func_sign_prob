@@ -45,3 +45,4 @@ cups-core-drivers
 cdebconf
 casper
 cryptsetup
+printer-driver-c2esp

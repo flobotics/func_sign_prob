@@ -232,3 +232,4 @@ crda
 ccache
 curl
 cryptsetup-bin
+genisoimage

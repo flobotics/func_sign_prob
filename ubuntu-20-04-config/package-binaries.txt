@@ -483,3 +483,9 @@
 /sbin/cryptsetup-reencrypt
 /sbin/integritysetup
 /sbin/veritysetup
+/usr/bin/devdump
+/usr/bin/genisoimage
+/usr/bin/isodump
+/usr/bin/isoinfo
+/usr/bin/isovfy
+/usr/bin/mkzftree
