@@ -497,3 +497,4 @@
 /usr/bin/ctr
 /usr/sbin/conntrack
 /usr/bin/ceph-mds
+/usr/bin/ceph-mgr

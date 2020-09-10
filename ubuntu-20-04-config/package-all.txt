@@ -285,3 +285,5 @@ containerd
 conntrack
 gstreamer1.0-clutter-3.0
 ceph-mds
+python3-cephfs
+ceph-mgr

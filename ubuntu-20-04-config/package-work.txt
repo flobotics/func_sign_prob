@@ -236,3 +236,4 @@ genisoimage
 containerd
 conntrack
 ceph-mds
+ceph-mgr
