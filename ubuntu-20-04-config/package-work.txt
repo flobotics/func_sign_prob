@@ -288,3 +288,4 @@ xwayland
 xserver-xephyr
 xdg-dbus-proxy
 xmlsec1
+x11-session-utils

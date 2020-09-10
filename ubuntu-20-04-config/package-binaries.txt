@@ -799,3 +799,5 @@
 /usr/bin/Xephyr
 /usr/bin/xdg-dbus-proxy
 /usr/bin/xmlsec1
+/usr/bin/smproxy
+/usr/bin/xsm
