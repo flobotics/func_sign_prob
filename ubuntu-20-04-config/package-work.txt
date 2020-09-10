@@ -269,3 +269,4 @@ quagga-ripngd
 quagga-bgpd
 quagga-isisd
 quagga-ripd
+xsltproc
