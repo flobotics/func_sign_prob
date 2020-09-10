@@ -364,3 +364,4 @@ vino
 vim
 vim-tiny
 xxd
+zsh

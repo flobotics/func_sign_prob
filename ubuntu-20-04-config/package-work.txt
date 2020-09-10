@@ -295,3 +295,4 @@ x11-utils
 vim
 vim-tiny
 xxd
+zsh
