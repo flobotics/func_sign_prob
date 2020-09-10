@@ -63,3 +63,7 @@ xserver-xorg-video-qxl
 xdg-desktop-portal-gtk
 xserver-xorg-video-dummy
 xserver-xorg-legacy
+xserver-xorg-video-nouveau
+xserver-xorg-video-fbdev
+xserver-xorg-video-vesa
+vino
