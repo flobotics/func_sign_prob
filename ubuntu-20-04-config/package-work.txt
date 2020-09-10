@@ -342,3 +342,4 @@ whoopsie
 wpasupplicant
 w3m
 wget
+whoopsie-preferences
