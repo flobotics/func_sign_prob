@@ -475,3 +475,5 @@
 /usr/sbin/cupsd
 /usr/bin/crontab
 /usr/sbin/cron
+/sbin/crda
+/sbin/regdbdump
