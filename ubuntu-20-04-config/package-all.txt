@@ -391,3 +391,5 @@ ubuntu-drivers-common
 net-tools
 telnet
 nbd-server
+nautilus-share
+ntfs-3g-dev

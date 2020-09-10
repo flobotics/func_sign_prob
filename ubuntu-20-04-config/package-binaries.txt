@@ -952,3 +952,6 @@
 /usr/bin/telnet.netkit
 /bin/nbd-server
 /bin/nbd-trdump
+/usr/bin/ntfsck
+/usr/bin/ntfsdump_logfile
+/usr/bin/ntfsmftalloc
