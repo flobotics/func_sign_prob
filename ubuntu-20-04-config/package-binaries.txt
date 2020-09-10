@@ -833,3 +833,4 @@
 /sbin/zpool
 /sbin/zstreamdump
 /usr/sbin/zerofree
+/usr/bin/zenity
