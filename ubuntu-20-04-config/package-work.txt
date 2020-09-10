@@ -247,3 +247,4 @@ cups-browsed
 cluster-glue
 coreutils
 clamav-freshclam
+clamdscan
