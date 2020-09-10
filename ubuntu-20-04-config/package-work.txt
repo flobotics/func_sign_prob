@@ -338,3 +338,4 @@ netcat-openbsd
 ncurses-bin
 gnome-session-canberra
 wireless-tools
+whoopsie

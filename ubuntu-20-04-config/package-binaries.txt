@@ -1027,3 +1027,4 @@
 /sbin/iwlist
 /sbin/iwpriv
 /sbin/iwspy
+/usr/bin/whoopsie
