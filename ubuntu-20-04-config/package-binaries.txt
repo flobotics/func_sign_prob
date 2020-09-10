@@ -966,3 +966,7 @@
 /usr/sbin/rpc.idmapd
 /usr/sbin/rpc.svcgssd
 /usr/sbin/rpcdebug
+/sbin/nfsdcltrack
+/usr/sbin/exportfs
+/usr/sbin/rpc.mountd
+/usr/sbin/rpc.nfsd

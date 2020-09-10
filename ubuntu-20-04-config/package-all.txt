@@ -395,3 +395,4 @@ nautilus-share
 ntfs-3g-dev
 nfs-ganesha-ceph
 nfs-common
+nfs-kernel-server
