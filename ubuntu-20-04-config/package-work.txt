@@ -297,3 +297,4 @@ vim-tiny
 xxd
 zsh
 zfs-zed
+zfsutils-linux

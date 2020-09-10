@@ -487,7 +487,8 @@ def get_disassemble(funcs_and_ret_types_filtered, binary_name, verbose=False):
         proc_disas_list.append((funcName, baseFileName, binary_name))
         
     all_disas = p.starmap(proc_disas, proc_disas_list)
-
+    p.close()
+    p.join()
     #for disas in all_disas:
     c = 0
     if all_disas:

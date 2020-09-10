@@ -826,3 +826,9 @@
 /usr/bin/xxd
 /bin/zsh
 /usr/sbin/zed
+/sbin/mount.zfs
+/sbin/zdb
+/sbin/zfs
+/sbin/zhack
+/sbin/zpool
+/sbin/zstreamdump
