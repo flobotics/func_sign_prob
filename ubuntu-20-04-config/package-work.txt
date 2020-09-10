@@ -307,3 +307,4 @@ odbcinst
 udisks2
 unzip
 usb-modeswitch
+upower

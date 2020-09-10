@@ -379,3 +379,5 @@ udisks2
 unzip
 ubiquity-frontend-gtk
 usb-modeswitch
+usbutils
+upower

@@ -846,3 +846,4 @@
 /usr/bin/zipinfo
 /usr/sbin/usb_modeswitch
 /usr/sbin/usb_modeswitch_dispatcher
+/usr/bin/upower
