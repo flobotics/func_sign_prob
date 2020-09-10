@@ -76,3 +76,4 @@ network-manager-openvpn-gnome
 netplan.io
 nut-snmp
 network-manager-pptp-gnome
+python3-newt

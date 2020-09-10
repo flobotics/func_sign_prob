@@ -1013,3 +1013,4 @@
 /sbin/upssched
 /usr/bin/nvidia-settings
 /usr/bin/whiptail
+/bin/nc.openbsd

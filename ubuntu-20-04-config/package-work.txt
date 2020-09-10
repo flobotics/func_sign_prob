@@ -334,3 +334,4 @@ nut-cgi
 nut-client
 nvidia-settings
 whiptail
+netcat-openbsd
