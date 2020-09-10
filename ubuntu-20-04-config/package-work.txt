@@ -240,3 +240,6 @@ ceph-mgr
 radosgw
 ceph-common
 ceph-base
+ceph-osd
+ceph-mon
+cups-filters

@@ -49,3 +49,4 @@ printer-driver-c2esp
 gstreamer1.0-clutter-3.0
 python3-cephfs
 python3-rbd
+python3-rados

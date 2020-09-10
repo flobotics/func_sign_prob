@@ -291,3 +291,7 @@ radosgw
 python3-rbd
 ceph-common
 ceph-base
+python3-rados
+ceph-osd
+ceph-mon
+cups-filters

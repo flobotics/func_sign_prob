@@ -519,3 +519,10 @@
 /usr/bin/crushtool
 /usr/bin/monmaptool
 /usr/bin/osdmaptool
+/usr/bin/ceph-bluestore-tool
+/usr/bin/ceph-objectstore-tool
+/usr/bin/ceph-osd
+/usr/bin/ceph-osdomap-tool
+/usr/bin/ceph-mon
+/usr/bin/ceph-monstore-tool
+/usr/bin/ttfread
