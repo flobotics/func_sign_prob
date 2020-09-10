@@ -381,3 +381,10 @@ ubiquity-frontend-gtk
 usb-modeswitch
 usbutils
 upower
+uuid-runtime
+mount
+bsdutils
+util-linux
+fdisk
+rfkill
+ubuntu-drivers-common

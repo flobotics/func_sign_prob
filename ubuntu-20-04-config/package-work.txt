@@ -308,3 +308,10 @@ udisks2
 unzip
 usb-modeswitch
 upower
+uuid-runtime
+mount
+bsdutils
+util-linux
+fdisk
+rfkill
+ubuntu-drivers-common
