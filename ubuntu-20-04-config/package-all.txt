@@ -339,3 +339,4 @@ xserver-xorg-video-radeon
 xserver-xorg-video-ati
 xserver-xorg-video-qxl
 xinput
+xserver-xorg-video-intel
