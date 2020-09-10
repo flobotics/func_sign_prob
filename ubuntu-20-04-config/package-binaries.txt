@@ -466,3 +466,9 @@
 /usr/sbin/lpadmin
 /usr/sbin/lpinfo
 /usr/sbin/lpmove
+/usr/lib/cups/cgi-bin/admin.cgi
+/usr/lib/cups/cgi-bin/classes.cgi
+/usr/lib/cups/cgi-bin/help.cgi
+/usr/lib/cups/cgi-bin/jobs.cgi
+/usr/lib/cups/cgi-bin/printers.cgi
+/usr/sbin/cupsfilter
