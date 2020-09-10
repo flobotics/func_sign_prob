@@ -451,3 +451,8 @@
 /usr/bin/lpr
 /usr/bin/lprm
 /usr/sbin/lpc
+/usr/bin/ppdc
+/usr/bin/ppdhtml
+/usr/bin/ppdi
+/usr/bin/ppdmerge
+/usr/bin/ppdpo
