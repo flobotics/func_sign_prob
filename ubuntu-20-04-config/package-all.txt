@@ -341,3 +341,5 @@ xserver-xorg-video-qxl
 xinput
 xserver-xorg-video-intel
 x11-apps
+xdg-desktop-portal-gtk
+xdg-user-dirs-gtk
