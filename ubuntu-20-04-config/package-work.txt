@@ -271,3 +271,4 @@ quagga-isisd
 quagga-ripd
 xsltproc
 xfsprogs
+xfsdump
