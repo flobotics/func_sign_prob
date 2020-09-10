@@ -989,3 +989,4 @@
 /usr/bin/snmpusm
 /usr/bin/snmpvacm
 /usr/bin/snmpwalk
+/usr/sbin/snmpd
