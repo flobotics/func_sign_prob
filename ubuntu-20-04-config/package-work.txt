@@ -301,3 +301,4 @@ zfsutils-linux
 zerofree
 zenity
 zsys
+usbmuxd

@@ -835,3 +835,4 @@
 /usr/sbin/zerofree
 /usr/bin/zenity
 /sbin/zsysd
+/usr/sbin/usbmuxd
