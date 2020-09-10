@@ -326,3 +326,4 @@ snmpd
 nano
 nginx-core
 nautilus-sendto
+nicstat

@@ -993,3 +993,4 @@
 /bin/nano
 /usr/sbin/nginx
 /usr/bin/nautilus-sendto
+/usr/bin/nicstat

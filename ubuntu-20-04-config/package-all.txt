@@ -401,3 +401,5 @@ snmpd
 nano
 nginx-core
 nautilus-sendto
+network-manager-openvpn-gnome
+nicstat
