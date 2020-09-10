@@ -801,3 +801,4 @@
 /usr/bin/xmlsec1
 /usr/bin/smproxy
 /usr/bin/xsm
+/usr/bin/xinit
