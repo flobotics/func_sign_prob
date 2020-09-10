@@ -526,3 +526,4 @@
 /usr/bin/ceph-mon
 /usr/bin/ceph-monstore-tool
 /usr/bin/ttfread
+/usr/sbin/cups-browsed
