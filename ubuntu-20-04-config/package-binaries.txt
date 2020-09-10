@@ -991,3 +991,4 @@
 /usr/bin/snmpwalk
 /usr/sbin/snmpd
 /bin/nano
+/usr/sbin/nginx

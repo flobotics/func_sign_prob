@@ -399,3 +399,4 @@ nfs-kernel-server
 snmp
 snmpd
 nano
+nginx-core
