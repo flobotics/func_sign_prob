@@ -495,3 +495,4 @@
 /usr/bin/containerd-shim-runc-v2
 /usr/bin/containerd-stress
 /usr/bin/ctr
+/usr/sbin/conntrack
