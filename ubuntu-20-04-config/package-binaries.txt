@@ -636,3 +636,7 @@
 /usr/sbin/chroot
 /usr/bin/freshclam
 /usr/bin/clamdscan
+/usr/bin/clamconf
+/usr/bin/clamdtop
+/usr/bin/clamonacc
+/usr/sbin/clamd
