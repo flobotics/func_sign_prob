@@ -263,3 +263,4 @@ cifs-utils
 cracklib-runtime
 chrony
 colord
+cheese
