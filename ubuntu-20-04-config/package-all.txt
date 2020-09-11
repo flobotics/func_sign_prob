@@ -630,3 +630,4 @@ ibus-mozc
 mozc-server
 mawk
 mtx
+mousetweaks

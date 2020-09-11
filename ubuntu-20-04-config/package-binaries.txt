@@ -1456,3 +1456,4 @@
 /usr/sbin/scsieject
 /usr/sbin/scsitape
 /usr/sbin/tapeinfo
+/usr/bin/mousetweaks
