@@ -1250,3 +1250,4 @@ boinc-app-seti-graphics
 badger
 bagel
 bogofilter-sqlite
+bogofilter-bdb

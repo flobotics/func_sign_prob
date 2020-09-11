@@ -2329,3 +2329,7 @@
 /usr/bin/bogolexer-sqlite
 /usr/bin/bogotune-sqlite
 /usr/bin/bogoutil-sqlite
+/usr/bin/bogofilter-bdb
+/usr/bin/bogolexer-bdb
+/usr/bin/bogotune-bdb
+/usr/bin/bogoutil-bdb
