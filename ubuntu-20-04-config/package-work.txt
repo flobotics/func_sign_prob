@@ -499,3 +499,5 @@ dbus-x11
 devio
 dosfstools
 dash
+diffstat
+dconf-cli

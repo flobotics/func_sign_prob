@@ -1535,3 +1535,5 @@
 /sbin/fsck.fat
 /sbin/mkfs.fat
 /bin/dash
+/usr/bin/diffstat
+/usr/bin/dconf

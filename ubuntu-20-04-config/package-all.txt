@@ -659,3 +659,7 @@ dbus-x11
 devio
 dosfstools
 dash
+diffstat
+dconf-service
+dconf-gsettings-backend
+dconf-cli
