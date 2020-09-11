@@ -537,3 +537,6 @@ apache2-utils
 avahi-utils
 avahi-autoipd
 avahi-daemon
+attr
+acpid
+handy-0.0-examples

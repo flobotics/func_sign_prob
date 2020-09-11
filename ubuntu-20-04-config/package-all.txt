@@ -709,3 +709,6 @@ accountsservice
 avahi-utils
 avahi-autoipd
 avahi-daemon
+attr
+acpid
+handy-0.0-examples

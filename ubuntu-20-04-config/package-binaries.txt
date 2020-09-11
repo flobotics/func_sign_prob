@@ -1679,3 +1679,9 @@
 /usr/bin/avahi-set-host-name
 /usr/sbin/avahi-autoipd
 /usr/sbin/avahi-daemon
+/usr/bin/attr
+/usr/bin/getfattr
+/usr/bin/setfattr
+/usr/bin/acpi_listen
+/usr/sbin/acpid
+/usr/bin/handy-0.0-demo
