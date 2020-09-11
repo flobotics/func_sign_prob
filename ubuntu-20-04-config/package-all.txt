@@ -621,3 +621,4 @@ mesa-vdpau-drivers
 mesa-vulkan-drivers
 mlocate
 mutter
+makedumpfile
