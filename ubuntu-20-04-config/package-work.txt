@@ -702,3 +702,5 @@ kontact
 kamailio-berkeley-bin
 kmymoney
 kdoctools5
+kcolorchooser
+kded5

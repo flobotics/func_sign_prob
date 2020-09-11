@@ -330,3 +330,5 @@ kamailio-berkeley-modules
 kamailio-presence-modules
 qml-module-org-kde-kholidays
 kodi-pvr-iptvsimple
+ksnakeduel
+konsole-kpart
