@@ -713,3 +713,4 @@ kinfocenter
 kookbook
 kbibtex
 kmix
+kpackagetool5
