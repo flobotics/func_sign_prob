@@ -1313,3 +1313,6 @@ fingerd
 biff
 barnowl
 bedtools
+berusky
+baycomepp
+byacc-j

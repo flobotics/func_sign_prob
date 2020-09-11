@@ -850,3 +850,5 @@ fingerd
 biff
 barnowl
 bedtools
+baycomepp
+byacc-j

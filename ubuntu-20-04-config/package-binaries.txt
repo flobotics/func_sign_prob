@@ -2433,3 +2433,6 @@
 /usr/bin/barnowl
 /usr/bin/zcrypt
 /usr/bin/bedtools
+/usr/sbin/baycomepp
+/usr/sbin/eppfpga
+/usr/bin/byaccj
