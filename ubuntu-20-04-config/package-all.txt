@@ -1092,3 +1092,4 @@ plasma-widgets-addons
 plasma-dataengines-addons
 plasma-runners-addons
 kinput2-canna-wnn
+kinput2-wnn

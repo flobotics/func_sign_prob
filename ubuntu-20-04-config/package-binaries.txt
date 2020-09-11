@@ -2158,3 +2158,4 @@
 /usr/bin/khangman
 /usr/bin/kgeography
 /usr/bin/kinput2-canna-wnn
+/usr/bin/kinput2-wnn
