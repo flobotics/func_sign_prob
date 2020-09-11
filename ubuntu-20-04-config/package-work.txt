@@ -824,3 +824,4 @@ bogofilter-bdb
 bwa
 budgie-extras-daemon
 buici-clock
+bibtexconv

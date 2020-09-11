@@ -438,3 +438,7 @@ budgie-visualspace-applet
 budgie-window-shuffler
 bs2b-ladspa
 blastem
+bbmap-jni
+beignet-dev
+beignet-opencl-icd
+brainparty

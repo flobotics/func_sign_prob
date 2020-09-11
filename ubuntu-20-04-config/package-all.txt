@@ -1270,3 +1270,8 @@ budgie-window-shuffler
 bs2b-ladspa
 blastem
 buici-clock
+bbmap-jni
+beignet-dev
+beignet-opencl-icd
+brainparty
+bibtexconv
