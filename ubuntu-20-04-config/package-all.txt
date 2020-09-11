@@ -603,3 +603,4 @@ linux-image-5.4.0-1009-aws
 dmsetup
 dmeventd
 lvm2
+lftp

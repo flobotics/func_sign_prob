@@ -452,3 +452,4 @@ ltrace
 dmsetup
 dmeventd
 lvm2
+lftp
