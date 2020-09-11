@@ -698,3 +698,4 @@ kpackagelauncherqml
 kalign
 kphotoalbum
 kanjipad
+kontact

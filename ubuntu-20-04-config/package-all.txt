@@ -996,3 +996,5 @@ killbots
 kio-gopher
 kphotoalbum
 kanjipad
+kraken2
+kontact

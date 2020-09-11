@@ -290,3 +290,4 @@ kdenetwork-filesharing
 kodi-visualization-spectrum
 killbots
 kio-gopher
+kraken2
