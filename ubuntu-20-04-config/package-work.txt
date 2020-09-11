@@ -699,3 +699,4 @@ kalign
 kphotoalbum
 kanjipad
 kontact
+kamailio-berkeley-bin
