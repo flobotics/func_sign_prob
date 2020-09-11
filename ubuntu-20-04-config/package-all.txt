@@ -451,3 +451,5 @@ socat
 sane-utils
 sbsigntool
 smartmontools
+systemd-timesyncd
+udev
