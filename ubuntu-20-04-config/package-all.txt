@@ -1225,3 +1225,7 @@ bcal
 bino
 bloboats
 bibtool
+blockattack
+bruteforce-salted-openssl
+bluez-btsco
+bdbvu

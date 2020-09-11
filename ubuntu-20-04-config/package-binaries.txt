@@ -2305,3 +2305,6 @@
 /usr/bin/KlustaKwik
 /usr/bin/bcal
 /usr/bin/bibtool
+/usr/bin/bruteforce-salted-openssl
+/usr/bin/btsco
+/usr/bin/bdbvu

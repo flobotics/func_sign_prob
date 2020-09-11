@@ -805,3 +805,6 @@ kitty
 klustakwik
 bcal
 bibtool
+bruteforce-salted-openssl
+bluez-btsco
+bdbvu
