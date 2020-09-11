@@ -800,3 +800,4 @@ kchmviewer
 ksysguardd
 kjots
 klavaro
+katarakt
