@@ -2279,3 +2279,4 @@
 /usr/bin/kmousetool
 /usr/bin/kmflcomp
 /usr/bin/kylin-video
+/usr/sbin/keytouch-editor

@@ -1172,3 +1172,5 @@ kmousetool
 kaccounts-providers
 kmflcomp
 kylin-video
+kshisen
+keytouch-editor

@@ -781,3 +781,4 @@ kde-spectacle
 kmousetool
 kmflcomp
 kylin-video
+keytouch-editor
