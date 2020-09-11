@@ -867,3 +867,4 @@ krb5-user
 krb5-pkinit
 ktexteditor-katepart
 kopano-gateway
+kopano-spooler
