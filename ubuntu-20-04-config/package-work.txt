@@ -755,3 +755,4 @@ kid3-qt
 kdrill
 makedic
 kelbt
+kmouth

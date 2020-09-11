@@ -1139,3 +1139,4 @@ kid3-core
 kdrill
 makedic
 kelbt
+kmouth
