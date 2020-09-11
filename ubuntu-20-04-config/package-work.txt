@@ -400,3 +400,4 @@ gnome-session-bin
 gnome-startup-applications
 gfxboot-dev
 gnome-system-monitor
+gawk
