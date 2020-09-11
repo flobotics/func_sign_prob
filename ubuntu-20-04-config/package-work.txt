@@ -480,3 +480,7 @@ mysql-server-core-8.0
 modemmanager
 mtools
 diffutils
+dmraid
+dnstracer
+dh-exec
+deja-dup

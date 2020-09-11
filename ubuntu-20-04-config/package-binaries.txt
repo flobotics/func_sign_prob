@@ -1487,3 +1487,7 @@
 /usr/bin/diff
 /usr/bin/diff3
 /usr/bin/sdiff
+/sbin/dmraid
+/usr/bin/dnstracer
+/usr/bin/dh-exec
+/usr/bin/deja-dup

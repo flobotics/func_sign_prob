@@ -637,3 +637,8 @@ modemmanager
 mecab-utils
 mtools
 diffutils
+dmraid
+dnstracer
+duplicity
+dh-exec
+deja-dup
