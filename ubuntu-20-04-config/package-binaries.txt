@@ -1836,3 +1836,12 @@
 /usr/bin/filterdiff
 /usr/bin/interdiff
 /usr/bin/rediff
+/usr/bin/gkbd-keyboard-display
+/sbin/fsck.jfs
+/sbin/jfs_debugfs
+/sbin/jfs_fsck
+/sbin/jfs_fscklog
+/sbin/jfs_logdump
+/sbin/jfs_mkfs
+/sbin/jfs_tune
+/sbin/mkfs.jfs

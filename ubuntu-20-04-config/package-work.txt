@@ -587,3 +587,5 @@ pango1.0-tools
 poppler-utils
 powertop
 patchutils
+gkbd-capplet
+jfsutils

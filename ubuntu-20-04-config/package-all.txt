@@ -809,3 +809,6 @@ poppler-utils
 python3-wrapt
 powertop
 patchutils
+python3-xattr
+gkbd-capplet
+jfsutils
