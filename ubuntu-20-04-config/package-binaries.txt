@@ -1988,3 +1988,4 @@
 /usr/bin/knxtool
 /usr/bin/kalarm
 /usr/bin/kalarmautostart
+/usr/bin/kickpass

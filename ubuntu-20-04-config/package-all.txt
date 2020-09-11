@@ -885,3 +885,7 @@ kspaceduel
 knxd-tools
 kamera
 kalarm
+ktuberling
+kwrited
+kmines
+kickpass

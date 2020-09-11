@@ -245,3 +245,6 @@ php-mapi
 kde-config-gtk-style-preview
 kspaceduel
 kamera
+ktuberling
+kwrited
+kmines

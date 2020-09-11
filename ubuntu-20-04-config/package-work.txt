@@ -636,3 +636,4 @@ kde-config-gtk-style
 kdepim-addons
 knxd-tools
 kalarm
+kickpass
