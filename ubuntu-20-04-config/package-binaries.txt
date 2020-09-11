@@ -1100,3 +1100,6 @@
 /usr/sbin/smartd
 /bin/systemd-hwdb
 /bin/udevadm
+/bin/machinectl
+/bin/portablectl
+/usr/bin/systemd-nspawn
