@@ -744,3 +744,5 @@ accountwizard
 keylaunch
 kirigami-gallery
 knockd
+kdesvn
+kcachegrind
