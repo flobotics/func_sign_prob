@@ -461,3 +461,6 @@ multipath-tools
 kpartx
 msr-tools
 memcached
+mokutil
+printer-driver-m2300w
+mutt
