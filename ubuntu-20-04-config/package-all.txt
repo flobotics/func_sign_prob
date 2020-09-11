@@ -1331,3 +1331,4 @@ beep
 barcode
 bitmeter
 batctl
+bwbasic
