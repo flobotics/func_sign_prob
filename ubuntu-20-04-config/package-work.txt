@@ -573,3 +573,4 @@ packagekit-tools
 printer-driver-pxljr
 pcmciautils
 postgresql-client-12
+postgresql-12
