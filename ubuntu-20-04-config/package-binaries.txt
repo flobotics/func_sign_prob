@@ -1106,3 +1106,5 @@
 /sbin/fstab-decode
 /sbin/killall5
 /usr/bin/spamc
+/usr/bin/spd-say
+/usr/bin/speech-dispatcher
