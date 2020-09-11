@@ -621,3 +621,4 @@ kanatest
 krb5-gss-samples
 krb5-admin-server
 krb5-kdc
+krb5-kdc-ldap

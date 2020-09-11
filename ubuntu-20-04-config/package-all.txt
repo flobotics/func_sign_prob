@@ -860,3 +860,5 @@ krb5-gss-samples
 krb5-admin-server
 krb5-k5tls
 krb5-kdc
+krb5-otp
+krb5-kdc-ldap
