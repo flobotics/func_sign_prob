@@ -358,3 +358,6 @@ plasma-calendar-addons
 plasma-widgets-addons
 plasma-dataengines-addons
 plasma-runners-addons
+kde-telepathy-integration-module
+kde-telepathy-desktop-applets
+kobodeluxe

@@ -1094,3 +1094,7 @@ plasma-runners-addons
 kinput2-canna-wnn
 kinput2-wnn
 keepassx
+kde-telepathy-integration-module
+kde-telepathy-desktop-applets
+kobodeluxe
+knews
