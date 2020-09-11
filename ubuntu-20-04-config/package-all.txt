@@ -476,3 +476,4 @@ sssd-common
 sssd-dbus
 printer-driver-splix
 squid
+strace
