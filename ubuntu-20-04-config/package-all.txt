@@ -1196,3 +1196,4 @@ khmer
 kturtle
 kwalletmanager
 ktouch
+kstars

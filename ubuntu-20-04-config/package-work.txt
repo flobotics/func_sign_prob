@@ -793,3 +793,4 @@ kgpg
 kturtle
 kwalletmanager
 ktouch
+kstars
