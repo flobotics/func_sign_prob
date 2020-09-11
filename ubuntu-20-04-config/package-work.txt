@@ -797,3 +797,4 @@ kstars
 kwave
 kasumi
 kchmviewer
+ksysguardd

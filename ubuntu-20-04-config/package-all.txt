@@ -1203,3 +1203,5 @@ kodi-pvr-mythtv
 kwave
 kasumi
 kchmviewer
+konquest
+ksysguardd
