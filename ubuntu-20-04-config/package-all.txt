@@ -1285,3 +1285,7 @@ bluez-tools
 bambootracker
 barrage
 beads
+bidiv
+botch
+bumprace
+bash-static

@@ -832,3 +832,6 @@ baycomusb
 bluez-tools
 bambootracker
 beads
+bidiv
+botch
+bash-static
