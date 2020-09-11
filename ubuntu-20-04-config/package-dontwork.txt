@@ -84,3 +84,4 @@ python3-uno
 samba-dsdb-modules
 samba-vfs-modules
 python3-samba
+samba-libs

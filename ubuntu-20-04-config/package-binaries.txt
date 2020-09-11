@@ -1060,3 +1060,11 @@
 /usr/bin/samba-regedit
 /usr/bin/smbpasswd
 /usr/bin/testparm
+/usr/bin/cifsdd
+/usr/bin/rpcclient
+/usr/bin/smbcacls
+/usr/bin/smbclient
+/usr/bin/smbcquotas
+/usr/bin/smbget
+/usr/bin/smbspool
+/usr/bin/smbtree
