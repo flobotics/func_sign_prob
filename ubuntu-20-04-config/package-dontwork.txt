@@ -98,3 +98,5 @@ sssd-ad-common
 sssd-krb5-common
 sssd-ipa
 sssd-ldap
+sssd-dbus
+printer-driver-splix

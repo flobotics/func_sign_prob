@@ -1122,3 +1122,4 @@
 /usr/bin/sss_ssh_authorizedkeys
 /usr/bin/sss_ssh_knownhostsproxy
 /usr/sbin/sssd
+/usr/sbin/squid

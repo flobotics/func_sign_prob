@@ -372,3 +372,4 @@ sudo
 simple-scan
 sssd-tools
 sssd-common
+squid
