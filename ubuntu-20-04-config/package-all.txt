@@ -799,3 +799,6 @@ plymouth-theme-spinner
 plymouth-label
 pptpd
 bcrelay
+python3-pyrsistent
+pptp-linux
+pciutils

@@ -1815,3 +1815,5 @@
 /usr/sbin/pptpctrl
 /usr/sbin/pptpd
 /usr/sbin/bcrelay
+/usr/bin/lspci
+/usr/bin/setpci

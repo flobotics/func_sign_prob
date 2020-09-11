@@ -581,3 +581,5 @@ pulseaudio-utils
 pax
 pptpd
 bcrelay
+pptp-linux
+pciutils
