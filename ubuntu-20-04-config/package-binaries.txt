@@ -2064,3 +2064,4 @@
 /usr/bin/kxstitch
 /usr/bin/kino
 /usr/bin/kanshi
+/usr/bin/ktp-send-file
