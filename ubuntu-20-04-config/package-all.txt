@@ -691,3 +691,4 @@ python3-libvirt
 appstream
 auditd
 acct
+advancecomp

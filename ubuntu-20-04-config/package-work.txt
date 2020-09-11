@@ -523,3 +523,4 @@ logsave
 appstream
 auditd
 acct
+advancecomp
