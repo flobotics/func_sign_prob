@@ -165,3 +165,4 @@ erlang-crypto
 erlang-asn1
 python3-libvirt
 python3-libapparmor
+aisleriot

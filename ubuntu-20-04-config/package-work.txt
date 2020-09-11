@@ -528,3 +528,5 @@ aide
 apg
 autofs
 anacron
+apt-utils
+aspell
