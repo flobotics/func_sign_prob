@@ -2044,3 +2044,7 @@
 /usr/bin/knocker
 /usr/bin/ktimer
 /usr/bin/kscreen-console
+/usr/bin/kodi-wiiremote
+/usr/bin/TexturePacker
+/usr/bin/kuvert_submit
+/usr/bin/kolourpaint

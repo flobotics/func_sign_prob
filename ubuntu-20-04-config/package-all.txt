@@ -918,3 +918,10 @@ kde-telepathy-call-ui
 knocker
 ktimer
 kscreen
+kodi-x11
+kodi-eventclients-wiiremote
+kodi-gbm
+kodi-wayland
+kodi-bin
+kuvert
+kolourpaint
