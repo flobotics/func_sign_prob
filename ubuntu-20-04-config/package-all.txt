@@ -583,3 +583,4 @@ linux-image-5.4.0-1009-gcp
 lockfile-progs
 python3-ldb
 lsof
+lz4
