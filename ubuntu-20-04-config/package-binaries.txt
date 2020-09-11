@@ -2313,3 +2313,4 @@
 /usr/bin/birdtray
 /usr/lib/debian-med/bin/express
 /usr/bin/Bandage
+/usr/bin/bibshelf

@@ -812,3 +812,4 @@ bspwm
 birdtray
 berkeley-express
 bandage
+bibshelf
