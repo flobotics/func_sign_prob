@@ -2084,3 +2084,4 @@
 /usr/bin/kteatime
 /usr/bin/keynav
 /usr/bin/kpackagelauncherqml
+/usr/bin/kalign

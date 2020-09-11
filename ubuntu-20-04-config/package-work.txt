@@ -695,3 +695,4 @@ keditbookmarks
 kteatime
 keynav
 kpackagelauncherqml
+kalign
