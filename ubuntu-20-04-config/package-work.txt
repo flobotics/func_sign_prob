@@ -740,3 +740,4 @@ kcov
 krusader
 ktikz
 qtikz
+accountwizard
