@@ -2025,3 +2025,10 @@
 /usr/bin/kdf
 /usr/bin/kwikdisk
 /usr/bin/ktnef
+/usr/bin/akonadi_archivemail_agent
+/usr/bin/akonadi_followupreminder_agent
+/usr/bin/akonadi_mailfilter_agent
+/usr/bin/akonadi_sendlater_agent
+/usr/bin/akonadi_unifiedmailbox_agent
+/usr/bin/kmail
+/usr/bin/kmail-refresh-settings

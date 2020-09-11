@@ -650,3 +650,4 @@ kylin-nm
 kyotocabinet-utils
 kdf
 ktnef
+kmail
