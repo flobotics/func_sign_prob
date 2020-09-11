@@ -482,3 +482,5 @@ system-config-printer-udev
 switcheroo-control
 sysstat
 seahorse
+snapd
+sqlite3

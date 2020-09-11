@@ -377,3 +377,5 @@ strace
 schroot
 sysstat
 seahorse
+snapd
+sqlite3
