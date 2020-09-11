@@ -553,3 +553,4 @@ raptor2-utils
 redland-utils
 rsyslog
 rasqal-utils
+rygel
