@@ -597,3 +597,9 @@ inputattach
 9menu
 jcat
 edlib-aligner
+gostsum
+createfp
+eot2ttf
+explain
+printemf
+ewf-tools

@@ -219,3 +219,6 @@ python3-pyscss
 printer-driver-ptouch
 python3-wrapt
 python3-xattr
+python3-edlib
+python3-libevtx
+python3-libesedb
