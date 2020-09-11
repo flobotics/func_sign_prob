@@ -1068,3 +1068,6 @@
 /usr/bin/smbget
 /usr/bin/smbspool
 /usr/bin/smbtree
+/usr/bin/unshar
+/usr/bin/uudecode
+/usr/bin/uuencode

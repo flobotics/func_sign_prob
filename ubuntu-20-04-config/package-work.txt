@@ -351,3 +351,4 @@ samba
 winbind
 samba-common-bin
 smbclient
+sharutils
