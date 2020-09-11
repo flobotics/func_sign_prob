@@ -527,3 +527,4 @@ advancecomp
 aide
 apg
 autofs
+anacron
