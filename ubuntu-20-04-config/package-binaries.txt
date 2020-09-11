@@ -2200,3 +2200,6 @@
 /usr/bin/kid3-cli
 /usr/bin/kid3-qt
 /usr/bin/kdrill
+/usr/bin/makedic
+/usr/bin/makeedict
+/usr/bin/kelbt
