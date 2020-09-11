@@ -1225,3 +1225,6 @@
 /bin/grep
 /usr/bin/gnome-extensions
 /usr/bin/gnome-shell
+/usr/bin/gedit
+/usr/bin/gjs-console
+/usr/bin/gnome-terminal.real

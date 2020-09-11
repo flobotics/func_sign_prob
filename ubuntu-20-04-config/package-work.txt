@@ -391,3 +391,6 @@ gpgv
 gpg-agent
 grep
 gnome-shell
+gedit
+gjs
+gnome-terminal
