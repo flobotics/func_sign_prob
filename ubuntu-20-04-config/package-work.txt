@@ -808,3 +808,5 @@ bibtool
 bruteforce-salted-openssl
 bluez-btsco
 bdbvu
+bspwm
+birdtray

@@ -2308,3 +2308,6 @@
 /usr/bin/bruteforce-salted-openssl
 /usr/bin/btsco
 /usr/bin/bdbvu
+/usr/bin/bspc
+/usr/bin/bspwm
+/usr/bin/birdtray

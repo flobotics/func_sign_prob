@@ -1229,3 +1229,8 @@ blockattack
 bruteforce-salted-openssl
 bluez-btsco
 bdbvu
+ballview
+bspwm
+between
+python3-broccoli
+birdtray
