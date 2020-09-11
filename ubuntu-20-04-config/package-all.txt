@@ -929,3 +929,4 @@ kolf
 kvirc
 kvirc-modules
 ksshaskpass
+kshutdown
