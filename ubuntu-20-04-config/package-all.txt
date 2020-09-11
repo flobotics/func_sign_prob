@@ -868,3 +868,5 @@ krb5-pkinit
 ktexteditor-katepart
 kopano-gateway
 kopano-spooler
+kopano-archiver
+kopano-ical

@@ -1967,3 +1967,5 @@
 /usr/bin/kvno
 /usr/sbin/kopano-gateway
 /usr/sbin/kopano-spooler
+/usr/sbin/kopano-archiver
+/usr/sbin/kopano-ical
