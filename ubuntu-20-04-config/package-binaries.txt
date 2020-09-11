@@ -1994,3 +1994,13 @@
 /usr/bin/KWStyle
 /usr/bin/kdocker
 /usr/bin/kluppe
+/usr/bin/knsec3hash
+/usr/bin/kzonecheck
+/usr/sbin/keymgr
+/usr/sbin/kjournalprint
+/usr/sbin/knotc
+/usr/sbin/knotd
+/usr/bin/khost
+/usr/bin/kdig
+/usr/bin/knsupdate
+/usr/bin/kget

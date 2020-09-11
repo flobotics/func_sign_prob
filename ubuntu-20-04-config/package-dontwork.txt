@@ -248,3 +248,4 @@ kamera
 ktuberling
 kwrited
 kmines
+kde-telepathy-auth-handler

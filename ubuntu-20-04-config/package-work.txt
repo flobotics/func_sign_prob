@@ -642,3 +642,7 @@ klatexformula
 kwstyle
 kdocker
 kluppe
+knot
+knot-host
+knot-dnsutils
+kget
