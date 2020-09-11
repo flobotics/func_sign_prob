@@ -823,3 +823,4 @@ bogofilter-sqlite
 bogofilter-bdb
 bwa
 budgie-extras-daemon
+buici-clock
