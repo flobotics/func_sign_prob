@@ -1320,3 +1320,5 @@ mate-applet-brisk-menu
 booth
 bosh
 batmand
+briquolo
+bwm-ng

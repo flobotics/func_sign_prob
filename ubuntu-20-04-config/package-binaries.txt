@@ -2439,3 +2439,4 @@
 /usr/sbin/boothd
 /usr/bin/bosh
 /usr/sbin/batmand
+/usr/bin/bwm-ng
