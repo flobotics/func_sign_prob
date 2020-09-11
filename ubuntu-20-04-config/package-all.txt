@@ -758,3 +758,4 @@ python3-cryptography
 python3-pyeclib
 ppp
 procps
+pinentry-curses

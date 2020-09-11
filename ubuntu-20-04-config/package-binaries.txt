@@ -1760,3 +1760,4 @@
 /usr/bin/vmstat
 /usr/bin/w.procps
 /usr/bin/watch
+/usr/bin/pinentry-curses
