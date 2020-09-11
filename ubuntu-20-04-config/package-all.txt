@@ -449,3 +449,4 @@ strongswan-charon
 strongswan-libcharon
 socat
 sane-utils
+sbsigntool

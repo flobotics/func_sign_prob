@@ -358,3 +358,4 @@ login
 squashfs-tools
 socat
 sane-utils
+sbsigntool
