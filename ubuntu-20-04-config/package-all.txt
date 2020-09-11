@@ -851,3 +851,6 @@ kmag
 krb5-sync-tools
 korganizer
 kdebugsettings
+kawari8
+kakasi
+kanatest
