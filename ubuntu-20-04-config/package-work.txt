@@ -409,3 +409,6 @@ gnome-disk-utility
 gdisk
 gnome-screenshot
 gnome-calendar
+grub-common
+gdm3
+gobject-introspection

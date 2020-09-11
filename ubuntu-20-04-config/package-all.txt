@@ -531,3 +531,13 @@ glib-networking-services
 gnome-screenshot
 gnome-settings-daemon
 gnome-calendar
+gnome-keyring-pkcs11
+gnome-initial-setup
+grub2-common
+grub-common
+grub-pc-bin
+gtk2-engines-murrine
+gdm3
+gnome-mahjongg
+gparted
+gobject-introspection
