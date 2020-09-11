@@ -373,6 +373,7 @@ def proc_get_types_from_names(ret_type, binary_name):
     
 def get_types_from_names(funcs_and_ret_types, binary_name, verbose=False):
     funcs_and_ret_types_filtered = list()
+    proc_ret_type_list = list()
 
     # does not find **  ?????
     #legal_types = ['void', 'void *', '**' 'unsigned', 'char', 'static', '_Bool', 'int', 'wchar_t',
