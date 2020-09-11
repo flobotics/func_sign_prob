@@ -430,3 +430,4 @@ whoopsie-preferences
 wdiff
 whois
 yelp
+shotwell

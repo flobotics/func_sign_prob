@@ -1040,3 +1040,4 @@
 /usr/bin/mkpasswd
 /usr/bin/whois
 /usr/bin/yelp
+/usr/bin/shotwell
