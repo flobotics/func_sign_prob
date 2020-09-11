@@ -2276,3 +2276,6 @@
 /usr/bin/krdc
 /usr/bin/spectacle
 /usr/lib/x86_64-linux-gnu/kconf_update_bin/spectacle-migrate-shortcuts
+/usr/bin/kmousetool
+/usr/bin/kmflcomp
+/usr/bin/kylin-video

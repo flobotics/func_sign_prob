@@ -1167,3 +1167,8 @@ kismet
 kdevelop-pg-qt
 krdc
 kde-spectacle
+kdevelop-python
+kmousetool
+kaccounts-providers
+kmflcomp
+kylin-video
