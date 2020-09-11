@@ -496,3 +496,4 @@ gpgconf
 gnupg-utils
 gpg-wks-server
 gpgv
+gpg-agent
