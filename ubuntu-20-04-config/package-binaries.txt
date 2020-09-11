@@ -2292,3 +2292,4 @@
 /usr/bin/kgpg
 /usr/bin/kturtle
 /usr/bin/kwalletmanager5
+/usr/bin/ktouch
