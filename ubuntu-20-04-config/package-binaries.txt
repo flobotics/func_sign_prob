@@ -1356,3 +1356,12 @@
 /usr/bin/obex_find
 /usr/bin/obex_tcp
 /usr/bin/obex_test
+/usr/sbin/logrotate
+/usr/bin/lockfile-check
+/usr/bin/lockfile-create
+/usr/bin/lockfile-remove
+/usr/bin/lockfile-touch
+/usr/bin/mail-lock
+/usr/bin/mail-touchlock
+/usr/bin/mail-unlock
+/usr/bin/lsof
