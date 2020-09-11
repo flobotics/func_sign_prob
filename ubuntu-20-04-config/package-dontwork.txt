@@ -152,3 +152,4 @@ mesa-vdpau-drivers
 mesa-vulkan-drivers
 ibus-mozc
 mozc-server
+mecab-utils
