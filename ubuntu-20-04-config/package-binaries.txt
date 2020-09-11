@@ -1451,3 +1451,8 @@
 /usr/sbin/accessdb
 /usr/sbin/mouseemu
 /usr/bin/mawk
+/usr/sbin/loaderinfo
+/usr/sbin/mtx
+/usr/sbin/scsieject
+/usr/sbin/scsitape
+/usr/sbin/tapeinfo

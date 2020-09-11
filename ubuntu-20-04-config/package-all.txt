@@ -629,3 +629,4 @@ mouseemu
 ibus-mozc
 mozc-server
 mawk
+mtx
