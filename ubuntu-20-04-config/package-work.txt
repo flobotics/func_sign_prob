@@ -763,3 +763,5 @@ kicad
 kruler
 kannel-sqlbox
 kmscube
+kup-backup
+kmplot
