@@ -518,3 +518,4 @@ gnome-characters
 gnome-mines
 gnome-system-monitor
 gawk
+gnome-calculator
