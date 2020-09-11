@@ -1990,3 +1990,4 @@
 /usr/bin/kalarmautostart
 /usr/bin/kickpass
 /usr/bin/KBtin
+/usr/bin/klatexformula

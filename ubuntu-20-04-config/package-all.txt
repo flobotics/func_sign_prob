@@ -890,3 +890,4 @@ kwrited
 kmines
 kickpass
 kbtin
+klatexformula

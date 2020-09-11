@@ -638,3 +638,4 @@ knxd-tools
 kalarm
 kickpass
 kbtin
+klatexformula
