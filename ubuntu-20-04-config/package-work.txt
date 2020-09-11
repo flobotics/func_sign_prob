@@ -646,3 +646,4 @@ knot
 knot-host
 knot-dnsutils
 kget
+kylin-nm

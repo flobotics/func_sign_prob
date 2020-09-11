@@ -249,3 +249,5 @@ ktuberling
 kwrited
 kmines
 kde-telepathy-auth-handler
+klines
+kde-config-systemd

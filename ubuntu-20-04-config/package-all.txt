@@ -899,3 +899,6 @@ knot-host
 knot-dnsutils
 kde-telepathy-auth-handler
 kget
+klines
+kde-config-systemd
+kylin-nm
