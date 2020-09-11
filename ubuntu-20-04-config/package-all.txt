@@ -1063,3 +1063,5 @@ kbibtex
 kmix
 r-cran-kernsmooth
 kpackagetool5
+kgb
+kdc2tiff
