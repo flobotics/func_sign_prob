@@ -2315,3 +2315,4 @@
 /usr/bin/Bandage
 /usr/bin/bibshelf
 /usr/sbin/huntd
+/usr/bin/bliss
