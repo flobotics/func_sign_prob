@@ -1246,3 +1246,5 @@
 /usr/bin/gettext
 /usr/bin/ngettext
 /usr/bin/gnome-control-center
+/usr/bin/gnome-disk-image-mounter
+/usr/bin/gnome-disks

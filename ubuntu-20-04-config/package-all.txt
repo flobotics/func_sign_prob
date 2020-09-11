@@ -523,3 +523,5 @@ gpsd
 gettext-base
 gtk-im-libthai
 gnome-control-center
+gzip
+gnome-disk-utility
