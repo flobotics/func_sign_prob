@@ -959,3 +959,6 @@ kino
 kanshi
 kde-telepathy-send-file
 kanagram
+kodi-pvr-mediaportal-tvserver
+kwayland-integration
+kde-telepathy-contact-list

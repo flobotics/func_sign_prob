@@ -269,3 +269,5 @@ kde-telepathy-approver
 kio-perldoc
 klayout
 kpeople-vcard
+kodi-pvr-mediaportal-tvserver
+kwayland-integration
