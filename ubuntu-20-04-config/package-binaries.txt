@@ -1991,3 +1991,4 @@
 /usr/bin/kickpass
 /usr/bin/KBtin
 /usr/bin/klatexformula
+/usr/bin/KWStyle

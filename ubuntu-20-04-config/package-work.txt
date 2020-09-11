@@ -639,3 +639,4 @@ kalarm
 kickpass
 kbtin
 klatexformula
+kwstyle
