@@ -335,3 +335,7 @@ konsole-kpart
 kodi-pvr-njoy
 koules
 kildclient
+nautilus-extension-burner
+burner-cdrkit
+kbreakout
+qml-module-org-kde-activities

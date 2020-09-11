@@ -706,3 +706,5 @@ kcolorchooser
 kded5
 knotes
 kylin-burner
+kactivities-bin
+klettres
