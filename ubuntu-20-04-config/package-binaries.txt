@@ -1281,3 +1281,4 @@
 /usr/bin/g-ir-inspect
 /usr/bin/google_authorized_keys
 /usr/bin/google_oslogin_nss_cache
+/usr/bin/gnome-todo

@@ -542,3 +542,4 @@ gnome-mahjongg
 gparted
 gobject-introspection
 google-compute-engine-oslogin
+gnome-todo
