@@ -402,3 +402,4 @@ gfxboot-dev
 gnome-system-monitor
 gawk
 gnome-calculator
+gettext-base
