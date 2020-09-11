@@ -672,3 +672,4 @@ kcharselect
 kross
 krfb
 kbackup
+kbdd
