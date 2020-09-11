@@ -506,3 +506,6 @@ gnome-shell
 gedit
 gjs
 gnome-terminal
+nautilus-extension-gnome-terminal
+gnome-online-accounts
+gtk-update-icon-cache

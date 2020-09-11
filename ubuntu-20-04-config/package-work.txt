@@ -394,3 +394,4 @@ gnome-shell
 gedit
 gjs
 gnome-terminal
+gtk-update-icon-cache

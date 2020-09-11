@@ -109,3 +109,5 @@ gvfs-backends
 gvfs-daemons
 gvfs-libs
 gvfs-fuse
+nautilus-extension-gnome-terminal
+gnome-online-accounts
