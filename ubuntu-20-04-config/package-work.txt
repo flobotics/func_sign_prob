@@ -374,3 +374,4 @@ sssd-tools
 sssd-common
 squid
 strace
+schroot

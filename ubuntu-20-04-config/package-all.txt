@@ -477,3 +477,4 @@ sssd-dbus
 printer-driver-splix
 squid
 strace
+schroot

@@ -1124,3 +1124,4 @@
 /usr/sbin/sssd
 /usr/sbin/squid
 /usr/bin/strace
+/usr/bin/schroot

@@ -397,7 +397,7 @@ def get_types_from_names(funcs_and_ret_types, binary_name, verbose=False):
         print(f'len funcs_and_ret_types: {len(funcs_and_ret_types)}')
         return funcs_and_ret_types_filtered
     
-    p = Pool(4)
+    p = Pool(16)
     for a, ret_type, funcName, baseFileName in funcs_and_ret_types:
         proc_ret_type_list.append((ret_type, binary_name))
         
@@ -502,7 +502,7 @@ def get_disassemble(funcs_and_ret_types_filtered, binary_name, verbose=False):
         print(f'len funcs_and_ret_types_filtered: {len(funcs_and_ret_types_filtered)}')
         return dataset
     
-    p = Pool(4)
+    p = Pool(16)
     for a,b,funcName, baseFileName in funcs_and_ret_types_filtered:
         proc_disas_list.append((funcName, baseFileName, binary_name))
         
