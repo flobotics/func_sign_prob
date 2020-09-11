@@ -1330,3 +1330,4 @@ python3-btrfsutil
 beep
 barcode
 bitmeter
+batctl

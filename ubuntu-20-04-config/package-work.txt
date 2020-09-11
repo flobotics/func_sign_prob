@@ -862,3 +862,4 @@ biobambam2
 beep
 barcode
 bitmeter
+batctl
