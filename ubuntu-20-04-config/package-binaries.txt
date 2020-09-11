@@ -2288,3 +2288,4 @@
 /usr/sbin/kylin-greeter
 /usr/bin/klog
 /usr/bin/kbruch
+/usr/bin/ktp-debugger

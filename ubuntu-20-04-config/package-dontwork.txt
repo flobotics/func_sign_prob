@@ -387,3 +387,8 @@ kshisen
 qml-module-org-kde-kitemmodels
 kball
 kodi-pvr-vdr-vnsi
+knavalbattle
+python3-kivy
+kde-telepathy-kpeople
+kde-telepathy-kaccounts
+qml-module-org-kde-telepathy

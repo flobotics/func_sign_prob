@@ -1183,3 +1183,9 @@ klog
 kball
 kodi-pvr-vdr-vnsi
 kbruch
+knavalbattle
+python3-kivy
+kde-telepathy-kpeople
+kde-telepathy-kaccounts
+qml-module-org-kde-telepathy
+kde-telepathy-debugger
