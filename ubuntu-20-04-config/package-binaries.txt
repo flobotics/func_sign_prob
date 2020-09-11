@@ -1385,3 +1385,4 @@
 /sbin/mpathpersist
 /sbin/multipath
 /sbin/multipathd
+/sbin/kpartx
