@@ -387,3 +387,4 @@ dirmngr
 gpgconf
 gnupg-utils
 gpg-wks-server
+gpgv

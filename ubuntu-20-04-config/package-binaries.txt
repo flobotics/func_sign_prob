@@ -1220,3 +1220,4 @@
 /usr/bin/symcryptrun
 /usr/bin/watchgnupg
 /usr/bin/gpg-wks-server
+/usr/bin/gpgv
