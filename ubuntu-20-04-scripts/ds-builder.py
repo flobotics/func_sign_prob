@@ -9,7 +9,6 @@ import pickle
 import getopt
 import sys
 from multiprocessing import Pool
-from builtins import False
 
 base_path = "/home/infloflo/git/func_sign_prob/"
 #base_path = "/home/ubu/git/test/func_sign_prob/"
