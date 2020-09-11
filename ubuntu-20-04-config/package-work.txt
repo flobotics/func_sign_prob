@@ -349,3 +349,4 @@ yelp
 shotwell
 samba
 winbind
+samba-common-bin
