@@ -2438,3 +2438,4 @@
 /usr/bin/byaccj
 /usr/sbin/boothd
 /usr/bin/bosh
+/usr/sbin/batmand
