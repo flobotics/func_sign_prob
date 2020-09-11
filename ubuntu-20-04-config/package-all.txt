@@ -718,3 +718,5 @@ ruby2.7
 recode
 reiserfsprogs
 re2c
+rtkit
+reiser4progs
