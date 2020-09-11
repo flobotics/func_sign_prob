@@ -849,3 +849,4 @@ kdevelop-php
 kjumpingcube
 kmag
 krb5-sync-tools
+korganizer

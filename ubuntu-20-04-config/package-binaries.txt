@@ -1937,3 +1937,5 @@
 /usr/sbin/ksmctl
 /usr/bin/kmag
 /usr/sbin/krb5-sync
+/usr/bin/korgac
+/usr/bin/korganizer
