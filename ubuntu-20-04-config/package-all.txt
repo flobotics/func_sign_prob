@@ -689,3 +689,4 @@ e2fsprogs
 logsave
 python3-libvirt
 appstream
+auditd

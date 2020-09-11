@@ -521,3 +521,4 @@ elfutils
 e2fsprogs
 logsave
 appstream
+auditd
