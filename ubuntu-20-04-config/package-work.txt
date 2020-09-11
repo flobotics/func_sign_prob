@@ -498,3 +498,4 @@ drbd-utils
 dbus-x11
 devio
 dosfstools
+dash
