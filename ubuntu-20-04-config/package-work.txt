@@ -628,3 +628,4 @@ kopano-gateway
 kopano-spooler
 kopano-archiver
 kopano-ical
+kopano-server

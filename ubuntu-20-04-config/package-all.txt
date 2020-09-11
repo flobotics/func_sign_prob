@@ -870,3 +870,5 @@ kopano-gateway
 kopano-spooler
 kopano-archiver
 kopano-ical
+python3-mapi
+kopano-server
