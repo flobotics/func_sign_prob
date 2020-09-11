@@ -2381,3 +2381,4 @@
 /usr/bin/botch-print-stats
 /bin/bash-static
 /usr/bin/biboumi
+/usr/bin/bijiben
