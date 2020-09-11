@@ -943,3 +943,9 @@ krfb
 kbackup
 komi
 kbdd
+konversation
+kde-telepathy-approver
+kvmtool
+kio-perldoc
+klayout
+k4dirstat

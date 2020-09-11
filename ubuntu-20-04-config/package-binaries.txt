@@ -2056,3 +2056,5 @@
 /usr/bin/krfb
 /usr/bin/kbackup
 /usr/bin/kbdd
+/usr/bin/konversation
+/usr/bin/k4dirstat

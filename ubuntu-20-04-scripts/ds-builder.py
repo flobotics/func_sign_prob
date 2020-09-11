@@ -681,7 +681,7 @@ for package in filtered_pkgs_with_dbgsym:
     print(f'Package-nr:{c} of {len(filtered_pkgs_with_dbgsym)}, Name:{package}')
     
     ###get all binaries that are inside this package (without -dbgsym)
-    all_binaries_in_package = get_binaries_in_package(package, False)  
+    all_binaries_in_package = get_binaries_in_package(package, True)  
     print(all_binaries_in_package)
     #if c == 2:
         #sys.exit(0)
@@ -720,7 +720,7 @@ for package in filtered_pkgs_with_dbgsym:
              pass
 
     if len(ds_list) > 0:
-        #print(f'Write pickle file')
+        print(f'Write pickle file')
         save_list_to_pickle(ds_list, package.replace('-dbgsym', ''))
         
         push_pickle_to_github(package.replace('-dbgsym', ''))
