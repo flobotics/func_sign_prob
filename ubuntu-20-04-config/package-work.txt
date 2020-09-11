@@ -794,3 +794,4 @@ kturtle
 kwalletmanager
 ktouch
 kstars
+kwave
