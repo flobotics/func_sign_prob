@@ -640,3 +640,4 @@ kickpass
 kbtin
 klatexformula
 kwstyle
+kdocker

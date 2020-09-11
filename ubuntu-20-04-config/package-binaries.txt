@@ -1992,3 +1992,4 @@
 /usr/bin/KBtin
 /usr/bin/klatexformula
 /usr/bin/KWStyle
+/usr/bin/kdocker
