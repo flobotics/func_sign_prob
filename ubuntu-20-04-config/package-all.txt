@@ -513,3 +513,4 @@ gtk-3-examples
 gtk2-engines-pixbuf
 gnome-session-bin
 gnome-startup-applications
+gfxboot-dev
