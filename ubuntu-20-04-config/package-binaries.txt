@@ -1309,3 +1309,4 @@
 /usr/bin/git
 /usr/bin/git-shell
 /usr/bin/gnome-power-statistics
+/usr/bin/gnome-logs
