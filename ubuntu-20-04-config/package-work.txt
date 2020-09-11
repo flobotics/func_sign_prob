@@ -453,3 +453,5 @@ dmsetup
 dmeventd
 lvm2
 lftp
+lbdb
+mdadm

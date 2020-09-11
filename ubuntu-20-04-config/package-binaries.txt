@@ -1375,3 +1375,6 @@
 /sbin/lvm
 /sbin/lvmpolld
 /usr/bin/lftp
+/usr/bin/lbdb_dotlock
+/sbin/mdadm
+/sbin/mdmon
