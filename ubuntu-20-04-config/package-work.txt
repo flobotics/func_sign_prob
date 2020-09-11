@@ -751,3 +751,4 @@ kwin-x11
 kdeconnect
 kopete
 kid3-cli
+kid3-qt
