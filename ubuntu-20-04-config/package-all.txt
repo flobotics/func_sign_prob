@@ -1065,3 +1065,9 @@ r-cran-kernsmooth
 kpackagetool5
 kgb
 kdc2tiff
+khotkeys
+kodi-pvr-argustv
+kubrick
+kdiamond
+kile
+kdepim-runtime
