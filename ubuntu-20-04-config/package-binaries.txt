@@ -1710,3 +1710,5 @@
 /usr/bin/rygel
 /usr/sbin/iwpmd
 /usr/sbin/rdma-ndd
+/usr/sbin/rdate
+/usr/bin/rsync
