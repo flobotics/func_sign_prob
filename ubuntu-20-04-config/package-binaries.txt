@@ -2090,3 +2090,4 @@
 /usr/bin/kpengine
 /usr/bin/kontact
 /usr/sbin/kambdb_recover
+/usr/bin/kmymoney
