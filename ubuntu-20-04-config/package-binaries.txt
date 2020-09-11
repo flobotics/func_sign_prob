@@ -2362,3 +2362,4 @@
 /usr/bin/bt-device
 /usr/bin/bt-network
 /usr/bin/bt-obex
+/usr/bin/BambooTracker

@@ -1282,3 +1282,4 @@ blocks-of-the-undead
 baycomusb
 binpac
 bluez-tools
+bambootracker
