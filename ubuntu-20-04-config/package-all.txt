@@ -478,3 +478,6 @@ printer-driver-splix
 squid
 strace
 schroot
+system-config-printer-udev
+switcheroo-control
+sysstat

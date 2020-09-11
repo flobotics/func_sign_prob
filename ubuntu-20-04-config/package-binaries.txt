@@ -1125,3 +1125,10 @@
 /usr/sbin/squid
 /usr/bin/strace
 /usr/bin/schroot
+/usr/bin/cifsiostat
+/usr/bin/iostat
+/usr/bin/mpstat
+/usr/bin/pidstat
+/usr/bin/sadf
+/usr/bin/sar.sysstat
+/usr/bin/tapestat

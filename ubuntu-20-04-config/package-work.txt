@@ -375,3 +375,4 @@ sssd-common
 squid
 strace
 schroot
+sysstat

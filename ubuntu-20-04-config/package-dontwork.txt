@@ -100,3 +100,5 @@ sssd-ipa
 sssd-ldap
 sssd-dbus
 printer-driver-splix
+system-config-printer-udev
+switcheroo-control
