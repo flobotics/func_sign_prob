@@ -667,3 +667,4 @@ kuvert
 kolourpaint
 ksshaskpass
 kshutdown
+kdiff3

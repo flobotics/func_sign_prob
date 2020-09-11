@@ -258,3 +258,5 @@ kodi-gbm
 kodi-wayland
 kolf
 kvirc-modules
+kollision
+qml-module-org-kde-people
