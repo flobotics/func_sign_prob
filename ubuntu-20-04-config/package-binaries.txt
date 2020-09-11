@@ -2164,3 +2164,5 @@
 /usr/bin/knewsd
 /usr/bin/tcp_relay
 /usr/bin/Konclude
+/usr/bin/findcontact
+/usr/bin/kraft

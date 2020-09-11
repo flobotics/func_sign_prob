@@ -730,3 +730,4 @@ kinput2-wnn
 keepassx
 knews
 konclude
+kraft
