@@ -2101,3 +2101,4 @@
 /usr/bin/kactivities-cli
 /usr/bin/klettres
 /usr/bin/krename
+/usr/bin/kinfocenter

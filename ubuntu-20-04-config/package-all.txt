@@ -1057,3 +1057,4 @@ qml-module-org-kde-activities
 klettres
 kraptor
 krename
+kinfocenter

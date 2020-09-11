@@ -709,3 +709,4 @@ kylin-burner
 kactivities-bin
 klettres
 krename
+kinfocenter
