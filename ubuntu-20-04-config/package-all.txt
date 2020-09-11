@@ -1308,3 +1308,4 @@ baresip-ffmpeg
 baresip-gstreamer
 birthday
 brandy
+finger
