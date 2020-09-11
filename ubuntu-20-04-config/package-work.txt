@@ -801,3 +801,5 @@ ksysguardd
 kjots
 klavaro
 katarakt
+kitty
+klustakwik

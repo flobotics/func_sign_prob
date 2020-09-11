@@ -1218,3 +1218,6 @@ kannel-extras
 kactivitymanagerd
 klavaro
 katarakt
+knetwalk
+kitty
+klustakwik
