@@ -347,3 +347,8 @@ kubrick
 kdiamond
 kdesdk-thumbnailers
 kiki-the-nano-bot
+plasma-kdevelop
+kdevelop55-libs
+kodi-pvr-nextpvr
+qml-module-org-kde-newstuff
+kubuntu-driver-manager
