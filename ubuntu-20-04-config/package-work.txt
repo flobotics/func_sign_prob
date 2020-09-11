@@ -658,3 +658,5 @@ kaddressbook
 k2pdfopt
 klick
 kde-telepathy-call-ui
+knocker
+ktimer
