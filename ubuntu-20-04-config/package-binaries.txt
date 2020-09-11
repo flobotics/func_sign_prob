@@ -2291,3 +2291,4 @@
 /usr/bin/ktp-debugger
 /usr/bin/kgpg
 /usr/bin/kturtle
+/usr/bin/kwalletmanager5

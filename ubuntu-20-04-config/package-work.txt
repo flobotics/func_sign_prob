@@ -791,3 +791,4 @@ kbruch
 kde-telepathy-debugger
 kgpg
 kturtle
+kwalletmanager
