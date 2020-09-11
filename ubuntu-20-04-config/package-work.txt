@@ -390,3 +390,4 @@ gpg-wks-server
 gpgv
 gpg-agent
 grep
+gnome-shell
