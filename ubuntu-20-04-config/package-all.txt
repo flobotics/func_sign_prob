@@ -763,3 +763,9 @@ pinentry-gnome3
 packagekit
 gstreamer1.0-packagekit
 packagekit-tools
+python3-setproctitle
+python3-cups
+printer-driver-pxljr
+python3-systemd
+pcmciautils
+postgresql-client-12
