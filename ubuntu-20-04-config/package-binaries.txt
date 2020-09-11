@@ -1993,3 +1993,4 @@
 /usr/bin/klatexformula
 /usr/bin/KWStyle
 /usr/bin/kdocker
+/usr/bin/kluppe
