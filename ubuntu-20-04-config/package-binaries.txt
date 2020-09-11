@@ -1073,3 +1073,4 @@
 /usr/bin/uuencode
 /usr/bin/spice-vdagent
 /usr/sbin/spice-vdagentd
+/usr/bin/session-migration

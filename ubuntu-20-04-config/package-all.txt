@@ -441,3 +441,4 @@ samba-libs
 smbclient
 sharutils
 spice-vdagent
+session-migration
