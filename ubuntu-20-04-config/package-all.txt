@@ -1153,3 +1153,4 @@ kmscube
 kup-backup
 kmplot
 kfloppy
+kbuild
