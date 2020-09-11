@@ -467,3 +467,9 @@ simple-scan
 python3-sss
 sssd-proxy
 sssd-tools
+sssd-ad
+sssd-ad-common
+sssd-krb5-common
+sssd-ipa
+sssd-ldap
+sssd-common
