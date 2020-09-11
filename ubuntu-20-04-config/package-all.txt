@@ -965,3 +965,5 @@ kde-telepathy-contact-list
 kiten
 kiriki
 kalzium
+kodi-pvr-vuplus
+kmetronome
