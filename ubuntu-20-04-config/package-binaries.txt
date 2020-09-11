@@ -1394,3 +1394,4 @@
 /usr/bin/m2400w
 /usr/bin/mutt
 /usr/bin/mutt_dotlock
+/usr/bin/m4
