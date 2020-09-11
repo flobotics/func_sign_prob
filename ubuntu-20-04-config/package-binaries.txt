@@ -1931,3 +1931,4 @@
 /usr/bin/kak
 /usr/bin/kafkacat
 /usr/bin/ksystemlog
+/usr/bin/kimagemapeditor

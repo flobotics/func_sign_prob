@@ -609,3 +609,4 @@ kconfig-frontends
 kakoune
 kafkacat
 ksystemlog
+kimagemapeditor
