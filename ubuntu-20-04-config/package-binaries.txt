@@ -2159,3 +2159,4 @@
 /usr/bin/kgeography
 /usr/bin/kinput2-canna-wnn
 /usr/bin/kinput2-wnn
+/usr/bin/keepassx
