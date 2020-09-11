@@ -1162,3 +1162,4 @@ kde-config-whoopsie
 ksh93
 kmerresistance
 kwalletcli
+kleopatra

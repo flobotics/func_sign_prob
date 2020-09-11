@@ -2266,3 +2266,5 @@
 /usr/bin/shcomp93
 /usr/bin/kmerresistance
 /usr/bin/kwalletcli
+/usr/bin/kleopatra
+/usr/bin/kwatchgnupg
