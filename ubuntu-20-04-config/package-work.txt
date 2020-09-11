@@ -724,3 +724,4 @@ kde-cli-tools
 kalgebramobile
 kerneloops-applet
 khangman
+kgeography

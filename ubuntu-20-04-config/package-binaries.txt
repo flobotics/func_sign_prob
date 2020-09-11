@@ -2156,3 +2156,4 @@
 /usr/bin/kalgebramobile
 /usr/bin/kerneloops-applet
 /usr/bin/khangman
+/usr/bin/kgeography
