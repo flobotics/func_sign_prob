@@ -2382,3 +2382,17 @@
 /bin/bash-static
 /usr/bin/biboumi
 /usr/bin/bijiben
+/usr/bin/convertSamples
+/usr/bin/estimateDE
+/usr/bin/estimateExpression
+/usr/bin/estimateHyperPar
+/usr/bin/estimateVBExpression
+/usr/bin/extractSamples
+/usr/bin/getFoldChange
+/usr/bin/getGeneExpression
+/usr/bin/getPPLR
+/usr/bin/getVariance
+/usr/bin/getWithinGeneExpression
+/usr/bin/parseAlignment
+/usr/bin/transposeLargeFile
+/usr/bin/phyview
