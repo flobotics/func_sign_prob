@@ -907,3 +907,4 @@ kyotocabinet-utils
 kdf
 ktnef
 kmail
+kmc
