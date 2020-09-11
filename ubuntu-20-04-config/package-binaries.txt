@@ -2170,3 +2170,7 @@
 /usr/bin/kfind
 /usr/bin/curconvd
 /usr/bin/keurocalc
+/usr/bin/ktmagnetdownloader
+/usr/bin/ktorrent
+/usr/bin/ktupnptest
+/usr/bin/kcollectd

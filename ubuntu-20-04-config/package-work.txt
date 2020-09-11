@@ -734,3 +734,5 @@ kraft
 krb5-strength
 kfind
 keurocalc
+ktorrent
+kcollectd
