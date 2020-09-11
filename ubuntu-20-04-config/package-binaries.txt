@@ -2363,3 +2363,5 @@
 /usr/bin/bt-network
 /usr/bin/bt-obex
 /usr/bin/BambooTracker
+/usr/bin/beads
+/usr/bin/qtbeads

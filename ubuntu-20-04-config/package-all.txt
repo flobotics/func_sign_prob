@@ -1283,3 +1283,5 @@ baycomusb
 binpac
 bluez-tools
 bambootracker
+barrage
+beads
