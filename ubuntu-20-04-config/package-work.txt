@@ -511,3 +511,5 @@ enchant-2
 evince
 ebtables
 efibootmgr
+efivar
+exim4-base

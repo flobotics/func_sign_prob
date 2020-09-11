@@ -1572,3 +1572,9 @@
 /usr/sbin/ebtablesu
 /bin/efibootdump
 /bin/efibootmgr
+/usr/bin/efivar
+/usr/sbin/exim_dbmbuild
+/usr/sbin/exim_dumpdb
+/usr/sbin/exim_fixdb
+/usr/sbin/exim_lock
+/usr/sbin/exim_tidydb
