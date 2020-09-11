@@ -377,3 +377,4 @@ kwin-wayland-backend-x11
 kwin-wayland-backend-wayland
 kid3-core
 kodi-pvr-wmc
+kpatch-build

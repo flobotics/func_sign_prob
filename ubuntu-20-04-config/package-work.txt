@@ -759,3 +759,4 @@ kmouth
 kde-config-fcitx
 kapptemplate
 keepassxc
+kicad

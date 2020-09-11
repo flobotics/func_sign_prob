@@ -2209,3 +2209,16 @@
 /usr/bin/keepassxc
 /usr/bin/keepassxc-cli
 /usr/bin/keepassxc-proxy
+/usr/bin/bitmap2component
+/usr/bin/dxf2idf
+/usr/bin/eeschema
+/usr/bin/gerbview
+/usr/bin/idf2vrml
+/usr/bin/idfcyl
+/usr/bin/idfrect
+/usr/bin/kicad
+/usr/bin/kicad-ogltest
+/usr/bin/kicad2step
+/usr/bin/pcb_calculator
+/usr/bin/pcbnew
+/usr/bin/pl_editor

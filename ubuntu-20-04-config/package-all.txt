@@ -1144,3 +1144,5 @@ kde-config-fcitx
 kodi-pvr-wmc
 kapptemplate
 keepassxc
+kpatch-build
+kicad
