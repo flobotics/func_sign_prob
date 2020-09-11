@@ -2065,3 +2065,4 @@
 /usr/bin/kino
 /usr/bin/kanshi
 /usr/bin/ktp-send-file
+/usr/bin/kanagram

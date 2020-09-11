@@ -681,3 +681,4 @@ kxstitch
 kino
 kanshi
 kde-telepathy-send-file
+kanagram
