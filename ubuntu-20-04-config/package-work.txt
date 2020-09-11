@@ -653,3 +653,4 @@ ktnef
 kmail
 kmc
 kaffeine
+kronometer
