@@ -416,7 +416,7 @@ def get_types_from_names(funcs_and_ret_types, binary_name, verbose=False):
         print(f'len funcs_and_ret_types: {len(funcs_and_ret_types)}')
         return funcs_and_ret_types_filtered
     
-    p = Pool(4)
+    p = Pool(16)
     for a, ret_type, funcName, baseFileName in funcs_and_ret_types:
         proc_ret_type_list.append((ret_type, binary_name))
         
@@ -521,7 +521,7 @@ def get_disassemble(funcs_and_ret_types_filtered, binary_name, verbose=False):
         print(f'len funcs_and_ret_types_filtered: {len(funcs_and_ret_types_filtered)}')
         return dataset
     
-    p = Pool(4)
+    p = Pool(16)
     for a,b,funcName, baseFileName in funcs_and_ret_types_filtered:
         proc_disas_list.append((funcName, baseFileName, binary_name))
         
@@ -692,23 +692,23 @@ for package in filtered_pkgs_with_dbgsym:
 
     for b in all_binaries_in_package:
 
-        print(f'Get function signature and return type from binary: {b}')
+        #print(f'Get function signature and return type from binary: {b}')
         func_sign_and_ret_types = get_function_signatures_and_ret_types(b)
         #print(f'func_sign_and_ret_types: {func_sign_and_ret_types}')
         
         if not func_sign_and_ret_types:
-            print("NO func_sign_and_ret_types")
+            #print("NO func_sign_and_ret_types")
             break
         
-        print(f'Get return-types from names we dont know')
+        #print(f'Get return-types from names we dont know')
         extended_func_and_ret_types = get_types_from_names(func_sign_and_ret_types, b, False)
         #print(f'extended_func_and_ret_types: {extended_func_and_ret_types}')
 
         if not extended_func_and_ret_types:
-            print("NO extended_func_and_ret_types")
+            #print("NO extended_func_and_ret_types")
             break
 
-        print(f'Get disassembly')
+        #print(f'Get disassembly')
         disassemble_out = get_disassemble(extended_func_and_ret_types, b)
         
         if disassemble_out:
@@ -717,10 +717,11 @@ for package in filtered_pkgs_with_dbgsym:
                 if funcSign and returnType and funcName and funcFileName and disassembly_list:
                     ds_list.append((funcSign, returnType, funcName, funcFileName, disassembly_list, package.replace('-dbgsym', ''), b))
         else:
-             print(f'NO disassemble_out')           
+             #print(f'NO disassemble_out')          
+             pass
 
     if len(ds_list) > 0:
-        print(f'Write pickle file')
+        #print(f'Write pickle file')
         save_list_to_pickle(ds_list, package.replace('-dbgsym', ''))
         
         push_pickle_to_github(package.replace('-dbgsym', ''))
