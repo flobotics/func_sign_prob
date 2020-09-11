@@ -356,3 +356,4 @@ spice-vdagent
 session-migration
 login
 squashfs-tools
+socat
