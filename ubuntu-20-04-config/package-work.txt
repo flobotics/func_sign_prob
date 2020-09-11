@@ -756,3 +756,4 @@ kdrill
 makedic
 kelbt
 kmouth
+kde-config-fcitx
