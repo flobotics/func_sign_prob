@@ -415,3 +415,7 @@ gobject-introspection
 google-compute-engine-oslogin
 gnome-todo
 groff-base
+gnome-bluetooth
+gcr
+guile-2.2-libs
+gnome-font-viewer

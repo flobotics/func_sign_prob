@@ -1291,3 +1291,8 @@
 /usr/bin/soelim
 /usr/bin/tbl
 /usr/bin/troff
+/usr/bin/bluetooth-sendto
+/usr/bin/gcr-viewer
+/usr/lib/x86_64-linux-gnu/guile/2.2/bin/guile
+/usr/bin/gnome-font-viewer
+/usr/bin/gnome-thumbnail-font
