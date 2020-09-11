@@ -1253,3 +1253,4 @@
 /sbin/gdisk
 /sbin/sgdisk
 /usr/bin/gnome-screenshot
+/usr/bin/gnome-calendar

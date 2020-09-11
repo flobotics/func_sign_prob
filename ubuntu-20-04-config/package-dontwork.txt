@@ -117,3 +117,4 @@ gnome-mines
 gtk-im-libthai
 glib-networking
 glib-networking-services
+gnome-settings-daemon

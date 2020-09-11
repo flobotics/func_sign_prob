@@ -529,3 +529,5 @@ gdisk
 glib-networking
 glib-networking-services
 gnome-screenshot
+gnome-settings-daemon
+gnome-calendar
