@@ -671,3 +671,4 @@ kdiff3
 kcharselect
 kross
 krfb
+kbackup
