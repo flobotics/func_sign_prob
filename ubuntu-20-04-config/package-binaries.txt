@@ -2100,3 +2100,4 @@
 /usr/bin/burner
 /usr/bin/kactivities-cli
 /usr/bin/klettres
+/usr/bin/krename
