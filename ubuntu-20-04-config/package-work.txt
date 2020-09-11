@@ -784,3 +784,5 @@ kylin-video
 keytouch-editor
 k3b
 krita
+knot-resolver
+kylin-greeter
