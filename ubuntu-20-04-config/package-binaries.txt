@@ -1322,3 +1322,17 @@
 /usr/bin/htop
 /usr/bin/halog
 /usr/sbin/haproxy
+/usr/bin/hattrib
+/usr/bin/hcd
+/usr/bin/hcopy
+/usr/bin/hdel
+/usr/bin/hdir
+/usr/bin/hformat
+/usr/bin/hls
+/usr/bin/hmkdir
+/usr/bin/hmount
+/usr/bin/hpwd
+/usr/bin/hrename
+/usr/bin/hrmdir
+/usr/bin/humount
+/usr/bin/hvol

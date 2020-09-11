@@ -569,3 +569,4 @@ printer-driver-hpcups
 hplip
 htop
 haproxy
+hfsutils
