@@ -1208,3 +1208,5 @@
 /usr/bin/sgm_dd
 /usr/bin/sgp_dd
 /usr/bin/gpgsm
+/usr/bin/dirmngr
+/usr/bin/dirmngr-client
