@@ -1800,3 +1800,17 @@
 /usr/lib/postgresql/12/bin/vacuumlo
 /usr/bin/pkg-config
 /usr/bin/x86_64-pc-linux-gnu-pkg-config
+/usr/bin/killall
+/usr/bin/peekfd
+/usr/bin/prtstat
+/usr/bin/pslog
+/usr/bin/pstree
+/usr/bin/calibrate_ppa
+/usr/bin/pnm2ppa
+/usr/bin/pacat
+/usr/bin/pacmd
+/usr/bin/pactl
+/usr/bin/pasuspender
+/usr/bin/pax11publish
+/usr/sbin/pptpctrl
+/usr/sbin/pptpd
