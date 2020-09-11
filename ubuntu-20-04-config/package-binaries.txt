@@ -2097,3 +2097,4 @@
 /usr/bin/kded5
 /usr/bin/akonadi_notes_agent
 /usr/bin/knotes
+/usr/bin/burner

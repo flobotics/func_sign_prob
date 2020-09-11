@@ -333,3 +333,5 @@ kodi-pvr-iptvsimple
 ksnakeduel
 konsole-kpart
 kodi-pvr-njoy
+koules
+kildclient
