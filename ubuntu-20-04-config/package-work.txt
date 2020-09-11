@@ -406,3 +406,4 @@ gettext-base
 gnome-control-center
 gzip
 gnome-disk-utility
+gdisk
