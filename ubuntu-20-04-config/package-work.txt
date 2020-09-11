@@ -783,3 +783,4 @@ kmflcomp
 kylin-video
 keytouch-editor
 k3b
+krita

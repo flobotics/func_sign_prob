@@ -1175,3 +1175,5 @@ kylin-video
 kshisen
 keytouch-editor
 k3b
+qml-module-org-kde-kitemmodels
+krita
