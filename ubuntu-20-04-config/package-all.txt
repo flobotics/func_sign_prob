@@ -442,3 +442,4 @@ smbclient
 sharutils
 spice-vdagent
 session-migration
+login
