@@ -2323,3 +2323,4 @@
 /usr/bin/bowtie2-build-s
 /usr/bin/bowtie2-inspect-l
 /usr/bin/bowtie2-inspect-s
+/usr/bin/badger
