@@ -2314,3 +2314,4 @@
 /usr/lib/debian-med/bin/express
 /usr/bin/Bandage
 /usr/bin/bibshelf
+/usr/sbin/huntd

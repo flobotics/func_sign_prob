@@ -1239,3 +1239,6 @@ black-box
 berkeley-express
 bandage
 bibshelf
+bls-standalone
+boswars
+bsdgames

@@ -813,3 +813,4 @@ birdtray
 berkeley-express
 bandage
 bibshelf
+bsdgames

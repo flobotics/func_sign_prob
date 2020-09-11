@@ -418,3 +418,5 @@ between
 python3-broccoli
 bugsquish
 black-box
+bls-standalone
+boswars
