@@ -718,3 +718,4 @@ kgb
 kdc2tiff
 kile
 kdepim-runtime
+kdialog

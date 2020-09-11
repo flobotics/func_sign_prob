@@ -345,3 +345,5 @@ khotkeys
 kodi-pvr-argustv
 kubrick
 kdiamond
+kdesdk-thumbnailers
+kiki-the-nano-bot
