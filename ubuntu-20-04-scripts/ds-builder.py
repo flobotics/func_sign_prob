@@ -9,6 +9,7 @@ import pickle
 import getopt
 import sys
 from multiprocessing import Pool
+from builtins import False
 
 base_path = "/home/infloflo/git/func_sign_prob/"
 #base_path = "/home/ubu/git/test/func_sign_prob/"
@@ -276,6 +277,98 @@ def get_function_signatures_and_ret_types(binaryName, verbose=False):
 
 
     return funcs_and_ret_types
+ 
+ 
+def proc_get_types_from_names(ret_type, binary_name):
+    verbose = False
+    replace_str = ''
+    
+    legal_types = ['static unsigned char *', 'static char *', 'char **', 'struct', 'static _Bool ', 
+                   'static int ', 'static char **', 
+                   'long', 'static struct *', 'const char **', 'long ', 'void', 
+                   'unsigned char *', 'void *', 'void ', 'int *', 'char ','char *', 
+                   'static void ', '_Bool ', 'unsigned int ', 'int', 'int ', 'unsigned long']
+    
+    for ret_type_split in ret_type.split():
+        if ret_type in legal_types:
+            if verbose:
+                print(f'Found legal return type:{ret_type}')
+            break
+        else:
+            #not legal type, look with gdb ptype what type it is, and replace it
+            if verbose:
+                print(f'Not found in legal types:{ret_type}')
+                
+            ###ask gdb for type
+            #type: ['type', '=', 'int', '(*)(int,', 'int)']
+            #type: ['type', '=', 'int', '(*)(WORD_LIST', '*)']  
+            gdb_output_ptype = subprocess.run(["gdb",  "-batch", "-ex", "file {0}".format(binary_name), "-ex", "ptype {0}".format(ret_type)], capture_output=True, universal_newlines=True)
+            out_ptype = gdb_output_ptype.stdout
+            if verbose:
+                print(f'gdb_ptype: {out_ptype}', flush=True)
+
+            notFound = True
+            type = out_ptype.split()
+            if len(type) == 3:
+                if type[2] == 'long':
+                    if verbose:
+                        print("found long")
+                    replace_str = 'long'
+                    notFound = False
+                elif type[2] == 'int':
+                    if verbose:
+                        print("found int")
+                    replace_str = 'int'
+                    notFound = False
+                elif type[2] == 'void':
+                    if verbose:
+                        print("found void")
+                    replace_str = 'void'
+                    notFound = False
+
+            if len(type) == 4:
+                if type[2] == 'unsigned' and type[3] == 'long':
+                    if verbose:
+                        print("found unsigned long")
+                    replace_str = 'unsigned long'
+                    notFound = False
+                elif type[2] == 'void' and type[3] == '*':
+                    if verbose:
+                        print("found void *")
+                    replace_str = 'void *'
+                    notFound = False
+                elif type[2] == 'const' and type[3] == 'char':
+                    if verbose:
+                        print("found const char")
+                    replace_str = 'const char'
+                    notFound = False
+                elif type[2] == 'int' and type[3] == '*':
+                    if verbose:
+                        print("found int *")
+                    replace_str = 'int *'
+                    notFound = False
+
+            if len(type) == 5:
+                if type[2] == 'const' and type[3] == 'char' and type[4] == '**':
+                    if verbose:
+                        print("found const char **")
+                    replace_str = 'const char **'
+                    notFound = False
+
+            if notFound and len(type) >= 3:
+                if type[2] == 'struct':
+                    if verbose:
+                        print("found struct")
+                    replace_str = 'struct'
+                    notFound = False
+                    
+            if notFound:
+                replace_str = 'DELETE'
+                break
+            else:
+                break
+            
+    return replace_str
     
     
 def get_types_from_names(funcs_and_ret_types, binary_name, verbose=False):
@@ -299,108 +392,35 @@ def get_types_from_names(funcs_and_ret_types, binary_name, verbose=False):
         print(f'Binary_name:{binary_name}')
         print(f'len(funcs_and_ret_types):{len(funcs_and_ret_types)}')
         
-    #(funcSignature, ret_type, funcName, baseFileName)
-    for func, ret_type, f, b in funcs_and_ret_types:
-        counter += 1
-        for ret_type_split in ret_type.split():
-            if ret_type in legal_types:
-                if verbose:
-                    print(f'Found legal return type:{ret_type}')
-                break
-            else:
-                #not legal type, look with gdb ptype what type it is, and replace it
-                if verbose:
-                    print(f'Not found in legal types:{ret_type}')
-                    
-                ###ask gdb for type
-                #type: ['type', '=', 'int', '(*)(int,', 'int)']
-                #type: ['type', '=', 'int', '(*)(WORD_LIST', '*)']  
-                gdb_output_ptype = subprocess.run(["gdb",  "-batch", "-ex", "file {0}".format(binary_name), "-ex", "ptype {0}".format(ret_type)], capture_output=True, universal_newlines=True)
-                out_ptype = gdb_output_ptype.stdout
-                if verbose:
-                    print(f'gdb_ptype: {out_ptype}', flush=True)
-
-                notFound = True
-                type = out_ptype.split()
-                if len(type) == 3:
-                    if type[2] == 'long':
-                        if verbose:
-                            print("found long")
-                        replace_str = 'long'
-                        notFound = False
-                    elif type[2] == 'int':
-                        if verbose:
-                            print("found int")
-                        replace_str = 'int'
-                        notFound = False
-                    elif type[2] == 'void':
-                        if verbose:
-                            print("found void")
-                        replace_str = 'void'
-                        notFound = False
-
-                if len(type) == 4:
-                    if type[2] == 'unsigned' and type[3] == 'long':
-                        if verbose:
-                            print("found unsigned long")
-                        replace_str = 'unsigned long'
-                        notFound = False
-                    elif type[2] == 'void' and type[3] == '*':
-                        if verbose:
-                            print("found void *")
-                        replace_str = 'void *'
-                        notFound = False
-                    elif type[2] == 'const' and type[3] == 'char':
-                        if verbose:
-                            print("found const char")
-                        replace_str = 'const char'
-                        notFound = False
-                    elif type[2] == 'int' and type[3] == '*':
-                        if verbose:
-                            print("found int *")
-                        replace_str = 'int *'
-                        notFound = False
-
-                if len(type) == 5:
-                    if type[2] == 'const' and type[3] == 'char' and type[4] == '**':
-                        if verbose:
-                            print("found const char **")
-                        replace_str = 'const char **'
-                        notFound = False
-
-                if notFound and len(type) >= 3:
-                    if type[2] == 'struct':
-                        if verbose:
-                            print("found struct")
-                        replace_str = 'struct'
-                        notFound = False
-
-                if notFound:
+        
+    if len(funcs_and_ret_types) < 1:
+        print(f'len funcs_and_ret_types: {len(funcs_and_ret_types)}')
+        return funcs_and_ret_types_filtered
+    
+    p = Pool(4)
+    for a, ret_type, funcName, baseFileName in funcs_and_ret_types:
+        proc_ret_type_list.append((ret_type, binary_name))
+        
+    all_ret_types = p.starmap(proc_get_types_from_names, proc_ret_type_list)
+    p.close()
+    p.join()    
+        
+    c = 0
+    if all_ret_types:
+        for func, ret_type, funcName, baseFileName in funcs_and_ret_types:
+            if func and funcName and baseFileName and all_ret_types[c]:
+                if "DELETE" in all_ret_types[c]:
                     if verbose:
-                        print(f'type: {type}')
-                    funcs_and_ret_types[counter] = (funcs_and_ret_types[counter][0], 'DELETE', funcs_and_ret_types[counter][2], funcs_and_ret_types[counter][3])
-                    if verbose:
-                        print(funcs_and_ret_types[counter])
-                    break
+                        print("Delete return type")
+                    pass
                 else:
-                    funcs_and_ret_types[counter] = (funcs_and_ret_types[counter][0], replace_str, funcs_and_ret_types[counter][2], funcs_and_ret_types[counter][3])
-                    if verbose:
-                        print(funcs_and_ret_types[counter])
-                    break
-
-
-    #filter all with DELETE as ret_type
-
-    for f,r, fn, b in funcs_and_ret_types:
-        if r == 'DELETE':
-            if verbose:
-                print("delete function because no real/good return type found")
-            pass
-        else:
-            if f and r and fn and b:
-                funcs_and_ret_types_filtered.append((f,r,fn,b))
+                    funcs_and_ret_types_filtered.append((func, all_ret_types[c], funcName, baseFileName ))
+            c += 1      
+      
             
-    return funcs_and_ret_types_filtered
+    return funcs_and_ret_types_filtered    
+        
+            
         
         
 def proc_disas(funcName, baseFileName, binary_name):
@@ -489,6 +509,7 @@ def get_disassemble(funcs_and_ret_types_filtered, binary_name, verbose=False):
     all_disas = p.starmap(proc_disas, proc_disas_list)
     p.close()
     p.join()
+    
     #for disas in all_disas:
     c = 0
     if all_disas:
@@ -497,13 +518,11 @@ def get_disassemble(funcs_and_ret_types_filtered, binary_name, verbose=False):
                 dataset.append((a,b,funcName, baseFileName, all_disas[c]))
             c += 1    
             
-            
-
-   
+ 
     if verbose:
         print(f'One dataset item: dataset[0]: {next(iter(dataset))}')
         
-    return dataset          
+    return dataset      
 
   
   
