@@ -565,3 +565,5 @@ php7.4-cgi
 php7.4-cli
 policykit-1
 python3-cryptography
+ppp
+procps
