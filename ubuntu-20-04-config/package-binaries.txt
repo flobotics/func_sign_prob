@@ -1579,3 +1579,4 @@
 /usr/sbin/exim_lock
 /usr/sbin/exim_tidydb
 /usr/sbin/exim4
+/usr/bin/ctags-exuberant
