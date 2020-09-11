@@ -1985,3 +1985,6 @@
 /usr/bin/akonadimailreader
 /usr/bin/coisceim
 /usr/bin/etm_usage
+/usr/bin/knxtool
+/usr/bin/kalarm
+/usr/bin/kalarmautostart

@@ -881,3 +881,7 @@ kopano-dagent
 kde-config-gtk-style
 kde-config-gtk-style-preview
 kdepim-addons
+kspaceduel
+knxd-tools
+kamera
+kalarm
