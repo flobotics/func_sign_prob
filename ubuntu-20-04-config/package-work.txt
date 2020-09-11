@@ -733,3 +733,4 @@ konclude
 kraft
 krb5-strength
 kfind
+keurocalc

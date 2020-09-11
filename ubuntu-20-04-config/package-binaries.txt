@@ -2168,3 +2168,5 @@
 /usr/bin/kraft
 /usr/bin/heimdal-strength
 /usr/bin/kfind
+/usr/bin/curconvd
+/usr/bin/keurocalc

@@ -1105,3 +1105,4 @@ kraft
 krb5-strength
 knights
 kfind
+keurocalc
