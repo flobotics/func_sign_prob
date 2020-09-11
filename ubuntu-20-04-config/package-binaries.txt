@@ -2104,3 +2104,4 @@
 /usr/bin/kinfocenter
 /usr/bin/kookbook
 /usr/bin/kookbooktouch
+/usr/bin/kbibtex

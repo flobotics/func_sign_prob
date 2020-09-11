@@ -711,3 +711,4 @@ klettres
 krename
 kinfocenter
 kookbook
+kbibtex
