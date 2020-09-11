@@ -844,3 +844,7 @@ kimagemapeditor
 konqueror
 kodi-pvr-dvbviewer
 ksmtuned
+kpart5-kompare
+kdevelop-php
+kjumpingcube
+kmag
