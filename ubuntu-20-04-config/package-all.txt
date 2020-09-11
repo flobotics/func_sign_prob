@@ -663,3 +663,11 @@ diffstat
 dconf-service
 dconf-gsettings-backend
 dconf-cli
+devscripts
+eog
+evolution-data-server
+ethtool
+erlang-runtime-tools
+erlang-megaco
+erlang-crypto
+erlang-base
