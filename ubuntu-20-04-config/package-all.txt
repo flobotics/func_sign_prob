@@ -459,3 +459,6 @@ spamc
 speech-dispatcher
 speech-dispatcher-espeak-ng
 siege
+python3-sqlalchemy-ext
+screen
+shared-mime-info

@@ -366,3 +366,5 @@ sysvinit-utils
 spamc
 speech-dispatcher
 siege
+screen
+shared-mime-info

@@ -1109,3 +1109,4 @@
 /usr/bin/spd-say
 /usr/bin/speech-dispatcher
 /usr/bin/siege
+/usr/bin/update-mime-database
