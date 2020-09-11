@@ -752,3 +752,4 @@ kdeconnect
 kopete
 kid3-cli
 kid3-qt
+kdrill
