@@ -1346,3 +1346,7 @@
 /usr/bin/hprm
 /usr/bin/hpumount
 /usr/bin/hello
+/bin/archdetect
+/usr/bin/asn1_compile
+/usr/bin/asn1_print
+/usr/bin/slc
