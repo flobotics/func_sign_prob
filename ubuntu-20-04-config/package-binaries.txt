@@ -1229,3 +1229,7 @@
 /usr/bin/gjs-console
 /usr/bin/gnome-terminal.real
 /usr/bin/gtk-update-icon-cache
+/usr/bin/gtk3-demo
+/usr/bin/gtk3-demo-application
+/usr/bin/gtk3-icon-browser
+/usr/bin/gtk3-widget-factory
