@@ -524,3 +524,4 @@ appstream
 auditd
 acct
 advancecomp
+aide

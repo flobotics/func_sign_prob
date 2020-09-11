@@ -1635,3 +1635,4 @@
 /usr/bin/advmng
 /usr/bin/advpng
 /usr/bin/advzip
+/usr/bin/aide
