@@ -1497,3 +1497,6 @@
 /usr/bin/join-dctrl
 /usr/bin/sort-dctrl
 /usr/bin/tbl-dctrl
+/usr/bin/doveadm
+/usr/bin/doveconf
+/usr/sbin/dovecot

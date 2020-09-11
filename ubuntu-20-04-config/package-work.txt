@@ -487,3 +487,4 @@ deja-dup
 dictzip
 dictd
 dctrl-tools
+dovecot-core

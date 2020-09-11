@@ -154,3 +154,5 @@ ibus-mozc
 mozc-server
 mecab-utils
 duplicity
+dovecot-imapd
+dovecot-pop3d
