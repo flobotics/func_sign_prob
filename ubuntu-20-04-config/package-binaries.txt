@@ -2513,3 +2513,4 @@
 /usr/bin/beep
 /usr/bin/barcode
 /usr/bin/sample
+/usr/bin/bitmeter
