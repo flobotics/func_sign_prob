@@ -818,3 +818,5 @@ bliss
 btyacc
 bowtie2
 badger
+bagel
+bogofilter-sqlite

@@ -1248,3 +1248,5 @@ btyacc
 bowtie2
 boinc-app-seti-graphics
 badger
+bagel
+bogofilter-sqlite

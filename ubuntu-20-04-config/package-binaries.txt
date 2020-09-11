@@ -2324,3 +2324,8 @@
 /usr/bin/bowtie2-inspect-l
 /usr/bin/bowtie2-inspect-s
 /usr/bin/badger
+/usr/bin/BAGEL
+/usr/bin/bogofilter-sqlite
+/usr/bin/bogolexer-sqlite
+/usr/bin/bogotune-sqlite
+/usr/bin/bogoutil-sqlite
