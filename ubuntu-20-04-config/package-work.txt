@@ -799,3 +799,4 @@ kasumi
 kchmviewer
 ksysguardd
 kjots
+klavaro

@@ -2299,3 +2299,4 @@
 /usr/bin/kchmviewer
 /usr/bin/ksysguardd
 /usr/bin/kjots
+/usr/bin/klavaro

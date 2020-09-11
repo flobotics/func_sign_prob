@@ -1214,3 +1214,6 @@ kexi-web-form-widget
 kexi-mysql-driver
 kio-ldap
 kjots
+kannel-extras
+kactivitymanagerd
+klavaro
