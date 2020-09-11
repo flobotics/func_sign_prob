@@ -365,3 +365,6 @@ kgamma5
 kodi-pvr-hdhomerun
 knights
 ksudoku
+kgoldrunner
+krosspython
+krossruby
