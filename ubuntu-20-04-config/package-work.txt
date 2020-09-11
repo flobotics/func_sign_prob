@@ -603,3 +603,4 @@ eot2ttf
 explain
 printemf
 ewf-tools
+epsilon-bin

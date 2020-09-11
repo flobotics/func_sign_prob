@@ -829,3 +829,5 @@ eot2ttf
 explain
 printemf
 ewf-tools
+python3-libewf
+epsilon-bin
