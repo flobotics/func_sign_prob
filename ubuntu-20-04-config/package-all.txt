@@ -1109,3 +1109,5 @@ keurocalc
 ktorrent
 kcollectd
 kcov
+ksudoku
+krusader

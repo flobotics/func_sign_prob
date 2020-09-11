@@ -364,3 +364,4 @@ kobodeluxe
 kgamma5
 kodi-pvr-hdhomerun
 knights
+ksudoku
