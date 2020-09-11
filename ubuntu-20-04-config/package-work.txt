@@ -846,3 +846,6 @@ baresip-core
 birthday
 brandy
 finger
+fingerd
+biff
+barnowl

@@ -1309,3 +1309,6 @@ baresip-gstreamer
 birthday
 brandy
 finger
+fingerd
+biff
+barnowl
