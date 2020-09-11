@@ -452,3 +452,6 @@ bombardier
 blinken
 bovo
 baresip-gtk
+baresip-x11
+baresip-ffmpeg
+baresip-gstreamer

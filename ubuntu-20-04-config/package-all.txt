@@ -1303,3 +1303,7 @@ bio-eagle
 binutils-msp430
 baresip-gtk
 baresip-core
+baresip-x11
+baresip-ffmpeg
+baresip-gstreamer
+birthday
