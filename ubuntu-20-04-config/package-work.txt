@@ -721,3 +721,4 @@ kdepim-runtime
 kdialog
 khelpcenter
 kde-cli-tools
+kalgebramobile

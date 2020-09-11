@@ -2153,3 +2153,4 @@
 /usr/bin/kstart5
 /usr/bin/ksvgtopng5
 /usr/bin/ktraderclient5
+/usr/bin/kalgebramobile
