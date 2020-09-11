@@ -242,3 +242,4 @@ python3-mapi
 kopano-libs
 kopano-contacts
 php-mapi
+kde-config-gtk-style-preview

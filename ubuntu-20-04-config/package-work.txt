@@ -633,3 +633,4 @@ kopano-monitor
 kopano-utils
 kopano-dagent
 kde-config-gtk-style
+kdepim-addons
