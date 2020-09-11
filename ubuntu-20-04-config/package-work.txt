@@ -678,3 +678,4 @@ k4dirstat
 kmenuedit
 kcalc
 kxstitch
+kino

@@ -954,3 +954,5 @@ kcalc
 kpeople-vcard
 kore
 kxstitch
+kde-telepathy-text-ui
+kino
