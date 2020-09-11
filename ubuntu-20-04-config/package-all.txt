@@ -1180,3 +1180,6 @@ krita
 knot-resolver
 kylin-greeter
 klog
+kball
+kodi-pvr-vdr-vnsi
+kbruch

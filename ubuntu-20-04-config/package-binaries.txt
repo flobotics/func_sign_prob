@@ -2287,3 +2287,4 @@
 /usr/sbin/kresd
 /usr/sbin/kylin-greeter
 /usr/bin/klog
+/usr/bin/kbruch
