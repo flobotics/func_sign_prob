@@ -608,3 +608,5 @@ linux-image-unsigned-5.4.0-1010-azure
 lbdb
 mdadm
 mtr-tiny
+printer-driver-min12xxw
+multipath-tools
