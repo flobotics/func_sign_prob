@@ -1152,3 +1152,4 @@ kannel-sqlbox
 kmscube
 kup-backup
 kmplot
+kfloppy
