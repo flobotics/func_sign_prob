@@ -1735,3 +1735,10 @@
 /usr/bin/php-cgi7.4
 /usr/lib/cgi-bin/php7.4
 /usr/bin/php7.4
+/usr/bin/pkaction
+/usr/bin/pkcheck
+/usr/bin/pkexec
+/usr/bin/pkttyagent
+/usr/lib/python3/dist-packages/cryptography/hazmat/bindings/_constant_time.abi3.so
+/usr/lib/python3/dist-packages/cryptography/hazmat/bindings/_openssl.abi3.so
+/usr/lib/python3/dist-packages/cryptography/hazmat/bindings/_padding.abi3.so
