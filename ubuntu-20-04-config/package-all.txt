@@ -925,3 +925,7 @@ kodi-wayland
 kodi-bin
 kuvert
 kolourpaint
+kolf
+kvirc
+kvirc-modules
+ksshaskpass
