@@ -2511,3 +2511,5 @@
 /usr/bin/lasToBAM
 /usr/bin/normalisefasta
 /usr/bin/beep
+/usr/bin/barcode
+/usr/bin/sample
