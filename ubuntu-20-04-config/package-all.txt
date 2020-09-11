@@ -493,3 +493,4 @@ gpgsm
 dirmngr
 gpg-wks-client
 gpgconf
+gnupg-utils

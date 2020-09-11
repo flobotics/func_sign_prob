@@ -1212,3 +1212,10 @@
 /usr/bin/dirmngr-client
 /usr/bin/gpg-connect-agent
 /usr/bin/gpgconf
+/usr/bin/gpgcompose
+/usr/bin/gpgparsemail
+/usr/bin/gpgsplit
+/usr/bin/gpgtar
+/usr/bin/kbxutil
+/usr/bin/symcryptrun
+/usr/bin/watchgnupg
