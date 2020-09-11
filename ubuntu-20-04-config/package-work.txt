@@ -790,3 +790,4 @@ klog
 kbruch
 kde-telepathy-debugger
 kgpg
+kturtle
