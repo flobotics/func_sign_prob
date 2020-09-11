@@ -162,3 +162,4 @@ evolution-data-server
 erlang-runtime-tools
 erlang-megaco
 erlang-crypto
+erlang-asn1

@@ -505,3 +505,5 @@ devscripts
 eog
 ethtool
 erlang-base
+erlang-os-mon
+erlang-tools
