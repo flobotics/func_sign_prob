@@ -234,3 +234,4 @@ kjumpingcube
 kawari8
 kde-config-screenlocker
 kbounce
+krb5-k5tls
