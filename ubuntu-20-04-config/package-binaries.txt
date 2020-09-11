@@ -2222,3 +2222,4 @@
 /usr/bin/pcb_calculator
 /usr/bin/pcbnew
 /usr/bin/pl_editor
+/usr/bin/kruler

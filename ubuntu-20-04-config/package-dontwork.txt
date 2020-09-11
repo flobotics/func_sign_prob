@@ -378,3 +378,4 @@ kwin-wayland-backend-wayland
 kid3-core
 kodi-pvr-wmc
 kpatch-build
+kde-config-telepathy-accounts
