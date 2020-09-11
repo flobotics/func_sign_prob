@@ -1833,3 +1833,6 @@
 /usr/bin/pdftotext
 /usr/bin/pdfunite
 /usr/sbin/powertop
+/usr/bin/filterdiff
+/usr/bin/interdiff
+/usr/bin/rediff

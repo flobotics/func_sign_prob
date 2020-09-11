@@ -808,3 +808,4 @@ printer-driver-ptouch
 poppler-utils
 python3-wrapt
 powertop
+patchutils
