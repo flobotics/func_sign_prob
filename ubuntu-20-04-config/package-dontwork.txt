@@ -150,3 +150,5 @@ linux-image-5.4.0-1009-aws
 linux-image-unsigned-5.4.0-1010-azure
 mesa-vdpau-drivers
 mesa-vulkan-drivers
+ibus-mozc
+mozc-server
