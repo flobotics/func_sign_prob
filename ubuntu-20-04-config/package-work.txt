@@ -828,3 +828,4 @@ bibtexconv
 buffer
 boxes
 binutils-z80
+baycomusb

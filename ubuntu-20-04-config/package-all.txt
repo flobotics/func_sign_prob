@@ -1278,3 +1278,5 @@ bibtexconv
 buffer
 boxes
 binutils-z80
+blocks-of-the-undead
+baycomusb

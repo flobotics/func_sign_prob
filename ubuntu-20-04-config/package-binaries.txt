@@ -2355,3 +2355,5 @@
 /usr/bin/z80-unknown-coff-size
 /usr/bin/z80-unknown-coff-strings
 /usr/bin/z80-unknown-coff-strip
+/usr/sbin/baycomusb
+/usr/sbin/writeeeprom
