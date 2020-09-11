@@ -89,3 +89,4 @@ strongswan-starter
 strongswan-charon
 strongswan-libcharon
 systemd-timesyncd
+speech-dispatcher-espeak-ng

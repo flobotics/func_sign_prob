@@ -457,3 +457,5 @@ systemd-container
 sysvinit-utils
 spamc
 speech-dispatcher
+speech-dispatcher-espeak-ng
+siege
