@@ -169,3 +169,5 @@ aisleriot
 at-spi2-core
 accountsservice
 ibverbs-providers
+lua-rrd
+php7.4-gmp
