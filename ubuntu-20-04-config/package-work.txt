@@ -725,3 +725,4 @@ kalgebramobile
 kerneloops-applet
 khangman
 kgeography
+kinput2-canna-wnn

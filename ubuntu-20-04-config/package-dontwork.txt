@@ -354,3 +354,7 @@ qml-module-org-kde-newstuff
 kubuntu-driver-manager
 klickety
 kapman
+plasma-calendar-addons
+plasma-widgets-addons
+plasma-dataengines-addons
+plasma-runners-addons
