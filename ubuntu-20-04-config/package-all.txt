@@ -631,3 +631,4 @@ mozc-server
 mawk
 mtx
 mousetweaks
+mysql-client-core-8.0
