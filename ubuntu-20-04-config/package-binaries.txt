@@ -1939,3 +1939,4 @@
 /usr/sbin/krb5-sync
 /usr/bin/korgac
 /usr/bin/korganizer
+/usr/bin/kdebugsettings

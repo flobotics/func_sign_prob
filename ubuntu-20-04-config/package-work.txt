@@ -615,3 +615,4 @@ ksmtuned
 kmag
 krb5-sync-tools
 korganizer
+kdebugsettings
