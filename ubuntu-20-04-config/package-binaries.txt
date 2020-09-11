@@ -1386,3 +1386,6 @@
 /sbin/multipath
 /sbin/multipathd
 /sbin/kpartx
+/usr/sbin/rdmsr
+/usr/sbin/wrmsr
+/usr/bin/memcached
