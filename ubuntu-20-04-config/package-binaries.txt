@@ -2166,3 +2166,4 @@
 /usr/bin/Konclude
 /usr/bin/findcontact
 /usr/bin/kraft
+/usr/bin/heimdal-strength
