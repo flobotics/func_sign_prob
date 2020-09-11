@@ -526,3 +526,6 @@ gnome-control-center
 gzip
 gnome-disk-utility
 gdisk
+glib-networking
+glib-networking-services
+gnome-screenshot

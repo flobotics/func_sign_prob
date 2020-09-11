@@ -115,3 +115,5 @@ gtk2-engines-pixbuf
 gnome-characters
 gnome-mines
 gtk-im-libthai
+glib-networking
+glib-networking-services
