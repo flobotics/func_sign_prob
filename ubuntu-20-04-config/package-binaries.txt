@@ -2040,3 +2040,4 @@
 /usr/bin/kaddressbook
 /usr/bin/k2pdfopt
 /usr/bin/klick
+/usr/bin/ktp-dialout-ui
