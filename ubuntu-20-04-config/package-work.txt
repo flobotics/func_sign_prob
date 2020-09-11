@@ -495,3 +495,6 @@ desktop-file-utils
 dselect
 dpkg
 drbd-utils
+dbus-x11
+devio
+dosfstools
