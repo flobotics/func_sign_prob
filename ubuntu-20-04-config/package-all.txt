@@ -1205,3 +1205,12 @@ kasumi
 kchmviewer
 konquest
 ksysguardd
+kreversi
+kmahjongg
+kissplice
+kblackbox
+kexi-postgresql-driver
+kexi-web-form-widget
+kexi-mysql-driver
+kio-ldap
+kjots
