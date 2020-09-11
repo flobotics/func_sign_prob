@@ -721,3 +721,6 @@ re2c
 rtkit
 reiser4progs
 remmina
+raptor2-utils
+redland-utils
+rsyslog
