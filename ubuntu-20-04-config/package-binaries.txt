@@ -1955,3 +1955,4 @@
 /usr/sbin/kproplog
 /usr/sbin/krb5kdc
 /usr/sbin/kdb5_ldap_util
+/usr/sbin/kpropd
