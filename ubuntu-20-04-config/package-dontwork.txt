@@ -361,3 +361,5 @@ plasma-runners-addons
 kde-telepathy-integration-module
 kde-telepathy-desktop-applets
 kobodeluxe
+kgamma5
+kodi-pvr-hdhomerun
