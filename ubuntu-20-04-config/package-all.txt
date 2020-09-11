@@ -872,3 +872,6 @@ kopano-archiver
 kopano-ical
 python3-mapi
 kopano-server
+kopano-libs
+kopano-contacts
+kopano-monitor

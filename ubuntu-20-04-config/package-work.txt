@@ -629,3 +629,4 @@ kopano-spooler
 kopano-archiver
 kopano-ical
 kopano-server
+kopano-monitor

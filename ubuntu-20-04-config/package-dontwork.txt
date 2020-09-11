@@ -239,3 +239,5 @@ krb5-otp
 krb5-pkinit
 ktexteditor-katepart
 python3-mapi
+kopano-libs
+kopano-contacts
