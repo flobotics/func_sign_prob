@@ -2206,3 +2206,6 @@
 /usr/bin/kmouth
 /usr/bin/kbd-layout-viewer
 /usr/bin/kapptemplate
+/usr/bin/keepassxc
+/usr/bin/keepassxc-cli
+/usr/bin/keepassxc-proxy

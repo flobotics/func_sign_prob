@@ -1143,3 +1143,4 @@ kmouth
 kde-config-fcitx
 kodi-pvr-wmc
 kapptemplate
+keepassxc
