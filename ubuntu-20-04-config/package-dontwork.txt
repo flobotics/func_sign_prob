@@ -166,3 +166,4 @@ erlang-asn1
 python3-libvirt
 python3-libapparmor
 aisleriot
+at-spi2-core
