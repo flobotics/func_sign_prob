@@ -1245,3 +1245,4 @@
 /usr/bin/envsubst
 /usr/bin/gettext
 /usr/bin/ngettext
+/usr/bin/gnome-control-center

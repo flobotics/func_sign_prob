@@ -403,3 +403,4 @@ gnome-system-monitor
 gawk
 gnome-calculator
 gettext-base
+gnome-control-center

@@ -521,3 +521,5 @@ gawk
 gnome-calculator
 gpsd
 gettext-base
+gtk-im-libthai
+gnome-control-center
