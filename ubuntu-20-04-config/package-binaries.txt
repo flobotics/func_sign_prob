@@ -1310,3 +1310,5 @@
 /usr/bin/git-shell
 /usr/bin/gnome-power-statistics
 /usr/bin/gnome-logs
+/usr/bin/cups-calibrate
+/usr/bin/gnome-software
