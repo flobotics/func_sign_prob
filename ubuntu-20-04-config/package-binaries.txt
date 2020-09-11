@@ -2257,3 +2257,4 @@
 /usr/bin/kmk_test
 /usr/bin/kmk_time
 /usr/bin/kmk_touch
+/usr/bin/kuiviewer

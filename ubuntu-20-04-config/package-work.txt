@@ -767,3 +767,4 @@ kup-backup
 kmplot
 kfloppy
 kbuild
+kuiviewer
