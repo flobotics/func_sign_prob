@@ -827,3 +827,4 @@ buici-clock
 bibtexconv
 buffer
 boxes
+binutils-z80
