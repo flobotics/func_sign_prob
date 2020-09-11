@@ -816,3 +816,4 @@ bibshelf
 bsdgames
 bliss
 btyacc
+bowtie2
