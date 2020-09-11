@@ -1637,3 +1637,4 @@
 /usr/bin/advzip
 /usr/bin/aide
 /usr/bin/apgbfm
+/usr/sbin/automount
