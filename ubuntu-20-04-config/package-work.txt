@@ -468,3 +468,6 @@ m4
 mlocate
 mutter
 makedumpfile
+mtd-utils
+mscompress
+man-db
