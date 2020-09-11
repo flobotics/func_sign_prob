@@ -355,3 +355,4 @@ sharutils
 spice-vdagent
 session-migration
 login
+squashfs-tools
