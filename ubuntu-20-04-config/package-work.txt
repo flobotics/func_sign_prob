@@ -691,3 +691,4 @@ kwordquiz
 kallisto
 kamoso
 kstart
+keditbookmarks
