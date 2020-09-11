@@ -1053,3 +1053,4 @@
 /usr/sbin/nmbd
 /usr/sbin/samba
 /usr/sbin/smbd
+/usr/bin/ntlm_auth
