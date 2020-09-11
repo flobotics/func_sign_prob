@@ -2076,3 +2076,4 @@
 /usr/bin/krb5-auth-dialog
 /usr/bin/kwordquiz
 /usr/bin/kallisto
+/usr/bin/kamoso
