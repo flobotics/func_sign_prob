@@ -675,3 +675,6 @@ kbackup
 kbdd
 konversation
 k4dirstat
+kmenuedit
+kcalc
+kxstitch

@@ -949,3 +949,8 @@ kvmtool
 kio-perldoc
 klayout
 k4dirstat
+kmenuedit
+kcalc
+kpeople-vcard
+kore
+kxstitch

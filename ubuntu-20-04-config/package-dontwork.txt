@@ -268,3 +268,4 @@ komi
 kde-telepathy-approver
 kio-perldoc
 klayout
+kpeople-vcard
