@@ -583,3 +583,6 @@ pptpd
 bcrelay
 pptp-linux
 pciutils
+pango1.0-tools
+poppler-utils
+powertop

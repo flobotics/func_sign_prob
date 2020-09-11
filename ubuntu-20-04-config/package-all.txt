@@ -802,3 +802,9 @@ bcrelay
 python3-pyrsistent
 pptp-linux
 pciutils
+pango1.0-tools
+python3-pyscss
+printer-driver-ptouch
+poppler-utils
+python3-wrapt
+powertop
