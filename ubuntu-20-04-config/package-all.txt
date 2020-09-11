@@ -1251,3 +1251,4 @@ badger
 bagel
 bogofilter-sqlite
 bogofilter-bdb
+bwa
