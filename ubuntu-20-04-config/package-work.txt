@@ -532,3 +532,4 @@ apt-utils
 aspell
 alsa-utils
 anope
+apache2-bin
