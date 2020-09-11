@@ -2174,3 +2174,5 @@
 /usr/bin/ktorrent
 /usr/bin/ktupnptest
 /usr/bin/kcollectd
+/usr/bin/kcov
+/usr/bin/kcov-system-daemon

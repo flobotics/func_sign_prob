@@ -1108,3 +1108,4 @@ kfind
 keurocalc
 ktorrent
 kcollectd
+kcov
