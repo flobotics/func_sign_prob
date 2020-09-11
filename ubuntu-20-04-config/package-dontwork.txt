@@ -352,3 +352,4 @@ kdevelop55-libs
 kodi-pvr-nextpvr
 qml-module-org-kde-newstuff
 kubuntu-driver-manager
+klickety
