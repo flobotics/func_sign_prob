@@ -91,3 +91,5 @@ strongswan-libcharon
 systemd-timesyncd
 speech-dispatcher-espeak-ng
 python3-sqlalchemy-ext
+python3-sss
+sssd-proxy
