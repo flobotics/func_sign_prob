@@ -762,3 +762,4 @@ keepassxc
 kicad
 kruler
 kannel-sqlbox
+kmscube
