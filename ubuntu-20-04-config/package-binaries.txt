@@ -1483,3 +1483,7 @@
 /usr/sbin/ModemManager
 /usr/bin/mkmanifest
 /usr/bin/mtools
+/usr/bin/cmp
+/usr/bin/diff
+/usr/bin/diff3
+/usr/bin/sdiff

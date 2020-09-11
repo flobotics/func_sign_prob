@@ -479,3 +479,4 @@ mysql-client-core-8.0
 mysql-server-core-8.0
 modemmanager
 mtools
+diffutils
