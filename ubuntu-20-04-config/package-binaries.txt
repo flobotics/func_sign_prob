@@ -2396,3 +2396,4 @@
 /usr/bin/parseAlignment
 /usr/bin/transposeLargeFile
 /usr/bin/phyview
+/usr/bin/backstep
