@@ -1901,3 +1901,7 @@
 /usr/lib/plan9/bin/unutf
 /usr/lib/plan9/bin/yacc
 /usr/bin/9wm
+/usr/bin/9mount
+/usr/bin/9umount
+/usr/bin/9menu
+/usr/bin/jcat-tool

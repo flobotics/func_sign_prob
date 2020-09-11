@@ -816,3 +816,6 @@ joyent-mdata-client
 inputattach
 9base
 9wm
+9mount
+9menu
+jcat
