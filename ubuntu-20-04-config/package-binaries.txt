@@ -2264,3 +2264,4 @@
 /usr/bin/kphononplayer
 /bin/ksh93
 /usr/bin/shcomp93
+/usr/bin/kmerresistance

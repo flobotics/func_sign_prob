@@ -771,3 +771,4 @@ kuiviewer
 kpartloader
 kmplayer
 ksh93
+kmerresistance
