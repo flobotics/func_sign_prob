@@ -278,3 +278,8 @@ plasma-runner-telepathy-contact
 katomic
 kde-config-cron
 kodi-pvr-hts
+ksirk
+qml-module-org-kde-draganddrop
+qml-module-org-kde-kwindowsystem
+qml-module-org-kde-kcm
+qml-module-org-kde-kio

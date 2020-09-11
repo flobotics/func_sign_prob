@@ -693,3 +693,5 @@ kamoso
 kstart
 keditbookmarks
 kteatime
+keynav
+kpackagelauncherqml
