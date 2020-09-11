@@ -803,3 +803,5 @@ klavaro
 katarakt
 kitty
 klustakwik
+bcal
+bibtool

@@ -1221,3 +1221,7 @@ katarakt
 knetwalk
 kitty
 klustakwik
+bcal
+bino
+bloboats
+bibtool

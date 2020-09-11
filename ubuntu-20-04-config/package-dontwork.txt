@@ -410,3 +410,5 @@ kio-ldap
 kannel-extras
 kactivitymanagerd
 knetwalk
+bino
+bloboats

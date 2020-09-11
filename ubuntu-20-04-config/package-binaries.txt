@@ -2303,3 +2303,5 @@
 /usr/bin/katarakt
 /usr/bin/kitty
 /usr/bin/KlustaKwik
+/usr/bin/bcal
+/usr/bin/bibtool
