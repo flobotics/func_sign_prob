@@ -446,3 +446,6 @@ blocks-of-the-undead
 binpac
 barrage
 bumprace
+bash-builtins
+bomberclone
+bombardier

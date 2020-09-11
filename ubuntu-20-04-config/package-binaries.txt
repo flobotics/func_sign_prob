@@ -2380,3 +2380,4 @@
 /usr/bin/botch-partial-order
 /usr/bin/botch-print-stats
 /bin/bash-static
+/usr/bin/biboumi

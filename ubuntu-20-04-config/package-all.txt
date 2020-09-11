@@ -1289,3 +1289,7 @@ bidiv
 botch
 bumprace
 bash-static
+bash-builtins
+bomberclone
+bombardier
+biboumi
