@@ -362,3 +362,4 @@ sbsigntool
 smartmontools
 udev
 systemd-container
+sysvinit-utils
