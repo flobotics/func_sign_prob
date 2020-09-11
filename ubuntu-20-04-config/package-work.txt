@@ -692,3 +692,4 @@ kallisto
 kamoso
 kstart
 keditbookmarks
+kteatime
