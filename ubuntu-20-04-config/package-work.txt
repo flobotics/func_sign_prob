@@ -668,3 +668,4 @@ kolourpaint
 ksshaskpass
 kshutdown
 kdiff3
+kcharselect

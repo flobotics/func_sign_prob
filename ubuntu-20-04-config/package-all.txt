@@ -933,3 +933,4 @@ kshutdown
 kollision
 qml-module-org-kde-people
 kdiff3
+kcharselect
