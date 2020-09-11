@@ -1103,3 +1103,5 @@ kodi-pvr-hdhomerun
 konclude
 kraft
 krb5-strength
+knights
+kfind
