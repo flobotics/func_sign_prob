@@ -857,3 +857,4 @@ bosh
 batmand
 bwm-ng
 boxbackup-client
+boxbackup-server

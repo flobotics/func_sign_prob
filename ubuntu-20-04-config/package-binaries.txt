@@ -2443,3 +2443,5 @@
 /usr/sbin/bbackupctl
 /usr/sbin/bbackupd
 /usr/sbin/bbackupquery
+/usr/sbin/bbstoreaccounts
+/usr/sbin/bbstored
