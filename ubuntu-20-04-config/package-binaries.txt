@@ -1578,3 +1578,4 @@
 /usr/sbin/exim_fixdb
 /usr/sbin/exim_lock
 /usr/sbin/exim_tidydb
+/usr/sbin/exim4
