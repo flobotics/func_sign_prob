@@ -163,3 +163,4 @@ erlang-runtime-tools
 erlang-megaco
 erlang-crypto
 erlang-asn1
+python3-libvirt
