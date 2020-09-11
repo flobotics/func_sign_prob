@@ -757,3 +757,4 @@ makedic
 kelbt
 kmouth
 kde-config-fcitx
+kapptemplate
