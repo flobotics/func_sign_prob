@@ -541,3 +541,4 @@ gdm3
 gnome-mahjongg
 gparted
 gobject-introspection
+google-compute-engine-oslogin
