@@ -710,3 +710,4 @@ kactivities-bin
 klettres
 krename
 kinfocenter
+kookbook

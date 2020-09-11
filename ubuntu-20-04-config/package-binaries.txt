@@ -2102,3 +2102,5 @@
 /usr/bin/klettres
 /usr/bin/krename
 /usr/bin/kinfocenter
+/usr/bin/kookbook
+/usr/bin/kookbooktouch
