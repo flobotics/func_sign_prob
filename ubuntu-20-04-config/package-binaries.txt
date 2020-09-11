@@ -2073,3 +2073,4 @@
 /usr/bin/kitenradselect
 /usr/bin/kalzium
 /usr/bin/kmetronome
+/usr/bin/krb5-auth-dialog

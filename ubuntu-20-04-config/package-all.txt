@@ -967,3 +967,5 @@ kiriki
 kalzium
 kodi-pvr-vuplus
 kmetronome
+ketm
+krb5-auth-dialog
