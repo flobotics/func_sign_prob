@@ -2337,3 +2337,5 @@
 /usr/bin/budgie-extras-daemon
 /usr/bin/buici-clock
 /usr/bin/bibtexconv
+/usr/bin/buffer
+/usr/bin/boxes
