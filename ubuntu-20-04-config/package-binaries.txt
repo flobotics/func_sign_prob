@@ -2105,3 +2105,5 @@
 /usr/bin/kookbook
 /usr/bin/kookbooktouch
 /usr/bin/kbibtex
+/usr/bin/kmix
+/usr/bin/kmixctrl
