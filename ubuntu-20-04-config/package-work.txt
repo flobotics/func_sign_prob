@@ -687,3 +687,4 @@ kiten
 kalzium
 kmetronome
 krb5-auth-dialog
+kwordquiz

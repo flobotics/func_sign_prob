@@ -2074,3 +2074,4 @@
 /usr/bin/kalzium
 /usr/bin/kmetronome
 /usr/bin/krb5-auth-dialog
+/usr/bin/kwordquiz
