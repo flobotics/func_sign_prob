@@ -1378,3 +1378,5 @@
 /usr/bin/lbdb_dotlock
 /sbin/mdadm
 /sbin/mdmon
+/usr/bin/mtr
+/usr/bin/mtr-packet
