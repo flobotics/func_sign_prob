@@ -2039,3 +2039,4 @@
 /usr/bin/kronometer
 /usr/bin/kaddressbook
 /usr/bin/k2pdfopt
+/usr/bin/klick
