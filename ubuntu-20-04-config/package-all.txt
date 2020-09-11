@@ -648,3 +648,4 @@ dctrl-tools
 dovecot-imapd
 dovecot-pop3d
 dovecot-core
+device-tree-compiler

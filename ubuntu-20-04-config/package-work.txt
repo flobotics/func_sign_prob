@@ -488,3 +488,4 @@ dictzip
 dictd
 dctrl-tools
 dovecot-core
+device-tree-compiler

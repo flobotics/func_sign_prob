@@ -1500,3 +1500,9 @@
 /usr/bin/doveadm
 /usr/bin/doveconf
 /usr/sbin/dovecot
+/usr/bin/convert-dtsv0
+/usr/bin/dtc
+/usr/bin/fdtdump
+/usr/bin/fdtget
+/usr/bin/fdtoverlay
+/usr/bin/fdtput
