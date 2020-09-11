@@ -775,3 +775,4 @@ kmerresistance
 kwalletcli
 kleopatra
 kismet
+kdevelop-pg-qt
