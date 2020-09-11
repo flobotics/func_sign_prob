@@ -604,3 +604,4 @@ explain
 printemf
 ewf-tools
 epsilon-bin
+king-probe

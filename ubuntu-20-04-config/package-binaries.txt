@@ -1921,3 +1921,4 @@
 /usr/bin/ewfrecover
 /usr/bin/ewfverify
 /usr/bin/epsilon
+/usr/lib/debian-med/bin/probe
