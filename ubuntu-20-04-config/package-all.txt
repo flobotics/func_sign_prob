@@ -1161,3 +1161,4 @@ kmplayer
 kde-config-whoopsie
 ksh93
 kmerresistance
+kwalletcli
