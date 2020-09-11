@@ -1222,3 +1222,4 @@
 /usr/bin/gpg-wks-server
 /usr/bin/gpgv
 /usr/bin/gpg-agent
+/bin/grep

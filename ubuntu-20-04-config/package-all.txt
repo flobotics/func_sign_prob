@@ -497,3 +497,4 @@ gnupg-utils
 gpg-wks-server
 gpgv
 gpg-agent
+grep
