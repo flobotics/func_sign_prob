@@ -465,3 +465,4 @@ mokutil
 printer-driver-m2300w
 mutt
 m4
+mlocate
