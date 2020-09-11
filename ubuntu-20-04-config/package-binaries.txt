@@ -2063,3 +2063,4 @@
 /usr/bin/kcalc
 /usr/bin/kxstitch
 /usr/bin/kino
+/usr/bin/kanshi

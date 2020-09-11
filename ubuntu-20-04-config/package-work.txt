@@ -679,3 +679,4 @@ kmenuedit
 kcalc
 kxstitch
 kino
+kanshi
