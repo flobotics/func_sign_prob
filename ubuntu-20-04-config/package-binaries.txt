@@ -2397,3 +2397,4 @@
 /usr/bin/transposeLargeFile
 /usr/bin/phyview
 /usr/bin/backstep
+/usr/lib/debian-med/bin/eagle
