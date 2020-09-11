@@ -669,3 +669,5 @@ ksshaskpass
 kshutdown
 kdiff3
 kcharselect
+kross
+krfb

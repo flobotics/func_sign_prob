@@ -934,3 +934,9 @@ kollision
 qml-module-org-kde-people
 kdiff3
 kcharselect
+kross
+kmailtransport-akonadi
+kde-config-mailtransport
+qml-module-org-kde-kirigami2
+kde-telepathy-filetransfer-handler
+krfb

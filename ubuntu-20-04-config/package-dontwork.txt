@@ -260,3 +260,7 @@ kolf
 kvirc-modules
 kollision
 qml-module-org-kde-people
+kmailtransport-akonadi
+kde-config-mailtransport
+qml-module-org-kde-kirigami2
+kde-telepathy-filetransfer-handler
