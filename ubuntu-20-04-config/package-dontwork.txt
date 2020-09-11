@@ -187,3 +187,5 @@ php7.4-odbc
 php7.4-common
 php7.4-pspell
 python3-pyeclib
+packagekit
+gstreamer1.0-packagekit

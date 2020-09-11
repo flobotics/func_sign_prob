@@ -569,3 +569,4 @@ ppp
 procps
 pinentry-curses
 pinentry-gnome3
+packagekit-tools

@@ -760,3 +760,6 @@ ppp
 procps
 pinentry-curses
 pinentry-gnome3
+packagekit
+gstreamer1.0-packagekit
+packagekit-tools
