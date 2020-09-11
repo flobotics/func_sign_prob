@@ -2510,3 +2510,4 @@
 /usr/bin/kmerprob
 /usr/bin/lasToBAM
 /usr/bin/normalisefasta
+/usr/bin/beep
