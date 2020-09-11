@@ -974,3 +974,6 @@ plasma-runner-telepathy-contact
 katomic
 kallisto
 kamoso
+kde-config-cron
+kodi-pvr-hts
+kstart

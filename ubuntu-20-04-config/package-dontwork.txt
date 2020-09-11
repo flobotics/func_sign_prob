@@ -276,3 +276,5 @@ kodi-pvr-vuplus
 ketm
 plasma-runner-telepathy-contact
 katomic
+kde-config-cron
+kodi-pvr-hts
