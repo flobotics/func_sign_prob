@@ -2067,3 +2067,7 @@
 /usr/bin/ktp-send-file
 /usr/bin/kanagram
 /usr/bin/ktp-contactlist
+/usr/bin/kiten
+/usr/bin/kitengen
+/usr/bin/kitenkanjibrowser
+/usr/bin/kitenradselect
