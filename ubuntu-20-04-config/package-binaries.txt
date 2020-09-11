@@ -1233,3 +1233,6 @@
 /usr/bin/gtk3-demo-application
 /usr/bin/gtk3-icon-browser
 /usr/bin/gtk3-widget-factory
+/usr/bin/gnome-session-inhibit
+/usr/bin/gnome-session-quit
+/usr/bin/gnome-session-properties
