@@ -1965,3 +1965,4 @@
 /usr/bin/kswitch
 /usr/bin/ktutil
 /usr/bin/kvno
+/usr/sbin/kopano-gateway
