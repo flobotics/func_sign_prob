@@ -1932,3 +1932,6 @@
 /usr/bin/kafkacat
 /usr/bin/ksystemlog
 /usr/bin/kimagemapeditor
+/usr/bin/kfmclient
+/usr/bin/konqueror
+/usr/sbin/ksmctl

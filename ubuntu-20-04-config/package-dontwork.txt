@@ -227,3 +227,4 @@ qml-module-org-kde-kaccounts
 kaccounts-integration
 kdegraphics-mobipocket
 kio-gdrive
+kodi-pvr-dvbviewer
