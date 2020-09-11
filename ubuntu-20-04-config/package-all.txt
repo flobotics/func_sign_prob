@@ -450,3 +450,4 @@ strongswan-libcharon
 socat
 sane-utils
 sbsigntool
+smartmontools
