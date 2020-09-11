@@ -376,3 +376,4 @@ squid
 strace
 schroot
 sysstat
+seahorse
