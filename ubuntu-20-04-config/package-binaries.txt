@@ -1905,3 +1905,4 @@
 /usr/bin/9umount
 /usr/bin/9menu
 /usr/bin/jcat-tool
+/usr/bin/edlib-aligner
