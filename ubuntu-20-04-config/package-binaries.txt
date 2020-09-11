@@ -1516,3 +1516,16 @@
 /usr/bin/desktop-file-validate
 /usr/bin/update-desktop-database
 /usr/bin/dselect
+/sbin/start-stop-daemon
+/usr/bin/dpkg
+/usr/bin/dpkg-deb
+/usr/bin/dpkg-divert
+/usr/bin/dpkg-query
+/usr/bin/dpkg-split
+/usr/bin/dpkg-statoverride
+/usr/bin/dpkg-trigger
+/usr/bin/update-alternatives
+/sbin/drbdadm
+/sbin/drbdmeta
+/sbin/drbdmon
+/sbin/drbdsetup
