@@ -1314,3 +1314,8 @@
 /usr/bin/gnome-software
 /usr/bin/munch
 /usr/bin/unmunch
+/bin/hostname
+/usr/bin/hfst-ospell
+/usr/bin/hfst-ospell-office
+/sbin/hdparm
+/usr/bin/hpijs
