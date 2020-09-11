@@ -589,3 +589,4 @@ powertop
 patchutils
 gkbd-capplet
 jfsutils
+joyent-mdata-client

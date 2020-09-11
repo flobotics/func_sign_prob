@@ -812,3 +812,4 @@ patchutils
 python3-xattr
 gkbd-capplet
 jfsutils
+joyent-mdata-client
