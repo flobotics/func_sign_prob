@@ -434,3 +434,4 @@ hfst-ospell
 hdparm
 printer-driver-hpijs
 htop
+haproxy
