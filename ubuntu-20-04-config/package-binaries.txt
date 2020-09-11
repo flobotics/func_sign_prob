@@ -2517,3 +2517,4 @@
 /usr/sbin/batctl
 /usr/bin/bwbasic
 /usr/bin/renum
+/usr/bin/brewtarget

@@ -864,3 +864,4 @@ barcode
 bitmeter
 batctl
 bwbasic
+brewtarget
