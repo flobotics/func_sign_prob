@@ -796,3 +796,4 @@ ktouch
 kstars
 kwave
 kasumi
+kchmviewer

@@ -2296,3 +2296,4 @@
 /usr/bin/kstars
 /usr/bin/kwave
 /usr/bin/kasumi
+/usr/bin/kchmviewer
