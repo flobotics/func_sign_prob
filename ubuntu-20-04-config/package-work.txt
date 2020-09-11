@@ -554,3 +554,4 @@ redland-utils
 rsyslog
 rasqal-utils
 rygel
+rdma-core

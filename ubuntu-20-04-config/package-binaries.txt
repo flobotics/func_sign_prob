@@ -1708,3 +1708,5 @@
 /usr/sbin/rsyslogd
 /usr/bin/roqet
 /usr/bin/rygel
+/usr/sbin/iwpmd
+/usr/sbin/rdma-ndd

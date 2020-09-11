@@ -726,3 +726,5 @@ redland-utils
 rsyslog
 rasqal-utils
 rygel
+ibverbs-providers
+rdma-core
