@@ -1929,3 +1929,5 @@
 /usr/bin/kconfig-nconf
 /usr/bin/kconfig-qconf
 /usr/bin/kak
+/usr/bin/kafkacat
+/usr/bin/ksystemlog

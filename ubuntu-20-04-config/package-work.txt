@@ -607,3 +607,5 @@ epsilon-bin
 king-probe
 kconfig-frontends
 kakoune
+kafkacat
+ksystemlog

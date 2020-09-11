@@ -838,3 +838,5 @@ kaccounts-integration
 kdegraphics-mobipocket
 kio-gdrive
 kakoune
+kafkacat
+ksystemlog
