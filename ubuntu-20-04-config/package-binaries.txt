@@ -1491,3 +1491,4 @@
 /usr/bin/dnstracer
 /usr/bin/dh-exec
 /usr/bin/deja-dup
+/usr/bin/dictzip
