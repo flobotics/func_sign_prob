@@ -2037,3 +2037,5 @@
 /usr/bin/kmc_tools
 /usr/bin/kaffeine
 /usr/bin/kronometer
+/usr/bin/kaddressbook
+/usr/bin/k2pdfopt

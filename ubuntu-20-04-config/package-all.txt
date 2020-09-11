@@ -911,3 +911,5 @@ kmc
 kblocks
 kaffeine
 kronometer
+kaddressbook
+k2pdfopt
