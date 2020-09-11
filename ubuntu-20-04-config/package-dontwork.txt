@@ -286,3 +286,7 @@ qml-module-org-kde-kio
 qml-module-org-kde-kcoreaddons
 qml-module-org-kde-kconfig
 qml-module-org-kde-kquickcontrolsaddons
+kdenetwork-filesharing
+kodi-visualization-spectrum
+killbots
+kio-gopher

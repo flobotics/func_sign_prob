@@ -696,3 +696,5 @@ kteatime
 keynav
 kpackagelauncherqml
 kalign
+kphotoalbum
+kanjipad
