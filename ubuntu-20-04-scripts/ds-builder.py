@@ -9,6 +9,7 @@ import pickle
 import getopt
 import sys
 from multiprocessing import Pool
+from builtins import False
 
 base_path = "/home/infloflo/git/func_sign_prob/"
 #base_path = "/home/ubu/git/test/func_sign_prob/"
@@ -49,22 +50,40 @@ def get_all_ubuntu_dbgsym_packages(verbose=False):
 def filter_dbgsym_package_list(dbgsym_list, verbose=False):
     new_list = list()
     
+    
+    
     for item in dbgsym_list:
         subItem = item.split()[0]
         
+        filtered_out = False
         
         if subItem.startswith('lib') or subItem.startswith('firmware'):
             if verbose:
                 print(f'Filter out, because of >lib,firmware< {subItem}')
+            filtered_out = True
             pass
         elif 'plugin' in subItem:
             if verbose:
                 print(f'Filter out, because of >plugin< {subItem}')
+            filtered_out = True
+            pass
+        elif 'linux' in subItem:
+            if verbose:
+                print(f'Filter out, because of >linux< {subItem}')
+            filtered_out = True
             pass
         else:
             if verbose:
                 print(f'Add to filtered list >{subItem}<')
             new_list.append(subItem)
+            
+        ### for later inspection what packages we filtered out
+        if filtered_out:
+            file = open(base_path + config_dir + "package-filtered-out.txt", "a+")
+            if verbose:
+                print(f"Write to package-filtered-out.txt file: {subItem}")
+            file.write(str(subItem) + '\n')
+            file.close()
     
     if verbose:
         print(f'Length of filtered_pkgs_with_dbgsym:{len(new_list)}')
