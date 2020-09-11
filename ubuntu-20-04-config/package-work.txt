@@ -433,3 +433,4 @@ hostname
 hfst-ospell
 hdparm
 printer-driver-hpijs
+htop

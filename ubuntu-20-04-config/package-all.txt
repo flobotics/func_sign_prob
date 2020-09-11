@@ -564,3 +564,7 @@ hostname
 hfst-ospell
 hdparm
 printer-driver-hpijs
+printer-driver-postscript-hp
+printer-driver-hpcups
+hplip
+htop
