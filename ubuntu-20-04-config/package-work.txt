@@ -568,3 +568,4 @@ python3-cryptography
 ppp
 procps
 pinentry-curses
+pinentry-gnome3
