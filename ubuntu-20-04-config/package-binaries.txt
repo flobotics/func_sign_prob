@@ -1688,3 +1688,11 @@
 /usr/sbin/sfex_init
 /usr/sbin/sfex_stat
 /usr/sbin/radvd
+/usr/bin/ruby2.7
+/usr/bin/recode
+/sbin/debugreiserfs
+/sbin/mkreiserfs
+/sbin/reiserfsck
+/sbin/reiserfstune
+/sbin/resize_reiserfs
+/usr/bin/re2c
