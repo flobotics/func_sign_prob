@@ -1367,3 +1367,10 @@
 /usr/bin/lsof
 /usr/bin/lz4
 /usr/bin/lshw
+/usr/bin/lp_solve
+/usr/bin/lsscsi
+/usr/bin/ltrace
+/sbin/dmsetup
+/sbin/dmeventd
+/sbin/lvm
+/sbin/lvmpolld

@@ -589,3 +589,17 @@ linux-image-5.4.0-1010-azure
 linux-image-5.4.0-26-lowlatency
 linux-image-5.4.0-26-generic
 lshw
+linux-image-unsigned-5.4.0-1009-gcp
+linux-image-5.6.0-1007-oem
+linux-image-5.4.0-1009-kvm
+landscape-client
+lupin-support
+lp-solve
+linux-image-unsigned-5.6.0-1007-oem
+lsscsi
+ltrace
+python3-lazy-object-proxy
+linux-image-5.4.0-1009-aws
+dmsetup
+dmeventd
+lvm2

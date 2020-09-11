@@ -446,3 +446,9 @@ lockfile-progs
 lsof
 lz4
 lshw
+lp-solve
+lsscsi
+ltrace
+dmsetup
+dmeventd
+lvm2
