@@ -684,3 +684,4 @@ kde-telepathy-send-file
 kanagram
 kde-telepathy-contact-list
 kiten
+kalzium

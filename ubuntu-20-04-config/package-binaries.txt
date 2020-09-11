@@ -2071,3 +2071,4 @@
 /usr/bin/kitengen
 /usr/bin/kitenkanjibrowser
 /usr/bin/kitenradselect
+/usr/bin/kalzium

@@ -963,3 +963,5 @@ kodi-pvr-mediaportal-tvserver
 kwayland-integration
 kde-telepathy-contact-list
 kiten
+kiriki
+kalzium

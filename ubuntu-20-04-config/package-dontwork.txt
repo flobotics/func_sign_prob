@@ -271,3 +271,4 @@ klayout
 kpeople-vcard
 kodi-pvr-mediaportal-tvserver
 kwayland-integration
+kiriki
