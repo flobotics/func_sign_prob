@@ -223,3 +223,7 @@ python3-edlib
 python3-libevtx
 python3-libesedb
 python3-libewf
+qml-module-org-kde-kaccounts
+kaccounts-integration
+kdegraphics-mobipocket
+kio-gdrive

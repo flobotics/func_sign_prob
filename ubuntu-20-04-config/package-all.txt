@@ -832,3 +832,9 @@ ewf-tools
 python3-libewf
 epsilon-bin
 king-probe
+kconfig-frontends
+qml-module-org-kde-kaccounts
+kaccounts-integration
+kdegraphics-mobipocket
+kio-gdrive
+kakoune

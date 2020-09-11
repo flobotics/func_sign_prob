@@ -1922,3 +1922,10 @@
 /usr/bin/ewfverify
 /usr/bin/epsilon
 /usr/lib/debian-med/bin/probe
+/usr/bin/kconfig-conf
+/usr/bin/kconfig-gconf
+/usr/bin/kconfig-gettext
+/usr/bin/kconfig-mconf
+/usr/bin/kconfig-nconf
+/usr/bin/kconfig-qconf
+/usr/bin/kak
