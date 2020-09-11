@@ -357,3 +357,4 @@ session-migration
 login
 squashfs-tools
 socat
+sane-utils
