@@ -1210,3 +1210,5 @@
 /usr/bin/gpgsm
 /usr/bin/dirmngr
 /usr/bin/dirmngr-client
+/usr/bin/gpg-connect-agent
+/usr/bin/gpgconf

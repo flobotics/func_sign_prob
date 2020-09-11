@@ -491,3 +491,5 @@ gnome-themes-extra
 geoclue-2.0
 gpgsm
 dirmngr
+gpg-wks-client
+gpgconf

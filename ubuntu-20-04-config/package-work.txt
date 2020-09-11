@@ -384,3 +384,4 @@ setserial
 sg3-utils
 gpgsm
 dirmngr
+gpgconf
