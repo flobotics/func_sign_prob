@@ -463,3 +463,4 @@ python3-sqlalchemy-ext
 screen
 shared-mime-info
 sudo
+simple-scan
