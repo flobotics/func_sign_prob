@@ -908,3 +908,5 @@ kdf
 ktnef
 kmail
 kmc
+kblocks
+kaffeine

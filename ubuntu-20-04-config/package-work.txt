@@ -652,3 +652,4 @@ kdf
 ktnef
 kmail
 kmc
+kaffeine
