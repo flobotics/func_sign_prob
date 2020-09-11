@@ -536,3 +536,4 @@ apache2-bin
 apache2-utils
 avahi-utils
 avahi-autoipd
+avahi-daemon
