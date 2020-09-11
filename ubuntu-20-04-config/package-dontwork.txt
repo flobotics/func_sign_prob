@@ -420,3 +420,4 @@ bugsquish
 black-box
 bls-standalone
 boswars
+plymouth-theme-breeze

@@ -2316,3 +2316,4 @@
 /usr/bin/bibshelf
 /usr/sbin/huntd
 /usr/bin/bliss
+/usr/bin/btyacc
