@@ -2311,3 +2311,4 @@
 /usr/bin/bspc
 /usr/bin/bspwm
 /usr/bin/birdtray
+/usr/lib/debian-med/bin/express

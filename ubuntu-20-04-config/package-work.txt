@@ -810,3 +810,4 @@ bluez-btsco
 bdbvu
 bspwm
 birdtray
+berkeley-express
