@@ -2268,3 +2268,7 @@
 /usr/bin/kwalletcli
 /usr/bin/kleopatra
 /usr/bin/kwatchgnupg
+/usr/bin/kismet_capture
+/usr/bin/kismet_client
+/usr/bin/kismet_drone
+/usr/bin/kismet_server
