@@ -795,3 +795,4 @@ kwalletmanager
 ktouch
 kstars
 kwave
+kasumi

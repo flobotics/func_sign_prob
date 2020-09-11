@@ -2295,3 +2295,4 @@
 /usr/bin/ktouch
 /usr/bin/kstars
 /usr/bin/kwave
+/usr/bin/kasumi
