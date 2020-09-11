@@ -1322,3 +1322,5 @@ bosh
 batmand
 briquolo
 bwm-ng
+biloba
+boxbackup-client

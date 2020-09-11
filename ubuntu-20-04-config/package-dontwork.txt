@@ -458,3 +458,4 @@ baresip-gstreamer
 berusky
 mate-applet-brisk-menu
 briquolo
+biloba

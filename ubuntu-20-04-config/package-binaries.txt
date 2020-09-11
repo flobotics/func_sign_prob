@@ -2440,3 +2440,6 @@
 /usr/bin/bosh
 /usr/sbin/batmand
 /usr/bin/bwm-ng
+/usr/sbin/bbackupctl
+/usr/sbin/bbackupd
+/usr/sbin/bbackupquery
