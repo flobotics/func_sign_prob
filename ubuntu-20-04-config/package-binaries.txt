@@ -323,3 +323,4 @@
 /usr/bin/fc-query
 /usr/bin/fc-scan
 /usr/bin/fc-validate
+/usr/bin/file-roller

@@ -197,3 +197,4 @@ flex
 file
 fuse
 fontconfig
+file-roller
