@@ -217,3 +217,4 @@ install-info
 info
 tar
 thin-provisioning-tools
+tmispell-voikko

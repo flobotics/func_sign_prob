@@ -345,3 +345,4 @@
 /bin/tar
 /usr/sbin/rmt-tar
 /usr/sbin/pdata_tools
+/usr/bin/tmispell
