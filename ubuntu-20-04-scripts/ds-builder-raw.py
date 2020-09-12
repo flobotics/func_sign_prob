@@ -10,12 +10,12 @@ import getopt
 import sys
 from multiprocessing import Pool
 
-#base_path = "/home/infloflo/git/func_sign_prob/"
-base_path = "/home/ubu/git/test2/func_sign_prob/"
+base_path = "/home/infloflo/git/func_sign_prob/"
+#base_path = "/home/ubu/git/test2/func_sign_prob/"
 config_dir = "ubuntu-20-04-config/"
 pickles_dir = "ubuntu-20-04-pickles/"
-gcloud = False
-nr_of_cpus = 2
+gcloud = True
+nr_of_cpus = 8
 
 
 ### get a list with all packages with ending -dbgsym
@@ -687,7 +687,7 @@ for o, a in opts:
         
 if git_user == '' or git_pwd == '':
     print("You forgot git credentials")
-    #exit()
+    exit()
 else:
     print(f"git-user:{git_user}  git-pwd:{git_pwd}")
 
@@ -701,7 +701,7 @@ filtered_pkgs_with_dbgsym = filter_dbgsym_package_list(pkgs_with_dbgsym, False)
 
 c = 0
 
-filtered_pkgs_with_dbgsym = ["tree-dbgsym"]
+#filtered_pkgs_with_dbgsym = ["tree-dbgsym"]
 
 disassembly_att = list()
 disassembly_intel = list()
@@ -778,7 +778,7 @@ for package in filtered_pkgs_with_dbgsym:
         print(f'Write pickle file')
         save_list_to_pickle(ds_list, package.replace('-dbgsym', ''))
         
-        #push_pickle_to_github(package.replace('-dbgsym', ''))
+        push_pickle_to_github(package.replace('-dbgsym', ''))
     
         #package_dataset = build_tf_dataset(ds_list)
 

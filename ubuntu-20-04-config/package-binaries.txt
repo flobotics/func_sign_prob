@@ -1,1 +1,3 @@
 
+/sbin/kexec
+/sbin/vmcore-dmesg
