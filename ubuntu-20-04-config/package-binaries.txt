@@ -301,3 +301,9 @@
 /usr/bin/fetchmail
 /usr/bin/find
 /usr/bin/xargs
+/usr/bin/dfu-tool
+/usr/bin/fwupdagent
+/usr/bin/fwupdate
+/usr/bin/fwupdmgr
+/usr/bin/fwupdtool
+/usr/bin/fwupdtpmevlog
