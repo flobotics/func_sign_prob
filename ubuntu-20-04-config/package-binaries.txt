@@ -310,3 +310,4 @@
 /bin/con2fbmap
 /bin/fbset
 /usr/bin/flex
+/usr/bin/file
