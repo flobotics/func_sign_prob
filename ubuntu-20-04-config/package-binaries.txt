@@ -102,3 +102,8 @@
 /sbin/mkfs.btrfs
 /bin/busybox
 /usr/lib/initramfs-tools/bin/busybox
+/usr/bin/delv
+/usr/bin/dig
+/usr/bin/mdig
+/usr/bin/nslookup
+/usr/bin/nsupdate
