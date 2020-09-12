@@ -206,3 +206,4 @@ transmission-gtk
 tmux
 thermald
 totem
+tcpdump
