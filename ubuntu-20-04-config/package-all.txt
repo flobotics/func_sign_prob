@@ -179,3 +179,4 @@ openipmi
 openvpn
 open-vm-tools-desktop
 open-vm-tools
+openssh-server
