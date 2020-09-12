@@ -331,3 +331,4 @@
 /usr/sbin/tgtd
 /usr/sbin/tgtimg
 /usr/bin/transmission-gtk
+/usr/bin/tmux
