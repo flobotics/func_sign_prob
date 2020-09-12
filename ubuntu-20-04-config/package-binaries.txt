@@ -324,3 +324,5 @@
 /usr/bin/fc-scan
 /usr/bin/fc-validate
 /usr/bin/file-roller
+/usr/bin/faked-sysv
+/usr/bin/faked-tcp

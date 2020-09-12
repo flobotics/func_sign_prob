@@ -173,3 +173,4 @@ file
 fuse
 fontconfig
 file-roller
+fakeroot
