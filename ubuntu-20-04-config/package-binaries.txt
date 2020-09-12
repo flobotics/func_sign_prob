@@ -416,3 +416,5 @@
 /usr/bin/omshell
 /usr/sbin/dhcpd
 /sbin/dhclient
+/usr/sbin/iptraf-ng
+/usr/sbin/rvnamed-ng
