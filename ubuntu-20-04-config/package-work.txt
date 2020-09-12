@@ -167,3 +167,4 @@ printer-driver-foo2zjs
 fetchmail
 findutils
 fwupd
+fbset
