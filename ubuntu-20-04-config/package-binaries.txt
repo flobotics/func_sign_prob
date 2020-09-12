@@ -180,13 +180,3 @@
 /usr/bin/ldapsearch
 /usr/bin/ldapurl
 /usr/bin/ldapwhoami
-/usr/sbin/slapacl
-/usr/sbin/slapadd
-/usr/sbin/slapauth
-/usr/sbin/slapcat
-/usr/sbin/slapd
-/usr/sbin/slapdn
-/usr/sbin/slapindex
-/usr/sbin/slappasswd
-/usr/sbin/slapschema
-/usr/sbin/slaptest
