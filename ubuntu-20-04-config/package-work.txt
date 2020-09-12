@@ -152,3 +152,4 @@ open-iscsi
 optipng
 ovn-common
 ovn-host
+ovn-central
