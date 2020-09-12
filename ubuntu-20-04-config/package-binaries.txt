@@ -75,3 +75,4 @@
 /usr/sbin/vcstime
 /usr/bin/bsd-mailx
 /usr/bin/bc
+/usr/bin/dc
