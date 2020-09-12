@@ -134,3 +134,7 @@
 /usr/sbin/bcache-super-show
 /usr/sbin/make-bcache
 /usr/bin/boltctl
+/bin/bunzip2
+/bin/bzcat
+/bin/bzip2
+/bin/bzip2recover
