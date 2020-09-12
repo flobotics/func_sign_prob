@@ -29,3 +29,9 @@ bzip2
 bubblewrap
 b43-fwcutter
 xbrlapi
+brltty
+bison
+openssl
+openhpid
+openhpi-clients
+ldap-utils
