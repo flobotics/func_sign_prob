@@ -235,3 +235,4 @@ iw
 iucode-tool
 icu-devtools
 ippusbxd
+ipvsadm
