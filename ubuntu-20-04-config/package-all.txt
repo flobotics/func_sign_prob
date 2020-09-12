@@ -32,3 +32,6 @@ bubblewrap
 b43-fwcutter
 xbrlapi
 brltty
+python3-brlapi
+printer-driver-brlaser
+bison
