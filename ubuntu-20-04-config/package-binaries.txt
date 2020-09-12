@@ -43,3 +43,5 @@
 /usr/lib/klibc/bin/umount
 /usr/lib/klibc/bin/uname
 /usr/lib/klibc/bin/zcat
+/usr/bin/kerneloops-submit
+/usr/sbin/kerneloops
