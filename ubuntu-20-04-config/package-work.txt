@@ -17,3 +17,4 @@ btrfs-progs
 busybox-static
 busybox-initramfs
 bind9-dnsutils
+bind9-utils
