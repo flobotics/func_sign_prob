@@ -176,3 +176,5 @@ ovn-common
 ovn-host
 ovn-central
 openipmi
+openvpn
+open-vm-tools-desktop

@@ -224,3 +224,5 @@
 /usr/bin/rmcp_ping
 /usr/bin/sdrcomp
 /usr/bin/solterm
+/usr/sbin/openvpn
+/usr/bin/vmware-user-suid-wrapper
