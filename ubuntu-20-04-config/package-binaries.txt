@@ -399,3 +399,5 @@
 /usr/sbin/nfnl_osf
 /usr/sbin/xtables-legacy-multi
 /usr/sbin/xtables-nft-multi
+/usr/sbin/irqbalance
+/usr/sbin/irqbalance-ui

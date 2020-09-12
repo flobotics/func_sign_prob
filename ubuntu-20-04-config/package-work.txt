@@ -208,3 +208,4 @@ ipset
 iio-sensor-proxy
 irssi
 iptables
+irqbalance
