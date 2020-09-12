@@ -344,3 +344,4 @@
 /usr/bin/info
 /bin/tar
 /usr/sbin/rmt-tar
+/usr/sbin/pdata_tools

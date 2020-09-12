@@ -216,3 +216,4 @@ tracker-extract
 install-info
 info
 tar
+thin-provisioning-tools
