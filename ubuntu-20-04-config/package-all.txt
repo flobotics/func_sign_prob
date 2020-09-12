@@ -250,3 +250,4 @@ isc-dhcp-client
 ibus-chewing
 ibus-hangul
 iptraf-ng
+corosync
