@@ -138,3 +138,4 @@
 /bin/bzcat
 /bin/bzip2
 /bin/bzip2recover
+/usr/bin/bwrap
