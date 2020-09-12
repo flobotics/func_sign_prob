@@ -363,3 +363,4 @@
 /bin/ping
 /usr/bin/tracepath
 /usr/bin/traceroute6.iputils
+/usr/bin/arping
