@@ -208,3 +208,4 @@
 /sbin/iscsiadm
 /sbin/iscsid
 /sbin/iscsistart
+/usr/bin/optipng
