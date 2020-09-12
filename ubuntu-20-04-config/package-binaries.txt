@@ -76,3 +76,4 @@
 /usr/bin/bsd-mailx
 /usr/bin/bc
 /usr/bin/dc
+/usr/bin/bterm

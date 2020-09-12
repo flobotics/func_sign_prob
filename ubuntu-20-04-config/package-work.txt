@@ -9,3 +9,4 @@ kbd
 bsd-mailx
 bc
 dc
+bogl-bterm
