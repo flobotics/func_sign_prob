@@ -365,3 +365,4 @@
 /usr/bin/traceroute6.iputils
 /usr/bin/arping
 /sbin/iw
+/usr/sbin/iucode_tool

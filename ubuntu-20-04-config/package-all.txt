@@ -232,3 +232,4 @@ iputils-tracepath
 iputils-arping
 ibus-libpinyin
 iw
+iucode-tool
