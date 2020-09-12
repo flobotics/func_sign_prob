@@ -178,3 +178,4 @@ ovn-central
 openipmi
 openvpn
 open-vm-tools-desktop
+open-vm-tools
