@@ -32,3 +32,4 @@ xbrlapi
 brltty
 bison
 openssl
+openhpid
