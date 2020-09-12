@@ -346,3 +346,4 @@
 /usr/sbin/rmt-tar
 /usr/sbin/pdata_tools
 /usr/bin/tmispell
+/usr/bin/cdb
