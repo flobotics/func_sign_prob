@@ -186,3 +186,5 @@ freeradius-dhcp
 freeradius-utils
 freeradius
 fprintd
+tdsodbc
+freeipmi-tools
