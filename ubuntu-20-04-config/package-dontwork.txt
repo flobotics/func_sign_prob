@@ -25,3 +25,4 @@ tk8.6-blt2.5
 os-prober
 ocl-icd-libopencl1
 openssh-sftp-server
+freeradius-dhcp

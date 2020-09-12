@@ -182,3 +182,5 @@ open-vm-tools
 openssh-server
 openssh-sftp-server
 openssh-client
+freeradius-dhcp
+freeradius-utils
