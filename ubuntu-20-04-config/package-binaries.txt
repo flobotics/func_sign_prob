@@ -347,3 +347,8 @@
 /usr/sbin/pdata_tools
 /usr/bin/tmispell
 /usr/bin/cdb
+/usr/bin/t1ascii
+/usr/bin/t1asm
+/usr/bin/t1disasm
+/usr/bin/t1mac
+/usr/bin/t1unmac
