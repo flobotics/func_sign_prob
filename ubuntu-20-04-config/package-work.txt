@@ -150,3 +150,4 @@ slapd
 ocfs2-tools
 open-iscsi
 optipng
+ovn-common

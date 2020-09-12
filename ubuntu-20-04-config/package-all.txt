@@ -172,3 +172,4 @@ ocfs2-tools
 open-iscsi
 ocl-icd-libopencl1
 optipng
+ovn-common

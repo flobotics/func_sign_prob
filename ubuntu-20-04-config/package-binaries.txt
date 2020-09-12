@@ -209,3 +209,7 @@
 /sbin/iscsid
 /sbin/iscsistart
 /usr/bin/optipng
+/usr/bin/ovn-appctl
+/usr/bin/ovn-nbctl
+/usr/bin/ovn-sbctl
+/usr/bin/ovn-trace
