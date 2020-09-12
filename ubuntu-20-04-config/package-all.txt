@@ -18,3 +18,5 @@ busybox-static
 busybox-initramfs
 bind9-dnsutils
 bind9-utils
+bind9-libs
+bind9

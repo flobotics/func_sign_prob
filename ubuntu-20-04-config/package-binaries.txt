@@ -119,3 +119,11 @@
 /usr/sbin/named-checkzone
 /usr/sbin/rndc
 /usr/sbin/rndc-confgen
+/usr/bin/arpaname
+/usr/bin/named-rrchecker
+/usr/sbin/ddns-confgen
+/usr/sbin/dnssec-importkey
+/usr/sbin/named
+/usr/sbin/named-journalprint
+/usr/sbin/named-nzd2nzf
+/usr/sbin/nsec3hash
