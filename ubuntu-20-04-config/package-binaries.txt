@@ -148,3 +148,4 @@
 /usr/bin/eutp
 /usr/bin/vstp
 /usr/bin/bison
+/usr/bin/openssl
