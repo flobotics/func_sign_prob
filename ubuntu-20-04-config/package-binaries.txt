@@ -392,3 +392,5 @@
 /usr/sbin/irpsion5
 /usr/sbin/smcinit
 /sbin/ipset
+/usr/bin/monitor-sensor
+/usr/sbin/iio-sensor-proxy
