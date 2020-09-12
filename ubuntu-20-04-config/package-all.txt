@@ -180,3 +180,5 @@ openvpn
 open-vm-tools-desktop
 open-vm-tools
 openssh-server
+openssh-sftp-server
+openssh-client
