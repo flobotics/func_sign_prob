@@ -309,3 +309,4 @@
 /usr/bin/fwupdtpmevlog
 /bin/con2fbmap
 /bin/fbset
+/usr/bin/flex
