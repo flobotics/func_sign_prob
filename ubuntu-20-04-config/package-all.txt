@@ -214,3 +214,4 @@ tcl8.6
 tracker-miner-fs
 tracker-extract
 install-info
+info
