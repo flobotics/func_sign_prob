@@ -181,3 +181,4 @@ tmux
 thermald
 totem
 tcpdump
+time

@@ -336,3 +336,4 @@
 /usr/bin/totem
 /usr/bin/totem-video-thumbnailer
 /usr/sbin/tcpdump
+/usr/bin/time
