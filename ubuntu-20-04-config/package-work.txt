@@ -161,3 +161,4 @@ openssh-server
 openssh-client
 freeradius-utils
 freeradius
+fprintd
