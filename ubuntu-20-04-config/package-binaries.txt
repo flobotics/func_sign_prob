@@ -91,3 +91,4 @@
 /usr/bin/ul
 /bin/bash
 /usr/bin/clear_console
+/sbin/brctl
