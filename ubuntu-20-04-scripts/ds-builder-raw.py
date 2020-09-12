@@ -652,7 +652,7 @@ def save_list_to_pickle(ds_list, package_name):
     ###tar and zip for github, dont allow larger than 100MB files
     tar_out = subprocess.run(["tar", 
                               "cjf", 
-                              package_name + ".pickle" + ".tar.bz2",
+                              base_path + pickles_dir + package_name + ".pickle" + ".tar.bz2",
                               "-C",
                               base_path + pickles_dir,
                               package_name + ".pickle" , 

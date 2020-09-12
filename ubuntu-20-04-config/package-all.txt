@@ -125,4 +125,3 @@ os-prober
 openhpid
 openhpi-clients
 ldap-utils
-slapd
