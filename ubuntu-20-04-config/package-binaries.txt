@@ -100,3 +100,4 @@
 /bin/btrfs-select-super
 /bin/btrfstune
 /sbin/mkfs.btrfs
+/bin/busybox

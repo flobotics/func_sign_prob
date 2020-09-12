@@ -14,3 +14,4 @@ bsdmainutils
 bash
 bridge-utils
 btrfs-progs
+busybox-static
