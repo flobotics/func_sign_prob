@@ -30,3 +30,4 @@ tdsodbc
 python3-talloc
 tracker-miner-fs
 tracker-extract
+python3-tdb
