@@ -20,3 +20,4 @@ bind9-dnsutils
 bind9-utils
 bind9-libs
 bind9
+bind9-host
