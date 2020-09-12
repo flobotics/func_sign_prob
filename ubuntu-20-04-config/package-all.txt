@@ -1,3 +1,4 @@
 
 kexec-tools
 keepalived
+keyutils

@@ -3,3 +3,6 @@
 /sbin/vmcore-dmesg
 /usr/bin/genhash
 /usr/sbin/keepalived
+/bin/keyctl
+/sbin/key.dns_resolver
+/sbin/request-key
