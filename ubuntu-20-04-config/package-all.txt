@@ -230,3 +230,5 @@ ibus-unikey
 iputils-ping
 iputils-tracepath
 iputils-arping
+ibus-libpinyin
+iw

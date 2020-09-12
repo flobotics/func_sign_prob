@@ -198,3 +198,4 @@ initramfs-tools-bin
 iputils-ping
 iputils-tracepath
 iputils-arping
+iw
