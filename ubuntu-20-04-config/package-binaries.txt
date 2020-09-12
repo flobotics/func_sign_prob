@@ -326,3 +326,4 @@
 /usr/bin/file-roller
 /usr/bin/faked-sysv
 /usr/bin/faked-tcp
+/usr/bin/scmp_sys_resolver
