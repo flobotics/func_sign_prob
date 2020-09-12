@@ -253,3 +253,5 @@
 /usr/bin/radwho
 /usr/bin/rlm_ippool_tool
 /usr/bin/smbencrypt
+/usr/sbin/freeradius
+/usr/sbin/radmin
