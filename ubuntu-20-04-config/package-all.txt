@@ -204,3 +204,4 @@ tgt
 python3-talloc
 transmission-gtk
 tmux
+thermald

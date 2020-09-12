@@ -332,3 +332,4 @@
 /usr/sbin/tgtimg
 /usr/bin/transmission-gtk
 /usr/bin/tmux
+/usr/sbin/thermald
