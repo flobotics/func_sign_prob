@@ -193,3 +193,4 @@ tmispell-voikko
 tinycdb
 t1utils
 tdb-tools
+ibus

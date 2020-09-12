@@ -356,3 +356,5 @@
 /usr/bin/tdbdump
 /usr/bin/tdbrestore
 /usr/bin/tdbtool
+/usr/bin/ibus
+/usr/bin/ibus-daemon

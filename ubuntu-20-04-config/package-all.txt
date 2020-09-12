@@ -222,3 +222,4 @@ tinycdb
 t1utils
 python3-tdb
 tdb-tools
+ibus
