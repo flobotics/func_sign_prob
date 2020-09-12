@@ -200,3 +200,4 @@ iputils-tracepath
 iputils-arping
 iw
 iucode-tool
+icu-devtools

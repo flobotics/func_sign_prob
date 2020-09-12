@@ -233,3 +233,4 @@ iputils-arping
 ibus-libpinyin
 iw
 iucode-tool
+icu-devtools
