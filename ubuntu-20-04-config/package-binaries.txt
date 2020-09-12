@@ -401,3 +401,14 @@
 /usr/sbin/xtables-nft-multi
 /usr/sbin/irqbalance
 /usr/sbin/irqbalance-ui
+/sbin/bridge
+/sbin/devlink
+/sbin/rtacct
+/sbin/rtmon
+/sbin/tc
+/sbin/tipc
+/usr/bin/lnstat
+/usr/bin/nstat
+/usr/bin/rdma
+/usr/sbin/arpd
+/usr/sbin/genl
