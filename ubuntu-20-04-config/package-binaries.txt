@@ -330,3 +330,4 @@
 /usr/sbin/tgtadm
 /usr/sbin/tgtd
 /usr/sbin/tgtimg
+/usr/bin/transmission-gtk
