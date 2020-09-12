@@ -201,3 +201,4 @@ iputils-arping
 iw
 iucode-tool
 icu-devtools
+ippusbxd
