@@ -415,3 +415,4 @@
 /usr/bin/indent
 /usr/bin/omshell
 /usr/sbin/dhcpd
+/sbin/dhclient
