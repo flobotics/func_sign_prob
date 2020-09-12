@@ -1,3 +1,5 @@
 
 /sbin/kexec
 /sbin/vmcore-dmesg
+/usr/bin/genhash
+/usr/sbin/keepalived
