@@ -179,3 +179,4 @@ tgt
 transmission-gtk
 tmux
 thermald
+totem

@@ -333,3 +333,5 @@
 /usr/bin/transmission-gtk
 /usr/bin/tmux
 /usr/sbin/thermald
+/usr/bin/totem
+/usr/bin/totem-video-thumbnailer
