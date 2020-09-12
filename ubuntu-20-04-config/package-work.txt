@@ -33,3 +33,4 @@ brltty
 bison
 openssl
 openhpid
+openhpi-clients

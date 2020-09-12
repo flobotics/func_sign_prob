@@ -39,3 +39,4 @@ tk8.6-blt2.5
 openssl
 os-prober
 openhpid
+openhpi-clients
