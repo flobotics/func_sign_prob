@@ -394,3 +394,5 @@
 /sbin/ipset
 /usr/bin/monitor-sensor
 /usr/sbin/iio-sensor-proxy
+/usr/bin/botti
+/usr/bin/irssi

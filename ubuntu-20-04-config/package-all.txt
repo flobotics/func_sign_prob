@@ -239,3 +239,4 @@ ipvsadm
 irda-utils
 ipset
 iio-sensor-proxy
+irssi
