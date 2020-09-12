@@ -647,7 +647,12 @@ def save_list_to_tfrecord(ds_list, package):
 
 def save_list_to_pickle(ds_list, package_name):
     with open(base_path + pickles_dir + "{0}.pickle".format(package_name), 'wb') as f:
-        pickle.dump(ds_list, f)    
+        pickle.dump(ds_list, f)
+        
+    ###tar and zip for github, dont allow larger than 100MB files
+    tar_out = subprocess.run(["tar", "cjf", package_name + ".tar.bz2", "--remove-files"], capture_output=True, universal_newlines=True)
+    out = tar_out.stdout
+    print(f'tar_out:{out}') 
 
    
 def push_pickle_to_github(package_name):
