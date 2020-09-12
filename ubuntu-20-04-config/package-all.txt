@@ -6,3 +6,4 @@ klibc-utils
 kerneloops
 kmod
 kbd
+bsd-mailx
