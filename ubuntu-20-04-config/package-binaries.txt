@@ -141,3 +141,9 @@
 /usr/bin/bwrap
 /usr/bin/b43-fwcutter
 /usr/bin/xbrlapi
+/bin/brltty
+/usr/bin/brltty-ctb
+/usr/bin/brltty-trtxt
+/usr/bin/brltty-ttb
+/usr/bin/eutp
+/usr/bin/vstp
