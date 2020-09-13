@@ -1136,3 +1136,7 @@
 /usr/bin/sudoreplay
 /usr/sbin/visudo
 /usr/bin/simple-scan
+/usr/sbin/sss_cache
+/usr/sbin/sss_override
+/usr/sbin/sss_seed
+/usr/sbin/sssctl

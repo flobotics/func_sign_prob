@@ -595,3 +595,6 @@ screen
 shared-mime-info
 sudo
 simple-scan
+python3-sss
+sssd-proxy
+sssd-tools

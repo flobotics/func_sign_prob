@@ -486,3 +486,4 @@ screen
 shared-mime-info
 sudo
 simple-scan
+sssd-tools
