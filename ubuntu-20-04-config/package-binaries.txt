@@ -1250,3 +1250,4 @@
 /usr/bin/gedit
 /usr/bin/gjs-console
 /usr/bin/gnome-terminal.real
+/usr/bin/gtk-update-icon-cache
