@@ -1247,3 +1247,4 @@
 /bin/grep
 /usr/bin/gnome-extensions
 /usr/bin/gnome-shell
+/usr/bin/gedit

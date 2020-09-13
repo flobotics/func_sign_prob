@@ -509,3 +509,4 @@ gpg-agent
 gpg
 grep
 gnome-shell
+gedit

@@ -638,3 +638,4 @@ gvfs
 gvfs-libs
 gvfs-fuse
 gnome-shell
+gedit
