@@ -405,3 +405,4 @@ xxd
 zsh
 zip
 zfs-zed
+zerofree
