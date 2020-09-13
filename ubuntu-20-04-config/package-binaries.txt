@@ -1527,3 +1527,5 @@
 /usr/sbin/mysqld
 /usr/bin/mmcli
 /usr/sbin/ModemManager
+/usr/bin/mkmanifest
+/usr/bin/mtools

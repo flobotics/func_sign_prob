@@ -765,3 +765,5 @@ keepalived
 keyutils
 kexec-tools
 modemmanager
+mecab-utils
+mtools
