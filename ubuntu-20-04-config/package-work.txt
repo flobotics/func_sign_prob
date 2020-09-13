@@ -646,3 +646,4 @@ eject
 elfutils
 e2fsprogs
 logsave
+appstream

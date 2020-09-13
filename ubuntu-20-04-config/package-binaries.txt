@@ -1655,3 +1655,4 @@
 /usr/sbin/filefrag
 /usr/sbin/mklost+found
 /sbin/logsave
+/usr/bin/appstreamcli
