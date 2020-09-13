@@ -409,3 +409,4 @@ zerofree
 zenity
 zsys
 usbmuxd
+update-notifier
