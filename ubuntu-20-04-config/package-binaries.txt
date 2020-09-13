@@ -2014,3 +2014,12 @@
 /usr/sbin/kopano-ical
 /usr/sbin/kopano-server
 /usr/sbin/kopano-monitor
+/usr/bin/kopano-fsck
+/usr/bin/kopano-ibrule
+/usr/bin/kopano-oof
+/usr/bin/kopano-passwd
+/usr/bin/kopano-stats
+/usr/sbin/kopano-admin
+/usr/sbin/kopano-dbadm
+/usr/sbin/kopano-srvadm
+/usr/sbin/kopano-storeadm
