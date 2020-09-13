@@ -1732,3 +1732,4 @@
 /usr/sbin/sfex_init
 /usr/sbin/sfex_stat
 /usr/sbin/radvd
+/usr/bin/ruby2.7
