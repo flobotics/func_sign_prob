@@ -638,3 +638,4 @@ enchant-2
 evince
 ebtables
 efibootmgr
+efivar

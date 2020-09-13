@@ -1618,3 +1618,4 @@
 /usr/sbin/ebtablesu
 /bin/efibootdump
 /bin/efibootmgr
+/usr/bin/efivar
