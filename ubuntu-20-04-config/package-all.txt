@@ -972,3 +972,4 @@ kakoune
 kafkacat
 ksystemlog
 kimagemapeditor
+konqueror
