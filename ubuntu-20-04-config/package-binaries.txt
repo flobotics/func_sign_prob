@@ -2084,3 +2084,4 @@
 /usr/bin/k2pdfopt
 /usr/bin/klick
 /usr/bin/ktp-dialout-ui
+/usr/bin/knocker
