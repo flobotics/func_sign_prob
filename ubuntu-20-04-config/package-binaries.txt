@@ -424,3 +424,12 @@
 /usr/sbin/corosync-cpgtool
 /usr/sbin/corosync-keygen
 /usr/sbin/corosync-quorumtool
+/usr/bin/cmake
+/usr/bin/cpack
+/usr/bin/ctest
+/sbin/mount.cifs
+/usr/bin/cifscreds
+/usr/bin/getcifsacl
+/usr/bin/setcifsacl
+/usr/sbin/cifs.idmap
+/usr/sbin/cifs.upcall
