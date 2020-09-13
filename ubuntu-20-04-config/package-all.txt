@@ -963,3 +963,4 @@ ewf-tools
 python3-libewf
 epsilon-bin
 king-probe
+kconfig-frontends

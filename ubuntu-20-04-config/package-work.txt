@@ -731,3 +731,4 @@ printemf
 ewf-tools
 epsilon-bin
 king-probe
+kconfig-frontends
