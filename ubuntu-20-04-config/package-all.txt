@@ -619,3 +619,4 @@ snapd
 sqlite3
 sysfsutils
 setserial
+sg3-utils
