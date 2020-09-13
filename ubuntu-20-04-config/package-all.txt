@@ -447,3 +447,5 @@ quagga-bgpd
 quagga-isisd
 quagga-ripd
 xsltproc
+xserver-xorg-video-amdgpu
+xfsprogs

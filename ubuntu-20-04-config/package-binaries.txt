@@ -716,3 +716,17 @@
 /usr/sbin/isisd
 /usr/sbin/ripd
 /usr/bin/xsltproc
+/sbin/mkfs.xfs
+/sbin/xfs_repair
+/usr/sbin/xfs_copy
+/usr/sbin/xfs_db
+/usr/sbin/xfs_estimate
+/usr/sbin/xfs_fsr
+/usr/sbin/xfs_growfs
+/usr/sbin/xfs_io
+/usr/sbin/xfs_logprint
+/usr/sbin/xfs_mdrestore
+/usr/sbin/xfs_quota
+/usr/sbin/xfs_rtcp
+/usr/sbin/xfs_scrub
+/usr/sbin/xfs_spaceman
