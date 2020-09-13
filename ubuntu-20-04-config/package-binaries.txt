@@ -1955,3 +1955,11 @@
 /usr/bin/eot2ttf
 /usr/bin/explain
 /usr/bin/printemf
+/usr/bin/ewfacquire
+/usr/bin/ewfacquirestream
+/usr/bin/ewfdebug
+/usr/bin/ewfexport
+/usr/bin/ewfinfo
+/usr/bin/ewfmount
+/usr/bin/ewfrecover
+/usr/bin/ewfverify
