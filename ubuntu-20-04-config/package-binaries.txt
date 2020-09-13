@@ -1539,3 +1539,7 @@
 /usr/bin/deja-dup
 /usr/bin/dictzip
 /usr/sbin/dictd
+/usr/bin/grep-dctrl
+/usr/bin/join-dctrl
+/usr/bin/sort-dctrl
+/usr/bin/tbl-dctrl

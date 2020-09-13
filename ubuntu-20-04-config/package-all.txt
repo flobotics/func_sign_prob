@@ -775,3 +775,4 @@ dh-exec
 deja-dup
 dictzip
 dictd
+dctrl-tools
