@@ -915,3 +915,4 @@
 /sbin/ntfsresize
 /sbin/ntfsundelete
 /usr/bin/ntfsdecrypt
+/usr/bin/ganesha.nfsd
