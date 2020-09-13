@@ -1129,3 +1129,4 @@
 /usr/bin/spamc
 /usr/bin/spd-say
 /usr/bin/speech-dispatcher
+/usr/bin/siege
