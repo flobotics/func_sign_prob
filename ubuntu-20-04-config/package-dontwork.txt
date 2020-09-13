@@ -147,3 +147,4 @@ gtk2-engines-murrine
 gnome-mahjongg
 gparted
 gnome-sudoku
+python3-gpg

@@ -539,3 +539,4 @@ gnome-todo
 groff-base
 gnome-bluetooth
 gcr
+guile-2.2-libs
