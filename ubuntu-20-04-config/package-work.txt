@@ -631,3 +631,4 @@ dconf-cli
 devscripts
 eog
 ethtool
+erlang-base
