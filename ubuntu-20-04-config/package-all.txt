@@ -714,3 +714,5 @@ heimdal-multidev
 openobex-apps
 logrotate
 lockfile-progs
+python3-ldb
+lsof

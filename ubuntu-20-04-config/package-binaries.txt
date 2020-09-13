@@ -1407,3 +1407,4 @@
 /usr/bin/mail-lock
 /usr/bin/mail-touchlock
 /usr/bin/mail-unlock
+/usr/bin/lsof

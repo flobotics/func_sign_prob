@@ -565,3 +565,4 @@ heimdal-multidev
 openobex-apps
 logrotate
 lockfile-progs
+lsof
