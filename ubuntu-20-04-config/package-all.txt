@@ -515,3 +515,4 @@ telnet
 nbd-server
 nautilus-share
 ntfs-3g-dev
+ntfs-3g
