@@ -172,3 +172,4 @@ erlang-crypto
 erlang-asn1
 exim4-base
 python3-libvirt
+python3-libapparmor

@@ -1679,3 +1679,4 @@
 /bin/chacl
 /bin/getfacl
 /bin/setfacl
+/usr/bin/aide

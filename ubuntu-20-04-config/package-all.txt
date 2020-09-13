@@ -824,3 +824,5 @@ auditd
 acct
 advancecomp
 acl
+python3-libapparmor
+aide

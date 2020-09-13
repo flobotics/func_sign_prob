@@ -651,3 +651,4 @@ auditd
 acct
 advancecomp
 acl
+aide
