@@ -744,3 +744,4 @@ korganizer
 kdebugsettings
 kakasi
 kanatest
+krb5-gss-samples

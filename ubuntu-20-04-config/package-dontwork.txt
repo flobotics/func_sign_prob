@@ -240,3 +240,5 @@ kpart5-kompare
 kdevelop-php
 kjumpingcube
 kawari8
+kde-config-screenlocker
+kbounce
