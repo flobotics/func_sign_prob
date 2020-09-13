@@ -1850,3 +1850,8 @@
 /usr/bin/pstree
 /usr/bin/calibrate_ppa
 /usr/bin/pnm2ppa
+/usr/bin/pacat
+/usr/bin/pacmd
+/usr/bin/pactl
+/usr/bin/pasuspender
+/usr/bin/pax11publish

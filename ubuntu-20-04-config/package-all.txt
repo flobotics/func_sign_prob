@@ -918,3 +918,6 @@ psmisc
 python3-rjsmin
 python3-bcrypt
 printer-driver-pnm2ppa
+python3-scrypt
+pulseaudio-module-bluetooth
+pulseaudio-utils

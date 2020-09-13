@@ -213,3 +213,5 @@ python3-msgpack
 p11-kit-modules
 python3-rjsmin
 python3-bcrypt
+python3-scrypt
+pulseaudio-module-bluetooth
