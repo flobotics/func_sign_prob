@@ -157,3 +157,5 @@ lupin-support
 python3-lazy-object-proxy
 mesa-vdpau-drivers
 mesa-vulkan-drivers
+ibus-mozc
+mozc-server

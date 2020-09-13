@@ -1496,3 +1496,4 @@
 /usr/bin/whatis
 /usr/sbin/accessdb
 /usr/sbin/mouseemu
+/usr/bin/mawk

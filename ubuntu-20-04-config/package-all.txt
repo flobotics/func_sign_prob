@@ -751,3 +751,6 @@ mtd-utils
 mscompress
 man-db
 mouseemu
+ibus-mozc
+mozc-server
+mawk

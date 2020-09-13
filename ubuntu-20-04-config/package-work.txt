@@ -596,3 +596,4 @@ mtd-utils
 mscompress
 man-db
 mouseemu
+mawk
