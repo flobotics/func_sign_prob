@@ -1428,3 +1428,6 @@
 /usr/bin/mtr-packet
 /usr/bin/esc-m
 /usr/bin/min12xxw
+/sbin/mpathpersist
+/sbin/multipath
+/sbin/multipathd
