@@ -495,3 +495,5 @@ zsys
 usbmuxd
 update-notifier
 odbcinst
+odbcinst1debian2
+udisks2
