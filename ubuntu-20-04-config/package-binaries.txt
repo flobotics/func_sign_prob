@@ -2086,3 +2086,4 @@
 /usr/bin/ktp-dialout-ui
 /usr/bin/knocker
 /usr/bin/ktimer
+/usr/bin/kscreen-console

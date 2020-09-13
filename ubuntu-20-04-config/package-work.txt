@@ -786,3 +786,4 @@ klick
 kde-telepathy-call-ui
 knocker
 ktimer
+kscreen
