@@ -855,3 +855,6 @@
 /sbin/set-date-epoch
 /usr/sbin/usb_modeswitch
 /usr/sbin/usb_modeswitch_dispatcher
+/usr/bin/lsusb
+/usr/bin/usbhid-dump
+/usr/bin/usbreset

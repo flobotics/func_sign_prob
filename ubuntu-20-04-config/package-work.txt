@@ -416,3 +416,4 @@ cu
 unzip
 ubiquity
 usb-modeswitch
+usbutils

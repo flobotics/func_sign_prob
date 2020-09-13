@@ -502,3 +502,4 @@ unzip
 ubiquity-frontend-gtk
 ubiquity
 usb-modeswitch
+usbutils
