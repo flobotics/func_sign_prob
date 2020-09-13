@@ -524,3 +524,4 @@ snmp
 snmpd
 nano
 nginx-core
+ftp
