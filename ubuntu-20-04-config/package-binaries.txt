@@ -1746,3 +1746,5 @@
 /sbin/mkfs.reiser4
 /usr/bin/remmina
 /usr/bin/rapper
+/usr/bin/rdfproc
+/usr/bin/redland-db-upgrade
