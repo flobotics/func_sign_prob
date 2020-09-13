@@ -1739,3 +1739,4 @@
 /sbin/reiserfstune
 /sbin/resize_reiserfs
 /usr/bin/re2c
+/usr/sbin/rtkitctl
