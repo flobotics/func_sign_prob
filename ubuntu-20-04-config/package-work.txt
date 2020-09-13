@@ -485,3 +485,4 @@ siege
 screen
 shared-mime-info
 sudo
+simple-scan
