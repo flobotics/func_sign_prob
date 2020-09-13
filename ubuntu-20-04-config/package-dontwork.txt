@@ -123,3 +123,5 @@ sssd-dbus
 printer-driver-splix
 system-config-printer-udev
 switcheroo-control
+gnome-themes-extra
+geoclue-2.0

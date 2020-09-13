@@ -620,3 +620,6 @@ sqlite3
 sysfsutils
 setserial
 sg3-utils
+gnome-themes-extra
+geoclue-2.0
+gpgsm

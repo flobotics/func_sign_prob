@@ -1229,3 +1229,4 @@
 /usr/bin/sginfo
 /usr/bin/sgm_dd
 /usr/bin/sgp_dd
+/usr/bin/gpgsm
