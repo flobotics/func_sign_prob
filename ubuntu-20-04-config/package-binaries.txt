@@ -2013,3 +2013,4 @@
 /usr/sbin/kopano-archiver
 /usr/sbin/kopano-ical
 /usr/sbin/kopano-server
+/usr/sbin/kopano-monitor
