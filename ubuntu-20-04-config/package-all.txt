@@ -565,3 +565,4 @@ samba-dsdb-modules
 samba-vfs-modules
 python3-samba
 winbind
+samba-common-bin
