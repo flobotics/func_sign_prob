@@ -1409,3 +1409,4 @@
 /usr/bin/mail-unlock
 /usr/bin/lsof
 /usr/bin/lz4
+/usr/bin/lshw

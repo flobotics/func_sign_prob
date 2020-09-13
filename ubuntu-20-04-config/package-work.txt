@@ -567,3 +567,4 @@ logrotate
 lockfile-progs
 lsof
 lz4
+lshw
