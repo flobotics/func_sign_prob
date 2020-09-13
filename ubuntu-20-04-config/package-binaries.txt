@@ -1755,3 +1755,5 @@
 /usr/sbin/rdma-ndd
 /usr/sbin/rdate
 /usr/bin/rsync
+/usr/bin/rhythmbox
+/usr/bin/rhythmbox-client

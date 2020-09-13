@@ -684,3 +684,4 @@ rygel
 rdma-core
 rdate
 rsync
+rhythmbox
