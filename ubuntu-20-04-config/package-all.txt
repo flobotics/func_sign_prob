@@ -573,3 +573,4 @@ spice-vdagent
 session-migration
 passwd
 login
+squashfs-tools

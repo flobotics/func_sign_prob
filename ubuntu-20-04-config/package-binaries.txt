@@ -1070,3 +1070,5 @@
 /usr/bin/lastlog
 /usr/bin/newgrp
 /usr/sbin/nologin
+/usr/bin/mksquashfs
+/usr/bin/unsquashfs
