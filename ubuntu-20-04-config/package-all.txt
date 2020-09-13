@@ -787,3 +787,4 @@ dselect
 dpkg
 drbd-utils
 dbus-x11
+devio

@@ -1576,3 +1576,4 @@
 /sbin/drbdmon
 /sbin/drbdsetup
 /usr/bin/dbus-launch
+/usr/bin/devio
