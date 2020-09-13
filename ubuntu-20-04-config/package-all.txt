@@ -468,3 +468,5 @@ xserver-xorg-input-wacom
 xserver-xorg-video-dummy
 x11-xserver-utils
 xfonts-utils
+xserver-xorg-legacy
+xserver-xorg-core
