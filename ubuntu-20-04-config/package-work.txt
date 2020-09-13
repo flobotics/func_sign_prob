@@ -418,3 +418,9 @@ ubiquity
 usb-modeswitch
 usbutils
 upower
+uuid-runtime
+mount
+bsdutils
+fdisk
+rfkill
+ubuntu-drivers-common
