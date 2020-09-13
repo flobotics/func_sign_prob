@@ -2023,3 +2023,4 @@
 /usr/sbin/kopano-dbadm
 /usr/sbin/kopano-srvadm
 /usr/sbin/kopano-storeadm
+/usr/sbin/kopano-dagent

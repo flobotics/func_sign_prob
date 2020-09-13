@@ -249,3 +249,4 @@ ktexteditor-katepart
 python3-mapi
 kopano-libs
 kopano-contacts
+php-mapi

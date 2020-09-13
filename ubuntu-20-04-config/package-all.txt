@@ -1007,3 +1007,5 @@ kopano-libs
 kopano-contacts
 kopano-monitor
 kopano-utils
+php-mapi
+kopano-dagent
