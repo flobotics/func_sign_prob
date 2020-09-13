@@ -740,3 +740,4 @@ memcached
 mokutil
 make
 printer-driver-m2300w
+mutt
