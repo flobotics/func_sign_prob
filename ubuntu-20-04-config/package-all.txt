@@ -790,3 +790,4 @@ dbus-x11
 devio
 dosfstools
 dash
+diffstat
