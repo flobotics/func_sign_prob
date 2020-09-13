@@ -396,3 +396,6 @@ cron
 crda
 ccache
 curl
+casper
+cryptsetup
+cryptsetup-bin
