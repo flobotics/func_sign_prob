@@ -632,3 +632,9 @@ gpgv
 gpg-agent
 gpg
 grep
+gvfs-backends
+gvfs-daemons
+gvfs
+gvfs-libs
+gvfs-fuse
+gnome-shell

@@ -1245,3 +1245,5 @@
 /usr/bin/gpgv
 /usr/bin/gpg-agent
 /bin/grep
+/usr/bin/gnome-extensions
+/usr/bin/gnome-shell

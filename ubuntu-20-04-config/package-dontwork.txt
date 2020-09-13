@@ -126,3 +126,8 @@ switcheroo-control
 gnome-themes-extra
 geoclue-2.0
 gpg-wks-client
+gvfs-backends
+gvfs-daemons
+gvfs
+gvfs-libs
+gvfs-fuse
