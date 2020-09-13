@@ -497,3 +497,5 @@ update-notifier
 odbcinst
 odbcinst1debian2
 udisks2
+cu
+unzip

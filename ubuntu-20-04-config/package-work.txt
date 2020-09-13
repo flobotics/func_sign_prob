@@ -412,3 +412,5 @@ usbmuxd
 update-notifier
 odbcinst
 udisks2
+cu
+unzip

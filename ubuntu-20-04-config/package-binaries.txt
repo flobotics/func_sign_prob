@@ -842,3 +842,7 @@
 /usr/bin/odbcinst
 /sbin/umount.udisks2
 /usr/bin/udisksctl
+/usr/bin/funzip
+/usr/bin/unzip
+/usr/bin/unzipsfx
+/usr/bin/zipinfo
