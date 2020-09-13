@@ -197,3 +197,5 @@ php7.4-pspell
 python3-pyeclib
 packagekit
 gstreamer1.0-packagekit
+python3-setproctitle
+python3-cups

@@ -1807,3 +1807,4 @@
 /usr/bin/pinentry-gnome3
 /usr/bin/pkcon
 /usr/bin/pkmon
+/usr/bin/ijs_pxljr
