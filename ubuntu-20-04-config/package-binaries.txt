@@ -1415,3 +1415,5 @@
 /usr/bin/lesskey
 /usr/bin/lp_solve
 /usr/bin/lsscsi
+/usr/bin/ltrace
+/sbin/dmsetup

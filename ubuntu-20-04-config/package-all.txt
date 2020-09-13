@@ -723,3 +723,6 @@ landscape-client
 lupin-support
 lp-solve
 lsscsi
+ltrace
+python3-lazy-object-proxy
+dmsetup

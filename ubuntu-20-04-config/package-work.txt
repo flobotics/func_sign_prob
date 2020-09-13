@@ -571,3 +571,5 @@ lshw
 less
 lp-solve
 lsscsi
+ltrace
+dmsetup
