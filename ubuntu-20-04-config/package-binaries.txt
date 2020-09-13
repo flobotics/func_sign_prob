@@ -1952,3 +1952,4 @@
 /usr/bin/gost12sum
 /usr/bin/gostsum
 /usr/bin/createfp
+/usr/bin/eot2ttf
