@@ -796,3 +796,5 @@ dconf-gsettings-backend
 dconf-cli
 devscripts
 eog
+evolution-data-server
+ethtool
