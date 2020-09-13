@@ -745,3 +745,4 @@
 /usr/bin/xz
 /usr/bin/xdg-user-dirs-update
 /usr/bin/xinput
+/usr/bin/intel-virtual-output
