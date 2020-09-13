@@ -1426,3 +1426,5 @@
 /sbin/mdmon
 /usr/bin/mtr
 /usr/bin/mtr-packet
+/usr/bin/esc-m
+/usr/bin/min12xxw

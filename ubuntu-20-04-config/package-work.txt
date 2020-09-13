@@ -579,3 +579,4 @@ lftp
 lbdb
 mdadm
 mtr-tiny
+printer-driver-min12xxw
