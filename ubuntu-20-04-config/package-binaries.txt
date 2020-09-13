@@ -1994,3 +1994,6 @@
 /usr/sbin/kadmin.local
 /usr/sbin/kadmind
 /usr/sbin/kprop
+/usr/sbin/kdb5_util
+/usr/sbin/kproplog
+/usr/sbin/krb5kdc
