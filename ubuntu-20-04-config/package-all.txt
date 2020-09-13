@@ -710,3 +710,4 @@ hfsutils
 hfsplus
 hello
 archdetect-deb
+heimdal-multidev
