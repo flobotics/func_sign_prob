@@ -2047,3 +2047,4 @@
 /usr/bin/kdig
 /usr/bin/knsupdate
 /usr/bin/kget
+/usr/bin/kylin-nm
