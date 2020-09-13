@@ -394,3 +394,4 @@ xserver-xorg-core
 xwayland
 xserver-xephyr
 xdg-dbus-proxy
+xmlsec1

@@ -802,3 +802,4 @@
 /usr/bin/Xwayland
 /usr/bin/Xephyr
 /usr/bin/xdg-dbus-proxy
+/usr/bin/xmlsec1
