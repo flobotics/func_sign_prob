@@ -1951,3 +1951,4 @@
 /usr/bin/edlib-aligner
 /usr/bin/gost12sum
 /usr/bin/gostsum
+/usr/bin/createfp

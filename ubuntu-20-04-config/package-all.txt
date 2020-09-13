@@ -953,3 +953,6 @@ jcat
 edlib-aligner
 python3-edlib
 gostsum
+python3-libevtx
+python3-libesedb
+createfp

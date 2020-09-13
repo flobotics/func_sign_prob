@@ -724,3 +724,4 @@ inputattach
 jcat
 edlib-aligner
 gostsum
+createfp
