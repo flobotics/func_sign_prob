@@ -1888,3 +1888,7 @@
 /sbin/jfs_mkfs
 /sbin/jfs_tune
 /sbin/mkfs.jfs
+/usr/sbin/mdata-delete
+/usr/sbin/mdata-get
+/usr/sbin/mdata-list
+/usr/sbin/mdata-put
