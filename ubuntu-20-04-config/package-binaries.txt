@@ -2075,3 +2075,6 @@
 /usr/bin/akonadi_unifiedmailbox_agent
 /usr/bin/kmail
 /usr/bin/kmail-refresh-settings
+/usr/bin/kmc
+/usr/bin/kmc_dump
+/usr/bin/kmc_tools
