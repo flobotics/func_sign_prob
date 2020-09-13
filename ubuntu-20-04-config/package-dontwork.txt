@@ -170,3 +170,4 @@ erlang-runtime-tools
 erlang-megaco
 erlang-crypto
 erlang-asn1
+exim4-base
