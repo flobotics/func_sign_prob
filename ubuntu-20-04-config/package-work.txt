@@ -598,3 +598,4 @@ man-db
 mouseemu
 mawk
 mtx
+mousetweaks
