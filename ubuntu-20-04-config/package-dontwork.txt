@@ -140,3 +140,4 @@ gtk-im-libthai
 glib-networking
 glib-networking-services
 gnome-settings-daemon
+gnome-keyring-pkcs11

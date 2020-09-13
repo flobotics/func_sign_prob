@@ -667,3 +667,5 @@ glib-networking-services
 gnome-screenshot
 gnome-settings-daemon
 gnome-calendar
+gnome-keyring-pkcs11
+gnome-keyring

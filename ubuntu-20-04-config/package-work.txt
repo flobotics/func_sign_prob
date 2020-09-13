@@ -529,3 +529,4 @@ gnome-disk-utility
 gdisk
 gnome-screenshot
 gnome-calendar
+gnome-keyring

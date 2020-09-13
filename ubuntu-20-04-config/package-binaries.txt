@@ -1295,3 +1295,5 @@
 /sbin/sgdisk
 /usr/bin/gnome-screenshot
 /usr/bin/gnome-calendar
+/usr/bin/gnome-keyring-3
+/usr/bin/gnome-keyring-daemon
