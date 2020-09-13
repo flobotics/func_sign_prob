@@ -987,3 +987,4 @@
 /usr/bin/toe
 /usr/bin/tput
 /usr/bin/tset
+/usr/bin/canberra-gtk-play

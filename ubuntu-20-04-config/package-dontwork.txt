@@ -97,3 +97,7 @@ nut-snmp
 network-manager-pptp-gnome
 network-manager-pptp
 python3-newt
+ncurses-examples
+uno-libs-private
+ure
+python3-uno
