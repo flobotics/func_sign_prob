@@ -593,3 +593,4 @@ mlocate
 mutter
 makedumpfile
 mtd-utils
+mscompress

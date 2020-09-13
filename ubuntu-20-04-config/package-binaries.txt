@@ -1485,3 +1485,5 @@
 /usr/sbin/ubirmvol
 /usr/sbin/ubirsvol
 /usr/sbin/ubiupdatevol
+/usr/bin/mscompress
+/usr/bin/msexpand
