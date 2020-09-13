@@ -389,3 +389,4 @@ x11-apps
 xdg-user-dirs-gtk
 xserver-xorg-input-wacom
 x11-xserver-utils
+xfonts-utils
