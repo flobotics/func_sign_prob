@@ -477,3 +477,4 @@
 /usr/sbin/cron
 /sbin/crda
 /sbin/regdbdump
+/usr/bin/ccache
