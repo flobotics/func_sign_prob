@@ -618,3 +618,4 @@ seahorse
 snapd
 sqlite3
 sysfsutils
+setserial
