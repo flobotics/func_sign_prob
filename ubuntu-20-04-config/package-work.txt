@@ -688,3 +688,4 @@ rhythmbox
 rrdtool
 rpcbind
 pacemaker-cli-utils
+php7.4-cgi

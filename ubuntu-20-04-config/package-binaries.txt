@@ -1775,3 +1775,5 @@
 /usr/sbin/crmadmin
 /usr/sbin/iso8601
 /usr/sbin/stonith_admin
+/usr/bin/php-cgi7.4
+/usr/lib/cgi-bin/php7.4
