@@ -1580,3 +1580,4 @@
 /sbin/fatlabel
 /sbin/fsck.fat
 /sbin/mkfs.fat
+/bin/dash
