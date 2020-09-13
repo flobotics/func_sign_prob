@@ -617,3 +617,4 @@ sysstat
 seahorse
 snapd
 sqlite3
+sysfsutils

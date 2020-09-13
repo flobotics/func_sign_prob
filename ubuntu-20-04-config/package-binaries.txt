@@ -1159,3 +1159,4 @@
 /usr/bin/snapfuse
 /usr/bin/sqldiff
 /usr/bin/sqlite3
+/usr/bin/systool
