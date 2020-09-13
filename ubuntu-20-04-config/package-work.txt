@@ -424,3 +424,4 @@ bsdutils
 fdisk
 rfkill
 ubuntu-drivers-common
+net-tools
