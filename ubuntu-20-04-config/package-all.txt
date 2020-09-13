@@ -695,3 +695,4 @@ git
 gnome-power-manager
 gnome-logs
 printer-driver-gutenprint
+gnome-software
