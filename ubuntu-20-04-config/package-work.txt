@@ -524,3 +524,5 @@ gpsd
 gettext-base
 gettext
 gnome-control-center
+gzip
+gnome-disk-utility

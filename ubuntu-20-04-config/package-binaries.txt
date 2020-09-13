@@ -1287,3 +1287,5 @@
 /usr/bin/recode-sr-latin
 /usr/bin/xgettext
 /usr/bin/gnome-control-center
+/usr/bin/gnome-disk-image-mounter
+/usr/bin/gnome-disks
