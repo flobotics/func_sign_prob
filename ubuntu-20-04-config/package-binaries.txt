@@ -740,3 +740,4 @@
 /usr/bin/xkbprint
 /usr/bin/xkbvleds
 /usr/bin/xkbwatch
+/usr/bin/xauth
