@@ -1577,3 +1577,6 @@
 /sbin/drbdsetup
 /usr/bin/dbus-launch
 /usr/bin/devio
+/sbin/fatlabel
+/sbin/fsck.fat
+/sbin/mkfs.fat
