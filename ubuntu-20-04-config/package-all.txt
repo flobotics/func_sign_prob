@@ -719,3 +719,7 @@ lsof
 lz4
 lshw
 less
+landscape-client
+lupin-support
+lp-solve
+lsscsi

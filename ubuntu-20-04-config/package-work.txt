@@ -569,3 +569,5 @@ lsof
 lz4
 lshw
 less
+lp-solve
+lsscsi

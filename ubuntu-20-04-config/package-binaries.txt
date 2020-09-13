@@ -1413,3 +1413,5 @@
 /usr/bin/less
 /usr/bin/lessecho
 /usr/bin/lesskey
+/usr/bin/lp_solve
+/usr/bin/lsscsi

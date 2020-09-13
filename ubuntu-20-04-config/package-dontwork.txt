@@ -152,3 +152,5 @@ printer-driver-postscript-hp
 printer-driver-hpcups
 hplip
 python3-ldb
+landscape-client
+lupin-support
