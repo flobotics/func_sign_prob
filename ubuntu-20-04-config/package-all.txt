@@ -492,3 +492,4 @@ zfs-zed
 zerofree
 zenity
 zsys
+usbmuxd
