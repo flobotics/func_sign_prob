@@ -747,3 +747,4 @@ mesa-vulkan-drivers
 mlocate
 mutter
 makedumpfile
+mtd-utils

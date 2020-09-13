@@ -592,3 +592,4 @@ m4
 mlocate
 mutter
 makedumpfile
+mtd-utils
