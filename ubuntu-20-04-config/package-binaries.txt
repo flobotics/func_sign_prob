@@ -1979,3 +1979,4 @@
 /usr/bin/konqueror
 /usr/sbin/ksmctl
 /usr/bin/kmag
+/usr/sbin/krb5-sync

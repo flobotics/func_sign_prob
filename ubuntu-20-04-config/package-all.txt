@@ -979,3 +979,4 @@ kpart5-kompare
 kdevelop-php
 kjumpingcube
 kmag
+krb5-sync-tools
