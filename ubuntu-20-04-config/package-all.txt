@@ -821,3 +821,4 @@ logsave
 python3-libvirt
 appstream
 auditd
+acct

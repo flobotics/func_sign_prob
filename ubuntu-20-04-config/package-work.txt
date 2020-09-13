@@ -648,3 +648,4 @@ e2fsprogs
 logsave
 appstream
 auditd
+acct

@@ -1666,3 +1666,9 @@
 /usr/bin/aulastlog
 /usr/bin/ausyscall
 /usr/bin/auvirt
+/usr/bin/ac
+/usr/bin/lastcomm
+/usr/sbin/accton
+/usr/sbin/dump-acct
+/usr/sbin/dump-utmp
+/usr/sbin/sa
