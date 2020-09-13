@@ -705,3 +705,5 @@ pkg-config
 psmisc
 printer-driver-pnm2ppa
 pulseaudio-utils
+pax
+pptpd

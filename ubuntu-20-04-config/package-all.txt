@@ -921,3 +921,12 @@ printer-driver-pnm2ppa
 python3-scrypt
 pulseaudio-module-bluetooth
 pulseaudio-utils
+python3-protobuf
+pax
+python3-pam
+python3-bson-ext
+python3-pymongo-ext
+plymouth-theme-ubuntu-text
+plymouth-theme-spinner
+plymouth-label
+pptpd

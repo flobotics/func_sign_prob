@@ -1855,3 +1855,5 @@
 /usr/bin/pactl
 /usr/bin/pasuspender
 /usr/bin/pax11publish
+/usr/sbin/pptpctrl
+/usr/sbin/pptpd

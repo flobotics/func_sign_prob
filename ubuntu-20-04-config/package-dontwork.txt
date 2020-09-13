@@ -215,3 +215,10 @@ python3-rjsmin
 python3-bcrypt
 python3-scrypt
 pulseaudio-module-bluetooth
+python3-protobuf
+python3-pam
+python3-bson-ext
+python3-pymongo-ext
+plymouth-theme-ubuntu-text
+plymouth-theme-spinner
+plymouth-label
