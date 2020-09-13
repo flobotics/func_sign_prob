@@ -106,7 +106,8 @@ def get_binaries_in_package(package, verbose=False):
     #check if we got this package already 
     file = open(base_path + config_dir + "package-all.txt", "r+")
     for pack in file:
-        if f_without_dbgsym == pack:
+        #print(f'pack:{pack}  f_without_dbgsym:{f_without_dbgsym}')
+        if f_without_dbgsym in pack:
             if verbose:
                 print(f"Skip package >{f_without_dbgsym}<, already in package-all.txt file")
             already_done = True
