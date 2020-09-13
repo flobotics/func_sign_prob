@@ -1487,3 +1487,11 @@
 /usr/sbin/ubiupdatevol
 /usr/bin/mscompress
 /usr/bin/msexpand
+/usr/bin/catman
+/usr/bin/lexgrog
+/usr/bin/man
+/usr/bin/man-recode
+/usr/bin/mandb
+/usr/bin/manpath
+/usr/bin/whatis
+/usr/sbin/accessdb

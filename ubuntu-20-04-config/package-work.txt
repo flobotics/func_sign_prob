@@ -594,3 +594,4 @@ mutter
 makedumpfile
 mtd-utils
 mscompress
+man-db
