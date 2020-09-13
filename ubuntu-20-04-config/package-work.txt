@@ -464,3 +464,4 @@ shotwell
 samba
 winbind
 samba-common-bin
+smbclient

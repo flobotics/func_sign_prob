@@ -566,3 +566,5 @@ samba-vfs-modules
 python3-samba
 winbind
 samba-common-bin
+samba-libs
+smbclient
