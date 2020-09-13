@@ -1740,3 +1740,7 @@
 /sbin/resize_reiserfs
 /usr/bin/re2c
 /usr/sbin/rtkitctl
+/sbin/debugfs.reiser4
+/sbin/fsck.reiser4
+/sbin/measurefs.reiser4
+/sbin/mkfs.reiser4
