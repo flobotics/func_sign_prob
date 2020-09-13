@@ -950,3 +950,4 @@ inputattach
 9mount
 9menu
 jcat
+edlib-aligner
