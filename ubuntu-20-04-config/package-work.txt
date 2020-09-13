@@ -629,3 +629,4 @@ dash
 diffstat
 dconf-cli
 devscripts
+eog

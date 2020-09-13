@@ -1584,3 +1584,4 @@
 /usr/bin/diffstat
 /usr/bin/dconf
 /usr/bin/debpkg
+/usr/bin/eog
