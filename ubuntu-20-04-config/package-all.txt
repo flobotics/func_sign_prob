@@ -804,3 +804,4 @@ erlang-crypto
 erlang-base
 erlang-asn1
 erlang-os-mon
+erlang-tools

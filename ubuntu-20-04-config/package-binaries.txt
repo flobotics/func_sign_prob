@@ -1606,3 +1606,4 @@
 /usr/lib/erlang/lib/erl_interface-3.13.1/bin/erl_call
 /usr/lib/erlang/lib/os_mon-2.5.1/priv/bin/cpu_sup
 /usr/lib/erlang/lib/os_mon-2.5.1/priv/bin/memsup
+/usr/lib/erlang/lib/tools-3.3/bin/emem
