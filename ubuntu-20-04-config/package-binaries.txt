@@ -1744,3 +1744,4 @@
 /sbin/fsck.reiser4
 /sbin/measurefs.reiser4
 /sbin/mkfs.reiser4
+/usr/bin/remmina
