@@ -1681,3 +1681,4 @@
 /bin/setfacl
 /usr/bin/aide
 /usr/bin/apgbfm
+/usr/sbin/automount

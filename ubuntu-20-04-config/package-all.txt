@@ -827,3 +827,4 @@ acl
 python3-libapparmor
 aide
 apg
+autofs
