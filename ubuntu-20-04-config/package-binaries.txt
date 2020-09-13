@@ -2012,3 +2012,4 @@
 /usr/sbin/kopano-spooler
 /usr/sbin/kopano-archiver
 /usr/sbin/kopano-ical
+/usr/sbin/kopano-server
