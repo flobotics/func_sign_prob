@@ -385,3 +385,4 @@ xz-utils
 xdg-user-dirs
 xinput
 xserver-xorg-video-intel
+x11-apps
