@@ -1408,3 +1408,4 @@
 /usr/bin/mail-touchlock
 /usr/bin/mail-unlock
 /usr/bin/lsof
+/usr/bin/lz4

@@ -566,3 +566,4 @@ openobex-apps
 logrotate
 lockfile-progs
 lsof
+lz4
