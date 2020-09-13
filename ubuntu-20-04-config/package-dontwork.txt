@@ -222,3 +222,4 @@ python3-pymongo-ext
 plymouth-theme-ubuntu-text
 plymouth-theme-spinner
 plymouth-label
+python3-pyrsistent

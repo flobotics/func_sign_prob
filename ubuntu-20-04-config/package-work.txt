@@ -708,3 +708,4 @@ pulseaudio-utils
 pax
 pptpd
 bcrelay
+pciutils
