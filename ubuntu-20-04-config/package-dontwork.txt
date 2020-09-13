@@ -174,3 +174,4 @@ exim4-base
 python3-libvirt
 python3-libapparmor
 aisleriot
+at-spi2-core

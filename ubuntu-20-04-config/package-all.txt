@@ -833,3 +833,5 @@ apt-utils
 aisleriot
 aspell
 alsa-utils
+at-spi2-core
+anope

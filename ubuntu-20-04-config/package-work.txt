@@ -658,3 +658,4 @@ anacron
 apt-utils
 aspell
 alsa-utils
+anope

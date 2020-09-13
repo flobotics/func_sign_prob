@@ -1705,3 +1705,4 @@
 /usr/bin/iecset
 /usr/bin/speaker-test
 /usr/sbin/alsactl
+/usr/sbin/anope
