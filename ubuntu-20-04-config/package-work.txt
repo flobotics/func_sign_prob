@@ -628,3 +628,4 @@ dosfstools
 dash
 diffstat
 dconf-cli
+devscripts

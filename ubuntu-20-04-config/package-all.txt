@@ -794,3 +794,4 @@ diffstat
 dconf-service
 dconf-gsettings-backend
 dconf-cli
+devscripts
