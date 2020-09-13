@@ -1749,3 +1749,4 @@
 /usr/bin/rdfproc
 /usr/bin/redland-db-upgrade
 /usr/sbin/rsyslogd
+/usr/bin/roqet
