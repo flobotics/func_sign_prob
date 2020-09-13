@@ -743,3 +743,4 @@
 /usr/bin/xauth
 /usr/bin/lzmainfo
 /usr/bin/xz
+/usr/bin/xdg-user-dirs-update

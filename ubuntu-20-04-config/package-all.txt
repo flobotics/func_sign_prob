@@ -454,3 +454,5 @@ xdg-desktop-portal
 x11-xkb-utils
 xauth
 xz-utils
+xserver-xorg-input-libinput
+xdg-user-dirs
