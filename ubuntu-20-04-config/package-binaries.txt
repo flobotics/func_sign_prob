@@ -1001,3 +1001,4 @@
 /usr/bin/w3m
 /usr/lib/w3m/cgi-bin/w3mbookmark
 /usr/lib/w3m/cgi-bin/w3mhelperpanel
+/usr/bin/wget

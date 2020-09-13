@@ -455,3 +455,4 @@ wireless-tools
 whoopsie
 wpasupplicant
 w3m
+wget
