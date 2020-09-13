@@ -1025,3 +1025,8 @@ klatexformula
 kwstyle
 kdocker
 kluppe
+knot
+knot-host
+knot-dnsutils
+kde-telepathy-auth-handler
+kget
