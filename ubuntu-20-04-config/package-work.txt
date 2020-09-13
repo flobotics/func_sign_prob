@@ -461,3 +461,4 @@ wdiff
 whois
 yelp
 shotwell
+samba
