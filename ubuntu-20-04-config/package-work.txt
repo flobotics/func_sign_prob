@@ -519,3 +519,4 @@ gnome-startup-applications
 gfxboot-dev
 gnome-system-monitor
 gawk
+gnome-calculator

@@ -1262,3 +1262,5 @@
 /usr/bin/gfxboot-font
 /usr/bin/gnome-system-monitor
 /usr/bin/gawk
+/usr/bin/gcalccmd
+/usr/bin/gnome-calculator
