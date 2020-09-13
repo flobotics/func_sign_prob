@@ -745,3 +745,4 @@ kdebugsettings
 kakasi
 kanatest
 krb5-gss-samples
+krb5-admin-server

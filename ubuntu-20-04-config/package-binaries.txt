@@ -1991,3 +1991,6 @@
 /usr/bin/kanatest
 /usr/bin/gss-client
 /usr/bin/gss-server
+/usr/sbin/kadmin.local
+/usr/sbin/kadmind
+/usr/sbin/kprop
