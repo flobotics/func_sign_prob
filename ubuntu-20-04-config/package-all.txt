@@ -1022,3 +1022,4 @@ kmines
 kickpass
 kbtin
 klatexformula
+kwstyle
