@@ -444,3 +444,6 @@
 /usr/bin/cd-it8
 /usr/bin/colormgr
 /usr/bin/cheese
+/usr/bin/ippfind
+/usr/bin/ipptool
+/usr/sbin/ippeveprinter

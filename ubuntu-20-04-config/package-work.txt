@@ -327,3 +327,4 @@ cracklib-runtime
 chrony
 colord
 cheese
+cups-ipp-utils
