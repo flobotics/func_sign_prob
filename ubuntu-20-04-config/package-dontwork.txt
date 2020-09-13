@@ -236,3 +236,6 @@ kaccounts-integration
 kdegraphics-mobipocket
 kio-gdrive
 kodi-pvr-dvbviewer
+kpart5-kompare
+kdevelop-php
+kjumpingcube

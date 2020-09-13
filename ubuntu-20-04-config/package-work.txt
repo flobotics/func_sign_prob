@@ -738,3 +738,4 @@ ksystemlog
 kimagemapeditor
 konqueror
 ksmtuned
+kmag

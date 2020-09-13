@@ -1978,3 +1978,4 @@
 /usr/bin/kfmclient
 /usr/bin/konqueror
 /usr/sbin/ksmctl
+/usr/bin/kmag
