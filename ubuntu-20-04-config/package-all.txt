@@ -711,3 +711,4 @@ hfsplus
 hello
 archdetect-deb
 heimdal-multidev
+openobex-apps

@@ -1393,3 +1393,9 @@
 /usr/bin/asn1_compile
 /usr/bin/asn1_print
 /usr/bin/slc
+/usr/bin/ircp
+/usr/bin/irobex_palm3
+/usr/bin/irxfer
+/usr/bin/obex_find
+/usr/bin/obex_tcp
+/usr/bin/obex_test
