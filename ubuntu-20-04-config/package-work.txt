@@ -517,3 +517,4 @@ gtk-3-examples
 gnome-session-bin
 gnome-startup-applications
 gfxboot-dev
+gnome-system-monitor

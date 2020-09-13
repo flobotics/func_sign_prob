@@ -649,3 +649,6 @@ gtk2-engines-pixbuf
 gnome-session-bin
 gnome-startup-applications
 gfxboot-dev
+gnome-characters
+gnome-mines
+gnome-system-monitor

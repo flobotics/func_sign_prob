@@ -134,3 +134,5 @@ gvfs-fuse
 nautilus-extension-gnome-terminal
 gnome-online-accounts
 gtk2-engines-pixbuf
+gnome-characters
+gnome-mines
