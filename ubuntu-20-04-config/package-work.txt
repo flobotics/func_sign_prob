@@ -582,3 +582,4 @@ mtr-tiny
 printer-driver-min12xxw
 multipath-tools
 kpartx
+msr-tools
