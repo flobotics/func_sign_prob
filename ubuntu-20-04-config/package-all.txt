@@ -784,3 +784,4 @@ dmidecode
 distro-info
 desktop-file-utils
 dselect
+dpkg
