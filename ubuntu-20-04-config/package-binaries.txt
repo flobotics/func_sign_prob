@@ -1155,3 +1155,7 @@
 /usr/bin/sar.sysstat
 /usr/bin/tapestat
 /usr/bin/seahorse
+/usr/bin/snap
+/usr/bin/snapfuse
+/usr/bin/sqldiff
+/usr/bin/sqlite3
