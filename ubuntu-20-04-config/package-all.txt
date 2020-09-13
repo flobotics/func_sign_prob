@@ -572,3 +572,4 @@ sharutils
 spice-vdagent
 session-migration
 passwd
+login

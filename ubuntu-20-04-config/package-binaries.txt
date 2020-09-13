@@ -1065,3 +1065,8 @@
 /usr/sbin/userdel
 /usr/sbin/usermod
 /usr/sbin/vipw
+/bin/login
+/usr/bin/faillog
+/usr/bin/lastlog
+/usr/bin/newgrp
+/usr/sbin/nologin
