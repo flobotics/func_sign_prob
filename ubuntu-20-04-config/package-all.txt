@@ -886,3 +886,4 @@ php7.4-common
 php7.4-pspell
 php7.4-cli
 policykit-1
+python3-cryptography
