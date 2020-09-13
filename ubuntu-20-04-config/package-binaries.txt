@@ -1879,3 +1879,4 @@
 /usr/bin/filterdiff
 /usr/bin/interdiff
 /usr/bin/rediff
+/usr/bin/gkbd-keyboard-display
