@@ -933,3 +933,4 @@ pptpd
 bcrelay
 python3-pyrsistent
 pciutils
+pango1.0-tools

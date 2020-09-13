@@ -709,3 +709,4 @@ pax
 pptpd
 bcrelay
 pciutils
+pango1.0-tools

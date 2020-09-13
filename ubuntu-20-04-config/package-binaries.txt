@@ -1860,3 +1860,5 @@
 /usr/sbin/bcrelay
 /usr/bin/lspci
 /usr/bin/setpci
+/usr/bin/pango-list
+/usr/bin/pango-view
