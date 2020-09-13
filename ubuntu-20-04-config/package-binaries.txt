@@ -1609,3 +1609,6 @@
 /usr/lib/erlang/lib/tools-3.3/bin/emem
 /usr/bin/enchant-2
 /usr/bin/enchant-lsmod-2
+/usr/bin/evince
+/usr/bin/evince-previewer
+/usr/bin/evince-thumbnailer
