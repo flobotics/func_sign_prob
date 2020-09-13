@@ -891,3 +891,4 @@ python3-pyeclib
 ppp
 procps
 pinentry-curses
+pinentry-gnome3
