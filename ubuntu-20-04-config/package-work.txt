@@ -627,3 +627,4 @@ devio
 dosfstools
 dash
 diffstat
+dconf-cli

@@ -163,3 +163,5 @@ mecab-utils
 duplicity
 dovecot-imapd
 dovecot-pop3d
+dconf-service
+dconf-gsettings-backend
