@@ -1745,3 +1745,4 @@
 /sbin/measurefs.reiser4
 /sbin/mkfs.reiser4
 /usr/bin/remmina
+/usr/bin/rapper
