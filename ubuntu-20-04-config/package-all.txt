@@ -608,3 +608,4 @@ sssd-common
 sssd-dbus
 printer-driver-splix
 sed
+squid

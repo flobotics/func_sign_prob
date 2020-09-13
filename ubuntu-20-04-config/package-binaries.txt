@@ -1144,3 +1144,4 @@
 /usr/bin/sss_ssh_knownhostsproxy
 /usr/sbin/sssd
 /bin/sed
+/usr/sbin/squid
