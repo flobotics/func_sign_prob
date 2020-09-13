@@ -393,3 +393,4 @@ xfonts-utils
 xserver-xorg-core
 xwayland
 xserver-xephyr
+xdg-dbus-proxy
