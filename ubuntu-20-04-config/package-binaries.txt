@@ -1707,3 +1707,13 @@
 /usr/sbin/alsactl
 /usr/sbin/anope
 /usr/sbin/apache2
+/usr/bin/ab
+/usr/bin/checkgid
+/usr/bin/fcgistarter
+/usr/bin/htcacheclean
+/usr/bin/htdbm
+/usr/bin/htdigest
+/usr/bin/htpasswd
+/usr/bin/logresolve
+/usr/bin/rotatelogs
+/usr/sbin/httxt2dbm
