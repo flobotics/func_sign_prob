@@ -805,3 +805,4 @@ erlang-base
 erlang-asn1
 erlang-os-mon
 erlang-tools
+enchant-2
