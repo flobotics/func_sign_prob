@@ -1033,3 +1033,6 @@ kget
 klines
 kde-config-systemd
 kylin-nm
+qml-module-org-kde-runnermodel
+kyotocabinet-utils
+kdf

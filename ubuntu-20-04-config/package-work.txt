@@ -773,3 +773,5 @@ knot-host
 knot-dnsutils
 kget
 kylin-nm
+kyotocabinet-utils
+kdf
