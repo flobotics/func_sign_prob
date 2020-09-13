@@ -1748,3 +1748,4 @@
 /usr/bin/rapper
 /usr/bin/rdfproc
 /usr/bin/redland-db-upgrade
+/usr/sbin/rsyslogd
