@@ -1080,3 +1080,10 @@
 /usr/bin/scanimage
 /usr/bin/umax_pp
 /usr/sbin/saned
+/usr/bin/kmodsign
+/usr/bin/sbattach
+/usr/bin/sbkeysync
+/usr/bin/sbsiglist
+/usr/bin/sbsign
+/usr/bin/sbvarsign
+/usr/bin/sbverify
