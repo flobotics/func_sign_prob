@@ -520,3 +520,4 @@ nfs-ganesha-ceph
 nfs-ganesha
 nfs-common
 nfs-kernel-server
+snmp
