@@ -984,3 +984,4 @@ korganizer
 kdebugsettings
 kawari8
 kakasi
+kanatest
