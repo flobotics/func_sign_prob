@@ -1041,3 +1041,4 @@ kmail
 kmc
 kblocks
 kaffeine
+kronometer

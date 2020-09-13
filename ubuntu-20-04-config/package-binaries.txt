@@ -2079,3 +2079,4 @@
 /usr/bin/kmc_dump
 /usr/bin/kmc_tools
 /usr/bin/kaffeine
+/usr/bin/kronometer
