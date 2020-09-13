@@ -436,3 +436,5 @@
 /usr/sbin/cracklib-check
 /usr/sbin/cracklib-packer
 /usr/sbin/cracklib-unpacker
+/usr/bin/chronyc
+/usr/sbin/chronyd
