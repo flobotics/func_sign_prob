@@ -438,3 +438,8 @@
 /usr/sbin/cracklib-unpacker
 /usr/bin/chronyc
 /usr/sbin/chronyd
+/usr/bin/cd-create-profile
+/usr/bin/cd-fix-profile
+/usr/bin/cd-iccdump
+/usr/bin/cd-it8
+/usr/bin/colormgr

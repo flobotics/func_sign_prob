@@ -382,3 +382,4 @@ cmake
 cifs-utils
 cracklib-runtime
 chrony
+colord
