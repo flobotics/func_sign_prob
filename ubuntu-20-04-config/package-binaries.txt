@@ -1676,3 +1676,6 @@
 /usr/bin/advmng
 /usr/bin/advpng
 /usr/bin/advzip
+/bin/chacl
+/bin/getfacl
+/bin/setfacl
