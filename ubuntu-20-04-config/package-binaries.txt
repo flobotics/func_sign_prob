@@ -709,3 +709,5 @@
 /usr/sbin/zebra
 /usr/sbin/pimd
 /usr/sbin/ospf6d
+/usr/sbin/ospfclient
+/usr/sbin/ospfd
