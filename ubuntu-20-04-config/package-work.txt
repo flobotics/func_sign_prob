@@ -775,3 +775,4 @@ kget
 kylin-nm
 kyotocabinet-utils
 kdf
+ktnef

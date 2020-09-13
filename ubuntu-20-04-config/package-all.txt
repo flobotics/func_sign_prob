@@ -1036,3 +1036,4 @@ kylin-nm
 qml-module-org-kde-runnermodel
 kyotocabinet-utils
 kdf
+ktnef

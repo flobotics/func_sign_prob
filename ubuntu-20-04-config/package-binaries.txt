@@ -2067,3 +2067,4 @@
 /usr/bin/kcutiltest
 /usr/bin/kdf
 /usr/bin/kwikdisk
+/usr/bin/ktnef
