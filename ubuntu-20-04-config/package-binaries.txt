@@ -730,3 +730,6 @@
 /usr/sbin/xfs_rtcp
 /usr/sbin/xfs_scrub
 /usr/sbin/xfs_spaceman
+/sbin/xfsdump
+/sbin/xfsrestore
+/usr/sbin/xfsinvutil

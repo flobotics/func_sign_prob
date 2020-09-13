@@ -449,3 +449,4 @@ quagga-ripd
 xsltproc
 xserver-xorg-video-amdgpu
 xfsprogs
+xfsdump
