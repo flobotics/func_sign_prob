@@ -1024,3 +1024,4 @@ kbtin
 klatexformula
 kwstyle
 kdocker
+kluppe
