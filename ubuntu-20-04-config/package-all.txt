@@ -915,3 +915,6 @@ python3-nacl
 python3-msgpack
 p11-kit-modules
 psmisc
+python3-rjsmin
+python3-bcrypt
+printer-driver-pnm2ppa
