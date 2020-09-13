@@ -2024,3 +2024,4 @@
 /usr/sbin/kopano-srvadm
 /usr/sbin/kopano-storeadm
 /usr/sbin/kopano-dagent
+/usr/lib/x86_64-linux-gnu/kconf_update_bin/gtk_theme

@@ -1009,3 +1009,4 @@ kopano-monitor
 kopano-utils
 php-mapi
 kopano-dagent
+kde-config-gtk-style
