@@ -900,3 +900,4 @@ python3-cups
 printer-driver-pxljr
 python3-systemd
 pcmciautils
+postgresql-client-12
