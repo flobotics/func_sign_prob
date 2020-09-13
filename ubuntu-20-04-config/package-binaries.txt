@@ -1006,3 +1006,4 @@
 /usr/bin/wdiff
 /usr/bin/mkpasswd
 /usr/bin/whois
+/usr/bin/yelp

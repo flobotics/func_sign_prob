@@ -459,3 +459,4 @@ wget
 whoopsie-preferences
 wdiff
 whois
+yelp
