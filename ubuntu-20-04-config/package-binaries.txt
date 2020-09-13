@@ -1558,3 +1558,6 @@
 /usr/sbin/vpddecode
 /usr/bin/debian-distro-info
 /usr/bin/ubuntu-distro-info
+/usr/bin/desktop-file-install
+/usr/bin/desktop-file-validate
+/usr/bin/update-desktop-database

@@ -782,3 +782,4 @@ dovecot-core
 device-tree-compiler
 dmidecode
 distro-info
+desktop-file-utils
