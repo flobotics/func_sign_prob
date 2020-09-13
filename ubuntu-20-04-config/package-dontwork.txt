@@ -121,3 +121,5 @@ sssd-ldap
 sssd-krb5
 sssd-dbus
 printer-driver-splix
+system-config-printer-udev
+switcheroo-control

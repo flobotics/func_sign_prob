@@ -492,3 +492,4 @@ sed
 squid
 strace
 schroot
+sysstat
