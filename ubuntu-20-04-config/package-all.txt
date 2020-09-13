@@ -477,3 +477,5 @@ xmlsec1
 x11-session-utils
 xinit
 xserver-xorg-video-vmware
+xserver-xorg-video-nouveau
+x11-utils

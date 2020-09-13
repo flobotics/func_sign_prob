@@ -398,3 +398,4 @@ xmlsec1
 x11-session-utils
 xinit
 xserver-xorg-video-vmware
+x11-utils
