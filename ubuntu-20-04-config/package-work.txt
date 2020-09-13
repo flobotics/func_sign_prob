@@ -553,3 +553,4 @@ gnome-software
 hunspell-tools
 hostname
 hfst-ospell
+hdparm

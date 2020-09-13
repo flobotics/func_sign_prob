@@ -1360,3 +1360,4 @@
 /usr/bin/unmunch
 /usr/bin/hfst-ospell
 /usr/bin/hfst-ospell-office
+/sbin/hdparm
