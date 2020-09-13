@@ -1418,3 +1418,5 @@
 /usr/bin/ltrace
 /sbin/dmsetup
 /sbin/dmeventd
+/sbin/lvm
+/sbin/lvmpolld

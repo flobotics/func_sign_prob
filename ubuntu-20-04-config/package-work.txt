@@ -574,3 +574,4 @@ lsscsi
 ltrace
 dmsetup
 dmeventd
+lvm2

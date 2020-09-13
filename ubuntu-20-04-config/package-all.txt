@@ -727,3 +727,4 @@ ltrace
 python3-lazy-object-proxy
 dmsetup
 dmeventd
+lvm2
