@@ -640,3 +640,4 @@ gvfs-fuse
 gnome-shell
 gedit
 gjs
+gnome-terminal
