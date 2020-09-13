@@ -717,3 +717,5 @@ gkbd-capplet
 jfsutils
 joyent-mdata-client
 inputattach
+9base
+9wm
