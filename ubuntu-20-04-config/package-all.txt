@@ -442,3 +442,4 @@ quagga-core
 quagga-pimd
 quagga-ospf6d
 quagga-ospfd
+quagga-ripngd
