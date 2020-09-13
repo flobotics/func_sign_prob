@@ -199,3 +199,4 @@ packagekit
 gstreamer1.0-packagekit
 python3-setproctitle
 python3-cups
+python3-systemd

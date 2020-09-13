@@ -698,3 +698,4 @@ pinentry-curses
 pinentry-gnome3
 packagekit-tools
 printer-driver-pxljr
+pcmciautils
