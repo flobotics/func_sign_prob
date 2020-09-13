@@ -1293,3 +1293,4 @@
 /sbin/fixparts
 /sbin/gdisk
 /sbin/sgdisk
+/usr/bin/gnome-screenshot
