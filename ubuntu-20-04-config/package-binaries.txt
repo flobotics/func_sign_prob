@@ -858,3 +858,4 @@
 /usr/bin/lsusb
 /usr/bin/usbhid-dump
 /usr/bin/usbreset
+/usr/bin/upower
