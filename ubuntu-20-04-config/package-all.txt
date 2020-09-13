@@ -645,3 +645,5 @@ nautilus-extension-gnome-terminal
 gnome-online-accounts
 gtk-update-icon-cache
 gtk-3-examples
+gtk2-engines-pixbuf
+gnome-session-bin
