@@ -1399,3 +1399,4 @@
 /usr/bin/obex_find
 /usr/bin/obex_tcp
 /usr/bin/obex_test
+/usr/sbin/logrotate
