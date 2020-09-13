@@ -1738,3 +1738,4 @@
 /sbin/reiserfsck
 /sbin/reiserfstune
 /sbin/resize_reiserfs
+/usr/bin/re2c
