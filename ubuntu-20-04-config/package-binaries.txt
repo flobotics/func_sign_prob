@@ -1552,3 +1552,7 @@
 /usr/bin/fdtget
 /usr/bin/fdtoverlay
 /usr/bin/fdtput
+/usr/sbin/biosdecode
+/usr/sbin/dmidecode
+/usr/sbin/ownership
+/usr/sbin/vpddecode
