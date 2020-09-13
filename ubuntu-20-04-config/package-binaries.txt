@@ -799,3 +799,4 @@
 /usr/bin/ucs2any
 /usr/bin/cvt
 /usr/bin/gtf
+/usr/bin/Xwayland
