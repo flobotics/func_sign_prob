@@ -1379,3 +1379,12 @@
 /usr/bin/hrmdir
 /usr/bin/humount
 /usr/bin/hvol
+/usr/bin/hpcd
+/usr/bin/hpcopy
+/usr/bin/hpfsck
+/usr/bin/hpls
+/usr/bin/hpmkdir
+/usr/bin/hpmount
+/usr/bin/hppwd
+/usr/bin/hprm
+/usr/bin/hpumount

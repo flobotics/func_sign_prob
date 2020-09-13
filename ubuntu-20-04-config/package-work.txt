@@ -558,3 +558,4 @@ printer-driver-hpijs
 htop
 haproxy
 hfsutils
+hfsplus

@@ -707,3 +707,4 @@ hplip
 htop
 haproxy
 hfsutils
+hfsplus
