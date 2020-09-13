@@ -657,3 +657,5 @@ gnome-calculator
 gpsd
 gettext-base
 gettext
+gtk-im-libthai
+gnome-control-center

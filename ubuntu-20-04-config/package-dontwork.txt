@@ -136,3 +136,4 @@ gnome-online-accounts
 gtk2-engines-pixbuf
 gnome-characters
 gnome-mines
+gtk-im-libthai

@@ -523,3 +523,4 @@ gnome-calculator
 gpsd
 gettext-base
 gettext
+gnome-control-center
