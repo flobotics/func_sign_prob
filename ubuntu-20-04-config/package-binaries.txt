@@ -1361,3 +1361,4 @@
 /usr/bin/hfst-ospell
 /usr/bin/hfst-ospell-office
 /sbin/hdparm
+/usr/bin/hpijs
