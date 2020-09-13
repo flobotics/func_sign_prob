@@ -113,3 +113,9 @@ speech-dispatcher-espeak-ng
 python3-sqlalchemy-ext
 python3-sss
 sssd-proxy
+sssd-ad
+sssd-ad-common
+sssd-krb5-common
+sssd-ipa
+sssd-ldap
+sssd-krb5
