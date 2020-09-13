@@ -1575,3 +1575,4 @@
 /sbin/drbdmeta
 /sbin/drbdmon
 /sbin/drbdsetup
+/usr/bin/dbus-launch
