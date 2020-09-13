@@ -654,3 +654,4 @@ gnome-mines
 gnome-system-monitor
 gawk
 gnome-calculator
+gpsd

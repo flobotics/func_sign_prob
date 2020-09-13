@@ -1264,3 +1264,6 @@
 /usr/bin/gawk
 /usr/bin/gcalccmd
 /usr/bin/gnome-calculator
+/usr/bin/ppscheck
+/usr/sbin/gpsd
+/usr/sbin/gpsdctl
