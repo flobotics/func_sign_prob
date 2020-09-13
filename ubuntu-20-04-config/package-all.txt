@@ -399,3 +399,5 @@ curl
 casper
 cryptsetup
 cryptsetup-bin
+printer-driver-c2esp
+genisoimage
