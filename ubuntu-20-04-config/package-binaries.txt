@@ -1757,3 +1757,6 @@
 /usr/bin/rsync
 /usr/bin/rhythmbox
 /usr/bin/rhythmbox-client
+/usr/bin/rrdcgi
+/usr/bin/rrdtool
+/usr/bin/rrdupdate
