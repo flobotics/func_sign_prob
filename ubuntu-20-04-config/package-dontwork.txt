@@ -146,3 +146,4 @@ grub-pc-bin
 gtk2-engines-murrine
 gnome-mahjongg
 gparted
+gnome-sudoku

@@ -1336,3 +1336,4 @@
 /usr/bin/tbl
 /usr/bin/troff
 /usr/bin/bluetooth-sendto
+/usr/bin/gcr-viewer
