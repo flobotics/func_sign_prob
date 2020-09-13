@@ -1257,3 +1257,4 @@
 /usr/bin/gtk3-widget-factory
 /usr/bin/gnome-session-inhibit
 /usr/bin/gnome-session-quit
+/usr/bin/gnome-session-properties
