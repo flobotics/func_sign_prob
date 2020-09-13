@@ -323,3 +323,4 @@ iptraf-ng
 corosync
 cmake
 cifs-utils
+cracklib-runtime
