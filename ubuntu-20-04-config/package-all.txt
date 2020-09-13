@@ -774,3 +774,4 @@ duplicity
 dh-exec
 deja-dup
 dictzip
+dictd
