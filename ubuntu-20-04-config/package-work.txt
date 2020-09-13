@@ -340,3 +340,4 @@ curl
 cryptsetup-bin
 genisoimage
 containerd
+conntrack
