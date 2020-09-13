@@ -206,3 +206,8 @@ postfix-pcre
 postfix-pgsql
 postfix-mysql
 postfix-ldap
+python3-rcssmin
+python3-pycryptodome
+python3-nacl
+python3-msgpack
+p11-kit-modules

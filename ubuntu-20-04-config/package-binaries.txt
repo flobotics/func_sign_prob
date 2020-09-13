@@ -1843,3 +1843,8 @@
 /usr/lib/postgresql/12/bin/vacuumlo
 /usr/bin/pkg-config
 /usr/bin/x86_64-pc-linux-gnu-pkg-config
+/usr/bin/killall
+/usr/bin/peekfd
+/usr/bin/prtstat
+/usr/bin/pslog
+/usr/bin/pstree
