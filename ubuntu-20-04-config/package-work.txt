@@ -749,3 +749,4 @@ krb5-admin-server
 krb5-kdc
 krb5-kdc-ldap
 krb5-kpropd
+krb5-user

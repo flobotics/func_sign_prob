@@ -1999,3 +1999,12 @@
 /usr/sbin/krb5kdc
 /usr/sbin/kdb5_ldap_util
 /usr/sbin/kpropd
+/usr/bin/kadmin
+/usr/bin/kdestroy
+/usr/bin/kinit
+/usr/bin/klist
+/usr/bin/kpasswd
+/usr/bin/ksu
+/usr/bin/kswitch
+/usr/bin/ktutil
+/usr/bin/kvno
