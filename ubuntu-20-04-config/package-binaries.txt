@@ -1356,3 +1356,5 @@
 /usr/bin/gnome-logs
 /usr/bin/cups-calibrate
 /usr/bin/gnome-software
+/usr/bin/munch
+/usr/bin/unmunch
