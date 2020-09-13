@@ -521,3 +521,4 @@ gnome-system-monitor
 gawk
 gnome-calculator
 gpsd
+gettext-base

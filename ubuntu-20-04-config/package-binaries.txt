@@ -1267,3 +1267,6 @@
 /usr/bin/ppscheck
 /usr/sbin/gpsd
 /usr/sbin/gpsdctl
+/usr/bin/envsubst
+/usr/bin/gettext
+/usr/bin/ngettext
