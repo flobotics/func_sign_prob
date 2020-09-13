@@ -431,3 +431,4 @@ ntfs-3g-dev
 ntfs-3g
 nfs-ganesha
 nfs-common
+nfs-kernel-server
