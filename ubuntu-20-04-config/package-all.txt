@@ -686,3 +686,4 @@ gnome-sudoku
 gcr
 python3-gpg
 guile-2.2-libs
+gnome-font-viewer
