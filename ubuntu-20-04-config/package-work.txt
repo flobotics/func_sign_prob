@@ -644,3 +644,4 @@ exim4-daemon-heavy
 exuberant-ctags
 eject
 elfutils
+e2fsprogs
