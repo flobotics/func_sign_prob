@@ -692,3 +692,4 @@ gcc-9
 gfortran-9
 g++-9
 git
+gnome-power-manager

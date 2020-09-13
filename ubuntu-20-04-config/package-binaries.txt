@@ -1352,3 +1352,4 @@
 /usr/bin/x86_64-linux-gnu-g++-9
 /usr/bin/git
 /usr/bin/git-shell
+/usr/bin/gnome-power-statistics
