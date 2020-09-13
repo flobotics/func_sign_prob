@@ -239,3 +239,4 @@ kodi-pvr-dvbviewer
 kpart5-kompare
 kdevelop-php
 kjumpingcube
+kawari8
