@@ -568,3 +568,4 @@ winbind
 samba-common-bin
 samba-libs
 smbclient
+sharutils
