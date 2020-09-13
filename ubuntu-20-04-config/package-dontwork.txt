@@ -243,3 +243,4 @@ kawari8
 kde-config-screenlocker
 kbounce
 krb5-k5tls
+krb5-otp

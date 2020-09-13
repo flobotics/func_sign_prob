@@ -1997,3 +1997,4 @@
 /usr/sbin/kdb5_util
 /usr/sbin/kproplog
 /usr/sbin/krb5kdc
+/usr/sbin/kdb5_ldap_util
