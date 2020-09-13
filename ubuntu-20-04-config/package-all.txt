@@ -841,3 +841,4 @@ accountsservice
 avahi-utils
 avahi-autoipd
 avahi-daemon
+attr

@@ -1723,3 +1723,6 @@
 /usr/bin/avahi-set-host-name
 /usr/sbin/avahi-autoipd
 /usr/sbin/avahi-daemon
+/usr/bin/attr
+/usr/bin/getfattr
+/usr/bin/setfattr
