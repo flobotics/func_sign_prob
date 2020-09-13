@@ -416,3 +416,5 @@ ceph-osd
 ceph-mon
 cups-filters
 cups-browsed
+cups-filters-core-drivers
+cluster-glue
