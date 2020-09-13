@@ -973,3 +973,5 @@ kafkacat
 ksystemlog
 kimagemapeditor
 konqueror
+kodi-pvr-dvbviewer
+ksmtuned

@@ -1977,3 +1977,4 @@
 /usr/bin/kimagemapeditor
 /usr/bin/kfmclient
 /usr/bin/konqueror
+/usr/sbin/ksmctl

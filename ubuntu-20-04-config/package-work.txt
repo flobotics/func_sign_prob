@@ -737,3 +737,4 @@ kafkacat
 ksystemlog
 kimagemapeditor
 konqueror
+ksmtuned
