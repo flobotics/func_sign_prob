@@ -522,3 +522,4 @@ gawk
 gnome-calculator
 gpsd
 gettext-base
+gettext
