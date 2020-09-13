@@ -712,3 +712,4 @@
 /usr/sbin/ospfclient
 /usr/sbin/ospfd
 /usr/sbin/ripngd
+/usr/sbin/bgpd
