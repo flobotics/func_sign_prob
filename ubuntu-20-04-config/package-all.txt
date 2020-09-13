@@ -937,3 +937,5 @@ pango1.0-tools
 python3-pyscss
 printer-driver-ptouch
 poppler-utils
+python3-wrapt
+powertop

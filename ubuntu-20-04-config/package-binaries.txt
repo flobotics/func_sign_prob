@@ -1875,3 +1875,4 @@
 /usr/bin/pdftops
 /usr/bin/pdftotext
 /usr/bin/pdfunite
+/usr/sbin/powertop

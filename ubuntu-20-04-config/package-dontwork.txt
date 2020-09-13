@@ -225,3 +225,4 @@ plymouth-label
 python3-pyrsistent
 python3-pyscss
 printer-driver-ptouch
+python3-wrapt
