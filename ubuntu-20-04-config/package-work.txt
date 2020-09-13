@@ -528,3 +528,4 @@ gzip
 gnome-disk-utility
 gdisk
 gnome-screenshot
+gnome-calendar
