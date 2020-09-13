@@ -1417,3 +1417,4 @@
 /usr/bin/lsscsi
 /usr/bin/ltrace
 /sbin/dmsetup
+/sbin/dmeventd

@@ -726,3 +726,4 @@ lsscsi
 ltrace
 python3-lazy-object-proxy
 dmsetup
+dmeventd

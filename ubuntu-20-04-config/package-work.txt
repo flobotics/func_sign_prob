@@ -573,3 +573,4 @@ lp-solve
 lsscsi
 ltrace
 dmsetup
+dmeventd
