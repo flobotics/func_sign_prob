@@ -491,3 +491,4 @@ zip
 zfs-zed
 zerofree
 zenity
+zsys

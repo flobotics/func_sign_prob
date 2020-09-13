@@ -836,3 +836,4 @@
 /usr/sbin/zed
 /usr/sbin/zerofree
 /usr/bin/zenity
+/sbin/zsysd
