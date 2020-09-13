@@ -1075,3 +1075,8 @@
 /usr/bin/filan
 /usr/bin/procan
 /usr/bin/socat
+/usr/bin/gamma4scanimage
+/usr/bin/sane-find-scanner
+/usr/bin/scanimage
+/usr/bin/umax_pp
+/usr/sbin/saned

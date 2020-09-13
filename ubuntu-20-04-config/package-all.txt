@@ -578,3 +578,4 @@ strongswan-starter
 strongswan-charon
 strongswan-libcharon
 socat
+sane-utils

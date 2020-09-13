@@ -472,3 +472,4 @@ passwd
 login
 squashfs-tools
 socat
+sane-utils
