@@ -404,3 +404,4 @@ vim-tiny
 xxd
 zsh
 zip
+zfs-zed

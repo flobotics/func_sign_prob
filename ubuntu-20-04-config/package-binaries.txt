@@ -833,3 +833,4 @@
 /usr/bin/zipcloak
 /usr/bin/zipnote
 /usr/bin/zipsplit
+/usr/sbin/zed

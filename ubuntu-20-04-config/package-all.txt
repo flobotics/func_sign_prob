@@ -488,3 +488,4 @@ xxd
 zsh
 zlib1g
 zip
+zfs-zed
