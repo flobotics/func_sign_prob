@@ -445,3 +445,4 @@ network-manager
 numactl
 nut-server
 nut-cgi
+nut-client
