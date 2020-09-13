@@ -714,3 +714,4 @@ poppler-utils
 powertop
 patchutils
 gkbd-capplet
+jfsutils

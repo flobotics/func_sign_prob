@@ -942,3 +942,4 @@ powertop
 patchutils
 python3-xattr
 gkbd-capplet
+jfsutils
