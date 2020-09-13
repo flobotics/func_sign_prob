@@ -808,3 +808,4 @@ erlang-tools
 enchant-2
 evince
 ebtables
+efibootmgr

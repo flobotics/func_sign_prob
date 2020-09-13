@@ -1616,3 +1616,5 @@
 /usr/sbin/ebtables-legacy-restore
 /usr/sbin/ebtablesd
 /usr/sbin/ebtablesu
+/bin/efibootdump
+/bin/efibootmgr
