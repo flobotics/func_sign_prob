@@ -260,3 +260,4 @@ kde-telepathy-auth-handler
 klines
 kde-config-systemd
 qml-module-org-kde-runnermodel
+kblocks
