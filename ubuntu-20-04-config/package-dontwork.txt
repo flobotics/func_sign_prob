@@ -96,3 +96,4 @@ netplan.io
 nut-snmp
 network-manager-pptp-gnome
 network-manager-pptp
+python3-newt

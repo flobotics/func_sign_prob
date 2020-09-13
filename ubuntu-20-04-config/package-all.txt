@@ -542,3 +542,5 @@ nvidia-settings
 network-manager-pptp-gnome
 network-manager-pptp
 whiptail
+python3-newt
+netcat-openbsd
