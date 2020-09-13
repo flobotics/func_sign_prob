@@ -78,3 +78,4 @@ xserver-xorg-input-libinput
 xserver-xorg-video-radeon
 xserver-xorg-video-ati
 xserver-xorg-video-qxl
+xdg-desktop-portal-gtk
