@@ -1143,3 +1143,4 @@
 /usr/bin/sss_ssh_authorizedkeys
 /usr/bin/sss_ssh_knownhostsproxy
 /usr/sbin/sssd
+/bin/sed
