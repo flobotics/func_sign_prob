@@ -1444,3 +1444,4 @@
 /usr/bin/mlocate
 /usr/bin/updatedb.mlocate
 /usr/bin/mutter
+/usr/bin/makedumpfile
