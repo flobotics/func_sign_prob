@@ -1953,3 +1953,4 @@
 /usr/bin/gostsum
 /usr/bin/createfp
 /usr/bin/eot2ttf
+/usr/bin/explain
