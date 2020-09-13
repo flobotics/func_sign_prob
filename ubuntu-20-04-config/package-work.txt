@@ -446,3 +446,5 @@ numactl
 nut-server
 nut-cgi
 nut-client
+nvidia-settings
+whiptail

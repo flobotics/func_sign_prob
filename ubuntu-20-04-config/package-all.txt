@@ -538,3 +538,7 @@ nut-server
 nut-snmp
 nut-cgi
 nut-client
+nvidia-settings
+network-manager-pptp-gnome
+network-manager-pptp
+whiptail

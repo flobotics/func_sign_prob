@@ -94,3 +94,5 @@ network-manager-openvpn-gnome
 network-manager-openvpn
 netplan.io
 nut-snmp
+network-manager-pptp-gnome
+network-manager-pptp
