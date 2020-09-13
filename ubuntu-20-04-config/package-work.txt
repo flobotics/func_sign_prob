@@ -632,3 +632,4 @@ devscripts
 eog
 ethtool
 erlang-base
+erlang-os-mon

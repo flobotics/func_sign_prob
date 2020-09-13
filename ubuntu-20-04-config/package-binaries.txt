@@ -1604,3 +1604,5 @@
 /usr/lib/erlang/erts-10.6.4/bin/to_erl
 /usr/lib/erlang/erts-10.6.4/bin/typer
 /usr/lib/erlang/lib/erl_interface-3.13.1/bin/erl_call
+/usr/lib/erlang/lib/os_mon-2.5.1/priv/bin/cpu_sup
+/usr/lib/erlang/lib/os_mon-2.5.1/priv/bin/memsup
