@@ -737,3 +737,4 @@ multipath-tools
 kpartx
 msr-tools
 memcached
+mokutil
