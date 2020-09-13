@@ -1388,3 +1388,4 @@
 /usr/bin/hppwd
 /usr/bin/hprm
 /usr/bin/hpumount
+/usr/bin/hello
