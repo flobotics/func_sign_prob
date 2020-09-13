@@ -586,3 +586,4 @@ udev
 systemd
 systemd-container
 sysvinit-utils
+spamc

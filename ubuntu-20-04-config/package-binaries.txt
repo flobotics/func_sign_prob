@@ -1126,3 +1126,4 @@
 /usr/bin/systemd-nspawn
 /sbin/fstab-decode
 /sbin/killall5
+/usr/bin/spamc
