@@ -176,3 +176,4 @@ python3-libapparmor
 aisleriot
 at-spi2-core
 accountsservice
+ibverbs-providers
