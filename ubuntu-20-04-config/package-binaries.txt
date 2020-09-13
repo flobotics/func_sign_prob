@@ -443,3 +443,4 @@
 /usr/bin/cd-iccdump
 /usr/bin/cd-it8
 /usr/bin/colormgr
+/usr/bin/cheese
