@@ -971,3 +971,4 @@ kio-gdrive
 kakoune
 kafkacat
 ksystemlog
+kimagemapeditor
