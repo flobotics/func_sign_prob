@@ -1621,3 +1621,5 @@
 /usr/bin/efivar
 /usr/sbin/exim4
 /usr/bin/ctags-exuberant
+/usr/bin/eject
+/usr/bin/volname
