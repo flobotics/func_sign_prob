@@ -902,3 +902,10 @@ python3-systemd
 pcmciautils
 postgresql-client-12
 postgresql-12
+python3-parted
+postfix-cdb
+postfix-pcre
+postfix-pgsql
+postfix-mysql
+postfix-ldap
+pkg-config

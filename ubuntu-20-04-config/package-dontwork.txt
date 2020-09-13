@@ -200,3 +200,9 @@ gstreamer1.0-packagekit
 python3-setproctitle
 python3-cups
 python3-systemd
+python3-parted
+postfix-cdb
+postfix-pcre
+postfix-pgsql
+postfix-mysql
+postfix-ldap

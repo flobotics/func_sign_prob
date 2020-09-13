@@ -1841,3 +1841,5 @@
 /usr/lib/postgresql/12/bin/pgbench
 /usr/lib/postgresql/12/bin/postgres
 /usr/lib/postgresql/12/bin/vacuumlo
+/usr/bin/pkg-config
+/usr/bin/x86_64-pc-linux-gnu-pkg-config
