@@ -414,3 +414,5 @@ odbcinst
 udisks2
 cu
 unzip
+ubiquity
+usb-modeswitch

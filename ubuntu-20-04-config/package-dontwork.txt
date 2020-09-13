@@ -87,3 +87,4 @@ xserver-xorg-video-vesa
 vino
 zlib1g
 odbcinst1debian2
+ubiquity-frontend-gtk

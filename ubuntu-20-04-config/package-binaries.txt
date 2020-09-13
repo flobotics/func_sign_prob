@@ -846,3 +846,12 @@
 /usr/bin/unzip
 /usr/bin/unzipsfx
 /usr/bin/zipinfo
+/bin/blockdev-wipe
+/bin/log-output
+/bin/mapdevfs
+/bin/parted_devices
+/bin/parted_server
+/bin/partmap
+/sbin/set-date-epoch
+/usr/sbin/usb_modeswitch
+/usr/sbin/usb_modeswitch_dispatcher
