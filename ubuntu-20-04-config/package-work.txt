@@ -551,3 +551,5 @@ gnome-logs
 printer-driver-gutenprint
 gnome-software
 hunspell-tools
+hostname
+hfst-ospell
