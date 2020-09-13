@@ -806,3 +806,4 @@
 /usr/bin/smproxy
 /usr/bin/xsm
 /usr/bin/xinit
+/usr/bin/vmwarectrl
