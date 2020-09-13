@@ -534,3 +534,4 @@ nautilus
 netplan.io
 network-manager
 numactl
+nut-server

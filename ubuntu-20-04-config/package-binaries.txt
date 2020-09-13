@@ -968,3 +968,5 @@
 /usr/bin/migspeed
 /usr/bin/numactl
 /usr/bin/numastat
+/bin/nut-scanner
+/sbin/upsdrvctl
