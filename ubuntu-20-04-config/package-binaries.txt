@@ -835,3 +835,4 @@
 /usr/bin/zipsplit
 /usr/sbin/zed
 /usr/sbin/zerofree
+/usr/bin/zenity

@@ -490,3 +490,4 @@ zlib1g
 zip
 zfs-zed
 zerofree
+zenity
