@@ -951,3 +951,4 @@
 /usr/bin/snmpvacm
 /usr/bin/snmpwalk
 /usr/sbin/snmpd
+/bin/nano
