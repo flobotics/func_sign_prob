@@ -752,3 +752,4 @@ krb5-kpropd
 krb5-user
 kopano-gateway
 kopano-spooler
+kopano-archiver
