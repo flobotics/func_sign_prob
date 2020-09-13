@@ -837,3 +837,5 @@ at-spi2-core
 anope
 apache2-bin
 apache2-utils
+accountsservice
+avahi-utils
