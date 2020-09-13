@@ -1072,3 +1072,6 @@
 /usr/sbin/nologin
 /usr/bin/mksquashfs
 /usr/bin/unsquashfs
+/usr/bin/filan
+/usr/bin/procan
+/usr/bin/socat

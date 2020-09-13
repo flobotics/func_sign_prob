@@ -574,3 +574,7 @@ session-migration
 passwd
 login
 squashfs-tools
+strongswan-starter
+strongswan-charon
+strongswan-libcharon
+socat
