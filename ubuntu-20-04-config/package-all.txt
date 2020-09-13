@@ -705,3 +705,4 @@ printer-driver-postscript-hp
 printer-driver-hpcups
 hplip
 htop
+haproxy

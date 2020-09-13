@@ -1363,3 +1363,5 @@
 /sbin/hdparm
 /usr/bin/hpijs
 /usr/bin/htop
+/usr/bin/halog
+/usr/sbin/haproxy
