@@ -438,3 +438,4 @@ nano
 nginx-core
 ftp
 nautilus-sendto
+nicstat

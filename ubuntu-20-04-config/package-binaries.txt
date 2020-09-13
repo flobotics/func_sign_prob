@@ -955,3 +955,4 @@
 /usr/sbin/nginx
 /usr/bin/netkit-ftp
 /usr/bin/nautilus-sendto
+/usr/bin/nicstat
