@@ -354,3 +354,4 @@ cluster-glue
 coreutils
 clamav-freshclam
 clamdscan
+clamav-daemon
