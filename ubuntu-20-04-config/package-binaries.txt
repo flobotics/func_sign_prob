@@ -489,3 +489,9 @@
 /usr/bin/isoinfo
 /usr/bin/isovfy
 /usr/bin/mkzftree
+/usr/bin/containerd
+/usr/bin/containerd-shim
+/usr/bin/containerd-shim-runc-v1
+/usr/bin/containerd-shim-runc-v2
+/usr/bin/containerd-stress
+/usr/bin/ctr

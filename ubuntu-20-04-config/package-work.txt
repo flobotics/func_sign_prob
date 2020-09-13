@@ -339,3 +339,4 @@ ccache
 curl
 cryptsetup-bin
 genisoimage
+containerd
