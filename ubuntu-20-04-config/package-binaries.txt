@@ -1672,3 +1672,7 @@
 /usr/sbin/dump-acct
 /usr/sbin/dump-utmp
 /usr/sbin/sa
+/usr/bin/advdef
+/usr/bin/advmng
+/usr/bin/advpng
+/usr/bin/advzip
