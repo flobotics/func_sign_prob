@@ -356,3 +356,4 @@ clamav-freshclam
 clamdscan
 clamav-daemon
 clamav
+crash

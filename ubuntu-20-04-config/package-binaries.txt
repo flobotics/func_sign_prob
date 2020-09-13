@@ -644,3 +644,4 @@
 /usr/bin/clamscan
 /usr/bin/clamsubmit
 /usr/bin/sigtool
+/usr/bin/crash
