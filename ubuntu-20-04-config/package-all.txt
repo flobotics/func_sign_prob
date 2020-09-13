@@ -609,3 +609,4 @@ sssd-dbus
 printer-driver-splix
 sed
 squid
+strace

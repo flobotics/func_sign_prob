@@ -1145,3 +1145,4 @@
 /usr/sbin/sssd
 /bin/sed
 /usr/sbin/squid
+/usr/bin/strace

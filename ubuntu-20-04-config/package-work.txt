@@ -490,3 +490,4 @@ sssd-tools
 sssd-common
 sed
 squid
+strace
