@@ -433,3 +433,4 @@ nfs-ganesha
 nfs-common
 nfs-kernel-server
 snmp
+snmpd
