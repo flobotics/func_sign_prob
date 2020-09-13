@@ -2032,3 +2032,4 @@
 /usr/bin/kalarm
 /usr/bin/kalarmautostart
 /usr/bin/kickpass
+/usr/bin/KBtin

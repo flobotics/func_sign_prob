@@ -763,3 +763,4 @@ kdepim-addons
 knxd-tools
 kalarm
 kickpass
+kbtin
