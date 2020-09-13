@@ -645,3 +645,4 @@ exuberant-ctags
 eject
 elfutils
 e2fsprogs
+logsave

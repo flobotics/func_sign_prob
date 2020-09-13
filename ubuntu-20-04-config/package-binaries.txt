@@ -1654,3 +1654,4 @@
 /usr/sbin/e4defrag
 /usr/sbin/filefrag
 /usr/sbin/mklost+found
+/sbin/logsave
