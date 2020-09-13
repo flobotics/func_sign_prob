@@ -606,3 +606,4 @@ kexec-tools
 keepalived
 modemmanager
 mtools
+diffutils

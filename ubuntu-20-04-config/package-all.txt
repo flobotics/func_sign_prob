@@ -767,3 +767,4 @@ kexec-tools
 modemmanager
 mecab-utils
 mtools
+diffutils
