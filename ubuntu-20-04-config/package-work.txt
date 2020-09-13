@@ -478,3 +478,4 @@ smartmontools
 udev
 systemd
 systemd-container
+sysvinit-utils

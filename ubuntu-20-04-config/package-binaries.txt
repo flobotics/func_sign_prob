@@ -1124,3 +1124,5 @@
 /bin/machinectl
 /bin/portablectl
 /usr/bin/systemd-nspawn
+/sbin/fstab-decode
+/sbin/killall5
