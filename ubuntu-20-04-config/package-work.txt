@@ -349,3 +349,4 @@ ceph-base
 ceph-osd
 ceph-mon
 cups-filters
+cups-browsed

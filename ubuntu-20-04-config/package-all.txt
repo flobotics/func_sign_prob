@@ -415,3 +415,4 @@ python3-rados
 ceph-osd
 ceph-mon
 cups-filters
+cups-browsed
