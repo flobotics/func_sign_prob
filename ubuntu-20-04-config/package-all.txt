@@ -866,3 +866,4 @@ rhythmbox
 rrdtool
 lua-rrd
 rpcbind
+pacemaker-cli-utils

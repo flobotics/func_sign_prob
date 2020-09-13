@@ -687,3 +687,4 @@ rsync
 rhythmbox
 rrdtool
 rpcbind
+pacemaker-cli-utils
