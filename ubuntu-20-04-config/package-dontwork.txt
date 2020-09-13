@@ -261,3 +261,6 @@ klines
 kde-config-systemd
 qml-module-org-kde-runnermodel
 kblocks
+kodi-x11
+kodi-gbm
+kodi-wayland

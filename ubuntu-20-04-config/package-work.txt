@@ -787,3 +787,6 @@ kde-telepathy-call-ui
 knocker
 ktimer
 kscreen
+kodi-eventclients-wiiremote
+kodi-bin
+kuvert
