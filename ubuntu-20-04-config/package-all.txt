@@ -471,3 +471,4 @@ xfonts-utils
 xserver-xorg-legacy
 xserver-xorg-core
 xwayland
+xserver-xephyr

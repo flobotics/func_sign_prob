@@ -800,3 +800,4 @@
 /usr/bin/cvt
 /usr/bin/gtf
 /usr/bin/Xwayland
+/usr/bin/Xephyr
