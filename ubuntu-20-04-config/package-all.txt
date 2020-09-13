@@ -395,3 +395,4 @@ cdebconf
 cron
 crda
 ccache
+curl

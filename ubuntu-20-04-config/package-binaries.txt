@@ -478,3 +478,4 @@
 /sbin/crda
 /sbin/regdbdump
 /usr/bin/ccache
+/usr/bin/curl
