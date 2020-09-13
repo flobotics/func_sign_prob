@@ -390,3 +390,6 @@ cups-ppdc
 cups-client
 cups
 cups-daemon
+cups-core-drivers
+cdebconf
+cron

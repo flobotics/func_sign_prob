@@ -333,3 +333,4 @@ cups-ppdc
 cups-client
 cups
 cups-daemon
+cron
