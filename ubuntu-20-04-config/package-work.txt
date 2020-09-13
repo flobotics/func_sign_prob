@@ -502,3 +502,4 @@ sg3-utils
 gpgsm
 dirmngr
 gpgconf
+gnupg-utils
