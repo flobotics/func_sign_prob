@@ -552,3 +552,4 @@ python3-uno
 gnome-session-canberra
 wireless-tools
 whoopsie
+wpasupplicant

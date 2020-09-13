@@ -995,3 +995,6 @@
 /sbin/iwpriv
 /sbin/iwspy
 /usr/bin/whoopsie
+/sbin/wpa_cli
+/sbin/wpa_supplicant
+/usr/bin/wpa_passphrase
