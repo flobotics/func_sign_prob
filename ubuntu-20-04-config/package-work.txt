@@ -383,3 +383,4 @@ x11-xkb-utils
 xauth
 xz-utils
 xdg-user-dirs
+xinput
