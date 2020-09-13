@@ -1241,3 +1241,4 @@
 /usr/bin/kbxutil
 /usr/bin/symcryptrun
 /usr/bin/watchgnupg
+/usr/bin/gpg-wks-server

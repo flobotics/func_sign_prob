@@ -627,3 +627,4 @@ dirmngr
 gpg-wks-client
 gpgconf
 gnupg-utils
+gpg-wks-server
