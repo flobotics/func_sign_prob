@@ -467,3 +467,4 @@ samba-common-bin
 smbclient
 sharutils
 spice-vdagent
+session-migration
