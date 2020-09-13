@@ -1261,3 +1261,4 @@
 /usr/bin/gfxboot-compile
 /usr/bin/gfxboot-font
 /usr/bin/gnome-system-monitor
+/usr/bin/gawk
