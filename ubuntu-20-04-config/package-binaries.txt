@@ -1790,3 +1790,16 @@
 /usr/sbin/pppdump
 /usr/sbin/pppoe-discovery
 /usr/sbin/pppstats
+/sbin/sysctl
+/usr/bin/free
+/usr/bin/pgrep
+/usr/bin/pmap
+/usr/bin/pwdx
+/usr/bin/skill
+/usr/bin/slabtop
+/usr/bin/tload
+/usr/bin/top
+/usr/bin/uptime
+/usr/bin/vmstat
+/usr/bin/w.procps
+/usr/bin/watch
