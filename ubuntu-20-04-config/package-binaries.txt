@@ -954,3 +954,4 @@
 /bin/nano
 /usr/sbin/nginx
 /usr/bin/netkit-ftp
+/usr/bin/nautilus-sendto
