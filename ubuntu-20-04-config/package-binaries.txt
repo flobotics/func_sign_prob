@@ -1571,3 +1571,7 @@
 /usr/bin/dpkg-statoverride
 /usr/bin/dpkg-trigger
 /usr/bin/update-alternatives
+/sbin/drbdadm
+/sbin/drbdmeta
+/sbin/drbdmon
+/sbin/drbdsetup
