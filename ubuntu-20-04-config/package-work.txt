@@ -370,3 +370,4 @@ qemu-system-ppc
 quota
 quagga-core
 quagga-pimd
+quagga-ospf6d
