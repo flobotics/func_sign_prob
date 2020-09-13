@@ -474,3 +474,4 @@ squashfs-tools
 socat
 sane-utils
 sbsigntool
+smartmontools
