@@ -475,3 +475,4 @@ socat
 sane-utils
 sbsigntool
 smartmontools
+udev

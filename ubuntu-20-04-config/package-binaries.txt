@@ -1089,3 +1089,5 @@
 /usr/bin/sbverify
 /usr/sbin/smartctl
 /usr/sbin/smartd
+/bin/systemd-hwdb
+/bin/udevadm
