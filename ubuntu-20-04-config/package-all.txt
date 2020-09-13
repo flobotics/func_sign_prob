@@ -630,3 +630,5 @@ gnupg-utils
 gpg-wks-server
 gpgv
 gpg-agent
+gpg
+grep
