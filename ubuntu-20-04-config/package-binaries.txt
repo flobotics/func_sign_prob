@@ -1857,3 +1857,4 @@
 /usr/bin/pax11publish
 /usr/sbin/pptpctrl
 /usr/sbin/pptpd
+/usr/sbin/bcrelay
