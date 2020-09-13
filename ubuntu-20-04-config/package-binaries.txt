@@ -714,3 +714,4 @@
 /usr/sbin/ripngd
 /usr/sbin/bgpd
 /usr/sbin/isisd
+/usr/sbin/ripd
