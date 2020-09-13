@@ -160,3 +160,4 @@ mesa-vulkan-drivers
 ibus-mozc
 mozc-server
 mecab-utils
+duplicity

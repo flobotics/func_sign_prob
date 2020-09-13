@@ -1535,3 +1535,4 @@
 /usr/bin/sdiff
 /sbin/dmraid
 /usr/bin/dnstracer
+/usr/bin/dh-exec
