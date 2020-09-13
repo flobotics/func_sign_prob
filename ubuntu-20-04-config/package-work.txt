@@ -403,3 +403,4 @@ vim
 vim-tiny
 xxd
 zsh
+zip

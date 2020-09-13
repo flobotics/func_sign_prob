@@ -829,3 +829,7 @@
 /usr/bin/vim.tiny
 /usr/bin/xxd
 /bin/zsh
+/usr/bin/zip
+/usr/bin/zipcloak
+/usr/bin/zipnote
+/usr/bin/zipsplit
