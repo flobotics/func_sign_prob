@@ -444,3 +444,4 @@ nautilus
 network-manager
 numactl
 nut-server
+nut-cgi

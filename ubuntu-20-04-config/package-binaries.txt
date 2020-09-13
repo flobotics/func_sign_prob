@@ -970,3 +970,6 @@
 /usr/bin/numastat
 /bin/nut-scanner
 /sbin/upsdrvctl
+/usr/lib/cgi-bin/nut/upsimage.cgi
+/usr/lib/cgi-bin/nut/upsset.cgi
+/usr/lib/cgi-bin/nut/upsstats.cgi

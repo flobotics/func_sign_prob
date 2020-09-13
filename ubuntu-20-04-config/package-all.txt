@@ -535,3 +535,5 @@ netplan.io
 network-manager
 numactl
 nut-server
+nut-snmp
+nut-cgi
