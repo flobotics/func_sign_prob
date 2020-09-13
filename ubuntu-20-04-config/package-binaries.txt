@@ -2080,3 +2080,4 @@
 /usr/bin/kmc_tools
 /usr/bin/kaffeine
 /usr/bin/kronometer
+/usr/bin/kaddressbook
