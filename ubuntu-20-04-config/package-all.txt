@@ -839,3 +839,4 @@ apache2-bin
 apache2-utils
 accountsservice
 avahi-utils
+avahi-autoipd

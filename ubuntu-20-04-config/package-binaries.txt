@@ -1721,3 +1721,4 @@
 /usr/bin/avahi-publish
 /usr/bin/avahi-resolve
 /usr/bin/avahi-set-host-name
+/usr/sbin/avahi-autoipd
