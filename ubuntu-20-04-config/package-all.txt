@@ -529,3 +529,5 @@ nautilus-sendto
 network-manager-openvpn-gnome
 network-manager-openvpn
 nicstat
+network-manager-gnome
+nautilus

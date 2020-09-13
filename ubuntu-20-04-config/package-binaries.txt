@@ -956,3 +956,6 @@
 /usr/bin/netkit-ftp
 /usr/bin/nautilus-sendto
 /usr/bin/nicstat
+/usr/bin/nm-applet
+/usr/bin/nm-connection-editor
+/usr/bin/nautilus-autorun-software
