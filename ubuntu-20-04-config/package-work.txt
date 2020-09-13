@@ -667,3 +667,4 @@ avahi-daemon
 attr
 acpid
 handy-0.0-examples
+resource-agents
