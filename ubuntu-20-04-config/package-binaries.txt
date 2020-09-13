@@ -1154,3 +1154,4 @@
 /usr/bin/sadf
 /usr/bin/sar.sysstat
 /usr/bin/tapestat
+/usr/bin/seahorse
