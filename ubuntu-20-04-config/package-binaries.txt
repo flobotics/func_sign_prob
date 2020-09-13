@@ -1561,3 +1561,4 @@
 /usr/bin/desktop-file-install
 /usr/bin/desktop-file-validate
 /usr/bin/update-desktop-database
+/usr/bin/dselect
