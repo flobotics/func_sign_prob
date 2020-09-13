@@ -970,3 +970,4 @@ kdegraphics-mobipocket
 kio-gdrive
 kakoune
 kafkacat
+ksystemlog
