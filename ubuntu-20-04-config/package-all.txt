@@ -544,3 +544,4 @@ network-manager-pptp
 whiptail
 python3-newt
 netcat-openbsd
+ncurses-bin

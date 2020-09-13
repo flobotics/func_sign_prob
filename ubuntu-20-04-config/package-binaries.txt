@@ -981,3 +981,9 @@
 /usr/bin/nvidia-settings
 /usr/bin/whiptail
 /bin/nc.openbsd
+/usr/bin/infocmp
+/usr/bin/tabs
+/usr/bin/tic
+/usr/bin/toe
+/usr/bin/tput
+/usr/bin/tset
