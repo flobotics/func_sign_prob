@@ -1731,3 +1731,4 @@
 /usr/bin/handy-0.0-demo
 /usr/sbin/sfex_init
 /usr/sbin/sfex_stat
+/usr/sbin/radvd
