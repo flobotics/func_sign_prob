@@ -640,3 +640,7 @@
 /usr/bin/clamdtop
 /usr/bin/clamonacc
 /usr/sbin/clamd
+/usr/bin/clambc
+/usr/bin/clamscan
+/usr/bin/clamsubmit
+/usr/bin/sigtool
