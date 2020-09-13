@@ -441,3 +441,4 @@ nautilus-sendto
 nicstat
 network-manager-gnome
 nautilus
+network-manager
