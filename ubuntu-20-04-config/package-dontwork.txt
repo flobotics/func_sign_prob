@@ -69,3 +69,6 @@ python3-cephfs
 python3-rbd
 python3-rados
 cups-filters-core-drivers
+cups-pk-helper
+qemu-system-gui
+qemu-block-extra

@@ -425,3 +425,16 @@ clamav-daemon
 clamav
 crash
 sasl2-bin
+cups-pk-helper
+qemu-system-arm
+qemu-system-misc
+qemu-system-common
+qemu-system-s390x
+qemu-utils
+qemu-system-sparc
+qemu-system-gui
+qemu-block-extra
+qemu-system-mips
+qemu-system-x86
+qemu-system-ppc
+quota
