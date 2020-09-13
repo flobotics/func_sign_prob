@@ -1892,3 +1892,4 @@
 /usr/sbin/mdata-get
 /usr/sbin/mdata-list
 /usr/sbin/mdata-put
+/usr/bin/inputattach
