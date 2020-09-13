@@ -1443,3 +1443,4 @@
 /usr/bin/m4
 /usr/bin/mlocate
 /usr/bin/updatedb.mlocate
+/usr/bin/mutter
