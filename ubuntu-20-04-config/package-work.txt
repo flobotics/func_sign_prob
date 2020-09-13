@@ -399,3 +399,4 @@ x11-session-utils
 xinit
 xserver-xorg-video-vmware
 x11-utils
+vim
