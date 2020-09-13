@@ -155,3 +155,5 @@ python3-ldb
 landscape-client
 lupin-support
 python3-lazy-object-proxy
+mesa-vdpau-drivers
+mesa-vulkan-drivers

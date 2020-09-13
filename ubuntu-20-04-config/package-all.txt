@@ -742,3 +742,6 @@ make
 printer-driver-m2300w
 mutt
 m4
+mesa-vdpau-drivers
+mesa-vulkan-drivers
+mlocate

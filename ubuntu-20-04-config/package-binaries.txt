@@ -1441,3 +1441,5 @@
 /usr/bin/mutt
 /usr/bin/mutt_dotlock
 /usr/bin/m4
+/usr/bin/mlocate
+/usr/bin/updatedb.mlocate
