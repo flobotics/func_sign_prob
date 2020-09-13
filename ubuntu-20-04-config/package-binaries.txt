@@ -1121,3 +1121,6 @@
 /usr/bin/systemd-socket-activate
 /usr/bin/systemd-stdio-bridge
 /usr/bin/timedatectl
+/bin/machinectl
+/bin/portablectl
+/usr/bin/systemd-nspawn
