@@ -387,3 +387,4 @@ xinput
 xserver-xorg-video-intel
 x11-apps
 xdg-user-dirs-gtk
+xserver-xorg-input-wacom
