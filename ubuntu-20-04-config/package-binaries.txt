@@ -1335,3 +1335,4 @@
 /usr/bin/soelim
 /usr/bin/tbl
 /usr/bin/troff
+/usr/bin/bluetooth-sendto

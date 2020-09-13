@@ -681,3 +681,4 @@ gobject-introspection
 google-compute-engine-oslogin
 gnome-todo
 groff-base
+gnome-bluetooth
