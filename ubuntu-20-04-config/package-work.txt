@@ -690,3 +690,4 @@ rpcbind
 pacemaker-cli-utils
 php7.4-cgi
 php7.4-cli
+policykit-1

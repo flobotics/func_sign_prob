@@ -1778,3 +1778,7 @@
 /usr/bin/php-cgi7.4
 /usr/lib/cgi-bin/php7.4
 /usr/bin/php7.4
+/usr/bin/pkaction
+/usr/bin/pkcheck
+/usr/bin/pkexec
+/usr/bin/pkttyagent
