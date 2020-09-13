@@ -1534,3 +1534,4 @@
 /usr/bin/diff3
 /usr/bin/sdiff
 /sbin/dmraid
+/usr/bin/dnstracer

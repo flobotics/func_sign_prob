@@ -769,3 +769,4 @@ mecab-utils
 mtools
 diffutils
 dmraid
+dnstracer

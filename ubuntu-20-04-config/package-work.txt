@@ -608,3 +608,4 @@ modemmanager
 mtools
 diffutils
 dmraid
+dnstracer
