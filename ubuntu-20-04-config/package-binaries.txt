@@ -1947,3 +1947,4 @@
 /usr/bin/9mount
 /usr/bin/9umount
 /usr/bin/9menu
+/usr/bin/jcat-tool
