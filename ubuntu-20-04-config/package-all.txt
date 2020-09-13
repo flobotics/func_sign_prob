@@ -773,3 +773,4 @@ dnstracer
 duplicity
 dh-exec
 deja-dup
+dictzip

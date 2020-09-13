@@ -611,3 +611,4 @@ dmraid
 dnstracer
 dh-exec
 deja-dup
+dictzip
