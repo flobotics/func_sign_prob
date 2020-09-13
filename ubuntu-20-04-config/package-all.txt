@@ -718,3 +718,4 @@ python3-ldb
 lsof
 lz4
 lshw
+less

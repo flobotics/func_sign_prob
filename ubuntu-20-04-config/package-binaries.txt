@@ -1410,3 +1410,6 @@
 /usr/bin/lsof
 /usr/bin/lz4
 /usr/bin/lshw
+/usr/bin/less
+/usr/bin/lessecho
+/usr/bin/lesskey
