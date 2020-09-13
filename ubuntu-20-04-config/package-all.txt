@@ -561,3 +561,7 @@ whois
 yelp
 shotwell
 samba
+samba-dsdb-modules
+samba-vfs-modules
+python3-samba
+winbind

@@ -462,3 +462,4 @@ whois
 yelp
 shotwell
 samba
+winbind
