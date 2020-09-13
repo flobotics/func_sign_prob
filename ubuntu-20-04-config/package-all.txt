@@ -687,3 +687,8 @@ gcr
 python3-gpg
 guile-2.2-libs
 gnome-font-viewer
+cpp-9
+gcc-9
+gfortran-9
+g++-9
+git

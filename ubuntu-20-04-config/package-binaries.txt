@@ -1340,3 +1340,15 @@
 /usr/lib/x86_64-linux-gnu/guile/2.2/bin/guile
 /usr/bin/gnome-font-viewer
 /usr/bin/gnome-thumbnail-font
+/usr/bin/x86_64-linux-gnu-cpp-9
+/usr/bin/x86_64-linux-gnu-gcc-9
+/usr/bin/x86_64-linux-gnu-gcc-ar-9
+/usr/bin/x86_64-linux-gnu-gcc-nm-9
+/usr/bin/x86_64-linux-gnu-gcc-ranlib-9
+/usr/bin/x86_64-linux-gnu-gcov-9
+/usr/bin/x86_64-linux-gnu-gcov-dump-9
+/usr/bin/x86_64-linux-gnu-gcov-tool-9
+/usr/bin/x86_64-linux-gnu-gfortran-9
+/usr/bin/x86_64-linux-gnu-g++-9
+/usr/bin/git
+/usr/bin/git-shell
