@@ -826,3 +826,4 @@
 /usr/bin/xvinfo
 /usr/bin/xwininfo
 /usr/bin/vim.basic
+/usr/bin/vim.tiny

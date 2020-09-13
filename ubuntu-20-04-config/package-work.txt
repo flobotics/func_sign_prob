@@ -400,3 +400,4 @@ xinit
 xserver-xorg-video-vmware
 x11-utils
 vim
+vim-tiny

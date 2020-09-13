@@ -483,3 +483,4 @@ xserver-xorg-video-fbdev
 xserver-xorg-video-vesa
 vino
 vim
+vim-tiny
