@@ -2090,3 +2090,4 @@
 /usr/bin/kodi-wiiremote
 /usr/bin/TexturePacker
 /usr/bin/kuvert_submit
+/usr/bin/kolourpaint

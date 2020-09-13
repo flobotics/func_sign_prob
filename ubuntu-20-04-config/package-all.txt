@@ -1055,3 +1055,4 @@ kodi-gbm
 kodi-wayland
 kodi-bin
 kuvert
+kolourpaint

@@ -790,3 +790,4 @@ kscreen
 kodi-eventclients-wiiremote
 kodi-bin
 kuvert
+kolourpaint
