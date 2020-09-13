@@ -1785,3 +1785,8 @@
 /usr/lib/python3/dist-packages/cryptography/hazmat/bindings/_constant_time.abi3.so
 /usr/lib/python3/dist-packages/cryptography/hazmat/bindings/_openssl.abi3.so
 /usr/lib/python3/dist-packages/cryptography/hazmat/bindings/_padding.abi3.so
+/usr/sbin/chat
+/usr/sbin/pppd
+/usr/sbin/pppdump
+/usr/sbin/pppoe-discovery
+/usr/sbin/pppstats

@@ -194,3 +194,4 @@ php7.4-snmp
 php7.4-odbc
 php7.4-common
 php7.4-pspell
+python3-pyeclib
