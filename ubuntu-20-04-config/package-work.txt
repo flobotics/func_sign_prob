@@ -686,3 +686,4 @@ rdate
 rsync
 rhythmbox
 rrdtool
+rpcbind

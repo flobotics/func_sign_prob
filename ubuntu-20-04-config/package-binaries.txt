@@ -1760,3 +1760,4 @@
 /usr/bin/rrdcgi
 /usr/bin/rrdtool
 /usr/bin/rrdupdate
+/usr/bin/rpcinfo

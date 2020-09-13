@@ -864,3 +864,5 @@ rdate
 rsync
 rhythmbox
 rrdtool
+lua-rrd
+rpcbind
