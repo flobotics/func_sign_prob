@@ -1389,3 +1389,4 @@
 /usr/bin/hprm
 /usr/bin/hpumount
 /usr/bin/hello
+/bin/archdetect
