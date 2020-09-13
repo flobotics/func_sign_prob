@@ -1656,3 +1656,13 @@
 /usr/sbin/mklost+found
 /sbin/logsave
 /usr/bin/appstreamcli
+/sbin/audispd
+/sbin/auditctl
+/sbin/auditd
+/sbin/aureport
+/sbin/ausearch
+/sbin/autrace
+/usr/bin/aulast
+/usr/bin/aulastlog
+/usr/bin/ausyscall
+/usr/bin/auvirt
