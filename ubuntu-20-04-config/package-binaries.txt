@@ -1289,3 +1289,7 @@
 /usr/bin/gnome-control-center
 /usr/bin/gnome-disk-image-mounter
 /usr/bin/gnome-disks
+/sbin/cgdisk
+/sbin/fixparts
+/sbin/gdisk
+/sbin/sgdisk
