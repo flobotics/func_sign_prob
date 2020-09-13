@@ -839,3 +839,4 @@
 /sbin/zsysd
 /usr/sbin/usbmuxd
 /usr/bin/update-notifier
+/usr/bin/odbcinst
