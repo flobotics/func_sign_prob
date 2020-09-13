@@ -530,3 +530,7 @@ gdisk
 gnome-screenshot
 gnome-calendar
 gnome-keyring
+grub2-common
+grub-common
+gdm3
+gobject-introspection

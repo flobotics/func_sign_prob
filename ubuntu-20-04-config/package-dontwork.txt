@@ -141,3 +141,8 @@ glib-networking
 glib-networking-services
 gnome-settings-daemon
 gnome-keyring-pkcs11
+gnome-initial-setup
+grub-pc-bin
+gtk2-engines-murrine
+gnome-mahjongg
+gparted
