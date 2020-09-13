@@ -683,3 +683,4 @@ rasqal-utils
 rygel
 rdma-core
 rdate
+rsync

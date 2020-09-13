@@ -861,3 +861,4 @@ rygel
 ibverbs-providers
 rdma-core
 rdate
+rsync
