@@ -832,3 +832,4 @@ anacron
 apt-utils
 aisleriot
 aspell
+alsa-utils
