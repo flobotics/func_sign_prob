@@ -533,3 +533,4 @@ network-manager-gnome
 nautilus
 netplan.io
 network-manager
+numactl

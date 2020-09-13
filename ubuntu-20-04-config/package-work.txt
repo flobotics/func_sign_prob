@@ -442,3 +442,4 @@ nicstat
 network-manager-gnome
 nautilus
 network-manager
+numactl

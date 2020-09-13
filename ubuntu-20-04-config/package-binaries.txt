@@ -963,3 +963,8 @@
 /usr/bin/nmcli
 /usr/bin/nmtui
 /usr/sbin/NetworkManager
+/usr/bin/memhog
+/usr/bin/migratepages
+/usr/bin/migspeed
+/usr/bin/numactl
+/usr/bin/numastat
