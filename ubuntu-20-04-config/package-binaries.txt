@@ -1726,3 +1726,5 @@
 /usr/bin/attr
 /usr/bin/getfattr
 /usr/bin/setfattr
+/usr/bin/acpi_listen
+/usr/sbin/acpid

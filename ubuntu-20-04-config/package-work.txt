@@ -665,3 +665,4 @@ avahi-utils
 avahi-autoipd
 avahi-daemon
 attr
+acpid
