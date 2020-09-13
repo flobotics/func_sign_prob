@@ -1436,3 +1436,5 @@
 /usr/sbin/wrmsr
 /usr/bin/memcached
 /usr/bin/mokutil
+/usr/bin/m2300w
+/usr/bin/m2400w
