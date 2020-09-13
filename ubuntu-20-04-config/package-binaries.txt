@@ -1963,3 +1963,4 @@
 /usr/bin/ewfmount
 /usr/bin/ewfrecover
 /usr/bin/ewfverify
+/usr/bin/epsilon
