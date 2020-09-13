@@ -723,3 +723,4 @@ inputattach
 9menu
 jcat
 edlib-aligner
+gostsum
