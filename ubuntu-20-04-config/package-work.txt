@@ -491,3 +491,4 @@ sssd-common
 sed
 squid
 strace
+schroot
