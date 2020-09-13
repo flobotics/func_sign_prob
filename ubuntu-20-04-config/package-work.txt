@@ -379,3 +379,4 @@ quagga-ripd
 xsltproc
 xfsprogs
 xfsdump
+x11-xkb-utils
