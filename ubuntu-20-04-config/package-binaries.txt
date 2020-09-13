@@ -713,3 +713,4 @@
 /usr/sbin/ospfd
 /usr/sbin/ripngd
 /usr/sbin/bgpd
+/usr/sbin/isisd
