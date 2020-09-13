@@ -466,3 +466,4 @@ winbind
 samba-common-bin
 smbclient
 sharutils
+spice-vdagent
