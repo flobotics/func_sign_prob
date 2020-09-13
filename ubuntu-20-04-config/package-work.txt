@@ -484,3 +484,4 @@ speech-dispatcher
 siege
 screen
 shared-mime-info
+sudo
