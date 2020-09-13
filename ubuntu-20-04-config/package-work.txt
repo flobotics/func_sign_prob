@@ -607,3 +607,4 @@ keepalived
 modemmanager
 mtools
 diffutils
+dmraid
