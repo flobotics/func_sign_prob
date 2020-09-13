@@ -634,3 +634,4 @@
 /usr/bin/whoami
 /usr/bin/yes
 /usr/sbin/chroot
+/usr/bin/freshclam

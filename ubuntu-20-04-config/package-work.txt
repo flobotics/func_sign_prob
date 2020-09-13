@@ -352,3 +352,4 @@ cups-filters
 cups-browsed
 cluster-glue
 coreutils
+clamav-freshclam
