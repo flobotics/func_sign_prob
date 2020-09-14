@@ -1104,3 +1104,4 @@ kwordquiz
 plasma-runner-telepathy-contact
 katomic
 kallisto
+kamoso
