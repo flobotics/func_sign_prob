@@ -2231,3 +2231,4 @@
 /usr/bin/ispdb
 /usr/bin/keylaunch
 /usr/bin/kirigami2gallery
+/usr/sbin/knockd
