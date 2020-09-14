@@ -1251,3 +1251,4 @@ kirigami-gallery
 krosspython
 krossruby
 knockd
+kdesvn

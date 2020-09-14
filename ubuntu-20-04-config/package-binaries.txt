@@ -2232,3 +2232,5 @@
 /usr/bin/keylaunch
 /usr/bin/kirigami2gallery
 /usr/sbin/knockd
+/usr/bin/kdesvn
+/usr/bin/kdesvnaskpass
