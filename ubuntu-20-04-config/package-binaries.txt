@@ -2246,3 +2246,4 @@
 /usr/bin/kopete
 /usr/bin/libjingle-call
 /usr/bin/kid3-cli
+/usr/bin/kid3-qt
