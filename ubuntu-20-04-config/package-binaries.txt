@@ -2114,3 +2114,4 @@
 /usr/bin/kanshi
 /usr/bin/ktp-send-file
 /usr/bin/kanagram
+/usr/bin/ktp-contactlist
