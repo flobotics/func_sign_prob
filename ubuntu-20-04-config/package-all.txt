@@ -1300,3 +1300,4 @@ krdc
 kde-spectacle
 kdevelop-python
 kmousetool
+kaccounts-providers
