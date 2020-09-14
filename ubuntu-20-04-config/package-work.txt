@@ -806,3 +806,4 @@ k4dirstat
 kmenuedit
 kcalc
 kore
+kxstitch

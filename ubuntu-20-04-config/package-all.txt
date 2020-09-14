@@ -1084,3 +1084,4 @@ kmenuedit
 kcalc
 kpeople-vcard
 kore
+kxstitch

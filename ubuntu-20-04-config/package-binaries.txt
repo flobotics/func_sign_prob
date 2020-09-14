@@ -2108,3 +2108,4 @@
 /usr/bin/kcalc
 /usr/bin/kodev
 /usr/bin/kore
+/usr/bin/kxstitch
