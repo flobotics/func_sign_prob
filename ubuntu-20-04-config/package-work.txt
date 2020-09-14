@@ -844,3 +844,4 @@ kookbook
 kbibtex
 kmix
 kpackagetool5
+kgb

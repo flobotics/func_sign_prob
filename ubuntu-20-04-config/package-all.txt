@@ -1194,3 +1194,4 @@ kbibtex
 kmix
 r-cran-kernsmooth
 kpackagetool5
+kgb
