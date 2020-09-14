@@ -2109,3 +2109,4 @@
 /usr/bin/kodev
 /usr/bin/kore
 /usr/bin/kxstitch
+/usr/bin/ktp-log-viewer
