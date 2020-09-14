@@ -1061,3 +1061,6 @@ kvirc
 kvirc-modules
 ksshaskpass
 kshutdown
+kollision
+qml-module-org-kde-people
+kdiff3

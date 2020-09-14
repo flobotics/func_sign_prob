@@ -794,3 +794,4 @@ kolourpaint
 kvirc
 ksshaskpass
 kshutdown
+kdiff3
