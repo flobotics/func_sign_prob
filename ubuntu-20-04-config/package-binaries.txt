@@ -2227,3 +2227,5 @@
 /usr/bin/krusader
 /usr/bin/ktikz
 /usr/bin/qtikz
+/usr/bin/accountwizard
+/usr/bin/ispdb

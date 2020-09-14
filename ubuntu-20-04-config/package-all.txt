@@ -1244,3 +1244,4 @@ ksudoku
 krusader
 ktikz
 qtikz
+accountwizard
