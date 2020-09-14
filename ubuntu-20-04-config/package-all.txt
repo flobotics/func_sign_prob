@@ -1287,3 +1287,5 @@ kfloppy
 kbuild
 kuiviewer
 kpartloader
+qml-module-org-kde-quickcharts
+kmplayer

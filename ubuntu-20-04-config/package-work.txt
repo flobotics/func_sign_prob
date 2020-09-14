@@ -899,3 +899,4 @@ kfloppy
 kbuild
 kuiviewer
 kpartloader
+kmplayer

@@ -2307,3 +2307,6 @@
 /usr/bin/kmk_touch
 /usr/bin/kuiviewer
 /usr/bin/kpartloader
+/usr/bin/kmplayer
+/usr/bin/knpplayer
+/usr/bin/kphononplayer
