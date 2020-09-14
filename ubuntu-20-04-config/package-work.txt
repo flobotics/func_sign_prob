@@ -831,3 +831,4 @@ kanjipad
 kontact
 kamailio-berkeley-bin
 kmymoney
+kdoctools5
