@@ -816,3 +816,4 @@ kde-telepathy-contact-list
 kiten
 kalzium
 kmetronome
+krb5-auth-dialog
