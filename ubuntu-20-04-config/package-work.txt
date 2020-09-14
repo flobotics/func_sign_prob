@@ -902,3 +902,4 @@ kpartloader
 kmplayer
 ksh93
 kmerresistance
+kwalletcli
