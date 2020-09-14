@@ -2129,3 +2129,4 @@
 /usr/bin/krenew
 /usr/bin/kbookmarkmerger
 /usr/bin/keditbookmarks
+/usr/bin/kteatime

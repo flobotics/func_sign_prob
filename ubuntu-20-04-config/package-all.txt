@@ -1109,3 +1109,4 @@ kde-config-cron
 kodi-pvr-hts
 kstart
 keditbookmarks
+kteatime
