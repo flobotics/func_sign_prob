@@ -1177,3 +1177,6 @@ kcolorchooser
 kded5
 kodi-pvr-njoy
 knotes
+koules
+kildclient
+kylin-burner

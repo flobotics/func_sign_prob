@@ -835,3 +835,4 @@ kdoctools5
 kcolorchooser
 kded5
 knotes
+kylin-burner
