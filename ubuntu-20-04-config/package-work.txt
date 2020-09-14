@@ -845,3 +845,4 @@ kbibtex
 kmix
 kpackagetool5
 kgb
+kdc2tiff
