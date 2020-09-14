@@ -2226,3 +2226,4 @@
 /usr/bin/kcov-system-daemon
 /usr/bin/krusader
 /usr/bin/ktikz
+/usr/bin/qtikz

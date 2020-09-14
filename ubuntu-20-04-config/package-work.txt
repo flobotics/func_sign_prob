@@ -869,3 +869,4 @@ kcollectd
 kcov
 krusader
 ktikz
+qtikz
