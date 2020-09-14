@@ -2096,3 +2096,4 @@
 /usr/bin/kshutdown
 /usr/bin/kdiff3
 /usr/bin/kcharselect
+/usr/bin/kf5kross
