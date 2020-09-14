@@ -2251,3 +2251,4 @@
 /usr/bin/makedic
 /usr/bin/makeedict
 /usr/bin/kelbt
+/usr/bin/kmouth
