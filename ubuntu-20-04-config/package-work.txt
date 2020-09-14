@@ -847,3 +847,4 @@ kpackagetool5
 kgb
 kdc2tiff
 kile
+kdepim-runtime

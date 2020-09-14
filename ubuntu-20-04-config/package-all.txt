@@ -1201,3 +1201,4 @@ kodi-pvr-argustv
 kubrick
 kdiamond
 kile
+kdepim-runtime
