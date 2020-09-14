@@ -2187,3 +2187,5 @@
 /usr/bin/akonadi_vcard_resource
 /usr/bin/akonadi_vcarddir_resource
 /usr/bin/gidmigrator
+/usr/bin/kdialog
+/usr/bin/kdialog_progress_helper

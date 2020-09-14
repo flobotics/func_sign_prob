@@ -1202,3 +1202,6 @@ kubrick
 kdiamond
 kile
 kdepim-runtime
+kdesdk-thumbnailers
+kiki-the-nano-bot
+kdialog
