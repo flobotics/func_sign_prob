@@ -2141,3 +2141,4 @@
 /usr/bin/kmymoney
 /usr/bin/checkXML5
 /usr/bin/meinproc5
+/usr/bin/kcolorchooser
