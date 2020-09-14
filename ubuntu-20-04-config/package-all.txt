@@ -1297,3 +1297,4 @@ kleopatra
 kismet
 kdevelop-pg-qt
 krdc
+kde-spectacle
