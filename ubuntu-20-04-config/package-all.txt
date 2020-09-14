@@ -1268,3 +1268,4 @@ kid3-cli
 kid3-qt
 kid3-core
 kdrill
+makedic
