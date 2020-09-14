@@ -391,3 +391,4 @@ qml-module-org-kde-quickcharts
 kde-config-whoopsie
 kdevelop-python
 kaccounts-providers
+kshisen
