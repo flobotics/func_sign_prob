@@ -2099,3 +2099,4 @@
 /usr/bin/kf5kross
 /usr/bin/krfb
 /usr/bin/kbackup
+/usr/bin/kbdd

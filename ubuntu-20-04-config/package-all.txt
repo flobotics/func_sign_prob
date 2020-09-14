@@ -1072,3 +1072,5 @@ qml-module-org-kde-kirigami2
 kde-telepathy-filetransfer-handler
 krfb
 kbackup
+komi
+kbdd
