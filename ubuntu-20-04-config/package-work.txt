@@ -793,3 +793,4 @@ kuvert
 kolourpaint
 kvirc
 ksshaskpass
+kshutdown

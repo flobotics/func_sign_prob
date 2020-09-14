@@ -2093,3 +2093,4 @@
 /usr/bin/kolourpaint
 /usr/bin/kvirc
 /usr/bin/ksshaskpass
+/usr/bin/kshutdown
