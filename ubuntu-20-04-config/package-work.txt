@@ -852,3 +852,4 @@ kdialog
 khelpcenter
 kde-cli-tools
 kalgebramobile
+kerneloops-applet
