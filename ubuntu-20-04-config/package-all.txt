@@ -1218,3 +1218,8 @@ klickety
 khangman
 kapman
 kgeography
+plasma-calendar-addons
+plasma-widgets-addons
+plasma-dataengines-addons
+plasma-runners-addons
+kinput2-canna-wnn

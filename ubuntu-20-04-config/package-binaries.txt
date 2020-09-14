@@ -2205,3 +2205,4 @@
 /usr/bin/kerneloops-applet
 /usr/bin/khangman
 /usr/bin/kgeography
+/usr/bin/kinput2-canna-wnn
