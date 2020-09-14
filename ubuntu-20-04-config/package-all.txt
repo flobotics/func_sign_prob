@@ -1256,3 +1256,8 @@ ksquares
 kfourinline
 kcachegrind
 kwin-common
+kwin-wayland-backend-virtual
+kwin-wayland-backend-drm
+kwin-wayland-backend-fbdev
+kwin-wayland-backend-x11
+kwin-x11

@@ -877,3 +877,4 @@ knockd
 kdesvn
 kcachegrind
 kwin-common
+kwin-x11
