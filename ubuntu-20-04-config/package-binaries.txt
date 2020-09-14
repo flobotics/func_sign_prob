@@ -2243,3 +2243,5 @@
 /usr/bin/kdeconnect-indicator
 /usr/bin/kdeconnect-settings
 /usr/bin/kdeconnect-sms
+/usr/bin/kopete
+/usr/bin/libjingle-call

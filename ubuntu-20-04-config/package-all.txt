@@ -1263,3 +1263,4 @@ kwin-wayland-backend-x11
 kwin-x11
 kwin-wayland-backend-wayland
 kdeconnect
+kopete

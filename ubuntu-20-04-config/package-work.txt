@@ -879,3 +879,4 @@ kcachegrind
 kwin-common
 kwin-x11
 kdeconnect
+kopete
