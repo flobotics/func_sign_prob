@@ -2275,3 +2275,4 @@
 /usr/bin/kmscube
 /usr/bin/kup-daemon
 /usr/bin/kup-filedigger
+/usr/bin/kmplot
