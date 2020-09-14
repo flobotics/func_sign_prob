@@ -909,3 +909,4 @@ kdevelop-pg-qt
 krdc
 kde-spectacle
 kmousetool
+kmflcomp

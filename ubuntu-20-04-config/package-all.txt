@@ -1301,3 +1301,5 @@ kde-spectacle
 kdevelop-python
 kmousetool
 kaccounts-providers
+kmflcomp
+kylin-video
