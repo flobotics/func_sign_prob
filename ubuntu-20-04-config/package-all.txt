@@ -1305,3 +1305,4 @@ kmflcomp
 kylin-video
 kshisen
 keytouch-editor
+k3b

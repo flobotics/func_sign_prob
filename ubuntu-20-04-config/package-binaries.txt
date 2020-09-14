@@ -2328,3 +2328,4 @@
 /usr/bin/kmflcomp
 /usr/bin/kylin-video
 /usr/sbin/keytouch-editor
+/usr/bin/k3b
