@@ -2091,3 +2091,4 @@
 /usr/bin/TexturePacker
 /usr/bin/kuvert_submit
 /usr/bin/kolourpaint
+/usr/bin/kvirc

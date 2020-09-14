@@ -264,3 +264,4 @@ kblocks
 kodi-x11
 kodi-gbm
 kodi-wayland
+kolf
