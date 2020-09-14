@@ -1296,3 +1296,4 @@ kwalletcli
 kleopatra
 kismet
 kdevelop-pg-qt
+krdc
