@@ -1216,3 +1216,5 @@ kalgebramobile
 kerneloops-applet
 klickety
 khangman
+kapman
+kgeography
