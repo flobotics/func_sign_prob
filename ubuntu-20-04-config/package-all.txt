@@ -1229,3 +1229,7 @@ kde-telepathy-integration-module
 kde-telepathy-desktop-applets
 kobodeluxe
 knews
+kgamma5
+kodi-pvr-hdhomerun
+konclude
+kraft

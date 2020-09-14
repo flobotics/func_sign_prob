@@ -859,3 +859,5 @@ kinput2-canna-wnn
 kinput2-wnn
 keepassx
 knews
+konclude
+kraft
