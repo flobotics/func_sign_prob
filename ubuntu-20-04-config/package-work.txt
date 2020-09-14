@@ -826,3 +826,4 @@ kteatime
 keynav
 kpackagelauncherqml
 kalign
+kphotoalbum

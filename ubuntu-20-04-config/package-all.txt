@@ -1121,3 +1121,8 @@ qml-module-org-kde-kcoreaddons
 qml-module-org-kde-kconfig
 qml-module-org-kde-kquickcontrolsaddons
 kalign
+kdenetwork-filesharing
+kodi-visualization-spectrum
+killbots
+kio-gopher
+kphotoalbum
