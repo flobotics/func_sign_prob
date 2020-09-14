@@ -1126,3 +1126,4 @@ kodi-visualization-spectrum
 killbots
 kio-gopher
 kphotoalbum
+kanjipad

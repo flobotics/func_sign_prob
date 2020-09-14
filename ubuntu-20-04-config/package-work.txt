@@ -827,3 +827,4 @@ keynav
 kpackagelauncherqml
 kalign
 kphotoalbum
+kanjipad

@@ -2134,3 +2134,5 @@
 /usr/bin/kpackagelauncherqml
 /usr/bin/kalign
 /usr/bin/kphotoalbum
+/usr/bin/kanjipad
+/usr/bin/kpengine
