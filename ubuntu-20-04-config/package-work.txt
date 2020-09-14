@@ -824,3 +824,4 @@ kstart
 keditbookmarks
 kteatime
 keynav
+kpackagelauncherqml

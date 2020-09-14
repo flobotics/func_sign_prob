@@ -1111,3 +1111,9 @@ kstart
 keditbookmarks
 kteatime
 keynav
+ksirk
+qml-module-org-kde-draganddrop
+qml-module-org-kde-kwindowsystem
+qml-module-org-kde-kcm
+qml-module-org-kde-kio
+kpackagelauncherqml
