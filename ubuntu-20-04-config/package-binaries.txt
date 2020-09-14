@@ -2320,3 +2320,4 @@
 /usr/bin/kismet_client
 /usr/bin/kismet_drone
 /usr/bin/kismet_server
+/usr/bin/kdev-pg-qt
