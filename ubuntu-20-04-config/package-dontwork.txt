@@ -371,3 +371,4 @@ kde-telepathy-desktop-applets
 kobodeluxe
 kgamma5
 kodi-pvr-hdhomerun
+knights

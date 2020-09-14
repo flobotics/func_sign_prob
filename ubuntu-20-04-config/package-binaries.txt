@@ -2215,3 +2215,4 @@
 /usr/bin/findcontact
 /usr/bin/kraft
 /usr/bin/heimdal-strength
+/usr/bin/kfind
