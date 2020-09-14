@@ -1252,3 +1252,6 @@ krosspython
 krossruby
 knockd
 kdesvn
+ksquares
+kfourinline
+kcachegrind

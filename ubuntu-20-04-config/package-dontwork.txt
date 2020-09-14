@@ -376,3 +376,5 @@ ksudoku
 kgoldrunner
 krosspython
 krossruby
+ksquares
+kfourinline
