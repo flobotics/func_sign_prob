@@ -2112,3 +2112,4 @@
 /usr/bin/ktp-log-viewer
 /usr/bin/kino
 /usr/bin/kanshi
+/usr/bin/ktp-send-file
