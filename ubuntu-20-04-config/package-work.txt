@@ -811,3 +811,4 @@ kde-telepathy-text-ui
 kino
 kanshi
 kde-telepathy-send-file
+kanagram
