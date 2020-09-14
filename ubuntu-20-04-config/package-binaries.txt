@@ -2106,3 +2106,5 @@
 /usr/bin/kmenuedit
 /usr/lib/x86_64-linux-gnu/kconf_update_bin/kmenuedit_globalaccel
 /usr/bin/kcalc
+/usr/bin/kodev
+/usr/bin/kore

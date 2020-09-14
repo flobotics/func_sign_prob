@@ -805,3 +805,4 @@ kvmtool
 k4dirstat
 kmenuedit
 kcalc
+kore
