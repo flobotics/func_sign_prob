@@ -1180,3 +1180,7 @@ knotes
 koules
 kildclient
 kylin-burner
+nautilus-extension-burner
+burner-cdrkit
+kbreakout
+kactivities-bin
