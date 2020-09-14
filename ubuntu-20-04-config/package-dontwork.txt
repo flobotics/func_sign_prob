@@ -346,3 +346,4 @@ kildclient
 nautilus-extension-burner
 burner-cdrkit
 kbreakout
+qml-module-org-kde-activities

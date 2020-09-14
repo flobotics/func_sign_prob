@@ -2147,3 +2147,4 @@
 /usr/bin/knotes
 /usr/bin/burner
 /usr/bin/kactivities-cli
+/usr/bin/klettres

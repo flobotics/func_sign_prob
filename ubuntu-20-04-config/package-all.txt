@@ -1184,3 +1184,5 @@ nautilus-extension-burner
 burner-cdrkit
 kbreakout
 kactivities-bin
+qml-module-org-kde-activities
+klettres
