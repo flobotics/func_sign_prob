@@ -2331,3 +2331,5 @@
 /usr/bin/k3b
 /usr/bin/krita
 /usr/bin/kritarunner
+/usr/sbin/kresc
+/usr/sbin/kresd
