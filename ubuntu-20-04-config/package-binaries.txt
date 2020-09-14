@@ -2092,3 +2092,4 @@
 /usr/bin/kuvert_submit
 /usr/bin/kolourpaint
 /usr/bin/kvirc
+/usr/bin/ksshaskpass
