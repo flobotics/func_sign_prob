@@ -280,3 +280,4 @@ kpeople-vcard
 kodi-pvr-mediaportal-tvserver
 kwayland-integration
 kiriki
+kodi-pvr-vuplus

@@ -815,3 +815,4 @@ kanagram
 kde-telepathy-contact-list
 kiten
 kalzium
+kmetronome

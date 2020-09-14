@@ -2120,3 +2120,4 @@
 /usr/bin/kitenkanjibrowser
 /usr/bin/kitenradselect
 /usr/bin/kalzium
+/usr/bin/kmetronome
