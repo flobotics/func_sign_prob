@@ -2235,3 +2235,4 @@
 /usr/bin/kdesvn
 /usr/bin/kdesvnaskpass
 /usr/bin/kcachegrind
+/usr/lib/x86_64-linux-gnu/kconf_update_bin/kwin5_update_default_rules

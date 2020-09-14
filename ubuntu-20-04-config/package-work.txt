@@ -876,3 +876,4 @@ kirigami-gallery
 knockd
 kdesvn
 kcachegrind
+kwin-common

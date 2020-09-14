@@ -1255,3 +1255,4 @@ kdesvn
 ksquares
 kfourinline
 kcachegrind
+kwin-common
