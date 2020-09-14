@@ -2250,3 +2250,4 @@
 /usr/bin/kdrill
 /usr/bin/makedic
 /usr/bin/makeedict
+/usr/bin/kelbt
