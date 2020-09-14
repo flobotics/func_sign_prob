@@ -861,3 +861,4 @@ keepassx
 knews
 konclude
 kraft
+krb5-strength
