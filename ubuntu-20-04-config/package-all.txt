@@ -1247,3 +1247,4 @@ qtikz
 accountwizard
 kgoldrunner
 keylaunch
+kirigami-gallery

@@ -872,3 +872,4 @@ ktikz
 qtikz
 accountwizard
 keylaunch
+kirigami-gallery

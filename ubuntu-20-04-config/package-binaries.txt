@@ -2230,3 +2230,4 @@
 /usr/bin/accountwizard
 /usr/bin/ispdb
 /usr/bin/keylaunch
+/usr/bin/kirigami2gallery
