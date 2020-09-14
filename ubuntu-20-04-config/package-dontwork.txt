@@ -282,3 +282,5 @@ kwayland-integration
 kiriki
 kodi-pvr-vuplus
 ketm
+plasma-runner-telepathy-contact
+katomic

@@ -1101,3 +1101,6 @@ kmetronome
 ketm
 krb5-auth-dialog
 kwordquiz
+plasma-runner-telepathy-contact
+katomic
+kallisto
