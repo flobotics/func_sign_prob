@@ -2125,3 +2125,5 @@
 /usr/bin/kwordquiz
 /usr/bin/kallisto
 /usr/bin/kamoso
+/usr/bin/k5start
+/usr/bin/krenew
