@@ -795,3 +795,4 @@ kvirc
 ksshaskpass
 kshutdown
 kdiff3
+kcharselect
