@@ -1087,3 +1087,4 @@ kore
 kxstitch
 kde-telepathy-text-ui
 kino
+kanshi
