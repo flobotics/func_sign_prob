@@ -2224,3 +2224,4 @@
 /usr/bin/kcollectd
 /usr/bin/kcov
 /usr/bin/kcov-system-daemon
+/usr/bin/krusader

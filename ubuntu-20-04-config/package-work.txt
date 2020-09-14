@@ -867,3 +867,4 @@ keurocalc
 ktorrent
 kcollectd
 kcov
+krusader
