@@ -868,3 +868,4 @@ ktorrent
 kcollectd
 kcov
 krusader
+ktikz
