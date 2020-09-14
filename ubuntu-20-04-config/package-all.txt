@@ -1190,3 +1190,4 @@ kraptor
 krename
 kinfocenter
 kookbook
+kbibtex
