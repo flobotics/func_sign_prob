@@ -1186,3 +1186,5 @@ kbreakout
 kactivities-bin
 qml-module-org-kde-activities
 klettres
+kraptor
+krename
