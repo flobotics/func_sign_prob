@@ -823,3 +823,4 @@ kamoso
 kstart
 keditbookmarks
 kteatime
+keynav
