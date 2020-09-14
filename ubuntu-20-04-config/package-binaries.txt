@@ -2137,3 +2137,4 @@
 /usr/bin/kanjipad
 /usr/bin/kpengine
 /usr/bin/kontact
+/usr/sbin/kambdb_recover
