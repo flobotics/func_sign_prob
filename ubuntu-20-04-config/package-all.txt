@@ -1279,3 +1279,4 @@ kpatch-build
 kicad
 kde-config-telepathy-accounts
 kruler
+kannel-sqlbox

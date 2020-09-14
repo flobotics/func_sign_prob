@@ -2271,3 +2271,4 @@
 /usr/bin/pcbnew
 /usr/bin/pl_editor
 /usr/bin/kruler
+/usr/sbin/sqlbox

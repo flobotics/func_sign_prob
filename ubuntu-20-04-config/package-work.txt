@@ -891,3 +891,4 @@ kapptemplate
 keepassxc
 kicad
 kruler
+kannel-sqlbox
