@@ -2273,3 +2273,5 @@
 /usr/bin/kruler
 /usr/sbin/sqlbox
 /usr/bin/kmscube
+/usr/bin/kup-daemon
+/usr/bin/kup-filedigger

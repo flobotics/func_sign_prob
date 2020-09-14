@@ -1281,3 +1281,4 @@ kde-config-telepathy-accounts
 kruler
 kannel-sqlbox
 kmscube
+kup-backup
