@@ -2306,3 +2306,4 @@
 /usr/bin/kmk_time
 /usr/bin/kmk_touch
 /usr/bin/kuiviewer
+/usr/bin/kpartloader

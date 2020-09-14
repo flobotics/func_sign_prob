@@ -898,3 +898,4 @@ kmplot
 kfloppy
 kbuild
 kuiviewer
+kpartloader
