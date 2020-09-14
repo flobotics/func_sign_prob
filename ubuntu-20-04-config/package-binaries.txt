@@ -2189,3 +2189,4 @@
 /usr/bin/gidmigrator
 /usr/bin/kdialog
 /usr/bin/kdialog_progress_helper
+/usr/bin/khelpcenter

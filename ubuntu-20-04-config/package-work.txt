@@ -849,3 +849,4 @@ kdc2tiff
 kile
 kdepim-runtime
 kdialog
+khelpcenter
