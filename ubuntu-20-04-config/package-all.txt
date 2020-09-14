@@ -1298,3 +1298,5 @@ kismet
 kdevelop-pg-qt
 krdc
 kde-spectacle
+kdevelop-python
+kmousetool
