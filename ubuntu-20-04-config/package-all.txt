@@ -1189,3 +1189,4 @@ klettres
 kraptor
 krename
 kinfocenter
+kookbook
