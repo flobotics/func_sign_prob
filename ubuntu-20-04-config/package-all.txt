@@ -1175,3 +1175,5 @@ ksnakeduel
 konsole-kpart
 kcolorchooser
 kded5
+kodi-pvr-njoy
+knotes

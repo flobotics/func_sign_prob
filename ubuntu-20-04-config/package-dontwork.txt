@@ -340,3 +340,4 @@ qml-module-org-kde-kholidays
 kodi-pvr-iptvsimple
 ksnakeduel
 konsole-kpart
+kodi-pvr-njoy
