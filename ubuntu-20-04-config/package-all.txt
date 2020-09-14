@@ -1211,3 +1211,4 @@ kodi-pvr-nextpvr
 qml-module-org-kde-newstuff
 kubuntu-driver-manager
 khelpcenter
+kde-cli-tools

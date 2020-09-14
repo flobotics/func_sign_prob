@@ -850,3 +850,4 @@ kile
 kdepim-runtime
 kdialog
 khelpcenter
+kde-cli-tools
