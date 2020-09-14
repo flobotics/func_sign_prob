@@ -2101,3 +2101,4 @@
 /usr/bin/kbackup
 /usr/bin/kbdd
 /usr/bin/konversation
+/usr/bin/lkvm

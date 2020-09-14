@@ -1075,3 +1075,5 @@ kbackup
 komi
 kbdd
 konversation
+kde-telepathy-approver
+kvmtool
