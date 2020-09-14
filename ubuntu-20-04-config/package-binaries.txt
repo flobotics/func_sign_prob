@@ -2253,3 +2253,4 @@
 /usr/bin/kelbt
 /usr/bin/kmouth
 /usr/bin/kbd-layout-viewer
+/usr/bin/kapptemplate
