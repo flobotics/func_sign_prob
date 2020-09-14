@@ -1291,3 +1291,4 @@ qml-module-org-kde-quickcharts
 kmplayer
 kde-config-whoopsie
 ksh93
+kmerresistance
