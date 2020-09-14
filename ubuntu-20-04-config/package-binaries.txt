@@ -2221,3 +2221,4 @@
 /usr/bin/ktmagnetdownloader
 /usr/bin/ktorrent
 /usr/bin/ktupnptest
+/usr/bin/kcollectd
