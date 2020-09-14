@@ -1274,3 +1274,8 @@ kmouth
 kde-config-fcitx
 kodi-pvr-wmc
 kapptemplate
+keepassxc
+kpatch-build
+kicad
+kde-config-telepathy-accounts
+kruler
