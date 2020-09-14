@@ -392,3 +392,4 @@ kde-config-whoopsie
 kdevelop-python
 kaccounts-providers
 kshisen
+qml-module-org-kde-kitemmodels

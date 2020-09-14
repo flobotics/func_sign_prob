@@ -2329,3 +2329,5 @@
 /usr/bin/kylin-video
 /usr/sbin/keytouch-editor
 /usr/bin/k3b
+/usr/bin/krita
+/usr/bin/kritarunner
