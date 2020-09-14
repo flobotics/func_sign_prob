@@ -1080,3 +1080,4 @@ kvmtool
 kio-perldoc
 klayout
 k4dirstat
+kmenuedit

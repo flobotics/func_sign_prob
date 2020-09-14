@@ -803,3 +803,4 @@ kbdd
 konversation
 kvmtool
 k4dirstat
+kmenuedit
