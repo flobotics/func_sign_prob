@@ -2272,3 +2272,4 @@
 /usr/bin/pl_editor
 /usr/bin/kruler
 /usr/sbin/sqlbox
+/usr/bin/kmscube
