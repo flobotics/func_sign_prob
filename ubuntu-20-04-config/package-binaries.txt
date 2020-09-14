@@ -2136,3 +2136,4 @@
 /usr/bin/kphotoalbum
 /usr/bin/kanjipad
 /usr/bin/kpengine
+/usr/bin/kontact
