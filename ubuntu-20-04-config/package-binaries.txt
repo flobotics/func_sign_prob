@@ -2159,3 +2159,4 @@
 /usr/bin/kgb
 /usr/bin/kdc2jpeg
 /usr/bin/kdc2tiff
+/usr/bin/kile

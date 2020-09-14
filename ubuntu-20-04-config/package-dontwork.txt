@@ -349,3 +349,7 @@ kbreakout
 qml-module-org-kde-activities
 kraptor
 r-cran-kernsmooth
+khotkeys
+kodi-pvr-argustv
+kubrick
+kdiamond
