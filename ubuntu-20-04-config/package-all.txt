@@ -1245,3 +1245,5 @@ krusader
 ktikz
 qtikz
 accountwizard
+kgoldrunner
+keylaunch

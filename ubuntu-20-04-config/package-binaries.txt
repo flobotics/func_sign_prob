@@ -2229,3 +2229,4 @@
 /usr/bin/qtikz
 /usr/bin/accountwizard
 /usr/bin/ispdb
+/usr/bin/keylaunch
