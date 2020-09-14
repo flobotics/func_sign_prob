@@ -1071,3 +1071,4 @@ kde-config-mailtransport
 qml-module-org-kde-kirigami2
 kde-telepathy-filetransfer-handler
 krfb
+kbackup
