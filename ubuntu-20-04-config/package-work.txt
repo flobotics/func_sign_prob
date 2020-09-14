@@ -808,3 +808,4 @@ kcalc
 kore
 kxstitch
 kde-telepathy-text-ui
+kino

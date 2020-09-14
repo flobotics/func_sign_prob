@@ -2110,3 +2110,4 @@
 /usr/bin/kore
 /usr/bin/kxstitch
 /usr/bin/ktp-log-viewer
+/usr/bin/kino
