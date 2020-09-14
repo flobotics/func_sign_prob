@@ -348,3 +348,4 @@ burner-cdrkit
 kbreakout
 qml-module-org-kde-activities
 kraptor
+r-cran-kernsmooth

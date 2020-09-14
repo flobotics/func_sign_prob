@@ -2155,3 +2155,4 @@
 /usr/bin/kbibtex
 /usr/bin/kmix
 /usr/bin/kmixctrl
+/usr/bin/kpackagetool5

@@ -1192,3 +1192,5 @@ kinfocenter
 kookbook
 kbibtex
 kmix
+r-cran-kernsmooth
+kpackagetool5
