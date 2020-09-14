@@ -2142,3 +2142,4 @@
 /usr/bin/checkXML5
 /usr/bin/meinproc5
 /usr/bin/kcolorchooser
+/usr/bin/kded5
