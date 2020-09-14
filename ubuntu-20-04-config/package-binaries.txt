@@ -2333,3 +2333,4 @@
 /usr/bin/kritarunner
 /usr/sbin/kresc
 /usr/sbin/kresd
+/usr/sbin/kylin-greeter

@@ -1309,3 +1309,4 @@ k3b
 qml-module-org-kde-kitemmodels
 krita
 knot-resolver
+kylin-greeter
