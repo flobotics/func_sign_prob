@@ -830,3 +830,4 @@ kphotoalbum
 kanjipad
 kontact
 kamailio-berkeley-bin
+kmymoney

@@ -1160,3 +1160,13 @@ kamailio-geoip-modules
 kamailio-xmpp-modules
 kamailio-lua-modules
 kamailio-berkeley-bin
+kamailio-cnxcc-modules
+kamailio-ldap-modules
+kamailio-extra-modules
+kamailio-mongodb-modules
+kamailio-python3-modules
+kamailio-berkeley-modules
+kamailio-presence-modules
+qml-module-org-kde-kholidays
+kodi-pvr-iptvsimple
+kmymoney
