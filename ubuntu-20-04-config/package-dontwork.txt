@@ -388,3 +388,4 @@ kodi-pvr-wmc
 kpatch-build
 kde-config-telepathy-accounts
 qml-module-org-kde-quickcharts
+kde-config-whoopsie

@@ -2310,3 +2310,5 @@
 /usr/bin/kmplayer
 /usr/bin/knpplayer
 /usr/bin/kphononplayer
+/bin/ksh93
+/usr/bin/shcomp93
