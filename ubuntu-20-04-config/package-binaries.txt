@@ -2595,3 +2595,4 @@
 /usr/bin/i386-pc-msdosdjgpp-strip
 /usr/bin/boincmgr
 /usr/bin/boincscr
+/usr/bin/boinccmd
