@@ -984,3 +984,4 @@ baycomepp
 byacc-j
 booth
 bosh
+batmand
