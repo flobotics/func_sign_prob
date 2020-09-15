@@ -2675,3 +2675,5 @@
 /usr/sbin/bwctld
 /usr/bin/bwctl
 /usr/bin/bibcursed
+/usr/bin/bladeRF-cli
+/usr/bin/bladeRF-fsk
