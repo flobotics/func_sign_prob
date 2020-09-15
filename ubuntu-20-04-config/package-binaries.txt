@@ -2682,3 +2682,4 @@
 /usr/bin/btcli
 /usr/bin/btinfo
 /usr/bin/btpd
+/usr/bin/basez

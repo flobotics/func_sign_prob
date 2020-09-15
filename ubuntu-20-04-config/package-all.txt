@@ -1526,3 +1526,5 @@ bladerf
 bibclean
 boolector
 btpd
+brutefir
+basez

@@ -483,3 +483,4 @@ bindfs
 python3-brotli
 boxshade
 postgresql-12-bgw-replstatus
+brutefir

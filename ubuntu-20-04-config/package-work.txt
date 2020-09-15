@@ -1042,3 +1042,4 @@ bladerf
 bibclean
 boolector
 btpd
+basez
