@@ -2570,3 +2570,5 @@
 /usr/bin/blender
 /usr/bin/bart
 /usr/bin/boinctui
+/usr/bin/bluedevil-sendfile
+/usr/bin/bluedevil-wizard

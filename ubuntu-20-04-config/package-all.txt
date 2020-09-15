@@ -1472,3 +1472,4 @@ blockout2
 bygfoot
 binkd
 boinctui
+bluedevil

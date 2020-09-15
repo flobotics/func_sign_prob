@@ -1000,3 +1000,4 @@ bolt-lmm
 blender
 bart
 boinctui
+bluedevil
