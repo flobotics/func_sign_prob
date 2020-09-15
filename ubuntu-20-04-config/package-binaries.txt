@@ -2473,3 +2473,4 @@
 /usr/msp430/bin/strip
 /usr/bin/baresip
 /usr/bin/birthday
+/usr/bin/brandy
