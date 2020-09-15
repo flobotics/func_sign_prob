@@ -2683,3 +2683,4 @@
 /usr/bin/btinfo
 /usr/bin/btpd
 /usr/bin/basez
+/usr/bin/bdfresize

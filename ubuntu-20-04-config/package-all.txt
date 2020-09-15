@@ -1528,3 +1528,5 @@ boolector
 btpd
 brutefir
 basez
+blepvco
+bdfresize
