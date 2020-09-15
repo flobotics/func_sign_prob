@@ -1325,3 +1325,5 @@ kigo
 qml-module-org-kde-charts
 khmer
 kturtle
+kwalletmanager
+ktouch

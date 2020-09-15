@@ -402,3 +402,4 @@ kde-telepathy-kaccounts
 qml-module-org-kde-telepathy
 kigo
 qml-module-org-kde-charts
+khmer
