@@ -1513,3 +1513,5 @@ brightnessctl
 blahtexml
 balsa
 binfmt-support
+boxshade
+bomstrip

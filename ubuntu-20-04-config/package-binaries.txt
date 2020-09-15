@@ -2665,3 +2665,4 @@
 /usr/bin/balsa
 /usr/bin/balsa-ab
 /usr/lib/binfmt-support/run-detectors
+/usr/bin/bomstrip
