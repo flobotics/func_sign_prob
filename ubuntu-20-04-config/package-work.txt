@@ -986,3 +986,4 @@ booth
 bosh
 batmand
 bwm-ng
+boxbackup-client
