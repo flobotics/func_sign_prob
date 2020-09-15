@@ -2334,3 +2334,4 @@
 /usr/sbin/kresc
 /usr/sbin/kresd
 /usr/sbin/kylin-greeter
+/usr/bin/klog
