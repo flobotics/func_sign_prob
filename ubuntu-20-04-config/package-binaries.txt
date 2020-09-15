@@ -2361,3 +2361,5 @@
 /usr/lib/debian-med/bin/express
 /usr/bin/birdtray
 /usr/bin/bibshelf
+/usr/bin/Bandage
+/usr/sbin/huntd
