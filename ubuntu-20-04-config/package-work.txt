@@ -955,3 +955,4 @@ bwa
 budgie-extras-daemon
 buici-clock
 bibtexconv
+buffer

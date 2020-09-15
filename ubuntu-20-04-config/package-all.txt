@@ -1406,3 +1406,4 @@ beignet-dev
 beignet-opencl-icd
 brainparty
 bibtexconv
+buffer
