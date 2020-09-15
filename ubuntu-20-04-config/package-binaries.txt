@@ -2672,3 +2672,4 @@
 /usr/sbin/bootpgw
 /usr/sbin/bootptest
 /usr/bin/bcalm
+/usr/sbin/bwctld
