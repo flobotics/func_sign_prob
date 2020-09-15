@@ -1512,3 +1512,4 @@ python3-brotli
 brightnessctl
 blahtexml
 balsa
+binfmt-support

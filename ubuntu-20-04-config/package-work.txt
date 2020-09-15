@@ -1030,3 +1030,4 @@ brotli
 brightnessctl
 blahtexml
 balsa
+binfmt-support

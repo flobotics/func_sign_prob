@@ -2664,3 +2664,4 @@
 /usr/bin/blahtexml
 /usr/bin/balsa
 /usr/bin/balsa-ab
+/usr/lib/binfmt-support/run-detectors
