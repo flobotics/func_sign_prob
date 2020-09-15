@@ -2625,3 +2625,6 @@
 /usr/bin/basic256
 /usr/bin/optirun
 /usr/sbin/bumblebeed
+/usr/sbin/bird
+/usr/sbin/birdc
+/usr/sbin/birdcl
