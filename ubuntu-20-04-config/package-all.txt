@@ -1416,3 +1416,4 @@ bluez-tools
 bambootracker
 barrage
 beads
+bidiv

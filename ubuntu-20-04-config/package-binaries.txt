@@ -2413,3 +2413,4 @@
 /usr/bin/BambooTracker
 /usr/bin/beads
 /usr/bin/qtbeads
+/usr/bin/bidiv
