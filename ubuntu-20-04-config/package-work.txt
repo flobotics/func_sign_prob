@@ -918,3 +918,4 @@ knot-resolver
 kylin-greeter
 klog
 kbruch
+kde-telepathy-debugger
