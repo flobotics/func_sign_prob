@@ -1449,3 +1449,4 @@ baycomepp
 byacc-j
 mate-applet-brisk-menu
 booth
+bosh

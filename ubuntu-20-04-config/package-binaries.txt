@@ -2485,3 +2485,4 @@
 /usr/sbin/eppfpga
 /usr/bin/byaccj
 /usr/sbin/boothd
+/usr/bin/bosh
