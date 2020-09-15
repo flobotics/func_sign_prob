@@ -979,3 +979,4 @@ finger
 fingerd
 biff
 barnowl
+bedtools

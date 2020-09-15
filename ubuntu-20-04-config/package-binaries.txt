@@ -2480,3 +2480,4 @@
 /usr/sbin/in.comsat
 /usr/bin/barnowl
 /usr/bin/zcrypt
+/usr/bin/bedtools
