@@ -1505,3 +1505,5 @@ bristol
 bluemon
 binutils-m68hc1x
 beanstalkd
+belenios-tool
+blkreplay

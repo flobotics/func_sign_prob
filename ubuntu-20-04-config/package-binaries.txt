@@ -2657,3 +2657,5 @@
 /usr/bin/m68hc11-strings
 /usr/bin/m68hc11-strip
 /usr/bin/beanstalkd
+/usr/bin/belenios-tool
+/usr/bin/blkreplay
