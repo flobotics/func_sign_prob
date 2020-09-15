@@ -464,3 +464,4 @@ baresip-x11
 baresip-ffmpeg
 baresip-gstreamer
 berusky
+mate-applet-brisk-menu

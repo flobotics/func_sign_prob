@@ -2484,3 +2484,4 @@
 /usr/sbin/baycomepp
 /usr/sbin/eppfpga
 /usr/bin/byaccj
+/usr/sbin/boothd

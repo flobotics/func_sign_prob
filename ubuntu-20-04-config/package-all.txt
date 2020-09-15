@@ -1447,3 +1447,5 @@ bedtools
 berusky
 baycomepp
 byacc-j
+mate-applet-brisk-menu
+booth
