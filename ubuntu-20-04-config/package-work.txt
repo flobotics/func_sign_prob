@@ -917,3 +917,4 @@ krita
 knot-resolver
 kylin-greeter
 klog
+kbruch
