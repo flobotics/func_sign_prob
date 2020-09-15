@@ -1504,3 +1504,4 @@ bindfs
 bristol
 bluemon
 binutils-m68hc1x
+beanstalkd

@@ -2656,3 +2656,4 @@
 /usr/bin/m68hc11-size
 /usr/bin/m68hc11-strings
 /usr/bin/m68hc11-strip
+/usr/bin/beanstalkd

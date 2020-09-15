@@ -1023,3 +1023,4 @@ bgpq3
 bristol
 bluemon
 binutils-m68hc1x
+beanstalkd
