@@ -1488,3 +1488,5 @@ boinc-screensaver
 boinc-client
 bpm-tools
 bfbtester
+bindechexascii
+btscanner

@@ -2598,3 +2598,4 @@
 /usr/bin/boinccmd
 /usr/bin/bpm
 /usr/bin/bfbtester
+/usr/bin/btscanner

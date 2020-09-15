@@ -476,3 +476,4 @@ burgerspace
 biniax2
 bzflag-server
 bzflag-client
+bindechexascii

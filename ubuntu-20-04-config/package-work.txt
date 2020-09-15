@@ -1011,3 +1011,4 @@ boinc-screensaver
 boinc-client
 bpm-tools
 bfbtester
+btscanner
