@@ -2642,3 +2642,17 @@
 /usr/bin/bluemon-client
 /usr/bin/bluemon-query
 /usr/sbin/bluemon
+/usr/bin/m68hc11-addr2line
+/usr/bin/m68hc11-ar
+/usr/bin/m68hc11-as
+/usr/bin/m68hc11-c++filt
+/usr/bin/m68hc11-gprof
+/usr/bin/m68hc11-ld
+/usr/bin/m68hc11-nm
+/usr/bin/m68hc11-objcopy
+/usr/bin/m68hc11-objdump
+/usr/bin/m68hc11-ranlib
+/usr/bin/m68hc11-readelf
+/usr/bin/m68hc11-size
+/usr/bin/m68hc11-strings
+/usr/bin/m68hc11-strip
