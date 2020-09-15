@@ -1524,3 +1524,5 @@ bibcursed
 postgresql-12-bgw-replstatus
 bladerf
 bibclean
+boolector
+btpd

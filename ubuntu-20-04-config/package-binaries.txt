@@ -2678,3 +2678,7 @@
 /usr/bin/bladeRF-cli
 /usr/bin/bladeRF-fsk
 /usr/bin/bibclean
+/usr/bin/boolector
+/usr/bin/btcli
+/usr/bin/btinfo
+/usr/bin/btpd
