@@ -403,3 +403,5 @@ qml-module-org-kde-telepathy
 kigo
 qml-module-org-kde-charts
 khmer
+kio-extras
+kdegraphics-thumbnailers

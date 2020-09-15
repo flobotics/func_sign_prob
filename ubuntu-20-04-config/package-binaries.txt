@@ -2341,3 +2341,4 @@
 /usr/bin/kturtle
 /usr/bin/ktouch
 /usr/bin/kwalletmanager5
+/usr/bin/kstars
