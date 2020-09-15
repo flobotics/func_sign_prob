@@ -991,3 +991,4 @@ boxbackup-server
 biobambam2
 beep
 barcode
+bitmeter
