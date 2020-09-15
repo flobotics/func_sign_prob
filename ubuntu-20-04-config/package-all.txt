@@ -1523,3 +1523,4 @@ bwctl-client
 bibcursed
 postgresql-12-bgw-replstatus
 bladerf
+bibclean
