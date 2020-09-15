@@ -931,3 +931,4 @@ ksysguardd
 kjots
 katarakt
 klavaro
+klustakwik

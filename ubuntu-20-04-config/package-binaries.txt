@@ -2349,3 +2349,4 @@
 /usr/bin/kjots
 /usr/bin/katarakt
 /usr/bin/klavaro
+/usr/bin/KlustaKwik

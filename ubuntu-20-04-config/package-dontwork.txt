@@ -417,3 +417,4 @@ kio-ldap
 kexi-mysql-driver
 kannel-extras
 kactivitymanagerd
+knetwalk
