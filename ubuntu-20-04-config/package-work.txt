@@ -929,3 +929,4 @@ kasumi
 kchmviewer
 ksysguardd
 kjots
+katarakt

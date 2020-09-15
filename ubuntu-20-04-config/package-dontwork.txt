@@ -415,3 +415,5 @@ kexi-postgresql-driver
 kexi-web-form-widget
 kio-ldap
 kexi-mysql-driver
+kannel-extras
+kactivitymanagerd
