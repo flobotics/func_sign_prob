@@ -2628,3 +2628,4 @@
 /usr/sbin/bird
 /usr/sbin/birdc
 /usr/sbin/birdcl
+/usr/bin/betaradio

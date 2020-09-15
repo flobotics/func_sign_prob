@@ -1017,3 +1017,4 @@ bcron
 basic256
 bumblebee
 bird2
+betaradio
