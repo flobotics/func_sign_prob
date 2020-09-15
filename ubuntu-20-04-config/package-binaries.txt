@@ -2360,3 +2360,4 @@
 /usr/bin/bspwm
 /usr/lib/debian-med/bin/express
 /usr/bin/birdtray
+/usr/bin/bibshelf

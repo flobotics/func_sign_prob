@@ -941,3 +941,4 @@ bdbvu
 bspwm
 berkeley-express
 birdtray
+bibshelf
