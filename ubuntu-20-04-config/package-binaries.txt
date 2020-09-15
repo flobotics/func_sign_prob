@@ -2567,3 +2567,5 @@
 /usr/bin/renum
 /usr/bin/brewtarget
 /usr/bin/braa
+/usr/bin/blender
+/usr/bin/bart

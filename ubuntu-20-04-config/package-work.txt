@@ -996,3 +996,6 @@ batctl
 bwbasic
 brewtarget
 braa
+bolt-lmm
+blender
+bart
