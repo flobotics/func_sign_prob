@@ -1499,3 +1499,4 @@ bird2
 betaradio
 python3-beancount
 budgie-core
+bgpq3

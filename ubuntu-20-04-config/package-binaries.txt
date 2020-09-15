@@ -2635,3 +2635,4 @@
 /usr/bin/budgie-polkit-dialog
 /usr/bin/budgie-run-dialog
 /usr/bin/budgie-wm
+/usr/bin/bgpq3
