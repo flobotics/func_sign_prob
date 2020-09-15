@@ -2478,3 +2478,5 @@
 /usr/sbin/in.fingerd
 /usr/bin/biff
 /usr/sbin/in.comsat
+/usr/bin/barnowl
+/usr/bin/zcrypt
