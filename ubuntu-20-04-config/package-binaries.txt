@@ -2381,3 +2381,4 @@
 /usr/bin/bogolexer-bdb
 /usr/bin/bogotune-bdb
 /usr/bin/bogoutil-bdb
+/usr/bin/bwa
