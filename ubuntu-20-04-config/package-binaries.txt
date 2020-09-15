@@ -2351,3 +2351,4 @@
 /usr/bin/klavaro
 /usr/bin/KlustaKwik
 /usr/bin/kitty
+/usr/bin/bcal

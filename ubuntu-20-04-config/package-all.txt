@@ -1353,3 +1353,4 @@ knetwalk
 kitty
 klustakwik
 bcal
+bino
