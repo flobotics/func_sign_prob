@@ -2667,3 +2667,7 @@
 /usr/lib/binfmt-support/run-detectors
 /usr/bin/bomstrip
 /usr/bin/btag
+/usr/sbin/bootpd
+/usr/sbin/bootpef
+/usr/sbin/bootpgw
+/usr/sbin/bootptest
