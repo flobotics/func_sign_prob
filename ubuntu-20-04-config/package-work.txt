@@ -945,3 +945,4 @@ bibshelf
 bandage
 bsdgames
 bliss
+btyacc

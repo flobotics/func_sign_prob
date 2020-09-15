@@ -2364,3 +2364,4 @@
 /usr/bin/Bandage
 /usr/sbin/huntd
 /usr/bin/bliss
+/usr/bin/btyacc

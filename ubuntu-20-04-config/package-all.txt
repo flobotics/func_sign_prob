@@ -1376,3 +1376,4 @@ bsdgames
 bliss
 plymouth-theme-breeze
 btyacc
+bowtie2
