@@ -2659,3 +2659,4 @@
 /usr/bin/beanstalkd
 /usr/bin/belenios-tool
 /usr/bin/blkreplay
+/usr/bin/brotli
