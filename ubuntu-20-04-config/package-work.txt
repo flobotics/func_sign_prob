@@ -1006,3 +1006,4 @@ barrier
 bmon
 bmake
 binutils-djgpp
+boinc-manager

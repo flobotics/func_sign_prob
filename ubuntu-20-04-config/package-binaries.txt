@@ -2593,3 +2593,4 @@
 /usr/bin/i386-pc-msdosdjgpp-size
 /usr/bin/i386-pc-msdosdjgpp-strings
 /usr/bin/i386-pc-msdosdjgpp-strip
+/usr/bin/boincmgr

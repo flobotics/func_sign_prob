@@ -1483,3 +1483,4 @@ bmake
 bzflag-server
 bzflag-client
 binutils-djgpp
+boinc-manager
