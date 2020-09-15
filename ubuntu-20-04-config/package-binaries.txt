@@ -2474,3 +2474,4 @@
 /usr/bin/baresip
 /usr/bin/birthday
 /usr/bin/brandy
+/usr/bin/finger
