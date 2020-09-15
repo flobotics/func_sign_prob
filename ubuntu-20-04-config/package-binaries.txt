@@ -2383,3 +2383,4 @@
 /usr/bin/bogoutil-bdb
 /usr/bin/bwa
 /usr/bin/budgie-extras-daemon
+/usr/bin/buici-clock

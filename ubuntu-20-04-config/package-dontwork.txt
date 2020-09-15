@@ -440,3 +440,9 @@ budgie-showtime-applet
 budgie-wallstreet
 budgie-brightness-controller-applet
 budgie-fuzzyclock-applet
+budgie-quicknote-applet
+budgie-weathershow-applet
+budgie-visualspace-applet
+budgie-window-shuffler
+bs2b-ladspa
+blastem
