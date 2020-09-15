@@ -967,3 +967,4 @@ botch
 bash-static
 biboumi
 bijiben
+bitseq
