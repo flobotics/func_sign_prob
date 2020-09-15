@@ -1430,3 +1430,4 @@ bovo
 bitseq
 bppphyview
 backstep
+bio-eagle
