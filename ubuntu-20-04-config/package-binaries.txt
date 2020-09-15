@@ -2443,3 +2443,4 @@
 /usr/bin/getWithinGeneExpression
 /usr/bin/parseAlignment
 /usr/bin/transposeLargeFile
+/usr/bin/phyview
