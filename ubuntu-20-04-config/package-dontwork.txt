@@ -429,3 +429,4 @@ black-box
 bls-standalone
 boswars
 plymouth-theme-breeze
+boinc-app-seti-graphics

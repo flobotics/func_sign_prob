@@ -2365,3 +2365,10 @@
 /usr/sbin/huntd
 /usr/bin/bliss
 /usr/bin/btyacc
+/usr/bin/bowtie2-align-l
+/usr/bin/bowtie2-align-s
+/usr/bin/bowtie2-build-l
+/usr/bin/bowtie2-build-s
+/usr/bin/bowtie2-inspect-l
+/usr/bin/bowtie2-inspect-s
+/usr/bin/badger

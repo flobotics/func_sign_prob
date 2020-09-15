@@ -946,3 +946,5 @@ bandage
 bsdgames
 bliss
 btyacc
+bowtie2
+badger

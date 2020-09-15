@@ -1377,3 +1377,5 @@ bliss
 plymouth-theme-breeze
 btyacc
 bowtie2
+boinc-app-seti-graphics
+badger
