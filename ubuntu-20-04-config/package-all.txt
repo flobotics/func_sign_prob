@@ -1440,3 +1440,4 @@ baresip-gstreamer
 birthday
 brandy
 finger
+fingerd

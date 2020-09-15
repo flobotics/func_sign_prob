@@ -976,3 +976,4 @@ baresip-core
 birthday
 brandy
 finger
+fingerd
