@@ -1473,3 +1473,4 @@ bygfoot
 binkd
 boinctui
 bluedevil
+bibletime
