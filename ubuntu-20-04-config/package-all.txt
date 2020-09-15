@@ -1487,3 +1487,4 @@ boinc-manager
 boinc-screensaver
 boinc-client
 bpm-tools
+bfbtester

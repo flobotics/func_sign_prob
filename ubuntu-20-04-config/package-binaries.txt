@@ -2597,3 +2597,4 @@
 /usr/bin/boincscr
 /usr/bin/boinccmd
 /usr/bin/bpm
+/usr/bin/bfbtester
