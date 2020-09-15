@@ -2713,3 +2713,4 @@
 /usr/bin/bio-rainbow
 /usr/bin/ezmsim
 /usr/bin/rbasm
+/usr/bin/bluefish
