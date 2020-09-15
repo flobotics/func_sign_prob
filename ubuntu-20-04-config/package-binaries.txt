@@ -2718,3 +2718,5 @@
 /usr/bin/Burrow
 /usr/bin/bchunk
 /usr/bin/bossa
+/usr/bin/bossac
+/usr/bin/bossash

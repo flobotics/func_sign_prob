@@ -1539,3 +1539,4 @@ borgbackup
 burrow
 bchunk
 bossa
+bossa-cli
