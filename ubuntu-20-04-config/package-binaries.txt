@@ -2629,3 +2629,9 @@
 /usr/sbin/birdc
 /usr/sbin/birdcl
 /usr/bin/betaradio
+/usr/bin/budgie-daemon
+/usr/bin/budgie-desktop-settings
+/usr/bin/budgie-panel
+/usr/bin/budgie-polkit-dialog
+/usr/bin/budgie-run-dialog
+/usr/bin/budgie-wm

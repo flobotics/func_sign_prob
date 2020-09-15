@@ -478,3 +478,4 @@ bzflag-server
 bzflag-client
 bindechexascii
 btanks
+python3-beancount

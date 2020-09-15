@@ -1018,3 +1018,4 @@ basic256
 bumblebee
 bird2
 betaradio
+budgie-core
