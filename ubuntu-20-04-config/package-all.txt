@@ -1432,3 +1432,5 @@ bppphyview
 backstep
 bio-eagle
 binutils-msp430
+baresip-gtk
+baresip-core
