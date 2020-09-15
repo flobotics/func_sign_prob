@@ -1494,3 +1494,4 @@ btanks
 bibutils
 bcron
 basic256
+bumblebee
