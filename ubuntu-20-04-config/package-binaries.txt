@@ -2382,3 +2382,4 @@
 /usr/bin/bogotune-bdb
 /usr/bin/bogoutil-bdb
 /usr/bin/bwa
+/usr/bin/budgie-extras-daemon

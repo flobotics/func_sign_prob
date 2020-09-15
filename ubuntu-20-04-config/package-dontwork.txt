@@ -430,3 +430,13 @@ bls-standalone
 boswars
 plymouth-theme-breeze
 boinc-app-seti-graphics
+budgie-hotcorners-applet
+budgie-network-manager-applet
+budgie-applications-menu-applet
+budgie-previews
+budgie-trash-applet
+budgie-recentlyused-applet
+budgie-showtime-applet
+budgie-wallstreet
+budgie-brightness-controller-applet
+budgie-fuzzyclock-applet
