@@ -1480,3 +1480,6 @@ burgerspace
 bmon
 biniax2
 bmake
+bzflag-server
+bzflag-client
+binutils-djgpp

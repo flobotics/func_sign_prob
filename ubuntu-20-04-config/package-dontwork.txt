@@ -474,3 +474,5 @@ binkd
 berusky2
 burgerspace
 biniax2
+bzflag-server
+bzflag-client
