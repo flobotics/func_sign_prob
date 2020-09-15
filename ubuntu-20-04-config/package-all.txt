@@ -1540,3 +1540,4 @@ burrow
 bchunk
 bossa
 bossa-cli
+butteraugli

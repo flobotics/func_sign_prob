@@ -2720,3 +2720,4 @@
 /usr/bin/bossa
 /usr/bin/bossac
 /usr/bin/bossash
+/usr/bin/butteraugli
