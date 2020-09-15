@@ -2576,3 +2576,4 @@
 /usr/bin/barrier
 /usr/bin/barrierc
 /usr/bin/barriers
+/usr/bin/bmon

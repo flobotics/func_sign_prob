@@ -1003,3 +1003,4 @@ boinctui
 bluedevil
 bibletime
 barrier
+bmon
