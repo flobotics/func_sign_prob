@@ -924,3 +924,5 @@ kturtle
 ktouch
 kwalletmanager
 kstars
+kwave
+kasumi

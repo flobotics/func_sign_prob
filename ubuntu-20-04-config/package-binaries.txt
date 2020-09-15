@@ -2342,3 +2342,5 @@
 /usr/bin/ktouch
 /usr/bin/kwalletmanager5
 /usr/bin/kstars
+/usr/bin/kwave
+/usr/bin/kasumi

@@ -1331,3 +1331,5 @@ kstars
 kio-extras
 kdegraphics-thumbnailers
 kodi-pvr-mythtv
+kwave
+kasumi
