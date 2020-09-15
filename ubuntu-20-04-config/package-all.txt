@@ -1538,3 +1538,4 @@ bfs
 borgbackup
 burrow
 bchunk
+bossa

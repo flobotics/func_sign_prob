@@ -2717,3 +2717,4 @@
 /usr/bin/bfs
 /usr/bin/Burrow
 /usr/bin/bchunk
+/usr/bin/bossa
