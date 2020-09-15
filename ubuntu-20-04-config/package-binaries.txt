@@ -2472,3 +2472,4 @@
 /usr/msp430/bin/ranlib
 /usr/msp430/bin/strip
 /usr/bin/baresip
+/usr/bin/birthday
