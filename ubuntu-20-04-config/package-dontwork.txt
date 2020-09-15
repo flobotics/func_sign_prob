@@ -409,3 +409,9 @@ kodi-pvr-mythtv
 konquest
 kreversi
 kmahjongg
+kblackbox
+kissplice
+kexi-postgresql-driver
+kexi-web-form-widget
+kio-ldap
+kexi-mysql-driver

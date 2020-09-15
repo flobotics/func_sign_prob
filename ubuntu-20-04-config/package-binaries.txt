@@ -2346,3 +2346,4 @@
 /usr/bin/kasumi
 /usr/bin/kchmviewer
 /usr/bin/ksysguardd
+/usr/bin/kjots
