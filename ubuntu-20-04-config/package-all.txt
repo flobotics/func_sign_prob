@@ -1535,3 +1535,5 @@ binutils-riscv64-unknown-elf
 bio-rainbow
 bluefish
 bfs
+borgbackup
+burrow

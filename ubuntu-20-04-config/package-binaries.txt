@@ -2715,3 +2715,4 @@
 /usr/bin/rbasm
 /usr/bin/bluefish
 /usr/bin/bfs
+/usr/bin/Burrow
