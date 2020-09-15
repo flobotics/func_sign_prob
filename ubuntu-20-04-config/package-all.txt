@@ -1530,3 +1530,5 @@ brutefir
 basez
 blepvco
 bdfresize
+bing
+binutils-riscv64-unknown-elf
