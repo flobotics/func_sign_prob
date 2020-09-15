@@ -2721,3 +2721,5 @@
 /usr/bin/bossac
 /usr/bin/bossash
 /usr/bin/butteraugli
+/usr/bin/babeltrace
+/usr/bin/babeltrace-log

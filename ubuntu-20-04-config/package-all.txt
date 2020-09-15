@@ -1541,3 +1541,4 @@ bchunk
 bossa
 bossa-cli
 butteraugli
+babeltrace
