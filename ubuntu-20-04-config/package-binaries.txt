@@ -2622,3 +2622,4 @@
 /usr/sbin/bcron-spool
 /usr/sbin/bcron-start
 /usr/sbin/bcron-update
+/usr/bin/basic256
