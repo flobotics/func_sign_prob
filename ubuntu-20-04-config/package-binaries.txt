@@ -2562,3 +2562,4 @@
 /usr/bin/barcode
 /usr/bin/sample
 /usr/bin/bitmeter
+/usr/sbin/batctl
