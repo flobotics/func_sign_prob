@@ -1374,3 +1374,5 @@ bls-standalone
 boswars
 bsdgames
 bliss
+plymouth-theme-breeze
+btyacc
