@@ -1455,3 +1455,4 @@ briquolo
 bwm-ng
 biloba
 boxbackup-client
+boxbackup-server
