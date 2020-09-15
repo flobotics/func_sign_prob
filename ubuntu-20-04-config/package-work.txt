@@ -960,3 +960,4 @@ boxes
 binutils-z80
 baycomusb
 bluez-tools
+bambootracker
