@@ -1502,3 +1502,4 @@ budgie-core
 bgpq3
 bindfs
 bristol
+bluemon

@@ -2639,3 +2639,6 @@
 /usr/bin/brighton
 /usr/bin/bristol
 /usr/bin/bristoljackstats
+/usr/bin/bluemon-client
+/usr/bin/bluemon-query
+/usr/sbin/bluemon
