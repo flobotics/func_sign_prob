@@ -2405,3 +2405,8 @@
 /usr/bin/z80-unknown-coff-strip
 /usr/sbin/baycomusb
 /usr/sbin/writeeeprom
+/usr/bin/bt-adapter
+/usr/bin/bt-agent
+/usr/bin/bt-device
+/usr/bin/bt-network
+/usr/bin/bt-obex

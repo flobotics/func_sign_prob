@@ -1411,3 +1411,5 @@ boxes
 binutils-z80
 blocks-of-the-undead
 baycomusb
+binpac
+bluez-tools
