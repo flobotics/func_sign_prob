@@ -1012,3 +1012,4 @@ boinc-client
 bpm-tools
 bfbtester
 btscanner
+bibutils

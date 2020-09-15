@@ -1490,3 +1490,5 @@ bpm-tools
 bfbtester
 bindechexascii
 btscanner
+btanks
+bibutils
