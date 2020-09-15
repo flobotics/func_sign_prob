@@ -971,3 +971,4 @@ bitseq
 bppphyview
 backstep
 bio-eagle
+binutils-msp430
