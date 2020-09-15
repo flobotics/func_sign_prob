@@ -1336,3 +1336,6 @@ kasumi
 kchmviewer
 konquest
 ksysguardd
+kreversi
+kmahjongg
+kissplice
