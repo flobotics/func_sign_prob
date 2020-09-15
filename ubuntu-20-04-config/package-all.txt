@@ -1333,3 +1333,6 @@ kdegraphics-thumbnailers
 kodi-pvr-mythtv
 kwave
 kasumi
+kchmviewer
+konquest
+ksysguardd

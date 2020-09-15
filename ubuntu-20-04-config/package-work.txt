@@ -926,3 +926,4 @@ kwalletmanager
 kstars
 kwave
 kasumi
+kchmviewer

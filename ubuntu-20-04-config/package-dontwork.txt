@@ -406,3 +406,4 @@ khmer
 kio-extras
 kdegraphics-thumbnailers
 kodi-pvr-mythtv
+konquest
