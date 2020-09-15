@@ -1500,3 +1500,5 @@ betaradio
 python3-beancount
 budgie-core
 bgpq3
+bindfs
+bristol

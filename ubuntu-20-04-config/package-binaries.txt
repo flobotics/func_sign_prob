@@ -2636,3 +2636,6 @@
 /usr/bin/budgie-run-dialog
 /usr/bin/budgie-wm
 /usr/bin/bgpq3
+/usr/bin/brighton
+/usr/bin/bristol
+/usr/bin/bristoljackstats
