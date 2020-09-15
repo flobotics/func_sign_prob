@@ -1045,3 +1045,4 @@ btpd
 basez
 bdfresize
 binutils-riscv64-unknown-elf
+bio-rainbow

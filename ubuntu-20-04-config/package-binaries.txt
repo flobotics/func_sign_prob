@@ -2710,3 +2710,6 @@
 /usr/lib/riscv64-unknown-elf/bin/ranlib
 /usr/lib/riscv64-unknown-elf/bin/readelf
 /usr/lib/riscv64-unknown-elf/bin/strip
+/usr/bin/bio-rainbow
+/usr/bin/ezmsim
+/usr/bin/rbasm
