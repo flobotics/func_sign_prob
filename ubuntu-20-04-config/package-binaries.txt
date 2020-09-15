@@ -2337,3 +2337,4 @@
 /usr/bin/klog
 /usr/bin/kbruch
 /usr/bin/ktp-debugger
+/usr/bin/kgpg

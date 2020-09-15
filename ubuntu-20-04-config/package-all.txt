@@ -1320,3 +1320,6 @@ kde-telepathy-kpeople
 kde-telepathy-kaccounts
 qml-module-org-kde-telepathy
 kde-telepathy-debugger
+kgpg
+kigo
+qml-module-org-kde-charts
