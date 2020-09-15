@@ -1007,3 +1007,4 @@ bmon
 bmake
 binutils-djgpp
 boinc-manager
+boinc-screensaver

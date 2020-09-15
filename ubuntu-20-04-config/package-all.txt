@@ -1484,3 +1484,4 @@ bzflag-server
 bzflag-client
 binutils-djgpp
 boinc-manager
+boinc-screensaver
