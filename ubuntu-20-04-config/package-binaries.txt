@@ -2596,3 +2596,4 @@
 /usr/bin/boincmgr
 /usr/bin/boincscr
 /usr/bin/boinccmd
+/usr/bin/bpm
