@@ -950,3 +950,4 @@ bowtie2
 badger
 bagel
 bogofilter-sqlite
+bogofilter-bdb
