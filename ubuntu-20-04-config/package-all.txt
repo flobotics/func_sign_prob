@@ -1474,3 +1474,5 @@ binkd
 boinctui
 bluedevil
 bibletime
+berusky2
+barrier

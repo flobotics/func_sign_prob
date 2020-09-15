@@ -2573,3 +2573,6 @@
 /usr/bin/bluedevil-sendfile
 /usr/bin/bluedevil-wizard
 /usr/bin/bibletime
+/usr/bin/barrier
+/usr/bin/barrierc
+/usr/bin/barriers

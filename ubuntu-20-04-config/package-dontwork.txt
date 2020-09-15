@@ -471,3 +471,4 @@ python3-btrfsutil
 blockout2
 bygfoot
 binkd
+berusky2
