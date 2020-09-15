@@ -2714,3 +2714,4 @@
 /usr/bin/ezmsim
 /usr/bin/rbasm
 /usr/bin/bluefish
+/usr/bin/bfs
