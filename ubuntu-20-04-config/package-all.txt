@@ -1349,3 +1349,4 @@ kannel-extras
 kactivitymanagerd
 klavaro
 katarakt
+knetwalk

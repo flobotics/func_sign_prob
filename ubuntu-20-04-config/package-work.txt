@@ -930,3 +930,4 @@ kchmviewer
 ksysguardd
 kjots
 katarakt
+klavaro
