@@ -2384,3 +2384,4 @@
 /usr/bin/bwa
 /usr/bin/budgie-extras-daemon
 /usr/bin/buici-clock
+/usr/bin/bibtexconv
