@@ -1028,3 +1028,5 @@ belenios-tool
 blkreplay
 brotli
 brightnessctl
+blahtexml
+balsa

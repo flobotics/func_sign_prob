@@ -2661,3 +2661,6 @@
 /usr/bin/blkreplay
 /usr/bin/brotli
 /usr/bin/brightnessctl
+/usr/bin/blahtexml
+/usr/bin/balsa
+/usr/bin/balsa-ab
