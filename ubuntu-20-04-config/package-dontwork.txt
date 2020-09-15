@@ -480,3 +480,4 @@ bindechexascii
 btanks
 python3-beancount
 bindfs
+python3-brotli

@@ -1027,3 +1027,4 @@ beanstalkd
 belenios-tool
 blkreplay
 brotli
+brightnessctl
