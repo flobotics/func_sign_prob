@@ -468,3 +468,6 @@ mate-applet-brisk-menu
 briquolo
 biloba
 python3-btrfsutil
+blockout2
+bygfoot
+binkd

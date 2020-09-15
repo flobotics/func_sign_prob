@@ -1468,3 +1468,7 @@ braa
 bolt-lmm
 blender
 bart
+blockout2
+bygfoot
+binkd
+boinctui

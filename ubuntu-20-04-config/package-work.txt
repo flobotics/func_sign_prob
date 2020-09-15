@@ -999,3 +999,4 @@ braa
 bolt-lmm
 blender
 bart
+boinctui

@@ -2569,3 +2569,4 @@
 /usr/bin/braa
 /usr/bin/blender
 /usr/bin/bart
+/usr/bin/boinctui
