@@ -2616,3 +2616,9 @@
 /usr/bin/xml2isi
 /usr/bin/xml2ris
 /usr/bin/xml2wordbib
+/usr/bin/bcrontab
+/usr/sbin/bcron-exec
+/usr/sbin/bcron-sched
+/usr/sbin/bcron-spool
+/usr/sbin/bcron-start
+/usr/sbin/bcron-update
