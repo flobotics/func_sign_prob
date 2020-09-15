@@ -2563,3 +2563,5 @@
 /usr/bin/sample
 /usr/bin/bitmeter
 /usr/sbin/batctl
+/usr/bin/bwbasic
+/usr/bin/renum
