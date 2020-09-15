@@ -2674,3 +2674,4 @@
 /usr/bin/bcalm
 /usr/sbin/bwctld
 /usr/bin/bwctl
+/usr/bin/bibcursed
