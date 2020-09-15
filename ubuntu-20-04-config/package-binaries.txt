@@ -2358,3 +2358,5 @@
 /usr/bin/bdbvu
 /usr/bin/bspc
 /usr/bin/bspwm
+/usr/lib/debian-med/bin/express
+/usr/bin/birdtray

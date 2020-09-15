@@ -939,3 +939,5 @@ bruteforce-salted-openssl
 bluez-btsco
 bdbvu
 bspwm
+berkeley-express
+birdtray

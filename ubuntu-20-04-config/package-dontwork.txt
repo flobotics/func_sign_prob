@@ -423,3 +423,6 @@ bloboats
 blockattack
 ballview
 between
+python3-broccoli
+bugsquish
+black-box

@@ -1364,3 +1364,7 @@ ballview
 bspwm
 between
 python3-broccoli
+birdtray
+bugsquish
+black-box
+berkeley-express
