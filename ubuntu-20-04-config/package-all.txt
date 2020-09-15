@@ -1354,3 +1354,6 @@ kitty
 klustakwik
 bcal
 bino
+bloboats
+bibtool
+blockattack

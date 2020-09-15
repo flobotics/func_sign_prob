@@ -2352,3 +2352,4 @@
 /usr/bin/KlustaKwik
 /usr/bin/kitty
 /usr/bin/bcal
+/usr/bin/bibtool

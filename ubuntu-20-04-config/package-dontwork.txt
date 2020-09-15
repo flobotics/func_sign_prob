@@ -418,3 +418,5 @@ kexi-mysql-driver
 kannel-extras
 kactivitymanagerd
 knetwalk
+bino
+bloboats
