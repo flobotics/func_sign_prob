@@ -935,3 +935,4 @@ klustakwik
 kitty
 bcal
 bibtool
+bruteforce-salted-openssl
