@@ -2671,3 +2671,4 @@
 /usr/sbin/bootpef
 /usr/sbin/bootpgw
 /usr/sbin/bootptest
+/usr/bin/bcalm

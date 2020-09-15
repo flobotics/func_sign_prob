@@ -1034,3 +1034,4 @@ binfmt-support
 bomstrip
 btag
 bootp
+bcalm
