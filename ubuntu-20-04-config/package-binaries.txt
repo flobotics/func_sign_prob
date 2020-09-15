@@ -2666,3 +2666,4 @@
 /usr/bin/balsa-ab
 /usr/lib/binfmt-support/run-detectors
 /usr/bin/bomstrip
+/usr/bin/btag

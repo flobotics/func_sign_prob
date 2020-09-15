@@ -1032,3 +1032,4 @@ blahtexml
 balsa
 binfmt-support
 bomstrip
+btag
