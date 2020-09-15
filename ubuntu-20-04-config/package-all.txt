@@ -1323,3 +1323,5 @@ kde-telepathy-debugger
 kgpg
 kigo
 qml-module-org-kde-charts
+khmer
+kturtle
