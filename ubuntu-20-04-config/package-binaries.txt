@@ -2363,3 +2363,4 @@
 /usr/bin/bibshelf
 /usr/bin/Bandage
 /usr/sbin/huntd
+/usr/bin/bliss
