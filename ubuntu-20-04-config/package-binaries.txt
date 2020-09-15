@@ -2386,3 +2386,4 @@
 /usr/bin/buici-clock
 /usr/bin/bibtexconv
 /usr/bin/buffer
+/usr/bin/boxes
