@@ -1096,3 +1096,4 @@ bbrun
 bamtools
 bopm
 blasr
+bittwist

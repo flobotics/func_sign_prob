@@ -1613,3 +1613,4 @@ python3-bcolz
 bamtools
 bopm
 blasr
+bittwist

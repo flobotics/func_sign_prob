@@ -2829,3 +2829,5 @@
 /usr/sbin/bopm
 /usr/bin/blasr
 /usr/bin/sawriter
+/usr/bin/bittwist
+/usr/bin/bittwiste
