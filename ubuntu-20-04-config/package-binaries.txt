@@ -2751,3 +2751,5 @@
 /usr/lib/xtensa-lx106-elf/bin/ranlib
 /usr/lib/xtensa-lx106-elf/bin/readelf
 /usr/lib/xtensa-lx106-elf/bin/strip
+/usr/bin/vss_strip
+/usr/sbin/burp
