@@ -1616,3 +1616,4 @@ blasr
 bittwist
 blop
 bali-phy
+bppsuite

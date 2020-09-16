@@ -2859,3 +2859,15 @@
 /usr/bin/trees-consensus
 /usr/bin/trees-distances
 /usr/bin/trees-to-SRQ
+/usr/bin/bppalnscore
+/usr/bin/bppancestor
+/usr/bin/bppconsense
+/usr/bin/bppdist
+/usr/bin/bppmixedlikelihoods
+/usr/bin/bppml
+/usr/bin/bpppars
+/usr/bin/bpppopstats
+/usr/bin/bppreroot
+/usr/bin/bppseqgen
+/usr/bin/bppseqman
+/usr/bin/bpptreedraw
