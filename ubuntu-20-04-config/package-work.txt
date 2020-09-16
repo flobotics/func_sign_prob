@@ -1090,3 +1090,4 @@ brasero
 btcheck
 bbtime
 binutils-avr
+bidentd

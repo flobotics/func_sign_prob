@@ -509,3 +509,4 @@ brutalchess
 batmon.app
 brasero-cdrkit
 nautilus-extension-brasero
+blueman
