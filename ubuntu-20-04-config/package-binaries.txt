@@ -2767,3 +2767,5 @@
 /usr/sbin/blktrace
 /usr/sbin/btrecord
 /usr/sbin/btreplay
+/usr/bin/btfs
+/usr/bin/btfsstat
