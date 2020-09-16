@@ -1570,3 +1570,9 @@ pidgin-bot-sentry
 basket
 bruteforce-luks
 bbe
+python3-breezy
+budgie-indicator-applet
+birdfont
+ballerburg
+bbmail
+bacula-common

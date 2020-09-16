@@ -497,3 +497,6 @@ bochs-term
 bochs-sdl
 bochs-x
 pidgin-bot-sentry
+python3-breezy
+budgie-indicator-applet
+ballerburg
