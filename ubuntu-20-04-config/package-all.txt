@@ -1560,3 +1560,7 @@ btfs
 bro-aux
 bochs-wx
 bximage
+bochs-term
+bochs-sdl
+bochs-x
+bifcl
