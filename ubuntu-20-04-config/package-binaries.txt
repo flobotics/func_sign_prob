@@ -2899,3 +2899,4 @@
 /usr/bin/BaitFilter
 /usr/bin/BaitFisher
 /usr/bin/bitwise
+/usr/bin/bcftools

@@ -521,3 +521,4 @@ blobandconquer
 ballz
 blobby
 blobby-server
+billard-gl
