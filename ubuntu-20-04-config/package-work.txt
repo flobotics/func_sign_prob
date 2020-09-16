@@ -1076,3 +1076,4 @@ birdfont
 bbmail
 bacula-common
 bacula-sd
+bacula-console

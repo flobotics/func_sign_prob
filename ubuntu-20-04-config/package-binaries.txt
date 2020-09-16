@@ -2791,3 +2791,4 @@
 /usr/sbin/bextract
 /usr/sbin/bls
 /usr/sbin/btape
+/usr/sbin/bconsole
