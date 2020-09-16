@@ -2769,3 +2769,6 @@
 /usr/sbin/btreplay
 /usr/bin/btfs
 /usr/bin/btfsstat
+/usr/bin/adtrace
+/usr/bin/bro-cut
+/usr/bin/rst

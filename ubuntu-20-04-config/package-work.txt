@@ -1064,3 +1064,4 @@ buildtorrent
 blktool
 blktrace
 btfs
+bro-aux
