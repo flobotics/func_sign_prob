@@ -2777,3 +2777,4 @@
 /usr/sbin/bwbar
 /usr/bin/byzanz-playback
 /usr/bin/byzanz-record
+/usr/bin/basket

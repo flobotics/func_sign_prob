@@ -1566,3 +1566,5 @@ bochs-x
 bifcl
 bwbar
 byzanz
+pidgin-bot-sentry
+basket

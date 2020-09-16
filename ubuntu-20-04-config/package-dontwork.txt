@@ -496,3 +496,4 @@ bochs-wx
 bochs-term
 bochs-sdl
 bochs-x
+pidgin-bot-sentry
