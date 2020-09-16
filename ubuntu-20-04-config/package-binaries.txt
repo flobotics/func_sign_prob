@@ -2804,3 +2804,4 @@
 /usr/bin/botan
 /usr/bin/bgpdump
 /usr/bin/brasero
+/usr/bin/btcheck

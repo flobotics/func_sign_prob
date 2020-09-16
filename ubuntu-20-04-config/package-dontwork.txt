@@ -507,3 +507,5 @@ bastet
 python3-blist
 brutalchess
 batmon.app
+brasero-cdrkit
+nautilus-extension-brasero

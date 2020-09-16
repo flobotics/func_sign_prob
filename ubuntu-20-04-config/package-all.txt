@@ -1595,3 +1595,6 @@ botan
 batmon.app
 bgpdump
 brasero
+brasero-cdrkit
+nautilus-extension-brasero
+btcheck
