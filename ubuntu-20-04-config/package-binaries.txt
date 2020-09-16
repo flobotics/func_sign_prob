@@ -2887,3 +2887,5 @@
 /usr/bin/h8300-hitachi-coff-size
 /usr/bin/h8300-hitachi-coff-strings
 /usr/bin/h8300-hitachi-coff-strip
+/usr/bin/bmf
+/usr/bin/bmfconv
