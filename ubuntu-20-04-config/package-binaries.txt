@@ -2873,3 +2873,4 @@
 /usr/bin/bpptreedraw
 /usr/sbin/babeld
 /usr/bin/bplay
+/usr/bin/bytes-circle
