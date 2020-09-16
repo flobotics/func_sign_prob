@@ -2753,3 +2753,5 @@
 /usr/lib/xtensa-lx106-elf/bin/strip
 /usr/bin/vss_strip
 /usr/sbin/burp
+/usr/bin/bsdiff
+/usr/bin/bspatch

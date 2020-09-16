@@ -1549,3 +1549,4 @@ bolt-tests
 bibledit-cloud
 binutils-xtensa-lx106
 burp
+bsdiff
