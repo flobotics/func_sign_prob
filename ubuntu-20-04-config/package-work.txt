@@ -1107,3 +1107,4 @@ bmf
 bitlbee
 bitlbee-libpurple
 bind9-dyndb-ldap
+baloo-kf5

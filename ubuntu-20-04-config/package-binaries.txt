@@ -2891,3 +2891,8 @@
 /usr/bin/bmfconv
 /usr/sbin/bitlbee
 /usr/lib/bind/ldap.so
+/usr/bin/baloo_file
+/usr/bin/baloo_file_extractor
+/usr/bin/balooctl
+/usr/bin/baloosearch
+/usr/bin/balooshow
