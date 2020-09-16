@@ -1582,3 +1582,7 @@ bacula-tray-monitor
 bacula-common-mysql
 bacula-fd
 bacula-director
+bacula-console-qt
+bacula-common-sqlite3
+bacula-common-pgsql
+bacula-bscan

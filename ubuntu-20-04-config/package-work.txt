@@ -1080,3 +1080,5 @@ bacula-console
 bacula-tray-monitor
 bacula-fd
 bacula-director
+bacula-console-qt
+bacula-bscan

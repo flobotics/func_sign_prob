@@ -2798,3 +2798,4 @@
 /usr/sbin/bregex
 /usr/sbin/bwild
 /usr/sbin/dbcheck
+/usr/sbin/bscan
