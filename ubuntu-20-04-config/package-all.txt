@@ -1568,3 +1568,4 @@ bwbar
 byzanz
 pidgin-bot-sentry
 basket
+bruteforce-luks

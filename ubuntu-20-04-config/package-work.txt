@@ -1070,3 +1070,4 @@ bifcl
 bwbar
 byzanz
 basket
+bruteforce-luks
