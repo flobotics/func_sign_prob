@@ -1607,3 +1607,4 @@ brltty-flite
 brltty-speechd
 brltty-espeak
 bosixnet-webui
+bbrun

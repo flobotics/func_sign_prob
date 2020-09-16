@@ -2824,3 +2824,4 @@
 /usr/lib/avr/bin/strip
 /usr/sbin/bidentd
 /usr/bin/bosixnet_webui
+/usr/bin/bbrun
