@@ -2827,3 +2827,5 @@
 /usr/bin/bbrun
 /usr/bin/bamtools
 /usr/sbin/bopm
+/usr/bin/blasr
+/usr/bin/sawriter

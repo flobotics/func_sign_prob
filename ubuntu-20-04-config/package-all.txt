@@ -1612,3 +1612,4 @@ bart-view
 python3-bcolz
 bamtools
 bopm
+blasr

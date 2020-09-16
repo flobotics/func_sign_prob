@@ -1095,3 +1095,4 @@ bosixnet-webui
 bbrun
 bamtools
 bopm
+blasr
