@@ -1091,3 +1091,4 @@ btcheck
 bbtime
 binutils-avr
 bidentd
+bosixnet-webui

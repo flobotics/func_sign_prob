@@ -2823,3 +2823,4 @@
 /usr/lib/avr/bin/readelf
 /usr/lib/avr/bin/strip
 /usr/sbin/bidentd
+/usr/bin/bosixnet_webui

@@ -510,3 +510,7 @@ batmon.app
 brasero-cdrkit
 nautilus-extension-brasero
 blueman
+brltty-x11
+brltty-flite
+brltty-speechd
+brltty-espeak
