@@ -1077,3 +1077,4 @@ bbmail
 bacula-common
 bacula-sd
 bacula-console
+bacula-tray-monitor

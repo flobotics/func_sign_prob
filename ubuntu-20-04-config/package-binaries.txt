@@ -2792,3 +2792,4 @@
 /usr/sbin/bls
 /usr/sbin/btape
 /usr/sbin/bconsole
+/usr/sbin/bacula-tray-monitor
