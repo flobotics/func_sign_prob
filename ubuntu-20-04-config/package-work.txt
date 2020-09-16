@@ -1071,3 +1071,4 @@ bwbar
 byzanz
 basket
 bruteforce-luks
+bbe

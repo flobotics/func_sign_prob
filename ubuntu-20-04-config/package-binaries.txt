@@ -2779,3 +2779,4 @@
 /usr/bin/byzanz-record
 /usr/bin/basket
 /usr/bin/bruteforce-luks
+/usr/bin/bbe
