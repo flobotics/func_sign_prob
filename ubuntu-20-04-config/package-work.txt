@@ -1105,3 +1105,5 @@ bytes-circle
 binutils-h8300-hms
 bmf
 bitlbee
+bitlbee-libpurple
+bind9-dyndb-ldap

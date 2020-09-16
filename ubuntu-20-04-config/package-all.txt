@@ -1627,3 +1627,5 @@ ballz
 blobby
 blobby-server
 bitlbee
+bitlbee-libpurple
+bind9-dyndb-ldap

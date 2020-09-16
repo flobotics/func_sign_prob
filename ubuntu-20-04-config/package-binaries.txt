@@ -2890,3 +2890,4 @@
 /usr/bin/bmf
 /usr/bin/bmfconv
 /usr/sbin/bitlbee
+/usr/lib/bind/ldap.so
