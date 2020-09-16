@@ -2898,3 +2898,4 @@
 /usr/bin/balooshow
 /usr/bin/BaitFilter
 /usr/bin/BaitFisher
+/usr/bin/bitwise
