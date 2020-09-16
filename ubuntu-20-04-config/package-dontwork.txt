@@ -503,3 +503,4 @@ ballerburg
 bacula-common-mysql
 bacula-common-sqlite3
 bacula-common-pgsql
+bastet

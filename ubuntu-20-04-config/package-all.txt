@@ -1587,3 +1587,5 @@ bacula-common-sqlite3
 bacula-common-pgsql
 bacula-bscan
 bison++
+bastet
+b5i2iso
