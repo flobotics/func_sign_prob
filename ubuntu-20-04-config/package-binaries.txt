@@ -2803,3 +2803,4 @@
 /usr/bin/b5i2iso
 /usr/bin/botan
 /usr/bin/bgpdump
+/usr/bin/brasero
