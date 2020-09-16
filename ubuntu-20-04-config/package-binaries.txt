@@ -2786,3 +2786,8 @@
 /usr/bin/birdfont-import
 /usr/bin/bbmail
 /usr/sbin/bsmtp
+/usr/sbin/bacula-sd
+/usr/sbin/bcopy
+/usr/sbin/bextract
+/usr/sbin/bls
+/usr/sbin/btape

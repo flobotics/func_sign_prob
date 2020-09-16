@@ -1576,3 +1576,4 @@ birdfont
 ballerburg
 bbmail
 bacula-common
+bacula-sd

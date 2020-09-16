@@ -1075,3 +1075,4 @@ bbe
 birdfont
 bbmail
 bacula-common
+bacula-sd
