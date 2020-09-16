@@ -2756,3 +2756,4 @@
 /usr/bin/bsdiff
 /usr/bin/bspatch
 /sbin/bootpc
+/usr/bin/buildtorrent
