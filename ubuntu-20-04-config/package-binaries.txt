@@ -2900,3 +2900,4 @@
 /usr/bin/BaitFisher
 /usr/bin/bitwise
 /usr/bin/bcftools
+/usr/bin/bs1770gain
