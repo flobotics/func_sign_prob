@@ -2801,3 +2801,4 @@
 /usr/sbin/bscan
 /usr/bin/bison++
 /usr/bin/b5i2iso
+/usr/bin/botan

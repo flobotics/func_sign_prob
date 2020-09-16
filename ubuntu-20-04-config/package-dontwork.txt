@@ -504,3 +504,5 @@ bacula-common-mysql
 bacula-common-sqlite3
 bacula-common-pgsql
 bastet
+python3-blist
+brutalchess

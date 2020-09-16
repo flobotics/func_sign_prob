@@ -1084,3 +1084,4 @@ bacula-console-qt
 bacula-bscan
 bison++
 b5i2iso
+botan
