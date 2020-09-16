@@ -487,3 +487,4 @@ brutefir
 blepvco
 bing
 borgbackup
+python3-babeltrace

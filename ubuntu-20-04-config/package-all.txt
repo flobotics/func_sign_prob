@@ -1542,3 +1542,5 @@ bossa
 bossa-cli
 butteraugli
 babeltrace
+python3-babeltrace
+berkeley-abc

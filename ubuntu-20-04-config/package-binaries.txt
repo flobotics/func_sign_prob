@@ -2723,3 +2723,4 @@
 /usr/bin/butteraugli
 /usr/bin/babeltrace
 /usr/bin/babeltrace-log
+/usr/bin/berkeley-abc

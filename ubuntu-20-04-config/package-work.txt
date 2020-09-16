@@ -1054,3 +1054,4 @@ bossa
 bossa-cli
 butteraugli
 babeltrace
+berkeley-abc
