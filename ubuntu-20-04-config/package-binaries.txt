@@ -2772,3 +2772,4 @@
 /usr/bin/adtrace
 /usr/bin/bro-cut
 /usr/bin/rst
+/usr/bin/bximage

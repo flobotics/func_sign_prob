@@ -1558,3 +1558,5 @@ ruby-broccoli
 blktrace
 btfs
 bro-aux
+bochs-wx
+bximage

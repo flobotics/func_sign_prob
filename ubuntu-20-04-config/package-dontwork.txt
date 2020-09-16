@@ -492,3 +492,4 @@ bucklespring
 bolt-tests
 bitshuffle
 ruby-broccoli
+bochs-wx
