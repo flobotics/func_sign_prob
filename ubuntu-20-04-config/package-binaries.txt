@@ -2799,3 +2799,4 @@
 /usr/sbin/bwild
 /usr/sbin/dbcheck
 /usr/sbin/bscan
+/usr/bin/bison++
