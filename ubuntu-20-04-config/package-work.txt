@@ -1089,3 +1089,4 @@ bgpdump
 brasero
 btcheck
 bbtime
+binutils-avr

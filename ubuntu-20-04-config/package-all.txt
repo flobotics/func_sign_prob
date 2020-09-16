@@ -1599,3 +1599,4 @@ brasero-cdrkit
 nautilus-extension-brasero
 btcheck
 bbtime
+binutils-avr
