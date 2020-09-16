@@ -2874,3 +2874,16 @@
 /usr/sbin/babeld
 /usr/bin/bplay
 /usr/bin/bytes-circle
+/usr/bin/h8300-hitachi-coff-addr2line
+/usr/bin/h8300-hitachi-coff-ar
+/usr/bin/h8300-hitachi-coff-as
+/usr/bin/h8300-hitachi-coff-c++filt
+/usr/bin/h8300-hitachi-coff-ld
+/usr/bin/h8300-hitachi-coff-nm
+/usr/bin/h8300-hitachi-coff-objcopy
+/usr/bin/h8300-hitachi-coff-objdump
+/usr/bin/h8300-hitachi-coff-ranlib
+/usr/bin/h8300-hitachi-coff-readelf
+/usr/bin/h8300-hitachi-coff-size
+/usr/bin/h8300-hitachi-coff-strings
+/usr/bin/h8300-hitachi-coff-strip
