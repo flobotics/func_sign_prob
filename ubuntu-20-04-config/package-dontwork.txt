@@ -500,3 +500,4 @@ pidgin-bot-sentry
 python3-breezy
 budgie-indicator-applet
 ballerburg
+bacula-common-mysql

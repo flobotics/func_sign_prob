@@ -1579,3 +1579,5 @@ bacula-common
 bacula-sd
 bacula-console
 bacula-tray-monitor
+bacula-common-mysql
+bacula-fd
