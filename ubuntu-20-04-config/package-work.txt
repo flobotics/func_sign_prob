@@ -1056,3 +1056,4 @@ butteraugli
 babeltrace
 berkeley-abc
 bibledit-cloud
+binutils-xtensa-lx106
