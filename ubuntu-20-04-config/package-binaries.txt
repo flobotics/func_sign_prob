@@ -2755,3 +2755,4 @@
 /usr/sbin/burp
 /usr/bin/bsdiff
 /usr/bin/bspatch
+/sbin/bootpc

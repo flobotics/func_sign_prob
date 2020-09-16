@@ -1059,3 +1059,4 @@ bibledit-cloud
 binutils-xtensa-lx106
 burp
 bsdiff
+bootpc
