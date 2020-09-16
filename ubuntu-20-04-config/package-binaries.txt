@@ -2758,3 +2758,12 @@
 /sbin/bootpc
 /usr/bin/buildtorrent
 /usr/sbin/blktool
+/usr/bin/blkiomon
+/usr/bin/blkparse
+/usr/bin/blkrawverify
+/usr/bin/btt
+/usr/bin/iowatcher
+/usr/bin/verify_blkparse
+/usr/sbin/blktrace
+/usr/sbin/btrecord
+/usr/sbin/btreplay

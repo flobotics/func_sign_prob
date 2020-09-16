@@ -1553,3 +1553,6 @@ bsdiff
 bootpc
 buildtorrent
 blktool
+bitshuffle
+ruby-broccoli
+blktrace

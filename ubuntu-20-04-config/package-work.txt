@@ -1062,3 +1062,4 @@ bsdiff
 bootpc
 buildtorrent
 blktool
+blktrace
