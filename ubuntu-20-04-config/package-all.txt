@@ -1552,3 +1552,4 @@ burp
 bsdiff
 bootpc
 buildtorrent
+blktool

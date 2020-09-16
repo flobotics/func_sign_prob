@@ -2757,3 +2757,4 @@
 /usr/bin/bspatch
 /sbin/bootpc
 /usr/bin/buildtorrent
+/usr/sbin/blktool
