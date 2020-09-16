@@ -506,3 +506,4 @@ bacula-common-pgsql
 bastet
 python3-blist
 brutalchess
+batmon.app
