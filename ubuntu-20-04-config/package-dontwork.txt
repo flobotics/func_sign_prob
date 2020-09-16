@@ -517,3 +517,4 @@ brltty-espeak
 bart-view
 python3-bcolz
 blop
+blobandconquer

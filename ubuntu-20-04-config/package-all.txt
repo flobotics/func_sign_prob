@@ -1617,3 +1617,5 @@ bittwist
 blop
 bali-phy
 bppsuite
+blobandconquer
+babeld

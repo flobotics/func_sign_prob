@@ -2871,3 +2871,4 @@
 /usr/bin/bppseqgen
 /usr/bin/bppseqman
 /usr/bin/bpptreedraw
+/usr/sbin/babeld
