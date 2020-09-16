@@ -2872,3 +2872,4 @@
 /usr/bin/bppseqman
 /usr/bin/bpptreedraw
 /usr/sbin/babeld
+/usr/bin/bplay

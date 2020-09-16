@@ -1619,3 +1619,4 @@ bali-phy
 bppsuite
 blobandconquer
 babeld
+bplay

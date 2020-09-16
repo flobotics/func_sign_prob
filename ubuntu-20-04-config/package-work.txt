@@ -1100,3 +1100,4 @@ bittwist
 bali-phy
 bppsuite
 babeld
+bplay
