@@ -1608,3 +1608,6 @@ brltty-speechd
 brltty-espeak
 bosixnet-webui
 bbrun
+bart-view
+python3-bcolz
+bamtools

@@ -2825,3 +2825,4 @@
 /usr/sbin/bidentd
 /usr/bin/bosixnet_webui
 /usr/bin/bbrun
+/usr/bin/bamtools

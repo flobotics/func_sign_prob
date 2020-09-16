@@ -514,3 +514,5 @@ brltty-x11
 brltty-flite
 brltty-speechd
 brltty-espeak
+bart-view
+python3-bcolz
