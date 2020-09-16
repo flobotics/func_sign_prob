@@ -2724,3 +2724,4 @@
 /usr/bin/babeltrace
 /usr/bin/babeltrace-log
 /usr/bin/berkeley-abc
+/usr/bin/bibledit-cloud

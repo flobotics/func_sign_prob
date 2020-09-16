@@ -1055,3 +1055,4 @@ bossa-cli
 butteraugli
 babeltrace
 berkeley-abc
+bibledit-cloud

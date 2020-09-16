@@ -488,3 +488,5 @@ blepvco
 bing
 borgbackup
 python3-babeltrace
+bucklespring
+bolt-tests
