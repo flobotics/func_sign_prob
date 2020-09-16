@@ -1067,3 +1067,4 @@ btfs
 bro-aux
 bximage
 bifcl
+bwbar

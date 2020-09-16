@@ -2774,3 +2774,4 @@
 /usr/bin/rst
 /usr/bin/bximage
 /usr/bin/bifcl
+/usr/sbin/bwbar
