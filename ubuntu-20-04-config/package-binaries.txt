@@ -2775,3 +2775,5 @@
 /usr/bin/bximage
 /usr/bin/bifcl
 /usr/sbin/bwbar
+/usr/bin/byzanz-playback
+/usr/bin/byzanz-record
