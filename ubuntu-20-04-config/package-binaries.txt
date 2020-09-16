@@ -2794,3 +2794,7 @@
 /usr/sbin/bconsole
 /usr/sbin/bacula-tray-monitor
 /usr/sbin/bacula-fd
+/usr/sbin/bacula-dir
+/usr/sbin/bregex
+/usr/sbin/bwild
+/usr/sbin/dbcheck

@@ -1581,3 +1581,4 @@ bacula-console
 bacula-tray-monitor
 bacula-common-mysql
 bacula-fd
+bacula-director
