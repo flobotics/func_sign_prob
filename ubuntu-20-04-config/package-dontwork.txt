@@ -518,3 +518,6 @@ bart-view
 python3-bcolz
 blop
 blobandconquer
+ballz
+blobby
+blobby-server

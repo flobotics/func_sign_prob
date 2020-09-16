@@ -1623,3 +1623,7 @@ bplay
 bytes-circle
 binutils-h8300-hms
 bmf
+ballz
+blobby
+blobby-server
+bitlbee
