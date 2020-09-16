@@ -2805,3 +2805,4 @@
 /usr/bin/bgpdump
 /usr/bin/brasero
 /usr/bin/btcheck
+/usr/bin/bbtime
