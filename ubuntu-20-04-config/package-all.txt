@@ -1646,3 +1646,7 @@ bpftrace
 kde-style-breeze
 kwin-style-breeze
 bisonc++
+bedops
+binutils-arm-none-eabi
+qml-module-org-kde-bluezqt
+bitstormlite

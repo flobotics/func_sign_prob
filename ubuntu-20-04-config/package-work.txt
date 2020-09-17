@@ -1120,3 +1120,6 @@ beef
 boomaga
 bpftrace
 bisonc++
+bedops
+binutils-arm-none-eabi
+bitstormlite

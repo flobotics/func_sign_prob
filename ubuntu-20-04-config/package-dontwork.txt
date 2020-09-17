@@ -525,3 +525,4 @@ billard-gl
 backuppc-rsync
 kde-style-breeze
 kwin-style-breeze
+qml-module-org-kde-bluezqt
