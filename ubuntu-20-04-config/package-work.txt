@@ -1137,3 +1137,6 @@ osmo-msc
 openconnect
 ogre-1.12-tools
 openbabel-gui
+openuniverse
+ocsigenserver
+osmo-pcu

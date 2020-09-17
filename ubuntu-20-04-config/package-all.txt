@@ -1672,3 +1672,6 @@ python3-ogre-1.12
 ogre-1.12-tools
 python3-openbabel
 openbabel-gui
+openuniverse
+ocsigenserver
+osmo-pcu

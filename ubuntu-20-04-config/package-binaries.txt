@@ -3010,3 +3010,6 @@
 /usr/bin/OgreXMLConverter
 /usr/bin/VRMLConverter
 /usr/bin/obgui
+/usr/bin/openuniverse
+/usr/bin/ocsigenserver.opt
+/usr/bin/osmo-pcu
