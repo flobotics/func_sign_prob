@@ -2912,3 +2912,4 @@
 /usr/bin/wasm-shell
 /usr/bin/wasm2js
 /usr/bin/buthead
+/usr/sbin/compsize
