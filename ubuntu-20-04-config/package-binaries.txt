@@ -2991,3 +2991,5 @@
 /usr/bin/weight
 /usr/bin/bcc-lua
 /usr/bin/BRP_PACU
+/usr/bin/csvtool
+/usr/bin/NiViewer2

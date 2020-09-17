@@ -1658,3 +1658,7 @@ biosquid
 bpfcc-lua
 blobwars
 brp-pacu
+octave-io
+csvtool
+octave-mapping
+openni2-utils

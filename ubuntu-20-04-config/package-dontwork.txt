@@ -527,3 +527,5 @@ kde-style-breeze
 kwin-style-breeze
 qml-module-org-kde-bluezqt
 blobwars
+octave-io
+octave-mapping

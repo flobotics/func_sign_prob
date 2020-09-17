@@ -1129,3 +1129,5 @@ binutils-mingw-w64-i686
 biosquid
 bpfcc-lua
 brp-pacu
+csvtool
+openni2-utils
