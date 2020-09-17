@@ -3004,3 +3004,4 @@
 /usr/bin/iv
 /usr/bin/maketx
 /usr/bin/oiiotool
+/usr/bin/osmo-msc

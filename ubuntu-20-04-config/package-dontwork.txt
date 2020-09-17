@@ -529,3 +529,5 @@ qml-module-org-kde-bluezqt
 blobwars
 octave-io
 octave-mapping
+python3-openimageio
+octave-msh

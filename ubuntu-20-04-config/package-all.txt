@@ -1664,3 +1664,6 @@ octave-mapping
 openni2-utils
 osinfo-db-tools
 openimageio-tools
+python3-openimageio
+octave-msh
+osmo-msc

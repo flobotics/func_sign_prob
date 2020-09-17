@@ -1133,3 +1133,4 @@ csvtool
 openni2-utils
 osinfo-db-tools
 openimageio-tools
+osmo-msc
