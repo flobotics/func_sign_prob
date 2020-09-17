@@ -1640,3 +1640,5 @@ binaryen
 buthead
 btrfs-compsize
 beef
+backuppc-rsync
+boomaga

@@ -2914,3 +2914,4 @@
 /usr/bin/buthead
 /usr/sbin/compsize
 /usr/bin/beef
+/usr/bin/boomaga

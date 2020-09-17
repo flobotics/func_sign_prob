@@ -522,3 +522,4 @@ ballz
 blobby
 blobby-server
 billard-gl
+backuppc-rsync
