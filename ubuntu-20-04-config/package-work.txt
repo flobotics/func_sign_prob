@@ -1124,3 +1124,4 @@ bedops
 binutils-arm-none-eabi
 bitstormlite
 brightd
+brickos

@@ -2955,3 +2955,5 @@
 /usr/lib/arm-none-eabi/bin/strip
 /usr/bin/bitstormlite
 /usr/bin/brightd
+/usr/bin/dll
+/usr/bin/firmdl3
