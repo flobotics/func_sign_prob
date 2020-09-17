@@ -1642,3 +1642,4 @@ btrfs-compsize
 beef
 backuppc-rsync
 boomaga
+bpftrace

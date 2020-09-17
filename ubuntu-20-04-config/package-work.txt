@@ -1118,3 +1118,4 @@ buthead
 btrfs-compsize
 beef
 boomaga
+bpftrace

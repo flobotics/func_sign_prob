@@ -2915,3 +2915,4 @@
 /usr/sbin/compsize
 /usr/bin/beef
 /usr/bin/boomaga
+/usr/bin/bpftrace
