@@ -2901,3 +2901,14 @@
 /usr/bin/bitwise
 /usr/bin/bcftools
 /usr/bin/bs1770gain
+/usr/bin/asm2wasm
+/usr/bin/wasm-as
+/usr/bin/wasm-ctor-eval
+/usr/bin/wasm-dis
+/usr/bin/wasm-emscripten-finalize
+/usr/bin/wasm-metadce
+/usr/bin/wasm-opt
+/usr/bin/wasm-reduce
+/usr/bin/wasm-shell
+/usr/bin/wasm2js
+/usr/bin/buthead

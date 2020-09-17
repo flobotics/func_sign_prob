@@ -10,7 +10,7 @@ import getopt
 import sys
 from multiprocessing import Pool
 
-base_path = "/home/infloflo/git/func_sign_prob/"
+base_path = "/home/ubuntu/git/func_sign_prob/"
 #base_path = "/home/ubu/git/test2/func_sign_prob/"
 config_dir = "ubuntu-20-04-config/"
 pickles_dir = "ubuntu-20-04-pickles/"

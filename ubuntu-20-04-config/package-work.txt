@@ -1113,3 +1113,5 @@ bitwise
 bcftools
 bottlerocket
 bs1770gain
+binaryen
+buthead
