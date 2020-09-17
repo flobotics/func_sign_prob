@@ -1679,3 +1679,8 @@ occt-draw
 python3-openslide
 osdclock
 open-jtalk
+octave-strings
+orpie
+optcomp
+octave-optim
+openvas-scanner

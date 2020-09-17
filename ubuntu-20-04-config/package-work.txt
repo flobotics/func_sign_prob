@@ -1143,3 +1143,6 @@ osmo-pcu
 occt-draw
 osdclock
 open-jtalk
+orpie
+optcomp
+openvas-scanner

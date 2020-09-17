@@ -3016,3 +3016,8 @@
 /usr/bin/occt-draw-7.3
 /usr/bin/osd_clock
 /usr/bin/open_jtalk
+/usr/bin/orpie
+/usr/bin/orpie-curses-keys
+/usr/bin/optcomp-o
+/usr/bin/optcomp-r
+/usr/sbin/openvassd
