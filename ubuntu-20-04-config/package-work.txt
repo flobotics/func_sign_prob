@@ -1142,3 +1142,4 @@ ocsigenserver
 osmo-pcu
 occt-draw
 osdclock
+open-jtalk
