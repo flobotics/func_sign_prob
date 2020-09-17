@@ -1131,3 +1131,4 @@ bpfcc-lua
 brp-pacu
 csvtool
 openni2-utils
+osinfo-db-tools

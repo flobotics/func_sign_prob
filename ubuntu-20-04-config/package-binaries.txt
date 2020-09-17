@@ -2993,3 +2993,7 @@
 /usr/bin/BRP_PACU
 /usr/bin/csvtool
 /usr/bin/NiViewer2
+/usr/bin/osinfo-db-export
+/usr/bin/osinfo-db-import
+/usr/bin/osinfo-db-path
+/usr/bin/osinfo-db-validate
