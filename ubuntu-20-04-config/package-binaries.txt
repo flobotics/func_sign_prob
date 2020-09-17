@@ -2989,3 +2989,4 @@
 /usr/bin/sreformat
 /usr/bin/stranslate
 /usr/bin/weight
+/usr/bin/bcc-lua
