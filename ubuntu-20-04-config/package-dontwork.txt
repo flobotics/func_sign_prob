@@ -533,3 +533,4 @@ python3-openimageio
 octave-msh
 python3-ogre-1.12
 python3-openbabel
+python3-openslide

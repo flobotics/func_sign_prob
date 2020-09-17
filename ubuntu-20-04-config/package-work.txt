@@ -1141,3 +1141,4 @@ openuniverse
 ocsigenserver
 osmo-pcu
 occt-draw
+osdclock

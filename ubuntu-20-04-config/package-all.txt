@@ -1676,3 +1676,5 @@ openuniverse
 ocsigenserver
 osmo-pcu
 occt-draw
+python3-openslide
+osdclock

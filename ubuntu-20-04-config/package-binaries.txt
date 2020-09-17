@@ -3014,3 +3014,4 @@
 /usr/bin/ocsigenserver.opt
 /usr/bin/osmo-pcu
 /usr/bin/occt-draw-7.3
+/usr/bin/osd_clock
