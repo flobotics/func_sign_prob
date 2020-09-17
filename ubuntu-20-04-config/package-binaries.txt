@@ -2954,3 +2954,4 @@
 /usr/lib/arm-none-eabi/bin/readelf
 /usr/lib/arm-none-eabi/bin/strip
 /usr/bin/bitstormlite
+/usr/bin/brightd

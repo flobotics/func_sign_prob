@@ -1650,3 +1650,4 @@ bedops
 binutils-arm-none-eabi
 qml-module-org-kde-bluezqt
 bitstormlite
+brightd
