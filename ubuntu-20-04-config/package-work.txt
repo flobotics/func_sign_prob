@@ -1136,3 +1136,4 @@ openimageio-tools
 osmo-msc
 openconnect
 ogre-1.12-tools
+openbabel-gui
