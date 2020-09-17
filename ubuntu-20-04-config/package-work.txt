@@ -1125,3 +1125,5 @@ binutils-arm-none-eabi
 bitstormlite
 brightd
 brickos
+binutils-mingw-w64-i686
+biosquid

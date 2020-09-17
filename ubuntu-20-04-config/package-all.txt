@@ -1652,3 +1652,6 @@ qml-module-org-kde-bluezqt
 bitstormlite
 brightd
 brickos
+binutils-mingw-w64-i686
+binutils-mingw-w64-x86-64
+biosquid
