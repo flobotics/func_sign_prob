@@ -531,3 +531,4 @@ octave-io
 octave-mapping
 python3-openimageio
 octave-msh
+python3-ogre-1.12

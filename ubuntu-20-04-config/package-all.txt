@@ -1668,3 +1668,5 @@ python3-openimageio
 octave-msh
 osmo-msc
 openconnect
+python3-ogre-1.12
+ogre-1.12-tools

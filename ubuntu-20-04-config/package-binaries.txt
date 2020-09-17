@@ -3006,3 +3006,6 @@
 /usr/bin/oiiotool
 /usr/bin/osmo-msc
 /usr/sbin/openconnect
+/usr/bin/OgreMeshUpgrader
+/usr/bin/OgreXMLConverter
+/usr/bin/VRMLConverter
