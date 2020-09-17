@@ -1146,3 +1146,4 @@ open-jtalk
 orpie
 optcomp
 openvas-scanner
+ogdi-bin

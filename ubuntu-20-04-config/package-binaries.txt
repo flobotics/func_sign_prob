@@ -3021,3 +3021,6 @@
 /usr/bin/optcomp-o
 /usr/bin/optcomp-r
 /usr/sbin/openvassd
+/usr/bin/gltpd
+/usr/bin/ogdi_import
+/usr/bin/ogdi_info
