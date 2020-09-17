@@ -1667,3 +1667,4 @@ openimageio-tools
 python3-openimageio
 octave-msh
 osmo-msc
+openconnect

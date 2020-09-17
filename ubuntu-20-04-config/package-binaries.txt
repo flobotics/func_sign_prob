@@ -3005,3 +3005,4 @@
 /usr/bin/maketx
 /usr/bin/oiiotool
 /usr/bin/osmo-msc
+/usr/sbin/openconnect
