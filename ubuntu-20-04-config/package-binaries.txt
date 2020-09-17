@@ -2916,3 +2916,4 @@
 /usr/bin/beef
 /usr/bin/boomaga
 /usr/bin/bpftrace
+/usr/bin/bisonc++

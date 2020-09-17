@@ -1643,3 +1643,6 @@ beef
 backuppc-rsync
 boomaga
 bpftrace
+kde-style-breeze
+kwin-style-breeze
+bisonc++

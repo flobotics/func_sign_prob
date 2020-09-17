@@ -523,3 +523,5 @@ blobby
 blobby-server
 billard-gl
 backuppc-rsync
+kde-style-breeze
+kwin-style-breeze
