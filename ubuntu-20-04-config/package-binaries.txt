@@ -2997,3 +2997,10 @@
 /usr/bin/osinfo-db-import
 /usr/bin/osinfo-db-path
 /usr/bin/osinfo-db-validate
+/usr/bin/iconvert
+/usr/bin/idiff
+/usr/bin/igrep
+/usr/bin/iinfo
+/usr/bin/iv
+/usr/bin/maketx
+/usr/bin/oiiotool

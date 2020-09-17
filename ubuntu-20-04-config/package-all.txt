@@ -1663,3 +1663,4 @@ csvtool
 octave-mapping
 openni2-utils
 osinfo-db-tools
+openimageio-tools
