@@ -1656,3 +1656,5 @@ binutils-mingw-w64-i686
 binutils-mingw-w64-x86-64
 biosquid
 bpfcc-lua
+blobwars
+brp-pacu

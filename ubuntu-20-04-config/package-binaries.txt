@@ -2990,3 +2990,4 @@
 /usr/bin/stranslate
 /usr/bin/weight
 /usr/bin/bcc-lua
+/usr/bin/BRP_PACU
