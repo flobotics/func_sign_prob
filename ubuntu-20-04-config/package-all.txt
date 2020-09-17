@@ -1675,3 +1675,4 @@ openbabel-gui
 openuniverse
 ocsigenserver
 osmo-pcu
+occt-draw

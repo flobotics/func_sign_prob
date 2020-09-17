@@ -3013,3 +3013,4 @@
 /usr/bin/openuniverse
 /usr/bin/ocsigenserver.opt
 /usr/bin/osmo-pcu
+/usr/bin/occt-draw-7.3
