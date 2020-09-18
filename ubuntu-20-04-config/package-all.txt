@@ -1846,3 +1846,6 @@ openvpn-auth-radius
 opendrim-lmp-softwareinventory
 ocrad
 osslsigncode
+okular-extra-backends
+qml-module-org-kde-okular
+okular-mobile

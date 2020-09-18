@@ -1242,3 +1242,4 @@ osm2pgsql
 ofono
 ocrad
 osslsigncode
+okular-mobile
