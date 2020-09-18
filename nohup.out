@@ -4855,3 +4855,13 @@ Real binaries:['/usr/bin/osmo-bsc-sccplite', '/usr/bin/osmo-bsc_mgcp']
 Write to package-work.txt file: osmocom-bsc
 Write to package-binaries.txt file: ['/usr/bin/osmo-bsc-sccplite', '/usr/bin/osmo-bsc_mgcp']
 ['/usr/bin/osmo-bsc-sccplite', '/usr/bin/osmo-bsc_mgcp']
+Write pickle file
+tar_out:
+Package-nr:1550 of 11000, Name:osmocom-bsc-nat-dbgsym
+Package >osmocom-bsc-nat< not in package-all.txt file
+Write to package-all.txt file: osmocom-bsc-nat
+In package >osmocom-bsc-nat< are these binaries: ['/usr/bin/osmo-bsc_nat']
+Real binaries:['/usr/bin/osmo-bsc_nat']
+Write to package-work.txt file: osmocom-bsc-nat
+Write to package-binaries.txt file: ['/usr/bin/osmo-bsc_nat']
+['/usr/bin/osmo-bsc_nat']
