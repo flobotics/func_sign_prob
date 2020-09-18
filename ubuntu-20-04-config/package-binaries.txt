@@ -4116,3 +4116,16 @@
 /usr/bin/ocamlrun
 /usr/bin/ocamlrund
 /usr/bin/ocamlruni
+/usr/bin/ocamlc.opt
+/usr/bin/ocamlcmt
+/usr/bin/ocamlcp.opt
+/usr/bin/ocamldep.opt
+/usr/bin/ocamldoc.opt
+/usr/bin/ocamllex.opt
+/usr/bin/ocamlmklib.opt
+/usr/bin/ocamlmktop.opt
+/usr/bin/ocamlobjinfo.opt
+/usr/bin/ocamlopt.opt
+/usr/bin/ocamloptp.opt
+/usr/bin/ocamlprof.opt
+/usr/bin/ocamlyacc
