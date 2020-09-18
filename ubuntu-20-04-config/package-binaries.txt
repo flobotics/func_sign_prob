@@ -3786,3 +3786,6 @@
 /usr/bin/oomd
 /usr/bin/otpw-gen
 /usr/bin/OSCAR
+/usr/bin/occtl
+/usr/bin/ocpasswd
+/usr/sbin/ocserv
