@@ -552,3 +552,7 @@ open-invaders
 opendrim-lmp-dns
 octave-signal
 python3-pyopencolorio
+ruby-obexftp
+octave-miscellaneous
+ostree-tests
+ostree-boot

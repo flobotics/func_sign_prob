@@ -1177,3 +1177,5 @@ opencolorio-tools
 osmium-tool
 onesixtyone
 obexftp
+ocp-indent
+osmocom-bsc

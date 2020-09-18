@@ -3077,3 +3077,6 @@
 /usr/bin/onesixtyone
 /usr/bin/obexftp
 /usr/bin/obexftpd
+/usr/bin/ocp-indent
+/usr/bin/osmo-bsc-sccplite
+/usr/bin/osmo-bsc_mgcp

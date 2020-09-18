@@ -1733,3 +1733,9 @@ opencolorio-tools
 osmium-tool
 onesixtyone
 obexftp
+ruby-obexftp
+octave-miscellaneous
+ostree-tests
+ostree-boot
+ocp-indent
+osmocom-bsc
