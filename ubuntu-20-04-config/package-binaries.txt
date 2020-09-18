@@ -3063,3 +3063,4 @@
 /usr/bin/opari2
 /sbin/iscsiuio
 /usr/bin/onedrive
+/usr/bin/otbApplicationLauncherCommandLine
