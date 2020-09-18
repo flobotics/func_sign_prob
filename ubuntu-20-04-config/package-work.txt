@@ -1373,3 +1373,4 @@ fossil
 ffdiaporama
 faust
 fastqtl
+fdclock

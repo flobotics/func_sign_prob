@@ -4244,3 +4244,5 @@
 /usr/bin/ffDiaporama
 /usr/bin/faust
 /usr/bin/fastQTL
+/usr/bin/fdfacepng
+/usr/bin/fdclock
