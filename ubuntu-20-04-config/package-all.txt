@@ -1787,3 +1787,4 @@ openssh-client-ssh1
 onscripter
 orbital-eunuchs-sniper
 oroborus
+dhtnode

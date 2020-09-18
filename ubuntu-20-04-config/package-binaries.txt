@@ -3565,3 +3565,4 @@
 /usr/bin/ssh-keygen1
 /usr/bin/ssh1
 /usr/bin/oroborus
+/usr/bin/dhtnode
