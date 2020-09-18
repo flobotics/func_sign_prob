@@ -3778,3 +3778,4 @@
 /usr/sbin/asetkey
 /usr/bin/osmo-sgsn
 /usr/bin/osmo-gtphub
+/usr/bin/osmo-gbproxy
