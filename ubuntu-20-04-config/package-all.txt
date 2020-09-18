@@ -2153,3 +2153,12 @@ fuseiso9660
 umview-mod-umfuseiso9660
 freedroidrpg
 facter
+fcitx5-frontend-qt5
+fizmo-sdl2
+freeciv-client-gtk
+freeciv-client-gtk3
+freeciv-client-qt
+freeciv-server
+freeciv-client-sdl
+freeciv-client-extras
+fxt-tools
