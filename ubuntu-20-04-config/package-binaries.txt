@@ -3034,3 +3034,5 @@
 /usr/bin/fl2k_test
 /usr/bin/osmo-ggsn
 /usr/bin/sgsnemu
+/usr/bin/otags
+/usr/bin/ipdiscover

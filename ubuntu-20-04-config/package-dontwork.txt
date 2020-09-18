@@ -539,3 +539,5 @@ octave-optim
 octave-econometrics
 opendrim-lmp-softwareupdate
 oss-preserve
+openmolcas
+obitools

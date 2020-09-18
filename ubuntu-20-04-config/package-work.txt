@@ -1151,3 +1151,7 @@ opencpn
 osmo-bts
 osmo-fl2k
 osmo-ggsn
+ogre-1.9-tools
+otags
+opensta
+ocsinventory-agent

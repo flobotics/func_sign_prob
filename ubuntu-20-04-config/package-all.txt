@@ -1692,3 +1692,10 @@ opendrim-lmp-softwareupdate
 osmo-fl2k
 oss-preserve
 osmo-ggsn
+ogre-1.9-tools
+otags
+opensmtpd-extras
+opensta
+openmolcas
+obitools
+ocsinventory-agent
