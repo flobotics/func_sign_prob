@@ -691,3 +691,4 @@ nautilus-extension-fma
 caja-extension-fma
 nemo-extension-fma
 ftp.app
+umview-mod-umfuseext2

@@ -1369,3 +1369,4 @@ flwrap
 fplll-tools
 ftpcopy
 fuseext2
+fossil
