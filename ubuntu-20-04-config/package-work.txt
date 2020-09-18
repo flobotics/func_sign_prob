@@ -1388,3 +1388,4 @@ fapg
 fcitx-imlist
 fbcat
 fnotifystat
+faultstat

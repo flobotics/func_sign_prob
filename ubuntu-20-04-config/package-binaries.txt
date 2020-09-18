@@ -4271,3 +4271,4 @@
 /usr/bin/fcitx-imlist
 /usr/bin/fbcat
 /usr/sbin/fnotifystat
+/usr/bin/faultstat
