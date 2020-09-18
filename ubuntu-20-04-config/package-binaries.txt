@@ -3668,3 +3668,4 @@
 /usr/bin/owwrite
 /usr/bin/owhttpd
 /usr/bin/openscad
+/usr/bin/ophcrack-cli

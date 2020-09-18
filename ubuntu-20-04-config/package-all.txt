@@ -1825,3 +1825,6 @@ owfs-fuse
 ow-shell
 owhttpd
 openscad
+osmo-hnbgw
+octave-nan
+ophcrack-cli
