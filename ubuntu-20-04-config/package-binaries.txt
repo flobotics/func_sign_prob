@@ -4264,3 +4264,4 @@
 /usr/bin/readPYMB
 /usr/bin/scel2org
 /usr/bin/txt2mb
+/usr/bin/fzy

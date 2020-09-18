@@ -705,3 +705,4 @@ fcitx-qw
 fcitx-module-dbus
 fcitx-module-kimpanel
 fcitx-frontend-gtk2
+python3-fastchunking
