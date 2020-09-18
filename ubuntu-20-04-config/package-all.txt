@@ -1685,3 +1685,5 @@ optcomp
 octave-optim
 openvas-scanner
 ogdi-bin
+opencpn
+osmo-bts

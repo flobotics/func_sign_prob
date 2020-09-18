@@ -1147,3 +1147,5 @@ orpie
 optcomp
 openvas-scanner
 ogdi-bin
+opencpn
+osmo-bts

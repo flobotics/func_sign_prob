@@ -3024,3 +3024,7 @@
 /usr/bin/gltpd
 /usr/bin/ogdi_import
 /usr/bin/ogdi_info
+/usr/bin/opencpn
+/usr/bin/osmo-bts-omldummy
+/usr/bin/osmo-bts-trx
+/usr/bin/osmo-bts-virtual
