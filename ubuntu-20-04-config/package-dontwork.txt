@@ -645,3 +645,5 @@ okteta-dev
 octave-stk
 octave-video
 openssn
+orthanc-dicomweb
+octave-secs2d

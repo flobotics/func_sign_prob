@@ -1964,3 +1964,6 @@ omnievents
 orage
 osmcoastline
 openvas-cli
+orthanc-dicomweb
+octave-secs2d
+openoverlayrouter

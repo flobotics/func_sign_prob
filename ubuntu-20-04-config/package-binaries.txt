@@ -4103,3 +4103,4 @@
 /usr/bin/osmcoastline_ways
 /usr/bin/check_omp
 /usr/bin/omp
+/usr/sbin/oor
