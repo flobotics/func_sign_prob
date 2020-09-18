@@ -3776,3 +3776,4 @@
 /usr/bin/klog.krb5
 /usr/sbin/akeyconvert
 /usr/sbin/asetkey
+/usr/bin/osmo-sgsn
