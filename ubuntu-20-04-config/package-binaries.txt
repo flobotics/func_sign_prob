@@ -3716,3 +3716,4 @@
 /usr/bin/eval_octree_accuracy
 /usr/bin/graph2tree
 /usr/bin/log2graph
+/usr/bin/octovis

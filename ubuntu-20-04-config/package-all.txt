@@ -1864,3 +1864,4 @@ ocamldsort
 openbsd-inetd
 openmsx-debugger
 octomap-tools
+octovis
