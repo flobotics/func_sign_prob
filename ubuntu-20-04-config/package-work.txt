@@ -1208,3 +1208,4 @@ osdsh
 openssh-client-ssh1
 oroborus
 dhtnode
+orthanc-wsi

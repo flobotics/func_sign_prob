@@ -3566,3 +3566,5 @@
 /usr/bin/ssh1
 /usr/bin/oroborus
 /usr/bin/dhtnode
+/usr/bin/OrthancWSIDicomToTiff
+/usr/bin/OrthancWSIDicomizer
