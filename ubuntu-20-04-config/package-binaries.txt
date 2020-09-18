@@ -4012,3 +4012,17 @@
 /usr/sbin/keyd
 /usr/bin/ohcount
 /usr/bin/omake
+/usr/bin/Sample-NiAudioSample
+/usr/bin/Sample-NiBackRecorder
+/usr/bin/Sample-NiCRead
+/usr/bin/Sample-NiConvertXToONI
+/usr/bin/Sample-NiHandTracker
+/usr/bin/Sample-NiRecordSynthetic
+/usr/bin/Sample-NiSimpleCreate
+/usr/bin/Sample-NiSimpleRead
+/usr/bin/Sample-NiSimpleSkeleton
+/usr/bin/Sample-NiSimpleViewer
+/usr/bin/Sample-NiUserSelection
+/usr/bin/Sample-NiUserTracker
+/usr/bin/niLicense
+/usr/bin/niReg

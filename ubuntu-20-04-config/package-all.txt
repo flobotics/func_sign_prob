@@ -1937,3 +1937,7 @@ openvanilla-imgeneric
 opendrim-lmp-battery
 ohcount
 omake
+octave-optiminterp
+omega-rpg
+osmose-emulator
+openni-utils
