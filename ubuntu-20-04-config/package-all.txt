@@ -1854,3 +1854,5 @@ ocaml-qtest
 obconf-qt
 osptoolkit
 gnome-panel-control
+oneko
+openexr

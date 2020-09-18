@@ -3700,3 +3700,8 @@
 /usr/bin/qtest
 /usr/bin/obconf-qt
 /usr/bin/gnome-panel-control
+/usr/bin/exrenvmap
+/usr/bin/exrheader
+/usr/bin/exrmakepreview
+/usr/bin/exrmaketiled
+/usr/bin/exrstdattr

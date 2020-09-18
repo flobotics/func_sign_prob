@@ -603,3 +603,4 @@ okular-extra-backends
 qml-module-org-kde-okular
 octave-control
 osptoolkit
+oneko
