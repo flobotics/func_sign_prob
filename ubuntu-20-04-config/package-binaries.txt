@@ -4142,3 +4142,4 @@
 /usr/sbin/fipvlan
 /usr/bin/foremost
 /usr/bin/freefem
+/usr/bin/fracplanet
