@@ -1891,3 +1891,6 @@ opendrim-lmp-baseserver
 octave-interval
 osmo-bsc-mgcp
 osmo-mgw
+ogmrip-video-copy
+opendrim-lmp-cpu
+ocaml-dune

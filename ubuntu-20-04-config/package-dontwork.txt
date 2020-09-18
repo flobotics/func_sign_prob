@@ -617,3 +617,5 @@ octave-level-set
 dolphin-owncloud
 opendrim-lmp-baseserver
 octave-interval
+ogmrip-video-copy
+opendrim-lmp-cpu
