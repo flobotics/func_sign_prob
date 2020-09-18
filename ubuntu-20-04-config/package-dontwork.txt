@@ -635,3 +635,5 @@ opendrim-lmp-battery
 octave-optiminterp
 omega-rpg
 osmose-emulator
+ssh-askpass-gnome
+openssh-tests

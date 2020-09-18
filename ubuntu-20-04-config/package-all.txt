@@ -1941,3 +1941,6 @@ octave-optiminterp
 omega-rpg
 osmose-emulator
 openni-utils
+ssh-askpass-gnome
+openssh-tests
+ossim-core
