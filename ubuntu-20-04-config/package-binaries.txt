@@ -4243,3 +4243,4 @@
 /usr/bin/fossil
 /usr/bin/ffDiaporama
 /usr/bin/faust
+/usr/bin/fastQTL

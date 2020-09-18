@@ -1372,3 +1372,4 @@ fuseext2
 fossil
 ffdiaporama
 faust
+fastqtl

@@ -2071,3 +2071,4 @@ ffdiaporama
 fltk1.1-games
 free42-nologo
 faust
+fastqtl
