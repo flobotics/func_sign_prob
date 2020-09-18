@@ -4204,3 +4204,5 @@
 /usr/bin/file2
 /usr/bin/fbautostart
 /usr/bin/filelight
+/usr/bin/mtracebis
+/usr/bin/vtysh
