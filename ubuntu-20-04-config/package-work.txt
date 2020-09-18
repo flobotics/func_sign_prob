@@ -1228,3 +1228,4 @@ ocproxy
 opencubicplayer
 owserver
 owftpd
+ow-shell

@@ -589,3 +589,4 @@ python3-olm
 postgresql-12-orafce
 python-openwsman
 opensc-pkcs11
+owfs-fuse

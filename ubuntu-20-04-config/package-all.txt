@@ -1821,3 +1821,5 @@ opensc-pkcs11
 opencubicplayer
 owserver
 owftpd
+owfs-fuse
+ow-shell
