@@ -2127,3 +2127,4 @@ fcitx-frontend-qt5
 python3-fast5
 fbxkb
 freetuxtv
+fuseiso

@@ -1404,3 +1404,4 @@ fcitx-frontend-fbterm
 flashrom
 fbxkb
 freetuxtv
+fuseiso
