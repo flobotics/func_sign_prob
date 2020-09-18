@@ -2126,3 +2126,4 @@ fcitx5-module-quickphrase-editor
 fcitx-frontend-qt5
 python3-fast5
 fbxkb
+freetuxtv
