@@ -1894,3 +1894,4 @@ osmo-mgw
 ogmrip-video-copy
 opendrim-lmp-cpu
 ocaml-dune
+oomd

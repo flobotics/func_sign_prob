@@ -3783,3 +3783,4 @@
 /usr/bin/owncloudcmd
 /usr/bin/osmo-mgw
 /usr/bin/dune
+/usr/bin/oomd
