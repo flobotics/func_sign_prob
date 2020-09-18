@@ -4001,3 +4001,4 @@
 /usr/bin/openmx
 /usr/sbin/ntpctl
 /usr/sbin/ntpd
+/usr/bin/samlsign
