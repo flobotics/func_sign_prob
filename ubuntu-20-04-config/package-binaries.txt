@@ -4270,3 +4270,4 @@
 /usr/bin/fapg
 /usr/bin/fcitx-imlist
 /usr/bin/fbcat
+/usr/sbin/fnotifystat

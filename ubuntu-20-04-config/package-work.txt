@@ -1387,3 +1387,4 @@ fim
 fapg
 fcitx-imlist
 fbcat
+fnotifystat

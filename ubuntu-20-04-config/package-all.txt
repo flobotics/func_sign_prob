@@ -2099,3 +2099,5 @@ fcitx-libpinyin
 fapg
 fcitx-imlist
 fbcat
+r-cran-fasianoptions
+fnotifystat
