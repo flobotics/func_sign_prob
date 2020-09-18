@@ -4287,3 +4287,4 @@
 /usr/bin/fdupes
 /usr/sbin/filetea
 /usr/sbin/famd
+/usr/bin/fcitx-fbterm

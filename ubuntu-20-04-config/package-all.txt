@@ -2120,3 +2120,4 @@ umview-mod-umfusefat
 fizmo-ncursesw
 filetea
 fam
+fcitx-frontend-fbterm

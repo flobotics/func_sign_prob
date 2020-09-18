@@ -1400,3 +1400,4 @@ fvwm1
 fdupes
 filetea
 fam
+fcitx-frontend-fbterm
