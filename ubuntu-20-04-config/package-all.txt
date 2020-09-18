@@ -2050,3 +2050,4 @@ freeipmi-bmc-watchdog
 fcitx-rime
 flvstreamer
 flake
+fiche

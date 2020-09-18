@@ -1359,3 +1359,4 @@ freeipmi-ipmidetect
 freeipmi-bmc-watchdog
 flvstreamer
 flake
+fiche

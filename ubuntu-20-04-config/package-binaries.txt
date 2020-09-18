@@ -4218,3 +4218,4 @@
 /usr/bin/flvstreamer
 /usr/bin/streams
 /usr/bin/flake
+/usr/bin/fiche
