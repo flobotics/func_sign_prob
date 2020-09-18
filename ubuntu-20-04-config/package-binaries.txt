@@ -4285,3 +4285,4 @@
 /usr/bin/fmtree
 /usr/bin/fvwm1
 /usr/bin/fdupes
+/usr/sbin/filetea

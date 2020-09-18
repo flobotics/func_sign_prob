@@ -713,3 +713,5 @@ ftools-pow
 freesweep
 python3-fife
 freeorion
+umview-mod-umfusefat
+fizmo-ncursesw

@@ -2116,3 +2116,6 @@ ffproxy
 freebsd-buildutils
 fvwm1
 fdupes
+umview-mod-umfusefat
+fizmo-ncursesw
+filetea

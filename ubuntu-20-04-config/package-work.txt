@@ -1398,3 +1398,4 @@ ffproxy
 freebsd-buildutils
 fvwm1
 fdupes
+filetea
