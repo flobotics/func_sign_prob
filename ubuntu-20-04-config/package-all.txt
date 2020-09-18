@@ -2144,3 +2144,5 @@ freeglut3
 flameshot
 flextra
 fcitx-config-gtk
+fdclone
+field3d-tools

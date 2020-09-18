@@ -4307,3 +4307,4 @@
 /usr/bin/flextra.ecmwf
 /usr/bin/flextra.gfs
 /usr/bin/fcitx-config-gtk3
+/usr/bin/f3dinfo
