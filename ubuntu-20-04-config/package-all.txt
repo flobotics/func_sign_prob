@@ -1958,3 +1958,5 @@ octave-stk
 octave-video
 openssn
 opencc
+ocamlbuild
+openslide-tools
