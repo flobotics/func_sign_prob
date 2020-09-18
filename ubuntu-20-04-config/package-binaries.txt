@@ -3068,3 +3068,4 @@
 /usr/bin/monteverdi
 /usr/bin/otbQgisDescriptor
 /usr/bin/otbApplicationLauncherQt
+/usr/bin/otbTestDriver

@@ -4743,3 +4743,13 @@ Real binaries:['/usr/bin/otbApplicationLauncherQt']
 Write to package-work.txt file: otb-bin-qt
 Write to package-binaries.txt file: ['/usr/bin/otbApplicationLauncherQt']
 ['/usr/bin/otbApplicationLauncherQt']
+Write pickle file
+tar_out:
+Package-nr:1535 of 11000, Name:otb-testdriver-dbgsym
+Package >otb-testdriver< not in package-all.txt file
+Write to package-all.txt file: otb-testdriver
+In package >otb-testdriver< are these binaries: ['/usr/bin/otbTestDriver']
+Real binaries:['/usr/bin/otbTestDriver']
+Write to package-work.txt file: otb-testdriver
+Write to package-binaries.txt file: ['/usr/bin/otbTestDriver']
+['/usr/bin/otbTestDriver']
