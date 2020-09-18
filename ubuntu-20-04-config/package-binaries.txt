@@ -4094,3 +4094,6 @@
 /usr/bin/events
 /usr/bin/rmeventc
 /usr/sbin/omniEvents
+/usr/bin/globaltime
+/usr/bin/orage
+/usr/bin/tz_convert
