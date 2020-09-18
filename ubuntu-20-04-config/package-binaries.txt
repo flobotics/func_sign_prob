@@ -4284,3 +4284,4 @@
 /usr/bin/fmake
 /usr/bin/fmtree
 /usr/bin/fvwm1
+/usr/bin/fdupes

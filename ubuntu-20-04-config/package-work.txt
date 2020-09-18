@@ -1397,3 +1397,4 @@ fuse-zip
 ffproxy
 freebsd-buildutils
 fvwm1
+fdupes
