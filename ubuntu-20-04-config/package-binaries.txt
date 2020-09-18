@@ -3814,3 +3814,9 @@
 /usr/bin/oxref
 /usr/sbin/opendmarc
 /usr/sbin/opendmarc-check
+/usr/bin/analyze-dmk
+/usr/bin/der2dmk
+/usr/bin/dsk2dmk
+/usr/bin/empty-dmk
+/usr/bin/svi2dmk
+/usr/bin/svicpm2dmk
