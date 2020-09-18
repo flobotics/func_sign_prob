@@ -1922,3 +1922,5 @@ dmktools
 opam-installer
 osmctools
 oclgrind
+python3-pykdl
+openocd

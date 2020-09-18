@@ -626,3 +626,4 @@ openarena-server
 octave-openems
 python3-openems
 octave-fits
+python3-pykdl

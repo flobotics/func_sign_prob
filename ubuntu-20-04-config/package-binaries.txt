@@ -3826,3 +3826,4 @@
 /usr/bin/osmupdate
 /usr/bin/oclgrind
 /usr/bin/oclgrind-kernel
+/usr/bin/openocd
