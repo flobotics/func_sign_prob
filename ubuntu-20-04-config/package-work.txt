@@ -1221,3 +1221,4 @@ opendnssec-signer
 opendnssec-enforcer-mysql
 opendnssec-enforcer-sqlite3
 open-isns-utils
+open-isns-discoveryd

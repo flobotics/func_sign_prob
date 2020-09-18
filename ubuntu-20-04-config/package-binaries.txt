@@ -3652,3 +3652,4 @@
 /usr/sbin/ods-enforcerd
 /usr/sbin/ods-migrate
 /usr/sbin/isnsadm
+/usr/sbin/isnsdd

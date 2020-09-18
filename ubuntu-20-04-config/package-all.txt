@@ -1808,3 +1808,4 @@ opendnssec-enforcer-sqlite3
 octave-lssa
 omins
 open-isns-utils
+open-isns-discoveryd
