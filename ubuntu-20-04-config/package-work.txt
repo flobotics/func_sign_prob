@@ -1434,3 +1434,5 @@ flac
 flexbar
 fped
 ffmpeg2theora
+funnelweb
+fig2sxd

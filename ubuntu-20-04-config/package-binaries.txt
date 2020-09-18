@@ -4339,3 +4339,4 @@
 /usr/bin/flexbar
 /usr/bin/fped
 /usr/bin/ffmpeg2theora
+/usr/bin/fig2sxd
