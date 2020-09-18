@@ -2137,3 +2137,5 @@ python3-fpylll
 fullquottel
 fstl
 ferret-vis
+fwupd-tests
+floatbg

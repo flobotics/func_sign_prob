@@ -4301,3 +4301,4 @@
 /usr/bin/fstl
 /usr/bin/ferret_c
 /usr/bin/gksm2ps
+/usr/bin/floatbg
