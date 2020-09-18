@@ -4203,3 +4203,4 @@
 /usr/sbin/firebird
 /usr/bin/file2
 /usr/bin/fbautostart
+/usr/bin/filelight

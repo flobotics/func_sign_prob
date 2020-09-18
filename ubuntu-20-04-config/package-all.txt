@@ -2034,3 +2034,4 @@ firebird3.0-server-core
 postgresql-12-first-last-agg
 file-kanji
 fbautostart
+filelight
