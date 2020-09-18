@@ -1303,3 +1303,5 @@ omake
 openni-utils
 ossim-core
 odt2txt
+ocaml-obuild
+openexr-viewers

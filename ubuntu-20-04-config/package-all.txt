@@ -1946,3 +1946,6 @@ openssh-tests
 ossim-core
 openttd
 odt2txt
+ocaml-obuild
+octave-sparsersb
+openexr-viewers

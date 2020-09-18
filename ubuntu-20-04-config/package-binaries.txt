@@ -4076,3 +4076,6 @@
 /usr/bin/ossim-viirs-proc
 /usr/bin/ossim-ws-cmp
 /usr/bin/odt2txt.odt2txt
+/usr/bin/obuild
+/usr/bin/obuild-simple
+/usr/bin/exrdisplay

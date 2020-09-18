@@ -638,3 +638,4 @@ osmose-emulator
 ssh-askpass-gnome
 openssh-tests
 openttd
+octave-sparsersb
