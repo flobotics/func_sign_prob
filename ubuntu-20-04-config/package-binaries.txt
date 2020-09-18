@@ -4010,3 +4010,4 @@
 /usr/lib/cgi-bin/pks/hashquery
 /usr/lib/cgi-bin/pks/lookup
 /usr/sbin/keyd
+/usr/bin/ohcount

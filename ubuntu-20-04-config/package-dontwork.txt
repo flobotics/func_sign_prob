@@ -628,3 +628,7 @@ python3-openems
 octave-fits
 python3-pykdl
 open-adventure
+opendrim-lmp-pci
+opendrim-lmp-systemmemory
+openvanilla-imgeneric
+opendrim-lmp-battery

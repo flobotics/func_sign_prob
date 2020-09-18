@@ -1931,3 +1931,8 @@ openntpd
 opensaml-tools
 open-adventure
 onak
+opendrim-lmp-pci
+opendrim-lmp-systemmemory
+openvanilla-imgeneric
+opendrim-lmp-battery
+ohcount
