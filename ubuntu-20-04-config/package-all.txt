@@ -1743,3 +1743,4 @@ osmocom-bsc-nat
 osmocom-nitb
 osmocom-bs11-utils
 osmocom-ipaccess-utils
+openwince-jtag

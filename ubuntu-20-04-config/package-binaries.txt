@@ -3087,3 +3087,5 @@
 /usr/bin/abisip-find
 /usr/bin/ipaccess-config
 /usr/bin/ipaccess-proxy
+/usr/bin/bsdl2jtag
+/usr/bin/jtag
