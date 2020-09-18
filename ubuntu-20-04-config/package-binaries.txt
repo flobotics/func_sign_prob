@@ -3658,3 +3658,4 @@
 /usr/bin/vpnns
 /usr/bin/owexternal
 /usr/bin/owserver
+/usr/bin/owftpd

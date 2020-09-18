@@ -1820,3 +1820,4 @@ python-openwsman
 opensc-pkcs11
 opencubicplayer
 owserver
+owftpd

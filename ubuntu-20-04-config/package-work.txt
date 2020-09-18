@@ -1227,3 +1227,4 @@ kde-style-oxygen-qt5
 ocproxy
 opencubicplayer
 owserver
+owftpd
