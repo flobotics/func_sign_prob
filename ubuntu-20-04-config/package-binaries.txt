@@ -4331,3 +4331,4 @@
 /usr/bin/fstrm_capture
 /usr/bin/fstrm_dump
 /usr/bin/fstrm_replay
+/usr/bin/fritzing.real

@@ -2169,3 +2169,4 @@ fspanel
 frotz
 freecad-python3
 fstrm-bin
+fritzing
