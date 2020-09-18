@@ -3075,3 +3075,5 @@
 /usr/bin/ociolutimage
 /usr/bin/osmium
 /usr/bin/onesixtyone
+/usr/bin/obexftp
+/usr/bin/obexftpd

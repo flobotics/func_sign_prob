@@ -4790,3 +4790,13 @@ Real binaries:['/usr/bin/onesixtyone']
 Write to package-work.txt file: onesixtyone
 Write to package-binaries.txt file: ['/usr/bin/onesixtyone']
 ['/usr/bin/onesixtyone']
+Write pickle file
+tar_out:
+Package-nr:1540 of 11000, Name:obexftp-dbgsym
+Package >obexftp< not in package-all.txt file
+Write to package-all.txt file: obexftp
+In package >obexftp< are these binaries: ['/usr/bin/obexftp', '/usr/bin/obexftpd', '/usr/bin/obexget', '/usr/bin/obexls', '/usr/bin/obexput', '/usr/bin/obexrm']
+Real binaries:['/usr/bin/obexftp', '/usr/bin/obexftpd']
+Write to package-work.txt file: obexftp
+Write to package-binaries.txt file: ['/usr/bin/obexftp', '/usr/bin/obexftpd']
+['/usr/bin/obexftp', '/usr/bin/obexftpd']

@@ -1176,3 +1176,4 @@ otb-testdriver
 opencolorio-tools
 osmium-tool
 onesixtyone
+obexftp

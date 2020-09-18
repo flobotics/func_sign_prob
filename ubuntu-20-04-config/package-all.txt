@@ -1732,3 +1732,4 @@ python3-pyopencolorio
 opencolorio-tools
 osmium-tool
 onesixtyone
+obexftp
