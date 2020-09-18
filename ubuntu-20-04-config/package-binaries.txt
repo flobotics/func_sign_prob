@@ -4133,3 +4133,4 @@
 /bin/gcstools
 /usr/bin/obexautofs
 /usr/bin/obexfs
+/usr/bin/fsvs

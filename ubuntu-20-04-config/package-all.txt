@@ -1979,3 +1979,5 @@ ocaml-nox
 octave-database
 opengcs
 obexfs
+r-cran-fbasics
+fsvs
