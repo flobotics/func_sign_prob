@@ -4292,3 +4292,5 @@
 /usr/bin/fbxkb
 /usr/bin/freetuxtv
 /usr/bin/fuseiso
+/sbin/mount.posixovl
+/usr/bin/fluidsynth

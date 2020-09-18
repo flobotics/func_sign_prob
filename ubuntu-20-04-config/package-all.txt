@@ -2128,3 +2128,5 @@ python3-fast5
 fbxkb
 freetuxtv
 fuseiso
+fuse-posixovl
+fluidsynth

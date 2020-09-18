@@ -1405,3 +1405,5 @@ flashrom
 fbxkb
 freetuxtv
 fuseiso
+fuse-posixovl
+fluidsynth
