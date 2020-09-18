@@ -4186,3 +4186,4 @@
 /usr/bin/fcml-asm
 /usr/bin/fcml-disasm
 /usr/bin/fitscut
+/usr/bin/fotoxx
