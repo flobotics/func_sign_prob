@@ -4303,3 +4303,4 @@
 /usr/bin/gksm2ps
 /usr/bin/floatbg
 /usr/bin/feh
+/usr/bin/flameshot

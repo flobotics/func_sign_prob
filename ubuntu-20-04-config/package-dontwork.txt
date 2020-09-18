@@ -721,3 +721,4 @@ python3-fast5
 python3-fast-histogram
 python3-fpylll
 fwupd-tests
+freeglut3

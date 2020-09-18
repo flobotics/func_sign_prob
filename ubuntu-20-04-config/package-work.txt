@@ -1414,3 +1414,4 @@ fstl
 ferret-vis
 floatbg
 feh
+flameshot

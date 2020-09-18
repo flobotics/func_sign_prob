@@ -2140,3 +2140,5 @@ ferret-vis
 fwupd-tests
 floatbg
 feh
+freeglut3
+flameshot
