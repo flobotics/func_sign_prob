@@ -1260,3 +1260,4 @@ olpc-kbdshim
 openafs-fileserver
 openafs-fuse
 openafs-dbserver
+openafs-client

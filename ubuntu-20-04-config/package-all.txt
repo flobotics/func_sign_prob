@@ -1877,3 +1877,4 @@ opendrim-lmp-boot
 openafs-fileserver
 openafs-fuse
 openafs-dbserver
+openafs-client
