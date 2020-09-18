@@ -1181,3 +1181,4 @@ ocp-indent
 osmocom-bsc
 osmocom-bsc-nat
 osmocom-nitb
+osmocom-bs11-utils

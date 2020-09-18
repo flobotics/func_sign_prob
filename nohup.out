@@ -4875,3 +4875,13 @@ Real binaries:['/usr/bin/osmo-nitb']
 Write to package-work.txt file: osmocom-nitb
 Write to package-binaries.txt file: ['/usr/bin/osmo-nitb']
 ['/usr/bin/osmo-nitb']
+Write pickle file
+tar_out:
+Package-nr:1552 of 11000, Name:osmocom-bs11-utils-dbgsym
+Package >osmocom-bs11-utils< not in package-all.txt file
+Write to package-all.txt file: osmocom-bs11-utils
+In package >osmocom-bs11-utils< are these binaries: ['/usr/bin/bs11_config', '/usr/bin/isdnsync']
+Real binaries:['/usr/bin/bs11_config', '/usr/bin/isdnsync']
+Write to package-work.txt file: osmocom-bs11-utils
+Write to package-binaries.txt file: ['/usr/bin/bs11_config', '/usr/bin/isdnsync']
+['/usr/bin/bs11_config', '/usr/bin/isdnsync']

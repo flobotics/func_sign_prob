@@ -3082,3 +3082,5 @@
 /usr/bin/osmo-bsc_mgcp
 /usr/bin/osmo-bsc_nat
 /usr/bin/osmo-nitb
+/usr/bin/bs11_config
+/usr/bin/isdnsync
