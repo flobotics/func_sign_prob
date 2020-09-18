@@ -1960,3 +1960,4 @@ openssn
 opencc
 ocamlbuild
 openslide-tools
+omnievents
