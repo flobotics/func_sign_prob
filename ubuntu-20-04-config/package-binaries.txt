@@ -3688,3 +3688,4 @@
 /usr/bin/opendkim-testkey
 /usr/bin/opendkim-testmsg
 /usr/bin/ovn-controller-vtep
+/usr/bin/ovn-ic
