@@ -3569,3 +3569,13 @@
 /usr/bin/OrthancWSIDicomToTiff
 /usr/bin/OrthancWSIDicomizer
 /usr/bin/DRAWEXE
+/usr/bin/ocount
+/usr/bin/op-check-perfevents
+/usr/bin/opannotate
+/usr/bin/oparchive
+/usr/bin/operf
+/usr/bin/opgprof
+/usr/bin/ophelp
+/usr/bin/opimport
+/usr/bin/opjitconv
+/usr/bin/opreport
