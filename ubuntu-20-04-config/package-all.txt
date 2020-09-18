@@ -1867,3 +1867,8 @@ octomap-tools
 octovis
 osgearth
 osm2pgrouting
+octave-image-acquisition
+opendrim-lmp-sensors
+octave-quaternion
+octave-dicom
+ostinato

@@ -3730,3 +3730,5 @@
 /usr/bin/osgearth_version
 /usr/bin/osgearth_viewer
 /usr/bin/osm2pgrouting
+/usr/bin/drone
+/usr/bin/ostinato

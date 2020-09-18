@@ -1255,3 +1255,4 @@ octomap-tools
 octovis
 osgearth
 osm2pgrouting
+ostinato

@@ -607,3 +607,7 @@ oneko
 python3-openturns
 orthanc-mysql
 opendrim-lmp-simpleidentitymanagement
+octave-image-acquisition
+opendrim-lmp-sensors
+octave-quaternion
+octave-dicom
