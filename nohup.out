@@ -4554,3 +4554,27 @@ Real binaries:['/usr/bin/original-awk']
 Write to package-work.txt file: original-awk
 Write to package-binaries.txt file: ['/usr/bin/original-awk']
 ['/usr/bin/original-awk']
+Write pickle file
+tar_out:
+Package-nr:1513 of 11000, Name:postgresql-12-omnidb-dbgsym
+Package >postgresql-12-omnidb< not in package-all.txt file
+Write to package-all.txt file: postgresql-12-omnidb
+In package >postgresql-12-omnidb< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: postgresql-12-omnidb
+[]
+Package-nr:1514 of 11000, Name:octave-ltfat-dbgsym
+Package >octave-ltfat< not in package-all.txt file
+Write to package-all.txt file: octave-ltfat
+In package >octave-ltfat< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: octave-ltfat
+[]
+Package-nr:1515 of 11000, Name:opencryptoki-dbgsym
+Package >opencryptoki< not in package-all.txt file
+Write to package-all.txt file: opencryptoki
+In package >opencryptoki< are these binaries: ['/usr/sbin/pkcscca', '/usr/sbin/pkcsconf', '/usr/sbin/pkcsicsf', '/usr/sbin/pkcsslotd']
+Real binaries:['/usr/sbin/pkcscca', '/usr/sbin/pkcsconf', '/usr/sbin/pkcsicsf', '/usr/sbin/pkcsslotd']
+Write to package-work.txt file: opencryptoki
+Write to package-binaries.txt file: ['/usr/sbin/pkcscca', '/usr/sbin/pkcsconf', '/usr/sbin/pkcsicsf', '/usr/sbin/pkcsslotd']
+['/usr/sbin/pkcscca', '/usr/sbin/pkcsconf', '/usr/sbin/pkcsicsf', '/usr/sbin/pkcsslotd']

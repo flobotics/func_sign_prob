@@ -1706,3 +1706,6 @@ oar-server
 oar-restful-api
 oar-user
 original-awk
+postgresql-12-omnidb
+octave-ltfat
+opencryptoki
