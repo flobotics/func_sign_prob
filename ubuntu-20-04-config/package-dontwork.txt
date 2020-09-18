@@ -591,3 +591,6 @@ python-openwsman
 opensc-pkcs11
 owfs-fuse
 octave-nan
+onboard
+opencity
+octave-zeromq

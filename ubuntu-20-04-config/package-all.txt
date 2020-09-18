@@ -1831,3 +1831,7 @@ ophcrack-cli
 odin
 mitools
 opendkim-tools
+onboard
+opencity
+octave-zeromq
+ovn-controller-vtep
