@@ -2041,3 +2041,4 @@ frr-snmp
 findimagedupes
 fbpager
 fmit
+ffmsindex

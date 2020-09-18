@@ -4208,3 +4208,4 @@
 /usr/bin/vtysh
 /usr/bin/fbpager
 /usr/bin/fmit
+/usr/bin/ffmsindex
