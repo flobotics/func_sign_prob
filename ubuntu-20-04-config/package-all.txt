@@ -1716,3 +1716,4 @@ omniorb
 omniorb-nameserver
 octave-general
 oidentd
+opari2

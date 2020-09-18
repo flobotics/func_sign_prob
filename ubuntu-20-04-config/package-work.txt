@@ -1165,3 +1165,4 @@ omniidl
 omniorb
 omniorb-nameserver
 oidentd
+opari2

@@ -3060,3 +3060,4 @@
 /usr/bin/omniMapper
 /usr/bin/omniNames
 /usr/sbin/oidentd
+/usr/bin/opari2
