@@ -1193,3 +1193,4 @@ ogmrip
 openal-info
 makehrtf
 olive-editor
+openclonk

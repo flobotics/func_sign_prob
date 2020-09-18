@@ -5061,3 +5061,13 @@ Real binaries:['/usr/bin/olive-editor']
 Write to package-work.txt file: olive-editor
 Write to package-binaries.txt file: ['/usr/bin/olive-editor']
 ['/usr/bin/olive-editor']
+Write pickle file
+tar_out:
+Package-nr:1574 of 11000, Name:openclonk-dbgsym
+Package >openclonk< not in package-all.txt file
+Write to package-all.txt file: openclonk
+In package >openclonk< are these binaries: ['/usr/bin/c4group']
+Real binaries:['/usr/bin/c4group']
+Write to package-work.txt file: openclonk
+Write to package-binaries.txt file: ['/usr/bin/c4group']
+['/usr/bin/c4group']

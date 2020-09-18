@@ -3273,3 +3273,4 @@
 /usr/bin/openal-info
 /usr/bin/makehrtf
 /usr/bin/olive-editor
+/usr/bin/c4group
