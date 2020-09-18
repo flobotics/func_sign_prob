@@ -4267,3 +4267,5 @@
 /usr/bin/fzy
 /usr/bin/foxtrotgps
 /usr/bin/fim
+/usr/bin/fapg
+/usr/bin/fcitx-imlist

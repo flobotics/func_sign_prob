@@ -2095,3 +2095,6 @@ python3-fastchunking
 fzy
 foxtrotgps
 fim
+fcitx-libpinyin
+fapg
+fcitx-imlist

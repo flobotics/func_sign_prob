@@ -1384,3 +1384,5 @@ fcitx-tools
 fzy
 foxtrotgps
 fim
+fapg
+fcitx-imlist
