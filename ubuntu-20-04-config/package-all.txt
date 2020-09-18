@@ -2150,3 +2150,6 @@ fcitx-module-cloudpinyin
 fcitx-module-punc-ng
 freetype2-demos
 fuseiso9660
+umview-mod-umfuseiso9660
+freedroidrpg
+facter

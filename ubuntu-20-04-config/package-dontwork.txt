@@ -724,3 +724,5 @@ fwupd-tests
 freeglut3
 fcitx-module-cloudpinyin
 fcitx-module-punc-ng
+umview-mod-umfuseiso9660
+freedroidrpg

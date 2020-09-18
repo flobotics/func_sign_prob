@@ -4320,3 +4320,4 @@
 /usr/bin/ftview
 /usr/bin/ttdebug
 /usr/bin/fuseiso9660
+/usr/bin/facter

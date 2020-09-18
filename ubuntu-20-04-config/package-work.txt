@@ -1421,3 +1421,4 @@ fdclone
 field3d-tools
 freetype2-demos
 fuseiso9660
+facter
