@@ -2073,3 +2073,4 @@ free42-nologo
 faust
 fastqtl
 fdclock
+fortune-mod

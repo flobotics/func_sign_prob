@@ -1374,3 +1374,4 @@ ffdiaporama
 faust
 fastqtl
 fdclock
+fortune-mod

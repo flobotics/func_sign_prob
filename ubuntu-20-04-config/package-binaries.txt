@@ -4246,3 +4246,5 @@
 /usr/bin/fastQTL
 /usr/bin/fdfacepng
 /usr/bin/fdclock
+/usr/bin/strfile
+/usr/bin/unstr
