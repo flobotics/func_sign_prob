@@ -1702,3 +1702,5 @@ ocsinventory-agent
 slapd-contrib
 octave-gsl
 oar-common
+oar-server
+oar-restful-api

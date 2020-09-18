@@ -3037,3 +3037,5 @@
 /usr/bin/otags
 /usr/bin/ipdiscover
 /usr/bin/oarsh
+/usr/lib/cgi-bin/oarapi/oarapi-debug.cgi
+/usr/lib/cgi-bin/oarapi/oarapi.cgi

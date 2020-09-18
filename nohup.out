@@ -1,0 +1,4536 @@
+git-user:flobotics  git-pwd:3-/px54
+Package-nr:1 of 11000, Name:kexec-tools-dbgsym
+Skip package >kexec-tools<, already in package-all.txt file
+[]
+Package-nr:2 of 11000, Name:keepalived-dbgsym
+Skip package >keepalived<, already in package-all.txt file
+[]
+Package-nr:3 of 11000, Name:keyutils-dbgsym
+Skip package >keyutils<, already in package-all.txt file
+[]
+Package-nr:4 of 11000, Name:klibc-utils-dbgsym
+Skip package >klibc-utils<, already in package-all.txt file
+[]
+Package-nr:5 of 11000, Name:kerneloops-dbgsym
+Skip package >kerneloops<, already in package-all.txt file
+[]
+Package-nr:6 of 11000, Name:kmod-dbgsym
+Skip package >kmod<, already in package-all.txt file
+[]
+Package-nr:7 of 11000, Name:kbd-dbgsym
+Skip package >kbd<, already in package-all.txt file
+[]
+Package-nr:8 of 11000, Name:bsd-mailx-dbgsym
+Skip package >bsd-mailx<, already in package-all.txt file
+[]
+Package-nr:9 of 11000, Name:bc-dbgsym
+Skip package >bc<, already in package-all.txt file
+[]
+Package-nr:10 of 11000, Name:dc-dbgsym
+Skip package >dc<, already in package-all.txt file
+[]
+Package-nr:11 of 11000, Name:bogl-bterm-dbgsym
+Skip package >bogl-bterm<, already in package-all.txt file
+[]
+Package-nr:12 of 11000, Name:bsdmainutils-dbgsym
+Skip package >bsdmainutils<, already in package-all.txt file
+[]
+Package-nr:13 of 11000, Name:bash-dbgsym
+Skip package >bash<, already in package-all.txt file
+[]
+Package-nr:14 of 11000, Name:bridge-utils-dbgsym
+Skip package >bridge-utils<, already in package-all.txt file
+[]
+Package-nr:15 of 11000, Name:btrfs-progs-dbgsym
+Skip package >btrfs-progs<, already in package-all.txt file
+[]
+Package-nr:16 of 11000, Name:busybox-static-dbgsym
+Skip package >busybox-static<, already in package-all.txt file
+[]
+Package-nr:17 of 11000, Name:busybox-initramfs-dbgsym
+Skip package >busybox-initramfs<, already in package-all.txt file
+[]
+Package-nr:18 of 11000, Name:bind9-dnsutils-dbgsym
+Skip package >bind9-dnsutils<, already in package-all.txt file
+[]
+Package-nr:19 of 11000, Name:bind9-utils-dbgsym
+Skip package >bind9-utils<, already in package-all.txt file
+[]
+Package-nr:20 of 11000, Name:bind9-libs-dbgsym
+Skip package >bind9-libs<, already in package-all.txt file
+[]
+Package-nr:21 of 11000, Name:bind9-dbgsym
+Skip package >bind9<, already in package-all.txt file
+[]
+Package-nr:22 of 11000, Name:bind9-host-dbgsym
+Skip package >bind9-host<, already in package-all.txt file
+[]
+Package-nr:23 of 11000, Name:baobab-dbgsym
+Skip package >baobab<, already in package-all.txt file
+[]
+Package-nr:24 of 11000, Name:base-files-dbgsym
+Skip package >base-files<, already in package-all.txt file
+[]
+Package-nr:25 of 11000, Name:base-passwd-dbgsym
+Skip package >base-passwd<, already in package-all.txt file
+[]
+Package-nr:26 of 11000, Name:bcache-tools-dbgsym
+Skip package >bcache-tools<, already in package-all.txt file
+[]
+Package-nr:27 of 11000, Name:backuppc-dbgsym
+Skip package >backuppc<, already in package-all.txt file
+[]
+Package-nr:28 of 11000, Name:bolt-dbgsym
+Skip package >bolt<, already in package-all.txt file
+[]
+Package-nr:29 of 11000, Name:bzip2-dbgsym
+Skip package >bzip2<, already in package-all.txt file
+[]
+Package-nr:30 of 11000, Name:bubblewrap-dbgsym
+Skip package >bubblewrap<, already in package-all.txt file
+[]
+Package-nr:31 of 11000, Name:b43-fwcutter-dbgsym
+Skip package >b43-fwcutter<, already in package-all.txt file
+[]
+Package-nr:32 of 11000, Name:xbrlapi-dbgsym
+Skip package >xbrlapi<, already in package-all.txt file
+[]
+Package-nr:33 of 11000, Name:brltty-dbgsym
+Skip package >brltty<, already in package-all.txt file
+[]
+Package-nr:34 of 11000, Name:python3-brlapi-dbgsym
+Skip package >python3-brlapi<, already in package-all.txt file
+[]
+Package-nr:35 of 11000, Name:printer-driver-brlaser-dbgsym
+Skip package >printer-driver-brlaser<, already in package-all.txt file
+[]
+Package-nr:36 of 11000, Name:bison-dbgsym
+Skip package >bison<, already in package-all.txt file
+[]
+Package-nr:37 of 11000, Name:tk8.6-blt2.5-dbgsym
+Skip package >tk8.6-blt2.5<, already in package-all.txt file
+[]
+Package-nr:38 of 11000, Name:openssl-dbgsym
+Skip package >openssl<, already in package-all.txt file
+[]
+Package-nr:39 of 11000, Name:os-prober-dbgsym
+Skip package >os-prober<, already in package-all.txt file
+[]
+Package-nr:40 of 11000, Name:openhpid-dbgsym
+Skip package >openhpid<, already in package-all.txt file
+[]
+Package-nr:41 of 11000, Name:openhpi-clients-dbgsym
+Skip package >openhpi-clients<, already in package-all.txt file
+[]
+Package-nr:42 of 11000, Name:ldap-utils-dbgsym
+Skip package >ldap-utils<, already in package-all.txt file
+[]
+Package-nr:43 of 11000, Name:slapd-dbgsym
+Skip package >slapd<, already in package-all.txt file
+[]
+Package-nr:44 of 11000, Name:ocfs2-tools-dbgsym
+Skip package >ocfs2-tools<, already in package-all.txt file
+[]
+Package-nr:45 of 11000, Name:open-iscsi-dbgsym
+Skip package >open-iscsi<, already in package-all.txt file
+[]
+Package-nr:46 of 11000, Name:ocl-icd-libopencl1-dbgsym
+Skip package >ocl-icd-libopencl1<, already in package-all.txt file
+[]
+Package-nr:47 of 11000, Name:optipng-dbgsym
+Skip package >optipng<, already in package-all.txt file
+[]
+Package-nr:48 of 11000, Name:ovn-common-dbgsym
+Skip package >ovn-common<, already in package-all.txt file
+[]
+Package-nr:49 of 11000, Name:ovn-host-dbgsym
+Skip package >ovn-host<, already in package-all.txt file
+[]
+Package-nr:50 of 11000, Name:ovn-central-dbgsym
+Skip package >ovn-central<, already in package-all.txt file
+[]
+Package-nr:51 of 11000, Name:openipmi-dbgsym
+Skip package >openipmi<, already in package-all.txt file
+[]
+Package-nr:52 of 11000, Name:openvpn-dbgsym
+Skip package >openvpn<, already in package-all.txt file
+[]
+Package-nr:53 of 11000, Name:open-vm-tools-desktop-dbgsym
+Skip package >open-vm-tools-desktop<, already in package-all.txt file
+[]
+Package-nr:54 of 11000, Name:open-vm-tools-dbgsym
+Skip package >open-vm-tools<, already in package-all.txt file
+[]
+Package-nr:55 of 11000, Name:openssh-server-dbgsym
+Skip package >openssh-server<, already in package-all.txt file
+[]
+Package-nr:56 of 11000, Name:openssh-sftp-server-dbgsym
+Skip package >openssh-sftp-server<, already in package-all.txt file
+[]
+Package-nr:57 of 11000, Name:openssh-client-dbgsym
+Skip package >openssh-client<, already in package-all.txt file
+[]
+Package-nr:58 of 11000, Name:freeradius-dhcp-dbgsym
+Skip package >freeradius-dhcp<, already in package-all.txt file
+[]
+Package-nr:59 of 11000, Name:freeradius-utils-dbgsym
+Skip package >freeradius-utils<, already in package-all.txt file
+[]
+Package-nr:60 of 11000, Name:freeradius-dbgsym
+Skip package >freeradius<, already in package-all.txt file
+[]
+Package-nr:61 of 11000, Name:fprintd-dbgsym
+Skip package >fprintd<, already in package-all.txt file
+[]
+Package-nr:62 of 11000, Name:tdsodbc-dbgsym
+Skip package >tdsodbc<, already in package-all.txt file
+[]
+Package-nr:63 of 11000, Name:freeipmi-tools-dbgsym
+Skip package >freeipmi-tools<, already in package-all.txt file
+[]
+Package-nr:64 of 11000, Name:printer-driver-foo2zjs-dbgsym
+Skip package >printer-driver-foo2zjs<, already in package-all.txt file
+[]
+Package-nr:65 of 11000, Name:fetchmail-dbgsym
+Skip package >fetchmail<, already in package-all.txt file
+[]
+Package-nr:66 of 11000, Name:findutils-dbgsym
+Skip package >findutils<, already in package-all.txt file
+[]
+Package-nr:67 of 11000, Name:fwupd-dbgsym
+Skip package >fwupd<, already in package-all.txt file
+[]
+Package-nr:68 of 11000, Name:fbset-dbgsym
+Skip package >fbset<, already in package-all.txt file
+[]
+Package-nr:69 of 11000, Name:flex-dbgsym
+Skip package >flex<, already in package-all.txt file
+[]
+Package-nr:70 of 11000, Name:file-dbgsym
+Skip package >file<, already in package-all.txt file
+[]
+Package-nr:71 of 11000, Name:fuse-dbgsym
+Skip package >fuse<, already in package-all.txt file
+[]
+Package-nr:72 of 11000, Name:fontconfig-dbgsym
+Skip package >fontconfig<, already in package-all.txt file
+[]
+Package-nr:73 of 11000, Name:file-roller-dbgsym
+Skip package >file-roller<, already in package-all.txt file
+[]
+Package-nr:74 of 11000, Name:fakeroot-dbgsym
+Skip package >fakeroot<, already in package-all.txt file
+[]
+Package-nr:75 of 11000, Name:seccomp-dbgsym
+Skip package >seccomp<, already in package-all.txt file
+[]
+Package-nr:76 of 11000, Name:tgt-dbgsym
+Skip package >tgt<, already in package-all.txt file
+[]
+Package-nr:77 of 11000, Name:python3-talloc-dbgsym
+Skip package >python3-talloc<, already in package-all.txt file
+[]
+Package-nr:78 of 11000, Name:transmission-gtk-dbgsym
+Skip package >transmission-gtk<, already in package-all.txt file
+[]
+Package-nr:79 of 11000, Name:tmux-dbgsym
+Skip package >tmux<, already in package-all.txt file
+[]
+Package-nr:80 of 11000, Name:thermald-dbgsym
+Skip package >thermald<, already in package-all.txt file
+[]
+Package-nr:81 of 11000, Name:totem-dbgsym
+Skip package >totem<, already in package-all.txt file
+[]
+Package-nr:82 of 11000, Name:tcpdump-dbgsym
+Skip package >tcpdump<, already in package-all.txt file
+[]
+Package-nr:83 of 11000, Name:time-dbgsym
+Skip package >time<, already in package-all.txt file
+[]
+Package-nr:84 of 11000, Name:tracker-dbgsym
+Skip package >tracker<, already in package-all.txt file
+[]
+Package-nr:85 of 11000, Name:tk8.6-dbgsym
+Skip package >tk8.6<, already in package-all.txt file
+[]
+Package-nr:86 of 11000, Name:tcl8.6-dbgsym
+Skip package >tcl8.6<, already in package-all.txt file
+[]
+Package-nr:87 of 11000, Name:tracker-miner-fs-dbgsym
+Skip package >tracker-miner-fs<, already in package-all.txt file
+[]
+Package-nr:88 of 11000, Name:tracker-extract-dbgsym
+Skip package >tracker-extract<, already in package-all.txt file
+[]
+Package-nr:89 of 11000, Name:install-info-dbgsym
+Skip package >install-info<, already in package-all.txt file
+[]
+Package-nr:90 of 11000, Name:info-dbgsym
+Skip package >info<, already in package-all.txt file
+[]
+Package-nr:91 of 11000, Name:tar-dbgsym
+Skip package >tar<, already in package-all.txt file
+[]
+Package-nr:92 of 11000, Name:thin-provisioning-tools-dbgsym
+Skip package >thin-provisioning-tools<, already in package-all.txt file
+[]
+Package-nr:93 of 11000, Name:tmispell-voikko-dbgsym
+Skip package >tmispell-voikko<, already in package-all.txt file
+[]
+Package-nr:94 of 11000, Name:tinycdb-dbgsym
+Skip package >tinycdb<, already in package-all.txt file
+[]
+Package-nr:95 of 11000, Name:t1utils-dbgsym
+Skip package >t1utils<, already in package-all.txt file
+[]
+Package-nr:96 of 11000, Name:python3-tdb-dbgsym
+Skip package >python3-tdb<, already in package-all.txt file
+[]
+Package-nr:97 of 11000, Name:tdb-tools-dbgsym
+Skip package >tdb-tools<, already in package-all.txt file
+[]
+Package-nr:98 of 11000, Name:ibus-dbgsym
+Skip package >ibus<, already in package-all.txt file
+[]
+Package-nr:99 of 11000, Name:ibus-gtk-dbgsym
+Skip package >ibus-gtk<, already in package-all.txt file
+[]
+Package-nr:100 of 11000, Name:ibus-gtk3-dbgsym
+Skip package >ibus-gtk3<, already in package-all.txt file
+[]
+Package-nr:101 of 11000, Name:initramfs-tools-bin-dbgsym
+Skip package >initramfs-tools-bin<, already in package-all.txt file
+[]
+Package-nr:102 of 11000, Name:ibus-unikey-dbgsym
+Skip package >ibus-unikey<, already in package-all.txt file
+[]
+Package-nr:103 of 11000, Name:iputils-ping-dbgsym
+Skip package >iputils-ping<, already in package-all.txt file
+[]
+Package-nr:104 of 11000, Name:iputils-tracepath-dbgsym
+Skip package >iputils-tracepath<, already in package-all.txt file
+[]
+Package-nr:105 of 11000, Name:iputils-arping-dbgsym
+Skip package >iputils-arping<, already in package-all.txt file
+[]
+Package-nr:106 of 11000, Name:ibus-libpinyin-dbgsym
+Skip package >ibus-libpinyin<, already in package-all.txt file
+[]
+Package-nr:107 of 11000, Name:iw-dbgsym
+Skip package >iw<, already in package-all.txt file
+[]
+Package-nr:108 of 11000, Name:iucode-tool-dbgsym
+Skip package >iucode-tool<, already in package-all.txt file
+[]
+Package-nr:109 of 11000, Name:icu-devtools-dbgsym
+Skip package >icu-devtools<, already in package-all.txt file
+[]
+Package-nr:110 of 11000, Name:ippusbxd-dbgsym
+Skip package >ippusbxd<, already in package-all.txt file
+[]
+Package-nr:111 of 11000, Name:ipvsadm-dbgsym
+Skip package >ipvsadm<, already in package-all.txt file
+[]
+Package-nr:112 of 11000, Name:irda-utils-dbgsym
+Skip package >irda-utils<, already in package-all.txt file
+[]
+Package-nr:113 of 11000, Name:ipset-dbgsym
+Skip package >ipset<, already in package-all.txt file
+[]
+Package-nr:114 of 11000, Name:iio-sensor-proxy-dbgsym
+Skip package >iio-sensor-proxy<, already in package-all.txt file
+[]
+Package-nr:115 of 11000, Name:irssi-dbgsym
+Skip package >irssi<, already in package-all.txt file
+[]
+Package-nr:116 of 11000, Name:ibus-m17n-dbgsym
+Skip package >ibus-m17n<, already in package-all.txt file
+[]
+Package-nr:117 of 11000, Name:iptables-dbgsym
+Skip package >iptables<, already in package-all.txt file
+[]
+Package-nr:118 of 11000, Name:irqbalance-dbgsym
+Skip package >irqbalance<, already in package-all.txt file
+[]
+Package-nr:119 of 11000, Name:iproute2-dbgsym
+Skip package >iproute2<, already in package-all.txt file
+[]
+Package-nr:120 of 11000, Name:indent-dbgsym
+Skip package >indent<, already in package-all.txt file
+[]
+Package-nr:121 of 11000, Name:isc-dhcp-server-dbgsym
+Skip package >isc-dhcp-server<, already in package-all.txt file
+[]
+Package-nr:122 of 11000, Name:isc-dhcp-client-dbgsym
+Skip package >isc-dhcp-client<, already in package-all.txt file
+[]
+Package-nr:123 of 11000, Name:ibus-chewing-dbgsym
+Skip package >ibus-chewing<, already in package-all.txt file
+[]
+Package-nr:124 of 11000, Name:ibus-hangul-dbgsym
+Skip package >ibus-hangul<, already in package-all.txt file
+[]
+Package-nr:125 of 11000, Name:iptraf-ng-dbgsym
+Skip package >iptraf-ng<, already in package-all.txt file
+[]
+Package-nr:126 of 11000, Name:corosync-dbgsym
+Skip package >corosync<, already in package-all.txt file
+[]
+Package-nr:127 of 11000, Name:cmake-dbgsym
+Skip package >cmake<, already in package-all.txt file
+[]
+Package-nr:128 of 11000, Name:cifs-utils-dbgsym
+Skip package >cifs-utils<, already in package-all.txt file
+[]
+Package-nr:129 of 11000, Name:cracklib-runtime-dbgsym
+Skip package >cracklib-runtime<, already in package-all.txt file
+[]
+Package-nr:130 of 11000, Name:chrony-dbgsym
+Skip package >chrony<, already in package-all.txt file
+[]
+Package-nr:131 of 11000, Name:colord-dbgsym
+Skip package >colord<, already in package-all.txt file
+[]
+Package-nr:132 of 11000, Name:cheese-dbgsym
+Skip package >cheese<, already in package-all.txt file
+[]
+Package-nr:133 of 11000, Name:cups-ipp-utils-dbgsym
+Skip package >cups-ipp-utils<, already in package-all.txt file
+[]
+Package-nr:134 of 11000, Name:cups-bsd-dbgsym
+Skip package >cups-bsd<, already in package-all.txt file
+[]
+Package-nr:135 of 11000, Name:cups-ppdc-dbgsym
+Skip package >cups-ppdc<, already in package-all.txt file
+[]
+Package-nr:136 of 11000, Name:cups-client-dbgsym
+Skip package >cups-client<, already in package-all.txt file
+[]
+Package-nr:137 of 11000, Name:cups-dbgsym
+Skip package >cups<, already in package-all.txt file
+[]
+Package-nr:138 of 11000, Name:cups-daemon-dbgsym
+Skip package >cups-daemon<, already in package-all.txt file
+[]
+Package-nr:139 of 11000, Name:cups-core-drivers-dbgsym
+Skip package >cups-core-drivers<, already in package-all.txt file
+[]
+Package-nr:140 of 11000, Name:cdebconf-dbgsym
+Skip package >cdebconf<, already in package-all.txt file
+[]
+Package-nr:141 of 11000, Name:cron-dbgsym
+Skip package >cron<, already in package-all.txt file
+[]
+Package-nr:142 of 11000, Name:crda-dbgsym
+Skip package >crda<, already in package-all.txt file
+[]
+Package-nr:143 of 11000, Name:ccache-dbgsym
+Skip package >ccache<, already in package-all.txt file
+[]
+Package-nr:144 of 11000, Name:curl-dbgsym
+Skip package >curl<, already in package-all.txt file
+[]
+Package-nr:145 of 11000, Name:casper-dbgsym
+Skip package >casper<, already in package-all.txt file
+[]
+Package-nr:146 of 11000, Name:cryptsetup-dbgsym
+Skip package >cryptsetup<, already in package-all.txt file
+[]
+Package-nr:147 of 11000, Name:cryptsetup-bin-dbgsym
+Skip package >cryptsetup-bin<, already in package-all.txt file
+[]
+Package-nr:148 of 11000, Name:printer-driver-c2esp-dbgsym
+Skip package >printer-driver-c2esp<, already in package-all.txt file
+[]
+Package-nr:149 of 11000, Name:genisoimage-dbgsym
+Skip package >genisoimage<, already in package-all.txt file
+[]
+Package-nr:150 of 11000, Name:containerd-dbgsym
+Skip package >containerd<, already in package-all.txt file
+[]
+Package-nr:151 of 11000, Name:conntrack-dbgsym
+Skip package >conntrack<, already in package-all.txt file
+[]
+Package-nr:152 of 11000, Name:gstreamer1.0-clutter-3.0-dbgsym
+Skip package >gstreamer1.0-clutter-3.0<, already in package-all.txt file
+[]
+Package-nr:153 of 11000, Name:ceph-mds-dbgsym
+Skip package >ceph-mds<, already in package-all.txt file
+[]
+Package-nr:154 of 11000, Name:python3-cephfs-dbgsym
+Skip package >python3-cephfs<, already in package-all.txt file
+[]
+Package-nr:155 of 11000, Name:ceph-mgr-dbgsym
+Skip package >ceph-mgr<, already in package-all.txt file
+[]
+Package-nr:156 of 11000, Name:radosgw-dbgsym
+Skip package >radosgw<, already in package-all.txt file
+[]
+Package-nr:157 of 11000, Name:python3-rbd-dbgsym
+Skip package >python3-rbd<, already in package-all.txt file
+[]
+Package-nr:158 of 11000, Name:ceph-common-dbgsym
+Skip package >ceph-common<, already in package-all.txt file
+[]
+Package-nr:159 of 11000, Name:ceph-base-dbgsym
+Skip package >ceph-base<, already in package-all.txt file
+[]
+Package-nr:160 of 11000, Name:python3-rados-dbgsym
+Skip package >python3-rados<, already in package-all.txt file
+[]
+Package-nr:161 of 11000, Name:ceph-osd-dbgsym
+Skip package >ceph-osd<, already in package-all.txt file
+[]
+Package-nr:162 of 11000, Name:ceph-mon-dbgsym
+Skip package >ceph-mon<, already in package-all.txt file
+[]
+Package-nr:163 of 11000, Name:cups-filters-dbgsym
+Skip package >cups-filters<, already in package-all.txt file
+[]
+Package-nr:164 of 11000, Name:cups-browsed-dbgsym
+Skip package >cups-browsed<, already in package-all.txt file
+[]
+Package-nr:165 of 11000, Name:cups-filters-core-drivers-dbgsym
+Skip package >cups-filters-core-drivers<, already in package-all.txt file
+[]
+Package-nr:166 of 11000, Name:cluster-glue-dbgsym
+Skip package >cluster-glue<, already in package-all.txt file
+[]
+Package-nr:167 of 11000, Name:coreutils-dbgsym
+Skip package >coreutils<, already in package-all.txt file
+[]
+Package-nr:168 of 11000, Name:clamav-freshclam-dbgsym
+Skip package >clamav-freshclam<, already in package-all.txt file
+[]
+Package-nr:169 of 11000, Name:clamdscan-dbgsym
+Skip package >clamdscan<, already in package-all.txt file
+[]
+Package-nr:170 of 11000, Name:clamav-daemon-dbgsym
+Skip package >clamav-daemon<, already in package-all.txt file
+[]
+Package-nr:171 of 11000, Name:clamav-dbgsym
+Skip package >clamav<, already in package-all.txt file
+[]
+Package-nr:172 of 11000, Name:crash-dbgsym
+Skip package >crash<, already in package-all.txt file
+[]
+Package-nr:173 of 11000, Name:sasl2-bin-dbgsym
+Skip package >sasl2-bin<, already in package-all.txt file
+[]
+Package-nr:174 of 11000, Name:cups-pk-helper-dbgsym
+Skip package >cups-pk-helper<, already in package-all.txt file
+[]
+Package-nr:175 of 11000, Name:qemu-system-arm-dbgsym
+Skip package >qemu-system-arm<, already in package-all.txt file
+[]
+Package-nr:176 of 11000, Name:qemu-system-misc-dbgsym
+Skip package >qemu-system-misc<, already in package-all.txt file
+[]
+Package-nr:177 of 11000, Name:qemu-system-common-dbgsym
+Skip package >qemu-system-common<, already in package-all.txt file
+[]
+Package-nr:178 of 11000, Name:qemu-system-s390x-dbgsym
+Skip package >qemu-system-s390x<, already in package-all.txt file
+[]
+Package-nr:179 of 11000, Name:qemu-utils-dbgsym
+Skip package >qemu-utils<, already in package-all.txt file
+[]
+Package-nr:180 of 11000, Name:qemu-system-sparc-dbgsym
+Skip package >qemu-system-sparc<, already in package-all.txt file
+[]
+Package-nr:181 of 11000, Name:qemu-system-gui-dbgsym
+Skip package >qemu-system-gui<, already in package-all.txt file
+[]
+Package-nr:182 of 11000, Name:qemu-block-extra-dbgsym
+Skip package >qemu-block-extra<, already in package-all.txt file
+[]
+Package-nr:183 of 11000, Name:qemu-system-mips-dbgsym
+Skip package >qemu-system-mips<, already in package-all.txt file
+[]
+Package-nr:184 of 11000, Name:qemu-system-x86-dbgsym
+Skip package >qemu-system-x86<, already in package-all.txt file
+[]
+Package-nr:185 of 11000, Name:qemu-system-ppc-dbgsym
+Skip package >qemu-system-ppc<, already in package-all.txt file
+[]
+Package-nr:186 of 11000, Name:quota-dbgsym
+Skip package >quota<, already in package-all.txt file
+[]
+Package-nr:187 of 11000, Name:quagga-core-dbgsym
+Skip package >quagga-core<, already in package-all.txt file
+[]
+Package-nr:188 of 11000, Name:quagga-pimd-dbgsym
+Skip package >quagga-pimd<, already in package-all.txt file
+[]
+Package-nr:189 of 11000, Name:quagga-ospf6d-dbgsym
+Skip package >quagga-ospf6d<, already in package-all.txt file
+[]
+Package-nr:190 of 11000, Name:quagga-ospfd-dbgsym
+Skip package >quagga-ospfd<, already in package-all.txt file
+[]
+Package-nr:191 of 11000, Name:quagga-ripngd-dbgsym
+Skip package >quagga-ripngd<, already in package-all.txt file
+[]
+Package-nr:192 of 11000, Name:quagga-bgpd-dbgsym
+Skip package >quagga-bgpd<, already in package-all.txt file
+[]
+Package-nr:193 of 11000, Name:quagga-isisd-dbgsym
+Skip package >quagga-isisd<, already in package-all.txt file
+[]
+Package-nr:194 of 11000, Name:quagga-ripd-dbgsym
+Skip package >quagga-ripd<, already in package-all.txt file
+[]
+Package-nr:195 of 11000, Name:xsltproc-dbgsym
+Skip package >xsltproc<, already in package-all.txt file
+[]
+Package-nr:196 of 11000, Name:xserver-xorg-video-amdgpu-dbgsym
+Skip package >xserver-xorg-video-amdgpu<, already in package-all.txt file
+[]
+Package-nr:197 of 11000, Name:xfsprogs-dbgsym
+Skip package >xfsprogs<, already in package-all.txt file
+[]
+Package-nr:198 of 11000, Name:xfsdump-dbgsym
+Skip package >xfsdump<, already in package-all.txt file
+[]
+Package-nr:199 of 11000, Name:xdg-desktop-portal-dbgsym
+Skip package >xdg-desktop-portal<, already in package-all.txt file
+[]
+Package-nr:200 of 11000, Name:x11-xkb-utils-dbgsym
+Skip package >x11-xkb-utils<, already in package-all.txt file
+[]
+Package-nr:201 of 11000, Name:xauth-dbgsym
+Skip package >xauth<, already in package-all.txt file
+[]
+Package-nr:202 of 11000, Name:xz-utils-dbgsym
+Skip package >xz-utils<, already in package-all.txt file
+[]
+Package-nr:203 of 11000, Name:xserver-xorg-input-libinput-dbgsym
+Skip package >xserver-xorg-input-libinput<, already in package-all.txt file
+[]
+Package-nr:204 of 11000, Name:xdg-user-dirs-dbgsym
+Skip package >xdg-user-dirs<, already in package-all.txt file
+[]
+Package-nr:205 of 11000, Name:xserver-xorg-video-radeon-dbgsym
+Skip package >xserver-xorg-video-radeon<, already in package-all.txt file
+[]
+Package-nr:206 of 11000, Name:xserver-xorg-video-ati-dbgsym
+Skip package >xserver-xorg-video-ati<, already in package-all.txt file
+[]
+Package-nr:207 of 11000, Name:xserver-xorg-video-qxl-dbgsym
+Skip package >xserver-xorg-video-qxl<, already in package-all.txt file
+[]
+Package-nr:208 of 11000, Name:xinput-dbgsym
+Skip package >xinput<, already in package-all.txt file
+[]
+Package-nr:209 of 11000, Name:xserver-xorg-video-intel-dbgsym
+Skip package >xserver-xorg-video-intel<, already in package-all.txt file
+[]
+Package-nr:210 of 11000, Name:x11-apps-dbgsym
+Skip package >x11-apps<, already in package-all.txt file
+[]
+Package-nr:211 of 11000, Name:xdg-desktop-portal-gtk-dbgsym
+Skip package >xdg-desktop-portal-gtk<, already in package-all.txt file
+[]
+Package-nr:212 of 11000, Name:xdg-user-dirs-gtk-dbgsym
+Skip package >xdg-user-dirs-gtk<, already in package-all.txt file
+[]
+Package-nr:213 of 11000, Name:xserver-xorg-input-wacom-dbgsym
+Skip package >xserver-xorg-input-wacom<, already in package-all.txt file
+[]
+Package-nr:214 of 11000, Name:xserver-xorg-video-dummy-dbgsym
+Skip package >xserver-xorg-video-dummy<, already in package-all.txt file
+[]
+Package-nr:215 of 11000, Name:x11-xserver-utils-dbgsym
+Skip package >x11-xserver-utils<, already in package-all.txt file
+[]
+Package-nr:216 of 11000, Name:xfonts-utils-dbgsym
+Skip package >xfonts-utils<, already in package-all.txt file
+[]
+Package-nr:217 of 11000, Name:xserver-xorg-legacy-dbgsym
+Skip package >xserver-xorg-legacy<, already in package-all.txt file
+[]
+Package-nr:218 of 11000, Name:xserver-xorg-core-dbgsym
+Skip package >xserver-xorg-core<, already in package-all.txt file
+[]
+Package-nr:219 of 11000, Name:xwayland-dbgsym
+Skip package >xwayland<, already in package-all.txt file
+[]
+Package-nr:220 of 11000, Name:xserver-xephyr-dbgsym
+Skip package >xserver-xephyr<, already in package-all.txt file
+[]
+Package-nr:221 of 11000, Name:xdg-dbus-proxy-dbgsym
+Skip package >xdg-dbus-proxy<, already in package-all.txt file
+[]
+Package-nr:222 of 11000, Name:xmlsec1-dbgsym
+Skip package >xmlsec1<, already in package-all.txt file
+[]
+Package-nr:223 of 11000, Name:x11-session-utils-dbgsym
+Skip package >x11-session-utils<, already in package-all.txt file
+[]
+Package-nr:224 of 11000, Name:xinit-dbgsym
+Skip package >xinit<, already in package-all.txt file
+[]
+Package-nr:225 of 11000, Name:xserver-xorg-video-vmware-dbgsym
+Skip package >xserver-xorg-video-vmware<, already in package-all.txt file
+[]
+Package-nr:226 of 11000, Name:xserver-xorg-video-nouveau-dbgsym
+Skip package >xserver-xorg-video-nouveau<, already in package-all.txt file
+[]
+Package-nr:227 of 11000, Name:x11-utils-dbgsym
+Skip package >x11-utils<, already in package-all.txt file
+[]
+Package-nr:228 of 11000, Name:xserver-xorg-video-fbdev-dbgsym
+Skip package >xserver-xorg-video-fbdev<, already in package-all.txt file
+[]
+Package-nr:229 of 11000, Name:xserver-xorg-video-vesa-dbgsym
+Skip package >xserver-xorg-video-vesa<, already in package-all.txt file
+[]
+Package-nr:230 of 11000, Name:vino-dbgsym
+Skip package >vino<, already in package-all.txt file
+[]
+Package-nr:231 of 11000, Name:vim-dbgsym
+Skip package >vim<, already in package-all.txt file
+[]
+Package-nr:232 of 11000, Name:vim-tiny-dbgsym
+Skip package >vim-tiny<, already in package-all.txt file
+[]
+Package-nr:233 of 11000, Name:xxd-dbgsym
+Skip package >xxd<, already in package-all.txt file
+[]
+Package-nr:234 of 11000, Name:zsh-dbgsym
+Skip package >zsh<, already in package-all.txt file
+[]
+Package-nr:235 of 11000, Name:zlib1g-dbgsym
+Skip package >zlib1g<, already in package-all.txt file
+[]
+Package-nr:236 of 11000, Name:zip-dbgsym
+Skip package >zip<, already in package-all.txt file
+[]
+Package-nr:237 of 11000, Name:zfs-zed-dbgsym
+Skip package >zfs-zed<, already in package-all.txt file
+[]
+Package-nr:238 of 11000, Name:zerofree-dbgsym
+Skip package >zerofree<, already in package-all.txt file
+[]
+Package-nr:239 of 11000, Name:zenity-dbgsym
+Skip package >zenity<, already in package-all.txt file
+[]
+Package-nr:240 of 11000, Name:zsys-dbgsym
+Skip package >zsys<, already in package-all.txt file
+[]
+Package-nr:241 of 11000, Name:usbmuxd-dbgsym
+Skip package >usbmuxd<, already in package-all.txt file
+[]
+Package-nr:242 of 11000, Name:update-notifier-dbgsym
+Skip package >update-notifier<, already in package-all.txt file
+[]
+Package-nr:243 of 11000, Name:odbcinst-dbgsym
+Skip package >odbcinst<, already in package-all.txt file
+[]
+Package-nr:244 of 11000, Name:odbcinst1debian2-dbgsym
+Skip package >odbcinst1debian2<, already in package-all.txt file
+[]
+Package-nr:245 of 11000, Name:udisks2-dbgsym
+Skip package >udisks2<, already in package-all.txt file
+[]
+Package-nr:246 of 11000, Name:cu-dbgsym
+Skip package >cu<, already in package-all.txt file
+[]
+Package-nr:247 of 11000, Name:unzip-dbgsym
+Skip package >unzip<, already in package-all.txt file
+[]
+Package-nr:248 of 11000, Name:ubiquity-frontend-gtk-dbgsym
+Skip package >ubiquity-frontend-gtk<, already in package-all.txt file
+[]
+Package-nr:249 of 11000, Name:ubiquity-dbgsym
+Skip package >ubiquity<, already in package-all.txt file
+[]
+Package-nr:250 of 11000, Name:usb-modeswitch-dbgsym
+Skip package >usb-modeswitch<, already in package-all.txt file
+[]
+Package-nr:251 of 11000, Name:usbutils-dbgsym
+Skip package >usbutils<, already in package-all.txt file
+[]
+Package-nr:252 of 11000, Name:upower-dbgsym
+Skip package >upower<, already in package-all.txt file
+[]
+Package-nr:253 of 11000, Name:uuid-runtime-dbgsym
+Skip package >uuid-runtime<, already in package-all.txt file
+[]
+Package-nr:254 of 11000, Name:mount-dbgsym
+Skip package >mount<, already in package-all.txt file
+[]
+Package-nr:255 of 11000, Name:bsdutils-dbgsym
+Skip package >bsdutils<, already in package-all.txt file
+[]
+Package-nr:256 of 11000, Name:fdisk-dbgsym
+Skip package >fdisk<, already in package-all.txt file
+[]
+Package-nr:257 of 11000, Name:rfkill-dbgsym
+Skip package >rfkill<, already in package-all.txt file
+[]
+Package-nr:258 of 11000, Name:ubuntu-drivers-common-dbgsym
+Skip package >ubuntu-drivers-common<, already in package-all.txt file
+[]
+Package-nr:259 of 11000, Name:net-tools-dbgsym
+Skip package >net-tools<, already in package-all.txt file
+[]
+Package-nr:260 of 11000, Name:telnet-dbgsym
+Skip package >telnet<, already in package-all.txt file
+[]
+Package-nr:261 of 11000, Name:nbd-server-dbgsym
+Skip package >nbd-server<, already in package-all.txt file
+[]
+Package-nr:262 of 11000, Name:nautilus-share-dbgsym
+Skip package >nautilus-share<, already in package-all.txt file
+[]
+Package-nr:263 of 11000, Name:ntfs-3g-dev-dbgsym
+Skip package >ntfs-3g-dev<, already in package-all.txt file
+[]
+Package-nr:264 of 11000, Name:ntfs-3g-dbgsym
+Skip package >ntfs-3g<, already in package-all.txt file
+[]
+Package-nr:265 of 11000, Name:nfs-ganesha-ceph-dbgsym
+Skip package >nfs-ganesha-ceph<, already in package-all.txt file
+[]
+Package-nr:266 of 11000, Name:nfs-ganesha-dbgsym
+Skip package >nfs-ganesha<, already in package-all.txt file
+[]
+Package-nr:267 of 11000, Name:nfs-common-dbgsym
+Skip package >nfs-common<, already in package-all.txt file
+[]
+Package-nr:268 of 11000, Name:nfs-kernel-server-dbgsym
+Skip package >nfs-kernel-server<, already in package-all.txt file
+[]
+Package-nr:269 of 11000, Name:snmp-dbgsym
+Skip package >snmp<, already in package-all.txt file
+[]
+Package-nr:270 of 11000, Name:snmpd-dbgsym
+Skip package >snmpd<, already in package-all.txt file
+[]
+Package-nr:271 of 11000, Name:nano-dbgsym
+Skip package >nano<, already in package-all.txt file
+[]
+Package-nr:272 of 11000, Name:nginx-core-dbgsym
+Skip package >nginx-core<, already in package-all.txt file
+[]
+Package-nr:273 of 11000, Name:ftp-dbgsym
+Skip package >ftp<, already in package-all.txt file
+[]
+Package-nr:274 of 11000, Name:nautilus-sendto-dbgsym
+Skip package >nautilus-sendto<, already in package-all.txt file
+[]
+Package-nr:275 of 11000, Name:network-manager-openvpn-gnome-dbgsym
+Skip package >network-manager-openvpn-gnome<, already in package-all.txt file
+[]
+Package-nr:276 of 11000, Name:network-manager-openvpn-dbgsym
+Skip package >network-manager-openvpn<, already in package-all.txt file
+[]
+Package-nr:277 of 11000, Name:nicstat-dbgsym
+Skip package >nicstat<, already in package-all.txt file
+[]
+Package-nr:278 of 11000, Name:network-manager-gnome-dbgsym
+Skip package >network-manager-gnome<, already in package-all.txt file
+[]
+Package-nr:279 of 11000, Name:nautilus-dbgsym
+Skip package >nautilus<, already in package-all.txt file
+[]
+Package-nr:280 of 11000, Name:netplan.io-dbgsym
+Skip package >netplan.io<, already in package-all.txt file
+[]
+Package-nr:281 of 11000, Name:network-manager-dbgsym
+Skip package >network-manager<, already in package-all.txt file
+[]
+Package-nr:282 of 11000, Name:numactl-dbgsym
+Skip package >numactl<, already in package-all.txt file
+[]
+Package-nr:283 of 11000, Name:nut-server-dbgsym
+Skip package >nut-server<, already in package-all.txt file
+[]
+Package-nr:284 of 11000, Name:nut-snmp-dbgsym
+Skip package >nut-snmp<, already in package-all.txt file
+[]
+Package-nr:285 of 11000, Name:nut-cgi-dbgsym
+Skip package >nut-cgi<, already in package-all.txt file
+[]
+Package-nr:286 of 11000, Name:nut-client-dbgsym
+Skip package >nut-client<, already in package-all.txt file
+[]
+Package-nr:287 of 11000, Name:nvidia-settings-dbgsym
+Skip package >nvidia-settings<, already in package-all.txt file
+[]
+Package-nr:288 of 11000, Name:network-manager-pptp-gnome-dbgsym
+Skip package >network-manager-pptp-gnome<, already in package-all.txt file
+[]
+Package-nr:289 of 11000, Name:network-manager-pptp-dbgsym
+Skip package >network-manager-pptp<, already in package-all.txt file
+[]
+Package-nr:290 of 11000, Name:whiptail-dbgsym
+Skip package >whiptail<, already in package-all.txt file
+[]
+Package-nr:291 of 11000, Name:python3-newt-dbgsym
+Skip package >python3-newt<, already in package-all.txt file
+[]
+Package-nr:292 of 11000, Name:netcat-openbsd-dbgsym
+Skip package >netcat-openbsd<, already in package-all.txt file
+[]
+Package-nr:293 of 11000, Name:ncurses-bin-dbgsym
+Skip package >ncurses-bin<, already in package-all.txt file
+[]
+Package-nr:294 of 11000, Name:ncurses-examples-dbgsym
+Skip package >ncurses-examples<, already in package-all.txt file
+[]
+Package-nr:295 of 11000, Name:uno-libs-private-dbgsym
+Skip package >uno-libs-private<, already in package-all.txt file
+[]
+Package-nr:296 of 11000, Name:ure-dbgsym
+Skip package >ure<, already in package-all.txt file
+[]
+Package-nr:297 of 11000, Name:python3-uno-dbgsym
+Skip package >python3-uno<, already in package-all.txt file
+[]
+Package-nr:298 of 11000, Name:gnome-session-canberra-dbgsym
+Skip package >gnome-session-canberra<, already in package-all.txt file
+[]
+Package-nr:299 of 11000, Name:wireless-tools-dbgsym
+Skip package >wireless-tools<, already in package-all.txt file
+[]
+Package-nr:300 of 11000, Name:whoopsie-dbgsym
+Skip package >whoopsie<, already in package-all.txt file
+[]
+Package-nr:301 of 11000, Name:wpasupplicant-dbgsym
+Skip package >wpasupplicant<, already in package-all.txt file
+[]
+Package-nr:302 of 11000, Name:w3m-dbgsym
+Skip package >w3m<, already in package-all.txt file
+[]
+Package-nr:303 of 11000, Name:wget-dbgsym
+Skip package >wget<, already in package-all.txt file
+[]
+Package-nr:304 of 11000, Name:whoopsie-preferences-dbgsym
+Skip package >whoopsie-preferences<, already in package-all.txt file
+[]
+Package-nr:305 of 11000, Name:wdiff-dbgsym
+Skip package >wdiff<, already in package-all.txt file
+[]
+Package-nr:306 of 11000, Name:whois-dbgsym
+Skip package >whois<, already in package-all.txt file
+[]
+Package-nr:307 of 11000, Name:yelp-dbgsym
+Skip package >yelp<, already in package-all.txt file
+[]
+Package-nr:308 of 11000, Name:shotwell-dbgsym
+Skip package >shotwell<, already in package-all.txt file
+[]
+Package-nr:309 of 11000, Name:samba-dbgsym
+Skip package >samba<, already in package-all.txt file
+[]
+Package-nr:310 of 11000, Name:samba-dsdb-modules-dbgsym
+Skip package >samba-dsdb-modules<, already in package-all.txt file
+[]
+Package-nr:311 of 11000, Name:samba-vfs-modules-dbgsym
+Skip package >samba-vfs-modules<, already in package-all.txt file
+[]
+Package-nr:312 of 11000, Name:python3-samba-dbgsym
+Skip package >python3-samba<, already in package-all.txt file
+[]
+Package-nr:313 of 11000, Name:winbind-dbgsym
+Skip package >winbind<, already in package-all.txt file
+[]
+Package-nr:314 of 11000, Name:samba-common-bin-dbgsym
+Skip package >samba-common-bin<, already in package-all.txt file
+[]
+Package-nr:315 of 11000, Name:samba-libs-dbgsym
+Skip package >samba-libs<, already in package-all.txt file
+[]
+Package-nr:316 of 11000, Name:smbclient-dbgsym
+Skip package >smbclient<, already in package-all.txt file
+[]
+Package-nr:317 of 11000, Name:sharutils-dbgsym
+Skip package >sharutils<, already in package-all.txt file
+[]
+Package-nr:318 of 11000, Name:spice-vdagent-dbgsym
+Skip package >spice-vdagent<, already in package-all.txt file
+[]
+Package-nr:319 of 11000, Name:session-migration-dbgsym
+Skip package >session-migration<, already in package-all.txt file
+[]
+Package-nr:320 of 11000, Name:passwd-dbgsym
+Skip package >passwd<, already in package-all.txt file
+[]
+Package-nr:321 of 11000, Name:login-dbgsym
+Skip package >login<, already in package-all.txt file
+[]
+Package-nr:322 of 11000, Name:squashfs-tools-dbgsym
+Skip package >squashfs-tools<, already in package-all.txt file
+[]
+Package-nr:323 of 11000, Name:strongswan-starter-dbgsym
+Skip package >strongswan-starter<, already in package-all.txt file
+[]
+Package-nr:324 of 11000, Name:strongswan-charon-dbgsym
+Skip package >strongswan-charon<, already in package-all.txt file
+[]
+Package-nr:325 of 11000, Name:strongswan-libcharon-dbgsym
+Skip package >strongswan-libcharon<, already in package-all.txt file
+[]
+Package-nr:326 of 11000, Name:socat-dbgsym
+Skip package >socat<, already in package-all.txt file
+[]
+Package-nr:327 of 11000, Name:sane-utils-dbgsym
+Skip package >sane-utils<, already in package-all.txt file
+[]
+Package-nr:328 of 11000, Name:sbsigntool-dbgsym
+Skip package >sbsigntool<, already in package-all.txt file
+[]
+Package-nr:329 of 11000, Name:smartmontools-dbgsym
+Skip package >smartmontools<, already in package-all.txt file
+[]
+Package-nr:330 of 11000, Name:systemd-timesyncd-dbgsym
+Skip package >systemd-timesyncd<, already in package-all.txt file
+[]
+Package-nr:331 of 11000, Name:udev-dbgsym
+Skip package >udev<, already in package-all.txt file
+[]
+Package-nr:332 of 11000, Name:systemd-dbgsym
+Skip package >systemd<, already in package-all.txt file
+[]
+Package-nr:333 of 11000, Name:systemd-container-dbgsym
+Skip package >systemd-container<, already in package-all.txt file
+[]
+Package-nr:334 of 11000, Name:sysvinit-utils-dbgsym
+Skip package >sysvinit-utils<, already in package-all.txt file
+[]
+Package-nr:335 of 11000, Name:spamc-dbgsym
+Skip package >spamc<, already in package-all.txt file
+[]
+Package-nr:336 of 11000, Name:speech-dispatcher-dbgsym
+Skip package >speech-dispatcher<, already in package-all.txt file
+[]
+Package-nr:337 of 11000, Name:speech-dispatcher-espeak-ng-dbgsym
+Skip package >speech-dispatcher-espeak-ng<, already in package-all.txt file
+[]
+Package-nr:338 of 11000, Name:siege-dbgsym
+Skip package >siege<, already in package-all.txt file
+[]
+Package-nr:339 of 11000, Name:python3-sqlalchemy-ext-dbgsym
+Skip package >python3-sqlalchemy-ext<, already in package-all.txt file
+[]
+Package-nr:340 of 11000, Name:screen-dbgsym
+Skip package >screen<, already in package-all.txt file
+[]
+Package-nr:341 of 11000, Name:shared-mime-info-dbgsym
+Skip package >shared-mime-info<, already in package-all.txt file
+[]
+Package-nr:342 of 11000, Name:sudo-dbgsym
+Skip package >sudo<, already in package-all.txt file
+[]
+Package-nr:343 of 11000, Name:simple-scan-dbgsym
+Skip package >simple-scan<, already in package-all.txt file
+[]
+Package-nr:344 of 11000, Name:python3-sss-dbgsym
+Skip package >python3-sss<, already in package-all.txt file
+[]
+Package-nr:345 of 11000, Name:sssd-proxy-dbgsym
+Skip package >sssd-proxy<, already in package-all.txt file
+[]
+Package-nr:346 of 11000, Name:sssd-tools-dbgsym
+Skip package >sssd-tools<, already in package-all.txt file
+[]
+Package-nr:347 of 11000, Name:sssd-ad-dbgsym
+Skip package >sssd-ad<, already in package-all.txt file
+[]
+Package-nr:348 of 11000, Name:sssd-ad-common-dbgsym
+Skip package >sssd-ad-common<, already in package-all.txt file
+[]
+Package-nr:349 of 11000, Name:sssd-krb5-common-dbgsym
+Skip package >sssd-krb5-common<, already in package-all.txt file
+[]
+Package-nr:350 of 11000, Name:sssd-ipa-dbgsym
+Skip package >sssd-ipa<, already in package-all.txt file
+[]
+Package-nr:351 of 11000, Name:sssd-ldap-dbgsym
+Skip package >sssd-ldap<, already in package-all.txt file
+[]
+Package-nr:352 of 11000, Name:sssd-krb5-dbgsym
+Skip package >sssd-krb5<, already in package-all.txt file
+[]
+Package-nr:353 of 11000, Name:sssd-common-dbgsym
+Skip package >sssd-common<, already in package-all.txt file
+[]
+Package-nr:354 of 11000, Name:sssd-dbus-dbgsym
+Skip package >sssd-dbus<, already in package-all.txt file
+[]
+Package-nr:355 of 11000, Name:printer-driver-splix-dbgsym
+Skip package >printer-driver-splix<, already in package-all.txt file
+[]
+Package-nr:356 of 11000, Name:sed-dbgsym
+Skip package >sed<, already in package-all.txt file
+[]
+Package-nr:357 of 11000, Name:squid-dbgsym
+Skip package >squid<, already in package-all.txt file
+[]
+Package-nr:358 of 11000, Name:strace-dbgsym
+Skip package >strace<, already in package-all.txt file
+[]
+Package-nr:359 of 11000, Name:schroot-dbgsym
+Skip package >schroot<, already in package-all.txt file
+[]
+Package-nr:360 of 11000, Name:system-config-printer-udev-dbgsym
+Skip package >system-config-printer-udev<, already in package-all.txt file
+[]
+Package-nr:361 of 11000, Name:switcheroo-control-dbgsym
+Skip package >switcheroo-control<, already in package-all.txt file
+[]
+Package-nr:362 of 11000, Name:sysstat-dbgsym
+Skip package >sysstat<, already in package-all.txt file
+[]
+Package-nr:363 of 11000, Name:seahorse-dbgsym
+Skip package >seahorse<, already in package-all.txt file
+[]
+Package-nr:364 of 11000, Name:snapd-dbgsym
+Skip package >snapd<, already in package-all.txt file
+[]
+Package-nr:365 of 11000, Name:sqlite3-dbgsym
+Skip package >sqlite3<, already in package-all.txt file
+[]
+Package-nr:366 of 11000, Name:sysfsutils-dbgsym
+Skip package >sysfsutils<, already in package-all.txt file
+[]
+Package-nr:367 of 11000, Name:setserial-dbgsym
+Skip package >setserial<, already in package-all.txt file
+[]
+Package-nr:368 of 11000, Name:sg3-utils-dbgsym
+Skip package >sg3-utils<, already in package-all.txt file
+[]
+Package-nr:369 of 11000, Name:gnome-themes-extra-dbgsym
+Skip package >gnome-themes-extra<, already in package-all.txt file
+[]
+Package-nr:370 of 11000, Name:geoclue-2.0-dbgsym
+Skip package >geoclue-2.0<, already in package-all.txt file
+[]
+Package-nr:371 of 11000, Name:gpgsm-dbgsym
+Skip package >gpgsm<, already in package-all.txt file
+[]
+Package-nr:372 of 11000, Name:dirmngr-dbgsym
+Skip package >dirmngr<, already in package-all.txt file
+[]
+Package-nr:373 of 11000, Name:gpg-wks-client-dbgsym
+Skip package >gpg-wks-client<, already in package-all.txt file
+[]
+Package-nr:374 of 11000, Name:gpgconf-dbgsym
+Skip package >gpgconf<, already in package-all.txt file
+[]
+Package-nr:375 of 11000, Name:gnupg-utils-dbgsym
+Skip package >gnupg-utils<, already in package-all.txt file
+[]
+Package-nr:376 of 11000, Name:gpg-wks-server-dbgsym
+Skip package >gpg-wks-server<, already in package-all.txt file
+[]
+Package-nr:377 of 11000, Name:gpgv-dbgsym
+Skip package >gpgv<, already in package-all.txt file
+[]
+Package-nr:378 of 11000, Name:gpg-agent-dbgsym
+Skip package >gpg-agent<, already in package-all.txt file
+[]
+Package-nr:379 of 11000, Name:gpg-dbgsym
+Skip package >gpg<, already in package-all.txt file
+[]
+Package-nr:380 of 11000, Name:grep-dbgsym
+Skip package >grep<, already in package-all.txt file
+[]
+Package-nr:381 of 11000, Name:gvfs-backends-dbgsym
+Skip package >gvfs-backends<, already in package-all.txt file
+[]
+Package-nr:382 of 11000, Name:gvfs-daemons-dbgsym
+Skip package >gvfs-daemons<, already in package-all.txt file
+[]
+Package-nr:383 of 11000, Name:gvfs-dbgsym
+Skip package >gvfs<, already in package-all.txt file
+[]
+Package-nr:384 of 11000, Name:gvfs-libs-dbgsym
+Skip package >gvfs-libs<, already in package-all.txt file
+[]
+Package-nr:385 of 11000, Name:gvfs-fuse-dbgsym
+Skip package >gvfs-fuse<, already in package-all.txt file
+[]
+Package-nr:386 of 11000, Name:gnome-shell-dbgsym
+Skip package >gnome-shell<, already in package-all.txt file
+[]
+Package-nr:387 of 11000, Name:gedit-dbgsym
+Skip package >gedit<, already in package-all.txt file
+[]
+Package-nr:388 of 11000, Name:gjs-dbgsym
+Skip package >gjs<, already in package-all.txt file
+[]
+Package-nr:389 of 11000, Name:gnome-terminal-dbgsym
+Skip package >gnome-terminal<, already in package-all.txt file
+[]
+Package-nr:390 of 11000, Name:nautilus-extension-gnome-terminal-dbgsym
+Skip package >nautilus-extension-gnome-terminal<, already in package-all.txt file
+[]
+Package-nr:391 of 11000, Name:gnome-online-accounts-dbgsym
+Skip package >gnome-online-accounts<, already in package-all.txt file
+[]
+Package-nr:392 of 11000, Name:gtk-update-icon-cache-dbgsym
+Skip package >gtk-update-icon-cache<, already in package-all.txt file
+[]
+Package-nr:393 of 11000, Name:gtk-3-examples-dbgsym
+Skip package >gtk-3-examples<, already in package-all.txt file
+[]
+Package-nr:394 of 11000, Name:gtk2-engines-pixbuf-dbgsym
+Skip package >gtk2-engines-pixbuf<, already in package-all.txt file
+[]
+Package-nr:395 of 11000, Name:gnome-session-bin-dbgsym
+Skip package >gnome-session-bin<, already in package-all.txt file
+[]
+Package-nr:396 of 11000, Name:gnome-startup-applications-dbgsym
+Skip package >gnome-startup-applications<, already in package-all.txt file
+[]
+Package-nr:397 of 11000, Name:gfxboot-dev-dbgsym
+Skip package >gfxboot-dev<, already in package-all.txt file
+[]
+Package-nr:398 of 11000, Name:gnome-characters-dbgsym
+Skip package >gnome-characters<, already in package-all.txt file
+[]
+Package-nr:399 of 11000, Name:gnome-mines-dbgsym
+Skip package >gnome-mines<, already in package-all.txt file
+[]
+Package-nr:400 of 11000, Name:gnome-system-monitor-dbgsym
+Skip package >gnome-system-monitor<, already in package-all.txt file
+[]
+Package-nr:401 of 11000, Name:gawk-dbgsym
+Skip package >gawk<, already in package-all.txt file
+[]
+Package-nr:402 of 11000, Name:gnome-calculator-dbgsym
+Skip package >gnome-calculator<, already in package-all.txt file
+[]
+Package-nr:403 of 11000, Name:gpsd-dbgsym
+Skip package >gpsd<, already in package-all.txt file
+[]
+Package-nr:404 of 11000, Name:gettext-base-dbgsym
+Skip package >gettext-base<, already in package-all.txt file
+[]
+Package-nr:405 of 11000, Name:gettext-dbgsym
+Skip package >gettext<, already in package-all.txt file
+[]
+Package-nr:406 of 11000, Name:gtk-im-libthai-dbgsym
+Skip package >gtk-im-libthai<, already in package-all.txt file
+[]
+Package-nr:407 of 11000, Name:gnome-control-center-dbgsym
+Skip package >gnome-control-center<, already in package-all.txt file
+[]
+Package-nr:408 of 11000, Name:gzip-dbgsym
+Skip package >gzip<, already in package-all.txt file
+[]
+Package-nr:409 of 11000, Name:gnome-disk-utility-dbgsym
+Skip package >gnome-disk-utility<, already in package-all.txt file
+[]
+Package-nr:410 of 11000, Name:gdisk-dbgsym
+Skip package >gdisk<, already in package-all.txt file
+[]
+Package-nr:411 of 11000, Name:glib-networking-dbgsym
+Skip package >glib-networking<, already in package-all.txt file
+[]
+Package-nr:412 of 11000, Name:glib-networking-services-dbgsym
+Skip package >glib-networking-services<, already in package-all.txt file
+[]
+Package-nr:413 of 11000, Name:gnome-screenshot-dbgsym
+Skip package >gnome-screenshot<, already in package-all.txt file
+[]
+Package-nr:414 of 11000, Name:gnome-settings-daemon-dbgsym
+Skip package >gnome-settings-daemon<, already in package-all.txt file
+[]
+Package-nr:415 of 11000, Name:gnome-calendar-dbgsym
+Skip package >gnome-calendar<, already in package-all.txt file
+[]
+Package-nr:416 of 11000, Name:gnome-keyring-pkcs11-dbgsym
+Skip package >gnome-keyring-pkcs11<, already in package-all.txt file
+[]
+Package-nr:417 of 11000, Name:gnome-keyring-dbgsym
+Skip package >gnome-keyring<, already in package-all.txt file
+[]
+Package-nr:418 of 11000, Name:gnome-initial-setup-dbgsym
+Skip package >gnome-initial-setup<, already in package-all.txt file
+[]
+Package-nr:419 of 11000, Name:grub2-common-dbgsym
+Skip package >grub2-common<, already in package-all.txt file
+[]
+Package-nr:420 of 11000, Name:grub-common-dbgsym
+Skip package >grub-common<, already in package-all.txt file
+[]
+Package-nr:421 of 11000, Name:grub-pc-bin-dbgsym
+Skip package >grub-pc-bin<, already in package-all.txt file
+[]
+Package-nr:422 of 11000, Name:gtk2-engines-murrine-dbgsym
+Skip package >gtk2-engines-murrine<, already in package-all.txt file
+[]
+Package-nr:423 of 11000, Name:gdm3-dbgsym
+Skip package >gdm3<, already in package-all.txt file
+[]
+Package-nr:424 of 11000, Name:gnome-mahjongg-dbgsym
+Skip package >gnome-mahjongg<, already in package-all.txt file
+[]
+Package-nr:425 of 11000, Name:gparted-dbgsym
+Skip package >gparted<, already in package-all.txt file
+[]
+Package-nr:426 of 11000, Name:gobject-introspection-dbgsym
+Skip package >gobject-introspection<, already in package-all.txt file
+[]
+Package-nr:427 of 11000, Name:google-compute-engine-oslogin-dbgsym
+Skip package >google-compute-engine-oslogin<, already in package-all.txt file
+[]
+Package-nr:428 of 11000, Name:gnome-todo-dbgsym
+Skip package >gnome-todo<, already in package-all.txt file
+[]
+Package-nr:429 of 11000, Name:groff-base-dbgsym
+Skip package >groff-base<, already in package-all.txt file
+[]
+Package-nr:430 of 11000, Name:gnome-bluetooth-dbgsym
+Skip package >gnome-bluetooth<, already in package-all.txt file
+[]
+Package-nr:431 of 11000, Name:gnome-sudoku-dbgsym
+Skip package >gnome-sudoku<, already in package-all.txt file
+[]
+Package-nr:432 of 11000, Name:gcr-dbgsym
+Skip package >gcr<, already in package-all.txt file
+[]
+Package-nr:433 of 11000, Name:python3-gpg-dbgsym
+Skip package >python3-gpg<, already in package-all.txt file
+[]
+Package-nr:434 of 11000, Name:guile-2.2-libs-dbgsym
+Skip package >guile-2.2-libs<, already in package-all.txt file
+[]
+Package-nr:435 of 11000, Name:gnome-font-viewer-dbgsym
+Skip package >gnome-font-viewer<, already in package-all.txt file
+[]
+Package-nr:436 of 11000, Name:cpp-9-dbgsym
+Skip package >cpp-9<, already in package-all.txt file
+[]
+Package-nr:437 of 11000, Name:gcc-9-dbgsym
+Skip package >gcc-9<, already in package-all.txt file
+[]
+Package-nr:438 of 11000, Name:gfortran-9-dbgsym
+Skip package >gfortran-9<, already in package-all.txt file
+[]
+Package-nr:439 of 11000, Name:g++-9-dbgsym
+Skip package >g++-9<, already in package-all.txt file
+[]
+Package-nr:440 of 11000, Name:git-dbgsym
+Skip package >git<, already in package-all.txt file
+[]
+Package-nr:441 of 11000, Name:gnome-power-manager-dbgsym
+Skip package >gnome-power-manager<, already in package-all.txt file
+[]
+Package-nr:442 of 11000, Name:gnome-logs-dbgsym
+Skip package >gnome-logs<, already in package-all.txt file
+[]
+Package-nr:443 of 11000, Name:printer-driver-gutenprint-dbgsym
+Skip package >printer-driver-gutenprint<, already in package-all.txt file
+[]
+Package-nr:444 of 11000, Name:gnome-software-dbgsym
+Skip package >gnome-software<, already in package-all.txt file
+[]
+Package-nr:445 of 11000, Name:hunspell-tools-dbgsym
+Skip package >hunspell-tools<, already in package-all.txt file
+[]
+Package-nr:446 of 11000, Name:hostname-dbgsym
+Skip package >hostname<, already in package-all.txt file
+[]
+Package-nr:447 of 11000, Name:hfst-ospell-dbgsym
+Skip package >hfst-ospell<, already in package-all.txt file
+[]
+Package-nr:448 of 11000, Name:hdparm-dbgsym
+Skip package >hdparm<, already in package-all.txt file
+[]
+Package-nr:449 of 11000, Name:printer-driver-hpijs-dbgsym
+Skip package >printer-driver-hpijs<, already in package-all.txt file
+[]
+Package-nr:450 of 11000, Name:printer-driver-postscript-hp-dbgsym
+Skip package >printer-driver-postscript-hp<, already in package-all.txt file
+[]
+Package-nr:451 of 11000, Name:printer-driver-hpcups-dbgsym
+Skip package >printer-driver-hpcups<, already in package-all.txt file
+[]
+Package-nr:452 of 11000, Name:hplip-dbgsym
+Skip package >hplip<, already in package-all.txt file
+[]
+Package-nr:453 of 11000, Name:htop-dbgsym
+Skip package >htop<, already in package-all.txt file
+[]
+Package-nr:454 of 11000, Name:haproxy-dbgsym
+Skip package >haproxy<, already in package-all.txt file
+[]
+Package-nr:455 of 11000, Name:hfsutils-dbgsym
+Skip package >hfsutils<, already in package-all.txt file
+[]
+Package-nr:456 of 11000, Name:hfsplus-dbgsym
+Skip package >hfsplus<, already in package-all.txt file
+[]
+Package-nr:457 of 11000, Name:hello-dbgsym
+Skip package >hello<, already in package-all.txt file
+[]
+Package-nr:458 of 11000, Name:archdetect-deb-dbgsym
+Skip package >archdetect-deb<, already in package-all.txt file
+[]
+Package-nr:459 of 11000, Name:heimdal-multidev-dbgsym
+Skip package >heimdal-multidev<, already in package-all.txt file
+[]
+Package-nr:460 of 11000, Name:openobex-apps-dbgsym
+Skip package >openobex-apps<, already in package-all.txt file
+[]
+Package-nr:461 of 11000, Name:logrotate-dbgsym
+Skip package >logrotate<, already in package-all.txt file
+[]
+Package-nr:462 of 11000, Name:lockfile-progs-dbgsym
+Skip package >lockfile-progs<, already in package-all.txt file
+[]
+Package-nr:463 of 11000, Name:python3-ldb-dbgsym
+Skip package >python3-ldb<, already in package-all.txt file
+[]
+Package-nr:464 of 11000, Name:lsof-dbgsym
+Skip package >lsof<, already in package-all.txt file
+[]
+Package-nr:465 of 11000, Name:lz4-dbgsym
+Skip package >lz4<, already in package-all.txt file
+[]
+Package-nr:466 of 11000, Name:lshw-dbgsym
+Skip package >lshw<, already in package-all.txt file
+[]
+Package-nr:467 of 11000, Name:less-dbgsym
+Skip package >less<, already in package-all.txt file
+[]
+Package-nr:468 of 11000, Name:landscape-client-dbgsym
+Skip package >landscape-client<, already in package-all.txt file
+[]
+Package-nr:469 of 11000, Name:lupin-support-dbgsym
+Skip package >lupin-support<, already in package-all.txt file
+[]
+Package-nr:470 of 11000, Name:lp-solve-dbgsym
+Skip package >lp-solve<, already in package-all.txt file
+[]
+Package-nr:471 of 11000, Name:lsscsi-dbgsym
+Skip package >lsscsi<, already in package-all.txt file
+[]
+Package-nr:472 of 11000, Name:ltrace-dbgsym
+Skip package >ltrace<, already in package-all.txt file
+[]
+Package-nr:473 of 11000, Name:python3-lazy-object-proxy-dbgsym
+Skip package >python3-lazy-object-proxy<, already in package-all.txt file
+[]
+Package-nr:474 of 11000, Name:dmsetup-dbgsym
+Skip package >dmsetup<, already in package-all.txt file
+[]
+Package-nr:475 of 11000, Name:dmeventd-dbgsym
+Skip package >dmeventd<, already in package-all.txt file
+[]
+Package-nr:476 of 11000, Name:lvm2-dbgsym
+Skip package >lvm2<, already in package-all.txt file
+[]
+Package-nr:477 of 11000, Name:lftp-dbgsym
+Skip package >lftp<, already in package-all.txt file
+[]
+Package-nr:478 of 11000, Name:lbdb-dbgsym
+Skip package >lbdb<, already in package-all.txt file
+[]
+Package-nr:479 of 11000, Name:mdadm-dbgsym
+Skip package >mdadm<, already in package-all.txt file
+[]
+Package-nr:480 of 11000, Name:mtr-tiny-dbgsym
+Skip package >mtr-tiny<, already in package-all.txt file
+[]
+Package-nr:481 of 11000, Name:printer-driver-min12xxw-dbgsym
+Skip package >printer-driver-min12xxw<, already in package-all.txt file
+[]
+Package-nr:482 of 11000, Name:multipath-tools-dbgsym
+Skip package >multipath-tools<, already in package-all.txt file
+[]
+Package-nr:483 of 11000, Name:kpartx-dbgsym
+Skip package >kpartx<, already in package-all.txt file
+[]
+Package-nr:484 of 11000, Name:msr-tools-dbgsym
+Skip package >msr-tools<, already in package-all.txt file
+[]
+Package-nr:485 of 11000, Name:memcached-dbgsym
+Skip package >memcached<, already in package-all.txt file
+[]
+Package-nr:486 of 11000, Name:mokutil-dbgsym
+Skip package >mokutil<, already in package-all.txt file
+[]
+Package-nr:487 of 11000, Name:make-dbgsym
+Skip package >make<, already in package-all.txt file
+[]
+Package-nr:488 of 11000, Name:printer-driver-m2300w-dbgsym
+Skip package >printer-driver-m2300w<, already in package-all.txt file
+[]
+Package-nr:489 of 11000, Name:mutt-dbgsym
+Skip package >mutt<, already in package-all.txt file
+[]
+Package-nr:490 of 11000, Name:m4-dbgsym
+Skip package >m4<, already in package-all.txt file
+[]
+Package-nr:491 of 11000, Name:mesa-vdpau-drivers-dbgsym
+Skip package >mesa-vdpau-drivers<, already in package-all.txt file
+[]
+Package-nr:492 of 11000, Name:mesa-vulkan-drivers-dbgsym
+Skip package >mesa-vulkan-drivers<, already in package-all.txt file
+[]
+Package-nr:493 of 11000, Name:mlocate-dbgsym
+Skip package >mlocate<, already in package-all.txt file
+[]
+Package-nr:494 of 11000, Name:mutter-dbgsym
+Skip package >mutter<, already in package-all.txt file
+[]
+Package-nr:495 of 11000, Name:makedumpfile-dbgsym
+Skip package >makedumpfile<, already in package-all.txt file
+[]
+Package-nr:496 of 11000, Name:mtd-utils-dbgsym
+Skip package >mtd-utils<, already in package-all.txt file
+[]
+Package-nr:497 of 11000, Name:mscompress-dbgsym
+Skip package >mscompress<, already in package-all.txt file
+[]
+Package-nr:498 of 11000, Name:man-db-dbgsym
+Skip package >man-db<, already in package-all.txt file
+[]
+Package-nr:499 of 11000, Name:mouseemu-dbgsym
+Skip package >mouseemu<, already in package-all.txt file
+[]
+Package-nr:500 of 11000, Name:ibus-mozc-dbgsym
+Skip package >ibus-mozc<, already in package-all.txt file
+[]
+Package-nr:501 of 11000, Name:mozc-server-dbgsym
+Skip package >mozc-server<, already in package-all.txt file
+[]
+Package-nr:502 of 11000, Name:mawk-dbgsym
+Skip package >mawk<, already in package-all.txt file
+[]
+Package-nr:503 of 11000, Name:mtx-dbgsym
+Skip package >mtx<, already in package-all.txt file
+[]
+Package-nr:504 of 11000, Name:mousetweaks-dbgsym
+Skip package >mousetweaks<, already in package-all.txt file
+[]
+Package-nr:505 of 11000, Name:mysql-client-core-8.0-dbgsym
+Skip package >mysql-client-core-8.0<, already in package-all.txt file
+[]
+Package-nr:506 of 11000, Name:mysql-server-core-8.0-dbgsym
+Skip package >mysql-server-core-8.0<, already in package-all.txt file
+[]
+Package-nr:507 of 11000, Name:modemmanager-dbgsym
+Skip package >modemmanager<, already in package-all.txt file
+[]
+Package-nr:508 of 11000, Name:mecab-utils-dbgsym
+Skip package >mecab-utils<, already in package-all.txt file
+[]
+Package-nr:509 of 11000, Name:mtools-dbgsym
+Skip package >mtools<, already in package-all.txt file
+[]
+Package-nr:510 of 11000, Name:diffutils-dbgsym
+Skip package >diffutils<, already in package-all.txt file
+[]
+Package-nr:511 of 11000, Name:dmraid-dbgsym
+Skip package >dmraid<, already in package-all.txt file
+[]
+Package-nr:512 of 11000, Name:dnstracer-dbgsym
+Skip package >dnstracer<, already in package-all.txt file
+[]
+Package-nr:513 of 11000, Name:duplicity-dbgsym
+Skip package >duplicity<, already in package-all.txt file
+[]
+Package-nr:514 of 11000, Name:dh-exec-dbgsym
+Skip package >dh-exec<, already in package-all.txt file
+[]
+Package-nr:515 of 11000, Name:deja-dup-dbgsym
+Skip package >deja-dup<, already in package-all.txt file
+[]
+Package-nr:516 of 11000, Name:dictzip-dbgsym
+Skip package >dictzip<, already in package-all.txt file
+[]
+Package-nr:517 of 11000, Name:dict-dbgsym
+Skip package >dict<, already in package-all.txt file
+[]
+Package-nr:518 of 11000, Name:dictd-dbgsym
+Skip package >dictd<, already in package-all.txt file
+[]
+Package-nr:519 of 11000, Name:dctrl-tools-dbgsym
+Skip package >dctrl-tools<, already in package-all.txt file
+[]
+Package-nr:520 of 11000, Name:dovecot-imapd-dbgsym
+Skip package >dovecot-imapd<, already in package-all.txt file
+[]
+Package-nr:521 of 11000, Name:dovecot-pop3d-dbgsym
+Skip package >dovecot-pop3d<, already in package-all.txt file
+[]
+Package-nr:522 of 11000, Name:dovecot-core-dbgsym
+Skip package >dovecot-core<, already in package-all.txt file
+[]
+Package-nr:523 of 11000, Name:device-tree-compiler-dbgsym
+Skip package >device-tree-compiler<, already in package-all.txt file
+[]
+Package-nr:524 of 11000, Name:dmidecode-dbgsym
+Skip package >dmidecode<, already in package-all.txt file
+[]
+Package-nr:525 of 11000, Name:distro-info-dbgsym
+Skip package >distro-info<, already in package-all.txt file
+[]
+Package-nr:526 of 11000, Name:desktop-file-utils-dbgsym
+Skip package >desktop-file-utils<, already in package-all.txt file
+[]
+Package-nr:527 of 11000, Name:dselect-dbgsym
+Skip package >dselect<, already in package-all.txt file
+[]
+Package-nr:528 of 11000, Name:dpkg-dbgsym
+Skip package >dpkg<, already in package-all.txt file
+[]
+Package-nr:529 of 11000, Name:drbd-utils-dbgsym
+Skip package >drbd-utils<, already in package-all.txt file
+[]
+Package-nr:530 of 11000, Name:dbus-dbgsym
+Skip package >dbus<, already in package-all.txt file
+[]
+Package-nr:531 of 11000, Name:dbus-x11-dbgsym
+Skip package >dbus-x11<, already in package-all.txt file
+[]
+Package-nr:532 of 11000, Name:devio-dbgsym
+Skip package >devio<, already in package-all.txt file
+[]
+Package-nr:533 of 11000, Name:dosfstools-dbgsym
+Skip package >dosfstools<, already in package-all.txt file
+[]
+Package-nr:534 of 11000, Name:dash-dbgsym
+Skip package >dash<, already in package-all.txt file
+[]
+Package-nr:535 of 11000, Name:diffstat-dbgsym
+Skip package >diffstat<, already in package-all.txt file
+[]
+Package-nr:536 of 11000, Name:dconf-service-dbgsym
+Skip package >dconf-service<, already in package-all.txt file
+[]
+Package-nr:537 of 11000, Name:dconf-gsettings-backend-dbgsym
+Skip package >dconf-gsettings-backend<, already in package-all.txt file
+[]
+Package-nr:538 of 11000, Name:dconf-cli-dbgsym
+Skip package >dconf-cli<, already in package-all.txt file
+[]
+Package-nr:539 of 11000, Name:devscripts-dbgsym
+Skip package >devscripts<, already in package-all.txt file
+[]
+Package-nr:540 of 11000, Name:eog-dbgsym
+Skip package >eog<, already in package-all.txt file
+[]
+Package-nr:541 of 11000, Name:evolution-data-server-dbgsym
+Skip package >evolution-data-server<, already in package-all.txt file
+[]
+Package-nr:542 of 11000, Name:ethtool-dbgsym
+Skip package >ethtool<, already in package-all.txt file
+[]
+Package-nr:543 of 11000, Name:erlang-runtime-tools-dbgsym
+Skip package >erlang-runtime-tools<, already in package-all.txt file
+[]
+Package-nr:544 of 11000, Name:erlang-megaco-dbgsym
+Skip package >erlang-megaco<, already in package-all.txt file
+[]
+Package-nr:545 of 11000, Name:erlang-crypto-dbgsym
+Skip package >erlang-crypto<, already in package-all.txt file
+[]
+Package-nr:546 of 11000, Name:erlang-base-dbgsym
+Skip package >erlang-base<, already in package-all.txt file
+[]
+Package-nr:547 of 11000, Name:erlang-asn1-dbgsym
+Skip package >erlang-asn1<, already in package-all.txt file
+[]
+Package-nr:548 of 11000, Name:erlang-os-mon-dbgsym
+Skip package >erlang-os-mon<, already in package-all.txt file
+[]
+Package-nr:549 of 11000, Name:erlang-tools-dbgsym
+Skip package >erlang-tools<, already in package-all.txt file
+[]
+Package-nr:550 of 11000, Name:enchant-2-dbgsym
+Skip package >enchant-2<, already in package-all.txt file
+[]
+Package-nr:551 of 11000, Name:evince-dbgsym
+Skip package >evince<, already in package-all.txt file
+[]
+Package-nr:552 of 11000, Name:ebtables-dbgsym
+Skip package >ebtables<, already in package-all.txt file
+[]
+Package-nr:553 of 11000, Name:efibootmgr-dbgsym
+Skip package >efibootmgr<, already in package-all.txt file
+[]
+Package-nr:554 of 11000, Name:efivar-dbgsym
+Skip package >efivar<, already in package-all.txt file
+[]
+Package-nr:555 of 11000, Name:ed-dbgsym
+Skip package >ed<, already in package-all.txt file
+[]
+Package-nr:556 of 11000, Name:exim4-base-dbgsym
+Skip package >exim4-base<, already in package-all.txt file
+[]
+Package-nr:557 of 11000, Name:exim4-daemon-light-dbgsym
+Skip package >exim4-daemon-light<, already in package-all.txt file
+[]
+Package-nr:558 of 11000, Name:exim4-daemon-heavy-dbgsym
+Skip package >exim4-daemon-heavy<, already in package-all.txt file
+[]
+Package-nr:559 of 11000, Name:exuberant-ctags-dbgsym
+Skip package >exuberant-ctags<, already in package-all.txt file
+[]
+Package-nr:560 of 11000, Name:eject-dbgsym
+Skip package >eject<, already in package-all.txt file
+[]
+Package-nr:561 of 11000, Name:elfutils-dbgsym
+Skip package >elfutils<, already in package-all.txt file
+[]
+Package-nr:562 of 11000, Name:e2fsprogs-dbgsym
+Skip package >e2fsprogs<, already in package-all.txt file
+[]
+Package-nr:563 of 11000, Name:logsave-dbgsym
+Skip package >logsave<, already in package-all.txt file
+[]
+Package-nr:564 of 11000, Name:python3-libvirt-dbgsym
+Skip package >python3-libvirt<, already in package-all.txt file
+[]
+Package-nr:565 of 11000, Name:appstream-dbgsym
+Skip package >appstream<, already in package-all.txt file
+[]
+Package-nr:566 of 11000, Name:auditd-dbgsym
+Skip package >auditd<, already in package-all.txt file
+[]
+Package-nr:567 of 11000, Name:acct-dbgsym
+Skip package >acct<, already in package-all.txt file
+[]
+Package-nr:568 of 11000, Name:advancecomp-dbgsym
+Skip package >advancecomp<, already in package-all.txt file
+[]
+Package-nr:569 of 11000, Name:acl-dbgsym
+Skip package >acl<, already in package-all.txt file
+[]
+Package-nr:570 of 11000, Name:python3-libapparmor-dbgsym
+Skip package >python3-libapparmor<, already in package-all.txt file
+[]
+Package-nr:571 of 11000, Name:apparmor-dbgsym
+Skip package >apparmor<, already in package-all.txt file
+[]
+Package-nr:572 of 11000, Name:aide-dbgsym
+Skip package >aide<, already in package-all.txt file
+[]
+Package-nr:573 of 11000, Name:apg-dbgsym
+Skip package >apg<, already in package-all.txt file
+[]
+Package-nr:574 of 11000, Name:autofs-dbgsym
+Skip package >autofs<, already in package-all.txt file
+[]
+Package-nr:575 of 11000, Name:at-dbgsym
+Skip package >at<, already in package-all.txt file
+[]
+Package-nr:576 of 11000, Name:anacron-dbgsym
+Skip package >anacron<, already in package-all.txt file
+[]
+Package-nr:577 of 11000, Name:apt-utils-dbgsym
+Skip package >apt-utils<, already in package-all.txt file
+[]
+Package-nr:578 of 11000, Name:apt-dbgsym
+Skip package >apt<, already in package-all.txt file
+[]
+Package-nr:579 of 11000, Name:aisleriot-dbgsym
+Skip package >aisleriot<, already in package-all.txt file
+[]
+Package-nr:580 of 11000, Name:aspell-dbgsym
+Skip package >aspell<, already in package-all.txt file
+[]
+Package-nr:581 of 11000, Name:alsa-utils-dbgsym
+Skip package >alsa-utils<, already in package-all.txt file
+[]
+Package-nr:582 of 11000, Name:at-spi2-core-dbgsym
+Skip package >at-spi2-core<, already in package-all.txt file
+[]
+Package-nr:583 of 11000, Name:anope-dbgsym
+Skip package >anope<, already in package-all.txt file
+[]
+Package-nr:584 of 11000, Name:apache2-bin-dbgsym
+Skip package >apache2-bin<, already in package-all.txt file
+[]
+Package-nr:585 of 11000, Name:apache2-utils-dbgsym
+Skip package >apache2-utils<, already in package-all.txt file
+[]
+Package-nr:586 of 11000, Name:accountsservice-dbgsym
+Skip package >accountsservice<, already in package-all.txt file
+[]
+Package-nr:587 of 11000, Name:avahi-utils-dbgsym
+Skip package >avahi-utils<, already in package-all.txt file
+[]
+Package-nr:588 of 11000, Name:avahi-autoipd-dbgsym
+Skip package >avahi-autoipd<, already in package-all.txt file
+[]
+Package-nr:589 of 11000, Name:avahi-daemon-dbgsym
+Skip package >avahi-daemon<, already in package-all.txt file
+[]
+Package-nr:590 of 11000, Name:attr-dbgsym
+Skip package >attr<, already in package-all.txt file
+[]
+Package-nr:591 of 11000, Name:acpid-dbgsym
+Skip package >acpid<, already in package-all.txt file
+[]
+Package-nr:592 of 11000, Name:handy-0.0-examples-dbgsym
+Skip package >handy-0.0-examples<, already in package-all.txt file
+[]
+Package-nr:593 of 11000, Name:resource-agents-dbgsym
+Skip package >resource-agents<, already in package-all.txt file
+[]
+Package-nr:594 of 11000, Name:radvd-dbgsym
+Skip package >radvd<, already in package-all.txt file
+[]
+Package-nr:595 of 11000, Name:ruby2.7-dbgsym
+Skip package >ruby2.7<, already in package-all.txt file
+[]
+Package-nr:596 of 11000, Name:recode-dbgsym
+Skip package >recode<, already in package-all.txt file
+[]
+Package-nr:597 of 11000, Name:reiserfsprogs-dbgsym
+Skip package >reiserfsprogs<, already in package-all.txt file
+[]
+Package-nr:598 of 11000, Name:re2c-dbgsym
+Skip package >re2c<, already in package-all.txt file
+[]
+Package-nr:599 of 11000, Name:rtkit-dbgsym
+Skip package >rtkit<, already in package-all.txt file
+[]
+Package-nr:600 of 11000, Name:reiser4progs-dbgsym
+Skip package >reiser4progs<, already in package-all.txt file
+[]
+Package-nr:601 of 11000, Name:remmina-dbgsym
+Skip package >remmina<, already in package-all.txt file
+[]
+Package-nr:602 of 11000, Name:raptor2-utils-dbgsym
+Skip package >raptor2-utils<, already in package-all.txt file
+[]
+Package-nr:603 of 11000, Name:redland-utils-dbgsym
+Skip package >redland-utils<, already in package-all.txt file
+[]
+Package-nr:604 of 11000, Name:rsyslog-dbgsym
+Skip package >rsyslog<, already in package-all.txt file
+[]
+Package-nr:605 of 11000, Name:rasqal-utils-dbgsym
+Skip package >rasqal-utils<, already in package-all.txt file
+[]
+Package-nr:606 of 11000, Name:rygel-dbgsym
+Skip package >rygel<, already in package-all.txt file
+[]
+Package-nr:607 of 11000, Name:ibverbs-providers-dbgsym
+Skip package >ibverbs-providers<, already in package-all.txt file
+[]
+Package-nr:608 of 11000, Name:rdma-core-dbgsym
+Skip package >rdma-core<, already in package-all.txt file
+[]
+Package-nr:609 of 11000, Name:rdate-dbgsym
+Skip package >rdate<, already in package-all.txt file
+[]
+Package-nr:610 of 11000, Name:rsync-dbgsym
+Skip package >rsync<, already in package-all.txt file
+[]
+Package-nr:611 of 11000, Name:rhythmbox-dbgsym
+Skip package >rhythmbox<, already in package-all.txt file
+[]
+Package-nr:612 of 11000, Name:rrdtool-dbgsym
+Skip package >rrdtool<, already in package-all.txt file
+[]
+Package-nr:613 of 11000, Name:lua-rrd-dbgsym
+Skip package >lua-rrd<, already in package-all.txt file
+[]
+Package-nr:614 of 11000, Name:rpcbind-dbgsym
+Skip package >rpcbind<, already in package-all.txt file
+[]
+Package-nr:615 of 11000, Name:pacemaker-cli-utils-dbgsym
+Skip package >pacemaker-cli-utils<, already in package-all.txt file
+[]
+Package-nr:616 of 11000, Name:pacemaker-dbgsym
+Skip package >pacemaker<, already in package-all.txt file
+[]
+Package-nr:617 of 11000, Name:php7.4-gmp-dbgsym
+Skip package >php7.4-gmp<, already in package-all.txt file
+[]
+Package-nr:618 of 11000, Name:php7.4-cgi-dbgsym
+Skip package >php7.4-cgi<, already in package-all.txt file
+[]
+Package-nr:619 of 11000, Name:php7.4-curl-dbgsym
+Skip package >php7.4-curl<, already in package-all.txt file
+[]
+Package-nr:620 of 11000, Name:php7.4-ldap-dbgsym
+Skip package >php7.4-ldap<, already in package-all.txt file
+[]
+Package-nr:621 of 11000, Name:php7.4-sqlite3-dbgsym
+Skip package >php7.4-sqlite3<, already in package-all.txt file
+[]
+Package-nr:622 of 11000, Name:php7.4-pgsql-dbgsym
+Skip package >php7.4-pgsql<, already in package-all.txt file
+[]
+Package-nr:623 of 11000, Name:php7.4-tidy-dbgsym
+Skip package >php7.4-tidy<, already in package-all.txt file
+[]
+Package-nr:624 of 11000, Name:php7.4-gd-dbgsym
+Skip package >php7.4-gd<, already in package-all.txt file
+[]
+Package-nr:625 of 11000, Name:php7.4-mysql-dbgsym
+Skip package >php7.4-mysql<, already in package-all.txt file
+[]
+Package-nr:626 of 11000, Name:php7.4-readline-dbgsym
+Skip package >php7.4-readline<, already in package-all.txt file
+[]
+Package-nr:627 of 11000, Name:php7.4-json-dbgsym
+Skip package >php7.4-json<, already in package-all.txt file
+[]
+Package-nr:628 of 11000, Name:php7.4-xmlrpc-dbgsym
+Skip package >php7.4-xmlrpc<, already in package-all.txt file
+[]
+Package-nr:629 of 11000, Name:php7.4-xml-dbgsym
+Skip package >php7.4-xml<, already in package-all.txt file
+[]
+Package-nr:630 of 11000, Name:php7.4-opcache-dbgsym
+Skip package >php7.4-opcache<, already in package-all.txt file
+[]
+Package-nr:631 of 11000, Name:php7.4-snmp-dbgsym
+Skip package >php7.4-snmp<, already in package-all.txt file
+[]
+Package-nr:632 of 11000, Name:php7.4-odbc-dbgsym
+Skip package >php7.4-odbc<, already in package-all.txt file
+[]
+Package-nr:633 of 11000, Name:php7.4-common-dbgsym
+Skip package >php7.4-common<, already in package-all.txt file
+[]
+Package-nr:634 of 11000, Name:php7.4-pspell-dbgsym
+Skip package >php7.4-pspell<, already in package-all.txt file
+[]
+Package-nr:635 of 11000, Name:php7.4-cli-dbgsym
+Skip package >php7.4-cli<, already in package-all.txt file
+[]
+Package-nr:636 of 11000, Name:policykit-1-dbgsym
+Skip package >policykit-1<, already in package-all.txt file
+[]
+Package-nr:637 of 11000, Name:python3-cryptography-dbgsym
+Skip package >python3-cryptography<, already in package-all.txt file
+[]
+Package-nr:638 of 11000, Name:python3-pyeclib-dbgsym
+Skip package >python3-pyeclib<, already in package-all.txt file
+[]
+Package-nr:639 of 11000, Name:ppp-dbgsym
+Skip package >ppp<, already in package-all.txt file
+[]
+Package-nr:640 of 11000, Name:procps-dbgsym
+Skip package >procps<, already in package-all.txt file
+[]
+Package-nr:641 of 11000, Name:pinentry-curses-dbgsym
+Skip package >pinentry-curses<, already in package-all.txt file
+[]
+Package-nr:642 of 11000, Name:pinentry-gnome3-dbgsym
+Skip package >pinentry-gnome3<, already in package-all.txt file
+[]
+Package-nr:643 of 11000, Name:packagekit-dbgsym
+Skip package >packagekit<, already in package-all.txt file
+[]
+Package-nr:644 of 11000, Name:gstreamer1.0-packagekit-dbgsym
+Skip package >gstreamer1.0-packagekit<, already in package-all.txt file
+[]
+Package-nr:645 of 11000, Name:packagekit-tools-dbgsym
+Skip package >packagekit-tools<, already in package-all.txt file
+[]
+Package-nr:646 of 11000, Name:python3-setproctitle-dbgsym
+Skip package >python3-setproctitle<, already in package-all.txt file
+[]
+Package-nr:647 of 11000, Name:python3-cups-dbgsym
+Skip package >python3-cups<, already in package-all.txt file
+[]
+Package-nr:648 of 11000, Name:printer-driver-pxljr-dbgsym
+Skip package >printer-driver-pxljr<, already in package-all.txt file
+[]
+Package-nr:649 of 11000, Name:python3-systemd-dbgsym
+Skip package >python3-systemd<, already in package-all.txt file
+[]
+Package-nr:650 of 11000, Name:pcmciautils-dbgsym
+Skip package >pcmciautils<, already in package-all.txt file
+[]
+Package-nr:651 of 11000, Name:postgresql-client-12-dbgsym
+Skip package >postgresql-client-12<, already in package-all.txt file
+[]
+Package-nr:652 of 11000, Name:postgresql-12-dbgsym
+Skip package >postgresql-12<, already in package-all.txt file
+[]
+Package-nr:653 of 11000, Name:python3-parted-dbgsym
+Skip package >python3-parted<, already in package-all.txt file
+[]
+Package-nr:654 of 11000, Name:postfix-cdb-dbgsym
+Skip package >postfix-cdb<, already in package-all.txt file
+[]
+Package-nr:655 of 11000, Name:postfix-pcre-dbgsym
+Skip package >postfix-pcre<, already in package-all.txt file
+[]
+Package-nr:656 of 11000, Name:postfix-pgsql-dbgsym
+Skip package >postfix-pgsql<, already in package-all.txt file
+[]
+Package-nr:657 of 11000, Name:postfix-dbgsym
+Skip package >postfix<, already in package-all.txt file
+[]
+Package-nr:658 of 11000, Name:postfix-mysql-dbgsym
+Skip package >postfix-mysql<, already in package-all.txt file
+[]
+Package-nr:659 of 11000, Name:postfix-ldap-dbgsym
+Skip package >postfix-ldap<, already in package-all.txt file
+[]
+Package-nr:660 of 11000, Name:pv-dbgsym
+Skip package >pv<, already in package-all.txt file
+[]
+Package-nr:661 of 11000, Name:pkg-config-dbgsym
+Skip package >pkg-config<, already in package-all.txt file
+[]
+Package-nr:662 of 11000, Name:patch-dbgsym
+Skip package >patch<, already in package-all.txt file
+[]
+Package-nr:663 of 11000, Name:python3-rcssmin-dbgsym
+Skip package >python3-rcssmin<, already in package-all.txt file
+[]
+Package-nr:664 of 11000, Name:python3-pycryptodome-dbgsym
+Skip package >python3-pycryptodome<, already in package-all.txt file
+[]
+Package-nr:665 of 11000, Name:python3-nacl-dbgsym
+Skip package >python3-nacl<, already in package-all.txt file
+[]
+Package-nr:666 of 11000, Name:python3-msgpack-dbgsym
+Skip package >python3-msgpack<, already in package-all.txt file
+[]
+Package-nr:667 of 11000, Name:p11-kit-modules-dbgsym
+Skip package >p11-kit-modules<, already in package-all.txt file
+[]
+Package-nr:668 of 11000, Name:p11-kit-dbgsym
+Skip package >p11-kit<, already in package-all.txt file
+[]
+Package-nr:669 of 11000, Name:psmisc-dbgsym
+Skip package >psmisc<, already in package-all.txt file
+[]
+Package-nr:670 of 11000, Name:python3-rjsmin-dbgsym
+Skip package >python3-rjsmin<, already in package-all.txt file
+[]
+Package-nr:671 of 11000, Name:python3-bcrypt-dbgsym
+Skip package >python3-bcrypt<, already in package-all.txt file
+[]
+Package-nr:672 of 11000, Name:printer-driver-pnm2ppa-dbgsym
+Skip package >printer-driver-pnm2ppa<, already in package-all.txt file
+[]
+Package-nr:673 of 11000, Name:python3-scrypt-dbgsym
+Skip package >python3-scrypt<, already in package-all.txt file
+[]
+Package-nr:674 of 11000, Name:pulseaudio-module-bluetooth-dbgsym
+Skip package >pulseaudio-module-bluetooth<, already in package-all.txt file
+[]
+Package-nr:675 of 11000, Name:pulseaudio-dbgsym
+Skip package >pulseaudio<, already in package-all.txt file
+[]
+Package-nr:676 of 11000, Name:pulseaudio-utils-dbgsym
+Skip package >pulseaudio-utils<, already in package-all.txt file
+[]
+Package-nr:677 of 11000, Name:parted-dbgsym
+Skip package >parted<, already in package-all.txt file
+[]
+Package-nr:678 of 11000, Name:python3-protobuf-dbgsym
+Skip package >python3-protobuf<, already in package-all.txt file
+[]
+Package-nr:679 of 11000, Name:pax-dbgsym
+Skip package >pax<, already in package-all.txt file
+[]
+Package-nr:680 of 11000, Name:python3-pam-dbgsym
+Skip package >python3-pam<, already in package-all.txt file
+[]
+Package-nr:681 of 11000, Name:python3-bson-ext-dbgsym
+Skip package >python3-bson-ext<, already in package-all.txt file
+[]
+Package-nr:682 of 11000, Name:python3-pymongo-ext-dbgsym
+Skip package >python3-pymongo-ext<, already in package-all.txt file
+[]
+Package-nr:683 of 11000, Name:plymouth-theme-ubuntu-text-dbgsym
+Skip package >plymouth-theme-ubuntu-text<, already in package-all.txt file
+[]
+Package-nr:684 of 11000, Name:plymouth-dbgsym
+Skip package >plymouth<, already in package-all.txt file
+[]
+Package-nr:685 of 11000, Name:plymouth-theme-spinner-dbgsym
+Skip package >plymouth-theme-spinner<, already in package-all.txt file
+[]
+Package-nr:686 of 11000, Name:plymouth-label-dbgsym
+Skip package >plymouth-label<, already in package-all.txt file
+[]
+Package-nr:687 of 11000, Name:pptpd-dbgsym
+Skip package >pptpd<, already in package-all.txt file
+[]
+Package-nr:688 of 11000, Name:bcrelay-dbgsym
+Skip package >bcrelay<, already in package-all.txt file
+[]
+Package-nr:689 of 11000, Name:python3-pyrsistent-dbgsym
+Skip package >python3-pyrsistent<, already in package-all.txt file
+[]
+Package-nr:690 of 11000, Name:pciutils-dbgsym
+Skip package >pciutils<, already in package-all.txt file
+[]
+Package-nr:691 of 11000, Name:pango1.0-tools-dbgsym
+Skip package >pango1.0-tools<, already in package-all.txt file
+[]
+Package-nr:692 of 11000, Name:python3-pyscss-dbgsym
+Skip package >python3-pyscss<, already in package-all.txt file
+[]
+Package-nr:693 of 11000, Name:printer-driver-ptouch-dbgsym
+Skip package >printer-driver-ptouch<, already in package-all.txt file
+[]
+Package-nr:694 of 11000, Name:poppler-utils-dbgsym
+Skip package >poppler-utils<, already in package-all.txt file
+[]
+Package-nr:695 of 11000, Name:python3-wrapt-dbgsym
+Skip package >python3-wrapt<, already in package-all.txt file
+[]
+Package-nr:696 of 11000, Name:powertop-dbgsym
+Skip package >powertop<, already in package-all.txt file
+[]
+Package-nr:697 of 11000, Name:patchutils-dbgsym
+Skip package >patchutils<, already in package-all.txt file
+[]
+Package-nr:698 of 11000, Name:python3-crypto-dbgsym
+Skip package >python3-crypto<, already in package-all.txt file
+[]
+Package-nr:699 of 11000, Name:python3-xattr-dbgsym
+Skip package >python3-xattr<, already in package-all.txt file
+[]
+Package-nr:700 of 11000, Name:gkbd-capplet-dbgsym
+Skip package >gkbd-capplet<, already in package-all.txt file
+[]
+Package-nr:701 of 11000, Name:jfsutils-dbgsym
+Skip package >jfsutils<, already in package-all.txt file
+[]
+Package-nr:702 of 11000, Name:joyent-mdata-client-dbgsym
+Skip package >joyent-mdata-client<, already in package-all.txt file
+[]
+Package-nr:703 of 11000, Name:inputattach-dbgsym
+Skip package >inputattach<, already in package-all.txt file
+[]
+Package-nr:704 of 11000, Name:9base-dbgsym
+Skip package >9base<, already in package-all.txt file
+[]
+Package-nr:705 of 11000, Name:9wm-dbgsym
+Skip package >9wm<, already in package-all.txt file
+[]
+Package-nr:706 of 11000, Name:9mount-dbgsym
+Skip package >9mount<, already in package-all.txt file
+[]
+Package-nr:707 of 11000, Name:9menu-dbgsym
+Skip package >9menu<, already in package-all.txt file
+[]
+Package-nr:708 of 11000, Name:jcat-dbgsym
+Skip package >jcat<, already in package-all.txt file
+[]
+Package-nr:709 of 11000, Name:edlib-aligner-dbgsym
+Skip package >edlib-aligner<, already in package-all.txt file
+[]
+Package-nr:710 of 11000, Name:python3-edlib-dbgsym
+Skip package >python3-edlib<, already in package-all.txt file
+[]
+Package-nr:711 of 11000, Name:gostsum-dbgsym
+Skip package >gostsum<, already in package-all.txt file
+[]
+Package-nr:712 of 11000, Name:python3-libevtx-dbgsym
+Skip package >python3-libevtx<, already in package-all.txt file
+[]
+Package-nr:713 of 11000, Name:python3-libesedb-dbgsym
+Skip package >python3-libesedb<, already in package-all.txt file
+[]
+Package-nr:714 of 11000, Name:python3-libevt-dbgsym
+Skip package >python3-libevt<, already in package-all.txt file
+[]
+Package-nr:715 of 11000, Name:createfp-dbgsym
+Skip package >createfp<, already in package-all.txt file
+[]
+Package-nr:716 of 11000, Name:eot2ttf-dbgsym
+Skip package >eot2ttf<, already in package-all.txt file
+[]
+Package-nr:717 of 11000, Name:explain-dbgsym
+Skip package >explain<, already in package-all.txt file
+[]
+Package-nr:718 of 11000, Name:printemf-dbgsym
+Skip package >printemf<, already in package-all.txt file
+[]
+Package-nr:719 of 11000, Name:ewf-tools-dbgsym
+Skip package >ewf-tools<, already in package-all.txt file
+[]
+Package-nr:720 of 11000, Name:python3-libewf-dbgsym
+Skip package >python3-libewf<, already in package-all.txt file
+[]
+Package-nr:721 of 11000, Name:extract-dbgsym
+Skip package >extract<, already in package-all.txt file
+[]
+Package-nr:722 of 11000, Name:epsilon-bin-dbgsym
+Skip package >epsilon-bin<, already in package-all.txt file
+[]
+Package-nr:723 of 11000, Name:king-probe-dbgsym
+Skip package >king-probe<, already in package-all.txt file
+[]
+Package-nr:724 of 11000, Name:kconfig-frontends-dbgsym
+Skip package >kconfig-frontends<, already in package-all.txt file
+[]
+Package-nr:725 of 11000, Name:qml-module-org-kde-kaccounts-dbgsym
+Skip package >qml-module-org-kde-kaccounts<, already in package-all.txt file
+[]
+Package-nr:726 of 11000, Name:kaccounts-integration-dbgsym
+Skip package >kaccounts-integration<, already in package-all.txt file
+[]
+Package-nr:727 of 11000, Name:kdegraphics-mobipocket-dbgsym
+Skip package >kdegraphics-mobipocket<, already in package-all.txt file
+[]
+Package-nr:728 of 11000, Name:kio-gdrive-dbgsym
+Skip package >kio-gdrive<, already in package-all.txt file
+[]
+Package-nr:729 of 11000, Name:kakoune-dbgsym
+Skip package >kakoune<, already in package-all.txt file
+[]
+Package-nr:730 of 11000, Name:kafkacat-dbgsym
+Skip package >kafkacat<, already in package-all.txt file
+[]
+Package-nr:731 of 11000, Name:ksystemlog-dbgsym
+Skip package >ksystemlog<, already in package-all.txt file
+[]
+Package-nr:732 of 11000, Name:kimagemapeditor-dbgsym
+Skip package >kimagemapeditor<, already in package-all.txt file
+[]
+Package-nr:733 of 11000, Name:konqueror-dbgsym
+Skip package >konqueror<, already in package-all.txt file
+[]
+Package-nr:734 of 11000, Name:kodi-pvr-dvbviewer-dbgsym
+Skip package >kodi-pvr-dvbviewer<, already in package-all.txt file
+[]
+Package-nr:735 of 11000, Name:ksmtuned-dbgsym
+Skip package >ksmtuned<, already in package-all.txt file
+[]
+Package-nr:736 of 11000, Name:kpart5-kompare-dbgsym
+Skip package >kpart5-kompare<, already in package-all.txt file
+[]
+Package-nr:737 of 11000, Name:kompare-dbgsym
+Skip package >kompare<, already in package-all.txt file
+[]
+Package-nr:738 of 11000, Name:kdevelop-php-dbgsym
+Skip package >kdevelop-php<, already in package-all.txt file
+[]
+Package-nr:739 of 11000, Name:kjumpingcube-dbgsym
+Skip package >kjumpingcube<, already in package-all.txt file
+[]
+Package-nr:740 of 11000, Name:kmag-dbgsym
+Skip package >kmag<, already in package-all.txt file
+[]
+Package-nr:741 of 11000, Name:krb5-sync-tools-dbgsym
+Skip package >krb5-sync-tools<, already in package-all.txt file
+[]
+Package-nr:742 of 11000, Name:korganizer-dbgsym
+Skip package >korganizer<, already in package-all.txt file
+[]
+Package-nr:743 of 11000, Name:kdebugsettings-dbgsym
+Skip package >kdebugsettings<, already in package-all.txt file
+[]
+Package-nr:744 of 11000, Name:kawari8-dbgsym
+Skip package >kawari8<, already in package-all.txt file
+[]
+Package-nr:745 of 11000, Name:kakasi-dbgsym
+Skip package >kakasi<, already in package-all.txt file
+[]
+Package-nr:746 of 11000, Name:kanatest-dbgsym
+Skip package >kanatest<, already in package-all.txt file
+[]
+Package-nr:747 of 11000, Name:kde-config-screenlocker-dbgsym
+Skip package >kde-config-screenlocker<, already in package-all.txt file
+[]
+Package-nr:748 of 11000, Name:kbounce-dbgsym
+Skip package >kbounce<, already in package-all.txt file
+[]
+Package-nr:749 of 11000, Name:krb5-gss-samples-dbgsym
+Skip package >krb5-gss-samples<, already in package-all.txt file
+[]
+Package-nr:750 of 11000, Name:krb5-admin-server-dbgsym
+Skip package >krb5-admin-server<, already in package-all.txt file
+[]
+Package-nr:751 of 11000, Name:krb5-k5tls-dbgsym
+Skip package >krb5-k5tls<, already in package-all.txt file
+[]
+Package-nr:752 of 11000, Name:krb5-kdc-dbgsym
+Skip package >krb5-kdc<, already in package-all.txt file
+[]
+Package-nr:753 of 11000, Name:krb5-otp-dbgsym
+Skip package >krb5-otp<, already in package-all.txt file
+[]
+Package-nr:754 of 11000, Name:krb5-kdc-ldap-dbgsym
+Skip package >krb5-kdc-ldap<, already in package-all.txt file
+[]
+Package-nr:755 of 11000, Name:krb5-kpropd-dbgsym
+Skip package >krb5-kpropd<, already in package-all.txt file
+[]
+Package-nr:756 of 11000, Name:krb5-user-dbgsym
+Skip package >krb5-user<, already in package-all.txt file
+[]
+Package-nr:757 of 11000, Name:krb5-pkinit-dbgsym
+Skip package >krb5-pkinit<, already in package-all.txt file
+[]
+Package-nr:758 of 11000, Name:ktexteditor-katepart-dbgsym
+Skip package >ktexteditor-katepart<, already in package-all.txt file
+[]
+Package-nr:759 of 11000, Name:kopano-gateway-dbgsym
+Skip package >kopano-gateway<, already in package-all.txt file
+[]
+Package-nr:760 of 11000, Name:kopano-spooler-dbgsym
+Skip package >kopano-spooler<, already in package-all.txt file
+[]
+Package-nr:761 of 11000, Name:kopano-archiver-dbgsym
+Skip package >kopano-archiver<, already in package-all.txt file
+[]
+Package-nr:762 of 11000, Name:kopano-ical-dbgsym
+Skip package >kopano-ical<, already in package-all.txt file
+[]
+Package-nr:763 of 11000, Name:python3-mapi-dbgsym
+Skip package >python3-mapi<, already in package-all.txt file
+[]
+Package-nr:764 of 11000, Name:kopano-server-dbgsym
+Skip package >kopano-server<, already in package-all.txt file
+[]
+Package-nr:765 of 11000, Name:kopano-libs-dbgsym
+Skip package >kopano-libs<, already in package-all.txt file
+[]
+Package-nr:766 of 11000, Name:kopano-contacts-dbgsym
+Skip package >kopano-contacts<, already in package-all.txt file
+[]
+Package-nr:767 of 11000, Name:kopano-monitor-dbgsym
+Skip package >kopano-monitor<, already in package-all.txt file
+[]
+Package-nr:768 of 11000, Name:kopano-utils-dbgsym
+Skip package >kopano-utils<, already in package-all.txt file
+[]
+Package-nr:769 of 11000, Name:php-mapi-dbgsym
+Skip package >php-mapi<, already in package-all.txt file
+[]
+Package-nr:770 of 11000, Name:kopano-dagent-dbgsym
+Skip package >kopano-dagent<, already in package-all.txt file
+[]
+Package-nr:771 of 11000, Name:kde-config-gtk-style-dbgsym
+Skip package >kde-config-gtk-style<, already in package-all.txt file
+[]
+Package-nr:772 of 11000, Name:kde-config-gtk-style-preview-dbgsym
+Skip package >kde-config-gtk-style-preview<, already in package-all.txt file
+[]
+Package-nr:773 of 11000, Name:kdepim-addons-dbgsym
+Skip package >kdepim-addons<, already in package-all.txt file
+[]
+Package-nr:774 of 11000, Name:kspaceduel-dbgsym
+Skip package >kspaceduel<, already in package-all.txt file
+[]
+Package-nr:775 of 11000, Name:knxd-tools-dbgsym
+Skip package >knxd-tools<, already in package-all.txt file
+[]
+Package-nr:776 of 11000, Name:knxd-dbgsym
+Skip package >knxd<, already in package-all.txt file
+[]
+Package-nr:777 of 11000, Name:kamera-dbgsym
+Skip package >kamera<, already in package-all.txt file
+[]
+Package-nr:778 of 11000, Name:kalarm-dbgsym
+Skip package >kalarm<, already in package-all.txt file
+[]
+Package-nr:779 of 11000, Name:ktuberling-dbgsym
+Skip package >ktuberling<, already in package-all.txt file
+[]
+Package-nr:780 of 11000, Name:kwrited-dbgsym
+Skip package >kwrited<, already in package-all.txt file
+[]
+Package-nr:781 of 11000, Name:kmines-dbgsym
+Skip package >kmines<, already in package-all.txt file
+[]
+Package-nr:782 of 11000, Name:kickpass-dbgsym
+Skip package >kickpass<, already in package-all.txt file
+[]
+Package-nr:783 of 11000, Name:kbtin-dbgsym
+Skip package >kbtin<, already in package-all.txt file
+[]
+Package-nr:784 of 11000, Name:klatexformula-dbgsym
+Skip package >klatexformula<, already in package-all.txt file
+[]
+Package-nr:785 of 11000, Name:kwstyle-dbgsym
+Skip package >kwstyle<, already in package-all.txt file
+[]
+Package-nr:786 of 11000, Name:kdocker-dbgsym
+Skip package >kdocker<, already in package-all.txt file
+[]
+Package-nr:787 of 11000, Name:kluppe-dbgsym
+Skip package >kluppe<, already in package-all.txt file
+[]
+Package-nr:788 of 11000, Name:knot-dbgsym
+Skip package >knot<, already in package-all.txt file
+[]
+Package-nr:789 of 11000, Name:knot-host-dbgsym
+Skip package >knot-host<, already in package-all.txt file
+[]
+Package-nr:790 of 11000, Name:knot-dnsutils-dbgsym
+Skip package >knot-dnsutils<, already in package-all.txt file
+[]
+Package-nr:791 of 11000, Name:kde-telepathy-auth-handler-dbgsym
+Skip package >kde-telepathy-auth-handler<, already in package-all.txt file
+[]
+Package-nr:792 of 11000, Name:kget-dbgsym
+Skip package >kget<, already in package-all.txt file
+[]
+Package-nr:793 of 11000, Name:klines-dbgsym
+Skip package >klines<, already in package-all.txt file
+[]
+Package-nr:794 of 11000, Name:kde-config-systemd-dbgsym
+Skip package >kde-config-systemd<, already in package-all.txt file
+[]
+Package-nr:795 of 11000, Name:kylin-nm-dbgsym
+Skip package >kylin-nm<, already in package-all.txt file
+[]
+Package-nr:796 of 11000, Name:qml-module-org-kde-runnermodel-dbgsym
+Skip package >qml-module-org-kde-runnermodel<, already in package-all.txt file
+[]
+Package-nr:797 of 11000, Name:kyotocabinet-utils-dbgsym
+Skip package >kyotocabinet-utils<, already in package-all.txt file
+[]
+Package-nr:798 of 11000, Name:kdf-dbgsym
+Skip package >kdf<, already in package-all.txt file
+[]
+Package-nr:799 of 11000, Name:kinit-dbgsym
+Skip package >kinit<, already in package-all.txt file
+[]
+Package-nr:800 of 11000, Name:ktnef-dbgsym
+Skip package >ktnef<, already in package-all.txt file
+[]
+Package-nr:801 of 11000, Name:kmail-dbgsym
+Skip package >kmail<, already in package-all.txt file
+[]
+Package-nr:802 of 11000, Name:kmc-dbgsym
+Skip package >kmc<, already in package-all.txt file
+[]
+Package-nr:803 of 11000, Name:kblocks-dbgsym
+Skip package >kblocks<, already in package-all.txt file
+[]
+Package-nr:804 of 11000, Name:kaffeine-dbgsym
+Skip package >kaffeine<, already in package-all.txt file
+[]
+Package-nr:805 of 11000, Name:kronometer-dbgsym
+Skip package >kronometer<, already in package-all.txt file
+[]
+Package-nr:806 of 11000, Name:kaddressbook-dbgsym
+Skip package >kaddressbook<, already in package-all.txt file
+[]
+Package-nr:807 of 11000, Name:k2pdfopt-dbgsym
+Skip package >k2pdfopt<, already in package-all.txt file
+[]
+Package-nr:808 of 11000, Name:klick-dbgsym
+Skip package >klick<, already in package-all.txt file
+[]
+Package-nr:809 of 11000, Name:kde-telepathy-call-ui-dbgsym
+Skip package >kde-telepathy-call-ui<, already in package-all.txt file
+[]
+Package-nr:810 of 11000, Name:knocker-dbgsym
+Skip package >knocker<, already in package-all.txt file
+[]
+Package-nr:811 of 11000, Name:ktimer-dbgsym
+Skip package >ktimer<, already in package-all.txt file
+[]
+Package-nr:812 of 11000, Name:kscreen-dbgsym
+Skip package >kscreen<, already in package-all.txt file
+[]
+Package-nr:813 of 11000, Name:kodi-x11-dbgsym
+Skip package >kodi-x11<, already in package-all.txt file
+[]
+Package-nr:814 of 11000, Name:kodi-eventclients-wiiremote-dbgsym
+Skip package >kodi-eventclients-wiiremote<, already in package-all.txt file
+[]
+Package-nr:815 of 11000, Name:kodi-gbm-dbgsym
+Skip package >kodi-gbm<, already in package-all.txt file
+[]
+Package-nr:816 of 11000, Name:kodi-wayland-dbgsym
+Skip package >kodi-wayland<, already in package-all.txt file
+[]
+Package-nr:817 of 11000, Name:kodi-bin-dbgsym
+Skip package >kodi-bin<, already in package-all.txt file
+[]
+Package-nr:818 of 11000, Name:kuvert-dbgsym
+Skip package >kuvert<, already in package-all.txt file
+[]
+Package-nr:819 of 11000, Name:kolourpaint-dbgsym
+Skip package >kolourpaint<, already in package-all.txt file
+[]
+Package-nr:820 of 11000, Name:kolf-dbgsym
+Skip package >kolf<, already in package-all.txt file
+[]
+Package-nr:821 of 11000, Name:kvirc-dbgsym
+Skip package >kvirc<, already in package-all.txt file
+[]
+Package-nr:822 of 11000, Name:kvirc-modules-dbgsym
+Skip package >kvirc-modules<, already in package-all.txt file
+[]
+Package-nr:823 of 11000, Name:ksshaskpass-dbgsym
+Skip package >ksshaskpass<, already in package-all.txt file
+[]
+Package-nr:824 of 11000, Name:kshutdown-dbgsym
+Skip package >kshutdown<, already in package-all.txt file
+[]
+Package-nr:825 of 11000, Name:kollision-dbgsym
+Skip package >kollision<, already in package-all.txt file
+[]
+Package-nr:826 of 11000, Name:qml-module-org-kde-people-dbgsym
+Skip package >qml-module-org-kde-people<, already in package-all.txt file
+[]
+Package-nr:827 of 11000, Name:kdiff3-dbgsym
+Skip package >kdiff3<, already in package-all.txt file
+[]
+Package-nr:828 of 11000, Name:kcharselect-dbgsym
+Skip package >kcharselect<, already in package-all.txt file
+[]
+Package-nr:829 of 11000, Name:kross-dbgsym
+Skip package >kross<, already in package-all.txt file
+[]
+Package-nr:830 of 11000, Name:kmailtransport-akonadi-dbgsym
+Skip package >kmailtransport-akonadi<, already in package-all.txt file
+[]
+Package-nr:831 of 11000, Name:kde-config-mailtransport-dbgsym
+Skip package >kde-config-mailtransport<, already in package-all.txt file
+[]
+Package-nr:832 of 11000, Name:qml-module-org-kde-kirigami2-dbgsym
+Skip package >qml-module-org-kde-kirigami2<, already in package-all.txt file
+[]
+Package-nr:833 of 11000, Name:kde-telepathy-filetransfer-handler-dbgsym
+Skip package >kde-telepathy-filetransfer-handler<, already in package-all.txt file
+[]
+Package-nr:834 of 11000, Name:kwrite-dbgsym
+Skip package >kwrite<, already in package-all.txt file
+[]
+Package-nr:835 of 11000, Name:kate-dbgsym
+Skip package >kate<, already in package-all.txt file
+[]
+Package-nr:836 of 11000, Name:krfb-dbgsym
+Skip package >krfb<, already in package-all.txt file
+[]
+Package-nr:837 of 11000, Name:kbackup-dbgsym
+Skip package >kbackup<, already in package-all.txt file
+[]
+Package-nr:838 of 11000, Name:komi-dbgsym
+Skip package >komi<, already in package-all.txt file
+[]
+Package-nr:839 of 11000, Name:kbdd-dbgsym
+Skip package >kbdd<, already in package-all.txt file
+[]
+Package-nr:840 of 11000, Name:konversation-dbgsym
+Skip package >konversation<, already in package-all.txt file
+[]
+Package-nr:841 of 11000, Name:kio-dbgsym
+Skip package >kio<, already in package-all.txt file
+[]
+Package-nr:842 of 11000, Name:kde-telepathy-approver-dbgsym
+Skip package >kde-telepathy-approver<, already in package-all.txt file
+[]
+Package-nr:843 of 11000, Name:kvmtool-dbgsym
+Skip package >kvmtool<, already in package-all.txt file
+[]
+Package-nr:844 of 11000, Name:kio-perldoc-dbgsym
+Skip package >kio-perldoc<, already in package-all.txt file
+[]
+Package-nr:845 of 11000, Name:klayout-dbgsym
+Skip package >klayout<, already in package-all.txt file
+[]
+Package-nr:846 of 11000, Name:k4dirstat-dbgsym
+Skip package >k4dirstat<, already in package-all.txt file
+[]
+Package-nr:847 of 11000, Name:kmenuedit-dbgsym
+Skip package >kmenuedit<, already in package-all.txt file
+[]
+Package-nr:848 of 11000, Name:kcalc-dbgsym
+Skip package >kcalc<, already in package-all.txt file
+[]
+Package-nr:849 of 11000, Name:kpeople-vcard-dbgsym
+Skip package >kpeople-vcard<, already in package-all.txt file
+[]
+Package-nr:850 of 11000, Name:kore-dbgsym
+Skip package >kore<, already in package-all.txt file
+[]
+Package-nr:851 of 11000, Name:kxstitch-dbgsym
+Skip package >kxstitch<, already in package-all.txt file
+[]
+Package-nr:852 of 11000, Name:kde-telepathy-text-ui-dbgsym
+Skip package >kde-telepathy-text-ui<, already in package-all.txt file
+[]
+Package-nr:853 of 11000, Name:kino-dbgsym
+Skip package >kino<, already in package-all.txt file
+[]
+Package-nr:854 of 11000, Name:kanshi-dbgsym
+Skip package >kanshi<, already in package-all.txt file
+[]
+Package-nr:855 of 11000, Name:kde-telepathy-send-file-dbgsym
+Skip package >kde-telepathy-send-file<, already in package-all.txt file
+[]
+Package-nr:856 of 11000, Name:kanagram-dbgsym
+Skip package >kanagram<, already in package-all.txt file
+[]
+Package-nr:857 of 11000, Name:kodi-pvr-mediaportal-tvserver-dbgsym
+Skip package >kodi-pvr-mediaportal-tvserver<, already in package-all.txt file
+[]
+Package-nr:858 of 11000, Name:kwayland-integration-dbgsym
+Skip package >kwayland-integration<, already in package-all.txt file
+[]
+Package-nr:859 of 11000, Name:kde-telepathy-contact-list-dbgsym
+Skip package >kde-telepathy-contact-list<, already in package-all.txt file
+[]
+Package-nr:860 of 11000, Name:kiten-dbgsym
+Skip package >kiten<, already in package-all.txt file
+[]
+Package-nr:861 of 11000, Name:kiriki-dbgsym
+Skip package >kiriki<, already in package-all.txt file
+[]
+Package-nr:862 of 11000, Name:kalzium-dbgsym
+Skip package >kalzium<, already in package-all.txt file
+[]
+Package-nr:863 of 11000, Name:kodi-pvr-vuplus-dbgsym
+Skip package >kodi-pvr-vuplus<, already in package-all.txt file
+[]
+Package-nr:864 of 11000, Name:kmetronome-dbgsym
+Skip package >kmetronome<, already in package-all.txt file
+[]
+Package-nr:865 of 11000, Name:kma-dbgsym
+Skip package >kma<, already in package-all.txt file
+[]
+Package-nr:866 of 11000, Name:ketm-dbgsym
+Skip package >ketm<, already in package-all.txt file
+[]
+Package-nr:867 of 11000, Name:krb5-auth-dialog-dbgsym
+Skip package >krb5-auth-dialog<, already in package-all.txt file
+[]
+Package-nr:868 of 11000, Name:kwordquiz-dbgsym
+Skip package >kwordquiz<, already in package-all.txt file
+[]
+Package-nr:869 of 11000, Name:plasma-runner-telepathy-contact-dbgsym
+Skip package >plasma-runner-telepathy-contact<, already in package-all.txt file
+[]
+Package-nr:870 of 11000, Name:katomic-dbgsym
+Skip package >katomic<, already in package-all.txt file
+[]
+Package-nr:871 of 11000, Name:kallisto-dbgsym
+Skip package >kallisto<, already in package-all.txt file
+[]
+Package-nr:872 of 11000, Name:kamoso-dbgsym
+Skip package >kamoso<, already in package-all.txt file
+[]
+Package-nr:873 of 11000, Name:kde-config-cron-dbgsym
+Skip package >kde-config-cron<, already in package-all.txt file
+[]
+Package-nr:874 of 11000, Name:kodi-pvr-hts-dbgsym
+Skip package >kodi-pvr-hts<, already in package-all.txt file
+[]
+Package-nr:875 of 11000, Name:kstart-dbgsym
+Skip package >kstart<, already in package-all.txt file
+[]
+Package-nr:876 of 11000, Name:keditbookmarks-dbgsym
+Skip package >keditbookmarks<, already in package-all.txt file
+[]
+Package-nr:877 of 11000, Name:kteatime-dbgsym
+Skip package >kteatime<, already in package-all.txt file
+[]
+Package-nr:878 of 11000, Name:keynav-dbgsym
+Skip package >keynav<, already in package-all.txt file
+[]
+Package-nr:879 of 11000, Name:ksirk-dbgsym
+Skip package >ksirk<, already in package-all.txt file
+[]
+Package-nr:880 of 11000, Name:qml-module-org-kde-draganddrop-dbgsym
+Skip package >qml-module-org-kde-draganddrop<, already in package-all.txt file
+[]
+Package-nr:881 of 11000, Name:qml-module-org-kde-kwindowsystem-dbgsym
+Skip package >qml-module-org-kde-kwindowsystem<, already in package-all.txt file
+[]
+Package-nr:882 of 11000, Name:qml-module-org-kde-kcm-dbgsym
+Skip package >qml-module-org-kde-kcm<, already in package-all.txt file
+[]
+Package-nr:883 of 11000, Name:qml-module-org-kde-kio-dbgsym
+Skip package >qml-module-org-kde-kio<, already in package-all.txt file
+[]
+Package-nr:884 of 11000, Name:kpackagelauncherqml-dbgsym
+Skip package >kpackagelauncherqml<, already in package-all.txt file
+[]
+Package-nr:885 of 11000, Name:qml-module-org-kde-kcoreaddons-dbgsym
+Skip package >qml-module-org-kde-kcoreaddons<, already in package-all.txt file
+[]
+Package-nr:886 of 11000, Name:qml-module-org-kde-kconfig-dbgsym
+Skip package >qml-module-org-kde-kconfig<, already in package-all.txt file
+[]
+Package-nr:887 of 11000, Name:qml-module-org-kde-kquickcontrolsaddons-dbgsym
+Skip package >qml-module-org-kde-kquickcontrolsaddons<, already in package-all.txt file
+[]
+Package-nr:888 of 11000, Name:qml-module-org-kde-kquickcontrols-dbgsym
+Skip package >qml-module-org-kde-kquickcontrols<, already in package-all.txt file
+[]
+Package-nr:889 of 11000, Name:kalign-dbgsym
+Skip package >kalign<, already in package-all.txt file
+[]
+Package-nr:890 of 11000, Name:kdenetwork-filesharing-dbgsym
+Skip package >kdenetwork-filesharing<, already in package-all.txt file
+[]
+Package-nr:891 of 11000, Name:kodi-visualization-spectrum-dbgsym
+Skip package >kodi-visualization-spectrum<, already in package-all.txt file
+[]
+Package-nr:892 of 11000, Name:killbots-dbgsym
+Skip package >killbots<, already in package-all.txt file
+[]
+Package-nr:893 of 11000, Name:kio-gopher-dbgsym
+Skip package >kio-gopher<, already in package-all.txt file
+[]
+Package-nr:894 of 11000, Name:kphotoalbum-dbgsym
+Skip package >kphotoalbum<, already in package-all.txt file
+[]
+Package-nr:895 of 11000, Name:kanjipad-dbgsym
+Skip package >kanjipad<, already in package-all.txt file
+[]
+Package-nr:896 of 11000, Name:kraken2-dbgsym
+Skip package >kraken2<, already in package-all.txt file
+[]
+Package-nr:897 of 11000, Name:kontact-dbgsym
+Skip package >kontact<, already in package-all.txt file
+[]
+Package-nr:898 of 11000, Name:kamailio-websocket-modules-dbgsym
+Skip package >kamailio-websocket-modules<, already in package-all.txt file
+[]
+Package-nr:899 of 11000, Name:kamailio-mono-modules-dbgsym
+Skip package >kamailio-mono-modules<, already in package-all.txt file
+[]
+Package-nr:900 of 11000, Name:kamailio-redis-modules-dbgsym
+Skip package >kamailio-redis-modules<, already in package-all.txt file
+[]
+Package-nr:901 of 11000, Name:kamailio-ruby-modules-dbgsym
+Skip package >kamailio-ruby-modules<, already in package-all.txt file
+[]
+Package-nr:902 of 11000, Name:kamailio-mysql-modules-dbgsym
+Skip package >kamailio-mysql-modules<, already in package-all.txt file
+[]
+Package-nr:903 of 11000, Name:kamailio-erlang-modules-dbgsym
+Skip package >kamailio-erlang-modules<, already in package-all.txt file
+[]
+Package-nr:904 of 11000, Name:kamailio-systemd-modules-dbgsym
+Skip package >kamailio-systemd-modules<, already in package-all.txt file
+[]
+Package-nr:905 of 11000, Name:kamailio-cpl-modules-dbgsym
+Skip package >kamailio-cpl-modules<, already in package-all.txt file
+[]
+Package-nr:906 of 11000, Name:kamailio-outbound-modules-dbgsym
+Skip package >kamailio-outbound-modules<, already in package-all.txt file
+[]
+Package-nr:907 of 11000, Name:kamailio-sctp-modules-dbgsym
+Skip package >kamailio-sctp-modules<, already in package-all.txt file
+[]
+Package-nr:908 of 11000, Name:kamailio-json-modules-dbgsym
+Skip package >kamailio-json-modules<, already in package-all.txt file
+[]
+Package-nr:909 of 11000, Name:kamailio-autheph-modules-dbgsym
+Skip package >kamailio-autheph-modules<, already in package-all.txt file
+[]
+Package-nr:910 of 11000, Name:kamailio-kazoo-modules-dbgsym
+Skip package >kamailio-kazoo-modules<, already in package-all.txt file
+[]
+Package-nr:911 of 11000, Name:kamailio-rabbitmq-modules-dbgsym
+Skip package >kamailio-rabbitmq-modules<, already in package-all.txt file
+[]
+Package-nr:912 of 11000, Name:kamailio-unixodbc-modules-dbgsym
+Skip package >kamailio-unixodbc-modules<, already in package-all.txt file
+[]
+Package-nr:913 of 11000, Name:kamailio-phonenum-modules-dbgsym
+Skip package >kamailio-phonenum-modules<, already in package-all.txt file
+[]
+Package-nr:914 of 11000, Name:kamailio-memcached-modules-dbgsym
+Skip package >kamailio-memcached-modules<, already in package-all.txt file
+[]
+Package-nr:915 of 11000, Name:kamailio-geoip2-modules-dbgsym
+Skip package >kamailio-geoip2-modules<, already in package-all.txt file
+[]
+Package-nr:916 of 11000, Name:kamailio-ims-modules-dbgsym
+Skip package >kamailio-ims-modules<, already in package-all.txt file
+[]
+Package-nr:917 of 11000, Name:kamailio-postgres-modules-dbgsym
+Skip package >kamailio-postgres-modules<, already in package-all.txt file
+[]
+Package-nr:918 of 11000, Name:kamailio-dbgsym
+Skip package >kamailio<, already in package-all.txt file
+[]
+Package-nr:919 of 11000, Name:kamailio-perl-modules-dbgsym
+Skip package >kamailio-perl-modules<, already in package-all.txt file
+[]
+Package-nr:920 of 11000, Name:kamailio-snmpstats-modules-dbgsym
+Skip package >kamailio-snmpstats-modules<, already in package-all.txt file
+[]
+Package-nr:921 of 11000, Name:kamailio-utils-modules-dbgsym
+Skip package >kamailio-utils-modules<, already in package-all.txt file
+[]
+Package-nr:922 of 11000, Name:kamailio-sqlite-modules-dbgsym
+Skip package >kamailio-sqlite-modules<, already in package-all.txt file
+[]
+Package-nr:923 of 11000, Name:kamailio-radius-modules-dbgsym
+Skip package >kamailio-radius-modules<, already in package-all.txt file
+[]
+Package-nr:924 of 11000, Name:kamailio-tls-modules-dbgsym
+Skip package >kamailio-tls-modules<, already in package-all.txt file
+[]
+Package-nr:925 of 11000, Name:kamailio-xml-modules-dbgsym
+Skip package >kamailio-xml-modules<, already in package-all.txt file
+[]
+Package-nr:926 of 11000, Name:kamailio-geoip-modules-dbgsym
+Skip package >kamailio-geoip-modules<, already in package-all.txt file
+[]
+Package-nr:927 of 11000, Name:kamailio-xmpp-modules-dbgsym
+Skip package >kamailio-xmpp-modules<, already in package-all.txt file
+[]
+Package-nr:928 of 11000, Name:kamailio-lua-modules-dbgsym
+Skip package >kamailio-lua-modules<, already in package-all.txt file
+[]
+Package-nr:929 of 11000, Name:kamailio-berkeley-bin-dbgsym
+Skip package >kamailio-berkeley-bin<, already in package-all.txt file
+[]
+Package-nr:930 of 11000, Name:kamailio-cnxcc-modules-dbgsym
+Skip package >kamailio-cnxcc-modules<, already in package-all.txt file
+[]
+Package-nr:931 of 11000, Name:kamailio-ldap-modules-dbgsym
+Skip package >kamailio-ldap-modules<, already in package-all.txt file
+[]
+Package-nr:932 of 11000, Name:kamailio-extra-modules-dbgsym
+Skip package >kamailio-extra-modules<, already in package-all.txt file
+[]
+Package-nr:933 of 11000, Name:kamailio-mongodb-modules-dbgsym
+Skip package >kamailio-mongodb-modules<, already in package-all.txt file
+[]
+Package-nr:934 of 11000, Name:kamailio-python3-modules-dbgsym
+Skip package >kamailio-python3-modules<, already in package-all.txt file
+[]
+Package-nr:935 of 11000, Name:kamailio-berkeley-modules-dbgsym
+Skip package >kamailio-berkeley-modules<, already in package-all.txt file
+[]
+Package-nr:936 of 11000, Name:kamailio-presence-modules-dbgsym
+Skip package >kamailio-presence-modules<, already in package-all.txt file
+[]
+Package-nr:937 of 11000, Name:qml-module-org-kde-kholidays-dbgsym
+Skip package >qml-module-org-kde-kholidays<, already in package-all.txt file
+[]
+Package-nr:938 of 11000, Name:kodi-pvr-iptvsimple-dbgsym
+Skip package >kodi-pvr-iptvsimple<, already in package-all.txt file
+[]
+Package-nr:939 of 11000, Name:kmymoney-dbgsym
+Skip package >kmymoney<, already in package-all.txt file
+[]
+Package-nr:940 of 11000, Name:kdoctools5-dbgsym
+Skip package >kdoctools5<, already in package-all.txt file
+[]
+Package-nr:941 of 11000, Name:ksnakeduel-dbgsym
+Skip package >ksnakeduel<, already in package-all.txt file
+[]
+Package-nr:942 of 11000, Name:konsole-kpart-dbgsym
+Skip package >konsole-kpart<, already in package-all.txt file
+[]
+Package-nr:943 of 11000, Name:konsole-dbgsym
+Skip package >konsole<, already in package-all.txt file
+[]
+Package-nr:944 of 11000, Name:kcolorchooser-dbgsym
+Skip package >kcolorchooser<, already in package-all.txt file
+[]
+Package-nr:945 of 11000, Name:kded5-dbgsym
+Skip package >kded5<, already in package-all.txt file
+[]
+Package-nr:946 of 11000, Name:kodi-pvr-njoy-dbgsym
+Skip package >kodi-pvr-njoy<, already in package-all.txt file
+[]
+Package-nr:947 of 11000, Name:knotes-dbgsym
+Skip package >knotes<, already in package-all.txt file
+[]
+Package-nr:948 of 11000, Name:koules-dbgsym
+Skip package >koules<, already in package-all.txt file
+[]
+Package-nr:949 of 11000, Name:kildclient-dbgsym
+Skip package >kildclient<, already in package-all.txt file
+[]
+Package-nr:950 of 11000, Name:kylin-burner-dbgsym
+Skip package >kylin-burner<, already in package-all.txt file
+[]
+Package-nr:951 of 11000, Name:nautilus-extension-burner-dbgsym
+Skip package >nautilus-extension-burner<, already in package-all.txt file
+[]
+Package-nr:952 of 11000, Name:burner-cdrkit-dbgsym
+Skip package >burner-cdrkit<, already in package-all.txt file
+[]
+Package-nr:953 of 11000, Name:kbreakout-dbgsym
+Skip package >kbreakout<, already in package-all.txt file
+[]
+Package-nr:954 of 11000, Name:kactivities-bin-dbgsym
+Skip package >kactivities-bin<, already in package-all.txt file
+[]
+Package-nr:955 of 11000, Name:qml-module-org-kde-activities-dbgsym
+Skip package >qml-module-org-kde-activities<, already in package-all.txt file
+[]
+Package-nr:956 of 11000, Name:klettres-dbgsym
+Skip package >klettres<, already in package-all.txt file
+[]
+Package-nr:957 of 11000, Name:kraptor-dbgsym
+Skip package >kraptor<, already in package-all.txt file
+[]
+Package-nr:958 of 11000, Name:krename-dbgsym
+Skip package >krename<, already in package-all.txt file
+[]
+Package-nr:959 of 11000, Name:kinfocenter-dbgsym
+Skip package >kinfocenter<, already in package-all.txt file
+[]
+Package-nr:960 of 11000, Name:kookbook-dbgsym
+Skip package >kookbook<, already in package-all.txt file
+[]
+Package-nr:961 of 11000, Name:kbibtex-dbgsym
+Skip package >kbibtex<, already in package-all.txt file
+[]
+Package-nr:962 of 11000, Name:kmix-dbgsym
+Skip package >kmix<, already in package-all.txt file
+[]
+Package-nr:963 of 11000, Name:r-cran-kernsmooth-dbgsym
+Skip package >r-cran-kernsmooth<, already in package-all.txt file
+[]
+Package-nr:964 of 11000, Name:kpackagetool5-dbgsym
+Skip package >kpackagetool5<, already in package-all.txt file
+[]
+Package-nr:965 of 11000, Name:kgb-dbgsym
+Skip package >kgb<, already in package-all.txt file
+[]
+Package-nr:966 of 11000, Name:kdc2tiff-dbgsym
+Skip package >kdc2tiff<, already in package-all.txt file
+[]
+Package-nr:967 of 11000, Name:khotkeys-dbgsym
+Skip package >khotkeys<, already in package-all.txt file
+[]
+Package-nr:968 of 11000, Name:kodi-pvr-argustv-dbgsym
+Skip package >kodi-pvr-argustv<, already in package-all.txt file
+[]
+Package-nr:969 of 11000, Name:kubrick-dbgsym
+Skip package >kubrick<, already in package-all.txt file
+[]
+Package-nr:970 of 11000, Name:kdiamond-dbgsym
+Skip package >kdiamond<, already in package-all.txt file
+[]
+Package-nr:971 of 11000, Name:kile-dbgsym
+Skip package >kile<, already in package-all.txt file
+[]
+Package-nr:972 of 11000, Name:kdepim-runtime-dbgsym
+Skip package >kdepim-runtime<, already in package-all.txt file
+[]
+Package-nr:973 of 11000, Name:kdesdk-thumbnailers-dbgsym
+Skip package >kdesdk-thumbnailers<, already in package-all.txt file
+[]
+Package-nr:974 of 11000, Name:kiki-the-nano-bot-dbgsym
+Skip package >kiki-the-nano-bot<, already in package-all.txt file
+[]
+Package-nr:975 of 11000, Name:kdialog-dbgsym
+Skip package >kdialog<, already in package-all.txt file
+[]
+Package-nr:976 of 11000, Name:kdevelop-dbgsym
+Skip package >kdevelop<, already in package-all.txt file
+[]
+Package-nr:977 of 11000, Name:plasma-kdevelop-dbgsym
+Skip package >plasma-kdevelop<, already in package-all.txt file
+[]
+Package-nr:978 of 11000, Name:kdevelop55-libs-dbgsym
+Skip package >kdevelop55-libs<, already in package-all.txt file
+[]
+Package-nr:979 of 11000, Name:kodi-pvr-nextpvr-dbgsym
+Skip package >kodi-pvr-nextpvr<, already in package-all.txt file
+[]
+Package-nr:980 of 11000, Name:qml-module-org-kde-newstuff-dbgsym
+Skip package >qml-module-org-kde-newstuff<, already in package-all.txt file
+[]
+Package-nr:981 of 11000, Name:kst-dbgsym
+Skip package >kst<, already in package-all.txt file
+[]
+Package-nr:982 of 11000, Name:kubuntu-driver-manager-dbgsym
+Skip package >kubuntu-driver-manager<, already in package-all.txt file
+[]
+Package-nr:983 of 11000, Name:khelpcenter-dbgsym
+Skip package >khelpcenter<, already in package-all.txt file
+[]
+Package-nr:984 of 11000, Name:kde-cli-tools-dbgsym
+Skip package >kde-cli-tools<, already in package-all.txt file
+[]
+Package-nr:985 of 11000, Name:kalgebramobile-dbgsym
+Skip package >kalgebramobile<, already in package-all.txt file
+[]
+Package-nr:986 of 11000, Name:kalgebra-dbgsym
+Skip package >kalgebra<, already in package-all.txt file
+[]
+Package-nr:987 of 11000, Name:kerneloops-applet-dbgsym
+Skip package >kerneloops-applet<, already in package-all.txt file
+[]
+Package-nr:988 of 11000, Name:klickety-dbgsym
+Skip package >klickety<, already in package-all.txt file
+[]
+Package-nr:989 of 11000, Name:khangman-dbgsym
+Skip package >khangman<, already in package-all.txt file
+[]
+Package-nr:990 of 11000, Name:kapman-dbgsym
+Skip package >kapman<, already in package-all.txt file
+[]
+Package-nr:991 of 11000, Name:kgeography-dbgsym
+Skip package >kgeography<, already in package-all.txt file
+[]
+Package-nr:992 of 11000, Name:plasma-calendar-addons-dbgsym
+Skip package >plasma-calendar-addons<, already in package-all.txt file
+[]
+Package-nr:993 of 11000, Name:plasma-widgets-addons-dbgsym
+Skip package >plasma-widgets-addons<, already in package-all.txt file
+[]
+Package-nr:994 of 11000, Name:plasma-dataengines-addons-dbgsym
+Skip package >plasma-dataengines-addons<, already in package-all.txt file
+[]
+Package-nr:995 of 11000, Name:plasma-runners-addons-dbgsym
+Skip package >plasma-runners-addons<, already in package-all.txt file
+[]
+Package-nr:996 of 11000, Name:kinput2-canna-wnn-dbgsym
+Skip package >kinput2-canna-wnn<, already in package-all.txt file
+[]
+Package-nr:997 of 11000, Name:kinput2-wnn-dbgsym
+Skip package >kinput2-wnn<, already in package-all.txt file
+[]
+Package-nr:998 of 11000, Name:kinput2-canna-dbgsym
+Skip package >kinput2-canna<, already in package-all.txt file
+[]
+Package-nr:999 of 11000, Name:keepassx-dbgsym
+Skip package >keepassx<, already in package-all.txt file
+[]
+Package-nr:1000 of 11000, Name:kde-telepathy-integration-module-dbgsym
+Skip package >kde-telepathy-integration-module<, already in package-all.txt file
+[]
+Package-nr:1001 of 11000, Name:kde-telepathy-desktop-applets-dbgsym
+Skip package >kde-telepathy-desktop-applets<, already in package-all.txt file
+[]
+Package-nr:1002 of 11000, Name:kobodeluxe-dbgsym
+Skip package >kobodeluxe<, already in package-all.txt file
+[]
+Package-nr:1003 of 11000, Name:knews-dbgsym
+Skip package >knews<, already in package-all.txt file
+[]
+Package-nr:1004 of 11000, Name:kgamma5-dbgsym
+Skip package >kgamma5<, already in package-all.txt file
+[]
+Package-nr:1005 of 11000, Name:kodi-pvr-hdhomerun-dbgsym
+Skip package >kodi-pvr-hdhomerun<, already in package-all.txt file
+[]
+Package-nr:1006 of 11000, Name:konclude-dbgsym
+Skip package >konclude<, already in package-all.txt file
+[]
+Package-nr:1007 of 11000, Name:kraft-dbgsym
+Skip package >kraft<, already in package-all.txt file
+[]
+Package-nr:1008 of 11000, Name:krb5-strength-dbgsym
+Skip package >krb5-strength<, already in package-all.txt file
+[]
+Package-nr:1009 of 11000, Name:knights-dbgsym
+Skip package >knights<, already in package-all.txt file
+[]
+Package-nr:1010 of 11000, Name:kfind-dbgsym
+Skip package >kfind<, already in package-all.txt file
+[]
+Package-nr:1011 of 11000, Name:keurocalc-dbgsym
+Skip package >keurocalc<, already in package-all.txt file
+[]
+Package-nr:1012 of 11000, Name:ktorrent-dbgsym
+Skip package >ktorrent<, already in package-all.txt file
+[]
+Package-nr:1013 of 11000, Name:kcollectd-dbgsym
+Skip package >kcollectd<, already in package-all.txt file
+[]
+Package-nr:1014 of 11000, Name:kcov-dbgsym
+Skip package >kcov<, already in package-all.txt file
+[]
+Package-nr:1015 of 11000, Name:ksudoku-dbgsym
+Skip package >ksudoku<, already in package-all.txt file
+[]
+Package-nr:1016 of 11000, Name:krusader-dbgsym
+Skip package >krusader<, already in package-all.txt file
+[]
+Package-nr:1017 of 11000, Name:ktikz-dbgsym
+Skip package >ktikz<, already in package-all.txt file
+[]
+Package-nr:1018 of 11000, Name:qtikz-dbgsym
+Skip package >qtikz<, already in package-all.txt file
+[]
+Package-nr:1019 of 11000, Name:accountwizard-dbgsym
+Skip package >accountwizard<, already in package-all.txt file
+[]
+Package-nr:1020 of 11000, Name:kgoldrunner-dbgsym
+Skip package >kgoldrunner<, already in package-all.txt file
+[]
+Package-nr:1021 of 11000, Name:keylaunch-dbgsym
+Skip package >keylaunch<, already in package-all.txt file
+[]
+Package-nr:1022 of 11000, Name:kirigami-gallery-dbgsym
+Skip package >kirigami-gallery<, already in package-all.txt file
+[]
+Package-nr:1023 of 11000, Name:krosspython-dbgsym
+Skip package >krosspython<, already in package-all.txt file
+[]
+Package-nr:1024 of 11000, Name:krossruby-dbgsym
+Skip package >krossruby<, already in package-all.txt file
+[]
+Package-nr:1025 of 11000, Name:knockd-dbgsym
+Skip package >knockd<, already in package-all.txt file
+[]
+Package-nr:1026 of 11000, Name:kdesvn-dbgsym
+Skip package >kdesvn<, already in package-all.txt file
+[]
+Package-nr:1027 of 11000, Name:ksquares-dbgsym
+Skip package >ksquares<, already in package-all.txt file
+[]
+Package-nr:1028 of 11000, Name:kraken-dbgsym
+Skip package >kraken<, already in package-all.txt file
+[]
+Package-nr:1029 of 11000, Name:kfourinline-dbgsym
+Skip package >kfourinline<, already in package-all.txt file
+[]
+Package-nr:1030 of 11000, Name:kcachegrind-dbgsym
+Skip package >kcachegrind<, already in package-all.txt file
+[]
+Package-nr:1031 of 11000, Name:kwin-common-dbgsym
+Skip package >kwin-common<, already in package-all.txt file
+[]
+Package-nr:1032 of 11000, Name:kwin-wayland-backend-virtual-dbgsym
+Skip package >kwin-wayland-backend-virtual<, already in package-all.txt file
+[]
+Package-nr:1033 of 11000, Name:kwin-wayland-backend-drm-dbgsym
+Skip package >kwin-wayland-backend-drm<, already in package-all.txt file
+[]
+Package-nr:1034 of 11000, Name:kwin-wayland-backend-fbdev-dbgsym
+Skip package >kwin-wayland-backend-fbdev<, already in package-all.txt file
+[]
+Package-nr:1035 of 11000, Name:kwin-wayland-backend-x11-dbgsym
+Skip package >kwin-wayland-backend-x11<, already in package-all.txt file
+[]
+Package-nr:1036 of 11000, Name:kwin-x11-dbgsym
+Skip package >kwin-x11<, already in package-all.txt file
+[]
+Package-nr:1037 of 11000, Name:kwin-wayland-dbgsym
+Skip package >kwin-wayland<, already in package-all.txt file
+[]
+Package-nr:1038 of 11000, Name:kwin-wayland-backend-wayland-dbgsym
+Skip package >kwin-wayland-backend-wayland<, already in package-all.txt file
+[]
+Package-nr:1039 of 11000, Name:kdeconnect-dbgsym
+Skip package >kdeconnect<, already in package-all.txt file
+[]
+Package-nr:1040 of 11000, Name:kopete-dbgsym
+Skip package >kopete<, already in package-all.txt file
+[]
+Package-nr:1041 of 11000, Name:kid3-cli-dbgsym
+Skip package >kid3-cli<, already in package-all.txt file
+[]
+Package-nr:1042 of 11000, Name:kid3-dbgsym
+Skip package >kid3<, already in package-all.txt file
+[]
+Package-nr:1043 of 11000, Name:kid3-qt-dbgsym
+Skip package >kid3-qt<, already in package-all.txt file
+[]
+Package-nr:1044 of 11000, Name:kid3-core-dbgsym
+Skip package >kid3-core<, already in package-all.txt file
+[]
+Package-nr:1045 of 11000, Name:kdrill-dbgsym
+Skip package >kdrill<, already in package-all.txt file
+[]
+Package-nr:1046 of 11000, Name:makedic-dbgsym
+Skip package >makedic<, already in package-all.txt file
+[]
+Package-nr:1047 of 11000, Name:kelbt-dbgsym
+Skip package >kelbt<, already in package-all.txt file
+[]
+Package-nr:1048 of 11000, Name:kmouth-dbgsym
+Skip package >kmouth<, already in package-all.txt file
+[]
+Package-nr:1049 of 11000, Name:kde-config-fcitx-dbgsym
+Skip package >kde-config-fcitx<, already in package-all.txt file
+[]
+Package-nr:1050 of 11000, Name:kodi-pvr-wmc-dbgsym
+Skip package >kodi-pvr-wmc<, already in package-all.txt file
+[]
+Package-nr:1051 of 11000, Name:kapptemplate-dbgsym
+Skip package >kapptemplate<, already in package-all.txt file
+[]
+Package-nr:1052 of 11000, Name:keepassxc-dbgsym
+Skip package >keepassxc<, already in package-all.txt file
+[]
+Package-nr:1053 of 11000, Name:kpatch-build-dbgsym
+Skip package >kpatch-build<, already in package-all.txt file
+[]
+Package-nr:1054 of 11000, Name:kicad-dbgsym
+Skip package >kicad<, already in package-all.txt file
+[]
+Package-nr:1055 of 11000, Name:kde-config-telepathy-accounts-dbgsym
+Skip package >kde-config-telepathy-accounts<, already in package-all.txt file
+[]
+Package-nr:1056 of 11000, Name:kruler-dbgsym
+Skip package >kruler<, already in package-all.txt file
+[]
+Package-nr:1057 of 11000, Name:kannel-sqlbox-dbgsym
+Skip package >kannel-sqlbox<, already in package-all.txt file
+[]
+Package-nr:1058 of 11000, Name:kmscube-dbgsym
+Skip package >kmscube<, already in package-all.txt file
+[]
+Package-nr:1059 of 11000, Name:kup-backup-dbgsym
+Skip package >kup-backup<, already in package-all.txt file
+[]
+Package-nr:1060 of 11000, Name:kmplot-dbgsym
+Skip package >kmplot<, already in package-all.txt file
+[]
+Package-nr:1061 of 11000, Name:kfloppy-dbgsym
+Skip package >kfloppy<, already in package-all.txt file
+[]
+Package-nr:1062 of 11000, Name:kbuild-dbgsym
+Skip package >kbuild<, already in package-all.txt file
+[]
+Package-nr:1063 of 11000, Name:kpat-dbgsym
+Skip package >kpat<, already in package-all.txt file
+[]
+Package-nr:1064 of 11000, Name:kuiviewer-dbgsym
+Skip package >kuiviewer<, already in package-all.txt file
+[]
+Package-nr:1065 of 11000, Name:kpartloader-dbgsym
+Skip package >kpartloader<, already in package-all.txt file
+[]
+Package-nr:1066 of 11000, Name:qml-module-org-kde-quickcharts-dbgsym
+Skip package >qml-module-org-kde-quickcharts<, already in package-all.txt file
+[]
+Package-nr:1067 of 11000, Name:kmplayer-dbgsym
+Skip package >kmplayer<, already in package-all.txt file
+[]
+Package-nr:1068 of 11000, Name:kde-config-whoopsie-dbgsym
+Skip package >kde-config-whoopsie<, already in package-all.txt file
+[]
+Package-nr:1069 of 11000, Name:ksh93-dbgsym
+Skip package >ksh93<, already in package-all.txt file
+[]
+Package-nr:1070 of 11000, Name:kmerresistance-dbgsym
+Skip package >kmerresistance<, already in package-all.txt file
+[]
+Package-nr:1071 of 11000, Name:kwalletcli-dbgsym
+Skip package >kwalletcli<, already in package-all.txt file
+[]
+Package-nr:1072 of 11000, Name:kali-dbgsym
+Skip package >kali<, already in package-all.txt file
+[]
+Package-nr:1073 of 11000, Name:kleopatra-dbgsym
+Skip package >kleopatra<, already in package-all.txt file
+[]
+Package-nr:1074 of 11000, Name:kismet-dbgsym
+Skip package >kismet<, already in package-all.txt file
+[]
+Package-nr:1075 of 11000, Name:kdevelop-pg-qt-dbgsym
+Skip package >kdevelop-pg-qt<, already in package-all.txt file
+[]
+Package-nr:1076 of 11000, Name:krdc-dbgsym
+Skip package >krdc<, already in package-all.txt file
+[]
+Package-nr:1077 of 11000, Name:kde-spectacle-dbgsym
+Skip package >kde-spectacle<, already in package-all.txt file
+[]
+Package-nr:1078 of 11000, Name:kdevelop-python-dbgsym
+Skip package >kdevelop-python<, already in package-all.txt file
+[]
+Package-nr:1079 of 11000, Name:kmousetool-dbgsym
+Skip package >kmousetool<, already in package-all.txt file
+[]
+Package-nr:1080 of 11000, Name:kaccounts-providers-dbgsym
+Skip package >kaccounts-providers<, already in package-all.txt file
+[]
+Package-nr:1081 of 11000, Name:kmflcomp-dbgsym
+Skip package >kmflcomp<, already in package-all.txt file
+[]
+Package-nr:1082 of 11000, Name:kylin-video-dbgsym
+Skip package >kylin-video<, already in package-all.txt file
+[]
+Package-nr:1083 of 11000, Name:kshisen-dbgsym
+Skip package >kshisen<, already in package-all.txt file
+[]
+Package-nr:1084 of 11000, Name:keytouch-editor-dbgsym
+Skip package >keytouch-editor<, already in package-all.txt file
+[]
+Package-nr:1085 of 11000, Name:k3b-dbgsym
+Skip package >k3b<, already in package-all.txt file
+[]
+Package-nr:1086 of 11000, Name:qml-module-org-kde-kitemmodels-dbgsym
+Skip package >qml-module-org-kde-kitemmodels<, already in package-all.txt file
+[]
+Package-nr:1087 of 11000, Name:krita-dbgsym
+Skip package >krita<, already in package-all.txt file
+[]
+Package-nr:1088 of 11000, Name:knot-resolver-dbgsym
+Skip package >knot-resolver<, already in package-all.txt file
+[]
+Package-nr:1089 of 11000, Name:kylin-greeter-dbgsym
+Skip package >kylin-greeter<, already in package-all.txt file
+[]
+Package-nr:1090 of 11000, Name:klog-dbgsym
+Skip package >klog<, already in package-all.txt file
+[]
+Package-nr:1091 of 11000, Name:kball-dbgsym
+Skip package >kball<, already in package-all.txt file
+[]
+Package-nr:1092 of 11000, Name:kodi-pvr-vdr-vnsi-dbgsym
+Skip package >kodi-pvr-vdr-vnsi<, already in package-all.txt file
+[]
+Package-nr:1093 of 11000, Name:kbruch-dbgsym
+Skip package >kbruch<, already in package-all.txt file
+[]
+Package-nr:1094 of 11000, Name:knavalbattle-dbgsym
+Skip package >knavalbattle<, already in package-all.txt file
+[]
+Package-nr:1095 of 11000, Name:python3-kivy-dbgsym
+Skip package >python3-kivy<, already in package-all.txt file
+[]
+Package-nr:1096 of 11000, Name:kde-telepathy-kpeople-dbgsym
+Skip package >kde-telepathy-kpeople<, already in package-all.txt file
+[]
+Package-nr:1097 of 11000, Name:kde-telepathy-kaccounts-dbgsym
+Skip package >kde-telepathy-kaccounts<, already in package-all.txt file
+[]
+Package-nr:1098 of 11000, Name:qml-module-org-kde-telepathy-dbgsym
+Skip package >qml-module-org-kde-telepathy<, already in package-all.txt file
+[]
+Package-nr:1099 of 11000, Name:kde-telepathy-debugger-dbgsym
+Skip package >kde-telepathy-debugger<, already in package-all.txt file
+[]
+Package-nr:1100 of 11000, Name:kgpg-dbgsym
+Skip package >kgpg<, already in package-all.txt file
+[]
+Package-nr:1101 of 11000, Name:kigo-dbgsym
+Skip package >kigo<, already in package-all.txt file
+[]
+Package-nr:1102 of 11000, Name:qml-module-org-kde-charts-dbgsym
+Skip package >qml-module-org-kde-charts<, already in package-all.txt file
+[]
+Package-nr:1103 of 11000, Name:khmer-dbgsym
+Skip package >khmer<, already in package-all.txt file
+[]
+Package-nr:1104 of 11000, Name:kturtle-dbgsym
+Skip package >kturtle<, already in package-all.txt file
+[]
+Package-nr:1105 of 11000, Name:kwalletmanager-dbgsym
+Skip package >kwalletmanager<, already in package-all.txt file
+[]
+Package-nr:1106 of 11000, Name:ktouch-dbgsym
+Skip package >ktouch<, already in package-all.txt file
+[]
+Package-nr:1107 of 11000, Name:kstars-dbgsym
+Skip package >kstars<, already in package-all.txt file
+[]
+Package-nr:1108 of 11000, Name:kio-extras-dbgsym
+Skip package >kio-extras<, already in package-all.txt file
+[]
+Package-nr:1109 of 11000, Name:kdegraphics-thumbnailers-dbgsym
+Skip package >kdegraphics-thumbnailers<, already in package-all.txt file
+[]
+Package-nr:1110 of 11000, Name:kodi-pvr-mythtv-dbgsym
+Skip package >kodi-pvr-mythtv<, already in package-all.txt file
+[]
+Package-nr:1111 of 11000, Name:kwave-dbgsym
+Skip package >kwave<, already in package-all.txt file
+[]
+Package-nr:1112 of 11000, Name:kasumi-dbgsym
+Skip package >kasumi<, already in package-all.txt file
+[]
+Package-nr:1113 of 11000, Name:kchmviewer-dbgsym
+Skip package >kchmviewer<, already in package-all.txt file
+[]
+Package-nr:1114 of 11000, Name:konquest-dbgsym
+Skip package >konquest<, already in package-all.txt file
+[]
+Package-nr:1115 of 11000, Name:ksysguardd-dbgsym
+Skip package >ksysguardd<, already in package-all.txt file
+[]
+Package-nr:1116 of 11000, Name:ksysguard-dbgsym
+Skip package >ksysguard<, already in package-all.txt file
+[]
+Package-nr:1117 of 11000, Name:kig-dbgsym
+Skip package >kig<, already in package-all.txt file
+[]
+Package-nr:1118 of 11000, Name:kreversi-dbgsym
+Skip package >kreversi<, already in package-all.txt file
+[]
+Package-nr:1119 of 11000, Name:kmahjongg-dbgsym
+Skip package >kmahjongg<, already in package-all.txt file
+[]
+Package-nr:1120 of 11000, Name:kissplice-dbgsym
+Skip package >kissplice<, already in package-all.txt file
+[]
+Package-nr:1121 of 11000, Name:kblackbox-dbgsym
+Skip package >kblackbox<, already in package-all.txt file
+[]
+Package-nr:1122 of 11000, Name:ksh-dbgsym
+Skip package >ksh<, already in package-all.txt file
+[]
+Package-nr:1123 of 11000, Name:kexi-postgresql-driver-dbgsym
+Skip package >kexi-postgresql-driver<, already in package-all.txt file
+[]
+Package-nr:1124 of 11000, Name:kexi-web-form-widget-dbgsym
+Skip package >kexi-web-form-widget<, already in package-all.txt file
+[]
+Package-nr:1125 of 11000, Name:kexi-mysql-driver-dbgsym
+Skip package >kexi-mysql-driver<, already in package-all.txt file
+[]
+Package-nr:1126 of 11000, Name:kexi-dbgsym
+Skip package >kexi<, already in package-all.txt file
+[]
+Package-nr:1127 of 11000, Name:kio-ldap-dbgsym
+Skip package >kio-ldap<, already in package-all.txt file
+[]
+Package-nr:1128 of 11000, Name:kjots-dbgsym
+Skip package >kjots<, already in package-all.txt file
+[]
+Package-nr:1129 of 11000, Name:kannel-extras-dbgsym
+Skip package >kannel-extras<, already in package-all.txt file
+[]
+Package-nr:1130 of 11000, Name:kannel-dbgsym
+Skip package >kannel<, already in package-all.txt file
+[]
+Package-nr:1131 of 11000, Name:kactivitymanagerd-dbgsym
+Skip package >kactivitymanagerd<, already in package-all.txt file
+[]
+Package-nr:1132 of 11000, Name:klavaro-dbgsym
+Skip package >klavaro<, already in package-all.txt file
+[]
+Package-nr:1133 of 11000, Name:katarakt-dbgsym
+Skip package >katarakt<, already in package-all.txt file
+[]
+Package-nr:1134 of 11000, Name:knetwalk-dbgsym
+Skip package >knetwalk<, already in package-all.txt file
+[]
+Package-nr:1135 of 11000, Name:kitty-dbgsym
+Skip package >kitty<, already in package-all.txt file
+[]
+Package-nr:1136 of 11000, Name:klustakwik-dbgsym
+Skip package >klustakwik<, already in package-all.txt file
+[]
+Package-nr:1137 of 11000, Name:bcal-dbgsym
+Skip package >bcal<, already in package-all.txt file
+[]
+Package-nr:1138 of 11000, Name:bino-dbgsym
+Skip package >bino<, already in package-all.txt file
+[]
+Package-nr:1139 of 11000, Name:bloboats-dbgsym
+Skip package >bloboats<, already in package-all.txt file
+[]
+Package-nr:1140 of 11000, Name:bibtool-dbgsym
+Skip package >bibtool<, already in package-all.txt file
+[]
+Package-nr:1141 of 11000, Name:blockattack-dbgsym
+Skip package >blockattack<, already in package-all.txt file
+[]
+Package-nr:1142 of 11000, Name:bruteforce-salted-openssl-dbgsym
+Skip package >bruteforce-salted-openssl<, already in package-all.txt file
+[]
+Package-nr:1143 of 11000, Name:bluez-btsco-dbgsym
+Skip package >bluez-btsco<, already in package-all.txt file
+[]
+Package-nr:1144 of 11000, Name:bdbvu-dbgsym
+Skip package >bdbvu<, already in package-all.txt file
+[]
+Package-nr:1145 of 11000, Name:ballview-dbgsym
+Skip package >ballview<, already in package-all.txt file
+[]
+Package-nr:1146 of 11000, Name:bspwm-dbgsym
+Skip package >bspwm<, already in package-all.txt file
+[]
+Package-nr:1147 of 11000, Name:between-dbgsym
+Skip package >between<, already in package-all.txt file
+[]
+Package-nr:1148 of 11000, Name:python3-broccoli-dbgsym
+Skip package >python3-broccoli<, already in package-all.txt file
+[]
+Package-nr:1149 of 11000, Name:birdtray-dbgsym
+Skip package >birdtray<, already in package-all.txt file
+[]
+Package-nr:1150 of 11000, Name:bugsquish-dbgsym
+Skip package >bugsquish<, already in package-all.txt file
+[]
+Package-nr:1151 of 11000, Name:black-box-dbgsym
+Skip package >black-box<, already in package-all.txt file
+[]
+Package-nr:1152 of 11000, Name:berkeley-express-dbgsym
+Skip package >berkeley-express<, already in package-all.txt file
+[]
+Package-nr:1153 of 11000, Name:bandage-dbgsym
+Skip package >bandage<, already in package-all.txt file
+[]
+Package-nr:1154 of 11000, Name:bibshelf-dbgsym
+Skip package >bibshelf<, already in package-all.txt file
+[]
+Package-nr:1155 of 11000, Name:bls-standalone-dbgsym
+Skip package >bls-standalone<, already in package-all.txt file
+[]
+Package-nr:1156 of 11000, Name:boswars-dbgsym
+Skip package >boswars<, already in package-all.txt file
+[]
+Package-nr:1157 of 11000, Name:bsdgames-dbgsym
+Skip package >bsdgames<, already in package-all.txt file
+[]
+Package-nr:1158 of 11000, Name:bliss-dbgsym
+Skip package >bliss<, already in package-all.txt file
+[]
+Package-nr:1159 of 11000, Name:plymouth-theme-breeze-dbgsym
+Skip package >plymouth-theme-breeze<, already in package-all.txt file
+[]
+Package-nr:1160 of 11000, Name:btyacc-dbgsym
+Skip package >btyacc<, already in package-all.txt file
+[]
+Package-nr:1161 of 11000, Name:bowtie2-dbgsym
+Skip package >bowtie2<, already in package-all.txt file
+[]
+Package-nr:1162 of 11000, Name:boinc-app-seti-graphics-dbgsym
+Skip package >boinc-app-seti-graphics<, already in package-all.txt file
+[]
+Package-nr:1163 of 11000, Name:boinc-app-seti-dbgsym
+Skip package >boinc-app-seti<, already in package-all.txt file
+[]
+Package-nr:1164 of 11000, Name:badger-dbgsym
+Skip package >badger<, already in package-all.txt file
+[]
+Package-nr:1165 of 11000, Name:bagel-dbgsym
+Skip package >bagel<, already in package-all.txt file
+[]
+Package-nr:1166 of 11000, Name:bogofilter-sqlite-dbgsym
+Skip package >bogofilter-sqlite<, already in package-all.txt file
+[]
+Package-nr:1167 of 11000, Name:bogofilter-bdb-dbgsym
+Skip package >bogofilter-bdb<, already in package-all.txt file
+[]
+Package-nr:1168 of 11000, Name:bwa-dbgsym
+Skip package >bwa<, already in package-all.txt file
+[]
+Package-nr:1169 of 11000, Name:budgie-hotcorners-applet-dbgsym
+Skip package >budgie-hotcorners-applet<, already in package-all.txt file
+[]
+Package-nr:1170 of 11000, Name:budgie-network-manager-applet-dbgsym
+Skip package >budgie-network-manager-applet<, already in package-all.txt file
+[]
+Package-nr:1171 of 11000, Name:budgie-applications-menu-applet-dbgsym
+Skip package >budgie-applications-menu-applet<, already in package-all.txt file
+[]
+Package-nr:1172 of 11000, Name:budgie-previews-dbgsym
+Skip package >budgie-previews<, already in package-all.txt file
+[]
+Package-nr:1173 of 11000, Name:budgie-trash-applet-dbgsym
+Skip package >budgie-trash-applet<, already in package-all.txt file
+[]
+Package-nr:1174 of 11000, Name:budgie-recentlyused-applet-dbgsym
+Skip package >budgie-recentlyused-applet<, already in package-all.txt file
+[]
+Package-nr:1175 of 11000, Name:budgie-showtime-applet-dbgsym
+Skip package >budgie-showtime-applet<, already in package-all.txt file
+[]
+Package-nr:1176 of 11000, Name:budgie-wallstreet-dbgsym
+Skip package >budgie-wallstreet<, already in package-all.txt file
+[]
+Package-nr:1177 of 11000, Name:budgie-brightness-controller-applet-dbgsym
+Skip package >budgie-brightness-controller-applet<, already in package-all.txt file
+[]
+Package-nr:1178 of 11000, Name:budgie-fuzzyclock-applet-dbgsym
+Skip package >budgie-fuzzyclock-applet<, already in package-all.txt file
+[]
+Package-nr:1179 of 11000, Name:budgie-extras-daemon-dbgsym
+Skip package >budgie-extras-daemon<, already in package-all.txt file
+[]
+Package-nr:1180 of 11000, Name:budgie-quicknote-applet-dbgsym
+Skip package >budgie-quicknote-applet<, already in package-all.txt file
+[]
+Package-nr:1181 of 11000, Name:budgie-weathershow-applet-dbgsym
+Skip package >budgie-weathershow-applet<, already in package-all.txt file
+[]
+Package-nr:1182 of 11000, Name:budgie-visualspace-applet-dbgsym
+Skip package >budgie-visualspace-applet<, already in package-all.txt file
+[]
+Package-nr:1183 of 11000, Name:budgie-window-shuffler-dbgsym
+Skip package >budgie-window-shuffler<, already in package-all.txt file
+[]
+Package-nr:1184 of 11000, Name:bs2b-ladspa-dbgsym
+Skip package >bs2b-ladspa<, already in package-all.txt file
+[]
+Package-nr:1185 of 11000, Name:blastem-dbgsym
+Skip package >blastem<, already in package-all.txt file
+[]
+Package-nr:1186 of 11000, Name:buici-clock-dbgsym
+Skip package >buici-clock<, already in package-all.txt file
+[]
+Package-nr:1187 of 11000, Name:bbmap-jni-dbgsym
+Skip package >bbmap-jni<, already in package-all.txt file
+[]
+Package-nr:1188 of 11000, Name:beignet-dev-dbgsym
+Skip package >beignet-dev<, already in package-all.txt file
+[]
+Package-nr:1189 of 11000, Name:beignet-opencl-icd-dbgsym
+Skip package >beignet-opencl-icd<, already in package-all.txt file
+[]
+Package-nr:1190 of 11000, Name:brainparty-dbgsym
+Skip package >brainparty<, already in package-all.txt file
+[]
+Package-nr:1191 of 11000, Name:bibtexconv-dbgsym
+Skip package >bibtexconv<, already in package-all.txt file
+[]
+Package-nr:1192 of 11000, Name:buffer-dbgsym
+Skip package >buffer<, already in package-all.txt file
+[]
+Package-nr:1193 of 11000, Name:boxes-dbgsym
+Skip package >boxes<, already in package-all.txt file
+[]
+Package-nr:1194 of 11000, Name:binutils-z80-dbgsym
+Skip package >binutils-z80<, already in package-all.txt file
+[]
+Package-nr:1195 of 11000, Name:bowtie-dbgsym
+Skip package >bowtie<, already in package-all.txt file
+[]
+Package-nr:1196 of 11000, Name:blocks-of-the-undead-dbgsym
+Skip package >blocks-of-the-undead<, already in package-all.txt file
+[]
+Package-nr:1197 of 11000, Name:baycomusb-dbgsym
+Skip package >baycomusb<, already in package-all.txt file
+[]
+Package-nr:1198 of 11000, Name:binpac-dbgsym
+Skip package >binpac<, already in package-all.txt file
+[]
+Package-nr:1199 of 11000, Name:bluez-tools-dbgsym
+Skip package >bluez-tools<, already in package-all.txt file
+[]
+Package-nr:1200 of 11000, Name:bambootracker-dbgsym
+Skip package >bambootracker<, already in package-all.txt file
+[]
+Package-nr:1201 of 11000, Name:barrage-dbgsym
+Skip package >barrage<, already in package-all.txt file
+[]
+Package-nr:1202 of 11000, Name:beads-dbgsym
+Skip package >beads<, already in package-all.txt file
+[]
+Package-nr:1203 of 11000, Name:bidiv-dbgsym
+Skip package >bidiv<, already in package-all.txt file
+[]
+Package-nr:1204 of 11000, Name:botch-dbgsym
+Skip package >botch<, already in package-all.txt file
+[]
+Package-nr:1205 of 11000, Name:bumprace-dbgsym
+Skip package >bumprace<, already in package-all.txt file
+[]
+Package-nr:1206 of 11000, Name:bash-static-dbgsym
+Skip package >bash-static<, already in package-all.txt file
+[]
+Package-nr:1207 of 11000, Name:bash-builtins-dbgsym
+Skip package >bash-builtins<, already in package-all.txt file
+[]
+Package-nr:1208 of 11000, Name:bomberclone-dbgsym
+Skip package >bomberclone<, already in package-all.txt file
+[]
+Package-nr:1209 of 11000, Name:bombardier-dbgsym
+Skip package >bombardier<, already in package-all.txt file
+[]
+Package-nr:1210 of 11000, Name:biboumi-dbgsym
+Skip package >biboumi<, already in package-all.txt file
+[]
+Package-nr:1211 of 11000, Name:bijiben-dbgsym
+Skip package >bijiben<, already in package-all.txt file
+[]
+Package-nr:1212 of 11000, Name:blinken-dbgsym
+Skip package >blinken<, already in package-all.txt file
+[]
+Package-nr:1213 of 11000, Name:bovo-dbgsym
+Skip package >bovo<, already in package-all.txt file
+[]
+Package-nr:1214 of 11000, Name:bitseq-dbgsym
+Skip package >bitseq<, already in package-all.txt file
+[]
+Package-nr:1215 of 11000, Name:bppphyview-dbgsym
+Skip package >bppphyview<, already in package-all.txt file
+[]
+Package-nr:1216 of 11000, Name:backstep-dbgsym
+Skip package >backstep<, already in package-all.txt file
+[]
+Package-nr:1217 of 11000, Name:bio-eagle-dbgsym
+Skip package >bio-eagle<, already in package-all.txt file
+[]
+Package-nr:1218 of 11000, Name:binutils-msp430-dbgsym
+Skip package >binutils-msp430<, already in package-all.txt file
+[]
+Package-nr:1219 of 11000, Name:baresip-gtk-dbgsym
+Skip package >baresip-gtk<, already in package-all.txt file
+[]
+Package-nr:1220 of 11000, Name:baresip-core-dbgsym
+Skip package >baresip-core<, already in package-all.txt file
+[]
+Package-nr:1221 of 11000, Name:baresip-x11-dbgsym
+Skip package >baresip-x11<, already in package-all.txt file
+[]
+Package-nr:1222 of 11000, Name:baresip-ffmpeg-dbgsym
+Skip package >baresip-ffmpeg<, already in package-all.txt file
+[]
+Package-nr:1223 of 11000, Name:baresip-gstreamer-dbgsym
+Skip package >baresip-gstreamer<, already in package-all.txt file
+[]
+Package-nr:1224 of 11000, Name:birthday-dbgsym
+Skip package >birthday<, already in package-all.txt file
+[]
+Package-nr:1225 of 11000, Name:brandy-dbgsym
+Skip package >brandy<, already in package-all.txt file
+[]
+Package-nr:1226 of 11000, Name:finger-dbgsym
+Skip package >finger<, already in package-all.txt file
+[]
+Package-nr:1227 of 11000, Name:fingerd-dbgsym
+Skip package >fingerd<, already in package-all.txt file
+[]
+Package-nr:1228 of 11000, Name:biff-dbgsym
+Skip package >biff<, already in package-all.txt file
+[]
+Package-nr:1229 of 11000, Name:barnowl-dbgsym
+Skip package >barnowl<, already in package-all.txt file
+[]
+Package-nr:1230 of 11000, Name:bedtools-dbgsym
+Skip package >bedtools<, already in package-all.txt file
+[]
+Package-nr:1231 of 11000, Name:berusky-dbgsym
+Skip package >berusky<, already in package-all.txt file
+[]
+Package-nr:1232 of 11000, Name:baycomepp-dbgsym
+Skip package >baycomepp<, already in package-all.txt file
+[]
+Package-nr:1233 of 11000, Name:byacc-j-dbgsym
+Skip package >byacc-j<, already in package-all.txt file
+[]
+Package-nr:1234 of 11000, Name:mate-applet-brisk-menu-dbgsym
+Skip package >mate-applet-brisk-menu<, already in package-all.txt file
+[]
+Package-nr:1235 of 11000, Name:booth-dbgsym
+Skip package >booth<, already in package-all.txt file
+[]
+Package-nr:1236 of 11000, Name:bosh-dbgsym
+Skip package >bosh<, already in package-all.txt file
+[]
+Package-nr:1237 of 11000, Name:batmand-dbgsym
+Skip package >batmand<, already in package-all.txt file
+[]
+Package-nr:1238 of 11000, Name:briquolo-dbgsym
+Skip package >briquolo<, already in package-all.txt file
+[]
+Package-nr:1239 of 11000, Name:bwm-ng-dbgsym
+Skip package >bwm-ng<, already in package-all.txt file
+[]
+Package-nr:1240 of 11000, Name:biloba-dbgsym
+Skip package >biloba<, already in package-all.txt file
+[]
+Package-nr:1241 of 11000, Name:boxbackup-client-dbgsym
+Skip package >boxbackup-client<, already in package-all.txt file
+[]
+Package-nr:1242 of 11000, Name:boxbackup-server-dbgsym
+Skip package >boxbackup-server<, already in package-all.txt file
+[]
+Package-nr:1243 of 11000, Name:biobambam2-dbgsym
+Skip package >biobambam2<, already in package-all.txt file
+[]
+Package-nr:1244 of 11000, Name:python3-btrfsutil-dbgsym
+Skip package >python3-btrfsutil<, already in package-all.txt file
+[]
+Package-nr:1245 of 11000, Name:busybox-dbgsym
+Skip package >busybox<, already in package-all.txt file
+[]
+Package-nr:1246 of 11000, Name:byacc-dbgsym
+Skip package >byacc<, already in package-all.txt file
+[]
+Package-nr:1247 of 11000, Name:beep-dbgsym
+Skip package >beep<, already in package-all.txt file
+[]
+Package-nr:1248 of 11000, Name:barcode-dbgsym
+Skip package >barcode<, already in package-all.txt file
+[]
+Package-nr:1249 of 11000, Name:bitmeter-dbgsym
+Skip package >bitmeter<, already in package-all.txt file
+[]
+Package-nr:1250 of 11000, Name:batctl-dbgsym
+Skip package >batctl<, already in package-all.txt file
+[]
+Package-nr:1251 of 11000, Name:bwbasic-dbgsym
+Skip package >bwbasic<, already in package-all.txt file
+[]
+Package-nr:1252 of 11000, Name:brewtarget-dbgsym
+Skip package >brewtarget<, already in package-all.txt file
+[]
+Package-nr:1253 of 11000, Name:braa-dbgsym
+Skip package >braa<, already in package-all.txt file
+[]
+Package-nr:1254 of 11000, Name:bolt-lmm-dbgsym
+Skip package >bolt-lmm<, already in package-all.txt file
+[]
+Package-nr:1255 of 11000, Name:blender-dbgsym
+Skip package >blender<, already in package-all.txt file
+[]
+Package-nr:1256 of 11000, Name:bart-dbgsym
+Skip package >bart<, already in package-all.txt file
+[]
+Package-nr:1257 of 11000, Name:blockout2-dbgsym
+Skip package >blockout2<, already in package-all.txt file
+[]
+Package-nr:1258 of 11000, Name:bygfoot-dbgsym
+Skip package >bygfoot<, already in package-all.txt file
+[]
+Package-nr:1259 of 11000, Name:binkd-dbgsym
+Skip package >binkd<, already in package-all.txt file
+[]
+Package-nr:1260 of 11000, Name:boinctui-dbgsym
+Skip package >boinctui<, already in package-all.txt file
+[]
+Package-nr:1261 of 11000, Name:bluedevil-dbgsym
+Skip package >bluedevil<, already in package-all.txt file
+[]
+Package-nr:1262 of 11000, Name:bibletime-dbgsym
+Skip package >bibletime<, already in package-all.txt file
+[]
+Package-nr:1263 of 11000, Name:berusky2-dbgsym
+Skip package >berusky2<, already in package-all.txt file
+[]
+Package-nr:1264 of 11000, Name:barrier-dbgsym
+Skip package >barrier<, already in package-all.txt file
+[]
+Package-nr:1265 of 11000, Name:burgerspace-dbgsym
+Skip package >burgerspace<, already in package-all.txt file
+[]
+Package-nr:1266 of 11000, Name:bmon-dbgsym
+Skip package >bmon<, already in package-all.txt file
+[]
+Package-nr:1267 of 11000, Name:biniax2-dbgsym
+Skip package >biniax2<, already in package-all.txt file
+[]
+Package-nr:1268 of 11000, Name:bmake-dbgsym
+Skip package >bmake<, already in package-all.txt file
+[]
+Package-nr:1269 of 11000, Name:bzflag-server-dbgsym
+Skip package >bzflag-server<, already in package-all.txt file
+[]
+Package-nr:1270 of 11000, Name:bzflag-client-dbgsym
+Skip package >bzflag-client<, already in package-all.txt file
+[]
+Package-nr:1271 of 11000, Name:binutils-djgpp-dbgsym
+Skip package >binutils-djgpp<, already in package-all.txt file
+[]
+Package-nr:1272 of 11000, Name:boinc-manager-dbgsym
+Skip package >boinc-manager<, already in package-all.txt file
+[]
+Package-nr:1273 of 11000, Name:boinc-screensaver-dbgsym
+Skip package >boinc-screensaver<, already in package-all.txt file
+[]
+Package-nr:1274 of 11000, Name:boinc-client-dbgsym
+Skip package >boinc-client<, already in package-all.txt file
+[]
+Package-nr:1275 of 11000, Name:boats-dbgsym
+Skip package >boats<, already in package-all.txt file
+[]
+Package-nr:1276 of 11000, Name:bpm-tools-dbgsym
+Skip package >bpm-tools<, already in package-all.txt file
+[]
+Package-nr:1277 of 11000, Name:bfbtester-dbgsym
+Skip package >bfbtester<, already in package-all.txt file
+[]
+Package-nr:1278 of 11000, Name:bindechexascii-dbgsym
+Skip package >bindechexascii<, already in package-all.txt file
+[]
+Package-nr:1279 of 11000, Name:btscanner-dbgsym
+Skip package >btscanner<, already in package-all.txt file
+[]
+Package-nr:1280 of 11000, Name:btanks-dbgsym
+Skip package >btanks<, already in package-all.txt file
+[]
+Package-nr:1281 of 11000, Name:bibutils-dbgsym
+Skip package >bibutils<, already in package-all.txt file
+[]
+Package-nr:1282 of 11000, Name:bcron-dbgsym
+Skip package >bcron<, already in package-all.txt file
+[]
+Package-nr:1283 of 11000, Name:bird-dbgsym
+Skip package >bird<, already in package-all.txt file
+[]
+Package-nr:1284 of 11000, Name:basic256-dbgsym
+Skip package >basic256<, already in package-all.txt file
+[]
+Package-nr:1285 of 11000, Name:bumblebee-dbgsym
+Skip package >bumblebee<, already in package-all.txt file
+[]
+Package-nr:1286 of 11000, Name:bird2-dbgsym
+Skip package >bird2<, already in package-all.txt file
+[]
+Package-nr:1287 of 11000, Name:betaradio-dbgsym
+Skip package >betaradio<, already in package-all.txt file
+[]
+Package-nr:1288 of 11000, Name:python3-beancount-dbgsym
+Skip package >python3-beancount<, already in package-all.txt file
+[]
+Package-nr:1289 of 11000, Name:budgie-core-dbgsym
+Skip package >budgie-core<, already in package-all.txt file
+[]
+Package-nr:1290 of 11000, Name:bgpq3-dbgsym
+Skip package >bgpq3<, already in package-all.txt file
+[]
+Package-nr:1291 of 11000, Name:bindfs-dbgsym
+Skip package >bindfs<, already in package-all.txt file
+[]
+Package-nr:1292 of 11000, Name:bristol-dbgsym
+Skip package >bristol<, already in package-all.txt file
+[]
+Package-nr:1293 of 11000, Name:bluemon-dbgsym
+Skip package >bluemon<, already in package-all.txt file
+[]
+Package-nr:1294 of 11000, Name:binutils-m68hc1x-dbgsym
+Skip package >binutils-m68hc1x<, already in package-all.txt file
+[]
+Package-nr:1295 of 11000, Name:beanstalkd-dbgsym
+Skip package >beanstalkd<, already in package-all.txt file
+[]
+Package-nr:1296 of 11000, Name:belenios-tool-dbgsym
+Skip package >belenios-tool<, already in package-all.txt file
+[]
+Package-nr:1297 of 11000, Name:blkreplay-dbgsym
+Skip package >blkreplay<, already in package-all.txt file
+[]
+Package-nr:1298 of 11000, Name:brotli-dbgsym
+Skip package >brotli<, already in package-all.txt file
+[]
+Package-nr:1299 of 11000, Name:python3-brotli-dbgsym
+Skip package >python3-brotli<, already in package-all.txt file
+[]
+Package-nr:1300 of 11000, Name:brightnessctl-dbgsym
+Skip package >brightnessctl<, already in package-all.txt file
+[]
+Package-nr:1301 of 11000, Name:blahtexml-dbgsym
+Skip package >blahtexml<, already in package-all.txt file
+[]
+Package-nr:1302 of 11000, Name:balsa-dbgsym
+Skip package >balsa<, already in package-all.txt file
+[]
+Package-nr:1303 of 11000, Name:binfmt-support-dbgsym
+Skip package >binfmt-support<, already in package-all.txt file
+[]
+Package-nr:1304 of 11000, Name:boxshade-dbgsym
+Skip package >boxshade<, already in package-all.txt file
+[]
+Package-nr:1305 of 11000, Name:bomstrip-dbgsym
+Skip package >bomstrip<, already in package-all.txt file
+[]
+Package-nr:1306 of 11000, Name:btag-dbgsym
+Skip package >btag<, already in package-all.txt file
+[]
+Package-nr:1307 of 11000, Name:bootp-dbgsym
+Skip package >bootp<, already in package-all.txt file
+[]
+Package-nr:1308 of 11000, Name:bcalm-dbgsym
+Skip package >bcalm<, already in package-all.txt file
+[]
+Package-nr:1309 of 11000, Name:bwctl-server-dbgsym
+Skip package >bwctl-server<, already in package-all.txt file
+[]
+Package-nr:1310 of 11000, Name:bwctl-client-dbgsym
+Skip package >bwctl-client<, already in package-all.txt file
+[]
+Package-nr:1311 of 11000, Name:bibcursed-dbgsym
+Skip package >bibcursed<, already in package-all.txt file
+[]
+Package-nr:1312 of 11000, Name:postgresql-12-bgw-replstatus-dbgsym
+Skip package >postgresql-12-bgw-replstatus<, already in package-all.txt file
+[]
+Package-nr:1313 of 11000, Name:bladerf-dbgsym
+Skip package >bladerf<, already in package-all.txt file
+[]
+Package-nr:1314 of 11000, Name:bibclean-dbgsym
+Skip package >bibclean<, already in package-all.txt file
+[]
+Package-nr:1315 of 11000, Name:boolector-dbgsym
+Skip package >boolector<, already in package-all.txt file
+[]
+Package-nr:1316 of 11000, Name:btpd-dbgsym
+Skip package >btpd<, already in package-all.txt file
+[]
+Package-nr:1317 of 11000, Name:brutefir-dbgsym
+Skip package >brutefir<, already in package-all.txt file
+[]
+Package-nr:1318 of 11000, Name:basez-dbgsym
+Skip package >basez<, already in package-all.txt file
+[]
+Package-nr:1319 of 11000, Name:blepvco-dbgsym
+Skip package >blepvco<, already in package-all.txt file
+[]
+Package-nr:1320 of 11000, Name:bdfresize-dbgsym
+Skip package >bdfresize<, already in package-all.txt file
+[]
+Package-nr:1321 of 11000, Name:bing-dbgsym
+Skip package >bing<, already in package-all.txt file
+[]
+Package-nr:1322 of 11000, Name:binutils-riscv64-unknown-elf-dbgsym
+Skip package >binutils-riscv64-unknown-elf<, already in package-all.txt file
+[]
+Package-nr:1323 of 11000, Name:bio-rainbow-dbgsym
+Skip package >bio-rainbow<, already in package-all.txt file
+[]
+Package-nr:1324 of 11000, Name:ben-dbgsym
+Skip package >ben<, already in package-all.txt file
+[]
+Package-nr:1325 of 11000, Name:bluefish-dbgsym
+Skip package >bluefish<, already in package-all.txt file
+[]
+Package-nr:1326 of 11000, Name:bfs-dbgsym
+Skip package >bfs<, already in package-all.txt file
+[]
+Package-nr:1327 of 11000, Name:borgbackup-dbgsym
+Skip package >borgbackup<, already in package-all.txt file
+[]
+Package-nr:1328 of 11000, Name:burrow-dbgsym
+Skip package >burrow<, already in package-all.txt file
+[]
+Package-nr:1329 of 11000, Name:bchunk-dbgsym
+Skip package >bchunk<, already in package-all.txt file
+[]
+Package-nr:1330 of 11000, Name:bossa-dbgsym
+Skip package >bossa<, already in package-all.txt file
+[]
+Package-nr:1331 of 11000, Name:bossa-cli-dbgsym
+Skip package >bossa-cli<, already in package-all.txt file
+[]
+Package-nr:1332 of 11000, Name:butteraugli-dbgsym
+Skip package >butteraugli<, already in package-all.txt file
+[]
+Package-nr:1333 of 11000, Name:babeltrace-dbgsym
+Skip package >babeltrace<, already in package-all.txt file
+[]
+Package-nr:1334 of 11000, Name:python3-babeltrace-dbgsym
+Skip package >python3-babeltrace<, already in package-all.txt file
+[]
+Package-nr:1335 of 11000, Name:berkeley-abc-dbgsym
+Skip package >berkeley-abc<, already in package-all.txt file
+[]
+Package-nr:1336 of 11000, Name:bucklespring-dbgsym
+Skip package >bucklespring<, already in package-all.txt file
+[]
+Package-nr:1337 of 11000, Name:bolt-tests-dbgsym
+Skip package >bolt-tests<, already in package-all.txt file
+[]
+Package-nr:1338 of 11000, Name:bibledit-cloud-dbgsym
+Skip package >bibledit-cloud<, already in package-all.txt file
+[]
+Package-nr:1339 of 11000, Name:bibledit-dbgsym
+Skip package >bibledit<, already in package-all.txt file
+[]
+Package-nr:1340 of 11000, Name:binutils-xtensa-lx106-dbgsym
+Skip package >binutils-xtensa-lx106<, already in package-all.txt file
+[]
+Package-nr:1341 of 11000, Name:burp-dbgsym
+Skip package >burp<, already in package-all.txt file
+[]
+Package-nr:1342 of 11000, Name:bsdiff-dbgsym
+Skip package >bsdiff<, already in package-all.txt file
+[]
+Package-nr:1343 of 11000, Name:bootpc-dbgsym
+Skip package >bootpc<, already in package-all.txt file
+[]
+Package-nr:1344 of 11000, Name:buildtorrent-dbgsym
+Skip package >buildtorrent<, already in package-all.txt file
+[]
+Package-nr:1345 of 11000, Name:blktool-dbgsym
+Skip package >blktool<, already in package-all.txt file
+[]
+Package-nr:1346 of 11000, Name:bitshuffle-dbgsym
+Skip package >bitshuffle<, already in package-all.txt file
+[]
+Package-nr:1347 of 11000, Name:ruby-broccoli-dbgsym
+Skip package >ruby-broccoli<, already in package-all.txt file
+[]
+Package-nr:1348 of 11000, Name:blktrace-dbgsym
+Skip package >blktrace<, already in package-all.txt file
+[]
+Package-nr:1349 of 11000, Name:btfs-dbgsym
+Skip package >btfs<, already in package-all.txt file
+[]
+Package-nr:1350 of 11000, Name:bro-aux-dbgsym
+Skip package >bro-aux<, already in package-all.txt file
+[]
+Package-nr:1351 of 11000, Name:bochs-wx-dbgsym
+Skip package >bochs-wx<, already in package-all.txt file
+[]
+Package-nr:1352 of 11000, Name:bochs-dbgsym
+Skip package >bochs<, already in package-all.txt file
+[]
+Package-nr:1353 of 11000, Name:bximage-dbgsym
+Skip package >bximage<, already in package-all.txt file
+[]
+Package-nr:1354 of 11000, Name:bochs-term-dbgsym
+Skip package >bochs-term<, already in package-all.txt file
+[]
+Package-nr:1355 of 11000, Name:bochs-sdl-dbgsym
+Skip package >bochs-sdl<, already in package-all.txt file
+[]
+Package-nr:1356 of 11000, Name:bochs-x-dbgsym
+Skip package >bochs-x<, already in package-all.txt file
+[]
+Package-nr:1357 of 11000, Name:bifcl-dbgsym
+Skip package >bifcl<, already in package-all.txt file
+[]
+Package-nr:1358 of 11000, Name:bwbar-dbgsym
+Skip package >bwbar<, already in package-all.txt file
+[]
+Package-nr:1359 of 11000, Name:blackbox-dbgsym
+Skip package >blackbox<, already in package-all.txt file
+[]
+Package-nr:1360 of 11000, Name:byzanz-dbgsym
+Skip package >byzanz<, already in package-all.txt file
+[]
+Package-nr:1361 of 11000, Name:pidgin-bot-sentry-dbgsym
+Skip package >pidgin-bot-sentry<, already in package-all.txt file
+[]
+Package-nr:1362 of 11000, Name:basket-dbgsym
+Skip package >basket<, already in package-all.txt file
+[]
+Package-nr:1363 of 11000, Name:bruteforce-luks-dbgsym
+Skip package >bruteforce-luks<, already in package-all.txt file
+[]
+Package-nr:1364 of 11000, Name:bbe-dbgsym
+Skip package >bbe<, already in package-all.txt file
+[]
+Package-nr:1365 of 11000, Name:bar-dbgsym
+Skip package >bar<, already in package-all.txt file
+[]
+Package-nr:1366 of 11000, Name:python3-breezy-dbgsym
+Skip package >python3-breezy<, already in package-all.txt file
+[]
+Package-nr:1367 of 11000, Name:budgie-indicator-applet-dbgsym
+Skip package >budgie-indicator-applet<, already in package-all.txt file
+[]
+Package-nr:1368 of 11000, Name:birdfont-dbgsym
+Skip package >birdfont<, already in package-all.txt file
+[]
+Package-nr:1369 of 11000, Name:ballerburg-dbgsym
+Skip package >ballerburg<, already in package-all.txt file
+[]
+Package-nr:1370 of 11000, Name:bbmail-dbgsym
+Skip package >bbmail<, already in package-all.txt file
+[]
+Package-nr:1371 of 11000, Name:bacula-common-dbgsym
+Skip package >bacula-common<, already in package-all.txt file
+[]
+Package-nr:1372 of 11000, Name:bacula-sd-dbgsym
+Skip package >bacula-sd<, already in package-all.txt file
+[]
+Package-nr:1373 of 11000, Name:bacula-console-dbgsym
+Skip package >bacula-console<, already in package-all.txt file
+[]
+Package-nr:1374 of 11000, Name:bacula-tray-monitor-dbgsym
+Skip package >bacula-tray-monitor<, already in package-all.txt file
+[]
+Package-nr:1375 of 11000, Name:bacula-common-mysql-dbgsym
+Skip package >bacula-common-mysql<, already in package-all.txt file
+[]
+Package-nr:1376 of 11000, Name:bacula-fd-dbgsym
+Skip package >bacula-fd<, already in package-all.txt file
+[]
+Package-nr:1377 of 11000, Name:bacula-director-dbgsym
+Skip package >bacula-director<, already in package-all.txt file
+[]
+Package-nr:1378 of 11000, Name:bacula-console-qt-dbgsym
+Skip package >bacula-console-qt<, already in package-all.txt file
+[]
+Package-nr:1379 of 11000, Name:bacula-common-sqlite3-dbgsym
+Skip package >bacula-common-sqlite3<, already in package-all.txt file
+[]
+Package-nr:1380 of 11000, Name:bacula-common-pgsql-dbgsym
+Skip package >bacula-common-pgsql<, already in package-all.txt file
+[]
+Package-nr:1381 of 11000, Name:bacula-bscan-dbgsym
+Skip package >bacula-bscan<, already in package-all.txt file
+[]
+Package-nr:1382 of 11000, Name:bison++-dbgsym
+Skip package >bison++<, already in package-all.txt file
+[]
+Package-nr:1383 of 11000, Name:bastet-dbgsym
+Skip package >bastet<, already in package-all.txt file
+[]
+Package-nr:1384 of 11000, Name:b5i2iso-dbgsym
+Skip package >b5i2iso<, already in package-all.txt file
+[]
+Package-nr:1385 of 11000, Name:python3-blist-dbgsym
+Skip package >python3-blist<, already in package-all.txt file
+[]
+Package-nr:1386 of 11000, Name:bb-dbgsym
+Skip package >bb<, already in package-all.txt file
+[]
+Package-nr:1387 of 11000, Name:brutalchess-dbgsym
+Skip package >brutalchess<, already in package-all.txt file
+[]
+Package-nr:1388 of 11000, Name:botan-dbgsym
+Skip package >botan<, already in package-all.txt file
+[]
+Package-nr:1389 of 11000, Name:batmon.app-dbgsym
+Skip package >batmon.app<, already in package-all.txt file
+[]
+Package-nr:1390 of 11000, Name:bgpdump-dbgsym
+Skip package >bgpdump<, already in package-all.txt file
+[]
+Package-nr:1391 of 11000, Name:brasero-dbgsym
+Skip package >brasero<, already in package-all.txt file
+[]
+Package-nr:1392 of 11000, Name:brasero-cdrkit-dbgsym
+Skip package >brasero-cdrkit<, already in package-all.txt file
+[]
+Package-nr:1393 of 11000, Name:nautilus-extension-brasero-dbgsym
+Skip package >nautilus-extension-brasero<, already in package-all.txt file
+[]
+Package-nr:1394 of 11000, Name:btcheck-dbgsym
+Skip package >btcheck<, already in package-all.txt file
+[]
+Package-nr:1395 of 11000, Name:bbtime-dbgsym
+Skip package >bbtime<, already in package-all.txt file
+[]
+Package-nr:1396 of 11000, Name:bomber-dbgsym
+Skip package >bomber<, already in package-all.txt file
+[]
+Package-nr:1397 of 11000, Name:binutils-avr-dbgsym
+Skip package >binutils-avr<, already in package-all.txt file
+[]
+Package-nr:1398 of 11000, Name:blueman-dbgsym
+Skip package >blueman<, already in package-all.txt file
+[]
+Package-nr:1399 of 11000, Name:bip-dbgsym
+Skip package >bip<, already in package-all.txt file
+[]
+Package-nr:1400 of 11000, Name:bidentd-dbgsym
+Skip package >bidentd<, already in package-all.txt file
+[]
+Package-nr:1401 of 11000, Name:brltty-x11-dbgsym
+Skip package >brltty-x11<, already in package-all.txt file
+[]
+Package-nr:1402 of 11000, Name:brltty-flite-dbgsym
+Skip package >brltty-flite<, already in package-all.txt file
+[]
+Package-nr:1403 of 11000, Name:brltty-speechd-dbgsym
+Skip package >brltty-speechd<, already in package-all.txt file
+[]
+Package-nr:1404 of 11000, Name:brltty-espeak-dbgsym
+Skip package >brltty-espeak<, already in package-all.txt file
+[]
+Package-nr:1405 of 11000, Name:bosixnet-webui-dbgsym
+Skip package >bosixnet-webui<, already in package-all.txt file
+[]
+Package-nr:1406 of 11000, Name:bbrun-dbgsym
+Skip package >bbrun<, already in package-all.txt file
+[]
+Package-nr:1407 of 11000, Name:bart-view-dbgsym
+Skip package >bart-view<, already in package-all.txt file
+[]
+Package-nr:1408 of 11000, Name:python3-bcolz-dbgsym
+Skip package >python3-bcolz<, already in package-all.txt file
+[]
+Package-nr:1409 of 11000, Name:bamtools-dbgsym
+Skip package >bamtools<, already in package-all.txt file
+[]
+Package-nr:1410 of 11000, Name:bopm-dbgsym
+Skip package >bopm<, already in package-all.txt file
+[]
+Package-nr:1411 of 11000, Name:blasr-dbgsym
+Skip package >blasr<, already in package-all.txt file
+[]
+Package-nr:1412 of 11000, Name:bam-dbgsym
+Skip package >bam<, already in package-all.txt file
+[]
+Package-nr:1413 of 11000, Name:bittwist-dbgsym
+Skip package >bittwist<, already in package-all.txt file
+[]
+Package-nr:1414 of 11000, Name:blop-dbgsym
+Skip package >blop<, already in package-all.txt file
+[]
+Package-nr:1415 of 11000, Name:bti-dbgsym
+Skip package >bti<, already in package-all.txt file
+[]
+Package-nr:1416 of 11000, Name:bali-phy-dbgsym
+Skip package >bali-phy<, already in package-all.txt file
+[]
+Package-nr:1417 of 11000, Name:bvi-dbgsym
+Skip package >bvi<, already in package-all.txt file
+[]
+Package-nr:1418 of 11000, Name:bppsuite-dbgsym
+Skip package >bppsuite<, already in package-all.txt file
+[]
+Package-nr:1419 of 11000, Name:blobandconquer-dbgsym
+Skip package >blobandconquer<, already in package-all.txt file
+[]
+Package-nr:1420 of 11000, Name:babeld-dbgsym
+Skip package >babeld<, already in package-all.txt file
+[]
+Package-nr:1421 of 11000, Name:bplay-dbgsym
+Skip package >bplay<, already in package-all.txt file
+[]
+Package-nr:1422 of 11000, Name:bytes-circle-dbgsym
+Skip package >bytes-circle<, already in package-all.txt file
+[]
+Package-nr:1423 of 11000, Name:binutils-h8300-hms-dbgsym
+Skip package >binutils-h8300-hms<, already in package-all.txt file
+[]
+Package-nr:1424 of 11000, Name:bmf-dbgsym
+Skip package >bmf<, already in package-all.txt file
+[]
+Package-nr:1425 of 11000, Name:ballz-dbgsym
+Skip package >ballz<, already in package-all.txt file
+[]
+Package-nr:1426 of 11000, Name:blobby-dbgsym
+Skip package >blobby<, already in package-all.txt file
+[]
+Package-nr:1427 of 11000, Name:blobby-server-dbgsym
+Skip package >blobby-server<, already in package-all.txt file
+[]
+Package-nr:1428 of 11000, Name:bitlbee-dbgsym
+Skip package >bitlbee<, already in package-all.txt file
+[]
+Package-nr:1429 of 11000, Name:bitlbee-libpurple-dbgsym
+Skip package >bitlbee-libpurple<, already in package-all.txt file
+[]
+Package-nr:1430 of 11000, Name:bind9-dyndb-ldap-dbgsym
+Skip package >bind9-dyndb-ldap<, already in package-all.txt file
+[]
+Package-nr:1431 of 11000, Name:baloo-kf5-dbgsym
+Skip package >baloo-kf5<, already in package-all.txt file
+[]
+Package-nr:1432 of 11000, Name:baitfisher-dbgsym
+Skip package >baitfisher<, already in package-all.txt file
+[]
+Package-nr:1433 of 11000, Name:bitwise-dbgsym
+Skip package >bitwise<, already in package-all.txt file
+[]
+Package-nr:1434 of 11000, Name:billard-gl-dbgsym
+Skip package >billard-gl<, already in package-all.txt file
+[]
+Package-nr:1435 of 11000, Name:bcftools-dbgsym
+Skip package >bcftools<, already in package-all.txt file
+[]
+Package-nr:1436 of 11000, Name:butt-dbgsym
+Skip package >butt<, already in package-all.txt file
+[]
+Package-nr:1437 of 11000, Name:bottlerocket-dbgsym
+Skip package >bottlerocket<, already in package-all.txt file
+[]
+Package-nr:1438 of 11000, Name:bs1770gain-dbgsym
+Skip package >bs1770gain<, already in package-all.txt file
+[]
+Package-nr:1439 of 11000, Name:binaryen-dbgsym
+Skip package >binaryen<, already in package-all.txt file
+[]
+Package-nr:1440 of 11000, Name:buthead-dbgsym
+Skip package >buthead<, already in package-all.txt file
+[]
+Package-nr:1441 of 11000, Name:btrfs-compsize-dbgsym
+Skip package >btrfs-compsize<, already in package-all.txt file
+[]
+Package-nr:1442 of 11000, Name:beef-dbgsym
+Skip package >beef<, already in package-all.txt file
+[]
+Package-nr:1443 of 11000, Name:backuppc-rsync-dbgsym
+Skip package >backuppc-rsync<, already in package-all.txt file
+[]
+Package-nr:1444 of 11000, Name:boomaga-dbgsym
+Skip package >boomaga<, already in package-all.txt file
+[]
+Package-nr:1445 of 11000, Name:bpftrace-dbgsym
+Skip package >bpftrace<, already in package-all.txt file
+[]
+Package-nr:1446 of 11000, Name:breeze-dbgsym
+Skip package >breeze<, already in package-all.txt file
+[]
+Package-nr:1447 of 11000, Name:kde-style-breeze-dbgsym
+Skip package >kde-style-breeze<, already in package-all.txt file
+[]
+Package-nr:1448 of 11000, Name:kwin-style-breeze-dbgsym
+Skip package >kwin-style-breeze<, already in package-all.txt file
+[]
+Package-nr:1449 of 11000, Name:bisonc++-dbgsym
+Skip package >bisonc++<, already in package-all.txt file
+[]
+Package-nr:1450 of 11000, Name:bedops-dbgsym
+Skip package >bedops<, already in package-all.txt file
+[]
+Package-nr:1451 of 11000, Name:binutils-arm-none-eabi-dbgsym
+Skip package >binutils-arm-none-eabi<, already in package-all.txt file
+[]
+Package-nr:1452 of 11000, Name:qml-module-org-kde-bluezqt-dbgsym
+Skip package >qml-module-org-kde-bluezqt<, already in package-all.txt file
+[]
+Package-nr:1453 of 11000, Name:bitstormlite-dbgsym
+Skip package >bitstormlite<, already in package-all.txt file
+[]
+Package-nr:1454 of 11000, Name:brightd-dbgsym
+Skip package >brightd<, already in package-all.txt file
+[]
+Package-nr:1455 of 11000, Name:brickos-dbgsym
+Skip package >brickos<, already in package-all.txt file
+[]
+Package-nr:1456 of 11000, Name:binutils-mingw-w64-i686-dbgsym
+Skip package >binutils-mingw-w64-i686<, already in package-all.txt file
+[]
+Package-nr:1457 of 11000, Name:binutils-mingw-w64-x86-64-dbgsym
+Skip package >binutils-mingw-w64-x86-64<, already in package-all.txt file
+[]
+Package-nr:1458 of 11000, Name:biosquid-dbgsym
+Skip package >biosquid<, already in package-all.txt file
+[]
+Package-nr:1459 of 11000, Name:bpfcc-lua-dbgsym
+Skip package >bpfcc-lua<, already in package-all.txt file
+[]
+Package-nr:1460 of 11000, Name:blobwars-dbgsym
+Skip package >blobwars<, already in package-all.txt file
+[]
+Package-nr:1461 of 11000, Name:brp-pacu-dbgsym
+Skip package >brp-pacu<, already in package-all.txt file
+[]
+Package-nr:1462 of 11000, Name:octave-io-dbgsym
+Skip package >octave-io<, already in package-all.txt file
+[]
+Package-nr:1463 of 11000, Name:csvtool-dbgsym
+Skip package >csvtool<, already in package-all.txt file
+[]
+Package-nr:1464 of 11000, Name:octave-mapping-dbgsym
+Skip package >octave-mapping<, already in package-all.txt file
+[]
+Package-nr:1465 of 11000, Name:openni2-utils-dbgsym
+Skip package >openni2-utils<, already in package-all.txt file
+[]
+Package-nr:1466 of 11000, Name:osinfo-db-tools-dbgsym
+Skip package >osinfo-db-tools<, already in package-all.txt file
+[]
+Package-nr:1467 of 11000, Name:openimageio-tools-dbgsym
+Skip package >openimageio-tools<, already in package-all.txt file
+[]
+Package-nr:1468 of 11000, Name:python3-openimageio-dbgsym
+Skip package >python3-openimageio<, already in package-all.txt file
+[]
+Package-nr:1469 of 11000, Name:octave-msh-dbgsym
+Skip package >octave-msh<, already in package-all.txt file
+[]
+Package-nr:1470 of 11000, Name:osmo-msc-dbgsym
+Skip package >osmo-msc<, already in package-all.txt file
+[]
+Package-nr:1471 of 11000, Name:openconnect-dbgsym
+Skip package >openconnect<, already in package-all.txt file
+[]
+Package-nr:1472 of 11000, Name:python3-ogre-1.12-dbgsym
+Skip package >python3-ogre-1.12<, already in package-all.txt file
+[]
+Package-nr:1473 of 11000, Name:ogre-1.12-tools-dbgsym
+Skip package >ogre-1.12-tools<, already in package-all.txt file
+[]
+Package-nr:1474 of 11000, Name:python3-openbabel-dbgsym
+Skip package >python3-openbabel<, already in package-all.txt file
+[]
+Package-nr:1475 of 11000, Name:openbabel-dbgsym
+Skip package >openbabel<, already in package-all.txt file
+[]
+Package-nr:1476 of 11000, Name:openbabel-gui-dbgsym
+Skip package >openbabel-gui<, already in package-all.txt file
+[]
+Package-nr:1477 of 11000, Name:openuniverse-dbgsym
+Skip package >openuniverse<, already in package-all.txt file
+[]
+Package-nr:1478 of 11000, Name:ocsigenserver-dbgsym
+Skip package >ocsigenserver<, already in package-all.txt file
+[]
+Package-nr:1479 of 11000, Name:osmo-pcu-dbgsym
+Skip package >osmo-pcu<, already in package-all.txt file
+[]
+Package-nr:1480 of 11000, Name:occt-draw-dbgsym
+Skip package >occt-draw<, already in package-all.txt file
+[]
+Package-nr:1481 of 11000, Name:python3-openslide-dbgsym
+Skip package >python3-openslide<, already in package-all.txt file
+[]
+Package-nr:1482 of 11000, Name:osdclock-dbgsym
+Skip package >osdclock<, already in package-all.txt file
+[]
+Package-nr:1483 of 11000, Name:open-jtalk-dbgsym
+Skip package >open-jtalk<, already in package-all.txt file
+[]
+Package-nr:1484 of 11000, Name:octave-strings-dbgsym
+Skip package >octave-strings<, already in package-all.txt file
+[]
+Package-nr:1485 of 11000, Name:orpie-dbgsym
+Skip package >orpie<, already in package-all.txt file
+[]
+Package-nr:1486 of 11000, Name:optcomp-dbgsym
+Skip package >optcomp<, already in package-all.txt file
+[]
+Package-nr:1487 of 11000, Name:octave-optim-dbgsym
+Skip package >octave-optim<, already in package-all.txt file
+[]
+Package-nr:1488 of 11000, Name:openvas-scanner-dbgsym
+Skip package >openvas-scanner<, already in package-all.txt file
+[]
+Package-nr:1489 of 11000, Name:ogdi-bin-dbgsym
+Skip package >ogdi-bin<, already in package-all.txt file
+[]
+Package-nr:1490 of 11000, Name:opencpn-dbgsym
+Skip package >opencpn<, already in package-all.txt file
+[]
+Package-nr:1491 of 11000, Name:osmo-bts-dbgsym
+Skip package >osmo-bts<, already in package-all.txt file
+[]
+Package-nr:1492 of 11000, Name:octave-econometrics-dbgsym
+Skip package >octave-econometrics<, already in package-all.txt file
+[]
+Package-nr:1493 of 11000, Name:opendrim-lmp-softwareupdate-dbgsym
+Skip package >opendrim-lmp-softwareupdate<, already in package-all.txt file
+[]
+Package-nr:1494 of 11000, Name:osmo-fl2k-dbgsym
+Skip package >osmo-fl2k<, already in package-all.txt file
+[]
+Package-nr:1495 of 11000, Name:oss-preserve-dbgsym
+Skip package >oss-preserve<, already in package-all.txt file
+[]
+Package-nr:1496 of 11000, Name:osmo-ggsn-dbgsym
+Skip package >osmo-ggsn<, already in package-all.txt file
+[]
+Package-nr:1497 of 11000, Name:ogre-1.9-tools-dbgsym
+Skip package >ogre-1.9-tools<, already in package-all.txt file
+[]
+Package-nr:1498 of 11000, Name:otags-dbgsym
+Skip package >otags<, already in package-all.txt file
+[]
+Package-nr:1499 of 11000, Name:opensmtpd-extras-dbgsym
+Skip package >opensmtpd-extras<, already in package-all.txt file
+[]
+Package-nr:1500 of 11000, Name:otp-dbgsym
+Skip package >otp<, already in package-all.txt file
+[]
+Package-nr:1501 of 11000, Name:opensta-dbgsym
+Skip package >opensta<, already in package-all.txt file
+[]
+Package-nr:1502 of 11000, Name:openmolcas-dbgsym
+Skip package >openmolcas<, already in package-all.txt file
+[]
+Package-nr:1503 of 11000, Name:obitools-dbgsym
+Skip package >obitools<, already in package-all.txt file
+[]
+Package-nr:1504 of 11000, Name:ocsinventory-agent-dbgsym
+Skip package >ocsinventory-agent<, already in package-all.txt file
+[]
+Package-nr:1505 of 11000, Name:slapd-contrib-dbgsym
+Skip package >slapd-contrib<, already in package-all.txt file
+[]
+Package-nr:1506 of 11000, Name:octave-gsl-dbgsym
+Skip package >octave-gsl<, already in package-all.txt file
+[]
+Package-nr:1507 of 11000, Name:octave-dbgsym
+Skip package >octave<, already in package-all.txt file
+[]
+Package-nr:1508 of 11000, Name:oar-common-dbgsym
+Skip package >oar-common<, already in package-all.txt file
+[]
+Package-nr:1509 of 11000, Name:oar-server-dbgsym
+Skip package >oar-server<, already in package-all.txt file
+[]
+Package-nr:1510 of 11000, Name:oar-restful-api-dbgsym
+Package >oar-restful-api< not in package-all.txt file
+Write to package-all.txt file: oar-restful-api
+In package >oar-restful-api< are these binaries: ['/usr/lib/cgi-bin/oarapi', '/usr/lib/cgi-bin/oarapi/oarapi-debug.cgi', '/usr/lib/cgi-bin/oarapi/oarapi.cgi']
+Real binaries:['/usr/lib/cgi-bin/oarapi/oarapi-debug.cgi', '/usr/lib/cgi-bin/oarapi/oarapi.cgi']
+Write to package-work.txt file: oar-restful-api
+Write to package-binaries.txt file: ['/usr/lib/cgi-bin/oarapi/oarapi-debug.cgi', '/usr/lib/cgi-bin/oarapi/oarapi.cgi']
+['/usr/lib/cgi-bin/oarapi/oarapi-debug.cgi', '/usr/lib/cgi-bin/oarapi/oarapi.cgi']
