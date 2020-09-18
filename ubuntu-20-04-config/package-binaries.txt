@@ -4134,3 +4134,9 @@
 /usr/bin/obexautofs
 /usr/bin/obexfs
 /usr/bin/fsvs
+/usr/sbin/fcnsq
+/usr/sbin/fcoeadm
+/usr/sbin/fcoemon
+/usr/sbin/fcping
+/usr/sbin/fcrls
+/usr/sbin/fipvlan
