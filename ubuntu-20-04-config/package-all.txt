@@ -2074,3 +2074,4 @@ faust
 fastqtl
 fdclock
 fortune-mod
+forensics-colorize

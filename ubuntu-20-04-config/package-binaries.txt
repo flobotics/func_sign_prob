@@ -4248,3 +4248,5 @@
 /usr/bin/fdclock
 /usr/bin/strfile
 /usr/bin/unstr
+/usr/bin/colorize
+/usr/bin/filecompare
