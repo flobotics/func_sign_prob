@@ -3709,3 +3709,10 @@
 /usr/bin/ocamldsort
 /usr/sbin/inetd
 /usr/bin/openmsx-debugger
+/usr/bin/bt2vrml
+/usr/bin/compare_octrees
+/usr/bin/convert_octree
+/usr/bin/edit_octree
+/usr/bin/eval_octree_accuracy
+/usr/bin/graph2tree
+/usr/bin/log2graph
