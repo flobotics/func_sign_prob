@@ -2059,3 +2059,4 @@ nemo-extension-fma
 fdutils
 fuse-emulator-gtk
 fuse-emulator-sdl
+fspy

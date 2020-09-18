@@ -4232,3 +4232,4 @@
 /usr/bin/xdfcopy
 /usr/bin/fuse-gtk
 /usr/bin/fuse-sdl
+/usr/bin/fspy
