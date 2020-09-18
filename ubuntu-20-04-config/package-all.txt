@@ -1713,3 +1713,4 @@ opencollada-tools
 owx
 omniidl
 omniorb
+omniorb-nameserver

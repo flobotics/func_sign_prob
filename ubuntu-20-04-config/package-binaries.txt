@@ -3058,3 +3058,4 @@
 /usr/bin/genior
 /usr/bin/nameclt
 /usr/bin/omniMapper
+/usr/bin/omniNames

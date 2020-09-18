@@ -4615,3 +4615,13 @@ Real binaries:['/usr/bin/catior', '/usr/bin/convertior', '/usr/bin/genior', '/us
 Write to package-work.txt file: omniorb
 Write to package-binaries.txt file: ['/usr/bin/catior', '/usr/bin/convertior', '/usr/bin/genior', '/usr/bin/nameclt', '/usr/bin/omniMapper']
 ['/usr/bin/catior', '/usr/bin/convertior', '/usr/bin/genior', '/usr/bin/nameclt', '/usr/bin/omniMapper']
+Write pickle file
+tar_out:
+Package-nr:1520 of 11000, Name:omniorb-nameserver-dbgsym
+Package >omniorb-nameserver< not in package-all.txt file
+Write to package-all.txt file: omniorb-nameserver
+In package >omniorb-nameserver< are these binaries: ['/usr/bin/omniNames']
+Real binaries:['/usr/bin/omniNames']
+Write to package-work.txt file: omniorb-nameserver
+Write to package-binaries.txt file: ['/usr/bin/omniNames']
+['/usr/bin/omniNames']
