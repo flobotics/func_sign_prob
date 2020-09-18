@@ -4219,3 +4219,4 @@
 /usr/bin/streams
 /usr/bin/flake
 /usr/bin/fiche
+/usr/bin/flatc

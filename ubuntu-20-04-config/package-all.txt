@@ -2051,3 +2051,4 @@ fcitx-rime
 flvstreamer
 flake
 fiche
+flatbuffers-compiler

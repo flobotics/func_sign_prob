@@ -1360,3 +1360,4 @@ freeipmi-bmc-watchdog
 flvstreamer
 flake
 fiche
+flatbuffers-compiler
