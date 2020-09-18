@@ -1862,3 +1862,4 @@ opendrim-lmp-simpleidentitymanagement
 openfortivpn
 ocamldsort
 openbsd-inetd
+openmsx-debugger

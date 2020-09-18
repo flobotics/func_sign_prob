@@ -3708,3 +3708,4 @@
 /usr/bin/openfortivpn
 /usr/bin/ocamldsort
 /usr/sbin/inetd
+/usr/bin/openmsx-debugger

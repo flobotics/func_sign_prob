@@ -1250,3 +1250,4 @@ openexr
 openfortivpn
 ocamldsort
 openbsd-inetd
+openmsx-debugger
