@@ -4131,3 +4131,5 @@
 /usr/bin/ocamlyacc
 /bin/gcs
 /bin/gcstools
+/usr/bin/obexautofs
+/usr/bin/obexfs
