@@ -1363,3 +1363,4 @@ fiche
 flatbuffers-compiler
 fdutils
 fuse-emulator-gtk
+fuse-emulator-sdl

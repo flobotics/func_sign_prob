@@ -4231,3 +4231,4 @@
 /usr/bin/superformat
 /usr/bin/xdfcopy
 /usr/bin/fuse-gtk
+/usr/bin/fuse-sdl
