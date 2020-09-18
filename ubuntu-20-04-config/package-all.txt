@@ -2036,3 +2036,7 @@ file-kanji
 fbautostart
 filelight
 frr
+frr-rpki-rtrlib
+frr-snmp
+findimagedupes
+fbpager
