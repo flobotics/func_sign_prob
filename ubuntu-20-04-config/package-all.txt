@@ -1768,3 +1768,5 @@ octave-instrument-control
 opendrim-lmp-ip
 ogmtools
 osmo-hlr
+ogamesim
+olpc-powerd

@@ -3282,3 +3282,5 @@
 /usr/bin/ogmsplit
 /usr/bin/osmo-hlr
 /usr/bin/osmo-hlr-db-tool
+/sbin/olpc-switchd
+/usr/bin/pnmto565fb

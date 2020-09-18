@@ -568,3 +568,4 @@ python3-odb-api
 octave-octproj
 octave-instrument-control
 opendrim-lmp-ip
+ogamesim

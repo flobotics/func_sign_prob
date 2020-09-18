@@ -1196,3 +1196,4 @@ olive-editor
 openclonk
 ogmtools
 osmo-hlr
+olpc-powerd
