@@ -4254,3 +4254,6 @@
 /usr/bin/fcrackzip
 /usr/bin/fcrackzipinfo
 /usr/bin/fpart
+/usr/bin/fcitx
+/usr/bin/fcitx-dbus-watcher
+/usr/bin/fcitx-remote

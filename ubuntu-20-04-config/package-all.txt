@@ -2078,3 +2078,4 @@ forensics-colorize
 fbreader
 fcrackzip
 fpart
+fcitx-bin
