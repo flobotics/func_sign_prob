@@ -4278,3 +4278,8 @@
 /usr/bin/ftpgrab
 /usr/bin/fuse-zip
 /usr/bin/ffproxy
+/usr/bin/aicasm
+/usr/bin/brandelf
+/usr/bin/file2c
+/usr/bin/fmake
+/usr/bin/fmtree
