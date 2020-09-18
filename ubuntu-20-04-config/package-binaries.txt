@@ -4286,3 +4286,4 @@
 /usr/bin/fvwm1
 /usr/bin/fdupes
 /usr/sbin/filetea
+/usr/sbin/famd
