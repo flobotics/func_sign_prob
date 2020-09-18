@@ -4304,3 +4304,6 @@
 /usr/bin/floatbg
 /usr/bin/feh
 /usr/bin/flameshot
+/usr/bin/flextra.ecmwf
+/usr/bin/flextra.gfs
+/usr/bin/fcitx-config-gtk3

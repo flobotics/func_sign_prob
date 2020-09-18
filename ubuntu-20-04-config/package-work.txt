@@ -1415,3 +1415,5 @@ ferret-vis
 floatbg
 feh
 flameshot
+flextra
+fcitx-config-gtk
