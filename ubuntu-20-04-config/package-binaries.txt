@@ -3812,3 +3812,5 @@
 /usr/bin/osd_regression
 /usr/bin/stringify
 /usr/bin/oxref
+/usr/sbin/opendmarc
+/usr/sbin/opendmarc-check

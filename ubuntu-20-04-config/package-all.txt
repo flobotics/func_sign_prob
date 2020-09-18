@@ -1916,3 +1916,5 @@ ondir
 opa-fm
 opensubdiv-tools
 oxref
+octave-fits
+opendmarc
