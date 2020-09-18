@@ -557,3 +557,6 @@ octave-miscellaneous
 ostree-tests
 ostree-boot
 octave-parallel
+octave-geometry
+orthanc-webviewer
+overlay-scrollbar-gtk2

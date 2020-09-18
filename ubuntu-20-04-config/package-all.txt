@@ -1747,3 +1747,7 @@ openwince-jtag
 octave-parallel
 openkim-models
 openscenegraph
+octave-geometry
+orthanc-webviewer
+overlay-scrollbar-gtk2
+openvas-nasl

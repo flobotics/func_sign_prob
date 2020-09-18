@@ -1186,3 +1186,4 @@ osmocom-ipaccess-utils
 openwince-jtag
 openkim-models
 openscenegraph
+openvas-nasl

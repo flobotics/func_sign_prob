@@ -3255,3 +3255,5 @@
 /usr/bin/osgwidgetwindow
 /usr/bin/osgwindows
 /usr/bin/present3D
+/usr/bin/openvas-nasl
+/usr/bin/openvas-nasl-lint
