@@ -551,3 +551,4 @@ octave-netcdf
 open-invaders
 opendrim-lmp-dns
 octave-signal
+python3-pyopencolorio

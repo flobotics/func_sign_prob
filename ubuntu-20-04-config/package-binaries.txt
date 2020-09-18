@@ -3069,3 +3069,7 @@
 /usr/bin/otbQgisDescriptor
 /usr/bin/otbApplicationLauncherQt
 /usr/bin/otbTestDriver
+/usr/bin/ociobakelut
+/usr/bin/ociocheck
+/usr/bin/ocioconvert
+/usr/bin/ociolutimage

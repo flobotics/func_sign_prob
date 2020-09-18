@@ -1173,3 +1173,4 @@ monteverdi
 otb-qgis
 otb-bin-qt
 otb-testdriver
+opencolorio-tools
