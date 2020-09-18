@@ -1371,3 +1371,4 @@ ftpcopy
 fuseext2
 fossil
 ffdiaporama
+faust

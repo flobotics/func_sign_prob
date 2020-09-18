@@ -2068,3 +2068,6 @@ fuseext2
 umview-mod-umfuseext2
 fossil
 ffdiaporama
+fltk1.1-games
+free42-nologo
+faust

@@ -4242,3 +4242,4 @@
 /usr/bin/fuse-ext2
 /usr/bin/fossil
 /usr/bin/ffDiaporama
+/usr/bin/faust

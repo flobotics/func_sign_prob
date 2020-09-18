@@ -692,3 +692,5 @@ caja-extension-fma
 nemo-extension-fma
 ftp.app
 umview-mod-umfuseext2
+fltk1.1-games
+free42-nologo
