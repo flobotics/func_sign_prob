@@ -3568,3 +3568,4 @@
 /usr/bin/dhtnode
 /usr/bin/OrthancWSIDicomToTiff
 /usr/bin/OrthancWSIDicomizer
+/usr/bin/DRAWEXE
