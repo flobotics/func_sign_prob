@@ -1323,3 +1323,4 @@ obexfs
 fsvs
 fcoe-utils
 foremost
+freefem

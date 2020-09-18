@@ -4141,3 +4141,4 @@
 /usr/sbin/fcrls
 /usr/sbin/fipvlan
 /usr/bin/foremost
+/usr/bin/freefem

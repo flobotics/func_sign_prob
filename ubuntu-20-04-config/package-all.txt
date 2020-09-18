@@ -1984,3 +1984,4 @@ fsvs
 fomp
 fcoe-utils
 foremost
+freefem
