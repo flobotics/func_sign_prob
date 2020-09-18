@@ -1896,3 +1896,4 @@ opendrim-lmp-cpu
 ocaml-dune
 oomd
 otpw-bin
+oscar

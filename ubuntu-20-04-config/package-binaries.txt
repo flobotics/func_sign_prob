@@ -3785,3 +3785,4 @@
 /usr/bin/dune
 /usr/bin/oomd
 /usr/bin/otpw-gen
+/usr/bin/OSCAR

@@ -1272,3 +1272,4 @@ osmo-mgw
 ocaml-dune
 oomd
 otpw-bin
+oscar
