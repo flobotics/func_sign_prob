@@ -4152,3 +4152,4 @@
 /usr/bin/filezilla
 /usr/bin/fzputtygen
 /usr/bin/fzsftp
+/usr/bin/fastDNAml

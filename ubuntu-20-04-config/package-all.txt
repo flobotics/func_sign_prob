@@ -2003,3 +2003,5 @@ feedreader
 firejail
 fcitx-kkc
 filezilla
+frameworkintegration
+fastdnaml

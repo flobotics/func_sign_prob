@@ -1329,3 +1329,4 @@ freebayes
 feedreader
 firejail
 filezilla
+fastdnaml
