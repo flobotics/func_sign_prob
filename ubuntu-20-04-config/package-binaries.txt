@@ -3695,3 +3695,4 @@
 /usr/sbin/dundee
 /usr/sbin/ofonod
 /usr/bin/ocrad
+/usr/bin/osslsigncode
