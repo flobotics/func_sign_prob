@@ -1824,3 +1824,4 @@ owftpd
 owfs-fuse
 ow-shell
 owhttpd
+openscad
