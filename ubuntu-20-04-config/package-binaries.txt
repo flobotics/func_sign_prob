@@ -4079,3 +4079,5 @@
 /usr/bin/obuild
 /usr/bin/obuild-simple
 /usr/bin/exrdisplay
+/usr/bin/microtests
+/usr/bin/oregano

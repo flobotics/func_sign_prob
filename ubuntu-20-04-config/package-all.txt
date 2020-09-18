@@ -1949,3 +1949,4 @@ odt2txt
 ocaml-obuild
 octave-sparsersb
 openexr-viewers
+oregano
