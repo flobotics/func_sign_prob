@@ -3651,3 +3651,4 @@
 /usr/sbin/ods-enforcer-db-setup
 /usr/sbin/ods-enforcerd
 /usr/sbin/ods-migrate
+/usr/sbin/isnsadm

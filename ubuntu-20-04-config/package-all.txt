@@ -1804,3 +1804,7 @@ openorienteering-mapper
 openvas-manager
 opendnssec-signer
 opendnssec-enforcer-mysql
+opendnssec-enforcer-sqlite3
+octave-lssa
+omins
+open-isns-utils

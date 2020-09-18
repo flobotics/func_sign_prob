@@ -581,3 +581,5 @@ opendrim-lmp-ethernetport
 octave-vibes
 oaklisp
 opendrim-lmp-powermanagement
+octave-lssa
+omins
