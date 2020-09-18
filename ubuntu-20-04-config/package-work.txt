@@ -1396,3 +1396,4 @@ ftpgrab
 fuse-zip
 ffproxy
 freebsd-buildutils
+fvwm1
