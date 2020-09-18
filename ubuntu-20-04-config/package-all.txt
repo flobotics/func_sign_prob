@@ -2020,3 +2020,11 @@ fitscut
 fotoxx
 tcl-funtools
 fml-asm
+fcitx5-module-xorg
+fcitx5-module-dbus
+fcitx5-modules
+fcitx5-module-quickphrase
+fcitx5-module-ibus
+fcitx5-module-wayland
+fcitx5-module-kimpanel
+falkon

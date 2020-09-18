@@ -4188,3 +4188,4 @@
 /usr/bin/fitscut
 /usr/bin/fotoxx
 /usr/bin/fml-asm
+/usr/bin/falkon

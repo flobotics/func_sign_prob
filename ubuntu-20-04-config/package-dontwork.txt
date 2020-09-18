@@ -673,3 +673,10 @@ frameworkintegration
 flexml
 four-in-a-row
 tcl-funtools
+fcitx5-module-xorg
+fcitx5-module-dbus
+fcitx5-modules
+fcitx5-module-quickphrase
+fcitx5-module-ibus
+fcitx5-module-wayland
+fcitx5-module-kimpanel
