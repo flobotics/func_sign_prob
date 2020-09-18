@@ -1791,3 +1791,6 @@ dhtnode
 orthanc-wsi
 oce-draw
 oprofile
+ocplib-simplex-ocaml-dev
+opendrim-lmp-ethernetport
+osdlyrics

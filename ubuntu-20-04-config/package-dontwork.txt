@@ -576,3 +576,5 @@ openyahtzee
 python3-openvdb
 onscripter
 orbital-eunuchs-sniper
+ocplib-simplex-ocaml-dev
+opendrim-lmp-ethernetport

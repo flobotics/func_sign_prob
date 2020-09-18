@@ -3579,3 +3579,4 @@
 /usr/bin/opimport
 /usr/bin/opjitconv
 /usr/bin/opreport
+/usr/bin/osdlyrics

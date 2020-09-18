@@ -1211,3 +1211,4 @@ dhtnode
 orthanc-wsi
 oce-draw
 oprofile
+osdlyrics
