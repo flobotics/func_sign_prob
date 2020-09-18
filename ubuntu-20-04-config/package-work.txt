@@ -1362,3 +1362,4 @@ flake
 fiche
 flatbuffers-compiler
 fdutils
+fuse-emulator-gtk

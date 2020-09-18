@@ -4230,3 +4230,4 @@
 /usr/bin/setfdprm
 /usr/bin/superformat
 /usr/bin/xdfcopy
+/usr/bin/fuse-gtk
