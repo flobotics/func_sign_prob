@@ -4239,3 +4239,4 @@
 /usr/bin/latticegen
 /usr/bin/ftpcopy
 /usr/bin/ftpls
+/usr/bin/fuse-ext2

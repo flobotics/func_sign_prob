@@ -1368,3 +1368,4 @@ fspy
 flwrap
 fplll-tools
 ftpcopy
+fuseext2

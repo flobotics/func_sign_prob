@@ -690,3 +690,4 @@ filemanager-actions-libs
 nautilus-extension-fma
 caja-extension-fma
 nemo-extension-fma
+ftp.app
