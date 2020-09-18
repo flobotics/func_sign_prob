@@ -1214,3 +1214,4 @@ oprofile
 osdlyrics
 opus-tools
 opencaster
+orville-write

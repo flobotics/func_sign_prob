@@ -578,3 +578,5 @@ onscripter
 orbital-eunuchs-sniper
 ocplib-simplex-ocaml-dev
 opendrim-lmp-ethernetport
+octave-vibes
+oaklisp

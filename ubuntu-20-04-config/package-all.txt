@@ -1796,3 +1796,6 @@ opendrim-lmp-ethernetport
 osdlyrics
 opus-tools
 opencaster
+octave-vibes
+oaklisp
+orville-write

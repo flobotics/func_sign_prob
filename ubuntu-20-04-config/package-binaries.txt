@@ -3637,3 +3637,8 @@
 /usr/bin/txt2pes
 /usr/bin/vbv
 /usr/bin/zpipe
+/usr/bin/amin
+/usr/bin/helpers
+/usr/bin/huh
+/usr/bin/mesg
+/usr/bin/orville-write
