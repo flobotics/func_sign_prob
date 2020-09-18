@@ -1423,3 +1423,5 @@ freetype2-demos
 fuseiso9660
 facter
 fxt-tools
+farpd
+fcitx-ui-qimpanel

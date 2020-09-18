@@ -4322,3 +4322,6 @@
 /usr/bin/fuseiso9660
 /usr/bin/facter
 /usr/bin/fxt_print
+/usr/sbin/farpd
+/usr/bin/fcitx-qimpanel
+/usr/bin/fcitx-qimpanel-configtool

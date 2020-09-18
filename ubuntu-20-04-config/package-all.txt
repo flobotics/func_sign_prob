@@ -2162,3 +2162,5 @@ freeciv-server
 freeciv-client-sdl
 freeciv-client-extras
 fxt-tools
+farpd
+fcitx-ui-qimpanel
