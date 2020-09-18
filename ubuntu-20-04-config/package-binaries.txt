@@ -4104,3 +4104,12 @@
 /usr/bin/check_omp
 /usr/bin/omp
 /usr/sbin/oor
+/usr/bin/otfaux
+/usr/bin/otfcompress
+/usr/bin/otfinfo
+/usr/bin/otfmerge
+/usr/bin/otfmerge-mpi
+/usr/bin/otfprint
+/usr/bin/otfprofile
+/usr/bin/otfprofile-mpi
+/usr/bin/otfshrink
