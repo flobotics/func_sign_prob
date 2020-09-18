@@ -1860,3 +1860,5 @@ python3-openturns
 orthanc-mysql
 opendrim-lmp-simpleidentitymanagement
 openfortivpn
+ocamldsort
+openbsd-inetd

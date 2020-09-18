@@ -1248,3 +1248,5 @@ obconf-qt
 gnome-panel-control
 openexr
 openfortivpn
+ocamldsort
+openbsd-inetd
