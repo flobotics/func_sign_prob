@@ -4153,3 +4153,17 @@
 /usr/bin/fzputtygen
 /usr/bin/fzsftp
 /usr/bin/fastDNAml
+/usr/bin/fiarith
+/usr/bin/ficalib
+/usr/bin/ficonv
+/usr/bin/fiheader
+/usr/bin/fiign
+/usr/bin/fiinfo
+/usr/bin/fiphot
+/usr/bin/firandom
+/usr/bin/fistar
+/usr/bin/fitrans
+/usr/bin/grcollect
+/usr/bin/grmatch
+/usr/bin/grtrans
+/usr/bin/lfit

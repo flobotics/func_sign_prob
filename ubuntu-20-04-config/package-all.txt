@@ -2005,3 +2005,4 @@ fcitx-kkc
 filezilla
 frameworkintegration
 fastdnaml
+fitsh
