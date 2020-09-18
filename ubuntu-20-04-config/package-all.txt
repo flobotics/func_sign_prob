@@ -1809,3 +1809,7 @@ octave-lssa
 omins
 open-isns-utils
 open-isns-discoveryd
+open-isns-server
+openjdk-11-jre-dcevm
+kwin-decoration-oxygen
+kde-style-oxygen-qt5

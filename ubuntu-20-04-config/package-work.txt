@@ -1222,3 +1222,5 @@ opendnssec-enforcer-mysql
 opendnssec-enforcer-sqlite3
 open-isns-utils
 open-isns-discoveryd
+open-isns-server
+kde-style-oxygen-qt5

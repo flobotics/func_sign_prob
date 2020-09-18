@@ -583,3 +583,5 @@ oaklisp
 opendrim-lmp-powermanagement
 octave-lssa
 omins
+openjdk-11-jre-dcevm
+kwin-decoration-oxygen

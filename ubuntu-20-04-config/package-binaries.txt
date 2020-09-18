@@ -3653,3 +3653,4 @@
 /usr/sbin/ods-migrate
 /usr/sbin/isnsadm
 /usr/sbin/isnsdd
+/usr/bin/oxygen-settings5
