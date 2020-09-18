@@ -3805,3 +3805,9 @@
 /usr/lib/opa-fm/bin/opafmxmlextract
 /usr/lib/opa-fm/bin/opafmxmlfilter
 /usr/lib/opa-fm/bin/smpoolsize
+/usr/bin/far_perf
+/usr/bin/far_regression
+/usr/bin/hbr_baseline
+/usr/bin/hbr_regression
+/usr/bin/osd_regression
+/usr/bin/stringify
