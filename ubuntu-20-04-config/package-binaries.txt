@@ -3032,3 +3032,5 @@
 /usr/bin/fl2k_fm
 /usr/bin/fl2k_tcp
 /usr/bin/fl2k_test
+/usr/bin/osmo-ggsn
+/usr/bin/sgsnemu
