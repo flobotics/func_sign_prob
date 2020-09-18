@@ -3556,3 +3556,6 @@
 /usr/bin/writeMeshObj
 /usr/bin/zipUpMesh
 /usr/bin/obs
+/usr/bin/obex-folder-listing
+/usr/bin/obexpush_atd
+/usr/bin/obexpushd

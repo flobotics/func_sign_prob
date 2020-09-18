@@ -1203,3 +1203,4 @@ opa-address-resolution
 openbox-menu
 openfoam
 obs-studio
+obexpushd

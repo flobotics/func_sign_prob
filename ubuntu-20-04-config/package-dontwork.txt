@@ -573,3 +573,4 @@ orthanc-postgresql
 python3-opencv
 openpref
 openyahtzee
+python3-openvdb
