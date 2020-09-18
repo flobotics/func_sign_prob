@@ -2043,3 +2043,4 @@ fbpager
 fmit
 ffmsindex
 flvmeta
+fcgiwrap

@@ -4210,3 +4210,4 @@
 /usr/bin/fmit
 /usr/bin/ffmsindex
 /usr/bin/flvmeta
+/usr/sbin/fcgiwrap
