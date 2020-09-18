@@ -1902,3 +1902,7 @@ oasis
 osmo-trx
 openvpn-auth-ldap
 oddjob
+oddjob-mkhomedir
+abisip-find
+osmo-bsc-ipaccess-utils
+osmo-bsc-meas-utils

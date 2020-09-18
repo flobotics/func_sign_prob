@@ -1277,3 +1277,6 @@ ocserv
 oasis
 osmo-trx
 oddjob
+abisip-find
+osmo-bsc-ipaccess-utils
+osmo-bsc-meas-utils
