@@ -1761,3 +1761,4 @@ octave-octproj
 openmpi-bin
 ogmrip
 openal-info
+makehrtf

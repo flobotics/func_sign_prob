@@ -1191,3 +1191,4 @@ oggfwd
 openmpi-bin
 ogmrip
 openal-info
+makehrtf

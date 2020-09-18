@@ -5041,3 +5041,13 @@ Real binaries:['/usr/bin/openal-info']
 Write to package-work.txt file: openal-info
 Write to package-binaries.txt file: ['/usr/bin/openal-info']
 ['/usr/bin/openal-info']
+Write pickle file
+tar_out:
+Package-nr:1572 of 11000, Name:makehrtf-dbgsym
+Package >makehrtf< not in package-all.txt file
+Write to package-all.txt file: makehrtf
+In package >makehrtf< are these binaries: ['/usr/bin/makehrtf']
+Real binaries:['/usr/bin/makehrtf']
+Write to package-work.txt file: makehrtf
+Write to package-binaries.txt file: ['/usr/bin/makehrtf']
+['/usr/bin/makehrtf']
