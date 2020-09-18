@@ -4295,3 +4295,5 @@
 /sbin/mount.posixovl
 /usr/bin/fluidsynth
 /usr/sbin/fatrace
+/usr/bin/flarq
+/usr/bin/fldigi
