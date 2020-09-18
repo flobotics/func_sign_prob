@@ -1254,3 +1254,4 @@ openmsx-debugger
 octomap-tools
 octovis
 osgearth
+osm2pgrouting

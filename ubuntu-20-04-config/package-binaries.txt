@@ -3729,3 +3729,4 @@
 /usr/bin/osgearth_toc
 /usr/bin/osgearth_version
 /usr/bin/osgearth_viewer
+/usr/bin/osm2pgrouting
