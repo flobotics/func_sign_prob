@@ -3264,3 +3264,9 @@
 /usr/bin/orte-server
 /usr/bin/orted
 /usr/bin/orterun
+/usr/bin/avibox
+/usr/bin/dvdcpy
+/usr/bin/ogmrip
+/usr/bin/subp2pgm
+/usr/bin/subptools
+/usr/bin/theoraenc

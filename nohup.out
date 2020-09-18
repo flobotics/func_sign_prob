@@ -5021,3 +5021,13 @@ Real binaries:['/usr/bin/ompi_info', '/usr/bin/opal_wrapper', '/usr/bin/orte-cle
 Write to package-work.txt file: openmpi-bin
 Write to package-binaries.txt file: ['/usr/bin/ompi_info', '/usr/bin/opal_wrapper', '/usr/bin/orte-clean', '/usr/bin/orte-server', '/usr/bin/orted', '/usr/bin/orterun']
 ['/usr/bin/ompi_info', '/usr/bin/opal_wrapper', '/usr/bin/orte-clean', '/usr/bin/orte-server', '/usr/bin/orted', '/usr/bin/orterun']
+Write pickle file
+tar_out:
+Package-nr:1570 of 11000, Name:ogmrip-dbgsym
+Package >ogmrip< not in package-all.txt file
+Write to package-all.txt file: ogmrip
+In package >ogmrip< are these binaries: ['/usr/bin/avibox', '/usr/bin/dvdcpy', '/usr/bin/ogmrip', '/usr/bin/subp2pgm', '/usr/bin/subptools', '/usr/bin/theoraenc', '/usr/bin/subp2png', '/usr/bin/subp2tiff']
+Real binaries:['/usr/bin/avibox', '/usr/bin/dvdcpy', '/usr/bin/ogmrip', '/usr/bin/subp2pgm', '/usr/bin/subptools', '/usr/bin/theoraenc']
+Write to package-work.txt file: ogmrip
+Write to package-binaries.txt file: ['/usr/bin/avibox', '/usr/bin/dvdcpy', '/usr/bin/ogmrip', '/usr/bin/subp2pgm', '/usr/bin/subptools', '/usr/bin/theoraenc']
+['/usr/bin/avibox', '/usr/bin/dvdcpy', '/usr/bin/ogmrip', '/usr/bin/subp2pgm', '/usr/bin/subptools', '/usr/bin/theoraenc']
