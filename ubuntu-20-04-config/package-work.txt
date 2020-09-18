@@ -1391,3 +1391,4 @@ fnotifystat
 faultstat
 fldiff
 frogr
+fitsverify
