@@ -3644,3 +3644,5 @@
 /usr/bin/orville-write
 /usr/bin/Mapper
 /usr/sbin/openvasmd-sqlite
+/usr/sbin/ods-signer
+/usr/sbin/ods-signerd
