@@ -1419,3 +1419,4 @@ flextra
 fcitx-config-gtk
 fdclone
 field3d-tools
+freetype2-demos

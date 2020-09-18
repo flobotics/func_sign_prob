@@ -2146,3 +2146,6 @@ flextra
 fcitx-config-gtk
 fdclone
 field3d-tools
+fcitx-module-cloudpinyin
+fcitx-module-punc-ng
+freetype2-demos

@@ -4308,3 +4308,14 @@
 /usr/bin/flextra.gfs
 /usr/bin/fcitx-config-gtk3
 /usr/bin/f3dinfo
+/usr/bin/ftbench
+/usr/bin/ftdiff
+/usr/bin/ftdump
+/usr/bin/ftgamma
+/usr/bin/ftgrid
+/usr/bin/ftlint
+/usr/bin/ftmulti
+/usr/bin/ftstring
+/usr/bin/ftvalid
+/usr/bin/ftview
+/usr/bin/ttdebug

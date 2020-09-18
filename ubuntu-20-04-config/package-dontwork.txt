@@ -722,3 +722,5 @@ python3-fast-histogram
 python3-fpylll
 fwupd-tests
 freeglut3
+fcitx-module-cloudpinyin
+fcitx-module-punc-ng
