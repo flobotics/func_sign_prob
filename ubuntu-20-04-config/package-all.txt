@@ -1849,3 +1849,6 @@ osslsigncode
 okular-extra-backends
 qml-module-org-kde-okular
 okular-mobile
+octave-control
+ocaml-qtest
+obconf-qt

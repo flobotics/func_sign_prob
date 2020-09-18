@@ -3697,3 +3697,5 @@
 /usr/bin/ocrad
 /usr/bin/osslsigncode
 /usr/bin/okularkirigami
+/usr/bin/qtest
+/usr/bin/obconf-qt

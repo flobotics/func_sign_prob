@@ -601,3 +601,4 @@ openvpn-auth-radius
 opendrim-lmp-softwareinventory
 okular-extra-backends
 qml-module-org-kde-okular
+octave-control
