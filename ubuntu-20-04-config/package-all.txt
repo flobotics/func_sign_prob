@@ -2029,3 +2029,4 @@ fcitx5-module-wayland
 fcitx5-module-kimpanel
 falkon
 firebird3.0-utils
+firebird3.0-server

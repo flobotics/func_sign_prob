@@ -4197,3 +4197,7 @@
 /usr/bin/gsec
 /usr/bin/isql-fb
 /usr/bin/nbackup
+/usr/bin/fb_lock_print
+/usr/bin/fbtracemgr
+/usr/sbin/fbguard
+/usr/sbin/firebird
