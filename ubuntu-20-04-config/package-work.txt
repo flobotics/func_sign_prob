@@ -1433,3 +1433,4 @@ fuse3
 flac
 flexbar
 fped
+ffmpeg2theora

@@ -2176,3 +2176,4 @@ fcitx-sayura
 r-cran-fgarch
 flexbar
 fped
+ffmpeg2theora

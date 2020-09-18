@@ -4338,3 +4338,4 @@
 /usr/bin/metaflac
 /usr/bin/flexbar
 /usr/bin/fped
+/usr/bin/ffmpeg2theora
