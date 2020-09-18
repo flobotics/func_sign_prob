@@ -3999,3 +3999,5 @@
 /usr/bin/XTandemAdapter
 /usr/bin/outguess
 /usr/bin/openmx
+/usr/sbin/ntpctl
+/usr/sbin/ntpd
