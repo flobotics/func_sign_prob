@@ -2109,3 +2109,5 @@ fitsverify
 ftools-pow
 freesweep
 ftpgrab
+python3-fife
+fuse-zip

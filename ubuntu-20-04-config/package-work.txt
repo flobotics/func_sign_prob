@@ -1393,3 +1393,4 @@ fldiff
 frogr
 fitsverify
 ftpgrab
+fuse-zip

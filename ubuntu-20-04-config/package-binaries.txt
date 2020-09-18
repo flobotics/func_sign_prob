@@ -4276,3 +4276,4 @@
 /usr/bin/frogr
 /usr/bin/fitsverify
 /usr/bin/ftpgrab
+/usr/bin/fuse-zip
