@@ -1161,3 +1161,4 @@ oar-user
 original-awk
 opencryptoki
 owx
+omniidl

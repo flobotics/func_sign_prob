@@ -1711,3 +1711,4 @@ octave-ltfat
 opencryptoki
 opencollada-tools
 owx
+omniidl

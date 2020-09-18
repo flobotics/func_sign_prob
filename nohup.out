@@ -4595,3 +4595,13 @@ Real binaries:['/usr/sbin/owx']
 Write to package-work.txt file: owx
 Write to package-binaries.txt file: ['/usr/sbin/owx']
 ['/usr/sbin/owx']
+Write pickle file
+tar_out:
+Package-nr:1518 of 11000, Name:omniidl-dbgsym
+Package >omniidl< not in package-all.txt file
+Write to package-all.txt file: omniidl
+In package >omniidl< are these binaries: ['/usr/bin/omnicpp', '/usr/bin/omniidl']
+Real binaries:['/usr/bin/omnicpp']
+Write to package-work.txt file: omniidl
+Write to package-binaries.txt file: ['/usr/bin/omnicpp']
+['/usr/bin/omnicpp']

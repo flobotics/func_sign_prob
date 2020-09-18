@@ -3052,3 +3052,4 @@
 /usr/sbin/pkcsicsf
 /usr/sbin/pkcsslotd
 /usr/sbin/owx
+/usr/bin/omnicpp
