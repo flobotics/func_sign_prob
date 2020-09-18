@@ -560,3 +560,9 @@ octave-parallel
 octave-geometry
 orthanc-webviewer
 overlay-scrollbar-gtk2
+opendrim-lmp-recordlog
+octave-communications
+opendrim-lmp-physicalasset
+osmo-libasn1c1
+python3-odb-api
+octave-octproj

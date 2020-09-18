@@ -1751,3 +1751,11 @@ octave-geometry
 orthanc-webviewer
 overlay-scrollbar-gtk2
 openvas-nasl
+opendrim-lmp-recordlog
+octave-communications
+opendrim-lmp-physicalasset
+osmo-libasn1c1
+oggfwd
+python3-odb-api
+octave-octproj
+openmpi-bin

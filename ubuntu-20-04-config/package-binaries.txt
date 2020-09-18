@@ -3257,3 +3257,10 @@
 /usr/bin/present3D
 /usr/bin/openvas-nasl
 /usr/bin/openvas-nasl-lint
+/usr/bin/oggfwd
+/usr/bin/ompi_info
+/usr/bin/opal_wrapper
+/usr/bin/orte-clean
+/usr/bin/orte-server
+/usr/bin/orted
+/usr/bin/orterun

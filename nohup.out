@@ -4961,3 +4961,63 @@ Real binaries:['/usr/bin/openvas-nasl', '/usr/bin/openvas-nasl-lint']
 Write to package-work.txt file: openvas-nasl
 Write to package-binaries.txt file: ['/usr/bin/openvas-nasl', '/usr/bin/openvas-nasl-lint']
 ['/usr/bin/openvas-nasl', '/usr/bin/openvas-nasl-lint']
+Write pickle file
+tar_out:
+Package-nr:1562 of 11000, Name:opendrim-lmp-recordlog-dbgsym
+Package >opendrim-lmp-recordlog< not in package-all.txt file
+Write to package-all.txt file: opendrim-lmp-recordlog
+In package >opendrim-lmp-recordlog< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: opendrim-lmp-recordlog
+[]
+Package-nr:1563 of 11000, Name:octave-communications-dbgsym
+Package >octave-communications< not in package-all.txt file
+Write to package-all.txt file: octave-communications
+In package >octave-communications< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: octave-communications
+[]
+Package-nr:1564 of 11000, Name:opendrim-lmp-physicalasset-dbgsym
+Package >opendrim-lmp-physicalasset< not in package-all.txt file
+Write to package-all.txt file: opendrim-lmp-physicalasset
+In package >opendrim-lmp-physicalasset< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: opendrim-lmp-physicalasset
+[]
+Package-nr:1565 of 11000, Name:osmo-libasn1c1-dbgsym
+Package >osmo-libasn1c1< not in package-all.txt file
+Write to package-all.txt file: osmo-libasn1c1
+In package >osmo-libasn1c1< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: osmo-libasn1c1
+[]
+Package-nr:1566 of 11000, Name:oggfwd-dbgsym
+Package >oggfwd< not in package-all.txt file
+Write to package-all.txt file: oggfwd
+In package >oggfwd< are these binaries: ['/usr/bin/oggfwd']
+Real binaries:['/usr/bin/oggfwd']
+Write to package-work.txt file: oggfwd
+Write to package-binaries.txt file: ['/usr/bin/oggfwd']
+['/usr/bin/oggfwd']
+Package-nr:1567 of 11000, Name:python3-odb-api-dbgsym
+Package >python3-odb-api< not in package-all.txt file
+Write to package-all.txt file: python3-odb-api
+In package >python3-odb-api< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: python3-odb-api
+[]
+Package-nr:1568 of 11000, Name:octave-octproj-dbgsym
+Package >octave-octproj< not in package-all.txt file
+Write to package-all.txt file: octave-octproj
+In package >octave-octproj< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: octave-octproj
+[]
+Package-nr:1569 of 11000, Name:openmpi-bin-dbgsym
+Package >openmpi-bin< not in package-all.txt file
+Write to package-all.txt file: openmpi-bin
+In package >openmpi-bin< are these binaries: ['/usr/bin/ompi_info', '/usr/bin/opal_wrapper', '/usr/bin/orte-clean', '/usr/bin/orte-server', '/usr/bin/orted', '/usr/bin/orterun', '/usr/share/doc/openmpi-bin/README.Debian', '/usr/share/doc/openmpi-bin/copyright', '/usr/bin/mpiCC.openmpi', '/usr/bin/mpic++.openmpi', '/usr/bin/mpicc.openmpi', '/usr/bin/mpicxx.openmpi', '/usr/bin/mpiexec.openmpi', '/usr/bin/mpif77.openmpi', '/usr/bin/mpif90.openmpi', '/usr/bin/mpifort.openmpi', '/usr/bin/mpirun.openmpi', '/usr/bin/ompi-clean', '/usr/bin/ompi-server', '/usr/bin/opalc++', '/usr/bin/opalcc', '/usr/share/doc/openmpi-bin/NEWS.gz', '/usr/share/doc/openmpi-bin/README.gz', '/usr/share/doc/openmpi-bin/changelog.Debian.gz']
+Real binaries:['/usr/bin/ompi_info', '/usr/bin/opal_wrapper', '/usr/bin/orte-clean', '/usr/bin/orte-server', '/usr/bin/orted', '/usr/bin/orterun']
+Write to package-work.txt file: openmpi-bin
+Write to package-binaries.txt file: ['/usr/bin/ompi_info', '/usr/bin/opal_wrapper', '/usr/bin/orte-clean', '/usr/bin/orte-server', '/usr/bin/orted', '/usr/bin/orterun']
+['/usr/bin/ompi_info', '/usr/bin/opal_wrapper', '/usr/bin/orte-clean', '/usr/bin/orte-server', '/usr/bin/orted', '/usr/bin/orterun']
