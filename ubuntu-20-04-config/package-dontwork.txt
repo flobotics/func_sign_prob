@@ -585,3 +585,4 @@ octave-lssa
 omins
 openjdk-11-jre-dcevm
 kwin-decoration-oxygen
+python3-olm

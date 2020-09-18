@@ -3654,3 +3654,5 @@
 /usr/sbin/isnsadm
 /usr/sbin/isnsdd
 /usr/bin/oxygen-settings5
+/usr/bin/ocproxy
+/usr/bin/vpnns

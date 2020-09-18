@@ -1813,3 +1813,5 @@ open-isns-server
 openjdk-11-jre-dcevm
 kwin-decoration-oxygen
 kde-style-oxygen-qt5
+python3-olm
+ocproxy
