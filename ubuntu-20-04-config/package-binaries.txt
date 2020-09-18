@@ -4185,3 +4185,4 @@
 /usr/sbin/fence_kdump
 /usr/bin/fcml-asm
 /usr/bin/fcml-disasm
+/usr/bin/fitscut

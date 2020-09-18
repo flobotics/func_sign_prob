@@ -1339,3 +1339,4 @@ foomatic-filters
 fhist
 fence-agents
 fcml
+fitscut
