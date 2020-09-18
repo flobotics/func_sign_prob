@@ -4336,3 +4336,4 @@
 /sbin/mount.fuse3
 /usr/bin/flac
 /usr/bin/metaflac
+/usr/bin/flexbar

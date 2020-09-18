@@ -2172,3 +2172,6 @@ fstrm-bin
 fritzing
 fuse3
 flac
+fcitx-sayura
+r-cran-fgarch
+flexbar
