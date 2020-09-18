@@ -3797,3 +3797,4 @@
 /usr/bin/AppCSXCAD
 /usr/bin/nf2ff
 /usr/bin/openEMS
+/usr/bin/ondir

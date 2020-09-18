@@ -623,3 +623,5 @@ openvpn-auth-ldap
 oddjob-mkhomedir
 openarena
 openarena-server
+octave-openems
+python3-openems

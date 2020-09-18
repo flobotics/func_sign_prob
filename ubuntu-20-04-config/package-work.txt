@@ -1282,3 +1282,4 @@ osmo-bsc-ipaccess-utils
 osmo-bsc-meas-utils
 osmo-bsc-bs11-utils
 openems
+ondir

@@ -1910,3 +1910,6 @@ osmo-bsc-bs11-utils
 openarena
 openarena-server
 openems
+octave-openems
+python3-openems
+ondir
