@@ -2044,3 +2044,9 @@ fmit
 ffmsindex
 flvmeta
 fcgiwrap
+freeipmi-ipmiseld
+freeipmi-ipmidetect
+freeipmi-bmc-watchdog
+fcitx-rime
+flvstreamer
+flake

@@ -4211,3 +4211,10 @@
 /usr/bin/ffmsindex
 /usr/bin/flvmeta
 /usr/sbin/fcgiwrap
+/usr/sbin/ipmiseld
+/usr/sbin/ipmidetect
+/usr/sbin/ipmidetectd
+/usr/sbin/bmc-watchdog
+/usr/bin/flvstreamer
+/usr/bin/streams
+/usr/bin/flake
