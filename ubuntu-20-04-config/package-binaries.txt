@@ -3798,3 +3798,10 @@
 /usr/bin/nf2ff
 /usr/bin/openEMS
 /usr/bin/ondir
+/usr/lib/opa-fm/bin/config_check
+/usr/lib/opa-fm/bin/config_convert
+/usr/lib/opa-fm/bin/fm_cmd
+/usr/lib/opa-fm/bin/opafmd
+/usr/lib/opa-fm/bin/opafmxmlextract
+/usr/lib/opa-fm/bin/opafmxmlfilter
+/usr/lib/opa-fm/bin/smpoolsize
