@@ -653,3 +653,4 @@ octave-octclip
 opendrim-lmp-powersupply
 opendrim-lmp-os
 ocaml-base
+octave-database

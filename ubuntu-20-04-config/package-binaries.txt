@@ -4129,3 +4129,5 @@
 /usr/bin/ocamloptp.opt
 /usr/bin/ocamlprof.opt
 /usr/bin/ocamlyacc
+/bin/gcs
+/bin/gcstools
