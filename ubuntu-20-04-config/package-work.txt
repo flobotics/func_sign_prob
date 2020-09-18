@@ -1157,3 +1157,4 @@ opensta
 ocsinventory-agent
 oar-common
 oar-restful-api
+oar-user

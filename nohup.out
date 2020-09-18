@@ -4534,3 +4534,13 @@ Real binaries:['/usr/lib/cgi-bin/oarapi/oarapi-debug.cgi', '/usr/lib/cgi-bin/oar
 Write to package-work.txt file: oar-restful-api
 Write to package-binaries.txt file: ['/usr/lib/cgi-bin/oarapi/oarapi-debug.cgi', '/usr/lib/cgi-bin/oarapi/oarapi.cgi']
 ['/usr/lib/cgi-bin/oarapi/oarapi-debug.cgi', '/usr/lib/cgi-bin/oarapi/oarapi.cgi']
+Write pickle file
+tar_out:
+Package-nr:1511 of 11000, Name:oar-user-dbgsym
+Package >oar-user< not in package-all.txt file
+Write to package-all.txt file: oar-user
+In package >oar-user< are these binaries: ['/usr/bin/oardel', '/usr/bin/oarhold', '/usr/bin/oarmonitor_graph_gen', '/usr/bin/oarnodes', '/usr/bin/oarresume', '/usr/bin/oarstat', '/usr/bin/oarsub', '/usr/bin/oarwalltime']
+Real binaries:['/usr/bin/oardel', '/usr/bin/oarhold', '/usr/bin/oarnodes', '/usr/bin/oarresume', '/usr/bin/oarstat', '/usr/bin/oarsub', '/usr/bin/oarwalltime']
+Write to package-work.txt file: oar-user
+Write to package-binaries.txt file: ['/usr/bin/oardel', '/usr/bin/oarhold', '/usr/bin/oarnodes', '/usr/bin/oarresume', '/usr/bin/oarstat', '/usr/bin/oarsub', '/usr/bin/oarwalltime']
+['/usr/bin/oardel', '/usr/bin/oarhold', '/usr/bin/oarnodes', '/usr/bin/oarresume', '/usr/bin/oarstat', '/usr/bin/oarsub', '/usr/bin/oarwalltime']

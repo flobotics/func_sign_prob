@@ -3039,3 +3039,10 @@
 /usr/bin/oarsh
 /usr/lib/cgi-bin/oarapi/oarapi-debug.cgi
 /usr/lib/cgi-bin/oarapi/oarapi.cgi
+/usr/bin/oardel
+/usr/bin/oarhold
+/usr/bin/oarnodes
+/usr/bin/oarresume
+/usr/bin/oarstat
+/usr/bin/oarsub
+/usr/bin/oarwalltime
