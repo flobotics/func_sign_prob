@@ -4113,3 +4113,6 @@
 /usr/bin/otfprofile
 /usr/bin/otfprofile-mpi
 /usr/bin/otfshrink
+/usr/bin/ocamlrun
+/usr/bin/ocamlrund
+/usr/bin/ocamlruni

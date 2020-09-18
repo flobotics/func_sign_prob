@@ -1968,3 +1968,10 @@ orthanc-dicomweb
 octave-secs2d
 openoverlayrouter
 otf-trace
+osspd-alsa
+osspd-pulseaudio
+octave-octclip
+opendrim-lmp-powersupply
+opendrim-lmp-os
+ocaml-base
+ocaml-base-nox

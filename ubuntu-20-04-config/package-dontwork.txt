@@ -647,3 +647,9 @@ octave-video
 openssn
 orthanc-dicomweb
 octave-secs2d
+osspd-alsa
+osspd-pulseaudio
+octave-octclip
+opendrim-lmp-powersupply
+opendrim-lmp-os
+ocaml-base
