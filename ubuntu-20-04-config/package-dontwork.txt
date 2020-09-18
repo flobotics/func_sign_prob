@@ -686,3 +686,7 @@ frr-rpki-rtrlib
 frr-snmp
 findimagedupes
 fcitx-rime
+filemanager-actions-libs
+nautilus-extension-fma
+caja-extension-fma
+nemo-extension-fma

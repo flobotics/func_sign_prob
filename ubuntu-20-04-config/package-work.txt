@@ -1361,3 +1361,4 @@ flvstreamer
 flake
 fiche
 flatbuffers-compiler
+fdutils

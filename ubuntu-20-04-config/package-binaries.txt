@@ -4220,3 +4220,13 @@
 /usr/bin/flake
 /usr/bin/fiche
 /usr/bin/flatc
+/usr/bin/diskd
+/usr/bin/diskseekd
+/usr/bin/fdmount
+/usr/bin/fdrawcmd
+/usr/bin/floppycontrol
+/usr/bin/floppymeter
+/usr/bin/getfdprm
+/usr/bin/setfdprm
+/usr/bin/superformat
+/usr/bin/xdfcopy

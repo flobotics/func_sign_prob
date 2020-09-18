@@ -2052,3 +2052,8 @@ flvstreamer
 flake
 fiche
 flatbuffers-compiler
+filemanager-actions-libs
+nautilus-extension-fma
+caja-extension-fma
+nemo-extension-fma
+fdutils
