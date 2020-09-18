@@ -1322,3 +1322,4 @@ opengcs
 obexfs
 fsvs
 fcoe-utils
+foremost
