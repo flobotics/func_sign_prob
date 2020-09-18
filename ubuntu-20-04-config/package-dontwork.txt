@@ -547,3 +547,6 @@ postgresql-12-omnidb
 octave-ltfat
 opencollada-tools
 octave-general
+octave-netcdf
+open-invaders
+opendrim-lmp-dns

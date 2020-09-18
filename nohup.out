@@ -4652,3 +4652,37 @@ Real binaries:['/usr/bin/opari2']
 Write to package-work.txt file: opari2
 Write to package-binaries.txt file: ['/usr/bin/opari2']
 ['/usr/bin/opari2']
+Write pickle file
+tar_out:
+Package-nr:1524 of 11000, Name:odb-dbgsym
+Skip package >odb<, already in package-all.txt file
+[]
+Package-nr:1525 of 11000, Name:octave-netcdf-dbgsym
+Package >octave-netcdf< not in package-all.txt file
+Write to package-all.txt file: octave-netcdf
+In package >octave-netcdf< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: octave-netcdf
+[]
+Package-nr:1526 of 11000, Name:open-invaders-dbgsym
+Package >open-invaders< not in package-all.txt file
+Write to package-all.txt file: open-invaders
+In package >open-invaders< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: open-invaders
+[]
+Package-nr:1527 of 11000, Name:opendrim-lmp-dns-dbgsym
+Package >opendrim-lmp-dns< not in package-all.txt file
+Write to package-all.txt file: opendrim-lmp-dns
+In package >opendrim-lmp-dns< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: opendrim-lmp-dns
+[]
+Package-nr:1528 of 11000, Name:iscsiuio-dbgsym
+Package >iscsiuio< not in package-all.txt file
+Write to package-all.txt file: iscsiuio
+In package >iscsiuio< are these binaries: ['/sbin/iscsiuio']
+Real binaries:['/sbin/iscsiuio']
+Write to package-work.txt file: iscsiuio
+Write to package-binaries.txt file: ['/sbin/iscsiuio']
+['/sbin/iscsiuio']

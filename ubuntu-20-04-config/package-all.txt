@@ -1717,3 +1717,7 @@ omniorb-nameserver
 octave-general
 oidentd
 opari2
+octave-netcdf
+open-invaders
+opendrim-lmp-dns
+iscsiuio
