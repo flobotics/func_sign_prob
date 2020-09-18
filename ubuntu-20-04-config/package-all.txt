@@ -2028,3 +2028,4 @@ fcitx5-module-ibus
 fcitx5-module-wayland
 fcitx5-module-kimpanel
 falkon
+firebird3.0-utils

@@ -4189,3 +4189,11 @@
 /usr/bin/fotoxx
 /usr/bin/fml-asm
 /usr/bin/falkon
+/usr/bin/fbstat
+/usr/bin/fbsvcmgr
+/usr/bin/gbak
+/usr/bin/gfix
+/usr/bin/gpre
+/usr/bin/gsec
+/usr/bin/isql-fb
+/usr/bin/nbackup

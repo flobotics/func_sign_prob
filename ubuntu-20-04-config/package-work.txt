@@ -1343,3 +1343,4 @@ fitscut
 fotoxx
 fml-asm
 falkon
+firebird3.0-utils
