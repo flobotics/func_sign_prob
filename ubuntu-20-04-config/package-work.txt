@@ -1427,3 +1427,4 @@ farpd
 fcitx-ui-qimpanel
 fspanel
 freecad-python3
+fstrm-bin

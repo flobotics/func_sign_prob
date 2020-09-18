@@ -4328,3 +4328,6 @@
 /usr/bin/fspanel
 /usr/lib/freecad/bin/freecad-python3
 /usr/lib/freecad/bin/freecadcmd-python3
+/usr/bin/fstrm_capture
+/usr/bin/fstrm_dump
+/usr/bin/fstrm_replay
