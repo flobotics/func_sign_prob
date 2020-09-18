@@ -3051,3 +3051,4 @@
 /usr/sbin/pkcsconf
 /usr/sbin/pkcsicsf
 /usr/sbin/pkcsslotd
+/usr/sbin/owx

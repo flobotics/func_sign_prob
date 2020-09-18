@@ -4578,3 +4578,20 @@ Real binaries:['/usr/sbin/pkcscca', '/usr/sbin/pkcsconf', '/usr/sbin/pkcsicsf', 
 Write to package-work.txt file: opencryptoki
 Write to package-binaries.txt file: ['/usr/sbin/pkcscca', '/usr/sbin/pkcsconf', '/usr/sbin/pkcsicsf', '/usr/sbin/pkcsslotd']
 ['/usr/sbin/pkcscca', '/usr/sbin/pkcsconf', '/usr/sbin/pkcsicsf', '/usr/sbin/pkcsslotd']
+Write pickle file
+tar_out:
+Package-nr:1516 of 11000, Name:opencollada-tools-dbgsym
+Package >opencollada-tools< not in package-all.txt file
+Write to package-all.txt file: opencollada-tools
+In package >opencollada-tools< are these binaries: ['/usr/bin/opencolladavalidator']
+Real binaries:[]
+Write to package-dontwork.txt file: opencollada-tools
+[]
+Package-nr:1517 of 11000, Name:owx-dbgsym
+Package >owx< not in package-all.txt file
+Write to package-all.txt file: owx
+In package >owx< are these binaries: ['/usr/bin/wouxun', '/usr/sbin/owx', '/usr/bin/owx-check', '/usr/bin/owx-export', '/usr/bin/owx-get', '/usr/bin/owx-import', '/usr/bin/owx-put']
+Real binaries:['/usr/sbin/owx']
+Write to package-work.txt file: owx
+Write to package-binaries.txt file: ['/usr/sbin/owx']
+['/usr/sbin/owx']

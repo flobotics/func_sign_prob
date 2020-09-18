@@ -545,3 +545,4 @@ slapd-contrib
 octave-gsl
 postgresql-12-omnidb
 octave-ltfat
+opencollada-tools

@@ -1709,3 +1709,5 @@ original-awk
 postgresql-12-omnidb
 octave-ltfat
 opencryptoki
+opencollada-tools
+owx
