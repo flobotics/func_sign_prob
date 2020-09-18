@@ -708,3 +708,4 @@ fcitx-frontend-gtk2
 python3-fastchunking
 fcitx-libpinyin
 r-cran-fasianoptions
+fqterm

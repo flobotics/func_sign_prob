@@ -4273,3 +4273,4 @@
 /usr/sbin/fnotifystat
 /usr/bin/faultstat
 /usr/bin/fldiff
+/usr/bin/frogr

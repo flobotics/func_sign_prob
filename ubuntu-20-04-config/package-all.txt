@@ -2103,3 +2103,5 @@ r-cran-fasianoptions
 fnotifystat
 faultstat
 fldiff
+fqterm
+frogr
