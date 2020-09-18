@@ -3743,3 +3743,7 @@
 /usr/sbin/volinfo
 /usr/sbin/volscan
 /usr/sbin/afsd.fuse
+/usr/sbin/prdb_check
+/usr/sbin/pt_util
+/usr/sbin/read_tape
+/usr/sbin/vldb_check
