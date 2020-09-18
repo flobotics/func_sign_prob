@@ -3677,3 +3677,6 @@
 /usr/bin/odinreco
 /usr/bin/pulsar
 /usr/bin/swab
+/usr/bin/micalc
+/usr/bin/miconv
+/usr/bin/miview
