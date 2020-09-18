@@ -4332,3 +4332,5 @@
 /usr/bin/fstrm_dump
 /usr/bin/fstrm_replay
 /usr/bin/fritzing.real
+/bin/fusermount3
+/sbin/mount.fuse3
