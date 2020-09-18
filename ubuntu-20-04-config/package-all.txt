@@ -1837,3 +1837,6 @@ octave-zeromq
 ovn-controller-vtep
 ovn-ic
 ovn-ic-db
+octave-nurbs
+octave-image
+osm2pgsql

@@ -1238,3 +1238,4 @@ opendkim-tools
 ovn-controller-vtep
 ovn-ic
 ovn-ic-db
+osm2pgsql
