@@ -668,3 +668,4 @@ freeradius-rest
 freeradius-python3
 r-cran-funitroots
 fcitx-module-fullwidthchar-enhance
+fcitx-kkc

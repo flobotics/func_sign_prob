@@ -4149,3 +4149,6 @@
 /usr/bin/firecfg
 /usr/bin/firejail
 /usr/bin/firemon
+/usr/bin/filezilla
+/usr/bin/fzputtygen
+/usr/bin/fzsftp
