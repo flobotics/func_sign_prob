@@ -1885,3 +1885,4 @@ osmo-gbproxy
 opendrim-lmp-dhcp
 octave-level-set
 owncloud-client
+owncloud-client-cmd

@@ -3780,3 +3780,4 @@
 /usr/bin/osmo-gtphub
 /usr/bin/osmo-gbproxy
 /usr/bin/owncloud
+/usr/bin/owncloudcmd
