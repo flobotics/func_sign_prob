@@ -586,3 +586,6 @@ omins
 openjdk-11-jre-dcevm
 kwin-decoration-oxygen
 python3-olm
+postgresql-12-orafce
+python-openwsman
+opensc-pkcs11

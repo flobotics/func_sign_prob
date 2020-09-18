@@ -1225,3 +1225,5 @@ open-isns-discoveryd
 open-isns-server
 kde-style-oxygen-qt5
 ocproxy
+opencubicplayer
+owserver

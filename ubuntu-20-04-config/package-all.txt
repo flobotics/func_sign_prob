@@ -1815,3 +1815,8 @@ kwin-decoration-oxygen
 kde-style-oxygen-qt5
 python3-olm
 ocproxy
+postgresql-12-orafce
+python-openwsman
+opensc-pkcs11
+opencubicplayer
+owserver

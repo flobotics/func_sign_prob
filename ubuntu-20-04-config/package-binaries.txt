@@ -3656,3 +3656,5 @@
 /usr/bin/oxygen-settings5
 /usr/bin/ocproxy
 /usr/bin/vpnns
+/usr/bin/owexternal
+/usr/bin/owserver
