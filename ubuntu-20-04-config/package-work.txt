@@ -1293,3 +1293,4 @@ osmctools
 oclgrind
 openocd
 topp
+outguess
