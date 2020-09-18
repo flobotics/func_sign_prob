@@ -2093,3 +2093,4 @@ fcitx-frontend-gtk2
 fcitx-tools
 python3-fastchunking
 fzy
+foxtrotgps

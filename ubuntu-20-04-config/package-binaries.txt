@@ -4265,3 +4265,4 @@
 /usr/bin/scel2org
 /usr/bin/txt2mb
 /usr/bin/fzy
+/usr/bin/foxtrotgps

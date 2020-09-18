@@ -1382,3 +1382,4 @@ fpart
 fcitx-bin
 fcitx-tools
 fzy
+foxtrotgps
