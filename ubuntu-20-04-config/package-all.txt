@@ -2011,3 +2011,4 @@ flexml
 freetds-bin
 faad
 fswebcam
+foomatic-filters

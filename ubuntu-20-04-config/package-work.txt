@@ -1335,3 +1335,4 @@ exfat-fuse
 freetds-bin
 faad
 fswebcam
+foomatic-filters

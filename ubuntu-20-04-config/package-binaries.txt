@@ -4178,3 +4178,4 @@
 /usr/bin/tsql
 /usr/bin/faad
 /usr/bin/fswebcam
+/usr/bin/foomatic-rip
