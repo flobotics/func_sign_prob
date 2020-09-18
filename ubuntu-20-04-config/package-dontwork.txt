@@ -694,3 +694,14 @@ ftp.app
 umview-mod-umfuseext2
 fltk1.1-games
 free42-nologo
+fcitx-frontend-gtk3
+fcitx-ui-classic
+fcitx-table
+fcitx-module-x11
+fcitx-pinyin
+fcitx-module-lua
+fcitx-modules
+fcitx-qw
+fcitx-module-dbus
+fcitx-module-kimpanel
+fcitx-frontend-gtk2

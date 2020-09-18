@@ -4257,3 +4257,10 @@
 /usr/bin/fcitx
 /usr/bin/fcitx-dbus-watcher
 /usr/bin/fcitx-remote
+/usr/bin/createPYMB
+/usr/bin/mb2org
+/usr/bin/mb2txt
+/usr/bin/readPYBase
+/usr/bin/readPYMB
+/usr/bin/scel2org
+/usr/bin/txt2mb

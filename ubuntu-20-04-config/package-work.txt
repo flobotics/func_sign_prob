@@ -1380,3 +1380,4 @@ fbreader
 fcrackzip
 fpart
 fcitx-bin
+fcitx-tools
