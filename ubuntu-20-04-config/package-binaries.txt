@@ -4325,3 +4325,4 @@
 /usr/sbin/farpd
 /usr/bin/fcitx-qimpanel
 /usr/bin/fcitx-qimpanel-configtool
+/usr/bin/fspanel

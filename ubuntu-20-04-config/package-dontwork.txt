@@ -734,3 +734,4 @@ freeciv-client-qt
 freeciv-server
 freeciv-client-sdl
 freeciv-client-extras
+r-cran-foptions

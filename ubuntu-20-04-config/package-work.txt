@@ -1425,3 +1425,4 @@ facter
 fxt-tools
 farpd
 fcitx-ui-qimpanel
+fspanel

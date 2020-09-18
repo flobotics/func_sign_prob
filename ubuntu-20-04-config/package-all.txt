@@ -2164,3 +2164,5 @@ freeciv-client-extras
 fxt-tools
 farpd
 fcitx-ui-qimpanel
+r-cran-foptions
+fspanel
