@@ -3781,3 +3781,4 @@
 /usr/bin/osmo-gbproxy
 /usr/bin/owncloud
 /usr/bin/owncloudcmd
+/usr/bin/osmo-mgw

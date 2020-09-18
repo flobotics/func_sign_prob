@@ -1886,3 +1886,8 @@ opendrim-lmp-dhcp
 octave-level-set
 owncloud-client
 owncloud-client-cmd
+dolphin-owncloud
+opendrim-lmp-baseserver
+octave-interval
+osmo-bsc-mgcp
+osmo-mgw

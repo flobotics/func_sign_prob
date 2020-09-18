@@ -1267,3 +1267,5 @@ osmo-gtphub
 osmo-gbproxy
 owncloud-client
 owncloud-client-cmd
+osmo-bsc-mgcp
+osmo-mgw

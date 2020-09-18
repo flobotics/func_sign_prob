@@ -614,3 +614,6 @@ octave-dicom
 opendrim-lmp-boot
 opendrim-lmp-dhcp
 octave-level-set
+dolphin-owncloud
+opendrim-lmp-baseserver
+octave-interval
