@@ -2094,3 +2094,4 @@ fcitx-tools
 python3-fastchunking
 fzy
 foxtrotgps
+fim

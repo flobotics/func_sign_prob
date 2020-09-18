@@ -1383,3 +1383,4 @@ fcitx-bin
 fcitx-tools
 fzy
 foxtrotgps
+fim

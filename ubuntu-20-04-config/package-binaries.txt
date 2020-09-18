@@ -4266,3 +4266,4 @@
 /usr/bin/txt2mb
 /usr/bin/fzy
 /usr/bin/foxtrotgps
+/usr/bin/fim
