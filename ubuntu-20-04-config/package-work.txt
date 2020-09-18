@@ -1377,3 +1377,4 @@ fdclock
 fortune-mod
 forensics-colorize
 fbreader
+fcrackzip

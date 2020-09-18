@@ -4251,3 +4251,5 @@
 /usr/bin/colorize
 /usr/bin/filecompare
 /usr/bin/FBReader
+/usr/bin/fcrackzip
+/usr/bin/fcrackzipinfo
