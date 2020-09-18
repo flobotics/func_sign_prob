@@ -3784,3 +3784,4 @@
 /usr/bin/osmo-mgw
 /usr/bin/dune
 /usr/bin/oomd
+/usr/bin/otpw-gen
