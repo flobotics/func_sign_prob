@@ -1307,3 +1307,4 @@ ocaml-obuild
 openexr-viewers
 oregano
 otf2bdf
+opencc

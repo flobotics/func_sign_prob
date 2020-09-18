@@ -639,3 +639,9 @@ ssh-askpass-gnome
 openssh-tests
 openttd
 octave-sparsersb
+octave-struct
+overgod
+okteta-dev
+octave-stk
+octave-video
+openssn

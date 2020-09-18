@@ -4082,3 +4082,6 @@
 /usr/bin/microtests
 /usr/bin/oregano
 /usr/bin/otf2bdf
+/usr/bin/opencc
+/usr/bin/opencc_dict
+/usr/bin/opencc_phrase_extract

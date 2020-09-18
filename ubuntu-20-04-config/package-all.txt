@@ -1951,3 +1951,10 @@ octave-sparsersb
 openexr-viewers
 oregano
 otf2bdf
+octave-struct
+overgod
+okteta-dev
+octave-stk
+octave-video
+openssn
+opencc
