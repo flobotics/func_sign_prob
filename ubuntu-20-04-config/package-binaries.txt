@@ -3772,3 +3772,7 @@
 /usr/sbin/fms
 /usr/sbin/fstrace
 /usr/sbin/rmtsysd
+/usr/bin/aklog
+/usr/bin/klog.krb5
+/usr/sbin/akeyconvert
+/usr/sbin/asetkey

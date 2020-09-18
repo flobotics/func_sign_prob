@@ -1878,3 +1878,4 @@ openafs-fileserver
 openafs-fuse
 openafs-dbserver
 openafs-client
+openafs-krb5
