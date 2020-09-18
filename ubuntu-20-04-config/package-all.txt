@@ -2139,3 +2139,4 @@ fstl
 ferret-vis
 fwupd-tests
 floatbg
+feh
