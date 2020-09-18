@@ -1394,3 +1394,4 @@ frogr
 fitsverify
 ftpgrab
 fuse-zip
+ffproxy

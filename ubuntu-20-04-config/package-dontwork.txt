@@ -712,3 +712,4 @@ fqterm
 ftools-pow
 freesweep
 python3-fife
+freeorion

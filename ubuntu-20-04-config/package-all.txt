@@ -2111,3 +2111,5 @@ freesweep
 ftpgrab
 python3-fife
 fuse-zip
+freeorion
+ffproxy

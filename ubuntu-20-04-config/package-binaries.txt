@@ -4277,3 +4277,4 @@
 /usr/bin/fitsverify
 /usr/bin/ftpgrab
 /usr/bin/fuse-zip
+/usr/bin/ffproxy
