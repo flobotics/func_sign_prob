@@ -3791,3 +3791,5 @@
 /usr/sbin/ocserv
 /usr/bin/oasis
 /usr/bin/osmo-trx-uhd
+/usr/bin/oddjob_request
+/usr/sbin/oddjobd

@@ -619,3 +619,4 @@ opendrim-lmp-baseserver
 octave-interval
 ogmrip-video-copy
 opendrim-lmp-cpu
+openvpn-auth-ldap
