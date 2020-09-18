@@ -2135,3 +2135,4 @@ fatrace
 fldigi
 python3-fpylll
 fullquottel
+fstl

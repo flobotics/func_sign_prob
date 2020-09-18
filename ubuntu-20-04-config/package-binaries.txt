@@ -4298,3 +4298,4 @@
 /usr/bin/flarq
 /usr/bin/fldigi
 /usr/bin/fullquottel
+/usr/bin/fstl
