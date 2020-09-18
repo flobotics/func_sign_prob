@@ -672,3 +672,4 @@ fcitx-kkc
 frameworkintegration
 flexml
 four-in-a-row
+tcl-funtools

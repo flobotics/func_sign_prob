@@ -2018,3 +2018,5 @@ fence-agents
 fcml
 fitscut
 fotoxx
+tcl-funtools
+fml-asm
