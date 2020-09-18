@@ -1699,3 +1699,6 @@ opensta
 openmolcas
 obitools
 ocsinventory-agent
+slapd-contrib
+octave-gsl
+oar-common

@@ -3036,3 +3036,4 @@
 /usr/bin/sgsnemu
 /usr/bin/otags
 /usr/bin/ipdiscover
+/usr/bin/oarsh

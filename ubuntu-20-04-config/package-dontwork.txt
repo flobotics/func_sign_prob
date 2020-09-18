@@ -541,3 +541,5 @@ opendrim-lmp-softwareupdate
 oss-preserve
 openmolcas
 obitools
+slapd-contrib
+octave-gsl

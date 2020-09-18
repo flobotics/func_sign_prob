@@ -1155,3 +1155,4 @@ ogre-1.9-tools
 otags
 opensta
 ocsinventory-agent
+oar-common
