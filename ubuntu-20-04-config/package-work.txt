@@ -1370,3 +1370,4 @@ fplll-tools
 ftpcopy
 fuseext2
 fossil
+ffdiaporama

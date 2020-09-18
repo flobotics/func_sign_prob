@@ -4241,3 +4241,4 @@
 /usr/bin/ftpls
 /usr/bin/fuse-ext2
 /usr/bin/fossil
+/usr/bin/ffDiaporama

@@ -2067,3 +2067,4 @@ ftp.app
 fuseext2
 umview-mod-umfuseext2
 fossil
+ffdiaporama
