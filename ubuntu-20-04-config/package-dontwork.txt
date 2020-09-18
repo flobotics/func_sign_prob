@@ -556,3 +556,4 @@ ruby-obexftp
 octave-miscellaneous
 ostree-tests
 ostree-boot
+octave-parallel
