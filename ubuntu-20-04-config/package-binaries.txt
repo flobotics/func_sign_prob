@@ -3705,3 +3705,4 @@
 /usr/bin/exrmakepreview
 /usr/bin/exrmaketiled
 /usr/bin/exrstdattr
+/usr/bin/openfortivpn

@@ -604,3 +604,6 @@ qml-module-org-kde-okular
 octave-control
 osptoolkit
 oneko
+python3-openturns
+orthanc-mysql
+opendrim-lmp-simpleidentitymanagement
