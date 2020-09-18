@@ -4179,3 +4179,7 @@
 /usr/bin/faad
 /usr/bin/fswebcam
 /usr/bin/foomatic-rip
+/usr/bin/fcomp
+/usr/bin/fhist
+/usr/bin/fmerge
+/usr/sbin/fence_kdump

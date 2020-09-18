@@ -1336,3 +1336,5 @@ freetds-bin
 faad
 fswebcam
 foomatic-filters
+fhist
+fence-agents

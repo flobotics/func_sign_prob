@@ -671,3 +671,4 @@ fcitx-module-fullwidthchar-enhance
 fcitx-kkc
 frameworkintegration
 flexml
+four-in-a-row

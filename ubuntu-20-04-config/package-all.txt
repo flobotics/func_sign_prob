@@ -2012,3 +2012,6 @@ freetds-bin
 faad
 fswebcam
 foomatic-filters
+fhist
+four-in-a-row
+fence-agents
