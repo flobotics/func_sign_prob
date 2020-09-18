@@ -4326,3 +4326,5 @@
 /usr/bin/fcitx-qimpanel
 /usr/bin/fcitx-qimpanel-configtool
 /usr/bin/fspanel
+/usr/lib/freecad/bin/freecad-python3
+/usr/lib/freecad/bin/freecadcmd-python3

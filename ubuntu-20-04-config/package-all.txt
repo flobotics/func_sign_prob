@@ -2166,3 +2166,5 @@ farpd
 fcitx-ui-qimpanel
 r-cran-foptions
 fspanel
+frotz
+freecad-python3

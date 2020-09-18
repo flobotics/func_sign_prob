@@ -1426,3 +1426,4 @@ fxt-tools
 farpd
 fcitx-ui-qimpanel
 fspanel
+freecad-python3
