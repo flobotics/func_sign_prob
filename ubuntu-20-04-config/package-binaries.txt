@@ -3824,3 +3824,5 @@
 /usr/bin/osmconvert
 /usr/bin/osmfilter
 /usr/bin/osmupdate
+/usr/bin/oclgrind
+/usr/bin/oclgrind-kernel
