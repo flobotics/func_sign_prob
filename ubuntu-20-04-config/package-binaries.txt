@@ -3811,3 +3811,4 @@
 /usr/bin/hbr_regression
 /usr/bin/osd_regression
 /usr/bin/stringify
+/usr/bin/oxref
