@@ -3559,3 +3559,8 @@
 /usr/bin/obex-folder-listing
 /usr/bin/obexpush_atd
 /usr/bin/obexpushd
+/usr/bin/osdctl
+/usr/bin/osdsh
+/usr/bin/scp1
+/usr/bin/ssh-keygen1
+/usr/bin/ssh1

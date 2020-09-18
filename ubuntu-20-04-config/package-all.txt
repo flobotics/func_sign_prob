@@ -1782,3 +1782,5 @@ openfoam
 obs-studio
 python3-openvdb
 obexpushd
+osdsh
+openssh-client-ssh1
