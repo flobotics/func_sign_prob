@@ -1386,3 +1386,4 @@ foxtrotgps
 fim
 fapg
 fcitx-imlist
+fbcat

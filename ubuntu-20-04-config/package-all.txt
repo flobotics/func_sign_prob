@@ -2098,3 +2098,4 @@ fim
 fcitx-libpinyin
 fapg
 fcitx-imlist
+fbcat

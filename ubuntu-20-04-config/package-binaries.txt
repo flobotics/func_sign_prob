@@ -4269,3 +4269,4 @@
 /usr/bin/fim
 /usr/bin/fapg
 /usr/bin/fcitx-imlist
+/usr/bin/fbcat
