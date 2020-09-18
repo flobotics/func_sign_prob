@@ -1882,3 +1882,6 @@ openafs-krb5
 osmo-sgsn
 osmo-gtphub
 osmo-gbproxy
+opendrim-lmp-dhcp
+octave-level-set
+owncloud-client
