@@ -4183,3 +4183,5 @@
 /usr/bin/fhist
 /usr/bin/fmerge
 /usr/sbin/fence_kdump
+/usr/bin/fcml-asm
+/usr/bin/fcml-disasm
