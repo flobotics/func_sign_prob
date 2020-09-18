@@ -566,3 +566,5 @@ opendrim-lmp-physicalasset
 osmo-libasn1c1
 python3-odb-api
 octave-octproj
+octave-instrument-control
+opendrim-lmp-ip

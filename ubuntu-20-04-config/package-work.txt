@@ -1194,3 +1194,5 @@ openal-info
 makehrtf
 olive-editor
 openclonk
+ogmtools
+osmo-hlr

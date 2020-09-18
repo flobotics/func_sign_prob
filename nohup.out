@@ -5071,3 +5071,35 @@ Real binaries:['/usr/bin/c4group']
 Write to package-work.txt file: openclonk
 Write to package-binaries.txt file: ['/usr/bin/c4group']
 ['/usr/bin/c4group']
+Write pickle file
+tar_out:
+Package-nr:1575 of 11000, Name:octave-instrument-control-dbgsym
+Package >octave-instrument-control< not in package-all.txt file
+Write to package-all.txt file: octave-instrument-control
+In package >octave-instrument-control< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: octave-instrument-control
+[]
+Package-nr:1576 of 11000, Name:opendrim-lmp-ip-dbgsym
+Package >opendrim-lmp-ip< not in package-all.txt file
+Write to package-all.txt file: opendrim-lmp-ip
+In package >opendrim-lmp-ip< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: opendrim-lmp-ip
+[]
+Package-nr:1577 of 11000, Name:ogmtools-dbgsym
+Package >ogmtools< not in package-all.txt file
+Write to package-all.txt file: ogmtools
+In package >ogmtools< are these binaries: ['/usr/bin/dvdxchap', '/usr/bin/ogmcat', '/usr/bin/ogmdemux', '/usr/bin/ogminfo', '/usr/bin/ogmmerge', '/usr/bin/ogmsplit']
+Real binaries:['/usr/bin/dvdxchap', '/usr/bin/ogmcat', '/usr/bin/ogmdemux', '/usr/bin/ogminfo', '/usr/bin/ogmmerge', '/usr/bin/ogmsplit']
+Write to package-work.txt file: ogmtools
+Write to package-binaries.txt file: ['/usr/bin/dvdxchap', '/usr/bin/ogmcat', '/usr/bin/ogmdemux', '/usr/bin/ogminfo', '/usr/bin/ogmmerge', '/usr/bin/ogmsplit']
+['/usr/bin/dvdxchap', '/usr/bin/ogmcat', '/usr/bin/ogmdemux', '/usr/bin/ogminfo', '/usr/bin/ogmmerge', '/usr/bin/ogmsplit']
+Package-nr:1578 of 11000, Name:osmo-hlr-dbgsym
+Package >osmo-hlr< not in package-all.txt file
+Write to package-all.txt file: osmo-hlr
+In package >osmo-hlr< are these binaries: ['/usr/bin/osmo-hlr', '/usr/bin/osmo-hlr-db-tool']
+Real binaries:['/usr/bin/osmo-hlr', '/usr/bin/osmo-hlr-db-tool']
+Write to package-work.txt file: osmo-hlr
+Write to package-binaries.txt file: ['/usr/bin/osmo-hlr', '/usr/bin/osmo-hlr-db-tool']
+['/usr/bin/osmo-hlr', '/usr/bin/osmo-hlr-db-tool']

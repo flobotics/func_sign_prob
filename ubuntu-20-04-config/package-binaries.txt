@@ -3274,3 +3274,11 @@
 /usr/bin/makehrtf
 /usr/bin/olive-editor
 /usr/bin/c4group
+/usr/bin/dvdxchap
+/usr/bin/ogmcat
+/usr/bin/ogmdemux
+/usr/bin/ogminfo
+/usr/bin/ogmmerge
+/usr/bin/ogmsplit
+/usr/bin/osmo-hlr
+/usr/bin/osmo-hlr-db-tool

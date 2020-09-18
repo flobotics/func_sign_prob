@@ -1764,3 +1764,7 @@ openal-info
 makehrtf
 olive-editor
 openclonk
+octave-instrument-control
+opendrim-lmp-ip
+ogmtools
+osmo-hlr
