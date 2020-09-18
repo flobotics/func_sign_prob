@@ -621,3 +621,5 @@ ogmrip-video-copy
 opendrim-lmp-cpu
 openvpn-auth-ldap
 oddjob-mkhomedir
+openarena
+openarena-server

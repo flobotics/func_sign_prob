@@ -3794,3 +3794,6 @@
 /usr/bin/oddjob_request
 /usr/sbin/oddjobd
 /usr/bin/meas_json
+/usr/bin/AppCSXCAD
+/usr/bin/nf2ff
+/usr/bin/openEMS
