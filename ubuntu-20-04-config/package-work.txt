@@ -1411,3 +1411,4 @@ fatrace
 fldigi
 fullquottel
 fstl
+ferret-vis
