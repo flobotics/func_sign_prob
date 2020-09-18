@@ -3064,3 +3064,5 @@
 /sbin/iscsiuio
 /usr/bin/onedrive
 /usr/bin/otbApplicationLauncherCommandLine
+/usr/bin/mapla
+/usr/bin/monteverdi

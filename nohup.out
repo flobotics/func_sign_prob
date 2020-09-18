@@ -4713,3 +4713,13 @@ Real binaries:['/usr/bin/otbApplicationLauncherCommandLine']
 Write to package-work.txt file: otb-bin
 Write to package-binaries.txt file: ['/usr/bin/otbApplicationLauncherCommandLine']
 ['/usr/bin/otbApplicationLauncherCommandLine']
+Write pickle file
+tar_out:
+Package-nr:1532 of 11000, Name:monteverdi-dbgsym
+Package >monteverdi< not in package-all.txt file
+Write to package-all.txt file: monteverdi
+In package >monteverdi< are these binaries: ['/usr/bin/mapla', '/usr/bin/monteverdi']
+Real binaries:['/usr/bin/mapla', '/usr/bin/monteverdi']
+Write to package-work.txt file: monteverdi
+Write to package-binaries.txt file: ['/usr/bin/mapla', '/usr/bin/monteverdi']
+['/usr/bin/mapla', '/usr/bin/monteverdi']
