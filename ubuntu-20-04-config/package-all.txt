@@ -1725,3 +1725,4 @@ onedrive
 octave-signal
 otb-bin
 monteverdi
+otb-qgis

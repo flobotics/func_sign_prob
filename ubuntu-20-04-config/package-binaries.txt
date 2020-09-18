@@ -3066,3 +3066,4 @@
 /usr/bin/otbApplicationLauncherCommandLine
 /usr/bin/mapla
 /usr/bin/monteverdi
+/usr/bin/otbQgisDescriptor

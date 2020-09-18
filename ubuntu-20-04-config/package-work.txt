@@ -1170,3 +1170,4 @@ iscsiuio
 onedrive
 otb-bin
 monteverdi
+otb-qgis
