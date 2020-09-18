@@ -1760,3 +1760,4 @@ python3-odb-api
 octave-octproj
 openmpi-bin
 ogmrip
+openal-info

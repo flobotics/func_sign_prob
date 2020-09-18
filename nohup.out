@@ -5031,3 +5031,13 @@ Real binaries:['/usr/bin/avibox', '/usr/bin/dvdcpy', '/usr/bin/ogmrip', '/usr/bi
 Write to package-work.txt file: ogmrip
 Write to package-binaries.txt file: ['/usr/bin/avibox', '/usr/bin/dvdcpy', '/usr/bin/ogmrip', '/usr/bin/subp2pgm', '/usr/bin/subptools', '/usr/bin/theoraenc']
 ['/usr/bin/avibox', '/usr/bin/dvdcpy', '/usr/bin/ogmrip', '/usr/bin/subp2pgm', '/usr/bin/subptools', '/usr/bin/theoraenc']
+Write pickle file
+tar_out:
+Package-nr:1571 of 11000, Name:openal-info-dbgsym
+Package >openal-info< not in package-all.txt file
+Write to package-all.txt file: openal-info
+In package >openal-info< are these binaries: ['/usr/bin/openal-info']
+Real binaries:['/usr/bin/openal-info']
+Write to package-work.txt file: openal-info
+Write to package-binaries.txt file: ['/usr/bin/openal-info']
+['/usr/bin/openal-info']

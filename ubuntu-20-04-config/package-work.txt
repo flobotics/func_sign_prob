@@ -1190,3 +1190,4 @@ openvas-nasl
 oggfwd
 openmpi-bin
 ogmrip
+openal-info
