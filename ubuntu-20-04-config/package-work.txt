@@ -1432,3 +1432,4 @@ fritzing
 fuse3
 flac
 flexbar
+fped

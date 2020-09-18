@@ -4337,3 +4337,4 @@
 /usr/bin/flac
 /usr/bin/metaflac
 /usr/bin/flexbar
+/usr/bin/fped

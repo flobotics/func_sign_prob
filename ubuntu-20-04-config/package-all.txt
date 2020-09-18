@@ -2175,3 +2175,4 @@ flac
 fcitx-sayura
 r-cran-fgarch
 flexbar
+fped
