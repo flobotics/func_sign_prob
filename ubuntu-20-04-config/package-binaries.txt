@@ -3272,3 +3272,4 @@
 /usr/bin/theoraenc
 /usr/bin/openal-info
 /usr/bin/makehrtf
+/usr/bin/olive-editor

@@ -1762,3 +1762,4 @@ openmpi-bin
 ogmrip
 openal-info
 makehrtf
+olive-editor
