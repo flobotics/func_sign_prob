@@ -3293,3 +3293,9 @@
 /usr/sbin/opaxmlfilter
 /usr/sbin/opaxmlgenerate
 /usr/sbin/opaxmlindent
+/usr/sbin/opainfo
+/usr/sbin/opapacketcapture
+/usr/sbin/opaportinfo
+/usr/sbin/oparesolvehfiport
+/usr/sbin/opasaquery
+/usr/sbin/opasmaquery
