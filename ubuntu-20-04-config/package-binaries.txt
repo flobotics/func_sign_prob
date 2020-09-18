@@ -4176,3 +4176,4 @@
 /usr/bin/freebcp
 /usr/bin/tdspool
 /usr/bin/tsql
+/usr/bin/faad
