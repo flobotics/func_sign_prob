@@ -1799,3 +1799,6 @@ opencaster
 octave-vibes
 oaklisp
 orville-write
+opendrim-lmp-powermanagement
+openorienteering-mapper
+openvas-manager

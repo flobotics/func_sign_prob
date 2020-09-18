@@ -3642,3 +3642,5 @@
 /usr/bin/huh
 /usr/bin/mesg
 /usr/bin/orville-write
+/usr/bin/Mapper
+/usr/sbin/openvasmd-sqlite

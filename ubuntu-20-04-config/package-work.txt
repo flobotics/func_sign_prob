@@ -1215,3 +1215,5 @@ osdlyrics
 opus-tools
 opencaster
 orville-write
+openorienteering-mapper
+openvas-manager
