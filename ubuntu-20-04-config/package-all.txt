@@ -1730,3 +1730,4 @@ otb-bin-qt
 otb-testdriver
 python3-pyopencolorio
 opencolorio-tools
+osmium-tool

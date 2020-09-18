@@ -3073,3 +3073,4 @@
 /usr/bin/ociocheck
 /usr/bin/ocioconvert
 /usr/bin/ociolutimage
+/usr/bin/osmium

@@ -4770,3 +4770,13 @@ Real binaries:['/usr/bin/ociobakelut', '/usr/bin/ociocheck', '/usr/bin/ocioconve
 Write to package-work.txt file: opencolorio-tools
 Write to package-binaries.txt file: ['/usr/bin/ociobakelut', '/usr/bin/ociocheck', '/usr/bin/ocioconvert', '/usr/bin/ociolutimage']
 ['/usr/bin/ociobakelut', '/usr/bin/ociocheck', '/usr/bin/ocioconvert', '/usr/bin/ociolutimage']
+Write pickle file
+tar_out:
+Package-nr:1538 of 11000, Name:osmium-tool-dbgsym
+Package >osmium-tool< not in package-all.txt file
+Write to package-all.txt file: osmium-tool
+In package >osmium-tool< are these binaries: ['/usr/bin/osmium']
+Real binaries:['/usr/bin/osmium']
+Write to package-work.txt file: osmium-tool
+Write to package-binaries.txt file: ['/usr/bin/osmium']
+['/usr/bin/osmium']
