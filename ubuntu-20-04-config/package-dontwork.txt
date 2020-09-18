@@ -570,3 +570,4 @@ octave-instrument-control
 opendrim-lmp-ip
 ogamesim
 orthanc-postgresql
+python3-opencv

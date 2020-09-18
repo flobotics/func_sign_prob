@@ -1774,3 +1774,5 @@ orthanc-postgresql
 opa-fastfabric
 opa-basic-tools
 opa-address-resolution
+python3-opencv
+openbox-menu

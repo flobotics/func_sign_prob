@@ -1200,3 +1200,4 @@ olpc-powerd
 opa-fastfabric
 opa-basic-tools
 opa-address-resolution
+openbox-menu
