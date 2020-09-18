@@ -4075,3 +4075,4 @@
 /usr/bin/ossim-tool-server
 /usr/bin/ossim-viirs-proc
 /usr/bin/ossim-ws-cmp
+/usr/bin/odt2txt.odt2txt

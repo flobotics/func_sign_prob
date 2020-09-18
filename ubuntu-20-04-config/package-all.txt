@@ -1944,3 +1944,5 @@ openni-utils
 ssh-askpass-gnome
 openssh-tests
 ossim-core
+openttd
+odt2txt
