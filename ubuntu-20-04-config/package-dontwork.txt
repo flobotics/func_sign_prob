@@ -709,3 +709,5 @@ python3-fastchunking
 fcitx-libpinyin
 r-cran-fasianoptions
 fqterm
+ftools-pow
+freesweep

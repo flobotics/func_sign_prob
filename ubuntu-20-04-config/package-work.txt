@@ -1392,3 +1392,4 @@ faultstat
 fldiff
 frogr
 fitsverify
+ftpgrab

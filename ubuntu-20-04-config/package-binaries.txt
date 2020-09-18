@@ -4275,3 +4275,4 @@
 /usr/bin/fldiff
 /usr/bin/frogr
 /usr/bin/fitsverify
+/usr/bin/ftpgrab

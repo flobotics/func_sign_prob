@@ -2106,3 +2106,6 @@ fldiff
 fqterm
 frogr
 fitsverify
+ftools-pow
+freesweep
+ftpgrab
