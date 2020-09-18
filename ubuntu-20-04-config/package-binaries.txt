@@ -3062,3 +3062,4 @@
 /usr/sbin/oidentd
 /usr/bin/opari2
 /sbin/iscsiuio
+/usr/bin/onedrive
