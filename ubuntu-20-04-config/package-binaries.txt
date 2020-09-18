@@ -4250,3 +4250,4 @@
 /usr/bin/unstr
 /usr/bin/colorize
 /usr/bin/filecompare
+/usr/bin/FBReader
