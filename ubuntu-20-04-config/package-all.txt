@@ -1714,3 +1714,5 @@ owx
 omniidl
 omniorb
 omniorb-nameserver
+octave-general
+oidentd
