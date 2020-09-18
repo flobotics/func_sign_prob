@@ -4097,3 +4097,7 @@
 /usr/bin/globaltime
 /usr/bin/orage
 /usr/bin/tz_convert
+/usr/bin/osmcoastline
+/usr/bin/osmcoastline_filter
+/usr/bin/osmcoastline_segments
+/usr/bin/osmcoastline_ways

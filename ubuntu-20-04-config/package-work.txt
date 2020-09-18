@@ -1312,3 +1312,4 @@ ocamlbuild
 openslide-tools
 omnievents
 orage
+osmcoastline
