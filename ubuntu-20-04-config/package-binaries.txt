@@ -4177,3 +4177,4 @@
 /usr/bin/tdspool
 /usr/bin/tsql
 /usr/bin/faad
+/usr/bin/fswebcam

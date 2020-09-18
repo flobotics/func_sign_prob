@@ -2010,3 +2010,4 @@ exfat-fuse
 flexml
 freetds-bin
 faad
+fswebcam
