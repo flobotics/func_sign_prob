@@ -4253,3 +4253,4 @@
 /usr/bin/FBReader
 /usr/bin/fcrackzip
 /usr/bin/fcrackzipinfo
+/usr/bin/fpart
