@@ -3789,3 +3789,5 @@
 /usr/bin/occtl
 /usr/bin/ocpasswd
 /usr/sbin/ocserv
+/usr/bin/oasis
+/usr/bin/osmo-trx-uhd

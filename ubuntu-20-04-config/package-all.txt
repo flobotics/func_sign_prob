@@ -1898,3 +1898,5 @@ oomd
 otpw-bin
 oscar
 ocserv
+oasis
+osmo-trx
