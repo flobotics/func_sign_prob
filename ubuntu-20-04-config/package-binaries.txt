@@ -4289,3 +4289,4 @@
 /usr/sbin/famd
 /usr/bin/fcitx-fbterm
 /usr/sbin/flashrom
+/usr/bin/fbxkb

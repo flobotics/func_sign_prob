@@ -1402,3 +1402,4 @@ filetea
 fam
 fcitx-frontend-fbterm
 flashrom
+fbxkb
