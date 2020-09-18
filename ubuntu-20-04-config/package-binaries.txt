@@ -3680,3 +3680,10 @@
 /usr/bin/micalc
 /usr/bin/miconv
 /usr/bin/miview
+/usr/bin/miltertest
+/usr/bin/opendkim-atpszone
+/usr/bin/opendkim-genzone
+/usr/bin/opendkim-spam
+/usr/bin/opendkim-stats
+/usr/bin/opendkim-testkey
+/usr/bin/opendkim-testmsg
