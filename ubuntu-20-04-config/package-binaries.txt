@@ -4145,3 +4145,4 @@
 /usr/bin/fracplanet
 /usr/bin/bamleftalign
 /usr/bin/freebayes
+/usr/bin/feedreader

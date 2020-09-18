@@ -1999,3 +1999,4 @@ freeradius-python3
 r-cran-funitroots
 fcitx-module-fullwidthchar-enhance
 freebayes
+feedreader
