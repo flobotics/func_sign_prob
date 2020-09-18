@@ -3820,3 +3820,7 @@
 /usr/bin/empty-dmk
 /usr/bin/svi2dmk
 /usr/bin/svicpm2dmk
+/usr/bin/opam-installer
+/usr/bin/osmconvert
+/usr/bin/osmfilter
+/usr/bin/osmupdate

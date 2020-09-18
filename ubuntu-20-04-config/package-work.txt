@@ -1288,3 +1288,5 @@ opensubdiv-tools
 oxref
 opendmarc
 dmktools
+opam-installer
+osmctools

@@ -1919,3 +1919,5 @@ oxref
 octave-fits
 opendmarc
 dmktools
+opam-installer
+osmctools
