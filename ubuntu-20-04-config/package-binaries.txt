@@ -3084,3 +3084,6 @@
 /usr/bin/osmo-nitb
 /usr/bin/bs11_config
 /usr/bin/isdnsync
+/usr/bin/abisip-find
+/usr/bin/ipaccess-config
+/usr/bin/ipaccess-proxy
