@@ -4101,3 +4101,5 @@
 /usr/bin/osmcoastline_filter
 /usr/bin/osmcoastline_segments
 /usr/bin/osmcoastline_ways
+/usr/bin/check_omp
+/usr/bin/omp

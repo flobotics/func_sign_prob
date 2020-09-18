@@ -1313,3 +1313,4 @@ openslide-tools
 omnievents
 orage
 osmcoastline
+openvas-cli
