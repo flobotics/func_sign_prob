@@ -2060,3 +2060,4 @@ fdutils
 fuse-emulator-gtk
 fuse-emulator-sdl
 fspy
+flwrap
