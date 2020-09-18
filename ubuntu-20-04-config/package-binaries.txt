@@ -4167,3 +4167,4 @@
 /usr/bin/grmatch
 /usr/bin/grtrans
 /usr/bin/lfit
+/sbin/mount.exfat-fuse

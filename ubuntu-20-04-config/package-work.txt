@@ -1331,3 +1331,4 @@ firejail
 filezilla
 fastdnaml
 fitsh
+exfat-fuse
