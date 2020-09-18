@@ -3053,3 +3053,8 @@
 /usr/sbin/pkcsslotd
 /usr/sbin/owx
 /usr/bin/omnicpp
+/usr/bin/catior
+/usr/bin/convertior
+/usr/bin/genior
+/usr/bin/nameclt
+/usr/bin/omniMapper
