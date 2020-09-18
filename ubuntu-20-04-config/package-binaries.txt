@@ -4297,3 +4297,4 @@
 /usr/sbin/fatrace
 /usr/bin/flarq
 /usr/bin/fldigi
+/usr/bin/fullquottel

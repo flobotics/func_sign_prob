@@ -2133,3 +2133,5 @@ fluidsynth
 python3-fast-histogram
 fatrace
 fldigi
+python3-fpylll
+fullquottel
