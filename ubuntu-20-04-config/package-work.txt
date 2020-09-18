@@ -1306,3 +1306,4 @@ odt2txt
 ocaml-obuild
 openexr-viewers
 oregano
+otf2bdf

@@ -4081,3 +4081,4 @@
 /usr/bin/exrdisplay
 /usr/bin/microtests
 /usr/bin/oregano
+/usr/bin/otf2bdf

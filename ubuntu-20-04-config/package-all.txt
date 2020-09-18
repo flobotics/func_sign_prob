@@ -1950,3 +1950,4 @@ ocaml-obuild
 octave-sparsersb
 openexr-viewers
 oregano
+otf2bdf
