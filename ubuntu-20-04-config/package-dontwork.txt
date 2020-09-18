@@ -611,3 +611,4 @@ octave-image-acquisition
 opendrim-lmp-sensors
 octave-quaternion
 octave-dicom
+opendrim-lmp-boot

@@ -3733,3 +3733,12 @@
 /usr/bin/drone
 /usr/bin/ostinato
 /usr/sbin/olpc-kbdshim-udev
+/usr/sbin/bos_util
+/usr/sbin/bosserver
+/usr/sbin/dafssync-debug
+/usr/sbin/fssync-debug
+/usr/sbin/salvsync-debug
+/usr/sbin/state_analyzer
+/usr/sbin/voldump
+/usr/sbin/volinfo
+/usr/sbin/volscan

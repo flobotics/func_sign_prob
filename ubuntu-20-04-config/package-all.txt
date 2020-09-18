@@ -1873,3 +1873,5 @@ octave-quaternion
 octave-dicom
 ostinato
 olpc-kbdshim
+opendrim-lmp-boot
+openafs-fileserver
