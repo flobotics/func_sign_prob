@@ -1232,3 +1232,4 @@ ow-shell
 owhttpd
 openscad
 ophcrack-cli
+odin

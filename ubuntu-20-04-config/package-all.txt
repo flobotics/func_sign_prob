@@ -1828,3 +1828,4 @@ openscad
 osmo-hnbgw
 octave-nan
 ophcrack-cli
+odin
