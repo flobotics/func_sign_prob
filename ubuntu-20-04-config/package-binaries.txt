@@ -3028,3 +3028,7 @@
 /usr/bin/osmo-bts-omldummy
 /usr/bin/osmo-bts-trx
 /usr/bin/osmo-bts-virtual
+/usr/bin/fl2k_file
+/usr/bin/fl2k_fm
+/usr/bin/fl2k_tcp
+/usr/bin/fl2k_test

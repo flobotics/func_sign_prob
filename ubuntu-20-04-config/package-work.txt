@@ -1149,3 +1149,4 @@ openvas-scanner
 ogdi-bin
 opencpn
 osmo-bts
+osmo-fl2k

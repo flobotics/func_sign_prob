@@ -1687,3 +1687,6 @@ openvas-scanner
 ogdi-bin
 opencpn
 osmo-bts
+octave-econometrics
+opendrim-lmp-softwareupdate
+osmo-fl2k

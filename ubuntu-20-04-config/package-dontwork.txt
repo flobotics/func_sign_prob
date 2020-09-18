@@ -536,3 +536,5 @@ python3-openbabel
 python3-openslide
 octave-strings
 octave-optim
+octave-econometrics
+opendrim-lmp-softwareupdate
