@@ -4865,3 +4865,13 @@ Real binaries:['/usr/bin/osmo-bsc_nat']
 Write to package-work.txt file: osmocom-bsc-nat
 Write to package-binaries.txt file: ['/usr/bin/osmo-bsc_nat']
 ['/usr/bin/osmo-bsc_nat']
+Write pickle file
+tar_out:
+Package-nr:1551 of 11000, Name:osmocom-nitb-dbgsym
+Package >osmocom-nitb< not in package-all.txt file
+Write to package-all.txt file: osmocom-nitb
+In package >osmocom-nitb< are these binaries: ['/usr/bin/osmo-nitb']
+Real binaries:['/usr/bin/osmo-nitb']
+Write to package-work.txt file: osmocom-nitb
+Write to package-binaries.txt file: ['/usr/bin/osmo-nitb']
+['/usr/bin/osmo-nitb']

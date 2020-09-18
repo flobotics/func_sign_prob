@@ -1740,3 +1740,4 @@ ostree-boot
 ocp-indent
 osmocom-bsc
 osmocom-bsc-nat
+osmocom-nitb

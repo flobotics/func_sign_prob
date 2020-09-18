@@ -3081,3 +3081,4 @@
 /usr/bin/osmo-bsc-sccplite
 /usr/bin/osmo-bsc_mgcp
 /usr/bin/osmo-bsc_nat
+/usr/bin/osmo-nitb
