@@ -596,3 +596,6 @@ opencity
 octave-zeromq
 octave-nurbs
 octave-image
+octave-sockets
+openvpn-auth-radius
+opendrim-lmp-softwareinventory

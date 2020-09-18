@@ -3694,3 +3694,4 @@
 /usr/bin/osm2pgsql
 /usr/sbin/dundee
 /usr/sbin/ofonod
+/usr/bin/ocrad

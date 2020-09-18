@@ -1841,3 +1841,7 @@ octave-nurbs
 octave-image
 osm2pgsql
 ofono
+octave-sockets
+openvpn-auth-radius
+opendrim-lmp-softwareinventory
+ocrad
