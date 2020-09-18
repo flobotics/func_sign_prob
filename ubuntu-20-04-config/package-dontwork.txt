@@ -571,3 +571,5 @@ opendrim-lmp-ip
 ogamesim
 orthanc-postgresql
 python3-opencv
+openpref
+openyahtzee

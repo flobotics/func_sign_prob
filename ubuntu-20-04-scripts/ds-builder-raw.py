@@ -15,7 +15,7 @@ base_path = "/home/ubuntu/git/func_sign_prob/"
 config_dir = "ubuntu-20-04-config/"
 pickles_dir = "ubuntu-20-04-pickles/"
 gcloud = True
-nr_of_cpus = 8
+nr_of_cpus = 48
 
 
 ### get a list with all packages with ending -dbgsym

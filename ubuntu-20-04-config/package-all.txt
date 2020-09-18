@@ -1776,3 +1776,7 @@ opa-basic-tools
 opa-address-resolution
 python3-opencv
 openbox-menu
+openpref
+openyahtzee
+openfoam
+obs-studio
