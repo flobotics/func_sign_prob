@@ -3717,3 +3717,15 @@
 /usr/bin/graph2tree
 /usr/bin/log2graph
 /usr/bin/octovis
+/usr/bin/osgearth_atlas
+/usr/bin/osgearth_boundarygen
+/usr/bin/osgearth_cache
+/usr/bin/osgearth_conv
+/usr/bin/osgearth_featureinfo
+/usr/bin/osgearth_overlayviewer
+/usr/bin/osgearth_package
+/usr/bin/osgearth_tfs
+/usr/bin/osgearth_tileindex
+/usr/bin/osgearth_toc
+/usr/bin/osgearth_version
+/usr/bin/osgearth_viewer

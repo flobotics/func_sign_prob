@@ -1865,3 +1865,4 @@ openbsd-inetd
 openmsx-debugger
 octomap-tools
 octovis
+osgearth
