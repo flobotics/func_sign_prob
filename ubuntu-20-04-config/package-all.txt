@@ -1823,3 +1823,4 @@ owserver
 owftpd
 owfs-fuse
 ow-shell
+owhttpd

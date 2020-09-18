@@ -3666,3 +3666,4 @@
 /usr/bin/owread
 /usr/bin/owusbprobe
 /usr/bin/owwrite
+/usr/bin/owhttpd
