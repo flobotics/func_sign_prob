@@ -4288,3 +4288,4 @@
 /usr/sbin/filetea
 /usr/sbin/famd
 /usr/bin/fcitx-fbterm
+/usr/sbin/flashrom

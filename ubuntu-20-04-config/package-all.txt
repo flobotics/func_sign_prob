@@ -2121,3 +2121,4 @@ fizmo-ncursesw
 filetea
 fam
 fcitx-frontend-fbterm
+flashrom
