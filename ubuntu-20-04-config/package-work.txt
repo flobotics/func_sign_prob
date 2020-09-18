@@ -1366,3 +1366,4 @@ fuse-emulator-gtk
 fuse-emulator-sdl
 fspy
 flwrap
+fplll-tools

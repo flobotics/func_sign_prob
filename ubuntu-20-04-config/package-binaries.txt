@@ -4234,3 +4234,6 @@
 /usr/bin/fuse-sdl
 /usr/bin/fspy
 /usr/bin/flwrap
+/usr/bin/fplll
+/usr/bin/latsieve
+/usr/bin/latticegen
