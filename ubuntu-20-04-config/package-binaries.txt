@@ -3777,3 +3777,4 @@
 /usr/sbin/akeyconvert
 /usr/sbin/asetkey
 /usr/bin/osmo-sgsn
+/usr/bin/osmo-gtphub

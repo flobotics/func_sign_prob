@@ -1263,3 +1263,4 @@ openafs-dbserver
 openafs-client
 openafs-krb5
 osmo-sgsn
+osmo-gtphub
