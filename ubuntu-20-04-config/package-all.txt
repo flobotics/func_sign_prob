@@ -1726,3 +1726,4 @@ octave-signal
 otb-bin
 monteverdi
 otb-qgis
+otb-bin-qt
