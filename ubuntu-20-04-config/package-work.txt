@@ -1256,3 +1256,4 @@ octovis
 osgearth
 osm2pgrouting
 ostinato
+olpc-kbdshim

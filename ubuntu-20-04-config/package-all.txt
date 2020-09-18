@@ -1872,3 +1872,4 @@ opendrim-lmp-sensors
 octave-quaternion
 octave-dicom
 ostinato
+olpc-kbdshim

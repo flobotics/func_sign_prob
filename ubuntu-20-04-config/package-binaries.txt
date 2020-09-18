@@ -3732,3 +3732,4 @@
 /usr/bin/osm2pgrouting
 /usr/bin/drone
 /usr/bin/ostinato
+/usr/sbin/olpc-kbdshim-udev
