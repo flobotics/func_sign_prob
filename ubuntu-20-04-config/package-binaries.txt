@@ -3742,3 +3742,4 @@
 /usr/sbin/voldump
 /usr/sbin/volinfo
 /usr/sbin/volscan
+/usr/sbin/afsd.fuse

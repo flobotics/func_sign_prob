@@ -1258,3 +1258,4 @@ osm2pgrouting
 ostinato
 olpc-kbdshim
 openafs-fileserver
+openafs-fuse
