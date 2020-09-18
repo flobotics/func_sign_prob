@@ -1245,3 +1245,4 @@ osslsigncode
 okular-mobile
 ocaml-qtest
 obconf-qt
+gnome-panel-control

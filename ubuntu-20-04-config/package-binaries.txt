@@ -3699,3 +3699,4 @@
 /usr/bin/okularkirigami
 /usr/bin/qtest
 /usr/bin/obconf-qt
+/usr/bin/gnome-panel-control
