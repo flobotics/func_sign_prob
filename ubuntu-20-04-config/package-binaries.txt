@@ -4146,3 +4146,6 @@
 /usr/bin/bamleftalign
 /usr/bin/freebayes
 /usr/bin/feedreader
+/usr/bin/firecfg
+/usr/bin/firejail
+/usr/bin/firemon

@@ -2000,3 +2000,4 @@ r-cran-funitroots
 fcitx-module-fullwidthchar-enhance
 freebayes
 feedreader
+firejail
