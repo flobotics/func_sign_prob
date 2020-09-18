@@ -4237,3 +4237,5 @@
 /usr/bin/fplll
 /usr/bin/latsieve
 /usr/bin/latticegen
+/usr/bin/ftpcopy
+/usr/bin/ftpls
