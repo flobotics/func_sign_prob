@@ -1784,3 +1784,6 @@ python3-openvdb
 obexpushd
 osdsh
 openssh-client-ssh1
+onscripter
+orbital-eunuchs-sniper
+oroborus

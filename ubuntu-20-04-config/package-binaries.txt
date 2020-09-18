@@ -3564,3 +3564,4 @@
 /usr/bin/scp1
 /usr/bin/ssh-keygen1
 /usr/bin/ssh1
+/usr/bin/oroborus

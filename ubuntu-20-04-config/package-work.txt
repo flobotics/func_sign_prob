@@ -1206,3 +1206,4 @@ obs-studio
 obexpushd
 osdsh
 openssh-client-ssh1
+oroborus

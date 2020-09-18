@@ -574,3 +574,5 @@ python3-opencv
 openpref
 openyahtzee
 python3-openvdb
+onscripter
+orbital-eunuchs-sniper
