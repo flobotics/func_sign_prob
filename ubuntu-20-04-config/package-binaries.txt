@@ -4168,3 +4168,11 @@
 /usr/bin/grtrans
 /usr/bin/lfit
 /sbin/mount.exfat-fuse
+/usr/bin/bsqldb
+/usr/bin/bsqlodbc
+/usr/bin/datacopy
+/usr/bin/defncopy
+/usr/bin/fisql
+/usr/bin/freebcp
+/usr/bin/tdspool
+/usr/bin/tsql

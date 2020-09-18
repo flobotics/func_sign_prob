@@ -670,3 +670,4 @@ r-cran-funitroots
 fcitx-module-fullwidthchar-enhance
 fcitx-kkc
 frameworkintegration
+flexml

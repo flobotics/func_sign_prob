@@ -1332,3 +1332,4 @@ filezilla
 fastdnaml
 fitsh
 exfat-fuse
+freetds-bin
