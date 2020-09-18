@@ -1936,3 +1936,4 @@ opendrim-lmp-systemmemory
 openvanilla-imgeneric
 opendrim-lmp-battery
 ohcount
+omake
