@@ -4780,3 +4780,13 @@ Real binaries:['/usr/bin/osmium']
 Write to package-work.txt file: osmium-tool
 Write to package-binaries.txt file: ['/usr/bin/osmium']
 ['/usr/bin/osmium']
+Write pickle file
+tar_out:
+Package-nr:1539 of 11000, Name:onesixtyone-dbgsym
+Package >onesixtyone< not in package-all.txt file
+Write to package-all.txt file: onesixtyone
+In package >onesixtyone< are these binaries: ['/usr/bin/onesixtyone']
+Real binaries:['/usr/bin/onesixtyone']
+Write to package-work.txt file: onesixtyone
+Write to package-binaries.txt file: ['/usr/bin/onesixtyone']
+['/usr/bin/onesixtyone']
