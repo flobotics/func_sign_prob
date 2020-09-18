@@ -4201,3 +4201,4 @@
 /usr/bin/fbtracemgr
 /usr/sbin/fbguard
 /usr/sbin/firebird
+/usr/bin/file2

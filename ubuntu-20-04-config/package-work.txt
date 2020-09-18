@@ -1345,3 +1345,4 @@ fml-asm
 falkon
 firebird3.0-utils
 firebird3.0-server
+file-kanji
