@@ -3692,3 +3692,5 @@
 /usr/bin/ovn-ic-nbctl
 /usr/bin/ovn-ic-sbctl
 /usr/bin/osm2pgsql
+/usr/sbin/dundee
+/usr/sbin/ofonod
