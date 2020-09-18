@@ -2102,3 +2102,4 @@ fbcat
 r-cran-fasianoptions
 fnotifystat
 faultstat
+fldiff

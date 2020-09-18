@@ -4272,3 +4272,4 @@
 /usr/bin/fbcat
 /usr/sbin/fnotifystat
 /usr/bin/faultstat
+/usr/bin/fldiff

@@ -1389,3 +1389,4 @@ fcitx-imlist
 fbcat
 fnotifystat
 faultstat
+fldiff
