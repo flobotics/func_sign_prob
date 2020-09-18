@@ -1926,3 +1926,4 @@ python3-pykdl
 openocd
 topp
 outguess
+openmx

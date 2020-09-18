@@ -3998,3 +3998,4 @@
 /usr/bin/XMLValidator
 /usr/bin/XTandemAdapter
 /usr/bin/outguess
+/usr/bin/openmx
