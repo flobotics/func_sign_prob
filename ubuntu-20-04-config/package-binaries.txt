@@ -4002,3 +4002,11 @@
 /usr/sbin/ntpctl
 /usr/sbin/ntpd
 /usr/bin/samlsign
+/usr/bin/keydctl
+/usr/bin/onak
+/usr/bin/splitkeys
+/usr/lib/cgi-bin/pks/add
+/usr/lib/cgi-bin/pks/gpgwww
+/usr/lib/cgi-bin/pks/hashquery
+/usr/lib/cgi-bin/pks/lookup
+/usr/sbin/keyd
