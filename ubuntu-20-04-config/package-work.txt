@@ -1197,3 +1197,4 @@ openclonk
 ogmtools
 osmo-hlr
 olpc-powerd
+opa-fastfabric

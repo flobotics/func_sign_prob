@@ -3284,3 +3284,12 @@
 /usr/bin/osmo-hlr-db-tool
 /sbin/olpc-switchd
 /usr/bin/pnmto565fb
+/usr/sbin/opa2rm
+/usr/sbin/opafirmware
+/usr/sbin/opapaquery
+/usr/sbin/opareport
+/usr/sbin/opatop
+/usr/sbin/opaxmlextract
+/usr/sbin/opaxmlfilter
+/usr/sbin/opaxmlgenerate
+/usr/sbin/opaxmlindent

@@ -569,3 +569,4 @@ octave-octproj
 octave-instrument-control
 opendrim-lmp-ip
 ogamesim
+orthanc-postgresql

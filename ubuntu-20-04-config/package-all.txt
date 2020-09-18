@@ -1770,3 +1770,5 @@ ogmtools
 osmo-hlr
 ogamesim
 olpc-powerd
+orthanc-postgresql
+opa-fastfabric

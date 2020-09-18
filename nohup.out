@@ -5120,3 +5120,20 @@ Real binaries:['/sbin/olpc-switchd', '/usr/bin/pnmto565fb']
 Write to package-work.txt file: olpc-powerd
 Write to package-binaries.txt file: ['/sbin/olpc-switchd', '/usr/bin/pnmto565fb']
 ['/sbin/olpc-switchd', '/usr/bin/pnmto565fb']
+Write pickle file
+tar_out:
+Package-nr:1581 of 11000, Name:orthanc-postgresql-dbgsym
+Package >orthanc-postgresql< not in package-all.txt file
+Write to package-all.txt file: orthanc-postgresql
+In package >orthanc-postgresql< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: orthanc-postgresql
+[]
+Package-nr:1582 of 11000, Name:opa-fastfabric-dbgsym
+Package >opa-fastfabric< not in package-all.txt file
+Write to package-all.txt file: opa-fastfabric
+In package >opa-fastfabric< are these binaries: ['/usr/sbin/opa2rm', '/usr/sbin/opaallanalysis', '/usr/sbin/opacabletest', '/usr/sbin/opacaptureall', '/usr/sbin/opachassisadmin', '/usr/sbin/opachassisanalysis', '/usr/sbin/opacheckload', '/usr/sbin/opacmdall', '/usr/sbin/opadisablehosts', '/usr/sbin/opadisableports', '/usr/sbin/opadownloadall', '/usr/sbin/opaenableports', '/usr/sbin/opaesmanalysis', '/usr/sbin/opaexpandfile', '/usr/sbin/opaextractbadlinks', '/usr/sbin/opaextracterror', '/usr/sbin/opaextractlids', '/usr/sbin/opaextractlink', '/usr/sbin/opaextractmissinglinks', '/usr/sbin/opaextractperf', '/usr/sbin/opaextractsellinks', '/usr/sbin/opaextractstat', '/usr/sbin/opaextractstat2', '/usr/sbin/opafabricanalysis', '/usr/sbin/opafastfabric', '/usr/sbin/opafindgood', '/usr/sbin/opafirmware', '/usr/sbin/opagenchassis', '/usr/sbin/opagenesmchassis', '/usr/sbin/opagenswitches', '/usr/sbin/opahostadmin', '/usr/sbin/opahostsmanalysis', '/usr/sbin/opaledports', '/usr/sbin/opalinkanalysis', '/usr/sbin/opapaquery', '/usr/sbin/opapingall', '/usr/sbin/opareport', '/usr/sbin/opareports', '/usr/sbin/opascpall', '/usr/sbin/opasetupssh', '/usr/sbin/opashowallports', '/usr/sbin/opashowmc', '/usr/sbin/opasorthosts', '/usr/sbin/opaswdisableall', '/usr/sbin/opaswenableall', '/usr/sbin/opaswitchadmin', '/usr/sbin/opatop', '/usr/sbin/opauploadall', '/usr/sbin/opaverifyhosts', '/usr/sbin/opaxlattopology', '/usr/sbin/opaxmlextract', '/usr/sbin/opaxmlfilter', '/usr/sbin/opaxmlgenerate', '/usr/sbin/opaxmlindent', '/usr/sbin/opafmconfigcheck', '/usr/sbin/opafmconfigdiff']
+Real binaries:['/usr/sbin/opa2rm', '/usr/sbin/opafirmware', '/usr/sbin/opapaquery', '/usr/sbin/opareport', '/usr/sbin/opatop', '/usr/sbin/opaxmlextract', '/usr/sbin/opaxmlfilter', '/usr/sbin/opaxmlgenerate', '/usr/sbin/opaxmlindent']
+Write to package-work.txt file: opa-fastfabric
+Write to package-binaries.txt file: ['/usr/sbin/opa2rm', '/usr/sbin/opafirmware', '/usr/sbin/opapaquery', '/usr/sbin/opareport', '/usr/sbin/opatop', '/usr/sbin/opaxmlextract', '/usr/sbin/opaxmlfilter', '/usr/sbin/opaxmlgenerate', '/usr/sbin/opaxmlindent']
+['/usr/sbin/opa2rm', '/usr/sbin/opafirmware', '/usr/sbin/opapaquery', '/usr/sbin/opareport', '/usr/sbin/opatop', '/usr/sbin/opaxmlextract', '/usr/sbin/opaxmlfilter', '/usr/sbin/opaxmlgenerate', '/usr/sbin/opaxmlindent']
