@@ -1212,3 +1212,4 @@ orthanc-wsi
 oce-draw
 oprofile
 osdlyrics
+opus-tools

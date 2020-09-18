@@ -1794,3 +1794,4 @@ oprofile
 ocplib-simplex-ocaml-dev
 opendrim-lmp-ethernetport
 osdlyrics
+opus-tools

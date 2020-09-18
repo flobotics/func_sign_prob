@@ -3580,3 +3580,7 @@
 /usr/bin/opjitconv
 /usr/bin/opreport
 /usr/bin/osdlyrics
+/usr/bin/opusdec
+/usr/bin/opusenc
+/usr/bin/opusinfo
+/usr/bin/opusrtp
