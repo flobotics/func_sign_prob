@@ -3646,3 +3646,8 @@
 /usr/sbin/openvasmd-sqlite
 /usr/sbin/ods-signer
 /usr/sbin/ods-signerd
+/usr/bin/ods-kaspcheck
+/usr/sbin/ods-enforcer
+/usr/sbin/ods-enforcer-db-setup
+/usr/sbin/ods-enforcerd
+/usr/sbin/ods-migrate

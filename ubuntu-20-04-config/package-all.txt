@@ -1803,3 +1803,4 @@ opendrim-lmp-powermanagement
 openorienteering-mapper
 openvas-manager
 opendnssec-signer
+opendnssec-enforcer-mysql
