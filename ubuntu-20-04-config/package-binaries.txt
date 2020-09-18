@@ -3299,3 +3299,7 @@
 /usr/sbin/oparesolvehfiport
 /usr/sbin/opasaquery
 /usr/sbin/opasmaquery
+/usr/bin/opa_osd_dump
+/usr/bin/opa_osd_exercise
+/usr/bin/opa_osd_perf
+/usr/bin/opa_osd_query

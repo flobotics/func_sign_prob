@@ -1773,3 +1773,4 @@ olpc-powerd
 orthanc-postgresql
 opa-fastfabric
 opa-basic-tools
+opa-address-resolution

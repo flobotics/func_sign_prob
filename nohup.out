@@ -5147,3 +5147,13 @@ Real binaries:['/usr/sbin/opainfo', '/usr/sbin/opapacketcapture', '/usr/sbin/opa
 Write to package-work.txt file: opa-basic-tools
 Write to package-binaries.txt file: ['/usr/sbin/opainfo', '/usr/sbin/opapacketcapture', '/usr/sbin/opaportinfo', '/usr/sbin/oparesolvehfiport', '/usr/sbin/opasaquery', '/usr/sbin/opasmaquery']
 ['/usr/sbin/opainfo', '/usr/sbin/opapacketcapture', '/usr/sbin/opaportinfo', '/usr/sbin/oparesolvehfiport', '/usr/sbin/opasaquery', '/usr/sbin/opasmaquery']
+Write pickle file
+tar_out:
+Package-nr:1584 of 11000, Name:opa-address-resolution-dbgsym
+Package >opa-address-resolution< not in package-all.txt file
+Write to package-all.txt file: opa-address-resolution
+In package >opa-address-resolution< are these binaries: ['/usr/bin/opa_osd_dump', '/usr/bin/opa_osd_exercise', '/usr/bin/opa_osd_perf', '/usr/bin/opa_osd_query']
+Real binaries:['/usr/bin/opa_osd_dump', '/usr/bin/opa_osd_exercise', '/usr/bin/opa_osd_perf', '/usr/bin/opa_osd_query']
+Write to package-work.txt file: opa-address-resolution
+Write to package-binaries.txt file: ['/usr/bin/opa_osd_dump', '/usr/bin/opa_osd_exercise', '/usr/bin/opa_osd_perf', '/usr/bin/opa_osd_query']
+['/usr/bin/opa_osd_dump', '/usr/bin/opa_osd_exercise', '/usr/bin/opa_osd_perf', '/usr/bin/opa_osd_query']
