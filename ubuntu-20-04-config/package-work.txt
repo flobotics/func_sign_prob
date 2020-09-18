@@ -1407,3 +1407,4 @@ freetuxtv
 fuseiso
 fuse-posixovl
 fluidsynth
+fatrace

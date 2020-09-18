@@ -4294,3 +4294,4 @@
 /usr/bin/fuseiso
 /sbin/mount.posixovl
 /usr/bin/fluidsynth
+/usr/sbin/fatrace

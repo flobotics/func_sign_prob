@@ -2130,3 +2130,5 @@ freetuxtv
 fuseiso
 fuse-posixovl
 fluidsynth
+python3-fast-histogram
+fatrace
