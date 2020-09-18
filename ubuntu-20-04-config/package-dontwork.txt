@@ -656,3 +656,15 @@ ocaml-base
 octave-database
 r-cran-fbasics
 fomp
+freeradius-iodbc
+freeradius-postgresql
+freeradius-krb5
+freeradius-mysql
+freeradius-yubikey
+freeradius-redis
+freeradius-memcached
+freeradius-ldap
+freeradius-rest
+freeradius-python3
+r-cran-funitroots
+fcitx-module-fullwidthchar-enhance

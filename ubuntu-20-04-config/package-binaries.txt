@@ -4143,3 +4143,5 @@
 /usr/bin/foremost
 /usr/bin/freefem
 /usr/bin/fracplanet
+/usr/bin/bamleftalign
+/usr/bin/freebayes
