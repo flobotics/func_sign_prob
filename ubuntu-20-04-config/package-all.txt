@@ -2241,3 +2241,5 @@ flang-7
 fractgen
 fizmo-console
 ftnchek
+flobopuyo
+fence-virtd

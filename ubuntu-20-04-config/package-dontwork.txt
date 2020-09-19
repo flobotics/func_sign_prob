@@ -759,3 +759,4 @@ fcitx-m17n
 funguloids
 fcitx-unikey
 fizmo-console
+flobopuyo

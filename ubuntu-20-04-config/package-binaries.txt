@@ -4434,3 +4434,4 @@
 /usr/bin/flang2
 /usr/bin/fractgen
 /usr/bin/ftnchek
+/usr/sbin/fence_virtd
