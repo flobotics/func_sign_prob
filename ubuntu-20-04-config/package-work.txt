@@ -1706,3 +1706,4 @@ t-coffee
 tuxpaint-config
 tiptop
 trend
+tetradraw

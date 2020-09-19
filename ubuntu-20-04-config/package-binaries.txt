@@ -5224,3 +5224,5 @@
 /usr/bin/ptiptop
 /usr/bin/tiptop
 /usr/bin/trend
+/usr/bin/tetradraw
+/usr/bin/tetraview
