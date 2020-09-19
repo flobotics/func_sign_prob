@@ -5240,3 +5240,7 @@
 /usr/bin/tickr
 /usr/bin/timew
 /usr/bin/tcmu-runner
+/usr/bin/tvtime
+/usr/bin/tvtime-command
+/usr/bin/tvtime-configure
+/usr/bin/tvtime-scanner

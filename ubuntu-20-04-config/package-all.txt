@@ -2610,3 +2610,4 @@ tickr
 python3-tagpy
 timewarrior
 tcmu-runner
+tvtime
