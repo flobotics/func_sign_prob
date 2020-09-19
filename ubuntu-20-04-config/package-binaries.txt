@@ -5576,3 +5576,7 @@
 /usr/lib/irstlm/bin/tlm
 /usr/lib/irstlm/bin/verify-caching
 /usr/bin/i3status
+/usr/bin/vbox
+/usr/bin/vboxbeep
+/usr/bin/vboxcnvt
+/usr/bin/vboxctrl
