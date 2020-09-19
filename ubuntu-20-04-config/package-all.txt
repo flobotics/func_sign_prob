@@ -2738,3 +2738,6 @@ iptables-netflow-dkms
 indelible
 insighttoolkit4-python3
 isakmpd
+ibus-wayland
+ibus-tests
+inhomog

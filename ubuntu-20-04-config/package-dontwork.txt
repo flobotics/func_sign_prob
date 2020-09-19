@@ -938,3 +938,5 @@ python3-libi8x
 lirc-drv-irman
 iptables-netflow-dkms
 insighttoolkit4-python3
+ibus-wayland
+ibus-tests

@@ -5360,3 +5360,4 @@
 /usr/bin/indelible
 /usr/bin/certpatch
 /usr/sbin/isakmpd
+/usr/bin/inhomog
