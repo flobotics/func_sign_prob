@@ -4439,3 +4439,4 @@
 /usr/bin/gfio
 /usr/bin/fntsample
 /usr/bin/ffmpegfs
+/usr/bin/flatpak

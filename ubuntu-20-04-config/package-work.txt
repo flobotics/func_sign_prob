@@ -1482,3 +1482,4 @@ frame-tools
 gfio
 fntsample
 ffmpegfs
+flatpak
