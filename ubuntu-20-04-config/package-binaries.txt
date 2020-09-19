@@ -5357,3 +5357,4 @@
 /usr/bin/idba_hybrid
 /usr/bin/idba_tran
 /usr/bin/idba_ud
+/usr/bin/indelible
