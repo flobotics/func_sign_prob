@@ -4660,3 +4660,5 @@
 /usr/bin/tre-agrep
 /usr/bin/twpsk
 /usr/bin/tse3play
+/usr/bin/timeshift
+/usr/bin/timeshift-gtk

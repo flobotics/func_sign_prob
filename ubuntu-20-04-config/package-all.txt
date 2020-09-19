@@ -2418,3 +2418,4 @@ tgt-rbd
 tk-tktray
 tk-table
 tse3play
+timeshift
