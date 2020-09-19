@@ -1469,3 +1469,4 @@ fwknop-client
 fwknop-server
 figlet
 fastforward
+fakeroot-ng

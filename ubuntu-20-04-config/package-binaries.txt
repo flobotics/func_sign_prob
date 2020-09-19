@@ -4424,3 +4424,4 @@
 /usr/bin/setforward
 /usr/bin/setmaillist
 /usr/sbin/qmail-newaliases
+/usr/bin/fakeroot-ng
