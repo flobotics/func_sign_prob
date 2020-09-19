@@ -5291,3 +5291,4 @@
 /usr/sbin/ttysnoops
 /usr/bin/toilet
 /usr/bin/tdc
+/usr/bin/telepathy-indicator

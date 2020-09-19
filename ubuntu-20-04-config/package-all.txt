@@ -2667,3 +2667,4 @@ tetgen
 ttysnoop
 toilet
 tdc
+telepathy-indicator
