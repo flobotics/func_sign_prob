@@ -1835,3 +1835,5 @@ ipv6toolkit
 imwheel
 ipkungfu
 ifstat
+imapfilter
+inkscape

@@ -5442,3 +5442,6 @@
 /usr/bin/imwheel
 /usr/sbin/dummy_server
 /usr/bin/ifstat
+/usr/bin/imapfilter
+/usr/bin/inkscape
+/usr/bin/inkview

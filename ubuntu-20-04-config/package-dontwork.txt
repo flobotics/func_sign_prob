@@ -954,3 +954,6 @@ icinga2-ido-pgsql
 ibus-kkc
 ibus-sunpinyin
 tk-itk4
+ibus-input-pad
+ircmarkers
+itk3

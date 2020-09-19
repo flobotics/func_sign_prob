@@ -2794,3 +2794,8 @@ ipv6toolkit
 imwheel
 ipkungfu
 ifstat
+ibus-input-pad
+imapfilter
+ircmarkers
+itk3
+inkscape
