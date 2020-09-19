@@ -2434,3 +2434,4 @@ tipp10
 tasksh
 tilem
 transmission-daemon
+transmission-cli
