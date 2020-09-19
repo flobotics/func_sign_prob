@@ -2619,3 +2619,5 @@ twolame
 tcc
 tenace
 tcpslice
+tetzle
+tcpstat

@@ -5252,3 +5252,5 @@
 /usr/bin/i386-tcc
 /usr/bin/tcc
 /usr/sbin/tcpslice
+/usr/bin/tcpprof
+/usr/bin/tcpstat
