@@ -1467,3 +1467,4 @@ foma
 fcitx5-chinese-addons-bin
 fwknop-client
 fwknop-server
+figlet

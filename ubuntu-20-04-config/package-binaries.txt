@@ -4415,3 +4415,5 @@
 /usr/bin/scel2org5
 /usr/bin/fwknop
 /usr/sbin/fwknopd
+/usr/bin/chkfont
+/usr/bin/figlet-figlet

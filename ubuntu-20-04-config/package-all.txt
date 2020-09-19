@@ -2225,3 +2225,5 @@ fcitx5-module-pinyinhelper
 fcitx5-module-chttrans
 fwknop-client
 fwknop-server
+fltk1.3-games
+figlet
