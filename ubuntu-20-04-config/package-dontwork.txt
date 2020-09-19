@@ -763,3 +763,4 @@ flobopuyo
 freegish
 flatpak-tests
 r-cran-foreign
+fcitx-ui-light

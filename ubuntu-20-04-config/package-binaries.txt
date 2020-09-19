@@ -4452,3 +4452,4 @@
 /usr/bin/lodscore
 /usr/bin/mlink
 /usr/bin/unknown
+/usr/bin/faucc
