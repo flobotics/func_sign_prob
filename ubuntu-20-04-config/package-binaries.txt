@@ -5499,3 +5499,9 @@
 /usr/sbin/ipband
 /usr/sbin/ippproxy
 /usr/sbin/ippserver
+/usr/bin/inb
+/usr/bin/inl
+/usr/bin/inw
+/usr/bin/outb
+/usr/bin/outl
+/usr/bin/outw
