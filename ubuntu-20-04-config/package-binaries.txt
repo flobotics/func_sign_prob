@@ -5406,3 +5406,6 @@
 /usr/sbin/ipip
 /usr/bin/i3lock
 /usr/bin/itksnap
+/usr/bin/iki-git-hook-update
+/usr/bin/iki-git-shell
+/usr/bin/ikisite-wrapper

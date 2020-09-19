@@ -1820,3 +1820,4 @@ i8kutils
 ipip
 i3lock
 itksnap
+ikiwiki-hosting-web
