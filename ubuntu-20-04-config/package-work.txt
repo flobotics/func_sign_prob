@@ -1638,3 +1638,4 @@ tss2
 terminology
 ttygif
 tcm
+tinyproxy-bin
