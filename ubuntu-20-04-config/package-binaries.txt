@@ -4708,3 +4708,4 @@
 /usr/bin/transmission-edit
 /usr/bin/transmission-remote
 /usr/bin/transmission-show
+/usr/bin/transmission-qt

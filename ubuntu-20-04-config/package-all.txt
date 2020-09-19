@@ -2435,3 +2435,4 @@ tasksh
 tilem
 transmission-daemon
 transmission-cli
+transmission-qt
