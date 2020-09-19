@@ -1763,3 +1763,4 @@ tm-align
 transmission-remote-gtk
 traildb-cli
 trickle
+timemachine

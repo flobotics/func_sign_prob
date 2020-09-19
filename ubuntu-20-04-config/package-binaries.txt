@@ -5301,3 +5301,4 @@
 /usr/bin/trickle
 /usr/bin/tricklectl
 /usr/bin/trickled
+/usr/bin/timemachine
