@@ -5268,3 +5268,4 @@
 /usr/sbin/tpm2-abrmd
 /usr/bin/tandem
 /usr/bin/tf5
+/usr/bin/tlf
