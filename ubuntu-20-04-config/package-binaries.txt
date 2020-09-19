@@ -5413,3 +5413,4 @@
 /usr/sbin/kea-dhcp4
 /usr/bin/kea-msg-compiler
 /usr/sbin/kea-lfc
+/usr/sbin/perfdhcp
