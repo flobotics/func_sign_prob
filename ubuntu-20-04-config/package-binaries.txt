@@ -5448,3 +5448,4 @@
 /usr/bin/icmpush
 /usr/bin/info-beamer
 /usr/bin/s3270
+/usr/bin/pr3287
