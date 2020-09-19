@@ -1724,3 +1724,4 @@ twolame
 tcc
 tcpslice
 tcpstat
+tpm-quote-tools

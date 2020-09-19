@@ -2621,3 +2621,4 @@ tenace
 tcpslice
 tetzle
 tcpstat
+tpm-quote-tools

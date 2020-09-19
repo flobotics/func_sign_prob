@@ -5254,3 +5254,11 @@
 /usr/sbin/tcpslice
 /usr/bin/tcpprof
 /usr/bin/tcpstat
+/usr/bin/tpm_getpcrhash
+/usr/bin/tpm_getquote
+/usr/bin/tpm_loadkey
+/usr/bin/tpm_mkaik
+/usr/bin/tpm_mkuuid
+/usr/bin/tpm_unloadkey
+/usr/bin/tpm_updatepcrhash
+/usr/bin/tpm_verifyquote
