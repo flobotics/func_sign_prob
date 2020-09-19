@@ -2811,3 +2811,4 @@ isatapd
 iraf-dev
 iraf-noao
 iraf-fitsutil
+innoextract
