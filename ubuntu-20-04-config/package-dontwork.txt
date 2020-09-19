@@ -932,3 +932,7 @@ perl-stacktrace
 python3-arcus
 python-ariapy
 python-ieee1284
+python3-imobiledevice
+python3-ixion
+python3-libi8x
+lirc-drv-irman

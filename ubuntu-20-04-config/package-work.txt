@@ -1786,3 +1786,4 @@ idn2
 iiod
 xorriso
 ifp-line-libifp
+isal

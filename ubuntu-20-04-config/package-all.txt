@@ -2723,3 +2723,8 @@ idn2
 iiod
 xorriso
 ifp-line-libifp
+python3-imobiledevice
+python3-ixion
+python3-libi8x
+lirc-drv-irman
+isal
