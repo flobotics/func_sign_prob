@@ -1560,3 +1560,4 @@ fluxbox
 fityk
 florence
 flip
+flannel

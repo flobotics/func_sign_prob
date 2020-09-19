@@ -2363,3 +2363,4 @@ font-manager-common
 nemo-font-manager
 florence
 flip
+flannel
