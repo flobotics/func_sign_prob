@@ -5411,3 +5411,5 @@
 /usr/bin/ikisite-wrapper
 /usr/sbin/kea-ctrl-agent
 /usr/sbin/kea-dhcp4
+/usr/bin/kea-msg-compiler
+/usr/sbin/kea-lfc
