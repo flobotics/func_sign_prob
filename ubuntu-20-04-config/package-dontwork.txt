@@ -827,3 +827,4 @@ tigr-glimmer
 tang
 titanion
 textedit.app
+timidity-interfaces-extra
