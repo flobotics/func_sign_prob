@@ -1810,3 +1810,4 @@ ircii
 iputils-clockdiff
 iroffer
 isync
+icmpinfo

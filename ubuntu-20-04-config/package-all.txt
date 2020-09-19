@@ -2759,3 +2759,5 @@ ircii
 iputils-clockdiff
 iroffer
 isync
+irsim
+icmpinfo
