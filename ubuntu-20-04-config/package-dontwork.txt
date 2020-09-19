@@ -951,3 +951,4 @@ ibus-libzhuyin
 python3-imexam
 icinga2-ido-mysql
 icinga2-ido-pgsql
+ibus-kkc
