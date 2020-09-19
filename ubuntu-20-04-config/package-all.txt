@@ -2269,3 +2269,4 @@ fontmanager.app
 francine
 flrig
 fdflush
+fontforge-nox

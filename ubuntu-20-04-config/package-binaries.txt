@@ -4462,3 +4462,4 @@
 /bin/francine
 /usr/bin/flrig
 /bin/fdflush
+/usr/bin/fontforge
