@@ -4721,3 +4721,4 @@
 /usr/lib/tiger/bin/testsuid
 /usr/bin/tthrfcat
 /usr/bin/tthsplit
+/usr/bin/ttm
