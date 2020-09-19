@@ -1480,3 +1480,4 @@ ftnchek
 fence-virtd
 frame-tools
 gfio
+fntsample
