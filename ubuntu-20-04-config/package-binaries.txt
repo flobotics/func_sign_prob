@@ -5313,3 +5313,4 @@
 /usr/bin/sfconv
 /usr/bin/teckit_compile
 /usr/bin/txtconv
+/usr/sbin/tmpreaper

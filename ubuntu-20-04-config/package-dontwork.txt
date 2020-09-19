@@ -919,3 +919,4 @@ tcl-tclreadline
 telepathy-accounts-signon
 telepathy-gabble-tests
 telepathy-logger
+tatan
