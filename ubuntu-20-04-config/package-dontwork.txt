@@ -766,3 +766,4 @@ r-cran-foreign
 fcitx-ui-light
 freetennis
 fceux
+flare-engine

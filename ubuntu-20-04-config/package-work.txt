@@ -1490,3 +1490,4 @@ fastlink
 faucc
 fort-validator
 fgetty
+fitspng

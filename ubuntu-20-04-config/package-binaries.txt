@@ -4456,3 +4456,4 @@
 /usr/bin/fort
 /bin/checkpassword.login
 /sbin/fgetty
+/usr/bin/fitspng
