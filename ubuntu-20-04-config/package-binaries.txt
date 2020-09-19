@@ -4436,3 +4436,4 @@
 /usr/bin/ftnchek
 /usr/sbin/fence_virtd
 /usr/bin/frame-test-x11
+/usr/bin/gfio
