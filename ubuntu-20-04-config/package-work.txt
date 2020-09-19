@@ -1557,3 +1557,4 @@ fuse-overlayfs
 fsniper
 freecell-solver-bin
 fluxbox
+fityk

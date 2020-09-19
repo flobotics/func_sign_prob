@@ -793,3 +793,5 @@ fairymax
 fcitx-hangul
 fasm
 five-or-more
+fluidsynth-dssi
+fcitx-module-autoeng-ng

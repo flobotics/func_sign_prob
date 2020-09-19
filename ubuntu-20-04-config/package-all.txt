@@ -2355,3 +2355,6 @@ fuse-overlayfs
 fsniper
 freecell-solver-bin
 fluxbox
+fluidsynth-dssi
+fcitx-module-autoeng-ng
+fityk

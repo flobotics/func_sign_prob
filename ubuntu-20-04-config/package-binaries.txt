@@ -4585,3 +4585,5 @@
 /usr/bin/fluxbox
 /usr/bin/fluxbox-remote
 /usr/bin/fluxbox-update_configs
+/usr/bin/cfityk
+/usr/bin/fityk
