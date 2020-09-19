@@ -5402,3 +5402,4 @@
 /usr/sbin/pqos
 /usr/sbin/rdtset
 /usr/lib/iraf/extern/rvsao/bin/x_rvsao.e
+/usr/bin/i8kctl

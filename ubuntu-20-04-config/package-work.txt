@@ -1816,3 +1816,4 @@ ircd-hybrid
 icinga2-bin
 intel-cmt-cat
 iraf-rvsao
+i8kutils

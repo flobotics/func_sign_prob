@@ -2772,3 +2772,4 @@ icinga2-ido-mysql
 icinga2-ido-pgsql
 intel-cmt-cat
 iraf-rvsao
+i8kutils
