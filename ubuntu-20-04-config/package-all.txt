@@ -2235,3 +2235,7 @@ faketime
 falselogin
 fyre
 fbpanel
+funguloids
+fcitx-unikey
+flang-7
+fractgen

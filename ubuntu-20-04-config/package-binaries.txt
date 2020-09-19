@@ -4429,3 +4429,7 @@
 /usr/bin/falselogin
 /usr/bin/fyre
 /usr/bin/fbpanel
+/usr/bin/flang-7
+/usr/bin/flang1
+/usr/bin/flang2
+/usr/bin/fractgen

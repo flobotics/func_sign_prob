@@ -756,3 +756,5 @@ fcitx5-module-chttrans
 fltk1.3-games
 fcitx-anthy
 fcitx-m17n
+funguloids
+fcitx-unikey
