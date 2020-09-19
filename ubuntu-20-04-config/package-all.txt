@@ -2704,3 +2704,4 @@ tuxcmd-modules
 r-cran-tseries
 transcend
 timblserver
+termtris

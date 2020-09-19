@@ -5317,3 +5317,4 @@
 /usr/bin/texmaker
 /usr/bin/timblclient
 /usr/bin/timblserver
+/usr/games/bin/termtris
