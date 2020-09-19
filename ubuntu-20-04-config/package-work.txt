@@ -1572,3 +1572,4 @@ samplerate-programs
 sepol-utils
 smithwaterman
 smbios-utils
+smitools

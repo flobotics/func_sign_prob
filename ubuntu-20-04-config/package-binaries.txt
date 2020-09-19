@@ -4614,3 +4614,8 @@
 /usr/sbin/smbios-state-byte-ctl
 /usr/sbin/smbios-sys-info-lite
 /usr/sbin/smbios-upflag-ctl
+/usr/bin/smidiff
+/usr/bin/smidump
+/usr/bin/smilint
+/usr/bin/smiquery
+/usr/bin/smixlate

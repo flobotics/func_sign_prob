@@ -807,3 +807,4 @@ python3-libsmdev
 python3-libsmraw
 python3-savitar
 python3-seccomp
+happycoders-libsocket
