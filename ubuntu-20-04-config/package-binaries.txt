@@ -4461,3 +4461,4 @@
 /usr/bin/transfig
 /bin/francine
 /usr/bin/flrig
+/bin/fdflush
