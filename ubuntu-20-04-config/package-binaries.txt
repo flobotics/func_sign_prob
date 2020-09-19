@@ -4375,3 +4375,4 @@
 /usr/bin/iceprog
 /usr/bin/icetime
 /usr/bin/fswatch
+/usr/bin/flpsed

@@ -2199,3 +2199,4 @@ fxload
 flactag
 fpga-icestorm
 fswatch
+flpsed
