@@ -2600,3 +2600,4 @@ tcl-tclex
 trackballs
 termrec
 taptempo
+tcpick

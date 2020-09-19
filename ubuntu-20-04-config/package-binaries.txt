@@ -5231,3 +5231,4 @@
 /usr/bin/termrec
 /usr/bin/termtime
 /usr/bin/taptempo
+/usr/sbin/tcpick
