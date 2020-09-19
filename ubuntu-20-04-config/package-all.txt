@@ -2719,3 +2719,4 @@ python-ariapy
 abigail-tools
 python-ieee1284
 icnsutils
+idn2

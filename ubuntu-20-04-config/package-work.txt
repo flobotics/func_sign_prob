@@ -1782,3 +1782,4 @@ aosd-cat
 aqbanking-tools
 abigail-tools
 icnsutils
+idn2

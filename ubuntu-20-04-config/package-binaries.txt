@@ -5340,3 +5340,4 @@
 /usr/bin/icns2png
 /usr/bin/icontainer2icns
 /usr/bin/png2icns
+/usr/bin/idn2
