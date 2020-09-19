@@ -2490,3 +2490,4 @@ tcl8.6-tdbc-mysql
 terminal.app
 tiatracker
 ttyrec
+ttyload
