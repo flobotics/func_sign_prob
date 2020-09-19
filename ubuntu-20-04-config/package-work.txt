@@ -1632,3 +1632,5 @@ thunderbolt-tools
 timidity
 thunar-volman
 trojan
+textdraw
+tootle

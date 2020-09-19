@@ -4741,3 +4741,4 @@
 /usr/bin/thunar-volman
 /usr/bin/thunar-volman-settings
 /usr/bin/trojan
+/usr/bin/tootle
