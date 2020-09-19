@@ -2392,3 +2392,5 @@ python3-semanage
 ruby-semanage
 3dchess
 3depict
+389-ds-base-libs
+wfut

@@ -4621,3 +4621,4 @@
 /usr/bin/smixlate
 /usr/bin/smfsh
 /usr/bin/3depict
+/usr/bin/wfut
