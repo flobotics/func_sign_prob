@@ -5352,3 +5352,4 @@
 /usr/bin/id3tool
 /usr/bin/ikarus
 /usr/bin/scheme-script
+/usr/bin/inoticoming
