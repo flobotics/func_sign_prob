@@ -2548,3 +2548,6 @@ texinfo
 tcl-tls
 tstools
 tcptraceroute
+tcl8.6-tdbc-odbc
+toppler
+timbl

@@ -863,3 +863,5 @@ tcl8.6-tdbc-postgres
 tfortune
 texinfo
 tcl-tls
+tcl8.6-tdbc-odbc
+toppler
