@@ -825,3 +825,5 @@ tetrinetx
 triplane
 tigr-glimmer
 tang
+titanion
+textedit.app

@@ -2456,3 +2456,6 @@ tree-ppuzzle
 ticker
 twinkle-console
 tablix2
+titanion
+textedit.app
+tardy
