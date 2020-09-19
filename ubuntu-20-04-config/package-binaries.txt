@@ -4607,3 +4607,4 @@
 /usr/bin/storj
 /usr/bin/statgrab
 /usr/bin/saidar
+/usr/bin/sndfile-resample

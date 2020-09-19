@@ -1568,3 +1568,4 @@ ssw-align
 storj
 statgrab
 saidar
+samplerate-programs

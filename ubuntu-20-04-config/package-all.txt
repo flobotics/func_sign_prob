@@ -2374,3 +2374,5 @@ python3-sbml5
 storj
 statgrab
 saidar
+python3-solv
+samplerate-programs
