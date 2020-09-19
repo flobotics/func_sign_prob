@@ -800,3 +800,4 @@ font-manager-common
 nemo-font-manager
 flamerobin
 python3-libsigscan
+python3-sbml5

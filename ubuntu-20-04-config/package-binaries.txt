@@ -4604,3 +4604,4 @@
 /usr/bin/sndfile-play
 /usr/bin/sndfile-salvage
 /usr/bin/ssw-align
+/usr/bin/storj

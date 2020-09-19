@@ -2370,3 +2370,5 @@ fastnetmon
 python3-libsigscan
 sndfile-programs
 ssw-align
+python3-sbml5
+storj
