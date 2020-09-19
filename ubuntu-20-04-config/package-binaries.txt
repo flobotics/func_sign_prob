@@ -5405,3 +5405,4 @@
 /usr/bin/i8kctl
 /usr/sbin/ipip
 /usr/bin/i3lock
+/usr/bin/itksnap

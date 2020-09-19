@@ -1819,3 +1819,4 @@ iraf-rvsao
 i8kutils
 ipip
 i3lock
+itksnap

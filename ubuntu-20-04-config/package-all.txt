@@ -2778,3 +2778,4 @@ ipip
 ibus-sunpinyin
 tk-itk4
 i3lock
+itksnap
