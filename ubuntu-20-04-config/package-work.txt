@@ -1852,3 +1852,4 @@ innoextract
 pdftoipe
 figtoipe
 ipe5toxml
+idlestat

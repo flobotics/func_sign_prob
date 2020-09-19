@@ -5493,3 +5493,4 @@
 /usr/bin/pdftoipe
 /usr/bin/figtoipe
 /usr/bin/ipe5toxml
+/usr/bin/idlestat
