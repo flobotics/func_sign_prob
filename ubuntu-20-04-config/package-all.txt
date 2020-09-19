@@ -2287,3 +2287,4 @@ fte-xwindow
 fstransform
 f2c
 fcode-utils
+exiftran
