@@ -1825,3 +1825,4 @@ kea-ctrl-agent
 kea-dhcp4-server
 kea-common
 kea-admin
+kea-dhcp-ddns-server
