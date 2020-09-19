@@ -2254,3 +2254,4 @@ freebirth
 foo-yc20
 r-cran-foreign
 flam3
+fastlink

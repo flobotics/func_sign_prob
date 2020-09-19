@@ -1486,3 +1486,4 @@ flatpak
 freebirth
 foo-yc20
 flam3
+fastlink

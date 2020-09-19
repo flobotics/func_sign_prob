@@ -4447,3 +4447,8 @@
 /usr/bin/flam3-convert
 /usr/bin/flam3-genome
 /usr/bin/flam3-render
+/usr/bin/ilink
+/usr/bin/linkmap
+/usr/bin/lodscore
+/usr/bin/mlink
+/usr/bin/unknown
