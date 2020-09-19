@@ -754,3 +754,5 @@ fcitx5-table
 fcitx5-module-pinyinhelper
 fcitx5-module-chttrans
 fltk1.3-games
+fcitx-anthy
+fcitx-m17n

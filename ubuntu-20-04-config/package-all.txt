@@ -2229,3 +2229,6 @@ fltk1.3-games
 figlet
 fastforward
 fakeroot-ng
+fcitx-anthy
+fcitx-m17n
+faketime

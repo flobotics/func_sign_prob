@@ -4425,3 +4425,4 @@
 /usr/bin/setmaillist
 /usr/sbin/qmail-newaliases
 /usr/bin/fakeroot-ng
+/usr/bin/faketime
