@@ -5620,3 +5620,6 @@
 /usr/bin/iverilog
 /usr/bin/vvp
 /usr/bin/SimpleViewerExample
+/usr/bin/icecc
+/usr/sbin/icecc-scheduler
+/usr/sbin/iceccd
