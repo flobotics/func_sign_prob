@@ -2343,3 +2343,5 @@ freedv
 fcitx-skk
 fsarchiver
 folks-tools
+fairymax
+flatpak-builder

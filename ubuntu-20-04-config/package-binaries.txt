@@ -4568,3 +4568,4 @@
 /usr/sbin/fsarchiver
 /usr/bin/folks-import
 /usr/bin/folks-inspect
+/usr/bin/flatpak-builder

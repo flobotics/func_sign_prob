@@ -1549,3 +1549,4 @@ fuse-convmvfs
 freedv
 fsarchiver
 folks-tools
+flatpak-builder

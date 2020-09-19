@@ -789,3 +789,4 @@ python3-fabulous
 fillets-ng
 flatpak-xdg-utils-tests
 fcitx-skk
+fairymax
