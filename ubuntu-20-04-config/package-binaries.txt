@@ -4702,3 +4702,4 @@
 /usr/bin/tipp10
 /usr/bin/tasksh
 /usr/bin/tilem2
+/usr/bin/transmission-daemon
