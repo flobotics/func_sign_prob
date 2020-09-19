@@ -2680,3 +2680,4 @@ trickle
 timemachine
 python3-tnetstring
 tightvncserver
+xtightvncviewer

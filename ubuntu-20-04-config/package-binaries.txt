@@ -5305,3 +5305,4 @@
 /usr/bin/Xtightvnc
 /usr/bin/tightvncconnect
 /usr/bin/tightvncpasswd
+/usr/bin/xtightvncviewer
