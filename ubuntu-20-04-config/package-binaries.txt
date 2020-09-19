@@ -4709,3 +4709,4 @@
 /usr/bin/transmission-remote
 /usr/bin/transmission-show
 /usr/bin/transmission-qt
+/usr/bin/tutka
