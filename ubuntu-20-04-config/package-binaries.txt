@@ -4576,3 +4576,4 @@
 /usr/bin/frama-c.byte
 /usr/bin/flog
 /usr/bin/fuse-overlayfs
+/usr/bin/fsniper

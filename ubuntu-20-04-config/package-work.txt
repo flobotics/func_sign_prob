@@ -1554,3 +1554,4 @@ fastjar
 frama-c-base
 flog
 fuse-overlayfs
+fsniper
