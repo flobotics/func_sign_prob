@@ -5327,3 +5327,7 @@
 /usr/bin/train
 /usr/bin/ttuner
 /usr/bin/aosd_cat
+/usr/bin/aqbanking-cli
+/usr/bin/aqebics-tool
+/usr/bin/aqhbci-tool4
+/usr/bin/aqpaypal-tool

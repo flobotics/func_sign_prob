@@ -1779,3 +1779,4 @@ termtris
 tntnet
 tracetuner
 aosd-cat
+aqbanking-tools

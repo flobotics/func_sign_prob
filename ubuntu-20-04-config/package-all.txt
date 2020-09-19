@@ -2712,3 +2712,4 @@ tracetuner
 talksoup.app
 pd-ambix
 aosd-cat
+aqbanking-tools
