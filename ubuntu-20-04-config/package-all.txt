@@ -2590,3 +2590,4 @@ tuxonice-userui
 treeviewx
 tfdocgen
 tcd-utils
+t-coffee

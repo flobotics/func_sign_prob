@@ -1702,3 +1702,4 @@ tkdesk
 treeviewx
 tfdocgen
 tcd-utils
+t-coffee
