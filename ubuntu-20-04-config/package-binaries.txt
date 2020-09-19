@@ -5273,3 +5273,4 @@
 /usr/bin/transfermii_cli
 /usr/bin/transfermii_gui
 /usr/bin/tcpxtract
+/usr/bin/tabble
