@@ -2362,3 +2362,4 @@ nautilus-font-manager
 font-manager-common
 nemo-font-manager
 florence
+flip

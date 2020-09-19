@@ -1559,3 +1559,4 @@ freecell-solver-bin
 fluxbox
 fityk
 florence
+flip

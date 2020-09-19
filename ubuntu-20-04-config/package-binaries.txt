@@ -4588,3 +4588,4 @@
 /usr/bin/cfityk
 /usr/bin/fityk
 /usr/bin/florence
+/usr/bin/flip
