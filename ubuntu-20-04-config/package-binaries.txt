@@ -5358,3 +5358,5 @@
 /usr/bin/idba_tran
 /usr/bin/idba_ud
 /usr/bin/indelible
+/usr/bin/certpatch
+/usr/sbin/isakmpd

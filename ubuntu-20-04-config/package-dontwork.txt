@@ -937,3 +937,4 @@ python3-ixion
 python3-libi8x
 lirc-drv-irman
 iptables-netflow-dkms
+insighttoolkit4-python3
