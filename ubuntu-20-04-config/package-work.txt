@@ -1885,3 +1885,4 @@ indicator-multiload
 iverilog
 ifcplusplus
 icecc
+isomd5sum

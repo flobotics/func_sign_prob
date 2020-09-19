@@ -5623,3 +5623,5 @@
 /usr/bin/icecc
 /usr/sbin/icecc-scheduler
 /usr/sbin/iceccd
+/usr/bin/checkisomd5
+/usr/bin/implantisomd5
