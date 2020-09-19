@@ -1526,3 +1526,5 @@ freecontact
 featherpad
 fsmark
 forkstat
+ocaml-findlib
+fontmatrix

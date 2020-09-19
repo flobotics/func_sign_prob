@@ -777,3 +777,6 @@ fruit
 fcitx-dbus-status
 printer-driver-fujixerox
 fcitx-chewing
+foobillardplus
+feersum
+fcitx-sunpinyin

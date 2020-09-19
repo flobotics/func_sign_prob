@@ -2308,3 +2308,8 @@ freecontact
 featherpad
 fsmark
 forkstat
+foobillardplus
+feersum
+fcitx-sunpinyin
+ocaml-findlib
+fontmatrix

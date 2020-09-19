@@ -4531,3 +4531,5 @@
 /usr/bin/featherpad
 /usr/bin/fs_mark
 /usr/bin/forkstat
+/usr/bin/ocamlfind
+/usr/bin/fontmatrix
