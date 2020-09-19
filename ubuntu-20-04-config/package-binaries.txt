@@ -4699,3 +4699,4 @@
 /usr/sbin/tripwire
 /usr/sbin/twadmin
 /usr/sbin/twprint
+/usr/bin/tipp10
