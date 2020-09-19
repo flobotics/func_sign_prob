@@ -5562,3 +5562,4 @@
 /usr/lib/news/bin/rnews.libexec/decode
 /usr/lib/news/bin/rnews.libexec/encode
 /usr/bin/icmptx
+/usr/bin/ices2
