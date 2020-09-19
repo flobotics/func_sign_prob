@@ -4896,3 +4896,5 @@
 /usr/bin/tcutest
 /usr/bin/toppred
 /usr/bin/tagcoll
+/usr/bin/tetrafile
+/usr/bin/tetraproc
