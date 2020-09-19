@@ -1484,3 +1484,4 @@ fntsample
 ffmpegfs
 flatpak
 freebirth
+foo-yc20

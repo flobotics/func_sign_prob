@@ -2251,3 +2251,4 @@ ffmpegfs
 flatpak
 flatpak-tests
 freebirth
+foo-yc20

@@ -4441,3 +4441,5 @@
 /usr/bin/ffmpegfs
 /usr/bin/flatpak
 /usr/bin/freebirth
+/usr/bin/foo-yc20
+/usr/bin/foo-yc20-cli
