@@ -4926,3 +4926,7 @@
 /usr/bin/tcpreplay
 /usr/bin/tcpreplay-edit
 /usr/bin/tcprewrite
+/usr/bin/terraingenerator
+/usr/bin/tiled
+/usr/bin/tmxrasterizer
+/usr/bin/tmxviewer

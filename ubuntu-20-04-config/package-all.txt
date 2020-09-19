@@ -2522,3 +2522,4 @@ texworks-scripting-python
 termit
 torsocks
 tcpreplay
+tiled
