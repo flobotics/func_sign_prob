@@ -4712,3 +4712,4 @@
 /usr/bin/tutka
 /usr/bin/te923con
 /usr/bin/tpb
+/usr/bin/trayer
