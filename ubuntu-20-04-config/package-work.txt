@@ -1493,3 +1493,4 @@ fgetty
 fitspng
 fig2dev
 francine
+flrig

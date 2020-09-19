@@ -2267,3 +2267,4 @@ ffmpegthumbs
 fig2dev
 fontmanager.app
 francine
+flrig

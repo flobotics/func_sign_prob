@@ -4460,3 +4460,4 @@
 /usr/bin/fig2dev
 /usr/bin/transfig
 /bin/francine
+/usr/bin/flrig
