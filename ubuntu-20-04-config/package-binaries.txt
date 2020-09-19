@@ -5290,3 +5290,4 @@
 /usr/sbin/ttysnoop
 /usr/sbin/ttysnoops
 /usr/bin/toilet
+/usr/bin/tdc
