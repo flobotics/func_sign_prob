@@ -4545,3 +4545,4 @@
 /usr/sbin/ipa-rmkeytab
 /usr/bin/fookb
 /usr/bin/flamp
+/usr/bin/flwm

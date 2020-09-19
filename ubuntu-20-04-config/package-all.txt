@@ -2327,3 +2327,4 @@ ftpmirror
 freeipa-client
 fookb
 flamp
+flwm
