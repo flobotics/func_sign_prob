@@ -5284,3 +5284,4 @@
 /usr/bin/texstudio
 /usr/bin/tilix
 /usr/bin/topline
+/usr/bin/tcpflow
