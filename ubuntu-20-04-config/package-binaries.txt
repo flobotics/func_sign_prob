@@ -5506,3 +5506,4 @@
 /usr/bin/outl
 /usr/bin/outw
 /usr/bin/id3v2
+/usr/bin/indicator-sensors

@@ -2821,3 +2821,7 @@ ipband
 ippsample
 ioport
 id3v2
+ii-esu
+ibus-libthai
+indicator-bluetooth
+indicator-sensors

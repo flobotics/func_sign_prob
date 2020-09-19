@@ -1858,3 +1858,4 @@ ipband
 ippsample
 ioport
 id3v2
+indicator-sensors
