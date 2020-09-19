@@ -4653,3 +4653,4 @@
 /usr/bin/tpmtoken_setpasswd
 /usr/sbin/tinysshd
 /usr/bin/txt2pdbdoc
+/usr/bin/tilp
