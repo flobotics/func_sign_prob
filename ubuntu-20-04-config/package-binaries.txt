@@ -5289,3 +5289,4 @@
 /usr/bin/tintii
 /usr/sbin/ttysnoop
 /usr/sbin/ttysnoops
+/usr/bin/toilet

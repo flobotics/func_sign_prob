@@ -2665,3 +2665,4 @@ tintii
 tcl-fitstcl
 tetgen
 ttysnoop
+toilet
