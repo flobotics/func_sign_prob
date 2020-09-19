@@ -2369,3 +2369,4 @@ flexloader
 fastnetmon
 python3-libsigscan
 sndfile-programs
+ssw-align
