@@ -4509,3 +4509,4 @@
 /usr/bin/ffindex_get
 /usr/bin/ffindex_modify
 /usr/bin/ffindex_unpack
+/usr/bin/feathernotes
