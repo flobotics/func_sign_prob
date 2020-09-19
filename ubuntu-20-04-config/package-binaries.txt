@@ -4546,3 +4546,4 @@
 /usr/bin/fookb
 /usr/bin/flamp
 /usr/bin/flwm
+/usr/bin/fatsort
