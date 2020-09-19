@@ -4417,3 +4417,10 @@
 /usr/sbin/fwknopd
 /usr/bin/chkfont
 /usr/bin/figlet-figlet
+/usr/bin/fastforward
+/usr/bin/newinclude
+/usr/bin/printforward
+/usr/bin/printmaillist
+/usr/bin/setforward
+/usr/bin/setmaillist
+/usr/sbin/qmail-newaliases

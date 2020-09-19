@@ -2227,3 +2227,4 @@ fwknop-client
 fwknop-server
 fltk1.3-games
 figlet
+fastforward
