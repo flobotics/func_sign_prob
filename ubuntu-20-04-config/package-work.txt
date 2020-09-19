@@ -1518,3 +1518,4 @@ ffindex
 feathernotes
 f-irc
 freefem++
+flintqs

@@ -2300,3 +2300,4 @@ feathernotes
 f-irc
 fcitx-chewing
 freefem++
+flintqs
