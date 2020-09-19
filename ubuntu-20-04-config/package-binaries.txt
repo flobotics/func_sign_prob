@@ -4527,3 +4527,4 @@
 /usr/bin/showfond
 /usr/bin/ufond
 /usr/bin/flmsg
+/usr/bin/freecontact
