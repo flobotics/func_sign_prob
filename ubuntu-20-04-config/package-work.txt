@@ -1880,3 +1880,4 @@ imagination
 input-utils
 id-utils
 ipwatchd-gnotify
+ipmctl

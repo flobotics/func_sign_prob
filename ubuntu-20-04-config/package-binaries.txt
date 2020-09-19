@@ -5615,3 +5615,4 @@
 /usr/bin/mkid
 /usr/bin/xtokid
 /usr/sbin/ipwatchd-gnotify
+/usr/bin/ipmctl
