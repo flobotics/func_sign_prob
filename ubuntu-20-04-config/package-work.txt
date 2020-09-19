@@ -1834,3 +1834,4 @@ iptstate
 ipv6toolkit
 imwheel
 ipkungfu
+ifstat
