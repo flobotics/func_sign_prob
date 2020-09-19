@@ -1649,3 +1649,4 @@ ttyrec
 ttyload
 trojita
 textql
+tcsh

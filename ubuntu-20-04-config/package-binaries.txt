@@ -4875,3 +4875,4 @@
 /usr/bin/be.contacts
 /usr/bin/trojita
 /usr/bin/textql
+/bin/tcsh

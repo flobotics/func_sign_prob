@@ -841,3 +841,5 @@ tcl8.6-tdbc-mysql
 terminal.app
 treil
 tumiki-fighters
+timemon.app
+tk-html3

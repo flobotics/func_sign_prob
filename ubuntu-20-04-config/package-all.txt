@@ -2495,3 +2495,6 @@ treil
 tumiki-fighters
 trojita
 textql
+timemon.app
+tk-html3
+tcsh
