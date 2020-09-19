@@ -2591,3 +2591,4 @@ treeviewx
 tfdocgen
 tcd-utils
 t-coffee
+tuxpaint-config
