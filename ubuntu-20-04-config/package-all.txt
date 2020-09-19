@@ -2538,3 +2538,6 @@ tuxpuck
 tzc
 tmperamental
 tmfs
+tcl8.6-tdbc-postgres
+tfortune
+tarlz

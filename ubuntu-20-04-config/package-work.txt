@@ -1674,3 +1674,4 @@ tigervnc-common
 texlive-binaries
 tzc
 tmfs
+tarlz

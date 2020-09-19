@@ -859,3 +859,5 @@ tk-mpeg
 tdom
 tuxpuck
 tmperamental
+tcl8.6-tdbc-postgres
+tfortune
