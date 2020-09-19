@@ -5065,3 +5065,5 @@
 /usr/bin/tzc
 /usr/bin/tmfs
 /usr/bin/tarlz
+/usr/bin/tint2
+/usr/bin/tint2conf
