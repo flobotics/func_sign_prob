@@ -4537,3 +4537,4 @@
 /usr/bin/flashbench
 /usr/bin/flashbench-erase
 /usr/bin/findent
+/usr/bin/fische
