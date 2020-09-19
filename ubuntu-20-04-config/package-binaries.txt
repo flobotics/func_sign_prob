@@ -4510,3 +4510,4 @@
 /usr/bin/ffindex_modify
 /usr/bin/ffindex_unpack
 /usr/bin/feathernotes
+/usr/bin/f-irc
