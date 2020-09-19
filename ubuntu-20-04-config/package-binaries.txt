@@ -5563,3 +5563,15 @@
 /usr/lib/news/bin/rnews.libexec/encode
 /usr/bin/icmptx
 /usr/bin/ices2
+/usr/lib/irstlm/bin/compile-lm
+/usr/lib/irstlm/bin/cswa
+/usr/lib/irstlm/bin/dict
+/usr/lib/irstlm/bin/dtsel
+/usr/lib/irstlm/bin/interpolate-lm
+/usr/lib/irstlm/bin/ngt
+/usr/lib/irstlm/bin/plsa
+/usr/lib/irstlm/bin/prune-lm
+/usr/lib/irstlm/bin/quantize-lm
+/usr/lib/irstlm/bin/score-lm
+/usr/lib/irstlm/bin/tlm
+/usr/lib/irstlm/bin/verify-caching
