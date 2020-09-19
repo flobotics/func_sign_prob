@@ -2303,3 +2303,4 @@ freefem++
 flintqs
 freelan
 fondu
+flmsg

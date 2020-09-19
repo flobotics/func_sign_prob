@@ -4526,3 +4526,4 @@
 /usr/bin/setfondname
 /usr/bin/showfond
 /usr/bin/ufond
+/usr/bin/flmsg
