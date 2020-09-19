@@ -4633,3 +4633,5 @@
 /usr/bin/teseq
 /usr/bin/travis
 /usr/bin/trace-cmd
+/usr/bin/kernelshark
+/usr/bin/kshark-record

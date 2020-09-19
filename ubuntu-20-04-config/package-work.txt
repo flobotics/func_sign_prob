@@ -1581,3 +1581,4 @@ tantan
 teseq
 travis
 trace-cmd
+kernelshark
