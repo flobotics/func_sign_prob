@@ -4899,3 +4899,5 @@
 /usr/bin/tetrafile
 /usr/bin/tetraproc
 /usr/sbin/tcpspy
+/usr/bin/mc-tool
+/usr/bin/mc-wait-for-name

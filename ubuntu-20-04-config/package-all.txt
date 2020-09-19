@@ -2506,3 +2506,4 @@ tagcoll
 tetraproc
 php-tideways
 tcpspy
+telepathy-mission-control-5
