@@ -1683,3 +1683,4 @@ tcptraceroute
 timbl
 transcalc
 trustedqsl
+tapecalc
