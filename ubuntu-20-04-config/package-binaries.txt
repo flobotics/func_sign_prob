@@ -4857,3 +4857,7 @@
 /usr/bin/tyq
 /usr/bin/tysend
 /bin/ttygif
+/usr/bin/tcm
+/usr/bin/tcmd
+/usr/bin/tcmt
+/usr/bin/text2ps
