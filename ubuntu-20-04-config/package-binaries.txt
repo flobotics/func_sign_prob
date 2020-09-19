@@ -4426,3 +4426,4 @@
 /usr/sbin/qmail-newaliases
 /usr/bin/fakeroot-ng
 /usr/bin/faketime
+/usr/bin/falselogin
