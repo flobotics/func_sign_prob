@@ -966,3 +966,4 @@ infernal
 python3-isospec
 r-cran-isospec
 ipv6pref
+python3-pyisomd5sum

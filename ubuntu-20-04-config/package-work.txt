@@ -1886,3 +1886,4 @@ iverilog
 ifcplusplus
 icecc
 isomd5sum
+inspircd

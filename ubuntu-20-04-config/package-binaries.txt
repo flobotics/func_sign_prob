@@ -5625,3 +5625,4 @@
 /usr/sbin/iceccd
 /usr/bin/checkisomd5
 /usr/bin/implantisomd5
+/usr/sbin/inspircd
