@@ -2397,3 +2397,5 @@ wfut
 python-libwfut-0.2
 webp
 tantan
+tumbler
+teseq

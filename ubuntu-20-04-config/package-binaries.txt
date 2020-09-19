@@ -4630,3 +4630,4 @@
 /usr/bin/webpinfo
 /usr/bin/webpmux
 /usr/bin/tantan
+/usr/bin/teseq
