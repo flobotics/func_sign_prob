@@ -962,3 +962,4 @@ ii-esu
 ibus-libthai
 indicator-bluetooth
 indicator-keyboard
+infernal

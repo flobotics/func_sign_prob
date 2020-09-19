@@ -5575,3 +5575,4 @@
 /usr/lib/irstlm/bin/score-lm
 /usr/lib/irstlm/bin/tlm
 /usr/lib/irstlm/bin/verify-caching
+/usr/bin/i3status

@@ -1868,3 +1868,4 @@ inn2-inews
 icmptx
 ices2
 irstlm
+i3status

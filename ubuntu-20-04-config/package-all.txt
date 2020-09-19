@@ -2835,3 +2835,5 @@ inn2-inews
 icmptx
 ices2
 irstlm
+infernal
+i3status
