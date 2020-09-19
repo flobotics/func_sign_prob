@@ -2556,3 +2556,5 @@ trustedqsl
 tktreectrl
 tkblt
 tapecalc
+tenmado
+tsocks

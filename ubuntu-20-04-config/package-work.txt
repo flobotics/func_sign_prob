@@ -1684,3 +1684,4 @@ timbl
 transcalc
 trustedqsl
 tapecalc
+tsocks
