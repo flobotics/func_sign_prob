@@ -1512,3 +1512,4 @@ fbi
 fpgatools
 faustworks
 festival
+fraqtive

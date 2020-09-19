@@ -2293,3 +2293,4 @@ fpgatools
 printer-driver-fujixerox
 faustworks
 festival
+fraqtive
