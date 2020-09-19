@@ -2198,3 +2198,4 @@ fcitx5-frontend-gtk2
 fxload
 flactag
 fpga-icestorm
+fswatch

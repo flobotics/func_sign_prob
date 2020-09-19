@@ -1450,3 +1450,4 @@ fosfat
 fxload
 flactag
 fpga-icestorm
+fswatch

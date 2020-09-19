@@ -4374,3 +4374,4 @@
 /usr/bin/icepll
 /usr/bin/iceprog
 /usr/bin/icetime
+/usr/bin/fswatch
