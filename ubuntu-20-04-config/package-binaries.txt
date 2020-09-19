@@ -4408,3 +4408,7 @@
 /usr/bin/tape2wav
 /usr/bin/tapeconv
 /usr/bin/tzxlist
+/usr/bin/felix
+/usr/bin/cgflookup
+/usr/bin/flookup
+/usr/bin/foma

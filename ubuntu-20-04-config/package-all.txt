@@ -2212,3 +2212,6 @@ fprobe
 fbb
 flexpart
 fuse-emulator-utils
+felix-latin
+fathom
+foma
