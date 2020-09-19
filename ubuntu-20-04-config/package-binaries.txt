@@ -5302,3 +5302,6 @@
 /usr/bin/tricklectl
 /usr/bin/trickled
 /usr/bin/timemachine
+/usr/bin/Xtightvnc
+/usr/bin/tightvncconnect
+/usr/bin/tightvncpasswd

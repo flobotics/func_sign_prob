@@ -1764,3 +1764,4 @@ transmission-remote-gtk
 traildb-cli
 trickle
 timemachine
+tightvncserver

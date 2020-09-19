@@ -909,3 +909,4 @@ tcl-signal
 tcl-fitstcl
 tix
 tupi
+python3-tnetstring
