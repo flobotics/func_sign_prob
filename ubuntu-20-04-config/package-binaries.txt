@@ -4591,3 +4591,5 @@
 /usr/bin/flip
 /usr/bin/flannel
 /usr/bin/flexloader
+/usr/bin/fastnetmon_client
+/usr/sbin/fastnetmon
