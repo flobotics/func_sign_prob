@@ -5451,3 +5451,4 @@
 /usr/bin/pr3287
 /usr/bin/c3270
 /usr/bin/x3270if
+/usr/sbin/isatapd
