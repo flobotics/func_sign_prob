@@ -1756,3 +1756,5 @@ ttysnoop
 toilet
 tdc
 telepathy-indicator
+theseus
+tachyon-bin-nox

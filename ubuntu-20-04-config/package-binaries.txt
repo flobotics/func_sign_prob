@@ -5292,3 +5292,5 @@
 /usr/bin/toilet
 /usr/bin/tdc
 /usr/bin/telepathy-indicator
+/usr/bin/theseus
+/usr/bin/tachyon-nox
