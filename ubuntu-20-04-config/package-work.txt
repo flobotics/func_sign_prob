@@ -1502,3 +1502,4 @@ fs-uae
 fusecram
 fte
 fte-terminal
+fte-console

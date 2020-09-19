@@ -4481,3 +4481,4 @@
 /usr/bin/fusecram
 /usr/bin/cfte
 /usr/bin/sfte
+/usr/bin/vfte
