@@ -738,3 +738,4 @@ r-cran-foptions
 frotz
 fcitx-sayura
 r-cran-fgarch
+fortunate.app

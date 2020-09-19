@@ -4340,3 +4340,12 @@
 /usr/bin/fped
 /usr/bin/ffmpeg2theora
 /usr/bin/fig2sxd
+/usr/bin/fwb_iosacl
+/usr/bin/fwb_ipf
+/usr/bin/fwb_ipfw
+/usr/bin/fwb_ipt
+/usr/bin/fwb_pf
+/usr/bin/fwb_pix
+/usr/bin/fwb_procurve_acl
+/usr/bin/fwbedit
+/usr/bin/fwbuilder
