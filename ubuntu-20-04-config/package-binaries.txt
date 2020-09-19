@@ -4359,3 +4359,5 @@
 /usr/bin/fusesmb
 /usr/bin/fusesmb.cache
 /usr/bin/fping
+/usr/bin/flightcrew-cli
+/usr/bin/flightcrew-gui

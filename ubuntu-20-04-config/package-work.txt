@@ -1445,3 +1445,4 @@ fuzzylite
 flexc++
 fusesmb
 fping
+flightcrew
