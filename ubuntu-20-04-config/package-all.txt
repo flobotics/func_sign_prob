@@ -2799,3 +2799,5 @@ imapfilter
 ircmarkers
 itk3
 inkscape
+icmpush
+info-beamer

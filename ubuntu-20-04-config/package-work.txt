@@ -1837,3 +1837,5 @@ ipkungfu
 ifstat
 imapfilter
 inkscape
+icmpush
+info-beamer

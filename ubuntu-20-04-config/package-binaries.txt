@@ -5445,3 +5445,5 @@
 /usr/bin/imapfilter
 /usr/bin/inkscape
 /usr/bin/inkview
+/usr/bin/icmpush
+/usr/bin/info-beamer
