@@ -2825,3 +2825,5 @@ ii-esu
 ibus-libthai
 indicator-bluetooth
 indicator-sensors
+indicator-keyboard
+ipmiutil

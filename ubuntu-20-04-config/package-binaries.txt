@@ -5507,3 +5507,8 @@
 /usr/bin/outw
 /usr/bin/id3v2
 /usr/bin/indicator-sensors
+/usr/bin/idiscover
+/usr/bin/ievents
+/usr/bin/ipmiutil
+/usr/sbin/ipmi_port
+/usr/sbin/iseltime

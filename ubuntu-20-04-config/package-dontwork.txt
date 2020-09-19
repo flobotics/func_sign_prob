@@ -961,3 +961,4 @@ postgresql-12-ip4r
 ii-esu
 ibus-libthai
 indicator-bluetooth
+indicator-keyboard
