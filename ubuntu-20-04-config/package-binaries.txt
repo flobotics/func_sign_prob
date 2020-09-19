@@ -4864,3 +4864,4 @@
 /usr/bin/tinyproxy
 /usr/bin/tilda
 /usr/sbin/thinkfan
+/usr/bin/tnftp

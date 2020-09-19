@@ -2480,3 +2480,7 @@ tinyproxy-bin
 tilda
 tecnoballz
 thinkfan
+tcl-vfs
+torcs
+tcl-udp
+tnftp

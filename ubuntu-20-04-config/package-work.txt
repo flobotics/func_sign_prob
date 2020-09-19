@@ -1641,3 +1641,4 @@ tcm
 tinyproxy-bin
 tilda
 thinkfan
+tnftp
