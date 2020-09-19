@@ -4913,3 +4913,6 @@
 /usr/bin/tao2aiff
 /usr/bin/tao2wav
 /usr/bin/taoparse
+/usr/bin/gmac
+/usr/bin/tkgate
+/usr/bin/verga
