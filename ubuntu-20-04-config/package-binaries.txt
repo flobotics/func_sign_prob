@@ -5409,3 +5409,4 @@
 /usr/bin/iki-git-hook-update
 /usr/bin/iki-git-shell
 /usr/bin/ikisite-wrapper
+/usr/sbin/kea-ctrl-agent
