@@ -2709,3 +2709,6 @@ tntnet
 tntnet-demos
 tntnet-runtime
 tracetuner
+talksoup.app
+pd-ambix
+aosd-cat

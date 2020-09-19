@@ -926,3 +926,5 @@ r-cran-tseries
 transcend
 tntnet-demos
 tntnet-runtime
+talksoup.app
+pd-ambix

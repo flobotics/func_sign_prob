@@ -1778,3 +1778,4 @@ timblserver
 termtris
 tntnet
 tracetuner
+aosd-cat

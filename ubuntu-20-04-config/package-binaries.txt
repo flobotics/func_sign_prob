@@ -5326,3 +5326,4 @@
 /usr/bin/lut
 /usr/bin/train
 /usr/bin/ttuner
+/usr/bin/aosd_cat
