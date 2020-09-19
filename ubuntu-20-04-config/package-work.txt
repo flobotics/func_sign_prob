@@ -1705,3 +1705,4 @@ tcd-utils
 t-coffee
 tuxpaint-config
 tiptop
+trend

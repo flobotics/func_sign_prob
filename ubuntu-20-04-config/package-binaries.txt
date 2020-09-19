@@ -5223,3 +5223,4 @@
 /usr/bin/tuxpaint-config
 /usr/bin/ptiptop
 /usr/bin/tiptop
+/usr/bin/trend
