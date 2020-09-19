@@ -1619,3 +1619,4 @@ ttm
 terminatorx
 tpm2-initramfs-tool
 telegnome
+tcplay
