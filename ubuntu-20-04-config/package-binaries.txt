@@ -4635,3 +4635,8 @@
 /usr/bin/trace-cmd
 /usr/bin/kernelshark
 /usr/bin/kshark-record
+/usr/bin/tc2html
+/usr/bin/tc2null
+/usr/bin/tc2rtf
+/usr/bin/tc2text
+/usr/bin/troffcvt

@@ -2402,3 +2402,4 @@ teseq
 travis
 trace-cmd
 kernelshark
+troffcvt
