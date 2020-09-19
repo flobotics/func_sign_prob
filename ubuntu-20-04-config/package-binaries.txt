@@ -5067,3 +5067,4 @@
 /usr/bin/tarlz
 /usr/bin/tint2
 /usr/bin/tint2conf
+/usr/bin/treesheets

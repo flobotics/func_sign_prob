@@ -2542,3 +2542,4 @@ tcl8.6-tdbc-postgres
 tfortune
 tarlz
 tint2
+treesheets
