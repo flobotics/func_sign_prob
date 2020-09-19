@@ -2613,3 +2613,6 @@ tcmu-runner
 tvtime
 tvc
 tmate
+typespeed
+tkdnd
+twolame

@@ -888,3 +888,5 @@ tcl-tclex
 trackballs
 php-thrift
 python3-tagpy
+typespeed
+tkdnd

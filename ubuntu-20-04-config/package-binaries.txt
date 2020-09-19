@@ -5248,3 +5248,4 @@
 /usr/bin/tvcassembly
 /usr/bin/tvcutils
 /usr/bin/tmate
+/usr/bin/twolame
