@@ -5347,3 +5347,5 @@
 /usr/bin/igzip
 /usr/bin/ytnef
 /usr/bin/ytnefprint
+/usr/bin/yanglint
+/usr/bin/yangre
