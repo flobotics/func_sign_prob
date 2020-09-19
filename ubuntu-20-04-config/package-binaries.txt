@@ -4492,3 +4492,4 @@
 /usr/bin/romheaders
 /usr/bin/toke
 /usr/bin/exiftran
+/usr/bin/fbi

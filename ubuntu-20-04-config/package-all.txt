@@ -2288,3 +2288,4 @@ fstransform
 f2c
 fcode-utils
 exiftran
+fbi
