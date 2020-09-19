@@ -5308,3 +5308,4 @@
 /usr/bin/xtightvncviewer
 /usr/bin/theorur
 /usr/bin/twclock
+/usr/bin/tinyscheme

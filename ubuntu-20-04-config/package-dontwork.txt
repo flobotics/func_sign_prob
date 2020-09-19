@@ -917,3 +917,5 @@ postgresql-12-toastinfo
 torus-trooper
 tcl-tclreadline
 telepathy-accounts-signon
+telepathy-gabble-tests
+telepathy-logger

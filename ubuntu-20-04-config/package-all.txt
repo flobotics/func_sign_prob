@@ -2691,3 +2691,6 @@ torus-trooper
 tcl-tclreadline
 telepathy-accounts-signon
 twclock
+telepathy-gabble-tests
+telepathy-logger
+tinyscheme
