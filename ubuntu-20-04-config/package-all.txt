@@ -2286,3 +2286,4 @@ fte-console
 fte-xwindow
 fstransform
 f2c
+fcode-utils

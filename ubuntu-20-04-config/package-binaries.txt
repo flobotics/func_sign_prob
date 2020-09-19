@@ -4488,3 +4488,6 @@
 /usr/sbin/fsmove
 /usr/sbin/fsremap
 /usr/bin/f2c
+/usr/bin/detok
+/usr/bin/romheaders
+/usr/bin/toke
