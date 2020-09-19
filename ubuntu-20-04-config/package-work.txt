@@ -1797,3 +1797,4 @@ indelible
 isakmpd
 inhomog
 iaxmodem
+ipv6calc

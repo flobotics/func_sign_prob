@@ -5362,3 +5362,7 @@
 /usr/sbin/isakmpd
 /usr/bin/inhomog
 /usr/bin/iaxmodem
+/usr/bin/ipv6calc
+/usr/bin/ipv6loganon
+/usr/bin/ipv6logconv
+/usr/bin/ipv6logstats
