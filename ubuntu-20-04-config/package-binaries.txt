@@ -5295,3 +5295,6 @@
 /usr/bin/theseus
 /usr/bin/tachyon-nox
 /usr/bin/tachyon-ogl
+/usr/bin/TMalign
+/usr/bin/TMscore
+/usr/bin/transmission-remote-gtk
