@@ -895,3 +895,4 @@ tetzle
 tkpng
 telepathy-ring
 tiny-initramfs-core
+tclodbc
