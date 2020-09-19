@@ -890,3 +890,4 @@ php-thrift
 python3-tagpy
 typespeed
 tkdnd
+tenace
