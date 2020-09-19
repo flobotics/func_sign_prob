@@ -4690,3 +4690,8 @@
 /usr/bin/wordlist2dawg
 /usr/bin/termdebug
 /usr/bin/toulbar2
+/usr/bin/getpeername
+/usr/bin/mini-inetd
+/usr/bin/tcpbug
+/usr/bin/tcpconnect
+/usr/bin/tcplisten
