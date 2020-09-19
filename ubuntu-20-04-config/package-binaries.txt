@@ -4530,3 +4530,4 @@
 /usr/bin/freecontact
 /usr/bin/featherpad
 /usr/bin/fs_mark
+/usr/bin/forkstat

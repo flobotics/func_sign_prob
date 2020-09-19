@@ -1525,3 +1525,4 @@ flmsg
 freecontact
 featherpad
 fsmark
+forkstat
