@@ -817,3 +817,6 @@ python-libwfut-0.2
 tumbler
 trigger-rally
 telepathy-idle
+tgt-rbd
+tk-tktray
+tk-table
