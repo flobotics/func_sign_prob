@@ -4575,3 +4575,4 @@
 /usr/bin/frama-c-config
 /usr/bin/frama-c.byte
 /usr/bin/flog
+/usr/bin/fuse-overlayfs

@@ -1553,3 +1553,4 @@ flatpak-builder
 fastjar
 frama-c-base
 flog
+fuse-overlayfs

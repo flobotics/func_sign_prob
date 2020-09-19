@@ -2351,3 +2351,4 @@ fasm
 five-or-more
 frama-c-base
 flog
+fuse-overlayfs
