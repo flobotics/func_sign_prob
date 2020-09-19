@@ -1546,3 +1546,4 @@ fsa
 fwlogwatch
 fdm
 fuse-convmvfs
+freedv

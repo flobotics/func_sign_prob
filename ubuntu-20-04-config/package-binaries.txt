@@ -4564,3 +4564,4 @@
 /usr/bin/slice_mercator_alignment
 /usr/sbin/fwlogwatch
 /usr/bin/convmvfs
+/usr/bin/freedv
