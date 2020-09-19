@@ -5319,3 +5319,10 @@
 /usr/bin/timblserver
 /usr/games/bin/termtris
 /usr/bin/tntnet
+/usr/bin/checkbc
+/usr/bin/checkbcphd
+/usr/bin/checkqv
+/usr/bin/checkqvphd
+/usr/bin/lut
+/usr/bin/train
+/usr/bin/ttuner

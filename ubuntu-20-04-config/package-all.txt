@@ -2706,3 +2706,6 @@ transcend
 timblserver
 termtris
 tntnet
+tntnet-demos
+tntnet-runtime
+tracetuner
