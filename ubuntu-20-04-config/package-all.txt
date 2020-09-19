@@ -2717,3 +2717,5 @@ perl-stacktrace
 python3-arcus
 python-ariapy
 abigail-tools
+python-ieee1284
+icnsutils

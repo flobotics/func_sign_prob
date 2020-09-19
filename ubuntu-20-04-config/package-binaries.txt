@@ -5337,3 +5337,6 @@
 /usr/bin/abilint
 /usr/bin/abipkgdiff
 /usr/bin/kmidiff
+/usr/bin/icns2png
+/usr/bin/icontainer2icns
+/usr/bin/png2icns

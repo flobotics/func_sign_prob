@@ -931,3 +931,4 @@ pd-ambix
 perl-stacktrace
 python3-arcus
 python-ariapy
+python-ieee1284
