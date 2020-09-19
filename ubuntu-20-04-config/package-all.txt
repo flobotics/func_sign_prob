@@ -2246,3 +2246,5 @@ fence-virtd
 frame-tools
 gfio
 fntsample
+freegish
+ffmpegfs

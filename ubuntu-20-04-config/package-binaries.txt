@@ -4438,3 +4438,4 @@
 /usr/bin/frame-test-x11
 /usr/bin/gfio
 /usr/bin/fntsample
+/usr/bin/ffmpegfs

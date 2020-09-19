@@ -760,3 +760,4 @@ funguloids
 fcitx-unikey
 fizmo-console
 flobopuyo
+freegish

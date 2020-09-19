@@ -1481,3 +1481,4 @@ fence-virtd
 frame-tools
 gfio
 fntsample
+ffmpegfs
