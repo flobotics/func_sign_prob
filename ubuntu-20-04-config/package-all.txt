@@ -2635,3 +2635,11 @@ tf5
 tlf
 taskwarrior
 tty-clock
+transfermii
+transfermii-gui
+tomb
+tanglet
+tetrinet-server
+tetrinet-client
+telepathy-rakia
+tcpxtract

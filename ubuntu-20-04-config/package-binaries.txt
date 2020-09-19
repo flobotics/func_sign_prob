@@ -5270,3 +5270,6 @@
 /usr/bin/tf5
 /usr/bin/tlf
 /usr/bin/tty-clock
+/usr/bin/transfermii_cli
+/usr/bin/transfermii_gui
+/usr/bin/tcpxtract

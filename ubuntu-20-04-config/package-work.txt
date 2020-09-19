@@ -1733,3 +1733,6 @@ tf5
 tlf
 taskwarrior
 tty-clock
+transfermii
+transfermii-gui
+tcpxtract

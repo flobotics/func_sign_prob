@@ -897,3 +897,8 @@ telepathy-ring
 tiny-initramfs-core
 tclodbc
 trophy
+tomb
+tanglet
+tetrinet-server
+tetrinet-client
+telepathy-rakia
