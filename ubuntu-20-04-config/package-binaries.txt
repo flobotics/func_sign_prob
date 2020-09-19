@@ -5505,3 +5505,4 @@
 /usr/bin/outb
 /usr/bin/outl
 /usr/bin/outw
+/usr/bin/id3v2
