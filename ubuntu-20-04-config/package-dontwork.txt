@@ -781,3 +781,6 @@ foobillardplus
 feersum
 fcitx-sunpinyin
 freediameter-extensions
+fis-gtm-6.3-007
+fl-cow
+python3-fiona

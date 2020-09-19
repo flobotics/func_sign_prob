@@ -1533,3 +1533,4 @@ flashbench
 findent
 fische
 fmtools
+fsm-lite

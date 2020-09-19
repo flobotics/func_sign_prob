@@ -2319,3 +2319,7 @@ flashbench
 findent
 fische
 fmtools
+fis-gtm-6.3-007
+fl-cow
+python3-fiona
+fsm-lite

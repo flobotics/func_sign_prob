@@ -4539,3 +4539,4 @@
 /usr/bin/findent
 /usr/bin/fische
 /usr/bin/fmscan
+/usr/bin/fsm-lite
