@@ -2437,3 +2437,5 @@ transmission-daemon
 transmission-cli
 transmission-qt
 tutka
+tigr-glimmer
+te923con

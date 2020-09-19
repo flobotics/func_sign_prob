@@ -4710,3 +4710,4 @@
 /usr/bin/transmission-show
 /usr/bin/transmission-qt
 /usr/bin/tutka
+/usr/bin/te923con
