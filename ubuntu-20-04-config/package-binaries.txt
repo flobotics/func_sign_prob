@@ -5596,3 +5596,9 @@
 /usr/sbin/imontty
 /usr/sbin/iprofd
 /usr/sbin/isdnctrl
+/usr/bin/capifax
+/usr/bin/capiinfo
+/usr/sbin/avmcapictrl
+/usr/sbin/capifaxrcvd
+/usr/sbin/capiinit
+/usr/sbin/rcapid
