@@ -2767,3 +2767,4 @@ ibus-rime
 ibus-libzhuyin
 python3-imexam
 ircd-hybrid
+icinga2-bin

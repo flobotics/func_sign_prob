@@ -5398,3 +5398,4 @@
 /usr/bin/inotifywait
 /usr/bin/inotifywatch
 /usr/sbin/ircd-hybrid
+/usr/lib/x86_64-linux-gnu/icinga2/sbin/icinga2
