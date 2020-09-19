@@ -2633,3 +2633,5 @@ trophy
 tandem-mass
 tf5
 tlf
+taskwarrior
+tty-clock

@@ -5269,3 +5269,4 @@
 /usr/bin/tandem
 /usr/bin/tf5
 /usr/bin/tlf
+/usr/bin/tty-clock

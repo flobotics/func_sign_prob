@@ -1731,3 +1731,5 @@ tpm2-abrmd
 tandem-mass
 tf5
 tlf
+taskwarrior
+tty-clock
