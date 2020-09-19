@@ -5389,3 +5389,4 @@
 /usr/sbin/ircflush
 /usr/sbin/ircio
 /usr/sbin/wserv
+/usr/bin/clockdiff
