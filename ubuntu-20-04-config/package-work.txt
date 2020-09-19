@@ -1692,3 +1692,4 @@ trueprint
 tarantool-lts-client
 toxic
 tomoyo-tools
+tucnak

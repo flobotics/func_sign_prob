@@ -2575,3 +2575,4 @@ tarantool-lts-sophia-module
 tclxml
 toxic
 tomoyo-tools
+tucnak

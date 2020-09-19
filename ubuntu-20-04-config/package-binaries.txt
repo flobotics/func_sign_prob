@@ -5206,3 +5206,5 @@
 /usr/sbin/tomoyo-setlevel
 /usr/sbin/tomoyo-setprofile
 /usr/sbin/tomoyo-sortpolicy
+/usr/bin/soundwrapper
+/usr/bin/tucnak
