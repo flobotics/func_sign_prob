@@ -2560,3 +2560,6 @@ tenmado
 tsocks
 tclx8.4
 trabucco
+telegram-purple
+telegram-desktop
+tpm2-tools

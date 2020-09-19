@@ -869,3 +869,4 @@ tktreectrl
 tkblt
 tenmado
 tclx8.4
+telegram-purple

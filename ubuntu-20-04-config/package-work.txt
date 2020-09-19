@@ -1686,3 +1686,5 @@ trustedqsl
 tapecalc
 tsocks
 trabucco
+telegram-desktop
+tpm2-tools
