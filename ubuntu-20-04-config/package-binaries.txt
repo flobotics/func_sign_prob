@@ -5244,3 +5244,6 @@
 /usr/bin/tvtime-command
 /usr/bin/tvtime-configure
 /usr/bin/tvtime-scanner
+/usr/bin/tvc
+/usr/bin/tvcassembly
+/usr/bin/tvcutils
