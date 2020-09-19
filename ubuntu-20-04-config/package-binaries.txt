@@ -4689,3 +4689,4 @@
 /usr/bin/unicharset_extractor
 /usr/bin/wordlist2dawg
 /usr/bin/termdebug
+/usr/bin/toulbar2
