@@ -5603,3 +5603,4 @@
 /usr/sbin/capiinit
 /usr/sbin/rcapid
 /usr/bin/ibsim
+/usr/bin/imagination

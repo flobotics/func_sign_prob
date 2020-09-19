@@ -2847,3 +2847,4 @@ python3-isospec
 r-cran-isospec
 ipv6pref
 ibsim-utils
+imagination
