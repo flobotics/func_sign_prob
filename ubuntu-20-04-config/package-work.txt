@@ -1740,3 +1740,4 @@ tabble
 tinc
 transrate-tools
 tofrodos
+tableau-parm

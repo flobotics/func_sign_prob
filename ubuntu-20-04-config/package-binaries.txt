@@ -5277,3 +5277,4 @@
 /usr/sbin/tincd
 /usr/bin/bam-read
 /usr/bin/fromdos
+/usr/sbin/tableau-parm
