@@ -2662,3 +2662,6 @@ tcpflow
 tcpflow-nox
 timelimit
 tintii
+tcl-fitstcl
+tetgen
+ttysnoop

@@ -906,3 +906,4 @@ tuxtype
 transcriber
 tamil-gtk2im
 tcl-signal
+tcl-fitstcl
