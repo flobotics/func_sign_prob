@@ -2746,3 +2746,4 @@ iaxmodem
 ipv6calc
 indicator-printers
 icecast2
+iraf-mscred

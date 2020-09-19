@@ -5367,3 +5367,8 @@
 /usr/bin/ipv6logconv
 /usr/bin/ipv6logstats
 /usr/bin/icecast2
+/usr/lib/iraf/extern/mscred/bin/x_ccdred.e
+/usr/lib/iraf/extern/mscred/bin/x_finder.e
+/usr/lib/iraf/extern/mscred/bin/x_mscdisplay.e
+/usr/lib/iraf/extern/mscred/bin/x_mscexam.e
+/usr/lib/iraf/extern/mscred/bin/x_mscred.e
