@@ -839,3 +839,5 @@ torcs
 tcl-udp
 tcl8.6-tdbc-mysql
 terminal.app
+treil
+tumiki-fighters

@@ -2491,3 +2491,6 @@ terminal.app
 tiatracker
 ttyrec
 ttyload
+treil
+tumiki-fighters
+trojita

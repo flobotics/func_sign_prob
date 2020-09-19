@@ -4872,3 +4872,5 @@
 /usr/bin/ttyrec
 /usr/bin/ttytime
 /usr/bin/ttyload
+/usr/bin/be.contacts
+/usr/bin/trojita
