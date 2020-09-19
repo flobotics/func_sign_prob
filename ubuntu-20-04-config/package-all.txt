@@ -2606,3 +2606,4 @@ tcpcryptd
 thrift-compiler
 php-thrift
 tudu
+tickr

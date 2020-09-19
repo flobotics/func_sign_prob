@@ -1714,3 +1714,4 @@ ttf2ufm
 tcpcryptd
 thrift-compiler
 tudu
+tickr
