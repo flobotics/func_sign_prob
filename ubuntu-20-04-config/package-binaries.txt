@@ -4731,3 +4731,6 @@
 /usr/bin/tree-ppuzzle
 /usr/bin/ticker
 /usr/bin/twinkle-console
+/usr/bin/tablix2
+/usr/bin/tablix2_kernel
+/usr/bin/tablix2_output
