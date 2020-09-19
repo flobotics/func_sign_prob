@@ -4549,3 +4549,4 @@
 /usr/bin/fatsort
 /usr/bin/foomatic-combo-xml
 /usr/bin/foomatic-perl-data
+/usr/bin/fatcat
