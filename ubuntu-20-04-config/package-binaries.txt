@@ -4735,3 +4735,5 @@
 /usr/bin/tablix2_kernel
 /usr/bin/tablix2_output
 /usr/bin/tardy
+/usr/bin/trovacap
+/usr/bin/tbtadm

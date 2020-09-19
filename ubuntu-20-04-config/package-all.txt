@@ -2459,3 +2459,5 @@ tablix2
 titanion
 textedit.app
 tardy
+trovacap
+thunderbolt-tools

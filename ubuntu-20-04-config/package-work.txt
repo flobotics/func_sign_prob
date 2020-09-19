@@ -1627,3 +1627,5 @@ ticker
 twinkle-console
 tablix2
 tardy
+trovacap
+thunderbolt-tools
