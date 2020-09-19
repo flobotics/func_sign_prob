@@ -2272,3 +2272,7 @@ fdflush
 fontforge-nox
 python3-fontforge
 fontforge-extras
+fftw2
+sfftw2
+freedink-engine
+fastml

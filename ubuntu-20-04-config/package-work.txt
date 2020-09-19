@@ -1497,3 +1497,4 @@ flrig
 fdflush
 fontforge-nox
 fontforge-extras
+fastml

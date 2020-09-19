@@ -4473,3 +4473,6 @@
 /usr/bin/stripttc
 /usr/bin/ttf2eps
 /usr/bin/woff
+/usr/bin/fastml
+/usr/bin/gainLoss
+/usr/bin/indelCoder
