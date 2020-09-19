@@ -1818,3 +1818,4 @@ intel-cmt-cat
 iraf-rvsao
 i8kutils
 ipip
+i3lock

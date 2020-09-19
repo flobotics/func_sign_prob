@@ -5404,3 +5404,4 @@
 /usr/lib/iraf/extern/rvsao/bin/x_rvsao.e
 /usr/bin/i8kctl
 /usr/sbin/ipip
+/usr/bin/i3lock

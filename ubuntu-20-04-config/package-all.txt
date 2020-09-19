@@ -2775,3 +2775,6 @@ iraf-rvsao
 i8kutils
 ibus-kkc
 ipip
+ibus-sunpinyin
+tk-itk4
+i3lock

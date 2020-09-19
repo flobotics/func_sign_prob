@@ -952,3 +952,5 @@ python3-imexam
 icinga2-ido-mysql
 icinga2-ido-pgsql
 ibus-kkc
+ibus-sunpinyin
+tk-itk4
