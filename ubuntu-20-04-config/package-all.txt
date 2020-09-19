@@ -2461,3 +2461,4 @@ textedit.app
 tardy
 trovacap
 thunderbolt-tools
+timidity

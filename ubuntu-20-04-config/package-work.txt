@@ -1629,3 +1629,4 @@ tablix2
 tardy
 trovacap
 thunderbolt-tools
+timidity

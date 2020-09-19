@@ -4737,3 +4737,4 @@
 /usr/bin/tardy
 /usr/bin/trovacap
 /usr/bin/tbtadm
+/usr/bin/timidity
