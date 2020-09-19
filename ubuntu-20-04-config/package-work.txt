@@ -1622,3 +1622,4 @@ telegnome
 tcplay
 tcptrace
 tree-puzzle
+tree-ppuzzle

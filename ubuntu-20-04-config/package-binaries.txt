@@ -4728,3 +4728,4 @@
 /usr/sbin/tcplay
 /usr/bin/tcptrace
 /usr/bin/tree-puzzle
+/usr/bin/tree-ppuzzle
