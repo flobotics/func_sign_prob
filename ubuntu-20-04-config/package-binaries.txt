@@ -4540,3 +4540,6 @@
 /usr/bin/fische
 /usr/bin/fmscan
 /usr/bin/fsm-lite
+/usr/sbin/ipa-getkeytab
+/usr/sbin/ipa-join
+/usr/sbin/ipa-rmkeytab

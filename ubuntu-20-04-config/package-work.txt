@@ -1534,3 +1534,4 @@ findent
 fische
 fmtools
 fsm-lite
+freeipa-client
