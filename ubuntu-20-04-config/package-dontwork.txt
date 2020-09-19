@@ -857,3 +857,4 @@ tuxfootball
 tigervnc-xorg-extension
 tk-mpeg
 tdom
+tuxpuck

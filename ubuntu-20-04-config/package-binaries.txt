@@ -5062,3 +5062,4 @@
 /usr/bin/xdvi-xaw
 /usr/bin/xdvipdfmx
 /usr/bin/xetex
+/usr/bin/tzc

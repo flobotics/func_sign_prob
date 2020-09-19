@@ -1672,3 +1672,4 @@ tigervnc-scraping-server
 tigervnc-viewer
 tigervnc-common
 texlive-binaries
+tzc

@@ -2534,3 +2534,5 @@ tigervnc-common
 tk-mpeg
 tdom
 texlive-binaries
+tuxpuck
+tzc
