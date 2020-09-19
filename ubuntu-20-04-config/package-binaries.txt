@@ -5447,3 +5447,4 @@
 /usr/bin/inkview
 /usr/bin/icmpush
 /usr/bin/info-beamer
+/usr/bin/s3270

@@ -1839,3 +1839,4 @@ imapfilter
 inkscape
 icmpush
 info-beamer
+s3270

@@ -2801,3 +2801,5 @@ itk3
 inkscape
 icmpush
 info-beamer
+postgresql-12-ip4r
+s3270
