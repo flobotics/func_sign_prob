@@ -4454,3 +4454,5 @@
 /usr/bin/unknown
 /usr/bin/faucc
 /usr/bin/fort
+/bin/checkpassword.login
+/sbin/fgetty
