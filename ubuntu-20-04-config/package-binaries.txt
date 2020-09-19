@@ -4483,3 +4483,7 @@
 /usr/bin/sfte
 /usr/bin/vfte
 /usr/bin/xfte
+/usr/sbin/fsattr
+/usr/sbin/fsmount_kernel
+/usr/sbin/fsmove
+/usr/sbin/fsremap

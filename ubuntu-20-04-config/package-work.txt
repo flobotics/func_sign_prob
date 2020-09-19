@@ -1504,3 +1504,4 @@ fte
 fte-terminal
 fte-console
 fte-xwindow
+fstransform
