@@ -4496,3 +4496,5 @@
 /usr/bin/bit2fp
 /usr/bin/fp2bit
 /usr/bin/FaustWorks
+/usr/bin/festival
+/usr/bin/festival_client

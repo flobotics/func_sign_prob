@@ -2292,3 +2292,4 @@ fbi
 fpgatools
 printer-driver-fujixerox
 faustworks
+festival
