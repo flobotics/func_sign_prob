@@ -5416,3 +5416,4 @@
 /usr/sbin/perfdhcp
 /usr/sbin/kea-dhcp-ddns
 /usr/sbin/kea-dhcp6
+/usr/bin/iperf
