@@ -2649,3 +2649,6 @@ transrate-tools
 tofrodos
 tableau-parm
 tercpp
+tuxtype
+transcriber
+traverso

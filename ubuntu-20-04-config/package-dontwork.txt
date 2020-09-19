@@ -902,3 +902,5 @@ tanglet
 tetrinet-server
 tetrinet-client
 telepathy-rakia
+tuxtype
+transcriber

@@ -5279,3 +5279,4 @@
 /usr/bin/fromdos
 /usr/sbin/tableau-parm
 /usr/bin/tercpp
+/usr/bin/traverso
