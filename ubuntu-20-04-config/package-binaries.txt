@@ -5418,3 +5418,8 @@
 /usr/sbin/kea-dhcp6
 /usr/bin/iperf
 /usr/bin/i3blocks
+/usr/sbin/chkconf
+/usr/sbin/iauth
+/usr/sbin/ircd
+/usr/sbin/ircd-mkpasswd
+/usr/sbin/ircdwatch

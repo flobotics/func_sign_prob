@@ -2788,3 +2788,4 @@ kea-dhcp-ddns-server
 kea-dhcp6-server
 iperf
 i3blocks
+ircd-irc2
