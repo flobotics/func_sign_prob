@@ -4427,3 +4427,4 @@
 /usr/bin/fakeroot-ng
 /usr/bin/faketime
 /usr/bin/falselogin
+/usr/bin/fyre

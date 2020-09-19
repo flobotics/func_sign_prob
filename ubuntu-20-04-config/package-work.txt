@@ -1472,3 +1472,4 @@ fastforward
 fakeroot-ng
 faketime
 falselogin
+fyre

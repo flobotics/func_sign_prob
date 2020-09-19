@@ -2233,3 +2233,4 @@ fcitx-anthy
 fcitx-m17n
 faketime
 falselogin
+fyre
