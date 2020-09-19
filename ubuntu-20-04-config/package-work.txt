@@ -1519,3 +1519,4 @@ feathernotes
 f-irc
 freefem++
 flintqs
+freelan

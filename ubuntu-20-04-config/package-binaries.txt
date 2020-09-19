@@ -4519,3 +4519,4 @@
 /usr/bin/ffmaster
 /usr/bin/ffmedit
 /usr/bin/QuadraticSieve
+/usr/sbin/freelan

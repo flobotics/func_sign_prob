@@ -2301,3 +2301,4 @@ f-irc
 fcitx-chewing
 freefem++
 flintqs
+freelan
