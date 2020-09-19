@@ -2185,3 +2185,4 @@ fatresize
 flasm
 r-cran-fnonlinear
 firetools
+freehdl

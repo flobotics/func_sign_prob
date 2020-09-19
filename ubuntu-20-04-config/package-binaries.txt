@@ -4353,3 +4353,4 @@
 /usr/bin/flasm
 /usr/bin/firejail-ui
 /usr/bin/firetools
+/usr/bin/freehdl-v2cc
