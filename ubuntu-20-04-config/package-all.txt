@@ -2853,3 +2853,4 @@ id-utils
 ipwatchd-gnotify
 ipmctl
 indicator-multiload
+iverilog

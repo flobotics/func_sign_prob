@@ -5617,3 +5617,5 @@
 /usr/sbin/ipwatchd-gnotify
 /usr/bin/ipmctl
 /usr/bin/indicator-multiload
+/usr/bin/iverilog
+/usr/bin/vvp
