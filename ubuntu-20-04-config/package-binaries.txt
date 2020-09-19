@@ -4529,3 +4529,4 @@
 /usr/bin/flmsg
 /usr/bin/freecontact
 /usr/bin/featherpad
+/usr/bin/fs_mark
