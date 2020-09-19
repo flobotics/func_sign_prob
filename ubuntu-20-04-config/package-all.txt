@@ -2763,3 +2763,7 @@ irsim
 icmpinfo
 ibus-zhuyin
 inotify-tools
+ibus-rime
+ibus-libzhuyin
+python3-imexam
+ircd-hybrid

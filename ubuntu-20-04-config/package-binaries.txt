@@ -5397,3 +5397,4 @@
 /usr/sbin/icmpinfo
 /usr/bin/inotifywait
 /usr/bin/inotifywatch
+/usr/sbin/ircd-hybrid

@@ -946,3 +946,6 @@ ibus-array
 python3-indexed-gzip
 irsim
 ibus-zhuyin
+ibus-rime
+ibus-libzhuyin
+python3-imexam
