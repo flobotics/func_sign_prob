@@ -5310,3 +5310,6 @@
 /usr/bin/twclock
 /usr/bin/tinyscheme
 /usr/bin/tcptrack
+/usr/bin/sfconv
+/usr/bin/teckit_compile
+/usr/bin/txtconv
