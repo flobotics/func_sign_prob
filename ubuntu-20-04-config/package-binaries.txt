@@ -5496,3 +5496,4 @@
 /usr/bin/idlestat
 /usr/bin/aespasswd
 /usr/bin/pfstore
+/usr/sbin/ipband
