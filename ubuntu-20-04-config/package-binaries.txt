@@ -4930,3 +4930,14 @@
 /usr/bin/tiled
 /usr/bin/tmxrasterizer
 /usr/bin/tmxviewer
+/usr/bin/traffic_cache_tool
+/usr/bin/traffic_crashlog
+/usr/bin/traffic_ctl
+/usr/bin/traffic_layout
+/usr/bin/traffic_logcat
+/usr/bin/traffic_logstats
+/usr/bin/traffic_manager
+/usr/bin/traffic_server
+/usr/bin/traffic_top
+/usr/bin/traffic_via
+/usr/bin/traffic_wccp
