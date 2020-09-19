@@ -5239,3 +5239,4 @@
 /usr/bin/tudu
 /usr/bin/tickr
 /usr/bin/timew
+/usr/bin/tcmu-runner

@@ -1716,3 +1716,4 @@ thrift-compiler
 tudu
 tickr
 timewarrior
+tcmu-runner
