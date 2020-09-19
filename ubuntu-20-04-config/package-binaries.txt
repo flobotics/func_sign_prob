@@ -5345,3 +5345,5 @@
 /usr/bin/xorriso
 /usr/bin/ifp
 /usr/bin/igzip
+/usr/bin/ytnef
+/usr/bin/ytnefprint
