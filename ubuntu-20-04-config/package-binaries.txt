@@ -5266,3 +5266,4 @@
 /usr/bin/tsdecrypt_ffdecsa
 /usr/bin/tl-parser
 /usr/sbin/tpm2-abrmd
+/usr/bin/tandem

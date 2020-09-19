@@ -896,3 +896,4 @@ tkpng
 telepathy-ring
 tiny-initramfs-core
 tclodbc
+trophy

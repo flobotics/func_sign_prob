@@ -1728,3 +1728,4 @@ tpm-quote-tools
 tsdecrypt
 tl-parser
 tpm2-abrmd
+tandem-mass
