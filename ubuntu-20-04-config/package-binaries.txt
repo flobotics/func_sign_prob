@@ -4361,3 +4361,7 @@
 /usr/bin/fping
 /usr/bin/flightcrew-cli
 /usr/bin/flightcrew-gui
+/usr/bin/fosmount
+/usr/bin/fosread
+/usr/bin/fosrec
+/usr/bin/smascii
