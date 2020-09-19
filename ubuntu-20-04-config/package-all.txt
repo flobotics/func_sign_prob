@@ -2507,3 +2507,4 @@ tetraproc
 php-tideways
 tcpspy
 telepathy-mission-control-5
+tikzit
