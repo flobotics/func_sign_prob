@@ -2574,3 +2574,4 @@ tarantool-lts-postgresql-module
 tarantool-lts-sophia-module
 tclxml
 toxic
+tomoyo-tools

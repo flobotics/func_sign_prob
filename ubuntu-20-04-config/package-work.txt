@@ -1691,3 +1691,4 @@ tpm2-tools
 trueprint
 tarantool-lts-client
 toxic
+tomoyo-tools
