@@ -2761,3 +2761,5 @@ iroffer
 isync
 irsim
 icmpinfo
+ibus-zhuyin
+inotify-tools

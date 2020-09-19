@@ -945,3 +945,4 @@ indicator-printers
 ibus-array
 python3-indexed-gzip
 irsim
+ibus-zhuyin

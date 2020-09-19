@@ -5395,3 +5395,5 @@
 /usr/bin/mbsync
 /usr/bin/mdconvert
 /usr/sbin/icmpinfo
+/usr/bin/inotifywait
+/usr/bin/inotifywatch
