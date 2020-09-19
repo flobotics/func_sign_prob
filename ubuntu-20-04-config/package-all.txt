@@ -2531,3 +2531,6 @@ tigervnc-xorg-extension
 tigervnc-scraping-server
 tigervnc-viewer
 tigervnc-common
+tk-mpeg
+tdom
+texlive-binaries
