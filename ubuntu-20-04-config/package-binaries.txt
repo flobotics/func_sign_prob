@@ -4902,3 +4902,11 @@
 /usr/bin/mc-tool
 /usr/bin/mc-wait-for-name
 /usr/bin/tikzit
+/usr/lib/tinymux/game/bin/libmux.so
+/usr/lib/tinymux/game/bin/netmux
+/usr/lib/tinymux/game/bin/sample.so
+/usr/lib/tinymux/game/bin/slave
+/usr/lib/tinymux/game/bin/sqlproxy.so
+/usr/lib/tinymux/game/bin/sqlslave.so
+/usr/lib/tinymux/game/bin/stubslave
+/usr/lib/tinymux/game/bin/sum.so
