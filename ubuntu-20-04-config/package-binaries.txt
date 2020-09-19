@@ -4354,3 +4354,4 @@
 /usr/bin/firejail-ui
 /usr/bin/firetools
 /usr/bin/freehdl-v2cc
+/usr/bin/fuzzylite
