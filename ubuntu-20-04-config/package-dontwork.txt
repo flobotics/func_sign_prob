@@ -942,3 +942,5 @@ ibus-wayland
 ibus-tests
 ipheth-utils
 indicator-printers
+ibus-array
+python3-indexed-gzip

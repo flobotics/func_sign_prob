@@ -5373,3 +5373,8 @@
 /usr/lib/iraf/extern/mscred/bin/x_mscexam.e
 /usr/lib/iraf/extern/mscred/bin/x_mscred.e
 /usr/sbin/ircd-ircu
+/usr/lib/icedtea-web/bin/itweb-settings
+/usr/lib/icedtea-web/bin/javaws
+/usr/lib/icedtea-web/bin/policyeditor
+/usr/bin/iwctl
+/usr/bin/iwmon
