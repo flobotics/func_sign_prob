@@ -847,3 +847,8 @@ tk-html1
 tomatoes
 php-tideways
 tk707
+tali
+r-cran-tkrplot
+tclcurl
+texworks-scripting-lua
+texworks-scripting-python

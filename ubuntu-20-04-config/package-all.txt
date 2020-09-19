@@ -2513,3 +2513,10 @@ tinymux
 taopm
 tkgate
 tnat64
+tali
+tralics
+r-cran-tkrplot
+tclcurl
+texworks-scripting-lua
+texworks-scripting-python
+termit

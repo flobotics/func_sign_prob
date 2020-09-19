@@ -4917,3 +4917,5 @@
 /usr/bin/tkgate
 /usr/bin/verga
 /usr/bin/tnat64-validateconf
+/usr/bin/tralics
+/usr/bin/termit

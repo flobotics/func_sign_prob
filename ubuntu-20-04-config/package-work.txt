@@ -1661,3 +1661,5 @@ tinymux
 taopm
 tkgate
 tnat64
+tralics
+termit
