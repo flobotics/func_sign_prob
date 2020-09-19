@@ -1648,3 +1648,4 @@ tiatracker
 ttyrec
 ttyload
 trojita
+textql
