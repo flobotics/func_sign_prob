@@ -5186,3 +5186,4 @@
 /usr/bin/tpm2_testparms
 /usr/bin/tpm2_unseal
 /usr/bin/tpm2_verifysignature
+/usr/bin/trueprint
