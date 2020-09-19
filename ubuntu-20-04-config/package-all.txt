@@ -2698,3 +2698,4 @@ tcptrack
 teckit
 tatan
 tmpreaper
+texmaker

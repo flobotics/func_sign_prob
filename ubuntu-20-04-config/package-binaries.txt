@@ -5314,3 +5314,4 @@
 /usr/bin/teckit_compile
 /usr/bin/txtconv
 /usr/sbin/tmpreaper
+/usr/bin/texmaker
