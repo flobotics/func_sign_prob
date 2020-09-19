@@ -963,3 +963,6 @@ ibus-libthai
 indicator-bluetooth
 indicator-keyboard
 infernal
+python3-isospec
+r-cran-isospec
+ipv6pref

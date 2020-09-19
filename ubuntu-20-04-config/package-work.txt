@@ -1875,3 +1875,4 @@ ipppd
 isdnvboxserver
 isdnutils-base
 capiutils
+ibsim-utils
