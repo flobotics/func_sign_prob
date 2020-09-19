@@ -1800,3 +1800,4 @@ iaxmodem
 ipv6calc
 icecast2
 iraf-mscred
+ircd-ircu

@@ -5372,3 +5372,4 @@
 /usr/lib/iraf/extern/mscred/bin/x_mscdisplay.e
 /usr/lib/iraf/extern/mscred/bin/x_mscexam.e
 /usr/lib/iraf/extern/mscred/bin/x_mscred.e
+/usr/sbin/ircd-ircu

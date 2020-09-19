@@ -2747,3 +2747,4 @@ ipv6calc
 indicator-printers
 icecast2
 iraf-mscred
+ircd-ircu
