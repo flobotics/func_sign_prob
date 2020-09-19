@@ -1542,3 +1542,4 @@ fatsort
 foomatic-db-engine
 fatcat
 forked-daapd
+fsa

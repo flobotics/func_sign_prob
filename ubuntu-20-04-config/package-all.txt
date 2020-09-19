@@ -2332,3 +2332,6 @@ fatsort
 foomatic-db-engine
 fatcat
 forked-daapd
+python3-fabulous
+fillets-ng
+fsa

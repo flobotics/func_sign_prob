@@ -4551,3 +4551,14 @@
 /usr/bin/foomatic-perl-data
 /usr/bin/fatcat
 /usr/sbin/forked-daapd
+/usr/bin/fsa
+/usr/bin/fsa-translate
+/usr/bin/gapcleaner
+/usr/bin/isect_mercator_alignment_gff
+/usr/bin/map_coords
+/usr/bin/map_gff_coords
+/usr/bin/percentid
+/usr/bin/prot2codon
+/usr/bin/slice_fasta
+/usr/bin/slice_fasta_gff
+/usr/bin/slice_mercator_alignment
