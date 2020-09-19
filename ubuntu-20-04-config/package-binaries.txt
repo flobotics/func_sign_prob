@@ -4536,3 +4536,4 @@
 /usr/bin/freeDiameterd
 /usr/bin/flashbench
 /usr/bin/flashbench-erase
+/usr/bin/findent

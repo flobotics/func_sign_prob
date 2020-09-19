@@ -1530,3 +1530,4 @@ ocaml-findlib
 fontmatrix
 freediameterd
 flashbench
+findent
