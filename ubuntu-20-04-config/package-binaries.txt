@@ -4368,3 +4368,9 @@
 /sbin/fxload
 /usr/bin/discid
 /usr/bin/flactag
+/usr/bin/icebram
+/usr/bin/icemulti
+/usr/bin/icepack
+/usr/bin/icepll
+/usr/bin/iceprog
+/usr/bin/icetime

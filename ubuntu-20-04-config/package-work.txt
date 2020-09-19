@@ -1449,3 +1449,4 @@ flightcrew
 fosfat
 fxload
 flactag
+fpga-icestorm
