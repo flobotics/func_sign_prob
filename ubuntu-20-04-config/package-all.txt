@@ -2257,3 +2257,6 @@ flam3
 fastlink
 fcitx-ui-light
 faucc
+freetennis
+fceux
+fort-validator

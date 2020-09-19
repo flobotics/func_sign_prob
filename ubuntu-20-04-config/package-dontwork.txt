@@ -764,3 +764,5 @@ freegish
 flatpak-tests
 r-cran-foreign
 fcitx-ui-light
+freetennis
+fceux
