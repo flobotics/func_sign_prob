@@ -1842,3 +1842,4 @@ info-beamer
 s3270
 pr3287
 c3270
+3270-common
