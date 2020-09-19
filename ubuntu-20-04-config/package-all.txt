@@ -2473,3 +2473,4 @@ tntdb-postgresql4v5
 textdraw
 tootle
 tss2
+terminology
