@@ -1784,3 +1784,4 @@ abigail-tools
 icnsutils
 idn2
 iiod
+xorriso
