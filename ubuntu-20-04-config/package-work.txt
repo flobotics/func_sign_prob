@@ -1453,3 +1453,4 @@ fpga-icestorm
 fswatch
 flpsed
 fbterm-ucimf
+filtergen

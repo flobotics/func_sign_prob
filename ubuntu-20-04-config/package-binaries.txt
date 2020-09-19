@@ -4377,3 +4377,4 @@
 /usr/bin/fswatch
 /usr/bin/flpsed
 /usr/bin/fbterm_ucimf
+/usr/sbin/filtergen
