@@ -1808,3 +1808,4 @@ iprange
 irony-server
 ircii
 iputils-clockdiff
+iroffer

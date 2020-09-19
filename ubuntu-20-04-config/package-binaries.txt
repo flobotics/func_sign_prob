@@ -5390,3 +5390,4 @@
 /usr/sbin/ircio
 /usr/sbin/wserv
 /usr/bin/clockdiff
+/usr/bin/iroffer
