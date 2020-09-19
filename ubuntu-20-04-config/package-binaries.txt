@@ -5285,3 +5285,4 @@
 /usr/bin/tilix
 /usr/bin/topline
 /usr/bin/tcpflow
+/usr/bin/timelimit
