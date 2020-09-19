@@ -2358,3 +2358,7 @@ fluxbox
 fluidsynth-dssi
 fcitx-module-autoeng-ng
 fityk
+nautilus-font-manager
+font-manager-common
+nemo-font-manager
+florence

@@ -795,3 +795,6 @@ fasm
 five-or-more
 fluidsynth-dssi
 fcitx-module-autoeng-ng
+nautilus-font-manager
+font-manager-common
+nemo-font-manager
