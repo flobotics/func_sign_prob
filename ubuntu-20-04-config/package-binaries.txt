@@ -5512,3 +5512,4 @@
 /usr/bin/ipmiutil
 /usr/sbin/ipmi_port
 /usr/sbin/iseltime
+/usr/bin/isoquery

@@ -2827,3 +2827,4 @@ indicator-bluetooth
 indicator-sensors
 indicator-keyboard
 ipmiutil
+isoquery

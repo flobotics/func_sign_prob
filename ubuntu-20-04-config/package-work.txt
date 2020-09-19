@@ -1860,3 +1860,4 @@ ioport
 id3v2
 indicator-sensors
 ipmiutil
+isoquery
