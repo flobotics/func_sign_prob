@@ -845,3 +845,4 @@ timemon.app
 tk-html3
 tk-html1
 tomatoes
+php-tideways

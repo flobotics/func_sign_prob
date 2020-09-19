@@ -4898,3 +4898,4 @@
 /usr/bin/tagcoll
 /usr/bin/tetrafile
 /usr/bin/tetraproc
+/usr/sbin/tcpspy

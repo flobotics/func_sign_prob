@@ -1654,3 +1654,4 @@ tokyocabinet-bin
 toppred
 tagcoll
 tetraproc
+tcpspy
