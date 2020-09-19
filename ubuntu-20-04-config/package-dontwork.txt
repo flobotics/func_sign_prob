@@ -858,3 +858,4 @@ tigervnc-xorg-extension
 tk-mpeg
 tdom
 tuxpuck
+tmperamental
