@@ -4479,3 +4479,4 @@
 /usr/bin/fs-uae
 /usr/bin/fs-uae-device-helper
 /usr/bin/fusecram
+/usr/bin/cfte

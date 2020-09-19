@@ -774,3 +774,4 @@ fftw2
 sfftw2
 freedink-engine
 fruit
+fcitx-dbus-status

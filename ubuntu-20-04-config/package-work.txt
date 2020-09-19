@@ -1500,3 +1500,4 @@ fontforge-extras
 fastml
 fs-uae
 fusecram
+fte

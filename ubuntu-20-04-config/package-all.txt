@@ -2279,3 +2279,5 @@ fastml
 fruit
 fs-uae
 fusecram
+fcitx-dbus-status
+fte
