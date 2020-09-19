@@ -802,3 +802,5 @@ flamerobin
 python3-libsigscan
 python3-sbml5
 python3-solv
+python3-libsass
+python3-libsmdev

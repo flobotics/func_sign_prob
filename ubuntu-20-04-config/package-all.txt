@@ -2376,3 +2376,6 @@ statgrab
 saidar
 python3-solv
 samplerate-programs
+python3-libsass
+python3-libsmdev
+sepol-utils
