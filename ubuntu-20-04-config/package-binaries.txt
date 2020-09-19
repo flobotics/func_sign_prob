@@ -4654,3 +4654,5 @@
 /usr/sbin/tinysshd
 /usr/bin/txt2pdbdoc
 /usr/bin/tilp
+/usr/bin/2ndscore
+/usr/bin/transterm

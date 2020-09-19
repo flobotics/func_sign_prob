@@ -2410,3 +2410,4 @@ telepathy-idle
 tinysshd
 txt2pdbdoc
 tilp2
+transtermhp
