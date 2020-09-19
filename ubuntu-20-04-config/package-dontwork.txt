@@ -904,3 +904,4 @@ tetrinet-client
 telepathy-rakia
 tuxtype
 transcriber
+tamil-gtk2im

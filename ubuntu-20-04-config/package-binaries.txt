@@ -5283,3 +5283,4 @@
 /usr/bin/tcpreen
 /usr/bin/texstudio
 /usr/bin/tilix
+/usr/bin/topline
