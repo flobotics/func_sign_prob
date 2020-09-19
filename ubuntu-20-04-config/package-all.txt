@@ -2816,3 +2816,4 @@ pdftoipe
 figtoipe
 ipe5toxml
 idlestat
+i2util-tools

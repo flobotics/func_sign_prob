@@ -5494,3 +5494,5 @@
 /usr/bin/figtoipe
 /usr/bin/ipe5toxml
 /usr/bin/idlestat
+/usr/bin/aespasswd
+/usr/bin/pfstore
