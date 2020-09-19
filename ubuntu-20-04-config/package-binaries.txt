@@ -4640,3 +4640,9 @@
 /usr/bin/tc2rtf
 /usr/bin/tc2text
 /usr/bin/troffcvt
+/usr/lib/trinityrnaseq/Inchworm/bin/FastaToDeBruijn
+/usr/lib/trinityrnaseq/Inchworm/bin/cigar_tweaker
+/usr/lib/trinityrnaseq/Inchworm/bin/fastaToKmerCoverageStats
+/usr/lib/trinityrnaseq/Inchworm/bin/inchworm
+/usr/lib/trinityrnaseq/Inchworm/bin/pull_reads_with_kmers
+/usr/lib/trinityrnaseq/trinity-plugins/slclust/bin/slclust
