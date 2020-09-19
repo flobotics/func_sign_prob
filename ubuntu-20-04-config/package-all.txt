@@ -2558,3 +2558,5 @@ tkblt
 tapecalc
 tenmado
 tsocks
+tclx8.4
+trabucco

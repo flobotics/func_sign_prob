@@ -1685,3 +1685,4 @@ transcalc
 trustedqsl
 tapecalc
 tsocks
+trabucco
