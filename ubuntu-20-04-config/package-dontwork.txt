@@ -910,3 +910,10 @@ tcl-fitstcl
 tix
 tupi
 python3-tnetstring
+teeworlds-server
+tcl-thread
+tintin++
+postgresql-12-toastinfo
+torus-trooper
+tcl-tclreadline
+telepathy-accounts-signon

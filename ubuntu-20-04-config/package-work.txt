@@ -1766,3 +1766,6 @@ trickle
 timemachine
 tightvncserver
 xtightvncviewer
+theorur
+task-spooler
+twclock

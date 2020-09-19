@@ -2681,3 +2681,13 @@ timemachine
 python3-tnetstring
 tightvncserver
 xtightvncviewer
+theorur
+teeworlds-server
+tcl-thread
+task-spooler
+tintin++
+postgresql-12-toastinfo
+torus-trooper
+tcl-tclreadline
+telepathy-accounts-signon
+twclock

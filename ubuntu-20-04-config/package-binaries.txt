@@ -5306,3 +5306,5 @@
 /usr/bin/tightvncconnect
 /usr/bin/tightvncpasswd
 /usr/bin/xtightvncviewer
+/usr/bin/theorur
+/usr/bin/twclock
