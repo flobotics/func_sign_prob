@@ -4713,3 +4713,4 @@
 /usr/bin/te923con
 /usr/bin/tpb
 /usr/bin/trayer
+/usr/bin/twm
