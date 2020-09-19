@@ -4358,3 +4358,4 @@
 /usr/bin/flexc++
 /usr/bin/fusesmb
 /usr/bin/fusesmb.cache
+/usr/bin/fping

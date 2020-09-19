@@ -1444,3 +1444,4 @@ freehdl
 fuzzylite
 flexc++
 fusesmb
+fping
