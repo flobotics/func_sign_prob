@@ -1551,3 +1551,5 @@ fsarchiver
 folks-tools
 flatpak-builder
 fastjar
+frama-c-base
+flog

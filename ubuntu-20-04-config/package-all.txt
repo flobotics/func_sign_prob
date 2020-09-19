@@ -2346,3 +2346,8 @@ folks-tools
 fairymax
 flatpak-builder
 fastjar
+fcitx-hangul
+fasm
+five-or-more
+frama-c-base
+flog

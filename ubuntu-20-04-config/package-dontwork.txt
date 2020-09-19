@@ -790,3 +790,6 @@ fillets-ng
 flatpak-xdg-utils-tests
 fcitx-skk
 fairymax
+fcitx-hangul
+fasm
+five-or-more

@@ -4571,3 +4571,7 @@
 /usr/bin/flatpak-builder
 /usr/bin/fastjar
 /usr/bin/grepjar
+/usr/bin/frama-c
+/usr/bin/frama-c-config
+/usr/bin/frama-c.byte
+/usr/bin/flog
