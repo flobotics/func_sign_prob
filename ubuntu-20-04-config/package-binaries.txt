@@ -4651,3 +4651,4 @@
 /usr/bin/tpmtoken_objects
 /usr/bin/tpmtoken_protect
 /usr/bin/tpmtoken_setpasswd
+/usr/sbin/tinysshd

@@ -1585,3 +1585,4 @@ kernelshark
 troffcvt
 trinityrnaseq
 tpm-tools-pkcs11
+tinysshd

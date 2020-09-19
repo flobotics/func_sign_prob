@@ -2406,3 +2406,5 @@ troffcvt
 trinityrnaseq
 trigger-rally
 tpm-tools-pkcs11
+telepathy-idle
+tinysshd
