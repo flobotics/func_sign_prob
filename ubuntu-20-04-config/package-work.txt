@@ -1650,3 +1650,4 @@ ttyload
 trojita
 textql
 tcsh
+tokyocabinet-bin

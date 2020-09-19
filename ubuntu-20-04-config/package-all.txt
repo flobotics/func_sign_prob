@@ -2498,3 +2498,4 @@ textql
 timemon.app
 tk-html3
 tcsh
+tokyocabinet-bin
