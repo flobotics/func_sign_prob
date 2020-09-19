@@ -886,3 +886,4 @@ tuxonice-userui
 python3-termbox
 tcl-tclex
 trackballs
+php-thrift

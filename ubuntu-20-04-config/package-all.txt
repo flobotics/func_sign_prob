@@ -2604,3 +2604,5 @@ tcpick
 ttf2ufm
 tcpcryptd
 thrift-compiler
+php-thrift
+tudu

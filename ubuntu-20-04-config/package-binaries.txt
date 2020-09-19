@@ -5236,3 +5236,4 @@
 /usr/bin/tcnetstat
 /usr/bin/tcpcryptd
 /usr/bin/thrift
+/usr/bin/tudu
