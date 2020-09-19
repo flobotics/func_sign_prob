@@ -2290,3 +2290,5 @@ fcode-utils
 exiftran
 fbi
 fpgatools
+printer-driver-fujixerox
+faustworks

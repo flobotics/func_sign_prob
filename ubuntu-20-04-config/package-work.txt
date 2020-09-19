@@ -1510,3 +1510,4 @@ fcode-utils
 exiftran
 fbi
 fpgatools
+faustworks

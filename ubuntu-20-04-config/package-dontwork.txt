@@ -775,3 +775,4 @@ sfftw2
 freedink-engine
 fruit
 fcitx-dbus-status
+printer-driver-fujixerox
