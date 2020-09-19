@@ -4493,3 +4493,5 @@
 /usr/bin/toke
 /usr/bin/exiftran
 /usr/bin/fbi
+/usr/bin/bit2fp
+/usr/bin/fp2bit

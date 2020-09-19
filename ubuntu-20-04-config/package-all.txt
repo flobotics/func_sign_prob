@@ -2289,3 +2289,4 @@ f2c
 fcode-utils
 exiftran
 fbi
+fpgatools
