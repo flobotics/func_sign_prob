@@ -1456,3 +1456,4 @@ fbterm-ucimf
 filtergen
 fastp
 focuswriter
+fatattr

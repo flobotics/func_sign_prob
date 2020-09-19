@@ -4380,3 +4380,4 @@
 /usr/sbin/filtergen
 /usr/bin/fastp
 /usr/bin/focuswriter
+/usr/bin/fatattr
