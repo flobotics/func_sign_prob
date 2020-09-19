@@ -2527,3 +2527,5 @@ tuxfootball
 trafficserver
 tinyirc
 tigervnc-standalone-server
+tigervnc-xorg-extension
+tigervnc-scraping-server

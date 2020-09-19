@@ -4943,3 +4943,4 @@
 /usr/bin/traffic_wccp
 /usr/bin/tinyirc
 /usr/bin/Xtigervnc
+/usr/bin/x0tigervncserver

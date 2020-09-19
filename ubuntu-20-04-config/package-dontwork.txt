@@ -854,3 +854,4 @@ texworks-scripting-lua
 texworks-scripting-python
 torsocks
 tuxfootball
+tigervnc-xorg-extension
