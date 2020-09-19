@@ -4605,3 +4605,4 @@
 /usr/bin/sndfile-salvage
 /usr/bin/ssw-align
 /usr/bin/storj
+/usr/bin/statgrab
