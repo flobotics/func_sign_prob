@@ -2582,3 +2582,4 @@ tagua
 tthsum
 tvoe
 ttfautohint
+ttylog

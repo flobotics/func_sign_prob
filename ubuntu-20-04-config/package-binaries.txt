@@ -5212,3 +5212,4 @@
 /usr/bin/tvoe
 /usr/bin/ttfautohint
 /usr/bin/ttfautohintGUI
+/usr/sbin/ttylog
