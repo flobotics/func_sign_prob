@@ -1887,3 +1887,4 @@ ifcplusplus
 icecc
 isomd5sum
 inspircd
+incron
