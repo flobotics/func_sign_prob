@@ -2399,3 +2399,4 @@ webp
 tantan
 tumbler
 teseq
+travis

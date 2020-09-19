@@ -4631,3 +4631,4 @@
 /usr/bin/webpmux
 /usr/bin/tantan
 /usr/bin/teseq
+/usr/bin/travis
