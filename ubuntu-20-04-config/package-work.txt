@@ -1699,3 +1699,5 @@ ttfautohint
 ttylog
 triggerhappy
 tkdesk
+treeviewx
+tfdocgen

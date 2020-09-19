@@ -5216,3 +5216,4 @@
 /usr/sbin/th-cmd
 /usr/sbin/thd
 /usr/bin/tkdeskclient
+/usr/bin/tfdocgen

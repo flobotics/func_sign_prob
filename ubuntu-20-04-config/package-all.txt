@@ -2586,3 +2586,6 @@ ttylog
 triggerhappy
 tworld
 tkdesk
+tuxonice-userui
+treeviewx
+tfdocgen
