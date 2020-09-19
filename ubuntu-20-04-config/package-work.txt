@@ -1550,3 +1550,4 @@ freedv
 fsarchiver
 folks-tools
 flatpak-builder
+fastjar

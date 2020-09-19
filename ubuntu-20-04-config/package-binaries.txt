@@ -4569,3 +4569,5 @@
 /usr/bin/folks-import
 /usr/bin/folks-inspect
 /usr/bin/flatpak-builder
+/usr/bin/fastjar
+/usr/bin/grepjar

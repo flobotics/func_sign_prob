@@ -2345,3 +2345,4 @@ fsarchiver
 folks-tools
 fairymax
 flatpak-builder
+fastjar
