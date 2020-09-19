@@ -5249,3 +5249,5 @@
 /usr/bin/tvcutils
 /usr/bin/tmate
 /usr/bin/twolame
+/usr/bin/i386-tcc
+/usr/bin/tcc
