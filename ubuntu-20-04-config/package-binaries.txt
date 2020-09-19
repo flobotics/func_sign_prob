@@ -4695,3 +4695,7 @@
 /usr/bin/tcpbug
 /usr/bin/tcpconnect
 /usr/bin/tcplisten
+/usr/sbin/siggen
+/usr/sbin/tripwire
+/usr/sbin/twadmin
+/usr/sbin/twprint

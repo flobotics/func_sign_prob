@@ -1601,3 +1601,4 @@ tesseract-ocr
 termdebug
 toulbar2
 tcputils
+tripwire

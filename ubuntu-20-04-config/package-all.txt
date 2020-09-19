@@ -2428,3 +2428,5 @@ tesseract-ocr
 termdebug
 toulbar2
 tcputils
+triplane
+tripwire
