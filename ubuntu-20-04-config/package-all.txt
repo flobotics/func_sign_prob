@@ -2526,3 +2526,4 @@ tiled
 tuxfootball
 trafficserver
 tinyirc
+tigervnc-standalone-server

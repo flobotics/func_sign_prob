@@ -1667,3 +1667,4 @@ tcpreplay
 tiled
 trafficserver
 tinyirc
+tigervnc-standalone-server
