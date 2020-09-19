@@ -5093,3 +5093,4 @@
 /usr/bin/tcptraceroute.mt
 /usr/bin/timbl
 /usr/bin/transcalc
+/usr/bin/tqsl
