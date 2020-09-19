@@ -5391,3 +5391,6 @@
 /usr/sbin/wserv
 /usr/bin/clockdiff
 /usr/bin/iroffer
+/usr/bin/isync
+/usr/bin/mbsync
+/usr/bin/mdconvert
