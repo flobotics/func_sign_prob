@@ -1501,3 +1501,4 @@ fastml
 fs-uae
 fusecram
 fte
+fte-terminal

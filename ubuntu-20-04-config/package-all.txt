@@ -2281,3 +2281,4 @@ fs-uae
 fusecram
 fcitx-dbus-status
 fte
+fte-terminal
