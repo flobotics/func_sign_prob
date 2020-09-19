@@ -4656,3 +4656,4 @@
 /usr/bin/tilp
 /usr/bin/2ndscore
 /usr/bin/transterm
+/usr/bin/tellico

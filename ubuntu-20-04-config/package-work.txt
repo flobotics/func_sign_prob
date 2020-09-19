@@ -1589,3 +1589,4 @@ tinysshd
 txt2pdbdoc
 tilp2
 transtermhp
+tellico
