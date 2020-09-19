@@ -5497,3 +5497,5 @@
 /usr/bin/aespasswd
 /usr/bin/pfstore
 /usr/sbin/ipband
+/usr/sbin/ippproxy
+/usr/sbin/ippserver
