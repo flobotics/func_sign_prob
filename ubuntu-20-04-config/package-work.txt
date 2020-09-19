@@ -1681,3 +1681,4 @@ traceroute
 tstools
 tcptraceroute
 timbl
+transcalc

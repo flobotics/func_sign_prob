@@ -5092,3 +5092,4 @@
 /usr/bin/tsserve
 /usr/bin/tcptraceroute.mt
 /usr/bin/timbl
+/usr/bin/transcalc
