@@ -1710,3 +1710,5 @@ tetradraw
 termrec
 taptempo
 tcpick
+ttf2ufm
+tcpcryptd

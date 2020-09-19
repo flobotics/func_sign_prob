@@ -5232,3 +5232,6 @@
 /usr/bin/termtime
 /usr/bin/taptempo
 /usr/sbin/tcpick
+/usr/bin/ttf2ufm
+/usr/bin/tcnetstat
+/usr/bin/tcpcryptd
