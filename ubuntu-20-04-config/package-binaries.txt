@@ -5452,3 +5452,13 @@
 /usr/bin/c3270
 /usr/bin/x3270if
 /usr/sbin/isatapd
+/usr/lib/iraf/unix/bin/f2c.e
+/usr/lib/iraf/unix/bin/generic.e
+/usr/lib/iraf/unix/bin/mkpkg.e
+/usr/lib/iraf/unix/bin/rmfiles.e
+/usr/lib/iraf/unix/bin/rpp.e
+/usr/lib/iraf/unix/bin/rtar.e
+/usr/lib/iraf/unix/bin/wtar.e
+/usr/lib/iraf/unix/bin/xc.e
+/usr/lib/iraf/unix/bin/xpp.e
+/usr/lib/iraf/unix/bin/xyacc.e
