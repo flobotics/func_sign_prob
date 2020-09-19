@@ -2841,3 +2841,4 @@ isdnvboxclient
 isdnlog
 ipppd
 isdnvboxserver
+isdnutils-base

@@ -5590,3 +5590,9 @@
 /usr/sbin/ipppstats
 /usr/sbin/vboxd
 /usr/sbin/vboxgetty
+/usr/sbin/divertctrl
+/usr/sbin/hisaxctrl
+/usr/sbin/imon
+/usr/sbin/imontty
+/usr/sbin/iprofd
+/usr/sbin/isdnctrl
