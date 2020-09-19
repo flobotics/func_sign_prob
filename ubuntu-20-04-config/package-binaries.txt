@@ -5415,3 +5415,4 @@
 /usr/sbin/kea-lfc
 /usr/sbin/perfdhcp
 /usr/sbin/kea-dhcp-ddns
+/usr/sbin/kea-dhcp6
