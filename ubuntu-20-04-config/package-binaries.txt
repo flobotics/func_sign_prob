@@ -4945,3 +4945,5 @@
 /usr/bin/Xtigervnc
 /usr/bin/x0tigervncserver
 /usr/bin/xtigervncviewer
+/usr/bin/tigervncconfig
+/usr/bin/tigervncpasswd

@@ -2530,3 +2530,4 @@ tigervnc-standalone-server
 tigervnc-xorg-extension
 tigervnc-scraping-server
 tigervnc-viewer
+tigervnc-common
