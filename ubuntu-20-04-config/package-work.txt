@@ -1473,3 +1473,4 @@ fakeroot-ng
 faketime
 falselogin
 fyre
+fbpanel

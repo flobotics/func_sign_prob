@@ -4428,3 +4428,4 @@
 /usr/bin/faketime
 /usr/bin/falselogin
 /usr/bin/fyre
+/usr/bin/fbpanel
