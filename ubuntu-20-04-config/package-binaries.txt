@@ -5353,3 +5353,7 @@
 /usr/bin/ikarus
 /usr/bin/scheme-script
 /usr/bin/inoticoming
+/usr/bin/idba
+/usr/bin/idba_hybrid
+/usr/bin/idba_tran
+/usr/bin/idba_ud
