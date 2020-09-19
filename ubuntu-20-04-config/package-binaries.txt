@@ -5068,3 +5068,4 @@
 /usr/bin/tint2
 /usr/bin/tint2conf
 /usr/bin/treesheets
+/usr/bin/traceroute.db
