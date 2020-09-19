@@ -1544,3 +1544,5 @@ fatcat
 forked-daapd
 fsa
 fwlogwatch
+fdm
+fuse-convmvfs

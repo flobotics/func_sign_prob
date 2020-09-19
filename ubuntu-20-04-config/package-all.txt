@@ -2336,3 +2336,6 @@ python3-fabulous
 fillets-ng
 fsa
 fwlogwatch
+fdm
+flatpak-xdg-utils-tests
+fuse-convmvfs

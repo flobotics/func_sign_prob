@@ -787,3 +787,4 @@ python3-fiona
 ftpmirror
 python3-fabulous
 fillets-ng
+flatpak-xdg-utils-tests
