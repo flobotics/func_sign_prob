@@ -4383,3 +4383,9 @@
 /usr/bin/fatattr
 /usr/bin/fwts
 /usr/sbin/fprobe
+/usr/sbin/ajoursat
+/usr/sbin/fbbgetconf
+/usr/sbin/satdoc
+/usr/sbin/satupdat
+/usr/sbin/xfbbC
+/usr/sbin/xfbbd

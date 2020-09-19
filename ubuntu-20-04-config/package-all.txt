@@ -2209,3 +2209,4 @@ fwts
 frozen-bubble
 fcitx-googlepinyin
 fprobe
+fbb
