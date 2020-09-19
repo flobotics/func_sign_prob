@@ -1693,3 +1693,4 @@ tarantool-lts-client
 toxic
 tomoyo-tools
 tucnak
+tthsum

@@ -2576,3 +2576,7 @@ tclxml
 toxic
 tomoyo-tools
 tucnak
+tuxmath
+tdfsb
+tagua
+tthsum

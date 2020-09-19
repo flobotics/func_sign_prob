@@ -5208,3 +5208,4 @@
 /usr/sbin/tomoyo-sortpolicy
 /usr/bin/soundwrapper
 /usr/bin/tucnak
+/usr/bin/tthsum

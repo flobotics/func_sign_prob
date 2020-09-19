@@ -878,3 +878,6 @@ tarantool-lts-mysql-module
 tarantool-lts-postgresql-module
 tarantool-lts-sophia-module
 tclxml
+tuxmath
+tdfsb
+tagua
