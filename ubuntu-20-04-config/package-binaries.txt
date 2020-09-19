@@ -4476,3 +4476,5 @@
 /usr/bin/fastml
 /usr/bin/gainLoss
 /usr/bin/indelCoder
+/usr/bin/fs-uae
+/usr/bin/fs-uae-device-helper

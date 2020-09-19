@@ -773,3 +773,4 @@ python3-fontforge
 fftw2
 sfftw2
 freedink-engine
+fruit

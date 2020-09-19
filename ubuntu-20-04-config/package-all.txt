@@ -2276,3 +2276,5 @@ fftw2
 sfftw2
 freedink-engine
 fastml
+fruit
+fs-uae
