@@ -4365,3 +4365,6 @@
 /usr/bin/fosread
 /usr/bin/fosrec
 /usr/bin/smascii
+/sbin/fxload
+/usr/bin/discid
+/usr/bin/flactag

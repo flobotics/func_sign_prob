@@ -1447,3 +1447,5 @@ fusesmb
 fping
 flightcrew
 fosfat
+fxload
+flactag
