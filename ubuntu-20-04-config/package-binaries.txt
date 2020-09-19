@@ -4726,3 +4726,4 @@
 /usr/bin/tpm2-initramfs-tool
 /usr/bin/telegnome
 /usr/sbin/tcplay
+/usr/bin/tcptrace
