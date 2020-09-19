@@ -1555,3 +1555,4 @@ frama-c-base
 flog
 fuse-overlayfs
 fsniper
+freecell-solver-bin

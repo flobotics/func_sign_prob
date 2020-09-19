@@ -4577,3 +4577,6 @@
 /usr/bin/flog
 /usr/bin/fuse-overlayfs
 /usr/bin/fsniper
+/usr/bin/fc-solve
+/usr/bin/freecell-solver-range-parallel-solve
+/usr/bin/make-microsoft-freecell-board
