@@ -4919,3 +4919,10 @@
 /usr/bin/tnat64-validateconf
 /usr/bin/tralics
 /usr/bin/termit
+/usr/bin/tcpbridge
+/usr/bin/tcpcapinfo
+/usr/bin/tcpliveplay
+/usr/bin/tcpprep
+/usr/bin/tcpreplay
+/usr/bin/tcpreplay-edit
+/usr/bin/tcprewrite

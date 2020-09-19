@@ -2520,3 +2520,5 @@ tclcurl
 texworks-scripting-lua
 texworks-scripting-python
 termit
+torsocks
+tcpreplay

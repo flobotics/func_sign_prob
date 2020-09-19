@@ -852,3 +852,4 @@ r-cran-tkrplot
 tclcurl
 texworks-scripting-lua
 texworks-scripting-python
+torsocks
