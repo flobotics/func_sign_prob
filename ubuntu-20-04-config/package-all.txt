@@ -2202,3 +2202,4 @@ fswatch
 flpsed
 fbterm-ucimf
 filtergen
+fastp
