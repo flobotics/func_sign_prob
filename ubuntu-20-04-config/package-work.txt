@@ -1528,3 +1528,4 @@ fsmark
 forkstat
 ocaml-findlib
 fontmatrix
+freediameterd

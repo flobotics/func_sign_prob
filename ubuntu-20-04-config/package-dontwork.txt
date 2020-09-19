@@ -780,3 +780,4 @@ fcitx-chewing
 foobillardplus
 feersum
 fcitx-sunpinyin
+freediameter-extensions

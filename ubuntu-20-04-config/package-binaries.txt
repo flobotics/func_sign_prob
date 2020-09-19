@@ -4533,3 +4533,4 @@
 /usr/bin/forkstat
 /usr/bin/ocamlfind
 /usr/bin/fontmatrix
+/usr/bin/freeDiameterd

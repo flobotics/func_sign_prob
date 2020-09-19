@@ -2313,3 +2313,5 @@ feersum
 fcitx-sunpinyin
 ocaml-findlib
 fontmatrix
+freediameter-extensions
+freediameterd
