@@ -2839,3 +2839,4 @@ infernal
 i3status
 isdnvboxclient
 isdnlog
+ipppd

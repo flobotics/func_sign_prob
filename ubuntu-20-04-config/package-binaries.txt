@@ -5586,3 +5586,5 @@
 /usr/bin/isdnrep
 /usr/sbin/isdnlog
 /usr/sbin/mkzonedb
+/usr/sbin/ipppd
+/usr/sbin/ipppstats
