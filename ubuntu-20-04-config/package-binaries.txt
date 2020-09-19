@@ -4688,3 +4688,4 @@
 /usr/bin/text2image
 /usr/bin/unicharset_extractor
 /usr/bin/wordlist2dawg
+/usr/bin/termdebug

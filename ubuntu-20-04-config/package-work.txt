@@ -1598,3 +1598,4 @@ tayga
 teem-apps
 tlsh-tools
 tesseract-ocr
+termdebug

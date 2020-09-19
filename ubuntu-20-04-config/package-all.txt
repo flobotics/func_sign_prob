@@ -2425,3 +2425,4 @@ tlsh-tools
 python3-tlsh
 tetrinetx
 tesseract-ocr
+termdebug
