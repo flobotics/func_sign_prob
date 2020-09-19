@@ -1624,3 +1624,4 @@ tcptrace
 tree-puzzle
 tree-ppuzzle
 ticker
+twinkle-console

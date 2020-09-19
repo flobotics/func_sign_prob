@@ -4730,3 +4730,4 @@
 /usr/bin/tree-puzzle
 /usr/bin/tree-ppuzzle
 /usr/bin/ticker
+/usr/bin/twinkle-console
