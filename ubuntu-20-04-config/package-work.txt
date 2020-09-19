@@ -1806,3 +1806,4 @@ iwd
 ismrmrd-tools
 iprange
 irony-server
+ircii

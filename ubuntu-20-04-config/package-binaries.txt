@@ -5385,3 +5385,7 @@
 /usr/bin/ismrmrd_test_xml
 /usr/bin/iprange
 /usr/bin/irony-server
+/usr/bin/ircII
+/usr/sbin/ircflush
+/usr/sbin/ircio
+/usr/sbin/wserv
