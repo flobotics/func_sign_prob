@@ -1881,3 +1881,4 @@ input-utils
 id-utils
 ipwatchd-gnotify
 ipmctl
+indicator-multiload
