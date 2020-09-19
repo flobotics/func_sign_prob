@@ -1697,3 +1697,4 @@ tthsum
 tvoe
 ttfautohint
 ttylog
+triggerhappy
