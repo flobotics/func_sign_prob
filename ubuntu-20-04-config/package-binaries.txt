@@ -5485,3 +5485,7 @@
 /usr/lib/iraf/noao/bin/x_quad.e
 /usr/lib/iraf/noao/bin/x_quadred.e
 /usr/lib/iraf/noao/bin/x_rv.e
+/usr/lib/iraf/extern/fitsutil/bin/fgread.e
+/usr/lib/iraf/extern/fitsutil/bin/fgwrite.e
+/usr/lib/iraf/extern/fitsutil/bin/sum32
+/usr/lib/iraf/extern/fitsutil/bin/x_fitsutil.e
