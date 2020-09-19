@@ -4862,3 +4862,4 @@
 /usr/bin/tcmt
 /usr/bin/text2ps
 /usr/bin/tinyproxy
+/usr/bin/tilda
