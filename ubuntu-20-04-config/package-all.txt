@@ -2564,3 +2564,8 @@ telegram-purple
 telegram-desktop
 tpm2-tools
 trueprint
+tango-accesscontrol
+tango-starter
+tango-test
+tango-db
+tarantool-lts-client

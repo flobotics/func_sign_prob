@@ -870,3 +870,7 @@ tkblt
 tenmado
 tclx8.4
 telegram-purple
+tango-accesscontrol
+tango-starter
+tango-test
+tango-db
