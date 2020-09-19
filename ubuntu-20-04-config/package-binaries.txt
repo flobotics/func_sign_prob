@@ -4895,3 +4895,4 @@
 /usr/bin/tcumttest
 /usr/bin/tcutest
 /usr/bin/toppred
+/usr/bin/tagcoll

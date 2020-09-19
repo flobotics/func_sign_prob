@@ -1652,3 +1652,4 @@ textql
 tcsh
 tokyocabinet-bin
 toppred
+tagcoll
