@@ -751,3 +751,5 @@ fcitx5-module-fullwidth
 fcitx5-module-punctuation
 fcitx5-pinyin
 fcitx5-table
+fcitx5-module-pinyinhelper
+fcitx5-module-chttrans

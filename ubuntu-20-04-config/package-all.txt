@@ -2221,3 +2221,6 @@ fcitx5-module-punctuation
 fcitx5-pinyin
 fcitx5-table
 fcitx5-chinese-addons-bin
+fcitx5-module-pinyinhelper
+fcitx5-module-chttrans
+fwknop-client
