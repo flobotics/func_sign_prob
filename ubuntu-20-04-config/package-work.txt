@@ -1803,3 +1803,4 @@ iraf-mscred
 ircd-ircu
 icedtea-netx
 iwd
+ismrmrd-tools

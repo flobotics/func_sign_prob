@@ -2752,3 +2752,4 @@ ibus-array
 icedtea-netx
 python3-indexed-gzip
 iwd
+ismrmrd-tools
