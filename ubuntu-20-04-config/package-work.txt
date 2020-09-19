@@ -1438,3 +1438,4 @@ funnelweb
 fig2sxd
 fwbuilder
 fatresize
+flasm

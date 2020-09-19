@@ -2182,3 +2182,4 @@ fig2sxd
 fortunate.app
 fwbuilder
 fatresize
+flasm
