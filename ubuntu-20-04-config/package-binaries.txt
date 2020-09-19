@@ -4547,3 +4547,5 @@
 /usr/bin/flamp
 /usr/bin/flwm
 /usr/bin/fatsort
+/usr/bin/foomatic-combo-xml
+/usr/bin/foomatic-perl-data
