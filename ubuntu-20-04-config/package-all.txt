@@ -2654,3 +2654,4 @@ transcriber
 traverso
 tcpreen
 texstudio
+tilix

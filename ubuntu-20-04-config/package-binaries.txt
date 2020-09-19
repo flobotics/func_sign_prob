@@ -5282,3 +5282,4 @@
 /usr/bin/traverso
 /usr/bin/tcpreen
 /usr/bin/texstudio
+/usr/bin/tilix
