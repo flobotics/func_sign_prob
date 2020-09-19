@@ -1798,3 +1798,4 @@ isakmpd
 inhomog
 iaxmodem
 ipv6calc
+icecast2

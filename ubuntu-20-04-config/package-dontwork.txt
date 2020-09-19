@@ -941,3 +941,4 @@ insighttoolkit4-python3
 ibus-wayland
 ibus-tests
 ipheth-utils
+indicator-printers
