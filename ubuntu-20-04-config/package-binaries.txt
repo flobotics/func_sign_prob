@@ -4414,3 +4414,4 @@
 /usr/bin/foma
 /usr/bin/scel2org5
 /usr/bin/fwknop
+/usr/sbin/fwknopd

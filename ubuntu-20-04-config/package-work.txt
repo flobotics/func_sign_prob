@@ -1466,3 +1466,4 @@ felix-latin
 foma
 fcitx5-chinese-addons-bin
 fwknop-client
+fwknop-server
