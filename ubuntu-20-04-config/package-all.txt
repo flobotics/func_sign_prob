@@ -2420,3 +2420,4 @@ tk-table
 tse3play
 timeshift
 tayga
+teem-apps

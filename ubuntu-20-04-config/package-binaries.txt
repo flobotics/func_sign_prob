@@ -4663,3 +4663,13 @@
 /usr/bin/timeshift
 /usr/bin/timeshift-gtk
 /usr/sbin/tayga
+/usr/bin/teem-gprobe
+/usr/bin/teem-ilk
+/usr/bin/teem-miter
+/usr/bin/teem-mrender
+/usr/bin/teem-nrrdSanity
+/usr/bin/teem-overrgb
+/usr/bin/teem-puller
+/usr/bin/teem-tend
+/usr/bin/teem-unu
+/usr/bin/teem-vprobe
