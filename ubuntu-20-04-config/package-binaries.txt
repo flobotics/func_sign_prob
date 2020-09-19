@@ -4722,3 +4722,4 @@
 /usr/bin/tthrfcat
 /usr/bin/tthsplit
 /usr/bin/ttm
+/usr/bin/terminatorX
