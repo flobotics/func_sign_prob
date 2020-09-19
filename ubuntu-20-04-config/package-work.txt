@@ -1631,3 +1631,4 @@ trovacap
 thunderbolt-tools
 timidity
 thunar-volman
+trojan

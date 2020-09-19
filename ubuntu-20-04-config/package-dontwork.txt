@@ -828,3 +828,5 @@ tang
 titanion
 textedit.app
 timidity-interfaces-extra
+thesias
+tcl-trf

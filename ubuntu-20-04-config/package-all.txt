@@ -2464,3 +2464,6 @@ thunderbolt-tools
 timidity
 timidity-interfaces-extra
 thunar-volman
+thesias
+tcl-trf
+trojan
