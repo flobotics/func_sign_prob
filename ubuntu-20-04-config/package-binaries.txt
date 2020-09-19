@@ -5423,3 +5423,4 @@
 /usr/sbin/ircd
 /usr/sbin/ircd-mkpasswd
 /usr/sbin/ircdwatch
+/usr/sbin/iptstate
