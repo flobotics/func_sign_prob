@@ -2472,3 +2472,4 @@ tntdb-sqlite4v5
 tntdb-postgresql4v5
 textdraw
 tootle
+tss2

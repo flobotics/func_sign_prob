@@ -1634,3 +1634,4 @@ thunar-volman
 trojan
 textdraw
 tootle
+tss2
