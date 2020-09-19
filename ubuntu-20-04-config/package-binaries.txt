@@ -4590,3 +4590,4 @@
 /usr/bin/florence
 /usr/bin/flip
 /usr/bin/flannel
+/usr/bin/flexloader

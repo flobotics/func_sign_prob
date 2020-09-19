@@ -2364,3 +2364,5 @@ nemo-font-manager
 florence
 flip
 flannel
+flamerobin
+flexloader
