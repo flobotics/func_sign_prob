@@ -2285,3 +2285,4 @@ fte-terminal
 fte-console
 fte-xwindow
 fstransform
+f2c

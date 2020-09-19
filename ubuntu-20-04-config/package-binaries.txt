@@ -4487,3 +4487,4 @@
 /usr/sbin/fsmount_kernel
 /usr/sbin/fsmove
 /usr/sbin/fsremap
+/usr/bin/f2c
