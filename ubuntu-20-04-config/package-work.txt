@@ -1439,3 +1439,4 @@ fig2sxd
 fwbuilder
 fatresize
 flasm
+firetools

@@ -2183,3 +2183,5 @@ fortunate.app
 fwbuilder
 fatresize
 flasm
+r-cran-fnonlinear
+firetools

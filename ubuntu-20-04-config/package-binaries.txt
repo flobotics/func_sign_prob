@@ -4351,3 +4351,5 @@
 /usr/bin/fwbuilder
 /usr/sbin/fatresize
 /usr/bin/flasm
+/usr/bin/firejail-ui
+/usr/bin/firetools
