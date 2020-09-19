@@ -4619,3 +4619,4 @@
 /usr/bin/smilint
 /usr/bin/smiquery
 /usr/bin/smixlate
+/usr/bin/smfsh

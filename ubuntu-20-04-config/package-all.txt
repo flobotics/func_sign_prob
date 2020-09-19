@@ -2386,3 +2386,4 @@ python3-seccomp
 smbios-utils
 happycoders-libsocket
 smitools
+smf-utils

@@ -1573,3 +1573,4 @@ sepol-utils
 smithwaterman
 smbios-utils
 smitools
+smf-utils
