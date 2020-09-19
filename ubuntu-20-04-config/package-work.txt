@@ -1567,3 +1567,4 @@ sndfile-programs
 ssw-align
 storj
 statgrab
+saidar
