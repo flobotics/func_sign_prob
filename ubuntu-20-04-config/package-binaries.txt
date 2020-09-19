@@ -4910,3 +4910,6 @@
 /usr/lib/tinymux/game/bin/sqlslave.so
 /usr/lib/tinymux/game/bin/stubslave
 /usr/lib/tinymux/game/bin/sum.so
+/usr/bin/tao2aiff
+/usr/bin/tao2wav
+/usr/bin/taoparse
