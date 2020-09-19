@@ -4433,3 +4433,4 @@
 /usr/bin/flang1
 /usr/bin/flang2
 /usr/bin/fractgen
+/usr/bin/ftnchek

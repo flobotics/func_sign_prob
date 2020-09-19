@@ -2239,3 +2239,5 @@ funguloids
 fcitx-unikey
 flang-7
 fractgen
+fizmo-console
+ftnchek
