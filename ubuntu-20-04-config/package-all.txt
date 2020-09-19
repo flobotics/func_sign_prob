@@ -2671,3 +2671,4 @@ telepathy-indicator
 theseus
 tix
 tachyon-bin-nox
+tachyon-bin-ogl

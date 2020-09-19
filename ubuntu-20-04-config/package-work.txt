@@ -1758,3 +1758,4 @@ tdc
 telepathy-indicator
 theseus
 tachyon-bin-nox
+tachyon-bin-ogl
