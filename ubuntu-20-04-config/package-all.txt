@@ -2394,3 +2394,5 @@ ruby-semanage
 3depict
 389-ds-base-libs
 wfut
+python-libwfut-0.2
+webp

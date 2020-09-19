@@ -813,3 +813,4 @@ python3-semanage
 ruby-semanage
 3dchess
 389-ds-base-libs
+python-libwfut-0.2

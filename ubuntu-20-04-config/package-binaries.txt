@@ -4622,3 +4622,10 @@
 /usr/bin/smfsh
 /usr/bin/3depict
 /usr/bin/wfut
+/usr/bin/cwebp
+/usr/bin/dwebp
+/usr/bin/gif2webp
+/usr/bin/img2webp
+/usr/bin/vwebp
+/usr/bin/webpinfo
+/usr/bin/webpmux
