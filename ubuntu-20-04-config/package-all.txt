@@ -2302,3 +2302,4 @@ fcitx-chewing
 freefem++
 flintqs
 freelan
+fondu

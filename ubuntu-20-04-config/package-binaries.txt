@@ -4520,3 +4520,9 @@
 /usr/bin/ffmedit
 /usr/bin/QuadraticSieve
 /usr/sbin/freelan
+/usr/bin/dfont2res
+/usr/bin/fondu
+/usr/bin/lumper
+/usr/bin/setfondname
+/usr/bin/showfond
+/usr/bin/ufond
