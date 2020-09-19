@@ -1503,3 +1503,4 @@ fusecram
 fte
 fte-terminal
 fte-console
+fte-xwindow

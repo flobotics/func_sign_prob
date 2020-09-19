@@ -4482,3 +4482,4 @@
 /usr/bin/cfte
 /usr/bin/sfte
 /usr/bin/vfte
+/usr/bin/xfte

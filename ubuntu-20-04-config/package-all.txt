@@ -2283,3 +2283,4 @@ fcitx-dbus-status
 fte
 fte-terminal
 fte-console
+fte-xwindow
