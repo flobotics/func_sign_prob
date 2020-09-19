@@ -2189,3 +2189,4 @@ freehdl
 fuzzylite
 flightgear
 flexc++
+fusesmb

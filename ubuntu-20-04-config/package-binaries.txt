@@ -4356,3 +4356,5 @@
 /usr/bin/freehdl-v2cc
 /usr/bin/fuzzylite
 /usr/bin/flexc++
+/usr/bin/fusesmb
+/usr/bin/fusesmb.cache

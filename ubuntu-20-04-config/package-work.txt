@@ -1443,3 +1443,4 @@ firetools
 freehdl
 fuzzylite
 flexc++
+fusesmb
