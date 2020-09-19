@@ -1643,3 +1643,4 @@ tilda
 thinkfan
 tnftp
 tla
+telegram-cli

@@ -4866,3 +4866,4 @@
 /usr/sbin/thinkfan
 /usr/bin/tnftp
 /usr/bin/tla
+/usr/bin/telegram-cli

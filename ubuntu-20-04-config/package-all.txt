@@ -2485,3 +2485,4 @@ torcs
 tcl-udp
 tnftp
 tla
+telegram-cli
