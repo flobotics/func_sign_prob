@@ -5514,3 +5514,4 @@
 /usr/sbin/iseltime
 /usr/bin/isoquery
 /usr/bin/ifile
+/usr/bin/igor
