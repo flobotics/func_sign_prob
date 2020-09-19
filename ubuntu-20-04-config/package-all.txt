@@ -2340,3 +2340,5 @@ fdm
 flatpak-xdg-utils-tests
 fuse-convmvfs
 freedv
+fcitx-skk
+fsarchiver

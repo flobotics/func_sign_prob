@@ -4565,3 +4565,4 @@
 /usr/sbin/fwlogwatch
 /usr/bin/convmvfs
 /usr/bin/freedv
+/usr/sbin/fsarchiver

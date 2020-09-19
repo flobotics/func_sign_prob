@@ -1547,3 +1547,4 @@ fwlogwatch
 fdm
 fuse-convmvfs
 freedv
+fsarchiver
