@@ -4729,3 +4729,4 @@
 /usr/bin/tcptrace
 /usr/bin/tree-puzzle
 /usr/bin/tree-ppuzzle
+/usr/bin/ticker
