@@ -2838,3 +2838,4 @@ irstlm
 infernal
 i3status
 isdnvboxclient
+isdnlog

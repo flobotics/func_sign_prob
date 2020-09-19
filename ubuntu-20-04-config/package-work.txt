@@ -1870,3 +1870,4 @@ ices2
 irstlm
 i3status
 isdnvboxclient
+isdnlog

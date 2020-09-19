@@ -5580,3 +5580,9 @@
 /usr/bin/vboxbeep
 /usr/bin/vboxcnvt
 /usr/bin/vboxctrl
+/usr/bin/isdnbill
+/usr/bin/isdnconf
+/usr/bin/isdnrate
+/usr/bin/isdnrep
+/usr/sbin/isdnlog
+/usr/sbin/mkzonedb
