@@ -5619,3 +5619,4 @@
 /usr/bin/indicator-multiload
 /usr/bin/iverilog
 /usr/bin/vvp
+/usr/bin/SimpleViewerExample

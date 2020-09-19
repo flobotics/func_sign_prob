@@ -1883,3 +1883,4 @@ ipwatchd-gnotify
 ipmctl
 indicator-multiload
 iverilog
+ifcplusplus
