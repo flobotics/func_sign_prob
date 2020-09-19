@@ -5490,3 +5490,4 @@
 /usr/lib/iraf/extern/fitsutil/bin/sum32
 /usr/lib/iraf/extern/fitsutil/bin/x_fitsutil.e
 /usr/bin/innoextract
+/usr/bin/pdftoipe
