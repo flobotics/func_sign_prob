@@ -2599,3 +2599,4 @@ python3-termbox
 tcl-tclex
 trackballs
 termrec
+taptempo

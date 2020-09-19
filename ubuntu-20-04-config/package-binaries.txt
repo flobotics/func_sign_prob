@@ -5230,3 +5230,4 @@
 /usr/bin/termplay
 /usr/bin/termrec
 /usr/bin/termtime
+/usr/bin/taptempo
