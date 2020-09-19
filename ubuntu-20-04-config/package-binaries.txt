@@ -4457,3 +4457,5 @@
 /bin/checkpassword.login
 /sbin/fgetty
 /usr/bin/fitspng
+/usr/bin/fig2dev
+/usr/bin/transfig

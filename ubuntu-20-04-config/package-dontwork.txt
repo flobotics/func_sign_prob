@@ -767,3 +767,4 @@ fcitx-ui-light
 freetennis
 fceux
 flare-engine
+ffmpegthumbs

@@ -1491,3 +1491,4 @@ faucc
 fort-validator
 fgetty
 fitspng
+fig2dev

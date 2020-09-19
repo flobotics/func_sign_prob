@@ -2263,3 +2263,5 @@ fort-validator
 fgetty
 flare-engine
 fitspng
+ffmpegthumbs
+fig2dev
