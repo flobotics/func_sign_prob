@@ -4724,3 +4724,4 @@
 /usr/bin/ttm
 /usr/bin/terminatorX
 /usr/bin/tpm2-initramfs-tool
+/usr/bin/telegnome
