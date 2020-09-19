@@ -1738,3 +1738,5 @@ transfermii-gui
 tcpxtract
 tabble
 tinc
+transrate-tools
+tofrodos

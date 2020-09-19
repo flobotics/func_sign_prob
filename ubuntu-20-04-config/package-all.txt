@@ -2645,3 +2645,5 @@ telepathy-rakia
 tcpxtract
 tabble
 tinc
+transrate-tools
+tofrodos

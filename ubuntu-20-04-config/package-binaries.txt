@@ -5275,3 +5275,5 @@
 /usr/bin/tcpxtract
 /usr/bin/tabble
 /usr/sbin/tincd
+/usr/bin/bam-read
+/usr/bin/fromdos
