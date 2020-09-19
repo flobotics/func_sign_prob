@@ -5235,3 +5235,4 @@
 /usr/bin/ttf2ufm
 /usr/bin/tcnetstat
 /usr/bin/tcpcryptd
+/usr/bin/thrift
