@@ -1437,3 +1437,4 @@ ffmpeg2theora
 funnelweb
 fig2sxd
 fwbuilder
+fatresize

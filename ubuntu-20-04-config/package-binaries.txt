@@ -4349,3 +4349,4 @@
 /usr/bin/fwb_procurve_acl
 /usr/bin/fwbedit
 /usr/bin/fwbuilder
+/usr/sbin/fatresize
