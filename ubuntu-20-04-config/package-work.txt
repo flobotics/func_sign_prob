@@ -1536,3 +1536,4 @@ fmtools
 fsm-lite
 freeipa-client
 fookb
+flamp

@@ -2326,3 +2326,4 @@ fsm-lite
 ftpmirror
 freeipa-client
 fookb
+flamp
