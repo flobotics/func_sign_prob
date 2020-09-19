@@ -1695,3 +1695,4 @@ tomoyo-tools
 tucnak
 tthsum
 tvoe
+ttfautohint

@@ -5210,3 +5210,5 @@
 /usr/bin/tucnak
 /usr/bin/tthsum
 /usr/bin/tvoe
+/usr/bin/ttfautohint
+/usr/bin/ttfautohintGUI
