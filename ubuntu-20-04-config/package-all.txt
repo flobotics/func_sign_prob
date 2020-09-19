@@ -2187,3 +2187,5 @@ r-cran-fnonlinear
 firetools
 freehdl
 fuzzylite
+flightgear
+flexc++

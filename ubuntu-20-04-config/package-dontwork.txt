@@ -740,3 +740,4 @@ fcitx-sayura
 r-cran-fgarch
 fortunate.app
 r-cran-fnonlinear
+flightgear

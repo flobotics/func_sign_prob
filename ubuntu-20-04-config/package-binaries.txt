@@ -4355,3 +4355,4 @@
 /usr/bin/firetools
 /usr/bin/freehdl-v2cc
 /usr/bin/fuzzylite
+/usr/bin/flexc++
