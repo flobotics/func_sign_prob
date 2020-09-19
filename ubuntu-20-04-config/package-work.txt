@@ -1831,3 +1831,4 @@ iperf
 i3blocks
 ircd-irc2
 iptstate
+ipv6toolkit
