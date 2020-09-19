@@ -2421,3 +2421,7 @@ tse3play
 timeshift
 tayga
 teem-apps
+tlsh-tools
+python3-tlsh
+tetrinetx
+tesseract-ocr
