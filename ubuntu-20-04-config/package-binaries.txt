@@ -4944,3 +4944,4 @@
 /usr/bin/tinyirc
 /usr/bin/Xtigervnc
 /usr/bin/x0tigervncserver
+/usr/bin/xtigervncviewer

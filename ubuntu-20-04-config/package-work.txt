@@ -1669,3 +1669,4 @@ trafficserver
 tinyirc
 tigervnc-standalone-server
 tigervnc-scraping-server
+tigervnc-viewer
