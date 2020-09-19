@@ -1877,3 +1877,4 @@ isdnutils-base
 capiutils
 ibsim-utils
 imagination
+input-utils

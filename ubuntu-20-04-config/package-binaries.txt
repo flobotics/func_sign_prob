@@ -5604,3 +5604,6 @@
 /usr/sbin/rcapid
 /usr/bin/ibsim
 /usr/bin/imagination
+/usr/bin/input-events
+/usr/bin/input-kbd
+/usr/bin/lsinput
