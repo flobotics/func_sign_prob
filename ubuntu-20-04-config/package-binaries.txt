@@ -5350,3 +5350,5 @@
 /usr/bin/yanglint
 /usr/bin/yangre
 /usr/bin/id3tool
+/usr/bin/ikarus
+/usr/bin/scheme-script
