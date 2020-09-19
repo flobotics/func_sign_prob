@@ -4714,3 +4714,10 @@
 /usr/bin/tpb
 /usr/bin/trayer
 /usr/bin/twm
+/usr/lib/tiger/bin/getpermit
+/usr/lib/tiger/bin/md5
+/usr/lib/tiger/bin/realpath
+/usr/lib/tiger/bin/snefru
+/usr/lib/tiger/bin/testsuid
+/usr/bin/tthrfcat
+/usr/bin/tthsplit
