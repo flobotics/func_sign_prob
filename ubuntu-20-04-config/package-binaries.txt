@@ -4658,3 +4658,4 @@
 /usr/bin/transterm
 /usr/bin/tellico
 /usr/bin/tre-agrep
+/usr/bin/twpsk
