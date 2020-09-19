@@ -762,3 +762,4 @@ fizmo-console
 flobopuyo
 freegish
 flatpak-tests
+r-cran-foreign

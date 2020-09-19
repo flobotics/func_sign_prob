@@ -2252,3 +2252,5 @@ flatpak
 flatpak-tests
 freebirth
 foo-yc20
+r-cran-foreign
+flam3

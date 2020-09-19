@@ -1485,3 +1485,4 @@ ffmpegfs
 flatpak
 freebirth
 foo-yc20
+flam3

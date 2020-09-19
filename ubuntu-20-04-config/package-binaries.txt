@@ -4443,3 +4443,7 @@
 /usr/bin/freebirth
 /usr/bin/foo-yc20
 /usr/bin/foo-yc20-cli
+/usr/bin/flam3-animate
+/usr/bin/flam3-convert
+/usr/bin/flam3-genome
+/usr/bin/flam3-render
