@@ -5343,3 +5343,4 @@
 /usr/bin/idn2
 /usr/sbin/iiod
 /usr/bin/xorriso
+/usr/bin/ifp
