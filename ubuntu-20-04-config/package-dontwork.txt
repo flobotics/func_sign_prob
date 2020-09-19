@@ -920,3 +920,7 @@ telepathy-accounts-signon
 telepathy-gabble-tests
 telepathy-logger
 tatan
+tclgeoip
+tuxcmd-modules
+r-cran-tseries
+transcend

@@ -5315,3 +5315,5 @@
 /usr/bin/txtconv
 /usr/sbin/tmpreaper
 /usr/bin/texmaker
+/usr/bin/timblclient
+/usr/bin/timblserver
