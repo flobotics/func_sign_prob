@@ -5607,3 +5607,10 @@
 /usr/bin/input-events
 /usr/bin/input-kbd
 /usr/bin/lsinput
+/usr/bin/eid
+/usr/bin/fid
+/usr/bin/fnid
+/usr/bin/gid
+/usr/bin/lid
+/usr/bin/mkid
+/usr/bin/xtokid
