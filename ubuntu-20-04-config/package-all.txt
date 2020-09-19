@@ -2730,3 +2730,4 @@ lirc-drv-irman
 isal
 ytnef-tools
 yang-tools
+id3tool

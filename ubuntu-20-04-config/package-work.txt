@@ -1789,3 +1789,4 @@ ifp-line-libifp
 isal
 ytnef-tools
 yang-tools
+id3tool

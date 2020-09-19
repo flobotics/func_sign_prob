@@ -5349,3 +5349,4 @@
 /usr/bin/ytnefprint
 /usr/bin/yanglint
 /usr/bin/yangre
+/usr/bin/id3tool
