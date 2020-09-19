@@ -5492,3 +5492,4 @@
 /usr/bin/innoextract
 /usr/bin/pdftoipe
 /usr/bin/figtoipe
+/usr/bin/ipe5toxml
