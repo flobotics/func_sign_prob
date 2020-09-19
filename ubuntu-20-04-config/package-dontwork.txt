@@ -815,3 +815,4 @@ ruby-semanage
 389-ds-base-libs
 python-libwfut-0.2
 tumbler
+trigger-rally

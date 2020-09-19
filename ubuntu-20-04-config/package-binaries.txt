@@ -4646,3 +4646,8 @@
 /usr/lib/trinityrnaseq/Inchworm/bin/inchworm
 /usr/lib/trinityrnaseq/Inchworm/bin/pull_reads_with_kmers
 /usr/lib/trinityrnaseq/trinity-plugins/slclust/bin/slclust
+/usr/bin/tpmtoken_import
+/usr/bin/tpmtoken_init
+/usr/bin/tpmtoken_objects
+/usr/bin/tpmtoken_protect
+/usr/bin/tpmtoken_setpasswd

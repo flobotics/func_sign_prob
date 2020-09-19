@@ -2404,3 +2404,5 @@ trace-cmd
 kernelshark
 troffcvt
 trinityrnaseq
+trigger-rally
+tpm-tools-pkcs11
