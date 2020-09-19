@@ -4632,3 +4632,4 @@
 /usr/bin/tantan
 /usr/bin/teseq
 /usr/bin/travis
+/usr/bin/trace-cmd

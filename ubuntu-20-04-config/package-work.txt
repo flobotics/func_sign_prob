@@ -1580,3 +1580,4 @@ webp
 tantan
 teseq
 travis
+trace-cmd
