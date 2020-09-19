@@ -5557,3 +5557,7 @@
 /usr/lib/news/bin/sm
 /usr/lib/news/bin/tdx-util
 /usr/lib/news/bin/tinyleaf
+/usr/lib/news/bin/inews
+/usr/lib/news/bin/rnews
+/usr/lib/news/bin/rnews.libexec/decode
+/usr/lib/news/bin/rnews.libexec/encode
