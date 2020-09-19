@@ -5215,3 +5215,4 @@
 /usr/sbin/ttylog
 /usr/sbin/th-cmd
 /usr/sbin/thd
+/usr/bin/tkdeskclient
