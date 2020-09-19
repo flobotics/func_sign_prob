@@ -5217,3 +5217,5 @@
 /usr/sbin/thd
 /usr/bin/tkdeskclient
 /usr/bin/tfdocgen
+/usr/bin/build_tide_db
+/usr/bin/restore_tide_db

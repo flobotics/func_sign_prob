@@ -2589,3 +2589,4 @@ tkdesk
 tuxonice-userui
 treeviewx
 tfdocgen
+tcd-utils

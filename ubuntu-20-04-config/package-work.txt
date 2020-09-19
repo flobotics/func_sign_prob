@@ -1701,3 +1701,4 @@ triggerhappy
 tkdesk
 treeviewx
 tfdocgen
+tcd-utils
