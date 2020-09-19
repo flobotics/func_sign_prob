@@ -908,3 +908,4 @@ tamil-gtk2im
 tcl-signal
 tcl-fitstcl
 tix
+tupi

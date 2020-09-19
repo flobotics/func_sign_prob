@@ -2674,3 +2674,6 @@ tachyon-bin-nox
 tachyon-bin-ogl
 tm-align
 transmission-remote-gtk
+tupi
+traildb-cli
+trickle

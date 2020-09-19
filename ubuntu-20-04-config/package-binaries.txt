@@ -5298,3 +5298,6 @@
 /usr/bin/TMalign
 /usr/bin/TMscore
 /usr/bin/transmission-remote-gtk
+/usr/bin/trickle
+/usr/bin/tricklectl
+/usr/bin/trickled
