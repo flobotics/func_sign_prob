@@ -940,3 +940,4 @@ iptables-netflow-dkms
 insighttoolkit4-python3
 ibus-wayland
 ibus-tests
+ipheth-utils

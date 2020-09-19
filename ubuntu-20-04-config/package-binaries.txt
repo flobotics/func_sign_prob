@@ -5361,3 +5361,4 @@
 /usr/bin/certpatch
 /usr/sbin/isakmpd
 /usr/bin/inhomog
+/usr/bin/iaxmodem
