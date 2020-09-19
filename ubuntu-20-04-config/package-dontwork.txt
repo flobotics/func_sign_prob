@@ -761,3 +761,4 @@ fcitx-unikey
 fizmo-console
 flobopuyo
 freegish
+flatpak-tests

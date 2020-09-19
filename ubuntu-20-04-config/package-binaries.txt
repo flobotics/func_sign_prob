@@ -4440,3 +4440,4 @@
 /usr/bin/fntsample
 /usr/bin/ffmpegfs
 /usr/bin/flatpak
+/usr/bin/freebirth

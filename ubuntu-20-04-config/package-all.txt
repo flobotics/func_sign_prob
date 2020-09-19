@@ -2249,3 +2249,5 @@ fntsample
 freegish
 ffmpegfs
 flatpak
+flatpak-tests
+freebirth
