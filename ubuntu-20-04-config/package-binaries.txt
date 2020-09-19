@@ -4620,3 +4620,4 @@
 /usr/bin/smiquery
 /usr/bin/smixlate
 /usr/bin/smfsh
+/usr/bin/3depict

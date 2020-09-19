@@ -808,3 +808,7 @@ python3-libsmraw
 python3-savitar
 python3-seccomp
 happycoders-libsocket
+python3-libscca
+python3-semanage
+ruby-semanage
+3dchess

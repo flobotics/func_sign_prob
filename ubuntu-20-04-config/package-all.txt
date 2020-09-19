@@ -2387,3 +2387,8 @@ smbios-utils
 happycoders-libsocket
 smitools
 smf-utils
+python3-libscca
+python3-semanage
+ruby-semanage
+3dchess
+3depict
