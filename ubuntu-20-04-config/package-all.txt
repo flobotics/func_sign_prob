@@ -2210,3 +2210,5 @@ frozen-bubble
 fcitx-googlepinyin
 fprobe
 fbb
+flexpart
+fuse-emulator-utils

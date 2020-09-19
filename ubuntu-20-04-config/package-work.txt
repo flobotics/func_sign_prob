@@ -1460,3 +1460,5 @@ fatattr
 fwts
 fprobe
 fbb
+flexpart
+fuse-emulator-utils
