@@ -1780,3 +1780,4 @@ tntnet
 tracetuner
 aosd-cat
 aqbanking-tools
+abigail-tools

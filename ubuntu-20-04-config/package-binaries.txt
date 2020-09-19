@@ -5331,3 +5331,9 @@
 /usr/bin/aqebics-tool
 /usr/bin/aqhbci-tool4
 /usr/bin/aqpaypal-tool
+/usr/bin/abicompat
+/usr/bin/abidiff
+/usr/bin/abidw
+/usr/bin/abilint
+/usr/bin/abipkgdiff
+/usr/bin/kmidiff

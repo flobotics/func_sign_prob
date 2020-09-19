@@ -2713,3 +2713,7 @@ talksoup.app
 pd-ambix
 aosd-cat
 aqbanking-tools
+perl-stacktrace
+python3-arcus
+python-ariapy
+abigail-tools

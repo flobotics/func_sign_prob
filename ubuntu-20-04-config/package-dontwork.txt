@@ -928,3 +928,6 @@ tntnet-demos
 tntnet-runtime
 talksoup.app
 pd-ambix
+perl-stacktrace
+python3-arcus
+python-ariapy
