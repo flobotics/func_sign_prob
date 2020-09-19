@@ -2298,3 +2298,5 @@ fasttree
 ffindex
 feathernotes
 f-irc
+fcitx-chewing
+freefem++

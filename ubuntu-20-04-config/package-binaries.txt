@@ -4511,3 +4511,10 @@
 /usr/bin/ffindex_unpack
 /usr/bin/feathernotes
 /usr/bin/f-irc
+/usr/bin/FreeFem++
+/usr/bin/FreeFem++-mpi
+/usr/bin/cvmsh2
+/usr/bin/ffbamg
+/usr/bin/ffglut
+/usr/bin/ffmaster
+/usr/bin/ffmedit
