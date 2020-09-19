@@ -887,3 +887,4 @@ python3-termbox
 tcl-tclex
 trackballs
 php-thrift
+python3-tagpy

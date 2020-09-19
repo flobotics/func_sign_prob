@@ -2607,3 +2607,5 @@ thrift-compiler
 php-thrift
 tudu
 tickr
+python3-tagpy
+timewarrior

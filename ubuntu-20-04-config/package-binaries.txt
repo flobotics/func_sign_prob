@@ -5238,3 +5238,4 @@
 /usr/bin/thrift
 /usr/bin/tudu
 /usr/bin/tickr
+/usr/bin/timew
