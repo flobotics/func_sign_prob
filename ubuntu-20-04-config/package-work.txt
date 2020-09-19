@@ -1455,3 +1455,4 @@ flpsed
 fbterm-ucimf
 filtergen
 fastp
+focuswriter

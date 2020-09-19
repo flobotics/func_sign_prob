@@ -4379,3 +4379,4 @@
 /usr/bin/fbterm_ucimf
 /usr/sbin/filtergen
 /usr/bin/fastp
+/usr/bin/focuswriter
