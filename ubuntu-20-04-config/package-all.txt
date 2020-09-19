@@ -2335,3 +2335,4 @@ forked-daapd
 python3-fabulous
 fillets-ng
 fsa
+fwlogwatch

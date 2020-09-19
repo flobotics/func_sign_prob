@@ -1543,3 +1543,4 @@ foomatic-db-engine
 fatcat
 forked-daapd
 fsa
+fwlogwatch
