@@ -2478,3 +2478,5 @@ ttygif
 tcm
 tinyproxy-bin
 tilda
+tecnoballz
+thinkfan
