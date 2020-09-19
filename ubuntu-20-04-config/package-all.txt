@@ -2315,3 +2315,4 @@ ocaml-findlib
 fontmatrix
 freediameter-extensions
 freediameterd
+flashbench

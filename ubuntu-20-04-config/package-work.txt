@@ -1529,3 +1529,4 @@ forkstat
 ocaml-findlib
 fontmatrix
 freediameterd
+flashbench
