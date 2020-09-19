@@ -2628,3 +2628,4 @@ tiny-initramfs-core
 tsdecrypt
 tclodbc
 tl-parser
+tpm2-abrmd

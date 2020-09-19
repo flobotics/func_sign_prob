@@ -5265,3 +5265,4 @@
 /usr/bin/tsdecrypt_dvbcsa
 /usr/bin/tsdecrypt_ffdecsa
 /usr/bin/tl-parser
+/usr/sbin/tpm2-abrmd
