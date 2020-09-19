@@ -5384,3 +5384,4 @@
 /usr/bin/ismrmrd_recon_cartesian_2d
 /usr/bin/ismrmrd_test_xml
 /usr/bin/iprange
+/usr/bin/irony-server
