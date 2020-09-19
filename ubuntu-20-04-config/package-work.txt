@@ -1513,3 +1513,4 @@ fpgatools
 faustworks
 festival
 fraqtive
+fasttree
