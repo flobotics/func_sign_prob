@@ -5399,3 +5399,6 @@
 /usr/bin/inotifywatch
 /usr/sbin/ircd-hybrid
 /usr/lib/x86_64-linux-gnu/icinga2/sbin/icinga2
+/usr/sbin/pqos
+/usr/sbin/rdtset
+/usr/lib/iraf/extern/rvsao/bin/x_rvsao.e

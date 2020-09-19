@@ -1814,3 +1814,5 @@ icmpinfo
 inotify-tools
 ircd-hybrid
 icinga2-bin
+intel-cmt-cat
+iraf-rvsao

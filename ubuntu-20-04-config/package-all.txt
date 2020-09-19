@@ -2768,3 +2768,7 @@ ibus-libzhuyin
 python3-imexam
 ircd-hybrid
 icinga2-bin
+icinga2-ido-mysql
+icinga2-ido-pgsql
+intel-cmt-cat
+iraf-rvsao
