@@ -824,3 +824,4 @@ python3-tlsh
 tetrinetx
 triplane
 tigr-glimmer
+tang

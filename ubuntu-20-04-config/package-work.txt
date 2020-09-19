@@ -1621,3 +1621,4 @@ tpm2-initramfs-tool
 telegnome
 tcplay
 tcptrace
+tree-puzzle

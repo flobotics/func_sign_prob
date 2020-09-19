@@ -4727,3 +4727,4 @@
 /usr/bin/telegnome
 /usr/sbin/tcplay
 /usr/bin/tcptrace
+/usr/bin/tree-puzzle
