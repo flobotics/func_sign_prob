@@ -4941,3 +4941,4 @@
 /usr/bin/traffic_top
 /usr/bin/traffic_via
 /usr/bin/traffic_wccp
+/usr/bin/tinyirc

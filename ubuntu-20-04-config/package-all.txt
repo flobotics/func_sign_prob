@@ -2525,3 +2525,4 @@ tcpreplay
 tiled
 tuxfootball
 trafficserver
+tinyirc
