@@ -861,3 +861,5 @@ tuxpuck
 tmperamental
 tcl8.6-tdbc-postgres
 tfortune
+texinfo
+tcl-tls

@@ -2544,3 +2544,6 @@ tarlz
 tint2
 treesheets
 traceroute
+texinfo
+tcl-tls
+tstools
