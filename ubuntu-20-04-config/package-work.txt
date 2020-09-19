@@ -1690,3 +1690,4 @@ telegram-desktop
 tpm2-tools
 trueprint
 tarantool-lts-client
+toxic

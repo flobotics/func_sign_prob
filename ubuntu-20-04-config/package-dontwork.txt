@@ -874,3 +874,7 @@ tango-accesscontrol
 tango-starter
 tango-test
 tango-db
+tarantool-lts-mysql-module
+tarantool-lts-postgresql-module
+tarantool-lts-sophia-module
+tclxml

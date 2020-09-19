@@ -2569,3 +2569,8 @@ tango-starter
 tango-test
 tango-db
 tarantool-lts-client
+tarantool-lts-mysql-module
+tarantool-lts-postgresql-module
+tarantool-lts-sophia-module
+tclxml
+toxic
