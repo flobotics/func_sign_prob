@@ -4538,3 +4538,4 @@
 /usr/bin/flashbench-erase
 /usr/bin/findent
 /usr/bin/fische
+/usr/bin/fmscan
