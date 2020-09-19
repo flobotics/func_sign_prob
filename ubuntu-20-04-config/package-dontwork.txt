@@ -804,3 +804,6 @@ python3-sbml5
 python3-solv
 python3-libsass
 python3-libsmdev
+python3-libsmraw
+python3-savitar
+python3-seccomp

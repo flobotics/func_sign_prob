@@ -4610,3 +4610,7 @@
 /usr/bin/sndfile-resample
 /usr/bin/chkcon
 /usr/bin/smithwaterman
+/usr/sbin/smbios-get-ut-data
+/usr/sbin/smbios-state-byte-ctl
+/usr/sbin/smbios-sys-info-lite
+/usr/sbin/smbios-upflag-ctl

@@ -2380,3 +2380,7 @@ python3-libsass
 python3-libsmdev
 sepol-utils
 smithwaterman
+python3-libsmraw
+python3-savitar
+python3-seccomp
+smbios-utils
