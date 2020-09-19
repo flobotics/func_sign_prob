@@ -4580,3 +4580,8 @@
 /usr/bin/fc-solve
 /usr/bin/freecell-solver-range-parallel-solve
 /usr/bin/make-microsoft-freecell-board
+/usr/bin/fbrun
+/usr/bin/fbsetroot
+/usr/bin/fluxbox
+/usr/bin/fluxbox-remote
+/usr/bin/fluxbox-update_configs

@@ -2354,3 +2354,4 @@ flog
 fuse-overlayfs
 fsniper
 freecell-solver-bin
+fluxbox
