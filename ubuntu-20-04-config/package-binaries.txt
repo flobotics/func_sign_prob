@@ -4543,3 +4543,4 @@
 /usr/sbin/ipa-getkeytab
 /usr/sbin/ipa-join
 /usr/sbin/ipa-rmkeytab
+/usr/bin/fookb

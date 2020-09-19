@@ -2325,3 +2325,4 @@ python3-fiona
 fsm-lite
 ftpmirror
 freeipa-client
+fookb
