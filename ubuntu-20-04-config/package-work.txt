@@ -1644,3 +1644,5 @@ thinkfan
 tnftp
 tla
 telegram-cli
+tiatracker
+ttyrec

@@ -4867,3 +4867,7 @@
 /usr/bin/tnftp
 /usr/bin/tla
 /usr/bin/telegram-cli
+/usr/bin/TIATracker
+/usr/bin/ttyplay
+/usr/bin/ttyrec
+/usr/bin/ttytime

@@ -837,3 +837,5 @@ tecnoballz
 tcl-vfs
 torcs
 tcl-udp
+tcl8.6-tdbc-mysql
+terminal.app
