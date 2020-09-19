@@ -2342,3 +2342,4 @@ fuse-convmvfs
 freedv
 fcitx-skk
 fsarchiver
+folks-tools

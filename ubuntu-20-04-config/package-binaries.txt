@@ -4566,3 +4566,5 @@
 /usr/bin/convmvfs
 /usr/bin/freedv
 /usr/sbin/fsarchiver
+/usr/bin/folks-import
+/usr/bin/folks-inspect
