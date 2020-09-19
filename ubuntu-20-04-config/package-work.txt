@@ -1499,3 +1499,4 @@ fontforge-nox
 fontforge-extras
 fastml
 fs-uae
+fusecram

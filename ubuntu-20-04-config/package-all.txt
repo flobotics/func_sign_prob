@@ -2278,3 +2278,4 @@ freedink-engine
 fastml
 fruit
 fs-uae
+fusecram
