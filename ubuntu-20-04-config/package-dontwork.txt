@@ -883,3 +883,6 @@ tdfsb
 tagua
 tworld
 tuxonice-userui
+python3-termbox
+tcl-tclex
+trackballs

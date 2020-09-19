@@ -2595,3 +2595,7 @@ tuxpaint-config
 tiptop
 trend
 tetradraw
+python3-termbox
+tcl-tclex
+trackballs
+termrec

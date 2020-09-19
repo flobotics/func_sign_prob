@@ -1707,3 +1707,4 @@ tuxpaint-config
 tiptop
 trend
 tetradraw
+termrec

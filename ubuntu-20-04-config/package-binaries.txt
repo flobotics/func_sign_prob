@@ -5226,3 +5226,7 @@
 /usr/bin/trend
 /usr/bin/tetradraw
 /usr/bin/tetraview
+/usr/bin/termcat
+/usr/bin/termplay
+/usr/bin/termrec
+/usr/bin/termtime
