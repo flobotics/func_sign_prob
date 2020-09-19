@@ -2265,3 +2265,5 @@ flare-engine
 fitspng
 ffmpegthumbs
 fig2dev
+fontmanager.app
+francine

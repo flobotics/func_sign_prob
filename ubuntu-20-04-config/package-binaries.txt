@@ -4459,3 +4459,4 @@
 /usr/bin/fitspng
 /usr/bin/fig2dev
 /usr/bin/transfig
+/bin/francine
