@@ -1617,3 +1617,4 @@ tiger
 tth-common
 ttm
 terminatorx
+tpm2-initramfs-tool
