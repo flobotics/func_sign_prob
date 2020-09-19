@@ -4463,3 +4463,13 @@
 /usr/bin/flrig
 /bin/fdflush
 /usr/bin/fontforge
+/usr/bin/acorn2sfd
+/usr/bin/dewoff
+/usr/bin/findtable
+/usr/bin/pcl2ttf
+/usr/bin/pfadecrypt
+/usr/bin/rmligamarks
+/usr/bin/showttf
+/usr/bin/stripttc
+/usr/bin/ttf2eps
+/usr/bin/woff

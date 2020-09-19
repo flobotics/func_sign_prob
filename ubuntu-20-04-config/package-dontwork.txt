@@ -769,3 +769,4 @@ fceux
 flare-engine
 ffmpegthumbs
 fontmanager.app
+python3-fontforge

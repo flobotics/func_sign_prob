@@ -2270,3 +2270,5 @@ francine
 flrig
 fdflush
 fontforge-nox
+python3-fontforge
+fontforge-extras
