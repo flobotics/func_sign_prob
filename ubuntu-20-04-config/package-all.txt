@@ -2622,3 +2622,7 @@ tcpslice
 tetzle
 tcpstat
 tpm-quote-tools
+tkpng
+telepathy-ring
+tiny-initramfs-core
+tsdecrypt

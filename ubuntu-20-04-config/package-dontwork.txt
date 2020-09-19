@@ -892,3 +892,6 @@ typespeed
 tkdnd
 tenace
 tetzle
+tkpng
+telepathy-ring
+tiny-initramfs-core

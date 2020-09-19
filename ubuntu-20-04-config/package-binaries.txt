@@ -5262,3 +5262,5 @@
 /usr/bin/tpm_unloadkey
 /usr/bin/tpm_updatepcrhash
 /usr/bin/tpm_verifyquote
+/usr/bin/tsdecrypt_dvbcsa
+/usr/bin/tsdecrypt_ffdecsa
