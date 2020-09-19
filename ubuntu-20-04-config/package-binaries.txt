@@ -4376,3 +4376,4 @@
 /usr/bin/icetime
 /usr/bin/fswatch
 /usr/bin/flpsed
+/usr/bin/fbterm_ucimf
