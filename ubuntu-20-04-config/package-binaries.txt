@@ -4412,3 +4412,4 @@
 /usr/bin/cgflookup
 /usr/bin/flookup
 /usr/bin/foma
+/usr/bin/scel2org5

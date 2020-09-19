@@ -746,3 +746,8 @@ fcitx5-frontend-gtk2
 frozen-bubble
 fcitx-googlepinyin
 fathom
+fcitx5-module-cloudpinyin
+fcitx5-module-fullwidth
+fcitx5-module-punctuation
+fcitx5-pinyin
+fcitx5-table

@@ -2215,3 +2215,9 @@ fuse-emulator-utils
 felix-latin
 fathom
 foma
+fcitx5-module-cloudpinyin
+fcitx5-module-fullwidth
+fcitx5-module-punctuation
+fcitx5-pinyin
+fcitx5-table
+fcitx5-chinese-addons-bin
