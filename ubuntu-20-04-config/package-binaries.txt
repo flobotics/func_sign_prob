@@ -5274,3 +5274,4 @@
 /usr/bin/transfermii_gui
 /usr/bin/tcpxtract
 /usr/bin/tabble
+/usr/sbin/tincd
