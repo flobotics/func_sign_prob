@@ -5588,3 +5588,5 @@
 /usr/sbin/mkzonedb
 /usr/sbin/ipppd
 /usr/sbin/ipppstats
+/usr/sbin/vboxd
+/usr/sbin/vboxgetty
