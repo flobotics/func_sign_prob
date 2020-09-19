@@ -5513,3 +5513,4 @@
 /usr/sbin/ipmi_port
 /usr/sbin/iseltime
 /usr/bin/isoquery
+/usr/bin/ifile
