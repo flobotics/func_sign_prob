@@ -1563,3 +1563,4 @@ flip
 flannel
 flexloader
 fastnetmon
+sndfile-programs

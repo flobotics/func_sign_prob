@@ -799,3 +799,4 @@ nautilus-font-manager
 font-manager-common
 nemo-font-manager
 flamerobin
+python3-libsigscan

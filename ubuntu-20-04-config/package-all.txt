@@ -2367,3 +2367,5 @@ flannel
 flamerobin
 flexloader
 fastnetmon
+python3-libsigscan
+sndfile-programs
