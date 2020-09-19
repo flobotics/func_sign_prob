@@ -4856,3 +4856,4 @@
 /usr/bin/typop
 /usr/bin/tyq
 /usr/bin/tysend
+/bin/ttygif
