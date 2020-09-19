@@ -4381,3 +4381,4 @@
 /usr/bin/fastp
 /usr/bin/focuswriter
 /usr/bin/fatattr
+/usr/bin/fwts
