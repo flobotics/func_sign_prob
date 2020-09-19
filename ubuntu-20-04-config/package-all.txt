@@ -2206,3 +2206,6 @@ fastp
 focuswriter
 fatattr
 fwts
+frozen-bubble
+fcitx-googlepinyin
+fprobe

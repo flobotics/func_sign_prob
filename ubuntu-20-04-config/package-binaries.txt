@@ -4382,3 +4382,4 @@
 /usr/bin/focuswriter
 /usr/bin/fatattr
 /usr/bin/fwts
+/usr/sbin/fprobe
