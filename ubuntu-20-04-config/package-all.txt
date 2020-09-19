@@ -2860,3 +2860,5 @@ isomd5sum
 python3-pyisomd5sum
 inspircd
 incron
+python3-smbus
+i2c-tools

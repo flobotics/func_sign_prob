@@ -5628,3 +5628,8 @@
 /usr/sbin/inspircd
 /usr/bin/incrontab
 /usr/sbin/incrond
+/usr/sbin/i2cdetect
+/usr/sbin/i2cdump
+/usr/sbin/i2cget
+/usr/sbin/i2cset
+/usr/sbin/i2ctransfer

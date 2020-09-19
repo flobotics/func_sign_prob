@@ -1888,3 +1888,4 @@ icecc
 isomd5sum
 inspircd
 incron
+i2c-tools
