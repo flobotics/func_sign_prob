@@ -4528,3 +4528,4 @@
 /usr/bin/ufond
 /usr/bin/flmsg
 /usr/bin/freecontact
+/usr/bin/featherpad
