@@ -4609,3 +4609,4 @@
 /usr/bin/saidar
 /usr/bin/sndfile-resample
 /usr/bin/chkcon
+/usr/bin/smithwaterman
