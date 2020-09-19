@@ -5281,3 +5281,4 @@
 /usr/bin/tercpp
 /usr/bin/traverso
 /usr/bin/tcpreen
+/usr/bin/texstudio

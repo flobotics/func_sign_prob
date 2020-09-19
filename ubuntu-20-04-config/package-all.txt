@@ -2653,3 +2653,4 @@ tuxtype
 transcriber
 traverso
 tcpreen
+texstudio

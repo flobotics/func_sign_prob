@@ -1744,3 +1744,4 @@ tableau-parm
 tercpp
 traverso
 tcpreen
+texstudio
