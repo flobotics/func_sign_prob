@@ -6024,3 +6024,4 @@
 /usr/bin/cliquer
 /usr/bin/cadaver
 /usr/bin/codonw
+/usr/bin/cdde

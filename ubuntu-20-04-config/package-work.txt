@@ -2047,3 +2047,4 @@ cue2toc
 cliquer
 cadaver
 codonw
+cdde
