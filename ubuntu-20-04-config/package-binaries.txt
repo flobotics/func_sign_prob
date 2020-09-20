@@ -5671,3 +5671,4 @@
 /usr/bin/inetutils-ifconfig
 /usr/bin/inetutils-logger
 /bin/ping6
+/usr/sbin/telnetd
