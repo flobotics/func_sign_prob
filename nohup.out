@@ -23457,3 +23457,27 @@ Real binaries:['/usr/bin/xfce4-session', '/usr/bin/xfce4-session-logout', '/usr/
 Write to package-work.txt file: xfce4-session
 Write to package-binaries.txt file: ['/usr/bin/xfce4-session', '/usr/bin/xfce4-session-logout', '/usr/bin/xfce4-session-settings']
 ['/usr/bin/xfce4-session', '/usr/bin/xfce4-session-logout', '/usr/bin/xfce4-session-settings']
+Write pickle file
+tar_out:
+Package-nr:4012 of 11000, Name:xshogi-dbgsym
+Package >xshogi< not in package-all.txt file
+Write to package-all.txt file: xshogi
+In package >xshogi< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: xshogi
+[]
+Package-nr:4013 of 11000, Name:xball-dbgsym
+Package >xball< not in package-all.txt file
+Write to package-all.txt file: xball
+In package >xball< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: xball
+[]
+Package-nr:4014 of 11000, Name:xdemorse-dbgsym
+Package >xdemorse< not in package-all.txt file
+Write to package-all.txt file: xdemorse
+In package >xdemorse< are these binaries: ['/usr/bin/xdemorse']
+Real binaries:['/usr/bin/xdemorse']
+Write to package-work.txt file: xdemorse
+Write to package-binaries.txt file: ['/usr/bin/xdemorse']
+['/usr/bin/xdemorse']
