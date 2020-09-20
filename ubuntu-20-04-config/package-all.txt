@@ -3588,3 +3588,4 @@ qtquickcontrols5-examples
 qtcharts5-examples
 qml-module-qtcharts
 qiv
+quiterss

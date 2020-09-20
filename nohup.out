@@ -19405,3 +19405,13 @@ Real binaries:['/usr/bin/qiv']
 Write to package-work.txt file: qiv
 Write to package-binaries.txt file: ['/usr/bin/qiv']
 ['/usr/bin/qiv']
+Write pickle file
+tar_out:
+Package-nr:3536 of 11000, Name:quiterss-dbgsym
+Package >quiterss< not in package-all.txt file
+Write to package-all.txt file: quiterss
+In package >quiterss< are these binaries: ['/usr/bin/quiterss']
+Real binaries:['/usr/bin/quiterss']
+Write to package-work.txt file: quiterss
+Write to package-binaries.txt file: ['/usr/bin/quiterss']
+['/usr/bin/quiterss']
