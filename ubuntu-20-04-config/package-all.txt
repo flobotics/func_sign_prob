@@ -3449,3 +3449,4 @@ ncoils
 chemtool
 cyrus-imspd
 cassiopee
+cmst
