@@ -2617,3 +2617,4 @@ xfce4-settings
 xvattr
 xss-lock
 xsysinfo
+xfce4-terminal

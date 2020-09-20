@@ -4010,3 +4010,4 @@ xvattr
 xserver-xorg-input-joystick
 xss-lock
 xsysinfo
+xfce4-terminal
