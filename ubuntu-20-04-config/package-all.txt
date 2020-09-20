@@ -3932,3 +3932,5 @@ xdg-dbus-proxy-tests
 xemacs21-nomule
 xemacs21-bin
 xemacs21-mule-canna-wnn
+xjokes
+xen-utils-4.11
