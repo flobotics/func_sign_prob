@@ -7022,3 +7022,4 @@
 /usr/bin/qpdf
 /usr/bin/zlib-flate
 /usr/bin/esolver
+/usr/bin/qmidinet

@@ -2333,3 +2333,4 @@ qdbm-cgi
 qt3d5-dev-tools
 qpdf
 qsopt-ex
+qmidinet
