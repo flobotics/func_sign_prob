@@ -4007,3 +4007,5 @@ xbacklight
 xcowsay
 xfce4-settings
 xvattr
+xserver-xorg-input-joystick
+xss-lock

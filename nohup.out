@@ -23222,3 +23222,20 @@ Real binaries:['/usr/bin/gxvattr', '/usr/bin/xvattr']
 Write to package-work.txt file: xvattr
 Write to package-binaries.txt file: ['/usr/bin/gxvattr', '/usr/bin/xvattr']
 ['/usr/bin/gxvattr', '/usr/bin/xvattr']
+Write pickle file
+tar_out:
+Package-nr:3984 of 11000, Name:xserver-xorg-input-joystick-dbgsym
+Package >xserver-xorg-input-joystick< not in package-all.txt file
+Write to package-all.txt file: xserver-xorg-input-joystick
+In package >xserver-xorg-input-joystick< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: xserver-xorg-input-joystick
+[]
+Package-nr:3985 of 11000, Name:xss-lock-dbgsym
+Package >xss-lock< not in package-all.txt file
+Write to package-all.txt file: xss-lock
+In package >xss-lock< are these binaries: ['/usr/bin/xss-lock']
+Real binaries:['/usr/bin/xss-lock']
+Write to package-work.txt file: xss-lock
+Write to package-binaries.txt file: ['/usr/bin/xss-lock']
+['/usr/bin/xss-lock']

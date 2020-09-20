@@ -2615,3 +2615,4 @@ xidle
 xbacklight
 xfce4-settings
 xvattr
+xss-lock

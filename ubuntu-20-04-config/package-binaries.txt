@@ -7688,3 +7688,4 @@
 /usr/bin/xfsettingsd
 /usr/bin/gxvattr
 /usr/bin/xvattr
+/usr/bin/xss-lock

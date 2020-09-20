@@ -1387,3 +1387,4 @@ xscorch
 xserver-xorg-input-mtrack
 xjig
 xcowsay
+xserver-xorg-input-joystick
