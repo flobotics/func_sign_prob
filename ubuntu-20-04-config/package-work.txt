@@ -2450,3 +2450,4 @@ xmotd
 ttv
 alevtd
 scantv
+v4l-conf

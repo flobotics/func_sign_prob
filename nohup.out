@@ -21092,3 +21092,13 @@ Real binaries:['/usr/bin/scantv']
 Write to package-work.txt file: scantv
 Write to package-binaries.txt file: ['/usr/bin/scantv']
 ['/usr/bin/scantv']
+Write pickle file
+tar_out:
+Package-nr:3735 of 11000, Name:v4l-conf-dbgsym
+Package >v4l-conf< not in package-all.txt file
+Write to package-all.txt file: v4l-conf
+In package >v4l-conf< are these binaries: ['/usr/bin/v4l-conf', '/usr/bin/v4l-info']
+Real binaries:['/usr/bin/v4l-conf', '/usr/bin/v4l-info']
+Write to package-work.txt file: v4l-conf
+Write to package-binaries.txt file: ['/usr/bin/v4l-conf', '/usr/bin/v4l-info']
+['/usr/bin/v4l-conf', '/usr/bin/v4l-info']

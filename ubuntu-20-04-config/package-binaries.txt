@@ -7303,3 +7303,5 @@
 /usr/bin/ttv
 /usr/bin/alevtd
 /usr/bin/scantv
+/usr/bin/v4l-conf
+/usr/bin/v4l-info
