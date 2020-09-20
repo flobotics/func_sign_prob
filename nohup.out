@@ -20765,3 +20765,20 @@ Real binaries:['/usr/bin/cxpm', '/usr/bin/sxpm']
 Write to package-work.txt file: xpmutils
 Write to package-binaries.txt file: ['/usr/bin/cxpm', '/usr/bin/sxpm']
 ['/usr/bin/cxpm', '/usr/bin/sxpm']
+Write pickle file
+tar_out:
+Package-nr:3699 of 11000, Name:python3-libmsiecf-dbgsym
+Package >python3-libmsiecf< not in package-all.txt file
+Write to package-all.txt file: python3-libmsiecf
+In package >python3-libmsiecf< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: python3-libmsiecf
+[]
+Package-nr:3700 of 11000, Name:mtp-tools-dbgsym
+Package >mtp-tools< not in package-all.txt file
+Write to package-all.txt file: mtp-tools
+In package >mtp-tools< are these binaries: ['/usr/bin/mtp-albumart', '/usr/bin/mtp-albums', '/usr/bin/mtp-connect', '/usr/bin/mtp-detect', '/usr/bin/mtp-emptyfolders', '/usr/bin/mtp-files', '/usr/bin/mtp-filetree', '/usr/bin/mtp-folders', '/usr/bin/mtp-format', '/usr/bin/mtp-getplaylist', '/usr/bin/mtp-hotplug', '/usr/bin/mtp-newplaylist', '/usr/bin/mtp-playlists', '/usr/bin/mtp-reset', '/usr/bin/mtp-thumb', '/usr/bin/mtp-tracks', '/usr/bin/mtp-trexist', '/usr/bin/mtp-delfile', '/usr/bin/mtp-getfile', '/usr/bin/mtp-newfolder', '/usr/bin/mtp-sendfile', '/usr/bin/mtp-sendtr']
+Real binaries:['/usr/bin/mtp-albumart', '/usr/bin/mtp-albums', '/usr/bin/mtp-connect', '/usr/bin/mtp-detect', '/usr/bin/mtp-emptyfolders', '/usr/bin/mtp-files', '/usr/bin/mtp-filetree', '/usr/bin/mtp-folders', '/usr/bin/mtp-format', '/usr/bin/mtp-getplaylist', '/usr/bin/mtp-hotplug', '/usr/bin/mtp-newplaylist', '/usr/bin/mtp-playlists', '/usr/bin/mtp-reset', '/usr/bin/mtp-thumb', '/usr/bin/mtp-tracks', '/usr/bin/mtp-trexist']
+Write to package-work.txt file: mtp-tools
+Write to package-binaries.txt file: ['/usr/bin/mtp-albumart', '/usr/bin/mtp-albums', '/usr/bin/mtp-connect', '/usr/bin/mtp-detect', '/usr/bin/mtp-emptyfolders', '/usr/bin/mtp-files', '/usr/bin/mtp-filetree', '/usr/bin/mtp-folders', '/usr/bin/mtp-format', '/usr/bin/mtp-getplaylist', '/usr/bin/mtp-hotplug', '/usr/bin/mtp-newplaylist', '/usr/bin/mtp-playlists', '/usr/bin/mtp-reset', '/usr/bin/mtp-thumb', '/usr/bin/mtp-tracks', '/usr/bin/mtp-trexist']
+['/usr/bin/mtp-albumart', '/usr/bin/mtp-albums', '/usr/bin/mtp-connect', '/usr/bin/mtp-detect', '/usr/bin/mtp-emptyfolders', '/usr/bin/mtp-files', '/usr/bin/mtp-filetree', '/usr/bin/mtp-folders', '/usr/bin/mtp-format', '/usr/bin/mtp-getplaylist', '/usr/bin/mtp-hotplug', '/usr/bin/mtp-newplaylist', '/usr/bin/mtp-playlists', '/usr/bin/mtp-reset', '/usr/bin/mtp-thumb', '/usr/bin/mtp-tracks', '/usr/bin/mtp-trexist']

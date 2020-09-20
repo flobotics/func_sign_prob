@@ -3745,3 +3745,5 @@ python3-qutip
 qps
 qflow
 xpmutils
+python3-libmsiecf
+mtp-tools
