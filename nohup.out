@@ -21921,3 +21921,13 @@ Real binaries:['/usr/bin/xfaces']
 Write to package-work.txt file: xfaces
 Write to package-binaries.txt file: ['/usr/bin/xfaces']
 ['/usr/bin/xfaces']
+Write pickle file
+tar_out:
+Package-nr:3832 of 11000, Name:xml-security-c-utils-dbgsym
+Package >xml-security-c-utils< not in package-all.txt file
+Write to package-all.txt file: xml-security-c-utils
+In package >xml-security-c-utils< are these binaries: ['/usr/bin/xsec-c14n', '/usr/bin/xsec-checksig', '/usr/bin/xsec-cipher', '/usr/bin/xsec-siginf', '/usr/bin/xsec-templatesign', '/usr/bin/xsec-txfmout', '/usr/bin/xsec-xklient', '/usr/bin/xsec-xtest']
+Real binaries:['/usr/bin/xsec-c14n', '/usr/bin/xsec-checksig', '/usr/bin/xsec-cipher', '/usr/bin/xsec-siginf', '/usr/bin/xsec-templatesign', '/usr/bin/xsec-txfmout', '/usr/bin/xsec-xklient', '/usr/bin/xsec-xtest']
+Write to package-work.txt file: xml-security-c-utils
+Write to package-binaries.txt file: ['/usr/bin/xsec-c14n', '/usr/bin/xsec-checksig', '/usr/bin/xsec-cipher', '/usr/bin/xsec-siginf', '/usr/bin/xsec-templatesign', '/usr/bin/xsec-txfmout', '/usr/bin/xsec-xklient', '/usr/bin/xsec-xtest']
+['/usr/bin/xsec-c14n', '/usr/bin/xsec-checksig', '/usr/bin/xsec-cipher', '/usr/bin/xsec-siginf', '/usr/bin/xsec-templatesign', '/usr/bin/xsec-txfmout', '/usr/bin/xsec-xklient', '/usr/bin/xsec-xtest']

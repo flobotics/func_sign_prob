@@ -3869,3 +3869,4 @@ xoscope
 xcircuit
 xblast-tnt
 xfaces
+xml-security-c-utils

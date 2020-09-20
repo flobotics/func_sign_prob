@@ -7408,3 +7408,11 @@
 /usr/bin/xwrited
 /usr/bin/xoscope
 /usr/bin/xfaces
+/usr/bin/xsec-c14n
+/usr/bin/xsec-checksig
+/usr/bin/xsec-cipher
+/usr/bin/xsec-siginf
+/usr/bin/xsec-templatesign
+/usr/bin/xsec-txfmout
+/usr/bin/xsec-xklient
+/usr/bin/xsec-xtest
