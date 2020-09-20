@@ -21755,3 +21755,13 @@ Real binaries:['/usr/bin/xfdesktop', '/usr/bin/xfdesktop-settings']
 Write to package-work.txt file: xfdesktop4
 Write to package-binaries.txt file: ['/usr/bin/xfdesktop', '/usr/bin/xfdesktop-settings']
 ['/usr/bin/xfdesktop', '/usr/bin/xfdesktop-settings']
+Write pickle file
+tar_out:
+Package-nr:3814 of 11000, Name:xiterm+thai-dbgsym
+Package >xiterm+thai< not in package-all.txt file
+Write to package-all.txt file: xiterm+thai
+In package >xiterm+thai< are these binaries: ['/usr/bin/txiterm', '/usr/bin/xiterm+thai']
+Real binaries:['/usr/bin/xiterm+thai']
+Write to package-work.txt file: xiterm+thai
+Write to package-binaries.txt file: ['/usr/bin/xiterm+thai']
+['/usr/bin/xiterm+thai']

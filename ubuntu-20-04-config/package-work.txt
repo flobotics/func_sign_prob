@@ -2500,3 +2500,4 @@ xpra
 xdaliclock
 xaos
 xfdesktop4
+xiterm+thai
