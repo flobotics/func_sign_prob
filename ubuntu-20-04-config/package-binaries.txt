@@ -7659,3 +7659,4 @@
 /usr/bin/xplot.org
 /usr/bin/xfconf-query
 /usr/bin/XyGrib
+/usr/bin/xwrits
