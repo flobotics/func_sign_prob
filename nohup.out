@@ -16152,3 +16152,13 @@ Real binaries:['/usr/bin/cvc4', '/usr/bin/pcvc4']
 Write to package-work.txt file: cvc4
 Write to package-binaries.txt file: ['/usr/bin/cvc4', '/usr/bin/pcvc4']
 ['/usr/bin/cvc4', '/usr/bin/pcvc4']
+Write pickle file
+tar_out:
+Package-nr:3155 of 11000, Name:cruft-ng-dbgsym
+Package >cruft-ng< not in package-all.txt file
+Write to package-all.txt file: cruft-ng
+In package >cruft-ng< are these binaries: ['/usr/bin/cruft-ng']
+Real binaries:['/usr/bin/cruft-ng']
+Write to package-work.txt file: cruft-ng
+Write to package-binaries.txt file: ['/usr/bin/cruft-ng']
+['/usr/bin/cruft-ng']

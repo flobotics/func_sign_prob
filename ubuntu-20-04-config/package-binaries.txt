@@ -6385,3 +6385,4 @@
 /usr/bin/cccc
 /usr/bin/cvc4
 /usr/bin/pcvc4
+/usr/bin/cruft-ng
