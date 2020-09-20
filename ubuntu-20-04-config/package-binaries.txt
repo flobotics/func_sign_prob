@@ -6970,3 +6970,5 @@
 /usr/lib/cyrus/bin/fetchnews
 /usr/lib/cyrus/bin/nntpd
 /usr/lib/cyrus/bin/mupdate
+/usr/lib/cyrus/bin/dav_reconstruct
+/usr/lib/cyrus/bin/httpd
