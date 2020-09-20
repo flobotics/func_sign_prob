@@ -5777,3 +5777,14 @@
 /usr/bin/indi_xagyl_wheel
 /usr/bin/indiserver
 /usr/bin/imaptool
+/usr/bin/animate-im6.q16hdri
+/usr/bin/compare-im6.q16hdri
+/usr/bin/composite-im6.q16hdri
+/usr/bin/conjure-im6.q16hdri
+/usr/bin/convert-im6.q16hdri
+/usr/bin/display-im6.q16hdri
+/usr/bin/identify-im6.q16hdri
+/usr/bin/import-im6.q16hdri
+/usr/bin/mogrify-im6.q16hdri
+/usr/bin/montage-im6.q16hdri
+/usr/bin/stream-im6.q16hdri

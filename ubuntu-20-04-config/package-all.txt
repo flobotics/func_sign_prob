@@ -2900,3 +2900,4 @@ ipfm
 ibus-anthy
 indi-bin
 imaptool
+imagemagick-6.q16hdri
