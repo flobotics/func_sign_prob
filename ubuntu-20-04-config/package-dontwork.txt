@@ -984,3 +984,7 @@ invesalius-bin
 instead
 ibus-skk
 indicator-notifications
+gkrellm-ibam
+intel-media-va-driver
+indicator-datetime
+postgresql-12-icu-ext

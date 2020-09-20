@@ -5850,3 +5850,4 @@
 /usr/bin/idesk
 /usr/bin/imx_uart
 /usr/bin/imx_usb
+/usr/sbin/iftop
