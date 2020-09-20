@@ -3941,3 +3941,4 @@ xcolorsel
 xc3sprog
 xsok
 xprintidle
+xine-ui

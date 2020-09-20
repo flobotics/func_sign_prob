@@ -2566,3 +2566,4 @@ xmpi
 xcolorsel
 xc3sprog
 xprintidle
+xine-ui

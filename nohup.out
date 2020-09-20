@@ -22602,3 +22602,13 @@ Real binaries:['/usr/bin/xprintidle']
 Write to package-work.txt file: xprintidle
 Write to package-binaries.txt file: ['/usr/bin/xprintidle']
 ['/usr/bin/xprintidle']
+Write pickle file
+tar_out:
+Package-nr:3913 of 11000, Name:xine-ui-dbgsym
+Package >xine-ui< not in package-all.txt file
+Write to package-all.txt file: xine-ui
+In package >xine-ui< are these binaries: ['/usr/bin/xine', '/usr/bin/xine-remote']
+Real binaries:['/usr/bin/xine', '/usr/bin/xine-remote']
+Write to package-work.txt file: xine-ui
+Write to package-binaries.txt file: ['/usr/bin/xine', '/usr/bin/xine-remote']
+['/usr/bin/xine', '/usr/bin/xine-remote']
