@@ -3873,3 +3873,4 @@ xml-security-c-utils
 xmahjongg
 xringd
 xsettingsd
+xsel

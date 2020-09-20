@@ -7419,3 +7419,4 @@
 /usr/sbin/xringd
 /usr/bin/dump_xsettings
 /usr/bin/xsettingsd
+/usr/bin/xsel

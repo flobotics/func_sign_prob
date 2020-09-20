@@ -21958,3 +21958,13 @@ Real binaries:['/usr/bin/dump_xsettings', '/usr/bin/xsettingsd']
 Write to package-work.txt file: xsettingsd
 Write to package-binaries.txt file: ['/usr/bin/dump_xsettings', '/usr/bin/xsettingsd']
 ['/usr/bin/dump_xsettings', '/usr/bin/xsettingsd']
+Write pickle file
+tar_out:
+Package-nr:3836 of 11000, Name:xsel-dbgsym
+Package >xsel< not in package-all.txt file
+Write to package-all.txt file: xsel
+In package >xsel< are these binaries: ['/usr/bin/xsel']
+Real binaries:['/usr/bin/xsel']
+Write to package-work.txt file: xsel
+Write to package-binaries.txt file: ['/usr/bin/xsel']
+['/usr/bin/xsel']
