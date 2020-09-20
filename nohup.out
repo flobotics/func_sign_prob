@@ -23567,3 +23567,13 @@ Real binaries:['/usr/bin/chprop', '/usr/bin/karma_helper', '/usr/bin/riocp']
 Write to package-work.txt file: karma-tools
 Write to package-binaries.txt file: ['/usr/bin/chprop', '/usr/bin/karma_helper', '/usr/bin/riocp']
 ['/usr/bin/chprop', '/usr/bin/karma_helper', '/usr/bin/riocp']
+Write pickle file
+tar_out:
+Package-nr:4025 of 11000, Name:kcapi-tools-dbgsym
+Package >kcapi-tools< not in package-all.txt file
+Write to package-all.txt file: kcapi-tools
+In package >kcapi-tools< are these binaries: ['/usr/bin/kcapi-dgst', '/usr/bin/kcapi-enc', '/usr/bin/kcapi-rng']
+Real binaries:['/usr/bin/kcapi-dgst', '/usr/bin/kcapi-enc', '/usr/bin/kcapi-rng']
+Write to package-work.txt file: kcapi-tools
+Write to package-binaries.txt file: ['/usr/bin/kcapi-dgst', '/usr/bin/kcapi-enc', '/usr/bin/kcapi-rng']
+['/usr/bin/kcapi-dgst', '/usr/bin/kcapi-enc', '/usr/bin/kcapi-rng']

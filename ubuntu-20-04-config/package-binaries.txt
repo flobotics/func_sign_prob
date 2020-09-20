@@ -7720,3 +7720,6 @@
 /usr/bin/chprop
 /usr/bin/karma_helper
 /usr/bin/riocp
+/usr/bin/kcapi-dgst
+/usr/bin/kcapi-enc
+/usr/bin/kcapi-rng
