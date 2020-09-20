@@ -1180,3 +1180,4 @@ centrifuge
 python3-compreffor
 r-cran-cairodevice
 clutter-1.0-tests
+cinnamon-screensaver

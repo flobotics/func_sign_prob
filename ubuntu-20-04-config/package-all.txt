@@ -3403,3 +3403,5 @@ r-cran-cairodevice
 cmatrix
 clutter-1.0-tests
 cpufreqd
+cinnamon-screensaver
+canu
