@@ -6974,3 +6974,4 @@
 /usr/lib/cyrus/bin/httpd
 /usr/bin/cb2bib
 /usr/bin/caneda
+/usr/sbin/crossfire-server

@@ -3514,3 +3514,5 @@ coinor-libcoinmp1v5
 cb2bib
 coinor-libcgl1
 caneda
+cynthiune.app
+crossfire-server
