@@ -3946,3 +3946,4 @@ xine-console
 xfce4-clipman
 xmlroff
 xfce4-volumed
+xtermcontrol

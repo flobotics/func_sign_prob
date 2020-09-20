@@ -7602,3 +7602,4 @@
 /usr/bin/xfce4-popup-clipman
 /usr/bin/xmlroff
 /usr/bin/xfce4-volumed
+/usr/bin/xtermcontrol
