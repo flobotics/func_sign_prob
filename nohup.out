@@ -18745,3 +18745,27 @@ Real binaries:['/usr/lib/cyrus/bin/dav_reconstruct', '/usr/lib/cyrus/bin/httpd']
 Write to package-work.txt file: cyrus-caldav
 Write to package-binaries.txt file: ['/usr/lib/cyrus/bin/dav_reconstruct', '/usr/lib/cyrus/bin/httpd']
 ['/usr/lib/cyrus/bin/dav_reconstruct', '/usr/lib/cyrus/bin/httpd']
+Write pickle file
+tar_out:
+Package-nr:3454 of 11000, Name:calibre-bin-dbgsym
+Package >calibre-bin< not in package-all.txt file
+Write to package-all.txt file: calibre-bin
+In package >calibre-bin< are these binaries: ['/usr/share/doc/calibre-bin/NEWS.Debian.gz', '/usr/share/doc/calibre-bin/changelog.Debian.gz', '/usr/share/doc/calibre-bin/copyright']
+Real binaries:[]
+Write to package-dontwork.txt file: calibre-bin
+[]
+Package-nr:3455 of 11000, Name:coinor-libcoinmp1v5-dbgsym
+Package >coinor-libcoinmp1v5< not in package-all.txt file
+Write to package-all.txt file: coinor-libcoinmp1v5
+In package >coinor-libcoinmp1v5< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: coinor-libcoinmp1v5
+[]
+Package-nr:3456 of 11000, Name:cb2bib-dbgsym
+Package >cb2bib< not in package-all.txt file
+Write to package-all.txt file: cb2bib
+In package >cb2bib< are these binaries: ['/usr/bin/c2bciter', '/usr/bin/c2bimport', '/usr/bin/cb2bib']
+Real binaries:['/usr/bin/cb2bib']
+Write to package-work.txt file: cb2bib
+Write to package-binaries.txt file: ['/usr/bin/cb2bib']
+['/usr/bin/cb2bib']

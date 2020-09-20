@@ -3509,3 +3509,6 @@ cyrus-clients
 cyrus-nntpd
 cyrus-murder
 cyrus-caldav
+calibre-bin
+coinor-libcoinmp1v5
+cb2bib

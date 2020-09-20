@@ -6972,3 +6972,4 @@
 /usr/lib/cyrus/bin/mupdate
 /usr/lib/cyrus/bin/dav_reconstruct
 /usr/lib/cyrus/bin/httpd
+/usr/bin/cb2bib
