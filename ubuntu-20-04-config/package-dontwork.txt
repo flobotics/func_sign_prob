@@ -1236,3 +1236,12 @@ qml-module-qtquick-templates2
 qtquickcontrols2-5-examples
 qml-module-qt-labs-calendar
 qml-module-qt-labs-platform
+qtnetworkauth5-examples
+gtk2-engines-qtcurve
+kde-style-qtcurve-qt5
+qml-module-qtquick-extras
+qml-module-qtquick-dialogs
+qml-module-qtquick-privatewidgets
+qtquickcontrols5-examples
+qtcharts5-examples
+qml-module-qtcharts

@@ -19329,3 +19329,79 @@ Real binaries:['/usr/bin/qashctl']
 Write to package-work.txt file: qashctl
 Write to package-binaries.txt file: ['/usr/bin/qashctl']
 ['/usr/bin/qashctl']
+Write pickle file
+tar_out:
+Package-nr:3525 of 11000, Name:qtnetworkauth5-examples-dbgsym
+Package >qtnetworkauth5-examples< not in package-all.txt file
+Write to package-all.txt file: qtnetworkauth5-examples
+In package >qtnetworkauth5-examples< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: qtnetworkauth5-examples
+[]
+Package-nr:3526 of 11000, Name:gtk2-engines-qtcurve-dbgsym
+Package >gtk2-engines-qtcurve< not in package-all.txt file
+Write to package-all.txt file: gtk2-engines-qtcurve
+In package >gtk2-engines-qtcurve< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: gtk2-engines-qtcurve
+[]
+Package-nr:3527 of 11000, Name:kde-style-qtcurve-qt5-dbgsym
+Package >kde-style-qtcurve-qt5< not in package-all.txt file
+Write to package-all.txt file: kde-style-qtcurve-qt5
+In package >kde-style-qtcurve-qt5< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: kde-style-qtcurve-qt5
+[]
+Package-nr:3528 of 11000, Name:qml-module-qtquick-extras-dbgsym
+Package >qml-module-qtquick-extras< not in package-all.txt file
+Write to package-all.txt file: qml-module-qtquick-extras
+In package >qml-module-qtquick-extras< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: qml-module-qtquick-extras
+[]
+Package-nr:3529 of 11000, Name:qml-module-qtquick-dialogs-dbgsym
+Package >qml-module-qtquick-dialogs< not in package-all.txt file
+Write to package-all.txt file: qml-module-qtquick-dialogs
+In package >qml-module-qtquick-dialogs< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: qml-module-qtquick-dialogs
+[]
+Package-nr:3530 of 11000, Name:qml-module-qtquick-controls-dbgsym
+Skip package >qml-module-qtquick-controls<, already in package-all.txt file
+[]
+Package-nr:3531 of 11000, Name:qml-module-qtquick-privatewidgets-dbgsym
+Package >qml-module-qtquick-privatewidgets< not in package-all.txt file
+Write to package-all.txt file: qml-module-qtquick-privatewidgets
+In package >qml-module-qtquick-privatewidgets< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: qml-module-qtquick-privatewidgets
+[]
+Package-nr:3532 of 11000, Name:qtquickcontrols5-examples-dbgsym
+Package >qtquickcontrols5-examples< not in package-all.txt file
+Write to package-all.txt file: qtquickcontrols5-examples
+In package >qtquickcontrols5-examples< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: qtquickcontrols5-examples
+[]
+Package-nr:3533 of 11000, Name:qtcharts5-examples-dbgsym
+Package >qtcharts5-examples< not in package-all.txt file
+Write to package-all.txt file: qtcharts5-examples
+In package >qtcharts5-examples< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: qtcharts5-examples
+[]
+Package-nr:3534 of 11000, Name:qml-module-qtcharts-dbgsym
+Package >qml-module-qtcharts< not in package-all.txt file
+Write to package-all.txt file: qml-module-qtcharts
+In package >qml-module-qtcharts< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: qml-module-qtcharts
+[]
+Package-nr:3535 of 11000, Name:qiv-dbgsym
+Package >qiv< not in package-all.txt file
+Write to package-all.txt file: qiv
+In package >qiv< are these binaries: ['/usr/bin/qiv']
+Real binaries:['/usr/bin/qiv']
+Write to package-work.txt file: qiv
+Write to package-binaries.txt file: ['/usr/bin/qiv']
+['/usr/bin/qiv']

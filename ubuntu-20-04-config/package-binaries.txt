@@ -7026,3 +7026,4 @@
 /usr/bin/qasmixer
 /usr/bin/qasconfig
 /usr/bin/qashctl
+/usr/bin/qiv
