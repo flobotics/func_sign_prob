@@ -2260,3 +2260,4 @@ cmst
 curlftpfs
 ctpl
 chicken-bin
+capstone-tool

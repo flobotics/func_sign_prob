@@ -6831,3 +6831,4 @@
 /usr/bin/chicken-uninstall
 /usr/bin/csc
 /usr/bin/csi
+/usr/bin/cstool
