@@ -1926,3 +1926,5 @@ iraf-sptable
 infnoise
 iwyu
 inform6-compiler
+isc-dhcp-client-ddns
+isc-dhcp-relay

@@ -2911,3 +2911,5 @@ iwyu
 ibus-kmfl
 ibus-pinyin
 inform6-compiler
+isc-dhcp-client-ddns
+isc-dhcp-relay
