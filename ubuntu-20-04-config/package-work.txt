@@ -2612,3 +2612,4 @@ xfce4-taskmanager
 x2vnc
 xtrace
 xidle
+xbacklight

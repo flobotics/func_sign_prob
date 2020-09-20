@@ -4003,3 +4003,4 @@ xserver-xorg-input-mtrack
 xjig
 xtrace
 xidle
+xbacklight

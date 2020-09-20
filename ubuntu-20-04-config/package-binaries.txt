@@ -7674,3 +7674,4 @@
 /usr/bin/x2vnc
 /usr/bin/xtrace
 /usr/bin/xidle
+/usr/bin/xbacklight
