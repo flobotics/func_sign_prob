@@ -3961,3 +3961,4 @@ xrootconsole
 xcrysden
 xfce4-dict
 xwax
+xmlindent
