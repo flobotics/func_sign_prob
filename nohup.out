@@ -20688,3 +20688,13 @@ Real binaries:['/usr/lib/qt5/bin/qmake']
 Write to package-work.txt file: qt5-qmake-bin
 Write to package-binaries.txt file: ['/usr/lib/qt5/bin/qmake']
 ['/usr/lib/qt5/bin/qmake']
+Write pickle file
+tar_out:
+Package-nr:3690 of 11000, Name:qdirstat-dbgsym
+Package >qdirstat< not in package-all.txt file
+Write to package-all.txt file: qdirstat
+In package >qdirstat< are these binaries: ['/usr/bin/qdirstat', '/usr/bin/qdirstat-cache-writer']
+Real binaries:['/usr/bin/qdirstat']
+Write to package-work.txt file: qdirstat
+Write to package-binaries.txt file: ['/usr/bin/qdirstat']
+['/usr/bin/qdirstat']
