@@ -15752,3 +15752,13 @@ Real binaries:['/usr/bin/mimegpg']
 Write to package-work.txt file: sqwebmail
 Write to package-binaries.txt file: ['/usr/bin/mimegpg']
 ['/usr/bin/mimegpg']
+Write pickle file
+tar_out:
+Package-nr:3109 of 11000, Name:courier-imap-dbgsym
+Package >courier-imap< not in package-all.txt file
+Write to package-all.txt file: courier-imap
+In package >courier-imap< are these binaries: ['/usr/bin/imapd', '/usr/sbin/imapd', '/usr/sbin/imapd-ssl', '/usr/sbin/mkimapdcert']
+Real binaries:['/usr/bin/imapd']
+Write to package-work.txt file: courier-imap
+Write to package-binaries.txt file: ['/usr/bin/imapd']
+['/usr/bin/imapd']

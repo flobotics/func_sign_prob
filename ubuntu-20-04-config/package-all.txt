@@ -3184,3 +3184,4 @@ courier-mta
 courier-pop
 courier-pcp
 sqwebmail
+courier-imap

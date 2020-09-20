@@ -6174,3 +6174,4 @@
 /usr/sbin/courier-mtaconfig
 /usr/sbin/sendmail
 /usr/bin/mimegpg
+/usr/bin/imapd

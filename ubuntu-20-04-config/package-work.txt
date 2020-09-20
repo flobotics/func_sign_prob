@@ -2074,3 +2074,4 @@ cmtk
 catimg
 courier-mta
 sqwebmail
+courier-imap
