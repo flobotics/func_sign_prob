@@ -3357,3 +3357,4 @@ ckon
 cool-retro-term
 qml-module-qmltermwidget
 ctsim
+colorhug-client

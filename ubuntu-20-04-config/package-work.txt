@@ -2183,3 +2183,4 @@ charmtimetracker
 ckon
 cool-retro-term
 ctsim
+colorhug-client

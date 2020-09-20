@@ -6615,3 +6615,8 @@
 /usr/bin/cool-retro-term
 /usr/bin/ctsim
 /usr/bin/ctsimtext
+/usr/bin/colorhug-backlight
+/usr/bin/colorhug-ccmx
+/usr/bin/colorhug-cmd
+/usr/bin/colorhug-flash
+/usr/bin/colorhug-refresh
