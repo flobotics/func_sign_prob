@@ -5859,3 +5859,4 @@
 /usr/bin/icewmbg
 /usr/bin/icewmhint
 /usr/bin/icewm-menu-fdo
+/usr/bin/inspectrum
