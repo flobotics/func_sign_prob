@@ -3196,3 +3196,4 @@ python3-pbconsensuscore
 confget
 caml2html
 catdoc
+coyim
