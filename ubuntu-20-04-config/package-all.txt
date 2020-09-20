@@ -3493,3 +3493,5 @@ cavezofphear
 checkit-tiff
 cbmc
 copyq
+chess.app
+cinnamon-session

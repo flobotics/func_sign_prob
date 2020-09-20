@@ -6902,3 +6902,5 @@
 /usr/bin/jbmc
 /usr/bin/jdiff
 /usr/bin/copyq
+/usr/bin/cinnamon-session
+/usr/bin/cinnamon-session-quit
