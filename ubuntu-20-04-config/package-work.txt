@@ -1963,3 +1963,6 @@ indicator-china-weather
 icecc-monitor
 ical2html
 iec16022
+intel-opencl-icd
+chntpw
+clinfo

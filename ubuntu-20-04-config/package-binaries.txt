@@ -5903,3 +5903,8 @@
 /usr/bin/icalfilter
 /usr/bin/icalmerge
 /usr/bin/iec16022
+/usr/sbin/chntpw
+/usr/sbin/reged
+/usr/sbin/sampasswd
+/usr/sbin/samusrgrp
+/usr/bin/clinfo

@@ -2969,3 +2969,6 @@ indicator-session
 ical2html
 imvirt-helper
 iec16022
+intel-opencl-icd
+chntpw
+clinfo

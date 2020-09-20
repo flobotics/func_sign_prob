@@ -13891,3 +13891,29 @@ Real binaries:['/usr/bin/iec16022']
 Write to package-work.txt file: iec16022
 Write to package-binaries.txt file: ['/usr/bin/iec16022']
 ['/usr/bin/iec16022']
+Write pickle file
+tar_out:
+Package-nr:2877 of 11000, Name:intel-opencl-icd-dbgsym
+Package >intel-opencl-icd< not in package-all.txt file
+Write to package-all.txt file: intel-opencl-icd
+In package >intel-opencl-icd< are these binaries: ['/usr/bin/ocloc']
+Real binaries:['/usr/bin/ocloc']
+Write to package-work.txt file: intel-opencl-icd
+No binaries to write to package-binaries.txt file
+[]
+Package-nr:2878 of 11000, Name:chntpw-dbgsym
+Package >chntpw< not in package-all.txt file
+Write to package-all.txt file: chntpw
+In package >chntpw< are these binaries: ['/usr/sbin/chntpw', '/usr/sbin/reged', '/usr/sbin/sampasswd', '/usr/sbin/samusrgrp']
+Real binaries:['/usr/sbin/chntpw', '/usr/sbin/reged', '/usr/sbin/sampasswd', '/usr/sbin/samusrgrp']
+Write to package-work.txt file: chntpw
+Write to package-binaries.txt file: ['/usr/sbin/chntpw', '/usr/sbin/reged', '/usr/sbin/sampasswd', '/usr/sbin/samusrgrp']
+['/usr/sbin/chntpw', '/usr/sbin/reged', '/usr/sbin/sampasswd', '/usr/sbin/samusrgrp']
+Package-nr:2879 of 11000, Name:clinfo-dbgsym
+Package >clinfo< not in package-all.txt file
+Write to package-all.txt file: clinfo
+In package >clinfo< are these binaries: ['/usr/bin/clinfo']
+Real binaries:['/usr/bin/clinfo']
+Write to package-work.txt file: clinfo
+Write to package-binaries.txt file: ['/usr/bin/clinfo']
+['/usr/bin/clinfo']
