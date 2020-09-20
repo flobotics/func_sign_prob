@@ -2640,3 +2640,4 @@ xcalib
 64tass
 karma-tools
 kcapi-tools
+ktoblzcheck

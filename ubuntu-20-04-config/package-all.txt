@@ -4046,3 +4046,6 @@ qml-module-org-kde-games-core
 python3-kolabformat
 karma-tools
 kcapi-tools
+kde-config-cddb
+kio-sieve
+ktoblzcheck

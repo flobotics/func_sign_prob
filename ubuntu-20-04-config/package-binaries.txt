@@ -7723,3 +7723,4 @@
 /usr/bin/kcapi-dgst
 /usr/bin/kcapi-enc
 /usr/bin/kcapi-rng
+/usr/bin/ktoblzcheck

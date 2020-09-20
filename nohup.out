@@ -23577,3 +23577,27 @@ Real binaries:['/usr/bin/kcapi-dgst', '/usr/bin/kcapi-enc', '/usr/bin/kcapi-rng'
 Write to package-work.txt file: kcapi-tools
 Write to package-binaries.txt file: ['/usr/bin/kcapi-dgst', '/usr/bin/kcapi-enc', '/usr/bin/kcapi-rng']
 ['/usr/bin/kcapi-dgst', '/usr/bin/kcapi-enc', '/usr/bin/kcapi-rng']
+Write pickle file
+tar_out:
+Package-nr:4026 of 11000, Name:kde-config-cddb-dbgsym
+Package >kde-config-cddb< not in package-all.txt file
+Write to package-all.txt file: kde-config-cddb
+In package >kde-config-cddb< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: kde-config-cddb
+[]
+Package-nr:4027 of 11000, Name:kio-sieve-dbgsym
+Package >kio-sieve< not in package-all.txt file
+Write to package-all.txt file: kio-sieve
+In package >kio-sieve< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: kio-sieve
+[]
+Package-nr:4028 of 11000, Name:ktoblzcheck-dbgsym
+Package >ktoblzcheck< not in package-all.txt file
+Write to package-all.txt file: ktoblzcheck
+In package >ktoblzcheck< are these binaries: ['/usr/bin/ktoblzcheck']
+Real binaries:['/usr/bin/ktoblzcheck']
+Write to package-work.txt file: ktoblzcheck
+Write to package-binaries.txt file: ['/usr/bin/ktoblzcheck']
+['/usr/bin/ktoblzcheck']
