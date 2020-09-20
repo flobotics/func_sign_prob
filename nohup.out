@@ -23114,3 +23114,20 @@ Real binaries:['/usr/bin/xfce4-power-manager', '/usr/bin/xfce4-power-manager-set
 Write to package-work.txt file: xfce4-power-manager
 Write to package-binaries.txt file: ['/usr/bin/xfce4-power-manager', '/usr/bin/xfce4-power-manager-settings', '/usr/sbin/xfce4-pm-helper', '/usr/sbin/xfpm-power-backlight-helper']
 ['/usr/bin/xfce4-power-manager', '/usr/bin/xfce4-power-manager-settings', '/usr/sbin/xfce4-pm-helper', '/usr/sbin/xfpm-power-backlight-helper']
+Write pickle file
+tar_out:
+Package-nr:3972 of 11000, Name:xscorch-dbgsym
+Package >xscorch< not in package-all.txt file
+Write to package-all.txt file: xscorch
+In package >xscorch< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: xscorch
+[]
+Package-nr:3973 of 11000, Name:xtel-dbgsym
+Package >xtel< not in package-all.txt file
+Write to package-all.txt file: xtel
+In package >xtel< are these binaries: ['/usr/bin/xtel', '/usr/sbin/make_xtel_lignes', '/usr/sbin/mdmdetect', '/usr/sbin/xteld']
+Real binaries:['/usr/bin/xtel', '/usr/sbin/mdmdetect', '/usr/sbin/xteld']
+Write to package-work.txt file: xtel
+Write to package-binaries.txt file: ['/usr/bin/xtel', '/usr/sbin/mdmdetect', '/usr/sbin/xteld']
+['/usr/bin/xtel', '/usr/sbin/mdmdetect', '/usr/sbin/xteld']

@@ -1383,3 +1383,4 @@ xmpuzzles
 xflip
 xskat
 xserver-xorg-video-openchrome
+xscorch
