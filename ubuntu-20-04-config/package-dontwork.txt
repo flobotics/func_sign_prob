@@ -1311,3 +1311,4 @@ qml-module-qtlocation
 qml-module-qtpositioning
 qtlocation5-examples
 qml-module-qt-labs-location
+qml-module-org-kde-qqc2desktopstyle

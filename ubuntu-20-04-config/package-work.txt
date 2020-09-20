@@ -2410,3 +2410,4 @@ qtcreator
 qpxtool
 pxfw
 qlogo
+qlcplus

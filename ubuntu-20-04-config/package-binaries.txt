@@ -7209,3 +7209,5 @@
 /usr/bin/readdvd
 /usr/sbin/pxfw
 /usr/bin/QLogo
+/usr/bin/qlcplus
+/usr/bin/qlcplus-fixtureeditor

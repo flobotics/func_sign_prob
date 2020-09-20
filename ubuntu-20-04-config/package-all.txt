@@ -3726,3 +3726,5 @@ qml-module-qtpositioning
 qtlocation5-examples
 qml-module-qt-labs-location
 qlogo
+qml-module-org-kde-qqc2desktopstyle
+qlcplus
