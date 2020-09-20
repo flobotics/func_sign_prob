@@ -7656,3 +7656,4 @@
 /usr/bin/xmms2-mlib-updater
 /usr/bin/xournal
 /usr/bin/uuidcdef
+/usr/bin/xplot.org

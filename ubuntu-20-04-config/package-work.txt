@@ -2599,3 +2599,4 @@ xmms2-client-cli
 xmms2-client-medialib-updater
 xournal
 uuidcdef
+xplot-xplot.org
