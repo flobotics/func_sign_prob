@@ -7378,3 +7378,7 @@
 /usr/bin/xautolock
 /usr/bin/xdotool
 /usr/bin/xmbmon
+/usr/bin/callpass
+/usr/bin/testdbfawk
+/usr/bin/xastir
+/usr/bin/xastir_udp_client
