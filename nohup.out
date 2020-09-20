@@ -19895,3 +19895,56 @@ Real binaries:['/usr/bin/qperf']
 Write to package-work.txt file: qperf
 Write to package-binaries.txt file: ['/usr/bin/qperf']
 ['/usr/bin/qperf']
+Write pickle file
+tar_out:
+Package-nr:3596 of 11000, Name:qt5-gtk2-platformtheme-dbgsym
+Package >qt5-gtk2-platformtheme< not in package-all.txt file
+Write to package-all.txt file: qt5-gtk2-platformtheme
+In package >qt5-gtk2-platformtheme< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: qt5-gtk2-platformtheme
+[]
+Package-nr:3597 of 11000, Name:qxw-dbgsym
+Package >qxw< not in package-all.txt file
+Write to package-all.txt file: qxw
+In package >qxw< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: qxw
+[]
+Package-nr:3598 of 11000, Name:quantlib-examples-dbgsym
+Package >quantlib-examples< not in package-all.txt file
+Write to package-all.txt file: quantlib-examples
+In package >quantlib-examples< are these binaries: ['/usr/bin/BasketLosses', '/usr/bin/BermudanSwaption', '/usr/bin/Bonds', '/usr/bin/CDS', '/usr/bin/CVAIRS', '/usr/bin/CallableBonds', '/usr/bin/ConvertibleBonds', '/usr/bin/DiscreteHedging', '/usr/bin/EquityOption', '/usr/bin/FRA', '/usr/bin/FittedBondCurve', '/usr/bin/Gaussian1dModels', '/usr/bin/GlobalOptimizer', '/usr/bin/LatentModel', '/usr/bin/MarketModels', '/usr/bin/MulticurveBootstrapping', '/usr/bin/MultidimIntegral', '/usr/bin/Replication', '/usr/bin/Repo']
+Real binaries:['/usr/bin/BasketLosses', '/usr/bin/BermudanSwaption', '/usr/bin/Bonds', '/usr/bin/CDS', '/usr/bin/CVAIRS', '/usr/bin/CallableBonds', '/usr/bin/ConvertibleBonds', '/usr/bin/DiscreteHedging', '/usr/bin/EquityOption', '/usr/bin/FRA', '/usr/bin/FittedBondCurve', '/usr/bin/Gaussian1dModels', '/usr/bin/GlobalOptimizer', '/usr/bin/LatentModel', '/usr/bin/MarketModels', '/usr/bin/MulticurveBootstrapping', '/usr/bin/MultidimIntegral', '/usr/bin/Replication', '/usr/bin/Repo']
+Write to package-work.txt file: quantlib-examples
+Write to package-binaries.txt file: ['/usr/bin/BasketLosses', '/usr/bin/BermudanSwaption', '/usr/bin/Bonds', '/usr/bin/CDS', '/usr/bin/CVAIRS', '/usr/bin/CallableBonds', '/usr/bin/ConvertibleBonds', '/usr/bin/DiscreteHedging', '/usr/bin/EquityOption', '/usr/bin/FRA', '/usr/bin/FittedBondCurve', '/usr/bin/Gaussian1dModels', '/usr/bin/GlobalOptimizer', '/usr/bin/LatentModel', '/usr/bin/MarketModels', '/usr/bin/MulticurveBootstrapping', '/usr/bin/MultidimIntegral', '/usr/bin/Replication', '/usr/bin/Repo']
+['/usr/bin/BasketLosses', '/usr/bin/BermudanSwaption', '/usr/bin/Bonds', '/usr/bin/CDS', '/usr/bin/CVAIRS', '/usr/bin/CallableBonds', '/usr/bin/ConvertibleBonds', '/usr/bin/DiscreteHedging', '/usr/bin/EquityOption', '/usr/bin/FRA', '/usr/bin/FittedBondCurve', '/usr/bin/Gaussian1dModels', '/usr/bin/GlobalOptimizer', '/usr/bin/LatentModel', '/usr/bin/MarketModels', '/usr/bin/MulticurveBootstrapping', '/usr/bin/MultidimIntegral', '/usr/bin/Replication', '/usr/bin/Repo']
+Package-nr:3599 of 11000, Name:qml-module-qtwebkit-dbgsym
+Package >qml-module-qtwebkit< not in package-all.txt file
+Write to package-all.txt file: qml-module-qtwebkit
+In package >qml-module-qtwebkit< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: qml-module-qtwebkit
+[]
+Package-nr:3600 of 11000, Name:qt5-ukui-platformtheme-dbgsym
+Package >qt5-ukui-platformtheme< not in package-all.txt file
+Write to package-all.txt file: qt5-ukui-platformtheme
+In package >qt5-ukui-platformtheme< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: qt5-ukui-platformtheme
+[]
+Package-nr:3601 of 11000, Name:qt5-styles-ukui-dbgsym
+Package >qt5-styles-ukui< not in package-all.txt file
+Write to package-all.txt file: qt5-styles-ukui
+In package >qt5-styles-ukui< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: qt5-styles-ukui
+[]
+Package-nr:3602 of 11000, Name:qrisk2-dbgsym
+Package >qrisk2< not in package-all.txt file
+Write to package-all.txt file: qrisk2
+In package >qrisk2< are these binaries: ['/usr/bin/Q80_model_4_0_commandLine', '/usr/bin/Q80_model_4_1_commandLine']
+Real binaries:['/usr/bin/Q80_model_4_0_commandLine', '/usr/bin/Q80_model_4_1_commandLine']
+Write to package-work.txt file: qrisk2
+Write to package-binaries.txt file: ['/usr/bin/Q80_model_4_0_commandLine', '/usr/bin/Q80_model_4_1_commandLine']
+['/usr/bin/Q80_model_4_0_commandLine', '/usr/bin/Q80_model_4_1_commandLine']

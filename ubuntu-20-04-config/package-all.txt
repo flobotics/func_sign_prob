@@ -3645,3 +3645,10 @@ qwinff
 qstat
 qviaggiatreno
 qperf
+qt5-gtk2-platformtheme
+qxw
+quantlib-examples
+qml-module-qtwebkit
+qt5-ukui-platformtheme
+qt5-styles-ukui
+qrisk2

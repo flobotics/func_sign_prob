@@ -2366,3 +2366,5 @@ qwinff
 qstat
 qviaggiatreno
 qperf
+quantlib-examples
+qrisk2

@@ -1274,3 +1274,8 @@ qml-module-qtquick-virtualkeyboard
 quelcom
 qtsensors5-examples
 qml-module-qtsensors
+qt5-gtk2-platformtheme
+qxw
+qml-module-qtwebkit
+qt5-ukui-platformtheme
+qt5-styles-ukui
