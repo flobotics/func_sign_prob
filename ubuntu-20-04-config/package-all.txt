@@ -2886,3 +2886,4 @@ ioping
 inetutils-inetd
 inetutils-ftpd
 inetutils-telnet
+inetutils-talk
