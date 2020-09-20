@@ -16981,3 +16981,20 @@ Real binaries:['/usr/bin/symphony']
 Write to package-work.txt file: coinor-symphony
 Write to package-binaries.txt file: ['/usr/bin/symphony']
 ['/usr/bin/symphony']
+Write pickle file
+tar_out:
+Package-nr:3254 of 11000, Name:coinor-libsymphony3-dbgsym
+Package >coinor-libsymphony3< not in package-all.txt file
+Write to package-all.txt file: coinor-libsymphony3
+In package >coinor-libsymphony3< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: coinor-libsymphony3
+[]
+Package-nr:3255 of 11000, Name:chemeq-dbgsym
+Package >chemeq< not in package-all.txt file
+Write to package-all.txt file: chemeq
+In package >chemeq< are these binaries: ['/usr/bin/chemeq']
+Real binaries:['/usr/bin/chemeq']
+Write to package-work.txt file: chemeq
+Write to package-binaries.txt file: ['/usr/bin/chemeq']
+['/usr/bin/chemeq']

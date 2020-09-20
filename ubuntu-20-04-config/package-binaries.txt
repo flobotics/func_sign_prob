@@ -6481,3 +6481,4 @@
 /usr/bin/clamfs
 /usr/bin/chktex
 /usr/bin/symphony
+/usr/bin/chemeq
