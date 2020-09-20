@@ -1202,3 +1202,4 @@ chess.app
 crack-md5
 calibre-bin
 coinor-libcoinmp1v5
+coinor-libcgl1

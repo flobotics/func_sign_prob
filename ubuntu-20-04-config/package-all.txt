@@ -3512,3 +3512,5 @@ cyrus-caldav
 calibre-bin
 coinor-libcoinmp1v5
 cb2bib
+coinor-libcgl1
+caneda

@@ -2305,3 +2305,4 @@ cyrus-nntpd
 cyrus-murder
 cyrus-caldav
 cb2bib
+caneda
