@@ -2064,3 +2064,5 @@ clblas-client
 cppcheck
 cppcheck-gui
 caja-seahorse
+cricket
+cldump

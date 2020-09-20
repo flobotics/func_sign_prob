@@ -15519,3 +15519,28 @@ Real binaries:['/usr/bin/mate-seahorse-tool']
 Write to package-work.txt file: caja-seahorse
 Write to package-binaries.txt file: ['/usr/bin/mate-seahorse-tool']
 ['/usr/bin/mate-seahorse-tool']
+Write pickle file
+tar_out:
+Package-nr:3078 of 11000, Name:cricket-dbgsym
+Package >cricket< not in package-all.txt file
+Write to package-all.txt file: cricket
+In package >cricket< are these binaries: ['/usr/bin/cricket-compile', '/usr/lib/cgi-bin/cricket', '/usr/lib/cgi-bin/cricket/grapher-real.cgi', '/usr/lib/cgi-bin/cricket/grapher.cgi', '/usr/lib/cgi-bin/cricket/mini-graph-real.cgi', '/usr/lib/cgi-bin/cricket/mini-graph.cgi']
+Real binaries:['/usr/lib/cgi-bin/cricket/grapher.cgi', '/usr/lib/cgi-bin/cricket/mini-graph.cgi']
+Write to package-work.txt file: cricket
+Write to package-binaries.txt file: ['/usr/lib/cgi-bin/cricket/grapher.cgi', '/usr/lib/cgi-bin/cricket/mini-graph.cgi']
+['/usr/lib/cgi-bin/cricket/grapher.cgi', '/usr/lib/cgi-bin/cricket/mini-graph.cgi']
+Package-nr:3079 of 11000, Name:code-saturne-bin-dbgsym
+Package >code-saturne-bin< not in package-all.txt file
+Write to package-all.txt file: code-saturne-bin
+In package >code-saturne-bin< are these binaries: ['/usr/bin/code_saturne', '/usr/bin/ple-config', '/usr/share/doc/code-saturne-bin/AUTHORS.gz', '/usr/share/doc/code-saturne-bin/NEWS.Debian.gz', '/usr/share/doc/code-saturne-bin/changelog.Debian.gz', '/usr/share/doc/code-saturne-bin/copyright']
+Real binaries:[]
+Write to package-dontwork.txt file: code-saturne-bin
+[]
+Package-nr:3080 of 11000, Name:cldump-dbgsym
+Package >cldump< not in package-all.txt file
+Write to package-all.txt file: cldump
+In package >cldump< are these binaries: ['/usr/bin/cldump']
+Real binaries:['/usr/bin/cldump']
+Write to package-work.txt file: cldump
+Write to package-binaries.txt file: ['/usr/bin/cldump']
+['/usr/bin/cldump']

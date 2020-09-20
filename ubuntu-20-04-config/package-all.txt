@@ -3156,3 +3156,6 @@ clblas-client
 cppcheck
 cppcheck-gui
 caja-seahorse
+cricket
+code-saturne-bin
+cldump

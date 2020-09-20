@@ -6046,3 +6046,6 @@
 /usr/bin/cppcheck
 /usr/bin/cppcheck-gui
 /usr/bin/mate-seahorse-tool
+/usr/lib/cgi-bin/cricket/grapher.cgi
+/usr/lib/cgi-bin/cricket/mini-graph.cgi
+/usr/bin/cldump

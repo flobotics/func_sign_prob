@@ -1087,3 +1087,4 @@ cgit
 python3-pycodcif
 gimp-cbmplugs
 caps
+code-saturne-bin
