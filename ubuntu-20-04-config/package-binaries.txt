@@ -6865,3 +6865,4 @@
 /usr/bin/cjet
 /usr/bin/CuteSdr
 /usr/bin/siqs_ftdi
+/usr/bin/cflow
