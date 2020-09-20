@@ -1211,3 +1211,11 @@ caja-image-converter
 caja-share
 caja-xattr-tags
 crrcsim
+python3-qpack
+qml-module-qtwebsockets
+qtwebsockets5-examples
+qml-module-qtremoteobjects
+qtremoteobjects5-examples
+qml-module-qtnfc
+qml-module-qtbluetooth
+qtconnectivity5-examples

@@ -2321,3 +2321,4 @@ cvsd
 ccrypt
 cbflib-bin
 qgit
+qelectrotech

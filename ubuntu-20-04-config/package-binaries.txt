@@ -6997,3 +6997,4 @@
 /usr/bin/img2cif
 /usr/bin/makecbf
 /usr/bin/qgit
+/usr/bin/qelectrotech

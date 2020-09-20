@@ -18992,3 +18992,69 @@ Real binaries:['/usr/bin/qgit']
 Write to package-work.txt file: qgit
 Write to package-binaries.txt file: ['/usr/bin/qgit']
 ['/usr/bin/qgit']
+Write pickle file
+tar_out:
+Package-nr:3482 of 11000, Name:python3-qpack-dbgsym
+Package >python3-qpack< not in package-all.txt file
+Write to package-all.txt file: python3-qpack
+In package >python3-qpack< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: python3-qpack
+[]
+Package-nr:3483 of 11000, Name:qml-module-qtwebsockets-dbgsym
+Package >qml-module-qtwebsockets< not in package-all.txt file
+Write to package-all.txt file: qml-module-qtwebsockets
+In package >qml-module-qtwebsockets< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: qml-module-qtwebsockets
+[]
+Package-nr:3484 of 11000, Name:qtwebsockets5-examples-dbgsym
+Package >qtwebsockets5-examples< not in package-all.txt file
+Write to package-all.txt file: qtwebsockets5-examples
+In package >qtwebsockets5-examples< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: qtwebsockets5-examples
+[]
+Package-nr:3485 of 11000, Name:qml-module-qtremoteobjects-dbgsym
+Package >qml-module-qtremoteobjects< not in package-all.txt file
+Write to package-all.txt file: qml-module-qtremoteobjects
+In package >qml-module-qtremoteobjects< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: qml-module-qtremoteobjects
+[]
+Package-nr:3486 of 11000, Name:qtremoteobjects5-examples-dbgsym
+Package >qtremoteobjects5-examples< not in package-all.txt file
+Write to package-all.txt file: qtremoteobjects5-examples
+In package >qtremoteobjects5-examples< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: qtremoteobjects5-examples
+[]
+Package-nr:3487 of 11000, Name:qml-module-qtnfc-dbgsym
+Package >qml-module-qtnfc< not in package-all.txt file
+Write to package-all.txt file: qml-module-qtnfc
+In package >qml-module-qtnfc< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: qml-module-qtnfc
+[]
+Package-nr:3488 of 11000, Name:qml-module-qtbluetooth-dbgsym
+Package >qml-module-qtbluetooth< not in package-all.txt file
+Write to package-all.txt file: qml-module-qtbluetooth
+In package >qml-module-qtbluetooth< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: qml-module-qtbluetooth
+[]
+Package-nr:3489 of 11000, Name:qtconnectivity5-examples-dbgsym
+Package >qtconnectivity5-examples< not in package-all.txt file
+Write to package-all.txt file: qtconnectivity5-examples
+In package >qtconnectivity5-examples< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: qtconnectivity5-examples
+[]
+Package-nr:3490 of 11000, Name:qelectrotech-dbgsym
+Package >qelectrotech< not in package-all.txt file
+Write to package-all.txt file: qelectrotech
+In package >qelectrotech< are these binaries: ['/usr/bin/qelectrotech']
+Real binaries:['/usr/bin/qelectrotech']
+Write to package-work.txt file: qelectrotech
+Write to package-binaries.txt file: ['/usr/bin/qelectrotech']
+['/usr/bin/qelectrotech']

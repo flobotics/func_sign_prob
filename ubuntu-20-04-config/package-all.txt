@@ -3537,3 +3537,12 @@ ccrypt
 cbflib-bin
 crrcsim
 qgit
+python3-qpack
+qml-module-qtwebsockets
+qtwebsockets5-examples
+qml-module-qtremoteobjects
+qtremoteobjects5-examples
+qml-module-qtnfc
+qml-module-qtbluetooth
+qtconnectivity5-examples
+qelectrotech
