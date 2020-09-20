@@ -1170,3 +1170,4 @@ python3-cysignals-pari
 python3-cysignals-bare
 qml-module-qmltermwidget
 codeblocks-contrib
+cups-backend-bjnp
