@@ -6023,3 +6023,4 @@
 /usr/bin/cue2toc
 /usr/bin/cliquer
 /usr/bin/cadaver
+/usr/bin/codonw

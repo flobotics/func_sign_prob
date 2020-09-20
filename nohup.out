@@ -15291,3 +15291,13 @@ Real binaries:['/usr/bin/cadaver']
 Write to package-work.txt file: cadaver
 Write to package-binaries.txt file: ['/usr/bin/cadaver']
 ['/usr/bin/cadaver']
+Write pickle file
+tar_out:
+Package-nr:3050 of 11000, Name:codonw-dbgsym
+Package >codonw< not in package-all.txt file
+Write to package-all.txt file: codonw
+In package >codonw< are these binaries: ['/usr/bin/codonw', '/usr/bin/codonw-aau', '/usr/bin/codonw-base3s', '/usr/bin/codonw-bases', '/usr/bin/codonw-cai', '/usr/bin/codonw-cbi', '/usr/bin/codonw-cu', '/usr/bin/codonw-cutab', '/usr/bin/codonw-cutot', '/usr/bin/codonw-dinuc', '/usr/bin/codonw-enc', '/usr/bin/codonw-fop', '/usr/bin/codonw-gc', '/usr/bin/codonw-gc3s', '/usr/bin/codonw-raau', '/usr/bin/codonw-reader', '/usr/bin/codonw-rscu', '/usr/bin/codonw-tidy', '/usr/bin/codonw-transl']
+Real binaries:['/usr/bin/codonw']
+Write to package-work.txt file: codonw
+Write to package-binaries.txt file: ['/usr/bin/codonw']
+['/usr/bin/codonw']
