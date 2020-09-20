@@ -3217,3 +3217,4 @@ cinnamon-settings-daemon
 can-utils
 ceferino
 cowbuilder
+qemubuilder

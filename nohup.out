@@ -16051,3 +16051,13 @@ Real binaries:['/usr/sbin/cowbuilder']
 Write to package-work.txt file: cowbuilder
 Write to package-binaries.txt file: ['/usr/sbin/cowbuilder']
 ['/usr/sbin/cowbuilder']
+Write pickle file
+tar_out:
+Package-nr:3143 of 11000, Name:qemubuilder-dbgsym
+Package >qemubuilder< not in package-all.txt file
+Write to package-all.txt file: qemubuilder
+In package >qemubuilder< are these binaries: ['/usr/sbin/qemubuilder']
+Real binaries:['/usr/sbin/qemubuilder']
+Write to package-work.txt file: qemubuilder
+Write to package-binaries.txt file: ['/usr/sbin/qemubuilder']
+['/usr/sbin/qemubuilder']

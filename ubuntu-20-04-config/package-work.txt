@@ -2097,3 +2097,4 @@ compton-conf
 comptty
 can-utils
 cowbuilder
+qemubuilder
