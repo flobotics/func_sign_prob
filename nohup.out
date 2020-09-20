@@ -15223,3 +15223,13 @@ Real binaries:['/usr/bin/cauchydeclgen', '/usr/bin/cauchymc']
 Write to package-work.txt file: cauchy-tools
 Write to package-binaries.txt file: ['/usr/bin/cauchydeclgen', '/usr/bin/cauchymc']
 ['/usr/bin/cauchydeclgen', '/usr/bin/cauchymc']
+Write pickle file
+tar_out:
+Package-nr:3043 of 11000, Name:capi4hylafax-dbgsym
+Package >capi4hylafax< not in package-all.txt file
+Write to package-all.txt file: capi4hylafax
+In package >capi4hylafax< are these binaries: ['/usr/bin/c2faxrecv', '/usr/bin/c2faxsend', '/usr/sbin/capi4hylafaxconfig', '/usr/sbin/faxsend', 'package diverts others to: /usr/sbin/faxsend.hylafax']
+Real binaries:['/usr/bin/c2faxrecv', '/usr/bin/c2faxsend']
+Write to package-work.txt file: capi4hylafax
+Write to package-binaries.txt file: ['/usr/bin/c2faxrecv', '/usr/bin/c2faxsend']
+['/usr/bin/c2faxrecv', '/usr/bin/c2faxsend']
