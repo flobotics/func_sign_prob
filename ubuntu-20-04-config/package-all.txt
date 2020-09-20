@@ -3948,3 +3948,4 @@ xmlroff
 xfce4-volumed
 xtermcontrol
 xfce4-screensaver
+xsensors

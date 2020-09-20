@@ -7606,3 +7606,4 @@
 /usr/bin/xfce4-screensaver
 /usr/bin/xfce4-screensaver-command
 /usr/bin/xfce4-screensaver-preferences
+/usr/bin/xsensors
