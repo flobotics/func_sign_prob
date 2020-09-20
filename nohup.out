@@ -21689,3 +21689,13 @@ Real binaries:['/usr/bin/x2goclient']
 Write to package-work.txt file: x2goclient
 Write to package-binaries.txt file: ['/usr/bin/x2goclient']
 ['/usr/bin/x2goclient']
+Write pickle file
+tar_out:
+Package-nr:3806 of 11000, Name:xpra-dbgsym
+Package >xpra< not in package-all.txt file
+Write to package-all.txt file: xpra
+In package >xpra< are these binaries: ['/usr/bin/xpra', '/usr/bin/xpra_launcher', '/usr/bin/xpra_signal_listener', '/usr/bin/xpra_udev_product_version', '/usr/lib/python3/dist-packages/xpra/x11/bindings/__init__.py', '/usr/lib/python3/dist-packages/xpra/x11/bindings/display_source.cpython-38-x86_64-linux-gnu.so', '/usr/lib/python3/dist-packages/xpra/x11/bindings/posix_display_source.cpython-38-x86_64-linux-gnu.so', '/usr/lib/python3/dist-packages/xpra/x11/bindings/wait_for_x_server.cpython-38-x86_64-linux-gnu.so', '/usr/lib/python3/dist-packages/xpra/x11/bindings/ximage.cpython-38-x86_64-linux-gnu.so']
+Real binaries:['/usr/lib/python3/dist-packages/xpra/x11/bindings/display_source.cpython-38-x86_64-linux-gnu.so', '/usr/lib/python3/dist-packages/xpra/x11/bindings/posix_display_source.cpython-38-x86_64-linux-gnu.so', '/usr/lib/python3/dist-packages/xpra/x11/bindings/wait_for_x_server.cpython-38-x86_64-linux-gnu.so', '/usr/lib/python3/dist-packages/xpra/x11/bindings/ximage.cpython-38-x86_64-linux-gnu.so']
+Write to package-work.txt file: xpra
+Write to package-binaries.txt file: ['/usr/lib/python3/dist-packages/xpra/x11/bindings/display_source.cpython-38-x86_64-linux-gnu.so', '/usr/lib/python3/dist-packages/xpra/x11/bindings/posix_display_source.cpython-38-x86_64-linux-gnu.so', '/usr/lib/python3/dist-packages/xpra/x11/bindings/wait_for_x_server.cpython-38-x86_64-linux-gnu.so', '/usr/lib/python3/dist-packages/xpra/x11/bindings/ximage.cpython-38-x86_64-linux-gnu.so']
+['/usr/lib/python3/dist-packages/xpra/x11/bindings/display_source.cpython-38-x86_64-linux-gnu.so', '/usr/lib/python3/dist-packages/xpra/x11/bindings/posix_display_source.cpython-38-x86_64-linux-gnu.so', '/usr/lib/python3/dist-packages/xpra/x11/bindings/wait_for_x_server.cpython-38-x86_64-linux-gnu.so', '/usr/lib/python3/dist-packages/xpra/x11/bindings/ximage.cpython-38-x86_64-linux-gnu.so']

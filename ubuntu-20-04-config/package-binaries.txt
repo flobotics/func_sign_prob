@@ -7383,3 +7383,7 @@
 /usr/bin/xastir
 /usr/bin/xastir_udp_client
 /usr/bin/x2goclient
+/usr/lib/python3/dist-packages/xpra/x11/bindings/display_source.cpython-38-x86_64-linux-gnu.so
+/usr/lib/python3/dist-packages/xpra/x11/bindings/posix_display_source.cpython-38-x86_64-linux-gnu.so
+/usr/lib/python3/dist-packages/xpra/x11/bindings/wait_for_x_server.cpython-38-x86_64-linux-gnu.so
+/usr/lib/python3/dist-packages/xpra/x11/bindings/ximage.cpython-38-x86_64-linux-gnu.so
