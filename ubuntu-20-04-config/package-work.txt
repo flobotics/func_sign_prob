@@ -2396,3 +2396,4 @@ qalculate-gtk
 quotatool
 qjackctl
 qlipper
+qsf

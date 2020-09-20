@@ -1299,3 +1299,8 @@ qtxmlpatterns5-examples
 qml-module-qtquick-xmllistmodel
 qml-module-qtdatavisualization
 qtdatavisualization5-examples
+qt5-quick-demos
+qml-module-qtwebchannel
+qtwebchannel5-examples
+r-cran-quadprog
+python3-qpid-proton

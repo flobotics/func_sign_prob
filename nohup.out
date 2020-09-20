@@ -20370,3 +20370,48 @@ Real binaries:['/usr/bin/qlipper']
 Write to package-work.txt file: qlipper
 Write to package-binaries.txt file: ['/usr/bin/qlipper']
 ['/usr/bin/qlipper']
+Write pickle file
+tar_out:
+Package-nr:3653 of 11000, Name:qt5-quick-demos-dbgsym
+Package >qt5-quick-demos< not in package-all.txt file
+Write to package-all.txt file: qt5-quick-demos
+In package >qt5-quick-demos< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: qt5-quick-demos
+[]
+Package-nr:3654 of 11000, Name:qml-module-qtwebchannel-dbgsym
+Package >qml-module-qtwebchannel< not in package-all.txt file
+Write to package-all.txt file: qml-module-qtwebchannel
+In package >qml-module-qtwebchannel< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: qml-module-qtwebchannel
+[]
+Package-nr:3655 of 11000, Name:qtwebchannel5-examples-dbgsym
+Package >qtwebchannel5-examples< not in package-all.txt file
+Write to package-all.txt file: qtwebchannel5-examples
+In package >qtwebchannel5-examples< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: qtwebchannel5-examples
+[]
+Package-nr:3656 of 11000, Name:r-cran-quadprog-dbgsym
+Package >r-cran-quadprog< not in package-all.txt file
+Write to package-all.txt file: r-cran-quadprog
+In package >r-cran-quadprog< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: r-cran-quadprog
+[]
+Package-nr:3657 of 11000, Name:python3-qpid-proton-dbgsym
+Package >python3-qpid-proton< not in package-all.txt file
+Write to package-all.txt file: python3-qpid-proton
+In package >python3-qpid-proton< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: python3-qpid-proton
+[]
+Package-nr:3658 of 11000, Name:qsf-dbgsym
+Package >qsf< not in package-all.txt file
+Write to package-all.txt file: qsf
+In package >qsf< are these binaries: ['/usr/bin/qsf']
+Real binaries:['/usr/bin/qsf']
+Write to package-work.txt file: qsf
+Write to package-binaries.txt file: ['/usr/bin/qsf']
+['/usr/bin/qsf']

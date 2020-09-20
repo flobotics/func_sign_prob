@@ -3700,3 +3700,9 @@ qml-module-qtdatavisualization
 qtdatavisualization5-examples
 qjackctl
 qlipper
+qt5-quick-demos
+qml-module-qtwebchannel
+qtwebchannel5-examples
+r-cran-quadprog
+python3-qpid-proton
+qsf
