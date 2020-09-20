@@ -21268,3 +21268,20 @@ Real binaries:['/usr/bin/xscreensaver-gl-helper']
 Write to package-work.txt file: xscreensaver-gl
 Write to package-binaries.txt file: ['/usr/bin/xscreensaver-gl-helper']
 ['/usr/bin/xscreensaver-gl-helper']
+Write pickle file
+tar_out:
+Package-nr:3758 of 11000, Name:xscreensaver-gl-extra-dbgsym
+Package >xscreensaver-gl-extra< not in package-all.txt file
+Write to package-all.txt file: xscreensaver-gl-extra
+In package >xscreensaver-gl-extra< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: xscreensaver-gl-extra
+[]
+Package-nr:3759 of 11000, Name:xapian-omega-dbgsym
+Package >xapian-omega< not in package-all.txt file
+Write to package-all.txt file: xapian-omega
+In package >xapian-omega< are these binaries: ['/usr/bin/omindex', '/usr/bin/omindex-list', '/usr/bin/scriptindex', '/usr/lib/cgi-bin/omega', '/usr/lib/cgi-bin/omega/omega', '/usr/lib/xapian-omega/bin/mhtml2html', '/usr/lib/xapian-omega/bin/outlookmsg2html', '/usr/lib/xapian-omega/bin/rfc822tohtml', '/usr/lib/xapian-omega/bin/vcard2text']
+Real binaries:['/usr/bin/omindex', '/usr/bin/omindex-list', '/usr/bin/scriptindex', '/usr/lib/cgi-bin/omega/omega']
+Write to package-work.txt file: xapian-omega
+Write to package-binaries.txt file: ['/usr/bin/omindex', '/usr/bin/omindex-list', '/usr/bin/scriptindex', '/usr/lib/cgi-bin/omega/omega']
+['/usr/bin/omindex', '/usr/bin/omindex-list', '/usr/bin/scriptindex', '/usr/lib/cgi-bin/omega/omega']

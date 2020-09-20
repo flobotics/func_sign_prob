@@ -7323,3 +7323,7 @@
 /usr/bin/xsunpinyin-preferences
 /usr/bin/webcollage-helper
 /usr/bin/xscreensaver-gl-helper
+/usr/bin/omindex
+/usr/bin/omindex-list
+/usr/bin/scriptindex
+/usr/lib/cgi-bin/omega/omega

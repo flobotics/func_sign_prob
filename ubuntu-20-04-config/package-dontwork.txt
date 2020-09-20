@@ -1330,3 +1330,4 @@ xbindkeys-config
 xbill
 xscreensaver-data-extra
 xscreensaver-screensaver-bsod
+xscreensaver-gl-extra
