@@ -3187,3 +3187,4 @@ sqwebmail
 courier-imap
 courier-base
 courier-mlm
+courier-ldap
