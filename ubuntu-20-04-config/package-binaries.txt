@@ -6905,3 +6905,7 @@
 /usr/bin/cinnamon-session
 /usr/bin/cinnamon-session-quit
 /usr/sbin/csync2
+/usr/bin/ansi2html
+/usr/bin/ansi2txt
+/usr/bin/pipetty
+/usr/bin/ttyrec2ansi

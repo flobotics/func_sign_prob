@@ -2292,3 +2292,4 @@ cbmc
 copyq
 cinnamon-session
 csync2
+colorized-logs

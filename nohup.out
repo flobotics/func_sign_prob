@@ -18614,3 +18614,13 @@ Real binaries:['/usr/sbin/csync2']
 Write to package-work.txt file: csync2
 Write to package-binaries.txt file: ['/usr/sbin/csync2']
 ['/usr/sbin/csync2']
+Write pickle file
+tar_out:
+Package-nr:3439 of 11000, Name:colorized-logs-dbgsym
+Package >colorized-logs< not in package-all.txt file
+Write to package-all.txt file: colorized-logs
+In package >colorized-logs< are these binaries: ['/usr/bin/ansi2html', '/usr/bin/ansi2txt', '/usr/bin/pipetty', '/usr/bin/ttyrec2ansi', '/usr/bin/lesstty']
+Real binaries:['/usr/bin/ansi2html', '/usr/bin/ansi2txt', '/usr/bin/pipetty', '/usr/bin/ttyrec2ansi']
+Write to package-work.txt file: colorized-logs
+Write to package-binaries.txt file: ['/usr/bin/ansi2html', '/usr/bin/ansi2txt', '/usr/bin/pipetty', '/usr/bin/ttyrec2ansi']
+['/usr/bin/ansi2html', '/usr/bin/ansi2txt', '/usr/bin/pipetty', '/usr/bin/ttyrec2ansi']
