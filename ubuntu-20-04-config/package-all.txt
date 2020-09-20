@@ -2936,3 +2936,5 @@ icewm-common
 inspectrum
 install-mimic
 iannix
+indicator-messages
+imview
