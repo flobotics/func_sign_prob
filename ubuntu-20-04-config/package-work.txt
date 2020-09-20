@@ -2116,3 +2116,4 @@ cbatticon
 clsync
 clzip
 cargo
+cdrdao

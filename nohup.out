@@ -16420,3 +16420,13 @@ Real binaries:['/usr/bin/cargo']
 Write to package-work.txt file: cargo
 Write to package-binaries.txt file: ['/usr/bin/cargo']
 ['/usr/bin/cargo']
+Write pickle file
+tar_out:
+Package-nr:3189 of 11000, Name:cdrdao-dbgsym
+Package >cdrdao< not in package-all.txt file
+Write to package-all.txt file: cdrdao
+In package >cdrdao< are these binaries: ['/usr/bin/cdrdao', '/usr/bin/toc2cddb', '/usr/bin/toc2cue']
+Real binaries:['/usr/bin/cdrdao', '/usr/bin/toc2cddb', '/usr/bin/toc2cue']
+Write to package-work.txt file: cdrdao
+Write to package-binaries.txt file: ['/usr/bin/cdrdao', '/usr/bin/toc2cddb', '/usr/bin/toc2cue']
+['/usr/bin/cdrdao', '/usr/bin/toc2cddb', '/usr/bin/toc2cue']

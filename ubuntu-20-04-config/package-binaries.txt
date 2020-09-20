@@ -6401,3 +6401,6 @@
 /usr/bin/clsync
 /usr/bin/lzip.clzip
 /usr/bin/cargo
+/usr/bin/cdrdao
+/usr/bin/toc2cddb
+/usr/bin/toc2cue
