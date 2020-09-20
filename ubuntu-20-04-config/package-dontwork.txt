@@ -1157,3 +1157,4 @@ cantor-backend-scilab
 okular-backend-odt
 okular-backend-odp
 r-cran-cluster
+cutemaze

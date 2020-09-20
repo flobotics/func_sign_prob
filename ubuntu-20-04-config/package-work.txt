@@ -2155,3 +2155,4 @@ cfengine3
 canna-utils
 icedax
 wodim
+clamfs

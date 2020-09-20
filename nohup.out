@@ -16930,3 +16930,20 @@ Real binaries:['/usr/bin/readom', '/usr/bin/wodim', '/usr/sbin/netscsid']
 Write to package-work.txt file: wodim
 Write to package-binaries.txt file: ['/usr/bin/readom', '/usr/bin/wodim', '/usr/sbin/netscsid']
 ['/usr/bin/readom', '/usr/bin/wodim', '/usr/sbin/netscsid']
+Write pickle file
+tar_out:
+Package-nr:3248 of 11000, Name:cutemaze-dbgsym
+Package >cutemaze< not in package-all.txt file
+Write to package-all.txt file: cutemaze
+In package >cutemaze< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: cutemaze
+[]
+Package-nr:3249 of 11000, Name:clamfs-dbgsym
+Package >clamfs< not in package-all.txt file
+Write to package-all.txt file: clamfs
+In package >clamfs< are these binaries: ['/usr/bin/clamfs']
+Real binaries:['/usr/bin/clamfs']
+Write to package-work.txt file: clamfs
+Write to package-binaries.txt file: ['/usr/bin/clamfs']
+['/usr/bin/clamfs']

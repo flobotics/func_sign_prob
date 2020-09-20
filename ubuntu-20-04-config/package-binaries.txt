@@ -6478,3 +6478,4 @@
 /usr/bin/readom
 /usr/bin/wodim
 /usr/sbin/netscsid
+/usr/bin/clamfs
