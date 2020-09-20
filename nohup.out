@@ -20088,3 +20088,13 @@ Real binaries:['/usr/bin/dfits', '/usr/bin/dtfits', '/usr/bin/fitsmd5', '/usr/bi
 Write to package-work.txt file: qfits-tools
 Write to package-binaries.txt file: ['/usr/bin/dfits', '/usr/bin/dtfits', '/usr/bin/fitsmd5', '/usr/bin/fitsort', '/usr/bin/flipx', '/usr/bin/frameq', '/usr/bin/hierarch28', '/usr/bin/iofits', '/usr/bin/qextract', '/usr/bin/replacekey', '/usr/bin/stripfits']
 ['/usr/bin/dfits', '/usr/bin/dtfits', '/usr/bin/fitsmd5', '/usr/bin/fitsort', '/usr/bin/flipx', '/usr/bin/frameq', '/usr/bin/hierarch28', '/usr/bin/iofits', '/usr/bin/qextract', '/usr/bin/replacekey', '/usr/bin/stripfits']
+Write pickle file
+tar_out:
+Package-nr:3621 of 11000, Name:qmc-dbgsym
+Package >qmc< not in package-all.txt file
+Write to package-all.txt file: qmc
+In package >qmc< are these binaries: ['/usr/bin/qmc', '/usr/bin/qmc-gui']
+Real binaries:['/usr/bin/qmc']
+Write to package-work.txt file: qmc
+Write to package-binaries.txt file: ['/usr/bin/qmc']
+['/usr/bin/qmc']

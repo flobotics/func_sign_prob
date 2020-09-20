@@ -3668,3 +3668,4 @@ qemu-guest-agent
 qemu-system-x86-microvm
 quakespasm
 qfits-tools
+qmc

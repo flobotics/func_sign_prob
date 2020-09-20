@@ -7145,3 +7145,4 @@
 /usr/bin/qextract
 /usr/bin/replacekey
 /usr/bin/stripfits
+/usr/bin/qmc
