@@ -7704,3 +7704,4 @@
 /usr/bin/x2godesktopsharing
 /usr/bin/itox
 /usr/sbin/xinetd
+/usr/bin/xfpt

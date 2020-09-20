@@ -1393,3 +1393,5 @@ x2gobroker-agent
 xbubble
 xmille
 xserver-xorg-input-xwiimote
+xserver-xorg-input-multitouch
+xserver-xorg-video-mga

@@ -4028,3 +4028,6 @@ xmms2-scrobbler
 xdrawchem
 x2godesktopsharing
 xinetd
+xserver-xorg-input-multitouch
+xserver-xorg-video-mga
+xfpt
