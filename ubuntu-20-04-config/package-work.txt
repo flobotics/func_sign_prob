@@ -1952,3 +1952,5 @@ i810switch
 iptux
 icon-slicer
 iperf3
+iqtree
+inadyn

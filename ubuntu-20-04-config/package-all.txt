@@ -2953,3 +2953,6 @@ iptux
 ioquake3-server
 icon-slicer
 iperf3
+iqtree
+indicator-appmenu-tools
+inadyn

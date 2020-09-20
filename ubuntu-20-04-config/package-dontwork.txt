@@ -996,3 +996,4 @@ ifgate
 ifcico
 icheck
 ioquake3-server
+indicator-appmenu-tools

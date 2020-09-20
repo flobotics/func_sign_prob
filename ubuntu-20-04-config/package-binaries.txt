@@ -5886,3 +5886,7 @@
 /usr/bin/iptux
 /usr/bin/icon-slicer
 /usr/bin/iperf3
+/usr/bin/iqtree
+/usr/bin/iqtree-mpi
+/usr/bin/iqtree-omp
+/usr/bin/inadyn
