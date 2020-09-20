@@ -2217,3 +2217,4 @@ clog
 clearsilver-dev
 cachefilesd
 cmatrix
+cpufreqd

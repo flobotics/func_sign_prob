@@ -3401,3 +3401,5 @@ python3-compreffor
 cachefilesd
 r-cran-cairodevice
 cmatrix
+clutter-1.0-tests
+cpufreqd

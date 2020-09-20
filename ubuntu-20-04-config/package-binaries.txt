@@ -6710,3 +6710,6 @@
 /usr/bin/cstest
 /sbin/cachefilesd
 /usr/bin/cmatrix
+/usr/bin/cpufreqd-get
+/usr/bin/cpufreqd-set
+/usr/sbin/cpufreqd

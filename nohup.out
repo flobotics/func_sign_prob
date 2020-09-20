@@ -17710,3 +17710,20 @@ Real binaries:['/usr/bin/cmatrix']
 Write to package-work.txt file: cmatrix
 Write to package-binaries.txt file: ['/usr/bin/cmatrix']
 ['/usr/bin/cmatrix']
+Write pickle file
+tar_out:
+Package-nr:3336 of 11000, Name:clutter-1.0-tests-dbgsym
+Package >clutter-1.0-tests< not in package-all.txt file
+Write to package-all.txt file: clutter-1.0-tests
+In package >clutter-1.0-tests< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: clutter-1.0-tests
+[]
+Package-nr:3337 of 11000, Name:cpufreqd-dbgsym
+Package >cpufreqd< not in package-all.txt file
+Write to package-all.txt file: cpufreqd
+In package >cpufreqd< are these binaries: ['/usr/bin/cpufreqd-get', '/usr/bin/cpufreqd-set', '/usr/sbin/cpufreqd']
+Real binaries:['/usr/bin/cpufreqd-get', '/usr/bin/cpufreqd-set', '/usr/sbin/cpufreqd']
+Write to package-work.txt file: cpufreqd
+Write to package-binaries.txt file: ['/usr/bin/cpufreqd-get', '/usr/bin/cpufreqd-set', '/usr/sbin/cpufreqd']
+['/usr/bin/cpufreqd-get', '/usr/bin/cpufreqd-set', '/usr/sbin/cpufreqd']
