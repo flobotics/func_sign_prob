@@ -5653,3 +5653,4 @@
 /usr/bin/convickt
 /usr/bin/ick
 /usr/sbin/iptotal
+/usr/bin/convert4chan
