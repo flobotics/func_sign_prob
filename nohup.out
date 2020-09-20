@@ -20071,3 +20071,20 @@ Real binaries:['/usr/bin/qemu-system-i386-microvm', '/usr/bin/qemu-system-x86_64
 Write to package-work.txt file: qemu-system-x86-microvm
 Write to package-binaries.txt file: ['/usr/bin/qemu-system-i386-microvm', '/usr/bin/qemu-system-x86_64-microvm']
 ['/usr/bin/qemu-system-i386-microvm', '/usr/bin/qemu-system-x86_64-microvm']
+Write pickle file
+tar_out:
+Package-nr:3619 of 11000, Name:quakespasm-dbgsym
+Package >quakespasm< not in package-all.txt file
+Write to package-all.txt file: quakespasm
+In package >quakespasm< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: quakespasm
+[]
+Package-nr:3620 of 11000, Name:qfits-tools-dbgsym
+Package >qfits-tools< not in package-all.txt file
+Write to package-all.txt file: qfits-tools
+In package >qfits-tools< are these binaries: ['/usr/bin/dfits', '/usr/bin/dtfits', '/usr/bin/fitsmd5', '/usr/bin/fitsort', '/usr/bin/flipx', '/usr/bin/frameq', '/usr/bin/hierarch28', '/usr/bin/iofits', '/usr/bin/qextract', '/usr/bin/replacekey', '/usr/bin/stripfits']
+Real binaries:['/usr/bin/dfits', '/usr/bin/dtfits', '/usr/bin/fitsmd5', '/usr/bin/fitsort', '/usr/bin/flipx', '/usr/bin/frameq', '/usr/bin/hierarch28', '/usr/bin/iofits', '/usr/bin/qextract', '/usr/bin/replacekey', '/usr/bin/stripfits']
+Write to package-work.txt file: qfits-tools
+Write to package-binaries.txt file: ['/usr/bin/dfits', '/usr/bin/dtfits', '/usr/bin/fitsmd5', '/usr/bin/fitsort', '/usr/bin/flipx', '/usr/bin/frameq', '/usr/bin/hierarch28', '/usr/bin/iofits', '/usr/bin/qextract', '/usr/bin/replacekey', '/usr/bin/stripfits']
+['/usr/bin/dfits', '/usr/bin/dtfits', '/usr/bin/fitsmd5', '/usr/bin/fitsort', '/usr/bin/flipx', '/usr/bin/frameq', '/usr/bin/hierarch28', '/usr/bin/iofits', '/usr/bin/qextract', '/usr/bin/replacekey', '/usr/bin/stripfits']

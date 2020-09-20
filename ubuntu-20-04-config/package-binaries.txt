@@ -7134,3 +7134,14 @@
 /usr/sbin/qemu-ga
 /usr/bin/qemu-system-i386-microvm
 /usr/bin/qemu-system-x86_64-microvm
+/usr/bin/dfits
+/usr/bin/dtfits
+/usr/bin/fitsmd5
+/usr/bin/fitsort
+/usr/bin/flipx
+/usr/bin/frameq
+/usr/bin/hierarch28
+/usr/bin/iofits
+/usr/bin/qextract
+/usr/bin/replacekey
+/usr/bin/stripfits
