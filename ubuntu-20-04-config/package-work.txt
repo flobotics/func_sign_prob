@@ -2458,3 +2458,4 @@ xfoil
 xcolors
 xtables-addons-common
 xalan
+xplot

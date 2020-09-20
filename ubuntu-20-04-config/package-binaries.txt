@@ -7318,3 +7318,4 @@
 /usr/sbin/iptaccount
 /usr/bin/Xalan
 /usr/bin/xalan
+/usr/bin/xplot

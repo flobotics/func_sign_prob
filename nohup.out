@@ -21186,3 +21186,20 @@ Real binaries:['/usr/bin/Xalan', '/usr/bin/xalan']
 Write to package-work.txt file: xalan
 Write to package-binaries.txt file: ['/usr/bin/Xalan', '/usr/bin/xalan']
 ['/usr/bin/Xalan', '/usr/bin/xalan']
+Write pickle file
+tar_out:
+Package-nr:3747 of 11000, Name:xbindkeys-config-dbgsym
+Package >xbindkeys-config< not in package-all.txt file
+Write to package-all.txt file: xbindkeys-config
+In package >xbindkeys-config< are these binaries: ['/usr/share/doc/xbindkeys-config/BUGS', '/usr/share/doc/xbindkeys-config/README', '/usr/share/doc/xbindkeys-config/TODO', '/usr/share/doc/xbindkeys-config/changelog.Debian.gz', '/usr/share/doc/xbindkeys-config/copyright']
+Real binaries:[]
+Write to package-dontwork.txt file: xbindkeys-config
+[]
+Package-nr:3748 of 11000, Name:xplot-dbgsym
+Package >xplot< not in package-all.txt file
+Write to package-all.txt file: xplot
+In package >xplot< are these binaries: ['/usr/bin/xplot']
+Real binaries:['/usr/bin/xplot']
+Write to package-work.txt file: xplot
+Write to package-binaries.txt file: ['/usr/bin/xplot']
+['/usr/bin/xplot']
