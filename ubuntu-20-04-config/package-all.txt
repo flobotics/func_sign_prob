@@ -3962,3 +3962,5 @@ xcrysden
 xfce4-dict
 xwax
 xmlindent
+xfrisk
+xdvik-ja

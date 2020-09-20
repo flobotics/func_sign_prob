@@ -7632,3 +7632,4 @@
 /usr/bin/xfce4-dict
 /usr/bin/xwax
 /usr/bin/xmlindent
+/usr/bin/pxdvi-xaw
