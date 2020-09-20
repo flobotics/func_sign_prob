@@ -1290,3 +1290,6 @@ quakespasm
 quadrapassel
 quarry
 qml-module-qtav
+qml-module-qtmultimedia
+qtmultimedia5-examples
+qml-module-qtaudioengine

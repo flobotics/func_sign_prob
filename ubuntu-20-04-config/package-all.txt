@@ -3679,3 +3679,8 @@ qbs
 quarry
 qml-module-qtav
 qtav-players
+qml-module-qtmultimedia
+qtmultimedia5-examples
+qml-module-qtaudioengine
+qwo
+qmapshack

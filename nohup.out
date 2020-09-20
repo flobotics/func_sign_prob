@@ -20189,3 +20189,42 @@ Real binaries:['/usr/lib/qt5/bin/Player', '/usr/lib/qt5/bin/QMLPlayer']
 Write to package-work.txt file: qtav-players
 Write to package-binaries.txt file: ['/usr/lib/qt5/bin/Player', '/usr/lib/qt5/bin/QMLPlayer']
 ['/usr/lib/qt5/bin/Player', '/usr/lib/qt5/bin/QMLPlayer']
+Write pickle file
+tar_out:
+Package-nr:3632 of 11000, Name:qml-module-qtmultimedia-dbgsym
+Package >qml-module-qtmultimedia< not in package-all.txt file
+Write to package-all.txt file: qml-module-qtmultimedia
+In package >qml-module-qtmultimedia< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: qml-module-qtmultimedia
+[]
+Package-nr:3633 of 11000, Name:qtmultimedia5-examples-dbgsym
+Package >qtmultimedia5-examples< not in package-all.txt file
+Write to package-all.txt file: qtmultimedia5-examples
+In package >qtmultimedia5-examples< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: qtmultimedia5-examples
+[]
+Package-nr:3634 of 11000, Name:qml-module-qtaudioengine-dbgsym
+Package >qml-module-qtaudioengine< not in package-all.txt file
+Write to package-all.txt file: qml-module-qtaudioengine
+In package >qml-module-qtaudioengine< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: qml-module-qtaudioengine
+[]
+Package-nr:3635 of 11000, Name:qwo-dbgsym
+Package >qwo< not in package-all.txt file
+Write to package-all.txt file: qwo
+In package >qwo< are these binaries: ['/usr/bin/qwo']
+Real binaries:['/usr/bin/qwo']
+Write to package-work.txt file: qwo
+Write to package-binaries.txt file: ['/usr/bin/qwo']
+['/usr/bin/qwo']
+Package-nr:3636 of 11000, Name:qmapshack-dbgsym
+Package >qmapshack< not in package-all.txt file
+Write to package-all.txt file: qmapshack
+In package >qmapshack< are these binaries: ['/usr/bin/qmapshack', '/usr/bin/qmaptool', '/usr/bin/qmt_map2jnx', '/usr/bin/qmt_rgb2pct']
+Real binaries:['/usr/bin/qmapshack', '/usr/bin/qmaptool', '/usr/bin/qmt_map2jnx', '/usr/bin/qmt_rgb2pct']
+Write to package-work.txt file: qmapshack
+Write to package-binaries.txt file: ['/usr/bin/qmapshack', '/usr/bin/qmaptool', '/usr/bin/qmt_map2jnx', '/usr/bin/qmt_rgb2pct']
+['/usr/bin/qmapshack', '/usr/bin/qmaptool', '/usr/bin/qmt_map2jnx', '/usr/bin/qmt_rgb2pct']

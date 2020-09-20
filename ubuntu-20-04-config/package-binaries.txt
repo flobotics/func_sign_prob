@@ -7160,3 +7160,8 @@
 /usr/bin/qbs-setup-toolchains
 /usr/lib/qt5/bin/Player
 /usr/lib/qt5/bin/QMLPlayer
+/usr/bin/qwo
+/usr/bin/qmapshack
+/usr/bin/qmaptool
+/usr/bin/qmt_map2jnx
+/usr/bin/qmt_rgb2pct
