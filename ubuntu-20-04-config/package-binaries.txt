@@ -5893,3 +5893,4 @@
 /usr/bin/ipmitool
 /usr/sbin/ipmievd
 /usr/bin/iselect
+/usr/sbin/i7z

@@ -2958,3 +2958,4 @@ indicator-appmenu-tools
 inadyn
 ipmitool
 iselect
+i7z

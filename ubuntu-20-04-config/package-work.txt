@@ -1956,3 +1956,4 @@ iqtree
 inadyn
 ipmitool
 iselect
+i7z
