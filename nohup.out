@@ -23007,3 +23007,13 @@ Real binaries:['/usr/bin/xournal']
 Write to package-work.txt file: xournal
 Write to package-binaries.txt file: ['/usr/bin/xournal']
 ['/usr/bin/xournal']
+Write pickle file
+tar_out:
+Package-nr:3960 of 11000, Name:uuidcdef-dbgsym
+Package >uuidcdef< not in package-all.txt file
+Write to package-all.txt file: uuidcdef
+In package >uuidcdef< are these binaries: ['/usr/bin/uuidcdef']
+Real binaries:['/usr/bin/uuidcdef']
+Write to package-work.txt file: uuidcdef
+Write to package-binaries.txt file: ['/usr/bin/uuidcdef']
+['/usr/bin/uuidcdef']
