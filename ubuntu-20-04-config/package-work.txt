@@ -2637,3 +2637,5 @@ xzoom
 x11-xfs-utils
 xcalib
 6tunnel
+64tass
+karma-tools

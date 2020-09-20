@@ -4041,3 +4041,7 @@ xfig
 x11-xfs-utils
 xcalib
 6tunnel
+64tass
+qml-module-org-kde-games-core
+python3-kolabformat
+karma-tools

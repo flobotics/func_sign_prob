@@ -1399,3 +1399,5 @@ xshogi
 xball
 xserver-xorg-input-void
 xfig
+qml-module-org-kde-games-core
+python3-kolabformat

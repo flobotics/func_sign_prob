@@ -7716,3 +7716,7 @@
 /usr/bin/xfsinfo
 /usr/bin/xcalib
 /usr/bin/6tunnel
+/usr/bin/64tass
+/usr/bin/chprop
+/usr/bin/karma_helper
+/usr/bin/riocp
