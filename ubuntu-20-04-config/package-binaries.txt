@@ -7348,3 +7348,7 @@
 /usr/bin/xapian-replicate
 /usr/bin/xapian-replicate-server
 /usr/bin/xapian-tcpsrv
+/usr/bin/2csv
+/usr/bin/2xml
+/usr/bin/csv2
+/usr/bin/xml2

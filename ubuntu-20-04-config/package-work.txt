@@ -2471,3 +2471,4 @@ xdelta3
 xfce4-panel
 xfce4-notes
 xapian-tools
+xml2

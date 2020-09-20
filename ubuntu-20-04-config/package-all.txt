@@ -3809,3 +3809,6 @@ xfce4-panel
 xfce4-notes
 xapian-examples
 xapian-tools
+xtron
+python3-xdmf
+xml2

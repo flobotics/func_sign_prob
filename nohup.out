@@ -21372,3 +21372,27 @@ Real binaries:['/usr/bin/copydatabase', '/usr/bin/quest', '/usr/bin/xapian-check
 Write to package-work.txt file: xapian-tools
 Write to package-binaries.txt file: ['/usr/bin/copydatabase', '/usr/bin/quest', '/usr/bin/xapian-check', '/usr/bin/xapian-compact', '/usr/bin/xapian-delve', '/usr/bin/xapian-metadata', '/usr/bin/xapian-pos', '/usr/bin/xapian-progsrv', '/usr/bin/xapian-replicate', '/usr/bin/xapian-replicate-server', '/usr/bin/xapian-tcpsrv']
 ['/usr/bin/copydatabase', '/usr/bin/quest', '/usr/bin/xapian-check', '/usr/bin/xapian-compact', '/usr/bin/xapian-delve', '/usr/bin/xapian-metadata', '/usr/bin/xapian-pos', '/usr/bin/xapian-progsrv', '/usr/bin/xapian-replicate', '/usr/bin/xapian-replicate-server', '/usr/bin/xapian-tcpsrv']
+Write pickle file
+tar_out:
+Package-nr:3770 of 11000, Name:xtron-dbgsym
+Package >xtron< not in package-all.txt file
+Write to package-all.txt file: xtron
+In package >xtron< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: xtron
+[]
+Package-nr:3771 of 11000, Name:python3-xdmf-dbgsym
+Package >python3-xdmf< not in package-all.txt file
+Write to package-all.txt file: python3-xdmf
+In package >python3-xdmf< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: python3-xdmf
+[]
+Package-nr:3772 of 11000, Name:xml2-dbgsym
+Package >xml2< not in package-all.txt file
+Write to package-all.txt file: xml2
+In package >xml2< are these binaries: ['/usr/bin/2csv', '/usr/bin/2xml', '/usr/bin/csv2', '/usr/bin/xml2', '/usr/bin/2html', '/usr/bin/html2']
+Real binaries:['/usr/bin/2csv', '/usr/bin/2xml', '/usr/bin/csv2', '/usr/bin/xml2']
+Write to package-work.txt file: xml2
+Write to package-binaries.txt file: ['/usr/bin/2csv', '/usr/bin/2xml', '/usr/bin/csv2', '/usr/bin/xml2']
+['/usr/bin/2csv', '/usr/bin/2xml', '/usr/bin/csv2', '/usr/bin/xml2']
