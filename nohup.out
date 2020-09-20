@@ -21775,3 +21775,13 @@ Real binaries:['/usr/bin/uufilter', '/usr/bin/xloadimage']
 Write to package-work.txt file: xloadimage
 Write to package-binaries.txt file: ['/usr/bin/uufilter', '/usr/bin/xloadimage']
 ['/usr/bin/uufilter', '/usr/bin/xloadimage']
+Write pickle file
+tar_out:
+Package-nr:3816 of 11000, Name:xcolmix-dbgsym
+Package >xcolmix< not in package-all.txt file
+Write to package-all.txt file: xcolmix
+In package >xcolmix< are these binaries: ['/usr/bin/xcolmix']
+Real binaries:['/usr/bin/xcolmix']
+Write to package-work.txt file: xcolmix
+Write to package-binaries.txt file: ['/usr/bin/xcolmix']
+['/usr/bin/xcolmix']

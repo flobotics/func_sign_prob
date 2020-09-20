@@ -2502,3 +2502,4 @@ xaos
 xfdesktop4
 xiterm+thai
 xloadimage
+xcolmix

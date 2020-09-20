@@ -7394,3 +7394,4 @@
 /usr/bin/xiterm+thai
 /usr/bin/uufilter
 /usr/bin/xloadimage
+/usr/bin/xcolmix

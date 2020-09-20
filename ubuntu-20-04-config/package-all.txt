@@ -3853,3 +3853,4 @@ xsystem35
 xfdesktop4
 xiterm+thai
 xloadimage
+xcolmix
