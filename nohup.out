@@ -20873,3 +20873,13 @@ Real binaries:['/usr/bin/cnee']
 Write to package-work.txt file: cnee
 Write to package-binaries.txt file: ['/usr/bin/cnee']
 ['/usr/bin/cnee']
+Write pickle file
+tar_out:
+Package-nr:3711 of 11000, Name:xschem-dbgsym
+Package >xschem< not in package-all.txt file
+Write to package-all.txt file: xschem
+In package >xschem< are these binaries: ['/usr/bin/xschem']
+Real binaries:['/usr/bin/xschem']
+Write to package-work.txt file: xschem
+Write to package-binaries.txt file: ['/usr/bin/xschem']
+['/usr/bin/xschem']

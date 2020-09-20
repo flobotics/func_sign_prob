@@ -7275,3 +7275,4 @@
 /usr/bin/xjdserver
 /usr/bin/xjdxgen
 /usr/bin/cnee
+/usr/bin/xschem

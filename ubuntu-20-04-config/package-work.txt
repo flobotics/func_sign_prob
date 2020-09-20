@@ -2431,3 +2431,4 @@ musepack-tools
 xfstt
 xjdic
 cnee
+xschem
