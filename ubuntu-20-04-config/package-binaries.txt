@@ -7406,3 +7406,4 @@
 /usr/bin/xpp
 /usr/bin/xyscan
 /usr/bin/xwrited
+/usr/bin/xoscope

@@ -21887,3 +21887,13 @@ Real binaries:['/usr/bin/xwrited']
 Write to package-work.txt file: xwrited
 Write to package-binaries.txt file: ['/usr/bin/xwrited']
 ['/usr/bin/xwrited']
+Write pickle file
+tar_out:
+Package-nr:3828 of 11000, Name:xoscope-dbgsym
+Package >xoscope< not in package-all.txt file
+Write to package-all.txt file: xoscope
+In package >xoscope< are these binaries: ['/usr/bin/xoscope']
+Real binaries:['/usr/bin/xoscope']
+Write to package-work.txt file: xoscope
+Write to package-binaries.txt file: ['/usr/bin/xoscope']
+['/usr/bin/xoscope']

@@ -3865,3 +3865,4 @@ xcompmgr
 xpp
 xyscan
 xwrited
+xoscope
