@@ -2398,3 +2398,4 @@ qjackctl
 qlipper
 qsf
 qrq
+qt5-assistant

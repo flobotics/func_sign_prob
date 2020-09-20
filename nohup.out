@@ -20432,3 +20432,20 @@ Real binaries:['/usr/bin/qrq']
 Write to package-work.txt file: qrq
 Write to package-binaries.txt file: ['/usr/bin/qrq']
 ['/usr/bin/qrq']
+Write pickle file
+tar_out:
+Package-nr:3661 of 11000, Name:qttools5-examples-dbgsym
+Package >qttools5-examples< not in package-all.txt file
+Write to package-all.txt file: qttools5-examples
+In package >qttools5-examples< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: qttools5-examples
+[]
+Package-nr:3662 of 11000, Name:qt5-assistant-dbgsym
+Package >qt5-assistant< not in package-all.txt file
+Write to package-all.txt file: qt5-assistant
+In package >qt5-assistant< are these binaries: ['/usr/lib/qt5/bin/assistant', '/usr/lib/x86_64-linux-gnu/qt5/bin/assistant']
+Real binaries:['/usr/lib/qt5/bin/assistant']
+Write to package-work.txt file: qt5-assistant
+Write to package-binaries.txt file: ['/usr/lib/qt5/bin/assistant']
+['/usr/lib/qt5/bin/assistant']

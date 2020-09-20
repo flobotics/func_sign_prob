@@ -7182,3 +7182,4 @@
 /usr/bin/qlipper
 /usr/bin/qsf
 /usr/bin/qrq
+/usr/lib/qt5/bin/assistant

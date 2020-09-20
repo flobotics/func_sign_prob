@@ -3708,3 +3708,5 @@ python3-qpid-proton
 qsf
 qtserialbus5-examples
 qrq
+qttools5-examples
+qt5-assistant
