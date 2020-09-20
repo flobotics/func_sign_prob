@@ -2956,3 +2956,4 @@ iperf3
 iqtree
 indicator-appmenu-tools
 inadyn
+ipmitool

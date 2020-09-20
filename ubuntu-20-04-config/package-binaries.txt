@@ -5890,3 +5890,5 @@
 /usr/bin/iqtree-mpi
 /usr/bin/iqtree-omp
 /usr/bin/inadyn
+/usr/bin/ipmitool
+/usr/sbin/ipmievd
