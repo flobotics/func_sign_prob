@@ -15023,3 +15023,31 @@ Real binaries:['/usr/bin/collatinus']
 Write to package-work.txt file: collatinus
 Write to package-binaries.txt file: ['/usr/bin/collatinus']
 ['/usr/bin/collatinus']
+Write pickle file
+tar_out:
+Package-nr:3018 of 11000, Name:coq-theories-dbgsym
+Package >coq-theories< not in package-all.txt file
+Write to package-all.txt file: coq-theories
+In package >coq-theories< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: coq-theories
+[]
+Package-nr:3019 of 11000, Name:coq-dbgsym
+Skip package >coq<, already in package-all.txt file
+[]
+Package-nr:3020 of 11000, Name:coqide-dbgsym
+Package >coqide< not in package-all.txt file
+Write to package-all.txt file: coqide
+In package >coqide< are these binaries: ['/usr/bin/coqide']
+Real binaries:['/usr/bin/coqide']
+Write to package-work.txt file: coqide
+Write to package-binaries.txt file: ['/usr/bin/coqide']
+['/usr/bin/coqide']
+Package-nr:3021 of 11000, Name:cryfs-dbgsym
+Package >cryfs< not in package-all.txt file
+Write to package-all.txt file: cryfs
+In package >cryfs< are these binaries: ['/usr/bin/cryfs', '/usr/bin/cryfs-unmount']
+Real binaries:['/usr/bin/cryfs', '/usr/bin/cryfs-unmount']
+Write to package-work.txt file: cryfs
+Write to package-binaries.txt file: ['/usr/bin/cryfs', '/usr/bin/cryfs-unmount']
+['/usr/bin/cryfs', '/usr/bin/cryfs-unmount']

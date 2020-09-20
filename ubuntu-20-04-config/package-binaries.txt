@@ -5998,3 +5998,6 @@
 /usr/bin/cifer
 /usr/bin/cpipe
 /usr/bin/collatinus
+/usr/bin/coqide
+/usr/bin/cryfs
+/usr/bin/cryfs-unmount

@@ -2026,3 +2026,5 @@ ckb-next
 cifer
 cpipe
 collatinus
+coqide
+cryfs
