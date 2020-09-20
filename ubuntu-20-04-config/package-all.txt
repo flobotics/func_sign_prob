@@ -3833,3 +3833,4 @@ xmlrpc-api-utils
 xxgdb
 xprobe
 xosd-bin
+xboxdrv
