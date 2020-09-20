@@ -19831,3 +19831,13 @@ Real binaries:['/usr/bin/qtscrob']
 Write to package-work.txt file: qtscrob
 Write to package-binaries.txt file: ['/usr/bin/qtscrob']
 ['/usr/bin/qtscrob']
+Write pickle file
+tar_out:
+Package-nr:3589 of 11000, Name:scrobbler-dbgsym
+Package >scrobbler< not in package-all.txt file
+Write to package-all.txt file: scrobbler
+In package >scrobbler< are these binaries: ['/usr/bin/scrobbler']
+Real binaries:['/usr/bin/scrobbler']
+Write to package-work.txt file: scrobbler
+Write to package-binaries.txt file: ['/usr/bin/scrobbler']
+['/usr/bin/scrobbler']

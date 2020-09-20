@@ -2361,3 +2361,4 @@ qtop
 qterminal
 qt5ct
 qtscrob
+scrobbler

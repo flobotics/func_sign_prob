@@ -3638,3 +3638,4 @@ qml-module-qtquick-virtualkeyboard
 qt5ct
 quelcom
 qtscrob
+scrobbler
