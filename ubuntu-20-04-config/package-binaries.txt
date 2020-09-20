@@ -6856,3 +6856,9 @@
 /usr/bin/ctorrent
 /usr/bin/cputool
 /usr/bin/cpm
+/usr/bin/cg-comp
+/usr/bin/cg-conv
+/usr/bin/cg-mwesplit
+/usr/bin/cg-proc
+/usr/bin/cg-relabel
+/usr/bin/vislcg3
