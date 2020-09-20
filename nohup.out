@@ -13927,3 +13927,21 @@ Real binaries:['/usr/bin/choosewm']
 Write to package-work.txt file: choosewm
 Write to package-binaries.txt file: ['/usr/bin/choosewm']
 ['/usr/bin/choosewm']
+Write pickle file
+tar_out:
+Package-nr:2881 of 11000, Name:ccal-dbgsym
+Package >ccal< not in package-all.txt file
+Write to package-all.txt file: ccal
+In package >ccal< are these binaries: ['/usr/bin/ccal']
+Real binaries:['/usr/bin/ccal']
+Write to package-work.txt file: ccal
+Write to package-binaries.txt file: ['/usr/bin/ccal']
+['/usr/bin/ccal']
+Package-nr:2882 of 11000, Name:concavity-dbgsym
+Package >concavity< not in package-all.txt file
+Write to package-all.txt file: concavity
+In package >concavity< are these binaries: ['/usr/bin/concavity']
+Real binaries:['/usr/bin/concavity']
+Write to package-work.txt file: concavity
+Write to package-binaries.txt file: ['/usr/bin/concavity']
+['/usr/bin/concavity']
