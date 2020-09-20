@@ -2648,3 +2648,4 @@ vboot-kernel-utils
 varmon
 vblade
 vym
+verbiste-gtk
