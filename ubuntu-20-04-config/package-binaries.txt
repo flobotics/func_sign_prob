@@ -6186,3 +6186,4 @@
 /usr/bin/couriermlm
 /usr/bin/webmlmd
 /usr/sbin/courierldapaliasd
+/usr/bin/ccls
