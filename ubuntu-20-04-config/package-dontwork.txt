@@ -1003,3 +1003,4 @@ indicator-session
 imvirt-helper
 cl-sql-mysql
 cl-sql-uffi
+python3-cyvcf2

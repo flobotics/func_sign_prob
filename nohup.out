@@ -14087,3 +14087,20 @@ Real binaries:['/usr/bin/cd-discid']
 Write to package-work.txt file: cd-discid
 Write to package-binaries.txt file: ['/usr/bin/cd-discid']
 ['/usr/bin/cd-discid']
+Write pickle file
+tar_out:
+Package-nr:2898 of 11000, Name:python3-cyvcf2-dbgsym
+Package >python3-cyvcf2< not in package-all.txt file
+Write to package-all.txt file: python3-cyvcf2
+In package >python3-cyvcf2< are these binaries: ['/usr/bin/cyvcf2']
+Real binaries:[]
+Write to package-dontwork.txt file: python3-cyvcf2
+[]
+Package-nr:2899 of 11000, Name:charliecloud-dbgsym
+Package >charliecloud< not in package-all.txt file
+Write to package-all.txt file: charliecloud
+In package >charliecloud< are these binaries: ['/usr/bin/ch-build', '/usr/bin/ch-build2dir', '/usr/bin/ch-docker2tar', '/usr/bin/ch-fromhost', '/usr/bin/ch-pull2dir', '/usr/bin/ch-pull2tar', '/usr/bin/ch-run', '/usr/bin/ch-ssh', '/usr/bin/ch-tar2dir']
+Real binaries:['/usr/bin/ch-run', '/usr/bin/ch-ssh']
+Write to package-work.txt file: charliecloud
+Write to package-binaries.txt file: ['/usr/bin/ch-run', '/usr/bin/ch-ssh']
+['/usr/bin/ch-run', '/usr/bin/ch-ssh']

@@ -2990,3 +2990,5 @@ cl-sql-uffi
 cmake-qt-gui
 cmake-curses-gui
 cd-discid
+python3-cyvcf2
+charliecloud
