@@ -6010,3 +6010,4 @@
 /usr/bin/converseen
 /usr/bin/cmus
 /usr/bin/cmus-remote
+/usr/sbin/userdbpw

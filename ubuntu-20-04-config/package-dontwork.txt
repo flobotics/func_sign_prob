@@ -1077,3 +1077,7 @@ coq-theories
 python3-cftime
 crimson
 clevis-udisks2
+courier-authlib-pipe
+courier-authlib-ldap
+courier-authlib-sqlite
+courier-authlib-postgresql
