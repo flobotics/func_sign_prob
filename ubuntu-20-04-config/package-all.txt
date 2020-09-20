@@ -3128,3 +3128,5 @@ cassbeam
 cauchy-tools
 capi4hylafax
 cabextract
+camlmix
+cpluff-loader
