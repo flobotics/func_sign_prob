@@ -18389,3 +18389,13 @@ Real binaries:['/usr/bin/cputool']
 Write to package-work.txt file: cputool
 Write to package-binaries.txt file: ['/usr/bin/cputool']
 ['/usr/bin/cputool']
+Write pickle file
+tar_out:
+Package-nr:3413 of 11000, Name:cpm-dbgsym
+Package >cpm< not in package-all.txt file
+Write to package-all.txt file: cpm
+In package >cpm< are these binaries: ['/usr/bin/cpm', '/usr/bin/create-cpmdb']
+Real binaries:['/usr/bin/cpm']
+Write to package-work.txt file: cpm
+Write to package-binaries.txt file: ['/usr/bin/cpm']
+['/usr/bin/cpm']
