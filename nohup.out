@@ -16836,3 +16836,13 @@ Real binaries:['/usr/bin/cdw']
 Write to package-work.txt file: cdw
 Write to package-binaries.txt file: ['/usr/bin/cdw']
 ['/usr/bin/cdw']
+Write pickle file
+tar_out:
+Package-nr:3237 of 11000, Name:cdpr-dbgsym
+Package >cdpr< not in package-all.txt file
+Write to package-all.txt file: cdpr
+In package >cdpr< are these binaries: ['/usr/sbin/cdpr']
+Real binaries:['/usr/sbin/cdpr']
+Write to package-work.txt file: cdpr
+Write to package-binaries.txt file: ['/usr/sbin/cdpr']
+['/usr/sbin/cdpr']
