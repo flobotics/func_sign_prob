@@ -6646,3 +6646,6 @@
 /usr/bin/cuebreakpoints
 /usr/bin/cueconvert
 /usr/bin/cueprint
+/usr/bin/chuck
+/usr/bin/chuck.alsa
+/usr/bin/chuck.oss
