@@ -2562,3 +2562,4 @@ xemacs21-mule-canna-wnn
 xen-utils-4.11
 xenstore-utils
 xen-utils-common
+xmpi

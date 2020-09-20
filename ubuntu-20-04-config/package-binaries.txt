@@ -7581,3 +7581,4 @@
 /usr/sbin/gdbsx
 /usr/sbin/xen-tmem-list-parse
 /usr/sbin/xenpmd
+/usr/bin/xmpi
