@@ -6854,3 +6854,4 @@
 /usr/sbin/clamav-milter
 /usr/bin/cube2font
 /usr/bin/ctorrent
+/usr/bin/cputool
