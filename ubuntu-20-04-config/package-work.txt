@@ -1960,3 +1960,4 @@ i7z
 icoutils
 ircp-tray
 indicator-china-weather
+icecc-monitor

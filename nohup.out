@@ -13838,3 +13838,13 @@ Real binaries:['/usr/bin/indicator-china-weather']
 Write to package-work.txt file: indicator-china-weather
 Write to package-binaries.txt file: ['/usr/bin/indicator-china-weather']
 ['/usr/bin/indicator-china-weather']
+Write pickle file
+tar_out:
+Package-nr:2869 of 11000, Name:icecc-monitor-dbgsym
+Package >icecc-monitor< not in package-all.txt file
+Write to package-all.txt file: icecc-monitor
+In package >icecc-monitor< are these binaries: ['/usr/bin/icemon']
+Real binaries:['/usr/bin/icemon']
+Write to package-work.txt file: icecc-monitor
+Write to package-binaries.txt file: ['/usr/bin/icemon']
+['/usr/bin/icemon']

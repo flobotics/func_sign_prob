@@ -5898,3 +5898,4 @@
 /usr/bin/wrestool
 /usr/bin/ircp-tray
 /usr/bin/indicator-china-weather
+/usr/bin/icemon

@@ -2964,3 +2964,4 @@ icoutils
 iipimage-server
 ircp-tray
 indicator-china-weather
+icecc-monitor
