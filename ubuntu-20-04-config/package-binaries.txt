@@ -6392,3 +6392,4 @@
 /usr/bin/cssutil
 /usr/bin/osbf-util
 /usr/bin/clp
+/usr/bin/cdargs

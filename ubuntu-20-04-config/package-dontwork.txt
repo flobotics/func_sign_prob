@@ -1119,3 +1119,4 @@ python3-cvxopt
 coinor-libcoinutils3v5
 curseofwar
 cuyo
+coinor-libclp1
