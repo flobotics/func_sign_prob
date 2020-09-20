@@ -6986,3 +6986,4 @@
 /usr/bin/cccd
 /usr/bin/cog
 /usr/bin/cogctl
+/usr/bin/cutycapt
