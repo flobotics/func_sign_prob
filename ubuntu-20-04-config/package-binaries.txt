@@ -5989,3 +5989,6 @@
 /usr/bin/turnutils_peer
 /usr/bin/turnutils_stunclient
 /usr/bin/turnutils_uclient
+/usr/bin/c-graph
+/usr/bin/cadvisor
+/usr/bin/chafa
