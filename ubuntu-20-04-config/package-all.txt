@@ -3794,3 +3794,4 @@ xplot
 xwpe
 xbill
 xsunpinyin
+xscreensaver-screensaver-webcollage

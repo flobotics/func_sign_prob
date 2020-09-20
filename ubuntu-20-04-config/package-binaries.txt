@@ -7321,3 +7321,4 @@
 /usr/bin/xplot
 /usr/bin/xsunpinyin
 /usr/bin/xsunpinyin-preferences
+/usr/bin/webcollage-helper

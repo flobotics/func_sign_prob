@@ -2461,3 +2461,4 @@ xalan
 xplot
 xwpe
 xsunpinyin
+xscreensaver-screensaver-webcollage

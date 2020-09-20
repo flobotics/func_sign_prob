@@ -21228,3 +21228,13 @@ Real binaries:['/usr/bin/xsunpinyin', '/usr/bin/xsunpinyin-preferences']
 Write to package-work.txt file: xsunpinyin
 Write to package-binaries.txt file: ['/usr/bin/xsunpinyin', '/usr/bin/xsunpinyin-preferences']
 ['/usr/bin/xsunpinyin', '/usr/bin/xsunpinyin-preferences']
+Write pickle file
+tar_out:
+Package-nr:3752 of 11000, Name:xscreensaver-screensaver-webcollage-dbgsym
+Package >xscreensaver-screensaver-webcollage< not in package-all.txt file
+Write to package-all.txt file: xscreensaver-screensaver-webcollage
+In package >xscreensaver-screensaver-webcollage< are these binaries: ['/usr/bin/webcollage-helper']
+Real binaries:['/usr/bin/webcollage-helper']
+Write to package-work.txt file: xscreensaver-screensaver-webcollage
+Write to package-binaries.txt file: ['/usr/bin/webcollage-helper']
+['/usr/bin/webcollage-helper']
