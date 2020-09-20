@@ -5936,3 +5936,4 @@
 /usr/bin/cconv
 /usr/bin/ctwm
 /usr/sbin/consolation
+/usr/bin/cmigemo
