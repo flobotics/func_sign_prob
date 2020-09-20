@@ -5652,3 +5652,4 @@
 /usr/bin/evmctl
 /usr/bin/convickt
 /usr/bin/ick
+/usr/sbin/iptotal

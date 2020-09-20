@@ -972,3 +972,4 @@ indicator-sound
 itcl3
 indicator-power
 inventor-demo
+ibus-keyman
