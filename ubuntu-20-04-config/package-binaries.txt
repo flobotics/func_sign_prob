@@ -7310,3 +7310,4 @@
 /usr/bin/record
 /usr/bin/showriff
 /usr/bin/fbtv
+/usr/bin/pia
