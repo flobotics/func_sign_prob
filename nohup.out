@@ -16098,3 +16098,30 @@ Real binaries:['/usr/bin/clif']
 Write to package-work.txt file: clif
 Write to package-binaries.txt file: ['/usr/bin/clif']
 ['/usr/bin/clif']
+Write pickle file
+tar_out:
+Package-nr:3148 of 11000, Name:coinor-libcoinutils3v5-dbgsym
+Package >coinor-libcoinutils3v5< not in package-all.txt file
+Write to package-all.txt file: coinor-libcoinutils3v5
+In package >coinor-libcoinutils3v5< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: coinor-libcoinutils3v5
+[]
+Package-nr:3149 of 11000, Name:pi-dbgsym
+Skip package >pi<, already in package-all.txt file
+[]
+Package-nr:3150 of 11000, Name:curseofwar-dbgsym
+Package >curseofwar< not in package-all.txt file
+Write to package-all.txt file: curseofwar
+In package >curseofwar< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: curseofwar
+[]
+Package-nr:3151 of 11000, Name:cdecl-dbgsym
+Package >cdecl< not in package-all.txt file
+Write to package-all.txt file: cdecl
+In package >cdecl< are these binaries: ['/usr/bin/cdecl', 'package diverts others to: /usr/bin/cdecl.cutils', '/usr/bin/c++decl']
+Real binaries:['/usr/bin/cdecl']
+Write to package-work.txt file: cdecl
+Write to package-binaries.txt file: ['/usr/bin/cdecl']
+['/usr/bin/cdecl']

@@ -1116,3 +1116,5 @@ python3-cccolutils
 cinnamon-settings-daemon
 ceferino
 python3-cvxopt
+coinor-libcoinutils3v5
+curseofwar

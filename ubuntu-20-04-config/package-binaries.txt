@@ -6381,3 +6381,4 @@
 /usr/bin/cowdancer-ilistdump
 /usr/bin/dash-search
 /usr/bin/clif
+/usr/bin/cdecl
