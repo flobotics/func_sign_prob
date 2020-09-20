@@ -21166,3 +21166,13 @@ Real binaries:['/usr/bin/xcolors']
 Write to package-work.txt file: xcolors
 Write to package-binaries.txt file: ['/usr/bin/xcolors']
 ['/usr/bin/xcolors']
+Write pickle file
+tar_out:
+Package-nr:3745 of 11000, Name:xtables-addons-common-dbgsym
+Package >xtables-addons-common< not in package-all.txt file
+Write to package-all.txt file: xtables-addons-common
+In package >xtables-addons-common< are these binaries: ['/usr/sbin/iptaccount']
+Real binaries:['/usr/sbin/iptaccount']
+Write to package-work.txt file: xtables-addons-common
+Write to package-binaries.txt file: ['/usr/sbin/iptaccount']
+['/usr/sbin/iptaccount']
