@@ -19139,3 +19139,60 @@ Real binaries:['/usr/lib/qt5/bin/qtwaylandscanner']
 Write to package-work.txt file: qtwayland5-dev-tools
 Write to package-binaries.txt file: ['/usr/lib/qt5/bin/qtwaylandscanner']
 ['/usr/lib/qt5/bin/qtwaylandscanner']
+Write pickle file
+tar_out:
+Package-nr:3500 of 11000, Name:qtwayland5-examples-dbgsym
+Package >qtwayland5-examples< not in package-all.txt file
+Write to package-all.txt file: qtwayland5-examples
+In package >qtwayland5-examples< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: qtwayland5-examples
+[]
+Package-nr:3501 of 11000, Name:qtwayland5-dbgsym
+Skip package >qtwayland5<, already in package-all.txt file
+[]
+Package-nr:3502 of 11000, Name:qml-module-qtwayland-compositor-dbgsym
+Package >qml-module-qtwayland-compositor< not in package-all.txt file
+Write to package-all.txt file: qml-module-qtwayland-compositor
+In package >qml-module-qtwayland-compositor< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: qml-module-qtwayland-compositor
+[]
+Package-nr:3503 of 11000, Name:qt5serialport-examples-dbgsym
+Package >qt5serialport-examples< not in package-all.txt file
+Write to package-all.txt file: qt5serialport-examples
+In package >qt5serialport-examples< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: qt5serialport-examples
+[]
+Package-nr:3504 of 11000, Name:qdbm-util-dbgsym
+Package >qdbm-util< not in package-all.txt file
+Write to package-all.txt file: qdbm-util
+In package >qdbm-util< are these binaries: ['/usr/bin/cbcodec', '/usr/bin/crmgr', '/usr/bin/crtsv', '/usr/bin/dpmgr', '/usr/bin/dptsv', '/usr/bin/odidx', '/usr/bin/odmgr', '/usr/bin/rlmgr', '/usr/bin/vlmgr', '/usr/bin/vltsv']
+Real binaries:['/usr/bin/cbcodec', '/usr/bin/crmgr', '/usr/bin/crtsv', '/usr/bin/dpmgr', '/usr/bin/dptsv', '/usr/bin/odidx', '/usr/bin/odmgr', '/usr/bin/rlmgr', '/usr/bin/vlmgr', '/usr/bin/vltsv']
+Write to package-work.txt file: qdbm-util
+Write to package-binaries.txt file: ['/usr/bin/cbcodec', '/usr/bin/crmgr', '/usr/bin/crtsv', '/usr/bin/dpmgr', '/usr/bin/dptsv', '/usr/bin/odidx', '/usr/bin/odmgr', '/usr/bin/rlmgr', '/usr/bin/vlmgr', '/usr/bin/vltsv']
+['/usr/bin/cbcodec', '/usr/bin/crmgr', '/usr/bin/crtsv', '/usr/bin/dpmgr', '/usr/bin/dptsv', '/usr/bin/odidx', '/usr/bin/odmgr', '/usr/bin/rlmgr', '/usr/bin/vlmgr', '/usr/bin/vltsv']
+Package-nr:3505 of 11000, Name:ruby-qdbm-dbgsym
+Package >ruby-qdbm< not in package-all.txt file
+Write to package-all.txt file: ruby-qdbm
+In package >ruby-qdbm< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: ruby-qdbm
+[]
+Package-nr:3506 of 11000, Name:qdbm-cgi-dbgsym
+Package >qdbm-cgi< not in package-all.txt file
+Write to package-all.txt file: qdbm-cgi
+In package >qdbm-cgi< are these binaries: ['/usr/lib/cgi-bin/qadm.cgi', '/usr/lib/cgi-bin/qfts.cgi', '/usr/lib/cgi-bin/qupl.cgi', '/usr/lib/cgi-bin/qadm.conf', '/usr/lib/cgi-bin/qfts.conf', '/usr/lib/cgi-bin/qupl.conf']
+Real binaries:['/usr/lib/cgi-bin/qadm.cgi', '/usr/lib/cgi-bin/qfts.cgi', '/usr/lib/cgi-bin/qupl.cgi']
+Write to package-work.txt file: qdbm-cgi
+Write to package-binaries.txt file: ['/usr/lib/cgi-bin/qadm.cgi', '/usr/lib/cgi-bin/qfts.cgi', '/usr/lib/cgi-bin/qupl.cgi']
+['/usr/lib/cgi-bin/qadm.cgi', '/usr/lib/cgi-bin/qfts.cgi', '/usr/lib/cgi-bin/qupl.cgi']
+Package-nr:3507 of 11000, Name:qt3d5-dev-tools-dbgsym
+Package >qt3d5-dev-tools< not in package-all.txt file
+Write to package-all.txt file: qt3d5-dev-tools
+In package >qt3d5-dev-tools< are these binaries: ['/usr/lib/qt5/bin/qgltf', '/usr/lib/x86_64-linux-gnu/qt5/bin/qgltf']
+Real binaries:['/usr/lib/qt5/bin/qgltf']
+Write to package-work.txt file: qt3d5-dev-tools
+Write to package-binaries.txt file: ['/usr/lib/qt5/bin/qgltf']
+['/usr/lib/qt5/bin/qgltf']

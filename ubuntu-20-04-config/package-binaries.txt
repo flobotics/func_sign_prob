@@ -7004,3 +7004,17 @@
 /usr/bin/qspeakers
 /usr/bin/qjackrcd
 /usr/lib/qt5/bin/qtwaylandscanner
+/usr/bin/cbcodec
+/usr/bin/crmgr
+/usr/bin/crtsv
+/usr/bin/dpmgr
+/usr/bin/dptsv
+/usr/bin/odidx
+/usr/bin/odmgr
+/usr/bin/rlmgr
+/usr/bin/vlmgr
+/usr/bin/vltsv
+/usr/lib/cgi-bin/qadm.cgi
+/usr/lib/cgi-bin/qfts.cgi
+/usr/lib/cgi-bin/qupl.cgi
+/usr/lib/qt5/bin/qgltf

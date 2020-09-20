@@ -1222,3 +1222,7 @@ qtconnectivity5-examples
 quantlib-python
 qtads
 qml-module-org-nemomobile-mpris
+qtwayland5-examples
+qml-module-qtwayland-compositor
+qt5serialport-examples
+ruby-qdbm

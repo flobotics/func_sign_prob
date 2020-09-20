@@ -3555,3 +3555,10 @@ qspeakers
 qjackrcd
 qml-module-org-nemomobile-mpris
 qtwayland5-dev-tools
+qtwayland5-examples
+qml-module-qtwayland-compositor
+qt5serialport-examples
+qdbm-util
+ruby-qdbm
+qdbm-cgi
+qt3d5-dev-tools
