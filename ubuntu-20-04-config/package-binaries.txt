@@ -7337,3 +7337,14 @@
 /usr/bin/xfce4-notes
 /usr/bin/xfce4-notes-settings
 /usr/bin/xfce4-popup-notes
+/usr/bin/copydatabase
+/usr/bin/quest
+/usr/bin/xapian-check
+/usr/bin/xapian-compact
+/usr/bin/xapian-delve
+/usr/bin/xapian-metadata
+/usr/bin/xapian-pos
+/usr/bin/xapian-progsrv
+/usr/bin/xapian-replicate
+/usr/bin/xapian-replicate-server
+/usr/bin/xapian-tcpsrv

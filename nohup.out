@@ -21355,3 +21355,20 @@ Real binaries:['/usr/bin/xfce4-notes', '/usr/bin/xfce4-notes-settings', '/usr/bi
 Write to package-work.txt file: xfce4-notes
 Write to package-binaries.txt file: ['/usr/bin/xfce4-notes', '/usr/bin/xfce4-notes-settings', '/usr/bin/xfce4-popup-notes']
 ['/usr/bin/xfce4-notes', '/usr/bin/xfce4-notes-settings', '/usr/bin/xfce4-popup-notes']
+Write pickle file
+tar_out:
+Package-nr:3768 of 11000, Name:xapian-examples-dbgsym
+Package >xapian-examples< not in package-all.txt file
+Write to package-all.txt file: xapian-examples
+In package >xapian-examples< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: xapian-examples
+[]
+Package-nr:3769 of 11000, Name:xapian-tools-dbgsym
+Package >xapian-tools< not in package-all.txt file
+Write to package-all.txt file: xapian-tools
+In package >xapian-tools< are these binaries: ['/usr/bin/copydatabase', '/usr/bin/quest', '/usr/bin/xapian-check', '/usr/bin/xapian-compact', '/usr/bin/xapian-delve', '/usr/bin/xapian-metadata', '/usr/bin/xapian-pos', '/usr/bin/xapian-progsrv', '/usr/bin/xapian-replicate', '/usr/bin/xapian-replicate-server', '/usr/bin/xapian-tcpsrv']
+Real binaries:['/usr/bin/copydatabase', '/usr/bin/quest', '/usr/bin/xapian-check', '/usr/bin/xapian-compact', '/usr/bin/xapian-delve', '/usr/bin/xapian-metadata', '/usr/bin/xapian-pos', '/usr/bin/xapian-progsrv', '/usr/bin/xapian-replicate', '/usr/bin/xapian-replicate-server', '/usr/bin/xapian-tcpsrv']
+Write to package-work.txt file: xapian-tools
+Write to package-binaries.txt file: ['/usr/bin/copydatabase', '/usr/bin/quest', '/usr/bin/xapian-check', '/usr/bin/xapian-compact', '/usr/bin/xapian-delve', '/usr/bin/xapian-metadata', '/usr/bin/xapian-pos', '/usr/bin/xapian-progsrv', '/usr/bin/xapian-replicate', '/usr/bin/xapian-replicate-server', '/usr/bin/xapian-tcpsrv']
+['/usr/bin/copydatabase', '/usr/bin/quest', '/usr/bin/xapian-check', '/usr/bin/xapian-compact', '/usr/bin/xapian-delve', '/usr/bin/xapian-metadata', '/usr/bin/xapian-pos', '/usr/bin/xapian-progsrv', '/usr/bin/xapian-replicate', '/usr/bin/xapian-replicate-server', '/usr/bin/xapian-tcpsrv']
