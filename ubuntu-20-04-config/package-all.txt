@@ -3844,3 +3844,5 @@ xmbmon
 xastir
 x2goclient
 xpra
+xzip
+xdaliclock

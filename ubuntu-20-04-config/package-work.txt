@@ -2497,3 +2497,4 @@ xmbmon
 xastir
 x2goclient
 xpra
+xdaliclock
