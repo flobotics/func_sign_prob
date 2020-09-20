@@ -23239,3 +23239,19 @@ Real binaries:['/usr/bin/xss-lock']
 Write to package-work.txt file: xss-lock
 Write to package-binaries.txt file: ['/usr/bin/xss-lock']
 ['/usr/bin/xss-lock']
+Write pickle file
+tar_out:
+Package-nr:3986 of 11000, Name:xd-dbgsym
+Skip package >xd<, already in package-all.txt file
+[]
+Package-nr:3987 of 11000, Name:xbindkeys-dbgsym
+Skip package >xbindkeys<, already in package-all.txt file
+[]
+Package-nr:3988 of 11000, Name:xsysinfo-dbgsym
+Package >xsysinfo< not in package-all.txt file
+Write to package-all.txt file: xsysinfo
+In package >xsysinfo< are these binaries: ['/usr/bin/xsysinfo']
+Real binaries:['/usr/bin/xsysinfo']
+Write to package-work.txt file: xsysinfo
+Write to package-binaries.txt file: ['/usr/bin/xsysinfo']
+['/usr/bin/xsysinfo']
