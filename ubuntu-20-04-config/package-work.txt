@@ -2430,3 +2430,4 @@ mmdb-bin
 musepack-tools
 xfstt
 xjdic
+cnee

@@ -7274,3 +7274,4 @@
 /usr/bin/xjdrad
 /usr/bin/xjdserver
 /usr/bin/xjdxgen
+/usr/bin/cnee
