@@ -22061,3 +22061,23 @@ Real binaries:['/usr/bin/xpaaccess', '/usr/bin/xpaget', '/usr/bin/xpainfo', '/us
 Write to package-work.txt file: xpa-tools
 Write to package-binaries.txt file: ['/usr/bin/xpaaccess', '/usr/bin/xpaget', '/usr/bin/xpainfo', '/usr/bin/xpamb', '/usr/bin/xpans', '/usr/bin/xpaset']
 ['/usr/bin/xpaaccess', '/usr/bin/xpaget', '/usr/bin/xpainfo', '/usr/bin/xpamb', '/usr/bin/xpans', '/usr/bin/xpaset']
+Write pickle file
+tar_out:
+Package-nr:3848 of 11000, Name:tcl-xpa-dbgsym
+Package >tcl-xpa< not in package-all.txt file
+Write to package-all.txt file: tcl-xpa
+In package >tcl-xpa< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: tcl-xpa
+[]
+Package-nr:3849 of 11000, Name:xca-dbgsym
+Skip package >xca<, already in package-all.txt file
+[]
+Package-nr:3850 of 11000, Name:xlassie-dbgsym
+Package >xlassie< not in package-all.txt file
+Write to package-all.txt file: xlassie
+In package >xlassie< are these binaries: ['/usr/bin/xlassie']
+Real binaries:['/usr/bin/xlassie']
+Write to package-work.txt file: xlassie
+Write to package-binaries.txt file: ['/usr/bin/xlassie']
+['/usr/bin/xlassie']

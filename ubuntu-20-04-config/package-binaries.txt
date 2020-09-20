@@ -7433,3 +7433,4 @@
 /usr/bin/xpamb
 /usr/bin/xpans
 /usr/bin/xpaset
+/usr/bin/xlassie

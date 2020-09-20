@@ -3883,3 +3883,5 @@ x11vnc
 xsdcxx
 xmountains
 xpa-tools
+tcl-xpa
+xlassie

@@ -1352,3 +1352,4 @@ xcircuit
 xblast-tnt
 xmahjongg
 xmountains
+tcl-xpa

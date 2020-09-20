@@ -2526,3 +2526,4 @@ xtrkcad
 x11vnc
 xsdcxx
 xpa-tools
+xlassie
