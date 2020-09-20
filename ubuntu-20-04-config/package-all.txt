@@ -2891,3 +2891,4 @@ inetutils-syslogd
 inetutils-tools
 inetutils-ping
 inetutils-telnetd
+inetutils-traceroute

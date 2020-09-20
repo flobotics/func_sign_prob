@@ -5672,3 +5672,4 @@
 /usr/bin/inetutils-logger
 /bin/ping6
 /usr/sbin/telnetd
+/usr/bin/inetutils-traceroute
