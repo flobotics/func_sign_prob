@@ -1006,3 +1006,4 @@ cl-sql-uffi
 python3-cyvcf2
 crazywa
 python3-coda
+python3-cypari2
