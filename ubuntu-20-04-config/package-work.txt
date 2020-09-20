@@ -2511,3 +2511,4 @@ xtide
 xcompmgr
 xpp
 xyscan
+xwrited

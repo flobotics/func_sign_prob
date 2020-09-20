@@ -7405,3 +7405,4 @@
 /usr/bin/xcompmgr
 /usr/bin/xpp
 /usr/bin/xyscan
+/usr/bin/xwrited

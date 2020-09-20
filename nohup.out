@@ -21877,3 +21877,13 @@ Real binaries:['/usr/bin/xyscan']
 Write to package-work.txt file: xyscan
 Write to package-binaries.txt file: ['/usr/bin/xyscan']
 ['/usr/bin/xyscan']
+Write pickle file
+tar_out:
+Package-nr:3827 of 11000, Name:xwrited-dbgsym
+Package >xwrited< not in package-all.txt file
+Write to package-all.txt file: xwrited
+In package >xwrited< are these binaries: ['/usr/bin/xwrited']
+Real binaries:['/usr/bin/xwrited']
+Write to package-work.txt file: xwrited
+Write to package-binaries.txt file: ['/usr/bin/xwrited']
+['/usr/bin/xwrited']
