@@ -6474,3 +6474,4 @@
 /usr/bin/catdic
 /usr/bin/chkconc
 /usr/bin/cshost
+/usr/bin/icedax

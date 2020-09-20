@@ -16910,3 +16910,13 @@ Real binaries:['/usr/bin/cannacheck', '/usr/bin/cannastat', '/usr/bin/catdic', '
 Write to package-work.txt file: canna-utils
 Write to package-binaries.txt file: ['/usr/bin/cannacheck', '/usr/bin/cannastat', '/usr/bin/catdic', '/usr/bin/chkconc', '/usr/bin/cshost']
 ['/usr/bin/cannacheck', '/usr/bin/cannastat', '/usr/bin/catdic', '/usr/bin/chkconc', '/usr/bin/cshost']
+Write pickle file
+tar_out:
+Package-nr:3246 of 11000, Name:icedax-dbgsym
+Package >icedax< not in package-all.txt file
+Write to package-all.txt file: icedax
+In package >icedax< are these binaries: ['/usr/bin/cdrkit.cdda2mp3', '/usr/bin/cdrkit.cdda2ogg', '/usr/bin/icedax', '/usr/bin/pitchplay', '/usr/bin/readmult', '/usr/bin/cdda2wav', '/usr/bin/list_audio_tracks']
+Real binaries:['/usr/bin/icedax']
+Write to package-work.txt file: icedax
+Write to package-binaries.txt file: ['/usr/bin/icedax']
+['/usr/bin/icedax']
