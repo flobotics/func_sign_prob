@@ -2535,3 +2535,4 @@ xsane
 xtrlock
 xzgv
 x265
+xqilla
