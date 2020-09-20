@@ -2918,3 +2918,4 @@ its-playback-time
 invesalius-bin
 instead
 ike-scan
+intel-gpu-tools
