@@ -1183,3 +1183,4 @@ clutter-1.0-tests
 cinnamon-screensaver
 crawl
 crawl-tiles
+python3-rgw

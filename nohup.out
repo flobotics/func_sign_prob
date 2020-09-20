@@ -17872,3 +17872,20 @@ Real binaries:['/usr/bin/rbd-nbd']
 Write to package-work.txt file: rbd-nbd
 Write to package-binaries.txt file: ['/usr/bin/rbd-nbd']
 ['/usr/bin/rbd-nbd']
+Write pickle file
+tar_out:
+Package-nr:3355 of 11000, Name:python3-rgw-dbgsym
+Package >python3-rgw< not in package-all.txt file
+Write to package-all.txt file: python3-rgw
+In package >python3-rgw< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: python3-rgw
+[]
+Package-nr:3356 of 11000, Name:ceph-immutable-object-cache-dbgsym
+Package >ceph-immutable-object-cache< not in package-all.txt file
+Write to package-all.txt file: ceph-immutable-object-cache
+In package >ceph-immutable-object-cache< are these binaries: ['/usr/bin/ceph-immutable-object-cache']
+Real binaries:['/usr/bin/ceph-immutable-object-cache']
+Write to package-work.txt file: ceph-immutable-object-cache
+Write to package-binaries.txt file: ['/usr/bin/ceph-immutable-object-cache']
+['/usr/bin/ceph-immutable-object-cache']

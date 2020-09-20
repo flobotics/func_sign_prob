@@ -6780,3 +6780,4 @@
 /usr/bin/calamares
 /usr/bin/ceph-fuse
 /usr/bin/rbd-nbd
+/usr/bin/ceph-immutable-object-cache
