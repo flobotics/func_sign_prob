@@ -3130,3 +3130,4 @@ capi4hylafax
 cabextract
 camlmix
 cpluff-loader
+cue2toc

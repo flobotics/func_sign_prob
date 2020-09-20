@@ -6020,3 +6020,4 @@
 /usr/bin/cabextract
 /usr/bin/camlmix
 /usr/bin/cpluff-loader
+/usr/bin/cue2toc
