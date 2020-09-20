@@ -7591,3 +7591,4 @@
 /usr/bin/srecparse
 /usr/bin/xc2c_warp
 /usr/bin/xc3sprog
+/usr/bin/xprintidle

@@ -22582,3 +22582,23 @@ Real binaries:['/usr/bin/bitparse', '/usr/bin/detectchain', '/usr/bin/javr', '/u
 Write to package-work.txt file: xc3sprog
 Write to package-binaries.txt file: ['/usr/bin/bitparse', '/usr/bin/detectchain', '/usr/bin/javr', '/usr/bin/jedecparse', '/usr/bin/readdna', '/usr/bin/srecparse', '/usr/bin/xc2c_warp', '/usr/bin/xc3sprog']
 ['/usr/bin/bitparse', '/usr/bin/detectchain', '/usr/bin/javr', '/usr/bin/jedecparse', '/usr/bin/readdna', '/usr/bin/srecparse', '/usr/bin/xc2c_warp', '/usr/bin/xc3sprog']
+Write pickle file
+tar_out:
+Package-nr:3910 of 11000, Name:xsok-dbgsym
+Package >xsok< not in package-all.txt file
+Write to package-all.txt file: xsok
+In package >xsok< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: xsok
+[]
+Package-nr:3911 of 11000, Name:xchat-dbgsym
+Skip package >xchat<, already in package-all.txt file
+[]
+Package-nr:3912 of 11000, Name:xprintidle-dbgsym
+Package >xprintidle< not in package-all.txt file
+Write to package-all.txt file: xprintidle
+In package >xprintidle< are these binaries: ['/usr/bin/xprintidle']
+Real binaries:['/usr/bin/xprintidle']
+Write to package-work.txt file: xprintidle
+Write to package-binaries.txt file: ['/usr/bin/xprintidle']
+['/usr/bin/xprintidle']

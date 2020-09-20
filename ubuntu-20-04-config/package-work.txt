@@ -2565,3 +2565,4 @@ xen-utils-common
 xmpi
 xcolorsel
 xc3sprog
+xprintidle
