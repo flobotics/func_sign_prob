@@ -6482,3 +6482,4 @@
 /usr/bin/chktex
 /usr/bin/symphony
 /usr/bin/chemeq
+/usr/bin/cjs-console
