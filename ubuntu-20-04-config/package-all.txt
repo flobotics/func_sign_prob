@@ -2961,3 +2961,5 @@ iselect
 i7z
 tcl-itcl4
 icoutils
+iipimage-server
+ircp-tray

@@ -5896,3 +5896,4 @@
 /usr/sbin/i7z
 /usr/bin/icotool
 /usr/bin/wrestool
+/usr/bin/ircp-tray

@@ -13811,3 +13811,20 @@ Real binaries:['/usr/bin/icotool', '/usr/bin/wrestool']
 Write to package-work.txt file: icoutils
 Write to package-binaries.txt file: ['/usr/bin/icotool', '/usr/bin/wrestool']
 ['/usr/bin/icotool', '/usr/bin/wrestool']
+Write pickle file
+tar_out:
+Package-nr:2866 of 11000, Name:iipimage-server-dbgsym
+Package >iipimage-server< not in package-all.txt file
+Write to package-all.txt file: iipimage-server
+In package >iipimage-server< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: iipimage-server
+[]
+Package-nr:2867 of 11000, Name:ircp-tray-dbgsym
+Package >ircp-tray< not in package-all.txt file
+Write to package-all.txt file: ircp-tray
+In package >ircp-tray< are these binaries: ['/usr/bin/ircp-tray']
+Real binaries:['/usr/bin/ircp-tray']
+Write to package-work.txt file: ircp-tray
+Write to package-binaries.txt file: ['/usr/bin/ircp-tray']
+['/usr/bin/ircp-tray']

@@ -1958,3 +1958,4 @@ ipmitool
 iselect
 i7z
 icoutils
+ircp-tray
