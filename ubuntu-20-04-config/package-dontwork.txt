@@ -1279,3 +1279,4 @@ qxw
 qml-module-qtwebkit
 qt5-ukui-platformtheme
 qt5-styles-ukui
+python3-pyqt5.qsci
