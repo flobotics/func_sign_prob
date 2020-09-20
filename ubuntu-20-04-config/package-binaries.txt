@@ -6779,3 +6779,4 @@
 /usr/bin/compiz-boxmenu-wlist
 /usr/bin/calamares
 /usr/bin/ceph-fuse
+/usr/bin/rbd-nbd

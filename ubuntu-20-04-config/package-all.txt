@@ -3417,3 +3417,4 @@ crawl-tiles
 compiz-boxmenu
 calamares
 ceph-fuse
+rbd-nbd

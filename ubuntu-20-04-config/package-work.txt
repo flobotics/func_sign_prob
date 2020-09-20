@@ -2229,3 +2229,4 @@ curtain
 compiz-boxmenu
 calamares
 ceph-fuse
+rbd-nbd

@@ -17862,3 +17862,13 @@ Real binaries:['/usr/bin/ceph-fuse']
 Write to package-work.txt file: ceph-fuse
 Write to package-binaries.txt file: ['/usr/bin/ceph-fuse']
 ['/usr/bin/ceph-fuse']
+Write pickle file
+tar_out:
+Package-nr:3354 of 11000, Name:rbd-nbd-dbgsym
+Package >rbd-nbd< not in package-all.txt file
+Write to package-all.txt file: rbd-nbd
+In package >rbd-nbd< are these binaries: ['/usr/bin/rbd-nbd']
+Real binaries:['/usr/bin/rbd-nbd']
+Write to package-work.txt file: rbd-nbd
+Write to package-binaries.txt file: ['/usr/bin/rbd-nbd']
+['/usr/bin/rbd-nbd']
