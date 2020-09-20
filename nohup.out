@@ -22407,3 +22407,13 @@ Real binaries:['/usr/bin/xtermset']
 Write to package-work.txt file: xtermset
 Write to package-binaries.txt file: ['/usr/bin/xtermset']
 ['/usr/bin/xtermset']
+Write pickle file
+tar_out:
+Package-nr:3890 of 11000, Name:xymon-client-dbgsym
+Package >xymon-client< not in package-all.txt file
+Write to package-all.txt file: xymon-client
+In package >xymon-client< are these binaries: ['/usr/lib/xymon/client/bin/clientupdate', '/usr/lib/xymon/client/bin/logfetch', '/usr/lib/xymon/client/bin/msgcache', '/usr/lib/xymon/client/bin/orcaxymon', '/usr/lib/xymon/client/bin/xymon', '/usr/lib/xymon/client/bin/xymoncfg', '/usr/lib/xymon/client/bin/xymonclient-aix.sh', '/usr/lib/xymon/client/bin/xymonclient-darwin.sh', '/usr/lib/xymon/client/bin/xymonclient-freebsd.sh', '/usr/lib/xymon/client/bin/xymonclient-hp-ux.sh', '/usr/lib/xymon/client/bin/xymonclient-irix.sh', '/usr/lib/xymon/client/bin/xymonclient-linux.sh', '/usr/lib/xymon/client/bin/xymonclient-netbsd.sh', '/usr/lib/xymon/client/bin/xymonclient-openbsd.sh', '/usr/lib/xymon/client/bin/xymonclient-osf1.sh', '/usr/lib/xymon/client/bin/xymonclient-sco_sv.sh', '/usr/lib/xymon/client/bin/xymonclient-sunos.sh', '/usr/lib/xymon/client/bin/xymonclient-unixware.sh', '/usr/lib/xymon/client/bin/xymonclient.sh', '/usr/lib/xymon/client/bin/xymoncmd', '/usr/lib/xymon/client/bin/xymondigest', '/usr/lib/xymon/client/bin/xymongrep', '/usr/lib/xymon/client/bin/xymonlaunch', '/usr/bin/xymoncmd']
+Real binaries:['/usr/lib/xymon/client/bin/clientupdate', '/usr/lib/xymon/client/bin/logfetch', '/usr/lib/xymon/client/bin/msgcache', '/usr/lib/xymon/client/bin/orcaxymon', '/usr/lib/xymon/client/bin/xymon', '/usr/lib/xymon/client/bin/xymoncfg', '/usr/lib/xymon/client/bin/xymoncmd', '/usr/lib/xymon/client/bin/xymondigest', '/usr/lib/xymon/client/bin/xymongrep', '/usr/lib/xymon/client/bin/xymonlaunch']
+Write to package-work.txt file: xymon-client
+Write to package-binaries.txt file: ['/usr/lib/xymon/client/bin/clientupdate', '/usr/lib/xymon/client/bin/logfetch', '/usr/lib/xymon/client/bin/msgcache', '/usr/lib/xymon/client/bin/orcaxymon', '/usr/lib/xymon/client/bin/xymon', '/usr/lib/xymon/client/bin/xymoncfg', '/usr/lib/xymon/client/bin/xymoncmd', '/usr/lib/xymon/client/bin/xymondigest', '/usr/lib/xymon/client/bin/xymongrep', '/usr/lib/xymon/client/bin/xymonlaunch']
+['/usr/lib/xymon/client/bin/clientupdate', '/usr/lib/xymon/client/bin/logfetch', '/usr/lib/xymon/client/bin/msgcache', '/usr/lib/xymon/client/bin/orcaxymon', '/usr/lib/xymon/client/bin/xymon', '/usr/lib/xymon/client/bin/xymoncfg', '/usr/lib/xymon/client/bin/xymoncmd', '/usr/lib/xymon/client/bin/xymondigest', '/usr/lib/xymon/client/bin/xymongrep', '/usr/lib/xymon/client/bin/xymonlaunch']

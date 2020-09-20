@@ -7508,3 +7508,13 @@
 /usr/sbin/xorpsh
 /usr/bin/lzip.xlunzip
 /usr/bin/xtermset
+/usr/lib/xymon/client/bin/clientupdate
+/usr/lib/xymon/client/bin/logfetch
+/usr/lib/xymon/client/bin/msgcache
+/usr/lib/xymon/client/bin/orcaxymon
+/usr/lib/xymon/client/bin/xymon
+/usr/lib/xymon/client/bin/xymoncfg
+/usr/lib/xymon/client/bin/xymoncmd
+/usr/lib/xymon/client/bin/xymondigest
+/usr/lib/xymon/client/bin/xymongrep
+/usr/lib/xymon/client/bin/xymonlaunch

@@ -3921,3 +3921,4 @@ xorp
 xlunzip
 xracer
 xtermset
+xymon-client
