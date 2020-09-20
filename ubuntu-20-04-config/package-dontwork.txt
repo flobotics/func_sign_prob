@@ -1007,3 +1007,4 @@ python3-cyvcf2
 crazywa
 python3-coda
 python3-cypari2
+coinor-libosi1v5

@@ -5938,3 +5938,4 @@
 /usr/sbin/consolation
 /usr/bin/cmigemo
 /usr/bin/conspy
+/usr/bin/cdck

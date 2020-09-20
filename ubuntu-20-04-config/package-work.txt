@@ -1991,3 +1991,4 @@ ctwm
 consolation
 cmigemo
 conspy
+cdck

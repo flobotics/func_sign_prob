@@ -3003,3 +3003,5 @@ python3-cypari2
 consolation
 cmigemo
 conspy
+coinor-libosi1v5
+cdck
