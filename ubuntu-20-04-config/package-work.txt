@@ -2520,3 +2520,4 @@ xsettingsd
 xsel
 xmakemol-gl
 xchm
+xlax
