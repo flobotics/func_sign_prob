@@ -2549,3 +2549,4 @@ xdmx-tools
 xnest
 xorp
 xlunzip
+xtermset

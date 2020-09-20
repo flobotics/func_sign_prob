@@ -3919,3 +3919,5 @@ xnest
 xserver-xorg-input-mouse
 xorp
 xlunzip
+xracer
+xtermset
