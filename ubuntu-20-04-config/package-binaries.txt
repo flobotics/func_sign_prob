@@ -7289,3 +7289,4 @@
 /usr/bin/xcf2png
 /usr/bin/xcf2pnm
 /usr/bin/xcfinfo
+/usr/bin/xiccd

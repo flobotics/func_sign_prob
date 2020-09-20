@@ -20923,3 +20923,13 @@ Real binaries:['/usr/bin/xcf2png', '/usr/bin/xcf2pnm', '/usr/bin/xcfinfo']
 Write to package-work.txt file: xcftools
 Write to package-binaries.txt file: ['/usr/bin/xcf2png', '/usr/bin/xcf2pnm', '/usr/bin/xcfinfo']
 ['/usr/bin/xcf2png', '/usr/bin/xcf2pnm', '/usr/bin/xcfinfo']
+Write pickle file
+tar_out:
+Package-nr:3716 of 11000, Name:xiccd-dbgsym
+Package >xiccd< not in package-all.txt file
+Write to package-all.txt file: xiccd
+In package >xiccd< are these binaries: ['/usr/bin/xiccd']
+Real binaries:['/usr/bin/xiccd']
+Write to package-work.txt file: xiccd
+Write to package-binaries.txt file: ['/usr/bin/xiccd']
+['/usr/bin/xiccd']
