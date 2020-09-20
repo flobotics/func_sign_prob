@@ -2388,3 +2388,4 @@ qwo
 qmapshack
 qdacco
 qmenu
+qtxmlpatterns5-dev-tools

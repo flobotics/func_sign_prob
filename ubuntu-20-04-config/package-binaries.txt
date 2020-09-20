@@ -7167,3 +7167,5 @@
 /usr/bin/qmt_rgb2pct
 /usr/bin/qdacco
 /usr/bin/qmenu
+/usr/lib/qt5/bin/xmlpatterns
+/usr/lib/qt5/bin/xmlpatternsvalidator

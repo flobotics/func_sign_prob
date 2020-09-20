@@ -1294,3 +1294,5 @@ qml-module-qtmultimedia
 qtmultimedia5-examples
 qml-module-qtaudioengine
 qtdeclarative5-qtpowerd0.1
+qml-module-qtgraphicaleffects
+qtxmlpatterns5-examples

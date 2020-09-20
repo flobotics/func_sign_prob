@@ -3687,3 +3687,6 @@ qmapshack
 qdacco
 qtdeclarative5-qtpowerd0.1
 qmenu
+qml-module-qtgraphicaleffects
+qtxmlpatterns5-examples
+qtxmlpatterns5-dev-tools
