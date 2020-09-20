@@ -3438,3 +3438,5 @@ cksfv
 cronolog
 centreon-engine
 calculix-cgx
+cockpit-tests
+cockpit-ws

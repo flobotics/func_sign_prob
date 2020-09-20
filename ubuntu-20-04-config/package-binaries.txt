@@ -6808,3 +6808,4 @@
 /usr/sbin/centengine
 /usr/sbin/centenginestats
 /usr/bin/cgx
+/usr/sbin/remotectl

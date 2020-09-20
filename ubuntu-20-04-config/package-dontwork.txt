@@ -1186,3 +1186,4 @@ crawl-tiles
 python3-rgw
 chkrootkit
 python3-cyarray
+cockpit-tests

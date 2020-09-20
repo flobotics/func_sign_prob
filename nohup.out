@@ -18059,3 +18059,20 @@ Real binaries:['/usr/bin/cgx']
 Write to package-work.txt file: calculix-cgx
 Write to package-binaries.txt file: ['/usr/bin/cgx']
 ['/usr/bin/cgx']
+Write pickle file
+tar_out:
+Package-nr:3375 of 11000, Name:cockpit-tests-dbgsym
+Package >cockpit-tests< not in package-all.txt file
+Write to package-all.txt file: cockpit-tests
+In package >cockpit-tests< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: cockpit-tests
+[]
+Package-nr:3376 of 11000, Name:cockpit-ws-dbgsym
+Package >cockpit-ws< not in package-all.txt file
+Write to package-all.txt file: cockpit-ws
+In package >cockpit-ws< are these binaries: ['/usr/sbin/remotectl']
+Real binaries:['/usr/sbin/remotectl']
+Write to package-work.txt file: cockpit-ws
+Write to package-binaries.txt file: ['/usr/sbin/remotectl']
+['/usr/sbin/remotectl']
