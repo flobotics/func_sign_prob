@@ -6406,3 +6406,5 @@
 /usr/bin/toc2cue
 /usr/bin/chkservice
 /usr/bin/cryptmount
+/usr/sbin/curvedns
+/usr/sbin/curvedns-keygen

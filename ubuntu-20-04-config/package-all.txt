@@ -3264,3 +3264,5 @@ cargo
 cdrdao
 chkservice
 cryptmount
+python3-chemps2
+curvedns
