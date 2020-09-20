@@ -14104,3 +14104,20 @@ Real binaries:['/usr/bin/ch-run', '/usr/bin/ch-ssh']
 Write to package-work.txt file: charliecloud
 Write to package-binaries.txt file: ['/usr/bin/ch-run', '/usr/bin/ch-ssh']
 ['/usr/bin/ch-run', '/usr/bin/ch-ssh']
+Write pickle file
+tar_out:
+Package-nr:2900 of 11000, Name:crazywa-dbgsym
+Package >crazywa< not in package-all.txt file
+Write to package-all.txt file: crazywa
+In package >crazywa< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: crazywa
+[]
+Package-nr:2901 of 11000, Name:cubicsdr-dbgsym
+Package >cubicsdr< not in package-all.txt file
+Write to package-all.txt file: cubicsdr
+In package >cubicsdr< are these binaries: ['/usr/bin/CubicSDR']
+Real binaries:['/usr/bin/CubicSDR']
+Write to package-work.txt file: cubicsdr
+Write to package-binaries.txt file: ['/usr/bin/CubicSDR']
+['/usr/bin/CubicSDR']

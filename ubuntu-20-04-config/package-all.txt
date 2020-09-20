@@ -2992,3 +2992,5 @@ cmake-curses-gui
 cd-discid
 python3-cyvcf2
 charliecloud
+crazywa
+cubicsdr
