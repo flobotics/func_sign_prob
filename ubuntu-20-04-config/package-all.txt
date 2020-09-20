@@ -3744,3 +3744,4 @@ quicktun
 python3-qutip
 qps
 qflow
+xpmutils

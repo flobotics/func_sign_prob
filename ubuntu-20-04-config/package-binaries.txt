@@ -7235,3 +7235,5 @@
 /usr/lib/qflow/bin/rc2dly
 /usr/lib/qflow/bin/spice2delay
 /usr/lib/qflow/bin/vesta
+/usr/bin/cxpm
+/usr/bin/sxpm

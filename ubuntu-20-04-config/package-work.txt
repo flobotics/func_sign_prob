@@ -2422,3 +2422,4 @@ qprint
 quicktun
 qps
 qflow
+xpmutils
