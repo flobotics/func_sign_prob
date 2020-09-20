@@ -7435,3 +7435,5 @@
 /usr/bin/xpaset
 /usr/bin/xlassie
 /usr/bin/xnec2c
+/usr/bin/xjadeo
+/usr/bin/xjremote

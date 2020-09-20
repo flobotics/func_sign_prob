@@ -3886,3 +3886,4 @@ xpa-tools
 tcl-xpa
 xlassie
 xnec2c
+xjadeo

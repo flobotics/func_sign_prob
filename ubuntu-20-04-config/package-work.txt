@@ -2528,3 +2528,4 @@ xsdcxx
 xpa-tools
 xlassie
 xnec2c
+xjadeo
