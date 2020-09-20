@@ -3881,3 +3881,5 @@ xdms
 xtrkcad
 x11vnc
 xsdcxx
+xmountains
+xpa-tools

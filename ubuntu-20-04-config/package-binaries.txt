@@ -7427,3 +7427,9 @@
 /usr/bin/xtrkcad
 /usr/bin/x11vnc
 /usr/bin/xsdcxx
+/usr/bin/xpaaccess
+/usr/bin/xpaget
+/usr/bin/xpainfo
+/usr/bin/xpamb
+/usr/bin/xpans
+/usr/bin/xpaset

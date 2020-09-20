@@ -2525,3 +2525,4 @@ xdms
 xtrkcad
 x11vnc
 xsdcxx
+xpa-tools
