@@ -2139,3 +2139,5 @@ karbon
 calligra-gemini
 calligra-libs
 calligrasheets
+chrootuid
+cairo-dock-core

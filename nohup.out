@@ -16754,3 +16754,35 @@ Real binaries:['/usr/bin/calligrasheets']
 Write to package-work.txt file: calligrasheets
 Write to package-binaries.txt file: ['/usr/bin/calligrasheets']
 ['/usr/bin/calligrasheets']
+Write pickle file
+tar_out:
+Package-nr:3228 of 11000, Name:okular-backend-odt-dbgsym
+Package >okular-backend-odt< not in package-all.txt file
+Write to package-all.txt file: okular-backend-odt
+In package >okular-backend-odt< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: okular-backend-odt
+[]
+Package-nr:3229 of 11000, Name:okular-backend-odp-dbgsym
+Package >okular-backend-odp< not in package-all.txt file
+Write to package-all.txt file: okular-backend-odp
+In package >okular-backend-odp< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: okular-backend-odp
+[]
+Package-nr:3230 of 11000, Name:chrootuid-dbgsym
+Package >chrootuid< not in package-all.txt file
+Write to package-all.txt file: chrootuid
+In package >chrootuid< are these binaries: ['/usr/bin/chrootuid']
+Real binaries:['/usr/bin/chrootuid']
+Write to package-work.txt file: chrootuid
+Write to package-binaries.txt file: ['/usr/bin/chrootuid']
+['/usr/bin/chrootuid']
+Package-nr:3231 of 11000, Name:cairo-dock-core-dbgsym
+Package >cairo-dock-core< not in package-all.txt file
+Write to package-all.txt file: cairo-dock-core
+In package >cairo-dock-core< are these binaries: ['/usr/bin/cairo-dock', '/usr/bin/cairo-dock-session']
+Real binaries:['/usr/bin/cairo-dock']
+Write to package-work.txt file: cairo-dock-core
+Write to package-binaries.txt file: ['/usr/bin/cairo-dock']
+['/usr/bin/cairo-dock']

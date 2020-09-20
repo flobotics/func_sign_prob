@@ -3298,3 +3298,7 @@ karbon
 calligra-gemini
 calligra-libs
 calligrasheets
+okular-backend-odt
+okular-backend-odp
+chrootuid
+cairo-dock-core

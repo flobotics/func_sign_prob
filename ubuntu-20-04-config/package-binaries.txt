@@ -6439,3 +6439,5 @@
 /usr/bin/calligrageminithumbnailhelper
 /usr/bin/calligraconverter
 /usr/bin/calligrasheets
+/usr/bin/chrootuid
+/usr/bin/cairo-dock
