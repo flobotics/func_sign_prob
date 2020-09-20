@@ -1924,3 +1924,5 @@ imagemagick-6.q16hdri
 icecream-sundae
 iraf-sptable
 infnoise
+iwyu
+inform6-compiler

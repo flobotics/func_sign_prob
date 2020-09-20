@@ -5797,3 +5797,5 @@
 /usr/bin/infnoise-healthcheck
 /usr/bin/infnoise-passgen
 /usr/sbin/infnoise
+/usr/bin/include-what-you-use
+/usr/bin/inform6

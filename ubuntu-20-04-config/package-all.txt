@@ -2907,3 +2907,7 @@ i965-va-driver
 iraf-sptable
 ibus-clutter
 infnoise
+iwyu
+ibus-kmfl
+ibus-pinyin
+inform6-compiler
