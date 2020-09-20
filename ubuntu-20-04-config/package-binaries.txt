@@ -7054,3 +7054,4 @@
 /usr/lib/qt5/bin/qmlpreview
 /usr/lib/qt5/bin/qmlprofiler
 /usr/lib/qt5/bin/qmltestrunner
+/usr/lib/qt5/bin/qmlscene

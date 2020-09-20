@@ -19595,3 +19595,76 @@ Real binaries:['/usr/lib/qt5/bin/qmlcachegen', '/usr/lib/qt5/bin/qmleasing', '/u
 Write to package-work.txt file: qtdeclarative5-dev-tools
 Write to package-binaries.txt file: ['/usr/lib/qt5/bin/qmlcachegen', '/usr/lib/qt5/bin/qmleasing', '/usr/lib/qt5/bin/qmlimportscanner', '/usr/lib/qt5/bin/qmllint', '/usr/lib/qt5/bin/qmlmin', '/usr/lib/qt5/bin/qmlplugindump', '/usr/lib/qt5/bin/qmlpreview', '/usr/lib/qt5/bin/qmlprofiler', '/usr/lib/qt5/bin/qmltestrunner']
 ['/usr/lib/qt5/bin/qmlcachegen', '/usr/lib/qt5/bin/qmleasing', '/usr/lib/qt5/bin/qmlimportscanner', '/usr/lib/qt5/bin/qmllint', '/usr/lib/qt5/bin/qmlmin', '/usr/lib/qt5/bin/qmlplugindump', '/usr/lib/qt5/bin/qmlpreview', '/usr/lib/qt5/bin/qmlprofiler', '/usr/lib/qt5/bin/qmltestrunner']
+Write pickle file
+tar_out:
+Package-nr:3560 of 11000, Name:qml-module-qt-labs-sharedimage-dbgsym
+Package >qml-module-qt-labs-sharedimage< not in package-all.txt file
+Write to package-all.txt file: qml-module-qt-labs-sharedimage
+In package >qml-module-qt-labs-sharedimage< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: qml-module-qt-labs-sharedimage
+[]
+Package-nr:3561 of 11000, Name:qml-module-qtquick-layouts-dbgsym
+Package >qml-module-qtquick-layouts< not in package-all.txt file
+Write to package-all.txt file: qml-module-qtquick-layouts
+In package >qml-module-qtquick-layouts< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: qml-module-qtquick-layouts
+[]
+Package-nr:3562 of 11000, Name:qml-module-qtquick-particles2-dbgsym
+Package >qml-module-qtquick-particles2< not in package-all.txt file
+Write to package-all.txt file: qml-module-qtquick-particles2
+In package >qml-module-qtquick-particles2< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: qml-module-qtquick-particles2
+[]
+Package-nr:3563 of 11000, Name:qml-module-qt-labs-qmlmodels-dbgsym
+Package >qml-module-qt-labs-qmlmodels< not in package-all.txt file
+Write to package-all.txt file: qml-module-qt-labs-qmlmodels
+In package >qml-module-qt-labs-qmlmodels< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: qml-module-qt-labs-qmlmodels
+[]
+Package-nr:3564 of 11000, Name:qml-module-qtquick-shapes-dbgsym
+Package >qml-module-qtquick-shapes< not in package-all.txt file
+Write to package-all.txt file: qml-module-qtquick-shapes
+In package >qml-module-qtquick-shapes< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: qml-module-qtquick-shapes
+[]
+Package-nr:3565 of 11000, Name:qml-module-qtqml-statemachine-dbgsym
+Package >qml-module-qtqml-statemachine< not in package-all.txt file
+Write to package-all.txt file: qml-module-qtqml-statemachine
+In package >qml-module-qtqml-statemachine< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: qml-module-qtqml-statemachine
+[]
+Package-nr:3566 of 11000, Name:qml-module-qttest-dbgsym
+Package >qml-module-qttest< not in package-all.txt file
+Write to package-all.txt file: qml-module-qttest
+In package >qml-module-qttest< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: qml-module-qttest
+[]
+Package-nr:3567 of 11000, Name:qml-module-qtquick-window2-dbgsym
+Package >qml-module-qtquick-window2< not in package-all.txt file
+Write to package-all.txt file: qml-module-qtquick-window2
+In package >qml-module-qtquick-window2< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: qml-module-qtquick-window2
+[]
+Package-nr:3568 of 11000, Name:qml-module-qt-labs-wavefrontmesh-dbgsym
+Package >qml-module-qt-labs-wavefrontmesh< not in package-all.txt file
+Write to package-all.txt file: qml-module-qt-labs-wavefrontmesh
+In package >qml-module-qt-labs-wavefrontmesh< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: qml-module-qt-labs-wavefrontmesh
+[]
+Package-nr:3569 of 11000, Name:qmlscene-dbgsym
+Package >qmlscene< not in package-all.txt file
+Write to package-all.txt file: qmlscene
+In package >qmlscene< are these binaries: ['/usr/lib/qt5/bin/qmlscene', '/usr/lib/x86_64-linux-gnu/qt5/bin/qmlscene']
+Real binaries:['/usr/lib/qt5/bin/qmlscene']
+Write to package-work.txt file: qmlscene
+Write to package-binaries.txt file: ['/usr/lib/qt5/bin/qmlscene']
+['/usr/lib/qt5/bin/qmlscene']

@@ -2350,3 +2350,4 @@ qpdfview
 qhull-bin
 qt5-style-kvantum
 qtdeclarative5-dev-tools
+qmlscene

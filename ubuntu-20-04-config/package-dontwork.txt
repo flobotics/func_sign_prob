@@ -1254,3 +1254,12 @@ qml-module-qt-labs-folderlistmodel
 qtdeclarative5-examples
 qml-module-qtqml-models2
 qml-module-qt-labs-settings
+qml-module-qt-labs-sharedimage
+qml-module-qtquick-layouts
+qml-module-qtquick-particles2
+qml-module-qt-labs-qmlmodels
+qml-module-qtquick-shapes
+qml-module-qtqml-statemachine
+qml-module-qttest
+qml-module-qtquick-window2
+qml-module-qt-labs-wavefrontmesh
