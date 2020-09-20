@@ -20459,3 +20459,13 @@ Real binaries:['/usr/lib/qt5/bin/designer', '/usr/lib/qt5/bin/lconvert', '/usr/l
 Write to package-work.txt file: qttools5-dev-tools
 Write to package-binaries.txt file: ['/usr/lib/qt5/bin/designer', '/usr/lib/qt5/bin/lconvert', '/usr/lib/qt5/bin/linguist', '/usr/lib/qt5/bin/lrelease', '/usr/lib/qt5/bin/lupdate', '/usr/lib/qt5/bin/pixeltool', '/usr/lib/qt5/bin/qcollectiongenerator', '/usr/lib/qt5/bin/qdbusviewer', '/usr/lib/qt5/bin/qdistancefieldgenerator', '/usr/lib/qt5/bin/qtdiag', '/usr/lib/qt5/bin/qtpaths', '/usr/lib/qt5/bin/qtplugininfo']
 ['/usr/lib/qt5/bin/designer', '/usr/lib/qt5/bin/lconvert', '/usr/lib/qt5/bin/linguist', '/usr/lib/qt5/bin/lrelease', '/usr/lib/qt5/bin/lupdate', '/usr/lib/qt5/bin/pixeltool', '/usr/lib/qt5/bin/qcollectiongenerator', '/usr/lib/qt5/bin/qdbusviewer', '/usr/lib/qt5/bin/qdistancefieldgenerator', '/usr/lib/qt5/bin/qtdiag', '/usr/lib/qt5/bin/qtpaths', '/usr/lib/qt5/bin/qtplugininfo']
+Write pickle file
+tar_out:
+Package-nr:3664 of 11000, Name:qdoc-qt5-dbgsym
+Package >qdoc-qt5< not in package-all.txt file
+Write to package-all.txt file: qdoc-qt5
+In package >qdoc-qt5< are these binaries: ['/usr/lib/qt5/bin/qdoc', '/usr/lib/x86_64-linux-gnu/qt5/bin/qdoc']
+Real binaries:['/usr/lib/qt5/bin/qdoc']
+Write to package-work.txt file: qdoc-qt5
+Write to package-binaries.txt file: ['/usr/lib/qt5/bin/qdoc']
+['/usr/lib/qt5/bin/qdoc']

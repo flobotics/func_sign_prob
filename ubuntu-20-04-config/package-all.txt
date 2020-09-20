@@ -3711,3 +3711,4 @@ qrq
 qttools5-examples
 qt5-assistant
 qttools5-dev-tools
+qdoc-qt5
