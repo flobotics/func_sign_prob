@@ -3534,3 +3534,4 @@ caja-share
 caja-xattr-tags
 cvsd
 ccrypt
+cbflib-bin

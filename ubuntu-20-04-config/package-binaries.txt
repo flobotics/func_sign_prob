@@ -6991,3 +6991,8 @@
 /usr/sbin/cvsd
 /usr/bin/ccguess
 /usr/bin/ccrypt
+/usr/bin/cbf2nexus
+/usr/bin/cif2cbf
+/usr/bin/convert_image
+/usr/bin/img2cif
+/usr/bin/makecbf
