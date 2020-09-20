@@ -14811,3 +14811,13 @@ Real binaries:['/usr/bin/ClonalFrameML']
 Write to package-work.txt file: clonalframeml
 Write to package-binaries.txt file: ['/usr/bin/ClonalFrameML']
 ['/usr/bin/ClonalFrameML']
+Write pickle file
+tar_out:
+Package-nr:2993 of 11000, Name:cairo-perf-utils-dbgsym
+Package >cairo-perf-utils< not in package-all.txt file
+Write to package-all.txt file: cairo-perf-utils
+In package >cairo-perf-utils< are these binaries: ['/usr/bin/cairo-analyse-trace', '/usr/bin/cairo-perf-chart', '/usr/bin/cairo-perf-compare-backends', '/usr/bin/cairo-perf-diff-files', '/usr/bin/cairo-perf-micro', '/usr/bin/cairo-perf-print', '/usr/bin/cairo-perf-trace', '/usr/bin/cairo-trace']
+Real binaries:['/usr/bin/cairo-analyse-trace', '/usr/bin/cairo-perf-chart', '/usr/bin/cairo-perf-compare-backends', '/usr/bin/cairo-perf-diff-files', '/usr/bin/cairo-perf-micro', '/usr/bin/cairo-perf-print', '/usr/bin/cairo-perf-trace']
+Write to package-work.txt file: cairo-perf-utils
+Write to package-binaries.txt file: ['/usr/bin/cairo-analyse-trace', '/usr/bin/cairo-perf-chart', '/usr/bin/cairo-perf-compare-backends', '/usr/bin/cairo-perf-diff-files', '/usr/bin/cairo-perf-micro', '/usr/bin/cairo-perf-print', '/usr/bin/cairo-perf-trace']
+['/usr/bin/cairo-analyse-trace', '/usr/bin/cairo-perf-chart', '/usr/bin/cairo-perf-compare-backends', '/usr/bin/cairo-perf-diff-files', '/usr/bin/cairo-perf-micro', '/usr/bin/cairo-perf-print', '/usr/bin/cairo-perf-trace']

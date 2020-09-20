@@ -5965,3 +5965,10 @@
 /usr/bin/cpu-x
 /usr/bin/celluloid
 /usr/bin/ClonalFrameML
+/usr/bin/cairo-analyse-trace
+/usr/bin/cairo-perf-chart
+/usr/bin/cairo-perf-compare-backends
+/usr/bin/cairo-perf-diff-files
+/usr/bin/cairo-perf-micro
+/usr/bin/cairo-perf-print
+/usr/bin/cairo-perf-trace

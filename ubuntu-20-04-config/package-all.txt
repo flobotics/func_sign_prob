@@ -3081,3 +3081,4 @@ cairo-dock-kde-integration-plug-in
 celluloid
 cenon.app
 clonalframeml
+cairo-perf-utils
