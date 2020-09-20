@@ -17430,3 +17430,37 @@ Real binaries:['/usr/bin/cdecl', '/usr/bin/chilight', '/usr/bin/cobfusc', '/usr/
 Write to package-work.txt file: cutils
 Write to package-binaries.txt file: ['/usr/bin/chilight', '/usr/bin/cobfusc', '/usr/bin/cundecl', '/usr/bin/cunloop', '/usr/bin/yyextract', '/usr/bin/yyref']
 ['/usr/bin/chilight', '/usr/bin/cobfusc', '/usr/bin/cundecl', '/usr/bin/cunloop', '/usr/bin/yyextract', '/usr/bin/yyref']
+Write pickle file
+tar_out:
+Package-nr:3304 of 11000, Name:coinor-libflopc++0v5-dbgsym
+Package >coinor-libflopc++0v5< not in package-all.txt file
+Write to package-all.txt file: coinor-libflopc++0v5
+In package >coinor-libflopc++0v5< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: coinor-libflopc++0v5
+[]
+Package-nr:3305 of 11000, Name:coinor-libflopc++-dev-dbgsym
+Package >coinor-libflopc++-dev< not in package-all.txt file
+Write to package-all.txt file: coinor-libflopc++-dev
+In package >coinor-libflopc++-dev< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: coinor-libflopc++-dev
+[]
+Package-nr:3306 of 11000, Name:cinnamon-control-center-goa-dbgsym
+Package >cinnamon-control-center-goa< not in package-all.txt file
+Write to package-all.txt file: cinnamon-control-center-goa
+In package >cinnamon-control-center-goa< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: cinnamon-control-center-goa
+[]
+Package-nr:3307 of 11000, Name:cinnamon-control-center-dbgsym
+Skip package >cinnamon-control-center<, already in package-all.txt file
+[]
+Package-nr:3308 of 11000, Name:capstats-dbgsym
+Package >capstats< not in package-all.txt file
+Write to package-all.txt file: capstats
+In package >capstats< are these binaries: ['/usr/bin/capstats']
+Real binaries:['/usr/bin/capstats']
+Write to package-work.txt file: capstats
+Write to package-binaries.txt file: ['/usr/bin/capstats']
+['/usr/bin/capstats']

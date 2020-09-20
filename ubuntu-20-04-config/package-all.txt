@@ -3371,3 +3371,7 @@ cups-backend-bjnp
 cciss-vol-status
 cohomcalg
 cutils
+coinor-libflopc++0v5
+coinor-libflopc++-dev
+cinnamon-control-center-goa
+capstats

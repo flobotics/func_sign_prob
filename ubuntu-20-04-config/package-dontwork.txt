@@ -1171,3 +1171,6 @@ python3-cysignals-bare
 qml-module-qmltermwidget
 codeblocks-contrib
 cups-backend-bjnp
+coinor-libflopc++0v5
+coinor-libflopc++-dev
+cinnamon-control-center-goa

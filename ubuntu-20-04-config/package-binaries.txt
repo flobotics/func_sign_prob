@@ -6637,3 +6637,4 @@
 /usr/bin/cunloop
 /usr/bin/yyextract
 /usr/bin/yyref
+/usr/bin/capstats
