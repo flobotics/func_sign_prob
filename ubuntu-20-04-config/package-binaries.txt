@@ -6339,3 +6339,4 @@
 /usr/bin/c2050
 /usr/bin/gtk-window-decorator
 /usr/bin/compiz
+/usr/bin/catdvi

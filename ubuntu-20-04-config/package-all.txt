@@ -3202,3 +3202,5 @@ cdftools
 printer-driver-c2050
 compiz-gnome
 compiz-core
+python3-compizconfig
+catdvi
