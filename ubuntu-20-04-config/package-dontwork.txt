@@ -1283,3 +1283,4 @@ python3-pyqt5.qsci
 qml-module-qtgstreamer
 python3-qgis
 qgis-provider-grass
+qgis-providers

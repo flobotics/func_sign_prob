@@ -19996,3 +19996,23 @@ Real binaries:['/usr/lib/cgi-bin/qgis_mapserv.fcgi']
 Write to package-work.txt file: qgis-server
 Write to package-binaries.txt file: ['/usr/lib/cgi-bin/qgis_mapserv.fcgi']
 ['/usr/lib/cgi-bin/qgis_mapserv.fcgi']
+Write pickle file
+tar_out:
+Package-nr:3609 of 11000, Name:qgis-dbgsym
+Skip package >qgis<, already in package-all.txt file
+[]
+Package-nr:3610 of 11000, Name:qgis-providers-dbgsym
+Package >qgis-providers< not in package-all.txt file
+Write to package-all.txt file: qgis-providers
+In package >qgis-providers< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: qgis-providers
+[]
+Package-nr:3611 of 11000, Name:qsynth-dbgsym
+Package >qsynth< not in package-all.txt file
+Write to package-all.txt file: qsynth
+In package >qsynth< are these binaries: ['/usr/bin/qsynth']
+Real binaries:['/usr/bin/qsynth']
+Write to package-work.txt file: qsynth
+Write to package-binaries.txt file: ['/usr/bin/qsynth']
+['/usr/bin/qsynth']
