@@ -2995,3 +2995,4 @@ charliecloud
 crazywa
 cubicsdr
 jsvc
+clamsmtp

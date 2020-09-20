@@ -1985,3 +1985,4 @@ cd-discid
 charliecloud
 cubicsdr
 jsvc
+clamsmtp

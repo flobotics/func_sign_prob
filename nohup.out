@@ -14131,3 +14131,13 @@ Real binaries:['/usr/bin/jsvc']
 Write to package-work.txt file: jsvc
 Write to package-binaries.txt file: ['/usr/bin/jsvc']
 ['/usr/bin/jsvc']
+Write pickle file
+tar_out:
+Package-nr:2903 of 11000, Name:clamsmtp-dbgsym
+Package >clamsmtp< not in package-all.txt file
+Write to package-all.txt file: clamsmtp
+In package >clamsmtp< are these binaries: ['/usr/sbin/clamsmtpd']
+Real binaries:['/usr/sbin/clamsmtpd']
+Write to package-work.txt file: clamsmtp
+Write to package-binaries.txt file: ['/usr/sbin/clamsmtpd']
+['/usr/sbin/clamsmtpd']

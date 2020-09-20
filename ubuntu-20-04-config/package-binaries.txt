@@ -5932,3 +5932,4 @@
 /usr/bin/ch-ssh
 /usr/bin/CubicSDR
 /usr/bin/jsvc
+/usr/sbin/clamsmtpd
