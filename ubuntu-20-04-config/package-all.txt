@@ -3671,3 +3671,4 @@ qfits-tools
 qmc
 quadrapassel
 qjoypad
+qnapi

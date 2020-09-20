@@ -20115,3 +20115,13 @@ Real binaries:['/usr/bin/qjoypad']
 Write to package-work.txt file: qjoypad
 Write to package-binaries.txt file: ['/usr/bin/qjoypad']
 ['/usr/bin/qjoypad']
+Write pickle file
+tar_out:
+Package-nr:3624 of 11000, Name:qnapi-dbgsym
+Package >qnapi< not in package-all.txt file
+Write to package-all.txt file: qnapi
+In package >qnapi< are these binaries: ['/usr/bin/qnapi']
+Real binaries:['/usr/bin/qnapi']
+Write to package-work.txt file: qnapi
+Write to package-binaries.txt file: ['/usr/bin/qnapi']
+['/usr/bin/qnapi']

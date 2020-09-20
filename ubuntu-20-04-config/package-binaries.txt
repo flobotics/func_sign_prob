@@ -7147,3 +7147,4 @@
 /usr/bin/stripfits
 /usr/bin/qmc
 /usr/bin/qjoypad
+/usr/bin/qnapi
