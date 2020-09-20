@@ -18369,3 +18369,13 @@ Real binaries:['/usr/bin/cube2font']
 Write to package-work.txt file: cube2font
 Write to package-binaries.txt file: ['/usr/bin/cube2font']
 ['/usr/bin/cube2font']
+Write pickle file
+tar_out:
+Package-nr:3411 of 11000, Name:ctorrent-dbgsym
+Package >ctorrent< not in package-all.txt file
+Write to package-all.txt file: ctorrent
+In package >ctorrent< are these binaries: ['/usr/bin/ctorrent']
+Real binaries:['/usr/bin/ctorrent']
+Write to package-work.txt file: ctorrent
+Write to package-binaries.txt file: ['/usr/bin/ctorrent']
+['/usr/bin/ctorrent']
