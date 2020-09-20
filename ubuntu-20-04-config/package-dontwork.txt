@@ -1312,3 +1312,6 @@ qml-module-qtpositioning
 qtlocation5-examples
 qml-module-qt-labs-location
 qml-module-org-kde-qqc2desktopstyle
+qtbase5-examples
+qt5-xdgdesktopportal-platformtheme
+qt5-gtk-platformtheme

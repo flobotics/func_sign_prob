@@ -2416,3 +2416,4 @@ qmidiarp
 qstopmotion
 qxgedit
 qtbase5-dev-tools
+qt5-qmake-bin
