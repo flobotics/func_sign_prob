@@ -22475,3 +22475,20 @@ Real binaries:['/usr/bin/xnecview']
 Write to package-work.txt file: xnecview
 Write to package-binaries.txt file: ['/usr/bin/xnecview']
 ['/usr/bin/xnecview']
+Write pickle file
+tar_out:
+Package-nr:3898 of 11000, Name:xdg-dbus-proxy-tests-dbgsym
+Package >xdg-dbus-proxy-tests< not in package-all.txt file
+Write to package-all.txt file: xdg-dbus-proxy-tests
+In package >xdg-dbus-proxy-tests< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: xdg-dbus-proxy-tests
+[]
+Package-nr:3899 of 11000, Name:xemacs21-nomule-dbgsym
+Package >xemacs21-nomule< not in package-all.txt file
+Write to package-all.txt file: xemacs21-nomule
+In package >xemacs21-nomule< are these binaries: ['/usr/bin/xemacs-21.4.24-nomule', '/usr/bin/xemacs21-nomule']
+Real binaries:['/usr/bin/xemacs-21.4.24-nomule']
+Write to package-work.txt file: xemacs21-nomule
+Write to package-binaries.txt file: ['/usr/bin/xemacs-21.4.24-nomule']
+['/usr/bin/xemacs-21.4.24-nomule']

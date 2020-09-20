@@ -7523,3 +7523,4 @@
 /usr/bin/xtail
 /usr/bin/xwatch
 /usr/bin/xnecview
+/usr/bin/xemacs-21.4.24-nomule

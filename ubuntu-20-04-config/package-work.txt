@@ -2556,3 +2556,4 @@ xdx
 xtail
 xwatch
 xnecview
+xemacs21-nomule

@@ -1367,3 +1367,4 @@ xshisen
 xserver-xorg-input-mouse
 xracer
 xgalaga
+xdg-dbus-proxy-tests
