@@ -1364,3 +1364,4 @@ python3-xapian
 xdemineur
 xletters
 xshisen
+xserver-xorg-input-mouse

@@ -3916,3 +3916,5 @@ xcape
 xvfb
 xdmx-tools
 xnest
+xserver-xorg-input-mouse
+xorp
