@@ -1980,3 +1980,4 @@ csmith
 cdbfasta
 codecrypt
 cmake-qt-gui
+cmake-curses-gui

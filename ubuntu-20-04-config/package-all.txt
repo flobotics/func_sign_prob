@@ -2988,3 +2988,4 @@ codecrypt
 cl-sql-mysql
 cl-sql-uffi
 cmake-qt-gui
+cmake-curses-gui
