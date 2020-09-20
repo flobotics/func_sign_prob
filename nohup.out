@@ -17794,3 +17794,13 @@ Real binaries:['/usr/bin/centreon_connector_perl']
 Write to package-work.txt file: centreon-connector-perl
 Write to package-binaries.txt file: ['/usr/bin/centreon_connector_perl']
 ['/usr/bin/centreon_connector_perl']
+Write pickle file
+tar_out:
+Package-nr:3345 of 11000, Name:callisto-dbgsym
+Package >callisto< not in package-all.txt file
+Write to package-all.txt file: callisto
+In package >callisto< are these binaries: ['/usr/bin/callisto-sunschedule', '/usr/sbin/callisto']
+Real binaries:['/usr/sbin/callisto']
+Write to package-work.txt file: callisto
+Write to package-binaries.txt file: ['/usr/sbin/callisto']
+['/usr/sbin/callisto']
