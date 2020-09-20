@@ -2092,3 +2092,4 @@ compiz-gnome
 compiz-core
 catdvi
 ccbuild
+cdtool

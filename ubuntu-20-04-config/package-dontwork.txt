@@ -1108,3 +1108,5 @@ courier-pcp
 caribou
 python3-pbconsensuscore
 python3-compizconfig
+cataclysm-dda-sdl
+cataclysm-dda-curses

@@ -3205,3 +3205,6 @@ compiz-core
 python3-compizconfig
 catdvi
 ccbuild
+cataclysm-dda-sdl
+cataclysm-dda-curses
+cdtool
