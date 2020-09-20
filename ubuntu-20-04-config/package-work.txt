@@ -2405,3 +2405,5 @@ qtattributionsscanner-qt5
 qdbus-qt5
 qhelpgenerator-qt5
 qsstv
+qwertone
+qtcreator

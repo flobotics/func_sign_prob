@@ -7199,3 +7199,5 @@
 /usr/lib/qt5/bin/qtattributionsscanner
 /usr/lib/qt5/bin/qhelpgenerator
 /usr/bin/qsstv
+/usr/bin/qwertone
+/usr/bin/qtcreator

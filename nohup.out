@@ -20514,3 +20514,21 @@ Real binaries:['/usr/bin/qsstv']
 Write to package-work.txt file: qsstv
 Write to package-binaries.txt file: ['/usr/bin/qsstv']
 ['/usr/bin/qsstv']
+Write pickle file
+tar_out:
+Package-nr:3670 of 11000, Name:qwertone-dbgsym
+Package >qwertone< not in package-all.txt file
+Write to package-all.txt file: qwertone
+In package >qwertone< are these binaries: ['/usr/bin/qwertone']
+Real binaries:['/usr/bin/qwertone']
+Write to package-work.txt file: qwertone
+Write to package-binaries.txt file: ['/usr/bin/qwertone']
+['/usr/bin/qwertone']
+Package-nr:3671 of 11000, Name:qtcreator-dbgsym
+Package >qtcreator< not in package-all.txt file
+Write to package-all.txt file: qtcreator
+In package >qtcreator< are these binaries: ['/usr/bin/qtcreator']
+Real binaries:['/usr/bin/qtcreator']
+Write to package-work.txt file: qtcreator
+Write to package-binaries.txt file: ['/usr/bin/qtcreator']
+['/usr/bin/qtcreator']

@@ -3717,3 +3717,5 @@ qdbus-qt5
 qhelpgenerator-qt5
 qrouter
 qsstv
+qwertone
+qtcreator
