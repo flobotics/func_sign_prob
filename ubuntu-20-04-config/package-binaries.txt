@@ -7647,3 +7647,5 @@
 /usr/bin/xfce4-notifyd-config
 /usr/bin/xininfo
 /usr/bin/x86info
+/usr/bin/xdiskusage
+/usr/bin/xdu

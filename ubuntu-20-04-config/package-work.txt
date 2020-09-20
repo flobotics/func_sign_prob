@@ -2591,3 +2591,5 @@ xautomation
 xfce4-notifyd
 xininfo
 x86info
+xdiskusage
+xdu

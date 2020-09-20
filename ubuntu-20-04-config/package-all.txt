@@ -3970,3 +3970,7 @@ xfce4-notifyd
 xininfo
 xmoto
 x86info
+xevil
+xdiskusage
+xboard
+xdu

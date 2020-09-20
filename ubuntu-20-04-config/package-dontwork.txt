@@ -1374,3 +1374,5 @@ xphoon
 xcrysden
 xfrisk
 xmoto
+xevil
+xboard
