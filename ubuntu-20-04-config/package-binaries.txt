@@ -7437,3 +7437,6 @@
 /usr/bin/xnec2c
 /usr/bin/xjadeo
 /usr/bin/xjremote
+/usr/bin/xmacroplay
+/usr/bin/xmacrorec
+/usr/bin/xmacrorec2
