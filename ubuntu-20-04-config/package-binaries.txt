@@ -6612,3 +6612,4 @@
 /usr/bin/ttupdate
 /usr/bin/charmtimetracker
 /usr/bin/ckon
+/usr/bin/cool-retro-term
