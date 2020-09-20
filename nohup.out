@@ -16504,3 +16504,20 @@ Real binaries:['/usr/sbin/clickhouse-server']
 Write to package-work.txt file: clickhouse-server
 Write to package-binaries.txt file: ['/usr/sbin/clickhouse-server']
 ['/usr/sbin/clickhouse-server']
+Write pickle file
+tar_out:
+Package-nr:3199 of 11000, Name:clickhouse-common-dbgsym
+Package >clickhouse-common< not in package-all.txt file
+Write to package-all.txt file: clickhouse-common
+In package >clickhouse-common< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: clickhouse-common
+[]
+Package-nr:3200 of 11000, Name:clickhouse-client-dbgsym
+Package >clickhouse-client< not in package-all.txt file
+Write to package-all.txt file: clickhouse-client
+In package >clickhouse-client< are these binaries: ['/usr/bin/clickhouse-client']
+Real binaries:['/usr/bin/clickhouse-client']
+Write to package-work.txt file: clickhouse-client
+Write to package-binaries.txt file: ['/usr/bin/clickhouse-client']
+['/usr/bin/clickhouse-client']

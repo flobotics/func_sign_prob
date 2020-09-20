@@ -3270,3 +3270,5 @@ chromium-bsu
 conv-tools
 cookietool
 clickhouse-server
+clickhouse-common
+clickhouse-client

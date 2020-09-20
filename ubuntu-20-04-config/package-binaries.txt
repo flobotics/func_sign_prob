@@ -6411,3 +6411,4 @@
 /usr/bin/dirconv
 /usr/bin/mixconv
 /usr/sbin/clickhouse-server
+/usr/bin/clickhouse-client
