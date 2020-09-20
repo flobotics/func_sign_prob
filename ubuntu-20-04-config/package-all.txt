@@ -3277,3 +3277,10 @@ clearcut
 crack-attack
 cfourcc
 cpustat
+gstreamer1.0-crystalhd
+crispy-doom
+cantor-backend-lua
+cantor-backend-maxima
+cantor-backend-qalculate
+cantor-backend-kalgebra
+cantor-backend-r

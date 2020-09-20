@@ -1145,3 +1145,9 @@ chromium-bsu
 cookietool
 clickhouse-common
 crack-attack
+gstreamer1.0-crystalhd
+crispy-doom
+cantor-backend-lua
+cantor-backend-maxima
+cantor-backend-qalculate
+cantor-backend-kalgebra

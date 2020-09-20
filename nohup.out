@@ -16568,3 +16568,55 @@ Real binaries:['/usr/sbin/cpustat']
 Write to package-work.txt file: cpustat
 Write to package-binaries.txt file: ['/usr/sbin/cpustat']
 ['/usr/sbin/cpustat']
+Write pickle file
+tar_out:
+Package-nr:3206 of 11000, Name:gstreamer1.0-crystalhd-dbgsym
+Package >gstreamer1.0-crystalhd< not in package-all.txt file
+Write to package-all.txt file: gstreamer1.0-crystalhd
+In package >gstreamer1.0-crystalhd< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: gstreamer1.0-crystalhd
+[]
+Package-nr:3207 of 11000, Name:crispy-doom-dbgsym
+Package >crispy-doom< not in package-all.txt file
+Write to package-all.txt file: crispy-doom
+In package >crispy-doom< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: crispy-doom
+[]
+Package-nr:3208 of 11000, Name:cantor-backend-lua-dbgsym
+Package >cantor-backend-lua< not in package-all.txt file
+Write to package-all.txt file: cantor-backend-lua
+In package >cantor-backend-lua< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: cantor-backend-lua
+[]
+Package-nr:3209 of 11000, Name:cantor-backend-maxima-dbgsym
+Package >cantor-backend-maxima< not in package-all.txt file
+Write to package-all.txt file: cantor-backend-maxima
+In package >cantor-backend-maxima< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: cantor-backend-maxima
+[]
+Package-nr:3210 of 11000, Name:cantor-backend-qalculate-dbgsym
+Package >cantor-backend-qalculate< not in package-all.txt file
+Write to package-all.txt file: cantor-backend-qalculate
+In package >cantor-backend-qalculate< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: cantor-backend-qalculate
+[]
+Package-nr:3211 of 11000, Name:cantor-backend-kalgebra-dbgsym
+Package >cantor-backend-kalgebra< not in package-all.txt file
+Write to package-all.txt file: cantor-backend-kalgebra
+In package >cantor-backend-kalgebra< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: cantor-backend-kalgebra
+[]
+Package-nr:3212 of 11000, Name:cantor-backend-r-dbgsym
+Package >cantor-backend-r< not in package-all.txt file
+Write to package-all.txt file: cantor-backend-r
+In package >cantor-backend-r< are these binaries: ['/usr/bin/cantor_rserver']
+Real binaries:['/usr/bin/cantor_rserver']
+Write to package-work.txt file: cantor-backend-r
+Write to package-binaries.txt file: ['/usr/bin/cantor_rserver']
+['/usr/bin/cantor_rserver']

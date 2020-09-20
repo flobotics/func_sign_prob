@@ -6420,3 +6420,4 @@
 /usr/bin/clearcut
 /usr/bin/cfourcc
 /usr/sbin/cpustat
+/usr/bin/cantor_rserver
