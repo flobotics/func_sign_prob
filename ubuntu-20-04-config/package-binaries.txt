@@ -7215,3 +7215,4 @@
 /usr/bin/qthid-2.2
 /usr/bin/qmidiarp
 /usr/bin/qstopmotion
+/usr/bin/qxgedit
