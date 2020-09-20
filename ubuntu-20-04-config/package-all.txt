@@ -3553,3 +3553,5 @@ qmidiroute
 qutemol
 qspeakers
 qjackrcd
+qml-module-org-nemomobile-mpris
+qtwayland5-dev-tools

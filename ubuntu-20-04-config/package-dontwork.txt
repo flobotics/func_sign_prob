@@ -1221,3 +1221,4 @@ qml-module-qtbluetooth
 qtconnectivity5-examples
 quantlib-python
 qtads
+qml-module-org-nemomobile-mpris

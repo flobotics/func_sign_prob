@@ -2327,3 +2327,4 @@ qmidiroute
 qutemol
 qspeakers
 qjackrcd
+qtwayland5-dev-tools

@@ -19122,3 +19122,20 @@ Real binaries:['/usr/bin/qjackrcd']
 Write to package-work.txt file: qjackrcd
 Write to package-binaries.txt file: ['/usr/bin/qjackrcd']
 ['/usr/bin/qjackrcd']
+Write pickle file
+tar_out:
+Package-nr:3498 of 11000, Name:qml-module-org-nemomobile-mpris-dbgsym
+Package >qml-module-org-nemomobile-mpris< not in package-all.txt file
+Write to package-all.txt file: qml-module-org-nemomobile-mpris
+In package >qml-module-org-nemomobile-mpris< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: qml-module-org-nemomobile-mpris
+[]
+Package-nr:3499 of 11000, Name:qtwayland5-dev-tools-dbgsym
+Package >qtwayland5-dev-tools< not in package-all.txt file
+Write to package-all.txt file: qtwayland5-dev-tools
+In package >qtwayland5-dev-tools< are these binaries: ['/usr/lib/qt5/bin/qtwaylandscanner', '/usr/lib/x86_64-linux-gnu/qt5/bin/qtwaylandscanner']
+Real binaries:['/usr/lib/qt5/bin/qtwaylandscanner']
+Write to package-work.txt file: qtwayland5-dev-tools
+Write to package-binaries.txt file: ['/usr/lib/qt5/bin/qtwaylandscanner']
+['/usr/lib/qt5/bin/qtwaylandscanner']

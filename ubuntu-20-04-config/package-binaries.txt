@@ -7003,3 +7003,4 @@
 /usr/bin/qutemol
 /usr/bin/qspeakers
 /usr/bin/qjackrcd
+/usr/lib/qt5/bin/qtwaylandscanner
