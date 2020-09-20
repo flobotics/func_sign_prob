@@ -2950,3 +2950,5 @@ idzebra-2.0-utils
 icheck
 i810switch
 iptux
+ioquake3-server
+icon-slicer
