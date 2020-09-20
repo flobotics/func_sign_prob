@@ -3399,3 +3399,5 @@ clog
 clearsilver-dev
 python3-compreffor
 cachefilesd
+r-cran-cairodevice
+cmatrix

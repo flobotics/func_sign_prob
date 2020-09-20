@@ -1178,3 +1178,4 @@ colobot
 python3-workqueue
 centrifuge
 python3-compreffor
+r-cran-cairodevice

@@ -6709,3 +6709,4 @@
 /usr/bin/clog
 /usr/bin/cstest
 /sbin/cachefilesd
+/usr/bin/cmatrix
