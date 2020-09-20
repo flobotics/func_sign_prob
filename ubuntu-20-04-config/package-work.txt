@@ -2363,3 +2363,4 @@ qt5ct
 qtscrob
 scrobbler
 qwinff
+qstat

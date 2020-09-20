@@ -7069,3 +7069,4 @@
 /usr/bin/qtscrob
 /usr/bin/scrobbler
 /usr/bin/qwinff
+/usr/bin/quakestat
