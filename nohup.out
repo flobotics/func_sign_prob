@@ -19875,3 +19875,13 @@ Real binaries:['/usr/bin/quakestat']
 Write to package-work.txt file: qstat
 Write to package-binaries.txt file: ['/usr/bin/quakestat']
 ['/usr/bin/quakestat']
+Write pickle file
+tar_out:
+Package-nr:3594 of 11000, Name:qviaggiatreno-dbgsym
+Package >qviaggiatreno< not in package-all.txt file
+Write to package-all.txt file: qviaggiatreno
+In package >qviaggiatreno< are these binaries: ['/usr/bin/qviaggiatreno']
+Real binaries:['/usr/bin/qviaggiatreno']
+Write to package-work.txt file: qviaggiatreno
+Write to package-binaries.txt file: ['/usr/bin/qviaggiatreno']
+['/usr/bin/qviaggiatreno']

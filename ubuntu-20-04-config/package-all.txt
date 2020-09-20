@@ -3643,3 +3643,4 @@ qtsensors5-examples
 qml-module-qtsensors
 qwinff
 qstat
+qviaggiatreno

@@ -2364,3 +2364,4 @@ qtscrob
 scrobbler
 qwinff
 qstat
+qviaggiatreno

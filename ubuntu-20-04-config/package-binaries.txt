@@ -7070,3 +7070,4 @@
 /usr/bin/scrobbler
 /usr/bin/qwinff
 /usr/bin/quakestat
+/usr/bin/qviaggiatreno
