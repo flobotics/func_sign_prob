@@ -2651,3 +2651,4 @@ vym
 verbiste-gtk
 vmfs6-tools
 vbetool
+vdesk

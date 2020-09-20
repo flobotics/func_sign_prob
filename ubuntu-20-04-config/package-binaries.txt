@@ -7743,3 +7743,4 @@
 /usr/sbin/vmfs6-fuse
 /usr/sbin/vmfs6-lvm
 /usr/sbin/vbetool
+/usr/bin/vdesk
