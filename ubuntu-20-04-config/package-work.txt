@@ -1938,3 +1938,4 @@ ifuse
 idesk
 imx-usb-loader
 iftop
+icewm

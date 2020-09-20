@@ -5851,3 +5851,10 @@
 /usr/bin/imx_uart
 /usr/bin/imx_usb
 /usr/sbin/iftop
+/usr/bin/icehelp
+/usr/bin/icesh
+/usr/bin/icesound
+/usr/bin/icewm
+/usr/bin/icewm-session
+/usr/bin/icewmbg
+/usr/bin/icewmhint

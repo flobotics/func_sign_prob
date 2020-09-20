@@ -2931,3 +2931,4 @@ intel-media-va-driver
 indicator-datetime
 postgresql-12-icu-ext
 iftop
+icewm
