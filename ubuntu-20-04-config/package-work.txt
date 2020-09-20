@@ -2270,3 +2270,4 @@ cantata
 chordii
 convlit
 chezscheme9.5
+chaosread
