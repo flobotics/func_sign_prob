@@ -15912,3 +15912,13 @@ Real binaries:['/usr/bin/gtk-window-decorator']
 Write to package-work.txt file: compiz-gnome
 Write to package-binaries.txt file: ['/usr/bin/gtk-window-decorator']
 ['/usr/bin/gtk-window-decorator']
+Write pickle file
+tar_out:
+Package-nr:3126 of 11000, Name:compiz-core-dbgsym
+Package >compiz-core< not in package-all.txt file
+Write to package-all.txt file: compiz-core
+In package >compiz-core< are these binaries: ['/usr/bin/compiz', '/usr/bin/compiz-decorator']
+Real binaries:['/usr/bin/compiz']
+Write to package-work.txt file: compiz-core
+Write to package-binaries.txt file: ['/usr/bin/compiz']
+['/usr/bin/compiz']
