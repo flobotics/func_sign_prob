@@ -3369,3 +3369,4 @@ covered
 concalc
 cups-backend-bjnp
 cciss-vol-status
+cohomcalg

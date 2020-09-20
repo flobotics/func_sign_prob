@@ -6630,3 +6630,4 @@
 /usr/bin/covered
 /usr/bin/concalc
 /usr/bin/cciss_vol_status
+/usr/bin/cohomcalg
