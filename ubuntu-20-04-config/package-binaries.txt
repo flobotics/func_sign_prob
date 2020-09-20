@@ -7626,3 +7626,4 @@
 /usr/sbin/rtcanconfig
 /usr/sbin/rtps
 /usr/bin/xbuffy
+/usr/bin/xkbset

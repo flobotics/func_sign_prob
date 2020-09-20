@@ -3955,3 +3955,4 @@ xphoon
 xfe
 xenomai-system-tools
 xbuffy
+xkbset

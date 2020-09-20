@@ -2579,3 +2579,4 @@ xrestop
 xfe
 xenomai-system-tools
 xbuffy
+xkbset
