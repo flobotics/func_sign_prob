@@ -21867,3 +21867,13 @@ Real binaries:['/usr/bin/xpp']
 Write to package-work.txt file: xpp
 Write to package-binaries.txt file: ['/usr/bin/xpp']
 ['/usr/bin/xpp']
+Write pickle file
+tar_out:
+Package-nr:3826 of 11000, Name:xyscan-dbgsym
+Package >xyscan< not in package-all.txt file
+Write to package-all.txt file: xyscan
+In package >xyscan< are these binaries: ['/usr/bin/xyscan']
+Real binaries:['/usr/bin/xyscan']
+Write to package-work.txt file: xyscan
+Write to package-binaries.txt file: ['/usr/bin/xyscan']
+['/usr/bin/xyscan']

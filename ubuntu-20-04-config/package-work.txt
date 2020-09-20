@@ -2510,3 +2510,4 @@ xxkb
 xtide
 xcompmgr
 xpp
+xyscan

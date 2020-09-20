@@ -7404,3 +7404,4 @@
 /usr/sbin/xttpd
 /usr/bin/xcompmgr
 /usr/bin/xpp
+/usr/bin/xyscan
