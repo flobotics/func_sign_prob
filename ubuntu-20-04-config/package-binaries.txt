@@ -7630,3 +7630,4 @@
 /usr/bin/xarclock
 /usr/bin/xrootconsole
 /usr/bin/xfce4-dict
+/usr/bin/xwax
