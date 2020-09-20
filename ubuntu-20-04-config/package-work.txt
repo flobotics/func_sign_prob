@@ -2206,3 +2206,4 @@ colmap
 cramfsswap
 coop-computing-tools
 concordance
+cervisia
