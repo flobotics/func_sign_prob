@@ -16920,3 +16920,13 @@ Real binaries:['/usr/bin/icedax']
 Write to package-work.txt file: icedax
 Write to package-binaries.txt file: ['/usr/bin/icedax']
 ['/usr/bin/icedax']
+Write pickle file
+tar_out:
+Package-nr:3247 of 11000, Name:wodim-dbgsym
+Package >wodim< not in package-all.txt file
+Write to package-all.txt file: wodim
+In package >wodim< are these binaries: ['/usr/bin/readom', '/usr/bin/wodim', '/usr/sbin/netscsid', '/usr/bin/cdrecord']
+Real binaries:['/usr/bin/readom', '/usr/bin/wodim', '/usr/sbin/netscsid']
+Write to package-work.txt file: wodim
+Write to package-binaries.txt file: ['/usr/bin/readom', '/usr/bin/wodim', '/usr/sbin/netscsid']
+['/usr/bin/readom', '/usr/bin/wodim', '/usr/sbin/netscsid']

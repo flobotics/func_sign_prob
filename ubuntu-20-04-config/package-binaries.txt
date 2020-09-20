@@ -6475,3 +6475,6 @@
 /usr/bin/chkconc
 /usr/bin/cshost
 /usr/bin/icedax
+/usr/bin/readom
+/usr/bin/wodim
+/usr/sbin/netscsid
