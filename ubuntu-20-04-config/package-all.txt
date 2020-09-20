@@ -3378,3 +3378,5 @@ capstats
 cloudcompare
 colobot
 cd5
+cp2k
+cuetools

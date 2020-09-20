@@ -17491,3 +17491,21 @@ Real binaries:['/usr/bin/cd5']
 Write to package-work.txt file: cd5
 Write to package-binaries.txt file: ['/usr/bin/cd5']
 ['/usr/bin/cd5']
+Write pickle file
+tar_out:
+Package-nr:3312 of 11000, Name:cp2k-dbgsym
+Package >cp2k< not in package-all.txt file
+Write to package-all.txt file: cp2k
+In package >cp2k< are these binaries: ['/usr/bin/cp2k.popt', '/usr/bin/cp2k_shell.popt', '/usr/bin/cp2k', '/usr/bin/cp2k_shell']
+Real binaries:['/usr/bin/cp2k.popt', '/usr/bin/cp2k_shell.popt']
+Write to package-work.txt file: cp2k
+Write to package-binaries.txt file: ['/usr/bin/cp2k.popt', '/usr/bin/cp2k_shell.popt']
+['/usr/bin/cp2k.popt', '/usr/bin/cp2k_shell.popt']
+Package-nr:3313 of 11000, Name:cuetools-dbgsym
+Package >cuetools< not in package-all.txt file
+Write to package-all.txt file: cuetools
+In package >cuetools< are these binaries: ['/usr/bin/cuebreakpoints', '/usr/bin/cueconvert', '/usr/bin/cueprint', '/usr/bin/cuetag']
+Real binaries:['/usr/bin/cuebreakpoints', '/usr/bin/cueconvert', '/usr/bin/cueprint']
+Write to package-work.txt file: cuetools
+Write to package-binaries.txt file: ['/usr/bin/cuebreakpoints', '/usr/bin/cueconvert', '/usr/bin/cueprint']
+['/usr/bin/cuebreakpoints', '/usr/bin/cueconvert', '/usr/bin/cueprint']

@@ -6641,3 +6641,8 @@
 /usr/bin/CloudCompare
 /usr/bin/ccViewer
 /usr/bin/cd5
+/usr/bin/cp2k.popt
+/usr/bin/cp2k_shell.popt
+/usr/bin/cuebreakpoints
+/usr/bin/cueconvert
+/usr/bin/cueprint

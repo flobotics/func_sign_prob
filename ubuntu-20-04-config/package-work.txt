@@ -2198,3 +2198,5 @@ cutils
 capstats
 cloudcompare
 cd5
+cp2k
+cuetools
