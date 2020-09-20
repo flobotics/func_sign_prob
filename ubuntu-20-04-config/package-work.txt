@@ -2558,3 +2558,4 @@ xwatch
 xnecview
 xemacs21-nomule
 xemacs21-bin
+xemacs21-mule-canna-wnn

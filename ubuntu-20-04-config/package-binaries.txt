@@ -7528,3 +7528,4 @@
 /usr/bin/ellcc.xemacs21
 /usr/bin/etags.xemacs21
 /usr/bin/gnuclient.xemacs21
+/usr/bin/xemacs-21.4.24-mule-canna-wnn
