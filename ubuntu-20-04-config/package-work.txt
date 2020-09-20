@@ -2490,3 +2490,5 @@ xprobe
 xosd-bin
 xboxdrv
 xneur
+xbs
+xautolock

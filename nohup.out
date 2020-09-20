@@ -21611,3 +21611,28 @@ Real binaries:['/usr/bin/xneur']
 Write to package-work.txt file: xneur
 Write to package-binaries.txt file: ['/usr/bin/xneur']
 ['/usr/bin/xneur']
+Write pickle file
+tar_out:
+Package-nr:3796 of 11000, Name:xteddy-dbgsym
+Package >xteddy< not in package-all.txt file
+Write to package-all.txt file: xteddy
+In package >xteddy< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: xteddy
+[]
+Package-nr:3797 of 11000, Name:xbs-dbgsym
+Package >xbs< not in package-all.txt file
+Write to package-all.txt file: xbs
+In package >xbs< are these binaries: ['/usr/bin/xbs']
+Real binaries:['/usr/bin/xbs']
+Write to package-work.txt file: xbs
+Write to package-binaries.txt file: ['/usr/bin/xbs']
+['/usr/bin/xbs']
+Package-nr:3798 of 11000, Name:xautolock-dbgsym
+Package >xautolock< not in package-all.txt file
+Write to package-all.txt file: xautolock
+In package >xautolock< are these binaries: ['/usr/bin/xautolock']
+Real binaries:['/usr/bin/xautolock']
+Write to package-work.txt file: xautolock
+Write to package-binaries.txt file: ['/usr/bin/xautolock']
+['/usr/bin/xautolock']

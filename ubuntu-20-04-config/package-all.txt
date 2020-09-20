@@ -3835,3 +3835,6 @@ xprobe
 xosd-bin
 xboxdrv
 xneur
+xteddy
+xbs
+xautolock

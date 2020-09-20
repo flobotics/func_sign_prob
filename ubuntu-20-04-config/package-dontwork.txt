@@ -1340,3 +1340,4 @@ xotcl
 xonix
 hexchat-indicator
 xdg-desktop-portal-kde
+xteddy
