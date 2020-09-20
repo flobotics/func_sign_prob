@@ -7158,3 +7158,5 @@
 /usr/bin/qbs-setup-android
 /usr/bin/qbs-setup-qt
 /usr/bin/qbs-setup-toolchains
+/usr/lib/qt5/bin/Player
+/usr/lib/qt5/bin/QMLPlayer

@@ -20165,3 +20165,27 @@ Real binaries:['/usr/bin/qbs', '/usr/bin/qbs-config', '/usr/bin/qbs-config-ui', 
 Write to package-work.txt file: qbs
 Write to package-binaries.txt file: ['/usr/bin/qbs', '/usr/bin/qbs-config', '/usr/bin/qbs-config-ui', '/usr/bin/qbs-create-project', '/usr/bin/qbs-setup-android', '/usr/bin/qbs-setup-qt', '/usr/bin/qbs-setup-toolchains']
 ['/usr/bin/qbs', '/usr/bin/qbs-config', '/usr/bin/qbs-config-ui', '/usr/bin/qbs-create-project', '/usr/bin/qbs-setup-android', '/usr/bin/qbs-setup-qt', '/usr/bin/qbs-setup-toolchains']
+Write pickle file
+tar_out:
+Package-nr:3629 of 11000, Name:quarry-dbgsym
+Package >quarry< not in package-all.txt file
+Write to package-all.txt file: quarry
+In package >quarry< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: quarry
+[]
+Package-nr:3630 of 11000, Name:qml-module-qtav-dbgsym
+Package >qml-module-qtav< not in package-all.txt file
+Write to package-all.txt file: qml-module-qtav
+In package >qml-module-qtav< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: qml-module-qtav
+[]
+Package-nr:3631 of 11000, Name:qtav-players-dbgsym
+Package >qtav-players< not in package-all.txt file
+Write to package-all.txt file: qtav-players
+In package >qtav-players< are these binaries: ['/usr/lib/qt5/bin/Player', '/usr/lib/qt5/bin/QMLPlayer', '/usr/bin/Player', '/usr/bin/QMLPlayer']
+Real binaries:['/usr/lib/qt5/bin/Player', '/usr/lib/qt5/bin/QMLPlayer']
+Write to package-work.txt file: qtav-players
+Write to package-binaries.txt file: ['/usr/lib/qt5/bin/Player', '/usr/lib/qt5/bin/QMLPlayer']
+['/usr/lib/qt5/bin/Player', '/usr/lib/qt5/bin/QMLPlayer']

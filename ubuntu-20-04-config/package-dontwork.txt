@@ -1288,3 +1288,5 @@ qtscript5-examples
 qtsvg5-examples
 quakespasm
 quadrapassel
+quarry
+qml-module-qtav

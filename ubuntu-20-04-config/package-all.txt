@@ -3676,3 +3676,6 @@ qsampler
 qmmp
 qrencode
 qbs
+quarry
+qml-module-qtav
+qtav-players
