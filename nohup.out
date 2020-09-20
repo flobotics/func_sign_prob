@@ -20953,3 +20953,13 @@ Real binaries:['/usr/bin/xplanet']
 Write to package-work.txt file: xplanet
 Write to package-binaries.txt file: ['/usr/bin/xplanet']
 ['/usr/bin/xplanet']
+Write pickle file
+tar_out:
+Package-nr:3719 of 11000, Name:x2gothinclient-cdmanager-dbgsym
+Package >x2gothinclient-cdmanager< not in package-all.txt file
+Write to package-all.txt file: x2gothinclient-cdmanager
+In package >x2gothinclient-cdmanager< are these binaries: ['/usr/bin/x2goejectcd', '/usr/sbin/x2gocdmanager']
+Real binaries:['/usr/bin/x2goejectcd']
+Write to package-work.txt file: x2gothinclient-cdmanager
+Write to package-binaries.txt file: ['/usr/bin/x2goejectcd']
+['/usr/bin/x2goejectcd']

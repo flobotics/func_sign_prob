@@ -7293,3 +7293,4 @@
 /usr/bin/xfdashboard
 /usr/bin/xfdashboard-settings
 /usr/bin/xplanet
+/usr/bin/x2goejectcd

@@ -3765,3 +3765,4 @@ xcftools
 xiccd
 xfdashboard
 xplanet
+x2gothinclient-cdmanager
