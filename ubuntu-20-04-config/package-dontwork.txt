@@ -1105,3 +1105,4 @@ cackey
 courier-webadmin
 courier-pop
 courier-pcp
+caribou

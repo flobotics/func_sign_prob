@@ -15802,3 +15802,20 @@ Real binaries:['/usr/bin/ccls']
 Write to package-work.txt file: ccls
 Write to package-binaries.txt file: ['/usr/bin/ccls']
 ['/usr/bin/ccls']
+Write pickle file
+tar_out:
+Package-nr:3114 of 11000, Name:caribou-dbgsym
+Package >caribou< not in package-all.txt file
+Write to package-all.txt file: caribou
+In package >caribou< are these binaries: ['/usr/bin/caribou-preferences']
+Real binaries:[]
+Write to package-dontwork.txt file: caribou
+[]
+Package-nr:3115 of 11000, Name:csv2latex-dbgsym
+Package >csv2latex< not in package-all.txt file
+Write to package-all.txt file: csv2latex
+In package >csv2latex< are these binaries: ['/usr/bin/csv2latex']
+Real binaries:['/usr/bin/csv2latex']
+Write to package-work.txt file: csv2latex
+Write to package-binaries.txt file: ['/usr/bin/csv2latex']
+['/usr/bin/csv2latex']

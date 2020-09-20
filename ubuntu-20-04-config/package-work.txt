@@ -2079,3 +2079,4 @@ courier-base
 courier-mlm
 courier-ldap
 ccls
+csv2latex

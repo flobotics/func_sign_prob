@@ -3189,3 +3189,5 @@ courier-base
 courier-mlm
 courier-ldap
 ccls
+caribou
+csv2latex

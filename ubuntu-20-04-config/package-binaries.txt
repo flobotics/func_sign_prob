@@ -6187,3 +6187,4 @@
 /usr/bin/webmlmd
 /usr/sbin/courierldapaliasd
 /usr/bin/ccls
+/usr/bin/csv2latex
