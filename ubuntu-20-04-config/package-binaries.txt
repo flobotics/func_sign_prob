@@ -5944,3 +5944,4 @@
 /usr/bin/cstream
 /usr/bin/warg
 /usr/bin/calcurse
+/usr/bin/casync

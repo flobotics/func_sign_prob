@@ -1996,3 +1996,4 @@ codelite
 cstream
 clonalorigin
 calcurse
+casync

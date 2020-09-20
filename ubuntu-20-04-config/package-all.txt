@@ -3011,3 +3011,5 @@ conda-package-handling
 cstream
 clonalorigin
 calcurse
+python3-cracklib
+casync
