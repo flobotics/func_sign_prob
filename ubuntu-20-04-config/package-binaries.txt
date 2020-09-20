@@ -6764,3 +6764,4 @@
 /usr/lib/canu/bin/trimReads
 /usr/lib/canu/bin/utgcns
 /usr/lib/canu/bin/wtdbgConvert
+/usr/bin/complexity

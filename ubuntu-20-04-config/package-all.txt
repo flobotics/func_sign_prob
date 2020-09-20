@@ -3405,3 +3405,4 @@ clutter-1.0-tests
 cpufreqd
 cinnamon-screensaver
 canu
+complexity
