@@ -1382,3 +1382,4 @@ xpuzzles
 xmpuzzles
 xflip
 xskat
+xserver-xorg-video-openchrome

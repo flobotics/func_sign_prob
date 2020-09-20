@@ -3991,3 +3991,5 @@ xfconf
 xygrib
 xwrits
 openchrome-tool
+xserver-xorg-video-openchrome
+xcwd
