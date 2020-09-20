@@ -15364,3 +15364,23 @@ Real binaries:['/usr/bin/cif_list_tags', '/usr/bin/cifparse', '/usr/bin/cifvalue
 Write to package-work.txt file: cod-tools
 Write to package-binaries.txt file: ['/usr/bin/cif_list_tags', '/usr/bin/cifparse', '/usr/bin/cifvalues']
 ['/usr/bin/cif_list_tags', '/usr/bin/cifparse', '/usr/bin/cifvalues']
+Write pickle file
+tar_out:
+Package-nr:3060 of 11000, Name:python3-pycodcif-dbgsym
+Package >python3-pycodcif< not in package-all.txt file
+Write to package-all.txt file: python3-pycodcif
+In package >python3-pycodcif< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: python3-pycodcif
+[]
+Package-nr:3061 of 11000, Name:calc-dbgsym
+Skip package >calc<, already in package-all.txt file
+[]
+Package-nr:3062 of 11000, Name:cubemap-dbgsym
+Package >cubemap< not in package-all.txt file
+Write to package-all.txt file: cubemap
+In package >cubemap< are these binaries: ['/usr/bin/cubemap']
+Real binaries:['/usr/bin/cubemap']
+Write to package-work.txt file: cubemap
+Write to package-binaries.txt file: ['/usr/bin/cubemap']
+['/usr/bin/cubemap']

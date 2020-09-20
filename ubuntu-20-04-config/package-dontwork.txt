@@ -1084,3 +1084,4 @@ courier-authlib-postgresql
 courier-authlib-mysql
 chasen-dictutils
 cgit
+python3-pycodcif

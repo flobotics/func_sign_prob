@@ -3140,3 +3140,5 @@ cbm
 chasen-dictutils
 cgit
 cod-tools
+python3-pycodcif
+cubemap

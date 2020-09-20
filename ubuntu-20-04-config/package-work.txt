@@ -2051,3 +2051,4 @@ cdde
 cpulimit
 cbm
 cod-tools
+cubemap
