@@ -18507,3 +18507,13 @@ Real binaries:['/usr/bin/care']
 Write to package-work.txt file: care
 Write to package-binaries.txt file: ['/usr/bin/care']
 ['/usr/bin/care']
+Write pickle file
+tar_out:
+Package-nr:3426 of 11000, Name:cheesecutter-dbgsym
+Package >cheesecutter< not in package-all.txt file
+Write to package-all.txt file: cheesecutter
+In package >cheesecutter< are these binaries: ['/usr/bin/ccutter', '/usr/bin/ct2util']
+Real binaries:['/usr/bin/ccutter', '/usr/bin/ct2util']
+Write to package-work.txt file: cheesecutter
+Write to package-binaries.txt file: ['/usr/bin/ccutter', '/usr/bin/ct2util']
+['/usr/bin/ccutter', '/usr/bin/ct2util']

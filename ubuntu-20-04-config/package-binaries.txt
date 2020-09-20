@@ -6887,3 +6887,5 @@
 /usr/bin/tomf
 /usr/bin/writems
 /usr/bin/care
+/usr/bin/ccutter
+/usr/bin/ct2util
