@@ -15585,3 +15585,65 @@ Real binaries:['/usr/bin/clipit']
 Write to package-work.txt file: clipit
 Write to package-binaries.txt file: ['/usr/bin/clipit']
 ['/usr/bin/clipit']
+Write pickle file
+tar_out:
+Package-nr:3087 of 11000, Name:clisp-module-clx-dbgsym
+Package >clisp-module-clx< not in package-all.txt file
+Write to package-all.txt file: clisp-module-clx
+In package >clisp-module-clx< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: clisp-module-clx
+[]
+Package-nr:3088 of 11000, Name:clisp-dbgsym
+Skip package >clisp<, already in package-all.txt file
+[]
+Package-nr:3089 of 11000, Name:clisp-module-zlib-dbgsym
+Package >clisp-module-zlib< not in package-all.txt file
+Write to package-all.txt file: clisp-module-zlib
+In package >clisp-module-zlib< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: clisp-module-zlib
+[]
+Package-nr:3090 of 11000, Name:clisp-module-postgresql-dbgsym
+Package >clisp-module-postgresql< not in package-all.txt file
+Write to package-all.txt file: clisp-module-postgresql
+In package >clisp-module-postgresql< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: clisp-module-postgresql
+[]
+Package-nr:3091 of 11000, Name:clisp-module-pcre-dbgsym
+Package >clisp-module-pcre< not in package-all.txt file
+Write to package-all.txt file: clisp-module-pcre
+In package >clisp-module-pcre< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: clisp-module-pcre
+[]
+Package-nr:3092 of 11000, Name:clisp-module-gdbm-dbgsym
+Package >clisp-module-gdbm< not in package-all.txt file
+Write to package-all.txt file: clisp-module-gdbm
+In package >clisp-module-gdbm< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: clisp-module-gdbm
+[]
+Package-nr:3093 of 11000, Name:clisp-module-berkeley-db-dbgsym
+Package >clisp-module-berkeley-db< not in package-all.txt file
+Write to package-all.txt file: clisp-module-berkeley-db
+In package >clisp-module-berkeley-db< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: clisp-module-berkeley-db
+[]
+Package-nr:3094 of 11000, Name:clisp-module-dbus-dbgsym
+Package >clisp-module-dbus< not in package-all.txt file
+Write to package-all.txt file: clisp-module-dbus
+In package >clisp-module-dbus< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: clisp-module-dbus
+[]
+Package-nr:3095 of 11000, Name:csound-utils-dbgsym
+Package >csound-utils< not in package-all.txt file
+Write to package-all.txt file: csound-utils
+In package >csound-utils< are these binaries: ['/usr/bin/atsa', '/usr/bin/csanalyze', '/usr/bin/csb64enc', '/usr/bin/csound_extract', '/usr/bin/cvanal', '/usr/bin/dnoise', '/usr/bin/envext', '/usr/bin/extractor', '/usr/bin/het_export', '/usr/bin/het_import', '/usr/bin/hetro', '/usr/bin/lpanal', '/usr/bin/lpc_export', '/usr/bin/lpc_import', '/usr/bin/makecsd', '/usr/bin/mixer', '/usr/bin/pv_export', '/usr/bin/pv_import', '/usr/bin/pvanal', '/usr/bin/pvlook', '/usr/bin/scale', '/usr/bin/scot', '/usr/bin/scsort', '/usr/bin/sdif2ad', '/usr/bin/sndinfo', '/usr/bin/src_conv', '/usr/bin/srconv']
+Real binaries:['/usr/bin/atsa', '/usr/bin/csanalyze', '/usr/bin/csb64enc', '/usr/bin/csound_extract', '/usr/bin/cvanal', '/usr/bin/dnoise', '/usr/bin/envext', '/usr/bin/extractor', '/usr/bin/het_export', '/usr/bin/het_import', '/usr/bin/hetro', '/usr/bin/lpanal', '/usr/bin/lpc_export', '/usr/bin/lpc_import', '/usr/bin/makecsd', '/usr/bin/mixer', '/usr/bin/pv_export', '/usr/bin/pv_import', '/usr/bin/pvanal', '/usr/bin/pvlook', '/usr/bin/scale', '/usr/bin/scot', '/usr/bin/scsort', '/usr/bin/sdif2ad', '/usr/bin/sndinfo', '/usr/bin/src_conv', '/usr/bin/srconv']
+Write to package-work.txt file: csound-utils
+Write to package-binaries.txt file: ['/usr/bin/atsa', '/usr/bin/csanalyze', '/usr/bin/csb64enc', '/usr/bin/csound_extract', '/usr/bin/cvanal', '/usr/bin/dnoise', '/usr/bin/envext', '/usr/bin/extractor', '/usr/bin/het_export', '/usr/bin/het_import', '/usr/bin/hetro', '/usr/bin/lpanal', '/usr/bin/lpc_export', '/usr/bin/lpc_import', '/usr/bin/makecsd', '/usr/bin/mixer', '/usr/bin/pv_export', '/usr/bin/pv_import', '/usr/bin/pvanal', '/usr/bin/pvlook', '/usr/bin/scale', '/usr/bin/scot', '/usr/bin/scsort', '/usr/bin/sdif2ad', '/usr/bin/sndinfo', '/usr/bin/src_conv', '/usr/bin/srconv']
+['/usr/bin/atsa', '/usr/bin/csanalyze', '/usr/bin/csb64enc', '/usr/bin/csound_extract', '/usr/bin/cvanal', '/usr/bin/dnoise', '/usr/bin/envext', '/usr/bin/extractor', '/usr/bin/het_export', '/usr/bin/het_import', '/usr/bin/hetro', '/usr/bin/lpanal', '/usr/bin/lpc_export', '/usr/bin/lpc_import', '/usr/bin/makecsd', '/usr/bin/mixer', '/usr/bin/pv_export', '/usr/bin/pv_import', '/usr/bin/pvanal', '/usr/bin/pvlook', '/usr/bin/scale', '/usr/bin/scot', '/usr/bin/scsort', '/usr/bin/sdif2ad', '/usr/bin/sndinfo', '/usr/bin/src_conv', '/usr/bin/srconv']

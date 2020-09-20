@@ -2067,3 +2067,4 @@ caja-seahorse
 cricket
 cldump
 clipit
+csound-utils

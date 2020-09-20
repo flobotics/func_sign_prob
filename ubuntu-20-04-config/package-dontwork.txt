@@ -1092,3 +1092,10 @@ python3-cu2qu
 chessx
 python-cheetah
 python3-cheetah
+clisp-module-clx
+clisp-module-zlib
+clisp-module-postgresql
+clisp-module-pcre
+clisp-module-gdbm
+clisp-module-berkeley-db
+clisp-module-dbus
