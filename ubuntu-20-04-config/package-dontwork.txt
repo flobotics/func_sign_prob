@@ -1327,3 +1327,4 @@ xpat2
 xfireworks
 xdg-desktop-portal-tests
 xbindkeys-config
+xbill

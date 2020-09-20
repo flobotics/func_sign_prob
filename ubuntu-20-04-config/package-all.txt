@@ -3791,3 +3791,6 @@ xtables-addons-common
 xalan
 xbindkeys-config
 xplot
+xwpe
+xbill
+xsunpinyin

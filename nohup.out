@@ -21203,3 +21203,28 @@ Real binaries:['/usr/bin/xplot']
 Write to package-work.txt file: xplot
 Write to package-binaries.txt file: ['/usr/bin/xplot']
 ['/usr/bin/xplot']
+Write pickle file
+tar_out:
+Package-nr:3749 of 11000, Name:xwpe-dbgsym
+Package >xwpe< not in package-all.txt file
+Write to package-all.txt file: xwpe
+In package >xwpe< are these binaries: ['/usr/bin/we', '/usr/bin/wpe', '/usr/bin/xwe', '/usr/bin/xwpe']
+Real binaries:['/usr/bin/we']
+Write to package-work.txt file: xwpe
+No binaries to write to package-binaries.txt file
+[]
+Package-nr:3750 of 11000, Name:xbill-dbgsym
+Package >xbill< not in package-all.txt file
+Write to package-all.txt file: xbill
+In package >xbill< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: xbill
+[]
+Package-nr:3751 of 11000, Name:xsunpinyin-dbgsym
+Package >xsunpinyin< not in package-all.txt file
+Write to package-all.txt file: xsunpinyin
+In package >xsunpinyin< are these binaries: ['/usr/bin/xsunpinyin', '/usr/bin/xsunpinyin-preferences']
+Real binaries:['/usr/bin/xsunpinyin', '/usr/bin/xsunpinyin-preferences']
+Write to package-work.txt file: xsunpinyin
+Write to package-binaries.txt file: ['/usr/bin/xsunpinyin', '/usr/bin/xsunpinyin-preferences']
+['/usr/bin/xsunpinyin', '/usr/bin/xsunpinyin-preferences']

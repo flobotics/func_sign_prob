@@ -2459,3 +2459,5 @@ xcolors
 xtables-addons-common
 xalan
 xplot
+xwpe
+xsunpinyin
