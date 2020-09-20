@@ -22205,3 +22205,13 @@ Real binaries:['/usr/bin/imake', '/usr/bin/lndir', '/usr/bin/makedepend', '/usr/
 Write to package-work.txt file: xutils-dev
 Write to package-binaries.txt file: ['/usr/bin/imake', '/usr/bin/lndir', '/usr/bin/makedepend', '/usr/bin/revpath']
 ['/usr/bin/imake', '/usr/bin/lndir', '/usr/bin/makedepend', '/usr/bin/revpath']
+Write pickle file
+tar_out:
+Package-nr:3865 of 11000, Name:xbattbar-dbgsym
+Package >xbattbar< not in package-all.txt file
+Write to package-all.txt file: xbattbar
+In package >xbattbar< are these binaries: ['/usr/bin/xbattbar']
+Real binaries:['/usr/bin/xbattbar']
+Write to package-work.txt file: xbattbar
+Write to package-binaries.txt file: ['/usr/bin/xbattbar']
+['/usr/bin/xbattbar']

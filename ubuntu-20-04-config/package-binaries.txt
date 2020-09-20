@@ -7450,3 +7450,4 @@
 /usr/bin/lndir
 /usr/bin/makedepend
 /usr/bin/revpath
+/usr/bin/xbattbar

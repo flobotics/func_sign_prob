@@ -3898,3 +3898,4 @@ xgammon
 x265
 xqilla
 xutils-dev
+xbattbar
