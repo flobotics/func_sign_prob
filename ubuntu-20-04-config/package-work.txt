@@ -2621,3 +2621,4 @@ xfce4-terminal
 xttitle
 xosview
 xkeycaps
+xmlto

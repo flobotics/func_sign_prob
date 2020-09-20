@@ -4018,3 +4018,4 @@ xttitle
 xosview
 xmille
 xkeycaps
+xmlto

@@ -23323,3 +23323,13 @@ Real binaries:['/usr/bin/xkeycaps']
 Write to package-work.txt file: xkeycaps
 Write to package-binaries.txt file: ['/usr/bin/xkeycaps']
 ['/usr/bin/xkeycaps']
+Write pickle file
+tar_out:
+Package-nr:3997 of 11000, Name:xmlto-dbgsym
+Package >xmlto< not in package-all.txt file
+Write to package-all.txt file: xmlto
+In package >xmlto< are these binaries: ['/usr/bin/xmlif', '/usr/bin/xmlto']
+Real binaries:['/usr/bin/xmlif']
+Write to package-work.txt file: xmlto
+Write to package-binaries.txt file: ['/usr/bin/xmlif']
+['/usr/bin/xmlif']
