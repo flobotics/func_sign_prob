@@ -2231,3 +2231,4 @@ calamares
 ceph-fuse
 rbd-nbd
 ceph-immutable-object-cache
+rbd-mirror
