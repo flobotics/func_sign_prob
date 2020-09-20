@@ -1376,3 +1376,8 @@ xfrisk
 xmoto
 xevil
 xboard
+ruby-xmmsclient
+python-xmmsclient
+xpuzzles
+xmpuzzles
+xflip

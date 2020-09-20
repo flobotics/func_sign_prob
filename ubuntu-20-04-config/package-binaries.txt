@@ -7654,3 +7654,4 @@
 /usr/bin/xmms2-find-avahi
 /usr/bin/xmms2-mdns-avahi
 /usr/bin/xmms2-mlib-updater
+/usr/bin/xournal
