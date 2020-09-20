@@ -2308,3 +2308,4 @@ cb2bib
 caneda
 crossfire-server
 citadel-server
+cutecom

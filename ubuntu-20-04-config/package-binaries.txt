@@ -6978,3 +6978,4 @@
 /usr/sbin/citmail
 /usr/sbin/citserver
 /usr/sbin/ctdlmigrate
+/usr/bin/cutecom

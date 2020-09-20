@@ -18813,3 +18813,13 @@ Real binaries:['/usr/sbin/citmail', '/usr/sbin/citserver', '/usr/sbin/ctdlmigrat
 Write to package-work.txt file: citadel-server
 Write to package-binaries.txt file: ['/usr/sbin/citmail', '/usr/sbin/citserver', '/usr/sbin/ctdlmigrate']
 ['/usr/sbin/citmail', '/usr/sbin/citserver', '/usr/sbin/ctdlmigrate']
+Write pickle file
+tar_out:
+Package-nr:3462 of 11000, Name:cutecom-dbgsym
+Package >cutecom< not in package-all.txt file
+Write to package-all.txt file: cutecom
+In package >cutecom< are these binaries: ['/usr/bin/cutecom']
+Real binaries:['/usr/bin/cutecom']
+Write to package-work.txt file: cutecom
+Write to package-binaries.txt file: ['/usr/bin/cutecom']
+['/usr/bin/cutecom']
