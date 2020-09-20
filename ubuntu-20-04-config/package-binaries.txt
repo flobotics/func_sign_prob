@@ -5635,3 +5635,4 @@
 /usr/sbin/i2ctransfer
 /usr/sbin/i2pd
 /sbin/ifup
+/usr/sbin/ipgrab
