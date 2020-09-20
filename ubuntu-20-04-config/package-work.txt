@@ -2467,3 +2467,4 @@ xapian-omega
 xsecurelock
 xstarfish
 xcal
+xdelta3
