@@ -22749,3 +22749,13 @@ Real binaries:['/usr/bin/xkbset']
 Write to package-work.txt file: xkbset
 Write to package-binaries.txt file: ['/usr/bin/xkbset']
 ['/usr/bin/xkbset']
+Write pickle file
+tar_out:
+Package-nr:3928 of 11000, Name:xarclock-dbgsym
+Package >xarclock< not in package-all.txt file
+Write to package-all.txt file: xarclock
+In package >xarclock< are these binaries: ['/usr/bin/xarclock']
+Real binaries:['/usr/bin/xarclock']
+Write to package-work.txt file: xarclock
+Write to package-binaries.txt file: ['/usr/bin/xarclock']
+['/usr/bin/xarclock']

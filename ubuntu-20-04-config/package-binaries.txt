@@ -7627,3 +7627,4 @@
 /usr/sbin/rtps
 /usr/bin/xbuffy
 /usr/bin/xkbset
+/usr/bin/xarclock
