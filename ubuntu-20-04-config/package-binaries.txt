@@ -6613,3 +6613,5 @@
 /usr/bin/charmtimetracker
 /usr/bin/ckon
 /usr/bin/cool-retro-term
+/usr/bin/ctsim
+/usr/bin/ctsimtext

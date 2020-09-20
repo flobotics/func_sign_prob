@@ -17276,3 +17276,20 @@ Real binaries:['/usr/bin/cool-retro-term']
 Write to package-work.txt file: cool-retro-term
 Write to package-binaries.txt file: ['/usr/bin/cool-retro-term']
 ['/usr/bin/cool-retro-term']
+Write pickle file
+tar_out:
+Package-nr:3287 of 11000, Name:qml-module-qmltermwidget-dbgsym
+Package >qml-module-qmltermwidget< not in package-all.txt file
+Write to package-all.txt file: qml-module-qmltermwidget
+In package >qml-module-qmltermwidget< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: qml-module-qmltermwidget
+[]
+Package-nr:3288 of 11000, Name:ctsim-dbgsym
+Package >ctsim< not in package-all.txt file
+Write to package-all.txt file: ctsim
+In package >ctsim< are these binaries: ['/usr/bin/ctsim', '/usr/bin/ctsimtext', '/usr/bin/if1', '/usr/bin/if2', '/usr/bin/ifexport', '/usr/bin/ifinfo', '/usr/bin/linogram', '/usr/bin/phm2helix', '/usr/bin/phm2if', '/usr/bin/phm2pj', '/usr/bin/pj2if', '/usr/bin/pjHinterp', '/usr/bin/pjinfo', '/usr/bin/pjrec']
+Real binaries:['/usr/bin/ctsim', '/usr/bin/ctsimtext']
+Write to package-work.txt file: ctsim
+Write to package-binaries.txt file: ['/usr/bin/ctsim', '/usr/bin/ctsimtext']
+['/usr/bin/ctsim', '/usr/bin/ctsimtext']

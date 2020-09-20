@@ -2182,3 +2182,4 @@ ctn
 charmtimetracker
 ckon
 cool-retro-term
+ctsim

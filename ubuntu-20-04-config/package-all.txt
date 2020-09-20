@@ -3355,3 +3355,5 @@ python3-cysignals-pari
 python3-cysignals-bare
 ckon
 cool-retro-term
+qml-module-qmltermwidget
+ctsim
