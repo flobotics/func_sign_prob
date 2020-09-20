@@ -5644,3 +5644,5 @@
 /usr/bin/ivfix
 /usr/bin/ivinfo
 /usr/bin/ivview
+/usr/sbin/istgt
+/usr/sbin/istgtcontrol

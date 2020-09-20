@@ -2871,3 +2871,4 @@ indicator-power
 ifplugd
 inventor-demo
 inventor-clients
+istgt
