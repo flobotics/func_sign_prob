@@ -6446,3 +6446,6 @@
 /usr/bin/c2enc
 /usr/bin/insert_errors
 /usr/bin/connman-ui-gtk
+/usr/bin/codequery
+/usr/bin/cqmakedb
+/usr/bin/cqsearch

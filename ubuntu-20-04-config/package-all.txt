@@ -3305,3 +3305,4 @@ cairo-dock-core
 cellwriter
 codec2
 connman-ui
+codequery

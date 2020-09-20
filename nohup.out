@@ -16816,3 +16816,13 @@ Real binaries:['/usr/bin/connman-ui-gtk']
 Write to package-work.txt file: connman-ui
 Write to package-binaries.txt file: ['/usr/bin/connman-ui-gtk']
 ['/usr/bin/connman-ui-gtk']
+Write pickle file
+tar_out:
+Package-nr:3235 of 11000, Name:codequery-dbgsym
+Package >codequery< not in package-all.txt file
+Write to package-all.txt file: codequery
+In package >codequery< are these binaries: ['/usr/bin/codequery', '/usr/bin/cqmakedb', '/usr/bin/cqsearch']
+Real binaries:['/usr/bin/codequery', '/usr/bin/cqmakedb', '/usr/bin/cqsearch']
+Write to package-work.txt file: codequery
+Write to package-binaries.txt file: ['/usr/bin/codequery', '/usr/bin/cqmakedb', '/usr/bin/cqsearch']
+['/usr/bin/codequery', '/usr/bin/cqmakedb', '/usr/bin/cqsearch']
