@@ -2624,3 +2624,4 @@ xkeycaps
 xmlto
 xvkbd
 xpad
+x264
