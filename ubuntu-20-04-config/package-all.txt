@@ -2883,3 +2883,4 @@ imx-code-signing-tool
 ifmetric
 isoqlog
 ioping
+inetutils-inetd
