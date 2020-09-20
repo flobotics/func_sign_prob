@@ -3469,3 +3469,4 @@ chezscheme9.5
 chaosread
 coinor-libdylp1
 clamav-milter
+cube2font

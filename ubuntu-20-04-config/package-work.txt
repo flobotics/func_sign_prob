@@ -2272,3 +2272,4 @@ convlit
 chezscheme9.5
 chaosread
 clamav-milter
+cube2font

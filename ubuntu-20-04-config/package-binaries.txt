@@ -6852,3 +6852,4 @@
 /usr/bin/scheme-script9.5
 /usr/bin/chaosread
 /usr/sbin/clamav-milter
+/usr/bin/cube2font
