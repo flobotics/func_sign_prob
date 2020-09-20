@@ -6412,3 +6412,8 @@
 /usr/bin/mixconv
 /usr/sbin/clickhouse-server
 /usr/bin/clickhouse-client
+/usr/bin/clickhouse-benchmark
+/usr/bin/clickhouse-compressor
+/usr/bin/clickhouse-copier
+/usr/bin/clickhouse-format
+/usr/bin/clickhouse-performance-test

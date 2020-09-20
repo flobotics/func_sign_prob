@@ -16521,3 +16521,13 @@ Real binaries:['/usr/bin/clickhouse-client']
 Write to package-work.txt file: clickhouse-client
 Write to package-binaries.txt file: ['/usr/bin/clickhouse-client']
 ['/usr/bin/clickhouse-client']
+Write pickle file
+tar_out:
+Package-nr:3201 of 11000, Name:clickhouse-tools-dbgsym
+Package >clickhouse-tools< not in package-all.txt file
+Write to package-all.txt file: clickhouse-tools
+In package >clickhouse-tools< are these binaries: ['/usr/bin/clickhouse-benchmark', '/usr/bin/clickhouse-compressor', '/usr/bin/clickhouse-copier', '/usr/bin/clickhouse-format', '/usr/bin/clickhouse-performance-test']
+Real binaries:['/usr/bin/clickhouse-benchmark', '/usr/bin/clickhouse-compressor', '/usr/bin/clickhouse-copier', '/usr/bin/clickhouse-format', '/usr/bin/clickhouse-performance-test']
+Write to package-work.txt file: clickhouse-tools
+Write to package-binaries.txt file: ['/usr/bin/clickhouse-benchmark', '/usr/bin/clickhouse-compressor', '/usr/bin/clickhouse-copier', '/usr/bin/clickhouse-format', '/usr/bin/clickhouse-performance-test']
+['/usr/bin/clickhouse-benchmark', '/usr/bin/clickhouse-compressor', '/usr/bin/clickhouse-copier', '/usr/bin/clickhouse-format', '/usr/bin/clickhouse-performance-test']

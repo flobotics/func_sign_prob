@@ -2123,3 +2123,4 @@ curvedns
 conv-tools
 clickhouse-server
 clickhouse-client
+clickhouse-tools
