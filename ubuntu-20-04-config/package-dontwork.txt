@@ -1072,3 +1072,4 @@ caveexpress
 cavepacker
 cube2
 cube2-server
+coz-profiler

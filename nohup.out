@@ -14968,3 +14968,20 @@ Real binaries:['/usr/bin/chafa']
 Write to package-work.txt file: chafa
 Write to package-binaries.txt file: ['/usr/bin/chafa']
 ['/usr/bin/chafa']
+Write pickle file
+tar_out:
+Package-nr:3012 of 11000, Name:coz-profiler-dbgsym
+Package >coz-profiler< not in package-all.txt file
+Write to package-all.txt file: coz-profiler
+In package >coz-profiler< are these binaries: ['/usr/bin/coz']
+Real binaries:[]
+Write to package-dontwork.txt file: coz-profiler
+[]
+Package-nr:3013 of 11000, Name:comet-ms-dbgsym
+Package >comet-ms< not in package-all.txt file
+Write to package-all.txt file: comet-ms
+In package >comet-ms< are these binaries: ['/usr/bin/comet-ms']
+Real binaries:['/usr/bin/comet-ms']
+Write to package-work.txt file: comet-ms
+Write to package-binaries.txt file: ['/usr/bin/comet-ms']
+['/usr/bin/comet-ms']

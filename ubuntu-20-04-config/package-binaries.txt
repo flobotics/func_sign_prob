@@ -5992,3 +5992,4 @@
 /usr/bin/c-graph
 /usr/bin/cadvisor
 /usr/bin/chafa
+/usr/bin/comet-ms
