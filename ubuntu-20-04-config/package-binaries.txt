@@ -7714,3 +7714,4 @@
 /usr/bin/fstobdf
 /usr/bin/showfont
 /usr/bin/xfsinfo
+/usr/bin/xcalib

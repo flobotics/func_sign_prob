@@ -23515,3 +23515,13 @@ Real binaries:['/usr/bin/fslsfonts', '/usr/bin/fstobdf', '/usr/bin/showfont', '/
 Write to package-work.txt file: x11-xfs-utils
 Write to package-binaries.txt file: ['/usr/bin/fslsfonts', '/usr/bin/fstobdf', '/usr/bin/showfont', '/usr/bin/xfsinfo']
 ['/usr/bin/fslsfonts', '/usr/bin/fstobdf', '/usr/bin/showfont', '/usr/bin/xfsinfo']
+Write pickle file
+tar_out:
+Package-nr:4019 of 11000, Name:xcalib-dbgsym
+Package >xcalib< not in package-all.txt file
+Write to package-all.txt file: xcalib
+In package >xcalib< are these binaries: ['/usr/bin/xcalib']
+Real binaries:['/usr/bin/xcalib']
+Write to package-work.txt file: xcalib
+Write to package-binaries.txt file: ['/usr/bin/xcalib']
+['/usr/bin/xcalib']

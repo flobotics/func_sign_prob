@@ -2635,3 +2635,4 @@ xfce4-session
 xdemorse
 xzoom
 x11-xfs-utils
+xcalib
