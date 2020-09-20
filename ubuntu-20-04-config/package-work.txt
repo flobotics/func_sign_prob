@@ -2212,3 +2212,4 @@ ccextractor
 cgdb
 clustalw
 clamz
+corkscrew

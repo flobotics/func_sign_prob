@@ -3394,3 +3394,4 @@ cgdb
 centrifuge
 clustalw
 clamz
+corkscrew
