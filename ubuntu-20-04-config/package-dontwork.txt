@@ -1195,3 +1195,4 @@ coinor-libdylp1
 python3-cg3
 chocolate-doom
 coolkey
+crossfire-client

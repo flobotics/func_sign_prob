@@ -3483,3 +3483,5 @@ chocolate-doom
 coolkey
 classified-ads
 casacore-tools
+crossfire-client
+care

@@ -6886,3 +6886,4 @@
 /usr/bin/taql
 /usr/bin/tomf
 /usr/bin/writems
+/usr/bin/care

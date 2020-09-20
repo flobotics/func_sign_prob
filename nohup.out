@@ -18490,3 +18490,20 @@ Real binaries:['/usr/bin/casahdf5support', '/usr/bin/findmeastable', '/usr/bin/f
 Write to package-work.txt file: casacore-tools
 Write to package-binaries.txt file: ['/usr/bin/casahdf5support', '/usr/bin/findmeastable', '/usr/bin/fits2table', '/usr/bin/image2fits', '/usr/bin/imagecalc', '/usr/bin/imageregrid', '/usr/bin/imageslice', '/usr/bin/lsmf', '/usr/bin/measuresdata', '/usr/bin/ms2uvfits', '/usr/bin/msselect', '/usr/bin/readms', '/usr/bin/showtableinfo', '/usr/bin/showtablelock', '/usr/bin/tablefromascii', '/usr/bin/taql', '/usr/bin/tomf', '/usr/bin/writems']
 ['/usr/bin/casahdf5support', '/usr/bin/findmeastable', '/usr/bin/fits2table', '/usr/bin/image2fits', '/usr/bin/imagecalc', '/usr/bin/imageregrid', '/usr/bin/imageslice', '/usr/bin/lsmf', '/usr/bin/measuresdata', '/usr/bin/ms2uvfits', '/usr/bin/msselect', '/usr/bin/readms', '/usr/bin/showtableinfo', '/usr/bin/showtablelock', '/usr/bin/tablefromascii', '/usr/bin/taql', '/usr/bin/tomf', '/usr/bin/writems']
+Write pickle file
+tar_out:
+Package-nr:3424 of 11000, Name:crossfire-client-dbgsym
+Package >crossfire-client< not in package-all.txt file
+Write to package-all.txt file: crossfire-client
+In package >crossfire-client< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: crossfire-client
+[]
+Package-nr:3425 of 11000, Name:care-dbgsym
+Package >care< not in package-all.txt file
+Write to package-all.txt file: care
+In package >care< are these binaries: ['/usr/bin/care']
+Real binaries:['/usr/bin/care']
+Write to package-work.txt file: care
+Write to package-binaries.txt file: ['/usr/bin/care']
+['/usr/bin/care']

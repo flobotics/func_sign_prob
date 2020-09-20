@@ -2283,3 +2283,4 @@ cflow
 cwm
 classified-ads
 casacore-tools
+care
