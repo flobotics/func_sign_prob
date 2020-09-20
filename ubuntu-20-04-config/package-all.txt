@@ -3625,3 +3625,4 @@ qtscxml5-examples
 qml-module-qtscxml
 quvi
 qstardict
+qtox

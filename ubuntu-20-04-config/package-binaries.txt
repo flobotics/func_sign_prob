@@ -7057,3 +7057,4 @@
 /usr/lib/qt5/bin/qmlscene
 /usr/bin/quvi
 /usr/bin/qstardict
+/usr/bin/qtox

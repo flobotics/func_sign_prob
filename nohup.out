@@ -19716,3 +19716,13 @@ Real binaries:['/usr/bin/qstardict']
 Write to package-work.txt file: qstardict
 Write to package-binaries.txt file: ['/usr/bin/qstardict']
 ['/usr/bin/qstardict']
+Write pickle file
+tar_out:
+Package-nr:3576 of 11000, Name:qtox-dbgsym
+Package >qtox< not in package-all.txt file
+Write to package-all.txt file: qtox
+In package >qtox< are these binaries: ['/usr/bin/qtox']
+Real binaries:['/usr/bin/qtox']
+Write to package-work.txt file: qtox
+Write to package-binaries.txt file: ['/usr/bin/qtox']
+['/usr/bin/qtox']
