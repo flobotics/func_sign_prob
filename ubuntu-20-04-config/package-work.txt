@@ -2082,3 +2082,5 @@ ccls
 csv2latex
 crashme
 confget
+caml2html
+catdoc

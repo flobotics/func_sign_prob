@@ -6191,3 +6191,7 @@
 /usr/bin/crashme
 /usr/bin/pddet
 /usr/bin/confget
+/usr/bin/caml2html
+/usr/bin/catdoc
+/usr/bin/catppt
+/usr/bin/xls2csv

@@ -15846,3 +15846,21 @@ Real binaries:['/usr/bin/confget']
 Write to package-work.txt file: confget
 Write to package-binaries.txt file: ['/usr/bin/confget']
 ['/usr/bin/confget']
+Write pickle file
+tar_out:
+Package-nr:3119 of 11000, Name:caml2html-dbgsym
+Package >caml2html< not in package-all.txt file
+Write to package-all.txt file: caml2html
+In package >caml2html< are these binaries: ['/usr/bin/caml2html']
+Real binaries:['/usr/bin/caml2html']
+Write to package-work.txt file: caml2html
+Write to package-binaries.txt file: ['/usr/bin/caml2html']
+['/usr/bin/caml2html']
+Package-nr:3120 of 11000, Name:catdoc-dbgsym
+Package >catdoc< not in package-all.txt file
+Write to package-all.txt file: catdoc
+In package >catdoc< are these binaries: ['/usr/bin/catdoc', '/usr/bin/catppt', '/usr/bin/wordview', '/usr/bin/xls2csv']
+Real binaries:['/usr/bin/catdoc', '/usr/bin/catppt', '/usr/bin/xls2csv']
+Write to package-work.txt file: catdoc
+Write to package-binaries.txt file: ['/usr/bin/catdoc', '/usr/bin/catppt', '/usr/bin/xls2csv']
+['/usr/bin/catdoc', '/usr/bin/catppt', '/usr/bin/xls2csv']
