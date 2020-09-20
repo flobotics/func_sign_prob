@@ -7392,3 +7392,5 @@
 /usr/bin/xfdesktop
 /usr/bin/xfdesktop-settings
 /usr/bin/xiterm+thai
+/usr/bin/uufilter
+/usr/bin/xloadimage

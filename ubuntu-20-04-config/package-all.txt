@@ -3852,3 +3852,4 @@ xserver-xorg-input-kbd
 xsystem35
 xfdesktop4
 xiterm+thai
+xloadimage

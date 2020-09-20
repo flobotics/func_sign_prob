@@ -21765,3 +21765,13 @@ Real binaries:['/usr/bin/xiterm+thai']
 Write to package-work.txt file: xiterm+thai
 Write to package-binaries.txt file: ['/usr/bin/xiterm+thai']
 ['/usr/bin/xiterm+thai']
+Write pickle file
+tar_out:
+Package-nr:3815 of 11000, Name:xloadimage-dbgsym
+Package >xloadimage< not in package-all.txt file
+Write to package-all.txt file: xloadimage
+In package >xloadimage< are these binaries: ['/usr/bin/uufilter', '/usr/bin/xloadimage', '/usr/bin/xsetbg', '/usr/bin/xview']
+Real binaries:['/usr/bin/uufilter', '/usr/bin/xloadimage']
+Write to package-work.txt file: xloadimage
+Write to package-binaries.txt file: ['/usr/bin/uufilter', '/usr/bin/xloadimage']
+['/usr/bin/uufilter', '/usr/bin/xloadimage']
