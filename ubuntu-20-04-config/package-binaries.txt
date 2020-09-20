@@ -7334,3 +7334,6 @@
 /usr/bin/xcalpr
 /usr/bin/xdelta3
 /usr/bin/xfce4-panel
+/usr/bin/xfce4-notes
+/usr/bin/xfce4-notes-settings
+/usr/bin/xfce4-popup-notes

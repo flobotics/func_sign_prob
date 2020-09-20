@@ -3806,3 +3806,4 @@ xcal
 xdelta3
 xaw3dg
 xfce4-panel
+xfce4-notes

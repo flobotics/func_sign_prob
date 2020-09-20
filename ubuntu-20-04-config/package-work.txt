@@ -2469,3 +2469,4 @@ xstarfish
 xcal
 xdelta3
 xfce4-panel
+xfce4-notes
