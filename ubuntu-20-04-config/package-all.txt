@@ -3200,3 +3200,4 @@ coyim
 cpuinfo
 cdftools
 printer-driver-c2050
+compiz-gnome
