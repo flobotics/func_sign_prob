@@ -15105,3 +15105,20 @@ Real binaries:['/usr/bin/clevis-decrypt-sss', '/usr/bin/clevis-encrypt-sss']
 Write to package-work.txt file: clevis
 Write to package-binaries.txt file: ['/usr/bin/clevis-decrypt-sss', '/usr/bin/clevis-encrypt-sss']
 ['/usr/bin/clevis-decrypt-sss', '/usr/bin/clevis-encrypt-sss']
+Write pickle file
+tar_out:
+Package-nr:3028 of 11000, Name:clevis-udisks2-dbgsym
+Package >clevis-udisks2< not in package-all.txt file
+Write to package-all.txt file: clevis-udisks2
+In package >clevis-udisks2< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: clevis-udisks2
+[]
+Package-nr:3029 of 11000, Name:contextfree-dbgsym
+Package >contextfree< not in package-all.txt file
+Write to package-all.txt file: contextfree
+In package >contextfree< are these binaries: ['/usr/bin/cfdg']
+Real binaries:['/usr/bin/cfdg']
+Write to package-work.txt file: contextfree
+Write to package-binaries.txt file: ['/usr/bin/cfdg']
+['/usr/bin/cfdg']
