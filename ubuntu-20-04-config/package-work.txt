@@ -2407,3 +2407,4 @@ qhelpgenerator-qt5
 qsstv
 qwertone
 qtcreator
+qpxtool

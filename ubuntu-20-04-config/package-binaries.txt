@@ -7201,3 +7201,9 @@
 /usr/bin/qsstv
 /usr/bin/qwertone
 /usr/bin/qtcreator
+/usr/bin/cdvdcontrol
+/usr/bin/f1tattoo
+/usr/bin/qpxtool
+/usr/bin/qscan
+/usr/bin/qscand
+/usr/bin/readdvd
