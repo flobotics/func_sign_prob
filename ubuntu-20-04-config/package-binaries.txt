@@ -6002,3 +6002,4 @@
 /usr/bin/cryfs
 /usr/bin/cryfs-unmount
 /usr/bin/cvsgraph
+/usr/bin/comptext

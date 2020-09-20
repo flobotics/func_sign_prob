@@ -2029,3 +2029,4 @@ collatinus
 coqide
 cryfs
 cvsgraph
+comptext

@@ -15068,3 +15068,13 @@ Real binaries:['/usr/bin/cvsgraph']
 Write to package-work.txt file: cvsgraph
 Write to package-binaries.txt file: ['/usr/bin/cvsgraph']
 ['/usr/bin/cvsgraph']
+Write pickle file
+tar_out:
+Package-nr:3024 of 11000, Name:comptext-dbgsym
+Package >comptext< not in package-all.txt file
+Write to package-all.txt file: comptext
+In package >comptext< are these binaries: ['/usr/bin/comptext']
+Real binaries:['/usr/bin/comptext']
+Write to package-work.txt file: comptext
+Write to package-binaries.txt file: ['/usr/bin/comptext']
+['/usr/bin/comptext']
