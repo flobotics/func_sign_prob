@@ -1961,3 +1961,4 @@ icoutils
 ircp-tray
 indicator-china-weather
 icecc-monitor
+ical2html

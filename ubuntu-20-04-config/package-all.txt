@@ -2965,3 +2965,5 @@ iipimage-server
 ircp-tray
 indicator-china-weather
 icecc-monitor
+indicator-session
+ical2html

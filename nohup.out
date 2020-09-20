@@ -13848,3 +13848,23 @@ Real binaries:['/usr/bin/icemon']
 Write to package-work.txt file: icecc-monitor
 Write to package-binaries.txt file: ['/usr/bin/icemon']
 ['/usr/bin/icemon']
+Write pickle file
+tar_out:
+Package-nr:2870 of 11000, Name:indicator-session-dbgsym
+Package >indicator-session< not in package-all.txt file
+Write to package-all.txt file: indicator-session
+In package >indicator-session< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: indicator-session
+[]
+Package-nr:2871 of 11000, Name:imv-dbgsym
+Skip package >imv<, already in package-all.txt file
+[]
+Package-nr:2872 of 11000, Name:ical2html-dbgsym
+Package >ical2html< not in package-all.txt file
+Write to package-all.txt file: ical2html
+In package >ical2html< are these binaries: ['/usr/bin/ical2html', '/usr/bin/icalfilter', '/usr/bin/icalmerge']
+Real binaries:['/usr/bin/ical2html', '/usr/bin/icalfilter', '/usr/bin/icalmerge']
+Write to package-work.txt file: ical2html
+Write to package-binaries.txt file: ['/usr/bin/ical2html', '/usr/bin/icalfilter', '/usr/bin/icalmerge']
+['/usr/bin/ical2html', '/usr/bin/icalfilter', '/usr/bin/icalmerge']

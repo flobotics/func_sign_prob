@@ -5899,3 +5899,6 @@
 /usr/bin/ircp-tray
 /usr/bin/indicator-china-weather
 /usr/bin/icemon
+/usr/bin/ical2html
+/usr/bin/icalfilter
+/usr/bin/icalmerge
