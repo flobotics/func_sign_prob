@@ -6445,3 +6445,4 @@
 /usr/bin/c2dec
 /usr/bin/c2enc
 /usr/bin/insert_errors
+/usr/bin/connman-ui-gtk

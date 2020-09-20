@@ -16806,3 +16806,13 @@ Real binaries:['/usr/bin/c2dec', '/usr/bin/c2enc', '/usr/bin/insert_errors']
 Write to package-work.txt file: codec2
 Write to package-binaries.txt file: ['/usr/bin/c2dec', '/usr/bin/c2enc', '/usr/bin/insert_errors']
 ['/usr/bin/c2dec', '/usr/bin/c2enc', '/usr/bin/insert_errors']
+Write pickle file
+tar_out:
+Package-nr:3234 of 11000, Name:connman-ui-dbgsym
+Package >connman-ui< not in package-all.txt file
+Write to package-all.txt file: connman-ui
+In package >connman-ui< are these binaries: ['/usr/bin/connman-ui-gtk']
+Real binaries:['/usr/bin/connman-ui-gtk']
+Write to package-work.txt file: connman-ui
+Write to package-binaries.txt file: ['/usr/bin/connman-ui-gtk']
+['/usr/bin/connman-ui-gtk']
