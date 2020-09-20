@@ -3804,3 +3804,5 @@ xsecurelock
 xstarfish
 xcal
 xdelta3
+xaw3dg
+xfce4-panel

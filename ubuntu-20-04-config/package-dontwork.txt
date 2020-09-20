@@ -1331,3 +1331,4 @@ xbill
 xscreensaver-data-extra
 xscreensaver-screensaver-bsod
 xscreensaver-gl-extra
+xaw3dg

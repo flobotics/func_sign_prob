@@ -2468,3 +2468,4 @@ xsecurelock
 xstarfish
 xcal
 xdelta3
+xfce4-panel
