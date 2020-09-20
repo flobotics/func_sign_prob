@@ -5981,3 +5981,5 @@
 /usr/bin/calligraplan
 /usr/bin/calligraplanwork
 /usr/sbin/connman-vpnd
+/usr/bin/cowpatty
+/usr/bin/genpmk

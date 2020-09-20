@@ -2016,3 +2016,4 @@ citadel-client
 crunch
 calligraplan
 connman-vpn
+cowpatty
