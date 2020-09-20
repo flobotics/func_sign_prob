@@ -2208,3 +2208,4 @@ coop-computing-tools
 concordance
 cervisia
 cvsservice
+ccextractor

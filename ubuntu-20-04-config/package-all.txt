@@ -3389,3 +3389,4 @@ python3-workqueue
 concordance
 cervisia
 cvsservice
+ccextractor
