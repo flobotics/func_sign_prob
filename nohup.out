@@ -17018,3 +17018,13 @@ Real binaries:['/usr/bin/gen-psf-block', '/usr/bin/setbrlkeys']
 Write to package-work.txt file: console-braille
 Write to package-binaries.txt file: ['/usr/bin/gen-psf-block', '/usr/bin/setbrlkeys']
 ['/usr/bin/gen-psf-block', '/usr/bin/setbrlkeys']
+Write pickle file
+tar_out:
+Package-nr:3258 of 11000, Name:clustalo-dbgsym
+Package >clustalo< not in package-all.txt file
+Write to package-all.txt file: clustalo
+In package >clustalo< are these binaries: ['/usr/bin/clustalo']
+Real binaries:['/usr/bin/clustalo']
+Write to package-work.txt file: clustalo
+Write to package-binaries.txt file: ['/usr/bin/clustalo']
+['/usr/bin/clustalo']
