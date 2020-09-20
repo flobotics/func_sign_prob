@@ -6610,3 +6610,4 @@
 /usr/bin/ttselect
 /usr/bin/ttunique
 /usr/bin/ttupdate
+/usr/bin/charmtimetracker
