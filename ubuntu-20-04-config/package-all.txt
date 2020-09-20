@@ -3363,3 +3363,4 @@ codeblocks-contrib
 cura-engine
 cwebx
 cardpeek
+clazy

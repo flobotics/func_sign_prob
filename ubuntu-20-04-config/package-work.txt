@@ -2188,3 +2188,4 @@ cmospwd
 cura-engine
 cwebx
 cardpeek
+clazy

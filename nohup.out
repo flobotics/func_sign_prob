@@ -17353,3 +17353,13 @@ Real binaries:['/usr/bin/cardpeek']
 Write to package-work.txt file: cardpeek
 Write to package-binaries.txt file: ['/usr/bin/cardpeek']
 ['/usr/bin/cardpeek']
+Write pickle file
+tar_out:
+Package-nr:3296 of 11000, Name:clazy-dbgsym
+Package >clazy< not in package-all.txt file
+Write to package-all.txt file: clazy
+In package >clazy< are these binaries: ['/usr/bin/clazy', '/usr/bin/clazy-standalone']
+Real binaries:['/usr/bin/clazy-standalone']
+Write to package-work.txt file: clazy
+Write to package-binaries.txt file: ['/usr/bin/clazy-standalone']
+['/usr/bin/clazy-standalone']
