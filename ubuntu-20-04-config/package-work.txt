@@ -2324,3 +2324,4 @@ qgit
 qelectrotech
 qnetstatview
 qmidiroute
+qutemol

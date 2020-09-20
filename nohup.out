@@ -19092,3 +19092,13 @@ Real binaries:['/usr/bin/qmidiroute']
 Write to package-work.txt file: qmidiroute
 Write to package-binaries.txt file: ['/usr/bin/qmidiroute']
 ['/usr/bin/qmidiroute']
+Write pickle file
+tar_out:
+Package-nr:3495 of 11000, Name:qutemol-dbgsym
+Package >qutemol< not in package-all.txt file
+Write to package-all.txt file: qutemol
+In package >qutemol< are these binaries: ['/usr/bin/qutemol']
+Real binaries:['/usr/bin/qutemol']
+Write to package-work.txt file: qutemol
+Write to package-binaries.txt file: ['/usr/bin/qutemol']
+['/usr/bin/qutemol']
