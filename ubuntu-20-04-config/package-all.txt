@@ -3839,3 +3839,5 @@ xteddy
 xbs
 xautolock
 xdotool
+xserver-xspice
+xmbmon

@@ -1341,3 +1341,4 @@ xonix
 hexchat-indicator
 xdg-desktop-portal-kde
 xteddy
+xserver-xspice

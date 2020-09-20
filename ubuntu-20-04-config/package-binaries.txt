@@ -7377,3 +7377,4 @@
 /usr/bin/xbs
 /usr/bin/xautolock
 /usr/bin/xdotool
+/usr/bin/xmbmon

@@ -21646,3 +21646,23 @@ Real binaries:['/usr/bin/xdotool']
 Write to package-work.txt file: xdotool
 Write to package-binaries.txt file: ['/usr/bin/xdotool']
 ['/usr/bin/xdotool']
+Write pickle file
+tar_out:
+Package-nr:3800 of 11000, Name:xserver-xspice-dbgsym
+Package >xserver-xspice< not in package-all.txt file
+Write to package-all.txt file: xserver-xspice
+In package >xserver-xspice< are these binaries: ['/usr/bin/Xspice']
+Real binaries:[]
+Write to package-dontwork.txt file: xserver-xspice
+[]
+Package-nr:3801 of 11000, Name:xe-dbgsym
+Skip package >xe<, already in package-all.txt file
+[]
+Package-nr:3802 of 11000, Name:xmbmon-dbgsym
+Package >xmbmon< not in package-all.txt file
+Write to package-all.txt file: xmbmon
+In package >xmbmon< are these binaries: ['/usr/bin/xmbmon']
+Real binaries:['/usr/bin/xmbmon']
+Write to package-work.txt file: xmbmon
+Write to package-binaries.txt file: ['/usr/bin/xmbmon']
+['/usr/bin/xmbmon']
