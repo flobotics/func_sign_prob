@@ -2983,3 +2983,4 @@ ctpp2-utils
 cppo
 colortail
 csmith
+cdbfasta

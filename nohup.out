@@ -14023,3 +14023,13 @@ Real binaries:['/usr/bin/csmith']
 Write to package-work.txt file: csmith
 Write to package-binaries.txt file: ['/usr/bin/csmith']
 ['/usr/bin/csmith']
+Write pickle file
+tar_out:
+Package-nr:2891 of 11000, Name:cdbfasta-dbgsym
+Package >cdbfasta< not in package-all.txt file
+Write to package-all.txt file: cdbfasta
+In package >cdbfasta< are these binaries: ['/usr/bin/cdbfasta', '/usr/bin/cdbyank']
+Real binaries:['/usr/bin/cdbfasta', '/usr/bin/cdbyank']
+Write to package-work.txt file: cdbfasta
+Write to package-binaries.txt file: ['/usr/bin/cdbfasta', '/usr/bin/cdbyank']
+['/usr/bin/cdbfasta', '/usr/bin/cdbyank']
