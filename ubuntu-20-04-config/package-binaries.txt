@@ -7366,3 +7366,4 @@
 /usr/bin/xhk
 /usr/bin/synclient
 /usr/bin/syndaemon
+/usr/bin/medcon

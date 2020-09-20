@@ -21531,3 +21531,13 @@ Real binaries:['/usr/bin/synclient', '/usr/bin/syndaemon']
 Write to package-work.txt file: xserver-xorg-input-synaptics
 Write to package-binaries.txt file: ['/usr/bin/synclient', '/usr/bin/syndaemon']
 ['/usr/bin/synclient', '/usr/bin/syndaemon']
+Write pickle file
+tar_out:
+Package-nr:3788 of 11000, Name:medcon-dbgsym
+Package >medcon< not in package-all.txt file
+Write to package-all.txt file: medcon
+In package >medcon< are these binaries: ['/usr/bin/medcon']
+Real binaries:['/usr/bin/medcon']
+Write to package-work.txt file: medcon
+Write to package-binaries.txt file: ['/usr/bin/medcon']
+['/usr/bin/medcon']

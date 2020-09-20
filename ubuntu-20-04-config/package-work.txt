@@ -2482,3 +2482,4 @@ gtkmorph
 xxhash
 xhk
 xserver-xorg-input-synaptics
+medcon
