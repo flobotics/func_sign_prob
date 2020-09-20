@@ -5976,3 +5976,4 @@
 /usr/bin/runstat
 /usr/bin/runalarm
 /usr/bin/sccs
+/usr/bin/citadel

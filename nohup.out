@@ -14865,3 +14865,13 @@ Real binaries:['/usr/bin/sccs']
 Write to package-work.txt file: cssc
 Write to package-binaries.txt file: ['/usr/bin/sccs']
 ['/usr/bin/sccs']
+Write pickle file
+tar_out:
+Package-nr:3000 of 11000, Name:citadel-client-dbgsym
+Package >citadel-client< not in package-all.txt file
+Write to package-all.txt file: citadel-client
+In package >citadel-client< are these binaries: ['/usr/bin/citadel']
+Real binaries:['/usr/bin/citadel']
+Write to package-work.txt file: citadel-client
+Write to package-binaries.txt file: ['/usr/bin/citadel']
+['/usr/bin/citadel']

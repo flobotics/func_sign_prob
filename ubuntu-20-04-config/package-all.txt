@@ -3087,3 +3087,4 @@ cronutils
 caveexpress
 cavepacker
 cssc
+citadel-client
