@@ -3664,3 +3664,4 @@ qtscript5-examples
 qtsvg5-examples
 qemu-system-x86-xen
 qemu-user-static
+qemu-guest-agent

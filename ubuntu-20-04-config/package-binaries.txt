@@ -7131,3 +7131,4 @@
 /usr/bin/qemu-x86_64-static
 /usr/bin/qemu-xtensa-static
 /usr/bin/qemu-xtensaeb-static
+/usr/sbin/qemu-ga
