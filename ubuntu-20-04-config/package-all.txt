@@ -3450,3 +3450,4 @@ chemtool
 cyrus-imspd
 cassiopee
 cmst
+curlftpfs
