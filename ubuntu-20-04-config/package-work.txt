@@ -2317,3 +2317,4 @@ cccd
 cog
 cutycapt
 caja-sendto
+cvsd

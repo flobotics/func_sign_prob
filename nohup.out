@@ -18924,3 +18924,34 @@ Real binaries:['/usr/bin/caja-sendto']
 Write to package-work.txt file: caja-sendto
 Write to package-binaries.txt file: ['/usr/bin/caja-sendto']
 ['/usr/bin/caja-sendto']
+Write pickle file
+tar_out:
+Package-nr:3474 of 11000, Name:caja-image-converter-dbgsym
+Package >caja-image-converter< not in package-all.txt file
+Write to package-all.txt file: caja-image-converter
+In package >caja-image-converter< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: caja-image-converter
+[]
+Package-nr:3475 of 11000, Name:caja-share-dbgsym
+Package >caja-share< not in package-all.txt file
+Write to package-all.txt file: caja-share
+In package >caja-share< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: caja-share
+[]
+Package-nr:3476 of 11000, Name:caja-xattr-tags-dbgsym
+Package >caja-xattr-tags< not in package-all.txt file
+Write to package-all.txt file: caja-xattr-tags
+In package >caja-xattr-tags< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: caja-xattr-tags
+[]
+Package-nr:3477 of 11000, Name:cvsd-dbgsym
+Package >cvsd< not in package-all.txt file
+Write to package-all.txt file: cvsd
+In package >cvsd< are these binaries: ['/usr/sbin/cvsd-buildroot', '/usr/sbin/cvsd', '/usr/sbin/cvsd-buginfo', '/usr/sbin/cvsd-passwd']
+Real binaries:['/usr/sbin/cvsd']
+Write to package-work.txt file: cvsd
+Write to package-binaries.txt file: ['/usr/sbin/cvsd']
+['/usr/sbin/cvsd']

@@ -3529,3 +3529,7 @@ cutycapt
 caja-wallpaper
 caja-open-terminal
 caja-sendto
+caja-image-converter
+caja-share
+caja-xattr-tags
+cvsd
