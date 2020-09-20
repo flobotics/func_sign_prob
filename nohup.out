@@ -23638,3 +23638,13 @@ Real binaries:['/usr/bin/cgpt']
 Write to package-work.txt file: cgpt
 Write to package-binaries.txt file: ['/usr/bin/cgpt']
 ['/usr/bin/cgpt']
+Write pickle file
+tar_out:
+Package-nr:4033 of 11000, Name:vboot-kernel-utils-dbgsym
+Package >vboot-kernel-utils< not in package-all.txt file
+Write to package-all.txt file: vboot-kernel-utils
+In package >vboot-kernel-utils< are these binaries: ['/usr/bin/futility', '/usr/bin/vbutil_kernel']
+Real binaries:['/usr/bin/futility']
+Write to package-work.txt file: vboot-kernel-utils
+Write to package-binaries.txt file: ['/usr/bin/futility']
+['/usr/bin/futility']

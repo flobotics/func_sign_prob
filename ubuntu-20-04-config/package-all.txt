@@ -4053,3 +4053,4 @@ ktoblzcheck
 vokoscreen-ng
 vboot-utils
 cgpt
+vboot-kernel-utils
