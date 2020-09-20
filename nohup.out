@@ -22450,3 +22450,28 @@ Real binaries:['/usr/bin/xtail']
 Write to package-work.txt file: xtail
 Write to package-binaries.txt file: ['/usr/bin/xtail']
 ['/usr/bin/xtail']
+Write pickle file
+tar_out:
+Package-nr:3895 of 11000, Name:xgalaga-dbgsym
+Package >xgalaga< not in package-all.txt file
+Write to package-all.txt file: xgalaga
+In package >xgalaga< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: xgalaga
+[]
+Package-nr:3896 of 11000, Name:xwatch-dbgsym
+Package >xwatch< not in package-all.txt file
+Write to package-all.txt file: xwatch
+In package >xwatch< are these binaries: ['/usr/bin/xwatch']
+Real binaries:['/usr/bin/xwatch']
+Write to package-work.txt file: xwatch
+Write to package-binaries.txt file: ['/usr/bin/xwatch']
+['/usr/bin/xwatch']
+Package-nr:3897 of 11000, Name:xnecview-dbgsym
+Package >xnecview< not in package-all.txt file
+Write to package-all.txt file: xnecview
+In package >xnecview< are these binaries: ['/usr/bin/xnecview']
+Real binaries:['/usr/bin/xnecview']
+Write to package-work.txt file: xnecview
+Write to package-binaries.txt file: ['/usr/bin/xnecview']
+['/usr/bin/xnecview']

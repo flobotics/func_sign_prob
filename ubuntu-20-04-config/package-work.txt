@@ -2554,3 +2554,5 @@ xymon-client
 xinput-calibrator
 xdx
 xtail
+xwatch
+xnecview

@@ -7521,3 +7521,5 @@
 /usr/bin/xinput_calibrator
 /usr/bin/xdx
 /usr/bin/xtail
+/usr/bin/xwatch
+/usr/bin/xnecview
