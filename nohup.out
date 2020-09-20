@@ -17048,3 +17048,13 @@ Real binaries:['/usr/bin/coolmail']
 Write to package-work.txt file: coolmail
 Write to package-binaries.txt file: ['/usr/bin/coolmail']
 ['/usr/bin/coolmail']
+Write pickle file
+tar_out:
+Package-nr:3261 of 11000, Name:nfct-dbgsym
+Package >nfct< not in package-all.txt file
+Write to package-all.txt file: nfct
+In package >nfct< are these binaries: ['/usr/sbin/nfct']
+Real binaries:['/usr/sbin/nfct']
+Write to package-work.txt file: nfct
+Write to package-binaries.txt file: ['/usr/sbin/nfct']
+['/usr/sbin/nfct']
