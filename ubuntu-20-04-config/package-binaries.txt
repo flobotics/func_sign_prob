@@ -5634,3 +5634,4 @@
 /usr/sbin/i2cset
 /usr/sbin/i2ctransfer
 /usr/sbin/i2pd
+/sbin/ifup
