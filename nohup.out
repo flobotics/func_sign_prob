@@ -23447,3 +23447,13 @@ Real binaries:['/usr/bin/xfpt']
 Write to package-work.txt file: xfpt
 Write to package-binaries.txt file: ['/usr/bin/xfpt']
 ['/usr/bin/xfpt']
+Write pickle file
+tar_out:
+Package-nr:4011 of 11000, Name:xfce4-session-dbgsym
+Package >xfce4-session< not in package-all.txt file
+Write to package-all.txt file: xfce4-session
+In package >xfce4-session< are these binaries: ['/usr/bin/startxfce4', '/usr/bin/xfce4-session', '/usr/bin/xfce4-session-logout', '/usr/bin/xfce4-session-settings', '/usr/bin/xflock4']
+Real binaries:['/usr/bin/xfce4-session', '/usr/bin/xfce4-session-logout', '/usr/bin/xfce4-session-settings']
+Write to package-work.txt file: xfce4-session
+Write to package-binaries.txt file: ['/usr/bin/xfce4-session', '/usr/bin/xfce4-session-logout', '/usr/bin/xfce4-session-settings']
+['/usr/bin/xfce4-session', '/usr/bin/xfce4-session-logout', '/usr/bin/xfce4-session-settings']

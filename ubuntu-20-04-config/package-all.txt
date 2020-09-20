@@ -4031,3 +4031,4 @@ xinetd
 xserver-xorg-input-multitouch
 xserver-xorg-video-mga
 xfpt
+xfce4-session

@@ -7705,3 +7705,6 @@
 /usr/bin/itox
 /usr/sbin/xinetd
 /usr/bin/xfpt
+/usr/bin/xfce4-session
+/usr/bin/xfce4-session-logout
+/usr/bin/xfce4-session-settings

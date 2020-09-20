@@ -2631,3 +2631,4 @@ xdrawchem
 x2godesktopsharing
 xinetd
 xfpt
+xfce4-session
