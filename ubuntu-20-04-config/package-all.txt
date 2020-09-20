@@ -3443,3 +3443,4 @@ cockpit-ws
 cockpit-bridge
 cockpit-pcp
 comparepdf
+cdparanoia

@@ -2250,3 +2250,4 @@ calculix-cgx
 cockpit-ws
 cockpit-bridge
 comparepdf
+cdparanoia

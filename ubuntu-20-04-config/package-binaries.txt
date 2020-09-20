@@ -6811,3 +6811,4 @@
 /usr/sbin/remotectl
 /usr/bin/cockpit-bridge
 /usr/bin/comparepdf
+/usr/bin/cdparanoia
