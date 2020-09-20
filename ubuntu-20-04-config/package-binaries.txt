@@ -7296,3 +7296,4 @@
 /usr/bin/x2goejectcd
 /usr/bin/xpenguins
 /usr/bin/xfburn
+/usr/bin/xdm

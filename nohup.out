@@ -20983,3 +20983,27 @@ Real binaries:['/usr/bin/xfburn']
 Write to package-work.txt file: xfburn
 Write to package-binaries.txt file: ['/usr/bin/xfburn']
 ['/usr/bin/xfburn']
+Write pickle file
+tar_out:
+Package-nr:3722 of 11000, Name:xabacus-dbgsym
+Package >xabacus< not in package-all.txt file
+Write to package-all.txt file: xabacus
+In package >xabacus< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: xabacus
+[]
+Package-nr:3723 of 11000, Name:xmabacus-dbgsym
+Package >xmabacus< not in package-all.txt file
+Write to package-all.txt file: xmabacus
+In package >xmabacus< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: xmabacus
+[]
+Package-nr:3724 of 11000, Name:xdm-dbgsym
+Package >xdm< not in package-all.txt file
+Write to package-all.txt file: xdm
+In package >xdm< are these binaries: ['/usr/bin/xdm']
+Real binaries:['/usr/bin/xdm']
+Write to package-work.txt file: xdm
+Write to package-binaries.txt file: ['/usr/bin/xdm']
+['/usr/bin/xdm']

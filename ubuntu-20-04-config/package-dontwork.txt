@@ -1321,3 +1321,5 @@ python3-libmsiecf
 lua-mpack
 2048-qt
 xorgxrdp
+xabacus
+xmabacus
