@@ -6901,3 +6901,4 @@
 /usr/bin/janalyzer
 /usr/bin/jbmc
 /usr/bin/jdiff
+/usr/bin/copyq
