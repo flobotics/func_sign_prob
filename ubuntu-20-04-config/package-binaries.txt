@@ -5925,3 +5925,4 @@
 /usr/bin/cdbfasta
 /usr/bin/cdbyank
 /usr/bin/ccr
+/usr/bin/cmake-gui

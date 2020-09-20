@@ -1979,3 +1979,4 @@ colortail
 csmith
 cdbfasta
 codecrypt
+cmake-qt-gui

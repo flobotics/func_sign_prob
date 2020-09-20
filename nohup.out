@@ -14043,3 +14043,27 @@ Real binaries:['/usr/bin/ccr']
 Write to package-work.txt file: codecrypt
 Write to package-binaries.txt file: ['/usr/bin/ccr']
 ['/usr/bin/ccr']
+Write pickle file
+tar_out:
+Package-nr:2893 of 11000, Name:cl-sql-mysql-dbgsym
+Package >cl-sql-mysql< not in package-all.txt file
+Write to package-all.txt file: cl-sql-mysql
+In package >cl-sql-mysql< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: cl-sql-mysql
+[]
+Package-nr:2894 of 11000, Name:cl-sql-uffi-dbgsym
+Package >cl-sql-uffi< not in package-all.txt file
+Write to package-all.txt file: cl-sql-uffi
+In package >cl-sql-uffi< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: cl-sql-uffi
+[]
+Package-nr:2895 of 11000, Name:cmake-qt-gui-dbgsym
+Package >cmake-qt-gui< not in package-all.txt file
+Write to package-all.txt file: cmake-qt-gui
+In package >cmake-qt-gui< are these binaries: ['/usr/bin/cmake-gui']
+Real binaries:['/usr/bin/cmake-gui']
+Write to package-work.txt file: cmake-qt-gui
+Write to package-binaries.txt file: ['/usr/bin/cmake-gui']
+['/usr/bin/cmake-gui']

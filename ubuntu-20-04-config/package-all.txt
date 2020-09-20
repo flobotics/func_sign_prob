@@ -2985,3 +2985,6 @@ colortail
 csmith
 cdbfasta
 codecrypt
+cl-sql-mysql
+cl-sql-uffi
+cmake-qt-gui
