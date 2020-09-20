@@ -3079,3 +3079,5 @@ cairo-dock-impulse-plug-in
 cairo-dock-rendering-plug-in
 cairo-dock-kde-integration-plug-in
 celluloid
+cenon.app
+clonalframeml

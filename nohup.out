@@ -14794,3 +14794,20 @@ Real binaries:['/usr/bin/celluloid']
 Write to package-work.txt file: celluloid
 Write to package-binaries.txt file: ['/usr/bin/celluloid']
 ['/usr/bin/celluloid']
+Write pickle file
+tar_out:
+Package-nr:2991 of 11000, Name:cenon.app-dbgsym
+Package >cenon.app< not in package-all.txt file
+Write to package-all.txt file: cenon.app
+In package >cenon.app< are these binaries: ['/usr/bin/Cenon']
+Real binaries:[]
+Write to package-dontwork.txt file: cenon.app
+[]
+Package-nr:2992 of 11000, Name:clonalframeml-dbgsym
+Package >clonalframeml< not in package-all.txt file
+Write to package-all.txt file: clonalframeml
+In package >clonalframeml< are these binaries: ['/usr/bin/ClonalFrameML']
+Real binaries:['/usr/bin/ClonalFrameML']
+Write to package-work.txt file: clonalframeml
+Write to package-binaries.txt file: ['/usr/bin/ClonalFrameML']
+['/usr/bin/ClonalFrameML']
