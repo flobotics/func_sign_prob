@@ -2060,3 +2060,4 @@ cacti-spine
 canlock
 cdi2iso
 comskip-gui
+clblas-client

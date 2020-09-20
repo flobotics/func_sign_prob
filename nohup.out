@@ -15476,3 +15476,16 @@ Real binaries:['/usr/bin/comskip-gui']
 Write to package-work.txt file: comskip-gui
 Write to package-binaries.txt file: ['/usr/bin/comskip-gui']
 ['/usr/bin/comskip-gui']
+Write pickle file
+tar_out:
+Package-nr:3073 of 11000, Name:comskip-dbgsym
+Skip package >comskip<, already in package-all.txt file
+[]
+Package-nr:3074 of 11000, Name:clblas-client-dbgsym
+Package >clblas-client< not in package-all.txt file
+Write to package-all.txt file: clblas-client
+In package >clblas-client< are these binaries: ['/usr/bin/clBLAS-client']
+Real binaries:['/usr/bin/clBLAS-client']
+Write to package-work.txt file: clblas-client
+Write to package-binaries.txt file: ['/usr/bin/clBLAS-client']
+['/usr/bin/clBLAS-client']

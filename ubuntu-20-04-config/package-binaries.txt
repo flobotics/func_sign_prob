@@ -6042,3 +6042,4 @@
 /usr/bin/canlock-mhp
 /usr/bin/cdi2iso
 /usr/bin/comskip-gui
+/usr/bin/clBLAS-client
