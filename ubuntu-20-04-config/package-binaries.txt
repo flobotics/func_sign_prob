@@ -6958,3 +6958,4 @@
 /usr/lib/cyrus/bin/timsieved
 /usr/lib/cyrus/bin/tls_prune
 /usr/lib/cyrus/bin/unexpunge
+/usr/lib/cyrus/bin/pop3d

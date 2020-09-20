@@ -3502,3 +3502,4 @@ crack-md5
 ccze
 cgminer
 cyrus-common
+cyrus-pop3d
