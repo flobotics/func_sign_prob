@@ -16704,3 +16704,13 @@ Real binaries:['/usr/bin/calligrastage']
 Write to package-work.txt file: calligrastage
 Write to package-binaries.txt file: ['/usr/bin/calligrastage']
 ['/usr/bin/calligrastage']
+Write pickle file
+tar_out:
+Package-nr:3223 of 11000, Name:calligrawords-dbgsym
+Package >calligrawords< not in package-all.txt file
+Write to package-all.txt file: calligrawords
+In package >calligrawords< are these binaries: ['/usr/bin/calligrawords']
+Real binaries:['/usr/bin/calligrawords']
+Write to package-work.txt file: calligrawords
+Write to package-binaries.txt file: ['/usr/bin/calligrawords']
+['/usr/bin/calligrawords']

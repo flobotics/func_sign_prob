@@ -6433,3 +6433,4 @@
 /usr/bin/bct_dump
 /usr/bin/cbootimage
 /usr/bin/calligrastage
+/usr/bin/calligrawords
