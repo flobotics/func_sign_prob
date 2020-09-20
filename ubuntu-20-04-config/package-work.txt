@@ -2287,3 +2287,4 @@ care
 cheesecutter
 checkpolicy
 confclerk
+checkit-tiff

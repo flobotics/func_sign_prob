@@ -18544,3 +18544,20 @@ Real binaries:['/usr/bin/confclerk']
 Write to package-work.txt file: confclerk
 Write to package-binaries.txt file: ['/usr/bin/confclerk']
 ['/usr/bin/confclerk']
+Write pickle file
+tar_out:
+Package-nr:3430 of 11000, Name:cavezofphear-dbgsym
+Package >cavezofphear< not in package-all.txt file
+Write to package-all.txt file: cavezofphear
+In package >cavezofphear< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: cavezofphear
+[]
+Package-nr:3431 of 11000, Name:checkit-tiff-dbgsym
+Package >checkit-tiff< not in package-all.txt file
+Write to package-all.txt file: checkit-tiff
+In package >checkit-tiff< are these binaries: ['/usr/bin/checkit_tiff']
+Real binaries:['/usr/bin/checkit_tiff']
+Write to package-work.txt file: checkit-tiff
+Write to package-binaries.txt file: ['/usr/bin/checkit_tiff']
+['/usr/bin/checkit_tiff']

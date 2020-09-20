@@ -6892,3 +6892,4 @@
 /usr/bin/checkmodule
 /usr/bin/checkpolicy
 /usr/bin/confclerk
+/usr/bin/checkit_tiff
