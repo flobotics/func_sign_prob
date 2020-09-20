@@ -7423,3 +7423,4 @@
 /usr/bin/xmakemol
 /usr/bin/xchm
 /usr/bin/xlax
+/usr/bin/xdms
