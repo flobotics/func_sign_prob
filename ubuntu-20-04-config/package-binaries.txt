@@ -6803,3 +6803,5 @@
 /usr/bin/hbf2gf
 /usr/bin/sjisconv
 /usr/bin/clFFT-client
+/usr/bin/cksfv
+/usr/bin/cronolog

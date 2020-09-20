@@ -3434,3 +3434,5 @@ latex-cjk-chinese
 latex-cjk-common
 latex-cjk-japanese
 clfft-client
+cksfv
+cronolog
