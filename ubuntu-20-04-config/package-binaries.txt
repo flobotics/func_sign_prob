@@ -6706,3 +6706,4 @@
 /usr/bin/clustalw
 /usr/bin/clamz
 /usr/bin/corkscrew
+/usr/bin/clog

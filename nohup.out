@@ -17656,3 +17656,13 @@ Real binaries:['/usr/bin/corkscrew']
 Write to package-work.txt file: corkscrew
 Write to package-binaries.txt file: ['/usr/bin/corkscrew']
 ['/usr/bin/corkscrew']
+Write pickle file
+tar_out:
+Package-nr:3330 of 11000, Name:clog-dbgsym
+Package >clog< not in package-all.txt file
+Write to package-all.txt file: clog
+In package >clog< are these binaries: ['/usr/bin/clog']
+Real binaries:['/usr/bin/clog']
+Write to package-work.txt file: clog
+Write to package-binaries.txt file: ['/usr/bin/clog']
+['/usr/bin/clog']
