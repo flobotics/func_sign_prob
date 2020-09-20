@@ -2419,3 +2419,4 @@ qtbase5-dev-tools
 qt5-qmake-bin
 qdirstat
 qprint
+quicktun

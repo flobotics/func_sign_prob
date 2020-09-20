@@ -3739,3 +3739,5 @@ qt5-gtk-platformtheme
 qt5-qmake-bin
 qdirstat
 qprint
+qtspeech5-examples
+quicktun

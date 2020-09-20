@@ -7226,3 +7226,5 @@
 /usr/lib/qt5/bin/qmake
 /usr/bin/qdirstat
 /usr/bin/qprint
+/usr/sbin/keypair
+/usr/sbin/quicktun

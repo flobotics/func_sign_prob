@@ -20711,3 +20711,20 @@ Real binaries:['/usr/bin/qprint']
 Write to package-work.txt file: qprint
 Write to package-binaries.txt file: ['/usr/bin/qprint']
 ['/usr/bin/qprint']
+Write pickle file
+tar_out:
+Package-nr:3693 of 11000, Name:qtspeech5-examples-dbgsym
+Package >qtspeech5-examples< not in package-all.txt file
+Write to package-all.txt file: qtspeech5-examples
+In package >qtspeech5-examples< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: qtspeech5-examples
+[]
+Package-nr:3694 of 11000, Name:quicktun-dbgsym
+Package >quicktun< not in package-all.txt file
+Write to package-all.txt file: quicktun
+In package >quicktun< are these binaries: ['/usr/sbin/keypair', '/usr/sbin/quicktun']
+Real binaries:['/usr/sbin/keypair', '/usr/sbin/quicktun']
+Write to package-work.txt file: quicktun
+Write to package-binaries.txt file: ['/usr/sbin/keypair', '/usr/sbin/quicktun']
+['/usr/sbin/keypair', '/usr/sbin/quicktun']
