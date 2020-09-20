@@ -2531,3 +2531,4 @@ xnec2c
 xjadeo
 xmacro
 x2x
+xsane

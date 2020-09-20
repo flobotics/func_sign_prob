@@ -3890,3 +3890,5 @@ xjadeo
 xmacro
 xsynth-dssi
 x2x
+xqf
+xsane

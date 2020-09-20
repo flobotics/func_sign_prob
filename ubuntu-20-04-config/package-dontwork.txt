@@ -1354,3 +1354,4 @@ xmahjongg
 xmountains
 tcl-xpa
 xsynth-dssi
+xqf
