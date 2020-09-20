@@ -5919,3 +5919,5 @@
 /usr/bin/ctpp2i
 /usr/bin/ctpp2json
 /usr/bin/ctpp2vm
+/usr/bin/cppo
+/usr/bin/colortail
