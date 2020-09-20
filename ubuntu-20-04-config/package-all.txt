@@ -4051,3 +4051,4 @@ kio-sieve
 ktoblzcheck
 7kaa
 vokoscreen-ng
+vboot-utils

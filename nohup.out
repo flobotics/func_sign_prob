@@ -23618,3 +23618,13 @@ Real binaries:['/usr/bin/vokoscreenNG']
 Write to package-work.txt file: vokoscreen-ng
 Write to package-binaries.txt file: ['/usr/bin/vokoscreenNG']
 ['/usr/bin/vokoscreenNG']
+Write pickle file
+tar_out:
+Package-nr:4031 of 11000, Name:vboot-utils-dbgsym
+Package >vboot-utils< not in package-all.txt file
+Write to package-all.txt file: vboot-utils
+In package >vboot-utils< are these binaries: ['/usr/bin/chromeos-tpm-recovery', '/usr/bin/crossystem', '/usr/bin/dev_debug_vboot', '/usr/bin/dev_make_keypair', '/usr/bin/dumpRSAPublicKey', '/usr/bin/enable_dev_usb_boot', '/usr/bin/load_kernel_test', '/usr/bin/pad_digest_utility', '/usr/bin/signature_digest_utility', '/usr/bin/tpm-nvsize', '/usr/bin/tpmc', '/usr/bin/vbutil_what_keys', '/usr/bin/verify_data', '/usr/share/vboot/bin/common_minimal.sh', '/usr/share/vboot/bin/gbb_flags_common.sh', '/usr/share/vboot/bin/get_gbb_flags.sh', '/usr/share/vboot/bin/make_dev_firmware.sh', '/usr/share/vboot/bin/make_dev_ssd.sh', '/usr/share/vboot/bin/resign_firmwarefd.sh', '/usr/share/vboot/bin/set_gbb_flags.sh', '/usr/bin/dump_fmap', '/usr/bin/dump_kernel_config', '/usr/bin/gbb_utility', '/usr/bin/vbutil_firmware', '/usr/bin/vbutil_key', '/usr/bin/vbutil_keyblock']
+Real binaries:['/usr/bin/crossystem', '/usr/bin/dumpRSAPublicKey', '/usr/bin/load_kernel_test', '/usr/bin/pad_digest_utility', '/usr/bin/signature_digest_utility', '/usr/bin/tpmc', '/usr/bin/verify_data']
+Write to package-work.txt file: vboot-utils
+Write to package-binaries.txt file: ['/usr/bin/crossystem', '/usr/bin/dumpRSAPublicKey', '/usr/bin/load_kernel_test', '/usr/bin/pad_digest_utility', '/usr/bin/signature_digest_utility', '/usr/bin/tpmc', '/usr/bin/verify_data']
+['/usr/bin/crossystem', '/usr/bin/dumpRSAPublicKey', '/usr/bin/load_kernel_test', '/usr/bin/pad_digest_utility', '/usr/bin/signature_digest_utility', '/usr/bin/tpmc', '/usr/bin/verify_data']
