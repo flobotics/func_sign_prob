@@ -2538,3 +2538,6 @@ x265
 xqilla
 xutils-dev
 xbattbar
+xclip
+xmix
+x11-touchscreen-calibrator

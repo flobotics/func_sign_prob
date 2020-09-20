@@ -3899,3 +3899,12 @@ x265
 xqilla
 xutils-dev
 xbattbar
+xclip
+xye
+xmix
+python-xapian
+tclxapian
+ruby-xapian
+python3-xapian
+xdemineur
+x11-touchscreen-calibrator

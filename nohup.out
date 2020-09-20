@@ -22215,3 +22215,71 @@ Real binaries:['/usr/bin/xbattbar']
 Write to package-work.txt file: xbattbar
 Write to package-binaries.txt file: ['/usr/bin/xbattbar']
 ['/usr/bin/xbattbar']
+Write pickle file
+tar_out:
+Package-nr:3866 of 11000, Name:xclip-dbgsym
+Package >xclip< not in package-all.txt file
+Write to package-all.txt file: xclip
+In package >xclip< are these binaries: ['/usr/bin/xclip', '/usr/bin/xclip-copyfile', '/usr/bin/xclip-cutfile', '/usr/bin/xclip-pastefile']
+Real binaries:['/usr/bin/xclip']
+Write to package-work.txt file: xclip
+No binaries to write to package-binaries.txt file
+[]
+Package-nr:3867 of 11000, Name:xye-dbgsym
+Package >xye< not in package-all.txt file
+Write to package-all.txt file: xye
+In package >xye< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: xye
+[]
+Package-nr:3868 of 11000, Name:xmix-dbgsym
+Package >xmix< not in package-all.txt file
+Write to package-all.txt file: xmix
+In package >xmix< are these binaries: ['/usr/bin/xmix']
+Real binaries:['/usr/bin/xmix']
+Write to package-work.txt file: xmix
+Write to package-binaries.txt file: ['/usr/bin/xmix']
+['/usr/bin/xmix']
+Package-nr:3869 of 11000, Name:python-xapian-dbgsym
+Package >python-xapian< not in package-all.txt file
+Write to package-all.txt file: python-xapian
+In package >python-xapian< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: python-xapian
+[]
+Package-nr:3870 of 11000, Name:tclxapian-dbgsym
+Package >tclxapian< not in package-all.txt file
+Write to package-all.txt file: tclxapian
+In package >tclxapian< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: tclxapian
+[]
+Package-nr:3871 of 11000, Name:ruby-xapian-dbgsym
+Package >ruby-xapian< not in package-all.txt file
+Write to package-all.txt file: ruby-xapian
+In package >ruby-xapian< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: ruby-xapian
+[]
+Package-nr:3872 of 11000, Name:python3-xapian-dbgsym
+Package >python3-xapian< not in package-all.txt file
+Write to package-all.txt file: python3-xapian
+In package >python3-xapian< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: python3-xapian
+[]
+Package-nr:3873 of 11000, Name:xdemineur-dbgsym
+Package >xdemineur< not in package-all.txt file
+Write to package-all.txt file: xdemineur
+In package >xdemineur< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: xdemineur
+[]
+Package-nr:3874 of 11000, Name:x11-touchscreen-calibrator-dbgsym
+Package >x11-touchscreen-calibrator< not in package-all.txt file
+Write to package-all.txt file: x11-touchscreen-calibrator
+In package >x11-touchscreen-calibrator< are these binaries: ['/usr/bin/x11-touchscreen-calibrator']
+Real binaries:['/usr/bin/x11-touchscreen-calibrator']
+Write to package-work.txt file: x11-touchscreen-calibrator
+Write to package-binaries.txt file: ['/usr/bin/x11-touchscreen-calibrator']
+['/usr/bin/x11-touchscreen-calibrator']

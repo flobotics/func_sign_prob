@@ -1356,3 +1356,9 @@ tcl-xpa
 xsynth-dssi
 xqf
 xgammon
+xye
+python-xapian
+tclxapian
+ruby-xapian
+python3-xapian
+xdemineur
