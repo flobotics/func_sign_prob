@@ -7060,3 +7060,6 @@
 /usr/bin/qtox
 /usr/bin/QTLtools
 /usr/bin/qbrew
+/usr/bin/q4wine
+/usr/bin/q4wine-cli
+/usr/bin/q4wine-helper

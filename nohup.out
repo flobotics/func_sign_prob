@@ -19753,3 +19753,13 @@ Real binaries:['/usr/bin/qbrew']
 Write to package-work.txt file: qbrew
 Write to package-binaries.txt file: ['/usr/bin/qbrew']
 ['/usr/bin/qbrew']
+Write pickle file
+tar_out:
+Package-nr:3580 of 11000, Name:q4wine-dbgsym
+Package >q4wine< not in package-all.txt file
+Write to package-all.txt file: q4wine
+In package >q4wine< are these binaries: ['/usr/bin/q4wine', '/usr/bin/q4wine-cli', '/usr/bin/q4wine-helper']
+Real binaries:['/usr/bin/q4wine', '/usr/bin/q4wine-cli', '/usr/bin/q4wine-helper']
+Write to package-work.txt file: q4wine
+Write to package-binaries.txt file: ['/usr/bin/q4wine', '/usr/bin/q4wine-cli', '/usr/bin/q4wine-helper']
+['/usr/bin/q4wine', '/usr/bin/q4wine-cli', '/usr/bin/q4wine-helper']
