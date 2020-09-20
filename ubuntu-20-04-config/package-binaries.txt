@@ -7285,3 +7285,4 @@
 /usr/bin/reloc65
 /usr/bin/uncpk
 /usr/bin/xa
+/usr/bin/xwit
