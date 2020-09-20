@@ -2590,3 +2590,4 @@ xfwm4
 xautomation
 xfce4-notifyd
 xininfo
+x86info

@@ -3968,3 +3968,5 @@ xfwm4
 xautomation
 xfce4-notifyd
 xininfo
+xmoto
+x86info

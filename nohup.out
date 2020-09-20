@@ -22872,3 +22872,23 @@ Real binaries:['/usr/bin/xininfo']
 Write to package-work.txt file: xininfo
 Write to package-binaries.txt file: ['/usr/bin/xininfo']
 ['/usr/bin/xininfo']
+Write pickle file
+tar_out:
+Package-nr:3943 of 11000, Name:xmoto-dbgsym
+Package >xmoto< not in package-all.txt file
+Write to package-all.txt file: xmoto
+In package >xmoto< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: xmoto
+[]
+Package-nr:3944 of 11000, Name:xmp-dbgsym
+Skip package >xmp<, already in package-all.txt file
+[]
+Package-nr:3945 of 11000, Name:x86info-dbgsym
+Package >x86info< not in package-all.txt file
+Write to package-all.txt file: x86info
+In package >x86info< are these binaries: ['/usr/bin/x86info']
+Real binaries:['/usr/bin/x86info']
+Write to package-work.txt file: x86info
+Write to package-binaries.txt file: ['/usr/bin/x86info']
+['/usr/bin/x86info']
