@@ -7506,3 +7506,4 @@
 /usr/sbin/xorp_profiler
 /usr/sbin/xorp_rtrmgr
 /usr/sbin/xorpsh
+/usr/bin/lzip.xlunzip
