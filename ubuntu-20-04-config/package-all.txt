@@ -3706,3 +3706,5 @@ qtwebchannel5-examples
 r-cran-quadprog
 python3-qpid-proton
 qsf
+qtserialbus5-examples
+qrq

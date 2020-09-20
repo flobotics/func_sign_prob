@@ -7181,3 +7181,4 @@
 /usr/bin/qjackctl
 /usr/bin/qlipper
 /usr/bin/qsf
+/usr/bin/qrq

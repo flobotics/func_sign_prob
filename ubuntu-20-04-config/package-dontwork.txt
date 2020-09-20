@@ -1304,3 +1304,4 @@ qml-module-qtwebchannel
 qtwebchannel5-examples
 r-cran-quadprog
 python3-qpid-proton
+qtserialbus5-examples

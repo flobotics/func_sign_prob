@@ -20415,3 +20415,20 @@ Real binaries:['/usr/bin/qsf']
 Write to package-work.txt file: qsf
 Write to package-binaries.txt file: ['/usr/bin/qsf']
 ['/usr/bin/qsf']
+Write pickle file
+tar_out:
+Package-nr:3659 of 11000, Name:qtserialbus5-examples-dbgsym
+Package >qtserialbus5-examples< not in package-all.txt file
+Write to package-all.txt file: qtserialbus5-examples
+In package >qtserialbus5-examples< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: qtserialbus5-examples
+[]
+Package-nr:3660 of 11000, Name:qrq-dbgsym
+Package >qrq< not in package-all.txt file
+Write to package-all.txt file: qrq
+In package >qrq< are these binaries: ['/usr/bin/qrq', '/usr/bin/qrqscore']
+Real binaries:['/usr/bin/qrq']
+Write to package-work.txt file: qrq
+Write to package-binaries.txt file: ['/usr/bin/qrq']
+['/usr/bin/qrq']
