@@ -19503,3 +19503,27 @@ Real binaries:['/usr/bin/quitcount']
 Write to package-work.txt file: quitcount
 Write to package-binaries.txt file: ['/usr/bin/quitcount']
 ['/usr/bin/quitcount']
+Write pickle file
+tar_out:
+Package-nr:3548 of 11000, Name:qml-module-qtwebview-dbgsym
+Package >qml-module-qtwebview< not in package-all.txt file
+Write to package-all.txt file: qml-module-qtwebview
+In package >qml-module-qtwebview< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: qml-module-qtwebview
+[]
+Package-nr:3549 of 11000, Name:qtwebview5-examples-dbgsym
+Package >qtwebview5-examples< not in package-all.txt file
+Write to package-all.txt file: qtwebview5-examples
+In package >qtwebview5-examples< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: qtwebview5-examples
+[]
+Package-nr:3550 of 11000, Name:qpdfview-dbgsym
+Package >qpdfview< not in package-all.txt file
+Write to package-all.txt file: qpdfview
+In package >qpdfview< are these binaries: ['/usr/bin/qpdfview']
+Real binaries:['/usr/bin/qpdfview']
+Write to package-work.txt file: qpdfview
+Write to package-binaries.txt file: ['/usr/bin/qpdfview']
+['/usr/bin/qpdfview']

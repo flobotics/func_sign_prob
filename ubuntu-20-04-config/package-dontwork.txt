@@ -1247,3 +1247,5 @@ qtcharts5-examples
 qml-module-qtcharts
 qtwebengine5-examples
 qml-module-qtwebengine
+qml-module-qtwebview
+qtwebview5-examples

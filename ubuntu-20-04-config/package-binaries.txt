@@ -7036,3 +7036,4 @@
 /usr/lib/qt5/bin/qwebengine_convert_dict
 /usr/bin/qtgain
 /usr/bin/quitcount
+/usr/bin/qpdfview
