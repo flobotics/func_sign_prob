@@ -18183,3 +18183,13 @@ Real binaries:['/usr/bin/curlftpfs']
 Write to package-work.txt file: curlftpfs
 Write to package-binaries.txt file: ['/usr/bin/curlftpfs']
 ['/usr/bin/curlftpfs']
+Write pickle file
+tar_out:
+Package-nr:3388 of 11000, Name:ctpl-dbgsym
+Package >ctpl< not in package-all.txt file
+Write to package-all.txt file: ctpl
+In package >ctpl< are these binaries: ['/usr/bin/ctpl']
+Real binaries:['/usr/bin/ctpl']
+Write to package-work.txt file: ctpl
+Write to package-binaries.txt file: ['/usr/bin/ctpl']
+['/usr/bin/ctpl']

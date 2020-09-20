@@ -6822,3 +6822,4 @@
 /usr/bin/cassiopeeknife
 /usr/bin/cmst
 /usr/bin/curlftpfs
+/usr/bin/ctpl
