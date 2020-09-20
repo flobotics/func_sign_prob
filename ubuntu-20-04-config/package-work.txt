@@ -1895,3 +1895,4 @@ ipgrab
 ifplugd
 inventor-clients
 istgt
+indigo-utils

@@ -2872,3 +2872,4 @@ ifplugd
 inventor-demo
 inventor-clients
 istgt
+indigo-utils

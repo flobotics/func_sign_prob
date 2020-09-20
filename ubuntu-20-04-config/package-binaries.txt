@@ -5646,3 +5646,6 @@
 /usr/bin/ivview
 /usr/sbin/istgt
 /usr/sbin/istgtcontrol
+/usr/bin/indigo-cano
+/usr/bin/indigo-deco
+/usr/bin/indigo-depict
