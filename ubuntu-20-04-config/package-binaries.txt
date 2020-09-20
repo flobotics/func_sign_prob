@@ -6783,3 +6783,6 @@
 /usr/bin/ceph-immutable-object-cache
 /usr/bin/rbd-mirror
 /usr/bin/rbd-fuse
+/usr/bin/ctfconvert
+/usr/bin/ctfdump
+/usr/bin/ctfmerge
