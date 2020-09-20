@@ -16947,3 +16947,13 @@ Real binaries:['/usr/bin/clamfs']
 Write to package-work.txt file: clamfs
 Write to package-binaries.txt file: ['/usr/bin/clamfs']
 ['/usr/bin/clamfs']
+Write pickle file
+tar_out:
+Package-nr:3250 of 11000, Name:chktex-dbgsym
+Package >chktex< not in package-all.txt file
+Write to package-all.txt file: chktex
+In package >chktex< are these binaries: ['/usr/bin/chktex', '/usr/bin/chkweb', '/usr/bin/deweb']
+Real binaries:['/usr/bin/chktex']
+Write to package-work.txt file: chktex
+Write to package-binaries.txt file: ['/usr/bin/chktex']
+['/usr/bin/chktex']

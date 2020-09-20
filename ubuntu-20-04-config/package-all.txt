@@ -3319,3 +3319,4 @@ icedax
 wodim
 cutemaze
 clamfs
+chktex
