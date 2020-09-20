@@ -5927,3 +5927,4 @@
 /usr/bin/ccr
 /usr/bin/cmake-gui
 /usr/bin/ccmake
+/usr/bin/cd-discid

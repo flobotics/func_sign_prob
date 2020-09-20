@@ -1981,3 +1981,4 @@ cdbfasta
 codecrypt
 cmake-qt-gui
 cmake-curses-gui
+cd-discid
