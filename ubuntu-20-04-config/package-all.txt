@@ -3007,3 +3007,5 @@ coinor-libosi1v5
 cdck
 creduce
 codelite
+conda-package-handling
+cstream

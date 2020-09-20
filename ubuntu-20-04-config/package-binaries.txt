@@ -5941,3 +5941,4 @@
 /usr/bin/cdck
 /usr/bin/codelite
 /usr/bin/codelite-make
+/usr/bin/cstream

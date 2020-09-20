@@ -1009,3 +1009,4 @@ python3-coda
 python3-cypari2
 coinor-libosi1v5
 creduce
+conda-package-handling
