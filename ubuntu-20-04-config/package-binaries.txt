@@ -7059,3 +7059,4 @@
 /usr/bin/qstardict
 /usr/bin/qtox
 /usr/bin/QTLtools
+/usr/bin/qbrew

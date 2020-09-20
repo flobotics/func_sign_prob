@@ -2355,3 +2355,4 @@ quvi
 qstardict
 qtox
 qtltools
+qbrew

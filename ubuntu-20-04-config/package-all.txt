@@ -3628,3 +3628,4 @@ qstardict
 qtox
 qtgamepad5-examples
 qtltools
+qbrew
