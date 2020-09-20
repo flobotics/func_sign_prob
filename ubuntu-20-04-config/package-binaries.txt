@@ -7458,3 +7458,14 @@
 /usr/bin/xgrep
 /usr/bin/xcape
 /usr/bin/Xvfb
+/usr/bin/dmxaddinput
+/usr/bin/dmxaddscreen
+/usr/bin/dmxinfo
+/usr/bin/dmxreconfig
+/usr/bin/dmxresize
+/usr/bin/dmxrminput
+/usr/bin/dmxrmscreen
+/usr/bin/dmxtodmx
+/usr/bin/dmxwininfo
+/usr/bin/vdltodmx
+/usr/bin/xdmxconfig

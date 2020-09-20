@@ -22340,3 +22340,13 @@ Real binaries:['/usr/bin/Xvfb']
 Write to package-work.txt file: xvfb
 Write to package-binaries.txt file: ['/usr/bin/Xvfb']
 ['/usr/bin/Xvfb']
+Write pickle file
+tar_out:
+Package-nr:3882 of 11000, Name:xdmx-tools-dbgsym
+Package >xdmx-tools< not in package-all.txt file
+Write to package-all.txt file: xdmx-tools
+In package >xdmx-tools< are these binaries: ['/usr/bin/dmxaddinput', '/usr/bin/dmxaddscreen', '/usr/bin/dmxinfo', '/usr/bin/dmxreconfig', '/usr/bin/dmxresize', '/usr/bin/dmxrminput', '/usr/bin/dmxrmscreen', '/usr/bin/dmxtodmx', '/usr/bin/dmxwininfo', '/usr/bin/vdltodmx', '/usr/bin/xdmxconfig']
+Real binaries:['/usr/bin/dmxaddinput', '/usr/bin/dmxaddscreen', '/usr/bin/dmxinfo', '/usr/bin/dmxreconfig', '/usr/bin/dmxresize', '/usr/bin/dmxrminput', '/usr/bin/dmxrmscreen', '/usr/bin/dmxtodmx', '/usr/bin/dmxwininfo', '/usr/bin/vdltodmx', '/usr/bin/xdmxconfig']
+Write to package-work.txt file: xdmx-tools
+Write to package-binaries.txt file: ['/usr/bin/dmxaddinput', '/usr/bin/dmxaddscreen', '/usr/bin/dmxinfo', '/usr/bin/dmxreconfig', '/usr/bin/dmxresize', '/usr/bin/dmxrminput', '/usr/bin/dmxrmscreen', '/usr/bin/dmxtodmx', '/usr/bin/dmxwininfo', '/usr/bin/vdltodmx', '/usr/bin/xdmxconfig']
+['/usr/bin/dmxaddinput', '/usr/bin/dmxaddscreen', '/usr/bin/dmxinfo', '/usr/bin/dmxreconfig', '/usr/bin/dmxresize', '/usr/bin/dmxrminput', '/usr/bin/dmxrmscreen', '/usr/bin/dmxtodmx', '/usr/bin/dmxwininfo', '/usr/bin/vdltodmx', '/usr/bin/xdmxconfig']
