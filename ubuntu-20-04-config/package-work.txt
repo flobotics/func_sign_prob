@@ -1939,3 +1939,4 @@ idesk
 imx-usb-loader
 iftop
 icewm
+icewm-common
