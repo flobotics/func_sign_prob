@@ -15973,3 +15973,20 @@ Real binaries:['/usr/bin/cdctrl', '/usr/bin/cdown', '/usr/bin/cdtool2cddb']
 Write to package-work.txt file: cdtool
 Write to package-binaries.txt file: ['/usr/bin/cdctrl', '/usr/bin/cdown', '/usr/bin/cdtool2cddb']
 ['/usr/bin/cdctrl', '/usr/bin/cdown', '/usr/bin/cdtool2cddb']
+Write pickle file
+tar_out:
+Package-nr:3133 of 11000, Name:python3-cmor-dbgsym
+Package >python3-cmor< not in package-all.txt file
+Write to package-all.txt file: python3-cmor
+In package >python3-cmor< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: python3-cmor
+[]
+Package-nr:3134 of 11000, Name:compton-conf-dbgsym
+Package >compton-conf< not in package-all.txt file
+Write to package-all.txt file: compton-conf
+In package >compton-conf< are these binaries: ['/usr/bin/compton-conf']
+Real binaries:['/usr/bin/compton-conf']
+Write to package-work.txt file: compton-conf
+Write to package-binaries.txt file: ['/usr/bin/compton-conf']
+['/usr/bin/compton-conf']

@@ -3208,3 +3208,5 @@ ccbuild
 cataclysm-dda-sdl
 cataclysm-dda-curses
 cdtool
+python3-cmor
+compton-conf
