@@ -16007,3 +16007,30 @@ Real binaries:['/usr/bin/comptty']
 Write to package-work.txt file: comptty
 Write to package-binaries.txt file: ['/usr/bin/comptty']
 ['/usr/bin/comptty']
+Write pickle file
+tar_out:
+Package-nr:3137 of 11000, Name:compton-dbgsym
+Skip package >compton<, already in package-all.txt file
+[]
+Package-nr:3138 of 11000, Name:python3-cccolutils-dbgsym
+Package >python3-cccolutils< not in package-all.txt file
+Write to package-all.txt file: python3-cccolutils
+In package >python3-cccolutils< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: python3-cccolutils
+[]
+Package-nr:3139 of 11000, Name:cinnamon-settings-daemon-dbgsym
+Package >cinnamon-settings-daemon< not in package-all.txt file
+Write to package-all.txt file: cinnamon-settings-daemon
+In package >cinnamon-settings-daemon< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: cinnamon-settings-daemon
+[]
+Package-nr:3140 of 11000, Name:can-utils-dbgsym
+Package >can-utils< not in package-all.txt file
+Write to package-all.txt file: can-utils
+In package >can-utils< are these binaries: ['/usr/bin/asc2log', '/usr/bin/bcmserver', '/usr/bin/can-calc-bit-timing', '/usr/bin/canbusload', '/usr/bin/candump', '/usr/bin/canfdtest', '/usr/bin/cangen', '/usr/bin/cangw', '/usr/bin/canlogserver', '/usr/bin/canplayer', '/usr/bin/cansend', '/usr/bin/cansniffer', '/usr/bin/isotpdump', '/usr/bin/isotpperf', '/usr/bin/isotprecv', '/usr/bin/isotpsend', '/usr/bin/isotpserver', '/usr/bin/isotpsniffer', '/usr/bin/isotptun', '/usr/bin/jacd', '/usr/bin/jspy', '/usr/bin/jsr', '/usr/bin/log2asc', '/usr/bin/log2long', '/usr/bin/slcan_attach', '/usr/bin/slcand', '/usr/bin/slcanpty', '/usr/bin/testj1939']
+Real binaries:['/usr/bin/asc2log', '/usr/bin/bcmserver', '/usr/bin/can-calc-bit-timing', '/usr/bin/canbusload', '/usr/bin/candump', '/usr/bin/canfdtest', '/usr/bin/cangen', '/usr/bin/cangw', '/usr/bin/canlogserver', '/usr/bin/canplayer', '/usr/bin/cansend', '/usr/bin/cansniffer', '/usr/bin/isotpdump', '/usr/bin/isotpperf', '/usr/bin/isotprecv', '/usr/bin/isotpsend', '/usr/bin/isotpserver', '/usr/bin/isotpsniffer', '/usr/bin/isotptun', '/usr/bin/jacd', '/usr/bin/jspy', '/usr/bin/jsr', '/usr/bin/log2asc', '/usr/bin/log2long', '/usr/bin/slcan_attach', '/usr/bin/slcand', '/usr/bin/slcanpty', '/usr/bin/testj1939']
+Write to package-work.txt file: can-utils
+Write to package-binaries.txt file: ['/usr/bin/asc2log', '/usr/bin/bcmserver', '/usr/bin/can-calc-bit-timing', '/usr/bin/canbusload', '/usr/bin/candump', '/usr/bin/canfdtest', '/usr/bin/cangen', '/usr/bin/cangw', '/usr/bin/canlogserver', '/usr/bin/canplayer', '/usr/bin/cansend', '/usr/bin/cansniffer', '/usr/bin/isotpdump', '/usr/bin/isotpperf', '/usr/bin/isotprecv', '/usr/bin/isotpsend', '/usr/bin/isotpserver', '/usr/bin/isotpsniffer', '/usr/bin/isotptun', '/usr/bin/jacd', '/usr/bin/jspy', '/usr/bin/jsr', '/usr/bin/log2asc', '/usr/bin/log2long', '/usr/bin/slcan_attach', '/usr/bin/slcand', '/usr/bin/slcanpty', '/usr/bin/testj1939']
+['/usr/bin/asc2log', '/usr/bin/bcmserver', '/usr/bin/can-calc-bit-timing', '/usr/bin/canbusload', '/usr/bin/candump', '/usr/bin/canfdtest', '/usr/bin/cangen', '/usr/bin/cangw', '/usr/bin/canlogserver', '/usr/bin/canplayer', '/usr/bin/cansend', '/usr/bin/cansniffer', '/usr/bin/isotpdump', '/usr/bin/isotpperf', '/usr/bin/isotprecv', '/usr/bin/isotpsend', '/usr/bin/isotpserver', '/usr/bin/isotpsniffer', '/usr/bin/isotptun', '/usr/bin/jacd', '/usr/bin/jspy', '/usr/bin/jsr', '/usr/bin/log2asc', '/usr/bin/log2long', '/usr/bin/slcan_attach', '/usr/bin/slcand', '/usr/bin/slcanpty', '/usr/bin/testj1939']

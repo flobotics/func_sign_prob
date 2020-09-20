@@ -3212,3 +3212,6 @@ python3-cmor
 compton-conf
 cowbell
 comptty
+python3-cccolutils
+cinnamon-settings-daemon
+can-utils

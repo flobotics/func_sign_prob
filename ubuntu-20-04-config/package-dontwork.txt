@@ -1112,3 +1112,5 @@ cataclysm-dda-sdl
 cataclysm-dda-curses
 python3-cmor
 cowbell
+python3-cccolutils
+cinnamon-settings-daemon
