@@ -22492,3 +22492,13 @@ Real binaries:['/usr/bin/xemacs-21.4.24-nomule']
 Write to package-work.txt file: xemacs21-nomule
 Write to package-binaries.txt file: ['/usr/bin/xemacs-21.4.24-nomule']
 ['/usr/bin/xemacs-21.4.24-nomule']
+Write pickle file
+tar_out:
+Package-nr:3900 of 11000, Name:xemacs21-bin-dbgsym
+Package >xemacs21-bin< not in package-all.txt file
+Write to package-all.txt file: xemacs21-bin
+In package >xemacs21-bin< are these binaries: ['/usr/bin/b2m.xemacs21', '/usr/bin/ellcc.xemacs21', '/usr/bin/etags.xemacs21', '/usr/bin/gnuattach.xemacs21', '/usr/bin/gnuclient.xemacs21', '/usr/bin/gnudoit.xemacs21', '/usr/bin/rcs-checkin.xemacs21']
+Real binaries:['/usr/bin/b2m.xemacs21', '/usr/bin/ellcc.xemacs21', '/usr/bin/etags.xemacs21', '/usr/bin/gnuclient.xemacs21']
+Write to package-work.txt file: xemacs21-bin
+Write to package-binaries.txt file: ['/usr/bin/b2m.xemacs21', '/usr/bin/ellcc.xemacs21', '/usr/bin/etags.xemacs21', '/usr/bin/gnuclient.xemacs21']
+['/usr/bin/b2m.xemacs21', '/usr/bin/ellcc.xemacs21', '/usr/bin/etags.xemacs21', '/usr/bin/gnuclient.xemacs21']

@@ -3930,3 +3930,4 @@ xwatch
 xnecview
 xdg-dbus-proxy-tests
 xemacs21-nomule
+xemacs21-bin

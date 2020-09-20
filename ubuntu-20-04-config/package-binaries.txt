@@ -7524,3 +7524,7 @@
 /usr/bin/xwatch
 /usr/bin/xnecview
 /usr/bin/xemacs-21.4.24-nomule
+/usr/bin/b2m.xemacs21
+/usr/bin/ellcc.xemacs21
+/usr/bin/etags.xemacs21
+/usr/bin/gnuclient.xemacs21
