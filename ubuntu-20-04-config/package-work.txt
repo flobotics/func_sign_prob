@@ -2222,3 +2222,4 @@ canu
 complexity
 colord-gtk-utils
 cutmp3
+centreon-connector-ssh
