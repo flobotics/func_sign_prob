@@ -2967,3 +2967,5 @@ indicator-china-weather
 icecc-monitor
 indicator-session
 ical2html
+imvirt-helper
+iec16022

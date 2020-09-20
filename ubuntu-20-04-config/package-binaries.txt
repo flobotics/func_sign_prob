@@ -5902,3 +5902,4 @@
 /usr/bin/ical2html
 /usr/bin/icalfilter
 /usr/bin/icalmerge
+/usr/bin/iec16022
