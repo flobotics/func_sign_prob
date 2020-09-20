@@ -6815,3 +6815,5 @@
 /usr/bin/conman
 /usr/sbin/conmand
 /usr/bin/ncoils
+/usr/bin/chemtool
+/usr/bin/cht

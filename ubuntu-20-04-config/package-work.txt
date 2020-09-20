@@ -2253,3 +2253,4 @@ comparepdf
 cdparanoia
 conman
 ncoils
+chemtool
