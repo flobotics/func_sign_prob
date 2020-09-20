@@ -7254,3 +7254,7 @@
 /usr/bin/mtp-thumb
 /usr/bin/mtp-tracks
 /usr/bin/mtp-trexist
+/usr/bin/mpeg3cat
+/usr/bin/mpeg3dump
+/usr/bin/mpeg3peek
+/usr/bin/mpeg3toc

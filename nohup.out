@@ -20782,3 +20782,20 @@ Real binaries:['/usr/bin/mtp-albumart', '/usr/bin/mtp-albums', '/usr/bin/mtp-con
 Write to package-work.txt file: mtp-tools
 Write to package-binaries.txt file: ['/usr/bin/mtp-albumart', '/usr/bin/mtp-albums', '/usr/bin/mtp-connect', '/usr/bin/mtp-detect', '/usr/bin/mtp-emptyfolders', '/usr/bin/mtp-files', '/usr/bin/mtp-filetree', '/usr/bin/mtp-folders', '/usr/bin/mtp-format', '/usr/bin/mtp-getplaylist', '/usr/bin/mtp-hotplug', '/usr/bin/mtp-newplaylist', '/usr/bin/mtp-playlists', '/usr/bin/mtp-reset', '/usr/bin/mtp-thumb', '/usr/bin/mtp-tracks', '/usr/bin/mtp-trexist']
 ['/usr/bin/mtp-albumart', '/usr/bin/mtp-albums', '/usr/bin/mtp-connect', '/usr/bin/mtp-detect', '/usr/bin/mtp-emptyfolders', '/usr/bin/mtp-files', '/usr/bin/mtp-filetree', '/usr/bin/mtp-folders', '/usr/bin/mtp-format', '/usr/bin/mtp-getplaylist', '/usr/bin/mtp-hotplug', '/usr/bin/mtp-newplaylist', '/usr/bin/mtp-playlists', '/usr/bin/mtp-reset', '/usr/bin/mtp-thumb', '/usr/bin/mtp-tracks', '/usr/bin/mtp-trexist']
+Write pickle file
+tar_out:
+Package-nr:3701 of 11000, Name:lua-mpack-dbgsym
+Package >lua-mpack< not in package-all.txt file
+Write to package-all.txt file: lua-mpack
+In package >lua-mpack< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: lua-mpack
+[]
+Package-nr:3702 of 11000, Name:mpeg3-utils-dbgsym
+Package >mpeg3-utils< not in package-all.txt file
+Write to package-all.txt file: mpeg3-utils
+In package >mpeg3-utils< are these binaries: ['/usr/bin/mpeg3cat', '/usr/bin/mpeg3dump', '/usr/bin/mpeg3peek', '/usr/bin/mpeg3toc']
+Real binaries:['/usr/bin/mpeg3cat', '/usr/bin/mpeg3dump', '/usr/bin/mpeg3peek', '/usr/bin/mpeg3toc']
+Write to package-work.txt file: mpeg3-utils
+Write to package-binaries.txt file: ['/usr/bin/mpeg3cat', '/usr/bin/mpeg3dump', '/usr/bin/mpeg3peek', '/usr/bin/mpeg3toc']
+['/usr/bin/mpeg3cat', '/usr/bin/mpeg3dump', '/usr/bin/mpeg3peek', '/usr/bin/mpeg3toc']

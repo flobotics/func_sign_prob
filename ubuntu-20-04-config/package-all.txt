@@ -3747,3 +3747,5 @@ qflow
 xpmutils
 python3-libmsiecf
 mtp-tools
+lua-mpack
+mpeg3-utils
