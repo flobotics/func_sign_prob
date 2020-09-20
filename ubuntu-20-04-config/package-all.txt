@@ -3328,3 +3328,4 @@ chemeq
 cjs
 console-braille
 clustalo
+castxml

@@ -6486,3 +6486,4 @@
 /usr/bin/gen-psf-block
 /usr/bin/setbrlkeys
 /usr/bin/clustalo
+/usr/bin/castxml
