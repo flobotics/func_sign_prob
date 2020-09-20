@@ -7397,3 +7397,4 @@
 /usr/bin/xcolmix
 /usr/bin/xfce4-appfinder
 /usr/bin/xfce4-screenshooter
+/usr/bin/xmlstarlet
