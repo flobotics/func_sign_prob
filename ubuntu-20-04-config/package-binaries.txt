@@ -5654,3 +5654,7 @@
 /usr/bin/ick
 /usr/sbin/iptotal
 /usr/bin/convert4chan
+/usr/bin/imapcopy
+/usr/bin/csf_parser
+/usr/bin/cst
+/usr/bin/srktool
