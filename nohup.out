@@ -19102,3 +19102,13 @@ Real binaries:['/usr/bin/qutemol']
 Write to package-work.txt file: qutemol
 Write to package-binaries.txt file: ['/usr/bin/qutemol']
 ['/usr/bin/qutemol']
+Write pickle file
+tar_out:
+Package-nr:3496 of 11000, Name:qspeakers-dbgsym
+Package >qspeakers< not in package-all.txt file
+Write to package-all.txt file: qspeakers
+In package >qspeakers< are these binaries: ['/usr/bin/qspeakers']
+Real binaries:['/usr/bin/qspeakers']
+Write to package-work.txt file: qspeakers
+Write to package-binaries.txt file: ['/usr/bin/qspeakers']
+['/usr/bin/qspeakers']
