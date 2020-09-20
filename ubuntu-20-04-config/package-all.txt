@@ -3624,3 +3624,4 @@ qml-module-qtquick-localstorage
 qtscxml5-examples
 qml-module-qtscxml
 quvi
+qstardict
