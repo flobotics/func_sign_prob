@@ -3396,3 +3396,4 @@ clustalw
 clamz
 corkscrew
 clog
+clearsilver-dev

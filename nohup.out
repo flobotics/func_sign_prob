@@ -17666,3 +17666,13 @@ Real binaries:['/usr/bin/clog']
 Write to package-work.txt file: clog
 Write to package-binaries.txt file: ['/usr/bin/clog']
 ['/usr/bin/clog']
+Write pickle file
+tar_out:
+Package-nr:3331 of 11000, Name:clearsilver-dev-dbgsym
+Package >clearsilver-dev< not in package-all.txt file
+Write to package-all.txt file: clearsilver-dev
+In package >clearsilver-dev< are these binaries: ['/usr/bin/cstest']
+Real binaries:['/usr/bin/cstest']
+Write to package-work.txt file: clearsilver-dev
+Write to package-binaries.txt file: ['/usr/bin/cstest']
+['/usr/bin/cstest']
