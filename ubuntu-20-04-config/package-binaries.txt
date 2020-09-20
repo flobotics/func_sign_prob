@@ -6766,3 +6766,4 @@
 /usr/lib/canu/bin/wtdbgConvert
 /usr/bin/complexity
 /usr/bin/cd-convert
+/usr/bin/cutmp3

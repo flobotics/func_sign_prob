@@ -3407,3 +3407,4 @@ cinnamon-screensaver
 canu
 complexity
 colord-gtk-utils
+cutmp3
