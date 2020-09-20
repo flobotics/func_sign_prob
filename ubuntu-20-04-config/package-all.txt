@@ -3146,3 +3146,4 @@ clementine
 gimp-cbmplugs
 caps
 ccd2iso
+chrpath

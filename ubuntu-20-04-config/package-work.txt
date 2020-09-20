@@ -2054,3 +2054,4 @@ cod-tools
 cubemap
 clementine
 ccd2iso
+chrpath
