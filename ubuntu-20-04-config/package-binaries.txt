@@ -6376,3 +6376,6 @@
 /usr/bin/testj1939
 /usr/sbin/cowbuilder
 /usr/sbin/qemubuilder
+/usr/bin/cow-shell
+/usr/bin/cowdancer-ilistcreate
+/usr/bin/cowdancer-ilistdump

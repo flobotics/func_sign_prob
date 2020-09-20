@@ -2098,3 +2098,4 @@ comptty
 can-utils
 cowbuilder
 qemubuilder
+cowdancer

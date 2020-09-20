@@ -16061,3 +16061,13 @@ Real binaries:['/usr/sbin/qemubuilder']
 Write to package-work.txt file: qemubuilder
 Write to package-binaries.txt file: ['/usr/sbin/qemubuilder']
 ['/usr/sbin/qemubuilder']
+Write pickle file
+tar_out:
+Package-nr:3144 of 11000, Name:cowdancer-dbgsym
+Package >cowdancer< not in package-all.txt file
+Write to package-all.txt file: cowdancer
+In package >cowdancer< are these binaries: ['/usr/bin/cow-shell', '/usr/bin/cowdancer-ilistcreate', '/usr/bin/cowdancer-ilistdump']
+Real binaries:['/usr/bin/cow-shell', '/usr/bin/cowdancer-ilistcreate', '/usr/bin/cowdancer-ilistdump']
+Write to package-work.txt file: cowdancer
+Write to package-binaries.txt file: ['/usr/bin/cow-shell', '/usr/bin/cowdancer-ilistcreate', '/usr/bin/cowdancer-ilistdump']
+['/usr/bin/cow-shell', '/usr/bin/cowdancer-ilistcreate', '/usr/bin/cowdancer-ilistdump']
