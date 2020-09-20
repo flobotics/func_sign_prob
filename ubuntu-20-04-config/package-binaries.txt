@@ -6394,3 +6394,5 @@
 /usr/bin/clp
 /usr/bin/cdargs
 /usr/bin/cdcover
+/usr/bin/cycfx2prog
+/usr/bin/cmark-gfm

@@ -1120,3 +1120,4 @@ coinor-libcoinutils3v5
 curseofwar
 cuyo
 coinor-libclp1
+postgresql-12-cstore-fdw

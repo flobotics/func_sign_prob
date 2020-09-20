@@ -16209,3 +16209,28 @@ Real binaries:['/usr/bin/cdcover']
 Write to package-work.txt file: cdcover
 Write to package-binaries.txt file: ['/usr/bin/cdcover']
 ['/usr/bin/cdcover']
+Write pickle file
+tar_out:
+Package-nr:3161 of 11000, Name:postgresql-12-cstore-fdw-dbgsym
+Package >postgresql-12-cstore-fdw< not in package-all.txt file
+Write to package-all.txt file: postgresql-12-cstore-fdw
+In package >postgresql-12-cstore-fdw< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: postgresql-12-cstore-fdw
+[]
+Package-nr:3162 of 11000, Name:cycfx2prog-dbgsym
+Package >cycfx2prog< not in package-all.txt file
+Write to package-all.txt file: cycfx2prog
+In package >cycfx2prog< are these binaries: ['/usr/bin/cycfx2prog']
+Real binaries:['/usr/bin/cycfx2prog']
+Write to package-work.txt file: cycfx2prog
+Write to package-binaries.txt file: ['/usr/bin/cycfx2prog']
+['/usr/bin/cycfx2prog']
+Package-nr:3163 of 11000, Name:cmark-gfm-dbgsym
+Package >cmark-gfm< not in package-all.txt file
+Write to package-all.txt file: cmark-gfm
+In package >cmark-gfm< are these binaries: ['/usr/bin/cmark-gfm']
+Real binaries:['/usr/bin/cmark-gfm']
+Write to package-work.txt file: cmark-gfm
+Write to package-binaries.txt file: ['/usr/bin/cmark-gfm']
+['/usr/bin/cmark-gfm']

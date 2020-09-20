@@ -3234,3 +3234,6 @@ coinor-clp
 coinor-libclp1
 cdargs
 cdcover
+postgresql-12-cstore-fdw
+cycfx2prog
+cmark-gfm
