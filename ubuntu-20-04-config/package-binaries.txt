@@ -7660,3 +7660,4 @@
 /usr/bin/xfconf-query
 /usr/bin/XyGrib
 /usr/bin/xwrits
+/usr/sbin/via_regs_dump

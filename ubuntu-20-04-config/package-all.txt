@@ -3990,3 +3990,4 @@ xskat
 xfconf
 xygrib
 xwrits
+openchrome-tool

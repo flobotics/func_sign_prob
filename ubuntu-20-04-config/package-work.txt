@@ -2603,3 +2603,4 @@ xplot-xplot.org
 xfconf
 xygrib
 xwrits
+openchrome-tool
