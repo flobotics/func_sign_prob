@@ -2314,3 +2314,4 @@ camitk-actionstatemachine
 camitk-imp
 camitk-config
 cccd
+cog

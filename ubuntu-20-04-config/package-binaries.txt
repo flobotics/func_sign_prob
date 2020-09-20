@@ -6984,3 +6984,5 @@
 /usr/bin/camitk-imp
 /usr/bin/camitk-config
 /usr/bin/cccd
+/usr/bin/cog
+/usr/bin/cogctl

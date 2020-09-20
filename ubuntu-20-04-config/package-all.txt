@@ -3524,3 +3524,4 @@ camitk-imp
 camitk-config
 colorcode
 cccd
+cog
