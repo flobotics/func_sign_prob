@@ -2359,3 +2359,4 @@ qbrew
 q4wine
 qtop
 qterminal
+qt5ct

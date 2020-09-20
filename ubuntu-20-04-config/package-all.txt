@@ -3633,3 +3633,6 @@ q4wine
 quisk
 qtop
 qterminal
+qtvirtualkeyboard5-examples
+qml-module-qtquick-virtualkeyboard
+qt5ct

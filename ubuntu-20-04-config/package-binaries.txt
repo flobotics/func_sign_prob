@@ -7065,3 +7065,4 @@
 /usr/bin/q4wine-helper
 /usr/bin/qtop
 /usr/bin/qterminal
+/usr/bin/qt5ct
