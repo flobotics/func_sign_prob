@@ -1914,3 +1914,4 @@ inetutils-tools
 inetutils-ping
 inetutils-telnetd
 inetutils-traceroute
+inetutils-talkd
