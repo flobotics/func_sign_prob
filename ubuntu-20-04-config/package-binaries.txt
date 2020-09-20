@@ -7698,3 +7698,4 @@
 /usr/bin/xvkbd
 /usr/bin/xpad
 /usr/bin/x264
+/usr/bin/xcb

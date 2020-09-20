@@ -23370,3 +23370,13 @@ Real binaries:['/usr/bin/x264']
 Write to package-work.txt file: x264
 Write to package-binaries.txt file: ['/usr/bin/x264']
 ['/usr/bin/x264']
+Write pickle file
+tar_out:
+Package-nr:4002 of 11000, Name:xcb-dbgsym
+Package >xcb< not in package-all.txt file
+Write to package-all.txt file: xcb
+In package >xcb< are these binaries: ['/usr/bin/xcb']
+Real binaries:['/usr/bin/xcb']
+Write to package-work.txt file: xcb
+Write to package-binaries.txt file: ['/usr/bin/xcb']
+['/usr/bin/xcb']

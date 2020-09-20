@@ -2625,3 +2625,4 @@ xmlto
 xvkbd
 xpad
 x264
+xcb
