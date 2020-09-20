@@ -3593,3 +3593,7 @@ qca-qt5-2-utils
 qtchooser
 quassel-client
 quassel-core
+qtwebengine5-examples
+qtwebengine5-dev-tools
+qml-module-qtwebengine
+qtgain

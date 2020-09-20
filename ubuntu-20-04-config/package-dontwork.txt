@@ -1245,3 +1245,5 @@ qml-module-qtquick-privatewidgets
 qtquickcontrols5-examples
 qtcharts5-examples
 qml-module-qtcharts
+qtwebengine5-examples
+qml-module-qtwebengine

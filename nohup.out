@@ -19458,3 +19458,38 @@ Real binaries:['/usr/bin/quasselcore']
 Write to package-work.txt file: quassel-core
 Write to package-binaries.txt file: ['/usr/bin/quasselcore']
 ['/usr/bin/quasselcore']
+Write pickle file
+tar_out:
+Package-nr:3542 of 11000, Name:qtwebengine5-examples-dbgsym
+Package >qtwebengine5-examples< not in package-all.txt file
+Write to package-all.txt file: qtwebengine5-examples
+In package >qtwebengine5-examples< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: qtwebengine5-examples
+[]
+Package-nr:3543 of 11000, Name:qtwebengine5-dev-tools-dbgsym
+Package >qtwebengine5-dev-tools< not in package-all.txt file
+Write to package-all.txt file: qtwebengine5-dev-tools
+In package >qtwebengine5-dev-tools< are these binaries: ['/usr/lib/qt5/bin/qwebengine_convert_dict', '/usr/lib/x86_64-linux-gnu/qt5/bin/qwebengine_convert_dict']
+Real binaries:['/usr/lib/qt5/bin/qwebengine_convert_dict']
+Write to package-work.txt file: qtwebengine5-dev-tools
+Write to package-binaries.txt file: ['/usr/lib/qt5/bin/qwebengine_convert_dict']
+['/usr/lib/qt5/bin/qwebengine_convert_dict']
+Package-nr:3544 of 11000, Name:qml-module-qtwebengine-dbgsym
+Package >qml-module-qtwebengine< not in package-all.txt file
+Write to package-all.txt file: qml-module-qtwebengine
+In package >qml-module-qtwebengine< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: qml-module-qtwebengine
+[]
+Package-nr:3545 of 11000, Name:qtwebengine5-dev-dbgsym
+Skip package >qtwebengine5-dev<, already in package-all.txt file
+[]
+Package-nr:3546 of 11000, Name:qtgain-dbgsym
+Package >qtgain< not in package-all.txt file
+Write to package-all.txt file: qtgain
+In package >qtgain< are these binaries: ['/usr/bin/qtgain']
+Real binaries:['/usr/bin/qtgain']
+Write to package-work.txt file: qtgain
+Write to package-binaries.txt file: ['/usr/bin/qtgain']
+['/usr/bin/qtgain']
