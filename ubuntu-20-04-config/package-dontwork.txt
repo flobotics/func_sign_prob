@@ -1249,3 +1249,8 @@ qtwebengine5-examples
 qml-module-qtwebengine
 qml-module-qtwebview
 qtwebview5-examples
+qgo
+qml-module-qt-labs-folderlistmodel
+qtdeclarative5-examples
+qml-module-qtqml-models2
+qml-module-qt-labs-settings

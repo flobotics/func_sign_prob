@@ -7045,3 +7045,12 @@
 /usr/bin/rbox
 /usr/bin/kvantummanager
 /usr/bin/kvantumpreview
+/usr/lib/qt5/bin/qmlcachegen
+/usr/lib/qt5/bin/qmleasing
+/usr/lib/qt5/bin/qmlimportscanner
+/usr/lib/qt5/bin/qmllint
+/usr/lib/qt5/bin/qmlmin
+/usr/lib/qt5/bin/qmlplugindump
+/usr/lib/qt5/bin/qmlpreview
+/usr/lib/qt5/bin/qmlprofiler
+/usr/lib/qt5/bin/qmltestrunner

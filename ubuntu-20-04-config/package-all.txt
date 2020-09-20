@@ -3603,3 +3603,9 @@ qtwebview5-examples
 qpdfview
 qhull-bin
 qt5-style-kvantum
+qgo
+qml-module-qt-labs-folderlistmodel
+qtdeclarative5-examples
+qml-module-qtqml-models2
+qml-module-qt-labs-settings
+qtdeclarative5-dev-tools
