@@ -1158,3 +1158,5 @@ okular-backend-odt
 okular-backend-odp
 r-cran-cluster
 cutemaze
+conmon
+csmash

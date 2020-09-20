@@ -6480,3 +6480,4 @@
 /usr/sbin/netscsid
 /usr/bin/clamfs
 /usr/bin/chktex
+/usr/bin/symphony

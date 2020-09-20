@@ -3320,3 +3320,6 @@ wodim
 cutemaze
 clamfs
 chktex
+conmon
+csmash
+coinor-symphony
