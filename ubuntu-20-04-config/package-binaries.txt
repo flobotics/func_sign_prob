@@ -7276,3 +7276,6 @@
 /usr/bin/xjdxgen
 /usr/bin/cnee
 /usr/bin/xschem
+/usr/bin/pfc
+/usr/sbin/xl2tpd
+/usr/sbin/xl2tpd-control
