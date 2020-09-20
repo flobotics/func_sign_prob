@@ -7603,3 +7603,6 @@
 /usr/bin/xmlroff
 /usr/bin/xfce4-volumed
 /usr/bin/xtermcontrol
+/usr/bin/xfce4-screensaver
+/usr/bin/xfce4-screensaver-command
+/usr/bin/xfce4-screensaver-preferences

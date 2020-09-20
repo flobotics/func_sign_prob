@@ -3947,3 +3947,4 @@ xfce4-clipman
 xmlroff
 xfce4-volumed
 xtermcontrol
+xfce4-screensaver

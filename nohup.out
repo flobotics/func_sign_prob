@@ -22662,3 +22662,13 @@ Real binaries:['/usr/bin/xtermcontrol']
 Write to package-work.txt file: xtermcontrol
 Write to package-binaries.txt file: ['/usr/bin/xtermcontrol']
 ['/usr/bin/xtermcontrol']
+Write pickle file
+tar_out:
+Package-nr:3919 of 11000, Name:xfce4-screensaver-dbgsym
+Package >xfce4-screensaver< not in package-all.txt file
+Write to package-all.txt file: xfce4-screensaver
+In package >xfce4-screensaver< are these binaries: ['/usr/bin/xfce4-screensaver', '/usr/bin/xfce4-screensaver-command', '/usr/bin/xfce4-screensaver-configure', '/usr/bin/xfce4-screensaver-preferences']
+Real binaries:['/usr/bin/xfce4-screensaver', '/usr/bin/xfce4-screensaver-command', '/usr/bin/xfce4-screensaver-preferences']
+Write to package-work.txt file: xfce4-screensaver
+Write to package-binaries.txt file: ['/usr/bin/xfce4-screensaver', '/usr/bin/xfce4-screensaver-command', '/usr/bin/xfce4-screensaver-preferences']
+['/usr/bin/xfce4-screensaver', '/usr/bin/xfce4-screensaver-command', '/usr/bin/xfce4-screensaver-preferences']
