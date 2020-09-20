@@ -3150,3 +3150,5 @@ chrpath
 connman-gtk
 cacti-spine
 canlock
+cdi2iso
+comskip-gui

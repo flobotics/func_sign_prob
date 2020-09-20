@@ -6040,3 +6040,5 @@
 /usr/bin/canlock
 /usr/bin/canlock-hfp
 /usr/bin/canlock-mhp
+/usr/bin/cdi2iso
+/usr/bin/comskip-gui

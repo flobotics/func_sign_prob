@@ -15458,3 +15458,21 @@ Real binaries:['/usr/bin/canlock', '/usr/bin/canlock-hfp', '/usr/bin/canlock-mhp
 Write to package-work.txt file: canlock
 Write to package-binaries.txt file: ['/usr/bin/canlock', '/usr/bin/canlock-hfp', '/usr/bin/canlock-mhp']
 ['/usr/bin/canlock', '/usr/bin/canlock-hfp', '/usr/bin/canlock-mhp']
+Write pickle file
+tar_out:
+Package-nr:3071 of 11000, Name:cdi2iso-dbgsym
+Package >cdi2iso< not in package-all.txt file
+Write to package-all.txt file: cdi2iso
+In package >cdi2iso< are these binaries: ['/usr/bin/cdi2iso']
+Real binaries:['/usr/bin/cdi2iso']
+Write to package-work.txt file: cdi2iso
+Write to package-binaries.txt file: ['/usr/bin/cdi2iso']
+['/usr/bin/cdi2iso']
+Package-nr:3072 of 11000, Name:comskip-gui-dbgsym
+Package >comskip-gui< not in package-all.txt file
+Write to package-all.txt file: comskip-gui
+In package >comskip-gui< are these binaries: ['/usr/bin/comskip-gui']
+Real binaries:['/usr/bin/comskip-gui']
+Write to package-work.txt file: comskip-gui
+Write to package-binaries.txt file: ['/usr/bin/comskip-gui']
+['/usr/bin/comskip-gui']
