@@ -3432,3 +3432,4 @@ cdo
 python3-cyarray
 latex-cjk-chinese
 latex-cjk-common
+latex-cjk-japanese

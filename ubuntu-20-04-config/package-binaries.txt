@@ -6801,3 +6801,4 @@
 /usr/bin/cefsconv
 /usr/bin/extconv
 /usr/bin/hbf2gf
+/usr/bin/sjisconv

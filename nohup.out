@@ -18001,3 +18001,13 @@ Real binaries:['/usr/bin/hbf2gf']
 Write to package-work.txt file: latex-cjk-common
 Write to package-binaries.txt file: ['/usr/bin/hbf2gf']
 ['/usr/bin/hbf2gf']
+Write pickle file
+tar_out:
+Package-nr:3369 of 11000, Name:latex-cjk-japanese-dbgsym
+Package >latex-cjk-japanese< not in package-all.txt file
+Write to package-all.txt file: latex-cjk-japanese
+In package >latex-cjk-japanese< are these binaries: ['/usr/bin/sjisconv', '/usr/bin/sjislatex', '/usr/bin/sjispdflatex']
+Real binaries:['/usr/bin/sjisconv']
+Write to package-work.txt file: latex-cjk-japanese
+Write to package-binaries.txt file: ['/usr/bin/sjisconv']
+['/usr/bin/sjisconv']

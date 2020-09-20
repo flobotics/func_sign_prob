@@ -2241,3 +2241,4 @@ certmonger
 cdo
 latex-cjk-chinese
 latex-cjk-common
+latex-cjk-japanese
