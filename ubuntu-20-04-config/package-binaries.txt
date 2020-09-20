@@ -7064,3 +7064,4 @@
 /usr/bin/q4wine-cli
 /usr/bin/q4wine-helper
 /usr/bin/qtop
+/usr/bin/qterminal

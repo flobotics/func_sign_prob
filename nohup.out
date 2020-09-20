@@ -19780,3 +19780,13 @@ Real binaries:['/usr/bin/qtop']
 Write to package-work.txt file: qtop
 Write to package-binaries.txt file: ['/usr/bin/qtop']
 ['/usr/bin/qtop']
+Write pickle file
+tar_out:
+Package-nr:3583 of 11000, Name:qterminal-dbgsym
+Package >qterminal< not in package-all.txt file
+Write to package-all.txt file: qterminal
+In package >qterminal< are these binaries: ['/usr/bin/qterminal']
+Real binaries:['/usr/bin/qterminal']
+Write to package-work.txt file: qterminal
+Write to package-binaries.txt file: ['/usr/bin/qterminal']
+['/usr/bin/qterminal']

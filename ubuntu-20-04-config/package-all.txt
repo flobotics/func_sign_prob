@@ -3632,3 +3632,4 @@ qbrew
 q4wine
 quisk
 qtop
+qterminal
