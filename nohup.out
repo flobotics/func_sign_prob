@@ -22081,3 +22081,16 @@ Real binaries:['/usr/bin/xlassie']
 Write to package-work.txt file: xlassie
 Write to package-binaries.txt file: ['/usr/bin/xlassie']
 ['/usr/bin/xlassie']
+Write pickle file
+tar_out:
+Package-nr:3851 of 11000, Name:xdelta-dbgsym
+Skip package >xdelta<, already in package-all.txt file
+[]
+Package-nr:3852 of 11000, Name:xnec2c-dbgsym
+Package >xnec2c< not in package-all.txt file
+Write to package-all.txt file: xnec2c
+In package >xnec2c< are these binaries: ['/usr/bin/xnec2c']
+Real binaries:['/usr/bin/xnec2c']
+Write to package-work.txt file: xnec2c
+Write to package-binaries.txt file: ['/usr/bin/xnec2c']
+['/usr/bin/xnec2c']

@@ -7434,3 +7434,4 @@
 /usr/bin/xpans
 /usr/bin/xpaset
 /usr/bin/xlassie
+/usr/bin/xnec2c

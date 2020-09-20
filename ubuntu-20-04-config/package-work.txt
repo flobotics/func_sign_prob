@@ -2527,3 +2527,4 @@ x11vnc
 xsdcxx
 xpa-tools
 xlassie
+xnec2c
