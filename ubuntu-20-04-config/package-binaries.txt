@@ -6787,3 +6787,4 @@
 /usr/bin/ctfdump
 /usr/bin/ctfmerge
 /usr/bin/cdebootstrap
+/usr/bin/cdebootstrap-static
