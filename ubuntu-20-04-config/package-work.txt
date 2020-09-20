@@ -2577,3 +2577,4 @@ xsensors
 xfce4-dev-tools
 xrestop
 xfe
+xenomai-system-tools

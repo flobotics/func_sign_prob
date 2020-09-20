@@ -22719,3 +22719,13 @@ Real binaries:['/usr/bin/xfe', '/usr/bin/xfimage', '/usr/bin/xfpack', '/usr/bin/
 Write to package-work.txt file: xfe
 Write to package-binaries.txt file: ['/usr/bin/xfe', '/usr/bin/xfimage', '/usr/bin/xfpack', '/usr/bin/xfwrite']
 ['/usr/bin/xfe', '/usr/bin/xfimage', '/usr/bin/xfpack', '/usr/bin/xfwrite']
+Write pickle file
+tar_out:
+Package-nr:3925 of 11000, Name:xenomai-system-tools-dbgsym
+Package >xenomai-system-tools< not in package-all.txt file
+Write to package-all.txt file: xenomai-system-tools
+In package >xenomai-system-tools< are these binaries: ['/usr/bin/cmd_bits', '/usr/bin/cmd_read', '/usr/bin/cmd_write', '/usr/bin/insn_bits', '/usr/bin/insn_read', '/usr/bin/insn_write', '/usr/bin/rtcanrecv', '/usr/bin/rtcansend', '/usr/bin/wf_generate', '/usr/bin/wrap-link', '/usr/bin/xeno', '/usr/bin/xeno-regression-test', '/usr/bin/xeno-test', '/usr/sbin/analogy_config', '/usr/sbin/rtcanconfig', '/usr/sbin/rtps']
+Real binaries:['/usr/bin/cmd_bits', '/usr/bin/cmd_read', '/usr/bin/cmd_write', '/usr/bin/insn_bits', '/usr/bin/insn_read', '/usr/bin/insn_write', '/usr/bin/rtcanrecv', '/usr/bin/rtcansend', '/usr/bin/wf_generate', '/usr/sbin/analogy_config', '/usr/sbin/rtcanconfig', '/usr/sbin/rtps']
+Write to package-work.txt file: xenomai-system-tools
+Write to package-binaries.txt file: ['/usr/bin/cmd_bits', '/usr/bin/cmd_read', '/usr/bin/cmd_write', '/usr/bin/insn_bits', '/usr/bin/insn_read', '/usr/bin/insn_write', '/usr/bin/rtcanrecv', '/usr/bin/rtcansend', '/usr/bin/wf_generate', '/usr/sbin/analogy_config', '/usr/sbin/rtcanconfig', '/usr/sbin/rtps']
+['/usr/bin/cmd_bits', '/usr/bin/cmd_read', '/usr/bin/cmd_write', '/usr/bin/insn_bits', '/usr/bin/insn_read', '/usr/bin/insn_write', '/usr/bin/rtcanrecv', '/usr/bin/rtcansend', '/usr/bin/wf_generate', '/usr/sbin/analogy_config', '/usr/sbin/rtcanconfig', '/usr/sbin/rtps']

@@ -3953,3 +3953,4 @@ xfce4-dev-tools
 xrestop
 xphoon
 xfe
+xenomai-system-tools

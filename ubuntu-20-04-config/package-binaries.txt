@@ -7613,3 +7613,15 @@
 /usr/bin/xfimage
 /usr/bin/xfpack
 /usr/bin/xfwrite
+/usr/bin/cmd_bits
+/usr/bin/cmd_read
+/usr/bin/cmd_write
+/usr/bin/insn_bits
+/usr/bin/insn_read
+/usr/bin/insn_write
+/usr/bin/rtcanrecv
+/usr/bin/rtcansend
+/usr/bin/wf_generate
+/usr/sbin/analogy_config
+/usr/sbin/rtcanconfig
+/usr/sbin/rtps
