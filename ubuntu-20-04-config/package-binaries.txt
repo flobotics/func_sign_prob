@@ -6442,3 +6442,6 @@
 /usr/bin/chrootuid
 /usr/bin/cairo-dock
 /usr/bin/cellwriter
+/usr/bin/c2dec
+/usr/bin/c2enc
+/usr/bin/insert_errors
