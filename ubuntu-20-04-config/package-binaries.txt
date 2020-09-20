@@ -6410,3 +6410,4 @@
 /usr/sbin/curvedns-keygen
 /usr/bin/dirconv
 /usr/bin/mixconv
+/usr/sbin/clickhouse-server

@@ -2121,3 +2121,4 @@ chkservice
 cryptmount
 curvedns
 conv-tools
+clickhouse-server

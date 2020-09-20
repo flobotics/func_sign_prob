@@ -3268,3 +3268,5 @@ python3-chemps2
 curvedns
 chromium-bsu
 conv-tools
+cookietool
+clickhouse-server

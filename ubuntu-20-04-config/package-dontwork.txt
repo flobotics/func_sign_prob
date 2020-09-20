@@ -1142,3 +1142,4 @@ claws-mail-pdf-viewer
 cultivation
 python3-chemps2
 chromium-bsu
+cookietool
