@@ -6782,3 +6782,4 @@
 /usr/bin/rbd-nbd
 /usr/bin/ceph-immutable-object-cache
 /usr/bin/rbd-mirror
+/usr/bin/rbd-fuse

@@ -17899,3 +17899,13 @@ Real binaries:['/usr/bin/rbd-mirror']
 Write to package-work.txt file: rbd-mirror
 Write to package-binaries.txt file: ['/usr/bin/rbd-mirror']
 ['/usr/bin/rbd-mirror']
+Write pickle file
+tar_out:
+Package-nr:3358 of 11000, Name:rbd-fuse-dbgsym
+Package >rbd-fuse< not in package-all.txt file
+Write to package-all.txt file: rbd-fuse
+In package >rbd-fuse< are these binaries: ['/usr/bin/rbd-fuse']
+Real binaries:['/usr/bin/rbd-fuse']
+Write to package-work.txt file: rbd-fuse
+Write to package-binaries.txt file: ['/usr/bin/rbd-fuse']
+['/usr/bin/rbd-fuse']

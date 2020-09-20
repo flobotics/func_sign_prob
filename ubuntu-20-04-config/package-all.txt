@@ -3421,3 +3421,4 @@ rbd-nbd
 python3-rgw
 ceph-immutable-object-cache
 rbd-mirror
+rbd-fuse
