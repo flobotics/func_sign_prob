@@ -3674,3 +3674,4 @@ qjoypad
 qnapi
 qsampler
 qmmp
+qrencode
