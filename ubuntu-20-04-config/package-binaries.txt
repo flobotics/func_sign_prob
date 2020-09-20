@@ -6386,3 +6386,8 @@
 /usr/bin/cvc4
 /usr/bin/pcvc4
 /usr/bin/cruft-ng
+/usr/bin/crm
+/usr/bin/cssdiff
+/usr/bin/cssmerge
+/usr/bin/cssutil
+/usr/bin/osbf-util
