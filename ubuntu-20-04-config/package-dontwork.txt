@@ -1280,3 +1280,6 @@ qml-module-qtwebkit
 qt5-ukui-platformtheme
 qt5-styles-ukui
 python3-pyqt5.qsci
+qml-module-qtgstreamer
+python3-qgis
+qgis-provider-grass

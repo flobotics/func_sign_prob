@@ -2369,3 +2369,4 @@ qperf
 quantlib-examples
 qrisk2
 qtpass
+qgis-server

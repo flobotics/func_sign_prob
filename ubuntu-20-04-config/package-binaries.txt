@@ -7094,3 +7094,4 @@
 /usr/bin/Q80_model_4_0_commandLine
 /usr/bin/Q80_model_4_1_commandLine
 /usr/bin/qtpass
+/usr/lib/cgi-bin/qgis_mapserv.fcgi

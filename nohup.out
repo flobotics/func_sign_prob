@@ -19965,3 +19965,34 @@ Real binaries:['/usr/bin/qtpass']
 Write to package-work.txt file: qtpass
 Write to package-binaries.txt file: ['/usr/bin/qtpass']
 ['/usr/bin/qtpass']
+Write pickle file
+tar_out:
+Package-nr:3605 of 11000, Name:qml-module-qtgstreamer-dbgsym
+Package >qml-module-qtgstreamer< not in package-all.txt file
+Write to package-all.txt file: qml-module-qtgstreamer
+In package >qml-module-qtgstreamer< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: qml-module-qtgstreamer
+[]
+Package-nr:3606 of 11000, Name:python3-qgis-dbgsym
+Package >python3-qgis< not in package-all.txt file
+Write to package-all.txt file: python3-qgis
+In package >python3-qgis< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: python3-qgis
+[]
+Package-nr:3607 of 11000, Name:qgis-provider-grass-dbgsym
+Package >qgis-provider-grass< not in package-all.txt file
+Write to package-all.txt file: qgis-provider-grass
+In package >qgis-provider-grass< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: qgis-provider-grass
+[]
+Package-nr:3608 of 11000, Name:qgis-server-dbgsym
+Package >qgis-server< not in package-all.txt file
+Write to package-all.txt file: qgis-server
+In package >qgis-server< are these binaries: ['/usr/lib/cgi-bin/admin.sld', '/usr/lib/cgi-bin/qgis_mapserv.fcgi', '/usr/lib/cgi-bin/wms_metadata.xml']
+Real binaries:['/usr/lib/cgi-bin/qgis_mapserv.fcgi']
+Write to package-work.txt file: qgis-server
+Write to package-binaries.txt file: ['/usr/lib/cgi-bin/qgis_mapserv.fcgi']
+['/usr/lib/cgi-bin/qgis_mapserv.fcgi']

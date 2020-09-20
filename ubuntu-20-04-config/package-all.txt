@@ -3654,3 +3654,7 @@ qt5-styles-ukui
 qrisk2
 python3-pyqt5.qsci
 qtpass
+qml-module-qtgstreamer
+python3-qgis
+qgis-provider-grass
+qgis-server
