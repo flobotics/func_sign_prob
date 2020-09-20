@@ -2503,3 +2503,4 @@ xfdesktop4
 xiterm+thai
 xloadimage
 xcolmix
+xfce4-appfinder

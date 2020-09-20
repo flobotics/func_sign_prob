@@ -7395,3 +7395,4 @@
 /usr/bin/uufilter
 /usr/bin/xloadimage
 /usr/bin/xcolmix
+/usr/bin/xfce4-appfinder
