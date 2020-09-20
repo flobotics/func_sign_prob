@@ -5879,3 +5879,4 @@
 /usr/bin/ivtext
 /usr/bin/stdcmapppm
 /usr/bin/imageinfo
+/usr/bin/isomaster

@@ -1946,3 +1946,4 @@ iannix
 imview
 ivtools-bin
 imageinfo
+isomaster

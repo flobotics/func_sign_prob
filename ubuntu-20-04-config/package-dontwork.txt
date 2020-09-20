@@ -990,3 +990,5 @@ indicator-datetime
 postgresql-12-icu-ext
 indicator-messages
 indicator-application
+infon-viewer
+infon-server
