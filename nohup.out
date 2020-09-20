@@ -19112,3 +19112,13 @@ Real binaries:['/usr/bin/qspeakers']
 Write to package-work.txt file: qspeakers
 Write to package-binaries.txt file: ['/usr/bin/qspeakers']
 ['/usr/bin/qspeakers']
+Write pickle file
+tar_out:
+Package-nr:3497 of 11000, Name:qjackrcd-dbgsym
+Package >qjackrcd< not in package-all.txt file
+Write to package-all.txt file: qjackrcd
+In package >qjackrcd< are these binaries: ['/usr/bin/qjackrcd']
+Real binaries:['/usr/bin/qjackrcd']
+Write to package-work.txt file: qjackrcd
+Write to package-binaries.txt file: ['/usr/bin/qjackrcd']
+['/usr/bin/qjackrcd']
