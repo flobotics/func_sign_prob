@@ -5789,3 +5789,4 @@
 /usr/bin/montage-im6.q16hdri
 /usr/bin/stream-im6.q16hdri
 /usr/bin/icecream-sundae
+/usr/lib/iraf/extern/sptable/bin/x_xonedspec.e

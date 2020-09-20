@@ -2902,3 +2902,6 @@ indi-bin
 imaptool
 imagemagick-6.q16hdri
 icecream-sundae
+iagno
+i965-va-driver
+iraf-sptable

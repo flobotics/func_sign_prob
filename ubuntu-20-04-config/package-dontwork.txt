@@ -975,3 +975,5 @@ inventor-demo
 ibus-keyman
 icebreaker
 ibus-anthy
+iagno
+i965-va-driver
