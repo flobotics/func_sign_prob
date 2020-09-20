@@ -3416,3 +3416,4 @@ crawl
 crawl-tiles
 compiz-boxmenu
 calamares
+ceph-fuse

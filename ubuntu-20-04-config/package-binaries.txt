@@ -6778,3 +6778,4 @@
 /usr/bin/compiz-boxmenu-vplist
 /usr/bin/compiz-boxmenu-wlist
 /usr/bin/calamares
+/usr/bin/ceph-fuse

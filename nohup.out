@@ -17852,3 +17852,13 @@ Real binaries:['/usr/bin/calamares']
 Write to package-work.txt file: calamares
 Write to package-binaries.txt file: ['/usr/bin/calamares']
 ['/usr/bin/calamares']
+Write pickle file
+tar_out:
+Package-nr:3353 of 11000, Name:ceph-fuse-dbgsym
+Package >ceph-fuse< not in package-all.txt file
+Write to package-all.txt file: ceph-fuse
+In package >ceph-fuse< are these binaries: ['/sbin/mount.fuse.ceph', '/usr/bin/ceph-fuse']
+Real binaries:['/usr/bin/ceph-fuse']
+Write to package-work.txt file: ceph-fuse
+Write to package-binaries.txt file: ['/usr/bin/ceph-fuse']
+['/usr/bin/ceph-fuse']
