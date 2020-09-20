@@ -7328,3 +7328,4 @@
 /usr/bin/scriptindex
 /usr/lib/cgi-bin/omega/omega
 /usr/bin/xsecurelock
+/usr/bin/xstarfish

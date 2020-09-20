@@ -21298,3 +21298,13 @@ Real binaries:['/usr/bin/xsecurelock']
 Write to package-work.txt file: xsecurelock
 Write to package-binaries.txt file: ['/usr/bin/xsecurelock']
 ['/usr/bin/xsecurelock']
+Write pickle file
+tar_out:
+Package-nr:3762 of 11000, Name:xstarfish-dbgsym
+Package >xstarfish< not in package-all.txt file
+Write to package-all.txt file: xstarfish
+In package >xstarfish< are these binaries: ['/usr/bin/xstarfish']
+Real binaries:['/usr/bin/xstarfish']
+Write to package-work.txt file: xstarfish
+Write to package-binaries.txt file: ['/usr/bin/xstarfish']
+['/usr/bin/xstarfish']

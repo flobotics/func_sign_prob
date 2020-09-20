@@ -3801,3 +3801,4 @@ xscreensaver-gl
 xscreensaver-gl-extra
 xapian-omega
 xsecurelock
+xstarfish
