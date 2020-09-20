@@ -2251,3 +2251,4 @@ cockpit-ws
 cockpit-bridge
 comparepdf
 cdparanoia
+conman

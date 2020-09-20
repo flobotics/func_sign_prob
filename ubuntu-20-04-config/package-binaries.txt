@@ -6812,3 +6812,5 @@
 /usr/bin/cockpit-bridge
 /usr/bin/comparepdf
 /usr/bin/cdparanoia
+/usr/bin/conman
+/usr/sbin/conmand

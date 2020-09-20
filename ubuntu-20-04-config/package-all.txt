@@ -3444,3 +3444,4 @@ cockpit-bridge
 cockpit-pcp
 comparepdf
 cdparanoia
+conman

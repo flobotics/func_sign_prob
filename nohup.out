@@ -18113,3 +18113,13 @@ Real binaries:['/usr/bin/cdparanoia']
 Write to package-work.txt file: cdparanoia
 Write to package-binaries.txt file: ['/usr/bin/cdparanoia']
 ['/usr/bin/cdparanoia']
+Write pickle file
+tar_out:
+Package-nr:3381 of 11000, Name:conman-dbgsym
+Package >conman< not in package-all.txt file
+Write to package-all.txt file: conman
+In package >conman< are these binaries: ['/usr/bin/conman', '/usr/bin/conmen', '/usr/sbin/conmand']
+Real binaries:['/usr/bin/conman', '/usr/sbin/conmand']
+Write to package-work.txt file: conman
+Write to package-binaries.txt file: ['/usr/bin/conman', '/usr/sbin/conmand']
+['/usr/bin/conman', '/usr/sbin/conmand']
