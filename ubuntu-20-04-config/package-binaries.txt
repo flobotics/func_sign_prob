@@ -6049,3 +6049,4 @@
 /usr/lib/cgi-bin/cricket/grapher.cgi
 /usr/lib/cgi-bin/cricket/mini-graph.cgi
 /usr/bin/cldump
+/usr/bin/clipit

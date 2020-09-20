@@ -2066,3 +2066,4 @@ cppcheck-gui
 caja-seahorse
 cricket
 cldump
+clipit

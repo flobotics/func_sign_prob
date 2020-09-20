@@ -1088,3 +1088,7 @@ python3-pycodcif
 gimp-cbmplugs
 caps
 code-saturne-bin
+python3-cu2qu
+chessx
+python-cheetah
+python3-cheetah

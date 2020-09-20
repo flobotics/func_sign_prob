@@ -15544,3 +15544,44 @@ Real binaries:['/usr/bin/cldump']
 Write to package-work.txt file: cldump
 Write to package-binaries.txt file: ['/usr/bin/cldump']
 ['/usr/bin/cldump']
+Write pickle file
+tar_out:
+Package-nr:3081 of 11000, Name:python3-cu2qu-dbgsym
+Package >python3-cu2qu< not in package-all.txt file
+Write to package-all.txt file: python3-cu2qu
+In package >python3-cu2qu< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: python3-cu2qu
+[]
+Package-nr:3082 of 11000, Name:chessx-dbgsym
+Package >chessx< not in package-all.txt file
+Write to package-all.txt file: chessx
+In package >chessx< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: chessx
+[]
+Package-nr:3083 of 11000, Name:python-cheetah-dbgsym
+Package >python-cheetah< not in package-all.txt file
+Write to package-all.txt file: python-cheetah
+In package >python-cheetah< are these binaries: ['/usr/bin/cheetah', '/usr/bin/cheetah-analyze', '/usr/bin/cheetah-compile']
+Real binaries:[]
+Write to package-dontwork.txt file: python-cheetah
+[]
+Package-nr:3084 of 11000, Name:python3-cheetah-dbgsym
+Package >python3-cheetah< not in package-all.txt file
+Write to package-all.txt file: python3-cheetah
+In package >python3-cheetah< are these binaries: ['/usr/bin/cheetah-analyze3', '/usr/bin/cheetah-compile3', '/usr/bin/cheetah3']
+Real binaries:[]
+Write to package-dontwork.txt file: python3-cheetah
+[]
+Package-nr:3085 of 11000, Name:cmt-dbgsym
+Skip package >cmt<, already in package-all.txt file
+[]
+Package-nr:3086 of 11000, Name:clipit-dbgsym
+Package >clipit< not in package-all.txt file
+Write to package-all.txt file: clipit
+In package >clipit< are these binaries: ['/usr/bin/clipit']
+Real binaries:['/usr/bin/clipit']
+Write to package-work.txt file: clipit
+Write to package-binaries.txt file: ['/usr/bin/clipit']
+['/usr/bin/clipit']

@@ -3159,3 +3159,8 @@ caja-seahorse
 cricket
 code-saturne-bin
 cldump
+python3-cu2qu
+chessx
+python-cheetah
+python3-cheetah
+clipit
