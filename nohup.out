@@ -16234,3 +16234,142 @@ Real binaries:['/usr/bin/cmark-gfm']
 Write to package-work.txt file: cmark-gfm
 Write to package-binaries.txt file: ['/usr/bin/cmark-gfm']
 ['/usr/bin/cmark-gfm']
+Write pickle file
+tar_out:
+Package-nr:3164 of 11000, Name:claws-mail-pgpinline-dbgsym
+Package >claws-mail-pgpinline< not in package-all.txt file
+Write to package-all.txt file: claws-mail-pgpinline
+In package >claws-mail-pgpinline< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: claws-mail-pgpinline
+[]
+Package-nr:3165 of 11000, Name:claws-mail-attach-remover-dbgsym
+Package >claws-mail-attach-remover< not in package-all.txt file
+Write to package-all.txt file: claws-mail-attach-remover
+In package >claws-mail-attach-remover< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: claws-mail-attach-remover
+[]
+Package-nr:3166 of 11000, Name:claws-mail-tnef-parser-dbgsym
+Package >claws-mail-tnef-parser< not in package-all.txt file
+Write to package-all.txt file: claws-mail-tnef-parser
+In package >claws-mail-tnef-parser< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: claws-mail-tnef-parser
+[]
+Package-nr:3167 of 11000, Name:claws-mail-litehtml-viewer-dbgsym
+Package >claws-mail-litehtml-viewer< not in package-all.txt file
+Write to package-all.txt file: claws-mail-litehtml-viewer
+In package >claws-mail-litehtml-viewer< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: claws-mail-litehtml-viewer
+[]
+Package-nr:3168 of 11000, Name:claws-mail-spam-report-dbgsym
+Package >claws-mail-spam-report< not in package-all.txt file
+Write to package-all.txt file: claws-mail-spam-report
+In package >claws-mail-spam-report< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: claws-mail-spam-report
+[]
+Package-nr:3169 of 11000, Name:claws-mail-spamassassin-dbgsym
+Package >claws-mail-spamassassin< not in package-all.txt file
+Write to package-all.txt file: claws-mail-spamassassin
+In package >claws-mail-spamassassin< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: claws-mail-spamassassin
+[]
+Package-nr:3170 of 11000, Name:claws-mail-acpi-notifier-dbgsym
+Package >claws-mail-acpi-notifier< not in package-all.txt file
+Write to package-all.txt file: claws-mail-acpi-notifier
+In package >claws-mail-acpi-notifier< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: claws-mail-acpi-notifier
+[]
+Package-nr:3171 of 11000, Name:claws-mail-perl-filter-dbgsym
+Package >claws-mail-perl-filter< not in package-all.txt file
+Write to package-all.txt file: claws-mail-perl-filter
+In package >claws-mail-perl-filter< are these binaries: ['/usr/bin/matcherrc2perlfilter']
+Real binaries:[]
+Write to package-dontwork.txt file: claws-mail-perl-filter
+[]
+Package-nr:3172 of 11000, Name:claws-mail-feeds-reader-dbgsym
+Package >claws-mail-feeds-reader< not in package-all.txt file
+Write to package-all.txt file: claws-mail-feeds-reader
+In package >claws-mail-feeds-reader< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: claws-mail-feeds-reader
+[]
+Package-nr:3173 of 11000, Name:claws-mail-pgpmime-dbgsym
+Package >claws-mail-pgpmime< not in package-all.txt file
+Write to package-all.txt file: claws-mail-pgpmime
+In package >claws-mail-pgpmime< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: claws-mail-pgpmime
+[]
+Package-nr:3174 of 11000, Name:claws-mail-address-keeper-dbgsym
+Package >claws-mail-address-keeper< not in package-all.txt file
+Write to package-all.txt file: claws-mail-address-keeper
+In package >claws-mail-address-keeper< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: claws-mail-address-keeper
+[]
+Package-nr:3175 of 11000, Name:claws-mail-bogofilter-dbgsym
+Package >claws-mail-bogofilter< not in package-all.txt file
+Write to package-all.txt file: claws-mail-bogofilter
+In package >claws-mail-bogofilter< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: claws-mail-bogofilter
+[]
+Package-nr:3176 of 11000, Name:claws-mail-libravatar-dbgsym
+Package >claws-mail-libravatar< not in package-all.txt file
+Write to package-all.txt file: claws-mail-libravatar
+In package >claws-mail-libravatar< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: claws-mail-libravatar
+[]
+Package-nr:3177 of 11000, Name:claws-mail-dbgsym
+Skip package >claws-mail<, already in package-all.txt file
+[]
+Package-nr:3178 of 11000, Name:claws-mail-dillo-viewer-dbgsym
+Package >claws-mail-dillo-viewer< not in package-all.txt file
+Write to package-all.txt file: claws-mail-dillo-viewer
+In package >claws-mail-dillo-viewer< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: claws-mail-dillo-viewer
+[]
+Package-nr:3179 of 11000, Name:claws-mail-managesieve-dbgsym
+Package >claws-mail-managesieve< not in package-all.txt file
+Write to package-all.txt file: claws-mail-managesieve
+In package >claws-mail-managesieve< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: claws-mail-managesieve
+[]
+Package-nr:3180 of 11000, Name:claws-mail-multi-notifier-dbgsym
+Package >claws-mail-multi-notifier< not in package-all.txt file
+Write to package-all.txt file: claws-mail-multi-notifier
+In package >claws-mail-multi-notifier< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: claws-mail-multi-notifier
+[]
+Package-nr:3181 of 11000, Name:claws-mail-attach-warner-dbgsym
+Package >claws-mail-attach-warner< not in package-all.txt file
+Write to package-all.txt file: claws-mail-attach-warner
+In package >claws-mail-attach-warner< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: claws-mail-attach-warner
+[]
+Package-nr:3182 of 11000, Name:claws-mail-pdf-viewer-dbgsym
+Package >claws-mail-pdf-viewer< not in package-all.txt file
+Write to package-all.txt file: claws-mail-pdf-viewer
+In package >claws-mail-pdf-viewer< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: claws-mail-pdf-viewer
+[]
+Package-nr:3183 of 11000, Name:critterding-dbgsym
+Package >critterding< not in package-all.txt file
+Write to package-all.txt file: critterding
+In package >critterding< are these binaries: ['/usr/bin/critterding']
+Real binaries:['/usr/bin/critterding']
+Write to package-work.txt file: critterding
+Write to package-binaries.txt file: ['/usr/bin/critterding']
+['/usr/bin/critterding']

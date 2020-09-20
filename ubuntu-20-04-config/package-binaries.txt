@@ -6396,3 +6396,4 @@
 /usr/bin/cdcover
 /usr/bin/cycfx2prog
 /usr/bin/cmark-gfm
+/usr/bin/critterding

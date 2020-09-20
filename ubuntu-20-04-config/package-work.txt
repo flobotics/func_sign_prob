@@ -2111,3 +2111,4 @@ cdargs
 cdcover
 cycfx2prog
 cmark-gfm
+critterding
