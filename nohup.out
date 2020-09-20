@@ -18517,3 +18517,20 @@ Real binaries:['/usr/bin/ccutter', '/usr/bin/ct2util']
 Write to package-work.txt file: cheesecutter
 Write to package-binaries.txt file: ['/usr/bin/ccutter', '/usr/bin/ct2util']
 ['/usr/bin/ccutter', '/usr/bin/ct2util']
+Write pickle file
+tar_out:
+Package-nr:3427 of 11000, Name:coco-cpp-dbgsym
+Package >coco-cpp< not in package-all.txt file
+Write to package-all.txt file: coco-cpp
+In package >coco-cpp< are these binaries: ['/usr/bin/cococpp']
+Real binaries:[]
+Write to package-dontwork.txt file: coco-cpp
+[]
+Package-nr:3428 of 11000, Name:checkpolicy-dbgsym
+Package >checkpolicy< not in package-all.txt file
+Write to package-all.txt file: checkpolicy
+In package >checkpolicy< are these binaries: ['/usr/bin/checkmodule', '/usr/bin/checkpolicy']
+Real binaries:['/usr/bin/checkmodule', '/usr/bin/checkpolicy']
+Write to package-work.txt file: checkpolicy
+Write to package-binaries.txt file: ['/usr/bin/checkmodule', '/usr/bin/checkpolicy']
+['/usr/bin/checkmodule', '/usr/bin/checkpolicy']

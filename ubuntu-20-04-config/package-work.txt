@@ -2285,3 +2285,4 @@ classified-ads
 casacore-tools
 care
 cheesecutter
+checkpolicy

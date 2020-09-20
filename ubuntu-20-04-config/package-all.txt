@@ -3486,3 +3486,5 @@ casacore-tools
 crossfire-client
 care
 cheesecutter
+coco-cpp
+checkpolicy

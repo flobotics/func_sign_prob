@@ -1196,3 +1196,4 @@ python3-cg3
 chocolate-doom
 coolkey
 crossfire-client
+coco-cpp
