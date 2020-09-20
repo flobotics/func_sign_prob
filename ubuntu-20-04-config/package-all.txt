@@ -3522,3 +3522,5 @@ colord-kde
 camitk-actionstatemachine
 camitk-imp
 camitk-config
+colorcode
+cccd

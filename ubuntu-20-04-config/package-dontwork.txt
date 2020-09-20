@@ -1204,3 +1204,4 @@ calibre-bin
 coinor-libcoinmp1v5
 coinor-libcgl1
 cynthiune.app
+colorcode

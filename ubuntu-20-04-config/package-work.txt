@@ -2313,3 +2313,4 @@ colord-kde
 camitk-actionstatemachine
 camitk-imp
 camitk-config
+cccd

@@ -18863,3 +18863,20 @@ Real binaries:['/usr/bin/camitk-config']
 Write to package-work.txt file: camitk-config
 Write to package-binaries.txt file: ['/usr/bin/camitk-config']
 ['/usr/bin/camitk-config']
+Write pickle file
+tar_out:
+Package-nr:3467 of 11000, Name:colorcode-dbgsym
+Package >colorcode< not in package-all.txt file
+Write to package-all.txt file: colorcode
+In package >colorcode< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: colorcode
+[]
+Package-nr:3468 of 11000, Name:cccd-dbgsym
+Package >cccd< not in package-all.txt file
+Write to package-all.txt file: cccd
+In package >cccd< are these binaries: ['/usr/bin/cccd']
+Real binaries:['/usr/bin/cccd']
+Write to package-work.txt file: cccd
+Write to package-binaries.txt file: ['/usr/bin/cccd']
+['/usr/bin/cccd']

@@ -6983,3 +6983,4 @@
 /usr/bin/camitk-actionstatemachine
 /usr/bin/camitk-imp
 /usr/bin/camitk-config
+/usr/bin/cccd
