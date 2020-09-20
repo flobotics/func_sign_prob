@@ -2588,3 +2588,4 @@ xmlindent
 xdvik-ja
 xfwm4
 xautomation
+xfce4-notifyd

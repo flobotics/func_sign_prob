@@ -7644,3 +7644,4 @@
 /usr/bin/visgrep
 /usr/bin/xmousepos
 /usr/bin/xte
+/usr/bin/xfce4-notifyd-config
