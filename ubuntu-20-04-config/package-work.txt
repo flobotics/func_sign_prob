@@ -2335,3 +2335,4 @@ qpdf
 qsopt-ex
 qmidinet
 qasmixer
+qasconfig

@@ -19309,3 +19309,13 @@ Real binaries:['/usr/bin/qasmixer']
 Write to package-work.txt file: qasmixer
 Write to package-binaries.txt file: ['/usr/bin/qasmixer']
 ['/usr/bin/qasmixer']
+Write pickle file
+tar_out:
+Package-nr:3523 of 11000, Name:qasconfig-dbgsym
+Package >qasconfig< not in package-all.txt file
+Write to package-all.txt file: qasconfig
+In package >qasconfig< are these binaries: ['/usr/bin/qasconfig']
+Real binaries:['/usr/bin/qasconfig']
+Write to package-work.txt file: qasconfig
+Write to package-binaries.txt file: ['/usr/bin/qasconfig']
+['/usr/bin/qasconfig']
