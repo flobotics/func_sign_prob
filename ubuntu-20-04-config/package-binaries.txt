@@ -6844,3 +6844,5 @@
 /usr/bin/camlp4r.opt
 /usr/bin/camlp4rf.opt
 /usr/bin/cantata
+/usr/bin/a2crd
+/usr/bin/chordii
