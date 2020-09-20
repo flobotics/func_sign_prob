@@ -2563,3 +2563,4 @@ xen-utils-4.11
 xenstore-utils
 xen-utils-common
 xmpi
+xcolorsel
