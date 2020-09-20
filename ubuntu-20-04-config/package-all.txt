@@ -3644,3 +3644,4 @@ qml-module-qtsensors
 qwinff
 qstat
 qviaggiatreno
+qperf

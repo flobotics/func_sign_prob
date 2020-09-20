@@ -19885,3 +19885,13 @@ Real binaries:['/usr/bin/qviaggiatreno']
 Write to package-work.txt file: qviaggiatreno
 Write to package-binaries.txt file: ['/usr/bin/qviaggiatreno']
 ['/usr/bin/qviaggiatreno']
+Write pickle file
+tar_out:
+Package-nr:3595 of 11000, Name:qperf-dbgsym
+Package >qperf< not in package-all.txt file
+Write to package-all.txt file: qperf
+In package >qperf< are these binaries: ['/usr/bin/qperf']
+Real binaries:['/usr/bin/qperf']
+Write to package-work.txt file: qperf
+Write to package-binaries.txt file: ['/usr/bin/qperf']
+['/usr/bin/qperf']

@@ -7071,3 +7071,4 @@
 /usr/bin/qwinff
 /usr/bin/quakestat
 /usr/bin/qviaggiatreno
+/usr/bin/qperf

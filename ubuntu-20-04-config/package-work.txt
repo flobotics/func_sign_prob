@@ -2365,3 +2365,4 @@ scrobbler
 qwinff
 qstat
 qviaggiatreno
+qperf
