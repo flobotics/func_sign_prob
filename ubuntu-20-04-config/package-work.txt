@@ -2628,3 +2628,4 @@ x264
 xcb
 xmms2-scrobbler
 xdrawchem
+x2godesktopsharing

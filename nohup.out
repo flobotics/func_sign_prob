@@ -23400,3 +23400,13 @@ Real binaries:['/usr/bin/xdrawchem']
 Write to package-work.txt file: xdrawchem
 Write to package-binaries.txt file: ['/usr/bin/xdrawchem']
 ['/usr/bin/xdrawchem']
+Write pickle file
+tar_out:
+Package-nr:4005 of 11000, Name:x2godesktopsharing-dbgsym
+Package >x2godesktopsharing< not in package-all.txt file
+Write to package-all.txt file: x2godesktopsharing
+In package >x2godesktopsharing< are these binaries: ['/usr/bin/x2godesktopsharing']
+Real binaries:['/usr/bin/x2godesktopsharing']
+Write to package-work.txt file: x2godesktopsharing
+Write to package-binaries.txt file: ['/usr/bin/x2godesktopsharing']
+['/usr/bin/x2godesktopsharing']

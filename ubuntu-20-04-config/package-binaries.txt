@@ -7701,3 +7701,4 @@
 /usr/bin/xcb
 /usr/bin/xmms2-scrobbler
 /usr/bin/xdrawchem
+/usr/bin/x2godesktopsharing
