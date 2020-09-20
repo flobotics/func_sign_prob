@@ -20061,3 +20061,13 @@ Real binaries:['/usr/sbin/qemu-ga']
 Write to package-work.txt file: qemu-guest-agent
 Write to package-binaries.txt file: ['/usr/sbin/qemu-ga']
 ['/usr/sbin/qemu-ga']
+Write pickle file
+tar_out:
+Package-nr:3618 of 11000, Name:qemu-system-x86-microvm-dbgsym
+Package >qemu-system-x86-microvm< not in package-all.txt file
+Write to package-all.txt file: qemu-system-x86-microvm
+In package >qemu-system-x86-microvm< are these binaries: ['/usr/bin/qemu-system-i386-microvm', '/usr/bin/qemu-system-x86_64-microvm']
+Real binaries:['/usr/bin/qemu-system-i386-microvm', '/usr/bin/qemu-system-x86_64-microvm']
+Write to package-work.txt file: qemu-system-x86-microvm
+Write to package-binaries.txt file: ['/usr/bin/qemu-system-i386-microvm', '/usr/bin/qemu-system-x86_64-microvm']
+['/usr/bin/qemu-system-i386-microvm', '/usr/bin/qemu-system-x86_64-microvm']

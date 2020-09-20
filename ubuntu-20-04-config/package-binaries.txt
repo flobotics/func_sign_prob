@@ -7132,3 +7132,5 @@
 /usr/bin/qemu-xtensa-static
 /usr/bin/qemu-xtensaeb-static
 /usr/sbin/qemu-ga
+/usr/bin/qemu-system-i386-microvm
+/usr/bin/qemu-system-x86_64-microvm
