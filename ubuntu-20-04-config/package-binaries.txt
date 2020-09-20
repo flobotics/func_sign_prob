@@ -5638,3 +5638,9 @@
 /usr/sbin/ipgrab
 /usr/sbin/ifplugd
 /usr/sbin/ifplugstatus
+/usr/bin/SceneViewer
+/usr/bin/ivcat
+/usr/bin/ivdowngrade
+/usr/bin/ivfix
+/usr/bin/ivinfo
+/usr/bin/ivview

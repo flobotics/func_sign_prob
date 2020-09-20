@@ -971,3 +971,4 @@ python3-smbus
 indicator-sound
 itcl3
 indicator-power
+inventor-demo

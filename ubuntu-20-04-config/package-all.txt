@@ -2869,3 +2869,5 @@ ipgrab
 itcl3
 indicator-power
 ifplugd
+inventor-demo
+inventor-clients

@@ -1893,3 +1893,4 @@ i2pd
 ifupdown
 ipgrab
 ifplugd
+inventor-clients
