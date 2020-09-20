@@ -16142,3 +16142,13 @@ Real binaries:['/usr/bin/cccc']
 Write to package-work.txt file: cccc
 Write to package-binaries.txt file: ['/usr/bin/cccc']
 ['/usr/bin/cccc']
+Write pickle file
+tar_out:
+Package-nr:3154 of 11000, Name:cvc4-dbgsym
+Package >cvc4< not in package-all.txt file
+Write to package-all.txt file: cvc4
+In package >cvc4< are these binaries: ['/usr/bin/cvc4', '/usr/bin/pcvc4']
+Real binaries:['/usr/bin/cvc4', '/usr/bin/pcvc4']
+Write to package-work.txt file: cvc4
+Write to package-binaries.txt file: ['/usr/bin/cvc4', '/usr/bin/pcvc4']
+['/usr/bin/cvc4', '/usr/bin/pcvc4']

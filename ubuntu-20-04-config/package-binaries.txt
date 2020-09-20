@@ -6383,3 +6383,5 @@
 /usr/bin/clif
 /usr/bin/cdecl
 /usr/bin/cccc
+/usr/bin/cvc4
+/usr/bin/pcvc4
