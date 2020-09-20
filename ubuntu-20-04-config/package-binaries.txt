@@ -6398,3 +6398,4 @@
 /usr/bin/cmark-gfm
 /usr/bin/critterding
 /usr/bin/cbatticon
+/usr/bin/clsync

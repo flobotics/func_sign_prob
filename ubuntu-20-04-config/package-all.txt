@@ -3258,3 +3258,4 @@ claws-mail-pdf-viewer
 critterding
 cultivation
 cbatticon
+clsync
