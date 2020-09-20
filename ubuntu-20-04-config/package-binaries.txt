@@ -7691,3 +7691,4 @@
 /usr/bin/xss-lock
 /usr/bin/xsysinfo
 /usr/bin/xfce4-terminal
+/usr/bin/xttitle

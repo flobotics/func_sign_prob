@@ -4011,3 +4011,7 @@ xserver-xorg-input-joystick
 xss-lock
 xsysinfo
 xfce4-terminal
+x2gobroker-ssh
+x2gobroker-agent
+xbubble
+xttitle

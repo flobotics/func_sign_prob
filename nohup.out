@@ -23265,3 +23265,34 @@ Real binaries:['/usr/bin/xfce4-terminal']
 Write to package-work.txt file: xfce4-terminal
 Write to package-binaries.txt file: ['/usr/bin/xfce4-terminal']
 ['/usr/bin/xfce4-terminal']
+Write pickle file
+tar_out:
+Package-nr:3990 of 11000, Name:x2gobroker-ssh-dbgsym
+Package >x2gobroker-ssh< not in package-all.txt file
+Write to package-all.txt file: x2gobroker-ssh
+In package >x2gobroker-ssh< are these binaries: ['/usr/bin/x2gobroker-ssh']
+Real binaries:[]
+Write to package-dontwork.txt file: x2gobroker-ssh
+[]
+Package-nr:3991 of 11000, Name:x2gobroker-agent-dbgsym
+Package >x2gobroker-agent< not in package-all.txt file
+Write to package-all.txt file: x2gobroker-agent
+In package >x2gobroker-agent< are these binaries: ['/usr/sbin/x2gobroker-pubkeyauthorizer']
+Real binaries:[]
+Write to package-dontwork.txt file: x2gobroker-agent
+[]
+Package-nr:3992 of 11000, Name:xbubble-dbgsym
+Package >xbubble< not in package-all.txt file
+Write to package-all.txt file: xbubble
+In package >xbubble< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: xbubble
+[]
+Package-nr:3993 of 11000, Name:xttitle-dbgsym
+Package >xttitle< not in package-all.txt file
+Write to package-all.txt file: xttitle
+In package >xttitle< are these binaries: ['/usr/bin/xttitle']
+Real binaries:['/usr/bin/xttitle']
+Write to package-work.txt file: xttitle
+Write to package-binaries.txt file: ['/usr/bin/xttitle']
+['/usr/bin/xttitle']

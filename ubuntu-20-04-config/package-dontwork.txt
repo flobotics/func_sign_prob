@@ -1388,3 +1388,6 @@ xserver-xorg-input-mtrack
 xjig
 xcowsay
 xserver-xorg-input-joystick
+x2gobroker-ssh
+x2gobroker-agent
+xbubble
