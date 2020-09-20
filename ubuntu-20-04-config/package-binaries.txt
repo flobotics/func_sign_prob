@@ -6969,3 +6969,4 @@
 /usr/lib/cyrus/bin/imtest
 /usr/lib/cyrus/bin/fetchnews
 /usr/lib/cyrus/bin/nntpd
+/usr/lib/cyrus/bin/mupdate

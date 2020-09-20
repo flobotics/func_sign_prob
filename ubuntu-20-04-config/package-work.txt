@@ -2302,3 +2302,4 @@ cyrus-imapd
 cyrus-replication
 cyrus-clients
 cyrus-nntpd
+cyrus-murder
