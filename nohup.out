@@ -20155,3 +20155,13 @@ Real binaries:['/usr/bin/qrencode']
 Write to package-work.txt file: qrencode
 Write to package-binaries.txt file: ['/usr/bin/qrencode']
 ['/usr/bin/qrencode']
+Write pickle file
+tar_out:
+Package-nr:3628 of 11000, Name:qbs-dbgsym
+Package >qbs< not in package-all.txt file
+Write to package-all.txt file: qbs
+In package >qbs< are these binaries: ['/usr/bin/qbs', '/usr/bin/qbs-config', '/usr/bin/qbs-config-ui', '/usr/bin/qbs-create-project', '/usr/bin/qbs-setup-android', '/usr/bin/qbs-setup-qt', '/usr/bin/qbs-setup-toolchains']
+Real binaries:['/usr/bin/qbs', '/usr/bin/qbs-config', '/usr/bin/qbs-config-ui', '/usr/bin/qbs-create-project', '/usr/bin/qbs-setup-android', '/usr/bin/qbs-setup-qt', '/usr/bin/qbs-setup-toolchains']
+Write to package-work.txt file: qbs
+Write to package-binaries.txt file: ['/usr/bin/qbs', '/usr/bin/qbs-config', '/usr/bin/qbs-config-ui', '/usr/bin/qbs-create-project', '/usr/bin/qbs-setup-android', '/usr/bin/qbs-setup-qt', '/usr/bin/qbs-setup-toolchains']
+['/usr/bin/qbs', '/usr/bin/qbs-config', '/usr/bin/qbs-config-ui', '/usr/bin/qbs-create-project', '/usr/bin/qbs-setup-android', '/usr/bin/qbs-setup-qt', '/usr/bin/qbs-setup-toolchains']
