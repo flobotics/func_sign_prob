@@ -3816,3 +3816,4 @@ xarchiver
 xkbind
 xotcl
 xotcl-shells
+xzdec

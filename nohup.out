@@ -21430,3 +21430,13 @@ Real binaries:['/usr/bin/xotclsh', '/usr/bin/xowish']
 Write to package-work.txt file: xotcl-shells
 Write to package-binaries.txt file: ['/usr/bin/xotclsh', '/usr/bin/xowish']
 ['/usr/bin/xotclsh', '/usr/bin/xowish']
+Write pickle file
+tar_out:
+Package-nr:3777 of 11000, Name:xzdec-dbgsym
+Package >xzdec< not in package-all.txt file
+Write to package-all.txt file: xzdec
+In package >xzdec< are these binaries: ['/usr/bin/lzmadec', '/usr/bin/xzdec']
+Real binaries:['/usr/bin/lzmadec', '/usr/bin/xzdec']
+Write to package-work.txt file: xzdec
+Write to package-binaries.txt file: ['/usr/bin/lzmadec', '/usr/bin/xzdec']
+['/usr/bin/lzmadec', '/usr/bin/xzdec']

@@ -7355,3 +7355,5 @@
 /usr/bin/xarchiver
 /usr/bin/xotclsh
 /usr/bin/xowish
+/usr/bin/lzmadec
+/usr/bin/xzdec
