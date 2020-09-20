@@ -15051,3 +15051,20 @@ Real binaries:['/usr/bin/cryfs', '/usr/bin/cryfs-unmount']
 Write to package-work.txt file: cryfs
 Write to package-binaries.txt file: ['/usr/bin/cryfs', '/usr/bin/cryfs-unmount']
 ['/usr/bin/cryfs', '/usr/bin/cryfs-unmount']
+Write pickle file
+tar_out:
+Package-nr:3022 of 11000, Name:python3-cftime-dbgsym
+Package >python3-cftime< not in package-all.txt file
+Write to package-all.txt file: python3-cftime
+In package >python3-cftime< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: python3-cftime
+[]
+Package-nr:3023 of 11000, Name:cvsgraph-dbgsym
+Package >cvsgraph< not in package-all.txt file
+Write to package-all.txt file: cvsgraph
+In package >cvsgraph< are these binaries: ['/usr/bin/cvsgraph']
+Real binaries:['/usr/bin/cvsgraph']
+Write to package-work.txt file: cvsgraph
+Write to package-binaries.txt file: ['/usr/bin/cvsgraph']
+['/usr/bin/cvsgraph']

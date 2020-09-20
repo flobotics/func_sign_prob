@@ -2028,3 +2028,4 @@ cpipe
 collatinus
 coqide
 cryfs
+cvsgraph

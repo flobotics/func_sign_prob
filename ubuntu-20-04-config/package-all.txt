@@ -3107,3 +3107,5 @@ collatinus
 coq-theories
 coqide
 cryfs
+python3-cftime
+cvsgraph

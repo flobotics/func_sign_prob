@@ -6001,3 +6001,4 @@
 /usr/bin/coqide
 /usr/bin/cryfs
 /usr/bin/cryfs-unmount
+/usr/bin/cvsgraph
