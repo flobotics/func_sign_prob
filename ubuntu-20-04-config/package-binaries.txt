@@ -5921,3 +5921,4 @@
 /usr/bin/ctpp2vm
 /usr/bin/cppo
 /usr/bin/colortail
+/usr/bin/csmith

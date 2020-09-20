@@ -2982,3 +2982,4 @@ corosync-vqsim
 ctpp2-utils
 cppo
 colortail
+csmith
