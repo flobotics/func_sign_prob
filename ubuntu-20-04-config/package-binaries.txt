@@ -5892,3 +5892,4 @@
 /usr/bin/inadyn
 /usr/bin/ipmitool
 /usr/sbin/ipmievd
+/usr/bin/iselect

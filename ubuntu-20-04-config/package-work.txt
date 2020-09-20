@@ -1955,3 +1955,4 @@ iperf3
 iqtree
 inadyn
 ipmitool
+iselect

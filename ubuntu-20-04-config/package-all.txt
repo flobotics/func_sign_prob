@@ -2957,3 +2957,4 @@ iqtree
 indicator-appmenu-tools
 inadyn
 ipmitool
+iselect
