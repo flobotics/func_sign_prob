@@ -7455,3 +7455,4 @@
 /usr/bin/x11-touchscreen-calibrator
 /usr/bin/merge-info
 /usr/bin/xstow
+/usr/bin/xgrep
