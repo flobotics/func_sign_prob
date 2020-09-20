@@ -23094,3 +23094,13 @@ Real binaries:['/usr/bin/xcwd']
 Write to package-work.txt file: xcwd
 Write to package-binaries.txt file: ['/usr/bin/xcwd']
 ['/usr/bin/xcwd']
+Write pickle file
+tar_out:
+Package-nr:3970 of 11000, Name:xjobs-dbgsym
+Package >xjobs< not in package-all.txt file
+Write to package-all.txt file: xjobs
+In package >xjobs< are these binaries: ['/usr/bin/xjobs']
+Real binaries:['/usr/bin/xjobs']
+Write to package-work.txt file: xjobs
+Write to package-binaries.txt file: ['/usr/bin/xjobs']
+['/usr/bin/xjobs']

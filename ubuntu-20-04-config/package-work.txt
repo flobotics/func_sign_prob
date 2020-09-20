@@ -2605,3 +2605,4 @@ xygrib
 xwrits
 openchrome-tool
 xcwd
+xjobs

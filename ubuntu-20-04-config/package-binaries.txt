@@ -7662,3 +7662,4 @@
 /usr/bin/xwrits
 /usr/sbin/via_regs_dump
 /usr/bin/xcwd
+/usr/bin/xjobs

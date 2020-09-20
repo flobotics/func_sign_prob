@@ -3993,3 +3993,4 @@ xwrits
 openchrome-tool
 xserver-xorg-video-openchrome
 xcwd
+xjobs
