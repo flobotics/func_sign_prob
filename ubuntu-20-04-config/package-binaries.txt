@@ -6399,3 +6399,4 @@
 /usr/bin/critterding
 /usr/bin/cbatticon
 /usr/bin/clsync
+/usr/bin/lzip.clzip

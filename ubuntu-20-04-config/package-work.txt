@@ -2114,3 +2114,4 @@ cmark-gfm
 critterding
 cbatticon
 clsync
+clzip
