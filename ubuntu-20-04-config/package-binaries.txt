@@ -5983,3 +5983,9 @@
 /usr/sbin/connman-vpnd
 /usr/bin/cowpatty
 /usr/bin/genpmk
+/usr/bin/turnserver
+/usr/bin/turnutils_natdiscovery
+/usr/bin/turnutils_oauth
+/usr/bin/turnutils_peer
+/usr/bin/turnutils_stunclient
+/usr/bin/turnutils_uclient

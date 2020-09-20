@@ -3092,3 +3092,6 @@ crunch
 calligraplan
 connman-vpn
 cowpatty
+cube2
+cube2-server
+coturn

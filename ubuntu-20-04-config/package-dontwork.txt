@@ -1070,3 +1070,5 @@ cenon.app
 connectagram
 caveexpress
 cavepacker
+cube2
+cube2-server

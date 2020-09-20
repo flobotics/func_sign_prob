@@ -14918,3 +14918,27 @@ Real binaries:['/usr/bin/cowpatty', '/usr/bin/genpmk']
 Write to package-work.txt file: cowpatty
 Write to package-binaries.txt file: ['/usr/bin/cowpatty', '/usr/bin/genpmk']
 ['/usr/bin/cowpatty', '/usr/bin/genpmk']
+Write pickle file
+tar_out:
+Package-nr:3006 of 11000, Name:cube2-dbgsym
+Package >cube2< not in package-all.txt file
+Write to package-all.txt file: cube2
+In package >cube2< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: cube2
+[]
+Package-nr:3007 of 11000, Name:cube2-server-dbgsym
+Package >cube2-server< not in package-all.txt file
+Write to package-all.txt file: cube2-server
+In package >cube2-server< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: cube2-server
+[]
+Package-nr:3008 of 11000, Name:coturn-dbgsym
+Package >coturn< not in package-all.txt file
+Write to package-all.txt file: coturn
+In package >coturn< are these binaries: ['/usr/bin/turnserver', '/usr/bin/turnutils_natdiscovery', '/usr/bin/turnutils_oauth', '/usr/bin/turnutils_peer', '/usr/bin/turnutils_stunclient', '/usr/bin/turnutils_uclient', '/usr/bin/turnadmin']
+Real binaries:['/usr/bin/turnserver', '/usr/bin/turnutils_natdiscovery', '/usr/bin/turnutils_oauth', '/usr/bin/turnutils_peer', '/usr/bin/turnutils_stunclient', '/usr/bin/turnutils_uclient']
+Write to package-work.txt file: coturn
+Write to package-binaries.txt file: ['/usr/bin/turnserver', '/usr/bin/turnutils_natdiscovery', '/usr/bin/turnutils_oauth', '/usr/bin/turnutils_peer', '/usr/bin/turnutils_stunclient', '/usr/bin/turnutils_uclient']
+['/usr/bin/turnserver', '/usr/bin/turnutils_natdiscovery', '/usr/bin/turnutils_oauth', '/usr/bin/turnutils_peer', '/usr/bin/turnutils_stunclient', '/usr/bin/turnutils_uclient']
