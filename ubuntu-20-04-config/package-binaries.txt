@@ -5848,3 +5848,5 @@
 /usr/sbin/ident2
 /usr/bin/ifuse
 /usr/bin/idesk
+/usr/bin/imx_uart
+/usr/bin/imx_usb

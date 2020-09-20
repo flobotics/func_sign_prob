@@ -983,3 +983,4 @@ ibus-pinyin
 invesalius-bin
 instead
 ibus-skk
+indicator-notifications
