@@ -23673,3 +23673,13 @@ Real binaries:['/usr/sbin/vblade']
 Write to package-work.txt file: vblade
 Write to package-binaries.txt file: ['/usr/sbin/vblade']
 ['/usr/sbin/vblade']
+Write pickle file
+tar_out:
+Package-nr:4037 of 11000, Name:vym-dbgsym
+Package >vym< not in package-all.txt file
+Write to package-all.txt file: vym
+In package >vym< are these binaries: ['/usr/bin/vym']
+Real binaries:['/usr/bin/vym']
+Write to package-work.txt file: vym
+Write to package-binaries.txt file: ['/usr/bin/vym']
+['/usr/bin/vym']

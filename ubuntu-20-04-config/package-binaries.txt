@@ -7736,3 +7736,4 @@
 /usr/bin/futility
 /usr/sbin/varmon
 /usr/sbin/vblade
+/usr/bin/vym
