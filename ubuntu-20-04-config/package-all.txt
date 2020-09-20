@@ -4040,3 +4040,4 @@ xserver-xorg-input-void
 xfig
 x11-xfs-utils
 xcalib
+6tunnel

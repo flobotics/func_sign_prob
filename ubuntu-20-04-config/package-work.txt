@@ -2636,3 +2636,4 @@ xdemorse
 xzoom
 x11-xfs-utils
 xcalib
+6tunnel
