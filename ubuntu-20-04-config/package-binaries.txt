@@ -6999,3 +6999,4 @@
 /usr/bin/qgit
 /usr/bin/qelectrotech
 /usr/bin/qnetstatview
+/usr/bin/qmidiroute

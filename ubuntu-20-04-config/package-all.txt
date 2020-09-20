@@ -3549,3 +3549,4 @@ qelectrotech
 quantlib-python
 qtads
 qnetstatview
+qmidiroute

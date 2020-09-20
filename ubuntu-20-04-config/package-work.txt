@@ -2323,3 +2323,4 @@ cbflib-bin
 qgit
 qelectrotech
 qnetstatview
+qmidiroute
