@@ -1307,3 +1307,7 @@ python3-qpid-proton
 qtserialbus5-examples
 qttools5-examples
 qrouter
+qml-module-qtlocation
+qml-module-qtpositioning
+qtlocation5-examples
+qml-module-qt-labs-location

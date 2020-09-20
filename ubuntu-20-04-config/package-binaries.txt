@@ -7208,3 +7208,4 @@
 /usr/bin/qscand
 /usr/bin/readdvd
 /usr/sbin/pxfw
+/usr/bin/QLogo

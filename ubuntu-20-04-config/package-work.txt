@@ -2409,3 +2409,4 @@ qwertone
 qtcreator
 qpxtool
 pxfw
+qlogo

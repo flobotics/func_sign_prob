@@ -20552,3 +20552,41 @@ Real binaries:['/usr/sbin/pxfw']
 Write to package-work.txt file: pxfw
 Write to package-binaries.txt file: ['/usr/sbin/pxfw']
 ['/usr/sbin/pxfw']
+Write pickle file
+tar_out:
+Package-nr:3674 of 11000, Name:qml-module-qtlocation-dbgsym
+Package >qml-module-qtlocation< not in package-all.txt file
+Write to package-all.txt file: qml-module-qtlocation
+In package >qml-module-qtlocation< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: qml-module-qtlocation
+[]
+Package-nr:3675 of 11000, Name:qml-module-qtpositioning-dbgsym
+Package >qml-module-qtpositioning< not in package-all.txt file
+Write to package-all.txt file: qml-module-qtpositioning
+In package >qml-module-qtpositioning< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: qml-module-qtpositioning
+[]
+Package-nr:3676 of 11000, Name:qtlocation5-examples-dbgsym
+Package >qtlocation5-examples< not in package-all.txt file
+Write to package-all.txt file: qtlocation5-examples
+In package >qtlocation5-examples< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: qtlocation5-examples
+[]
+Package-nr:3677 of 11000, Name:qml-module-qt-labs-location-dbgsym
+Package >qml-module-qt-labs-location< not in package-all.txt file
+Write to package-all.txt file: qml-module-qt-labs-location
+In package >qml-module-qt-labs-location< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: qml-module-qt-labs-location
+[]
+Package-nr:3678 of 11000, Name:qlogo-dbgsym
+Package >qlogo< not in package-all.txt file
+Write to package-all.txt file: qlogo
+In package >qlogo< are these binaries: ['/usr/bin/QLogo']
+Real binaries:['/usr/bin/QLogo']
+Write to package-work.txt file: qlogo
+Write to package-binaries.txt file: ['/usr/bin/QLogo']
+['/usr/bin/QLogo']

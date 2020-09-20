@@ -3721,3 +3721,8 @@ qwertone
 qtcreator
 qpxtool
 pxfw
+qml-module-qtlocation
+qml-module-qtpositioning
+qtlocation5-examples
+qml-module-qt-labs-location
+qlogo
