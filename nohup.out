@@ -19425,3 +19425,13 @@ Real binaries:['/usr/bin/mozcerts-qt5', '/usr/bin/qcatool-qt5']
 Write to package-work.txt file: qca-qt5-2-utils
 Write to package-binaries.txt file: ['/usr/bin/mozcerts-qt5', '/usr/bin/qcatool-qt5']
 ['/usr/bin/mozcerts-qt5', '/usr/bin/qcatool-qt5']
+Write pickle file
+tar_out:
+Package-nr:3538 of 11000, Name:qtchooser-dbgsym
+Package >qtchooser< not in package-all.txt file
+Write to package-all.txt file: qtchooser
+In package >qtchooser< are these binaries: ['/usr/bin/qtchooser', '/usr/bin/assistant', '/usr/bin/designer', '/usr/bin/lconvert', '/usr/bin/linguist', '/usr/bin/lrelease', '/usr/bin/lupdate', '/usr/bin/moc', '/usr/bin/pixeltool', '/usr/bin/qcollectiongenerator', '/usr/bin/qdbus', '/usr/bin/qdbuscpp2xml', '/usr/bin/qdbusviewer', '/usr/bin/qdbusxml2cpp', '/usr/bin/qdoc', '/usr/bin/qdoc3', '/usr/bin/qgltf', '/usr/bin/qhelpconverter', '/usr/bin/qhelpgenerator', '/usr/bin/qlalr', '/usr/bin/qmake', '/usr/bin/qml', '/usr/bin/qml1plugindump', '/usr/bin/qmlbundle', '/usr/bin/qmlcachegen', '/usr/bin/qmleasing', '/usr/bin/qmlimportscanner', '/usr/bin/qmljs', '/usr/bin/qmllint', '/usr/bin/qmlmin', '/usr/bin/qmlplugindump', '/usr/bin/qmlprofiler', '/usr/bin/qmlscene', '/usr/bin/qmltestrunner', '/usr/bin/qmlviewer', '/usr/bin/qtattributionsscanner', '/usr/bin/qtconfig', '/usr/bin/qtdiag', '/usr/bin/qtpaths', '/usr/bin/qtplugininfo', '/usr/bin/qvkgen', '/usr/bin/rcc', '/usr/bin/repc', '/usr/bin/uic', '/usr/bin/uic3', '/usr/bin/xmlpatterns', '/usr/bin/xmlpatternsvalidator']
+Real binaries:['/usr/bin/qtchooser']
+Write to package-work.txt file: qtchooser
+Write to package-binaries.txt file: ['/usr/bin/qtchooser']
+['/usr/bin/qtchooser']

@@ -7030,3 +7030,4 @@
 /usr/bin/quiterss
 /usr/bin/mozcerts-qt5
 /usr/bin/qcatool-qt5
+/usr/bin/qtchooser
