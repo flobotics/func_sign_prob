@@ -2923,3 +2923,4 @@ ibus-skk
 inputlirc
 ident2
 ifuse
+idesk

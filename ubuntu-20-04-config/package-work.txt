@@ -1935,3 +1935,4 @@ intel-gpu-tools
 inputlirc
 ident2
 ifuse
+idesk

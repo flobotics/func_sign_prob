@@ -5847,3 +5847,4 @@
 /usr/sbin/inputlircd
 /usr/sbin/ident2
 /usr/bin/ifuse
+/usr/bin/idesk
