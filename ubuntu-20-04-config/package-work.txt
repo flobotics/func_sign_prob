@@ -2211,3 +2211,4 @@ cvsservice
 ccextractor
 cgdb
 clustalw
+clamz

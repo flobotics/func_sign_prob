@@ -6704,3 +6704,4 @@
 /usr/bin/ccextractor
 /usr/bin/cgdb
 /usr/bin/clustalw
+/usr/bin/clamz

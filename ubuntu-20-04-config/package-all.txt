@@ -3393,3 +3393,4 @@ ccextractor
 cgdb
 centrifuge
 clustalw
+clamz
