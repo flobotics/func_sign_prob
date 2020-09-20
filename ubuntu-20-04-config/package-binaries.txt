@@ -5882,3 +5882,4 @@
 /usr/bin/isomaster
 /usr/bin/zebraidx-2.0
 /usr/bin/zebrasrv-2.0
+/usr/bin/i810switch

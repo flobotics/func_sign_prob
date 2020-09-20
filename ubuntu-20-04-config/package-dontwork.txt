@@ -994,3 +994,4 @@ infon-viewer
 infon-server
 ifgate
 ifcico
+icheck
