@@ -7695,3 +7695,4 @@
 /usr/bin/xosview
 /usr/bin/xkeycaps
 /usr/bin/xmlif
+/usr/bin/xvkbd

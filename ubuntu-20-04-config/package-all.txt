@@ -4019,3 +4019,4 @@ xosview
 xmille
 xkeycaps
 xmlto
+xvkbd

@@ -2622,3 +2622,4 @@ xttitle
 xosview
 xkeycaps
 xmlto
+xvkbd
