@@ -7196,3 +7196,4 @@
 /usr/lib/qt5/bin/qtpaths
 /usr/lib/qt5/bin/qtplugininfo
 /usr/lib/qt5/bin/qdoc
+/usr/lib/qt5/bin/qtattributionsscanner
