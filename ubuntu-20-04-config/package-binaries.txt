@@ -5977,3 +5977,4 @@
 /usr/bin/runalarm
 /usr/bin/sccs
 /usr/bin/citadel
+/usr/bin/crunch
