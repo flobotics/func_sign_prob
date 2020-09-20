@@ -1944,3 +1944,4 @@ inspectrum
 install-mimic
 iannix
 imview
+ivtools-bin
