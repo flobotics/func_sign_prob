@@ -5663,3 +5663,4 @@
 /usr/bin/ioping
 /usr/sbin/inetutils-inetd
 /usr/sbin/ftpd
+/usr/bin/inetutils-telnet
