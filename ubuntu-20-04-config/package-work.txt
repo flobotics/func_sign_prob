@@ -2278,3 +2278,4 @@ cputool
 cpm
 cg3
 printer-driver-cjet
+cutesdr

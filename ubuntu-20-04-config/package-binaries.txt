@@ -6863,3 +6863,5 @@
 /usr/bin/cg-relabel
 /usr/bin/vislcg3
 /usr/bin/cjet
+/usr/bin/CuteSdr
+/usr/bin/siqs_ftdi
