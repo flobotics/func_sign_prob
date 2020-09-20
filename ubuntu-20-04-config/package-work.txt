@@ -2191,3 +2191,4 @@ cardpeek
 clazy
 cpqarrayd
 covered
+concalc

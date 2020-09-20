@@ -6628,3 +6628,4 @@
 /usr/bin/clazy-standalone
 /usr/sbin/cpqarrayd
 /usr/bin/covered
+/usr/bin/concalc
