@@ -1156,3 +1156,4 @@ cantor-backend-octave
 cantor-backend-scilab
 okular-backend-odt
 okular-backend-odp
+r-cran-cluster

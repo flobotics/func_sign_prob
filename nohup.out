@@ -16846,3 +16846,36 @@ Real binaries:['/usr/sbin/cdpr']
 Write to package-work.txt file: cdpr
 Write to package-binaries.txt file: ['/usr/sbin/cdpr']
 ['/usr/sbin/cdpr']
+Write pickle file
+tar_out:
+Package-nr:3238 of 11000, Name:r-cran-cluster-dbgsym
+Package >r-cran-cluster< not in package-all.txt file
+Write to package-all.txt file: r-cran-cluster
+In package >r-cran-cluster< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: r-cran-cluster
+[]
+Package-nr:3239 of 11000, Name:corosync-qnetd-dbgsym
+Package >corosync-qnetd< not in package-all.txt file
+Write to package-all.txt file: corosync-qnetd
+In package >corosync-qnetd< are these binaries: ['/usr/bin/corosync-qnetd', '/usr/bin/corosync-qnetd-certutil', '/usr/bin/corosync-qnetd-tool']
+Real binaries:['/usr/bin/corosync-qnetd', '/usr/bin/corosync-qnetd-tool']
+Write to package-work.txt file: corosync-qnetd
+Write to package-binaries.txt file: ['/usr/bin/corosync-qnetd', '/usr/bin/corosync-qnetd-tool']
+['/usr/bin/corosync-qnetd', '/usr/bin/corosync-qnetd-tool']
+Package-nr:3240 of 11000, Name:corosync-qdevice-dbgsym
+Package >corosync-qdevice< not in package-all.txt file
+Write to package-all.txt file: corosync-qdevice
+In package >corosync-qdevice< are these binaries: ['/usr/sbin/corosync-qdevice', '/usr/sbin/corosync-qdevice-net-certutil', '/usr/sbin/corosync-qdevice-tool']
+Real binaries:['/usr/sbin/corosync-qdevice', '/usr/sbin/corosync-qdevice-tool']
+Write to package-work.txt file: corosync-qdevice
+Write to package-binaries.txt file: ['/usr/sbin/corosync-qdevice', '/usr/sbin/corosync-qdevice-tool']
+['/usr/sbin/corosync-qdevice', '/usr/sbin/corosync-qdevice-tool']
+Package-nr:3241 of 11000, Name:capnproto-dbgsym
+Package >capnproto< not in package-all.txt file
+Write to package-all.txt file: capnproto
+In package >capnproto< are these binaries: ['/usr/bin/capnp', '/usr/bin/capnpc-c++', '/usr/bin/capnpc-capnp', '/usr/bin/capnpc']
+Real binaries:['/usr/bin/capnp', '/usr/bin/capnpc-c++', '/usr/bin/capnpc-capnp']
+Write to package-work.txt file: capnproto
+Write to package-binaries.txt file: ['/usr/bin/capnp', '/usr/bin/capnpc-c++', '/usr/bin/capnpc-capnp']
+['/usr/bin/capnp', '/usr/bin/capnpc-c++', '/usr/bin/capnpc-capnp']

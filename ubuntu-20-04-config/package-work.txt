@@ -2147,3 +2147,6 @@ connman-ui
 codequery
 cdw
 cdpr
+corosync-qnetd
+corosync-qdevice
+capnproto

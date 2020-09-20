@@ -6451,3 +6451,10 @@
 /usr/bin/cqsearch
 /usr/bin/cdw
 /usr/sbin/cdpr
+/usr/bin/corosync-qnetd
+/usr/bin/corosync-qnetd-tool
+/usr/sbin/corosync-qdevice
+/usr/sbin/corosync-qdevice-tool
+/usr/bin/capnp
+/usr/bin/capnpc-c++
+/usr/bin/capnpc-capnp
