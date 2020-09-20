@@ -7367,3 +7367,4 @@
 /usr/bin/synclient
 /usr/bin/syndaemon
 /usr/bin/medcon
+/usr/bin/xmedcon
