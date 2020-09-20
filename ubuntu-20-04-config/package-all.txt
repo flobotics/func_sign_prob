@@ -3274,3 +3274,5 @@ clickhouse-common
 clickhouse-client
 clickhouse-tools
 clearcut
+crack-attack
+cfourcc

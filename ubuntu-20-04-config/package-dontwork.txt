@@ -1144,3 +1144,4 @@ python3-chemps2
 chromium-bsu
 cookietool
 clickhouse-common
+crack-attack

@@ -2125,3 +2125,4 @@ clickhouse-server
 clickhouse-client
 clickhouse-tools
 clearcut
+cfourcc
