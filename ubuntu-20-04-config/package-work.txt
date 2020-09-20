@@ -2498,3 +2498,5 @@ xastir
 x2goclient
 xpra
 xdaliclock
+xaos
+xfdesktop4

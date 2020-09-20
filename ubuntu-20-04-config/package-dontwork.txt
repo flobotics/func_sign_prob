@@ -1343,3 +1343,6 @@ xdg-desktop-portal-kde
 xteddy
 xserver-xspice
 xzip
+xchain
+xserver-xorg-input-kbd
+xsystem35

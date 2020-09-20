@@ -7388,3 +7388,6 @@
 /usr/lib/python3/dist-packages/xpra/x11/bindings/wait_for_x_server.cpython-38-x86_64-linux-gnu.so
 /usr/lib/python3/dist-packages/xpra/x11/bindings/ximage.cpython-38-x86_64-linux-gnu.so
 /usr/bin/xdaliclock
+/usr/bin/xaos
+/usr/bin/xfdesktop
+/usr/bin/xfdesktop-settings

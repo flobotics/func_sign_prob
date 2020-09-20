@@ -3846,3 +3846,8 @@ x2goclient
 xpra
 xzip
 xdaliclock
+xaos
+xchain
+xserver-xorg-input-kbd
+xsystem35
+xfdesktop4

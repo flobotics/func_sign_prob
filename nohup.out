@@ -21716,3 +21716,42 @@ Real binaries:['/usr/bin/xdaliclock']
 Write to package-work.txt file: xdaliclock
 Write to package-binaries.txt file: ['/usr/bin/xdaliclock']
 ['/usr/bin/xdaliclock']
+Write pickle file
+tar_out:
+Package-nr:3809 of 11000, Name:xaos-dbgsym
+Package >xaos< not in package-all.txt file
+Write to package-all.txt file: xaos
+In package >xaos< are these binaries: ['/usr/bin/xaos']
+Real binaries:['/usr/bin/xaos']
+Write to package-work.txt file: xaos
+Write to package-binaries.txt file: ['/usr/bin/xaos']
+['/usr/bin/xaos']
+Package-nr:3810 of 11000, Name:xchain-dbgsym
+Package >xchain< not in package-all.txt file
+Write to package-all.txt file: xchain
+In package >xchain< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: xchain
+[]
+Package-nr:3811 of 11000, Name:xserver-xorg-input-kbd-dbgsym
+Package >xserver-xorg-input-kbd< not in package-all.txt file
+Write to package-all.txt file: xserver-xorg-input-kbd
+In package >xserver-xorg-input-kbd< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: xserver-xorg-input-kbd
+[]
+Package-nr:3812 of 11000, Name:xsystem35-dbgsym
+Package >xsystem35< not in package-all.txt file
+Write to package-all.txt file: xsystem35
+In package >xsystem35< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: xsystem35
+[]
+Package-nr:3813 of 11000, Name:xfdesktop4-dbgsym
+Package >xfdesktop4< not in package-all.txt file
+Write to package-all.txt file: xfdesktop4
+In package >xfdesktop4< are these binaries: ['/usr/bin/xfdesktop', '/usr/bin/xfdesktop-settings']
+Real binaries:['/usr/bin/xfdesktop', '/usr/bin/xfdesktop-settings']
+Write to package-work.txt file: xfdesktop4
+Write to package-binaries.txt file: ['/usr/bin/xfdesktop', '/usr/bin/xfdesktop-settings']
+['/usr/bin/xfdesktop', '/usr/bin/xfdesktop-settings']
