@@ -22542,3 +22542,13 @@ Real binaries:['/usr/bin/xenstore', '/usr/bin/xenstore-chmod', '/usr/bin/xenstor
 Write to package-work.txt file: xenstore-utils
 Write to package-binaries.txt file: ['/usr/bin/xenstore', '/usr/bin/xenstore-chmod', '/usr/bin/xenstore-control', '/usr/bin/xenstore-exists', '/usr/bin/xenstore-list', '/usr/bin/xenstore-ls', '/usr/bin/xenstore-read', '/usr/bin/xenstore-rm', '/usr/bin/xenstore-watch', '/usr/bin/xenstore-write']
 ['/usr/bin/xenstore', '/usr/bin/xenstore-chmod', '/usr/bin/xenstore-control', '/usr/bin/xenstore-exists', '/usr/bin/xenstore-list', '/usr/bin/xenstore-ls', '/usr/bin/xenstore-read', '/usr/bin/xenstore-rm', '/usr/bin/xenstore-watch', '/usr/bin/xenstore-write']
+Write pickle file
+tar_out:
+Package-nr:3906 of 11000, Name:xen-utils-common-dbgsym
+Package >xen-utils-common< not in package-all.txt file
+Write to package-all.txt file: xen-utils-common
+In package >xen-utils-common< are these binaries: ['/usr/bin/xen-detect', '/usr/bin/xenalyze', '/usr/bin/xencons', '/usr/bin/xencov_split', '/usr/bin/xentrace_format', '/usr/lib/xen-common/bin/xen-dir', '/usr/lib/xen-common/bin/xen-init-list', '/usr/lib/xen-common/bin/xen-init-name', '/usr/lib/xen-common/bin/xen-toolstack', '/usr/lib/xen-common/bin/xen-toolstack-wrapper', '/usr/lib/xen-common/bin/xen-utils-wrapper', '/usr/lib/xen-common/bin/xen-version', '/usr/sbin/gdbsx', '/usr/sbin/xen', '/usr/sbin/xen-bugtool', '/usr/sbin/xen-ringwatch', '/usr/sbin/xen-tmem-list-parse', '/usr/sbin/xenmon', '/usr/sbin/xenpmd', '/usr/bin/pygrub', '/usr/bin/xen-cpuid', '/usr/sbin/flask-get-bool', '/usr/sbin/flask-getenforce', '/usr/sbin/flask-label-pci', '/usr/sbin/flask-loadpolicy', '/usr/sbin/flask-set-bool', '/usr/sbin/flask-setenforce', '/usr/sbin/oxenstored', '/usr/sbin/xen-diag', '/usr/sbin/xen-hptool', '/usr/sbin/xen-hvmcrash', '/usr/sbin/xen-hvmctx', '/usr/sbin/xen-kdd', '/usr/sbin/xen-livepatch', '/usr/sbin/xen-lowmemd', '/usr/sbin/xen-mfndump', '/usr/sbin/xenbaked', '/usr/sbin/xenconsoled', '/usr/sbin/xencov', '/usr/sbin/xenlockprof', '/usr/sbin/xenperf', '/usr/sbin/xenpm', '/usr/sbin/xenstored', '/usr/sbin/xentop', '/usr/sbin/xentrace', '/usr/sbin/xentrace_setmask', '/usr/sbin/xentrace_setsize', '/usr/sbin/xenwatchdogd', '/usr/sbin/xl']
+Real binaries:['/usr/bin/xen-detect', '/usr/bin/xenalyze', '/usr/sbin/gdbsx', '/usr/sbin/xen-tmem-list-parse', '/usr/sbin/xenpmd']
+Write to package-work.txt file: xen-utils-common
+Write to package-binaries.txt file: ['/usr/bin/xen-detect', '/usr/bin/xenalyze', '/usr/sbin/gdbsx', '/usr/sbin/xen-tmem-list-parse', '/usr/sbin/xenpmd']
+['/usr/bin/xen-detect', '/usr/bin/xenalyze', '/usr/sbin/gdbsx', '/usr/sbin/xen-tmem-list-parse', '/usr/sbin/xenpmd']

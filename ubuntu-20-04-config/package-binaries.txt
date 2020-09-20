@@ -7576,3 +7576,8 @@
 /usr/bin/xenstore-rm
 /usr/bin/xenstore-watch
 /usr/bin/xenstore-write
+/usr/bin/xen-detect
+/usr/bin/xenalyze
+/usr/sbin/gdbsx
+/usr/sbin/xen-tmem-list-parse
+/usr/sbin/xenpmd
