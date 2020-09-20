@@ -1199,3 +1199,4 @@ crossfire-client
 coco-cpp
 cavezofphear
 chess.app
+crack-md5

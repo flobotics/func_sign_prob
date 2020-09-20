@@ -3497,3 +3497,6 @@ chess.app
 cinnamon-session
 csync2
 colorized-logs
+camlp5
+crack-md5
+ccze

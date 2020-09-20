@@ -6909,3 +6909,7 @@
 /usr/bin/ansi2txt
 /usr/bin/pipetty
 /usr/bin/ttyrec2ansi
+/usr/bin/camlp5o.opt
+/usr/bin/camlp5r.opt
+/usr/bin/ccze
+/usr/bin/ccze-cssdump

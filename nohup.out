@@ -18624,3 +18624,34 @@ Real binaries:['/usr/bin/ansi2html', '/usr/bin/ansi2txt', '/usr/bin/pipetty', '/
 Write to package-work.txt file: colorized-logs
 Write to package-binaries.txt file: ['/usr/bin/ansi2html', '/usr/bin/ansi2txt', '/usr/bin/pipetty', '/usr/bin/ttyrec2ansi']
 ['/usr/bin/ansi2html', '/usr/bin/ansi2txt', '/usr/bin/pipetty', '/usr/bin/ttyrec2ansi']
+Write pickle file
+tar_out:
+Package-nr:3440 of 11000, Name:camlp5-dbgsym
+Package >camlp5< not in package-all.txt file
+Write to package-all.txt file: camlp5
+In package >camlp5< are these binaries: ['/usr/bin/camlp5', '/usr/bin/camlp5o', '/usr/bin/camlp5o.opt', '/usr/bin/camlp5r', '/usr/bin/camlp5r.opt', '/usr/bin/camlp5sch', '/usr/bin/mkcamlp5', '/usr/bin/mkcamlp5.opt', '/usr/bin/ocpp5']
+Real binaries:['/usr/bin/camlp5o.opt', '/usr/bin/camlp5r.opt']
+Write to package-work.txt file: camlp5
+Write to package-binaries.txt file: ['/usr/bin/camlp5o.opt', '/usr/bin/camlp5r.opt']
+['/usr/bin/camlp5o.opt', '/usr/bin/camlp5r.opt']
+Package-nr:3441 of 11000, Name:cvs-dbgsym
+Skip package >cvs<, already in package-all.txt file
+[]
+Package-nr:3442 of 11000, Name:crack-md5-dbgsym
+Package >crack-md5< not in package-all.txt file
+Write to package-all.txt file: crack-md5
+In package >crack-md5< are these binaries: ['/usr/sbin/Crack', '/usr/sbin/Crack-Reporter', '/var/lib/Crack/bin/debian']
+Real binaries:[]
+Write to package-dontwork.txt file: crack-md5
+[]
+Package-nr:3443 of 11000, Name:crack-dbgsym
+Skip package >crack<, already in package-all.txt file
+[]
+Package-nr:3444 of 11000, Name:ccze-dbgsym
+Package >ccze< not in package-all.txt file
+Write to package-all.txt file: ccze
+In package >ccze< are these binaries: ['/usr/bin/ccze', '/usr/bin/ccze-cssdump']
+Real binaries:['/usr/bin/ccze', '/usr/bin/ccze-cssdump']
+Write to package-work.txt file: ccze
+Write to package-binaries.txt file: ['/usr/bin/ccze', '/usr/bin/ccze-cssdump']
+['/usr/bin/ccze', '/usr/bin/ccze-cssdump']
