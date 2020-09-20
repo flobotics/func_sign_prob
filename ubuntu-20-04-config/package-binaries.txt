@@ -5660,3 +5660,4 @@
 /usr/bin/srktool
 /usr/sbin/ifmetric
 /usr/bin/isoqlog
+/usr/bin/ioping
