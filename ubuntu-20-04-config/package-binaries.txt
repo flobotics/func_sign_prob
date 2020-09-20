@@ -7440,3 +7440,4 @@
 /usr/bin/xmacroplay
 /usr/bin/xmacrorec
 /usr/bin/xmacrorec2
+/usr/bin/x2x

@@ -1353,3 +1353,4 @@ xblast-tnt
 xmahjongg
 xmountains
 tcl-xpa
+xsynth-dssi

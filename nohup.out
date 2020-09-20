@@ -22114,3 +22114,20 @@ Real binaries:['/usr/bin/xmacroplay', '/usr/bin/xmacrorec', '/usr/bin/xmacrorec2
 Write to package-work.txt file: xmacro
 Write to package-binaries.txt file: ['/usr/bin/xmacroplay', '/usr/bin/xmacrorec', '/usr/bin/xmacrorec2']
 ['/usr/bin/xmacroplay', '/usr/bin/xmacrorec', '/usr/bin/xmacrorec2']
+Write pickle file
+tar_out:
+Package-nr:3855 of 11000, Name:xsynth-dssi-dbgsym
+Package >xsynth-dssi< not in package-all.txt file
+Write to package-all.txt file: xsynth-dssi
+In package >xsynth-dssi< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: xsynth-dssi
+[]
+Package-nr:3856 of 11000, Name:x2x-dbgsym
+Package >x2x< not in package-all.txt file
+Write to package-all.txt file: x2x
+In package >x2x< are these binaries: ['/usr/bin/x2x']
+Real binaries:['/usr/bin/x2x']
+Write to package-work.txt file: x2x
+Write to package-binaries.txt file: ['/usr/bin/x2x']
+['/usr/bin/x2x']

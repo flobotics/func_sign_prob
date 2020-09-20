@@ -3888,3 +3888,5 @@ xlassie
 xnec2c
 xjadeo
 xmacro
+xsynth-dssi
+x2x
