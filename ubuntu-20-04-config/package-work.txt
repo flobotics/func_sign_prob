@@ -2044,3 +2044,4 @@ cabextract
 camlmix
 cpluff-loader
 cue2toc
+cliquer

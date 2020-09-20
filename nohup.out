@@ -15271,3 +15271,13 @@ Real binaries:['/usr/bin/cue2toc']
 Write to package-work.txt file: cue2toc
 Write to package-binaries.txt file: ['/usr/bin/cue2toc']
 ['/usr/bin/cue2toc']
+Write pickle file
+tar_out:
+Package-nr:3048 of 11000, Name:cliquer-dbgsym
+Package >cliquer< not in package-all.txt file
+Write to package-all.txt file: cliquer
+In package >cliquer< are these binaries: ['/usr/bin/cliquer']
+Real binaries:['/usr/bin/cliquer']
+Write to package-work.txt file: cliquer
+Write to package-binaries.txt file: ['/usr/bin/cliquer']
+['/usr/bin/cliquer']

@@ -6021,3 +6021,4 @@
 /usr/bin/camlmix
 /usr/bin/cpluff-loader
 /usr/bin/cue2toc
+/usr/bin/cliquer
