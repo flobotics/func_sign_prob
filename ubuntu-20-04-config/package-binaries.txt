@@ -6437,3 +6437,4 @@
 /usr/bin/karbon
 /usr/bin/calligragemini
 /usr/bin/calligrageminithumbnailhelper
+/usr/bin/calligraconverter

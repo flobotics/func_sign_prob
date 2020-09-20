@@ -3296,3 +3296,4 @@ calligrastage
 calligrawords
 karbon
 calligra-gemini
+calligra-libs

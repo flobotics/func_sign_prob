@@ -16734,3 +16734,13 @@ Real binaries:['/usr/bin/calligragemini', '/usr/bin/calligrageminithumbnailhelpe
 Write to package-work.txt file: calligra-gemini
 Write to package-binaries.txt file: ['/usr/bin/calligragemini', '/usr/bin/calligrageminithumbnailhelper']
 ['/usr/bin/calligragemini', '/usr/bin/calligrageminithumbnailhelper']
+Write pickle file
+tar_out:
+Package-nr:3226 of 11000, Name:calligra-libs-dbgsym
+Package >calligra-libs< not in package-all.txt file
+Write to package-all.txt file: calligra-libs
+In package >calligra-libs< are these binaries: ['/usr/bin/calligra', '/usr/bin/calligraconverter']
+Real binaries:['/usr/bin/calligra', '/usr/bin/calligraconverter']
+Write to package-work.txt file: calligra-libs
+Write to package-binaries.txt file: ['/usr/bin/calligraconverter']
+['/usr/bin/calligraconverter']
