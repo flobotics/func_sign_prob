@@ -2245,3 +2245,4 @@ latex-cjk-japanese
 clfft-client
 cksfv
 cronolog
+centreon-engine
