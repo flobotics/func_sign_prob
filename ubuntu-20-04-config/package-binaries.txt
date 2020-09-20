@@ -6640,3 +6640,4 @@
 /usr/bin/capstats
 /usr/bin/CloudCompare
 /usr/bin/ccViewer
+/usr/bin/cd5

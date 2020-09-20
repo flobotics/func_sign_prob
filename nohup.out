@@ -17474,3 +17474,20 @@ Real binaries:['/usr/bin/CloudCompare', '/usr/bin/ccViewer']
 Write to package-work.txt file: cloudcompare
 Write to package-binaries.txt file: ['/usr/bin/CloudCompare', '/usr/bin/ccViewer']
 ['/usr/bin/CloudCompare', '/usr/bin/ccViewer']
+Write pickle file
+tar_out:
+Package-nr:3310 of 11000, Name:colobot-dbgsym
+Package >colobot< not in package-all.txt file
+Write to package-all.txt file: colobot
+In package >colobot< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: colobot
+[]
+Package-nr:3311 of 11000, Name:cd5-dbgsym
+Package >cd5< not in package-all.txt file
+Write to package-all.txt file: cd5
+In package >cd5< are these binaries: ['/usr/bin/cd5']
+Real binaries:['/usr/bin/cd5']
+Write to package-work.txt file: cd5
+Write to package-binaries.txt file: ['/usr/bin/cd5']
+['/usr/bin/cd5']

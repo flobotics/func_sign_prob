@@ -1174,3 +1174,4 @@ cups-backend-bjnp
 coinor-libflopc++0v5
 coinor-libflopc++-dev
 cinnamon-control-center-goa
+colobot

@@ -3376,3 +3376,5 @@ coinor-libflopc++-dev
 cinnamon-control-center-goa
 capstats
 cloudcompare
+colobot
+cd5
