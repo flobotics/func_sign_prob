@@ -7649,3 +7649,5 @@
 /usr/bin/x86info
 /usr/bin/xdiskusage
 /usr/bin/xdu
+/usr/bin/xmms2-launcher
+/usr/bin/xmms2d

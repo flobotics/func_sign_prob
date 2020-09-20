@@ -2593,3 +2593,4 @@ xininfo
 x86info
 xdiskusage
 xdu
+xmms2-core
