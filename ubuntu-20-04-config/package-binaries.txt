@@ -5946,3 +5946,4 @@
 /usr/bin/calcurse
 /usr/bin/casync
 /usr/bin/CsoundQt-d-cs6
+/usr/bin/cscope

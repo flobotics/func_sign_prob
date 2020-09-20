@@ -1998,3 +1998,4 @@ clonalorigin
 calcurse
 casync
 csoundqt
+cscope

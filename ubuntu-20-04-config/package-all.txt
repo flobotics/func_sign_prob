@@ -3015,3 +3015,4 @@ python3-cracklib
 casync
 cpdb-backend-file
 csoundqt
+cscope
