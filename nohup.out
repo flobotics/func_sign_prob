@@ -18339,3 +18339,23 @@ Real binaries:['/usr/bin/chaosread']
 Write to package-work.txt file: chaosread
 Write to package-binaries.txt file: ['/usr/bin/chaosread']
 ['/usr/bin/chaosread']
+Write pickle file
+tar_out:
+Package-nr:3407 of 11000, Name:cen64-dbgsym
+Skip package >cen64<, already in package-all.txt file
+[]
+Package-nr:3408 of 11000, Name:coinor-libdylp1-dbgsym
+Package >coinor-libdylp1< not in package-all.txt file
+Write to package-all.txt file: coinor-libdylp1
+In package >coinor-libdylp1< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: coinor-libdylp1
+[]
+Package-nr:3409 of 11000, Name:clamav-milter-dbgsym
+Package >clamav-milter< not in package-all.txt file
+Write to package-all.txt file: clamav-milter
+In package >clamav-milter< are these binaries: ['/usr/sbin/clamav-milter']
+Real binaries:['/usr/sbin/clamav-milter']
+Write to package-work.txt file: clamav-milter
+Write to package-binaries.txt file: ['/usr/sbin/clamav-milter']
+['/usr/sbin/clamav-milter']
