@@ -15203,3 +15203,13 @@ Real binaries:['/usr/bin/courierauthconfig']
 Write to package-work.txt file: courier-authlib-dev
 Write to package-binaries.txt file: ['/usr/bin/courierauthconfig']
 ['/usr/bin/courierauthconfig']
+Write pickle file
+tar_out:
+Package-nr:3041 of 11000, Name:cassbeam-dbgsym
+Package >cassbeam< not in package-all.txt file
+Write to package-all.txt file: cassbeam
+In package >cassbeam< are these binaries: ['/usr/bin/cassbeam']
+Real binaries:['/usr/bin/cassbeam']
+Write to package-work.txt file: cassbeam
+Write to package-binaries.txt file: ['/usr/bin/cassbeam']
+['/usr/bin/cassbeam']

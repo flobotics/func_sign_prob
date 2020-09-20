@@ -3124,3 +3124,4 @@ courier-authlib-postgresql
 courier-authlib-userdb
 courier-authlib-mysql
 courier-authlib-dev
+cassbeam

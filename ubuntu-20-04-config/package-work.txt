@@ -2037,3 +2037,4 @@ converseen
 cmus
 courier-authlib-userdb
 courier-authlib-dev
+cassbeam

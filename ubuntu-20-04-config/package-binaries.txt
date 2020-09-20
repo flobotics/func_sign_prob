@@ -6012,3 +6012,4 @@
 /usr/bin/cmus-remote
 /usr/sbin/userdbpw
 /usr/bin/courierauthconfig
+/usr/bin/cassbeam
