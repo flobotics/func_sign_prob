@@ -1930,3 +1930,4 @@ isc-dhcp-client-ddns
 isc-dhcp-relay
 isc-dhcp-server-ldap
 its-playback-time
+ike-scan

@@ -2915,3 +2915,6 @@ isc-dhcp-client-ddns
 isc-dhcp-relay
 isc-dhcp-server-ldap
 its-playback-time
+invesalius-bin
+instead
+ike-scan

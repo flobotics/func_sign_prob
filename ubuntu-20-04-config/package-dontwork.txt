@@ -980,3 +980,5 @@ i965-va-driver
 ibus-clutter
 ibus-kmfl
 ibus-pinyin
+invesalius-bin
+instead

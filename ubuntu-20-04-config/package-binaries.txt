@@ -5801,3 +5801,5 @@
 /usr/bin/inform6
 /usr/sbin/dhcrelay
 /usr/bin/ipbt
+/usr/bin/ike-scan
+/usr/bin/psk-crack
