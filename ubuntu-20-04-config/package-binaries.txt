@@ -7259,3 +7259,4 @@
 /usr/bin/mpeg3peek
 /usr/bin/mpeg3toc
 /usr/bin/miri_sdr
+/usr/bin/mmdblookup

@@ -3750,3 +3750,4 @@ mtp-tools
 lua-mpack
 mpeg3-utils
 miri-sdr
+mmdb-bin
