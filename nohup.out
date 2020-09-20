@@ -22158,3 +22158,13 @@ Real binaries:['/usr/bin/xtrlock']
 Write to package-work.txt file: xtrlock
 Write to package-binaries.txt file: ['/usr/bin/xtrlock']
 ['/usr/bin/xtrlock']
+Write pickle file
+tar_out:
+Package-nr:3860 of 11000, Name:xzgv-dbgsym
+Package >xzgv< not in package-all.txt file
+Write to package-all.txt file: xzgv
+In package >xzgv< are these binaries: ['/usr/bin/xzgv']
+Real binaries:['/usr/bin/xzgv']
+Write to package-work.txt file: xzgv
+Write to package-binaries.txt file: ['/usr/bin/xzgv']
+['/usr/bin/xzgv']

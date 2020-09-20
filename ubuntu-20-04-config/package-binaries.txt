@@ -7443,3 +7443,4 @@
 /usr/bin/x2x
 /usr/bin/xsane
 /usr/bin/xtrlock
+/usr/bin/xzgv
