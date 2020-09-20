@@ -7629,3 +7629,4 @@
 /usr/bin/xkbset
 /usr/bin/xarclock
 /usr/bin/xrootconsole
+/usr/bin/xfce4-dict

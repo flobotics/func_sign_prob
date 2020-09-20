@@ -3958,3 +3958,5 @@ xbuffy
 xkbset
 xarclock
 xrootconsole
+xcrysden
+xfce4-dict

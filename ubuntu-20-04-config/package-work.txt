@@ -2582,3 +2582,4 @@ xbuffy
 xkbset
 xarclock
 xrootconsole
+xfce4-dict

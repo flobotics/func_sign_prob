@@ -1371,3 +1371,4 @@ xdg-dbus-proxy-tests
 xjokes
 xsok
 xphoon
+xcrysden
