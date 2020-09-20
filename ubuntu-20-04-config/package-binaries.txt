@@ -5885,3 +5885,4 @@
 /usr/bin/i810switch
 /usr/bin/iptux
 /usr/bin/icon-slicer
+/usr/bin/iperf3

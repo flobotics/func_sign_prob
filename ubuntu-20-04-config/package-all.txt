@@ -2952,3 +2952,4 @@ i810switch
 iptux
 ioquake3-server
 icon-slicer
+iperf3
