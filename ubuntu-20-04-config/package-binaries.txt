@@ -6982,3 +6982,4 @@
 /usr/bin/colord-kde-icc-importer
 /usr/bin/camitk-actionstatemachine
 /usr/bin/camitk-imp
+/usr/bin/camitk-config

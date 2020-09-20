@@ -18853,3 +18853,13 @@ Real binaries:['/usr/bin/camitk-imp']
 Write to package-work.txt file: camitk-imp
 Write to package-binaries.txt file: ['/usr/bin/camitk-imp']
 ['/usr/bin/camitk-imp']
+Write pickle file
+tar_out:
+Package-nr:3466 of 11000, Name:camitk-config-dbgsym
+Package >camitk-config< not in package-all.txt file
+Write to package-all.txt file: camitk-config
+In package >camitk-config< are these binaries: ['/usr/bin/camitk-config']
+Real binaries:['/usr/bin/camitk-config']
+Write to package-work.txt file: camitk-config
+Write to package-binaries.txt file: ['/usr/bin/camitk-config']
+['/usr/bin/camitk-config']
