@@ -20542,3 +20542,13 @@ Real binaries:['/usr/bin/cdvdcontrol', '/usr/bin/f1tattoo', '/usr/bin/qpxtool', 
 Write to package-work.txt file: qpxtool
 Write to package-binaries.txt file: ['/usr/bin/cdvdcontrol', '/usr/bin/f1tattoo', '/usr/bin/qpxtool', '/usr/bin/qscan', '/usr/bin/qscand', '/usr/bin/readdvd']
 ['/usr/bin/cdvdcontrol', '/usr/bin/f1tattoo', '/usr/bin/qpxtool', '/usr/bin/qscan', '/usr/bin/qscand', '/usr/bin/readdvd']
+Write pickle file
+tar_out:
+Package-nr:3673 of 11000, Name:pxfw-dbgsym
+Package >pxfw< not in package-all.txt file
+Write to package-all.txt file: pxfw
+In package >pxfw< are these binaries: ['/usr/sbin/pxfw']
+Real binaries:['/usr/sbin/pxfw']
+Write to package-work.txt file: pxfw
+Write to package-binaries.txt file: ['/usr/sbin/pxfw']
+['/usr/sbin/pxfw']

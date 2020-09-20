@@ -7207,3 +7207,4 @@
 /usr/bin/qscan
 /usr/bin/qscand
 /usr/bin/readdvd
+/usr/sbin/pxfw
