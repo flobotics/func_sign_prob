@@ -7663,3 +7663,7 @@
 /usr/sbin/via_regs_dump
 /usr/bin/xcwd
 /usr/bin/xjobs
+/usr/bin/xfce4-power-manager
+/usr/bin/xfce4-power-manager-settings
+/usr/sbin/xfce4-pm-helper
+/usr/sbin/xfpm-power-backlight-helper

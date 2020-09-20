@@ -3994,3 +3994,4 @@ openchrome-tool
 xserver-xorg-video-openchrome
 xcwd
 xjobs
+xfce4-power-manager

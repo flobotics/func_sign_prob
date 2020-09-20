@@ -23104,3 +23104,13 @@ Real binaries:['/usr/bin/xjobs']
 Write to package-work.txt file: xjobs
 Write to package-binaries.txt file: ['/usr/bin/xjobs']
 ['/usr/bin/xjobs']
+Write pickle file
+tar_out:
+Package-nr:3971 of 11000, Name:xfce4-power-manager-dbgsym
+Package >xfce4-power-manager< not in package-all.txt file
+Write to package-all.txt file: xfce4-power-manager
+In package >xfce4-power-manager< are these binaries: ['/usr/bin/xfce4-power-manager', '/usr/bin/xfce4-power-manager-settings', '/usr/sbin/xfce4-pm-helper', '/usr/sbin/xfpm-power-backlight-helper']
+Real binaries:['/usr/bin/xfce4-power-manager', '/usr/bin/xfce4-power-manager-settings', '/usr/sbin/xfce4-pm-helper', '/usr/sbin/xfpm-power-backlight-helper']
+Write to package-work.txt file: xfce4-power-manager
+Write to package-binaries.txt file: ['/usr/bin/xfce4-power-manager', '/usr/bin/xfce4-power-manager-settings', '/usr/sbin/xfce4-pm-helper', '/usr/sbin/xfpm-power-backlight-helper']
+['/usr/bin/xfce4-power-manager', '/usr/bin/xfce4-power-manager-settings', '/usr/sbin/xfce4-pm-helper', '/usr/sbin/xfpm-power-backlight-helper']

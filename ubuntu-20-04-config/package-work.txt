@@ -2606,3 +2606,4 @@ xwrits
 openchrome-tool
 xcwd
 xjobs
+xfce4-power-manager
