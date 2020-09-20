@@ -4016,3 +4016,5 @@ x2gobroker-agent
 xbubble
 xttitle
 xosview
+xmille
+xkeycaps

@@ -23306,3 +23306,20 @@ Real binaries:['/usr/bin/xosview']
 Write to package-work.txt file: xosview
 Write to package-binaries.txt file: ['/usr/bin/xosview']
 ['/usr/bin/xosview']
+Write pickle file
+tar_out:
+Package-nr:3995 of 11000, Name:xmille-dbgsym
+Package >xmille< not in package-all.txt file
+Write to package-all.txt file: xmille
+In package >xmille< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: xmille
+[]
+Package-nr:3996 of 11000, Name:xkeycaps-dbgsym
+Package >xkeycaps< not in package-all.txt file
+Write to package-all.txt file: xkeycaps
+In package >xkeycaps< are these binaries: ['/usr/bin/xkeycaps']
+Real binaries:['/usr/bin/xkeycaps']
+Write to package-work.txt file: xkeycaps
+Write to package-binaries.txt file: ['/usr/bin/xkeycaps']
+['/usr/bin/xkeycaps']
