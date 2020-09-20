@@ -2609,3 +2609,4 @@ xjobs
 xfce4-power-manager
 xtel
 xfce4-taskmanager
+x2vnc

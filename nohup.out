@@ -23141,3 +23141,13 @@ Real binaries:['/usr/bin/xfce4-taskmanager']
 Write to package-work.txt file: xfce4-taskmanager
 Write to package-binaries.txt file: ['/usr/bin/xfce4-taskmanager']
 ['/usr/bin/xfce4-taskmanager']
+Write pickle file
+tar_out:
+Package-nr:3975 of 11000, Name:x2vnc-dbgsym
+Package >x2vnc< not in package-all.txt file
+Write to package-all.txt file: x2vnc
+In package >x2vnc< are these binaries: ['/usr/bin/x2vnc']
+Real binaries:['/usr/bin/x2vnc']
+Write to package-work.txt file: x2vnc
+Write to package-binaries.txt file: ['/usr/bin/x2vnc']
+['/usr/bin/x2vnc']
