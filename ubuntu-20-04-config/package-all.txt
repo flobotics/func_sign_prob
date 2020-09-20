@@ -3100,3 +3100,4 @@ cadvisor
 chafa
 coz-profiler
 comet-ms
+ckb-next
