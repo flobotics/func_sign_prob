@@ -1177,3 +1177,4 @@ cinnamon-control-center-goa
 colobot
 python3-workqueue
 centrifuge
+python3-compreffor

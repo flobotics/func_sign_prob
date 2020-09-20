@@ -6708,3 +6708,4 @@
 /usr/bin/corkscrew
 /usr/bin/clog
 /usr/bin/cstest
+/sbin/cachefilesd
