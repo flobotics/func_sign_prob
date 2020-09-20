@@ -15704,3 +15704,27 @@ Real binaries:['/usr/bin/catimg']
 Write to package-work.txt file: catimg
 Write to package-binaries.txt file: ['/usr/bin/catimg']
 ['/usr/bin/catimg']
+Write pickle file
+tar_out:
+Package-nr:3103 of 11000, Name:cackey-dbgsym
+Package >cackey< not in package-all.txt file
+Write to package-all.txt file: cackey
+In package >cackey< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: cackey
+[]
+Package-nr:3104 of 11000, Name:courier-webadmin-dbgsym
+Package >courier-webadmin< not in package-all.txt file
+Write to package-all.txt file: courier-webadmin
+In package >courier-webadmin< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: courier-webadmin
+[]
+Package-nr:3105 of 11000, Name:courier-mta-dbgsym
+Package >courier-mta< not in package-all.txt file
+Write to package-all.txt file: courier-mta
+In package >courier-mta< are these binaries: ['/usr/bin/cancelmsg', '/usr/bin/dotforward', '/usr/bin/lockmail.courier', '/usr/bin/mailq', '/usr/bin/preline.courier', '/usr/sbin/aliaslookup', '/usr/sbin/courier', '/usr/sbin/courier-mtaconfig', '/usr/sbin/courierfilter', '/usr/sbin/sendmail', '/usr/bin/addcr', 'package diverts others to: /usr/bin/addcr.ucspi-tcp', '/usr/sbin/courieresmtpd', '/usr/sbin/esmtpd', '/usr/sbin/esmtpd-msa', '/usr/sbin/esmtpd-ssl', '/usr/sbin/filterctl', '/usr/sbin/makeacceptmailfor', '/usr/sbin/makealiases', '/usr/sbin/makehosteddomains', '/usr/sbin/makepercentrelay', '/usr/sbin/makesmtpaccess', '/usr/sbin/makesmtpaccess-msa', '/usr/sbin/makeuucpneighbors', '/usr/sbin/mkesmtpdcert', '/usr/sbin/newaliases', '/usr/sbin/rmail']
+Real binaries:['/usr/bin/cancelmsg', '/usr/bin/dotforward', '/usr/bin/lockmail.courier', '/usr/bin/mailq', '/usr/bin/preline.courier', '/usr/sbin/aliaslookup', '/usr/sbin/courier', '/usr/sbin/courier-mtaconfig', '/usr/sbin/sendmail']
+Write to package-work.txt file: courier-mta
+Write to package-binaries.txt file: ['/usr/bin/cancelmsg', '/usr/bin/dotforward', '/usr/bin/lockmail.courier', '/usr/bin/mailq', '/usr/bin/preline.courier', '/usr/sbin/aliaslookup', '/usr/sbin/courier', '/usr/sbin/courier-mtaconfig', '/usr/sbin/sendmail']
+['/usr/bin/cancelmsg', '/usr/bin/dotforward', '/usr/bin/lockmail.courier', '/usr/bin/mailq', '/usr/bin/preline.courier', '/usr/sbin/aliaslookup', '/usr/sbin/courier', '/usr/sbin/courier-mtaconfig', '/usr/sbin/sendmail']

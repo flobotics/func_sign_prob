@@ -6164,3 +6164,12 @@
 /usr/lib/cmtk/bin/xform2itk
 /usr/lib/cmtk/bin/xform2scalar
 /usr/bin/catimg
+/usr/bin/cancelmsg
+/usr/bin/dotforward
+/usr/bin/lockmail.courier
+/usr/bin/mailq
+/usr/bin/preline.courier
+/usr/sbin/aliaslookup
+/usr/sbin/courier
+/usr/sbin/courier-mtaconfig
+/usr/sbin/sendmail

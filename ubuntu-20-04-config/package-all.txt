@@ -3178,3 +3178,6 @@ printer-driver-cups-pdf
 clasp
 cmtk
 catimg
+cackey
+courier-webadmin
+courier-mta
