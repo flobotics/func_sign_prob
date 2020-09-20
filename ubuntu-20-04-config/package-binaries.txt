@@ -7021,3 +7021,4 @@
 /usr/bin/fix-qdf
 /usr/bin/qpdf
 /usr/bin/zlib-flate
+/usr/bin/esolver

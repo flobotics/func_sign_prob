@@ -3573,3 +3573,4 @@ qtquickcontrols2-5-examples
 qml-module-qt-labs-calendar
 qml-module-qt-labs-platform
 qpdf
+qsopt-ex

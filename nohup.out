@@ -19279,3 +19279,13 @@ Real binaries:['/usr/bin/fix-qdf', '/usr/bin/qpdf', '/usr/bin/zlib-flate']
 Write to package-work.txt file: qpdf
 Write to package-binaries.txt file: ['/usr/bin/fix-qdf', '/usr/bin/qpdf', '/usr/bin/zlib-flate']
 ['/usr/bin/fix-qdf', '/usr/bin/qpdf', '/usr/bin/zlib-flate']
+Write pickle file
+tar_out:
+Package-nr:3520 of 11000, Name:qsopt-ex-dbgsym
+Package >qsopt-ex< not in package-all.txt file
+Write to package-all.txt file: qsopt-ex
+In package >qsopt-ex< are these binaries: ['/usr/bin/esolver']
+Real binaries:['/usr/bin/esolver']
+Write to package-work.txt file: qsopt-ex
+Write to package-binaries.txt file: ['/usr/bin/esolver']
+['/usr/bin/esolver']
