@@ -3302,3 +3302,4 @@ okular-backend-odt
 okular-backend-odp
 chrootuid
 cairo-dock-core
+cellwriter

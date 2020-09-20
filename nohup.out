@@ -16786,3 +16786,13 @@ Real binaries:['/usr/bin/cairo-dock']
 Write to package-work.txt file: cairo-dock-core
 Write to package-binaries.txt file: ['/usr/bin/cairo-dock']
 ['/usr/bin/cairo-dock']
+Write pickle file
+tar_out:
+Package-nr:3232 of 11000, Name:cellwriter-dbgsym
+Package >cellwriter< not in package-all.txt file
+Write to package-all.txt file: cellwriter
+In package >cellwriter< are these binaries: ['/usr/bin/cellwriter']
+Real binaries:['/usr/bin/cellwriter']
+Write to package-work.txt file: cellwriter
+Write to package-binaries.txt file: ['/usr/bin/cellwriter']
+['/usr/bin/cellwriter']

@@ -6441,3 +6441,4 @@
 /usr/bin/calligrasheets
 /usr/bin/chrootuid
 /usr/bin/cairo-dock
+/usr/bin/cellwriter

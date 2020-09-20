@@ -2141,3 +2141,4 @@ calligra-libs
 calligrasheets
 chrootuid
 cairo-dock-core
+cellwriter
