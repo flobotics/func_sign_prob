@@ -16744,3 +16744,13 @@ Real binaries:['/usr/bin/calligra', '/usr/bin/calligraconverter']
 Write to package-work.txt file: calligra-libs
 Write to package-binaries.txt file: ['/usr/bin/calligraconverter']
 ['/usr/bin/calligraconverter']
+Write pickle file
+tar_out:
+Package-nr:3227 of 11000, Name:calligrasheets-dbgsym
+Package >calligrasheets< not in package-all.txt file
+Write to package-all.txt file: calligrasheets
+In package >calligrasheets< are these binaries: ['/usr/bin/calligrasheets']
+Real binaries:['/usr/bin/calligrasheets']
+Write to package-work.txt file: calligrasheets
+Write to package-binaries.txt file: ['/usr/bin/calligrasheets']
+['/usr/bin/calligrasheets']

@@ -6438,3 +6438,4 @@
 /usr/bin/calligragemini
 /usr/bin/calligrageminithumbnailhelper
 /usr/bin/calligraconverter
+/usr/bin/calligrasheets
