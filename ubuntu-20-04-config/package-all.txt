@@ -3911,3 +3911,5 @@ x11-touchscreen-calibrator
 xletters
 xstow
 xgrep
+xshisen
+xcape

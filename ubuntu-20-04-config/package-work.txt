@@ -2543,3 +2543,4 @@ xmix
 x11-touchscreen-calibrator
 xstow
 xgrep
+xcape
