@@ -7295,3 +7295,4 @@
 /usr/bin/xplanet
 /usr/bin/x2goejectcd
 /usr/bin/xpenguins
+/usr/bin/xfburn

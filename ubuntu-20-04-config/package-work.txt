@@ -2441,3 +2441,4 @@ xfdashboard
 xplanet
 x2gothinclient-cdmanager
 xpenguins
+xfburn
