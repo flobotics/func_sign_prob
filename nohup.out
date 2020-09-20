@@ -17078,3 +17078,21 @@ Real binaries:['/usr/bin/mate-eiciel']
 Write to package-work.txt file: caja-eiciel
 Write to package-binaries.txt file: ['/usr/bin/mate-eiciel']
 ['/usr/bin/mate-eiciel']
+Write pickle file
+tar_out:
+Package-nr:3264 of 11000, Name:cudf-tools-dbgsym
+Package >cudf-tools< not in package-all.txt file
+Write to package-all.txt file: cudf-tools
+In package >cudf-tools< are these binaries: ['/usr/bin/cudf-check', '/usr/bin/cudf-parse-822']
+Real binaries:['/usr/bin/cudf-check', '/usr/bin/cudf-parse-822']
+Write to package-work.txt file: cudf-tools
+Write to package-binaries.txt file: ['/usr/bin/cudf-check', '/usr/bin/cudf-parse-822']
+['/usr/bin/cudf-check', '/usr/bin/cudf-parse-822']
+Package-nr:3265 of 11000, Name:cen64-qt-dbgsym
+Package >cen64-qt< not in package-all.txt file
+Write to package-all.txt file: cen64-qt
+In package >cen64-qt< are these binaries: ['/usr/bin/cen64-qt']
+Real binaries:['/usr/bin/cen64-qt']
+Write to package-work.txt file: cen64-qt
+Write to package-binaries.txt file: ['/usr/bin/cen64-qt']
+['/usr/bin/cen64-qt']

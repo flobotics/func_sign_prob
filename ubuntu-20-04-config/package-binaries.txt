@@ -6491,3 +6491,6 @@
 /usr/sbin/nfct
 /usr/sbin/conntrackd
 /usr/bin/mate-eiciel
+/usr/bin/cudf-check
+/usr/bin/cudf-parse-822
+/usr/bin/cen64-qt
