@@ -7179,3 +7179,4 @@
 /usr/bin/qalculate-gtk
 /usr/sbin/quotatool
 /usr/bin/qjackctl
+/usr/bin/qlipper

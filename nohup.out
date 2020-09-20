@@ -20360,3 +20360,13 @@ Real binaries:['/usr/bin/qjackctl']
 Write to package-work.txt file: qjackctl
 Write to package-binaries.txt file: ['/usr/bin/qjackctl']
 ['/usr/bin/qjackctl']
+Write pickle file
+tar_out:
+Package-nr:3652 of 11000, Name:qlipper-dbgsym
+Package >qlipper< not in package-all.txt file
+Write to package-all.txt file: qlipper
+In package >qlipper< are these binaries: ['/usr/bin/qlipper']
+Real binaries:['/usr/bin/qlipper']
+Write to package-work.txt file: qlipper
+Write to package-binaries.txt file: ['/usr/bin/qlipper']
+['/usr/bin/qlipper']

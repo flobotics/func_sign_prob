@@ -2395,3 +2395,4 @@ quickplot
 qalculate-gtk
 quotatool
 qjackctl
+qlipper
