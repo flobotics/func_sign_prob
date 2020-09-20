@@ -7290,3 +7290,5 @@
 /usr/bin/xcf2pnm
 /usr/bin/xcfinfo
 /usr/bin/xiccd
+/usr/bin/xfdashboard
+/usr/bin/xfdashboard-settings

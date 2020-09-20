@@ -2437,3 +2437,4 @@ xa65
 xwit
 xcftools
 xiccd
+xfdashboard
