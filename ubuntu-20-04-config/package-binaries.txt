@@ -7316,3 +7316,5 @@
 /usr/bin/xfoil
 /usr/bin/xcolors
 /usr/sbin/iptaccount
+/usr/bin/Xalan
+/usr/bin/xalan
