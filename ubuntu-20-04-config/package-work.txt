@@ -2336,3 +2336,4 @@ qsopt-ex
 qmidinet
 qasmixer
 qasconfig
+qashctl

@@ -7025,3 +7025,4 @@
 /usr/bin/qmidinet
 /usr/bin/qasmixer
 /usr/bin/qasconfig
+/usr/bin/qashctl
