@@ -5913,3 +5913,4 @@
 /usr/bin/concavity
 /usr/bin/ccx
 /usr/sbin/cwdaemon
+/usr/sbin/corosync-notifyd

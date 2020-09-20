@@ -1971,3 +1971,4 @@ ccal
 concavity
 calculix-ccx
 cwdaemon
+corosync-notifyd
