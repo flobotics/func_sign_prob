@@ -6891,3 +6891,4 @@
 /usr/bin/ct2util
 /usr/bin/checkmodule
 /usr/bin/checkpolicy
+/usr/bin/confclerk

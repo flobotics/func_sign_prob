@@ -3488,3 +3488,4 @@ care
 cheesecutter
 coco-cpp
 checkpolicy
+confclerk

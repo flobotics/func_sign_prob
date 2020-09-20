@@ -2286,3 +2286,4 @@ casacore-tools
 care
 cheesecutter
 checkpolicy
+confclerk
