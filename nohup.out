@@ -17106,3 +17106,13 @@ Real binaries:['/usr/bin/catcodec']
 Write to package-work.txt file: catcodec
 Write to package-binaries.txt file: ['/usr/bin/catcodec']
 ['/usr/bin/catcodec']
+Write pickle file
+tar_out:
+Package-nr:3267 of 11000, Name:cvsps-dbgsym
+Package >cvsps< not in package-all.txt file
+Write to package-all.txt file: cvsps
+In package >cvsps< are these binaries: ['/usr/bin/cvsps']
+Real binaries:['/usr/bin/cvsps']
+Write to package-work.txt file: cvsps
+Write to package-binaries.txt file: ['/usr/bin/cvsps']
+['/usr/bin/cvsps']
