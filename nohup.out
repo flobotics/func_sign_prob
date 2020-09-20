@@ -19668,3 +19668,41 @@ Real binaries:['/usr/lib/qt5/bin/qmlscene']
 Write to package-work.txt file: qmlscene
 Write to package-binaries.txt file: ['/usr/lib/qt5/bin/qmlscene']
 ['/usr/lib/qt5/bin/qmlscene']
+Write pickle file
+tar_out:
+Package-nr:3570 of 11000, Name:qml-module-qtquick2-dbgsym
+Package >qml-module-qtquick2< not in package-all.txt file
+Write to package-all.txt file: qml-module-qtquick2
+In package >qml-module-qtquick2< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: qml-module-qtquick2
+[]
+Package-nr:3571 of 11000, Name:qml-module-qtquick-localstorage-dbgsym
+Package >qml-module-qtquick-localstorage< not in package-all.txt file
+Write to package-all.txt file: qml-module-qtquick-localstorage
+In package >qml-module-qtquick-localstorage< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: qml-module-qtquick-localstorage
+[]
+Package-nr:3572 of 11000, Name:qtscxml5-examples-dbgsym
+Package >qtscxml5-examples< not in package-all.txt file
+Write to package-all.txt file: qtscxml5-examples
+In package >qtscxml5-examples< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: qtscxml5-examples
+[]
+Package-nr:3573 of 11000, Name:qml-module-qtscxml-dbgsym
+Package >qml-module-qtscxml< not in package-all.txt file
+Write to package-all.txt file: qml-module-qtscxml
+In package >qml-module-qtscxml< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: qml-module-qtscxml
+[]
+Package-nr:3574 of 11000, Name:quvi-dbgsym
+Package >quvi< not in package-all.txt file
+Write to package-all.txt file: quvi
+In package >quvi< are these binaries: ['/usr/bin/quvi']
+Real binaries:['/usr/bin/quvi']
+Write to package-work.txt file: quvi
+Write to package-binaries.txt file: ['/usr/bin/quvi']
+['/usr/bin/quvi']

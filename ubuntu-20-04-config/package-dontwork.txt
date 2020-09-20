@@ -1263,3 +1263,7 @@ qml-module-qtqml-statemachine
 qml-module-qttest
 qml-module-qtquick-window2
 qml-module-qt-labs-wavefrontmesh
+qml-module-qtquick2
+qml-module-qtquick-localstorage
+qtscxml5-examples
+qml-module-qtscxml

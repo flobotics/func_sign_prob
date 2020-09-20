@@ -7055,3 +7055,4 @@
 /usr/lib/qt5/bin/qmlprofiler
 /usr/lib/qt5/bin/qmltestrunner
 /usr/lib/qt5/bin/qmlscene
+/usr/bin/quvi
