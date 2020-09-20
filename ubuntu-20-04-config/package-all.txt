@@ -3500,3 +3500,4 @@ colorized-logs
 camlp5
 crack-md5
 ccze
+cgminer

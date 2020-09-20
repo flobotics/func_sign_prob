@@ -6913,3 +6913,4 @@
 /usr/bin/camlp5r.opt
 /usr/bin/ccze
 /usr/bin/ccze-cssdump
+/usr/bin/cgminer-api

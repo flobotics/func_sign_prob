@@ -2295,3 +2295,4 @@ csync2
 colorized-logs
 camlp5
 ccze
+cgminer
