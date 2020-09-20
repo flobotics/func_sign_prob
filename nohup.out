@@ -21497,3 +21497,27 @@ Real binaries:['/usr/bin/xxhsum']
 Write to package-work.txt file: xxhash
 Write to package-binaries.txt file: ['/usr/bin/xxhsum']
 ['/usr/bin/xxhsum']
+Write pickle file
+tar_out:
+Package-nr:3784 of 11000, Name:hexchat-indicator-dbgsym
+Package >hexchat-indicator< not in package-all.txt file
+Write to package-all.txt file: hexchat-indicator
+In package >hexchat-indicator< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: hexchat-indicator
+[]
+Package-nr:3785 of 11000, Name:xdg-desktop-portal-kde-dbgsym
+Package >xdg-desktop-portal-kde< not in package-all.txt file
+Write to package-all.txt file: xdg-desktop-portal-kde
+In package >xdg-desktop-portal-kde< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: xdg-desktop-portal-kde
+[]
+Package-nr:3786 of 11000, Name:xhk-dbgsym
+Package >xhk< not in package-all.txt file
+Write to package-all.txt file: xhk
+In package >xhk< are these binaries: ['/usr/bin/xhk']
+Real binaries:['/usr/bin/xhk']
+Write to package-work.txt file: xhk
+Write to package-binaries.txt file: ['/usr/bin/xhk']
+['/usr/bin/xhk']

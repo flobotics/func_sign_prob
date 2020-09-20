@@ -3823,3 +3823,6 @@ xmorph
 gtkmorph
 xonix
 xxhash
+hexchat-indicator
+xdg-desktop-portal-kde
+xhk
