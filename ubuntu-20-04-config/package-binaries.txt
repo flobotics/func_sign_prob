@@ -7442,3 +7442,4 @@
 /usr/bin/xmacrorec2
 /usr/bin/x2x
 /usr/bin/xsane
+/usr/bin/xtrlock

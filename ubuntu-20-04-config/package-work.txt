@@ -2532,3 +2532,4 @@ xjadeo
 xmacro
 x2x
 xsane
+xtrlock
