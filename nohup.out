@@ -18975,3 +18975,20 @@ Real binaries:['/usr/bin/cbf2nexus', '/usr/bin/cif2cbf', '/usr/bin/convert_image
 Write to package-work.txt file: cbflib-bin
 Write to package-binaries.txt file: ['/usr/bin/cbf2nexus', '/usr/bin/cif2cbf', '/usr/bin/convert_image', '/usr/bin/img2cif', '/usr/bin/makecbf']
 ['/usr/bin/cbf2nexus', '/usr/bin/cif2cbf', '/usr/bin/convert_image', '/usr/bin/img2cif', '/usr/bin/makecbf']
+Write pickle file
+tar_out:
+Package-nr:3480 of 11000, Name:crrcsim-dbgsym
+Package >crrcsim< not in package-all.txt file
+Write to package-all.txt file: crrcsim
+In package >crrcsim< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: crrcsim
+[]
+Package-nr:3481 of 11000, Name:qgit-dbgsym
+Package >qgit< not in package-all.txt file
+Write to package-all.txt file: qgit
+In package >qgit< are these binaries: ['/usr/bin/qgit']
+Real binaries:['/usr/bin/qgit']
+Write to package-work.txt file: qgit
+Write to package-binaries.txt file: ['/usr/bin/qgit']
+['/usr/bin/qgit']

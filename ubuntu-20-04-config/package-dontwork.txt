@@ -1210,3 +1210,4 @@ caja-open-terminal
 caja-image-converter
 caja-share
 caja-xattr-tags
+crrcsim
