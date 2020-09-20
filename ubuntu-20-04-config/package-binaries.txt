@@ -7177,3 +7177,4 @@
 /usr/bin/quickplot
 /usr/bin/quickplot_shell
 /usr/bin/qalculate-gtk
+/usr/sbin/quotatool

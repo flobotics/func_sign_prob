@@ -2393,3 +2393,4 @@ quorum
 qqwing
 quickplot
 qalculate-gtk
+quotatool
