@@ -5931,3 +5931,4 @@
 /usr/bin/ch-run
 /usr/bin/ch-ssh
 /usr/bin/CubicSDR
+/usr/bin/jsvc

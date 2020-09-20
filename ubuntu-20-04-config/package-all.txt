@@ -2994,3 +2994,4 @@ python3-cyvcf2
 charliecloud
 crazywa
 cubicsdr
+jsvc

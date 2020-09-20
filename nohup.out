@@ -14121,3 +14121,13 @@ Real binaries:['/usr/bin/CubicSDR']
 Write to package-work.txt file: cubicsdr
 Write to package-binaries.txt file: ['/usr/bin/CubicSDR']
 ['/usr/bin/CubicSDR']
+Write pickle file
+tar_out:
+Package-nr:2902 of 11000, Name:jsvc-dbgsym
+Package >jsvc< not in package-all.txt file
+Write to package-all.txt file: jsvc
+In package >jsvc< are these binaries: ['/usr/bin/jsvc']
+Real binaries:['/usr/bin/jsvc']
+Write to package-work.txt file: jsvc
+Write to package-binaries.txt file: ['/usr/bin/jsvc']
+['/usr/bin/jsvc']
