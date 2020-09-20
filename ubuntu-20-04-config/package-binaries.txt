@@ -7370,3 +7370,4 @@
 /usr/bin/xmedcon
 /usr/bin/xml-rpc-api2cpp
 /usr/bin/xxgdb
+/usr/bin/xprobe2
