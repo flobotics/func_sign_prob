@@ -7373,3 +7373,4 @@
 /usr/bin/xprobe2
 /usr/bin/osd_cat
 /usr/bin/xboxdrv
+/usr/bin/xneur
