@@ -21112,3 +21112,19 @@ Real binaries:['/usr/bin/dump-mixers', '/usr/bin/propwatch', '/usr/bin/record', 
 Write to package-work.txt file: xawtv-tools
 Write to package-binaries.txt file: ['/usr/bin/dump-mixers', '/usr/bin/propwatch', '/usr/bin/record', '/usr/bin/showriff']
 ['/usr/bin/dump-mixers', '/usr/bin/propwatch', '/usr/bin/record', '/usr/bin/showriff']
+Write pickle file
+tar_out:
+Package-nr:3737 of 11000, Name:streamer-dbgsym
+Skip package >streamer<, already in package-all.txt file
+[]
+Package-nr:3738 of 11000, Name:webcam-dbgsym
+Skip package >webcam<, already in package-all.txt file
+[]
+Package-nr:3739 of 11000, Name:fbtv-dbgsym
+Package >fbtv< not in package-all.txt file
+Write to package-all.txt file: fbtv
+In package >fbtv< are these binaries: ['/usr/bin/fbtv']
+Real binaries:['/usr/bin/fbtv']
+Write to package-work.txt file: fbtv
+Write to package-binaries.txt file: ['/usr/bin/fbtv']
+['/usr/bin/fbtv']
