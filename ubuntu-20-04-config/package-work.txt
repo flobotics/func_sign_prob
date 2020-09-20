@@ -2464,3 +2464,4 @@ xsunpinyin
 xscreensaver-screensaver-webcollage
 xscreensaver-gl
 xapian-omega
+xsecurelock

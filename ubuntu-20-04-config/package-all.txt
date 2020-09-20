@@ -3800,3 +3800,4 @@ xscreensaver-screensaver-bsod
 xscreensaver-gl
 xscreensaver-gl-extra
 xapian-omega
+xsecurelock

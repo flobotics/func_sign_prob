@@ -7327,3 +7327,4 @@
 /usr/bin/omindex-list
 /usr/bin/scriptindex
 /usr/lib/cgi-bin/omega/omega
+/usr/bin/xsecurelock
