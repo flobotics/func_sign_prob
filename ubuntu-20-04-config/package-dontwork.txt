@@ -1114,3 +1114,4 @@ python3-cmor
 cowbell
 python3-cccolutils
 cinnamon-settings-daemon
+ceferino

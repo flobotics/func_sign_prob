@@ -6374,3 +6374,4 @@
 /usr/bin/slcand
 /usr/bin/slcanpty
 /usr/bin/testj1939
+/usr/sbin/cowbuilder

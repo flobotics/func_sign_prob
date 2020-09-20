@@ -16034,3 +16034,20 @@ Real binaries:['/usr/bin/asc2log', '/usr/bin/bcmserver', '/usr/bin/can-calc-bit-
 Write to package-work.txt file: can-utils
 Write to package-binaries.txt file: ['/usr/bin/asc2log', '/usr/bin/bcmserver', '/usr/bin/can-calc-bit-timing', '/usr/bin/canbusload', '/usr/bin/candump', '/usr/bin/canfdtest', '/usr/bin/cangen', '/usr/bin/cangw', '/usr/bin/canlogserver', '/usr/bin/canplayer', '/usr/bin/cansend', '/usr/bin/cansniffer', '/usr/bin/isotpdump', '/usr/bin/isotpperf', '/usr/bin/isotprecv', '/usr/bin/isotpsend', '/usr/bin/isotpserver', '/usr/bin/isotpsniffer', '/usr/bin/isotptun', '/usr/bin/jacd', '/usr/bin/jspy', '/usr/bin/jsr', '/usr/bin/log2asc', '/usr/bin/log2long', '/usr/bin/slcan_attach', '/usr/bin/slcand', '/usr/bin/slcanpty', '/usr/bin/testj1939']
 ['/usr/bin/asc2log', '/usr/bin/bcmserver', '/usr/bin/can-calc-bit-timing', '/usr/bin/canbusload', '/usr/bin/candump', '/usr/bin/canfdtest', '/usr/bin/cangen', '/usr/bin/cangw', '/usr/bin/canlogserver', '/usr/bin/canplayer', '/usr/bin/cansend', '/usr/bin/cansniffer', '/usr/bin/isotpdump', '/usr/bin/isotpperf', '/usr/bin/isotprecv', '/usr/bin/isotpsend', '/usr/bin/isotpserver', '/usr/bin/isotpsniffer', '/usr/bin/isotptun', '/usr/bin/jacd', '/usr/bin/jspy', '/usr/bin/jsr', '/usr/bin/log2asc', '/usr/bin/log2long', '/usr/bin/slcan_attach', '/usr/bin/slcand', '/usr/bin/slcanpty', '/usr/bin/testj1939']
+Write pickle file
+tar_out:
+Package-nr:3141 of 11000, Name:ceferino-dbgsym
+Package >ceferino< not in package-all.txt file
+Write to package-all.txt file: ceferino
+In package >ceferino< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: ceferino
+[]
+Package-nr:3142 of 11000, Name:cowbuilder-dbgsym
+Package >cowbuilder< not in package-all.txt file
+Write to package-all.txt file: cowbuilder
+In package >cowbuilder< are these binaries: ['/usr/sbin/cowbuilder']
+Real binaries:['/usr/sbin/cowbuilder']
+Write to package-work.txt file: cowbuilder
+Write to package-binaries.txt file: ['/usr/sbin/cowbuilder']
+['/usr/sbin/cowbuilder']
