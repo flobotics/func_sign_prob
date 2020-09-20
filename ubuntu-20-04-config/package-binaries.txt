@@ -7692,3 +7692,4 @@
 /usr/bin/xsysinfo
 /usr/bin/xfce4-terminal
 /usr/bin/xttitle
+/usr/bin/xosview
