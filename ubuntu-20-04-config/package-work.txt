@@ -2246,3 +2246,4 @@ clfft-client
 cksfv
 cronolog
 centreon-engine
+calculix-cgx

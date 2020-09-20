@@ -6807,3 +6807,4 @@
 /usr/bin/cronolog
 /usr/sbin/centengine
 /usr/sbin/centenginestats
+/usr/bin/cgx
