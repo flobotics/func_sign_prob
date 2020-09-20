@@ -4063,3 +4063,4 @@ vala-panel-appmenu
 mate-applet-appmenu
 budgie-appmenu-applet
 vmfs6-tools
+vbetool

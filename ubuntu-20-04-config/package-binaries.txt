@@ -7742,3 +7742,4 @@
 /usr/sbin/fsck.vmfs6
 /usr/sbin/vmfs6-fuse
 /usr/sbin/vmfs6-lvm
+/usr/sbin/vbetool

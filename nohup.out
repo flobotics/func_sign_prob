@@ -23727,3 +23727,13 @@ Real binaries:['/usr/sbin/debugvmfs6', '/usr/sbin/fsck.vmfs6', '/usr/sbin/vmfs6-
 Write to package-work.txt file: vmfs6-tools
 Write to package-binaries.txt file: ['/usr/sbin/debugvmfs6', '/usr/sbin/fsck.vmfs6', '/usr/sbin/vmfs6-fuse', '/usr/sbin/vmfs6-lvm']
 ['/usr/sbin/debugvmfs6', '/usr/sbin/fsck.vmfs6', '/usr/sbin/vmfs6-fuse', '/usr/sbin/vmfs6-lvm']
+Write pickle file
+tar_out:
+Package-nr:4044 of 11000, Name:vbetool-dbgsym
+Package >vbetool< not in package-all.txt file
+Write to package-all.txt file: vbetool
+In package >vbetool< are these binaries: ['/usr/sbin/vbetool']
+Real binaries:['/usr/sbin/vbetool']
+Write to package-work.txt file: vbetool
+Write to package-binaries.txt file: ['/usr/sbin/vbetool']
+['/usr/sbin/vbetool']
