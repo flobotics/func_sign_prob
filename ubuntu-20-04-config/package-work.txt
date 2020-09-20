@@ -2202,3 +2202,4 @@ cp2k
 cuetools
 chuck
 carbon-c-relay
+colmap

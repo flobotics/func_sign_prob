@@ -6651,3 +6651,4 @@
 /usr/bin/chuck.oss
 /usr/bin/carbon-c-relay
 /usr/bin/relay
+/usr/bin/colmap
