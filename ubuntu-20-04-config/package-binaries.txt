@@ -6699,3 +6699,5 @@
 /usr/bin/work_queue_worker
 /usr/bin/concordance
 /usr/bin/cervisia
+/usr/bin/cvsaskpass
+/usr/bin/cvsservice5
