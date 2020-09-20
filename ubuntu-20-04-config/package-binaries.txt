@@ -5911,3 +5911,4 @@
 /usr/bin/choosewm
 /usr/bin/ccal
 /usr/bin/concavity
+/usr/bin/ccx

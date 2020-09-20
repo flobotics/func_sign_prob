@@ -13945,3 +13945,13 @@ Real binaries:['/usr/bin/concavity']
 Write to package-work.txt file: concavity
 Write to package-binaries.txt file: ['/usr/bin/concavity']
 ['/usr/bin/concavity']
+Write pickle file
+tar_out:
+Package-nr:2883 of 11000, Name:calculix-ccx-dbgsym
+Package >calculix-ccx< not in package-all.txt file
+Write to package-all.txt file: calculix-ccx
+In package >calculix-ccx< are these binaries: ['/usr/bin/ccx']
+Real binaries:['/usr/bin/ccx']
+Write to package-work.txt file: calculix-ccx
+Write to package-binaries.txt file: ['/usr/bin/ccx']
+['/usr/bin/ccx']
