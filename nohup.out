@@ -14425,3 +14425,13 @@ Real binaries:['/usr/bin/calife']
 Write to package-work.txt file: calife
 Write to package-binaries.txt file: ['/usr/bin/calife']
 ['/usr/bin/calife']
+Write pickle file
+tar_out:
+Package-nr:2939 of 11000, Name:choqok-dbgsym
+Package >choqok< not in package-all.txt file
+Write to package-all.txt file: choqok
+In package >choqok< are these binaries: ['/usr/bin/choqok']
+Real binaries:['/usr/bin/choqok']
+Write to package-work.txt file: choqok
+Write to package-binaries.txt file: ['/usr/bin/choqok']
+['/usr/bin/choqok']
