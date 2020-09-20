@@ -3262,3 +3262,4 @@ clsync
 clzip
 cargo
 cdrdao
+chkservice
