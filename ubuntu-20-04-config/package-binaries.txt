@@ -6382,3 +6382,4 @@
 /usr/bin/dash-search
 /usr/bin/clif
 /usr/bin/cdecl
+/usr/bin/cccc
