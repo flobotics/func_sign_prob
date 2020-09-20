@@ -2944,3 +2944,6 @@ imageinfo
 infon-viewer
 infon-server
 isomaster
+ifgate
+ifcico
+idzebra-2.0-utils

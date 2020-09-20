@@ -992,3 +992,5 @@ indicator-messages
 indicator-application
 infon-viewer
 infon-server
+ifgate
+ifcico

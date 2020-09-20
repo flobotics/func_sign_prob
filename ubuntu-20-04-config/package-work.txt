@@ -1947,3 +1947,4 @@ imview
 ivtools-bin
 imageinfo
 isomaster
+idzebra-2.0-utils
