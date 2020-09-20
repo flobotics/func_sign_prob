@@ -23151,3 +23151,27 @@ Real binaries:['/usr/bin/x2vnc']
 Write to package-work.txt file: x2vnc
 Write to package-binaries.txt file: ['/usr/bin/x2vnc']
 ['/usr/bin/x2vnc']
+Write pickle file
+tar_out:
+Package-nr:3976 of 11000, Name:xserver-xorg-input-mtrack-dbgsym
+Package >xserver-xorg-input-mtrack< not in package-all.txt file
+Write to package-all.txt file: xserver-xorg-input-mtrack
+In package >xserver-xorg-input-mtrack< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: xserver-xorg-input-mtrack
+[]
+Package-nr:3977 of 11000, Name:xjig-dbgsym
+Package >xjig< not in package-all.txt file
+Write to package-all.txt file: xjig
+In package >xjig< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: xjig
+[]
+Package-nr:3978 of 11000, Name:xtrace-dbgsym
+Package >xtrace< not in package-all.txt file
+Write to package-all.txt file: xtrace
+In package >xtrace< are these binaries: ['/usr/bin/xtrace']
+Real binaries:['/usr/bin/xtrace']
+Write to package-work.txt file: xtrace
+Write to package-binaries.txt file: ['/usr/bin/xtrace']
+['/usr/bin/xtrace']

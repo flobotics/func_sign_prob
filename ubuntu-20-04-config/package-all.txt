@@ -3999,3 +3999,6 @@ xscorch
 xtel
 xfce4-taskmanager
 x2vnc
+xserver-xorg-input-mtrack
+xjig
+xtrace

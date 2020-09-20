@@ -1384,3 +1384,5 @@ xflip
 xskat
 xserver-xorg-video-openchrome
 xscorch
+xserver-xorg-input-mtrack
+xjig

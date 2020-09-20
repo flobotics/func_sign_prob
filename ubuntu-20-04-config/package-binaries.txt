@@ -7672,3 +7672,4 @@
 /usr/sbin/xteld
 /usr/bin/xfce4-taskmanager
 /usr/bin/x2vnc
+/usr/bin/xtrace
