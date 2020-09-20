@@ -21978,3 +21978,16 @@ Real binaries:['/usr/bin/xmakemol']
 Write to package-work.txt file: xmakemol-gl
 Write to package-binaries.txt file: ['/usr/bin/xmakemol']
 ['/usr/bin/xmakemol']
+Write pickle file
+tar_out:
+Package-nr:3838 of 11000, Name:xmakemol-dbgsym
+Skip package >xmakemol<, already in package-all.txt file
+[]
+Package-nr:3839 of 11000, Name:xchm-dbgsym
+Package >xchm< not in package-all.txt file
+Write to package-all.txt file: xchm
+In package >xchm< are these binaries: ['/usr/bin/xchm']
+Real binaries:['/usr/bin/xchm']
+Write to package-work.txt file: xchm
+Write to package-binaries.txt file: ['/usr/bin/xchm']
+['/usr/bin/xchm']

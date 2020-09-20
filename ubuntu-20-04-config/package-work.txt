@@ -2519,3 +2519,4 @@ xringd
 xsettingsd
 xsel
 xmakemol-gl
+xchm

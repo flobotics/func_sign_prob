@@ -7421,3 +7421,4 @@
 /usr/bin/xsettingsd
 /usr/bin/xsel
 /usr/bin/xmakemol
+/usr/bin/xchm
