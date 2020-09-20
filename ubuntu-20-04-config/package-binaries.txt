@@ -6652,3 +6652,4 @@
 /usr/bin/carbon-c-relay
 /usr/bin/relay
 /usr/bin/colmap
+/usr/bin/cramfsswap

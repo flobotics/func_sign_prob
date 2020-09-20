@@ -17539,3 +17539,13 @@ Real binaries:['/usr/bin/colmap']
 Write to package-work.txt file: colmap
 Write to package-binaries.txt file: ['/usr/bin/colmap']
 ['/usr/bin/colmap']
+Write pickle file
+tar_out:
+Package-nr:3317 of 11000, Name:cramfsswap-dbgsym
+Package >cramfsswap< not in package-all.txt file
+Write to package-all.txt file: cramfsswap
+In package >cramfsswap< are these binaries: ['/usr/bin/cramfsswap']
+Real binaries:['/usr/bin/cramfsswap']
+Write to package-work.txt file: cramfsswap
+Write to package-binaries.txt file: ['/usr/bin/cramfsswap']
+['/usr/bin/cramfsswap']
