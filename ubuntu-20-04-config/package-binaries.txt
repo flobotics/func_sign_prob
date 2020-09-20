@@ -6393,3 +6393,4 @@
 /usr/bin/osbf-util
 /usr/bin/clp
 /usr/bin/cdargs
+/usr/bin/cdcover

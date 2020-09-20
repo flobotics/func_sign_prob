@@ -3233,3 +3233,4 @@ crm114
 coinor-clp
 coinor-libclp1
 cdargs
+cdcover
