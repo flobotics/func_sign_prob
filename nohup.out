@@ -13917,3 +13917,13 @@ Real binaries:['/usr/bin/clinfo']
 Write to package-work.txt file: clinfo
 Write to package-binaries.txt file: ['/usr/bin/clinfo']
 ['/usr/bin/clinfo']
+Write pickle file
+tar_out:
+Package-nr:2880 of 11000, Name:choosewm-dbgsym
+Package >choosewm< not in package-all.txt file
+Write to package-all.txt file: choosewm
+In package >choosewm< are these binaries: ['/usr/bin/choosewm']
+Real binaries:['/usr/bin/choosewm']
+Write to package-work.txt file: choosewm
+Write to package-binaries.txt file: ['/usr/bin/choosewm']
+['/usr/bin/choosewm']

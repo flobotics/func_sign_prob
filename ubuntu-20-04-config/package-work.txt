@@ -1966,3 +1966,4 @@ iec16022
 intel-opencl-icd
 chntpw
 clinfo
+choosewm

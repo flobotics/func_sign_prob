@@ -5908,3 +5908,4 @@
 /usr/sbin/sampasswd
 /usr/sbin/samusrgrp
 /usr/bin/clinfo
+/usr/bin/choosewm
