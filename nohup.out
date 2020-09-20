@@ -22572,3 +22572,13 @@ Real binaries:['/usr/bin/xcolorsel']
 Write to package-work.txt file: xcolorsel
 Write to package-binaries.txt file: ['/usr/bin/xcolorsel']
 ['/usr/bin/xcolorsel']
+Write pickle file
+tar_out:
+Package-nr:3909 of 11000, Name:xc3sprog-dbgsym
+Package >xc3sprog< not in package-all.txt file
+Write to package-all.txt file: xc3sprog
+In package >xc3sprog< are these binaries: ['/usr/bin/bitparse', '/usr/bin/detectchain', '/usr/bin/javr', '/usr/bin/jedecparse', '/usr/bin/readdna', '/usr/bin/srecparse', '/usr/bin/xc2c_warp', '/usr/bin/xc3sprog']
+Real binaries:['/usr/bin/bitparse', '/usr/bin/detectchain', '/usr/bin/javr', '/usr/bin/jedecparse', '/usr/bin/readdna', '/usr/bin/srecparse', '/usr/bin/xc2c_warp', '/usr/bin/xc3sprog']
+Write to package-work.txt file: xc3sprog
+Write to package-binaries.txt file: ['/usr/bin/bitparse', '/usr/bin/detectchain', '/usr/bin/javr', '/usr/bin/jedecparse', '/usr/bin/readdna', '/usr/bin/srecparse', '/usr/bin/xc2c_warp', '/usr/bin/xc3sprog']
+['/usr/bin/bitparse', '/usr/bin/detectchain', '/usr/bin/javr', '/usr/bin/jedecparse', '/usr/bin/readdna', '/usr/bin/srecparse', '/usr/bin/xc2c_warp', '/usr/bin/xc3sprog']

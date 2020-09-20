@@ -7583,3 +7583,11 @@
 /usr/sbin/xenpmd
 /usr/bin/xmpi
 /usr/bin/xcolorsel
+/usr/bin/bitparse
+/usr/bin/detectchain
+/usr/bin/javr
+/usr/bin/jedecparse
+/usr/bin/readdna
+/usr/bin/srecparse
+/usr/bin/xc2c_warp
+/usr/bin/xc3sprog
