@@ -7732,3 +7732,4 @@
 /usr/bin/signature_digest_utility
 /usr/bin/tpmc
 /usr/bin/verify_data
+/usr/bin/cgpt
