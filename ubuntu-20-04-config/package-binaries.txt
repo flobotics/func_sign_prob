@@ -6786,3 +6786,4 @@
 /usr/bin/ctfconvert
 /usr/bin/ctfdump
 /usr/bin/ctfmerge
+/usr/bin/cdebootstrap

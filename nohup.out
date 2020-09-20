@@ -17919,3 +17919,13 @@ Real binaries:['/usr/bin/ctfconvert', '/usr/bin/ctfdump', '/usr/bin/ctfmerge']
 Write to package-work.txt file: ctfutils
 Write to package-binaries.txt file: ['/usr/bin/ctfconvert', '/usr/bin/ctfdump', '/usr/bin/ctfmerge']
 ['/usr/bin/ctfconvert', '/usr/bin/ctfdump', '/usr/bin/ctfmerge']
+Write pickle file
+tar_out:
+Package-nr:3360 of 11000, Name:cdebootstrap-dbgsym
+Package >cdebootstrap< not in package-all.txt file
+Write to package-all.txt file: cdebootstrap
+In package >cdebootstrap< are these binaries: ['/usr/bin/cdebootstrap']
+Real binaries:['/usr/bin/cdebootstrap']
+Write to package-work.txt file: cdebootstrap
+Write to package-binaries.txt file: ['/usr/bin/cdebootstrap']
+['/usr/bin/cdebootstrap']

@@ -3423,3 +3423,4 @@ ceph-immutable-object-cache
 rbd-mirror
 rbd-fuse
 ctfutils
+cdebootstrap
