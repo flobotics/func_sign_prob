@@ -2438,3 +2438,4 @@ xwit
 xcftools
 xiccd
 xfdashboard
+xplanet

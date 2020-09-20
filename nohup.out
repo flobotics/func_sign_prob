@@ -20943,3 +20943,13 @@ Real binaries:['/usr/bin/xfdashboard', '/usr/bin/xfdashboard-settings']
 Write to package-work.txt file: xfdashboard
 Write to package-binaries.txt file: ['/usr/bin/xfdashboard', '/usr/bin/xfdashboard-settings']
 ['/usr/bin/xfdashboard', '/usr/bin/xfdashboard-settings']
+Write pickle file
+tar_out:
+Package-nr:3718 of 11000, Name:xplanet-dbgsym
+Package >xplanet< not in package-all.txt file
+Write to package-all.txt file: xplanet
+In package >xplanet< are these binaries: ['/usr/bin/xplanet']
+Real binaries:['/usr/bin/xplanet']
+Write to package-work.txt file: xplanet
+Write to package-binaries.txt file: ['/usr/bin/xplanet']
+['/usr/bin/xplanet']

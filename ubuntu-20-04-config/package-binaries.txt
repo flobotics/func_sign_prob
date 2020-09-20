@@ -7292,3 +7292,4 @@
 /usr/bin/xiccd
 /usr/bin/xfdashboard
 /usr/bin/xfdashboard-settings
+/usr/bin/xplanet
