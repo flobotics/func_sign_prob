@@ -5649,3 +5649,4 @@
 /usr/bin/indigo-cano
 /usr/bin/indigo-deco
 /usr/bin/indigo-depict
+/usr/bin/evmctl
