@@ -7709,3 +7709,4 @@
 /usr/bin/xfce4-session-logout
 /usr/bin/xfce4-session-settings
 /usr/bin/xdemorse
+/usr/bin/xzoom

@@ -4035,3 +4035,4 @@ xfce4-session
 xshogi
 xball
 xdemorse
+xzoom

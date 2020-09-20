@@ -2633,3 +2633,4 @@ xinetd
 xfpt
 xfce4-session
 xdemorse
+xzoom

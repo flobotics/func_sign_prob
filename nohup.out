@@ -23481,3 +23481,13 @@ Real binaries:['/usr/bin/xdemorse']
 Write to package-work.txt file: xdemorse
 Write to package-binaries.txt file: ['/usr/bin/xdemorse']
 ['/usr/bin/xdemorse']
+Write pickle file
+tar_out:
+Package-nr:4015 of 11000, Name:xzoom-dbgsym
+Package >xzoom< not in package-all.txt file
+Write to package-all.txt file: xzoom
+In package >xzoom< are these binaries: ['/usr/bin/xzoom']
+Real binaries:['/usr/bin/xzoom']
+Write to package-work.txt file: xzoom
+Write to package-binaries.txt file: ['/usr/bin/xzoom']
+['/usr/bin/xzoom']
