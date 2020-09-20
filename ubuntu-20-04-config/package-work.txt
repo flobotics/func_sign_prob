@@ -2311,3 +2311,4 @@ citadel-server
 cutecom
 colord-kde
 camitk-actionstatemachine
+camitk-imp

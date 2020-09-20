@@ -6981,3 +6981,4 @@
 /usr/bin/cutecom
 /usr/bin/colord-kde-icc-importer
 /usr/bin/camitk-actionstatemachine
+/usr/bin/camitk-imp
