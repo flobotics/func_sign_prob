@@ -7402,3 +7402,4 @@
 /usr/bin/tide
 /usr/bin/xtide
 /usr/sbin/xttpd
+/usr/bin/xcompmgr
