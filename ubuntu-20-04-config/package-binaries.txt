@@ -6989,3 +6989,5 @@
 /usr/bin/cutycapt
 /usr/bin/caja-sendto
 /usr/sbin/cvsd
+/usr/bin/ccguess
+/usr/bin/ccrypt
