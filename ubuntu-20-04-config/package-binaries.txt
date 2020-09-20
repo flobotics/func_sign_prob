@@ -7700,3 +7700,4 @@
 /usr/bin/x264
 /usr/bin/xcb
 /usr/bin/xmms2-scrobbler
+/usr/bin/xdrawchem

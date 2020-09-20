@@ -23390,3 +23390,13 @@ Real binaries:['/usr/bin/xmms2-scrobbler']
 Write to package-work.txt file: xmms2-scrobbler
 Write to package-binaries.txt file: ['/usr/bin/xmms2-scrobbler']
 ['/usr/bin/xmms2-scrobbler']
+Write pickle file
+tar_out:
+Package-nr:4004 of 11000, Name:xdrawchem-dbgsym
+Package >xdrawchem< not in package-all.txt file
+Write to package-all.txt file: xdrawchem
+In package >xdrawchem< are these binaries: ['/usr/bin/xdrawchem']
+Real binaries:['/usr/bin/xdrawchem']
+Write to package-work.txt file: xdrawchem
+Write to package-binaries.txt file: ['/usr/bin/xdrawchem']
+['/usr/bin/xdrawchem']
