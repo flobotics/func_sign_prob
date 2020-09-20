@@ -2935,3 +2935,4 @@ icewm
 icewm-common
 inspectrum
 install-mimic
+iannix
