@@ -2056,3 +2056,4 @@ clementine
 ccd2iso
 chrpath
 connman-gtk
+cacti-spine

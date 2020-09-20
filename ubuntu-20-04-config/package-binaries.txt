@@ -6036,3 +6036,4 @@
 /usr/bin/ccd2iso
 /usr/bin/chrpath
 /usr/bin/connman-gtk
+/usr/sbin/spine
