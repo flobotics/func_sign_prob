@@ -5846,3 +5846,4 @@
 /usr/bin/lsgpu
 /usr/sbin/inputlircd
 /usr/sbin/ident2
+/usr/bin/ifuse

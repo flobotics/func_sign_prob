@@ -2922,3 +2922,4 @@ intel-gpu-tools
 ibus-skk
 inputlirc
 ident2
+ifuse
