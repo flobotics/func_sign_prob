@@ -6638,3 +6638,5 @@
 /usr/bin/yyextract
 /usr/bin/yyref
 /usr/bin/capstats
+/usr/bin/CloudCompare
+/usr/bin/ccViewer

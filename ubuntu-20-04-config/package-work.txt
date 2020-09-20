@@ -2196,3 +2196,4 @@ cciss-vol-status
 cohomcalg
 cutils
 capstats
+cloudcompare
