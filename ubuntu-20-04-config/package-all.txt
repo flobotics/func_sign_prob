@@ -3821,3 +3821,5 @@ xwallpaper
 xwiimote
 xmorph
 gtkmorph
+xonix
+xxhash

@@ -7362,3 +7362,4 @@
 /usr/bin/morph
 /usr/bin/xmorph
 /usr/bin/gtkmorph
+/usr/bin/xxhsum

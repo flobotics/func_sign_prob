@@ -2479,3 +2479,4 @@ xwallpaper
 xwiimote
 xmorph
 gtkmorph
+xxhash
