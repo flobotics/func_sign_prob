@@ -19814,3 +19814,20 @@ Real binaries:['/usr/bin/qt5ct']
 Write to package-work.txt file: qt5ct
 Write to package-binaries.txt file: ['/usr/bin/qt5ct']
 ['/usr/bin/qt5ct']
+Write pickle file
+tar_out:
+Package-nr:3587 of 11000, Name:quelcom-dbgsym
+Package >quelcom< not in package-all.txt file
+Write to package-all.txt file: quelcom
+In package >quelcom< are these binaries: ['/usr/bin/quelcom', '/usr/bin/qmp3check', '/usr/bin/qmp3cut', '/usr/bin/qmp3info', '/usr/bin/qmp3join', '/usr/bin/qmp3report', '/usr/bin/qwavcut', '/usr/bin/qwavfade', '/usr/bin/qwavheaderdump', '/usr/bin/qwavinfo', '/usr/bin/qwavjoin', '/usr/bin/qwavsilence']
+Real binaries:[]
+Write to package-dontwork.txt file: quelcom
+[]
+Package-nr:3588 of 11000, Name:qtscrob-dbgsym
+Package >qtscrob< not in package-all.txt file
+Write to package-all.txt file: qtscrob
+In package >qtscrob< are these binaries: ['/usr/bin/qtscrob']
+Real binaries:['/usr/bin/qtscrob']
+Write to package-work.txt file: qtscrob
+Write to package-binaries.txt file: ['/usr/bin/qtscrob']
+['/usr/bin/qtscrob']

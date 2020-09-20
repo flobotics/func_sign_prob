@@ -1271,3 +1271,4 @@ qtgamepad5-examples
 quisk
 qtvirtualkeyboard5-examples
 qml-module-qtquick-virtualkeyboard
+quelcom
