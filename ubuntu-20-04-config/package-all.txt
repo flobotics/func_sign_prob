@@ -3016,3 +3016,4 @@ casync
 cpdb-backend-file
 csoundqt
 cscope
+crashmail

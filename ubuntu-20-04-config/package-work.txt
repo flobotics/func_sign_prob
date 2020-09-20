@@ -1999,3 +1999,4 @@ calcurse
 casync
 csoundqt
 cscope
+crashmail

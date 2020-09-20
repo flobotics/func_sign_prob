@@ -5947,3 +5947,11 @@
 /usr/bin/casync
 /usr/bin/CsoundQt-d-cs6
 /usr/bin/cscope
+/usr/bin/crashexport
+/usr/bin/crashgetnode
+/usr/bin/crashlist
+/usr/bin/crashlistout
+/usr/bin/crashmail
+/usr/bin/crashmaint
+/usr/bin/crashstats
+/usr/bin/crashwrite
