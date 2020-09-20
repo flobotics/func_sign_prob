@@ -6027,3 +6027,6 @@
 /usr/bin/cdde
 /usr/bin/cpulimit
 /usr/bin/cbm
+/usr/bin/cif_list_tags
+/usr/bin/cifparse
+/usr/bin/cifvalues

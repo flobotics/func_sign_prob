@@ -1082,3 +1082,5 @@ courier-authlib-ldap
 courier-authlib-sqlite
 courier-authlib-postgresql
 courier-authlib-mysql
+chasen-dictutils
+cgit

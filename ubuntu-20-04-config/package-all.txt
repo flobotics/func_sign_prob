@@ -3137,3 +3137,6 @@ codonw
 cdde
 cpulimit
 cbm
+chasen-dictutils
+cgit
+cod-tools
