@@ -2174,3 +2174,4 @@ cvsps
 crasm
 coinor-cbc
 cc65
+caffe-tools-cpu

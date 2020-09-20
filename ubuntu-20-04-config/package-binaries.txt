@@ -6510,3 +6510,14 @@
 /usr/bin/od65
 /usr/bin/sim65
 /usr/bin/sp65
+/usr/bin/caffe
+/usr/bin/caffe-gtest
+/usr/bin/classification
+/usr/bin/compute_image_mean
+/usr/bin/convert_cifar_data
+/usr/bin/convert_imageset
+/usr/bin/convert_mnist_data
+/usr/bin/convert_mnist_siamese_data
+/usr/bin/extract_features
+/usr/bin/upgrade_net_proto_text
+/usr/bin/upgrade_solver_proto_text

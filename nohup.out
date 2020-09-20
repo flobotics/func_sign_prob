@@ -17154,3 +17154,13 @@ Real binaries:['/usr/bin/ar65', '/usr/bin/ca65', '/usr/bin/cc65', '/usr/bin/chrc
 Write to package-work.txt file: cc65
 Write to package-binaries.txt file: ['/usr/bin/ar65', '/usr/bin/ca65', '/usr/bin/cc65', '/usr/bin/chrcvt65', '/usr/bin/cl65', '/usr/bin/co65', '/usr/bin/da65', '/usr/bin/grc65', '/usr/bin/ld65', '/usr/bin/od65', '/usr/bin/sim65', '/usr/bin/sp65']
 ['/usr/bin/ar65', '/usr/bin/ca65', '/usr/bin/cc65', '/usr/bin/chrcvt65', '/usr/bin/cl65', '/usr/bin/co65', '/usr/bin/da65', '/usr/bin/grc65', '/usr/bin/ld65', '/usr/bin/od65', '/usr/bin/sim65', '/usr/bin/sp65']
+Write pickle file
+tar_out:
+Package-nr:3273 of 11000, Name:caffe-tools-cpu-dbgsym
+Package >caffe-tools-cpu< not in package-all.txt file
+Write to package-all.txt file: caffe-tools-cpu
+In package >caffe-tools-cpu< are these binaries: ['/usr/bin/caffe', '/usr/bin/caffe-gtest', '/usr/bin/classification', '/usr/bin/compute_image_mean', '/usr/bin/convert_cifar_data', '/usr/bin/convert_imageset', '/usr/bin/convert_mnist_data', '/usr/bin/convert_mnist_siamese_data', '/usr/bin/extract_features', '/usr/bin/upgrade_net_proto_text', '/usr/bin/upgrade_solver_proto_text']
+Real binaries:['/usr/bin/caffe', '/usr/bin/caffe-gtest', '/usr/bin/classification', '/usr/bin/compute_image_mean', '/usr/bin/convert_cifar_data', '/usr/bin/convert_imageset', '/usr/bin/convert_mnist_data', '/usr/bin/convert_mnist_siamese_data', '/usr/bin/extract_features', '/usr/bin/upgrade_net_proto_text', '/usr/bin/upgrade_solver_proto_text']
+Write to package-work.txt file: caffe-tools-cpu
+Write to package-binaries.txt file: ['/usr/bin/caffe', '/usr/bin/caffe-gtest', '/usr/bin/classification', '/usr/bin/compute_image_mean', '/usr/bin/convert_cifar_data', '/usr/bin/convert_imageset', '/usr/bin/convert_mnist_data', '/usr/bin/convert_mnist_siamese_data', '/usr/bin/extract_features', '/usr/bin/upgrade_net_proto_text', '/usr/bin/upgrade_solver_proto_text']
+['/usr/bin/caffe', '/usr/bin/caffe-gtest', '/usr/bin/classification', '/usr/bin/compute_image_mean', '/usr/bin/convert_cifar_data', '/usr/bin/convert_imageset', '/usr/bin/convert_mnist_data', '/usr/bin/convert_mnist_siamese_data', '/usr/bin/extract_features', '/usr/bin/upgrade_net_proto_text', '/usr/bin/upgrade_solver_proto_text']
