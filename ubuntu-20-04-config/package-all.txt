@@ -3082,3 +3082,5 @@ celluloid
 cenon.app
 clonalframeml
 cairo-perf-utils
+connectagram
+cronutils

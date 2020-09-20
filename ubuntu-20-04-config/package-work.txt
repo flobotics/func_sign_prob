@@ -2010,3 +2010,4 @@ cpu-x
 celluloid
 clonalframeml
 cairo-perf-utils
+cronutils

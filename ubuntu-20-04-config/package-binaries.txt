@@ -5972,3 +5972,6 @@
 /usr/bin/cairo-perf-micro
 /usr/bin/cairo-perf-print
 /usr/bin/cairo-perf-trace
+/usr/bin/runlock
+/usr/bin/runstat
+/usr/bin/runalarm
