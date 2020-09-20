@@ -4020,3 +4020,5 @@ xmille
 xkeycaps
 xmlto
 xvkbd
+xserver-xorg-input-xwiimote
+xpad

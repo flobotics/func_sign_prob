@@ -7696,3 +7696,4 @@
 /usr/bin/xkeycaps
 /usr/bin/xmlif
 /usr/bin/xvkbd
+/usr/bin/xpad

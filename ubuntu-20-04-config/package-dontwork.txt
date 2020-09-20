@@ -1392,3 +1392,4 @@ x2gobroker-ssh
 x2gobroker-agent
 xbubble
 xmille
+xserver-xorg-input-xwiimote

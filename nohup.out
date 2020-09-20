@@ -23343,3 +23343,20 @@ Real binaries:['/usr/bin/xvkbd']
 Write to package-work.txt file: xvkbd
 Write to package-binaries.txt file: ['/usr/bin/xvkbd']
 ['/usr/bin/xvkbd']
+Write pickle file
+tar_out:
+Package-nr:3999 of 11000, Name:xserver-xorg-input-xwiimote-dbgsym
+Package >xserver-xorg-input-xwiimote< not in package-all.txt file
+Write to package-all.txt file: xserver-xorg-input-xwiimote
+In package >xserver-xorg-input-xwiimote< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: xserver-xorg-input-xwiimote
+[]
+Package-nr:4000 of 11000, Name:xpad-dbgsym
+Package >xpad< not in package-all.txt file
+Write to package-all.txt file: xpad
+In package >xpad< are these binaries: ['/usr/bin/xpad']
+Real binaries:['/usr/bin/xpad']
+Write to package-work.txt file: xpad
+Write to package-binaries.txt file: ['/usr/bin/xpad']
+['/usr/bin/xpad']
