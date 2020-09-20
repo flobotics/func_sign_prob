@@ -16088,3 +16088,13 @@ Real binaries:['/usr/bin/dash-search']
 Write to package-work.txt file: cruft
 Write to package-binaries.txt file: ['/usr/bin/dash-search']
 ['/usr/bin/dash-search']
+Write pickle file
+tar_out:
+Package-nr:3147 of 11000, Name:clif-dbgsym
+Package >clif< not in package-all.txt file
+Write to package-all.txt file: clif
+In package >clif< are these binaries: ['/usr/bin/clif']
+Real binaries:['/usr/bin/clif']
+Write to package-work.txt file: clif
+Write to package-binaries.txt file: ['/usr/bin/clif']
+['/usr/bin/clif']

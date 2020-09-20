@@ -6380,3 +6380,4 @@
 /usr/bin/cowdancer-ilistcreate
 /usr/bin/cowdancer-ilistdump
 /usr/bin/dash-search
+/usr/bin/clif
