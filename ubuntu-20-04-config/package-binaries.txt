@@ -6037,3 +6037,6 @@
 /usr/bin/chrpath
 /usr/bin/connman-gtk
 /usr/sbin/spine
+/usr/bin/canlock
+/usr/bin/canlock-hfp
+/usr/bin/canlock-mhp
