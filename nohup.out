@@ -15772,3 +15772,13 @@ Real binaries:['/usr/bin/courier-config', '/usr/bin/couriertls', '/usr/bin/deliv
 Write to package-work.txt file: courier-base
 Write to package-binaries.txt file: ['/usr/bin/courier-config', '/usr/bin/couriertls', '/usr/bin/deliverquota.courier', '/usr/bin/maildiracl', '/usr/bin/maildirkw', '/usr/bin/maildirmake.courier', '/usr/bin/testmxlookup', '/usr/sbin/couriertcpd']
 ['/usr/bin/courier-config', '/usr/bin/couriertls', '/usr/bin/deliverquota.courier', '/usr/bin/maildiracl', '/usr/bin/maildirkw', '/usr/bin/maildirmake.courier', '/usr/bin/testmxlookup', '/usr/sbin/couriertcpd']
+Write pickle file
+tar_out:
+Package-nr:3111 of 11000, Name:courier-mlm-dbgsym
+Package >courier-mlm< not in package-all.txt file
+Write to package-all.txt file: courier-mlm
+In package >courier-mlm< are these binaries: ['/usr/bin/couriermlm', '/usr/bin/webmlmd', '/usr/bin/webmlmd.rc', '/usr/lib/cgi-bin/webmlm']
+Real binaries:['/usr/bin/couriermlm', '/usr/bin/webmlmd']
+Write to package-work.txt file: courier-mlm
+Write to package-binaries.txt file: ['/usr/bin/couriermlm', '/usr/bin/webmlmd']
+['/usr/bin/couriermlm', '/usr/bin/webmlmd']

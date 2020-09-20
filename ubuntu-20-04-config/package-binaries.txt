@@ -6183,3 +6183,5 @@
 /usr/bin/maildirmake.courier
 /usr/bin/testmxlookup
 /usr/sbin/couriertcpd
+/usr/bin/couriermlm
+/usr/bin/webmlmd
