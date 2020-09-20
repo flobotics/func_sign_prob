@@ -2509,3 +2509,4 @@ xmlstarlet
 xxkb
 xtide
 xcompmgr
+xpp

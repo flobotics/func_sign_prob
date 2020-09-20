@@ -3862,3 +3862,4 @@ xfishtank
 xxkb
 xtide
 xcompmgr
+xpp
