@@ -7211,3 +7211,5 @@
 /usr/bin/QLogo
 /usr/bin/qlcplus
 /usr/bin/qlcplus-fixtureeditor
+/usr/bin/qthid
+/usr/bin/qthid-2.2

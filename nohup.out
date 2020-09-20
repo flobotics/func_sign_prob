@@ -20607,3 +20607,13 @@ Real binaries:['/usr/bin/qlcplus', '/usr/bin/qlcplus-fixtureeditor']
 Write to package-work.txt file: qlcplus
 Write to package-binaries.txt file: ['/usr/bin/qlcplus', '/usr/bin/qlcplus-fixtureeditor']
 ['/usr/bin/qlcplus', '/usr/bin/qlcplus-fixtureeditor']
+Write pickle file
+tar_out:
+Package-nr:3681 of 11000, Name:qthid-fcd-controller-dbgsym
+Package >qthid-fcd-controller< not in package-all.txt file
+Write to package-all.txt file: qthid-fcd-controller
+In package >qthid-fcd-controller< are these binaries: ['/usr/bin/qthid', '/usr/bin/qthid-2.2']
+Real binaries:['/usr/bin/qthid', '/usr/bin/qthid-2.2']
+Write to package-work.txt file: qthid-fcd-controller
+Write to package-binaries.txt file: ['/usr/bin/qthid', '/usr/bin/qthid-2.2']
+['/usr/bin/qthid', '/usr/bin/qthid-2.2']
