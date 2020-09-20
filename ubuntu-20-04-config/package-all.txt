@@ -3177,3 +3177,4 @@ cdbackup
 printer-driver-cups-pdf
 clasp
 cmtk
+catimg

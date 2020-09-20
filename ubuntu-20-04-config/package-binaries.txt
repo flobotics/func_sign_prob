@@ -6163,3 +6163,4 @@
 /usr/lib/cmtk/bin/xform2dfield
 /usr/lib/cmtk/bin/xform2itk
 /usr/lib/cmtk/bin/xform2scalar
+/usr/bin/catimg
