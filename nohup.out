@@ -17519,3 +17519,13 @@ Real binaries:['/usr/bin/chuck', '/usr/bin/chuck.alsa', '/usr/bin/chuck.oss']
 Write to package-work.txt file: chuck
 Write to package-binaries.txt file: ['/usr/bin/chuck', '/usr/bin/chuck.alsa', '/usr/bin/chuck.oss']
 ['/usr/bin/chuck', '/usr/bin/chuck.alsa', '/usr/bin/chuck.oss']
+Write pickle file
+tar_out:
+Package-nr:3315 of 11000, Name:carbon-c-relay-dbgsym
+Package >carbon-c-relay< not in package-all.txt file
+Write to package-all.txt file: carbon-c-relay
+In package >carbon-c-relay< are these binaries: ['/usr/bin/carbon-c-relay', '/usr/bin/relay']
+Real binaries:['/usr/bin/carbon-c-relay', '/usr/bin/relay']
+Write to package-work.txt file: carbon-c-relay
+Write to package-binaries.txt file: ['/usr/bin/carbon-c-relay', '/usr/bin/relay']
+['/usr/bin/carbon-c-relay', '/usr/bin/relay']

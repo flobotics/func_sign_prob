@@ -6649,3 +6649,5 @@
 /usr/bin/chuck
 /usr/bin/chuck.alsa
 /usr/bin/chuck.oss
+/usr/bin/carbon-c-relay
+/usr/bin/relay
