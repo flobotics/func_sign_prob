@@ -7228,3 +7228,4 @@
 /usr/bin/qprint
 /usr/sbin/keypair
 /usr/sbin/quicktun
+/usr/bin/qps

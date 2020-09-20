@@ -3741,3 +3741,5 @@ qdirstat
 qprint
 qtspeech5-examples
 quicktun
+python3-qutip
+qps
