@@ -3010,3 +3010,4 @@ codelite
 conda-package-handling
 cstream
 clonalorigin
+calcurse

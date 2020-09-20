@@ -1995,3 +1995,4 @@ cdck
 codelite
 cstream
 clonalorigin
+calcurse
