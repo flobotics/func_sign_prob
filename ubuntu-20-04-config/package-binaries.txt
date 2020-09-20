@@ -6768,3 +6768,4 @@
 /usr/bin/cd-convert
 /usr/bin/cutmp3
 /usr/bin/centreon_connector_ssh
+/usr/bin/centreon_connector_perl

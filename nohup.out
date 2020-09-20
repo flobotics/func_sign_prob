@@ -17784,3 +17784,13 @@ Real binaries:['/usr/bin/centreon_connector_ssh']
 Write to package-work.txt file: centreon-connector-ssh
 Write to package-binaries.txt file: ['/usr/bin/centreon_connector_ssh']
 ['/usr/bin/centreon_connector_ssh']
+Write pickle file
+tar_out:
+Package-nr:3344 of 11000, Name:centreon-connector-perl-dbgsym
+Package >centreon-connector-perl< not in package-all.txt file
+Write to package-all.txt file: centreon-connector-perl
+In package >centreon-connector-perl< are these binaries: ['/usr/bin/centreon_connector_perl']
+Real binaries:['/usr/bin/centreon_connector_perl']
+Write to package-work.txt file: centreon-connector-perl
+Write to package-binaries.txt file: ['/usr/bin/centreon_connector_perl']
+['/usr/bin/centreon_connector_perl']
