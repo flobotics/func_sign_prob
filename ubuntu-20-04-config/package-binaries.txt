@@ -5650,3 +5650,5 @@
 /usr/bin/indigo-deco
 /usr/bin/indigo-depict
 /usr/bin/evmctl
+/usr/bin/convickt
+/usr/bin/ick
