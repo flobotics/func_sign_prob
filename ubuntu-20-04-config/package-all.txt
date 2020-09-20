@@ -3855,3 +3855,4 @@ xiterm+thai
 xloadimage
 xcolmix
 xfce4-appfinder
+xfce4-screenshooter
