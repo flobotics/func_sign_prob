@@ -6494,3 +6494,4 @@
 /usr/bin/cudf-check
 /usr/bin/cudf-parse-822
 /usr/bin/cen64-qt
+/usr/bin/catcodec

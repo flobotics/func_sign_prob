@@ -2169,3 +2169,4 @@ conntrackd
 caja-eiciel
 cudf-tools
 cen64-qt
+catcodec
