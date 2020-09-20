@@ -6397,3 +6397,4 @@
 /usr/bin/cycfx2prog
 /usr/bin/cmark-gfm
 /usr/bin/critterding
+/usr/bin/cbatticon

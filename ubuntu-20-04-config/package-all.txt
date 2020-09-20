@@ -3256,3 +3256,5 @@ claws-mail-multi-notifier
 claws-mail-attach-warner
 claws-mail-pdf-viewer
 critterding
+cultivation
+cbatticon

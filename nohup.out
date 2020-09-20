@@ -16373,3 +16373,20 @@ Real binaries:['/usr/bin/critterding']
 Write to package-work.txt file: critterding
 Write to package-binaries.txt file: ['/usr/bin/critterding']
 ['/usr/bin/critterding']
+Write pickle file
+tar_out:
+Package-nr:3184 of 11000, Name:cultivation-dbgsym
+Package >cultivation< not in package-all.txt file
+Write to package-all.txt file: cultivation
+In package >cultivation< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: cultivation
+[]
+Package-nr:3185 of 11000, Name:cbatticon-dbgsym
+Package >cbatticon< not in package-all.txt file
+Write to package-all.txt file: cbatticon
+In package >cbatticon< are these binaries: ['/usr/bin/cbatticon']
+Real binaries:['/usr/bin/cbatticon']
+Write to package-work.txt file: cbatticon
+Write to package-binaries.txt file: ['/usr/bin/cbatticon']
+['/usr/bin/cbatticon']
