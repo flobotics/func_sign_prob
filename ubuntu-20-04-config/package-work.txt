@@ -2516,3 +2516,4 @@ xoscope
 xfaces
 xml-security-c-utils
 xringd
+xsettingsd

@@ -21948,3 +21948,13 @@ Real binaries:['/usr/sbin/xringd']
 Write to package-work.txt file: xringd
 Write to package-binaries.txt file: ['/usr/sbin/xringd']
 ['/usr/sbin/xringd']
+Write pickle file
+tar_out:
+Package-nr:3835 of 11000, Name:xsettingsd-dbgsym
+Package >xsettingsd< not in package-all.txt file
+Write to package-all.txt file: xsettingsd
+In package >xsettingsd< are these binaries: ['/usr/bin/dump_xsettings', '/usr/bin/xsettingsd']
+Real binaries:['/usr/bin/dump_xsettings', '/usr/bin/xsettingsd']
+Write to package-work.txt file: xsettingsd
+Write to package-binaries.txt file: ['/usr/bin/dump_xsettings', '/usr/bin/xsettingsd']
+['/usr/bin/dump_xsettings', '/usr/bin/xsettingsd']
