@@ -3390,3 +3390,4 @@ concordance
 cervisia
 cvsservice
 ccextractor
+cgdb
