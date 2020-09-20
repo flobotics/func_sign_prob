@@ -15384,3 +15384,13 @@ Real binaries:['/usr/bin/cubemap']
 Write to package-work.txt file: cubemap
 Write to package-binaries.txt file: ['/usr/bin/cubemap']
 ['/usr/bin/cubemap']
+Write pickle file
+tar_out:
+Package-nr:3063 of 11000, Name:clementine-dbgsym
+Package >clementine< not in package-all.txt file
+Write to package-all.txt file: clementine
+In package >clementine< are these binaries: ['/usr/bin/clementine', '/usr/bin/clementine-tagreader']
+Real binaries:['/usr/bin/clementine', '/usr/bin/clementine-tagreader']
+Write to package-work.txt file: clementine
+Write to package-binaries.txt file: ['/usr/bin/clementine', '/usr/bin/clementine-tagreader']
+['/usr/bin/clementine', '/usr/bin/clementine-tagreader']

@@ -6031,3 +6031,5 @@
 /usr/bin/cifparse
 /usr/bin/cifvalues
 /usr/bin/cubemap
+/usr/bin/clementine
+/usr/bin/clementine-tagreader

@@ -3142,3 +3142,4 @@ cgit
 cod-tools
 python3-pycodcif
 cubemap
+clementine

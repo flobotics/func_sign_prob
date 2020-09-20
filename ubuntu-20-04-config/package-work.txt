@@ -2052,3 +2052,4 @@ cpulimit
 cbm
 cod-tools
 cubemap
+clementine
