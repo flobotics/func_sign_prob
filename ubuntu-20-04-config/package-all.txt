@@ -3913,3 +3913,4 @@ xstow
 xgrep
 xshisen
 xcape
+xvfb

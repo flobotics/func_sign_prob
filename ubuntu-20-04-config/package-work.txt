@@ -2544,3 +2544,4 @@ x11-touchscreen-calibrator
 xstow
 xgrep
 xcape
+xvfb

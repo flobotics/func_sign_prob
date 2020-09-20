@@ -7457,3 +7457,4 @@
 /usr/bin/xstow
 /usr/bin/xgrep
 /usr/bin/xcape
+/usr/bin/Xvfb

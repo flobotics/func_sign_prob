@@ -22330,3 +22330,13 @@ Real binaries:['/usr/bin/xcape']
 Write to package-work.txt file: xcape
 Write to package-binaries.txt file: ['/usr/bin/xcape']
 ['/usr/bin/xcape']
+Write pickle file
+tar_out:
+Package-nr:3881 of 11000, Name:xvfb-dbgsym
+Package >xvfb< not in package-all.txt file
+Write to package-all.txt file: xvfb
+In package >xvfb< are these binaries: ['/usr/bin/Xvfb', '/usr/bin/xvfb-run']
+Real binaries:['/usr/bin/Xvfb']
+Write to package-work.txt file: xvfb
+Write to package-binaries.txt file: ['/usr/bin/Xvfb']
+['/usr/bin/Xvfb']
