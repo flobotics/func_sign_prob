@@ -18456,3 +18456,27 @@ Real binaries:['/usr/bin/openbsd-cwm']
 Write to package-work.txt file: cwm
 Write to package-binaries.txt file: ['/usr/bin/openbsd-cwm']
 ['/usr/bin/openbsd-cwm']
+Write pickle file
+tar_out:
+Package-nr:3420 of 11000, Name:chocolate-doom-dbgsym
+Package >chocolate-doom< not in package-all.txt file
+Write to package-all.txt file: chocolate-doom
+In package >chocolate-doom< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: chocolate-doom
+[]
+Package-nr:3421 of 11000, Name:coolkey-dbgsym
+Package >coolkey< not in package-all.txt file
+Write to package-all.txt file: coolkey
+In package >coolkey< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: coolkey
+[]
+Package-nr:3422 of 11000, Name:classified-ads-dbgsym
+Package >classified-ads< not in package-all.txt file
+Write to package-all.txt file: classified-ads
+In package >classified-ads< are these binaries: ['/usr/bin/classified-ads']
+Real binaries:['/usr/bin/classified-ads']
+Write to package-work.txt file: classified-ads
+Write to package-binaries.txt file: ['/usr/bin/classified-ads']
+['/usr/bin/classified-ads']

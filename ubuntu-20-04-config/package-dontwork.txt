@@ -1193,3 +1193,5 @@ r-cran-chron
 cpdb-backend-cups
 coinor-libdylp1
 python3-cg3
+chocolate-doom
+coolkey

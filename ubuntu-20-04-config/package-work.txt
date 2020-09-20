@@ -2281,3 +2281,4 @@ printer-driver-cjet
 cutesdr
 cflow
 cwm
+classified-ads

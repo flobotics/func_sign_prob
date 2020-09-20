@@ -6867,3 +6867,4 @@
 /usr/bin/siqs_ftdi
 /usr/bin/cflow
 /usr/bin/openbsd-cwm
+/usr/bin/classified-ads

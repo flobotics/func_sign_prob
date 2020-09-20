@@ -3479,3 +3479,6 @@ printer-driver-cjet
 cutesdr
 cflow
 cwm
+chocolate-doom
+coolkey
+classified-ads
