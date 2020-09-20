@@ -3858,3 +3858,6 @@ xfce4-appfinder
 xfce4-screenshooter
 xsoldier
 xmlstarlet
+xfishtank
+xxkb
+xtide

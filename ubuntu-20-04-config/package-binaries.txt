@@ -7398,3 +7398,7 @@
 /usr/bin/xfce4-appfinder
 /usr/bin/xfce4-screenshooter
 /usr/bin/xmlstarlet
+/usr/bin/xxkb
+/usr/bin/tide
+/usr/bin/xtide
+/usr/sbin/xttpd

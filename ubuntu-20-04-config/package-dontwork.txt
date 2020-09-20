@@ -1347,3 +1347,4 @@ xchain
 xserver-xorg-input-kbd
 xsystem35
 xsoldier
+xfishtank
