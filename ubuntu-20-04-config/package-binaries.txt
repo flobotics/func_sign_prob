@@ -7268,3 +7268,9 @@
 /usr/bin/mpcgain
 /usr/bin/wavcmp
 /usr/bin/xfstt
+/usr/bin/exjdxgen
+/usr/bin/xjdic_cl
+/usr/bin/xjdic_sa
+/usr/bin/xjdrad
+/usr/bin/xjdserver
+/usr/bin/xjdxgen

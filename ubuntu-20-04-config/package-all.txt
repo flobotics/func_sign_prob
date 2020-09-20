@@ -3755,3 +3755,4 @@ musepack-tools
 2048-qt
 xorgxrdp
 xfstt
+xjdic

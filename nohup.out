@@ -20853,3 +20853,13 @@ Real binaries:['/usr/bin/xfstt']
 Write to package-work.txt file: xfstt
 Write to package-binaries.txt file: ['/usr/bin/xfstt']
 ['/usr/bin/xfstt']
+Write pickle file
+tar_out:
+Package-nr:3709 of 11000, Name:xjdic-dbgsym
+Package >xjdic< not in package-all.txt file
+Write to package-all.txt file: xjdic
+In package >xjdic< are these binaries: ['/usr/bin/exjdxgen', '/usr/bin/xjdic_cl', '/usr/bin/xjdic_sa', '/usr/bin/xjdrad', '/usr/bin/xjdserver', '/usr/bin/xjdxgen', '/usr/sbin/xjdicconfig', '/usr/bin/xjdic']
+Real binaries:['/usr/bin/exjdxgen', '/usr/bin/xjdic_cl', '/usr/bin/xjdic_sa', '/usr/bin/xjdrad', '/usr/bin/xjdserver', '/usr/bin/xjdxgen']
+Write to package-work.txt file: xjdic
+Write to package-binaries.txt file: ['/usr/bin/exjdxgen', '/usr/bin/xjdic_cl', '/usr/bin/xjdic_sa', '/usr/bin/xjdrad', '/usr/bin/xjdserver', '/usr/bin/xjdxgen']
+['/usr/bin/exjdxgen', '/usr/bin/xjdic_cl', '/usr/bin/xjdic_sa', '/usr/bin/xjdrad', '/usr/bin/xjdserver', '/usr/bin/xjdxgen']
