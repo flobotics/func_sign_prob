@@ -6435,3 +6435,5 @@
 /usr/bin/calligrastage
 /usr/bin/calligrawords
 /usr/bin/karbon
+/usr/bin/calligragemini
+/usr/bin/calligrageminithumbnailhelper

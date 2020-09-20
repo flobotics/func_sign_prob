@@ -16724,3 +16724,13 @@ Real binaries:['/usr/bin/karbon']
 Write to package-work.txt file: karbon
 Write to package-binaries.txt file: ['/usr/bin/karbon']
 ['/usr/bin/karbon']
+Write pickle file
+tar_out:
+Package-nr:3225 of 11000, Name:calligra-gemini-dbgsym
+Package >calligra-gemini< not in package-all.txt file
+Write to package-all.txt file: calligra-gemini
+In package >calligra-gemini< are these binaries: ['/usr/bin/calligragemini', '/usr/bin/calligrageminithumbnailhelper']
+Real binaries:['/usr/bin/calligragemini', '/usr/bin/calligrageminithumbnailhelper']
+Write to package-work.txt file: calligra-gemini
+Write to package-binaries.txt file: ['/usr/bin/calligragemini', '/usr/bin/calligrageminithumbnailhelper']
+['/usr/bin/calligragemini', '/usr/bin/calligrageminithumbnailhelper']
