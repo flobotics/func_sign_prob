@@ -5790,3 +5790,10 @@
 /usr/bin/stream-im6.q16hdri
 /usr/bin/icecream-sundae
 /usr/lib/iraf/extern/sptable/bin/x_xonedspec.e
+/usr/bin/infnoise-dice
+/usr/bin/infnoise-entcheck
+/usr/bin/infnoise-findlongest
+/usr/bin/infnoise-flipbits
+/usr/bin/infnoise-healthcheck
+/usr/bin/infnoise-passgen
+/usr/sbin/infnoise

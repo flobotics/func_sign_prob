@@ -977,3 +977,4 @@ icebreaker
 ibus-anthy
 iagno
 i965-va-driver
+ibus-clutter

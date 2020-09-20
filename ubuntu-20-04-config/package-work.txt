@@ -1923,3 +1923,4 @@ imaptool
 imagemagick-6.q16hdri
 icecream-sundae
 iraf-sptable
+infnoise
