@@ -2049,3 +2049,4 @@ cadaver
 codonw
 cdde
 cpulimit
+cbm

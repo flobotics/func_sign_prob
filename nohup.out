@@ -15324,3 +15324,13 @@ Real binaries:['/usr/bin/cpulimit']
 Write to package-work.txt file: cpulimit
 Write to package-binaries.txt file: ['/usr/bin/cpulimit']
 ['/usr/bin/cpulimit']
+Write pickle file
+tar_out:
+Package-nr:3054 of 11000, Name:cbm-dbgsym
+Package >cbm< not in package-all.txt file
+Write to package-all.txt file: cbm
+In package >cbm< are these binaries: ['/usr/bin/cbm']
+Real binaries:['/usr/bin/cbm']
+Write to package-work.txt file: cbm
+Write to package-binaries.txt file: ['/usr/bin/cbm']
+['/usr/bin/cbm']
