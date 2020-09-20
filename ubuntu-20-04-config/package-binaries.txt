@@ -7300,3 +7300,4 @@
 /usr/bin/tex2xindy
 /usr/bin/xssproxy
 /usr/bin/xmotd
+/usr/bin/ttv

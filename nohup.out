@@ -21045,3 +21045,30 @@ Real binaries:['/usr/bin/xmotd']
 Write to package-work.txt file: xmotd
 Write to package-binaries.txt file: ['/usr/bin/xmotd']
 ['/usr/bin/xmotd']
+Write pickle file
+tar_out:
+Package-nr:3729 of 11000, Name:xpat2-dbgsym
+Package >xpat2< not in package-all.txt file
+Write to package-all.txt file: xpat2
+In package >xpat2< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: xpat2
+[]
+Package-nr:3730 of 11000, Name:xfireworks-dbgsym
+Package >xfireworks< not in package-all.txt file
+Write to package-all.txt file: xfireworks
+In package >xfireworks< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: xfireworks
+[]
+Package-nr:3731 of 11000, Name:radio-dbgsym
+Skip package >radio<, already in package-all.txt file
+[]
+Package-nr:3732 of 11000, Name:ttv-dbgsym
+Package >ttv< not in package-all.txt file
+Write to package-all.txt file: ttv
+In package >ttv< are these binaries: ['/usr/bin/ttv']
+Real binaries:['/usr/bin/ttv']
+Write to package-work.txt file: ttv
+Write to package-binaries.txt file: ['/usr/bin/ttv']
+['/usr/bin/ttv']

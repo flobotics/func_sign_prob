@@ -1323,3 +1323,5 @@ lua-mpack
 xorgxrdp
 xabacus
 xmabacus
+xpat2
+xfireworks
