@@ -3602,3 +3602,4 @@ qml-module-qtwebview
 qtwebview5-examples
 qpdfview
 qhull-bin
+qt5-style-kvantum

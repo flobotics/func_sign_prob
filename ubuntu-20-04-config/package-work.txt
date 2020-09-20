@@ -2348,3 +2348,4 @@ qtgain
 quitcount
 qpdfview
 qhull-bin
+qt5-style-kvantum
