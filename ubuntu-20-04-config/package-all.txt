@@ -3516,3 +3516,4 @@ coinor-libcgl1
 caneda
 cynthiune.app
 crossfire-server
+citadel-server
