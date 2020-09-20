@@ -973,3 +973,4 @@ itcl3
 indicator-power
 inventor-demo
 ibus-keyman
+icebreaker
