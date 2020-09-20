@@ -5995,3 +5995,5 @@
 /usr/bin/comet-ms
 /usr/bin/ckb-next
 /usr/bin/ckb-next-daemon
+/usr/bin/cifer
+/usr/bin/cpipe

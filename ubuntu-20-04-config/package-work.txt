@@ -2023,3 +2023,5 @@ cadvisor
 chafa
 comet-ms
 ckb-next
+cifer
+cpipe
