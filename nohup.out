@@ -22350,3 +22350,13 @@ Real binaries:['/usr/bin/dmxaddinput', '/usr/bin/dmxaddscreen', '/usr/bin/dmxinf
 Write to package-work.txt file: xdmx-tools
 Write to package-binaries.txt file: ['/usr/bin/dmxaddinput', '/usr/bin/dmxaddscreen', '/usr/bin/dmxinfo', '/usr/bin/dmxreconfig', '/usr/bin/dmxresize', '/usr/bin/dmxrminput', '/usr/bin/dmxrmscreen', '/usr/bin/dmxtodmx', '/usr/bin/dmxwininfo', '/usr/bin/vdltodmx', '/usr/bin/xdmxconfig']
 ['/usr/bin/dmxaddinput', '/usr/bin/dmxaddscreen', '/usr/bin/dmxinfo', '/usr/bin/dmxreconfig', '/usr/bin/dmxresize', '/usr/bin/dmxrminput', '/usr/bin/dmxrmscreen', '/usr/bin/dmxtodmx', '/usr/bin/dmxwininfo', '/usr/bin/vdltodmx', '/usr/bin/xdmxconfig']
+Write pickle file
+tar_out:
+Package-nr:3883 of 11000, Name:xnest-dbgsym
+Package >xnest< not in package-all.txt file
+Write to package-all.txt file: xnest
+In package >xnest< are these binaries: ['/usr/bin/Xnest']
+Real binaries:['/usr/bin/Xnest']
+Write to package-work.txt file: xnest
+Write to package-binaries.txt file: ['/usr/bin/Xnest']
+['/usr/bin/Xnest']

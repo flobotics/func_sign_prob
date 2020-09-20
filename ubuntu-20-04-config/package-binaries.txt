@@ -7469,3 +7469,4 @@
 /usr/bin/dmxwininfo
 /usr/bin/vdltodmx
 /usr/bin/xdmxconfig
+/usr/bin/Xnest
