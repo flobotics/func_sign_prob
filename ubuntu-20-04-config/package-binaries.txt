@@ -7702,3 +7702,5 @@
 /usr/bin/xmms2-scrobbler
 /usr/bin/xdrawchem
 /usr/bin/x2godesktopsharing
+/usr/bin/itox
+/usr/sbin/xinetd

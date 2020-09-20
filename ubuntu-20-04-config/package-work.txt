@@ -2629,3 +2629,4 @@ xcb
 xmms2-scrobbler
 xdrawchem
 x2godesktopsharing
+xinetd
