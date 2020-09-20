@@ -982,3 +982,4 @@ ibus-kmfl
 ibus-pinyin
 invesalius-bin
 instead
+ibus-skk

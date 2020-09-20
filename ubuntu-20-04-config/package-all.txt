@@ -2919,3 +2919,5 @@ invesalius-bin
 instead
 ike-scan
 intel-gpu-tools
+ibus-skk
+inputlirc

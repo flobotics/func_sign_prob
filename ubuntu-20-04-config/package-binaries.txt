@@ -5844,3 +5844,4 @@
 /usr/bin/intel_vbt_decode
 /usr/bin/intel_watermark
 /usr/bin/lsgpu
+/usr/sbin/inputlircd
