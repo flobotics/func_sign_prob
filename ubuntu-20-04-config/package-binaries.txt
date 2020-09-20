@@ -7198,3 +7198,4 @@
 /usr/lib/qt5/bin/qdoc
 /usr/lib/qt5/bin/qtattributionsscanner
 /usr/lib/qt5/bin/qhelpgenerator
+/usr/bin/qsstv
