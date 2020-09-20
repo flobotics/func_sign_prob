@@ -5924,3 +5924,4 @@
 /usr/bin/csmith
 /usr/bin/cdbfasta
 /usr/bin/cdbyank
+/usr/bin/ccr

@@ -2984,3 +2984,4 @@ cppo
 colortail
 csmith
 cdbfasta
+codecrypt
