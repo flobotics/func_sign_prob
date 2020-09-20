@@ -3412,3 +3412,7 @@ centreon-connector-ssh
 centreon-connector-perl
 callisto
 curtain
+crawl
+crawl-tiles
+compiz-boxmenu
+calamares

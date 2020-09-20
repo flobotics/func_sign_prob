@@ -6771,3 +6771,10 @@
 /usr/bin/centreon_connector_perl
 /usr/sbin/callisto
 /usr/bin/curtain
+/usr/bin/compiz-boxmenu
+/usr/bin/compiz-boxmenu-daemon
+/usr/bin/compiz-boxmenu-dlist
+/usr/bin/compiz-boxmenu-dplist
+/usr/bin/compiz-boxmenu-vplist
+/usr/bin/compiz-boxmenu-wlist
+/usr/bin/calamares

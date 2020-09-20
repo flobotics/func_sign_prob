@@ -17817,3 +17817,38 @@ Real binaries:['/usr/bin/curtain']
 Write to package-work.txt file: curtain
 Write to package-binaries.txt file: ['/usr/bin/curtain']
 ['/usr/bin/curtain']
+Write pickle file
+tar_out:
+Package-nr:3348 of 11000, Name:cinnamon-dbgsym
+Skip package >cinnamon<, already in package-all.txt file
+[]
+Package-nr:3349 of 11000, Name:crawl-dbgsym
+Package >crawl< not in package-all.txt file
+Write to package-all.txt file: crawl
+In package >crawl< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: crawl
+[]
+Package-nr:3350 of 11000, Name:crawl-tiles-dbgsym
+Package >crawl-tiles< not in package-all.txt file
+Write to package-all.txt file: crawl-tiles
+In package >crawl-tiles< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: crawl-tiles
+[]
+Package-nr:3351 of 11000, Name:compiz-boxmenu-dbgsym
+Package >compiz-boxmenu< not in package-all.txt file
+Write to package-all.txt file: compiz-boxmenu
+In package >compiz-boxmenu< are these binaries: ['/usr/bin/compiz-boxmenu', '/usr/bin/compiz-boxmenu-daemon', '/usr/bin/compiz-boxmenu-dlist', '/usr/bin/compiz-boxmenu-dplist', '/usr/bin/compiz-boxmenu-editor', '/usr/bin/compiz-boxmenu-vplist', '/usr/bin/compiz-boxmenu-wlist']
+Real binaries:['/usr/bin/compiz-boxmenu', '/usr/bin/compiz-boxmenu-daemon', '/usr/bin/compiz-boxmenu-dlist', '/usr/bin/compiz-boxmenu-dplist', '/usr/bin/compiz-boxmenu-vplist', '/usr/bin/compiz-boxmenu-wlist']
+Write to package-work.txt file: compiz-boxmenu
+Write to package-binaries.txt file: ['/usr/bin/compiz-boxmenu', '/usr/bin/compiz-boxmenu-daemon', '/usr/bin/compiz-boxmenu-dlist', '/usr/bin/compiz-boxmenu-dplist', '/usr/bin/compiz-boxmenu-vplist', '/usr/bin/compiz-boxmenu-wlist']
+['/usr/bin/compiz-boxmenu', '/usr/bin/compiz-boxmenu-daemon', '/usr/bin/compiz-boxmenu-dlist', '/usr/bin/compiz-boxmenu-dplist', '/usr/bin/compiz-boxmenu-vplist', '/usr/bin/compiz-boxmenu-wlist']
+Package-nr:3352 of 11000, Name:calamares-dbgsym
+Package >calamares< not in package-all.txt file
+Write to package-all.txt file: calamares
+In package >calamares< are these binaries: ['/usr/bin/calamares']
+Real binaries:['/usr/bin/calamares']
+Write to package-work.txt file: calamares
+Write to package-binaries.txt file: ['/usr/bin/calamares']
+['/usr/bin/calamares']
