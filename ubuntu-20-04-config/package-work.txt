@@ -2030,3 +2030,4 @@ coqide
 cryfs
 cvsgraph
 comptext
+codegroup

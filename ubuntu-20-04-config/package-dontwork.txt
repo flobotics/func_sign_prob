@@ -1075,3 +1075,4 @@ cube2-server
 coz-profiler
 coq-theories
 python3-cftime
+crimson

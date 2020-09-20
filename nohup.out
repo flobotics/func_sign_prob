@@ -15078,3 +15078,20 @@ Real binaries:['/usr/bin/comptext']
 Write to package-work.txt file: comptext
 Write to package-binaries.txt file: ['/usr/bin/comptext']
 ['/usr/bin/comptext']
+Write pickle file
+tar_out:
+Package-nr:3025 of 11000, Name:crimson-dbgsym
+Package >crimson< not in package-all.txt file
+Write to package-all.txt file: crimson
+In package >crimson< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: crimson
+[]
+Package-nr:3026 of 11000, Name:codegroup-dbgsym
+Package >codegroup< not in package-all.txt file
+Write to package-all.txt file: codegroup
+In package >codegroup< are these binaries: ['/usr/bin/codegroup']
+Real binaries:['/usr/bin/codegroup']
+Write to package-work.txt file: codegroup
+Write to package-binaries.txt file: ['/usr/bin/codegroup']
+['/usr/bin/codegroup']

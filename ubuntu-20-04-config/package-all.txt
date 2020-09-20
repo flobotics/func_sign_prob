@@ -3110,3 +3110,5 @@ cryfs
 python3-cftime
 cvsgraph
 comptext
+crimson
+codegroup
