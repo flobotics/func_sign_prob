@@ -6419,3 +6419,4 @@
 /usr/bin/clickhouse-performance-test
 /usr/bin/clearcut
 /usr/bin/cfourcc
+/usr/sbin/cpustat

@@ -3276,3 +3276,4 @@ clickhouse-tools
 clearcut
 crack-attack
 cfourcc
+cpustat

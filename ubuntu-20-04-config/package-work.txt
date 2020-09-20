@@ -2126,3 +2126,4 @@ clickhouse-client
 clickhouse-tools
 clearcut
 cfourcc
+cpustat
