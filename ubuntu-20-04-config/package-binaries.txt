@@ -7352,3 +7352,4 @@
 /usr/bin/2xml
 /usr/bin/csv2
 /usr/bin/xml2
+/usr/bin/xarchiver

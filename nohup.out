@@ -21396,3 +21396,13 @@ Real binaries:['/usr/bin/2csv', '/usr/bin/2xml', '/usr/bin/csv2', '/usr/bin/xml2
 Write to package-work.txt file: xml2
 Write to package-binaries.txt file: ['/usr/bin/2csv', '/usr/bin/2xml', '/usr/bin/csv2', '/usr/bin/xml2']
 ['/usr/bin/2csv', '/usr/bin/2xml', '/usr/bin/csv2', '/usr/bin/xml2']
+Write pickle file
+tar_out:
+Package-nr:3773 of 11000, Name:xarchiver-dbgsym
+Package >xarchiver< not in package-all.txt file
+Write to package-all.txt file: xarchiver
+In package >xarchiver< are these binaries: ['/usr/bin/xarchiver']
+Real binaries:['/usr/bin/xarchiver']
+Write to package-work.txt file: xarchiver
+Write to package-binaries.txt file: ['/usr/bin/xarchiver']
+['/usr/bin/xarchiver']
