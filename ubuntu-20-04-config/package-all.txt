@@ -3922,3 +3922,4 @@ xlunzip
 xracer
 xtermset
 xymon-client
+xinput-calibrator

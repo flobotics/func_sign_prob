@@ -7518,3 +7518,4 @@
 /usr/lib/xymon/client/bin/xymondigest
 /usr/lib/xymon/client/bin/xymongrep
 /usr/lib/xymon/client/bin/xymonlaunch
+/usr/bin/xinput_calibrator

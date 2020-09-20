@@ -22417,3 +22417,16 @@ Real binaries:['/usr/lib/xymon/client/bin/clientupdate', '/usr/lib/xymon/client/
 Write to package-work.txt file: xymon-client
 Write to package-binaries.txt file: ['/usr/lib/xymon/client/bin/clientupdate', '/usr/lib/xymon/client/bin/logfetch', '/usr/lib/xymon/client/bin/msgcache', '/usr/lib/xymon/client/bin/orcaxymon', '/usr/lib/xymon/client/bin/xymon', '/usr/lib/xymon/client/bin/xymoncfg', '/usr/lib/xymon/client/bin/xymoncmd', '/usr/lib/xymon/client/bin/xymondigest', '/usr/lib/xymon/client/bin/xymongrep', '/usr/lib/xymon/client/bin/xymonlaunch']
 ['/usr/lib/xymon/client/bin/clientupdate', '/usr/lib/xymon/client/bin/logfetch', '/usr/lib/xymon/client/bin/msgcache', '/usr/lib/xymon/client/bin/orcaxymon', '/usr/lib/xymon/client/bin/xymon', '/usr/lib/xymon/client/bin/xymoncfg', '/usr/lib/xymon/client/bin/xymoncmd', '/usr/lib/xymon/client/bin/xymondigest', '/usr/lib/xymon/client/bin/xymongrep', '/usr/lib/xymon/client/bin/xymonlaunch']
+Write pickle file
+tar_out:
+Package-nr:3891 of 11000, Name:xymon-dbgsym
+Skip package >xymon<, already in package-all.txt file
+[]
+Package-nr:3892 of 11000, Name:xinput-calibrator-dbgsym
+Package >xinput-calibrator< not in package-all.txt file
+Write to package-all.txt file: xinput-calibrator
+In package >xinput-calibrator< are these binaries: ['/usr/bin/xinput_calibrator']
+Real binaries:['/usr/bin/xinput_calibrator']
+Write to package-work.txt file: xinput-calibrator
+Write to package-binaries.txt file: ['/usr/bin/xinput_calibrator']
+['/usr/bin/xinput_calibrator']

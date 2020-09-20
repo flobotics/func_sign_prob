@@ -2551,3 +2551,4 @@ xorp
 xlunzip
 xtermset
 xymon-client
+xinput-calibrator
