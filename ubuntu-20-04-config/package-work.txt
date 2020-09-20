@@ -2086,3 +2086,5 @@ caml2html
 catdoc
 coyim
 cpuinfo
+cdftools
+printer-driver-c2050
