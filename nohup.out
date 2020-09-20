@@ -18480,3 +18480,13 @@ Real binaries:['/usr/bin/classified-ads']
 Write to package-work.txt file: classified-ads
 Write to package-binaries.txt file: ['/usr/bin/classified-ads']
 ['/usr/bin/classified-ads']
+Write pickle file
+tar_out:
+Package-nr:3423 of 11000, Name:casacore-tools-dbgsym
+Package >casacore-tools< not in package-all.txt file
+Write to package-all.txt file: casacore-tools
+In package >casacore-tools< are these binaries: ['/usr/bin/casahdf5support', '/usr/bin/findmeastable', '/usr/bin/fits2table', '/usr/bin/image2fits', '/usr/bin/imagecalc', '/usr/bin/imageregrid', '/usr/bin/imageslice', '/usr/bin/lsmf', '/usr/bin/measuresdata', '/usr/bin/ms2uvfits', '/usr/bin/msselect', '/usr/bin/readms', '/usr/bin/showtableinfo', '/usr/bin/showtablelock', '/usr/bin/tablefromascii', '/usr/bin/taql', '/usr/bin/tomf', '/usr/bin/writems']
+Real binaries:['/usr/bin/casahdf5support', '/usr/bin/findmeastable', '/usr/bin/fits2table', '/usr/bin/image2fits', '/usr/bin/imagecalc', '/usr/bin/imageregrid', '/usr/bin/imageslice', '/usr/bin/lsmf', '/usr/bin/measuresdata', '/usr/bin/ms2uvfits', '/usr/bin/msselect', '/usr/bin/readms', '/usr/bin/showtableinfo', '/usr/bin/showtablelock', '/usr/bin/tablefromascii', '/usr/bin/taql', '/usr/bin/tomf', '/usr/bin/writems']
+Write to package-work.txt file: casacore-tools
+Write to package-binaries.txt file: ['/usr/bin/casahdf5support', '/usr/bin/findmeastable', '/usr/bin/fits2table', '/usr/bin/image2fits', '/usr/bin/imagecalc', '/usr/bin/imageregrid', '/usr/bin/imageslice', '/usr/bin/lsmf', '/usr/bin/measuresdata', '/usr/bin/ms2uvfits', '/usr/bin/msselect', '/usr/bin/readms', '/usr/bin/showtableinfo', '/usr/bin/showtablelock', '/usr/bin/tablefromascii', '/usr/bin/taql', '/usr/bin/tomf', '/usr/bin/writems']
+['/usr/bin/casahdf5support', '/usr/bin/findmeastable', '/usr/bin/fits2table', '/usr/bin/image2fits', '/usr/bin/imagecalc', '/usr/bin/imageregrid', '/usr/bin/imageslice', '/usr/bin/lsmf', '/usr/bin/measuresdata', '/usr/bin/ms2uvfits', '/usr/bin/msselect', '/usr/bin/readms', '/usr/bin/showtableinfo', '/usr/bin/showtablelock', '/usr/bin/tablefromascii', '/usr/bin/taql', '/usr/bin/tomf', '/usr/bin/writems']

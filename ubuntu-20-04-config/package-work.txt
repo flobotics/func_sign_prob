@@ -2282,3 +2282,4 @@ cutesdr
 cflow
 cwm
 classified-ads
+casacore-tools

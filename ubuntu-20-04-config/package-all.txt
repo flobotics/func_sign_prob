@@ -3482,3 +3482,4 @@ cwm
 chocolate-doom
 coolkey
 classified-ads
+casacore-tools
