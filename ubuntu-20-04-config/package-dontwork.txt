@@ -1151,3 +1151,4 @@ cantor-backend-lua
 cantor-backend-maxima
 cantor-backend-qalculate
 cantor-backend-kalgebra
+cantor-backend-sage

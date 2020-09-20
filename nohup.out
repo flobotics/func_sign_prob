@@ -16620,3 +16620,23 @@ Real binaries:['/usr/bin/cantor_rserver']
 Write to package-work.txt file: cantor-backend-r
 Write to package-binaries.txt file: ['/usr/bin/cantor_rserver']
 ['/usr/bin/cantor_rserver']
+Write pickle file
+tar_out:
+Package-nr:3213 of 11000, Name:cantor-backend-sage-dbgsym
+Package >cantor-backend-sage< not in package-all.txt file
+Write to package-all.txt file: cantor-backend-sage
+In package >cantor-backend-sage< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: cantor-backend-sage
+[]
+Package-nr:3214 of 11000, Name:cantor-dbgsym
+Skip package >cantor<, already in package-all.txt file
+[]
+Package-nr:3215 of 11000, Name:cantor-backend-python3-dbgsym
+Package >cantor-backend-python3< not in package-all.txt file
+Write to package-all.txt file: cantor-backend-python3
+In package >cantor-backend-python3< are these binaries: ['/usr/bin/cantor_python3server']
+Real binaries:['/usr/bin/cantor_python3server']
+Write to package-work.txt file: cantor-backend-python3
+Write to package-binaries.txt file: ['/usr/bin/cantor_python3server']
+['/usr/bin/cantor_python3server']
