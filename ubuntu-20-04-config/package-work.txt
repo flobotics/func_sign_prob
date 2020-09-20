@@ -2240,3 +2240,4 @@ cproto
 certmonger
 cdo
 latex-cjk-chinese
+latex-cjk-common

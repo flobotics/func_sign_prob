@@ -17991,3 +17991,13 @@ Real binaries:['/usr/bin/bg5conv', '/usr/bin/cef5conv', '/usr/bin/cefconv', '/us
 Write to package-work.txt file: latex-cjk-chinese
 Write to package-binaries.txt file: ['/usr/bin/bg5conv', '/usr/bin/cef5conv', '/usr/bin/cefconv', '/usr/bin/cefsconv', '/usr/bin/extconv']
 ['/usr/bin/bg5conv', '/usr/bin/cef5conv', '/usr/bin/cefconv', '/usr/bin/cefsconv', '/usr/bin/extconv']
+Write pickle file
+tar_out:
+Package-nr:3368 of 11000, Name:latex-cjk-common-dbgsym
+Package >latex-cjk-common< not in package-all.txt file
+Write to package-all.txt file: latex-cjk-common
+In package >latex-cjk-common< are these binaries: ['/usr/bin/hbf2gf']
+Real binaries:['/usr/bin/hbf2gf']
+Write to package-work.txt file: latex-cjk-common
+Write to package-binaries.txt file: ['/usr/bin/hbf2gf']
+['/usr/bin/hbf2gf']
