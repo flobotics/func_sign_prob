@@ -6013,3 +6013,5 @@
 /usr/sbin/userdbpw
 /usr/bin/courierauthconfig
 /usr/bin/cassbeam
+/usr/bin/cauchydeclgen
+/usr/bin/cauchymc
