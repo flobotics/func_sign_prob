@@ -7267,3 +7267,4 @@
 /usr/bin/mpcenc
 /usr/bin/mpcgain
 /usr/bin/wavcmp
+/usr/bin/xfstt

@@ -20829,3 +20829,27 @@ Real binaries:['/usr/bin/mpc2sv8', '/usr/bin/mpcchap', '/usr/bin/mpccut', '/usr/
 Write to package-work.txt file: musepack-tools
 Write to package-binaries.txt file: ['/usr/bin/mpc2sv8', '/usr/bin/mpcchap', '/usr/bin/mpccut', '/usr/bin/mpcdec', '/usr/bin/mpcenc', '/usr/bin/mpcgain', '/usr/bin/wavcmp']
 ['/usr/bin/mpc2sv8', '/usr/bin/mpcchap', '/usr/bin/mpccut', '/usr/bin/mpcdec', '/usr/bin/mpcenc', '/usr/bin/mpcgain', '/usr/bin/wavcmp']
+Write pickle file
+tar_out:
+Package-nr:3706 of 11000, Name:2048-qt-dbgsym
+Package >2048-qt< not in package-all.txt file
+Write to package-all.txt file: 2048-qt
+In package >2048-qt< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: 2048-qt
+[]
+Package-nr:3707 of 11000, Name:xorgxrdp-dbgsym
+Package >xorgxrdp< not in package-all.txt file
+Write to package-all.txt file: xorgxrdp
+In package >xorgxrdp< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: xorgxrdp
+[]
+Package-nr:3708 of 11000, Name:xfstt-dbgsym
+Package >xfstt< not in package-all.txt file
+Write to package-all.txt file: xfstt
+In package >xfstt< are these binaries: ['/usr/bin/xfstt']
+Real binaries:['/usr/bin/xfstt']
+Write to package-work.txt file: xfstt
+Write to package-binaries.txt file: ['/usr/bin/xfstt']
+['/usr/bin/xfstt']

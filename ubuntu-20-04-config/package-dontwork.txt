@@ -1319,3 +1319,5 @@ qtspeech5-examples
 python3-qutip
 python3-libmsiecf
 lua-mpack
+2048-qt
+xorgxrdp

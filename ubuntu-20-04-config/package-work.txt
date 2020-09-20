@@ -2428,3 +2428,4 @@ mpeg3-utils
 miri-sdr
 mmdb-bin
 musepack-tools
+xfstt

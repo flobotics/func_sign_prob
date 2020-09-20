@@ -3752,3 +3752,6 @@ mpeg3-utils
 miri-sdr
 mmdb-bin
 musepack-tools
+2048-qt
+xorgxrdp
+xfstt
