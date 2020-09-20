@@ -2594,3 +2594,4 @@ x86info
 xdiskusage
 xdu
 xmms2-core
+xmms2-client-avahi

@@ -7651,3 +7651,5 @@
 /usr/bin/xdu
 /usr/bin/xmms2-launcher
 /usr/bin/xmms2d
+/usr/bin/xmms2-find-avahi
+/usr/bin/xmms2-mdns-avahi

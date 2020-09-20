@@ -3975,3 +3975,4 @@ xdiskusage
 xboard
 xdu
 xmms2-core
+xmms2-client-avahi
