@@ -3005,3 +3005,5 @@ cmigemo
 conspy
 coinor-libosi1v5
 cdck
+creduce
+codelite

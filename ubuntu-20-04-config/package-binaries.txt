@@ -5939,3 +5939,5 @@
 /usr/bin/cmigemo
 /usr/bin/conspy
 /usr/bin/cdck
+/usr/bin/codelite
+/usr/bin/codelite-make

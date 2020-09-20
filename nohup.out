@@ -14223,3 +14223,20 @@ Real binaries:['/usr/bin/cdck']
 Write to package-work.txt file: cdck
 Write to package-binaries.txt file: ['/usr/bin/cdck']
 ['/usr/bin/cdck']
+Write pickle file
+tar_out:
+Package-nr:2914 of 11000, Name:creduce-dbgsym
+Package >creduce< not in package-all.txt file
+Write to package-all.txt file: creduce
+In package >creduce< are these binaries: ['/usr/bin/creduce']
+Real binaries:[]
+Write to package-dontwork.txt file: creduce
+[]
+Package-nr:2915 of 11000, Name:codelite-dbgsym
+Package >codelite< not in package-all.txt file
+Write to package-all.txt file: codelite
+In package >codelite< are these binaries: ['/usr/bin/codelite', '/usr/bin/codelite-make', '/usr/bin/codelite_fix_files']
+Real binaries:['/usr/bin/codelite', '/usr/bin/codelite-make']
+Write to package-work.txt file: codelite
+Write to package-binaries.txt file: ['/usr/bin/codelite', '/usr/bin/codelite-make']
+['/usr/bin/codelite', '/usr/bin/codelite-make']
