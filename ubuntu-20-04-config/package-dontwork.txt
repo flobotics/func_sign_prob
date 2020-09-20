@@ -1017,3 +1017,4 @@ colord-tests
 crtmpserver-libs
 crtmpserver-apps
 csladspa
+python3-libcegui-mk2-0.8.7
