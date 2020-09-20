@@ -3660,3 +3660,7 @@ qgis-provider-grass
 qgis-server
 qgis-providers
 qsynth
+qtscript5-examples
+qtsvg5-examples
+qemu-system-x86-xen
+qemu-user-static

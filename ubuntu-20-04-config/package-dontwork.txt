@@ -1284,3 +1284,5 @@ qml-module-qtgstreamer
 python3-qgis
 qgis-provider-grass
 qgis-providers
+qtscript5-examples
+qtsvg5-examples

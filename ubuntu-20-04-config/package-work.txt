@@ -2371,3 +2371,5 @@ qrisk2
 qtpass
 qgis-server
 qsynth
+qemu-system-x86-xen
+qemu-user-static

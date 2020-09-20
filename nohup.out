@@ -20016,3 +20016,35 @@ Real binaries:['/usr/bin/qsynth']
 Write to package-work.txt file: qsynth
 Write to package-binaries.txt file: ['/usr/bin/qsynth']
 ['/usr/bin/qsynth']
+Write pickle file
+tar_out:
+Package-nr:3612 of 11000, Name:qtscript5-examples-dbgsym
+Package >qtscript5-examples< not in package-all.txt file
+Write to package-all.txt file: qtscript5-examples
+In package >qtscript5-examples< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: qtscript5-examples
+[]
+Package-nr:3613 of 11000, Name:qtsvg5-examples-dbgsym
+Package >qtsvg5-examples< not in package-all.txt file
+Write to package-all.txt file: qtsvg5-examples
+In package >qtsvg5-examples< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: qtsvg5-examples
+[]
+Package-nr:3614 of 11000, Name:qemu-system-x86-xen-dbgsym
+Package >qemu-system-x86-xen< not in package-all.txt file
+Write to package-all.txt file: qemu-system-x86-xen
+In package >qemu-system-x86-xen< are these binaries: ['/usr/bin/qemu-system-i386', '/usr/bin/qemu-system-x86_64']
+Real binaries:['/usr/bin/qemu-system-i386', '/usr/bin/qemu-system-x86_64']
+Write to package-work.txt file: qemu-system-x86-xen
+No binaries to write to package-binaries.txt file
+[]
+Package-nr:3615 of 11000, Name:qemu-user-static-dbgsym
+Package >qemu-user-static< not in package-all.txt file
+Write to package-all.txt file: qemu-user-static
+In package >qemu-user-static< are these binaries: ['/usr/bin/qemu-aarch64-static', '/usr/bin/qemu-aarch64_be-static', '/usr/bin/qemu-alpha-static', '/usr/bin/qemu-arm-static', '/usr/bin/qemu-armeb-static', '/usr/bin/qemu-cris-static', '/usr/bin/qemu-hppa-static', '/usr/bin/qemu-i386-static', '/usr/bin/qemu-m68k-static', '/usr/bin/qemu-microblaze-static', '/usr/bin/qemu-microblazeel-static', '/usr/bin/qemu-mips-static', '/usr/bin/qemu-mips64-static', '/usr/bin/qemu-mips64el-static', '/usr/bin/qemu-mipsel-static', '/usr/bin/qemu-mipsn32-static', '/usr/bin/qemu-mipsn32el-static', '/usr/bin/qemu-nios2-static', '/usr/bin/qemu-or1k-static', '/usr/bin/qemu-ppc-static', '/usr/bin/qemu-ppc64-static', '/usr/bin/qemu-ppc64abi32-static', '/usr/bin/qemu-ppc64le-static', '/usr/bin/qemu-riscv32-static', '/usr/bin/qemu-riscv64-static', '/usr/bin/qemu-s390x-static', '/usr/bin/qemu-sh4-static', '/usr/bin/qemu-sh4eb-static', '/usr/bin/qemu-sparc-static', '/usr/bin/qemu-sparc32plus-static', '/usr/bin/qemu-sparc64-static', '/usr/bin/qemu-tilegx-static', '/usr/bin/qemu-x86_64-static', '/usr/bin/qemu-xtensa-static', '/usr/bin/qemu-xtensaeb-static', '/usr/sbin/qemu-debootstrap', '/usr/share/binfmts/qemu-aarch64', '/usr/share/binfmts/qemu-alpha', '/usr/share/binfmts/qemu-arm', '/usr/share/binfmts/qemu-armeb', '/usr/share/binfmts/qemu-cris', '/usr/share/binfmts/qemu-hppa', '/usr/share/binfmts/qemu-m68k', '/usr/share/binfmts/qemu-microblaze', '/usr/share/binfmts/qemu-mips', '/usr/share/binfmts/qemu-mips64', '/usr/share/binfmts/qemu-mips64el', '/usr/share/binfmts/qemu-mipsel', '/usr/share/binfmts/qemu-mipsn32', '/usr/share/binfmts/qemu-mipsn32el', '/usr/share/binfmts/qemu-ppc', '/usr/share/binfmts/qemu-ppc64', '/usr/share/binfmts/qemu-ppc64abi32', '/usr/share/binfmts/qemu-ppc64le', '/usr/share/binfmts/qemu-riscv32', '/usr/share/binfmts/qemu-riscv64', '/usr/share/binfmts/qemu-s390x', '/usr/share/binfmts/qemu-sh4', '/usr/share/binfmts/qemu-sh4eb', '/usr/share/binfmts/qemu-sparc', '/usr/share/binfmts/qemu-sparc32plus', '/usr/share/binfmts/qemu-sparc64', '/usr/share/binfmts/qemu-xtensa', '/usr/share/binfmts/qemu-xtensaeb']
+Real binaries:['/usr/bin/qemu-aarch64-static', '/usr/bin/qemu-aarch64_be-static', '/usr/bin/qemu-alpha-static', '/usr/bin/qemu-arm-static', '/usr/bin/qemu-armeb-static', '/usr/bin/qemu-cris-static', '/usr/bin/qemu-hppa-static', '/usr/bin/qemu-i386-static', '/usr/bin/qemu-m68k-static', '/usr/bin/qemu-microblaze-static', '/usr/bin/qemu-microblazeel-static', '/usr/bin/qemu-mips-static', '/usr/bin/qemu-mips64-static', '/usr/bin/qemu-mips64el-static', '/usr/bin/qemu-mipsel-static', '/usr/bin/qemu-mipsn32-static', '/usr/bin/qemu-mipsn32el-static', '/usr/bin/qemu-nios2-static', '/usr/bin/qemu-or1k-static', '/usr/bin/qemu-ppc-static', '/usr/bin/qemu-ppc64-static', '/usr/bin/qemu-ppc64abi32-static', '/usr/bin/qemu-ppc64le-static', '/usr/bin/qemu-riscv32-static', '/usr/bin/qemu-riscv64-static', '/usr/bin/qemu-s390x-static', '/usr/bin/qemu-sh4-static', '/usr/bin/qemu-sh4eb-static', '/usr/bin/qemu-sparc-static', '/usr/bin/qemu-sparc32plus-static', '/usr/bin/qemu-sparc64-static', '/usr/bin/qemu-tilegx-static', '/usr/bin/qemu-x86_64-static', '/usr/bin/qemu-xtensa-static', '/usr/bin/qemu-xtensaeb-static']
+Write to package-work.txt file: qemu-user-static
+Write to package-binaries.txt file: ['/usr/bin/qemu-aarch64-static', '/usr/bin/qemu-aarch64_be-static', '/usr/bin/qemu-alpha-static', '/usr/bin/qemu-arm-static', '/usr/bin/qemu-armeb-static', '/usr/bin/qemu-cris-static', '/usr/bin/qemu-hppa-static', '/usr/bin/qemu-i386-static', '/usr/bin/qemu-m68k-static', '/usr/bin/qemu-microblaze-static', '/usr/bin/qemu-microblazeel-static', '/usr/bin/qemu-mips-static', '/usr/bin/qemu-mips64-static', '/usr/bin/qemu-mips64el-static', '/usr/bin/qemu-mipsel-static', '/usr/bin/qemu-mipsn32-static', '/usr/bin/qemu-mipsn32el-static', '/usr/bin/qemu-nios2-static', '/usr/bin/qemu-or1k-static', '/usr/bin/qemu-ppc-static', '/usr/bin/qemu-ppc64-static', '/usr/bin/qemu-ppc64abi32-static', '/usr/bin/qemu-ppc64le-static', '/usr/bin/qemu-riscv32-static', '/usr/bin/qemu-riscv64-static', '/usr/bin/qemu-s390x-static', '/usr/bin/qemu-sh4-static', '/usr/bin/qemu-sh4eb-static', '/usr/bin/qemu-sparc-static', '/usr/bin/qemu-sparc32plus-static', '/usr/bin/qemu-sparc64-static', '/usr/bin/qemu-tilegx-static', '/usr/bin/qemu-x86_64-static', '/usr/bin/qemu-xtensa-static', '/usr/bin/qemu-xtensaeb-static']
+['/usr/bin/qemu-aarch64-static', '/usr/bin/qemu-aarch64_be-static', '/usr/bin/qemu-alpha-static', '/usr/bin/qemu-arm-static', '/usr/bin/qemu-armeb-static', '/usr/bin/qemu-cris-static', '/usr/bin/qemu-hppa-static', '/usr/bin/qemu-i386-static', '/usr/bin/qemu-m68k-static', '/usr/bin/qemu-microblaze-static', '/usr/bin/qemu-microblazeel-static', '/usr/bin/qemu-mips-static', '/usr/bin/qemu-mips64-static', '/usr/bin/qemu-mips64el-static', '/usr/bin/qemu-mipsel-static', '/usr/bin/qemu-mipsn32-static', '/usr/bin/qemu-mipsn32el-static', '/usr/bin/qemu-nios2-static', '/usr/bin/qemu-or1k-static', '/usr/bin/qemu-ppc-static', '/usr/bin/qemu-ppc64-static', '/usr/bin/qemu-ppc64abi32-static', '/usr/bin/qemu-ppc64le-static', '/usr/bin/qemu-riscv32-static', '/usr/bin/qemu-riscv64-static', '/usr/bin/qemu-s390x-static', '/usr/bin/qemu-sh4-static', '/usr/bin/qemu-sh4eb-static', '/usr/bin/qemu-sparc-static', '/usr/bin/qemu-sparc32plus-static', '/usr/bin/qemu-sparc64-static', '/usr/bin/qemu-tilegx-static', '/usr/bin/qemu-x86_64-static', '/usr/bin/qemu-xtensa-static', '/usr/bin/qemu-xtensaeb-static']
