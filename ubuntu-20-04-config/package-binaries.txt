@@ -6469,3 +6469,8 @@
 /usr/sbin/cf-runagent
 /usr/sbin/cf-serverd
 /usr/sbin/cf-upgrade
+/usr/bin/cannacheck
+/usr/bin/cannastat
+/usr/bin/catdic
+/usr/bin/chkconc
+/usr/bin/cshost

@@ -3314,3 +3314,4 @@ corosync-qdevice
 capnproto
 cryptcat
 cfengine3
+canna-utils

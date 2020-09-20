@@ -16897,3 +16897,16 @@ Real binaries:['/usr/sbin/cf-agent', '/usr/sbin/cf-check', '/usr/sbin/cf-execd',
 Write to package-work.txt file: cfengine3
 Write to package-binaries.txt file: ['/usr/sbin/cf-agent', '/usr/sbin/cf-check', '/usr/sbin/cf-execd', '/usr/sbin/cf-key', '/usr/sbin/cf-monitord', '/usr/sbin/cf-net', '/usr/sbin/cf-promises', '/usr/sbin/cf-runagent', '/usr/sbin/cf-serverd', '/usr/sbin/cf-upgrade']
 ['/usr/sbin/cf-agent', '/usr/sbin/cf-check', '/usr/sbin/cf-execd', '/usr/sbin/cf-key', '/usr/sbin/cf-monitord', '/usr/sbin/cf-net', '/usr/sbin/cf-promises', '/usr/sbin/cf-runagent', '/usr/sbin/cf-serverd', '/usr/sbin/cf-upgrade']
+Write pickle file
+tar_out:
+Package-nr:3244 of 11000, Name:canna-dbgsym
+Skip package >canna<, already in package-all.txt file
+[]
+Package-nr:3245 of 11000, Name:canna-utils-dbgsym
+Package >canna-utils< not in package-all.txt file
+Write to package-all.txt file: canna-utils
+In package >canna-utils< are these binaries: ['/usr/bin/cannacheck', '/usr/bin/cannastat', '/usr/bin/catdic', '/usr/bin/chkconc', '/usr/bin/cshost', '/usr/bin/mkromdic', '/usr/bin/addwords', '/usr/bin/chmoddic', '/usr/bin/cpdic', '/usr/bin/delwords', '/usr/bin/lsdic', '/usr/bin/mkdic', '/usr/bin/mvdic', '/usr/bin/rmdic']
+Real binaries:['/usr/bin/cannacheck', '/usr/bin/cannastat', '/usr/bin/catdic', '/usr/bin/chkconc', '/usr/bin/cshost']
+Write to package-work.txt file: canna-utils
+Write to package-binaries.txt file: ['/usr/bin/cannacheck', '/usr/bin/cannastat', '/usr/bin/catdic', '/usr/bin/chkconc', '/usr/bin/cshost']
+['/usr/bin/cannacheck', '/usr/bin/cannastat', '/usr/bin/catdic', '/usr/bin/chkconc', '/usr/bin/cshost']
