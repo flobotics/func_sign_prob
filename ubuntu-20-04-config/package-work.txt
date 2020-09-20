@@ -2115,3 +2115,4 @@ critterding
 cbatticon
 clsync
 clzip
+cargo

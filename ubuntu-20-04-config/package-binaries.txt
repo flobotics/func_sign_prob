@@ -6400,3 +6400,4 @@
 /usr/bin/cbatticon
 /usr/bin/clsync
 /usr/bin/lzip.clzip
+/usr/bin/cargo
