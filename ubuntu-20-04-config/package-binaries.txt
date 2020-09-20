@@ -5659,3 +5659,4 @@
 /usr/bin/cst
 /usr/bin/srktool
 /usr/sbin/ifmetric
+/usr/bin/isoqlog
