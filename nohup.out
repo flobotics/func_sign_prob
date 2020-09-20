@@ -16172,3 +16172,13 @@ Real binaries:['/usr/bin/crm', '/usr/bin/cssdiff', '/usr/bin/cssmerge', '/usr/bi
 Write to package-work.txt file: crm114
 Write to package-binaries.txt file: ['/usr/bin/crm', '/usr/bin/cssdiff', '/usr/bin/cssmerge', '/usr/bin/cssutil', '/usr/bin/osbf-util']
 ['/usr/bin/crm', '/usr/bin/cssdiff', '/usr/bin/cssmerge', '/usr/bin/cssutil', '/usr/bin/osbf-util']
+Write pickle file
+tar_out:
+Package-nr:3157 of 11000, Name:coinor-clp-dbgsym
+Package >coinor-clp< not in package-all.txt file
+Write to package-all.txt file: coinor-clp
+In package >coinor-clp< are these binaries: ['/usr/bin/clp']
+Real binaries:['/usr/bin/clp']
+Write to package-work.txt file: coinor-clp
+Write to package-binaries.txt file: ['/usr/bin/clp']
+['/usr/bin/clp']

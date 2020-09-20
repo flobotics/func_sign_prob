@@ -2106,3 +2106,4 @@ cccc
 cvc4
 cruft-ng
 crm114
+coinor-clp
