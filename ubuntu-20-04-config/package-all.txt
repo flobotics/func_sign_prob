@@ -3630,3 +3630,5 @@ qtgamepad5-examples
 qtltools
 qbrew
 q4wine
+quisk
+qtop

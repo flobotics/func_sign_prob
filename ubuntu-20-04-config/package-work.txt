@@ -2357,3 +2357,4 @@ qtox
 qtltools
 qbrew
 q4wine
+qtop
