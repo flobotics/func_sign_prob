@@ -22632,3 +22632,13 @@ Real binaries:['/usr/bin/xfce4-clipman', '/usr/bin/xfce4-clipman-settings', '/us
 Write to package-work.txt file: xfce4-clipman
 Write to package-binaries.txt file: ['/usr/bin/xfce4-clipman', '/usr/bin/xfce4-clipman-settings', '/usr/bin/xfce4-popup-clipman']
 ['/usr/bin/xfce4-clipman', '/usr/bin/xfce4-clipman-settings', '/usr/bin/xfce4-popup-clipman']
+Write pickle file
+tar_out:
+Package-nr:3916 of 11000, Name:xmlroff-dbgsym
+Package >xmlroff< not in package-all.txt file
+Write to package-all.txt file: xmlroff
+In package >xmlroff< are these binaries: ['/usr/bin/xmlroff']
+Real binaries:['/usr/bin/xmlroff']
+Write to package-work.txt file: xmlroff
+Write to package-binaries.txt file: ['/usr/bin/xmlroff']
+['/usr/bin/xmlroff']
