@@ -6966,3 +6966,4 @@
 /usr/lib/cyrus/bin/sync_client
 /usr/lib/cyrus/bin/sync_reset
 /usr/lib/cyrus/bin/sync_server
+/usr/lib/cyrus/bin/imtest

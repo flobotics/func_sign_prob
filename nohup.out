@@ -18705,3 +18705,13 @@ Real binaries:['/usr/lib/cyrus/bin/cyr_synclog', '/usr/lib/cyrus/bin/sync_client
 Write to package-work.txt file: cyrus-replication
 Write to package-binaries.txt file: ['/usr/lib/cyrus/bin/cyr_synclog', '/usr/lib/cyrus/bin/sync_client', '/usr/lib/cyrus/bin/sync_reset', '/usr/lib/cyrus/bin/sync_server']
 ['/usr/lib/cyrus/bin/cyr_synclog', '/usr/lib/cyrus/bin/sync_client', '/usr/lib/cyrus/bin/sync_reset', '/usr/lib/cyrus/bin/sync_server']
+Write pickle file
+tar_out:
+Package-nr:3450 of 11000, Name:cyrus-clients-dbgsym
+Package >cyrus-clients< not in package-all.txt file
+Write to package-all.txt file: cyrus-clients
+In package >cyrus-clients< are these binaries: ['/usr/lib/cyrus/bin/imtest', '/usr/lib/cyrus/bin/httptest', '/usr/lib/cyrus/bin/lmtptest', '/usr/lib/cyrus/bin/nntptest', '/usr/lib/cyrus/bin/pop3test', '/usr/lib/cyrus/bin/sivtest', '/usr/lib/cyrus/bin/smtptest', '/usr/lib/cyrus/bin/synctest']
+Real binaries:['/usr/lib/cyrus/bin/imtest']
+Write to package-work.txt file: cyrus-clients
+Write to package-binaries.txt file: ['/usr/lib/cyrus/bin/imtest']
+['/usr/lib/cyrus/bin/imtest']
