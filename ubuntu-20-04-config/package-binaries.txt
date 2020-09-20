@@ -5845,3 +5845,4 @@
 /usr/bin/intel_watermark
 /usr/bin/lsgpu
 /usr/sbin/inputlircd
+/usr/sbin/ident2
