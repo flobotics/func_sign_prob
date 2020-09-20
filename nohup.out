@@ -19299,3 +19299,13 @@ Real binaries:['/usr/bin/qmidinet']
 Write to package-work.txt file: qmidinet
 Write to package-binaries.txt file: ['/usr/bin/qmidinet']
 ['/usr/bin/qmidinet']
+Write pickle file
+tar_out:
+Package-nr:3522 of 11000, Name:qasmixer-dbgsym
+Package >qasmixer< not in package-all.txt file
+Write to package-all.txt file: qasmixer
+In package >qasmixer< are these binaries: ['/usr/bin/qasmixer']
+Real binaries:['/usr/bin/qasmixer']
+Write to package-work.txt file: qasmixer
+Write to package-binaries.txt file: ['/usr/bin/qasmixer']
+['/usr/bin/qasmixer']

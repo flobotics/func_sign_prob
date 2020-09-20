@@ -7023,3 +7023,4 @@
 /usr/bin/zlib-flate
 /usr/bin/esolver
 /usr/bin/qmidinet
+/usr/bin/qasmixer
