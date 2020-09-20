@@ -7279,3 +7279,9 @@
 /usr/bin/pfc
 /usr/sbin/xl2tpd
 /usr/sbin/xl2tpd-control
+/usr/bin/file65
+/usr/bin/ldo65
+/usr/bin/printcbm
+/usr/bin/reloc65
+/usr/bin/uncpk
+/usr/bin/xa
