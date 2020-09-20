@@ -6190,3 +6190,4 @@
 /usr/bin/csv2latex
 /usr/bin/crashme
 /usr/bin/pddet
+/usr/bin/confget

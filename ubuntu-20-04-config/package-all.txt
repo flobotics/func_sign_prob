@@ -3192,3 +3192,5 @@ ccls
 caribou
 csv2latex
 crashme
+python3-pbconsensuscore
+confget

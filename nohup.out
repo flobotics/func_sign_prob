@@ -15829,3 +15829,20 @@ Real binaries:['/usr/bin/crashme', '/usr/bin/pddet']
 Write to package-work.txt file: crashme
 Write to package-binaries.txt file: ['/usr/bin/crashme', '/usr/bin/pddet']
 ['/usr/bin/crashme', '/usr/bin/pddet']
+Write pickle file
+tar_out:
+Package-nr:3117 of 11000, Name:python3-pbconsensuscore-dbgsym
+Package >python3-pbconsensuscore< not in package-all.txt file
+Write to package-all.txt file: python3-pbconsensuscore
+In package >python3-pbconsensuscore< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: python3-pbconsensuscore
+[]
+Package-nr:3118 of 11000, Name:confget-dbgsym
+Package >confget< not in package-all.txt file
+Write to package-all.txt file: confget
+In package >confget< are these binaries: ['/usr/bin/confget']
+Real binaries:['/usr/bin/confget']
+Write to package-work.txt file: confget
+Write to package-binaries.txt file: ['/usr/bin/confget']
+['/usr/bin/confget']

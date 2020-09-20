@@ -1106,3 +1106,4 @@ courier-webadmin
 courier-pop
 courier-pcp
 caribou
+python3-pbconsensuscore

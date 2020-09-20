@@ -2081,3 +2081,4 @@ courier-ldap
 ccls
 csv2latex
 crashme
+confget
