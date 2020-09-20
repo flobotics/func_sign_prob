@@ -6427,3 +6427,6 @@
 /usr/bin/c-icap-client
 /usr/bin/c-icap-mkbdb
 /usr/bin/c-icap-stretch
+/usr/bin/cxref
+/usr/bin/cxref-cpp.upstream
+/usr/bin/cxref-query

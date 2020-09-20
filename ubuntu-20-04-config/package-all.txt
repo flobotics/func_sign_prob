@@ -3290,3 +3290,4 @@ cantor-backend-octave
 cantor-backend-scilab
 cantor-backend-julia
 c-icap
+cxref
