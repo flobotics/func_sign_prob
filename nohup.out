@@ -21551,3 +21551,13 @@ Real binaries:['/usr/bin/xmedcon']
 Write to package-work.txt file: xmedcon
 Write to package-binaries.txt file: ['/usr/bin/xmedcon']
 ['/usr/bin/xmedcon']
+Write pickle file
+tar_out:
+Package-nr:3790 of 11000, Name:xmlrpc-api-utils-dbgsym
+Package >xmlrpc-api-utils< not in package-all.txt file
+Write to package-all.txt file: xmlrpc-api-utils
+In package >xmlrpc-api-utils< are these binaries: ['/usr/bin/xml-rpc-api2cpp', '/usr/bin/xml-rpc-api2txt']
+Real binaries:['/usr/bin/xml-rpc-api2cpp']
+Write to package-work.txt file: xmlrpc-api-utils
+Write to package-binaries.txt file: ['/usr/bin/xml-rpc-api2cpp']
+['/usr/bin/xml-rpc-api2cpp']
