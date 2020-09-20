@@ -6188,3 +6188,5 @@
 /usr/sbin/courierldapaliasd
 /usr/bin/ccls
 /usr/bin/csv2latex
+/usr/bin/crashme
+/usr/bin/pddet

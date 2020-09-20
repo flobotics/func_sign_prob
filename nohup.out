@@ -15819,3 +15819,13 @@ Real binaries:['/usr/bin/csv2latex']
 Write to package-work.txt file: csv2latex
 Write to package-binaries.txt file: ['/usr/bin/csv2latex']
 ['/usr/bin/csv2latex']
+Write pickle file
+tar_out:
+Package-nr:3116 of 11000, Name:crashme-dbgsym
+Package >crashme< not in package-all.txt file
+Write to package-all.txt file: crashme
+In package >crashme< are these binaries: ['/usr/bin/crashme', '/usr/bin/pddet']
+Real binaries:['/usr/bin/crashme', '/usr/bin/pddet']
+Write to package-work.txt file: crashme
+Write to package-binaries.txt file: ['/usr/bin/crashme', '/usr/bin/pddet']
+['/usr/bin/crashme', '/usr/bin/pddet']
