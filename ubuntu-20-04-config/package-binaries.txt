@@ -7420,3 +7420,4 @@
 /usr/bin/dump_xsettings
 /usr/bin/xsettingsd
 /usr/bin/xsel
+/usr/bin/xmakemol

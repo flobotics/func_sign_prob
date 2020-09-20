@@ -2518,3 +2518,4 @@ xml-security-c-utils
 xringd
 xsettingsd
 xsel
+xmakemol-gl

@@ -3874,3 +3874,4 @@ xmahjongg
 xringd
 xsettingsd
 xsel
+xmakemol-gl
