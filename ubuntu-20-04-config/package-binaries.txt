@@ -5665,3 +5665,4 @@
 /usr/sbin/ftpd
 /usr/bin/inetutils-telnet
 /usr/bin/inetutils-talk
+/usr/sbin/syslogd

@@ -1909,3 +1909,4 @@ inetutils-inetd
 inetutils-ftpd
 inetutils-telnet
 inetutils-talk
+inetutils-syslogd
