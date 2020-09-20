@@ -23195,3 +23195,20 @@ Real binaries:['/usr/bin/xbacklight']
 Write to package-work.txt file: xbacklight
 Write to package-binaries.txt file: ['/usr/bin/xbacklight']
 ['/usr/bin/xbacklight']
+Write pickle file
+tar_out:
+Package-nr:3981 of 11000, Name:xcowsay-dbgsym
+Package >xcowsay< not in package-all.txt file
+Write to package-all.txt file: xcowsay
+In package >xcowsay< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: xcowsay
+[]
+Package-nr:3982 of 11000, Name:xfce4-settings-dbgsym
+Package >xfce4-settings< not in package-all.txt file
+Write to package-all.txt file: xfce4-settings
+In package >xfce4-settings< are these binaries: ['/usr/bin/xfce4-accessibility-settings', '/usr/bin/xfce4-appearance-settings', '/usr/bin/xfce4-color-settings', '/usr/bin/xfce4-display-settings', '/usr/bin/xfce4-find-cursor', '/usr/bin/xfce4-keyboard-settings', '/usr/bin/xfce4-mime-settings', '/usr/bin/xfce4-mouse-settings', '/usr/bin/xfce4-settings-editor', '/usr/bin/xfce4-settings-manager', '/usr/bin/xfsettingsd']
+Real binaries:['/usr/bin/xfce4-accessibility-settings', '/usr/bin/xfce4-appearance-settings', '/usr/bin/xfce4-color-settings', '/usr/bin/xfce4-display-settings', '/usr/bin/xfce4-find-cursor', '/usr/bin/xfce4-keyboard-settings', '/usr/bin/xfce4-mime-settings', '/usr/bin/xfce4-mouse-settings', '/usr/bin/xfce4-settings-editor', '/usr/bin/xfce4-settings-manager', '/usr/bin/xfsettingsd']
+Write to package-work.txt file: xfce4-settings
+Write to package-binaries.txt file: ['/usr/bin/xfce4-accessibility-settings', '/usr/bin/xfce4-appearance-settings', '/usr/bin/xfce4-color-settings', '/usr/bin/xfce4-display-settings', '/usr/bin/xfce4-find-cursor', '/usr/bin/xfce4-keyboard-settings', '/usr/bin/xfce4-mime-settings', '/usr/bin/xfce4-mouse-settings', '/usr/bin/xfce4-settings-editor', '/usr/bin/xfce4-settings-manager', '/usr/bin/xfsettingsd']
+['/usr/bin/xfce4-accessibility-settings', '/usr/bin/xfce4-appearance-settings', '/usr/bin/xfce4-color-settings', '/usr/bin/xfce4-display-settings', '/usr/bin/xfce4-find-cursor', '/usr/bin/xfce4-keyboard-settings', '/usr/bin/xfce4-mime-settings', '/usr/bin/xfce4-mouse-settings', '/usr/bin/xfce4-settings-editor', '/usr/bin/xfce4-settings-manager', '/usr/bin/xfsettingsd']

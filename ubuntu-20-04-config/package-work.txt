@@ -2613,3 +2613,4 @@ x2vnc
 xtrace
 xidle
 xbacklight
+xfce4-settings

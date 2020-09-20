@@ -7675,3 +7675,14 @@
 /usr/bin/xtrace
 /usr/bin/xidle
 /usr/bin/xbacklight
+/usr/bin/xfce4-accessibility-settings
+/usr/bin/xfce4-appearance-settings
+/usr/bin/xfce4-color-settings
+/usr/bin/xfce4-display-settings
+/usr/bin/xfce4-find-cursor
+/usr/bin/xfce4-keyboard-settings
+/usr/bin/xfce4-mime-settings
+/usr/bin/xfce4-mouse-settings
+/usr/bin/xfce4-settings-editor
+/usr/bin/xfce4-settings-manager
+/usr/bin/xfsettingsd
