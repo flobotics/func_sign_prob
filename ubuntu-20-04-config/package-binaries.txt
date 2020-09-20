@@ -5914,3 +5914,4 @@
 /usr/bin/ccx
 /usr/sbin/cwdaemon
 /usr/sbin/corosync-notifyd
+/usr/bin/corosync-vqsim

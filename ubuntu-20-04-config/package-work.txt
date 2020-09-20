@@ -1972,3 +1972,4 @@ concavity
 calculix-ccx
 cwdaemon
 corosync-notifyd
+corosync-vqsim
