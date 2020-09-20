@@ -1973,3 +1973,4 @@ calculix-ccx
 cwdaemon
 corosync-notifyd
 corosync-vqsim
+ctpp2-utils

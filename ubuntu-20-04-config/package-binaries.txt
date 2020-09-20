@@ -5915,3 +5915,7 @@
 /usr/sbin/cwdaemon
 /usr/sbin/corosync-notifyd
 /usr/bin/corosync-vqsim
+/usr/bin/ctpp2c
+/usr/bin/ctpp2i
+/usr/bin/ctpp2json
+/usr/bin/ctpp2vm
