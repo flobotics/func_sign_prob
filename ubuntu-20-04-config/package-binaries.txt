@@ -7149,3 +7149,4 @@
 /usr/bin/qjoypad
 /usr/bin/qnapi
 /usr/bin/qsampler
+/usr/bin/qmmp
