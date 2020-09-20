@@ -2048,3 +2048,4 @@ cliquer
 cadaver
 codonw
 cdde
+cpulimit
