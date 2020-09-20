@@ -3197,3 +3197,4 @@ confget
 caml2html
 catdoc
 coyim
+cpuinfo

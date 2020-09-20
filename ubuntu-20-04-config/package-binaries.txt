@@ -6196,3 +6196,7 @@
 /usr/bin/catppt
 /usr/bin/xls2csv
 /usr/bin/coyim
+/usr/bin/cache-info
+/usr/bin/cpu-info
+/usr/bin/cpuid-dump
+/usr/bin/isa-info
