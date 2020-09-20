@@ -17559,3 +17559,20 @@ Real binaries:['/usr/bin/allpairs_master', '/usr/bin/allpairs_multicore', '/usr/
 Write to package-work.txt file: coop-computing-tools
 Write to package-binaries.txt file: ['/usr/bin/allpairs_master', '/usr/bin/allpairs_multicore', '/usr/bin/catalog_query', '/usr/bin/catalog_server', '/usr/bin/catalog_update', '/usr/bin/chirp', '/usr/bin/chirp_benchmark', '/usr/bin/chirp_distribute', '/usr/bin/chirp_fuse', '/usr/bin/chirp_get', '/usr/bin/chirp_put', '/usr/bin/chirp_server', '/usr/bin/chirp_status', '/usr/bin/chirp_stream_files', '/usr/bin/confuga_adm', '/usr/bin/deltadb_query', '/usr/bin/deltadb_upgrade_log', '/usr/bin/disk_allocator', '/usr/bin/grow_fuse', '/usr/bin/jx2env', '/usr/bin/jx2json', '/usr/bin/makeflow', '/usr/bin/makeflow_analyze', '/usr/bin/makeflow_linker', '/usr/bin/makeflow_status', '/usr/bin/makeflow_viz', '/usr/bin/piggybacker', '/usr/bin/resource_monitor', '/usr/bin/resource_monitor_histograms', '/usr/bin/rmonitor_poll_example', '/usr/bin/rmonitor_snapshot', '/usr/bin/sand_align_kernel', '/usr/bin/sand_align_master', '/usr/bin/sand_compress_reads', '/usr/bin/sand_filter_kernel', '/usr/bin/sand_filter_master', '/usr/bin/sand_uncompress_reads', '/usr/bin/wavefront', '/usr/bin/wavefront_master', '/usr/bin/work_queue_example', '/usr/bin/work_queue_factory', '/usr/bin/work_queue_pool', '/usr/bin/work_queue_status', '/usr/bin/work_queue_worker']
 ['/usr/bin/allpairs_master', '/usr/bin/allpairs_multicore', '/usr/bin/catalog_query', '/usr/bin/catalog_server', '/usr/bin/catalog_update', '/usr/bin/chirp', '/usr/bin/chirp_benchmark', '/usr/bin/chirp_distribute', '/usr/bin/chirp_fuse', '/usr/bin/chirp_get', '/usr/bin/chirp_put', '/usr/bin/chirp_server', '/usr/bin/chirp_status', '/usr/bin/chirp_stream_files', '/usr/bin/confuga_adm', '/usr/bin/deltadb_query', '/usr/bin/deltadb_upgrade_log', '/usr/bin/disk_allocator', '/usr/bin/grow_fuse', '/usr/bin/jx2env', '/usr/bin/jx2json', '/usr/bin/makeflow', '/usr/bin/makeflow_analyze', '/usr/bin/makeflow_linker', '/usr/bin/makeflow_status', '/usr/bin/makeflow_viz', '/usr/bin/piggybacker', '/usr/bin/resource_monitor', '/usr/bin/resource_monitor_histograms', '/usr/bin/rmonitor_poll_example', '/usr/bin/rmonitor_snapshot', '/usr/bin/sand_align_kernel', '/usr/bin/sand_align_master', '/usr/bin/sand_compress_reads', '/usr/bin/sand_filter_kernel', '/usr/bin/sand_filter_master', '/usr/bin/sand_uncompress_reads', '/usr/bin/wavefront', '/usr/bin/wavefront_master', '/usr/bin/work_queue_example', '/usr/bin/work_queue_factory', '/usr/bin/work_queue_pool', '/usr/bin/work_queue_status', '/usr/bin/work_queue_worker']
+Write pickle file
+tar_out:
+Package-nr:3319 of 11000, Name:python3-workqueue-dbgsym
+Package >python3-workqueue< not in package-all.txt file
+Write to package-all.txt file: python3-workqueue
+In package >python3-workqueue< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: python3-workqueue
+[]
+Package-nr:3320 of 11000, Name:concordance-dbgsym
+Package >concordance< not in package-all.txt file
+Write to package-all.txt file: concordance
+In package >concordance< are these binaries: ['/usr/bin/concordance']
+Real binaries:['/usr/bin/concordance']
+Write to package-work.txt file: concordance
+Write to package-binaries.txt file: ['/usr/bin/concordance']
+['/usr/bin/concordance']
