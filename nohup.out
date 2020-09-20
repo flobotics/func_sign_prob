@@ -17949,3 +17949,20 @@ Real binaries:['/usr/bin/cproto']
 Write to package-work.txt file: cproto
 Write to package-binaries.txt file: ['/usr/bin/cproto']
 ['/usr/bin/cproto']
+Write pickle file
+tar_out:
+Package-nr:3363 of 11000, Name:chkrootkit-dbgsym
+Package >chkrootkit< not in package-all.txt file
+Write to package-all.txt file: chkrootkit
+In package >chkrootkit< are these binaries: ['/usr/sbin/chkrootkit', '/usr/sbin/chklastlog', '/usr/sbin/chkwtmp']
+Real binaries:[]
+Write to package-dontwork.txt file: chkrootkit
+[]
+Package-nr:3364 of 11000, Name:certmonger-dbgsym
+Package >certmonger< not in package-all.txt file
+Write to package-all.txt file: certmonger
+In package >certmonger< are these binaries: ['/usr/bin/certmaster-getcert', '/usr/bin/getcert', '/usr/bin/ipa-getcert', '/usr/bin/local-getcert', '/usr/bin/selfsign-getcert', '/usr/sbin/certmonger']
+Real binaries:['/usr/bin/certmaster-getcert', '/usr/bin/getcert', '/usr/bin/ipa-getcert', '/usr/bin/local-getcert', '/usr/bin/selfsign-getcert', '/usr/sbin/certmonger']
+Write to package-work.txt file: certmonger
+Write to package-binaries.txt file: ['/usr/bin/certmaster-getcert', '/usr/bin/getcert', '/usr/bin/ipa-getcert', '/usr/bin/local-getcert', '/usr/bin/selfsign-getcert', '/usr/sbin/certmonger']
+['/usr/bin/certmaster-getcert', '/usr/bin/getcert', '/usr/bin/ipa-getcert', '/usr/bin/local-getcert', '/usr/bin/selfsign-getcert', '/usr/sbin/certmonger']
