@@ -5975,3 +5975,4 @@
 /usr/bin/runlock
 /usr/bin/runstat
 /usr/bin/runalarm
+/usr/bin/sccs

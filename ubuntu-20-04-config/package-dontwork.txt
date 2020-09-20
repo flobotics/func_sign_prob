@@ -1068,3 +1068,5 @@ cairo-dock-rendering-plug-in
 cairo-dock-kde-integration-plug-in
 cenon.app
 connectagram
+caveexpress
+cavepacker

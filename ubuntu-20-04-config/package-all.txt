@@ -3084,3 +3084,6 @@ clonalframeml
 cairo-perf-utils
 connectagram
 cronutils
+caveexpress
+cavepacker
+cssc

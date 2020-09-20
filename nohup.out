@@ -14838,3 +14838,30 @@ Real binaries:['/usr/bin/runlock', '/usr/bin/runstat', '/usr/bin/runalarm']
 Write to package-work.txt file: cronutils
 Write to package-binaries.txt file: ['/usr/bin/runlock', '/usr/bin/runstat', '/usr/bin/runalarm']
 ['/usr/bin/runlock', '/usr/bin/runstat', '/usr/bin/runalarm']
+Write pickle file
+tar_out:
+Package-nr:2996 of 11000, Name:colorize-dbgsym
+Skip package >colorize<, already in package-all.txt file
+[]
+Package-nr:2997 of 11000, Name:caveexpress-dbgsym
+Package >caveexpress< not in package-all.txt file
+Write to package-all.txt file: caveexpress
+In package >caveexpress< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: caveexpress
+[]
+Package-nr:2998 of 11000, Name:cavepacker-dbgsym
+Package >cavepacker< not in package-all.txt file
+Write to package-all.txt file: cavepacker
+In package >cavepacker< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: cavepacker
+[]
+Package-nr:2999 of 11000, Name:cssc-dbgsym
+Package >cssc< not in package-all.txt file
+Write to package-all.txt file: cssc
+In package >cssc< are these binaries: ['/usr/bin/sccs', '/usr/lib/cgi-bin/sccs.cgi']
+Real binaries:['/usr/bin/sccs']
+Write to package-work.txt file: cssc
+Write to package-binaries.txt file: ['/usr/bin/sccs']
+['/usr/bin/sccs']
