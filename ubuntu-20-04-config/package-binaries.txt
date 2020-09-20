@@ -7298,3 +7298,4 @@
 /usr/bin/xfburn
 /usr/bin/xdm
 /usr/bin/tex2xindy
+/usr/bin/xssproxy
