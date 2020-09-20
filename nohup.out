@@ -14445,3 +14445,352 @@ Real binaries:['/usr/bin/cpu-x']
 Write to package-work.txt file: cpu-x
 Write to package-binaries.txt file: ['/usr/bin/cpu-x']
 ['/usr/bin/cpu-x']
+Write pickle file
+tar_out:
+Package-nr:2941 of 11000, Name:cpdb-backend-gcp-dbgsym
+Package >cpdb-backend-gcp< not in package-all.txt file
+Write to package-all.txt file: cpdb-backend-gcp
+In package >cpdb-backend-gcp< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: cpdb-backend-gcp
+[]
+Package-nr:2942 of 11000, Name:cdebconf-gtk-dbgsym
+Package >cdebconf-gtk< not in package-all.txt file
+Write to package-all.txt file: cdebconf-gtk
+In package >cdebconf-gtk< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: cdebconf-gtk
+[]
+Package-nr:2943 of 11000, Name:cairo-dock-dbus-plug-in-interface-vala-dbgsym
+Package >cairo-dock-dbus-plug-in-interface-vala< not in package-all.txt file
+Write to package-all.txt file: cairo-dock-dbus-plug-in-interface-vala
+In package >cairo-dock-dbus-plug-in-interface-vala< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: cairo-dock-dbus-plug-in-interface-vala
+[]
+Package-nr:2944 of 11000, Name:cairo-dock-toons-plug-in-dbgsym
+Package >cairo-dock-toons-plug-in< not in package-all.txt file
+Write to package-all.txt file: cairo-dock-toons-plug-in
+In package >cairo-dock-toons-plug-in< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: cairo-dock-toons-plug-in
+[]
+Package-nr:2945 of 11000, Name:cairo-dock-xfce-integration-plug-in-dbgsym
+Package >cairo-dock-xfce-integration-plug-in< not in package-all.txt file
+Write to package-all.txt file: cairo-dock-xfce-integration-plug-in
+In package >cairo-dock-xfce-integration-plug-in< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: cairo-dock-xfce-integration-plug-in
+[]
+Package-nr:2946 of 11000, Name:cairo-dock-gmenu-plug-in-dbgsym
+Package >cairo-dock-gmenu-plug-in< not in package-all.txt file
+Write to package-all.txt file: cairo-dock-gmenu-plug-in
+In package >cairo-dock-gmenu-plug-in< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: cairo-dock-gmenu-plug-in
+[]
+Package-nr:2947 of 11000, Name:cairo-dock-quick-browser-plug-in-dbgsym
+Package >cairo-dock-quick-browser-plug-in< not in package-all.txt file
+Write to package-all.txt file: cairo-dock-quick-browser-plug-in
+In package >cairo-dock-quick-browser-plug-in< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: cairo-dock-quick-browser-plug-in
+[]
+Package-nr:2948 of 11000, Name:cairo-dock-switcher-plug-in-dbgsym
+Package >cairo-dock-switcher-plug-in< not in package-all.txt file
+Write to package-all.txt file: cairo-dock-switcher-plug-in
+In package >cairo-dock-switcher-plug-in< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: cairo-dock-switcher-plug-in
+[]
+Package-nr:2949 of 11000, Name:cairo-dock-dnd2share-plug-in-dbgsym
+Package >cairo-dock-dnd2share-plug-in< not in package-all.txt file
+Write to package-all.txt file: cairo-dock-dnd2share-plug-in
+In package >cairo-dock-dnd2share-plug-in< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: cairo-dock-dnd2share-plug-in
+[]
+Package-nr:2950 of 11000, Name:cairo-dock-weather-plug-in-dbgsym
+Package >cairo-dock-weather-plug-in< not in package-all.txt file
+Write to package-all.txt file: cairo-dock-weather-plug-in
+In package >cairo-dock-weather-plug-in< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: cairo-dock-weather-plug-in
+[]
+Package-nr:2951 of 11000, Name:cairo-dock-dialog-rendering-plug-in-dbgsym
+Package >cairo-dock-dialog-rendering-plug-in< not in package-all.txt file
+Write to package-all.txt file: cairo-dock-dialog-rendering-plug-in
+In package >cairo-dock-dialog-rendering-plug-in< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: cairo-dock-dialog-rendering-plug-in
+[]
+Package-nr:2952 of 11000, Name:cairo-dock-stack-plug-in-dbgsym
+Package >cairo-dock-stack-plug-in< not in package-all.txt file
+Write to package-all.txt file: cairo-dock-stack-plug-in
+In package >cairo-dock-stack-plug-in< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: cairo-dock-stack-plug-in
+[]
+Package-nr:2953 of 11000, Name:cairo-dock-recent-events-plug-in-dbgsym
+Package >cairo-dock-recent-events-plug-in< not in package-all.txt file
+Write to package-all.txt file: cairo-dock-recent-events-plug-in
+In package >cairo-dock-recent-events-plug-in< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: cairo-dock-recent-events-plug-in
+[]
+Package-nr:2954 of 11000, Name:cairo-dock-tomboy-plug-in-dbgsym
+Package >cairo-dock-tomboy-plug-in< not in package-all.txt file
+Write to package-all.txt file: cairo-dock-tomboy-plug-in
+In package >cairo-dock-tomboy-plug-in< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: cairo-dock-tomboy-plug-in
+[]
+Package-nr:2955 of 11000, Name:cairo-dock-gnome-integration-plug-in-dbgsym
+Package >cairo-dock-gnome-integration-plug-in< not in package-all.txt file
+Write to package-all.txt file: cairo-dock-gnome-integration-plug-in
+In package >cairo-dock-gnome-integration-plug-in< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: cairo-dock-gnome-integration-plug-in
+[]
+Package-nr:2956 of 11000, Name:cairo-dock-showmouse-plug-in-dbgsym
+Package >cairo-dock-showmouse-plug-in< not in package-all.txt file
+Write to package-all.txt file: cairo-dock-showmouse-plug-in
+In package >cairo-dock-showmouse-plug-in< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: cairo-dock-showmouse-plug-in
+[]
+Package-nr:2957 of 11000, Name:cairo-dock-musicplayer-plug-in-dbgsym
+Package >cairo-dock-musicplayer-plug-in< not in package-all.txt file
+Write to package-all.txt file: cairo-dock-musicplayer-plug-in
+In package >cairo-dock-musicplayer-plug-in< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: cairo-dock-musicplayer-plug-in
+[]
+Package-nr:2958 of 11000, Name:cairo-dock-shortcuts-plug-in-dbgsym
+Package >cairo-dock-shortcuts-plug-in< not in package-all.txt file
+Write to package-all.txt file: cairo-dock-shortcuts-plug-in
+In package >cairo-dock-shortcuts-plug-in< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: cairo-dock-shortcuts-plug-in
+[]
+Package-nr:2959 of 11000, Name:cairo-dock-icon-effect-plug-in-dbgsym
+Package >cairo-dock-icon-effect-plug-in< not in package-all.txt file
+Write to package-all.txt file: cairo-dock-icon-effect-plug-in
+In package >cairo-dock-icon-effect-plug-in< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: cairo-dock-icon-effect-plug-in
+[]
+Package-nr:2960 of 11000, Name:cairo-dock-mail-plug-in-dbgsym
+Package >cairo-dock-mail-plug-in< not in package-all.txt file
+Write to package-all.txt file: cairo-dock-mail-plug-in
+In package >cairo-dock-mail-plug-in< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: cairo-dock-mail-plug-in
+[]
+Package-nr:2961 of 11000, Name:cairo-dock-system-monitor-plug-in-dbgsym
+Package >cairo-dock-system-monitor-plug-in< not in package-all.txt file
+Write to package-all.txt file: cairo-dock-system-monitor-plug-in
+In package >cairo-dock-system-monitor-plug-in< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: cairo-dock-system-monitor-plug-in
+[]
+Package-nr:2962 of 11000, Name:cairo-dock-clock-plug-in-dbgsym
+Package >cairo-dock-clock-plug-in< not in package-all.txt file
+Write to package-all.txt file: cairo-dock-clock-plug-in
+In package >cairo-dock-clock-plug-in< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: cairo-dock-clock-plug-in
+[]
+Package-nr:2963 of 11000, Name:cairo-dock-wifi-plug-in-dbgsym
+Package >cairo-dock-wifi-plug-in< not in package-all.txt file
+Write to package-all.txt file: cairo-dock-wifi-plug-in
+In package >cairo-dock-wifi-plug-in< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: cairo-dock-wifi-plug-in
+[]
+Package-nr:2964 of 11000, Name:cairo-dock-powermanager-plug-in-dbgsym
+Package >cairo-dock-powermanager-plug-in< not in package-all.txt file
+Write to package-all.txt file: cairo-dock-powermanager-plug-in
+In package >cairo-dock-powermanager-plug-in< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: cairo-dock-powermanager-plug-in
+[]
+Package-nr:2965 of 11000, Name:cairo-dock-clipper-plug-in-dbgsym
+Package >cairo-dock-clipper-plug-in< not in package-all.txt file
+Write to package-all.txt file: cairo-dock-clipper-plug-in
+In package >cairo-dock-clipper-plug-in< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: cairo-dock-clipper-plug-in
+[]
+Package-nr:2966 of 11000, Name:cairo-dock-dustbin-plug-in-dbgsym
+Package >cairo-dock-dustbin-plug-in< not in package-all.txt file
+Write to package-all.txt file: cairo-dock-dustbin-plug-in
+In package >cairo-dock-dustbin-plug-in< are these binaries: ['/usr/share/cairo-dock/plug-ins/dustbin/icon.png', '/usr/share/cairo-dock/plug-ins/dustbin/preview.jpg', '/usr/share/cairo-dock/plug-ins/dustbin/themes', '/usr/share/cairo-dock/plug-ins/dustbin/themes/default', '/usr/share/cairo-dock/plug-ins/dustbin/themes/default/preview', '/usr/share/cairo-dock/plug-ins/dustbin/themes/default/trashcan_empty.svg', '/usr/share/cairo-dock/plug-ins/dustbin/themes/default/trashcan_full.svg', '/usr/share/doc/cairo-dock-dustbin-plug-in/changelog.Debian.gz', '/usr/share/doc/cairo-dock-dustbin-plug-in/copyright']
+Real binaries:[]
+Write to package-dontwork.txt file: cairo-dock-dustbin-plug-in
+[]
+Package-nr:2967 of 11000, Name:cairo-dock-alsamixer-plug-in-dbgsym
+Package >cairo-dock-alsamixer-plug-in< not in package-all.txt file
+Write to package-all.txt file: cairo-dock-alsamixer-plug-in
+In package >cairo-dock-alsamixer-plug-in< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: cairo-dock-alsamixer-plug-in
+[]
+Package-nr:2968 of 11000, Name:cairo-dock-cairo-penguin-plug-in-dbgsym
+Package >cairo-dock-cairo-penguin-plug-in< not in package-all.txt file
+Write to package-all.txt file: cairo-dock-cairo-penguin-plug-in
+In package >cairo-dock-cairo-penguin-plug-in< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: cairo-dock-cairo-penguin-plug-in
+[]
+Package-nr:2969 of 11000, Name:cairo-dock-animated-icons-plug-in-dbgsym
+Package >cairo-dock-animated-icons-plug-in< not in package-all.txt file
+Write to package-all.txt file: cairo-dock-animated-icons-plug-in
+In package >cairo-dock-animated-icons-plug-in< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: cairo-dock-animated-icons-plug-in
+[]
+Package-nr:2970 of 11000, Name:cairo-dock-remote-control-plug-in-dbgsym
+Package >cairo-dock-remote-control-plug-in< not in package-all.txt file
+Write to package-all.txt file: cairo-dock-remote-control-plug-in
+In package >cairo-dock-remote-control-plug-in< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: cairo-dock-remote-control-plug-in
+[]
+Package-nr:2971 of 11000, Name:cairo-dock-desklet-rendering-plug-in-dbgsym
+Package >cairo-dock-desklet-rendering-plug-in< not in package-all.txt file
+Write to package-all.txt file: cairo-dock-desklet-rendering-plug-in
+In package >cairo-dock-desklet-rendering-plug-in< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: cairo-dock-desklet-rendering-plug-in
+[]
+Package-nr:2972 of 11000, Name:cairo-dock-drop-indicator-plug-in-dbgsym
+Package >cairo-dock-drop-indicator-plug-in< not in package-all.txt file
+Write to package-all.txt file: cairo-dock-drop-indicator-plug-in
+In package >cairo-dock-drop-indicator-plug-in< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: cairo-dock-drop-indicator-plug-in
+[]
+Package-nr:2973 of 11000, Name:cairo-dock-dbus-plug-in-dbgsym
+Skip package >cairo-dock-dbus-plug-in<, already in package-all.txt file
+[]
+Package-nr:2974 of 11000, Name:cairo-dock-logout-plug-in-dbgsym
+Package >cairo-dock-logout-plug-in< not in package-all.txt file
+Write to package-all.txt file: cairo-dock-logout-plug-in
+In package >cairo-dock-logout-plug-in< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: cairo-dock-logout-plug-in
+[]
+Package-nr:2975 of 11000, Name:cairo-dock-xgamma-plug-in-dbgsym
+Package >cairo-dock-xgamma-plug-in< not in package-all.txt file
+Write to package-all.txt file: cairo-dock-xgamma-plug-in
+In package >cairo-dock-xgamma-plug-in< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: cairo-dock-xgamma-plug-in
+[]
+Package-nr:2976 of 11000, Name:cairo-dock-illusion-plug-in-dbgsym
+Package >cairo-dock-illusion-plug-in< not in package-all.txt file
+Write to package-all.txt file: cairo-dock-illusion-plug-in
+In package >cairo-dock-illusion-plug-in< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: cairo-dock-illusion-plug-in
+[]
+Package-nr:2977 of 11000, Name:cairo-dock-systray-plug-in-dbgsym
+Package >cairo-dock-systray-plug-in< not in package-all.txt file
+Write to package-all.txt file: cairo-dock-systray-plug-in
+In package >cairo-dock-systray-plug-in< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: cairo-dock-systray-plug-in
+[]
+Package-nr:2978 of 11000, Name:cairo-dock-rssreader-plug-in-dbgsym
+Package >cairo-dock-rssreader-plug-in< not in package-all.txt file
+Write to package-all.txt file: cairo-dock-rssreader-plug-in
+In package >cairo-dock-rssreader-plug-in< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: cairo-dock-rssreader-plug-in
+[]
+Package-nr:2979 of 11000, Name:cairo-dock-netspeed-plug-in-dbgsym
+Package >cairo-dock-netspeed-plug-in< not in package-all.txt file
+Write to package-all.txt file: cairo-dock-netspeed-plug-in
+In package >cairo-dock-netspeed-plug-in< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: cairo-dock-netspeed-plug-in
+[]
+Package-nr:2980 of 11000, Name:cairo-dock-slider-plug-in-dbgsym
+Package >cairo-dock-slider-plug-in< not in package-all.txt file
+Write to package-all.txt file: cairo-dock-slider-plug-in
+In package >cairo-dock-slider-plug-in< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: cairo-dock-slider-plug-in
+[]
+Package-nr:2981 of 11000, Name:cairo-dock-showdesktop-plug-in-dbgsym
+Package >cairo-dock-showdesktop-plug-in< not in package-all.txt file
+Write to package-all.txt file: cairo-dock-showdesktop-plug-in
+In package >cairo-dock-showdesktop-plug-in< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: cairo-dock-showdesktop-plug-in
+[]
+Package-nr:2982 of 11000, Name:cairo-dock-keyboard-indicator-plug-in-dbgsym
+Package >cairo-dock-keyboard-indicator-plug-in< not in package-all.txt file
+Write to package-all.txt file: cairo-dock-keyboard-indicator-plug-in
+In package >cairo-dock-keyboard-indicator-plug-in< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: cairo-dock-keyboard-indicator-plug-in
+[]
+Package-nr:2983 of 11000, Name:cairo-dock-messaging-menu-plug-in-dbgsym
+Package >cairo-dock-messaging-menu-plug-in< not in package-all.txt file
+Write to package-all.txt file: cairo-dock-messaging-menu-plug-in
+In package >cairo-dock-messaging-menu-plug-in< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: cairo-dock-messaging-menu-plug-in
+[]
+Package-nr:2984 of 11000, Name:cairo-dock-motion-blur-plug-in-dbgsym
+Package >cairo-dock-motion-blur-plug-in< not in package-all.txt file
+Write to package-all.txt file: cairo-dock-motion-blur-plug-in
+In package >cairo-dock-motion-blur-plug-in< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: cairo-dock-motion-blur-plug-in
+[]
+Package-nr:2985 of 11000, Name:cairo-dock-terminal-plug-in-dbgsym
+Package >cairo-dock-terminal-plug-in< not in package-all.txt file
+Write to package-all.txt file: cairo-dock-terminal-plug-in
+In package >cairo-dock-terminal-plug-in< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: cairo-dock-terminal-plug-in
+[]
+Package-nr:2986 of 11000, Name:cairo-dock-folders-plug-in-dbgsym
+Package >cairo-dock-folders-plug-in< not in package-all.txt file
+Write to package-all.txt file: cairo-dock-folders-plug-in
+In package >cairo-dock-folders-plug-in< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: cairo-dock-folders-plug-in
+[]
+Package-nr:2987 of 11000, Name:cairo-dock-impulse-plug-in-dbgsym
+Package >cairo-dock-impulse-plug-in< not in package-all.txt file
+Write to package-all.txt file: cairo-dock-impulse-plug-in
+In package >cairo-dock-impulse-plug-in< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: cairo-dock-impulse-plug-in
+[]
+Package-nr:2988 of 11000, Name:cairo-dock-rendering-plug-in-dbgsym
+Package >cairo-dock-rendering-plug-in< not in package-all.txt file
+Write to package-all.txt file: cairo-dock-rendering-plug-in
+In package >cairo-dock-rendering-plug-in< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: cairo-dock-rendering-plug-in
+[]
+Package-nr:2989 of 11000, Name:cairo-dock-kde-integration-plug-in-dbgsym
+Package >cairo-dock-kde-integration-plug-in< not in package-all.txt file
+Write to package-all.txt file: cairo-dock-kde-integration-plug-in
+In package >cairo-dock-kde-integration-plug-in< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: cairo-dock-kde-integration-plug-in
+[]
+Package-nr:2990 of 11000, Name:celluloid-dbgsym
+Package >celluloid< not in package-all.txt file
+Write to package-all.txt file: celluloid
+In package >celluloid< are these binaries: ['/usr/bin/celluloid']
+Real binaries:['/usr/bin/celluloid']
+Write to package-work.txt file: celluloid
+Write to package-binaries.txt file: ['/usr/bin/celluloid']
+['/usr/bin/celluloid']

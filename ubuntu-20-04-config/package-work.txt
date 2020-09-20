@@ -2007,3 +2007,4 @@ cegui-mk2-0.8.7
 calife
 choqok
 cpu-x
+celluloid
