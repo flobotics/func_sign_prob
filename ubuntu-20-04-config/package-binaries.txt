@@ -5878,3 +5878,4 @@
 /usr/bin/idraw
 /usr/bin/ivtext
 /usr/bin/stdcmapppm
+/usr/bin/imageinfo
