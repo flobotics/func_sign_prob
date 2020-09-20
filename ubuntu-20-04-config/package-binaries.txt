@@ -5997,3 +5997,4 @@
 /usr/bin/ckb-next-daemon
 /usr/bin/cifer
 /usr/bin/cpipe
+/usr/bin/collatinus

@@ -2025,3 +2025,4 @@ comet-ms
 ckb-next
 cifer
 cpipe
+collatinus
