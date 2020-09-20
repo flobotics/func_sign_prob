@@ -2412,3 +2412,4 @@ pxfw
 qlogo
 qlcplus
 qthid-fcd-controller
+qmidiarp

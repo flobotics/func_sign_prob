@@ -3729,3 +3729,4 @@ qlogo
 qml-module-org-kde-qqc2desktopstyle
 qlcplus
 qthid-fcd-controller
+qmidiarp

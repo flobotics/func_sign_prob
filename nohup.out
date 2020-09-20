@@ -20617,3 +20617,13 @@ Real binaries:['/usr/bin/qthid', '/usr/bin/qthid-2.2']
 Write to package-work.txt file: qthid-fcd-controller
 Write to package-binaries.txt file: ['/usr/bin/qthid', '/usr/bin/qthid-2.2']
 ['/usr/bin/qthid', '/usr/bin/qthid-2.2']
+Write pickle file
+tar_out:
+Package-nr:3682 of 11000, Name:qmidiarp-dbgsym
+Package >qmidiarp< not in package-all.txt file
+Write to package-all.txt file: qmidiarp
+In package >qmidiarp< are these binaries: ['/usr/bin/qmidiarp']
+Real binaries:['/usr/bin/qmidiarp']
+Write to package-work.txt file: qmidiarp
+Write to package-binaries.txt file: ['/usr/bin/qmidiarp']
+['/usr/bin/qmidiarp']
