@@ -21102,3 +21102,13 @@ Real binaries:['/usr/bin/v4l-conf', '/usr/bin/v4l-info']
 Write to package-work.txt file: v4l-conf
 Write to package-binaries.txt file: ['/usr/bin/v4l-conf', '/usr/bin/v4l-info']
 ['/usr/bin/v4l-conf', '/usr/bin/v4l-info']
+Write pickle file
+tar_out:
+Package-nr:3736 of 11000, Name:xawtv-tools-dbgsym
+Package >xawtv-tools< not in package-all.txt file
+Write to package-all.txt file: xawtv-tools
+In package >xawtv-tools< are these binaries: ['/usr/bin/dump-mixers', '/usr/bin/propwatch', '/usr/bin/record', '/usr/bin/showriff']
+Real binaries:['/usr/bin/dump-mixers', '/usr/bin/propwatch', '/usr/bin/record', '/usr/bin/showriff']
+Write to package-work.txt file: xawtv-tools
+Write to package-binaries.txt file: ['/usr/bin/dump-mixers', '/usr/bin/propwatch', '/usr/bin/record', '/usr/bin/showriff']
+['/usr/bin/dump-mixers', '/usr/bin/propwatch', '/usr/bin/record', '/usr/bin/showriff']

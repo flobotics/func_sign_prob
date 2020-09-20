@@ -7305,3 +7305,7 @@
 /usr/bin/scantv
 /usr/bin/v4l-conf
 /usr/bin/v4l-info
+/usr/bin/dump-mixers
+/usr/bin/propwatch
+/usr/bin/record
+/usr/bin/showriff
