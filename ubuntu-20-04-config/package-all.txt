@@ -3495,3 +3495,4 @@ cbmc
 copyq
 chess.app
 cinnamon-session
+csync2

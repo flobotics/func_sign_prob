@@ -18601,3 +18601,16 @@ Real binaries:['/usr/bin/cinnamon-session', '/usr/bin/cinnamon-session-quit']
 Write to package-work.txt file: cinnamon-session
 Write to package-binaries.txt file: ['/usr/bin/cinnamon-session', '/usr/bin/cinnamon-session-quit']
 ['/usr/bin/cinnamon-session', '/usr/bin/cinnamon-session-quit']
+Write pickle file
+tar_out:
+Package-nr:3437 of 11000, Name:crun-dbgsym
+Skip package >crun<, already in package-all.txt file
+[]
+Package-nr:3438 of 11000, Name:csync2-dbgsym
+Package >csync2< not in package-all.txt file
+Write to package-all.txt file: csync2
+In package >csync2< are these binaries: ['/usr/sbin/csync2', '/usr/sbin/csync2-compare']
+Real binaries:['/usr/sbin/csync2']
+Write to package-work.txt file: csync2
+Write to package-binaries.txt file: ['/usr/sbin/csync2']
+['/usr/sbin/csync2']

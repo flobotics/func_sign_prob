@@ -6904,3 +6904,4 @@
 /usr/bin/copyq
 /usr/bin/cinnamon-session
 /usr/bin/cinnamon-session-quit
+/usr/sbin/csync2

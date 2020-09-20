@@ -2291,3 +2291,4 @@ checkit-tiff
 cbmc
 copyq
 cinnamon-session
+csync2
