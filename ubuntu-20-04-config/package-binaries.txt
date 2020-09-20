@@ -6449,3 +6449,4 @@
 /usr/bin/codequery
 /usr/bin/cqmakedb
 /usr/bin/cqsearch
+/usr/bin/cdw
