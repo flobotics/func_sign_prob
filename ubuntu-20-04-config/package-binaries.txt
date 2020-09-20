@@ -6823,3 +6823,11 @@
 /usr/bin/cmst
 /usr/bin/curlftpfs
 /usr/bin/ctpl
+/usr/bin/chicken
+/usr/bin/chicken-do
+/usr/bin/chicken-install
+/usr/bin/chicken-profile
+/usr/bin/chicken-status
+/usr/bin/chicken-uninstall
+/usr/bin/csc
+/usr/bin/csi

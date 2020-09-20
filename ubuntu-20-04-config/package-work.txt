@@ -2259,3 +2259,4 @@ cassiopee
 cmst
 curlftpfs
 ctpl
+chicken-bin
