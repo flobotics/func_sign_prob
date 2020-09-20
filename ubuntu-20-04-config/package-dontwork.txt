@@ -1081,3 +1081,4 @@ courier-authlib-pipe
 courier-authlib-ldap
 courier-authlib-sqlite
 courier-authlib-postgresql
+courier-authlib-mysql

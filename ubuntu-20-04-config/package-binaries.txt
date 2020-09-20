@@ -6011,3 +6011,4 @@
 /usr/bin/cmus
 /usr/bin/cmus-remote
 /usr/sbin/userdbpw
+/usr/bin/courierauthconfig

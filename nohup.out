@@ -15183,3 +15183,23 @@ Real binaries:['/usr/sbin/userdbpw']
 Write to package-work.txt file: courier-authlib-userdb
 Write to package-binaries.txt file: ['/usr/sbin/userdbpw']
 ['/usr/sbin/userdbpw']
+Write pickle file
+tar_out:
+Package-nr:3038 of 11000, Name:courier-authlib-mysql-dbgsym
+Package >courier-authlib-mysql< not in package-all.txt file
+Write to package-all.txt file: courier-authlib-mysql
+In package >courier-authlib-mysql< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: courier-authlib-mysql
+[]
+Package-nr:3039 of 11000, Name:courier-authlib-dbgsym
+Skip package >courier-authlib<, already in package-all.txt file
+[]
+Package-nr:3040 of 11000, Name:courier-authlib-dev-dbgsym
+Package >courier-authlib-dev< not in package-all.txt file
+Write to package-all.txt file: courier-authlib-dev
+In package >courier-authlib-dev< are these binaries: ['/usr/bin/courierauthconfig']
+Real binaries:['/usr/bin/courierauthconfig']
+Write to package-work.txt file: courier-authlib-dev
+Write to package-binaries.txt file: ['/usr/bin/courierauthconfig']
+['/usr/bin/courierauthconfig']

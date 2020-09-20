@@ -3122,3 +3122,5 @@ courier-authlib-ldap
 courier-authlib-sqlite
 courier-authlib-postgresql
 courier-authlib-userdb
+courier-authlib-mysql
+courier-authlib-dev
