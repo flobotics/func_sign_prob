@@ -18823,3 +18823,13 @@ Real binaries:['/usr/bin/cutecom']
 Write to package-work.txt file: cutecom
 Write to package-binaries.txt file: ['/usr/bin/cutecom']
 ['/usr/bin/cutecom']
+Write pickle file
+tar_out:
+Package-nr:3463 of 11000, Name:colord-kde-dbgsym
+Package >colord-kde< not in package-all.txt file
+Write to package-all.txt file: colord-kde
+In package >colord-kde< are these binaries: ['/usr/bin/colord-kde-icc-importer']
+Real binaries:['/usr/bin/colord-kde-icc-importer']
+Write to package-work.txt file: colord-kde
+Write to package-binaries.txt file: ['/usr/bin/colord-kde-icc-importer']
+['/usr/bin/colord-kde-icc-importer']

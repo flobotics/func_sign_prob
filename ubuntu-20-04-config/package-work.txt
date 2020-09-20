@@ -2309,3 +2309,4 @@ caneda
 crossfire-server
 citadel-server
 cutecom
+colord-kde
