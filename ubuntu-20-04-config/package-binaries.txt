@@ -7633,3 +7633,7 @@
 /usr/bin/xwax
 /usr/bin/xmlindent
 /usr/bin/pxdvi-xaw
+/usr/bin/xfwm4
+/usr/bin/xfwm4-settings
+/usr/bin/xfwm4-tweaks-settings
+/usr/bin/xfwm4-workspace-settings

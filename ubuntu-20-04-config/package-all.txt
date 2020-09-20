@@ -3964,3 +3964,4 @@ xwax
 xmlindent
 xfrisk
 xdvik-ja
+xfwm4

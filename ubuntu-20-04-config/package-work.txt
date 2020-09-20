@@ -2586,3 +2586,4 @@ xfce4-dict
 xwax
 xmlindent
 xdvik-ja
+xfwm4
