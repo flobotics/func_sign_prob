@@ -6847,3 +6847,6 @@
 /usr/bin/a2crd
 /usr/bin/chordii
 /usr/bin/clit
+/usr/bin/chezscheme9.5
+/usr/bin/petite9.5
+/usr/bin/scheme-script9.5
