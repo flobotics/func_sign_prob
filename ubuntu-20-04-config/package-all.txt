@@ -3340,3 +3340,4 @@ cvsps
 crasm
 coinor-libcbc3
 coinor-cbc
+cc65

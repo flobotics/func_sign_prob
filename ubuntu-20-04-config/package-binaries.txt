@@ -6498,3 +6498,15 @@
 /usr/bin/cvsps
 /usr/bin/crasm
 /usr/bin/cbc
+/usr/bin/ar65
+/usr/bin/ca65
+/usr/bin/cc65
+/usr/bin/chrcvt65
+/usr/bin/cl65
+/usr/bin/co65
+/usr/bin/da65
+/usr/bin/grc65
+/usr/bin/ld65
+/usr/bin/od65
+/usr/bin/sim65
+/usr/bin/sp65

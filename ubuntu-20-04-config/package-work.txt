@@ -2173,3 +2173,4 @@ catcodec
 cvsps
 crasm
 coinor-cbc
+cc65
