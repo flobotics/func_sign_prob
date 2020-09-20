@@ -1335,3 +1335,5 @@ xaw3dg
 xapian-examples
 xtron
 python3-xdmf
+xkbind
+xotcl

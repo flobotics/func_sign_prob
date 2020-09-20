@@ -7353,3 +7353,5 @@
 /usr/bin/csv2
 /usr/bin/xml2
 /usr/bin/xarchiver
+/usr/bin/xotclsh
+/usr/bin/xowish

@@ -3813,3 +3813,6 @@ xtron
 python3-xdmf
 xml2
 xarchiver
+xkbind
+xotcl
+xotcl-shells

@@ -2473,3 +2473,4 @@ xfce4-notes
 xapian-tools
 xml2
 xarchiver
+xotcl-shells
