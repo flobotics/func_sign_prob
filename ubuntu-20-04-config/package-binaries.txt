@@ -5978,3 +5978,5 @@
 /usr/bin/sccs
 /usr/bin/citadel
 /usr/bin/crunch
+/usr/bin/calligraplan
+/usr/bin/calligraplanwork
