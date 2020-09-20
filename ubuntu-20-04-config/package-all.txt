@@ -3116,3 +3116,4 @@ clevis
 clevis-udisks2
 contextfree
 converseen
+cmus

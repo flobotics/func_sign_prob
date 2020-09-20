@@ -6008,3 +6008,5 @@
 /usr/bin/clevis-encrypt-sss
 /usr/bin/cfdg
 /usr/bin/converseen
+/usr/bin/cmus
+/usr/bin/cmus-remote

@@ -15135,3 +15135,13 @@ Real binaries:['/usr/bin/converseen']
 Write to package-work.txt file: converseen
 Write to package-binaries.txt file: ['/usr/bin/converseen']
 ['/usr/bin/converseen']
+Write pickle file
+tar_out:
+Package-nr:3032 of 11000, Name:cmus-dbgsym
+Package >cmus< not in package-all.txt file
+Write to package-all.txt file: cmus
+In package >cmus< are these binaries: ['/usr/bin/cmus', '/usr/bin/cmus-remote']
+Real binaries:['/usr/bin/cmus', '/usr/bin/cmus-remote']
+Write to package-work.txt file: cmus
+Write to package-binaries.txt file: ['/usr/bin/cmus', '/usr/bin/cmus-remote']
+['/usr/bin/cmus', '/usr/bin/cmus-remote']
