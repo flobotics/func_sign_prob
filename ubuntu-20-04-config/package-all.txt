@@ -3002,3 +3002,4 @@ ctwm
 python3-cypari2
 consolation
 cmigemo
+conspy

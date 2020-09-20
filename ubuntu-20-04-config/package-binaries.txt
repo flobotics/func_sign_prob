@@ -5937,3 +5937,4 @@
 /usr/bin/ctwm
 /usr/sbin/consolation
 /usr/bin/cmigemo
+/usr/bin/conspy
