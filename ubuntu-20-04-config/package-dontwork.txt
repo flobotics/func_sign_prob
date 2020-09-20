@@ -1205,3 +1205,5 @@ coinor-libcoinmp1v5
 coinor-libcgl1
 cynthiune.app
 colorcode
+caja-wallpaper
+caja-open-terminal

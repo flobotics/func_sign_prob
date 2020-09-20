@@ -18900,3 +18900,27 @@ Real binaries:['/usr/bin/cutycapt']
 Write to package-work.txt file: cutycapt
 Write to package-binaries.txt file: ['/usr/bin/cutycapt']
 ['/usr/bin/cutycapt']
+Write pickle file
+tar_out:
+Package-nr:3471 of 11000, Name:caja-wallpaper-dbgsym
+Package >caja-wallpaper< not in package-all.txt file
+Write to package-all.txt file: caja-wallpaper
+In package >caja-wallpaper< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: caja-wallpaper
+[]
+Package-nr:3472 of 11000, Name:caja-open-terminal-dbgsym
+Package >caja-open-terminal< not in package-all.txt file
+Write to package-all.txt file: caja-open-terminal
+In package >caja-open-terminal< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: caja-open-terminal
+[]
+Package-nr:3473 of 11000, Name:caja-sendto-dbgsym
+Package >caja-sendto< not in package-all.txt file
+Write to package-all.txt file: caja-sendto
+In package >caja-sendto< are these binaries: ['/usr/bin/caja-sendto']
+Real binaries:['/usr/bin/caja-sendto']
+Write to package-work.txt file: caja-sendto
+Write to package-binaries.txt file: ['/usr/bin/caja-sendto']
+['/usr/bin/caja-sendto']

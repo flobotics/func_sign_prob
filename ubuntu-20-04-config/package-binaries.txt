@@ -6987,3 +6987,4 @@
 /usr/bin/cog
 /usr/bin/cogctl
 /usr/bin/cutycapt
+/usr/bin/caja-sendto

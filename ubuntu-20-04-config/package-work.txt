@@ -2316,3 +2316,4 @@ camitk-config
 cccd
 cog
 cutycapt
+caja-sendto
