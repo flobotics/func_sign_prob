@@ -2880,3 +2880,4 @@ iptotal
 ir.lv2
 imapcopy
 imx-code-signing-tool
+ifmetric

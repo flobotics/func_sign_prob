@@ -5658,3 +5658,4 @@
 /usr/bin/csf_parser
 /usr/bin/cst
 /usr/bin/srktool
+/usr/sbin/ifmetric
