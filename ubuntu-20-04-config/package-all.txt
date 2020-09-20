@@ -3732,3 +3732,4 @@ qthid-fcd-controller
 qmidiarp
 qstopmotion
 qxgedit
+qtbase5-dev-tools
