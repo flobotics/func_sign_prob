@@ -2515,3 +2515,4 @@ xwrited
 xoscope
 xfaces
 xml-security-c-utils
+xringd

@@ -7416,3 +7416,4 @@
 /usr/bin/xsec-txfmout
 /usr/bin/xsec-xklient
 /usr/bin/xsec-xtest
+/usr/sbin/xringd

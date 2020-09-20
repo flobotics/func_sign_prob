@@ -21931,3 +21931,20 @@ Real binaries:['/usr/bin/xsec-c14n', '/usr/bin/xsec-checksig', '/usr/bin/xsec-ci
 Write to package-work.txt file: xml-security-c-utils
 Write to package-binaries.txt file: ['/usr/bin/xsec-c14n', '/usr/bin/xsec-checksig', '/usr/bin/xsec-cipher', '/usr/bin/xsec-siginf', '/usr/bin/xsec-templatesign', '/usr/bin/xsec-txfmout', '/usr/bin/xsec-xklient', '/usr/bin/xsec-xtest']
 ['/usr/bin/xsec-c14n', '/usr/bin/xsec-checksig', '/usr/bin/xsec-cipher', '/usr/bin/xsec-siginf', '/usr/bin/xsec-templatesign', '/usr/bin/xsec-txfmout', '/usr/bin/xsec-xklient', '/usr/bin/xsec-xtest']
+Write pickle file
+tar_out:
+Package-nr:3833 of 11000, Name:xmahjongg-dbgsym
+Package >xmahjongg< not in package-all.txt file
+Write to package-all.txt file: xmahjongg
+In package >xmahjongg< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: xmahjongg
+[]
+Package-nr:3834 of 11000, Name:xringd-dbgsym
+Package >xringd< not in package-all.txt file
+Write to package-all.txt file: xringd
+In package >xringd< are these binaries: ['/usr/sbin/xringd']
+Real binaries:['/usr/sbin/xringd']
+Write to package-work.txt file: xringd
+Write to package-binaries.txt file: ['/usr/sbin/xringd']
+['/usr/sbin/xringd']
