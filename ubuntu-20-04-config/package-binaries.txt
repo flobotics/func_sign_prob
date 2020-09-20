@@ -6044,3 +6044,4 @@
 /usr/bin/comskip-gui
 /usr/bin/clBLAS-client
 /usr/bin/cppcheck
+/usr/bin/cppcheck-gui

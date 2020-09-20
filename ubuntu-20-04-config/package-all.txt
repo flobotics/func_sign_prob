@@ -3154,3 +3154,4 @@ cdi2iso
 comskip-gui
 clblas-client
 cppcheck
+cppcheck-gui
