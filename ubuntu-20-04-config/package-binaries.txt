@@ -7260,3 +7260,10 @@
 /usr/bin/mpeg3toc
 /usr/bin/miri_sdr
 /usr/bin/mmdblookup
+/usr/bin/mpc2sv8
+/usr/bin/mpcchap
+/usr/bin/mpccut
+/usr/bin/mpcdec
+/usr/bin/mpcenc
+/usr/bin/mpcgain
+/usr/bin/wavcmp

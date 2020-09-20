@@ -20819,3 +20819,13 @@ Real binaries:['/usr/bin/mmdblookup']
 Write to package-work.txt file: mmdb-bin
 Write to package-binaries.txt file: ['/usr/bin/mmdblookup']
 ['/usr/bin/mmdblookup']
+Write pickle file
+tar_out:
+Package-nr:3705 of 11000, Name:musepack-tools-dbgsym
+Package >musepack-tools< not in package-all.txt file
+Write to package-all.txt file: musepack-tools
+In package >musepack-tools< are these binaries: ['/usr/bin/mpc2sv8', '/usr/bin/mpcchap', '/usr/bin/mpccut', '/usr/bin/mpcdec', '/usr/bin/mpcenc', '/usr/bin/mpcgain', '/usr/bin/wavcmp']
+Real binaries:['/usr/bin/mpc2sv8', '/usr/bin/mpcchap', '/usr/bin/mpccut', '/usr/bin/mpcdec', '/usr/bin/mpcenc', '/usr/bin/mpcgain', '/usr/bin/wavcmp']
+Write to package-work.txt file: musepack-tools
+Write to package-binaries.txt file: ['/usr/bin/mpc2sv8', '/usr/bin/mpcchap', '/usr/bin/mpccut', '/usr/bin/mpcdec', '/usr/bin/mpcenc', '/usr/bin/mpcgain', '/usr/bin/wavcmp']
+['/usr/bin/mpc2sv8', '/usr/bin/mpcchap', '/usr/bin/mpccut', '/usr/bin/mpcdec', '/usr/bin/mpcenc', '/usr/bin/mpcgain', '/usr/bin/wavcmp']
