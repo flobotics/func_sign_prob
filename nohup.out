@@ -19058,3 +19058,27 @@ Real binaries:['/usr/bin/qelectrotech']
 Write to package-work.txt file: qelectrotech
 Write to package-binaries.txt file: ['/usr/bin/qelectrotech']
 ['/usr/bin/qelectrotech']
+Write pickle file
+tar_out:
+Package-nr:3491 of 11000, Name:quantlib-python-dbgsym
+Package >quantlib-python< not in package-all.txt file
+Write to package-all.txt file: quantlib-python
+In package >quantlib-python< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: quantlib-python
+[]
+Package-nr:3492 of 11000, Name:qtads-dbgsym
+Package >qtads< not in package-all.txt file
+Write to package-all.txt file: qtads
+In package >qtads< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: qtads
+[]
+Package-nr:3493 of 11000, Name:qnetstatview-dbgsym
+Package >qnetstatview< not in package-all.txt file
+Write to package-all.txt file: qnetstatview
+In package >qnetstatview< are these binaries: ['/usr/bin/qnetstatview']
+Real binaries:['/usr/bin/qnetstatview']
+Write to package-work.txt file: qnetstatview
+Write to package-binaries.txt file: ['/usr/bin/qnetstatview']
+['/usr/bin/qnetstatview']

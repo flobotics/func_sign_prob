@@ -2322,3 +2322,4 @@ ccrypt
 cbflib-bin
 qgit
 qelectrotech
+qnetstatview

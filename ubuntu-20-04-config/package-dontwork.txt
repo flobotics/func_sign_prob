@@ -1219,3 +1219,5 @@ qtremoteobjects5-examples
 qml-module-qtnfc
 qml-module-qtbluetooth
 qtconnectivity5-examples
+quantlib-python
+qtads

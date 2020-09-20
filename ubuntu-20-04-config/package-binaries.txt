@@ -6998,3 +6998,4 @@
 /usr/bin/makecbf
 /usr/bin/qgit
 /usr/bin/qelectrotech
+/usr/bin/qnetstatview

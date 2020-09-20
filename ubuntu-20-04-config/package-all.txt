@@ -3546,3 +3546,6 @@ qml-module-qtnfc
 qml-module-qtbluetooth
 qtconnectivity5-examples
 qelectrotech
+quantlib-python
+qtads
+qnetstatview
