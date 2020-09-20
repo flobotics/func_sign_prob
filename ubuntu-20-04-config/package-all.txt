@@ -3819,3 +3819,4 @@ xotcl-shells
 xzdec
 xwallpaper
 xwiimote
+xmorph

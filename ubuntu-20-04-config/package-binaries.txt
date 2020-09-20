@@ -7359,3 +7359,5 @@
 /usr/bin/xzdec
 /usr/bin/xwallpaper
 /usr/bin/xwiishow
+/usr/bin/morph
+/usr/bin/xmorph
