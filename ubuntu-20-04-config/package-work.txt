@@ -2150,3 +2150,5 @@ cdpr
 corosync-qnetd
 corosync-qdevice
 capnproto
+cryptcat
+cfengine3

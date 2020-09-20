@@ -16879,3 +16879,21 @@ Real binaries:['/usr/bin/capnp', '/usr/bin/capnpc-c++', '/usr/bin/capnpc-capnp']
 Write to package-work.txt file: capnproto
 Write to package-binaries.txt file: ['/usr/bin/capnp', '/usr/bin/capnpc-c++', '/usr/bin/capnpc-capnp']
 ['/usr/bin/capnp', '/usr/bin/capnpc-c++', '/usr/bin/capnpc-capnp']
+Write pickle file
+tar_out:
+Package-nr:3242 of 11000, Name:cryptcat-dbgsym
+Package >cryptcat< not in package-all.txt file
+Write to package-all.txt file: cryptcat
+In package >cryptcat< are these binaries: ['/usr/bin/cryptcat']
+Real binaries:['/usr/bin/cryptcat']
+Write to package-work.txt file: cryptcat
+Write to package-binaries.txt file: ['/usr/bin/cryptcat']
+['/usr/bin/cryptcat']
+Package-nr:3243 of 11000, Name:cfengine3-dbgsym
+Package >cfengine3< not in package-all.txt file
+Write to package-all.txt file: cfengine3
+In package >cfengine3< are these binaries: ['/usr/sbin/cf-agent', '/usr/sbin/cf-check', '/usr/sbin/cf-execd', '/usr/sbin/cf-key', '/usr/sbin/cf-monitord', '/usr/sbin/cf-net', '/usr/sbin/cf-promises', '/usr/sbin/cf-runagent', '/usr/sbin/cf-serverd', '/usr/sbin/cf-upgrade']
+Real binaries:['/usr/sbin/cf-agent', '/usr/sbin/cf-check', '/usr/sbin/cf-execd', '/usr/sbin/cf-key', '/usr/sbin/cf-monitord', '/usr/sbin/cf-net', '/usr/sbin/cf-promises', '/usr/sbin/cf-runagent', '/usr/sbin/cf-serverd', '/usr/sbin/cf-upgrade']
+Write to package-work.txt file: cfengine3
+Write to package-binaries.txt file: ['/usr/sbin/cf-agent', '/usr/sbin/cf-check', '/usr/sbin/cf-execd', '/usr/sbin/cf-key', '/usr/sbin/cf-monitord', '/usr/sbin/cf-net', '/usr/sbin/cf-promises', '/usr/sbin/cf-runagent', '/usr/sbin/cf-serverd', '/usr/sbin/cf-upgrade']
+['/usr/sbin/cf-agent', '/usr/sbin/cf-check', '/usr/sbin/cf-execd', '/usr/sbin/cf-key', '/usr/sbin/cf-monitord', '/usr/sbin/cf-net', '/usr/sbin/cf-promises', '/usr/sbin/cf-runagent', '/usr/sbin/cf-serverd', '/usr/sbin/cf-upgrade']

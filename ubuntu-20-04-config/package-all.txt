@@ -3312,3 +3312,5 @@ r-cran-cluster
 corosync-qnetd
 corosync-qdevice
 capnproto
+cryptcat
+cfengine3

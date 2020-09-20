@@ -6458,3 +6458,14 @@
 /usr/bin/capnp
 /usr/bin/capnpc-c++
 /usr/bin/capnpc-capnp
+/usr/bin/cryptcat
+/usr/sbin/cf-agent
+/usr/sbin/cf-check
+/usr/sbin/cf-execd
+/usr/sbin/cf-key
+/usr/sbin/cf-monitord
+/usr/sbin/cf-net
+/usr/sbin/cf-promises
+/usr/sbin/cf-runagent
+/usr/sbin/cf-serverd
+/usr/sbin/cf-upgrade
