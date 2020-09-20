@@ -1959,3 +1959,4 @@ iselect
 i7z
 icoutils
 ircp-tray
+indicator-china-weather
