@@ -19493,3 +19493,13 @@ Real binaries:['/usr/bin/qtgain']
 Write to package-work.txt file: qtgain
 Write to package-binaries.txt file: ['/usr/bin/qtgain']
 ['/usr/bin/qtgain']
+Write pickle file
+tar_out:
+Package-nr:3547 of 11000, Name:quitcount-dbgsym
+Package >quitcount< not in package-all.txt file
+Write to package-all.txt file: quitcount
+In package >quitcount< are these binaries: ['/usr/bin/quitcount']
+Real binaries:['/usr/bin/quitcount']
+Write to package-work.txt file: quitcount
+Write to package-binaries.txt file: ['/usr/bin/quitcount']
+['/usr/bin/quitcount']

@@ -2345,3 +2345,4 @@ quassel-client
 quassel-core
 qtwebengine5-dev-tools
 qtgain
+quitcount

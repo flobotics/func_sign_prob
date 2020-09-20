@@ -3597,3 +3597,4 @@ qtwebengine5-examples
 qtwebengine5-dev-tools
 qml-module-qtwebengine
 qtgain
+quitcount
