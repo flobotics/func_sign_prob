@@ -5860,3 +5860,4 @@
 /usr/bin/icewmhint
 /usr/bin/icewm-menu-fdo
 /usr/bin/inspectrum
+/usr/bin/install-mimic

@@ -2934,3 +2934,4 @@ iftop
 icewm
 icewm-common
 inspectrum
+install-mimic
