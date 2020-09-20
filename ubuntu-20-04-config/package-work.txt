@@ -1918,3 +1918,4 @@ inetutils-talkd
 igmpproxy
 iodine
 ipfm
+indi-bin

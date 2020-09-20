@@ -974,3 +974,4 @@ indicator-power
 inventor-demo
 ibus-keyman
 icebreaker
+ibus-anthy
