@@ -2478,3 +2478,4 @@ xzdec
 xwallpaper
 xwiimote
 xmorph
+gtkmorph

@@ -7361,3 +7361,4 @@
 /usr/bin/xwiishow
 /usr/bin/morph
 /usr/bin/xmorph
+/usr/bin/gtkmorph
