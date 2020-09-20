@@ -5933,3 +5933,5 @@
 /usr/bin/CubicSDR
 /usr/bin/jsvc
 /usr/sbin/clamsmtpd
+/usr/bin/cconv
+/usr/bin/ctwm

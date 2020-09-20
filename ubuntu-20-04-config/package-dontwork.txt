@@ -1005,3 +1005,4 @@ cl-sql-mysql
 cl-sql-uffi
 python3-cyvcf2
 crazywa
+python3-coda
