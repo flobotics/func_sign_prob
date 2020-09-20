@@ -6432,3 +6432,4 @@
 /usr/bin/cxref-query
 /usr/bin/bct_dump
 /usr/bin/cbootimage
+/usr/bin/calligrastage

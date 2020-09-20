@@ -2133,3 +2133,4 @@ cantor-backend-julia
 c-icap
 cxref
 cbootimage
+calligrastage
