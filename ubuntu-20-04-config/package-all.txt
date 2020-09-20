@@ -3589,3 +3589,4 @@ qtcharts5-examples
 qml-module-qtcharts
 qiv
 quiterss
+qca-qt5-2-utils

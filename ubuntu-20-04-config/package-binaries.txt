@@ -7028,3 +7028,5 @@
 /usr/bin/qashctl
 /usr/bin/qiv
 /usr/bin/quiterss
+/usr/bin/mozcerts-qt5
+/usr/bin/qcatool-qt5
