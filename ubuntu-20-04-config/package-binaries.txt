@@ -7710,3 +7710,7 @@
 /usr/bin/xfce4-session-settings
 /usr/bin/xdemorse
 /usr/bin/xzoom
+/usr/bin/fslsfonts
+/usr/bin/fstobdf
+/usr/bin/showfont
+/usr/bin/xfsinfo

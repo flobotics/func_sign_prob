@@ -4036,3 +4036,6 @@ xshogi
 xball
 xdemorse
 xzoom
+xserver-xorg-input-void
+xfig
+x11-xfs-utils

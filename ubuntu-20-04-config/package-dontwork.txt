@@ -1397,3 +1397,5 @@ xserver-xorg-input-multitouch
 xserver-xorg-video-mga
 xshogi
 xball
+xserver-xorg-input-void
+xfig
