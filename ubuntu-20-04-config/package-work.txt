@@ -2446,3 +2446,4 @@ xdm
 xindy
 xlog
 xssproxy
+xmotd
