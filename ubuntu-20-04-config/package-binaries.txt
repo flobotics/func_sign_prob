@@ -6077,3 +6077,5 @@
 /usr/bin/sndinfo
 /usr/bin/src_conv
 /usr/bin/srconv
+/usr/bin/cdbackup
+/usr/bin/cdrestore

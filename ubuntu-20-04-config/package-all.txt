@@ -3172,3 +3172,5 @@ clisp-module-gdbm
 clisp-module-berkeley-db
 clisp-module-dbus
 csound-utils
+python3-csound
+cdbackup
