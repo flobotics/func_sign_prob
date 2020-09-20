@@ -7424,3 +7424,4 @@
 /usr/bin/xchm
 /usr/bin/xlax
 /usr/bin/xdms
+/usr/bin/xtrkcad

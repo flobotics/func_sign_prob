@@ -2522,3 +2522,4 @@ xmakemol-gl
 xchm
 xlax
 xdms
+xtrkcad
