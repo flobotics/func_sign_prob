@@ -5942,3 +5942,4 @@
 /usr/bin/codelite
 /usr/bin/codelite-make
 /usr/bin/cstream
+/usr/bin/warg
