@@ -6423,3 +6423,7 @@
 /usr/bin/cantor_rserver
 /usr/bin/cantor_python3server
 /usr/bin/cantor_juliaserver
+/usr/bin/c-icap
+/usr/bin/c-icap-client
+/usr/bin/c-icap-mkbdb
+/usr/bin/c-icap-stretch

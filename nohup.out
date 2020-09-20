@@ -16664,3 +16664,13 @@ Real binaries:['/usr/bin/cantor_juliaserver']
 Write to package-work.txt file: cantor-backend-julia
 Write to package-binaries.txt file: ['/usr/bin/cantor_juliaserver']
 ['/usr/bin/cantor_juliaserver']
+Write pickle file
+tar_out:
+Package-nr:3219 of 11000, Name:c-icap-dbgsym
+Package >c-icap< not in package-all.txt file
+Write to package-all.txt file: c-icap
+In package >c-icap< are these binaries: ['/usr/bin/c-icap', '/usr/bin/c-icap-client', '/usr/bin/c-icap-mkbdb', '/usr/bin/c-icap-stretch']
+Real binaries:['/usr/bin/c-icap', '/usr/bin/c-icap-client', '/usr/bin/c-icap-mkbdb', '/usr/bin/c-icap-stretch']
+Write to package-work.txt file: c-icap
+Write to package-binaries.txt file: ['/usr/bin/c-icap', '/usr/bin/c-icap-client', '/usr/bin/c-icap-mkbdb', '/usr/bin/c-icap-stretch']
+['/usr/bin/c-icap', '/usr/bin/c-icap-client', '/usr/bin/c-icap-mkbdb', '/usr/bin/c-icap-stretch']
