@@ -7229,3 +7229,9 @@
 /usr/sbin/keypair
 /usr/sbin/quicktun
 /usr/bin/qps
+/usr/lib/qflow/bin/blif2BSpice
+/usr/lib/qflow/bin/blif2Verilog
+/usr/lib/qflow/bin/blifFanout
+/usr/lib/qflow/bin/rc2dly
+/usr/lib/qflow/bin/spice2delay
+/usr/lib/qflow/bin/vesta

@@ -20745,3 +20745,13 @@ Real binaries:['/usr/bin/qps']
 Write to package-work.txt file: qps
 Write to package-binaries.txt file: ['/usr/bin/qps']
 ['/usr/bin/qps']
+Write pickle file
+tar_out:
+Package-nr:3697 of 11000, Name:qflow-dbgsym
+Package >qflow< not in package-all.txt file
+Write to package-all.txt file: qflow
+In package >qflow< are these binaries: ['/usr/bin/qflow', '/usr/lib/qflow/bin/blif2BSpice', '/usr/lib/qflow/bin/blif2Verilog', '/usr/lib/qflow/bin/blifFanout', '/usr/lib/qflow/bin/rc2dly', '/usr/lib/qflow/bin/spice2delay', '/usr/lib/qflow/bin/vesta', '/usr/lib/qflow/bin/graywolf', '/usr/lib/qflow/bin/magic', '/usr/lib/qflow/bin/netgen', '/usr/lib/qflow/bin/qrouter', '/usr/lib/qflow/bin/sta', '/usr/lib/qflow/bin/yosys', '/usr/lib/qflow/bin/yosys-abc']
+Real binaries:['/usr/lib/qflow/bin/blif2BSpice', '/usr/lib/qflow/bin/blif2Verilog', '/usr/lib/qflow/bin/blifFanout', '/usr/lib/qflow/bin/rc2dly', '/usr/lib/qflow/bin/spice2delay', '/usr/lib/qflow/bin/vesta']
+Write to package-work.txt file: qflow
+Write to package-binaries.txt file: ['/usr/lib/qflow/bin/blif2BSpice', '/usr/lib/qflow/bin/blif2Verilog', '/usr/lib/qflow/bin/blifFanout', '/usr/lib/qflow/bin/rc2dly', '/usr/lib/qflow/bin/spice2delay', '/usr/lib/qflow/bin/vesta']
+['/usr/lib/qflow/bin/blif2BSpice', '/usr/lib/qflow/bin/blif2Verilog', '/usr/lib/qflow/bin/blifFanout', '/usr/lib/qflow/bin/rc2dly', '/usr/lib/qflow/bin/spice2delay', '/usr/lib/qflow/bin/vesta']
