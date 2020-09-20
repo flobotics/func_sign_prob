@@ -22759,3 +22759,16 @@ Real binaries:['/usr/bin/xarclock']
 Write to package-work.txt file: xarclock
 Write to package-binaries.txt file: ['/usr/bin/xarclock']
 ['/usr/bin/xarclock']
+Write pickle file
+tar_out:
+Package-nr:3929 of 11000, Name:xdo-dbgsym
+Skip package >xdo<, already in package-all.txt file
+[]
+Package-nr:3930 of 11000, Name:xrootconsole-dbgsym
+Package >xrootconsole< not in package-all.txt file
+Write to package-all.txt file: xrootconsole
+In package >xrootconsole< are these binaries: ['/usr/bin/xrootconsole']
+Real binaries:['/usr/bin/xrootconsole']
+Write to package-work.txt file: xrootconsole
+Write to package-binaries.txt file: ['/usr/bin/xrootconsole']
+['/usr/bin/xrootconsole']

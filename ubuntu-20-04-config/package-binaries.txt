@@ -7628,3 +7628,4 @@
 /usr/bin/xbuffy
 /usr/bin/xkbset
 /usr/bin/xarclock
+/usr/bin/xrootconsole

@@ -3957,3 +3957,4 @@ xenomai-system-tools
 xbuffy
 xkbset
 xarclock
+xrootconsole
