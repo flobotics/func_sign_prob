@@ -6788,3 +6788,4 @@
 /usr/bin/ctfmerge
 /usr/bin/cdebootstrap
 /usr/bin/cdebootstrap-static
+/usr/bin/cproto

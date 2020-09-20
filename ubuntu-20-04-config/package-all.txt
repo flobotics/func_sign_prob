@@ -3425,3 +3425,4 @@ rbd-fuse
 ctfutils
 cdebootstrap
 cdebootstrap-static
+cproto
