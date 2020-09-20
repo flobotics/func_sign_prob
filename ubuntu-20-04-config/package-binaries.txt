@@ -5958,3 +5958,5 @@
 /usr/bin/ciso
 /usr/bin/codfis
 /usr/bin/calcoo
+/usr/bin/CEGUISampleFramework-0.8
+/usr/bin/toluappcegui-0.8

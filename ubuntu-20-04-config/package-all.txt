@@ -3025,3 +3025,4 @@ crtmpserver-apps
 codfis
 csladspa
 calcoo
+cegui-mk2-0.8.7

@@ -14398,3 +14398,13 @@ Real binaries:['/usr/bin/calcoo']
 Write to package-work.txt file: calcoo
 Write to package-binaries.txt file: ['/usr/bin/calcoo']
 ['/usr/bin/calcoo']
+Write pickle file
+tar_out:
+Package-nr:2936 of 11000, Name:cegui-mk2-0.8.7-dbgsym
+Package >cegui-mk2-0.8.7< not in package-all.txt file
+Write to package-all.txt file: cegui-mk2-0.8.7
+In package >cegui-mk2-0.8.7< are these binaries: ['/usr/bin/CEGUISampleFramework-0.8', '/usr/bin/toluappcegui-0.8']
+Real binaries:['/usr/bin/CEGUISampleFramework-0.8', '/usr/bin/toluappcegui-0.8']
+Write to package-work.txt file: cegui-mk2-0.8.7
+Write to package-binaries.txt file: ['/usr/bin/CEGUISampleFramework-0.8', '/usr/bin/toluappcegui-0.8']
+['/usr/bin/CEGUISampleFramework-0.8', '/usr/bin/toluappcegui-0.8']
