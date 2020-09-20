@@ -7637,3 +7637,10 @@
 /usr/bin/xfwm4-settings
 /usr/bin/xfwm4-tweaks-settings
 /usr/bin/xfwm4-workspace-settings
+/usr/bin/pat2ppm
+/usr/bin/patextract
+/usr/bin/png2pat
+/usr/bin/rgb2pat
+/usr/bin/visgrep
+/usr/bin/xmousepos
+/usr/bin/xte

@@ -22842,3 +22842,13 @@ Real binaries:['/usr/bin/xfwm4', '/usr/bin/xfwm4-settings', '/usr/bin/xfwm4-twea
 Write to package-work.txt file: xfwm4
 Write to package-binaries.txt file: ['/usr/bin/xfwm4', '/usr/bin/xfwm4-settings', '/usr/bin/xfwm4-tweaks-settings', '/usr/bin/xfwm4-workspace-settings']
 ['/usr/bin/xfwm4', '/usr/bin/xfwm4-settings', '/usr/bin/xfwm4-tweaks-settings', '/usr/bin/xfwm4-workspace-settings']
+Write pickle file
+tar_out:
+Package-nr:3940 of 11000, Name:xautomation-dbgsym
+Package >xautomation< not in package-all.txt file
+Write to package-all.txt file: xautomation
+In package >xautomation< are these binaries: ['/usr/bin/pat2ppm', '/usr/bin/patextract', '/usr/bin/png2pat', '/usr/bin/rgb2pat', '/usr/bin/visgrep', '/usr/bin/xmousepos', '/usr/bin/xte']
+Real binaries:['/usr/bin/pat2ppm', '/usr/bin/patextract', '/usr/bin/png2pat', '/usr/bin/rgb2pat', '/usr/bin/visgrep', '/usr/bin/xmousepos', '/usr/bin/xte']
+Write to package-work.txt file: xautomation
+Write to package-binaries.txt file: ['/usr/bin/pat2ppm', '/usr/bin/patextract', '/usr/bin/png2pat', '/usr/bin/rgb2pat', '/usr/bin/visgrep', '/usr/bin/xmousepos', '/usr/bin/xte']
+['/usr/bin/pat2ppm', '/usr/bin/patextract', '/usr/bin/png2pat', '/usr/bin/rgb2pat', '/usr/bin/visgrep', '/usr/bin/xmousepos', '/usr/bin/xte']

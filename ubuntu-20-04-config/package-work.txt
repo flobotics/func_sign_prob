@@ -2587,3 +2587,4 @@ xwax
 xmlindent
 xdvik-ja
 xfwm4
+xautomation

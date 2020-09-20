@@ -3965,3 +3965,4 @@ xmlindent
 xfrisk
 xdvik-ja
 xfwm4
+xautomation
