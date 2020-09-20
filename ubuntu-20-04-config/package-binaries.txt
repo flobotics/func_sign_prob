@@ -5636,3 +5636,5 @@
 /usr/sbin/i2pd
 /sbin/ifup
 /usr/sbin/ipgrab
+/usr/sbin/ifplugd
+/usr/sbin/ifplugstatus

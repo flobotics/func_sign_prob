@@ -2866,3 +2866,6 @@ i2pd
 ifupdown
 indicator-sound
 ipgrab
+itcl3
+indicator-power
+ifplugd

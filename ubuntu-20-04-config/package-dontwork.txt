@@ -969,3 +969,5 @@ ipv6pref
 python3-pyisomd5sum
 python3-smbus
 indicator-sound
+itcl3
+indicator-power
