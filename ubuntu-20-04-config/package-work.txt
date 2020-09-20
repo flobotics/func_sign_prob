@@ -2379,3 +2379,4 @@ qfits-tools
 qmc
 qjoypad
 qnapi
+qsampler
