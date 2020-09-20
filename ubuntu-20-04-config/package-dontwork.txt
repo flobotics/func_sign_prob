@@ -1165,3 +1165,6 @@ coinor-libcbc3
 python3-caffe-cpu
 couriergrey
 coinor-libvol1
+cd-hit
+python3-cysignals-pari
+python3-cysignals-bare

@@ -3350,3 +3350,7 @@ coinor-libvol1
 charybdis
 ctn
 charmtimetracker
+cd-hit
+python3-cysignals-pari
+python3-cysignals-bare
+ckon

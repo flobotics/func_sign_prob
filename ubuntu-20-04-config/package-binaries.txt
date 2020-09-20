@@ -6611,3 +6611,4 @@
 /usr/bin/ttunique
 /usr/bin/ttupdate
 /usr/bin/charmtimetracker
+/usr/bin/ckon
