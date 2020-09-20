@@ -2362,3 +2362,4 @@ qterminal
 qt5ct
 qtscrob
 scrobbler
+qwinff

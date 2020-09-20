@@ -19841,3 +19841,27 @@ Real binaries:['/usr/bin/scrobbler']
 Write to package-work.txt file: scrobbler
 Write to package-binaries.txt file: ['/usr/bin/scrobbler']
 ['/usr/bin/scrobbler']
+Write pickle file
+tar_out:
+Package-nr:3590 of 11000, Name:qtsensors5-examples-dbgsym
+Package >qtsensors5-examples< not in package-all.txt file
+Write to package-all.txt file: qtsensors5-examples
+In package >qtsensors5-examples< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: qtsensors5-examples
+[]
+Package-nr:3591 of 11000, Name:qml-module-qtsensors-dbgsym
+Package >qml-module-qtsensors< not in package-all.txt file
+Write to package-all.txt file: qml-module-qtsensors
+In package >qml-module-qtsensors< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: qml-module-qtsensors
+[]
+Package-nr:3592 of 11000, Name:qwinff-dbgsym
+Package >qwinff< not in package-all.txt file
+Write to package-all.txt file: qwinff
+In package >qwinff< are these binaries: ['/usr/bin/qwinff']
+Real binaries:['/usr/bin/qwinff']
+Write to package-work.txt file: qwinff
+Write to package-binaries.txt file: ['/usr/bin/qwinff']
+['/usr/bin/qwinff']

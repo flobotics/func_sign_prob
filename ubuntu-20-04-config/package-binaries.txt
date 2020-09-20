@@ -7068,3 +7068,4 @@
 /usr/bin/qt5ct
 /usr/bin/qtscrob
 /usr/bin/scrobbler
+/usr/bin/qwinff

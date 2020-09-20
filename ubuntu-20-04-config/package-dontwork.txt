@@ -1272,3 +1272,5 @@ quisk
 qtvirtualkeyboard5-examples
 qml-module-qtquick-virtualkeyboard
 quelcom
+qtsensors5-examples
+qml-module-qtsensors

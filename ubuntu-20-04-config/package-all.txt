@@ -3639,3 +3639,6 @@ qt5ct
 quelcom
 qtscrob
 scrobbler
+qtsensors5-examples
+qml-module-qtsensors
+qwinff
