@@ -2475,3 +2475,4 @@ xml2
 xarchiver
 xotcl-shells
 xzdec
+xwallpaper

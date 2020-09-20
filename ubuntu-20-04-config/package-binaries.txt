@@ -7357,3 +7357,4 @@
 /usr/bin/xowish
 /usr/bin/lzmadec
 /usr/bin/xzdec
+/usr/bin/xwallpaper
