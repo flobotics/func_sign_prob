@@ -22729,3 +22729,13 @@ Real binaries:['/usr/bin/cmd_bits', '/usr/bin/cmd_read', '/usr/bin/cmd_write', '
 Write to package-work.txt file: xenomai-system-tools
 Write to package-binaries.txt file: ['/usr/bin/cmd_bits', '/usr/bin/cmd_read', '/usr/bin/cmd_write', '/usr/bin/insn_bits', '/usr/bin/insn_read', '/usr/bin/insn_write', '/usr/bin/rtcanrecv', '/usr/bin/rtcansend', '/usr/bin/wf_generate', '/usr/sbin/analogy_config', '/usr/sbin/rtcanconfig', '/usr/sbin/rtps']
 ['/usr/bin/cmd_bits', '/usr/bin/cmd_read', '/usr/bin/cmd_write', '/usr/bin/insn_bits', '/usr/bin/insn_read', '/usr/bin/insn_write', '/usr/bin/rtcanrecv', '/usr/bin/rtcansend', '/usr/bin/wf_generate', '/usr/sbin/analogy_config', '/usr/sbin/rtcanconfig', '/usr/sbin/rtps']
+Write pickle file
+tar_out:
+Package-nr:3926 of 11000, Name:xbuffy-dbgsym
+Package >xbuffy< not in package-all.txt file
+Write to package-all.txt file: xbuffy
+In package >xbuffy< are these binaries: ['/usr/bin/xbuffy']
+Real binaries:['/usr/bin/xbuffy']
+Write to package-work.txt file: xbuffy
+Write to package-binaries.txt file: ['/usr/bin/xbuffy']
+['/usr/bin/xbuffy']

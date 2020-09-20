@@ -7625,3 +7625,4 @@
 /usr/sbin/analogy_config
 /usr/sbin/rtcanconfig
 /usr/sbin/rtps
+/usr/bin/xbuffy

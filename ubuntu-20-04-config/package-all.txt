@@ -3954,3 +3954,4 @@ xrestop
 xphoon
 xfe
 xenomai-system-tools
+xbuffy
