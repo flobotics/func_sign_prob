@@ -3219,3 +3219,5 @@ ceferino
 cowbuilder
 qemubuilder
 cowdancer
+python3-cvxopt
+cruft

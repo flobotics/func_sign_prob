@@ -1115,3 +1115,4 @@ cowbell
 python3-cccolutils
 cinnamon-settings-daemon
 ceferino
+python3-cvxopt

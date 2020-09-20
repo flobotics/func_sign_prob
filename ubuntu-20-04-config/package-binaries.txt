@@ -6379,3 +6379,4 @@
 /usr/bin/cow-shell
 /usr/bin/cowdancer-ilistcreate
 /usr/bin/cowdancer-ilistdump
+/usr/bin/dash-search

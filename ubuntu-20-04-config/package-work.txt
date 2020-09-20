@@ -2099,3 +2099,4 @@ can-utils
 cowbuilder
 qemubuilder
 cowdancer
+cruft
