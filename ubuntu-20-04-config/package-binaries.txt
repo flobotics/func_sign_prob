@@ -6893,3 +6893,11 @@
 /usr/bin/checkpolicy
 /usr/bin/confclerk
 /usr/bin/checkit_tiff
+/usr/bin/cbmc
+/usr/bin/goto-analyzer
+/usr/bin/goto-cc
+/usr/bin/goto-diff
+/usr/bin/goto-instrument
+/usr/bin/janalyzer
+/usr/bin/jbmc
+/usr/bin/jdiff

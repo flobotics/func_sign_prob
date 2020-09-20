@@ -3491,3 +3491,4 @@ checkpolicy
 confclerk
 cavezofphear
 checkit-tiff
+cbmc
