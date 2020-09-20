@@ -2485,3 +2485,4 @@ xserver-xorg-input-synaptics
 medcon
 xmedcon
 xmlrpc-api-utils
+xxgdb

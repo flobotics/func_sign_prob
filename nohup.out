@@ -21561,3 +21561,13 @@ Real binaries:['/usr/bin/xml-rpc-api2cpp']
 Write to package-work.txt file: xmlrpc-api-utils
 Write to package-binaries.txt file: ['/usr/bin/xml-rpc-api2cpp']
 ['/usr/bin/xml-rpc-api2cpp']
+Write pickle file
+tar_out:
+Package-nr:3791 of 11000, Name:xxgdb-dbgsym
+Package >xxgdb< not in package-all.txt file
+Write to package-all.txt file: xxgdb
+In package >xxgdb< are these binaries: ['/usr/bin/xxgdb']
+Real binaries:['/usr/bin/xxgdb']
+Write to package-work.txt file: xxgdb
+Write to package-binaries.txt file: ['/usr/bin/xxgdb']
+['/usr/bin/xxgdb']
