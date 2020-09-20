@@ -7166,3 +7166,4 @@
 /usr/bin/qmt_map2jnx
 /usr/bin/qmt_rgb2pct
 /usr/bin/qdacco
+/usr/bin/qmenu

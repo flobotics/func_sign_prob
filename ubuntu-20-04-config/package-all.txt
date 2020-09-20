@@ -3685,3 +3685,5 @@ qml-module-qtaudioengine
 qwo
 qmapshack
 qdacco
+qtdeclarative5-qtpowerd0.1
+qmenu
