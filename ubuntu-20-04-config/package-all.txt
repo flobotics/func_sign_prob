@@ -3694,3 +3694,4 @@ qml-module-qtquick-xmllistmodel
 quorum
 qqwing
 quickplot
+qalculate-gtk

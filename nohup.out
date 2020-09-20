@@ -20316,3 +20316,13 @@ Real binaries:['/usr/bin/quickplot', '/usr/bin/quickplot_shell']
 Write to package-work.txt file: quickplot
 Write to package-binaries.txt file: ['/usr/bin/quickplot', '/usr/bin/quickplot_shell']
 ['/usr/bin/quickplot', '/usr/bin/quickplot_shell']
+Write pickle file
+tar_out:
+Package-nr:3647 of 11000, Name:qalculate-gtk-dbgsym
+Package >qalculate-gtk< not in package-all.txt file
+Write to package-all.txt file: qalculate-gtk
+In package >qalculate-gtk< are these binaries: ['/usr/bin/qalculate-gtk']
+Real binaries:['/usr/bin/qalculate-gtk']
+Write to package-work.txt file: qalculate-gtk
+Write to package-binaries.txt file: ['/usr/bin/qalculate-gtk']
+['/usr/bin/qalculate-gtk']
