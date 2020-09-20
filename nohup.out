@@ -15281,3 +15281,13 @@ Real binaries:['/usr/bin/cliquer']
 Write to package-work.txt file: cliquer
 Write to package-binaries.txt file: ['/usr/bin/cliquer']
 ['/usr/bin/cliquer']
+Write pickle file
+tar_out:
+Package-nr:3049 of 11000, Name:cadaver-dbgsym
+Package >cadaver< not in package-all.txt file
+Write to package-all.txt file: cadaver
+In package >cadaver< are these binaries: ['/usr/bin/cadaver']
+Real binaries:['/usr/bin/cadaver']
+Write to package-work.txt file: cadaver
+Write to package-binaries.txt file: ['/usr/bin/cadaver']
+['/usr/bin/cadaver']

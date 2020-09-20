@@ -6022,3 +6022,4 @@
 /usr/bin/cpluff-loader
 /usr/bin/cue2toc
 /usr/bin/cliquer
+/usr/bin/cadaver
