@@ -7601,3 +7601,4 @@
 /usr/bin/xfce4-clipman-settings
 /usr/bin/xfce4-popup-clipman
 /usr/bin/xmlroff
+/usr/bin/xfce4-volumed
