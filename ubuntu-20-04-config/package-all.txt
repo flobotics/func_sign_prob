@@ -3779,3 +3779,4 @@ xpat2
 xfireworks
 ttv
 alevtd
+scantv

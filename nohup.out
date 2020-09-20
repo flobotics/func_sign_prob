@@ -21082,3 +21082,13 @@ Real binaries:['/usr/bin/alevtd']
 Write to package-work.txt file: alevtd
 Write to package-binaries.txt file: ['/usr/bin/alevtd']
 ['/usr/bin/alevtd']
+Write pickle file
+tar_out:
+Package-nr:3734 of 11000, Name:scantv-dbgsym
+Package >scantv< not in package-all.txt file
+Write to package-all.txt file: scantv
+In package >scantv< are these binaries: ['/usr/bin/scantv']
+Real binaries:['/usr/bin/scantv']
+Write to package-work.txt file: scantv
+Write to package-binaries.txt file: ['/usr/bin/scantv']
+['/usr/bin/scantv']

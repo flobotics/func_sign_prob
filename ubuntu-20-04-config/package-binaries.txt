@@ -7302,3 +7302,4 @@
 /usr/bin/xmotd
 /usr/bin/ttv
 /usr/bin/alevtd
+/usr/bin/scantv
