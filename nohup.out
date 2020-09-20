@@ -19445,3 +19445,16 @@ Real binaries:['/usr/bin/quasselclient']
 Write to package-work.txt file: quassel-client
 Write to package-binaries.txt file: ['/usr/bin/quasselclient']
 ['/usr/bin/quasselclient']
+Write pickle file
+tar_out:
+Package-nr:3540 of 11000, Name:quassel-dbgsym
+Skip package >quassel<, already in package-all.txt file
+[]
+Package-nr:3541 of 11000, Name:quassel-core-dbgsym
+Package >quassel-core< not in package-all.txt file
+Write to package-all.txt file: quassel-core
+In package >quassel-core< are these binaries: ['/usr/bin/quasselcore']
+Real binaries:['/usr/bin/quasselcore']
+Write to package-work.txt file: quassel-core
+Write to package-binaries.txt file: ['/usr/bin/quasselcore']
+['/usr/bin/quasselcore']

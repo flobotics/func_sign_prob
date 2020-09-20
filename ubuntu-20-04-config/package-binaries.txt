@@ -7032,3 +7032,4 @@
 /usr/bin/qcatool-qt5
 /usr/bin/qtchooser
 /usr/bin/quasselclient
+/usr/bin/quasselcore
