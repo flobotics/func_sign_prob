@@ -1267,3 +1267,4 @@ qml-module-qtquick2
 qml-module-qtquick-localstorage
 qtscxml5-examples
 qml-module-qtscxml
+qtgamepad5-examples

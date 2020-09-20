@@ -19726,3 +19726,20 @@ Real binaries:['/usr/bin/qtox']
 Write to package-work.txt file: qtox
 Write to package-binaries.txt file: ['/usr/bin/qtox']
 ['/usr/bin/qtox']
+Write pickle file
+tar_out:
+Package-nr:3577 of 11000, Name:qtgamepad5-examples-dbgsym
+Package >qtgamepad5-examples< not in package-all.txt file
+Write to package-all.txt file: qtgamepad5-examples
+In package >qtgamepad5-examples< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: qtgamepad5-examples
+[]
+Package-nr:3578 of 11000, Name:qtltools-dbgsym
+Package >qtltools< not in package-all.txt file
+Write to package-all.txt file: qtltools
+In package >qtltools< are these binaries: ['/usr/bin/QTLtools']
+Real binaries:['/usr/bin/QTLtools']
+Write to package-work.txt file: qtltools
+Write to package-binaries.txt file: ['/usr/bin/QTLtools']
+['/usr/bin/QTLtools']

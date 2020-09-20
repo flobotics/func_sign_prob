@@ -2354,3 +2354,4 @@ qmlscene
 quvi
 qstardict
 qtox
+qtltools

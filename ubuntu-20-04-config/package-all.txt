@@ -3626,3 +3626,5 @@ qml-module-qtscxml
 quvi
 qstardict
 qtox
+qtgamepad5-examples
+qtltools

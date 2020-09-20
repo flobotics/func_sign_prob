@@ -7058,3 +7058,4 @@
 /usr/bin/quvi
 /usr/bin/qstardict
 /usr/bin/qtox
+/usr/bin/QTLtools
