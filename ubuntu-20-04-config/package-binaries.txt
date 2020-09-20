@@ -7444,3 +7444,4 @@
 /usr/bin/xsane
 /usr/bin/xtrlock
 /usr/bin/xzgv
+/usr/bin/x265

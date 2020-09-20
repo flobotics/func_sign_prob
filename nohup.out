@@ -22168,3 +22168,20 @@ Real binaries:['/usr/bin/xzgv']
 Write to package-work.txt file: xzgv
 Write to package-binaries.txt file: ['/usr/bin/xzgv']
 ['/usr/bin/xzgv']
+Write pickle file
+tar_out:
+Package-nr:3861 of 11000, Name:xgammon-dbgsym
+Package >xgammon< not in package-all.txt file
+Write to package-all.txt file: xgammon
+In package >xgammon< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: xgammon
+[]
+Package-nr:3862 of 11000, Name:x265-dbgsym
+Package >x265< not in package-all.txt file
+Write to package-all.txt file: x265
+In package >x265< are these binaries: ['/usr/bin/x265']
+Real binaries:['/usr/bin/x265']
+Write to package-work.txt file: x265
+Write to package-binaries.txt file: ['/usr/bin/x265']
+['/usr/bin/x265']

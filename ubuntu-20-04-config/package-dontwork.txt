@@ -1355,3 +1355,4 @@ xmountains
 tcl-xpa
 xsynth-dssi
 xqf
+xgammon
