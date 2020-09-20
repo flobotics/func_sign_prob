@@ -7297,3 +7297,4 @@
 /usr/bin/xpenguins
 /usr/bin/xfburn
 /usr/bin/xdm
+/usr/bin/tex2xindy

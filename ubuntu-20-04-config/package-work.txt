@@ -2443,3 +2443,4 @@ x2gothinclient-cdmanager
 xpenguins
 xfburn
 xdm
+xindy
