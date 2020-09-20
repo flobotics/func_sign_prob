@@ -21238,3 +21238,33 @@ Real binaries:['/usr/bin/webcollage-helper']
 Write to package-work.txt file: xscreensaver-screensaver-webcollage
 Write to package-binaries.txt file: ['/usr/bin/webcollage-helper']
 ['/usr/bin/webcollage-helper']
+Write pickle file
+tar_out:
+Package-nr:3753 of 11000, Name:xscreensaver-data-extra-dbgsym
+Package >xscreensaver-data-extra< not in package-all.txt file
+Write to package-all.txt file: xscreensaver-data-extra
+In package >xscreensaver-data-extra< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: xscreensaver-data-extra
+[]
+Package-nr:3754 of 11000, Name:xscreensaver-data-dbgsym
+Skip package >xscreensaver-data<, already in package-all.txt file
+[]
+Package-nr:3755 of 11000, Name:xscreensaver-screensaver-bsod-dbgsym
+Package >xscreensaver-screensaver-bsod< not in package-all.txt file
+Write to package-all.txt file: xscreensaver-screensaver-bsod
+In package >xscreensaver-screensaver-bsod< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: xscreensaver-screensaver-bsod
+[]
+Package-nr:3756 of 11000, Name:xscreensaver-dbgsym
+Skip package >xscreensaver<, already in package-all.txt file
+[]
+Package-nr:3757 of 11000, Name:xscreensaver-gl-dbgsym
+Package >xscreensaver-gl< not in package-all.txt file
+Write to package-all.txt file: xscreensaver-gl
+In package >xscreensaver-gl< are these binaries: ['/usr/bin/xscreensaver-gl-helper']
+Real binaries:['/usr/bin/xscreensaver-gl-helper']
+Write to package-work.txt file: xscreensaver-gl
+Write to package-binaries.txt file: ['/usr/bin/xscreensaver-gl-helper']
+['/usr/bin/xscreensaver-gl-helper']

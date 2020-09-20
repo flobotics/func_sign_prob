@@ -3795,3 +3795,6 @@ xwpe
 xbill
 xsunpinyin
 xscreensaver-screensaver-webcollage
+xscreensaver-data-extra
+xscreensaver-screensaver-bsod
+xscreensaver-gl

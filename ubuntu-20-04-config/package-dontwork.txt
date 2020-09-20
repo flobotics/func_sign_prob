@@ -1328,3 +1328,5 @@ xfireworks
 xdg-desktop-portal-tests
 xbindkeys-config
 xbill
+xscreensaver-data-extra
+xscreensaver-screensaver-bsod

@@ -7322,3 +7322,4 @@
 /usr/bin/xsunpinyin
 /usr/bin/xsunpinyin-preferences
 /usr/bin/webcollage-helper
+/usr/bin/xscreensaver-gl-helper
