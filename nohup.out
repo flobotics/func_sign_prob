@@ -15394,3 +15394,27 @@ Real binaries:['/usr/bin/clementine', '/usr/bin/clementine-tagreader']
 Write to package-work.txt file: clementine
 Write to package-binaries.txt file: ['/usr/bin/clementine', '/usr/bin/clementine-tagreader']
 ['/usr/bin/clementine', '/usr/bin/clementine-tagreader']
+Write pickle file
+tar_out:
+Package-nr:3064 of 11000, Name:gimp-cbmplugs-dbgsym
+Package >gimp-cbmplugs< not in package-all.txt file
+Write to package-all.txt file: gimp-cbmplugs
+In package >gimp-cbmplugs< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: gimp-cbmplugs
+[]
+Package-nr:3065 of 11000, Name:caps-dbgsym
+Package >caps< not in package-all.txt file
+Write to package-all.txt file: caps
+In package >caps< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: caps
+[]
+Package-nr:3066 of 11000, Name:ccd2iso-dbgsym
+Package >ccd2iso< not in package-all.txt file
+Write to package-all.txt file: ccd2iso
+In package >ccd2iso< are these binaries: ['/usr/bin/ccd2iso']
+Real binaries:['/usr/bin/ccd2iso']
+Write to package-work.txt file: ccd2iso
+Write to package-binaries.txt file: ['/usr/bin/ccd2iso']
+['/usr/bin/ccd2iso']

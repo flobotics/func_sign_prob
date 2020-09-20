@@ -3143,3 +3143,6 @@ cod-tools
 python3-pycodcif
 cubemap
 clementine
+gimp-cbmplugs
+caps
+ccd2iso

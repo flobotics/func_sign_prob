@@ -1085,3 +1085,5 @@ courier-authlib-mysql
 chasen-dictutils
 cgit
 python3-pycodcif
+gimp-cbmplugs
+caps
