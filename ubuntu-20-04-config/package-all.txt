@@ -3778,3 +3778,4 @@ xmotd
 xpat2
 xfireworks
 ttv
+alevtd

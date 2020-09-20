@@ -21072,3 +21072,13 @@ Real binaries:['/usr/bin/ttv']
 Write to package-work.txt file: ttv
 Write to package-binaries.txt file: ['/usr/bin/ttv']
 ['/usr/bin/ttv']
+Write pickle file
+tar_out:
+Package-nr:3733 of 11000, Name:alevtd-dbgsym
+Package >alevtd< not in package-all.txt file
+Write to package-all.txt file: alevtd
+In package >alevtd< are these binaries: ['/usr/bin/alevtd']
+Real binaries:['/usr/bin/alevtd']
+Write to package-work.txt file: alevtd
+Write to package-binaries.txt file: ['/usr/bin/alevtd']
+['/usr/bin/alevtd']

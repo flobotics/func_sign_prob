@@ -7301,3 +7301,4 @@
 /usr/bin/xssproxy
 /usr/bin/xmotd
 /usr/bin/ttv
+/usr/bin/alevtd
