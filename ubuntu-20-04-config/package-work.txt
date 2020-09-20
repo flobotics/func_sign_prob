@@ -2567,3 +2567,4 @@ xcolorsel
 xc3sprog
 xprintidle
 xine-ui
+xine-console

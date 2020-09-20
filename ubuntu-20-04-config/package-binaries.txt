@@ -7594,3 +7594,6 @@
 /usr/bin/xprintidle
 /usr/bin/xine
 /usr/bin/xine-remote
+/usr/bin/aaxine
+/usr/bin/cacaxine
+/usr/bin/fbxine
