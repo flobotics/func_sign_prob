@@ -6417,3 +6417,4 @@
 /usr/bin/clickhouse-copier
 /usr/bin/clickhouse-format
 /usr/bin/clickhouse-performance-test
+/usr/bin/clearcut

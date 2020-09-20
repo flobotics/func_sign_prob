@@ -3273,3 +3273,4 @@ clickhouse-server
 clickhouse-common
 clickhouse-client
 clickhouse-tools
+clearcut
