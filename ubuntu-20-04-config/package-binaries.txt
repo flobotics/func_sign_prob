@@ -7670,3 +7670,4 @@
 /usr/bin/xtel
 /usr/sbin/mdmdetect
 /usr/sbin/xteld
+/usr/bin/xfce4-taskmanager

@@ -23131,3 +23131,13 @@ Real binaries:['/usr/bin/xtel', '/usr/sbin/mdmdetect', '/usr/sbin/xteld']
 Write to package-work.txt file: xtel
 Write to package-binaries.txt file: ['/usr/bin/xtel', '/usr/sbin/mdmdetect', '/usr/sbin/xteld']
 ['/usr/bin/xtel', '/usr/sbin/mdmdetect', '/usr/sbin/xteld']
+Write pickle file
+tar_out:
+Package-nr:3974 of 11000, Name:xfce4-taskmanager-dbgsym
+Package >xfce4-taskmanager< not in package-all.txt file
+Write to package-all.txt file: xfce4-taskmanager
+In package >xfce4-taskmanager< are these binaries: ['/usr/bin/xfce4-taskmanager']
+Real binaries:['/usr/bin/xfce4-taskmanager']
+Write to package-work.txt file: xfce4-taskmanager
+Write to package-binaries.txt file: ['/usr/bin/xfce4-taskmanager']
+['/usr/bin/xfce4-taskmanager']

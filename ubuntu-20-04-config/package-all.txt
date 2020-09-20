@@ -3997,3 +3997,4 @@ xjobs
 xfce4-power-manager
 xscorch
 xtel
+xfce4-taskmanager
