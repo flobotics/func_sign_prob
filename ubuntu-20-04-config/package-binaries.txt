@@ -6175,3 +6175,11 @@
 /usr/sbin/sendmail
 /usr/bin/mimegpg
 /usr/bin/imapd
+/usr/bin/courier-config
+/usr/bin/couriertls
+/usr/bin/deliverquota.courier
+/usr/bin/maildiracl
+/usr/bin/maildirkw
+/usr/bin/maildirmake.courier
+/usr/bin/testmxlookup
+/usr/sbin/couriertcpd

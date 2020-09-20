@@ -3185,3 +3185,4 @@ courier-pop
 courier-pcp
 sqwebmail
 courier-imap
+courier-base

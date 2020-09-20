@@ -15762,3 +15762,13 @@ Real binaries:['/usr/bin/imapd']
 Write to package-work.txt file: courier-imap
 Write to package-binaries.txt file: ['/usr/bin/imapd']
 ['/usr/bin/imapd']
+Write pickle file
+tar_out:
+Package-nr:3110 of 11000, Name:courier-base-dbgsym
+Package >courier-base< not in package-all.txt file
+Write to package-all.txt file: courier-base
+In package >courier-base< are these binaries: ['/usr/bin/courier-config', '/usr/bin/couriertls', '/usr/bin/deliverquota.courier', '/usr/bin/maildiracl', '/usr/bin/maildirkw', '/usr/bin/maildirmake.courier', '/usr/bin/testmxlookup', '/usr/sbin/couriertcpd', '/usr/sbin/sharedindexinstall', '/usr/sbin/sharedindexsplit', '/usr/bin/makedat.courier', '/usr/sbin/makeimapaccess', '/usr/sbin/mkdhparams']
+Real binaries:['/usr/bin/courier-config', '/usr/bin/couriertls', '/usr/bin/deliverquota.courier', '/usr/bin/maildiracl', '/usr/bin/maildirkw', '/usr/bin/maildirmake.courier', '/usr/bin/testmxlookup', '/usr/sbin/couriertcpd']
+Write to package-work.txt file: courier-base
+Write to package-binaries.txt file: ['/usr/bin/courier-config', '/usr/bin/couriertls', '/usr/bin/deliverquota.courier', '/usr/bin/maildiracl', '/usr/bin/maildirkw', '/usr/bin/maildirmake.courier', '/usr/bin/testmxlookup', '/usr/sbin/couriertcpd']
+['/usr/bin/courier-config', '/usr/bin/couriertls', '/usr/bin/deliverquota.courier', '/usr/bin/maildiracl', '/usr/bin/maildirkw', '/usr/bin/maildirmake.courier', '/usr/bin/testmxlookup', '/usr/sbin/couriertcpd']
