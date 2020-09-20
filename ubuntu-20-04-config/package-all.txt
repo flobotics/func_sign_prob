@@ -3749,3 +3749,4 @@ python3-libmsiecf
 mtp-tools
 lua-mpack
 mpeg3-utils
+miri-sdr

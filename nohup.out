@@ -20799,3 +20799,13 @@ Real binaries:['/usr/bin/mpeg3cat', '/usr/bin/mpeg3dump', '/usr/bin/mpeg3peek', 
 Write to package-work.txt file: mpeg3-utils
 Write to package-binaries.txt file: ['/usr/bin/mpeg3cat', '/usr/bin/mpeg3dump', '/usr/bin/mpeg3peek', '/usr/bin/mpeg3toc']
 ['/usr/bin/mpeg3cat', '/usr/bin/mpeg3dump', '/usr/bin/mpeg3peek', '/usr/bin/mpeg3toc']
+Write pickle file
+tar_out:
+Package-nr:3703 of 11000, Name:miri-sdr-dbgsym
+Package >miri-sdr< not in package-all.txt file
+Write to package-all.txt file: miri-sdr
+In package >miri-sdr< are these binaries: ['/usr/bin/miri_sdr']
+Real binaries:['/usr/bin/miri_sdr']
+Write to package-work.txt file: miri-sdr
+Write to package-binaries.txt file: ['/usr/bin/miri_sdr']
+['/usr/bin/miri_sdr']

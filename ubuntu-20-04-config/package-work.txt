@@ -2425,3 +2425,4 @@ qflow
 xpmutils
 mtp-tools
 mpeg3-utils
+miri-sdr
