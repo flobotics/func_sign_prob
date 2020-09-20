@@ -7286,3 +7286,6 @@
 /usr/bin/uncpk
 /usr/bin/xa
 /usr/bin/xwit
+/usr/bin/xcf2png
+/usr/bin/xcf2pnm
+/usr/bin/xcfinfo
