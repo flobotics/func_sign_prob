@@ -6487,3 +6487,4 @@
 /usr/bin/setbrlkeys
 /usr/bin/clustalo
 /usr/bin/castxml
+/usr/bin/coolmail

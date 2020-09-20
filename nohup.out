@@ -17038,3 +17038,13 @@ Real binaries:['/usr/bin/castxml']
 Write to package-work.txt file: castxml
 Write to package-binaries.txt file: ['/usr/bin/castxml']
 ['/usr/bin/castxml']
+Write pickle file
+tar_out:
+Package-nr:3260 of 11000, Name:coolmail-dbgsym
+Package >coolmail< not in package-all.txt file
+Write to package-all.txt file: coolmail
+In package >coolmail< are these binaries: ['/usr/bin/coolmail']
+Real binaries:['/usr/bin/coolmail']
+Write to package-work.txt file: coolmail
+Write to package-binaries.txt file: ['/usr/bin/coolmail']
+['/usr/bin/coolmail']

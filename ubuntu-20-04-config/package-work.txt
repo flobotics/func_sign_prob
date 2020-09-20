@@ -2163,3 +2163,4 @@ cjs
 console-braille
 clustalo
 castxml
+coolmail
