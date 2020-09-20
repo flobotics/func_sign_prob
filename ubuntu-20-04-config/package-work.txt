@@ -2264,3 +2264,6 @@ capstone-tool
 cloop-utils
 csstidy
 chewing-editor
+cutepaste
+camlp4
+cantata

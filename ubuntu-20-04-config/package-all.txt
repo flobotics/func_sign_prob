@@ -3460,3 +3460,6 @@ cloop-utils
 csstidy
 cpdb-backend-cups
 chewing-editor
+cutepaste
+camlp4
+cantata

@@ -6836,3 +6836,11 @@
 /usr/bin/extract_compressed_fs
 /usr/bin/csstidy
 /usr/bin/chewing-editor
+/usr/bin/cutepaste
+/usr/bin/camlp4o.opt
+/usr/bin/camlp4of.opt
+/usr/bin/camlp4oof.opt
+/usr/bin/camlp4orf.opt
+/usr/bin/camlp4r.opt
+/usr/bin/camlp4rf.opt
+/usr/bin/cantata

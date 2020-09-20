@@ -18270,3 +18270,29 @@ Real binaries:['/usr/bin/chewing-editor']
 Write to package-work.txt file: chewing-editor
 Write to package-binaries.txt file: ['/usr/bin/chewing-editor']
 ['/usr/bin/chewing-editor']
+Write pickle file
+tar_out:
+Package-nr:3399 of 11000, Name:cutepaste-dbgsym
+Package >cutepaste< not in package-all.txt file
+Write to package-all.txt file: cutepaste
+In package >cutepaste< are these binaries: ['/usr/bin/cutepaste']
+Real binaries:['/usr/bin/cutepaste']
+Write to package-work.txt file: cutepaste
+Write to package-binaries.txt file: ['/usr/bin/cutepaste']
+['/usr/bin/cutepaste']
+Package-nr:3400 of 11000, Name:camlp4-dbgsym
+Package >camlp4< not in package-all.txt file
+Write to package-all.txt file: camlp4
+In package >camlp4< are these binaries: ['/usr/bin/camlp4', '/usr/bin/camlp4boot', '/usr/bin/camlp4o', '/usr/bin/camlp4o.opt', '/usr/bin/camlp4of', '/usr/bin/camlp4of.opt', '/usr/bin/camlp4oof', '/usr/bin/camlp4oof.opt', '/usr/bin/camlp4orf', '/usr/bin/camlp4orf.opt', '/usr/bin/camlp4prof', '/usr/bin/camlp4r', '/usr/bin/camlp4r.opt', '/usr/bin/camlp4rf', '/usr/bin/camlp4rf.opt', '/usr/bin/mkcamlp4']
+Real binaries:['/usr/bin/camlp4o.opt', '/usr/bin/camlp4of.opt', '/usr/bin/camlp4oof.opt', '/usr/bin/camlp4orf.opt', '/usr/bin/camlp4r.opt', '/usr/bin/camlp4rf.opt']
+Write to package-work.txt file: camlp4
+Write to package-binaries.txt file: ['/usr/bin/camlp4o.opt', '/usr/bin/camlp4of.opt', '/usr/bin/camlp4oof.opt', '/usr/bin/camlp4orf.opt', '/usr/bin/camlp4r.opt', '/usr/bin/camlp4rf.opt']
+['/usr/bin/camlp4o.opt', '/usr/bin/camlp4of.opt', '/usr/bin/camlp4oof.opt', '/usr/bin/camlp4orf.opt', '/usr/bin/camlp4r.opt', '/usr/bin/camlp4rf.opt']
+Package-nr:3401 of 11000, Name:cantata-dbgsym
+Package >cantata< not in package-all.txt file
+Write to package-all.txt file: cantata
+In package >cantata< are these binaries: ['/usr/bin/cantata']
+Real binaries:['/usr/bin/cantata']
+Write to package-work.txt file: cantata
+Write to package-binaries.txt file: ['/usr/bin/cantata']
+['/usr/bin/cantata']
