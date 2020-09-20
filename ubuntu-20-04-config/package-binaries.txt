@@ -6045,3 +6045,4 @@
 /usr/bin/clBLAS-client
 /usr/bin/cppcheck
 /usr/bin/cppcheck-gui
+/usr/bin/mate-seahorse-tool

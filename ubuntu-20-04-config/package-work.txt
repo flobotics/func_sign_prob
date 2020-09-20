@@ -2063,3 +2063,4 @@ comskip-gui
 clblas-client
 cppcheck
 cppcheck-gui
+caja-seahorse
