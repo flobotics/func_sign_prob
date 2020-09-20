@@ -20306,3 +20306,13 @@ Real binaries:['/usr/bin/qqwing']
 Write to package-work.txt file: qqwing
 Write to package-binaries.txt file: ['/usr/bin/qqwing']
 ['/usr/bin/qqwing']
+Write pickle file
+tar_out:
+Package-nr:3646 of 11000, Name:quickplot-dbgsym
+Package >quickplot< not in package-all.txt file
+Write to package-all.txt file: quickplot
+In package >quickplot< are these binaries: ['/usr/bin/quickplot', '/usr/bin/quickplot_shell']
+Real binaries:['/usr/bin/quickplot', '/usr/bin/quickplot_shell']
+Write to package-work.txt file: quickplot
+Write to package-binaries.txt file: ['/usr/bin/quickplot', '/usr/bin/quickplot_shell']
+['/usr/bin/quickplot', '/usr/bin/quickplot_shell']

@@ -7174,3 +7174,5 @@
 /usr/bin/quorum_error_correct_reads
 /usr/bin/split_mate_pairs
 /usr/bin/qqwing
+/usr/bin/quickplot
+/usr/bin/quickplot_shell

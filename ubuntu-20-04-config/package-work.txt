@@ -2391,3 +2391,4 @@ qmenu
 qtxmlpatterns5-dev-tools
 quorum
 qqwing
+quickplot

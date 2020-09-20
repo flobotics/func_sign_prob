@@ -3693,3 +3693,4 @@ qtxmlpatterns5-dev-tools
 qml-module-qtquick-xmllistmodel
 quorum
 qqwing
+quickplot
