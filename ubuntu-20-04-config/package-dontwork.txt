@@ -1404,3 +1404,4 @@ python3-kolabformat
 kde-config-cddb
 kio-sieve
 7kaa
+val-and-rick

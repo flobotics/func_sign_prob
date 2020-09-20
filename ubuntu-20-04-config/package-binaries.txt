@@ -7734,3 +7734,5 @@
 /usr/bin/verify_data
 /usr/bin/cgpt
 /usr/bin/futility
+/usr/sbin/varmon
+/usr/sbin/vblade

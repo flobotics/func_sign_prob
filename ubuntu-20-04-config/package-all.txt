@@ -4054,3 +4054,6 @@ vokoscreen-ng
 vboot-utils
 cgpt
 vboot-kernel-utils
+varmon
+val-and-rick
+vblade

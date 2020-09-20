@@ -23648,3 +23648,28 @@ Real binaries:['/usr/bin/futility']
 Write to package-work.txt file: vboot-kernel-utils
 Write to package-binaries.txt file: ['/usr/bin/futility']
 ['/usr/bin/futility']
+Write pickle file
+tar_out:
+Package-nr:4034 of 11000, Name:varmon-dbgsym
+Package >varmon< not in package-all.txt file
+Write to package-all.txt file: varmon
+In package >varmon< are these binaries: ['/usr/sbin/varmon']
+Real binaries:['/usr/sbin/varmon']
+Write to package-work.txt file: varmon
+Write to package-binaries.txt file: ['/usr/sbin/varmon']
+['/usr/sbin/varmon']
+Package-nr:4035 of 11000, Name:val-and-rick-dbgsym
+Package >val-and-rick< not in package-all.txt file
+Write to package-all.txt file: val-and-rick
+In package >val-and-rick< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: val-and-rick
+[]
+Package-nr:4036 of 11000, Name:vblade-dbgsym
+Package >vblade< not in package-all.txt file
+Write to package-all.txt file: vblade
+In package >vblade< are these binaries: ['/usr/sbin/vblade', '/usr/sbin/vbladed']
+Real binaries:['/usr/sbin/vblade']
+Write to package-work.txt file: vblade
+Write to package-binaries.txt file: ['/usr/sbin/vblade']
+['/usr/sbin/vblade']
