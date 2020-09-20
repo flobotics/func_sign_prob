@@ -3838,3 +3838,4 @@ xneur
 xteddy
 xbs
 xautolock
+xdotool

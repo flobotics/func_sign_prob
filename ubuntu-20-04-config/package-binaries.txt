@@ -7376,3 +7376,4 @@
 /usr/bin/xneur
 /usr/bin/xbs
 /usr/bin/xautolock
+/usr/bin/xdotool
