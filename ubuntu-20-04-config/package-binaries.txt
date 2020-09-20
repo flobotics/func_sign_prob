@@ -7311,3 +7311,7 @@
 /usr/bin/showriff
 /usr/bin/fbtv
 /usr/bin/pia
+/usr/bin/pplot
+/usr/bin/pxplot
+/usr/bin/xfoil
+/usr/bin/xcolors

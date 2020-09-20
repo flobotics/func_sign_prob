@@ -2454,3 +2454,5 @@ v4l-conf
 xawtv-tools
 fbtv
 pia
+xfoil
+xcolors

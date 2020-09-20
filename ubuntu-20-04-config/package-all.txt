@@ -3784,3 +3784,6 @@ v4l-conf
 xawtv-tools
 fbtv
 pia
+xdg-desktop-portal-tests
+xfoil
+xcolors
