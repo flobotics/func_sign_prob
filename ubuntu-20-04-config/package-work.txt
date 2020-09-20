@@ -2160,3 +2160,4 @@ chktex
 coinor-symphony
 chemeq
 cjs
+console-braille

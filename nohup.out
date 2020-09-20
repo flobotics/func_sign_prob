@@ -17008,3 +17008,13 @@ Real binaries:['/usr/bin/cjs-console']
 Write to package-work.txt file: cjs
 Write to package-binaries.txt file: ['/usr/bin/cjs-console']
 ['/usr/bin/cjs-console']
+Write pickle file
+tar_out:
+Package-nr:3257 of 11000, Name:console-braille-dbgsym
+Package >console-braille< not in package-all.txt file
+Write to package-all.txt file: console-braille
+In package >console-braille< are these binaries: ['/usr/bin/gen-psf-block', '/usr/bin/setbrlkeys']
+Real binaries:['/usr/bin/gen-psf-block', '/usr/bin/setbrlkeys']
+Write to package-work.txt file: console-braille
+Write to package-binaries.txt file: ['/usr/bin/gen-psf-block', '/usr/bin/setbrlkeys']
+['/usr/bin/gen-psf-block', '/usr/bin/setbrlkeys']
