@@ -22692,3 +22692,13 @@ Real binaries:['/usr/bin/xdt-csource']
 Write to package-work.txt file: xfce4-dev-tools
 Write to package-binaries.txt file: ['/usr/bin/xdt-csource']
 ['/usr/bin/xdt-csource']
+Write pickle file
+tar_out:
+Package-nr:3922 of 11000, Name:xrestop-dbgsym
+Package >xrestop< not in package-all.txt file
+Write to package-all.txt file: xrestop
+In package >xrestop< are these binaries: ['/usr/bin/xrestop']
+Real binaries:['/usr/bin/xrestop']
+Write to package-work.txt file: xrestop
+Write to package-binaries.txt file: ['/usr/bin/xrestop']
+['/usr/bin/xrestop']
