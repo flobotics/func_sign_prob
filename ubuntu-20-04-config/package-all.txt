@@ -3601,3 +3601,4 @@ quitcount
 qml-module-qtwebview
 qtwebview5-examples
 qpdfview
+qhull-bin

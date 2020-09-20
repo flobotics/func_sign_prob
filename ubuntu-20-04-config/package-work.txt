@@ -2347,3 +2347,4 @@ qtwebengine5-dev-tools
 qtgain
 quitcount
 qpdfview
+qhull-bin

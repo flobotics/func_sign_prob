@@ -19527,3 +19527,13 @@ Real binaries:['/usr/bin/qpdfview']
 Write to package-work.txt file: qpdfview
 Write to package-binaries.txt file: ['/usr/bin/qpdfview']
 ['/usr/bin/qpdfview']
+Write pickle file
+tar_out:
+Package-nr:3551 of 11000, Name:qhull-bin-dbgsym
+Package >qhull-bin< not in package-all.txt file
+Write to package-all.txt file: qhull-bin
+In package >qhull-bin< are these binaries: ['/usr/bin/qconvex', '/usr/bin/qdelaunay', '/usr/bin/qhalf', '/usr/bin/qhull', '/usr/bin/qvoronoi', '/usr/bin/rbox', '/usr/share/doc/qhull-bin/copyright', '/usr/share/doc/qhull-bin/changelog.Debian.gz']
+Real binaries:['/usr/bin/qconvex', '/usr/bin/qdelaunay', '/usr/bin/qhalf', '/usr/bin/qhull', '/usr/bin/qvoronoi', '/usr/bin/rbox']
+Write to package-work.txt file: qhull-bin
+Write to package-binaries.txt file: ['/usr/bin/qconvex', '/usr/bin/qdelaunay', '/usr/bin/qhalf', '/usr/bin/qhull', '/usr/bin/qvoronoi', '/usr/bin/rbox']
+['/usr/bin/qconvex', '/usr/bin/qdelaunay', '/usr/bin/qhalf', '/usr/bin/qhull', '/usr/bin/qvoronoi', '/usr/bin/rbox']
