@@ -3713,3 +3713,5 @@ qt5-assistant
 qttools5-dev-tools
 qdoc-qt5
 qtattributionsscanner-qt5
+qdbus-qt5
+qhelpgenerator-qt5
