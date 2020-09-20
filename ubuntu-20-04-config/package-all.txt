@@ -3923,3 +3923,4 @@ xracer
 xtermset
 xymon-client
 xinput-calibrator
+xdx
