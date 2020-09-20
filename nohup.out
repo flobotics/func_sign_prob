@@ -18833,3 +18833,13 @@ Real binaries:['/usr/bin/colord-kde-icc-importer']
 Write to package-work.txt file: colord-kde
 Write to package-binaries.txt file: ['/usr/bin/colord-kde-icc-importer']
 ['/usr/bin/colord-kde-icc-importer']
+Write pickle file
+tar_out:
+Package-nr:3464 of 11000, Name:camitk-actionstatemachine-dbgsym
+Package >camitk-actionstatemachine< not in package-all.txt file
+Write to package-all.txt file: camitk-actionstatemachine
+In package >camitk-actionstatemachine< are these binaries: ['/usr/bin/camitk-actionstatemachine']
+Real binaries:['/usr/bin/camitk-actionstatemachine']
+Write to package-work.txt file: camitk-actionstatemachine
+Write to package-binaries.txt file: ['/usr/bin/camitk-actionstatemachine']
+['/usr/bin/camitk-actionstatemachine']

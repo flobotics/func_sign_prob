@@ -3519,3 +3519,4 @@ crossfire-server
 citadel-server
 cutecom
 colord-kde
+camitk-actionstatemachine

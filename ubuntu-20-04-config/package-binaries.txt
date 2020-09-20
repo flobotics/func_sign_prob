@@ -6980,3 +6980,4 @@
 /usr/sbin/ctdlmigrate
 /usr/bin/cutecom
 /usr/bin/colord-kde-icc-importer
+/usr/bin/camitk-actionstatemachine
