@@ -6846,3 +6846,4 @@
 /usr/bin/cantata
 /usr/bin/a2crd
 /usr/bin/chordii
+/usr/bin/clit

@@ -18306,3 +18306,13 @@ Real binaries:['/usr/bin/a2crd', '/usr/bin/chordii']
 Write to package-work.txt file: chordii
 Write to package-binaries.txt file: ['/usr/bin/a2crd', '/usr/bin/chordii']
 ['/usr/bin/a2crd', '/usr/bin/chordii']
+Write pickle file
+tar_out:
+Package-nr:3403 of 11000, Name:convlit-dbgsym
+Package >convlit< not in package-all.txt file
+Write to package-all.txt file: convlit
+In package >convlit< are these binaries: ['/usr/bin/clit']
+Real binaries:['/usr/bin/clit']
+Write to package-work.txt file: convlit
+Write to package-binaries.txt file: ['/usr/bin/clit']
+['/usr/bin/clit']
