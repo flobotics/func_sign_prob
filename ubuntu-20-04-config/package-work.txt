@@ -2255,3 +2255,4 @@ conman
 ncoils
 chemtool
 cyrus-imspd
+cassiopee
