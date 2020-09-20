@@ -6626,3 +6626,4 @@
 /usr/bin/cweavex
 /usr/bin/cardpeek
 /usr/bin/clazy-standalone
+/usr/sbin/cpqarrayd
