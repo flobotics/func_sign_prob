@@ -2238,3 +2238,5 @@ cdebootstrap
 cdebootstrap-static
 cproto
 certmonger
+cdo
+latex-cjk-chinese

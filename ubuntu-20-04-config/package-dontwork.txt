@@ -1185,3 +1185,4 @@ crawl
 crawl-tiles
 python3-rgw
 chkrootkit
+python3-cyarray

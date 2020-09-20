@@ -17966,3 +17966,28 @@ Real binaries:['/usr/bin/certmaster-getcert', '/usr/bin/getcert', '/usr/bin/ipa-
 Write to package-work.txt file: certmonger
 Write to package-binaries.txt file: ['/usr/bin/certmaster-getcert', '/usr/bin/getcert', '/usr/bin/ipa-getcert', '/usr/bin/local-getcert', '/usr/bin/selfsign-getcert', '/usr/sbin/certmonger']
 ['/usr/bin/certmaster-getcert', '/usr/bin/getcert', '/usr/bin/ipa-getcert', '/usr/bin/local-getcert', '/usr/bin/selfsign-getcert', '/usr/sbin/certmonger']
+Write pickle file
+tar_out:
+Package-nr:3365 of 11000, Name:cdo-dbgsym
+Package >cdo< not in package-all.txt file
+Write to package-all.txt file: cdo
+In package >cdo< are these binaries: ['/usr/bin/cdi', '/usr/bin/cdo']
+Real binaries:['/usr/bin/cdi', '/usr/bin/cdo']
+Write to package-work.txt file: cdo
+No binaries to write to package-binaries.txt file
+[]
+Package-nr:3366 of 11000, Name:python3-cyarray-dbgsym
+Package >python3-cyarray< not in package-all.txt file
+Write to package-all.txt file: python3-cyarray
+In package >python3-cyarray< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: python3-cyarray
+[]
+Package-nr:3367 of 11000, Name:latex-cjk-chinese-dbgsym
+Package >latex-cjk-chinese< not in package-all.txt file
+Write to package-all.txt file: latex-cjk-chinese
+In package >latex-cjk-chinese< are these binaries: ['/usr/bin/bg5+latex', '/usr/bin/bg5+pdflatex', '/usr/bin/bg5conv', '/usr/bin/bg5latex', '/usr/bin/bg5pdflatex', '/usr/bin/cef5conv', '/usr/bin/cef5latex', '/usr/bin/cef5pdflatex', '/usr/bin/cefconv', '/usr/bin/ceflatex', '/usr/bin/cefpdflatex', '/usr/bin/cefsconv', '/usr/bin/cefslatex', '/usr/bin/cefspdflatex', '/usr/bin/extconv', '/usr/bin/gbklatex', '/usr/bin/gbkpdflatex']
+Real binaries:['/usr/bin/bg5conv', '/usr/bin/cef5conv', '/usr/bin/cefconv', '/usr/bin/cefsconv', '/usr/bin/extconv']
+Write to package-work.txt file: latex-cjk-chinese
+Write to package-binaries.txt file: ['/usr/bin/bg5conv', '/usr/bin/cef5conv', '/usr/bin/cefconv', '/usr/bin/cefsconv', '/usr/bin/extconv']
+['/usr/bin/bg5conv', '/usr/bin/cef5conv', '/usr/bin/cefconv', '/usr/bin/cefsconv', '/usr/bin/extconv']

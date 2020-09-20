@@ -3428,3 +3428,6 @@ cdebootstrap-static
 cproto
 chkrootkit
 certmonger
+cdo
+python3-cyarray
+latex-cjk-chinese

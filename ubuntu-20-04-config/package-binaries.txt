@@ -6795,3 +6795,8 @@
 /usr/bin/local-getcert
 /usr/bin/selfsign-getcert
 /usr/sbin/certmonger
+/usr/bin/bg5conv
+/usr/bin/cef5conv
+/usr/bin/cefconv
+/usr/bin/cefsconv
+/usr/bin/extconv
