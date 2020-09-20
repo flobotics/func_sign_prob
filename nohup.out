@@ -13794,3 +13794,20 @@ Real binaries:['/usr/sbin/i7z']
 Write to package-work.txt file: i7z
 Write to package-binaries.txt file: ['/usr/sbin/i7z']
 ['/usr/sbin/i7z']
+Write pickle file
+tar_out:
+Package-nr:2864 of 11000, Name:tcl-itcl4-dbgsym
+Package >tcl-itcl4< not in package-all.txt file
+Write to package-all.txt file: tcl-itcl4
+In package >tcl-itcl4< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: tcl-itcl4
+[]
+Package-nr:2865 of 11000, Name:icoutils-dbgsym
+Package >icoutils< not in package-all.txt file
+Write to package-all.txt file: icoutils
+In package >icoutils< are these binaries: ['/usr/bin/extresso', '/usr/bin/genresscript', '/usr/bin/icotool', '/usr/bin/wrestool']
+Real binaries:['/usr/bin/icotool', '/usr/bin/wrestool']
+Write to package-work.txt file: icoutils
+Write to package-binaries.txt file: ['/usr/bin/icotool', '/usr/bin/wrestool']
+['/usr/bin/icotool', '/usr/bin/wrestool']
