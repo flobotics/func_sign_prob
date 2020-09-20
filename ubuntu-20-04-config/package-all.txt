@@ -3344,3 +3344,4 @@ cc65
 caffe-tools-cpu
 python3-caffe-cpu
 cvs-fast-export
+caja-actions

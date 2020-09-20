@@ -17181,3 +17181,13 @@ Real binaries:['/usr/bin/cvs-fast-export']
 Write to package-work.txt file: cvs-fast-export
 Write to package-binaries.txt file: ['/usr/bin/cvs-fast-export']
 ['/usr/bin/cvs-fast-export']
+Write pickle file
+tar_out:
+Package-nr:3276 of 11000, Name:caja-actions-dbgsym
+Package >caja-actions< not in package-all.txt file
+Write to package-all.txt file: caja-actions
+In package >caja-actions< are these binaries: ['/usr/bin/caja-actions-config-tool', '/usr/bin/caja-actions-new', '/usr/bin/caja-actions-print', '/usr/bin/caja-actions-run']
+Real binaries:['/usr/bin/caja-actions-config-tool', '/usr/bin/caja-actions-new', '/usr/bin/caja-actions-print', '/usr/bin/caja-actions-run']
+Write to package-work.txt file: caja-actions
+Write to package-binaries.txt file: ['/usr/bin/caja-actions-config-tool', '/usr/bin/caja-actions-new', '/usr/bin/caja-actions-print', '/usr/bin/caja-actions-run']
+['/usr/bin/caja-actions-config-tool', '/usr/bin/caja-actions-new', '/usr/bin/caja-actions-print', '/usr/bin/caja-actions-run']

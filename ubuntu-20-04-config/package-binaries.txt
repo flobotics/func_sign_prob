@@ -6522,3 +6522,7 @@
 /usr/bin/upgrade_net_proto_text
 /usr/bin/upgrade_solver_proto_text
 /usr/bin/cvs-fast-export
+/usr/bin/caja-actions-config-tool
+/usr/bin/caja-actions-new
+/usr/bin/caja-actions-print
+/usr/bin/caja-actions-run
