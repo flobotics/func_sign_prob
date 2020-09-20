@@ -6967,3 +6967,5 @@
 /usr/lib/cyrus/bin/sync_reset
 /usr/lib/cyrus/bin/sync_server
 /usr/lib/cyrus/bin/imtest
+/usr/lib/cyrus/bin/fetchnews
+/usr/lib/cyrus/bin/nntpd
