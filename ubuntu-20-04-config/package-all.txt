@@ -3337,3 +3337,6 @@ cudf-tools
 cen64-qt
 catcodec
 cvsps
+crasm
+coinor-libcbc3
+coinor-cbc

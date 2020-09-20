@@ -6496,3 +6496,5 @@
 /usr/bin/cen64-qt
 /usr/bin/catcodec
 /usr/bin/cvsps
+/usr/bin/crasm
+/usr/bin/cbc

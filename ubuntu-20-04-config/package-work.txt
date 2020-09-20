@@ -2171,3 +2171,5 @@ cudf-tools
 cen64-qt
 catcodec
 cvsps
+crasm
+coinor-cbc

@@ -1161,3 +1161,4 @@ cutemaze
 conmon
 csmash
 coinor-libsymphony3
+coinor-libcbc3
