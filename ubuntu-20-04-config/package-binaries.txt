@@ -7607,3 +7607,4 @@
 /usr/bin/xfce4-screensaver-command
 /usr/bin/xfce4-screensaver-preferences
 /usr/bin/xsensors
+/usr/bin/xdt-csource
