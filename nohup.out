@@ -20228,3 +20228,13 @@ Real binaries:['/usr/bin/qmapshack', '/usr/bin/qmaptool', '/usr/bin/qmt_map2jnx'
 Write to package-work.txt file: qmapshack
 Write to package-binaries.txt file: ['/usr/bin/qmapshack', '/usr/bin/qmaptool', '/usr/bin/qmt_map2jnx', '/usr/bin/qmt_rgb2pct']
 ['/usr/bin/qmapshack', '/usr/bin/qmaptool', '/usr/bin/qmt_map2jnx', '/usr/bin/qmt_rgb2pct']
+Write pickle file
+tar_out:
+Package-nr:3637 of 11000, Name:qdacco-dbgsym
+Package >qdacco< not in package-all.txt file
+Write to package-all.txt file: qdacco
+In package >qdacco< are these binaries: ['/usr/bin/qdacco']
+Real binaries:['/usr/bin/qdacco']
+Write to package-work.txt file: qdacco
+Write to package-binaries.txt file: ['/usr/bin/qdacco']
+['/usr/bin/qdacco']
