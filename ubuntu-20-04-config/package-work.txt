@@ -2495,3 +2495,4 @@ xautolock
 xdotool
 xmbmon
 xastir
+x2goclient

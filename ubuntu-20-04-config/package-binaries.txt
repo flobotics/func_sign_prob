@@ -7382,3 +7382,4 @@
 /usr/bin/testdbfawk
 /usr/bin/xastir
 /usr/bin/xastir_udp_client
+/usr/bin/x2goclient

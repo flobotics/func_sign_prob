@@ -21679,3 +21679,13 @@ Real binaries:['/usr/bin/callpass', '/usr/bin/testdbfawk', '/usr/bin/xastir', '/
 Write to package-work.txt file: xastir
 Write to package-binaries.txt file: ['/usr/bin/callpass', '/usr/bin/testdbfawk', '/usr/bin/xastir', '/usr/bin/xastir_udp_client']
 ['/usr/bin/callpass', '/usr/bin/testdbfawk', '/usr/bin/xastir', '/usr/bin/xastir_udp_client']
+Write pickle file
+tar_out:
+Package-nr:3805 of 11000, Name:x2goclient-dbgsym
+Package >x2goclient< not in package-all.txt file
+Write to package-all.txt file: x2goclient
+In package >x2goclient< are these binaries: ['/usr/bin/x2goclient']
+Real binaries:['/usr/bin/x2goclient']
+Write to package-work.txt file: x2goclient
+Write to package-binaries.txt file: ['/usr/bin/x2goclient']
+['/usr/bin/x2goclient']
