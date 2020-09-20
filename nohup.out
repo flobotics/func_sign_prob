@@ -20698,3 +20698,16 @@ Real binaries:['/usr/bin/qdirstat']
 Write to package-work.txt file: qdirstat
 Write to package-binaries.txt file: ['/usr/bin/qdirstat']
 ['/usr/bin/qdirstat']
+Write pickle file
+tar_out:
+Package-nr:3691 of 11000, Name:qterm-dbgsym
+Skip package >qterm<, already in package-all.txt file
+[]
+Package-nr:3692 of 11000, Name:qprint-dbgsym
+Package >qprint< not in package-all.txt file
+Write to package-all.txt file: qprint
+In package >qprint< are these binaries: ['/usr/bin/qprint']
+Real binaries:['/usr/bin/qprint']
+Write to package-work.txt file: qprint
+Write to package-binaries.txt file: ['/usr/bin/qprint']
+['/usr/bin/qprint']
