@@ -2132,3 +2132,4 @@ cantor-backend-python3
 cantor-backend-julia
 c-icap
 cxref
+cbootimage

@@ -3291,3 +3291,4 @@ cantor-backend-scilab
 cantor-backend-julia
 c-icap
 cxref
+cbootimage

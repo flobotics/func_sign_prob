@@ -6430,3 +6430,5 @@
 /usr/bin/cxref
 /usr/bin/cxref-cpp.upstream
 /usr/bin/cxref-query
+/usr/bin/bct_dump
+/usr/bin/cbootimage
