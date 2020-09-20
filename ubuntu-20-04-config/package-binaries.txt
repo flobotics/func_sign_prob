@@ -7426,3 +7426,4 @@
 /usr/bin/xdms
 /usr/bin/xtrkcad
 /usr/bin/x11vnc
+/usr/bin/xsdcxx
