@@ -1405,3 +1405,6 @@ kde-config-cddb
 kio-sieve
 7kaa
 val-and-rick
+vala-panel-appmenu
+mate-applet-appmenu
+budgie-appmenu-applet

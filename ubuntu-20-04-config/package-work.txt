@@ -2649,3 +2649,4 @@ varmon
 vblade
 vym
 verbiste-gtk
+vmfs6-tools

@@ -7738,3 +7738,7 @@
 /usr/sbin/vblade
 /usr/bin/vym
 /usr/bin/verbiste
+/usr/sbin/debugvmfs6
+/usr/sbin/fsck.vmfs6
+/usr/sbin/vmfs6-fuse
+/usr/sbin/vmfs6-lvm

@@ -4059,3 +4059,7 @@ val-and-rick
 vblade
 vym
 verbiste-gtk
+vala-panel-appmenu
+mate-applet-appmenu
+budgie-appmenu-applet
+vmfs6-tools
