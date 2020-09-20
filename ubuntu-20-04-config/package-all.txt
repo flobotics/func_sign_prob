@@ -2884,3 +2884,4 @@ ifmetric
 isoqlog
 ioping
 inetutils-inetd
+inetutils-ftpd

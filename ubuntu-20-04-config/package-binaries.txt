@@ -5662,3 +5662,4 @@
 /usr/bin/isoqlog
 /usr/bin/ioping
 /usr/sbin/inetutils-inetd
+/usr/sbin/ftpd
