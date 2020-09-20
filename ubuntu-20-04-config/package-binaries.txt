@@ -6959,3 +6959,6 @@
 /usr/lib/cyrus/bin/tls_prune
 /usr/lib/cyrus/bin/unexpunge
 /usr/lib/cyrus/bin/pop3d
+/usr/lib/cyrus/bin/idled
+/usr/lib/cyrus/bin/imapd
+/usr/lib/cyrus/bin/squatter

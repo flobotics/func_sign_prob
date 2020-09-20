@@ -18685,3 +18685,13 @@ Real binaries:['/usr/lib/cyrus/bin/pop3d']
 Write to package-work.txt file: cyrus-pop3d
 Write to package-binaries.txt file: ['/usr/lib/cyrus/bin/pop3d']
 ['/usr/lib/cyrus/bin/pop3d']
+Write pickle file
+tar_out:
+Package-nr:3448 of 11000, Name:cyrus-imapd-dbgsym
+Package >cyrus-imapd< not in package-all.txt file
+Write to package-all.txt file: cyrus-imapd
+In package >cyrus-imapd< are these binaries: ['/usr/lib/cyrus/bin/idled', '/usr/lib/cyrus/bin/imapd', '/usr/lib/cyrus/bin/squatter']
+Real binaries:['/usr/lib/cyrus/bin/idled', '/usr/lib/cyrus/bin/imapd', '/usr/lib/cyrus/bin/squatter']
+Write to package-work.txt file: cyrus-imapd
+Write to package-binaries.txt file: ['/usr/lib/cyrus/bin/idled', '/usr/lib/cyrus/bin/imapd', '/usr/lib/cyrus/bin/squatter']
+['/usr/lib/cyrus/bin/idled', '/usr/lib/cyrus/bin/imapd', '/usr/lib/cyrus/bin/squatter']
