@@ -16714,3 +16714,13 @@ Real binaries:['/usr/bin/calligrawords']
 Write to package-work.txt file: calligrawords
 Write to package-binaries.txt file: ['/usr/bin/calligrawords']
 ['/usr/bin/calligrawords']
+Write pickle file
+tar_out:
+Package-nr:3224 of 11000, Name:karbon-dbgsym
+Package >karbon< not in package-all.txt file
+Write to package-all.txt file: karbon
+In package >karbon< are these binaries: ['/usr/bin/karbon']
+Real binaries:['/usr/bin/karbon']
+Write to package-work.txt file: karbon
+Write to package-binaries.txt file: ['/usr/bin/karbon']
+['/usr/bin/karbon']

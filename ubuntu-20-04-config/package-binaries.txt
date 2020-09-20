@@ -6434,3 +6434,4 @@
 /usr/bin/cbootimage
 /usr/bin/calligrastage
 /usr/bin/calligrawords
+/usr/bin/karbon
