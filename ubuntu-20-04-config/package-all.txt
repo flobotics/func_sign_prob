@@ -3501,3 +3501,4 @@ camlp5
 crack-md5
 ccze
 cgminer
+cyrus-common
