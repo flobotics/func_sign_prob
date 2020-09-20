@@ -3976,3 +3976,5 @@ xboard
 xdu
 xmms2-core
 xmms2-client-avahi
+xmms2-client-cli
+xmms2-client-medialib-updater

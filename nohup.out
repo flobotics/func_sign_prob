@@ -22944,3 +22944,21 @@ Real binaries:['/usr/bin/xmms2-find-avahi', '/usr/bin/xmms2-mdns-avahi']
 Write to package-work.txt file: xmms2-client-avahi
 Write to package-binaries.txt file: ['/usr/bin/xmms2-find-avahi', '/usr/bin/xmms2-mdns-avahi']
 ['/usr/bin/xmms2-find-avahi', '/usr/bin/xmms2-mdns-avahi']
+Write pickle file
+tar_out:
+Package-nr:3952 of 11000, Name:xmms2-client-cli-dbgsym
+Package >xmms2-client-cli< not in package-all.txt file
+Write to package-all.txt file: xmms2-client-cli
+In package >xmms2-client-cli< are these binaries: ['/usr/bin/xmms2']
+Real binaries:['/usr/bin/xmms2']
+Write to package-work.txt file: xmms2-client-cli
+No binaries to write to package-binaries.txt file
+[]
+Package-nr:3953 of 11000, Name:xmms2-client-medialib-updater-dbgsym
+Package >xmms2-client-medialib-updater< not in package-all.txt file
+Write to package-all.txt file: xmms2-client-medialib-updater
+In package >xmms2-client-medialib-updater< are these binaries: ['/usr/bin/xmms2-mlib-updater']
+Real binaries:['/usr/bin/xmms2-mlib-updater']
+Write to package-work.txt file: xmms2-client-medialib-updater
+Write to package-binaries.txt file: ['/usr/bin/xmms2-mlib-updater']
+['/usr/bin/xmms2-mlib-updater']
