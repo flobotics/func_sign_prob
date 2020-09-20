@@ -3441,3 +3441,5 @@ calculix-cgx
 cockpit-tests
 cockpit-ws
 cockpit-bridge
+cockpit-pcp
+comparepdf

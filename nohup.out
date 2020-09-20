@@ -18086,3 +18086,20 @@ Real binaries:['/usr/bin/cockpit-bridge']
 Write to package-work.txt file: cockpit-bridge
 Write to package-binaries.txt file: ['/usr/bin/cockpit-bridge']
 ['/usr/bin/cockpit-bridge']
+Write pickle file
+tar_out:
+Package-nr:3378 of 11000, Name:cockpit-pcp-dbgsym
+Package >cockpit-pcp< not in package-all.txt file
+Write to package-all.txt file: cockpit-pcp
+In package >cockpit-pcp< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: cockpit-pcp
+[]
+Package-nr:3379 of 11000, Name:comparepdf-dbgsym
+Package >comparepdf< not in package-all.txt file
+Write to package-all.txt file: comparepdf
+In package >comparepdf< are these binaries: ['/usr/bin/comparepdf']
+Real binaries:['/usr/bin/comparepdf']
+Write to package-work.txt file: comparepdf
+Write to package-binaries.txt file: ['/usr/bin/comparepdf']
+['/usr/bin/comparepdf']
