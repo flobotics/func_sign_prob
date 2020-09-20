@@ -1190,3 +1190,4 @@ cockpit-tests
 cockpit-pcp
 criticalmass
 r-cran-chron
+cpdb-backend-cups

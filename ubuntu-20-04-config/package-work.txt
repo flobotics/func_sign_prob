@@ -2263,3 +2263,4 @@ chicken-bin
 capstone-tool
 cloop-utils
 csstidy
+chewing-editor

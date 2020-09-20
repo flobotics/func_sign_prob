@@ -3458,3 +3458,5 @@ criticalmass
 r-cran-chron
 cloop-utils
 csstidy
+cpdb-backend-cups
+chewing-editor

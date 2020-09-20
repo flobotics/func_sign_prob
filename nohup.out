@@ -18253,3 +18253,20 @@ Real binaries:['/usr/bin/csstidy']
 Write to package-work.txt file: csstidy
 Write to package-binaries.txt file: ['/usr/bin/csstidy']
 ['/usr/bin/csstidy']
+Write pickle file
+tar_out:
+Package-nr:3397 of 11000, Name:cpdb-backend-cups-dbgsym
+Package >cpdb-backend-cups< not in package-all.txt file
+Write to package-all.txt file: cpdb-backend-cups
+In package >cpdb-backend-cups< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: cpdb-backend-cups
+[]
+Package-nr:3398 of 11000, Name:chewing-editor-dbgsym
+Package >chewing-editor< not in package-all.txt file
+Write to package-all.txt file: chewing-editor
+In package >chewing-editor< are these binaries: ['/usr/bin/chewing-editor']
+Real binaries:['/usr/bin/chewing-editor']
+Write to package-work.txt file: chewing-editor
+Write to package-binaries.txt file: ['/usr/bin/chewing-editor']
+['/usr/bin/chewing-editor']
