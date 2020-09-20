@@ -17313,3 +17313,23 @@ Real binaries:['/usr/sbin/cmospwd']
 Write to package-work.txt file: cmospwd
 Write to package-binaries.txt file: ['/usr/sbin/cmospwd']
 ['/usr/sbin/cmospwd']
+Write pickle file
+tar_out:
+Package-nr:3291 of 11000, Name:codeblocks-contrib-dbgsym
+Package >codeblocks-contrib< not in package-all.txt file
+Write to package-all.txt file: codeblocks-contrib
+In package >codeblocks-contrib< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: codeblocks-contrib
+[]
+Package-nr:3292 of 11000, Name:codeblocks-dbgsym
+Skip package >codeblocks<, already in package-all.txt file
+[]
+Package-nr:3293 of 11000, Name:cura-engine-dbgsym
+Package >cura-engine< not in package-all.txt file
+Write to package-all.txt file: cura-engine
+In package >cura-engine< are these binaries: ['/usr/bin/CuraEngine']
+Real binaries:['/usr/bin/CuraEngine']
+Write to package-work.txt file: cura-engine
+Write to package-binaries.txt file: ['/usr/bin/CuraEngine']
+['/usr/bin/CuraEngine']

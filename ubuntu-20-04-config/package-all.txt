@@ -3359,3 +3359,5 @@ qml-module-qmltermwidget
 ctsim
 colorhug-client
 cmospwd
+codeblocks-contrib
+cura-engine

@@ -6621,3 +6621,4 @@
 /usr/bin/colorhug-flash
 /usr/bin/colorhug-refresh
 /usr/sbin/cmospwd
+/usr/bin/CuraEngine

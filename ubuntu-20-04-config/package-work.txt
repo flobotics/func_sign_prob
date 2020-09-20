@@ -2185,3 +2185,4 @@ cool-retro-term
 ctsim
 colorhug-client
 cmospwd
+cura-engine
