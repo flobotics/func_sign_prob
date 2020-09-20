@@ -4024,3 +4024,4 @@ xserver-xorg-input-xwiimote
 xpad
 x264
 xcb
+xmms2-scrobbler

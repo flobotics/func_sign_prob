@@ -23380,3 +23380,13 @@ Real binaries:['/usr/bin/xcb']
 Write to package-work.txt file: xcb
 Write to package-binaries.txt file: ['/usr/bin/xcb']
 ['/usr/bin/xcb']
+Write pickle file
+tar_out:
+Package-nr:4003 of 11000, Name:xmms2-scrobbler-dbgsym
+Package >xmms2-scrobbler< not in package-all.txt file
+Write to package-all.txt file: xmms2-scrobbler
+In package >xmms2-scrobbler< are these binaries: ['/usr/bin/xmms2-scrobbler']
+Real binaries:['/usr/bin/xmms2-scrobbler']
+Write to package-work.txt file: xmms2-scrobbler
+Write to package-binaries.txt file: ['/usr/bin/xmms2-scrobbler']
+['/usr/bin/xmms2-scrobbler']
