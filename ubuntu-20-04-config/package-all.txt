@@ -3690,3 +3690,5 @@ qmenu
 qml-module-qtgraphicaleffects
 qtxmlpatterns5-examples
 qtxmlpatterns5-dev-tools
+qml-module-qtquick-xmllistmodel
+quorum

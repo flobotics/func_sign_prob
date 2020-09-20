@@ -7169,3 +7169,7 @@
 /usr/bin/qmenu
 /usr/lib/qt5/bin/xmlpatterns
 /usr/lib/qt5/bin/xmlpatternsvalidator
+/usr/bin/merge_mate_pairs
+/usr/bin/quorum_create_database
+/usr/bin/quorum_error_correct_reads
+/usr/bin/split_mate_pairs
