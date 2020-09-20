@@ -6043,3 +6043,4 @@
 /usr/bin/cdi2iso
 /usr/bin/comskip-gui
 /usr/bin/clBLAS-client
+/usr/bin/cppcheck
