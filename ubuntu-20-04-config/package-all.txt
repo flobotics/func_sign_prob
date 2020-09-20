@@ -4006,3 +4006,4 @@ xidle
 xbacklight
 xcowsay
 xfce4-settings
+xvattr

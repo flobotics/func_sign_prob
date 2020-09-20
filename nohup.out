@@ -23212,3 +23212,13 @@ Real binaries:['/usr/bin/xfce4-accessibility-settings', '/usr/bin/xfce4-appearan
 Write to package-work.txt file: xfce4-settings
 Write to package-binaries.txt file: ['/usr/bin/xfce4-accessibility-settings', '/usr/bin/xfce4-appearance-settings', '/usr/bin/xfce4-color-settings', '/usr/bin/xfce4-display-settings', '/usr/bin/xfce4-find-cursor', '/usr/bin/xfce4-keyboard-settings', '/usr/bin/xfce4-mime-settings', '/usr/bin/xfce4-mouse-settings', '/usr/bin/xfce4-settings-editor', '/usr/bin/xfce4-settings-manager', '/usr/bin/xfsettingsd']
 ['/usr/bin/xfce4-accessibility-settings', '/usr/bin/xfce4-appearance-settings', '/usr/bin/xfce4-color-settings', '/usr/bin/xfce4-display-settings', '/usr/bin/xfce4-find-cursor', '/usr/bin/xfce4-keyboard-settings', '/usr/bin/xfce4-mime-settings', '/usr/bin/xfce4-mouse-settings', '/usr/bin/xfce4-settings-editor', '/usr/bin/xfce4-settings-manager', '/usr/bin/xfsettingsd']
+Write pickle file
+tar_out:
+Package-nr:3983 of 11000, Name:xvattr-dbgsym
+Package >xvattr< not in package-all.txt file
+Write to package-all.txt file: xvattr
+In package >xvattr< are these binaries: ['/usr/bin/gxvattr', '/usr/bin/xvattr']
+Real binaries:['/usr/bin/gxvattr', '/usr/bin/xvattr']
+Write to package-work.txt file: xvattr
+Write to package-binaries.txt file: ['/usr/bin/gxvattr', '/usr/bin/xvattr']
+['/usr/bin/gxvattr', '/usr/bin/xvattr']
