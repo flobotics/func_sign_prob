@@ -6962,3 +6962,7 @@
 /usr/lib/cyrus/bin/idled
 /usr/lib/cyrus/bin/imapd
 /usr/lib/cyrus/bin/squatter
+/usr/lib/cyrus/bin/cyr_synclog
+/usr/lib/cyrus/bin/sync_client
+/usr/lib/cyrus/bin/sync_reset
+/usr/lib/cyrus/bin/sync_server

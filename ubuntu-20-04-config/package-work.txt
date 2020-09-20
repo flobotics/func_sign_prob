@@ -2299,3 +2299,4 @@ cgminer
 cyrus-common
 cyrus-pop3d
 cyrus-imapd
+cyrus-replication
