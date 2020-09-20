@@ -3181,3 +3181,6 @@ catimg
 cackey
 courier-webadmin
 courier-mta
+courier-pop
+courier-pcp
+sqwebmail

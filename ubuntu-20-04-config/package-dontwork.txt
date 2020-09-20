@@ -1103,3 +1103,5 @@ python3-csound
 printer-driver-cups-pdf
 cackey
 courier-webadmin
+courier-pop
+courier-pcp
