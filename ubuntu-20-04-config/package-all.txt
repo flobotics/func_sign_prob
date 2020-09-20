@@ -3440,3 +3440,4 @@ centreon-engine
 calculix-cgx
 cockpit-tests
 cockpit-ws
+cockpit-bridge

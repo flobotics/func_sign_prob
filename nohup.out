@@ -18076,3 +18076,13 @@ Real binaries:['/usr/sbin/remotectl']
 Write to package-work.txt file: cockpit-ws
 Write to package-binaries.txt file: ['/usr/sbin/remotectl']
 ['/usr/sbin/remotectl']
+Write pickle file
+tar_out:
+Package-nr:3377 of 11000, Name:cockpit-bridge-dbgsym
+Package >cockpit-bridge< not in package-all.txt file
+Write to package-all.txt file: cockpit-bridge
+In package >cockpit-bridge< are these binaries: ['/usr/bin/cockpit-bridge']
+Real binaries:['/usr/bin/cockpit-bridge']
+Write to package-work.txt file: cockpit-bridge
+Write to package-binaries.txt file: ['/usr/bin/cockpit-bridge']
+['/usr/bin/cockpit-bridge']

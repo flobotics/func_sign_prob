@@ -6809,3 +6809,4 @@
 /usr/sbin/centenginestats
 /usr/bin/cgx
 /usr/sbin/remotectl
+/usr/bin/cockpit-bridge

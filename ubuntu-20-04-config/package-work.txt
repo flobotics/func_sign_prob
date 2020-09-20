@@ -2248,3 +2248,4 @@ cronolog
 centreon-engine
 calculix-cgx
 cockpit-ws
+cockpit-bridge
