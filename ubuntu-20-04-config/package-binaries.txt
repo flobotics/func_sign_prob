@@ -6814,3 +6814,4 @@
 /usr/bin/cdparanoia
 /usr/bin/conman
 /usr/sbin/conmand
+/usr/bin/ncoils

@@ -2252,3 +2252,4 @@ cockpit-bridge
 comparepdf
 cdparanoia
 conman
+ncoils

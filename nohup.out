@@ -18123,3 +18123,13 @@ Real binaries:['/usr/bin/conman', '/usr/sbin/conmand']
 Write to package-work.txt file: conman
 Write to package-binaries.txt file: ['/usr/bin/conman', '/usr/sbin/conmand']
 ['/usr/bin/conman', '/usr/sbin/conmand']
+Write pickle file
+tar_out:
+Package-nr:3382 of 11000, Name:ncoils-dbgsym
+Package >ncoils< not in package-all.txt file
+Write to package-all.txt file: ncoils
+In package >ncoils< are these binaries: ['/usr/bin/coils-wrap', '/usr/bin/ncoils']
+Real binaries:['/usr/bin/ncoils']
+Write to package-work.txt file: ncoils
+Write to package-binaries.txt file: ['/usr/bin/ncoils']
+['/usr/bin/ncoils']

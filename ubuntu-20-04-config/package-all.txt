@@ -3445,3 +3445,4 @@ cockpit-pcp
 comparepdf
 cdparanoia
 conman
+ncoils
