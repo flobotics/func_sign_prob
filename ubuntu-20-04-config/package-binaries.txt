@@ -6770,3 +6770,4 @@
 /usr/bin/centreon_connector_ssh
 /usr/bin/centreon_connector_perl
 /usr/sbin/callisto
+/usr/bin/curtain

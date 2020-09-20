@@ -3411,3 +3411,4 @@ cutmp3
 centreon-connector-ssh
 centreon-connector-perl
 callisto
+curtain
