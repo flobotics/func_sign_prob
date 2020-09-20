@@ -5912,3 +5912,4 @@
 /usr/bin/ccal
 /usr/bin/concavity
 /usr/bin/ccx
+/usr/sbin/cwdaemon

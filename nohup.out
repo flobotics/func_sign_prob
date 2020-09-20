@@ -13955,3 +13955,13 @@ Real binaries:['/usr/bin/ccx']
 Write to package-work.txt file: calculix-ccx
 Write to package-binaries.txt file: ['/usr/bin/ccx']
 ['/usr/bin/ccx']
+Write pickle file
+tar_out:
+Package-nr:2884 of 11000, Name:cwdaemon-dbgsym
+Package >cwdaemon< not in package-all.txt file
+Write to package-all.txt file: cwdaemon
+In package >cwdaemon< are these binaries: ['/usr/sbin/cwdaemon']
+Real binaries:['/usr/sbin/cwdaemon']
+Write to package-work.txt file: cwdaemon
+Write to package-binaries.txt file: ['/usr/sbin/cwdaemon']
+['/usr/sbin/cwdaemon']

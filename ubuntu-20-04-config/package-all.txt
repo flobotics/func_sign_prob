@@ -2976,3 +2976,4 @@ choosewm
 ccal
 concavity
 calculix-ccx
+cwdaemon
