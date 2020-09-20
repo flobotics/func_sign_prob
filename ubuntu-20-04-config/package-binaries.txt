@@ -6631,3 +6631,9 @@
 /usr/bin/concalc
 /usr/bin/cciss_vol_status
 /usr/bin/cohomcalg
+/usr/bin/chilight
+/usr/bin/cobfusc
+/usr/bin/cundecl
+/usr/bin/cunloop
+/usr/bin/yyextract
+/usr/bin/yyref

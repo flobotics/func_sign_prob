@@ -17420,3 +17420,13 @@ Real binaries:['/usr/bin/cohomcalg']
 Write to package-work.txt file: cohomcalg
 Write to package-binaries.txt file: ['/usr/bin/cohomcalg']
 ['/usr/bin/cohomcalg']
+Write pickle file
+tar_out:
+Package-nr:3303 of 11000, Name:cutils-dbgsym
+Package >cutils< not in package-all.txt file
+Write to package-all.txt file: cutils
+In package >cutils< are these binaries: ['/usr/bin/cdecl', 'diverted by cdecl to: /usr/bin/cdecl.cutils', '/usr/bin/chilight', '/usr/bin/cobfusc', '/usr/bin/cundecl', '/usr/bin/cunloop', '/usr/bin/yyextract', '/usr/bin/yyref']
+Real binaries:['/usr/bin/cdecl', '/usr/bin/chilight', '/usr/bin/cobfusc', '/usr/bin/cundecl', '/usr/bin/cunloop', '/usr/bin/yyextract', '/usr/bin/yyref']
+Write to package-work.txt file: cutils
+Write to package-binaries.txt file: ['/usr/bin/chilight', '/usr/bin/cobfusc', '/usr/bin/cundecl', '/usr/bin/cunloop', '/usr/bin/yyextract', '/usr/bin/yyref']
+['/usr/bin/chilight', '/usr/bin/cobfusc', '/usr/bin/cundecl', '/usr/bin/cunloop', '/usr/bin/yyextract', '/usr/bin/yyref']
