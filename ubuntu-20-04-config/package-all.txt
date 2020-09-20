@@ -4049,3 +4049,5 @@ kcapi-tools
 kde-config-cddb
 kio-sieve
 ktoblzcheck
+7kaa
+vokoscreen-ng

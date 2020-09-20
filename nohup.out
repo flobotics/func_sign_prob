@@ -23601,3 +23601,20 @@ Real binaries:['/usr/bin/ktoblzcheck']
 Write to package-work.txt file: ktoblzcheck
 Write to package-binaries.txt file: ['/usr/bin/ktoblzcheck']
 ['/usr/bin/ktoblzcheck']
+Write pickle file
+tar_out:
+Package-nr:4029 of 11000, Name:7kaa-dbgsym
+Package >7kaa< not in package-all.txt file
+Write to package-all.txt file: 7kaa
+In package >7kaa< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: 7kaa
+[]
+Package-nr:4030 of 11000, Name:vokoscreen-ng-dbgsym
+Package >vokoscreen-ng< not in package-all.txt file
+Write to package-all.txt file: vokoscreen-ng
+In package >vokoscreen-ng< are these binaries: ['/usr/bin/vokoscreenNG']
+Real binaries:['/usr/bin/vokoscreenNG']
+Write to package-work.txt file: vokoscreen-ng
+Write to package-binaries.txt file: ['/usr/bin/vokoscreenNG']
+['/usr/bin/vokoscreenNG']

@@ -1403,3 +1403,4 @@ qml-module-org-kde-games-core
 python3-kolabformat
 kde-config-cddb
 kio-sieve
+7kaa
