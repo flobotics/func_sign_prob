@@ -3266,3 +3266,5 @@ chkservice
 cryptmount
 python3-chemps2
 curvedns
+chromium-bsu
+conv-tools

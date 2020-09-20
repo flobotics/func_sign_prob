@@ -16470,3 +16470,20 @@ Real binaries:['/usr/sbin/curvedns', '/usr/sbin/curvedns-keygen']
 Write to package-work.txt file: curvedns
 Write to package-binaries.txt file: ['/usr/sbin/curvedns', '/usr/sbin/curvedns-keygen']
 ['/usr/sbin/curvedns', '/usr/sbin/curvedns-keygen']
+Write pickle file
+tar_out:
+Package-nr:3195 of 11000, Name:chromium-bsu-dbgsym
+Package >chromium-bsu< not in package-all.txt file
+Write to package-all.txt file: chromium-bsu
+In package >chromium-bsu< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: chromium-bsu
+[]
+Package-nr:3196 of 11000, Name:conv-tools-dbgsym
+Package >conv-tools< not in package-all.txt file
+Write to package-all.txt file: conv-tools
+In package >conv-tools< are these binaries: ['/usr/bin/dirconv', '/usr/bin/mixconv']
+Real binaries:['/usr/bin/dirconv', '/usr/bin/mixconv']
+Write to package-work.txt file: conv-tools
+Write to package-binaries.txt file: ['/usr/bin/dirconv', '/usr/bin/mixconv']
+['/usr/bin/dirconv', '/usr/bin/mixconv']

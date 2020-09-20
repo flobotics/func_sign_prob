@@ -6408,3 +6408,5 @@
 /usr/bin/cryptmount
 /usr/sbin/curvedns
 /usr/sbin/curvedns-keygen
+/usr/bin/dirconv
+/usr/bin/mixconv
