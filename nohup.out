@@ -21308,3 +21308,13 @@ Real binaries:['/usr/bin/xstarfish']
 Write to package-work.txt file: xstarfish
 Write to package-binaries.txt file: ['/usr/bin/xstarfish']
 ['/usr/bin/xstarfish']
+Write pickle file
+tar_out:
+Package-nr:3763 of 11000, Name:xcal-dbgsym
+Package >xcal< not in package-all.txt file
+Write to package-all.txt file: xcal
+In package >xcal< are these binaries: ['/usr/bin/pscal', '/usr/bin/xcal', '/usr/bin/xcal_cal', '/usr/bin/xcalev', '/usr/bin/xcalpr']
+Real binaries:['/usr/bin/xcal', '/usr/bin/xcal_cal', '/usr/bin/xcalev', '/usr/bin/xcalpr']
+Write to package-work.txt file: xcal
+Write to package-binaries.txt file: ['/usr/bin/xcal_cal', '/usr/bin/xcalev', '/usr/bin/xcalpr']
+['/usr/bin/xcal_cal', '/usr/bin/xcalev', '/usr/bin/xcalpr']

@@ -7329,3 +7329,6 @@
 /usr/lib/cgi-bin/omega/omega
 /usr/bin/xsecurelock
 /usr/bin/xstarfish
+/usr/bin/xcal_cal
+/usr/bin/xcalev
+/usr/bin/xcalpr
