@@ -3924,3 +3924,4 @@ xtermset
 xymon-client
 xinput-calibrator
 xdx
+xtail

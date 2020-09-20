@@ -7520,3 +7520,4 @@
 /usr/lib/xymon/client/bin/xymonlaunch
 /usr/bin/xinput_calibrator
 /usr/bin/xdx
+/usr/bin/xtail
