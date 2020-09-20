@@ -6340,3 +6340,4 @@
 /usr/bin/gtk-window-decorator
 /usr/bin/compiz
 /usr/bin/catdvi
+/usr/bin/ccbuild

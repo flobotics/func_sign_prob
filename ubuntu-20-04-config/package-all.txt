@@ -3204,3 +3204,4 @@ compiz-gnome
 compiz-core
 python3-compizconfig
 catdvi
+ccbuild

@@ -2091,3 +2091,4 @@ printer-driver-c2050
 compiz-gnome
 compiz-core
 catdvi
+ccbuild
