@@ -6834,3 +6834,4 @@
 /usr/bin/cstool
 /usr/bin/create_compressed_fs
 /usr/bin/extract_compressed_fs
+/usr/bin/csstidy

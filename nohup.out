@@ -18240,3 +18240,16 @@ Real binaries:['/usr/bin/create_compressed_fs', '/usr/bin/extract_compressed_fs'
 Write to package-work.txt file: cloop-utils
 Write to package-binaries.txt file: ['/usr/bin/create_compressed_fs', '/usr/bin/extract_compressed_fs']
 ['/usr/bin/create_compressed_fs', '/usr/bin/extract_compressed_fs']
+Write pickle file
+tar_out:
+Package-nr:3395 of 11000, Name:clex-dbgsym
+Skip package >clex<, already in package-all.txt file
+[]
+Package-nr:3396 of 11000, Name:csstidy-dbgsym
+Package >csstidy< not in package-all.txt file
+Write to package-all.txt file: csstidy
+In package >csstidy< are these binaries: ['/usr/bin/csstidy']
+Real binaries:['/usr/bin/csstidy']
+Write to package-work.txt file: csstidy
+Write to package-binaries.txt file: ['/usr/bin/csstidy']
+['/usr/bin/csstidy']

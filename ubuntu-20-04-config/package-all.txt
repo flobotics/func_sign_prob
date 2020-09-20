@@ -3457,3 +3457,4 @@ capstone-tool
 criticalmass
 r-cran-chron
 cloop-utils
+csstidy
