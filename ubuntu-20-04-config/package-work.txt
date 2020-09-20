@@ -2601,3 +2601,4 @@ xournal
 uuidcdef
 xplot-xplot.org
 xfconf
+xygrib

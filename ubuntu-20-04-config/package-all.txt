@@ -3988,3 +3988,4 @@ uuidcdef
 xplot-xplot.org
 xskat
 xfconf
+xygrib
