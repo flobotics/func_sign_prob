@@ -2394,3 +2394,4 @@ qqwing
 quickplot
 qalculate-gtk
 quotatool
+qjackctl

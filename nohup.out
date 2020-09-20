@@ -20336,3 +20336,27 @@ Real binaries:['/usr/sbin/quotatool']
 Write to package-work.txt file: quotatool
 Write to package-binaries.txt file: ['/usr/sbin/quotatool']
 ['/usr/sbin/quotatool']
+Write pickle file
+tar_out:
+Package-nr:3649 of 11000, Name:qml-module-qtdatavisualization-dbgsym
+Package >qml-module-qtdatavisualization< not in package-all.txt file
+Write to package-all.txt file: qml-module-qtdatavisualization
+In package >qml-module-qtdatavisualization< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: qml-module-qtdatavisualization
+[]
+Package-nr:3650 of 11000, Name:qtdatavisualization5-examples-dbgsym
+Package >qtdatavisualization5-examples< not in package-all.txt file
+Write to package-all.txt file: qtdatavisualization5-examples
+In package >qtdatavisualization5-examples< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: qtdatavisualization5-examples
+[]
+Package-nr:3651 of 11000, Name:qjackctl-dbgsym
+Package >qjackctl< not in package-all.txt file
+Write to package-all.txt file: qjackctl
+In package >qjackctl< are these binaries: ['/usr/bin/qjackctl']
+Real binaries:['/usr/bin/qjackctl']
+Write to package-work.txt file: qjackctl
+Write to package-binaries.txt file: ['/usr/bin/qjackctl']
+['/usr/bin/qjackctl']
