@@ -14331,3 +14331,70 @@ Real binaries:['/usr/bin/crashexport', '/usr/bin/crashgetnode', '/usr/bin/crashl
 Write to package-work.txt file: crashmail
 Write to package-binaries.txt file: ['/usr/bin/crashexport', '/usr/bin/crashgetnode', '/usr/bin/crashlist', '/usr/bin/crashlistout', '/usr/bin/crashmail', '/usr/bin/crashmaint', '/usr/bin/crashstats', '/usr/bin/crashwrite']
 ['/usr/bin/crashexport', '/usr/bin/crashgetnode', '/usr/bin/crashlist', '/usr/bin/crashlistout', '/usr/bin/crashmail', '/usr/bin/crashmaint', '/usr/bin/crashstats', '/usr/bin/crashwrite']
+Write pickle file
+tar_out:
+Package-nr:2926 of 11000, Name:ciso-dbgsym
+Package >ciso< not in package-all.txt file
+Write to package-all.txt file: ciso
+In package >ciso< are these binaries: ['/usr/bin/ciso']
+Real binaries:['/usr/bin/ciso']
+Write to package-work.txt file: ciso
+Write to package-binaries.txt file: ['/usr/bin/ciso']
+['/usr/bin/ciso']
+Package-nr:2927 of 11000, Name:caja-dbgsym
+Skip package >caja<, already in package-all.txt file
+[]
+Package-nr:2928 of 11000, Name:colord-sensor-argyll-dbgsym
+Package >colord-sensor-argyll< not in package-all.txt file
+Write to package-all.txt file: colord-sensor-argyll
+In package >colord-sensor-argyll< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: colord-sensor-argyll
+[]
+Package-nr:2929 of 11000, Name:colord-tests-dbgsym
+Package >colord-tests< not in package-all.txt file
+Write to package-all.txt file: colord-tests
+In package >colord-tests< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: colord-tests
+[]
+Package-nr:2930 of 11000, Name:crtmpserver-libs-dbgsym
+Package >crtmpserver-libs< not in package-all.txt file
+Write to package-all.txt file: crtmpserver-libs
+In package >crtmpserver-libs< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: crtmpserver-libs
+[]
+Package-nr:2931 of 11000, Name:crtmpserver-apps-dbgsym
+Package >crtmpserver-apps< not in package-all.txt file
+Write to package-all.txt file: crtmpserver-apps
+In package >crtmpserver-apps< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: crtmpserver-apps
+[]
+Package-nr:2932 of 11000, Name:crtmpserver-dbgsym
+Skip package >crtmpserver<, already in package-all.txt file
+[]
+Package-nr:2933 of 11000, Name:codfis-dbgsym
+Package >codfis< not in package-all.txt file
+Write to package-all.txt file: codfis
+In package >codfis< are these binaries: ['/usr/bin/codfis']
+Real binaries:['/usr/bin/codfis']
+Write to package-work.txt file: codfis
+Write to package-binaries.txt file: ['/usr/bin/codfis']
+['/usr/bin/codfis']
+Package-nr:2934 of 11000, Name:csladspa-dbgsym
+Package >csladspa< not in package-all.txt file
+Write to package-all.txt file: csladspa
+In package >csladspa< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: csladspa
+[]
+Package-nr:2935 of 11000, Name:calcoo-dbgsym
+Package >calcoo< not in package-all.txt file
+Write to package-all.txt file: calcoo
+In package >calcoo< are these binaries: ['/usr/bin/calcoo']
+Real binaries:['/usr/bin/calcoo']
+Write to package-work.txt file: calcoo
+Write to package-binaries.txt file: ['/usr/bin/calcoo']
+['/usr/bin/calcoo']

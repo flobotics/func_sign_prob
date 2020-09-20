@@ -3017,3 +3017,11 @@ cpdb-backend-file
 csoundqt
 cscope
 crashmail
+ciso
+colord-sensor-argyll
+colord-tests
+crtmpserver-libs
+crtmpserver-apps
+codfis
+csladspa
+calcoo

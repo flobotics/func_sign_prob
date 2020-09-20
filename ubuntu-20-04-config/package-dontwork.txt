@@ -1012,3 +1012,8 @@ creduce
 conda-package-handling
 python3-cracklib
 cpdb-backend-file
+colord-sensor-argyll
+colord-tests
+crtmpserver-libs
+crtmpserver-apps
+csladspa

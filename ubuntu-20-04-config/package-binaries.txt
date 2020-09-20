@@ -5955,3 +5955,6 @@
 /usr/bin/crashmaint
 /usr/bin/crashstats
 /usr/bin/crashwrite
+/usr/bin/ciso
+/usr/bin/codfis
+/usr/bin/calcoo
