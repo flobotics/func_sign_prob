@@ -2413,3 +2413,4 @@ qlogo
 qlcplus
 qthid-fcd-controller
 qmidiarp
+qstopmotion
