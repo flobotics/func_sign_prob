@@ -3951,3 +3951,5 @@ xfce4-screensaver
 xsensors
 xfce4-dev-tools
 xrestop
+xphoon
+xfe

@@ -22702,3 +22702,20 @@ Real binaries:['/usr/bin/xrestop']
 Write to package-work.txt file: xrestop
 Write to package-binaries.txt file: ['/usr/bin/xrestop']
 ['/usr/bin/xrestop']
+Write pickle file
+tar_out:
+Package-nr:3923 of 11000, Name:xphoon-dbgsym
+Package >xphoon< not in package-all.txt file
+Write to package-all.txt file: xphoon
+In package >xphoon< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: xphoon
+[]
+Package-nr:3924 of 11000, Name:xfe-dbgsym
+Package >xfe< not in package-all.txt file
+Write to package-all.txt file: xfe
+In package >xfe< are these binaries: ['/usr/bin/xfe', '/usr/bin/xfimage', '/usr/bin/xfpack', '/usr/bin/xfwrite']
+Real binaries:['/usr/bin/xfe', '/usr/bin/xfimage', '/usr/bin/xfpack', '/usr/bin/xfwrite']
+Write to package-work.txt file: xfe
+Write to package-binaries.txt file: ['/usr/bin/xfe', '/usr/bin/xfimage', '/usr/bin/xfpack', '/usr/bin/xfwrite']
+['/usr/bin/xfe', '/usr/bin/xfimage', '/usr/bin/xfpack', '/usr/bin/xfwrite']

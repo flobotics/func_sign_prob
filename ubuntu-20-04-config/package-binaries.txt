@@ -7609,3 +7609,7 @@
 /usr/bin/xsensors
 /usr/bin/xdt-csource
 /usr/bin/xrestop
+/usr/bin/xfe
+/usr/bin/xfimage
+/usr/bin/xfpack
+/usr/bin/xfwrite

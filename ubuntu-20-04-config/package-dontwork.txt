@@ -1370,3 +1370,4 @@ xgalaga
 xdg-dbus-proxy-tests
 xjokes
 xsok
+xphoon
