@@ -21450,3 +21450,13 @@ Real binaries:['/usr/bin/xwallpaper']
 Write to package-work.txt file: xwallpaper
 Write to package-binaries.txt file: ['/usr/bin/xwallpaper']
 ['/usr/bin/xwallpaper']
+Write pickle file
+tar_out:
+Package-nr:3779 of 11000, Name:xwiimote-dbgsym
+Package >xwiimote< not in package-all.txt file
+Write to package-all.txt file: xwiimote
+In package >xwiimote< are these binaries: ['/usr/bin/xwiishow']
+Real binaries:['/usr/bin/xwiishow']
+Write to package-work.txt file: xwiimote
+Write to package-binaries.txt file: ['/usr/bin/xwiishow']
+['/usr/bin/xwiishow']

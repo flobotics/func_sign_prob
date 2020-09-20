@@ -2476,3 +2476,4 @@ xarchiver
 xotcl-shells
 xzdec
 xwallpaper
+xwiimote

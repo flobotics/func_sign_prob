@@ -3818,3 +3818,4 @@ xotcl
 xotcl-shells
 xzdec
 xwallpaper
+xwiimote

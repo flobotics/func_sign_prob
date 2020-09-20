@@ -7358,3 +7358,4 @@
 /usr/bin/lzmadec
 /usr/bin/xzdec
 /usr/bin/xwallpaper
+/usr/bin/xwiishow
