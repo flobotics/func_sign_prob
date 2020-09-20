@@ -7018,3 +7018,6 @@
 /usr/lib/cgi-bin/qfts.cgi
 /usr/lib/cgi-bin/qupl.cgi
 /usr/lib/qt5/bin/qgltf
+/usr/bin/fix-qdf
+/usr/bin/qpdf
+/usr/bin/zlib-flate

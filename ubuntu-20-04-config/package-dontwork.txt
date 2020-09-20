@@ -1226,3 +1226,13 @@ qtwayland5-examples
 qml-module-qtwayland-compositor
 qt5serialport-examples
 ruby-qdbm
+qml-module-qtquick-scene3d
+qml-module-qtquick-scene2d
+qml-module-qt3d
+qt3d5-examples
+qonk
+qml-module-qtquick-controls2
+qml-module-qtquick-templates2
+qtquickcontrols2-5-examples
+qml-module-qt-labs-calendar
+qml-module-qt-labs-platform

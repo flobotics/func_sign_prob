@@ -2331,3 +2331,4 @@ qtwayland5-dev-tools
 qdbm-util
 qdbm-cgi
 qt3d5-dev-tools
+qpdf
