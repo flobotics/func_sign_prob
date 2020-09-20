@@ -18409,3 +18409,20 @@ Real binaries:['/usr/bin/cg-comp', '/usr/bin/cg-conv', '/usr/bin/cg-mwesplit', '
 Write to package-work.txt file: cg3
 Write to package-binaries.txt file: ['/usr/bin/cg-comp', '/usr/bin/cg-conv', '/usr/bin/cg-mwesplit', '/usr/bin/cg-proc', '/usr/bin/cg-relabel', '/usr/bin/vislcg3']
 ['/usr/bin/cg-comp', '/usr/bin/cg-conv', '/usr/bin/cg-mwesplit', '/usr/bin/cg-proc', '/usr/bin/cg-relabel', '/usr/bin/vislcg3']
+Write pickle file
+tar_out:
+Package-nr:3415 of 11000, Name:python3-cg3-dbgsym
+Package >python3-cg3< not in package-all.txt file
+Write to package-all.txt file: python3-cg3
+In package >python3-cg3< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: python3-cg3
+[]
+Package-nr:3416 of 11000, Name:printer-driver-cjet-dbgsym
+Package >printer-driver-cjet< not in package-all.txt file
+Write to package-all.txt file: printer-driver-cjet
+In package >printer-driver-cjet< are these binaries: ['/usr/bin/cjet']
+Real binaries:['/usr/bin/cjet']
+Write to package-work.txt file: printer-driver-cjet
+Write to package-binaries.txt file: ['/usr/bin/cjet']
+['/usr/bin/cjet']

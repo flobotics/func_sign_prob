@@ -2277,3 +2277,4 @@ ctorrent
 cputool
 cpm
 cg3
+printer-driver-cjet

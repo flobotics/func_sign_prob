@@ -6862,3 +6862,4 @@
 /usr/bin/cg-proc
 /usr/bin/cg-relabel
 /usr/bin/vislcg3
+/usr/bin/cjet
