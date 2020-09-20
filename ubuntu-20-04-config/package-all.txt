@@ -3986,3 +3986,5 @@ xflip
 xournal
 uuidcdef
 xplot-xplot.org
+xskat
+xfconf

@@ -23027,3 +23027,20 @@ Real binaries:['/usr/bin/xplot.org']
 Write to package-work.txt file: xplot-xplot.org
 Write to package-binaries.txt file: ['/usr/bin/xplot.org']
 ['/usr/bin/xplot.org']
+Write pickle file
+tar_out:
+Package-nr:3962 of 11000, Name:xskat-dbgsym
+Package >xskat< not in package-all.txt file
+Write to package-all.txt file: xskat
+In package >xskat< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: xskat
+[]
+Package-nr:3963 of 11000, Name:xfconf-dbgsym
+Package >xfconf< not in package-all.txt file
+Write to package-all.txt file: xfconf
+In package >xfconf< are these binaries: ['/usr/bin/xfconf-query']
+Real binaries:['/usr/bin/xfconf-query']
+Write to package-work.txt file: xfconf
+Write to package-binaries.txt file: ['/usr/bin/xfconf-query']
+['/usr/bin/xfconf-query']

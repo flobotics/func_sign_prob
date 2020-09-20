@@ -7657,3 +7657,4 @@
 /usr/bin/xournal
 /usr/bin/uuidcdef
 /usr/bin/xplot.org
+/usr/bin/xfconf-query

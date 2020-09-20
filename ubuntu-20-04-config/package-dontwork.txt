@@ -1381,3 +1381,4 @@ python-xmmsclient
 xpuzzles
 xmpuzzles
 xflip
+xskat

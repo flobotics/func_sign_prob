@@ -2600,3 +2600,4 @@ xmms2-client-medialib-updater
 xournal
 uuidcdef
 xplot-xplot.org
+xfconf
