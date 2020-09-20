@@ -22195,3 +22195,13 @@ Real binaries:['/usr/bin/xqilla']
 Write to package-work.txt file: xqilla
 Write to package-binaries.txt file: ['/usr/bin/xqilla']
 ['/usr/bin/xqilla']
+Write pickle file
+tar_out:
+Package-nr:3864 of 11000, Name:xutils-dev-dbgsym
+Package >xutils-dev< not in package-all.txt file
+Write to package-all.txt file: xutils-dev
+In package >xutils-dev< are these binaries: ['/usr/bin/cleanlinks', '/usr/bin/gccmakedep', '/usr/bin/imake', '/usr/bin/lndir', '/usr/bin/makedepend', '/usr/bin/makeg', '/usr/bin/mergelib', '/usr/bin/mkdirhier', '/usr/bin/mkhtmlindex', '/usr/bin/revpath', '/usr/bin/xmkmf']
+Real binaries:['/usr/bin/imake', '/usr/bin/lndir', '/usr/bin/makedepend', '/usr/bin/revpath']
+Write to package-work.txt file: xutils-dev
+Write to package-binaries.txt file: ['/usr/bin/imake', '/usr/bin/lndir', '/usr/bin/makedepend', '/usr/bin/revpath']
+['/usr/bin/imake', '/usr/bin/lndir', '/usr/bin/makedepend', '/usr/bin/revpath']
