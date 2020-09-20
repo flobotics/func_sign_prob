@@ -2280,3 +2280,4 @@ cg3
 printer-driver-cjet
 cutesdr
 cflow
+cwm

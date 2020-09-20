@@ -6866,3 +6866,4 @@
 /usr/bin/CuteSdr
 /usr/bin/siqs_ftdi
 /usr/bin/cflow
+/usr/bin/openbsd-cwm
