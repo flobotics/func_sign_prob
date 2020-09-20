@@ -5776,3 +5776,4 @@
 /usr/bin/indi_wunderground_weather
 /usr/bin/indi_xagyl_wheel
 /usr/bin/indiserver
+/usr/bin/imaptool

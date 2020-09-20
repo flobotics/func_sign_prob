@@ -2899,3 +2899,4 @@ iodine
 ipfm
 ibus-anthy
 indi-bin
+imaptool
