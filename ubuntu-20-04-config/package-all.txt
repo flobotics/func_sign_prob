@@ -3391,3 +3391,5 @@ cervisia
 cvsservice
 ccextractor
 cgdb
+centrifuge
+clustalw

@@ -6703,3 +6703,4 @@
 /usr/bin/cvsservice5
 /usr/bin/ccextractor
 /usr/bin/cgdb
+/usr/bin/clustalw

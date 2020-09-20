@@ -1176,3 +1176,4 @@ coinor-libflopc++-dev
 cinnamon-control-center-goa
 colobot
 python3-workqueue
+centrifuge

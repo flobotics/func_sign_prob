@@ -17616,3 +17616,23 @@ Real binaries:['/usr/bin/cgdb']
 Write to package-work.txt file: cgdb
 Write to package-binaries.txt file: ['/usr/bin/cgdb']
 ['/usr/bin/cgdb']
+Write pickle file
+tar_out:
+Package-nr:3325 of 11000, Name:centrifuge-dbgsym
+Package >centrifuge< not in package-all.txt file
+Write to package-all.txt file: centrifuge
+In package >centrifuge< are these binaries: ['/usr/bin/centrifuge', '/usr/bin/centrifuge-build', '/usr/bin/centrifuge-compress', '/usr/bin/centrifuge-download', '/usr/bin/centrifuge-inspect']
+Real binaries:[]
+Write to package-dontwork.txt file: centrifuge
+[]
+Package-nr:3326 of 11000, Name:crac-dbgsym
+Skip package >crac<, already in package-all.txt file
+[]
+Package-nr:3327 of 11000, Name:clustalw-dbgsym
+Package >clustalw< not in package-all.txt file
+Write to package-all.txt file: clustalw
+In package >clustalw< are these binaries: ['/usr/bin/clustalw']
+Real binaries:['/usr/bin/clustalw']
+Write to package-work.txt file: clustalw
+Write to package-binaries.txt file: ['/usr/bin/clustalw']
+['/usr/bin/clustalw']
