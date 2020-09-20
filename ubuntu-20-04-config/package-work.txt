@@ -1997,3 +1997,4 @@ cstream
 clonalorigin
 calcurse
 casync
+csoundqt
