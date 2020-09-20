@@ -18213,3 +18213,30 @@ Real binaries:['/usr/bin/cstool']
 Write to package-work.txt file: capstone-tool
 Write to package-binaries.txt file: ['/usr/bin/cstool']
 ['/usr/bin/cstool']
+Write pickle file
+tar_out:
+Package-nr:3391 of 11000, Name:criticalmass-dbgsym
+Package >criticalmass< not in package-all.txt file
+Write to package-all.txt file: criticalmass
+In package >criticalmass< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: criticalmass
+[]
+Package-nr:3392 of 11000, Name:r-cran-chron-dbgsym
+Package >r-cran-chron< not in package-all.txt file
+Write to package-all.txt file: r-cran-chron
+In package >r-cran-chron< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: r-cran-chron
+[]
+Package-nr:3393 of 11000, Name:chase-dbgsym
+Skip package >chase<, already in package-all.txt file
+[]
+Package-nr:3394 of 11000, Name:cloop-utils-dbgsym
+Package >cloop-utils< not in package-all.txt file
+Write to package-all.txt file: cloop-utils
+In package >cloop-utils< are these binaries: ['/usr/bin/create_compressed_fs', '/usr/bin/extract_compressed_fs']
+Real binaries:['/usr/bin/create_compressed_fs', '/usr/bin/extract_compressed_fs']
+Write to package-work.txt file: cloop-utils
+Write to package-binaries.txt file: ['/usr/bin/create_compressed_fs', '/usr/bin/extract_compressed_fs']
+['/usr/bin/create_compressed_fs', '/usr/bin/extract_compressed_fs']

@@ -3454,3 +3454,6 @@ curlftpfs
 ctpl
 chicken-bin
 capstone-tool
+criticalmass
+r-cran-chron
+cloop-utils
