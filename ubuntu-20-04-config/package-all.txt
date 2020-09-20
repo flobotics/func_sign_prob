@@ -3934,3 +3934,4 @@ xemacs21-bin
 xemacs21-mule-canna-wnn
 xjokes
 xen-utils-4.11
+xenstore-utils

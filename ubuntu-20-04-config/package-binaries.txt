@@ -7566,3 +7566,13 @@
 /usr/lib/xen-4.11/bin/xentrace_setsize
 /usr/lib/xen-4.11/bin/xenwatchdogd
 /usr/lib/xen-4.11/bin/xl
+/usr/bin/xenstore
+/usr/bin/xenstore-chmod
+/usr/bin/xenstore-control
+/usr/bin/xenstore-exists
+/usr/bin/xenstore-list
+/usr/bin/xenstore-ls
+/usr/bin/xenstore-read
+/usr/bin/xenstore-rm
+/usr/bin/xenstore-watch
+/usr/bin/xenstore-write
