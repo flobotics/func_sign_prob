@@ -2481,3 +2481,4 @@ xmorph
 gtkmorph
 xxhash
 xhk
+xserver-xorg-input-synaptics

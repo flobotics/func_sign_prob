@@ -3826,3 +3826,4 @@ xxhash
 hexchat-indicator
 xdg-desktop-portal-kde
 xhk
+xserver-xorg-input-synaptics

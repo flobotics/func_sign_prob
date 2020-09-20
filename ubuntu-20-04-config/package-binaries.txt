@@ -7364,3 +7364,5 @@
 /usr/bin/gtkmorph
 /usr/bin/xxhsum
 /usr/bin/xhk
+/usr/bin/synclient
+/usr/bin/syndaemon
