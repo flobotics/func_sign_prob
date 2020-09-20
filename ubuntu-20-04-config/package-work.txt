@@ -2254,3 +2254,4 @@ cdparanoia
 conman
 ncoils
 chemtool
+cyrus-imspd

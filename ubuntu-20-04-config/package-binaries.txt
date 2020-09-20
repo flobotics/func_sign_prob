@@ -6817,3 +6817,4 @@
 /usr/bin/ncoils
 /usr/bin/chemtool
 /usr/bin/cht
+/usr/sbin/cyrus-imspd
