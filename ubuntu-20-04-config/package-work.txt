@@ -2129,3 +2129,4 @@ cfourcc
 cpustat
 cantor-backend-r
 cantor-backend-python3
+cantor-backend-julia

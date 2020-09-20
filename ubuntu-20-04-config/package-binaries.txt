@@ -6422,3 +6422,4 @@
 /usr/sbin/cpustat
 /usr/bin/cantor_rserver
 /usr/bin/cantor_python3server
+/usr/bin/cantor_juliaserver

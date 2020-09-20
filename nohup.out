@@ -16640,3 +16640,27 @@ Real binaries:['/usr/bin/cantor_python3server']
 Write to package-work.txt file: cantor-backend-python3
 Write to package-binaries.txt file: ['/usr/bin/cantor_python3server']
 ['/usr/bin/cantor_python3server']
+Write pickle file
+tar_out:
+Package-nr:3216 of 11000, Name:cantor-backend-octave-dbgsym
+Package >cantor-backend-octave< not in package-all.txt file
+Write to package-all.txt file: cantor-backend-octave
+In package >cantor-backend-octave< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: cantor-backend-octave
+[]
+Package-nr:3217 of 11000, Name:cantor-backend-scilab-dbgsym
+Package >cantor-backend-scilab< not in package-all.txt file
+Write to package-all.txt file: cantor-backend-scilab
+In package >cantor-backend-scilab< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: cantor-backend-scilab
+[]
+Package-nr:3218 of 11000, Name:cantor-backend-julia-dbgsym
+Package >cantor-backend-julia< not in package-all.txt file
+Write to package-all.txt file: cantor-backend-julia
+In package >cantor-backend-julia< are these binaries: ['/usr/bin/cantor_juliaserver']
+Real binaries:['/usr/bin/cantor_juliaserver']
+Write to package-work.txt file: cantor-backend-julia
+Write to package-binaries.txt file: ['/usr/bin/cantor_juliaserver']
+['/usr/bin/cantor_juliaserver']

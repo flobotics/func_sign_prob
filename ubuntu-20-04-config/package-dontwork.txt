@@ -1152,3 +1152,5 @@ cantor-backend-maxima
 cantor-backend-qalculate
 cantor-backend-kalgebra
 cantor-backend-sage
+cantor-backend-octave
+cantor-backend-scilab

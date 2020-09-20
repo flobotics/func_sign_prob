@@ -3286,3 +3286,6 @@ cantor-backend-kalgebra
 cantor-backend-r
 cantor-backend-sage
 cantor-backend-python3
+cantor-backend-octave
+cantor-backend-scilab
+cantor-backend-julia
