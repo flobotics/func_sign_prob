@@ -3943,3 +3943,4 @@ xsok
 xprintidle
 xine-ui
 xine-console
+xfce4-clipman

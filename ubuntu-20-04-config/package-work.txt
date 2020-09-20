@@ -2568,3 +2568,4 @@ xc3sprog
 xprintidle
 xine-ui
 xine-console
+xfce4-clipman
