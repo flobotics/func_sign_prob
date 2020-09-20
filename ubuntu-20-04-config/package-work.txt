@@ -2069,3 +2069,4 @@ cldump
 clipit
 csound-utils
 cdbackup
+clasp
