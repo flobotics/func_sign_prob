@@ -17303,3 +17303,13 @@ Real binaries:['/usr/bin/colorhug-backlight', '/usr/bin/colorhug-ccmx', '/usr/bi
 Write to package-work.txt file: colorhug-client
 Write to package-binaries.txt file: ['/usr/bin/colorhug-backlight', '/usr/bin/colorhug-ccmx', '/usr/bin/colorhug-cmd', '/usr/bin/colorhug-flash', '/usr/bin/colorhug-refresh']
 ['/usr/bin/colorhug-backlight', '/usr/bin/colorhug-ccmx', '/usr/bin/colorhug-cmd', '/usr/bin/colorhug-flash', '/usr/bin/colorhug-refresh']
+Write pickle file
+tar_out:
+Package-nr:3290 of 11000, Name:cmospwd-dbgsym
+Package >cmospwd< not in package-all.txt file
+Write to package-all.txt file: cmospwd
+In package >cmospwd< are these binaries: ['/usr/sbin/cmospwd']
+Real binaries:['/usr/sbin/cmospwd']
+Write to package-work.txt file: cmospwd
+Write to package-binaries.txt file: ['/usr/sbin/cmospwd']
+['/usr/sbin/cmospwd']

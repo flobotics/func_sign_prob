@@ -2184,3 +2184,4 @@ ckon
 cool-retro-term
 ctsim
 colorhug-client
+cmospwd

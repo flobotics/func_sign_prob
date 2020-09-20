@@ -6620,3 +6620,4 @@
 /usr/bin/colorhug-cmd
 /usr/bin/colorhug-flash
 /usr/bin/colorhug-refresh
+/usr/sbin/cmospwd
