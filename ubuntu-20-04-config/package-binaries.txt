@@ -6521,3 +6521,4 @@
 /usr/bin/extract_features
 /usr/bin/upgrade_net_proto_text
 /usr/bin/upgrade_solver_proto_text
+/usr/bin/cvs-fast-export

@@ -1162,3 +1162,4 @@ conmon
 csmash
 coinor-libsymphony3
 coinor-libcbc3
+python3-caffe-cpu
