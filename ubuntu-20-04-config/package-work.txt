@@ -2220,3 +2220,4 @@ cmatrix
 cpufreqd
 canu
 complexity
+colord-gtk-utils

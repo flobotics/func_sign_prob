@@ -17754,3 +17754,13 @@ Real binaries:['/usr/bin/complexity']
 Write to package-work.txt file: complexity
 Write to package-binaries.txt file: ['/usr/bin/complexity']
 ['/usr/bin/complexity']
+Write pickle file
+tar_out:
+Package-nr:3341 of 11000, Name:colord-gtk-utils-dbgsym
+Package >colord-gtk-utils< not in package-all.txt file
+Write to package-all.txt file: colord-gtk-utils
+In package >colord-gtk-utils< are these binaries: ['/usr/bin/cd-convert']
+Real binaries:['/usr/bin/cd-convert']
+Write to package-work.txt file: colord-gtk-utils
+Write to package-binaries.txt file: ['/usr/bin/cd-convert']
+['/usr/bin/cd-convert']

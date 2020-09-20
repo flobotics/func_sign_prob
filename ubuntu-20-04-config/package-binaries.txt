@@ -6765,3 +6765,4 @@
 /usr/lib/canu/bin/utgcns
 /usr/lib/canu/bin/wtdbgConvert
 /usr/bin/complexity
+/usr/bin/cd-convert
