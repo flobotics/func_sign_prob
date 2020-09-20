@@ -2015,3 +2015,4 @@ cssc
 citadel-client
 crunch
 calligraplan
+connman-vpn

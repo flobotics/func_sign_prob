@@ -14895,3 +14895,13 @@ Real binaries:['/usr/bin/calligraplan', '/usr/bin/calligraplanwork']
 Write to package-work.txt file: calligraplan
 Write to package-binaries.txt file: ['/usr/bin/calligraplan', '/usr/bin/calligraplanwork']
 ['/usr/bin/calligraplan', '/usr/bin/calligraplanwork']
+Write pickle file
+tar_out:
+Package-nr:3003 of 11000, Name:connman-vpn-dbgsym
+Package >connman-vpn< not in package-all.txt file
+Write to package-all.txt file: connman-vpn
+In package >connman-vpn< are these binaries: ['/usr/sbin/connman-vpnd']
+Real binaries:['/usr/sbin/connman-vpnd']
+Write to package-work.txt file: connman-vpn
+Write to package-binaries.txt file: ['/usr/sbin/connman-vpnd']
+['/usr/sbin/connman-vpnd']

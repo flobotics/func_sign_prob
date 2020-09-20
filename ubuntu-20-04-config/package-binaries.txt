@@ -5980,3 +5980,4 @@
 /usr/bin/crunch
 /usr/bin/calligraplan
 /usr/bin/calligraplanwork
+/usr/sbin/connman-vpnd
