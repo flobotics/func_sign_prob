@@ -6345,3 +6345,4 @@
 /usr/bin/cdown
 /usr/bin/cdtool2cddb
 /usr/bin/compton-conf
+/usr/bin/comptty

@@ -15990,3 +15990,20 @@ Real binaries:['/usr/bin/compton-conf']
 Write to package-work.txt file: compton-conf
 Write to package-binaries.txt file: ['/usr/bin/compton-conf']
 ['/usr/bin/compton-conf']
+Write pickle file
+tar_out:
+Package-nr:3135 of 11000, Name:cowbell-dbgsym
+Package >cowbell< not in package-all.txt file
+Write to package-all.txt file: cowbell
+In package >cowbell< are these binaries: ['/usr/bin/cowbell']
+Real binaries:[]
+Write to package-dontwork.txt file: cowbell
+[]
+Package-nr:3136 of 11000, Name:comptty-dbgsym
+Package >comptty< not in package-all.txt file
+Write to package-all.txt file: comptty
+In package >comptty< are these binaries: ['/usr/bin/comptty']
+Real binaries:['/usr/bin/comptty']
+Write to package-work.txt file: comptty
+Write to package-binaries.txt file: ['/usr/bin/comptty']
+['/usr/bin/comptty']

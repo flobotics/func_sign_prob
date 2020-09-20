@@ -1111,3 +1111,4 @@ python3-compizconfig
 cataclysm-dda-sdl
 cataclysm-dda-curses
 python3-cmor
+cowbell
