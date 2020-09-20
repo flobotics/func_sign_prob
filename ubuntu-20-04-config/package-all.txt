@@ -3866,3 +3866,6 @@ xpp
 xyscan
 xwrited
 xoscope
+xcircuit
+xblast-tnt
+xfaces

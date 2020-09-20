@@ -2513,3 +2513,4 @@ xpp
 xyscan
 xwrited
 xoscope
+xfaces

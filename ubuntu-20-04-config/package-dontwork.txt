@@ -1348,3 +1348,5 @@ xserver-xorg-input-kbd
 xsystem35
 xsoldier
 xfishtank
+xcircuit
+xblast-tnt

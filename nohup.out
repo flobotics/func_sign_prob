@@ -21897,3 +21897,27 @@ Real binaries:['/usr/bin/xoscope']
 Write to package-work.txt file: xoscope
 Write to package-binaries.txt file: ['/usr/bin/xoscope']
 ['/usr/bin/xoscope']
+Write pickle file
+tar_out:
+Package-nr:3829 of 11000, Name:xcircuit-dbgsym
+Package >xcircuit< not in package-all.txt file
+Write to package-all.txt file: xcircuit
+In package >xcircuit< are these binaries: ['/usr/bin/xcircuit']
+Real binaries:[]
+Write to package-dontwork.txt file: xcircuit
+[]
+Package-nr:3830 of 11000, Name:xblast-tnt-dbgsym
+Package >xblast-tnt< not in package-all.txt file
+Write to package-all.txt file: xblast-tnt
+In package >xblast-tnt< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: xblast-tnt
+[]
+Package-nr:3831 of 11000, Name:xfaces-dbgsym
+Package >xfaces< not in package-all.txt file
+Write to package-all.txt file: xfaces
+In package >xfaces< are these binaries: ['/usr/bin/xfaces']
+Real binaries:['/usr/bin/xfaces']
+Write to package-work.txt file: xfaces
+Write to package-binaries.txt file: ['/usr/bin/xfaces']
+['/usr/bin/xfaces']

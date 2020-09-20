@@ -7407,3 +7407,4 @@
 /usr/bin/xyscan
 /usr/bin/xwrited
 /usr/bin/xoscope
+/usr/bin/xfaces
