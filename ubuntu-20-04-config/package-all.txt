@@ -3669,3 +3669,5 @@ qemu-system-x86-microvm
 quakespasm
 qfits-tools
 qmc
+quadrapassel
+qjoypad

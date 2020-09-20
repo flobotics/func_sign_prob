@@ -7146,3 +7146,4 @@
 /usr/bin/replacekey
 /usr/bin/stripfits
 /usr/bin/qmc
+/usr/bin/qjoypad

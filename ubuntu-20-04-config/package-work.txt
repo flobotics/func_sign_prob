@@ -2377,3 +2377,4 @@ qemu-guest-agent
 qemu-system-x86-microvm
 qfits-tools
 qmc
+qjoypad

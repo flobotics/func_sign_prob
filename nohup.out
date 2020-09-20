@@ -20098,3 +20098,20 @@ Real binaries:['/usr/bin/qmc']
 Write to package-work.txt file: qmc
 Write to package-binaries.txt file: ['/usr/bin/qmc']
 ['/usr/bin/qmc']
+Write pickle file
+tar_out:
+Package-nr:3622 of 11000, Name:quadrapassel-dbgsym
+Package >quadrapassel< not in package-all.txt file
+Write to package-all.txt file: quadrapassel
+In package >quadrapassel< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: quadrapassel
+[]
+Package-nr:3623 of 11000, Name:qjoypad-dbgsym
+Package >qjoypad< not in package-all.txt file
+Write to package-all.txt file: qjoypad
+In package >qjoypad< are these binaries: ['/usr/bin/qjoypad']
+Real binaries:['/usr/bin/qjoypad']
+Write to package-work.txt file: qjoypad
+Write to package-binaries.txt file: ['/usr/bin/qjoypad']
+['/usr/bin/qjoypad']

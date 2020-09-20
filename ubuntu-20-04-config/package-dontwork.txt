@@ -1287,3 +1287,4 @@ qgis-providers
 qtscript5-examples
 qtsvg5-examples
 quakespasm
+quadrapassel
