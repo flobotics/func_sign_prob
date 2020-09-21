@@ -2775,3 +2775,4 @@ zbarcam-gtk
 zbar-tools
 zomg
 zssh
+zita-resampler

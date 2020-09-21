@@ -4226,3 +4226,4 @@ zbar-tools
 python3-zbar
 zomg
 zssh
+zita-resampler

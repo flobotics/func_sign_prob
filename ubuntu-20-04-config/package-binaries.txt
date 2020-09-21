@@ -8025,3 +8025,5 @@
 /usr/bin/zbarimg
 /usr/bin/zomghelper
 /usr/bin/zssh
+/usr/bin/zita-resampler
+/usr/bin/zita-retune
