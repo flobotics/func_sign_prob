@@ -29278,3 +29278,34 @@ Real binaries:['/usr/sbin/gridftpd']
 Write to package-work.txt file: nordugrid-arc-gridftpd
 Write to package-binaries.txt file: ['/usr/sbin/gridftpd']
 ['/usr/sbin/gridftpd']
+Write pickle file
+tar_out:
+Package-nr:4692 of 11000, Name:nordugrid-arc-datadelivery-service-dbgsym
+Package >nordugrid-arc-datadelivery-service< not in package-all.txt file
+Write to package-all.txt file: nordugrid-arc-datadelivery-service
+In package >nordugrid-arc-datadelivery-service< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: nordugrid-arc-datadelivery-service
+[]
+Package-nr:4693 of 11000, Name:python3-nordugrid-arc-dbgsym
+Package >python3-nordugrid-arc< not in package-all.txt file
+Write to package-all.txt file: python3-nordugrid-arc
+In package >python3-nordugrid-arc< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: python3-nordugrid-arc
+[]
+Package-nr:4694 of 11000, Name:nordugrid-arc-arex-dbgsym
+Package >nordugrid-arc-arex< not in package-all.txt file
+Write to package-all.txt file: nordugrid-arc-arex
+In package >nordugrid-arc-arex< are these binaries: ['/usr/sbin/a-rex-backtrace-collect', '/usr/sbin/arcctl']
+Real binaries:[]
+Write to package-dontwork.txt file: nordugrid-arc-arex
+[]
+Package-nr:4695 of 11000, Name:nordugrid-arc-hed-dbgsym
+Package >nordugrid-arc-hed< not in package-all.txt file
+Write to package-all.txt file: nordugrid-arc-hed
+In package >nordugrid-arc-hed< are these binaries: ['/usr/sbin/arched']
+Real binaries:['/usr/sbin/arched']
+Write to package-work.txt file: nordugrid-arc-hed
+Write to package-binaries.txt file: ['/usr/sbin/arched']
+['/usr/sbin/arched']

@@ -1563,3 +1563,6 @@ python3-nautilus
 python-nautilus
 network-manager-ssh-gnome
 node-iconv
+nordugrid-arc-datadelivery-service
+python3-nordugrid-arc
+nordugrid-arc-arex

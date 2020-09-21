@@ -4657,3 +4657,7 @@ numlockx
 nordugrid-arc-test-utils
 nordugrid-arc-wn
 nordugrid-arc-gridftpd
+nordugrid-arc-datadelivery-service
+python3-nordugrid-arc
+nordugrid-arc-arex
+nordugrid-arc-hed
