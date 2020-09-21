@@ -27759,3 +27759,13 @@ Real binaries:['/usr/bin/newlisp']
 Write to package-work.txt file: newlisp
 Write to package-binaries.txt file: ['/usr/bin/newlisp']
 ['/usr/bin/newlisp']
+Write pickle file
+tar_out:
+Package-nr:4508 of 11000, Name:nas-bin-dbgsym
+Package >nas-bin< not in package-all.txt file
+Write to package-all.txt file: nas-bin
+In package >nas-bin< are these binaries: ['/usr/bin/auconvert', '/usr/bin/auctl', '/usr/bin/audemo', '/usr/bin/audial', '/usr/bin/auedit', '/usr/bin/auinfo', '/usr/bin/aupanel', '/usr/bin/auphone', '/usr/bin/auplay', '/usr/bin/aurecord', '/usr/bin/auscope', '/usr/bin/autool', '/usr/bin/auwave', '/usr/bin/checkmail', '/usr/bin/issndfile', '/usr/bin/playbucket', '/usr/bin/soundtoh', '/usr/share/doc/nas-bin/copyright', '/usr/share/doc/nas-bin/FAQ', '/usr/share/doc/nas-bin/README.gz', '/usr/share/doc/nas-bin/TODO', '/usr/share/doc/nas-bin/changelog.Debian.gz']
+Real binaries:['/usr/bin/auconvert', '/usr/bin/auctl', '/usr/bin/audemo', '/usr/bin/audial', '/usr/bin/auedit', '/usr/bin/auinfo', '/usr/bin/aupanel', '/usr/bin/auphone', '/usr/bin/auplay', '/usr/bin/aurecord', '/usr/bin/autool', '/usr/bin/auwave', '/usr/bin/issndfile', '/usr/bin/playbucket', '/usr/bin/soundtoh']
+Write to package-work.txt file: nas-bin
+Write to package-binaries.txt file: ['/usr/bin/auconvert', '/usr/bin/auctl', '/usr/bin/audemo', '/usr/bin/audial', '/usr/bin/auedit', '/usr/bin/auinfo', '/usr/bin/aupanel', '/usr/bin/auphone', '/usr/bin/auplay', '/usr/bin/aurecord', '/usr/bin/autool', '/usr/bin/auwave', '/usr/bin/issndfile', '/usr/bin/playbucket', '/usr/bin/soundtoh']
+['/usr/bin/auconvert', '/usr/bin/auctl', '/usr/bin/audemo', '/usr/bin/audial', '/usr/bin/auedit', '/usr/bin/auinfo', '/usr/bin/aupanel', '/usr/bin/auphone', '/usr/bin/auplay', '/usr/bin/aurecord', '/usr/bin/autool', '/usr/bin/auwave', '/usr/bin/issndfile', '/usr/bin/playbucket', '/usr/bin/soundtoh']
