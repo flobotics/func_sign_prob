@@ -30181,3 +30181,23 @@ Real binaries:['/usr/lib/neuron/bin/modlunit', '/usr/lib/neuron/bin/mos2nrn', '/
 Write to package-work.txt file: neuron-dev
 Write to package-binaries.txt file: ['/usr/lib/neuron/bin/modlunit', '/usr/lib/neuron/bin/mos2nrn', '/usr/lib/neuron/bin/nocmodl']
 ['/usr/lib/neuron/bin/modlunit', '/usr/lib/neuron/bin/mos2nrn', '/usr/lib/neuron/bin/nocmodl']
+Write pickle file
+tar_out:
+Package-nr:4802 of 11000, Name:neuron-dbgsym
+Skip package >neuron<, already in package-all.txt file
+[]
+Package-nr:4803 of 11000, Name:python3-neuron-dbgsym
+Package >python3-neuron< not in package-all.txt file
+Write to package-all.txt file: python3-neuron
+In package >python3-neuron< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: python3-neuron
+[]
+Package-nr:4804 of 11000, Name:nnn-dbgsym
+Package >nnn< not in package-all.txt file
+Write to package-all.txt file: nnn
+In package >nnn< are these binaries: ['/usr/bin/nnn']
+Real binaries:['/usr/bin/nnn']
+Write to package-work.txt file: nnn
+Write to package-binaries.txt file: ['/usr/bin/nnn']
+['/usr/bin/nnn']

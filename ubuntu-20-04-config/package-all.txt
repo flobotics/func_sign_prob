@@ -4756,3 +4756,5 @@ ncompress
 sntp
 ntpdate
 neuron-dev
+python3-neuron
+nnn
