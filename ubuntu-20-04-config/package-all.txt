@@ -4837,3 +4837,4 @@ zmf2epub
 key2odp
 numbers2ods
 zmf2odg
+wks2ods
