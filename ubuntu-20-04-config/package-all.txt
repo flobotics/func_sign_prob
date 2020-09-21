@@ -4239,3 +4239,4 @@ zabbix-proxy-sqlite3
 zabbix-server-mysql
 zabbix-proxy-mysql
 zoem
+zimpl
