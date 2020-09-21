@@ -25880,3 +25880,13 @@ Real binaries:['/usr/bin/zvbi-atsc-cc', '/usr/bin/zvbi-chains', '/usr/bin/zvbi-n
 Write to package-work.txt file: zvbi
 Write to package-binaries.txt file: ['/usr/bin/zvbi-atsc-cc', '/usr/bin/zvbi-chains', '/usr/bin/zvbi-ntsc-cc', '/usr/sbin/zvbid']
 ['/usr/bin/zvbi-atsc-cc', '/usr/bin/zvbi-chains', '/usr/bin/zvbi-ntsc-cc', '/usr/sbin/zvbid']
+Write pickle file
+tar_out:
+Package-nr:4288 of 11000, Name:zeitgeist-datahub-dbgsym
+Package >zeitgeist-datahub< not in package-all.txt file
+Write to package-all.txt file: zeitgeist-datahub
+In package >zeitgeist-datahub< are these binaries: ['/usr/bin/zeitgeist-datahub']
+Real binaries:['/usr/bin/zeitgeist-datahub']
+Write to package-work.txt file: zeitgeist-datahub
+Write to package-binaries.txt file: ['/usr/bin/zeitgeist-datahub']
+['/usr/bin/zeitgeist-datahub']

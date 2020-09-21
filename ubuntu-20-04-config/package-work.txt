@@ -2829,3 +2829,4 @@ zephyr-server-krb5
 zinnia-utils
 zita-rev1
 zvbi
+zeitgeist-datahub

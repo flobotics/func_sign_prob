@@ -8172,3 +8172,4 @@
 /usr/bin/zvbi-chains
 /usr/bin/zvbi-ntsc-cc
 /usr/sbin/zvbid
+/usr/bin/zeitgeist-datahub
