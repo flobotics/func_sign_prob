@@ -3344,3 +3344,4 @@ weechat-curses
 weechat-headless
 wbox
 winwrangler
+webcamoid

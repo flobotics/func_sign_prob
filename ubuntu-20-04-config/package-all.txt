@@ -5003,3 +5003,4 @@ weechat-lua
 weechat-python
 wbox
 winwrangler
+webcamoid

@@ -9396,3 +9396,4 @@
 /usr/bin/weechat-headless
 /usr/bin/wbox
 /usr/bin/winwrangler
+/usr/bin/webcamoid
