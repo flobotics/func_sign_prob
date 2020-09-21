@@ -9280,3 +9280,4 @@
 /usr/bin/wmdiskmon
 /usr/bin/wmcpuload
 /usr/bin/wput
+/usr/bin/WPEWebDriver

@@ -3291,3 +3291,4 @@ wdisplays
 wmdiskmon
 wmcpuload
 wput
+wpewebkit-driver
