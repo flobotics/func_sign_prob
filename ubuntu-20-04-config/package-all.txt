@@ -5217,3 +5217,4 @@ charon-systemd
 strongswan-nm
 strongswan-scepclient
 charon-cmd
+strongswan-swanctl

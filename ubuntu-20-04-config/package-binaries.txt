@@ -9736,3 +9736,4 @@
 /usr/bin/silverjuke
 /usr/sbin/charon-systemd
 /usr/sbin/charon-cmd
+/usr/sbin/swanctl

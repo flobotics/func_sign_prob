@@ -3496,3 +3496,4 @@ staden
 silverjuke
 charon-systemd
 charon-cmd
+strongswan-swanctl
