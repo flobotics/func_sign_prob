@@ -3335,3 +3335,4 @@ wmaker-utils
 wmanager
 wavbreaker
 wimtools
+wmbutton

@@ -9387,3 +9387,4 @@
 /usr/bin/wimunmount
 /usr/bin/wimupdate
 /usr/bin/wimverify
+/usr/bin/wmbutton
