@@ -4978,3 +4978,5 @@ uniconf-tools
 uniconfd
 wmsun
 wmnd
+wmnd-snmp
+whowatch
