@@ -34953,3 +34953,13 @@ Real binaries:['/usr/bin/smp_conf_general', '/usr/bin/smp_conf_phy_event', '/usr
 Write to package-work.txt file: smp-utils
 Write to package-binaries.txt file: ['/usr/bin/smp_conf_general', '/usr/bin/smp_conf_phy_event', '/usr/bin/smp_conf_route_info', '/usr/bin/smp_conf_zone_man_pass', '/usr/bin/smp_conf_zone_perm_tbl', '/usr/bin/smp_conf_zone_phy_info', '/usr/bin/smp_discover', '/usr/bin/smp_discover_list', '/usr/bin/smp_ena_dis_zoning', '/usr/bin/smp_phy_control', '/usr/bin/smp_phy_test', '/usr/bin/smp_read_gpio', '/usr/bin/smp_rep_broadcast', '/usr/bin/smp_rep_exp_route_tbl', '/usr/bin/smp_rep_general', '/usr/bin/smp_rep_manufacturer', '/usr/bin/smp_rep_phy_err_log', '/usr/bin/smp_rep_phy_event', '/usr/bin/smp_rep_phy_event_list', '/usr/bin/smp_rep_phy_sata', '/usr/bin/smp_rep_route_info', '/usr/bin/smp_rep_self_conf_stat', '/usr/bin/smp_rep_zone_man_pass', '/usr/bin/smp_rep_zone_perm_tbl', '/usr/bin/smp_write_gpio', '/usr/bin/smp_zone_activate', '/usr/bin/smp_zone_lock', '/usr/bin/smp_zone_unlock', '/usr/bin/smp_zoned_broadcast']
 ['/usr/bin/smp_conf_general', '/usr/bin/smp_conf_phy_event', '/usr/bin/smp_conf_route_info', '/usr/bin/smp_conf_zone_man_pass', '/usr/bin/smp_conf_zone_perm_tbl', '/usr/bin/smp_conf_zone_phy_info', '/usr/bin/smp_discover', '/usr/bin/smp_discover_list', '/usr/bin/smp_ena_dis_zoning', '/usr/bin/smp_phy_control', '/usr/bin/smp_phy_test', '/usr/bin/smp_read_gpio', '/usr/bin/smp_rep_broadcast', '/usr/bin/smp_rep_exp_route_tbl', '/usr/bin/smp_rep_general', '/usr/bin/smp_rep_manufacturer', '/usr/bin/smp_rep_phy_err_log', '/usr/bin/smp_rep_phy_event', '/usr/bin/smp_rep_phy_event_list', '/usr/bin/smp_rep_phy_sata', '/usr/bin/smp_rep_route_info', '/usr/bin/smp_rep_self_conf_stat', '/usr/bin/smp_rep_zone_man_pass', '/usr/bin/smp_rep_zone_perm_tbl', '/usr/bin/smp_write_gpio', '/usr/bin/smp_zone_activate', '/usr/bin/smp_zone_lock', '/usr/bin/smp_zone_unlock', '/usr/bin/smp_zoned_broadcast']
+Write pickle file
+tar_out:
+Package-nr:5350 of 11000, Name:sox-dbgsym
+Package >sox< not in package-all.txt file
+Write to package-all.txt file: sox
+In package >sox< are these binaries: ['/usr/bin/sox', '/usr/bin/play', '/usr/bin/rec', '/usr/bin/soxi']
+Real binaries:['/usr/bin/sox']
+Write to package-work.txt file: sox
+Write to package-binaries.txt file: ['/usr/bin/sox']
+['/usr/bin/sox']

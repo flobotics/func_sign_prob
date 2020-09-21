@@ -9998,3 +9998,4 @@
 /usr/bin/smp_zone_lock
 /usr/bin/smp_zone_unlock
 /usr/bin/smp_zoned_broadcast
+/usr/bin/sox
