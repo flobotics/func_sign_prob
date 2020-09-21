@@ -24842,3 +24842,13 @@ Real binaries:['/usr/bin/vdr-sxfe']
 Write to package-work.txt file: xineliboutput-sxfe
 Write to package-binaries.txt file: ['/usr/bin/vdr-sxfe']
 ['/usr/bin/vdr-sxfe']
+Write pickle file
+tar_out:
+Package-nr:4171 of 11000, Name:vera++-dbgsym
+Package >vera++< not in package-all.txt file
+Write to package-all.txt file: vera++
+In package >vera++< are these binaries: ['/usr/bin/vera++']
+Real binaries:['/usr/bin/vera++']
+Write to package-work.txt file: vera++
+Write to package-binaries.txt file: ['/usr/bin/vera++']
+['/usr/bin/vera++']

@@ -7968,3 +7968,4 @@
 /usr/bin/voronota
 /usr/bin/vdr-fbfe
 /usr/bin/vdr-sxfe
+/usr/bin/vera++
