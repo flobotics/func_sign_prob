@@ -8546,3 +8546,5 @@
 /usr/sbin/ntopng
 /usr/sbin/netdata
 /usr/sbin/nrpe
+/usr/bin/ruptime
+/usr/bin/rwho

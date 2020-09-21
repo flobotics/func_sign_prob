@@ -4562,3 +4562,4 @@ noiz2sa
 ntopng
 netdata-core
 nagios-nrpe-server
+rwho

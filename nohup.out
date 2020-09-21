@@ -28390,3 +28390,16 @@ Real binaries:['/usr/sbin/nrpe']
 Write to package-work.txt file: nagios-nrpe-server
 Write to package-binaries.txt file: ['/usr/sbin/nrpe']
 ['/usr/sbin/nrpe']
+Write pickle file
+tar_out:
+Package-nr:4588 of 11000, Name:nsf-dbgsym
+Skip package >nsf<, already in package-all.txt file
+[]
+Package-nr:4589 of 11000, Name:rwho-dbgsym
+Package >rwho< not in package-all.txt file
+Write to package-all.txt file: rwho
+In package >rwho< are these binaries: ['/usr/bin/ruptime', '/usr/bin/rwho']
+Real binaries:['/usr/bin/ruptime', '/usr/bin/rwho']
+Write to package-work.txt file: rwho
+Write to package-binaries.txt file: ['/usr/bin/ruptime', '/usr/bin/rwho']
+['/usr/bin/ruptime', '/usr/bin/rwho']
