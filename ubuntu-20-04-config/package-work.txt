@@ -3167,3 +3167,4 @@ netpipe-mpich2
 netpipe-pvm
 netpipe-tcp
 netpipe-openmpi
+netpipe-lam

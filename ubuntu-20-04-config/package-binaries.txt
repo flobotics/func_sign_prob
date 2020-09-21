@@ -8990,3 +8990,5 @@
 /usr/bin/NPtcp
 /usr/bin/NPopenmpi
 /usr/bin/NPopenmpi2
+/usr/bin/NPlam
+/usr/bin/NPlam2
