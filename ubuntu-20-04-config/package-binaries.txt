@@ -8549,3 +8549,4 @@
 /usr/bin/ruptime
 /usr/bin/rwho
 /usr/sbin/rwhod
+/usr/bin/smb-nat

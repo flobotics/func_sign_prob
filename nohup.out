@@ -28413,3 +28413,13 @@ Real binaries:['/usr/sbin/rwhod']
 Write to package-work.txt file: rwhod
 Write to package-binaries.txt file: ['/usr/sbin/rwhod']
 ['/usr/sbin/rwhod']
+Write pickle file
+tar_out:
+Package-nr:4591 of 11000, Name:smb-nat-dbgsym
+Package >smb-nat< not in package-all.txt file
+Write to package-all.txt file: smb-nat
+In package >smb-nat< are these binaries: ['/usr/bin/smb-nat']
+Real binaries:['/usr/bin/smb-nat']
+Write to package-work.txt file: smb-nat
+Write to package-binaries.txt file: ['/usr/bin/smb-nat']
+['/usr/bin/smb-nat']
