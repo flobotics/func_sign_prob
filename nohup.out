@@ -24832,3 +24832,13 @@ Real binaries:['/usr/bin/vdr-fbfe']
 Write to package-work.txt file: xineliboutput-fbfe
 Write to package-binaries.txt file: ['/usr/bin/vdr-fbfe']
 ['/usr/bin/vdr-fbfe']
+Write pickle file
+tar_out:
+Package-nr:4170 of 11000, Name:xineliboutput-sxfe-dbgsym
+Package >xineliboutput-sxfe< not in package-all.txt file
+Write to package-all.txt file: xineliboutput-sxfe
+In package >xineliboutput-sxfe< are these binaries: ['/usr/bin/vdr-sxfe']
+Real binaries:['/usr/bin/vdr-sxfe']
+Write to package-work.txt file: xineliboutput-sxfe
+Write to package-binaries.txt file: ['/usr/bin/vdr-sxfe']
+['/usr/bin/vdr-sxfe']

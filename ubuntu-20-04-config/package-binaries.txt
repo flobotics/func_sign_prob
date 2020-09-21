@@ -7967,3 +7967,4 @@
 /usr/sbin/vrrpd
 /usr/bin/voronota
 /usr/bin/vdr-fbfe
+/usr/bin/vdr-sxfe
