@@ -1576,3 +1576,4 @@ python3-stl
 nut-ipmi
 nut-powerman-pdu
 nut-xml
+python3-numcodecs

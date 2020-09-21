@@ -4678,3 +4678,5 @@ nut-ipmi
 nut-powerman-pdu
 nut-xml
 nagcon
+python3-numcodecs
+nulib2
