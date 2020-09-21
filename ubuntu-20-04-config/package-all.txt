@@ -4286,3 +4286,4 @@ zeroc-ice-compilers
 zeroc-icebridge
 python3-zope.i18nmessageid
 zopfli
+zephyr-server

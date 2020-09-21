@@ -8153,3 +8153,4 @@
 /usr/bin/icebridge
 /usr/bin/zopfli
 /usr/bin/zopflipng
+/usr/sbin/zephyrd

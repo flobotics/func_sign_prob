@@ -2823,3 +2823,4 @@ zeroc-glacier2
 zeroc-ice-compilers
 zeroc-icebridge
 zopfli
+zephyr-server
