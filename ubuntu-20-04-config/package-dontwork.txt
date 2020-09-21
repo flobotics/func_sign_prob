@@ -1419,3 +1419,4 @@ vbaexpress
 vbindiff
 volumecontrol.app
 vectoroids
+vflib3
