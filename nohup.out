@@ -28798,3 +28798,13 @@ Real binaries:['/usr/bin/nheko']
 Write to package-work.txt file: nheko
 Write to package-binaries.txt file: ['/usr/bin/nheko']
 ['/usr/bin/nheko']
+Write pickle file
+tar_out:
+Package-nr:4635 of 11000, Name:ftp-ssl-dbgsym
+Package >ftp-ssl< not in package-all.txt file
+Write to package-all.txt file: ftp-ssl
+In package >ftp-ssl< are these binaries: ['/usr/bin/ftp-ssl']
+Real binaries:['/usr/bin/ftp-ssl']
+Write to package-work.txt file: ftp-ssl
+Write to package-binaries.txt file: ['/usr/bin/ftp-ssl']
+['/usr/bin/ftp-ssl']

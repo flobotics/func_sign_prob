@@ -8723,3 +8723,4 @@
 /usr/bin/kaeru
 /usr/bin/futatabi
 /usr/bin/nheko
+/usr/bin/ftp-ssl
