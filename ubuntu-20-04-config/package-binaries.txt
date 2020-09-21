@@ -9435,3 +9435,4 @@
 /usr/bin/wmforecast
 /usr/bin/wob
 /usr/bin/wmdate
+/usr/bin/wmcdplay
