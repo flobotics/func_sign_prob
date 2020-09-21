@@ -4841,3 +4841,4 @@ wks2ods
 wpd2odt
 qxp2epub
 pages2odt
+ebook2odt

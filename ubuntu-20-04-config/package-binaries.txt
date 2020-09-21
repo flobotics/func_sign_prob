@@ -9096,3 +9096,4 @@
 /usr/bin/wpd2odt
 /usr/bin/qxp2epub
 /usr/bin/pages2odt
+/usr/bin/ebook2odt
