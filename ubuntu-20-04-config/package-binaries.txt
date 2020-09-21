@@ -8101,3 +8101,5 @@
 /usr/bin/zeal
 /usr/bin/bmp
 /usr/bin/zhcon
+/usr/bin/zypper
+/usr/sbin/zypp-refresh

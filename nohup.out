@@ -25568,3 +25568,20 @@ Real binaries:['/usr/bin/zhcon']
 Write to package-work.txt file: zhcon
 Write to package-binaries.txt file: ['/usr/bin/zhcon']
 ['/usr/bin/zhcon']
+Write pickle file
+tar_out:
+Package-nr:4254 of 11000, Name:zaz-dbgsym
+Package >zaz< not in package-all.txt file
+Write to package-all.txt file: zaz
+In package >zaz< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: zaz
+[]
+Package-nr:4255 of 11000, Name:zypper-dbgsym
+Package >zypper< not in package-all.txt file
+Write to package-all.txt file: zypper
+In package >zypper< are these binaries: ['/usr/bin/zypper', '/usr/sbin/zypp-refresh', '/usr/sbin/zypper-log']
+Real binaries:['/usr/bin/zypper', '/usr/sbin/zypp-refresh']
+Write to package-work.txt file: zypper
+Write to package-binaries.txt file: ['/usr/bin/zypper', '/usr/sbin/zypp-refresh']
+['/usr/bin/zypper', '/usr/sbin/zypp-refresh']
