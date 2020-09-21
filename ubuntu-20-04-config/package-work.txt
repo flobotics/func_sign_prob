@@ -2833,3 +2833,4 @@ zeitgeist-datahub
 zeitgeist-core
 numconv
 u2f-server
+u2f-host
