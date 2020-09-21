@@ -9311,3 +9311,6 @@
 /usr/bin/wvunpack
 /usr/bin/wp2x
 /usr/bin/wmMatrix
+/usr/bin/ftff
+/usr/bin/ftwhich
+/usr/bin/whichman

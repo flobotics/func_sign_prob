@@ -32022,3 +32022,13 @@ Real binaries:['/usr/bin/wmMatrix']
 Write to package-work.txt file: wmmatrix
 Write to package-binaries.txt file: ['/usr/bin/wmMatrix']
 ['/usr/bin/wmMatrix']
+Write pickle file
+tar_out:
+Package-nr:5010 of 11000, Name:whichman-dbgsym
+Package >whichman< not in package-all.txt file
+Write to package-all.txt file: whichman
+In package >whichman< are these binaries: ['/usr/bin/ftff', '/usr/bin/ftwhich', '/usr/bin/whichman']
+Real binaries:['/usr/bin/ftff', '/usr/bin/ftwhich', '/usr/bin/whichman']
+Write to package-work.txt file: whichman
+Write to package-binaries.txt file: ['/usr/bin/ftff', '/usr/bin/ftwhich', '/usr/bin/whichman']
+['/usr/bin/ftff', '/usr/bin/ftwhich', '/usr/bin/whichman']
