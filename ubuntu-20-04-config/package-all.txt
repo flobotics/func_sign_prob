@@ -4956,3 +4956,4 @@ python3-wreport
 wmweather+
 wmmixer
 wily
+wav2cdr
