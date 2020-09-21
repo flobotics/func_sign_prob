@@ -8384,3 +8384,4 @@
 /usr/bin/urlout
 /usr/bin/zerofill
 /usr/bin/unbound-host
+/usr/sbin/unbound-anchor

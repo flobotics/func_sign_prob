@@ -27177,3 +27177,13 @@ Real binaries:['/usr/bin/unbound-host']
 Write to package-work.txt file: unbound-host
 Write to package-binaries.txt file: ['/usr/bin/unbound-host']
 ['/usr/bin/unbound-host']
+Write pickle file
+tar_out:
+Package-nr:4439 of 11000, Name:unbound-anchor-dbgsym
+Package >unbound-anchor< not in package-all.txt file
+Write to package-all.txt file: unbound-anchor
+In package >unbound-anchor< are these binaries: ['/usr/sbin/unbound-anchor']
+Real binaries:['/usr/sbin/unbound-anchor']
+Write to package-work.txt file: unbound-anchor
+Write to package-binaries.txt file: ['/usr/sbin/unbound-anchor']
+['/usr/sbin/unbound-anchor']
