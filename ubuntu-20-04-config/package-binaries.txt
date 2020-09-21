@@ -8942,3 +8942,4 @@
 /usr/sbin/nslcd
 /usr/bin/cmpp
 /usr/bin/ngspice
+/usr/bin/ninja

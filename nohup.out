@@ -30261,3 +30261,20 @@ Real binaries:['/usr/bin/cmpp', '/usr/bin/ngspice']
 Write to package-work.txt file: ngspice
 Write to package-binaries.txt file: ['/usr/bin/cmpp', '/usr/bin/ngspice']
 ['/usr/bin/cmpp', '/usr/bin/ngspice']
+Write pickle file
+tar_out:
+Package-nr:4814 of 11000, Name:tclspice-dbgsym
+Package >tclspice< not in package-all.txt file
+Write to package-all.txt file: tclspice
+In package >tclspice< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: tclspice
+[]
+Package-nr:4815 of 11000, Name:ninja-build-dbgsym
+Package >ninja-build< not in package-all.txt file
+Write to package-all.txt file: ninja-build
+In package >ninja-build< are these binaries: ['/usr/bin/ninja']
+Real binaries:['/usr/bin/ninja']
+Write to package-work.txt file: ninja-build
+Write to package-binaries.txt file: ['/usr/bin/ninja']
+['/usr/bin/ninja']

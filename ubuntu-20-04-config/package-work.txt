@@ -3156,3 +3156,4 @@ nnn
 nrg2iso
 nslcd
 ngspice
+ninja-build

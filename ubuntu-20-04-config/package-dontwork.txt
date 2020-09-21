@@ -1603,3 +1603,4 @@ python3-neuron
 network-manager-iodine
 network-manager-iodine-gnome
 notepadqq
+tclspice

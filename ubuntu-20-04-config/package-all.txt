@@ -4764,3 +4764,5 @@ network-manager-iodine
 network-manager-iodine-gnome
 notepadqq
 ngspice
+tclspice
+ninja-build
