@@ -5074,3 +5074,5 @@ yosys
 yabasic
 netconfd-module-ietf-system
 yangdump
+netconfd-module-ietf-interfaces
+yangcli

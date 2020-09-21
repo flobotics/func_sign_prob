@@ -3396,3 +3396,4 @@ yoshimi
 yosys
 yabasic
 yangdump
+yangcli

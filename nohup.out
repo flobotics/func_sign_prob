@@ -33163,3 +33163,20 @@ Real binaries:['/usr/bin/yangdump']
 Write to package-work.txt file: yangdump
 Write to package-binaries.txt file: ['/usr/bin/yangdump']
 ['/usr/bin/yangdump']
+Write pickle file
+tar_out:
+Package-nr:5138 of 11000, Name:netconfd-module-ietf-interfaces-dbgsym
+Package >netconfd-module-ietf-interfaces< not in package-all.txt file
+Write to package-all.txt file: netconfd-module-ietf-interfaces
+In package >netconfd-module-ietf-interfaces< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: netconfd-module-ietf-interfaces
+[]
+Package-nr:5139 of 11000, Name:yangcli-dbgsym
+Package >yangcli< not in package-all.txt file
+Write to package-all.txt file: yangcli
+In package >yangcli< are these binaries: ['/usr/bin/yangcli']
+Real binaries:['/usr/bin/yangcli']
+Write to package-work.txt file: yangcli
+Write to package-binaries.txt file: ['/usr/bin/yangcli']
+['/usr/bin/yangcli']
