@@ -9180,3 +9180,6 @@
 /usr/bin/weborf
 /usr/bin/wmauda
 /usr/bin/wmsystemtray
+/usr/bin/wcc
+/usr/bin/wld
+/usr/bin/wsh
