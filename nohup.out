@@ -34784,3 +34784,27 @@ Real binaries:['/usr/bin/subnetcalc']
 Write to package-work.txt file: subnetcalc
 Write to package-binaries.txt file: ['/usr/bin/subnetcalc']
 ['/usr/bin/subnetcalc']
+Write pickle file
+tar_out:
+Package-nr:5329 of 11000, Name:python3-simgrid-dbgsym
+Package >python3-simgrid< not in package-all.txt file
+Write to package-all.txt file: python3-simgrid
+In package >python3-simgrid< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: python3-simgrid
+[]
+Package-nr:5330 of 11000, Name:simgrid-java-dbgsym
+Package >simgrid-java< not in package-all.txt file
+Write to package-all.txt file: simgrid-java
+In package >simgrid-java< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: simgrid-java
+[]
+Package-nr:5331 of 11000, Name:subversion-tools-dbgsym
+Package >subversion-tools< not in package-all.txt file
+Write to package-all.txt file: subversion-tools
+In package >subversion-tools< are these binaries: ['/usr/bin/fsfs-access-map', '/usr/bin/fsfs-stats', '/usr/bin/svn-backup-dumps', '/usr/bin/svn-bisect', '/usr/bin/svn-clean', '/usr/bin/svn-hot-backup', '/usr/bin/svn-mergeinfo-normalizer', '/usr/bin/svn-populate-node-origins-index', '/usr/bin/svn-vendor', '/usr/bin/svn_apply_autoprops', '/usr/bin/svn_load_dirs', '/usr/bin/svnraisetreeconflict', '/usr/bin/svnwrap']
+Real binaries:['/usr/bin/fsfs-access-map', '/usr/bin/svn-mergeinfo-normalizer', '/usr/bin/svn-populate-node-origins-index', '/usr/bin/svnraisetreeconflict']
+Write to package-work.txt file: subversion-tools
+Write to package-binaries.txt file: ['/usr/bin/fsfs-access-map', '/usr/bin/svn-mergeinfo-normalizer', '/usr/bin/svn-populate-node-origins-index', '/usr/bin/svnraisetreeconflict']
+['/usr/bin/fsfs-access-map', '/usr/bin/svn-mergeinfo-normalizer', '/usr/bin/svn-populate-node-origins-index', '/usr/bin/svnraisetreeconflict']

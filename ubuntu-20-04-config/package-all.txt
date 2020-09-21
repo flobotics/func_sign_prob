@@ -5246,3 +5246,6 @@ sooperlooper
 scanmem
 simh
 subnetcalc
+python3-simgrid
+simgrid-java
+subversion-tools

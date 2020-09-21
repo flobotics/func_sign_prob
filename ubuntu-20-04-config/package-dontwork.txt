@@ -1721,3 +1721,5 @@ swell-foop
 python3-siphashc
 scalapack-mpi-test
 slang-expat
+python3-simgrid
+simgrid-java
