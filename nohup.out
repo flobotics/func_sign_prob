@@ -24207,3 +24207,13 @@ Real binaries:['/usr/bin/vdetelweb']
 Write to package-work.txt file: vdetelweb
 Write to package-binaries.txt file: ['/usr/bin/vdetelweb']
 ['/usr/bin/vdetelweb']
+Write pickle file
+tar_out:
+Package-nr:4098 of 11000, Name:videogen-dbgsym
+Package >videogen< not in package-all.txt file
+Write to package-all.txt file: videogen
+In package >videogen< are these binaries: ['/usr/bin/some_modes', '/usr/bin/videogen']
+Real binaries:['/usr/bin/videogen']
+Write to package-work.txt file: videogen
+Write to package-binaries.txt file: ['/usr/bin/videogen']
+['/usr/bin/videogen']
