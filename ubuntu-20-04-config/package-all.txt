@@ -4515,3 +4515,5 @@ nextepc-pcrf
 nextepc-hss
 nextepc-sgw
 nextepc-mme
+nextepc-core
+nted

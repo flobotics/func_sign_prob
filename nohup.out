@@ -27957,3 +27957,20 @@ Real binaries:['/usr/bin/nextepc-mmed']
 Write to package-work.txt file: nextepc-mme
 Write to package-binaries.txt file: ['/usr/bin/nextepc-mmed']
 ['/usr/bin/nextepc-mmed']
+Write pickle file
+tar_out:
+Package-nr:4531 of 11000, Name:nextepc-core-dbgsym
+Package >nextepc-core< not in package-all.txt file
+Write to package-all.txt file: nextepc-core
+In package >nextepc-core< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: nextepc-core
+[]
+Package-nr:4532 of 11000, Name:nted-dbgsym
+Package >nted< not in package-all.txt file
+Write to package-all.txt file: nted
+In package >nted< are these binaries: ['/usr/bin/nted']
+Real binaries:['/usr/bin/nted']
+Write to package-work.txt file: nted
+Write to package-binaries.txt file: ['/usr/bin/nted']
+['/usr/bin/nted']
