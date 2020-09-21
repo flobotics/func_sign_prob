@@ -5099,3 +5099,4 @@ yubiserver
 yorick-ml4
 python3-yarl
 yagf
+yersinia

@@ -33396,3 +33396,13 @@ Real binaries:['/usr/bin/yagf']
 Write to package-work.txt file: yagf
 Write to package-binaries.txt file: ['/usr/bin/yagf']
 ['/usr/bin/yagf']
+Write pickle file
+tar_out:
+Package-nr:5165 of 11000, Name:yersinia-dbgsym
+Package >yersinia< not in package-all.txt file
+Write to package-all.txt file: yersinia
+In package >yersinia< are these binaries: ['/usr/bin/yersinia']
+Real binaries:['/usr/bin/yersinia']
+Write to package-work.txt file: yersinia
+Write to package-binaries.txt file: ['/usr/bin/yersinia']
+['/usr/bin/yersinia']
