@@ -9178,3 +9178,4 @@
 /usr/bin/wdm
 /usr/bin/wdmLogin
 /usr/bin/weborf
+/usr/bin/wmauda
