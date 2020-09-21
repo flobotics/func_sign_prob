@@ -31342,3 +31342,38 @@ Real binaries:['/usr/bin/worker']
 Write to package-work.txt file: worker
 Write to package-binaries.txt file: ['/usr/bin/worker']
 ['/usr/bin/worker']
+Write pickle file
+tar_out:
+Package-nr:4932 of 11000, Name:wine64-tools-dbgsym
+Package >wine64-tools< not in package-all.txt file
+Write to package-all.txt file: wine64-tools
+In package >wine64-tools< are these binaries: ['/usr/bin/winegcc-stable', '/usr/bin/widl-stable', '/usr/bin/winebuild-stable', '/usr/bin/winecpp-stable', '/usr/bin/winedump-stable', '/usr/bin/wineg++-stable', '/usr/bin/winemaker-stable', '/usr/bin/wmc-stable', '/usr/bin/wrc-stable']
+Real binaries:[]
+Write to package-dontwork.txt file: wine64-tools
+[]
+Package-nr:4933 of 11000, Name:wine64-dbgsym
+Skip package >wine64<, already in package-all.txt file
+[]
+Package-nr:4934 of 11000, Name:wine64-preloader-dbgsym
+Package >wine64-preloader< not in package-all.txt file
+Write to package-all.txt file: wine64-preloader
+In package >wine64-preloader< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: wine64-preloader
+[]
+Package-nr:4935 of 11000, Name:wallch-dbgsym
+Package >wallch< not in package-all.txt file
+Write to package-all.txt file: wallch
+In package >wallch< are these binaries: ['/usr/bin/wallch']
+Real binaries:['/usr/bin/wallch']
+Write to package-work.txt file: wallch
+Write to package-binaries.txt file: ['/usr/bin/wallch']
+['/usr/bin/wallch']
+Package-nr:4936 of 11000, Name:wmcube-dbgsym
+Package >wmcube< not in package-all.txt file
+Write to package-all.txt file: wmcube
+In package >wmcube< are these binaries: ['/usr/bin/wmcube']
+Real binaries:['/usr/bin/wmcube']
+Write to package-work.txt file: wmcube
+Write to package-binaries.txt file: ['/usr/bin/wmcube']
+['/usr/bin/wmcube']

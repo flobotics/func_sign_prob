@@ -4877,3 +4877,7 @@ wmstickynotes
 wmmon
 wvdial
 worker
+wine64-tools
+wine64-preloader
+wallch
+wmcube

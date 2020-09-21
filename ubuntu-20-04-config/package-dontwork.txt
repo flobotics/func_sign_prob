@@ -1621,3 +1621,5 @@ wordwarvi
 wine64-development-tools
 wine64-development-preloader
 wordnet-gui
+wine64-tools
+wine64-preloader

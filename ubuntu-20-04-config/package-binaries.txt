@@ -9194,3 +9194,5 @@
 /usr/bin/wvdial
 /usr/bin/wvdialconf
 /usr/bin/worker
+/usr/bin/wallch
+/usr/bin/wmcube

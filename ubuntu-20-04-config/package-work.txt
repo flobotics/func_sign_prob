@@ -3251,3 +3251,5 @@ wmstickynotes
 wmmon
 wvdial
 worker
+wallch
+wmcube
