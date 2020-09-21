@@ -27308,3 +27308,13 @@ Real binaries:['/usr/bin/ukwm']
 Write to package-work.txt file: ukwm
 Write to package-binaries.txt file: ['/usr/bin/ukwm']
 ['/usr/bin/ukwm']
+Write pickle file
+tar_out:
+Package-nr:4455 of 11000, Name:url-dispatcher-tools-dbgsym
+Package >url-dispatcher-tools< not in package-all.txt file
+Write to package-all.txt file: url-dispatcher-tools
+In package >url-dispatcher-tools< are these binaries: ['/usr/bin/url-dispatcher']
+Real binaries:['/usr/bin/url-dispatcher']
+Write to package-work.txt file: url-dispatcher-tools
+Write to package-binaries.txt file: ['/usr/bin/url-dispatcher']
+['/usr/bin/url-dispatcher']
