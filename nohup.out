@@ -26346,3 +26346,41 @@ Real binaries:['/usr/bin/unaccent']
 Write to package-work.txt file: unaccent
 Write to package-binaries.txt file: ['/usr/bin/unaccent']
 ['/usr/bin/unaccent']
+Write pickle file
+tar_out:
+Package-nr:4340 of 11000, Name:ucimf-chewing-dbgsym
+Package >ucimf-chewing< not in package-all.txt file
+Write to package-all.txt file: ucimf-chewing
+In package >ucimf-chewing< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: ucimf-chewing
+[]
+Package-nr:4341 of 11000, Name:unity-china-video-scope-dbgsym
+Package >unity-china-video-scope< not in package-all.txt file
+Write to package-all.txt file: unity-china-video-scope
+In package >unity-china-video-scope< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: unity-china-video-scope
+[]
+Package-nr:4342 of 11000, Name:gtk3-engines-unico-dbgsym
+Package >gtk3-engines-unico< not in package-all.txt file
+Write to package-all.txt file: gtk3-engines-unico
+In package >gtk3-engines-unico< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: gtk3-engines-unico
+[]
+Package-nr:4343 of 11000, Name:r-cran-urca-dbgsym
+Package >r-cran-urca< not in package-all.txt file
+Write to package-all.txt file: r-cran-urca
+In package >r-cran-urca< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: r-cran-urca
+[]
+Package-nr:4344 of 11000, Name:umbrello-dbgsym
+Package >umbrello< not in package-all.txt file
+Write to package-all.txt file: umbrello
+In package >umbrello< are these binaries: ['/usr/bin/po2xmi5', '/usr/bin/umbrello5', '/usr/bin/xmi2pot5']
+Real binaries:['/usr/bin/po2xmi5', '/usr/bin/umbrello5', '/usr/bin/xmi2pot5']
+Write to package-work.txt file: umbrello
+Write to package-binaries.txt file: ['/usr/bin/po2xmi5', '/usr/bin/umbrello5', '/usr/bin/xmi2pot5']
+['/usr/bin/po2xmi5', '/usr/bin/umbrello5', '/usr/bin/xmi2pot5']

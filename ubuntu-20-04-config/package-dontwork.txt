@@ -1473,3 +1473,7 @@ uim-chewing
 unity-services
 unity-lens-video
 unity-scope-video-remote
+ucimf-chewing
+unity-china-video-scope
+gtk3-engines-unico
+r-cran-urca

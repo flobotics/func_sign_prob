@@ -8253,3 +8253,6 @@
 /usr/bin/unyaffs
 /usr/sbin/usbredirserver
 /usr/bin/unaccent
+/usr/bin/po2xmi5
+/usr/bin/umbrello5
+/usr/bin/xmi2pot5
