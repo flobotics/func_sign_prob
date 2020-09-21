@@ -31196,3 +31196,13 @@ Real binaries:['/usr/bin/wdm', '/usr/bin/wdmLogin']
 Write to package-work.txt file: wdm
 Write to package-binaries.txt file: ['/usr/bin/wdm', '/usr/bin/wdmLogin']
 ['/usr/bin/wdm', '/usr/bin/wdmLogin']
+Write pickle file
+tar_out:
+Package-nr:4915 of 11000, Name:weborf-dbgsym
+Package >weborf< not in package-all.txt file
+Write to package-all.txt file: weborf
+In package >weborf< are these binaries: ['/usr/bin/weborf']
+Real binaries:['/usr/bin/weborf']
+Write to package-work.txt file: weborf
+Write to package-binaries.txt file: ['/usr/bin/weborf']
+['/usr/bin/weborf']
