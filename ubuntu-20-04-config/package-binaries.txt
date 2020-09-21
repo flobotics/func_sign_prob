@@ -7899,3 +7899,4 @@
 /usr/bin/vdpauinfo
 /usr/bin/vinagre
 /usr/bin/vprerex
+/usr/bin/vilistextum

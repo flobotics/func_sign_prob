@@ -24516,3 +24516,13 @@ Real binaries:['/usr/bin/vprerex']
 Write to package-work.txt file: vprerex
 Write to package-binaries.txt file: ['/usr/bin/vprerex']
 ['/usr/bin/vprerex']
+Write pickle file
+tar_out:
+Package-nr:4134 of 11000, Name:vilistextum-dbgsym
+Package >vilistextum< not in package-all.txt file
+Write to package-all.txt file: vilistextum
+In package >vilistextum< are these binaries: ['/usr/bin/vilistextum']
+Real binaries:['/usr/bin/vilistextum']
+Write to package-work.txt file: vilistextum
+Write to package-binaries.txt file: ['/usr/bin/vilistextum']
+['/usr/bin/vilistextum']
