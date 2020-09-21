@@ -2799,3 +2799,4 @@ zzuf
 z88
 zsync
 zita-dpl1
+zoneminder

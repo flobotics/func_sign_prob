@@ -25530,3 +25530,13 @@ Real binaries:['/usr/bin/zita-dpl1']
 Write to package-work.txt file: zita-dpl1
 Write to package-binaries.txt file: ['/usr/bin/zita-dpl1']
 ['/usr/bin/zita-dpl1']
+Write pickle file
+tar_out:
+Package-nr:4250 of 11000, Name:zoneminder-dbgsym
+Package >zoneminder< not in package-all.txt file
+Write to package-all.txt file: zoneminder
+In package >zoneminder< are these binaries: ['/usr/bin/zma', '/usr/bin/zmaudit.pl', '/usr/bin/zmc', '/usr/bin/zmcamtool.pl', '/usr/bin/zmcontrol.pl', '/usr/bin/zmdc.pl', '/usr/bin/zmfilter.pl', '/usr/bin/zmonvif-probe.pl', '/usr/bin/zmpkg.pl', '/usr/bin/zmstats.pl', '/usr/bin/zmsystemctl.pl', '/usr/bin/zmtelemetry.pl', '/usr/bin/zmtrack.pl', '/usr/bin/zmtrigger.pl', '/usr/bin/zmu', '/usr/bin/zmupdate.pl', '/usr/bin/zmvideo.pl', '/usr/bin/zmwatch.pl', '/usr/bin/zmx10.pl', '/usr/lib/zoneminder/cgi-bin/zms', '/usr/lib/zoneminder/cgi-bin/nph-zms']
+Real binaries:['/usr/bin/zma', '/usr/bin/zmc', '/usr/bin/zmu', '/usr/lib/zoneminder/cgi-bin/zms']
+Write to package-work.txt file: zoneminder
+Write to package-binaries.txt file: ['/usr/bin/zmc', '/usr/bin/zmu', '/usr/lib/zoneminder/cgi-bin/zms']
+['/usr/bin/zmc', '/usr/bin/zmu', '/usr/lib/zoneminder/cgi-bin/zms']

@@ -8095,3 +8095,6 @@
 /usr/bin/zsync
 /usr/bin/zsyncmake
 /usr/bin/zita-dpl1
+/usr/bin/zmc
+/usr/bin/zmu
+/usr/lib/zoneminder/cgi-bin/zms
