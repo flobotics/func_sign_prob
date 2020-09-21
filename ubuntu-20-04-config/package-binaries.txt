@@ -8491,3 +8491,5 @@
 /usr/sbin/nvram-wakeup
 /usr/sbin/rtc
 /usr/bin/nanocat
+/usr/bin/nedit
+/usr/bin/nedit-nc

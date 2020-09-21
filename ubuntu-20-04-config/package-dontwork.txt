@@ -1518,3 +1518,4 @@ unity-gtk3-module
 ufoai-server
 ufoai-uforadiant
 netris
+netgen-lvs

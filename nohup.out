@@ -27809,3 +27809,20 @@ Real binaries:['/usr/bin/nanocat']
 Write to package-work.txt file: nanomsg-utils
 Write to package-binaries.txt file: ['/usr/bin/nanocat']
 ['/usr/bin/nanocat']
+Write pickle file
+tar_out:
+Package-nr:4514 of 11000, Name:netgen-lvs-dbgsym
+Package >netgen-lvs< not in package-all.txt file
+Write to package-all.txt file: netgen-lvs
+In package >netgen-lvs< are these binaries: ['/usr/lib/netgen/bin/netgen', '/usr/bin/netgen-lvs']
+Real binaries:[]
+Write to package-dontwork.txt file: netgen-lvs
+[]
+Package-nr:4515 of 11000, Name:nedit-dbgsym
+Package >nedit< not in package-all.txt file
+Write to package-all.txt file: nedit
+In package >nedit< are these binaries: ['/usr/bin/nedit', '/usr/bin/nedit-nc']
+Real binaries:['/usr/bin/nedit', '/usr/bin/nedit-nc']
+Write to package-work.txt file: nedit
+Write to package-binaries.txt file: ['/usr/bin/nedit', '/usr/bin/nedit-nc']
+['/usr/bin/nedit', '/usr/bin/nedit-nc']

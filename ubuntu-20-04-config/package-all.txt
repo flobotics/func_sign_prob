@@ -4499,3 +4499,5 @@ nip2
 netris
 nvram-wakeup
 nanomsg-utils
+netgen-lvs
+nedit

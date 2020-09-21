@@ -2976,3 +2976,4 @@ nas-bin
 nip2
 nvram-wakeup
 nanomsg-utils
+nedit
