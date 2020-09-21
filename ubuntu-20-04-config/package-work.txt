@@ -3146,3 +3146,4 @@ nfstrace
 newsboat
 nullidentd
 numatop
+nexus-tools

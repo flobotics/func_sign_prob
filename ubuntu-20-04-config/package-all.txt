@@ -4749,3 +4749,4 @@ newsboat
 nullidentd
 nescc
 numatop
+nexus-tools

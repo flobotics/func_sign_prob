@@ -8925,3 +8925,9 @@
 /usr/bin/podboat
 /usr/sbin/nullidentd
 /usr/bin/numatop
+/usr/bin/nxbrowse
+/usr/bin/nxconvert
+/usr/bin/nxdir
+/usr/bin/nxsummary
+/usr/bin/nxtranslate
+/usr/bin/nxtraverse
