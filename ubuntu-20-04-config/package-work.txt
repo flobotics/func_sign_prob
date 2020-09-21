@@ -3322,3 +3322,4 @@ wmforkplop
 wmitime
 wmhdplop
 wayland-scanner++
+wmsysmon

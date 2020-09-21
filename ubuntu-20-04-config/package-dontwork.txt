@@ -1645,3 +1645,4 @@ python3-wreport
 west-chamber-common
 php-wikidiff2
 gkrellm-hdplop
+wsynth-dssi
