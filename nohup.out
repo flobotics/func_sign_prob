@@ -27237,3 +27237,13 @@ Real binaries:['/usr/bin/ascii2uni', '/usr/bin/uni2ascii']
 Write to package-work.txt file: uni2ascii
 Write to package-binaries.txt file: ['/usr/bin/ascii2uni', '/usr/bin/uni2ascii']
 ['/usr/bin/ascii2uni', '/usr/bin/uni2ascii']
+Write pickle file
+tar_out:
+Package-nr:4447 of 11000, Name:unsort-dbgsym
+Package >unsort< not in package-all.txt file
+Write to package-all.txt file: unsort
+In package >unsort< are these binaries: ['/usr/bin/unsort']
+Real binaries:['/usr/bin/unsort']
+Write to package-work.txt file: unsort
+Write to package-binaries.txt file: ['/usr/bin/unsort']
+['/usr/bin/unsort']
