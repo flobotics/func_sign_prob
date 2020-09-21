@@ -8787,3 +8787,4 @@
 /usr/bin/cachedel
 /usr/bin/cachestats
 /usr/bin/nstreams
+/usr/bin/numlockx

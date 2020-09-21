@@ -29238,3 +29238,13 @@ Real binaries:['/usr/bin/nstreams']
 Write to package-work.txt file: nstreams
 Write to package-binaries.txt file: ['/usr/bin/nstreams']
 ['/usr/bin/nstreams']
+Write pickle file
+tar_out:
+Package-nr:4688 of 11000, Name:numlockx-dbgsym
+Package >numlockx< not in package-all.txt file
+Write to package-all.txt file: numlockx
+In package >numlockx< are these binaries: ['/usr/bin/numlockx']
+Real binaries:['/usr/bin/numlockx']
+Write to package-work.txt file: numlockx
+Write to package-binaries.txt file: ['/usr/bin/numlockx']
+['/usr/bin/numlockx']

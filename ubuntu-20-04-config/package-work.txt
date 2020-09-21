@@ -3085,3 +3085,4 @@ nbdkit
 nbibtex
 nocache
 nstreams
+numlockx
