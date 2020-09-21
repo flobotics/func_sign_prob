@@ -25910,3 +25910,13 @@ Real binaries:['/usr/bin/numconv']
 Write to package-work.txt file: numconv
 Write to package-binaries.txt file: ['/usr/bin/numconv']
 ['/usr/bin/numconv']
+Write pickle file
+tar_out:
+Package-nr:4291 of 11000, Name:u2f-server-dbgsym
+Package >u2f-server< not in package-all.txt file
+Write to package-all.txt file: u2f-server
+In package >u2f-server< are these binaries: ['/usr/bin/u2f-server']
+Real binaries:['/usr/bin/u2f-server']
+Write to package-work.txt file: u2f-server
+Write to package-binaries.txt file: ['/usr/bin/u2f-server']
+['/usr/bin/u2f-server']

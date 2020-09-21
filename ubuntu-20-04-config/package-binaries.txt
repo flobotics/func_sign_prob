@@ -8175,3 +8175,4 @@
 /usr/bin/zeitgeist-datahub
 /usr/bin/zeitgeist-daemon
 /usr/bin/numconv
+/usr/bin/u2f-server
