@@ -23796,3 +23796,13 @@ Real binaries:['/usr/bin/valentina', '/usr/bin/valentina-tape']
 Write to package-work.txt file: valentina
 Write to package-binaries.txt file: ['/usr/bin/valentina', '/usr/bin/valentina-tape']
 ['/usr/bin/valentina', '/usr/bin/valentina-tape']
+Write pickle file
+tar_out:
+Package-nr:4053 of 11000, Name:virt-top-dbgsym
+Package >virt-top< not in package-all.txt file
+Write to package-all.txt file: virt-top
+In package >virt-top< are these binaries: ['/usr/bin/virt-top']
+Real binaries:['/usr/bin/virt-top']
+Write to package-work.txt file: virt-top
+Write to package-binaries.txt file: ['/usr/bin/virt-top']
+['/usr/bin/virt-top']

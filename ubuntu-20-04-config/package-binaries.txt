@@ -7748,3 +7748,4 @@
 /usr/bin/vamps
 /usr/bin/valentina
 /usr/bin/valentina-tape
+/usr/bin/virt-top

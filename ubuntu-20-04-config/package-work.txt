@@ -2654,3 +2654,4 @@ vbetool
 vdesk
 vamps
 valentina
+virt-top
