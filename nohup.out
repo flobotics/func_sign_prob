@@ -27564,3 +27564,13 @@ Real binaries:['/usr/bin/unmass']
 Write to package-work.txt file: unmass
 Write to package-binaries.txt file: ['/usr/bin/unmass']
 ['/usr/bin/unmass']
+Write pickle file
+tar_out:
+Package-nr:4487 of 11000, Name:unscd-dbgsym
+Package >unscd< not in package-all.txt file
+Write to package-all.txt file: unscd
+In package >unscd< are these binaries: ['/usr/sbin/nscd']
+Real binaries:['/usr/sbin/nscd']
+Write to package-work.txt file: unscd
+Write to package-binaries.txt file: ['/usr/sbin/nscd']
+['/usr/sbin/nscd']

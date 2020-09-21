@@ -8435,3 +8435,4 @@
 /usr/bin/unixclient
 /usr/bin/unixserver
 /usr/bin/unmass
+/usr/sbin/nscd
