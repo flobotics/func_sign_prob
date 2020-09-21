@@ -32146,3 +32146,13 @@ Real binaries:['/usr/bin/wwl']
 Write to package-work.txt file: wwl
 Write to package-binaries.txt file: ['/usr/bin/wwl']
 ['/usr/bin/wwl']
+Write pickle file
+tar_out:
+Package-nr:5023 of 11000, Name:wabt-dbgsym
+Package >wabt< not in package-all.txt file
+Write to package-all.txt file: wabt
+In package >wabt< are these binaries: ['/usr/bin/spectest-interp', '/usr/bin/wasm-decompile', '/usr/bin/wasm-interp', '/usr/bin/wasm-objdump', '/usr/bin/wasm-opcodecnt', '/usr/bin/wasm-strip', '/usr/bin/wasm-validate', '/usr/bin/wasm2c', '/usr/bin/wasm2wat', '/usr/bin/wast2json', '/usr/bin/wat-desugar', '/usr/bin/wat2wasm']
+Real binaries:['/usr/bin/spectest-interp', '/usr/bin/wasm-decompile', '/usr/bin/wasm-interp', '/usr/bin/wasm-objdump', '/usr/bin/wasm-opcodecnt', '/usr/bin/wasm-strip', '/usr/bin/wasm-validate', '/usr/bin/wasm2c', '/usr/bin/wasm2wat', '/usr/bin/wast2json', '/usr/bin/wat-desugar', '/usr/bin/wat2wasm']
+Write to package-work.txt file: wabt
+Write to package-binaries.txt file: ['/usr/bin/spectest-interp', '/usr/bin/wasm-decompile', '/usr/bin/wasm-interp', '/usr/bin/wasm-objdump', '/usr/bin/wasm-opcodecnt', '/usr/bin/wasm-strip', '/usr/bin/wasm-validate', '/usr/bin/wasm2c', '/usr/bin/wasm2wat', '/usr/bin/wast2json', '/usr/bin/wat-desugar', '/usr/bin/wat2wasm']
+['/usr/bin/spectest-interp', '/usr/bin/wasm-decompile', '/usr/bin/wasm-interp', '/usr/bin/wasm-objdump', '/usr/bin/wasm-opcodecnt', '/usr/bin/wasm-strip', '/usr/bin/wasm-validate', '/usr/bin/wasm2c', '/usr/bin/wasm2wat', '/usr/bin/wast2json', '/usr/bin/wat-desugar', '/usr/bin/wat2wasm']

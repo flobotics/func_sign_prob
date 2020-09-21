@@ -9327,3 +9327,15 @@
 /usr/bin/wildmidi
 /usr/bin/wavtool-pl
 /usr/bin/wwl
+/usr/bin/spectest-interp
+/usr/bin/wasm-decompile
+/usr/bin/wasm-interp
+/usr/bin/wasm-objdump
+/usr/bin/wasm-opcodecnt
+/usr/bin/wasm-strip
+/usr/bin/wasm-validate
+/usr/bin/wasm2c
+/usr/bin/wasm2wat
+/usr/bin/wast2json
+/usr/bin/wat-desugar
+/usr/bin/wat2wasm
