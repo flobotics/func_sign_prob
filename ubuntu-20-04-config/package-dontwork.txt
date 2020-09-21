@@ -1562,3 +1562,4 @@ ruby-notmuch
 python3-nautilus
 python-nautilus
 network-manager-ssh-gnome
+node-iconv

@@ -3084,3 +3084,4 @@ netstat-nat
 nbdkit
 nbibtex
 nocache
+nstreams

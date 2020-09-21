@@ -29221,3 +29221,20 @@ Real binaries:['/usr/bin/cachedel', '/usr/bin/cachestats']
 Write to package-work.txt file: nocache
 Write to package-binaries.txt file: ['/usr/bin/cachedel', '/usr/bin/cachestats']
 ['/usr/bin/cachedel', '/usr/bin/cachestats']
+Write pickle file
+tar_out:
+Package-nr:4686 of 11000, Name:node-iconv-dbgsym
+Package >node-iconv< not in package-all.txt file
+Write to package-all.txt file: node-iconv
+In package >node-iconv< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: node-iconv
+[]
+Package-nr:4687 of 11000, Name:nstreams-dbgsym
+Package >nstreams< not in package-all.txt file
+Write to package-all.txt file: nstreams
+In package >nstreams< are these binaries: ['/usr/bin/nstreams']
+Real binaries:['/usr/bin/nstreams']
+Write to package-work.txt file: nstreams
+Write to package-binaries.txt file: ['/usr/bin/nstreams']
+['/usr/bin/nstreams']

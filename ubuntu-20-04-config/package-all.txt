@@ -4651,3 +4651,5 @@ network-manager-ssh-gnome
 nbdkit
 nbibtex
 nocache
+node-iconv
+nstreams
