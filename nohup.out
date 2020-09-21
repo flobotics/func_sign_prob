@@ -26049,3 +26049,20 @@ Real binaries:['/usr/bin/urweb']
 Write to package-work.txt file: urweb
 Write to package-binaries.txt file: ['/usr/bin/urweb']
 ['/usr/bin/urweb']
+Write pickle file
+tar_out:
+Package-nr:4307 of 11000, Name:usbauth-notifier-dbgsym
+Package >usbauth-notifier< not in package-all.txt file
+Write to package-all.txt file: usbauth-notifier
+In package >usbauth-notifier< are these binaries: ['/usr/bin/usbauth-npriv']
+Real binaries:[]
+Write to package-dontwork.txt file: usbauth-notifier
+[]
+Package-nr:4308 of 11000, Name:usbview-dbgsym
+Package >usbview< not in package-all.txt file
+Write to package-all.txt file: usbview
+In package >usbview< are these binaries: ['/usr/bin/usbview']
+Real binaries:['/usr/bin/usbview']
+Write to package-work.txt file: usbview
+Write to package-binaries.txt file: ['/usr/bin/usbview']
+['/usr/bin/usbview']

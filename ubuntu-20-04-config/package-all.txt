@@ -4311,3 +4311,5 @@ ffado-dbus-server
 python3-fiu
 toxcore-utils
 urweb
+usbauth-notifier
+usbview

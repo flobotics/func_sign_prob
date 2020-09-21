@@ -8192,3 +8192,4 @@
 /usr/bin/DHT_bootstrap
 /usr/bin/tox-bootstrapd
 /usr/bin/urweb
+/usr/bin/usbview
