@@ -9323,3 +9323,4 @@
 /usr/bin/wav2cdr
 /usr/bin/wmbattery
 /usr/bin/weex
+/usr/bin/wmbiff
