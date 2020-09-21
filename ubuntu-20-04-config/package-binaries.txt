@@ -9638,3 +9638,4 @@
 /usr/bin/signonpluginprocess
 /usr/bin/sispmctl
 /usr/bin/sac2mseed
+/usr/bin/salmon

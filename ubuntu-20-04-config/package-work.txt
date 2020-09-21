@@ -3459,3 +3459,4 @@ scilab-full-bin
 signond
 sispmctl
 sac2mseed
+salmon

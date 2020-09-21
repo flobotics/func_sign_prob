@@ -1709,3 +1709,5 @@ svgpart
 scilab-minimal-bin
 scim-canna
 stax
+scim-skk
+spacearyarya

@@ -34077,3 +34077,27 @@ Real binaries:['/usr/bin/sac2mseed']
 Write to package-work.txt file: sac2mseed
 Write to package-binaries.txt file: ['/usr/bin/sac2mseed']
 ['/usr/bin/sac2mseed']
+Write pickle file
+tar_out:
+Package-nr:5249 of 11000, Name:scim-skk-dbgsym
+Package >scim-skk< not in package-all.txt file
+Write to package-all.txt file: scim-skk
+In package >scim-skk< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: scim-skk
+[]
+Package-nr:5250 of 11000, Name:spacearyarya-dbgsym
+Package >spacearyarya< not in package-all.txt file
+Write to package-all.txt file: spacearyarya
+In package >spacearyarya< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: spacearyarya
+[]
+Package-nr:5251 of 11000, Name:salmon-dbgsym
+Package >salmon< not in package-all.txt file
+Write to package-all.txt file: salmon
+In package >salmon< are these binaries: ['/usr/bin/salmon']
+Real binaries:['/usr/bin/salmon']
+Write to package-work.txt file: salmon
+Write to package-binaries.txt file: ['/usr/bin/salmon']
+['/usr/bin/salmon']
