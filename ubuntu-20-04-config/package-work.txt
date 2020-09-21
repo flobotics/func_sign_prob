@@ -3451,3 +3451,4 @@ scim-im-agent
 snort
 samba-testsuite
 ctdb
+registry-tools

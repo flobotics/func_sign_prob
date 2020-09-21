@@ -33961,3 +33961,13 @@ Real binaries:['/usr/bin/ctdb', '/usr/bin/ltdbtool', '/usr/bin/ping_pong', '/usr
 Write to package-work.txt file: ctdb
 Write to package-binaries.txt file: ['/usr/bin/ctdb', '/usr/bin/ltdbtool', '/usr/bin/ping_pong', '/usr/sbin/ctdbd']
 ['/usr/bin/ctdb', '/usr/bin/ltdbtool', '/usr/bin/ping_pong', '/usr/sbin/ctdbd']
+Write pickle file
+tar_out:
+Package-nr:5235 of 11000, Name:registry-tools-dbgsym
+Package >registry-tools< not in package-all.txt file
+Write to package-all.txt file: registry-tools
+In package >registry-tools< are these binaries: ['/usr/bin/regdiff', '/usr/bin/regpatch', '/usr/bin/regshell', '/usr/bin/regtree']
+Real binaries:['/usr/bin/regdiff', '/usr/bin/regpatch', '/usr/bin/regshell', '/usr/bin/regtree']
+Write to package-work.txt file: registry-tools
+Write to package-binaries.txt file: ['/usr/bin/regdiff', '/usr/bin/regpatch', '/usr/bin/regshell', '/usr/bin/regtree']
+['/usr/bin/regdiff', '/usr/bin/regpatch', '/usr/bin/regshell', '/usr/bin/regtree']

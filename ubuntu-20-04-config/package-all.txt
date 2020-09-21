@@ -5160,3 +5160,4 @@ snort-common-libraries
 ssvnc
 samba-testsuite
 ctdb
+registry-tools

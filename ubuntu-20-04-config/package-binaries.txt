@@ -9613,3 +9613,7 @@
 /usr/bin/ltdbtool
 /usr/bin/ping_pong
 /usr/sbin/ctdbd
+/usr/bin/regdiff
+/usr/bin/regpatch
+/usr/bin/regshell
+/usr/bin/regtree
