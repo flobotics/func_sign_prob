@@ -8300,3 +8300,4 @@
 /usr/bin/umockdev-record
 /usr/bin/umockdev-run
 /usr/sbin/ucarp
+/usr/bin/unison-2.48.4
