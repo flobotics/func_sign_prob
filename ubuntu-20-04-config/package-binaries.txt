@@ -8247,3 +8247,4 @@
 /usr/bin/ubuntu-helper-list
 /usr/bin/ubuntu-helper-start
 /usr/bin/ubuntu-helper-stop
+/usr/bin/uuwish

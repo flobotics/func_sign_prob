@@ -26282,3 +26282,13 @@ Real binaries:['/usr/bin/ubuntu-app-info', '/usr/bin/ubuntu-app-launch', '/usr/b
 Write to package-work.txt file: ubuntu-app-launch-tools
 Write to package-binaries.txt file: ['/usr/bin/ubuntu-app-info', '/usr/bin/ubuntu-app-launch', '/usr/bin/ubuntu-app-launch-appids', '/usr/bin/ubuntu-app-list', '/usr/bin/ubuntu-app-list-pids', '/usr/bin/ubuntu-app-pid', '/usr/bin/ubuntu-app-stop', '/usr/bin/ubuntu-app-triplet', '/usr/bin/ubuntu-app-usage', '/usr/bin/ubuntu-app-watch', '/usr/bin/ubuntu-helper-list', '/usr/bin/ubuntu-helper-start', '/usr/bin/ubuntu-helper-stop']
 ['/usr/bin/ubuntu-app-info', '/usr/bin/ubuntu-app-launch', '/usr/bin/ubuntu-app-launch-appids', '/usr/bin/ubuntu-app-list', '/usr/bin/ubuntu-app-list-pids', '/usr/bin/ubuntu-app-pid', '/usr/bin/ubuntu-app-stop', '/usr/bin/ubuntu-app-triplet', '/usr/bin/ubuntu-app-usage', '/usr/bin/ubuntu-app-watch', '/usr/bin/ubuntu-helper-list', '/usr/bin/ubuntu-helper-start', '/usr/bin/ubuntu-helper-stop']
+Write pickle file
+tar_out:
+Package-nr:4333 of 11000, Name:xdeview-dbgsym
+Package >xdeview< not in package-all.txt file
+Write to package-all.txt file: xdeview
+In package >xdeview< are these binaries: ['/usr/bin/uuwish', '/usr/bin/xdeview']
+Real binaries:['/usr/bin/uuwish']
+Write to package-work.txt file: xdeview
+Write to package-binaries.txt file: ['/usr/bin/uuwish']
+['/usr/bin/uuwish']
