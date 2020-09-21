@@ -9190,3 +9190,4 @@
 /usr/bin/wmxmms2
 /usr/bin/wmget
 /usr/bin/wmstickynotes
+/usr/bin/wmmon

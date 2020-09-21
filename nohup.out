@@ -31312,3 +31312,13 @@ Real binaries:['/usr/bin/wmstickynotes']
 Write to package-work.txt file: wmstickynotes
 Write to package-binaries.txt file: ['/usr/bin/wmstickynotes']
 ['/usr/bin/wmstickynotes']
+Write pickle file
+tar_out:
+Package-nr:4929 of 11000, Name:wmmon-dbgsym
+Package >wmmon< not in package-all.txt file
+Write to package-all.txt file: wmmon
+In package >wmmon< are these binaries: ['/usr/bin/wmmon']
+Real binaries:['/usr/bin/wmmon']
+Write to package-work.txt file: wmmon
+Write to package-binaries.txt file: ['/usr/bin/wmmon']
+['/usr/bin/wmmon']
