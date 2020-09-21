@@ -4461,3 +4461,5 @@ unity-lens-music
 unclutter-xfixes
 usbtop
 ums2net
+uim-gtk3-immodule
+uim-gtk2.0

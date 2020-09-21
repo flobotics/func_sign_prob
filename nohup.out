@@ -27434,3 +27434,20 @@ Real binaries:['/usr/sbin/ums2net']
 Write to package-work.txt file: ums2net
 Write to package-binaries.txt file: ['/usr/sbin/ums2net']
 ['/usr/sbin/ums2net']
+Write pickle file
+tar_out:
+Package-nr:4469 of 11000, Name:uim-gtk3-immodule-dbgsym
+Package >uim-gtk3-immodule< not in package-all.txt file
+Write to package-all.txt file: uim-gtk3-immodule
+In package >uim-gtk3-immodule< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: uim-gtk3-immodule
+[]
+Package-nr:4470 of 11000, Name:uim-gtk2.0-dbgsym
+Package >uim-gtk2.0< not in package-all.txt file
+Write to package-all.txt file: uim-gtk2.0
+In package >uim-gtk2.0< are these binaries: ['/usr/bin/uim-im-switcher-gtk', '/usr/bin/uim-input-pad-ja', '/usr/bin/uim-pref-gtk', '/usr/bin/uim-toolbar-gtk', '/usr/bin/uim-toolbar-gtk-systray']
+Real binaries:['/usr/bin/uim-im-switcher-gtk', '/usr/bin/uim-input-pad-ja', '/usr/bin/uim-pref-gtk', '/usr/bin/uim-toolbar-gtk', '/usr/bin/uim-toolbar-gtk-systray']
+Write to package-work.txt file: uim-gtk2.0
+Write to package-binaries.txt file: ['/usr/bin/uim-im-switcher-gtk', '/usr/bin/uim-input-pad-ja', '/usr/bin/uim-pref-gtk', '/usr/bin/uim-toolbar-gtk', '/usr/bin/uim-toolbar-gtk-systray']
+['/usr/bin/uim-im-switcher-gtk', '/usr/bin/uim-input-pad-ja', '/usr/bin/uim-pref-gtk', '/usr/bin/uim-toolbar-gtk', '/usr/bin/uim-toolbar-gtk-systray']

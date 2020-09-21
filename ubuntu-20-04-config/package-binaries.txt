@@ -8417,3 +8417,8 @@
 /usr/bin/unclutter-xfixes
 /usr/sbin/usbtop
 /usr/sbin/ums2net
+/usr/bin/uim-im-switcher-gtk
+/usr/bin/uim-input-pad-ja
+/usr/bin/uim-pref-gtk
+/usr/bin/uim-toolbar-gtk
+/usr/bin/uim-toolbar-gtk-systray
