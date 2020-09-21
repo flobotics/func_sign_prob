@@ -3287,3 +3287,4 @@ w-scan
 wbar-config
 wcd
 w3cam
+wdisplays

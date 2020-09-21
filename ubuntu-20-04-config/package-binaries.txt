@@ -9276,3 +9276,4 @@
 /usr/sbin/w3camd
 /usr/bin/vidcat
 /usr/lib/cgi-bin/w3cam.cgi
+/usr/bin/wdisplays
