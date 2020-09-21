@@ -26508,3 +26508,20 @@ Real binaries:['/usr/bin/ubuntu-kylin-wizard']
 Write to package-work.txt file: ubuntu-kylin-wizard
 Write to package-binaries.txt file: ['/usr/bin/ubuntu-kylin-wizard']
 ['/usr/bin/ubuntu-kylin-wizard']
+Write pickle file
+tar_out:
+Package-nr:4359 of 11000, Name:ufo-filters-dbgsym
+Package >ufo-filters< not in package-all.txt file
+Write to package-all.txt file: ufo-filters
+In package >ufo-filters< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: ufo-filters
+[]
+Package-nr:4360 of 11000, Name:ukui-panel-dbgsym
+Package >ukui-panel< not in package-all.txt file
+Write to package-all.txt file: ukui-panel
+In package >ukui-panel< are these binaries: ['/usr/bin/ukui-flash-disk', '/usr/bin/ukui-panel']
+Real binaries:['/usr/bin/ukui-flash-disk', '/usr/bin/ukui-panel']
+Write to package-work.txt file: ukui-panel
+Write to package-binaries.txt file: ['/usr/bin/ukui-flash-disk', '/usr/bin/ukui-panel']
+['/usr/bin/ukui-flash-disk', '/usr/bin/ukui-panel']

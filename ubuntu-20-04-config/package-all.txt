@@ -4361,3 +4361,5 @@ unity-control-center
 urlview
 unity-lens-files
 ubuntu-kylin-wizard
+ufo-filters
+ukui-panel

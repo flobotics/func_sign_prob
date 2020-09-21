@@ -8269,3 +8269,5 @@
 /usr/bin/unity-control-center
 /usr/bin/urlview
 /usr/bin/ubuntu-kylin-wizard
+/usr/bin/ukui-flash-disk
+/usr/bin/ukui-panel

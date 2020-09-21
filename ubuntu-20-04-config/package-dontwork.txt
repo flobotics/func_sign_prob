@@ -1480,3 +1480,4 @@ r-cran-urca
 urfkill
 unity-settings-daemon
 unity-lens-files
+ufo-filters
