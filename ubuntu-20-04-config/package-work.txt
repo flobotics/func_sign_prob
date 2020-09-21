@@ -3387,3 +3387,4 @@ ldmtool
 livemedia-utils
 yp-tools
 yasr
+yeahconsole

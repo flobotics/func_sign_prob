@@ -33014,3 +33014,20 @@ Real binaries:['/usr/bin/yasr']
 Write to package-work.txt file: yasr
 Write to package-binaries.txt file: ['/usr/bin/yasr']
 ['/usr/bin/yasr']
+Write pickle file
+tar_out:
+Package-nr:5120 of 11000, Name:yc-el-dbgsym
+Package >yc-el< not in package-all.txt file
+Write to package-all.txt file: yc-el
+In package >yc-el< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: yc-el
+[]
+Package-nr:5121 of 11000, Name:yeahconsole-dbgsym
+Package >yeahconsole< not in package-all.txt file
+Write to package-all.txt file: yeahconsole
+In package >yeahconsole< are these binaries: ['/usr/bin/yeahconsole']
+Real binaries:['/usr/bin/yeahconsole']
+Write to package-work.txt file: yeahconsole
+Write to package-binaries.txt file: ['/usr/bin/yeahconsole']
+['/usr/bin/yeahconsole']

@@ -9504,3 +9504,4 @@
 /usr/sbin/yppoll
 /usr/sbin/ypset
 /usr/bin/yasr
+/usr/bin/yeahconsole
