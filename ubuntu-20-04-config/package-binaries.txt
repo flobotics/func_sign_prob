@@ -8099,3 +8099,5 @@
 /usr/bin/zmu
 /usr/lib/zoneminder/cgi-bin/zms
 /usr/bin/zeal
+/usr/bin/bmp
+/usr/bin/zhcon

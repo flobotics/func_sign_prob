@@ -25550,3 +25550,21 @@ Real binaries:['/usr/bin/zeal']
 Write to package-work.txt file: zeal
 Write to package-binaries.txt file: ['/usr/bin/zeal']
 ['/usr/bin/zeal']
+Write pickle file
+tar_out:
+Package-nr:4252 of 11000, Name:ztex-bmp-dbgsym
+Package >ztex-bmp< not in package-all.txt file
+Write to package-all.txt file: ztex-bmp
+In package >ztex-bmp< are these binaries: ['/usr/bin/bmp']
+Real binaries:['/usr/bin/bmp']
+Write to package-work.txt file: ztex-bmp
+Write to package-binaries.txt file: ['/usr/bin/bmp']
+['/usr/bin/bmp']
+Package-nr:4253 of 11000, Name:zhcon-dbgsym
+Package >zhcon< not in package-all.txt file
+Write to package-all.txt file: zhcon
+In package >zhcon< are these binaries: ['/usr/bin/zhcon']
+Real binaries:['/usr/bin/zhcon']
+Write to package-work.txt file: zhcon
+Write to package-binaries.txt file: ['/usr/bin/zhcon']
+['/usr/bin/zhcon']

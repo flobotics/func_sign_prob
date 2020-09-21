@@ -4256,3 +4256,5 @@ zsync
 zita-dpl1
 zoneminder
 zeal
+ztex-bmp
+zhcon
