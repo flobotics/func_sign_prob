@@ -3196,3 +3196,4 @@ wmrack
 wmmisc
 wrapsrv
 wiggle
+wf-recorder
