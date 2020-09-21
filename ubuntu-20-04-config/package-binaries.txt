@@ -7969,3 +7969,5 @@
 /usr/bin/vdr-fbfe
 /usr/bin/vdr-sxfe
 /usr/bin/vera++
+/usr/bin/vamp-rdf-template-generator
+/usr/bin/vamp-simple-host

@@ -4180,3 +4180,4 @@ voronota
 xineliboutput-fbfe
 xineliboutput-sxfe
 vera++
+vamp-examples
