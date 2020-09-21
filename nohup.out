@@ -34460,3 +34460,13 @@ Real binaries:['/usr/bin/silverjuke']
 Write to package-work.txt file: silverjuke
 Write to package-binaries.txt file: ['/usr/bin/silverjuke']
 ['/usr/bin/silverjuke']
+Write pickle file
+tar_out:
+Package-nr:5291 of 11000, Name:charon-systemd-dbgsym
+Package >charon-systemd< not in package-all.txt file
+Write to package-all.txt file: charon-systemd
+In package >charon-systemd< are these binaries: ['/usr/sbin/charon-systemd']
+Real binaries:['/usr/sbin/charon-systemd']
+Write to package-work.txt file: charon-systemd
+Write to package-binaries.txt file: ['/usr/sbin/charon-systemd']
+['/usr/sbin/charon-systemd']

@@ -9734,3 +9734,4 @@
 /usr/lib/staden/bin/tracediff
 /usr/lib/staden/bin/vector_clip
 /usr/bin/silverjuke
+/usr/sbin/charon-systemd
