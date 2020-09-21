@@ -4903,3 +4903,4 @@ wxmaxima
 wesnoth-1.14-core
 wesnoth-1.14-server
 wmfrog
+waybar

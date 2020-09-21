@@ -3267,3 +3267,4 @@ citadel-webcit
 kde-config-tablet
 wxmaxima
 wmfrog
+waybar
