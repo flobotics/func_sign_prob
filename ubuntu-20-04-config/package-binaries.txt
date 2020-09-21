@@ -8422,3 +8422,7 @@
 /usr/bin/uim-pref-gtk
 /usr/bin/uim-toolbar-gtk
 /usr/bin/uim-toolbar-gtk-systray
+/usr/bin/uim-chardict-qt5
+/usr/bin/uim-im-switcher-qt5
+/usr/bin/uim-pref-qt5
+/usr/bin/uim-toolbar-qt5

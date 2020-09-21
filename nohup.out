@@ -27451,3 +27451,16 @@ Real binaries:['/usr/bin/uim-im-switcher-gtk', '/usr/bin/uim-input-pad-ja', '/us
 Write to package-work.txt file: uim-gtk2.0
 Write to package-binaries.txt file: ['/usr/bin/uim-im-switcher-gtk', '/usr/bin/uim-input-pad-ja', '/usr/bin/uim-pref-gtk', '/usr/bin/uim-toolbar-gtk', '/usr/bin/uim-toolbar-gtk-systray']
 ['/usr/bin/uim-im-switcher-gtk', '/usr/bin/uim-input-pad-ja', '/usr/bin/uim-pref-gtk', '/usr/bin/uim-toolbar-gtk', '/usr/bin/uim-toolbar-gtk-systray']
+Write pickle file
+tar_out:
+Package-nr:4471 of 11000, Name:uim-dbgsym
+Skip package >uim<, already in package-all.txt file
+[]
+Package-nr:4472 of 11000, Name:uim-qt5-dbgsym
+Package >uim-qt5< not in package-all.txt file
+Write to package-all.txt file: uim-qt5
+In package >uim-qt5< are these binaries: ['/usr/bin/uim-chardict-qt5', '/usr/bin/uim-im-switcher-qt5', '/usr/bin/uim-pref-qt5', '/usr/bin/uim-toolbar-qt5']
+Real binaries:['/usr/bin/uim-chardict-qt5', '/usr/bin/uim-im-switcher-qt5', '/usr/bin/uim-pref-qt5', '/usr/bin/uim-toolbar-qt5']
+Write to package-work.txt file: uim-qt5
+Write to package-binaries.txt file: ['/usr/bin/uim-chardict-qt5', '/usr/bin/uim-im-switcher-qt5', '/usr/bin/uim-pref-qt5', '/usr/bin/uim-toolbar-qt5']
+['/usr/bin/uim-chardict-qt5', '/usr/bin/uim-im-switcher-qt5', '/usr/bin/uim-pref-qt5', '/usr/bin/uim-toolbar-qt5']

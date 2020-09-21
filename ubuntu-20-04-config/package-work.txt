@@ -2947,3 +2947,4 @@ unclutter-xfixes
 usbtop
 ums2net
 uim-gtk2.0
+uim-qt5

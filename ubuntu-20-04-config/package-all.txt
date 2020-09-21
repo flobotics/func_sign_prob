@@ -4463,3 +4463,4 @@ usbtop
 ums2net
 uim-gtk3-immodule
 uim-gtk2.0
+uim-qt5
