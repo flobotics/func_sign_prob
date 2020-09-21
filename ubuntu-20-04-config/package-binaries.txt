@@ -9951,3 +9951,4 @@
 /usr/bin/tp512cvt
 /usr/bin/vax
 /usr/bin/vax780
+/usr/bin/subnetcalc

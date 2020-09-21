@@ -3519,3 +3519,4 @@ seafile-gui
 sooperlooper
 scanmem
 simh
+subnetcalc
