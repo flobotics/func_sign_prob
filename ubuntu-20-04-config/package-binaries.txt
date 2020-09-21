@@ -8028,3 +8028,5 @@
 /usr/bin/zita-resampler
 /usr/bin/zita-retune
 /usr/bin/zita-mu1
+/usr/bin/mpialign
+/usr/bin/zalign

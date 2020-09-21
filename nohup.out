@@ -25285,3 +25285,13 @@ Real binaries:['/usr/bin/zita-mu1']
 Write to package-work.txt file: zita-mu1
 Write to package-binaries.txt file: ['/usr/bin/zita-mu1']
 ['/usr/bin/zita-mu1']
+Write pickle file
+tar_out:
+Package-nr:4223 of 11000, Name:zalign-dbgsym
+Package >zalign< not in package-all.txt file
+Write to package-all.txt file: zalign
+In package >zalign< are these binaries: ['/usr/bin/mpialign', '/usr/bin/zalign']
+Real binaries:['/usr/bin/mpialign', '/usr/bin/zalign']
+Write to package-work.txt file: zalign
+Write to package-binaries.txt file: ['/usr/bin/mpialign', '/usr/bin/zalign']
+['/usr/bin/mpialign', '/usr/bin/zalign']
