@@ -9541,3 +9541,6 @@
 /usr/bin/yersinia
 /usr/bin/yabar
 /usr/bin/yyt
+/usr/bin/csv2yapet
+/usr/bin/yapet
+/usr/bin/yapet2csv
