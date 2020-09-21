@@ -9439,3 +9439,4 @@
 /usr/bin/wmdrawer
 /usr/bin/wavemon
 /usr/bin/wulflogger
+/usr/sbin/xmlsysd
