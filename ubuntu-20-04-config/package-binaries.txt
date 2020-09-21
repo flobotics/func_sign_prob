@@ -8872,3 +8872,4 @@
 /usr/bin/udv
 /usr/bin/Cn3D-3.0
 /sbin/loadndisdriver
+/usr/bin/nuttcp

@@ -1582,3 +1582,5 @@ node-node-expat
 node-opencv
 notification-daemon
 ninka
+network-manager-fortisslvpn
+network-manager-fortisslvpn-gnome

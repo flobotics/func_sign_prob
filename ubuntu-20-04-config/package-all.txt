@@ -4693,3 +4693,6 @@ ncbi-cn3d
 notification-daemon
 ninka
 ndiswrapper
+network-manager-fortisslvpn
+network-manager-fortisslvpn-gnome
+nuttcp
