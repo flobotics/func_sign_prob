@@ -2879,3 +2879,4 @@ ubuntu-kylin-wizard
 ukui-panel
 uncrustify
 unrar-free
+uanytun

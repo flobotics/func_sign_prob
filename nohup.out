@@ -26545,3 +26545,13 @@ Real binaries:['/usr/bin/unrar-free']
 Write to package-work.txt file: unrar-free
 Write to package-binaries.txt file: ['/usr/bin/unrar-free']
 ['/usr/bin/unrar-free']
+Write pickle file
+tar_out:
+Package-nr:4363 of 11000, Name:uanytun-dbgsym
+Package >uanytun< not in package-all.txt file
+Write to package-all.txt file: uanytun
+In package >uanytun< are these binaries: ['/usr/sbin/uanytun']
+Real binaries:['/usr/sbin/uanytun']
+Write to package-work.txt file: uanytun
+Write to package-binaries.txt file: ['/usr/sbin/uanytun']
+['/usr/sbin/uanytun']

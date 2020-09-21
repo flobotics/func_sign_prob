@@ -8273,3 +8273,4 @@
 /usr/bin/ukui-panel
 /usr/bin/uncrustify
 /usr/bin/unrar-free
+/usr/sbin/uanytun
