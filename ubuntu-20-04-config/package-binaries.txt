@@ -7807,3 +7807,4 @@
 /usr/sbin/vzdqload
 /usr/sbin/vzquota
 /usr/bin/vish
+/usr/bin/vapigen-0.48

@@ -4099,3 +4099,4 @@ virt-viewer
 vtgrab
 vzquota
 vish
+valac
