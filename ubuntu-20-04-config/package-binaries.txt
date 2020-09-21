@@ -8505,3 +8505,4 @@
 /usr/bin/nextepc-mmed
 /usr/bin/nted
 /bin/nc.traditional
+/usr/sbin/ngircd
