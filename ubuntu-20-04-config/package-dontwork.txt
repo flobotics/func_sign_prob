@@ -1670,3 +1670,4 @@ python3-svipc
 yorick-svipc
 python3-yara
 yorick-curses
+yorick-dev

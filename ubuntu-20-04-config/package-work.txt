@@ -3392,3 +3392,4 @@ yavta
 yacas
 yorick-mpy-mpich2
 yorick-mpy-openmpi
+yoshimi

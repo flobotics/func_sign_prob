@@ -33102,3 +33102,20 @@ Real binaries:['/usr/lib/yorick/bin/mpy.openmpi']
 Write to package-work.txt file: yorick-mpy-openmpi
 Write to package-binaries.txt file: ['/usr/lib/yorick/bin/mpy.openmpi']
 ['/usr/lib/yorick/bin/mpy.openmpi']
+Write pickle file
+tar_out:
+Package-nr:5131 of 11000, Name:yorick-dev-dbgsym
+Package >yorick-dev< not in package-all.txt file
+Write to package-all.txt file: yorick-dev
+In package >yorick-dev< are these binaries: ['/usr/bin/dh_installyorick']
+Real binaries:[]
+Write to package-dontwork.txt file: yorick-dev
+[]
+Package-nr:5132 of 11000, Name:yoshimi-dbgsym
+Package >yoshimi< not in package-all.txt file
+Write to package-all.txt file: yoshimi
+In package >yoshimi< are these binaries: ['/usr/bin/yoshimi']
+Real binaries:['/usr/bin/yoshimi']
+Write to package-work.txt file: yoshimi
+Write to package-binaries.txt file: ['/usr/bin/yoshimi']
+['/usr/bin/yoshimi']
