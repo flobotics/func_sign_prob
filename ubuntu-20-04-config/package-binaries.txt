@@ -9555,3 +9555,4 @@
 /usr/bin/yagi
 /usr/bin/kylin-assistant
 /usr/bin/yatm
+/usr/bin/yasw

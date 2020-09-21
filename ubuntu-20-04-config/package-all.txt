@@ -5114,3 +5114,5 @@ youker-assistant
 yorick-ynfft
 yorick-av
 yatm
+ycmd
+yasw

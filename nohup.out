@@ -33525,3 +33525,20 @@ Real binaries:['/usr/bin/yatm']
 Write to package-work.txt file: yatm
 Write to package-binaries.txt file: ['/usr/bin/yatm']
 ['/usr/bin/yatm']
+Write pickle file
+tar_out:
+Package-nr:5181 of 11000, Name:ycmd-dbgsym
+Package >ycmd< not in package-all.txt file
+Write to package-all.txt file: ycmd
+In package >ycmd< are these binaries: ['/usr/bin/ycmd']
+Real binaries:[]
+Write to package-dontwork.txt file: ycmd
+[]
+Package-nr:5182 of 11000, Name:yasw-dbgsym
+Package >yasw< not in package-all.txt file
+Write to package-all.txt file: yasw
+In package >yasw< are these binaries: ['/usr/bin/yasw']
+Real binaries:['/usr/bin/yasw']
+Write to package-work.txt file: yasw
+Write to package-binaries.txt file: ['/usr/bin/yasw']
+['/usr/bin/yasw']
