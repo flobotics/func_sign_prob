@@ -9591,3 +9591,4 @@
 /usr/bin/md5sum-lite
 /usr/bin/samtools
 /usr/bin/wgsim
+/usr/bin/sysbench
