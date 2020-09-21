@@ -23856,3 +23856,13 @@ Real binaries:['/usr/sbin/vlock-main']
 Write to package-work.txt file: vlock
 Write to package-binaries.txt file: ['/usr/sbin/vlock-main']
 ['/usr/sbin/vlock-main']
+Write pickle file
+tar_out:
+Package-nr:4059 of 11000, Name:viking-dbgsym
+Package >viking< not in package-all.txt file
+Write to package-all.txt file: viking
+In package >viking< are these binaries: ['/usr/bin/viking']
+Real binaries:['/usr/bin/viking']
+Write to package-work.txt file: viking
+Write to package-binaries.txt file: ['/usr/bin/viking']
+['/usr/bin/viking']
