@@ -5044,3 +5044,5 @@ wulfstat
 woff-tools
 wmtime
 whitedb
+python3-libnatpmp
+natpmpc
