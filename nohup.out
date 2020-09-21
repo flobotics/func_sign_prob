@@ -28516,3 +28516,16 @@ Real binaries:['/usr/sbin/rpc.rwalld']
 Write to package-work.txt file: rwalld
 Write to package-binaries.txt file: ['/usr/sbin/rpc.rwalld']
 ['/usr/sbin/rpc.rwalld']
+Write pickle file
+tar_out:
+Package-nr:4603 of 11000, Name:rwall-dbgsym
+Skip package >rwall<, already in package-all.txt file
+[]
+Package-nr:4604 of 11000, Name:nilfs-tools-dbgsym
+Package >nilfs-tools< not in package-all.txt file
+Write to package-all.txt file: nilfs-tools
+In package >nilfs-tools< are these binaries: ['/sbin/mkfs.nilfs2', '/sbin/mount.nilfs2', '/sbin/nilfs_cleanerd', '/sbin/umount.nilfs2', '/usr/bin/chcp', '/usr/bin/dumpseg', '/usr/bin/lscp', '/usr/bin/lssu', '/usr/bin/mkcp', '/usr/bin/rmcp', '/usr/sbin/nilfs-clean', '/usr/sbin/nilfs-resize', '/usr/sbin/nilfs-tune']
+Real binaries:['/sbin/mkfs.nilfs2', '/sbin/mount.nilfs2', '/sbin/nilfs_cleanerd', '/sbin/umount.nilfs2', '/usr/bin/chcp', '/usr/bin/dumpseg', '/usr/bin/lscp', '/usr/bin/lssu', '/usr/bin/mkcp', '/usr/bin/rmcp', '/usr/sbin/nilfs-clean', '/usr/sbin/nilfs-resize', '/usr/sbin/nilfs-tune']
+Write to package-work.txt file: nilfs-tools
+Write to package-binaries.txt file: ['/sbin/mkfs.nilfs2', '/sbin/mount.nilfs2', '/sbin/nilfs_cleanerd', '/sbin/umount.nilfs2', '/usr/bin/chcp', '/usr/bin/dumpseg', '/usr/bin/lscp', '/usr/bin/lssu', '/usr/bin/mkcp', '/usr/bin/rmcp', '/usr/sbin/nilfs-clean', '/usr/sbin/nilfs-resize', '/usr/sbin/nilfs-tune']
+['/sbin/mkfs.nilfs2', '/sbin/mount.nilfs2', '/sbin/nilfs_cleanerd', '/sbin/umount.nilfs2', '/usr/bin/chcp', '/usr/bin/dumpseg', '/usr/bin/lscp', '/usr/bin/lssu', '/usr/bin/mkcp', '/usr/bin/rmcp', '/usr/sbin/nilfs-clean', '/usr/sbin/nilfs-resize', '/usr/sbin/nilfs-tune']
