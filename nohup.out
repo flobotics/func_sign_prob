@@ -25500,3 +25500,13 @@ Real binaries:['/usr/bin/zzat', '/usr/bin/zzuf']
 Write to package-work.txt file: zzuf
 Write to package-binaries.txt file: ['/usr/bin/zzat', '/usr/bin/zzuf']
 ['/usr/bin/zzat', '/usr/bin/zzuf']
+Write pickle file
+tar_out:
+Package-nr:4247 of 11000, Name:z88-dbgsym
+Package >z88< not in package-all.txt file
+Write to package-all.txt file: z88
+In package >z88< are these binaries: ['/usr/bin/z88', '/usr/bin/z88com', '/usr/bin/z88d', '/usr/bin/z88e', '/usr/bin/z88f', '/usr/bin/z88g', '/usr/bin/z88h', '/usr/bin/z88i1', '/usr/bin/z88i2', '/usr/bin/z88n', '/usr/bin/z88o', '/usr/bin/z88v', '/usr/bin/z88x']
+Real binaries:['/usr/bin/z88com', '/usr/bin/z88d', '/usr/bin/z88e', '/usr/bin/z88f', '/usr/bin/z88g', '/usr/bin/z88h', '/usr/bin/z88i1', '/usr/bin/z88i2', '/usr/bin/z88n', '/usr/bin/z88o', '/usr/bin/z88v', '/usr/bin/z88x']
+Write to package-work.txt file: z88
+Write to package-binaries.txt file: ['/usr/bin/z88com', '/usr/bin/z88d', '/usr/bin/z88e', '/usr/bin/z88f', '/usr/bin/z88g', '/usr/bin/z88h', '/usr/bin/z88i1', '/usr/bin/z88i2', '/usr/bin/z88n', '/usr/bin/z88o', '/usr/bin/z88v', '/usr/bin/z88x']
+['/usr/bin/z88com', '/usr/bin/z88d', '/usr/bin/z88e', '/usr/bin/z88f', '/usr/bin/z88g', '/usr/bin/z88h', '/usr/bin/z88i1', '/usr/bin/z88i2', '/usr/bin/z88n', '/usr/bin/z88o', '/usr/bin/z88v', '/usr/bin/z88x']
