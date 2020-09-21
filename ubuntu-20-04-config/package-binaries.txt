@@ -9457,3 +9457,4 @@
 /usr/bin/neo4j-client
 /usr/bin/nbdfuse
 /usr/bin/lightify-util
+/usr/bin/ldmtool
