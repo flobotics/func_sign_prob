@@ -2767,3 +2767,5 @@ zulumount-cli
 zulupolkit
 zulusafe-cli
 zh-autoconvert
+zmakebas
+zpspell

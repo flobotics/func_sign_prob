@@ -25142,3 +25142,21 @@ Real binaries:['/usr/bin/autogb']
 Write to package-work.txt file: zh-autoconvert
 Write to package-binaries.txt file: ['/usr/bin/autogb']
 ['/usr/bin/autogb']
+Write pickle file
+tar_out:
+Package-nr:4206 of 11000, Name:zmakebas-dbgsym
+Package >zmakebas< not in package-all.txt file
+Write to package-all.txt file: zmakebas
+In package >zmakebas< are these binaries: ['/usr/bin/zmakebas']
+Real binaries:['/usr/bin/zmakebas']
+Write to package-work.txt file: zmakebas
+Write to package-binaries.txt file: ['/usr/bin/zmakebas']
+['/usr/bin/zmakebas']
+Package-nr:4207 of 11000, Name:zpspell-dbgsym
+Package >zpspell< not in package-all.txt file
+Write to package-all.txt file: zpspell
+In package >zpspell< are these binaries: ['/usr/bin/zpspell']
+Real binaries:['/usr/bin/zpspell']
+Write to package-work.txt file: zpspell
+Write to package-binaries.txt file: ['/usr/bin/zpspell']
+['/usr/bin/zpspell']

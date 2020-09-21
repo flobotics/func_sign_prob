@@ -8016,3 +8016,5 @@
 /usr/bin/zuluPolkit
 /usr/bin/zuluSafe-cli
 /usr/bin/autogb
+/usr/bin/zmakebas
+/usr/bin/zpspell
