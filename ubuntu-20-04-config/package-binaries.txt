@@ -9895,3 +9895,4 @@
 /usr/bin/stenvironment
 /usr/bin/stexec
 /usr/bin/stshell
+/usr/bin/simavr

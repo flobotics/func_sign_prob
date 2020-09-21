@@ -5231,3 +5231,4 @@ slurm-client
 splint
 sdl-ball
 steptalk
+simavr
