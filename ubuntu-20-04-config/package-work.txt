@@ -3180,3 +3180,4 @@ cgroup-tools
 cypher-lint
 cec-utils
 seahorse-daemon
+cgns-convert
