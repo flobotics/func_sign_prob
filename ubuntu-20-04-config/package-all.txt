@@ -4624,3 +4624,4 @@ nfswatch
 notify-osd
 nemo-python
 netstress
+netdiscover
