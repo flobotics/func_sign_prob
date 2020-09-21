@@ -4563,3 +4563,4 @@ ntopng
 netdata-core
 nagios-nrpe-server
 rwho
+rwhod

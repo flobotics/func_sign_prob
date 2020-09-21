@@ -8548,3 +8548,4 @@
 /usr/sbin/nrpe
 /usr/bin/ruptime
 /usr/bin/rwho
+/usr/sbin/rwhod
