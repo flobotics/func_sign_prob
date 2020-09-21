@@ -5192,3 +5192,6 @@ sagan
 super
 shotdetect
 sqlsmith
+scrub
+sumatra
+shishi-kdc
