@@ -4393,3 +4393,4 @@ uptimed
 umockdev
 ucarp
 unison
+unison-gtk

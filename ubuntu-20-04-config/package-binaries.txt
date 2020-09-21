@@ -8301,3 +8301,4 @@
 /usr/bin/umockdev-run
 /usr/sbin/ucarp
 /usr/bin/unison-2.48.4
+/usr/bin/unison-2.48.4-gtk
