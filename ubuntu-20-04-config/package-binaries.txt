@@ -9428,3 +9428,4 @@
 /usr/bin/wmail
 /usr/bin/wget2
 /usr/bin/wmifs
+/usr/bin/wmctrl

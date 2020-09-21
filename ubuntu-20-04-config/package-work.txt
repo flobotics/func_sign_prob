@@ -3363,3 +3363,4 @@ tshark
 wmail
 wget2
 wmifs
+wmctrl

@@ -5026,3 +5026,7 @@ tshark
 wmail
 wget2
 wmifs
+python3-wxgtk-webview4.0
+python3-wxgtk4.0
+python3-wxgtk-media4.0
+wmctrl
