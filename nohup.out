@@ -35043,3 +35043,20 @@ Real binaries:['/usr/bin/snarf']
 Write to package-work.txt file: snarf
 Write to package-binaries.txt file: ['/usr/bin/snarf']
 ['/usr/bin/snarf']
+Write pickle file
+tar_out:
+Package-nr:5360 of 11000, Name:python3-silo-dbgsym
+Package >python3-silo< not in package-all.txt file
+Write to package-all.txt file: python3-silo
+In package >python3-silo< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: python3-silo
+[]
+Package-nr:5361 of 11000, Name:sucrack-dbgsym
+Package >sucrack< not in package-all.txt file
+Write to package-all.txt file: sucrack
+In package >sucrack< are these binaries: ['/usr/bin/sucrack']
+Real binaries:['/usr/bin/sucrack']
+Write to package-work.txt file: sucrack
+Write to package-binaries.txt file: ['/usr/bin/sucrack']
+['/usr/bin/sucrack']

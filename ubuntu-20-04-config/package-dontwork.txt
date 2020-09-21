@@ -1731,3 +1731,4 @@ stockfish
 snoopy
 soapysdr0.7-module-bladerf
 python3-soapysdr
+python3-silo

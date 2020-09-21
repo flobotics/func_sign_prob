@@ -10019,3 +10019,4 @@
 /usr/bin/aven
 /usr/bin/survexport
 /usr/bin/snarf
+/usr/bin/sucrack

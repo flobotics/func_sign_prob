@@ -3538,3 +3538,4 @@ soapysdr-tools
 survex
 survex-aven
 snarf
+sucrack
