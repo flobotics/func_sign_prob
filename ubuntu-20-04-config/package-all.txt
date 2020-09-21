@@ -4186,3 +4186,5 @@ votca-tools
 x86dis
 happycoders-libdbg
 drumstick-tools
+dvbpsi-utils
+zanshin

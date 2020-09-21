@@ -7990,3 +7990,5 @@
 /usr/bin/drumstick-playsmf
 /usr/bin/drumstick-sysinfo
 /usr/bin/drumstick-vpiano
+/usr/bin/zanshin
+/usr/bin/zanshin-migrator

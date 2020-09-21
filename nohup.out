@@ -24909,3 +24909,20 @@ Real binaries:['/usr/bin/drumstick-drumgrid', '/usr/bin/drumstick-dumpmid', '/us
 Write to package-work.txt file: drumstick-tools
 Write to package-binaries.txt file: ['/usr/bin/drumstick-drumgrid', '/usr/bin/drumstick-dumpmid', '/usr/bin/drumstick-dumpove', '/usr/bin/drumstick-dumpsmf', '/usr/bin/drumstick-dumpwrk', '/usr/bin/drumstick-guiplayer', '/usr/bin/drumstick-metronome', '/usr/bin/drumstick-playsmf', '/usr/bin/drumstick-sysinfo', '/usr/bin/drumstick-vpiano']
 ['/usr/bin/drumstick-drumgrid', '/usr/bin/drumstick-dumpmid', '/usr/bin/drumstick-dumpove', '/usr/bin/drumstick-dumpsmf', '/usr/bin/drumstick-dumpwrk', '/usr/bin/drumstick-guiplayer', '/usr/bin/drumstick-metronome', '/usr/bin/drumstick-playsmf', '/usr/bin/drumstick-sysinfo', '/usr/bin/drumstick-vpiano']
+Write pickle file
+tar_out:
+Package-nr:4178 of 11000, Name:dvbpsi-utils-dbgsym
+Package >dvbpsi-utils< not in package-all.txt file
+Write to package-all.txt file: dvbpsi-utils
+In package >dvbpsi-utils< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: dvbpsi-utils
+[]
+Package-nr:4179 of 11000, Name:zanshin-dbgsym
+Package >zanshin< not in package-all.txt file
+Write to package-all.txt file: zanshin
+In package >zanshin< are these binaries: ['/usr/bin/zanshin', '/usr/bin/zanshin-migrator']
+Real binaries:['/usr/bin/zanshin', '/usr/bin/zanshin-migrator']
+Write to package-work.txt file: zanshin
+Write to package-binaries.txt file: ['/usr/bin/zanshin', '/usr/bin/zanshin-migrator']
+['/usr/bin/zanshin', '/usr/bin/zanshin-migrator']
