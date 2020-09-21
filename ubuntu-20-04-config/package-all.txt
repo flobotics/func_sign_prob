@@ -4469,3 +4469,6 @@ uim-fep
 uim-gtk2.0-immodule
 uim-qt5-immodule
 uim-el
+unity-gtk2-module
+unity-gtk3-module
+xcwcp

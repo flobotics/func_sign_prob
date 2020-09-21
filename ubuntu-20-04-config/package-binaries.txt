@@ -8431,3 +8431,4 @@
 /usr/bin/uim-fep-tick
 /usr/bin/uim-el-agent
 /usr/bin/uim-el-helper-agent
+/usr/bin/xcwcp

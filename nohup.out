@@ -27511,3 +27511,30 @@ Real binaries:['/usr/bin/uim-el-agent', '/usr/bin/uim-el-helper-agent']
 Write to package-work.txt file: uim-el
 Write to package-binaries.txt file: ['/usr/bin/uim-el-agent', '/usr/bin/uim-el-helper-agent']
 ['/usr/bin/uim-el-agent', '/usr/bin/uim-el-helper-agent']
+Write pickle file
+tar_out:
+Package-nr:4479 of 11000, Name:udo-dbgsym
+Skip package >udo<, already in package-all.txt file
+[]
+Package-nr:4480 of 11000, Name:unity-gtk2-module-dbgsym
+Package >unity-gtk2-module< not in package-all.txt file
+Write to package-all.txt file: unity-gtk2-module
+In package >unity-gtk2-module< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: unity-gtk2-module
+[]
+Package-nr:4481 of 11000, Name:unity-gtk3-module-dbgsym
+Package >unity-gtk3-module< not in package-all.txt file
+Write to package-all.txt file: unity-gtk3-module
+In package >unity-gtk3-module< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: unity-gtk3-module
+[]
+Package-nr:4482 of 11000, Name:xcwcp-dbgsym
+Package >xcwcp< not in package-all.txt file
+Write to package-all.txt file: xcwcp
+In package >xcwcp< are these binaries: ['/usr/bin/xcwcp']
+Real binaries:['/usr/bin/xcwcp']
+Write to package-work.txt file: xcwcp
+Write to package-binaries.txt file: ['/usr/bin/xcwcp']
+['/usr/bin/xcwcp']
