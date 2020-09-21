@@ -5166,3 +5166,6 @@ scim-pinyin
 suckless-tools
 svgpart
 sdcv
+scilab-minimal-bin
+scilab-full-bin
+signond

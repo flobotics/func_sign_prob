@@ -3455,3 +3455,5 @@ registry-tools
 sniffit
 suckless-tools
 sdcv
+scilab-full-bin
+signond

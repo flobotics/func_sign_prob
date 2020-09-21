@@ -1706,3 +1706,4 @@ snort-common-libraries
 ssvnc
 scim-pinyin
 svgpart
+scilab-minimal-bin

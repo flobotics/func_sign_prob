@@ -34018,3 +34018,28 @@ Real binaries:['/usr/bin/sdcv']
 Write to package-work.txt file: sdcv
 Write to package-binaries.txt file: ['/usr/bin/sdcv']
 ['/usr/bin/sdcv']
+Write pickle file
+tar_out:
+Package-nr:5242 of 11000, Name:scilab-minimal-bin-dbgsym
+Package >scilab-minimal-bin< not in package-all.txt file
+Write to package-all.txt file: scilab-minimal-bin
+In package >scilab-minimal-bin< are these binaries: ['/usr/share/doc/scilab-minimal-bin/changelog.Debian.gz', '/usr/share/doc/scilab-minimal-bin/copyright']
+Real binaries:[]
+Write to package-dontwork.txt file: scilab-minimal-bin
+[]
+Package-nr:5243 of 11000, Name:scilab-full-bin-dbgsym
+Package >scilab-full-bin< not in package-all.txt file
+Write to package-all.txt file: scilab-full-bin
+In package >scilab-full-bin< are these binaries: ['/usr/bin/XML2Modelica', '/usr/bin/modelicac', '/usr/bin/modelicat', '/usr/share/doc/scilab-full-bin/copyright', '/usr/share/doc/scilab-full-bin/changelog.Debian.gz']
+Real binaries:['/usr/bin/XML2Modelica', '/usr/bin/modelicac', '/usr/bin/modelicat']
+Write to package-work.txt file: scilab-full-bin
+Write to package-binaries.txt file: ['/usr/bin/XML2Modelica', '/usr/bin/modelicac', '/usr/bin/modelicat']
+['/usr/bin/XML2Modelica', '/usr/bin/modelicac', '/usr/bin/modelicat']
+Package-nr:5244 of 11000, Name:signond-dbgsym
+Package >signond< not in package-all.txt file
+Write to package-all.txt file: signond
+In package >signond< are these binaries: ['/usr/bin/signond', '/usr/bin/signonpluginprocess']
+Real binaries:['/usr/bin/signond', '/usr/bin/signonpluginprocess']
+Write to package-work.txt file: signond
+Write to package-binaries.txt file: ['/usr/bin/signond', '/usr/bin/signonpluginprocess']
+['/usr/bin/signond', '/usr/bin/signonpluginprocess']

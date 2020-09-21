@@ -9631,3 +9631,8 @@
 /usr/bin/wmname
 /usr/bin/xssstate
 /usr/bin/sdcv
+/usr/bin/XML2Modelica
+/usr/bin/modelicac
+/usr/bin/modelicat
+/usr/bin/signond
+/usr/bin/signonpluginprocess
