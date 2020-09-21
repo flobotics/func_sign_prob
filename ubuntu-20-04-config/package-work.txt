@@ -3271,3 +3271,4 @@ waybar
 weston
 wmcpu
 waffle-utils
+wpagui

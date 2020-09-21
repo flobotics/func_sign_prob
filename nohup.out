@@ -31619,3 +31619,13 @@ Real binaries:['/usr/bin/wflinfo']
 Write to package-work.txt file: waffle-utils
 Write to package-binaries.txt file: ['/usr/bin/wflinfo']
 ['/usr/bin/wflinfo']
+Write pickle file
+tar_out:
+Package-nr:4965 of 11000, Name:wpagui-dbgsym
+Package >wpagui< not in package-all.txt file
+Write to package-all.txt file: wpagui
+In package >wpagui< are these binaries: ['/usr/sbin/wpa_gui']
+Real binaries:['/usr/sbin/wpa_gui']
+Write to package-work.txt file: wpagui
+Write to package-binaries.txt file: ['/usr/sbin/wpa_gui']
+['/usr/sbin/wpa_gui']
