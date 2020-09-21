@@ -7896,3 +7896,4 @@
 /usr/bin/veyon-worker
 /usr/bin/veyon-master
 /usr/bin/veyon-configurator
+/usr/bin/vdpauinfo

@@ -24486,3 +24486,13 @@ Real binaries:['/usr/bin/veyon-configurator']
 Write to package-work.txt file: veyon-configurator
 Write to package-binaries.txt file: ['/usr/bin/veyon-configurator']
 ['/usr/bin/veyon-configurator']
+Write pickle file
+tar_out:
+Package-nr:4131 of 11000, Name:vdpauinfo-dbgsym
+Package >vdpauinfo< not in package-all.txt file
+Write to package-all.txt file: vdpauinfo
+In package >vdpauinfo< are these binaries: ['/usr/bin/vdpauinfo']
+Real binaries:['/usr/bin/vdpauinfo']
+Write to package-work.txt file: vdpauinfo
+Write to package-binaries.txt file: ['/usr/bin/vdpauinfo']
+['/usr/bin/vdpauinfo']
