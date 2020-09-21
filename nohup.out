@@ -33213,3 +33213,16 @@ Real binaries:['/usr/bin/yaz-icu']
 Write to package-work.txt file: yaz-icu
 Write to package-binaries.txt file: ['/usr/bin/yaz-icu']
 ['/usr/bin/yaz-icu']
+Write pickle file
+tar_out:
+Package-nr:5144 of 11000, Name:yaz-dbgsym
+Skip package >yaz<, already in package-all.txt file
+[]
+Package-nr:5145 of 11000, Name:ytree-dbgsym
+Package >ytree< not in package-all.txt file
+Write to package-all.txt file: ytree
+In package >ytree< are these binaries: ['/usr/bin/ytree']
+Real binaries:['/usr/bin/ytree']
+Write to package-work.txt file: ytree
+Write to package-binaries.txt file: ['/usr/bin/ytree']
+['/usr/bin/ytree']
