@@ -2911,3 +2911,4 @@ ussp-push
 utfcheck
 udevil
 ukui-window-switch
+ukui-settings-daemon

@@ -27013,3 +27013,13 @@ Real binaries:['/usr/bin/ukui-window-switch']
 Write to package-work.txt file: ukui-window-switch
 Write to package-binaries.txt file: ['/usr/bin/ukui-window-switch']
 ['/usr/bin/ukui-window-switch']
+Write pickle file
+tar_out:
+Package-nr:4419 of 11000, Name:ukui-settings-daemon-dbgsym
+Package >ukui-settings-daemon< not in package-all.txt file
+Write to package-all.txt file: ukui-settings-daemon
+In package >ukui-settings-daemon< are these binaries: ['/usr/bin/ukui-settings-daemon', '/usr/bin/usd-datetime-mechanism', '/usr/bin/usd-locate-pointer']
+Real binaries:['/usr/bin/ukui-settings-daemon', '/usr/bin/usd-datetime-mechanism', '/usr/bin/usd-locate-pointer']
+Write to package-work.txt file: ukui-settings-daemon
+Write to package-binaries.txt file: ['/usr/bin/ukui-settings-daemon', '/usr/bin/usd-datetime-mechanism', '/usr/bin/usd-locate-pointer']
+['/usr/bin/ukui-settings-daemon', '/usr/bin/usd-datetime-mechanism', '/usr/bin/usd-locate-pointer']

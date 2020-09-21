@@ -8337,3 +8337,6 @@
 /usr/bin/utfcheck
 /usr/bin/udevil
 /usr/bin/ukui-window-switch
+/usr/bin/ukui-settings-daemon
+/usr/bin/usd-datetime-mechanism
+/usr/bin/usd-locate-pointer
