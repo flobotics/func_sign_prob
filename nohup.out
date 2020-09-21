@@ -34281,3 +34281,13 @@ Real binaries:['/usr/sbin/shishid']
 Write to package-work.txt file: shishi-kdc
 Write to package-binaries.txt file: ['/usr/sbin/shishid']
 ['/usr/sbin/shishid']
+Write pickle file
+tar_out:
+Package-nr:5272 of 11000, Name:shisa-dbgsym
+Package >shisa< not in package-all.txt file
+Write to package-all.txt file: shisa
+In package >shisa< are these binaries: ['/usr/bin/shisa']
+Real binaries:['/usr/bin/shisa']
+Write to package-work.txt file: shisa
+Write to package-binaries.txt file: ['/usr/bin/shisa']
+['/usr/bin/shisa']

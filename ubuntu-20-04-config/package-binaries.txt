@@ -9656,3 +9656,4 @@
 /usr/bin/sqlsmith
 /usr/bin/sumatra
 /usr/sbin/shishid
+/usr/bin/shisa
