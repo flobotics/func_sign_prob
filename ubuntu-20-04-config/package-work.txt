@@ -2727,3 +2727,4 @@ tcl-vtk7
 vkeybd
 vramsteg
 visualboyadvance
+vstream-client

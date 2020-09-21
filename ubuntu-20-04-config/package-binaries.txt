@@ -7928,3 +7928,4 @@
 /usr/bin/vkeybd
 /usr/bin/vramsteg
 /usr/bin/VisualBoyAdvance
+/usr/bin/vstream-client

@@ -4159,3 +4159,4 @@ vkeybd
 valabind
 vramsteg
 visualboyadvance
+vstream-client
