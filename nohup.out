@@ -26565,3 +26565,13 @@ Real binaries:['/usr/bin/uftp', '/usr/bin/uftp_keymgt', '/usr/bin/uftpd', '/usr/
 Write to package-work.txt file: uftp
 Write to package-binaries.txt file: ['/usr/bin/uftp', '/usr/bin/uftp_keymgt', '/usr/bin/uftpd', '/usr/bin/uftpproxyd']
 ['/usr/bin/uftp', '/usr/bin/uftp_keymgt', '/usr/bin/uftpd', '/usr/bin/uftpproxyd']
+Write pickle file
+tar_out:
+Package-nr:4365 of 11000, Name:unifdef-dbgsym
+Package >unifdef< not in package-all.txt file
+Write to package-all.txt file: unifdef
+In package >unifdef< are these binaries: ['/usr/bin/unifdef', '/usr/bin/unifdefall']
+Real binaries:['/usr/bin/unifdef']
+Write to package-work.txt file: unifdef
+Write to package-binaries.txt file: ['/usr/bin/unifdef']
+['/usr/bin/unifdef']
