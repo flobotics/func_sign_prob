@@ -1509,3 +1509,4 @@ ukui-polkit
 python3-unbound
 python-unbound
 ubiquity-frontend-gtk-panel
+unity-lens-music
