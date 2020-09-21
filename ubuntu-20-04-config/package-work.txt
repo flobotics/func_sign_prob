@@ -2873,3 +2873,4 @@ unace
 uvccapture
 ucto
 ultracopier
+unity-control-center

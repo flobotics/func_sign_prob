@@ -8265,3 +8265,5 @@
 /usr/bin/uvccapture
 /usr/bin/ucto
 /usr/bin/ultracopier
+/usr/bin/bluetooth-wizard
+/usr/bin/unity-control-center
