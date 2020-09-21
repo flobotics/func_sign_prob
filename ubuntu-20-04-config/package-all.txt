@@ -4240,3 +4240,5 @@ zabbix-server-mysql
 zabbix-proxy-mysql
 zoem
 zimpl
+zathura-cb
+z80asm

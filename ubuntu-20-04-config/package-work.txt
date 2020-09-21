@@ -2789,3 +2789,4 @@ zabbix-server-mysql
 zabbix-proxy-mysql
 zoem
 zimpl
+z80asm

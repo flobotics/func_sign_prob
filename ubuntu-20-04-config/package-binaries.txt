@@ -8041,3 +8041,4 @@
 /usr/sbin/zabbix_agentd
 /usr/bin/zoem
 /usr/bin/zimpl
+/usr/bin/z80asm
