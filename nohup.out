@@ -31449,3 +31449,42 @@ Real binaries:['/usr/bin/wmpinboard']
 Write to package-work.txt file: wmpinboard
 Write to package-binaries.txt file: ['/usr/bin/wmpinboard']
 ['/usr/bin/wmpinboard']
+Write pickle file
+tar_out:
+Package-nr:4945 of 11000, Name:wmtemp-dbgsym
+Package >wmtemp< not in package-all.txt file
+Write to package-all.txt file: wmtemp
+In package >wmtemp< are these binaries: ['/usr/bin/wmtemp']
+Real binaries:['/usr/bin/wmtemp']
+Write to package-work.txt file: wmtemp
+Write to package-binaries.txt file: ['/usr/bin/wmtemp']
+['/usr/bin/wmtemp']
+Package-nr:4946 of 11000, Name:python-wxgtk-media3.0-dbgsym
+Package >python-wxgtk-media3.0< not in package-all.txt file
+Write to package-all.txt file: python-wxgtk-media3.0
+In package >python-wxgtk-media3.0< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: python-wxgtk-media3.0
+[]
+Package-nr:4947 of 11000, Name:python-wxgtk3.0-dbgsym
+Package >python-wxgtk3.0< not in package-all.txt file
+Write to package-all.txt file: python-wxgtk3.0
+In package >python-wxgtk3.0< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: python-wxgtk3.0
+[]
+Package-nr:4948 of 11000, Name:python-wxgtk-webview3.0-dbgsym
+Package >python-wxgtk-webview3.0< not in package-all.txt file
+Write to package-all.txt file: python-wxgtk-webview3.0
+In package >python-wxgtk-webview3.0< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: python-wxgtk-webview3.0
+[]
+Package-nr:4949 of 11000, Name:weightwatcher-dbgsym
+Package >weightwatcher< not in package-all.txt file
+Write to package-all.txt file: weightwatcher
+In package >weightwatcher< are these binaries: ['/usr/bin/weightwatcher']
+Real binaries:['/usr/bin/weightwatcher']
+Write to package-work.txt file: weightwatcher
+Write to package-binaries.txt file: ['/usr/bin/weightwatcher']
+['/usr/bin/weightwatcher']

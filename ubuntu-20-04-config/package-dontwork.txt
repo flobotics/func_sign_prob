@@ -1625,3 +1625,6 @@ wine64-tools
 wine64-preloader
 postgresql-12-wal2json
 wings3d
+python-wxgtk-media3.0
+python-wxgtk3.0
+python-wxgtk-webview3.0

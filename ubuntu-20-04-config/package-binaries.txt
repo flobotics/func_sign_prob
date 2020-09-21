@@ -9208,3 +9208,5 @@
 /usr/bin/wannier90.x
 /usr/bin/wmcalc
 /usr/bin/wmpinboard
+/usr/bin/wmtemp
+/usr/bin/weightwatcher
