@@ -8915,3 +8915,4 @@
 /usr/bin/makensis
 /usr/bin/nyancat
 /usr/bin/nitrokey-app
+/usr/bin/nextcloud

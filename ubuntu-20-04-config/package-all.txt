@@ -4735,3 +4735,4 @@ npd6
 nsis
 nyancat
 nitrokey-app
+nextcloud-desktop
