@@ -27339,3 +27339,13 @@ Real binaries:['/usr/bin/cd_disect', '/usr/bin/cd_sessions', '/usr/bin/mmc_forma
 Write to package-work.txt file: udfclient
 Write to package-binaries.txt file: ['/usr/bin/cd_disect', '/usr/bin/cd_sessions', '/usr/bin/mmc_format', '/usr/bin/newfs_udf', '/usr/bin/udfclient', '/usr/bin/udfdump']
 ['/usr/bin/cd_disect', '/usr/bin/cd_sessions', '/usr/bin/mmc_format', '/usr/bin/newfs_udf', '/usr/bin/udfclient', '/usr/bin/udfdump']
+Write pickle file
+tar_out:
+Package-nr:4459 of 11000, Name:uswsusp-dbgsym
+Package >uswsusp< not in package-all.txt file
+Write to package-all.txt file: uswsusp
+In package >uswsusp< are these binaries: ['/usr/sbin/s2both', '/usr/sbin/s2disk', '/usr/sbin/s2ram', '/usr/sbin/swap-offset']
+Real binaries:['/usr/sbin/s2both', '/usr/sbin/s2disk', '/usr/sbin/s2ram', '/usr/sbin/swap-offset']
+Write to package-work.txt file: uswsusp
+Write to package-binaries.txt file: ['/usr/sbin/s2both', '/usr/sbin/s2disk', '/usr/sbin/s2ram', '/usr/sbin/swap-offset']
+['/usr/sbin/s2both', '/usr/sbin/s2disk', '/usr/sbin/s2ram', '/usr/sbin/swap-offset']

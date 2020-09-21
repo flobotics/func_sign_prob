@@ -8405,3 +8405,7 @@
 /usr/bin/newfs_udf
 /usr/bin/udfclient
 /usr/bin/udfdump
+/usr/sbin/s2both
+/usr/sbin/s2disk
+/usr/sbin/s2ram
+/usr/sbin/swap-offset
