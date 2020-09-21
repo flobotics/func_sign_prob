@@ -4076,3 +4076,4 @@ vigor
 volumeicon-alsa
 voms-server
 voms-clients
+vlock

@@ -7757,3 +7757,4 @@
 /usr/bin/voms-proxy-info2
 /usr/bin/voms-proxy-init2
 /usr/bin/voms-verify
+/usr/sbin/vlock-main

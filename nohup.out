@@ -23846,3 +23846,13 @@ Real binaries:['/usr/bin/voms-proxy-destroy2', '/usr/bin/voms-proxy-fake', '/usr
 Write to package-work.txt file: voms-clients
 Write to package-binaries.txt file: ['/usr/bin/voms-proxy-destroy2', '/usr/bin/voms-proxy-fake', '/usr/bin/voms-proxy-info2', '/usr/bin/voms-proxy-init2', '/usr/bin/voms-verify']
 ['/usr/bin/voms-proxy-destroy2', '/usr/bin/voms-proxy-fake', '/usr/bin/voms-proxy-info2', '/usr/bin/voms-proxy-init2', '/usr/bin/voms-verify']
+Write pickle file
+tar_out:
+Package-nr:4058 of 11000, Name:vlock-dbgsym
+Package >vlock< not in package-all.txt file
+Write to package-all.txt file: vlock
+In package >vlock< are these binaries: ['/usr/bin/vlock', '/usr/sbin/vlock-main']
+Real binaries:['/usr/sbin/vlock-main']
+Write to package-work.txt file: vlock
+Write to package-binaries.txt file: ['/usr/sbin/vlock-main']
+['/usr/sbin/vlock-main']
