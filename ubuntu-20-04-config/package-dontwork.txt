@@ -1642,3 +1642,4 @@ w1retap-pgsql
 w1retap-odbc
 w1retap-mysql
 python3-wreport
+west-chamber-common

@@ -4961,3 +4961,5 @@ wmbattery
 weex
 wmbiff
 wildmidi
+west-chamber-common
+wavtool-pl

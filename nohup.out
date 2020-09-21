@@ -32119,3 +32119,20 @@ Real binaries:['/usr/bin/wildmidi']
 Write to package-work.txt file: wildmidi
 Write to package-binaries.txt file: ['/usr/bin/wildmidi']
 ['/usr/bin/wildmidi']
+Write pickle file
+tar_out:
+Package-nr:5020 of 11000, Name:west-chamber-common-dbgsym
+Package >west-chamber-common< not in package-all.txt file
+Write to package-all.txt file: west-chamber-common
+In package >west-chamber-common< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: west-chamber-common
+[]
+Package-nr:5021 of 11000, Name:wavtool-pl-dbgsym
+Package >wavtool-pl< not in package-all.txt file
+Write to package-all.txt file: wavtool-pl
+In package >wavtool-pl< are these binaries: ['/usr/bin/wavtool-pl']
+Real binaries:['/usr/bin/wavtool-pl']
+Write to package-work.txt file: wavtool-pl
+Write to package-binaries.txt file: ['/usr/bin/wavtool-pl']
+['/usr/bin/wavtool-pl']

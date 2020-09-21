@@ -3314,3 +3314,4 @@ wmbattery
 weex
 wmbiff
 wildmidi
+wavtool-pl
