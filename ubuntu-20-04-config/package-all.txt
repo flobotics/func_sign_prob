@@ -4982,3 +4982,4 @@ wmnd-snmp
 whowatch
 wham-align
 wmaker
+wmaker-utils

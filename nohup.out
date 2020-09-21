@@ -32317,3 +32317,13 @@ Real binaries:['/usr/bin/WPrefs', '/usr/bin/geticonset', '/usr/bin/getstyle', '/
 Write to package-work.txt file: wmaker
 Write to package-binaries.txt file: ['/usr/bin/WPrefs', '/usr/bin/geticonset', '/usr/bin/getstyle', '/usr/bin/seticons', '/usr/bin/setstyle', '/usr/bin/wdread', '/usr/bin/wdwrite', '/usr/bin/wmagnify', '/usr/bin/wmgenmenu', '/usr/bin/wmiv', '/usr/bin/wmmenugen', '/usr/bin/wmsetbg']
 ['/usr/bin/WPrefs', '/usr/bin/geticonset', '/usr/bin/getstyle', '/usr/bin/seticons', '/usr/bin/setstyle', '/usr/bin/wdread', '/usr/bin/wdwrite', '/usr/bin/wmagnify', '/usr/bin/wmgenmenu', '/usr/bin/wmiv', '/usr/bin/wmmenugen', '/usr/bin/wmsetbg']
+Write pickle file
+tar_out:
+Package-nr:5043 of 11000, Name:wmaker-utils-dbgsym
+Package >wmaker-utils< not in package-all.txt file
+Write to package-all.txt file: wmaker-utils
+In package >wmaker-utils< are these binaries: ['/usr/bin/wxcopy', '/usr/bin/wxpaste']
+Real binaries:['/usr/bin/wxcopy', '/usr/bin/wxpaste']
+Write to package-work.txt file: wmaker-utils
+Write to package-binaries.txt file: ['/usr/bin/wxcopy', '/usr/bin/wxpaste']
+['/usr/bin/wxcopy', '/usr/bin/wxpaste']

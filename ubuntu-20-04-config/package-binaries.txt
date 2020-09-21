@@ -9363,3 +9363,5 @@
 /usr/bin/wmiv
 /usr/bin/wmmenugen
 /usr/bin/wmsetbg
+/usr/bin/wxcopy
+/usr/bin/wxpaste
