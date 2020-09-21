@@ -33119,3 +33119,20 @@ Real binaries:['/usr/bin/yoshimi']
 Write to package-work.txt file: yoshimi
 Write to package-binaries.txt file: ['/usr/bin/yoshimi']
 ['/usr/bin/yoshimi']
+Write pickle file
+tar_out:
+Package-nr:5133 of 11000, Name:erlang-yaws-dbgsym
+Package >erlang-yaws< not in package-all.txt file
+Write to package-all.txt file: erlang-yaws
+In package >erlang-yaws< are these binaries: ['/usr/lib/yaws-2.0.7/ebin/haxe.beam', '/usr/lib/yaws-2.0.7/ebin/json2.beam', '/usr/lib/yaws-2.0.7/ebin/jsonrpc.beam', '/usr/lib/yaws-2.0.7/ebin/mime_type_c.beam', '/usr/lib/yaws-2.0.7/ebin/mime_types.beam', '/usr/lib/yaws-2.0.7/ebin/yaws.app', '/usr/lib/yaws-2.0.7/ebin/yaws.appup', '/usr/lib/yaws-2.0.7/ebin/yaws.beam', '/usr/lib/yaws-2.0.7/ebin/yaws_api.beam', '/usr/lib/yaws-2.0.7/ebin/yaws_app.beam', '/usr/lib/yaws-2.0.7/ebin/yaws_appmod_cgi.beam', '/usr/lib/yaws-2.0.7/ebin/yaws_appmod_dav.beam', '/usr/lib/yaws-2.0.7/ebin/yaws_appmod_fcgi.beam', '/usr/lib/yaws-2.0.7/ebin/yaws_cgi.beam', '/usr/lib/yaws-2.0.7/ebin/yaws_compile.beam', '/usr/lib/yaws-2.0.7/ebin/yaws_config.beam', '/usr/lib/yaws-2.0.7/ebin/yaws_ctl.beam', '/usr/lib/yaws-2.0.7/ebin/yaws_debug.beam', '/usr/lib/yaws-2.0.7/ebin/yaws_dime.beam', '/usr/lib/yaws-2.0.7/ebin/yaws_dynopts.beam', '/usr/lib/yaws-2.0.7/ebin/yaws_exhtml.beam', '/usr/lib/yaws-2.0.7/ebin/yaws_generated.beam', '/usr/lib/yaws-2.0.7/ebin/yaws_html.beam', '/usr/lib/yaws-2.0.7/ebin/yaws_jsonrpc.beam', '/usr/lib/yaws-2.0.7/ebin/yaws_log.beam', '/usr/lib/yaws-2.0.7/ebin/yaws_log_file_h.beam', '/usr/lib/yaws-2.0.7/ebin/yaws_logger.beam', '/usr/lib/yaws-2.0.7/ebin/yaws_ls.beam', '/usr/lib/yaws-2.0.7/ebin/yaws_multipart.beam', '/usr/lib/yaws-2.0.7/ebin/yaws_outmod.beam', '/usr/lib/yaws-2.0.7/ebin/yaws_pam.beam', '/usr/lib/yaws-2.0.7/ebin/yaws_revproxy.beam', '/usr/lib/yaws-2.0.7/ebin/yaws_rpc.beam', '/usr/lib/yaws-2.0.7/ebin/yaws_rss.beam', '/usr/lib/yaws-2.0.7/ebin/yaws_runmod_lock.beam', '/usr/lib/yaws-2.0.7/ebin/yaws_sendfile.beam', '/usr/lib/yaws-2.0.7/ebin/yaws_server.beam', '/usr/lib/yaws-2.0.7/ebin/yaws_session_server.beam', '/usr/lib/yaws-2.0.7/ebin/yaws_shaper.beam', '/usr/lib/yaws-2.0.7/ebin/yaws_soap12_lib.beam', '/usr/lib/yaws-2.0.7/ebin/yaws_soap_lib.beam', '/usr/lib/yaws-2.0.7/ebin/yaws_soap_srv.beam', '/usr/lib/yaws-2.0.7/ebin/yaws_sse.beam', '/usr/lib/yaws-2.0.7/ebin/yaws_stats.beam', '/usr/lib/yaws-2.0.7/ebin/yaws_sup.beam', '/usr/lib/yaws-2.0.7/ebin/yaws_sup_restarts.beam', '/usr/lib/yaws-2.0.7/ebin/yaws_ticker.beam', '/usr/lib/yaws-2.0.7/ebin/yaws_trace.beam', '/usr/lib/yaws-2.0.7/ebin/yaws_vdir.beam', '/usr/lib/yaws-2.0.7/ebin/yaws_websockets.beam', '/usr/lib/yaws-2.0.7/ebin/yaws_ws_sup.beam', '/usr/lib/yaws-2.0.7/ebin/yaws_xmlrpc.beam', '/usr/lib/yaws-2.0.7/ebin/yaws_zlib.beam']
+Real binaries:[]
+Write to package-dontwork.txt file: erlang-yaws
+[]
+Package-nr:5134 of 11000, Name:yosys-dbgsym
+Package >yosys< not in package-all.txt file
+Write to package-all.txt file: yosys
+In package >yosys< are these binaries: ['/usr/bin/yosys', '/usr/bin/yosys-filterlib', '/usr/bin/yosys-smtbmc', '/usr/bin/yosys-abc']
+Real binaries:['/usr/bin/yosys', '/usr/bin/yosys-filterlib']
+Write to package-work.txt file: yosys
+Write to package-binaries.txt file: ['/usr/bin/yosys', '/usr/bin/yosys-filterlib']
+['/usr/bin/yosys', '/usr/bin/yosys-filterlib']

@@ -5069,3 +5069,5 @@ yorick-mpy-mpich2
 yorick-mpy-openmpi
 yorick-dev
 yoshimi
+erlang-yaws
+yosys

@@ -1671,3 +1671,4 @@ yorick-svipc
 python3-yara
 yorick-curses
 yorick-dev
+erlang-yaws

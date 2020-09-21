@@ -9510,3 +9510,5 @@
 /usr/lib/yorick/bin/mpy.mpich2
 /usr/lib/yorick/bin/mpy.openmpi
 /usr/bin/yoshimi
+/usr/bin/yosys
+/usr/bin/yosys-filterlib
