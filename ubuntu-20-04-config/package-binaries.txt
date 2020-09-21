@@ -8513,3 +8513,5 @@
 /usr/bin/ncat
 /usr/sbin/rpc.bootparamd
 /usr/sbin/nvramtool
+/usr/bin/netread
+/usr/bin/netwrite
