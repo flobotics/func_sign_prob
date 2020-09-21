@@ -2793,3 +2793,4 @@ z80asm
 zookeeper-bin
 zmap
 zpaq
+zfcp-hbaapi-utils

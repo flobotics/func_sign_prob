@@ -4246,3 +4246,4 @@ zookeeper-bin
 python3-zookeeper
 zmap
 zpaq
+zfcp-hbaapi-utils

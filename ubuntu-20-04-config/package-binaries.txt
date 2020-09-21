@@ -8049,3 +8049,5 @@
 /usr/sbin/zmap
 /usr/sbin/ztee
 /usr/bin/zpaq
+/usr/bin/zfcp_ping
+/usr/bin/zfcp_show
