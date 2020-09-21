@@ -1674,3 +1674,4 @@ yorick-dev
 erlang-yaws
 netconfd-module-ietf-system
 netconfd-module-ietf-interfaces
+ykcs11

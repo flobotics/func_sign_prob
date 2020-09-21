@@ -3401,3 +3401,4 @@ yaha
 yaz-illclient
 yaz-icu
 ytree
+yubico-piv-tool

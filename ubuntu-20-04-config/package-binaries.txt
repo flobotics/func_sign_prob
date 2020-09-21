@@ -9519,3 +9519,4 @@
 /usr/bin/yaz-illclient
 /usr/bin/yaz-icu
 /usr/bin/ytree
+/usr/bin/yubico-piv-tool

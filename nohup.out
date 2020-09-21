@@ -33226,3 +33226,20 @@ Real binaries:['/usr/bin/ytree']
 Write to package-work.txt file: ytree
 Write to package-binaries.txt file: ['/usr/bin/ytree']
 ['/usr/bin/ytree']
+Write pickle file
+tar_out:
+Package-nr:5146 of 11000, Name:ykcs11-dbgsym
+Package >ykcs11< not in package-all.txt file
+Write to package-all.txt file: ykcs11
+In package >ykcs11< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: ykcs11
+[]
+Package-nr:5147 of 11000, Name:yubico-piv-tool-dbgsym
+Package >yubico-piv-tool< not in package-all.txt file
+Write to package-all.txt file: yubico-piv-tool
+In package >yubico-piv-tool< are these binaries: ['/usr/bin/yubico-piv-tool']
+Real binaries:['/usr/bin/yubico-piv-tool']
+Write to package-work.txt file: yubico-piv-tool
+Write to package-binaries.txt file: ['/usr/bin/yubico-piv-tool']
+['/usr/bin/yubico-piv-tool']

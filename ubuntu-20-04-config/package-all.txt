@@ -5080,3 +5080,5 @@ yaha
 yaz-illclient
 yaz-icu
 ytree
+ykcs11
+yubico-piv-tool
