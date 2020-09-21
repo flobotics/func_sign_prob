@@ -9495,3 +9495,11 @@
 /usr/bin/testReplicator
 /usr/bin/testWAVAudioStreamer
 /usr/bin/vobStreamer
+/usr/bin/ypcat
+/usr/bin/ypchfn
+/usr/bin/ypchsh
+/usr/bin/ypmatch
+/usr/bin/yppasswd
+/usr/bin/ypwhich
+/usr/sbin/yppoll
+/usr/sbin/ypset
