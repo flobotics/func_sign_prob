@@ -26262,3 +26262,13 @@ Real binaries:['/usr/bin/snappy-xmir', '/usr/bin/snappy-xmir-envvars']
 Write to package-work.txt file: ubuntu-app-launch
 Write to package-binaries.txt file: ['/usr/bin/snappy-xmir', '/usr/bin/snappy-xmir-envvars']
 ['/usr/bin/snappy-xmir', '/usr/bin/snappy-xmir-envvars']
+Write pickle file
+tar_out:
+Package-nr:4331 of 11000, Name:ubuntu-app-test-dbgsym
+Package >ubuntu-app-test< not in package-all.txt file
+Write to package-all.txt file: ubuntu-app-test
+In package >ubuntu-app-test< are these binaries: ['/usr/bin/ubuntu-app-test']
+Real binaries:['/usr/bin/ubuntu-app-test']
+Write to package-work.txt file: ubuntu-app-test
+Write to package-binaries.txt file: ['/usr/bin/ubuntu-app-test']
+['/usr/bin/ubuntu-app-test']

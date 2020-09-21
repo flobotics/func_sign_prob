@@ -8233,3 +8233,4 @@
 /usr/bin/ukui-control-center
 /usr/bin/snappy-xmir
 /usr/bin/snappy-xmir-envvars
+/usr/bin/ubuntu-app-test

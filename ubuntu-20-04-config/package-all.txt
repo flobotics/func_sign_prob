@@ -4334,3 +4334,4 @@ unmo3
 uftrace
 ukui-control-center
 ubuntu-app-launch
+ubuntu-app-test
