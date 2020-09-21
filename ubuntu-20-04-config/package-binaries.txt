@@ -8119,3 +8119,4 @@
 /usr/bin/zdbsp
 /usr/bin/zita-j2n
 /usr/bin/zita-n2j
+/usr/bin/zita-at1
