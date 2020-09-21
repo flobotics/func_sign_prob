@@ -8284,3 +8284,4 @@
 /usr/bin/beta2uni
 /usr/bin/uni2beta
 /usr/bin/unibetaprep
+/usr/bin/unclutter-classic
