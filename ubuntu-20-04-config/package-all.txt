@@ -4760,3 +4760,7 @@ python3-neuron
 nnn
 nrg2iso
 nslcd
+network-manager-iodine
+network-manager-iodine-gnome
+notepadqq
+ngspice

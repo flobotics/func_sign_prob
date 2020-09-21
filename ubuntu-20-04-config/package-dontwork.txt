@@ -1600,3 +1600,6 @@ node-nodedbi
 nescc
 node-leveldown
 python3-neuron
+network-manager-iodine
+network-manager-iodine-gnome
+notepadqq

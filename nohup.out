@@ -30230,3 +30230,34 @@ Real binaries:['/usr/sbin/nslcd']
 Write to package-work.txt file: nslcd
 Write to package-binaries.txt file: ['/usr/sbin/nslcd']
 ['/usr/sbin/nslcd']
+Write pickle file
+tar_out:
+Package-nr:4810 of 11000, Name:network-manager-iodine-dbgsym
+Package >network-manager-iodine< not in package-all.txt file
+Write to package-all.txt file: network-manager-iodine
+In package >network-manager-iodine< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: network-manager-iodine
+[]
+Package-nr:4811 of 11000, Name:network-manager-iodine-gnome-dbgsym
+Package >network-manager-iodine-gnome< not in package-all.txt file
+Write to package-all.txt file: network-manager-iodine-gnome
+In package >network-manager-iodine-gnome< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: network-manager-iodine-gnome
+[]
+Package-nr:4812 of 11000, Name:notepadqq-dbgsym
+Package >notepadqq< not in package-all.txt file
+Write to package-all.txt file: notepadqq
+In package >notepadqq< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: notepadqq
+[]
+Package-nr:4813 of 11000, Name:ngspice-dbgsym
+Package >ngspice< not in package-all.txt file
+Write to package-all.txt file: ngspice
+In package >ngspice< are these binaries: ['/usr/bin/cmpp', '/usr/bin/ngspice']
+Real binaries:['/usr/bin/cmpp', '/usr/bin/ngspice']
+Write to package-work.txt file: ngspice
+Write to package-binaries.txt file: ['/usr/bin/cmpp', '/usr/bin/ngspice']
+['/usr/bin/cmpp', '/usr/bin/ngspice']

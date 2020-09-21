@@ -8940,3 +8940,5 @@
 /usr/bin/nnn
 /usr/bin/nrg2iso
 /usr/sbin/nslcd
+/usr/bin/cmpp
+/usr/bin/ngspice
