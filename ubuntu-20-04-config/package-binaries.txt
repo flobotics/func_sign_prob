@@ -9565,3 +9565,4 @@
 /usr/bin/yubikey-personalization-gui
 /usr/sbin/yrmcdsd
 /usr/bin/yakuake
+/usr/bin/ssh-contact

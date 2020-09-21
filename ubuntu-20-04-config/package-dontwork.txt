@@ -1694,3 +1694,4 @@ python3-yt
 yorick-ygsl
 yorick-mpeg
 yorick-gl
+ssh-contact-service
