@@ -8098,3 +8098,4 @@
 /usr/bin/zmc
 /usr/bin/zmu
 /usr/lib/zoneminder/cgi-bin/zms
+/usr/bin/zeal
