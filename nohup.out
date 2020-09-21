@@ -27859,3 +27859,13 @@ Real binaries:['/usr/sbin/nfacct']
 Write to package-work.txt file: nfacct
 Write to package-binaries.txt file: ['/usr/sbin/nfacct']
 ['/usr/sbin/nfacct']
+Write pickle file
+tar_out:
+Package-nr:4520 of 11000, Name:nbd-client-dbgsym
+Package >nbd-client< not in package-all.txt file
+Write to package-all.txt file: nbd-client
+In package >nbd-client< are these binaries: ['/sbin/nbd-client']
+Real binaries:['/sbin/nbd-client']
+Write to package-work.txt file: nbd-client
+Write to package-binaries.txt file: ['/sbin/nbd-client']
+['/sbin/nbd-client']

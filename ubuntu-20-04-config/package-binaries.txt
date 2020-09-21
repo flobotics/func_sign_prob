@@ -8496,3 +8496,4 @@
 /usr/bin/nzbget
 /usr/bin/ncmpcpp
 /usr/sbin/nfacct
+/sbin/nbd-client

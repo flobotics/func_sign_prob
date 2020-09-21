@@ -2980,3 +2980,4 @@ nedit
 nzbget
 ncmpcpp
 nfacct
+nbd-client
