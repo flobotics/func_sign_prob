@@ -2962,3 +2962,4 @@ ucblogo
 unity-greeter
 imapproxy
 ufoai-tools
+usbguard

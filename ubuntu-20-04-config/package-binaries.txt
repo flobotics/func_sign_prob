@@ -8452,3 +8452,7 @@
 /usr/bin/ufo2map
 /usr/bin/ufomodel
 /usr/bin/ufoslicer
+/usr/bin/usbguard
+/usr/bin/usbguard-rule-parser
+/usr/sbin/usbguard-daemon
+/usr/sbin/usbguard-dbus

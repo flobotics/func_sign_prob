@@ -4483,3 +4483,5 @@ unity-greeter
 imapproxy
 ufoai-server
 ufoai-tools
+ufoai-uforadiant
+usbguard

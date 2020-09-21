@@ -27651,3 +27651,23 @@ Real binaries:['/usr/bin/ufo2map', '/usr/bin/ufomodel', '/usr/bin/ufoslicer']
 Write to package-work.txt file: ufoai-tools
 Write to package-binaries.txt file: ['/usr/bin/ufo2map', '/usr/bin/ufomodel', '/usr/bin/ufoslicer']
 ['/usr/bin/ufo2map', '/usr/bin/ufomodel', '/usr/bin/ufoslicer']
+Write pickle file
+tar_out:
+Package-nr:4496 of 11000, Name:ufoai-uforadiant-dbgsym
+Package >ufoai-uforadiant< not in package-all.txt file
+Write to package-all.txt file: ufoai-uforadiant
+In package >ufoai-uforadiant< are these binaries: ['/usr/bin/uforadiant']
+Real binaries:[]
+Write to package-dontwork.txt file: ufoai-uforadiant
+[]
+Package-nr:4497 of 11000, Name:ufoai-dbgsym
+Skip package >ufoai<, already in package-all.txt file
+[]
+Package-nr:4498 of 11000, Name:usbguard-dbgsym
+Package >usbguard< not in package-all.txt file
+Write to package-all.txt file: usbguard
+In package >usbguard< are these binaries: ['/usr/bin/usbguard', '/usr/bin/usbguard-rule-parser', '/usr/sbin/usbguard-daemon', '/usr/sbin/usbguard-dbus']
+Real binaries:['/usr/bin/usbguard', '/usr/bin/usbguard-rule-parser', '/usr/sbin/usbguard-daemon', '/usr/sbin/usbguard-dbus']
+Write to package-work.txt file: usbguard
+Write to package-binaries.txt file: ['/usr/bin/usbguard', '/usr/bin/usbguard-rule-parser', '/usr/sbin/usbguard-daemon', '/usr/sbin/usbguard-dbus']
+['/usr/bin/usbguard', '/usr/bin/usbguard-rule-parser', '/usr/sbin/usbguard-daemon', '/usr/sbin/usbguard-dbus']
