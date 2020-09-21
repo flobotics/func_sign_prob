@@ -1422,3 +1422,4 @@ vectoroids
 vflib3
 viewpdf.app
 python3-vtk-dicom
+vim-command-t

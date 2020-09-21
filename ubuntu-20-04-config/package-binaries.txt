@@ -7871,3 +7871,4 @@
 /usr/bin/scancodump
 /usr/bin/scancotodicom
 /usr/bin/vtprint
+/usr/bin/vcftools
