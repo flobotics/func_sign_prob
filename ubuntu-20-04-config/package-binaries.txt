@@ -7811,3 +7811,5 @@
 /usr/bin/valadoc-0.48
 /usr/bin/valac-0.48
 /usr/sbin/vtund
+/usr/bin/gears-vkd3d
+/usr/bin/triangle-vkd3d

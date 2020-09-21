@@ -24101,3 +24101,20 @@ Real binaries:['/usr/sbin/vtund']
 Write to package-work.txt file: vtun
 Write to package-binaries.txt file: ['/usr/sbin/vtund']
 ['/usr/sbin/vtund']
+Write pickle file
+tar_out:
+Package-nr:4086 of 11000, Name:vbindiff-dbgsym
+Package >vbindiff< not in package-all.txt file
+Write to package-all.txt file: vbindiff
+In package >vbindiff< are these binaries: ['/usr/share/doc/vbindiff/NEWS.gz', '/usr/share/doc/vbindiff/README', '/usr/share/doc/vbindiff/README.PuTTY', '/usr/share/doc/vbindiff/changelog.Debian.gz', '/usr/share/doc/vbindiff/copyright']
+Real binaries:[]
+Write to package-dontwork.txt file: vbindiff
+[]
+Package-nr:4087 of 11000, Name:vkd3d-demos-dbgsym
+Package >vkd3d-demos< not in package-all.txt file
+Write to package-all.txt file: vkd3d-demos
+In package >vkd3d-demos< are these binaries: ['/usr/bin/gears-vkd3d', '/usr/bin/triangle-vkd3d']
+Real binaries:['/usr/bin/gears-vkd3d', '/usr/bin/triangle-vkd3d']
+Write to package-work.txt file: vkd3d-demos
+Write to package-binaries.txt file: ['/usr/bin/gears-vkd3d', '/usr/bin/triangle-vkd3d']
+['/usr/bin/gears-vkd3d', '/usr/bin/triangle-vkd3d']

@@ -4103,3 +4103,5 @@ valac
 valadoc
 valac-bin
 vtun
+vbindiff
+vkd3d-demos
