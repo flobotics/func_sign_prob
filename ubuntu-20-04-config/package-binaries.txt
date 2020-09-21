@@ -8908,3 +8908,5 @@
 /usr/sbin/nsca-ng
 /usr/sbin/in.telnetd
 /usr/bin/telnet-ssl
+/usr/bin/ndselect
+/usr/bin/numdiff

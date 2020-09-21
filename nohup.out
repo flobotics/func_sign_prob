@@ -29915,3 +29915,27 @@ Real binaries:['/usr/bin/telnet-ssl']
 Write to package-work.txt file: telnet-ssl
 Write to package-binaries.txt file: ['/usr/bin/telnet-ssl']
 ['/usr/bin/telnet-ssl']
+Write pickle file
+tar_out:
+Package-nr:4770 of 11000, Name:network-manager-l2tp-dbgsym
+Package >network-manager-l2tp< not in package-all.txt file
+Write to package-all.txt file: network-manager-l2tp
+In package >network-manager-l2tp< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: network-manager-l2tp
+[]
+Package-nr:4771 of 11000, Name:network-manager-l2tp-gnome-dbgsym
+Package >network-manager-l2tp-gnome< not in package-all.txt file
+Write to package-all.txt file: network-manager-l2tp-gnome
+In package >network-manager-l2tp-gnome< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: network-manager-l2tp-gnome
+[]
+Package-nr:4772 of 11000, Name:numdiff-dbgsym
+Package >numdiff< not in package-all.txt file
+Write to package-all.txt file: numdiff
+In package >numdiff< are these binaries: ['/usr/bin/ndselect', '/usr/bin/numdiff']
+Real binaries:['/usr/bin/ndselect', '/usr/bin/numdiff']
+Write to package-work.txt file: numdiff
+Write to package-binaries.txt file: ['/usr/bin/ndselect', '/usr/bin/numdiff']
+['/usr/bin/ndselect', '/usr/bin/numdiff']

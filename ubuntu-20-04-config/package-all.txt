@@ -4727,3 +4727,6 @@ nsca-client
 node-ws
 telnetd-ssl
 telnet-ssl
+network-manager-l2tp
+network-manager-l2tp-gnome
+numdiff
