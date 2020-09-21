@@ -3403,3 +3403,4 @@ yaz-icu
 ytree
 yubico-piv-tool
 yasm
+ykush-control

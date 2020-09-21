@@ -9522,3 +9522,4 @@
 /usr/bin/yubico-piv-tool
 /usr/bin/yasm
 /usr/bin/ytasm
+/usr/bin/ykushcmd
