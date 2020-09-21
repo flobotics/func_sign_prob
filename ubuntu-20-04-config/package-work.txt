@@ -2729,3 +2729,4 @@ vramsteg
 visualboyadvance
 vstream-client
 vzctl
+vmtouch

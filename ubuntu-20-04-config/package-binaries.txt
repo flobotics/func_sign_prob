@@ -7941,3 +7941,4 @@
 /usr/sbin/vzmemcheck
 /usr/sbin/vznnc
 /usr/sbin/vzsplit
+/usr/bin/vmtouch
