@@ -28549,3 +28549,13 @@ Real binaries:['/bin/rdisc6', '/usr/bin/name2addr', '/usr/bin/ndisc6', '/usr/bin
 Write to package-work.txt file: ndisc6
 Write to package-binaries.txt file: ['/bin/rdisc6', '/usr/bin/name2addr', '/usr/bin/ndisc6', '/usr/bin/rltraceroute6', '/usr/bin/tcpspray.ndisc6', '/usr/bin/tcptraceroute6']
 ['/bin/rdisc6', '/usr/bin/name2addr', '/usr/bin/ndisc6', '/usr/bin/rltraceroute6', '/usr/bin/tcpspray.ndisc6', '/usr/bin/tcptraceroute6']
+Write pickle file
+tar_out:
+Package-nr:4608 of 11000, Name:rdnssd-dbgsym
+Package >rdnssd< not in package-all.txt file
+Write to package-all.txt file: rdnssd
+In package >rdnssd< are these binaries: ['/sbin/rdnssd']
+Real binaries:['/sbin/rdnssd']
+Write to package-work.txt file: rdnssd
+Write to package-binaries.txt file: ['/sbin/rdnssd']
+['/sbin/rdnssd']

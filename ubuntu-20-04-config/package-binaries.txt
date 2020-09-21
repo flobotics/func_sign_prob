@@ -8620,3 +8620,4 @@
 /usr/bin/rltraceroute6
 /usr/bin/tcpspray.ndisc6
 /usr/bin/tcptraceroute6
+/sbin/rdnssd

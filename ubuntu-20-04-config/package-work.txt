@@ -3028,3 +3028,4 @@ netwox
 rwalld
 nilfs-tools
 ndisc6
+rdnssd
