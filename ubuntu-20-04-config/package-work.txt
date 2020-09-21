@@ -2839,3 +2839,4 @@ fido2-tools
 fastahack
 ffado-tools
 ffado-dbus-server
+toxcore-utils

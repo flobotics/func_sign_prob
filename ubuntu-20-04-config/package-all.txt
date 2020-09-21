@@ -4308,3 +4308,5 @@ python3-libfwnt
 fastahack
 ffado-tools
 ffado-dbus-server
+python3-fiu
+toxcore-utils

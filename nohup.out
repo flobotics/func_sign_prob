@@ -26022,3 +26022,20 @@ Real binaries:['/usr/bin/ffado-dbus-server']
 Write to package-work.txt file: ffado-dbus-server
 Write to package-binaries.txt file: ['/usr/bin/ffado-dbus-server']
 ['/usr/bin/ffado-dbus-server']
+Write pickle file
+tar_out:
+Package-nr:4304 of 11000, Name:python3-fiu-dbgsym
+Package >python3-fiu< not in package-all.txt file
+Write to package-all.txt file: python3-fiu
+In package >python3-fiu< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: python3-fiu
+[]
+Package-nr:4305 of 11000, Name:toxcore-utils-dbgsym
+Package >toxcore-utils< not in package-all.txt file
+Write to package-all.txt file: toxcore-utils
+In package >toxcore-utils< are these binaries: ['/usr/bin/DHT_bootstrap', '/usr/bin/tox-bootstrapd']
+Real binaries:['/usr/bin/DHT_bootstrap', '/usr/bin/tox-bootstrapd']
+Write to package-work.txt file: toxcore-utils
+Write to package-binaries.txt file: ['/usr/bin/DHT_bootstrap', '/usr/bin/tox-bootstrapd']
+['/usr/bin/DHT_bootstrap', '/usr/bin/tox-bootstrapd']

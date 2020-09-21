@@ -1464,3 +1464,4 @@ python3-libfsntfs
 python3-libfvde
 python3-libfwsi
 python3-libfwnt
+python3-fiu
