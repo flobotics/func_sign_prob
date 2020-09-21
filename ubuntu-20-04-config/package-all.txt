@@ -5127,3 +5127,4 @@ yorick-mpeg
 yorick-gl
 yubioath-desktop
 yubikey-personalization-gui
+yrmcds
