@@ -33146,3 +33146,20 @@ Real binaries:['/usr/bin/yabasic']
 Write to package-work.txt file: yabasic
 Write to package-binaries.txt file: ['/usr/bin/yabasic']
 ['/usr/bin/yabasic']
+Write pickle file
+tar_out:
+Package-nr:5136 of 11000, Name:netconfd-module-ietf-system-dbgsym
+Package >netconfd-module-ietf-system< not in package-all.txt file
+Write to package-all.txt file: netconfd-module-ietf-system
+In package >netconfd-module-ietf-system< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: netconfd-module-ietf-system
+[]
+Package-nr:5137 of 11000, Name:yangdump-dbgsym
+Package >yangdump< not in package-all.txt file
+Write to package-all.txt file: yangdump
+In package >yangdump< are these binaries: ['/usr/bin/yangdump']
+Real binaries:['/usr/bin/yangdump']
+Write to package-work.txt file: yangdump
+Write to package-binaries.txt file: ['/usr/bin/yangdump']
+['/usr/bin/yangdump']

@@ -9513,3 +9513,4 @@
 /usr/bin/yosys
 /usr/bin/yosys-filterlib
 /usr/bin/yabasic
+/usr/bin/yangdump
