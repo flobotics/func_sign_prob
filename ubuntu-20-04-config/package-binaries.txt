@@ -9433,3 +9433,4 @@
 /usr/bin/webalizer
 /usr/bin/wmcore
 /usr/bin/wmforecast
+/usr/bin/wob
