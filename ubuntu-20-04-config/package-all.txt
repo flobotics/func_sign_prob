@@ -4804,3 +4804,5 @@ cmis-client
 python3-cap-ng
 cd-paranoia
 cpuidtool
+wordplay
+wmfire

@@ -9059,3 +9059,4 @@
 /usr/bin/cmis-client
 /usr/bin/cd-paranoia
 /usr/bin/cpuid_tool
+/usr/bin/wmfire

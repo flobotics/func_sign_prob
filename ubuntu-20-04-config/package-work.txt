@@ -3185,3 +3185,4 @@ caca-utils
 cmis-client
 cd-paranoia
 cpuidtool
+wmfire
