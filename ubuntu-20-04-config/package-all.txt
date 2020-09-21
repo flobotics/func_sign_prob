@@ -4531,3 +4531,5 @@ ncat
 bootparamd
 nvramtool
 netrw
+nml
+niceshaper

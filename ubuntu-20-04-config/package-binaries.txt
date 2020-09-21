@@ -8515,3 +8515,4 @@
 /usr/sbin/nvramtool
 /usr/bin/netread
 /usr/bin/netwrite
+/usr/bin/niceshaper

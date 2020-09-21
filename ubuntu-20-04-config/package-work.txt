@@ -2998,3 +2998,4 @@ ncat
 bootparamd
 nvramtool
 netrw
+niceshaper

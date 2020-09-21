@@ -28112,3 +28112,23 @@ Real binaries:['/usr/bin/netread', '/usr/bin/netwrite']
 Write to package-work.txt file: netrw
 Write to package-binaries.txt file: ['/usr/bin/netread', '/usr/bin/netwrite']
 ['/usr/bin/netread', '/usr/bin/netwrite']
+Write pickle file
+tar_out:
+Package-nr:4551 of 11000, Name:nmon-dbgsym
+Skip package >nmon<, already in package-all.txt file
+[]
+Package-nr:4552 of 11000, Name:nml-dbgsym
+Package >nml< not in package-all.txt file
+Write to package-all.txt file: nml
+In package >nml< are these binaries: ['/usr/bin/nmlc']
+Real binaries:[]
+Write to package-dontwork.txt file: nml
+[]
+Package-nr:4553 of 11000, Name:niceshaper-dbgsym
+Package >niceshaper< not in package-all.txt file
+Write to package-all.txt file: niceshaper
+In package >niceshaper< are these binaries: ['/usr/bin/niceshaper']
+Real binaries:['/usr/bin/niceshaper']
+Write to package-work.txt file: niceshaper
+Write to package-binaries.txt file: ['/usr/bin/niceshaper']
+['/usr/bin/niceshaper']
