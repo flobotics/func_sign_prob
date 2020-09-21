@@ -7806,3 +7806,4 @@
 /usr/sbin/vzdqdump
 /usr/sbin/vzdqload
 /usr/sbin/vzquota
+/usr/bin/vish

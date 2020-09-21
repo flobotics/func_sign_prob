@@ -24051,3 +24051,13 @@ Real binaries:['/usr/sbin/vzdqcheck', '/usr/sbin/vzdqdump', '/usr/sbin/vzdqload'
 Write to package-work.txt file: vzquota
 Write to package-binaries.txt file: ['/usr/sbin/vzdqcheck', '/usr/sbin/vzdqdump', '/usr/sbin/vzdqload', '/usr/sbin/vzquota']
 ['/usr/sbin/vzdqcheck', '/usr/sbin/vzdqdump', '/usr/sbin/vzdqload', '/usr/sbin/vzquota']
+Write pickle file
+tar_out:
+Package-nr:4081 of 11000, Name:vish-dbgsym
+Package >vish< not in package-all.txt file
+Write to package-all.txt file: vish
+In package >vish< are these binaries: ['/usr/bin/vish']
+Real binaries:['/usr/bin/vish']
+Write to package-work.txt file: vish
+Write to package-binaries.txt file: ['/usr/bin/vish']
+['/usr/bin/vish']
