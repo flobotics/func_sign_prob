@@ -29996,3 +29996,20 @@ Real binaries:['/usr/bin/nextcloud']
 Write to package-work.txt file: nextcloud-desktop
 Write to package-binaries.txt file: ['/usr/bin/nextcloud']
 ['/usr/bin/nextcloud']
+Write pickle file
+tar_out:
+Package-nr:4779 of 11000, Name:dolphin-nextcloud-dbgsym
+Package >dolphin-nextcloud< not in package-all.txt file
+Write to package-all.txt file: dolphin-nextcloud
+In package >dolphin-nextcloud< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: dolphin-nextcloud
+[]
+Package-nr:4780 of 11000, Name:nextcloud-desktop-cmd-dbgsym
+Package >nextcloud-desktop-cmd< not in package-all.txt file
+Write to package-all.txt file: nextcloud-desktop-cmd
+In package >nextcloud-desktop-cmd< are these binaries: ['/usr/bin/nextcloudcmd']
+Real binaries:['/usr/bin/nextcloudcmd']
+Write to package-work.txt file: nextcloud-desktop-cmd
+Write to package-binaries.txt file: ['/usr/bin/nextcloudcmd']
+['/usr/bin/nextcloudcmd']

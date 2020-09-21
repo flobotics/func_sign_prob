@@ -3138,3 +3138,4 @@ nsis
 nyancat
 nitrokey-app
 nextcloud-desktop
+nextcloud-desktop-cmd
