@@ -4524,3 +4524,4 @@ navit-graphics-gtk-drawing-area
 navit-gui-internal
 navit-gui-gtk
 nlkt
+netsed

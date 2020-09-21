@@ -8507,3 +8507,4 @@
 /bin/nc.traditional
 /usr/sbin/ngircd
 /usr/bin/nlkt
+/usr/bin/netsed
