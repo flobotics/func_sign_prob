@@ -9068,3 +9068,5 @@
 /usr/bin/wmclockmon-config
 /usr/bin/WebKitWebDriver
 /usr/bin/wmccc
+/usr/bin/why3
+/usr/bin/wmrack

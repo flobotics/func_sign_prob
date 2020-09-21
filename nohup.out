@@ -30708,3 +30708,21 @@ Real binaries:['/usr/bin/wmccc']
 Write to package-work.txt file: wmcoincoin
 Write to package-binaries.txt file: ['/usr/bin/wmccc']
 ['/usr/bin/wmccc']
+Write pickle file
+tar_out:
+Package-nr:4864 of 11000, Name:why3-dbgsym
+Package >why3< not in package-all.txt file
+Write to package-all.txt file: why3
+In package >why3< are these binaries: ['/usr/bin/why3']
+Real binaries:['/usr/bin/why3']
+Write to package-work.txt file: why3
+Write to package-binaries.txt file: ['/usr/bin/why3']
+['/usr/bin/why3']
+Package-nr:4865 of 11000, Name:wmrack-dbgsym
+Package >wmrack< not in package-all.txt file
+Write to package-all.txt file: wmrack
+In package >wmrack< are these binaries: ['/usr/bin/wmrack']
+Real binaries:['/usr/bin/wmrack']
+Write to package-work.txt file: wmrack
+Write to package-binaries.txt file: ['/usr/bin/wmrack']
+['/usr/bin/wmrack']
