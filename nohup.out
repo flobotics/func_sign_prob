@@ -28236,3 +28236,69 @@ Real binaries:['/usr/sbin/nield']
 Write to package-work.txt file: nield
 Write to package-binaries.txt file: ['/usr/sbin/nield']
 ['/usr/sbin/nield']
+Write pickle file
+tar_out:
+Package-nr:4568 of 11000, Name:node-websocket-dbgsym
+Package >node-websocket< not in package-all.txt file
+Write to package-all.txt file: node-websocket
+In package >node-websocket< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: node-websocket
+[]
+Package-nr:4569 of 11000, Name:nfs-ganesha-vfs-dbgsym
+Package >nfs-ganesha-vfs< not in package-all.txt file
+Write to package-all.txt file: nfs-ganesha-vfs
+In package >nfs-ganesha-vfs< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: nfs-ganesha-vfs
+[]
+Package-nr:4570 of 11000, Name:nfs-ganesha-proxy-dbgsym
+Package >nfs-ganesha-proxy< not in package-all.txt file
+Write to package-all.txt file: nfs-ganesha-proxy
+In package >nfs-ganesha-proxy< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: nfs-ganesha-proxy
+[]
+Package-nr:4571 of 11000, Name:nfs-ganesha-nullfs-dbgsym
+Package >nfs-ganesha-nullfs< not in package-all.txt file
+Write to package-all.txt file: nfs-ganesha-nullfs
+In package >nfs-ganesha-nullfs< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: nfs-ganesha-nullfs
+[]
+Package-nr:4572 of 11000, Name:nfs-ganesha-xfs-dbgsym
+Package >nfs-ganesha-xfs< not in package-all.txt file
+Write to package-all.txt file: nfs-ganesha-xfs
+In package >nfs-ganesha-xfs< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: nfs-ganesha-xfs
+[]
+Package-nr:4573 of 11000, Name:nfs-ganesha-gluster-dbgsym
+Package >nfs-ganesha-gluster< not in package-all.txt file
+Write to package-all.txt file: nfs-ganesha-gluster
+In package >nfs-ganesha-gluster< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: nfs-ganesha-gluster
+[]
+Package-nr:4574 of 11000, Name:nfs-ganesha-gpfs-dbgsym
+Package >nfs-ganesha-gpfs< not in package-all.txt file
+Write to package-all.txt file: nfs-ganesha-gpfs
+In package >nfs-ganesha-gpfs< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: nfs-ganesha-gpfs
+[]
+Package-nr:4575 of 11000, Name:nfs-ganesha-mem-dbgsym
+Package >nfs-ganesha-mem< not in package-all.txt file
+Write to package-all.txt file: nfs-ganesha-mem
+In package >nfs-ganesha-mem< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: nfs-ganesha-mem
+[]
+Package-nr:4576 of 11000, Name:nomacs-dbgsym
+Package >nomacs< not in package-all.txt file
+Write to package-all.txt file: nomacs
+In package >nomacs< are these binaries: ['/usr/bin/nomacs']
+Real binaries:['/usr/bin/nomacs']
+Write to package-work.txt file: nomacs
+Write to package-binaries.txt file: ['/usr/bin/nomacs']
+['/usr/bin/nomacs']

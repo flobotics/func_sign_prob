@@ -8537,3 +8537,4 @@
 /usr/lib/nodejs/srs/lib/binding/srs.node
 /usr/bin/nwall
 /usr/sbin/nield
+/usr/bin/nomacs

@@ -1532,3 +1532,11 @@ nml
 python3-netcdf4
 network-manager-vpnc-gnome
 nautilus-image-converter
+node-websocket
+nfs-ganesha-vfs
+nfs-ganesha-proxy
+nfs-ganesha-nullfs
+nfs-ganesha-xfs
+nfs-ganesha-gluster
+nfs-ganesha-gpfs
+nfs-ganesha-mem
