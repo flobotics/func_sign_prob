@@ -1424,3 +1424,5 @@ viewpdf.app
 python3-vtk-dicom
 vim-command-t
 vile-filters
+vodovod
+vitetris

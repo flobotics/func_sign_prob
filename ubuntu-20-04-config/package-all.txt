@@ -4147,3 +4147,6 @@ vdpauinfo
 vinagre
 vprerex
 vilistextum
+vodovod
+vitetris
+qv4l2

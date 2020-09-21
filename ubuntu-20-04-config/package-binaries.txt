@@ -7900,3 +7900,4 @@
 /usr/bin/vinagre
 /usr/bin/vprerex
 /usr/bin/vilistextum
+/usr/bin/qv4l2

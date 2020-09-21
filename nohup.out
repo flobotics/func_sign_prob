@@ -24526,3 +24526,27 @@ Real binaries:['/usr/bin/vilistextum']
 Write to package-work.txt file: vilistextum
 Write to package-binaries.txt file: ['/usr/bin/vilistextum']
 ['/usr/bin/vilistextum']
+Write pickle file
+tar_out:
+Package-nr:4135 of 11000, Name:vodovod-dbgsym
+Package >vodovod< not in package-all.txt file
+Write to package-all.txt file: vodovod
+In package >vodovod< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: vodovod
+[]
+Package-nr:4136 of 11000, Name:vitetris-dbgsym
+Package >vitetris< not in package-all.txt file
+Write to package-all.txt file: vitetris
+In package >vitetris< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: vitetris
+[]
+Package-nr:4137 of 11000, Name:qv4l2-dbgsym
+Package >qv4l2< not in package-all.txt file
+Write to package-all.txt file: qv4l2
+In package >qv4l2< are these binaries: ['/usr/bin/qv4l2']
+Real binaries:['/usr/bin/qv4l2']
+Write to package-work.txt file: qv4l2
+Write to package-binaries.txt file: ['/usr/bin/qv4l2']
+['/usr/bin/qv4l2']

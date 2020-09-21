@@ -2718,3 +2718,4 @@ vdpauinfo
 vinagre
 vprerex
 vilistextum
+qv4l2
