@@ -9200,3 +9200,4 @@
 /usr/bin/woff2_decompress
 /usr/bin/woff2_info
 /usr/bin/wmgtemp
+/usr/bin/wmbubble

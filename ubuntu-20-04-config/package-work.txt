@@ -3255,3 +3255,4 @@ wallch
 wmcube
 woff2
 wmgtemp
+wmbubble
