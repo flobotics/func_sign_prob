@@ -3096,3 +3096,4 @@ netplug
 notary
 ngraph-gtk
 normalize-audio
+nagcon

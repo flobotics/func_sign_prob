@@ -8820,3 +8820,4 @@
 /usr/bin/notary-signer
 /usr/bin/ngraph
 /usr/bin/normalize-audio
+/usr/bin/nagcon

@@ -4674,3 +4674,7 @@ nux-tools
 nsnake
 python3-stl
 normalize-audio
+nut-ipmi
+nut-powerman-pdu
+nut-xml
+nagcon

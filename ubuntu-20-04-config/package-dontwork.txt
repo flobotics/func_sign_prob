@@ -1573,3 +1573,6 @@ ngraph-gtk-addins-base
 nux-tools
 nsnake
 python3-stl
+nut-ipmi
+nut-powerman-pdu
+nut-xml
