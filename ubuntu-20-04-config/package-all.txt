@@ -5242,3 +5242,4 @@ scalapack-mpi-test
 slang-expat
 sffview
 seafile-gui
+sooperlooper

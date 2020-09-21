@@ -3516,3 +3516,4 @@ supercat
 sapphire
 sffview
 seafile-gui
+sooperlooper
