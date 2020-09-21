@@ -4317,3 +4317,5 @@ unity-lens-applications
 python3-urwid
 unionfs-fuse
 unifont-bin
+user-manager
+uhubctl

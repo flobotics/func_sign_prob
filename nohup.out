@@ -26100,3 +26100,20 @@ Real binaries:['/usr/bin/unibdf2hex', '/usr/bin/unibmp2hex', '/usr/bin/unibmpbum
 Write to package-work.txt file: unifont-bin
 Write to package-binaries.txt file: ['/usr/bin/unibdf2hex', '/usr/bin/unibmp2hex', '/usr/bin/unibmpbump', '/usr/bin/unicoverage', '/usr/bin/unidup', '/usr/bin/unifont1per', '/usr/bin/unifontpic', '/usr/bin/unigencircles', '/usr/bin/unigenwidth', '/usr/bin/unihex2bmp', '/usr/bin/unihexgen', '/usr/bin/unipagecount']
 ['/usr/bin/unibdf2hex', '/usr/bin/unibmp2hex', '/usr/bin/unibmpbump', '/usr/bin/unicoverage', '/usr/bin/unidup', '/usr/bin/unifont1per', '/usr/bin/unifontpic', '/usr/bin/unigencircles', '/usr/bin/unigenwidth', '/usr/bin/unihex2bmp', '/usr/bin/unihexgen', '/usr/bin/unipagecount']
+Write pickle file
+tar_out:
+Package-nr:4313 of 11000, Name:user-manager-dbgsym
+Package >user-manager< not in package-all.txt file
+Write to package-all.txt file: user-manager
+In package >user-manager< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: user-manager
+[]
+Package-nr:4314 of 11000, Name:uhubctl-dbgsym
+Package >uhubctl< not in package-all.txt file
+Write to package-all.txt file: uhubctl
+In package >uhubctl< are these binaries: ['/usr/sbin/uhubctl']
+Real binaries:['/usr/sbin/uhubctl']
+Write to package-work.txt file: uhubctl
+Write to package-binaries.txt file: ['/usr/sbin/uhubctl']
+['/usr/sbin/uhubctl']

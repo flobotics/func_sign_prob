@@ -1468,3 +1468,4 @@ python3-fiu
 usbauth-notifier
 unity-lens-applications
 python3-urwid
+user-manager

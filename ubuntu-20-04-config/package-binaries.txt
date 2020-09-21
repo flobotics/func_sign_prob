@@ -8207,3 +8207,4 @@
 /usr/bin/unihex2bmp
 /usr/bin/unihexgen
 /usr/bin/unipagecount
+/usr/sbin/uhubctl
