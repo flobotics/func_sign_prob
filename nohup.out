@@ -24822,3 +24822,13 @@ Real binaries:['/usr/bin/voronota']
 Write to package-work.txt file: voronota
 Write to package-binaries.txt file: ['/usr/bin/voronota']
 ['/usr/bin/voronota']
+Write pickle file
+tar_out:
+Package-nr:4169 of 11000, Name:xineliboutput-fbfe-dbgsym
+Package >xineliboutput-fbfe< not in package-all.txt file
+Write to package-all.txt file: xineliboutput-fbfe
+In package >xineliboutput-fbfe< are these binaries: ['/usr/bin/vdr-fbfe']
+Real binaries:['/usr/bin/vdr-fbfe']
+Write to package-work.txt file: xineliboutput-fbfe
+Write to package-binaries.txt file: ['/usr/bin/vdr-fbfe']
+['/usr/bin/vdr-fbfe']

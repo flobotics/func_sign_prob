@@ -7966,3 +7966,4 @@
 /usr/bin/vdens
 /usr/sbin/vrrpd
 /usr/bin/voronota
+/usr/bin/vdr-fbfe
