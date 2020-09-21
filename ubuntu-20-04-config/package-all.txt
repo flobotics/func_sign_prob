@@ -4738,3 +4738,6 @@ nitrokey-app
 nextcloud-desktop
 dolphin-nextcloud
 nextcloud-desktop-cmd
+netrek-client-cow
+net-acct
+ncaptool

@@ -8917,3 +8917,5 @@
 /usr/bin/nitrokey-app
 /usr/bin/nextcloud
 /usr/bin/nextcloudcmd
+/usr/sbin/nacctd
+/usr/bin/ncaptool

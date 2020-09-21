@@ -30013,3 +30013,28 @@ Real binaries:['/usr/bin/nextcloudcmd']
 Write to package-work.txt file: nextcloud-desktop-cmd
 Write to package-binaries.txt file: ['/usr/bin/nextcloudcmd']
 ['/usr/bin/nextcloudcmd']
+Write pickle file
+tar_out:
+Package-nr:4781 of 11000, Name:netrek-client-cow-dbgsym
+Package >netrek-client-cow< not in package-all.txt file
+Write to package-all.txt file: netrek-client-cow
+In package >netrek-client-cow< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: netrek-client-cow
+[]
+Package-nr:4782 of 11000, Name:net-acct-dbgsym
+Package >net-acct< not in package-all.txt file
+Write to package-all.txt file: net-acct
+In package >net-acct< are these binaries: ['/usr/sbin/nacctd']
+Real binaries:['/usr/sbin/nacctd']
+Write to package-work.txt file: net-acct
+Write to package-binaries.txt file: ['/usr/sbin/nacctd']
+['/usr/sbin/nacctd']
+Package-nr:4783 of 11000, Name:ncaptool-dbgsym
+Package >ncaptool< not in package-all.txt file
+Write to package-all.txt file: ncaptool
+In package >ncaptool< are these binaries: ['/usr/bin/ncaptool']
+Real binaries:['/usr/bin/ncaptool']
+Write to package-work.txt file: ncaptool
+Write to package-binaries.txt file: ['/usr/bin/ncaptool']
+['/usr/bin/ncaptool']

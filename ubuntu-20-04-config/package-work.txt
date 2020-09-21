@@ -3139,3 +3139,5 @@ nyancat
 nitrokey-app
 nextcloud-desktop
 nextcloud-desktop-cmd
+net-acct
+ncaptool
