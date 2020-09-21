@@ -1417,3 +1417,5 @@ virt-what
 vocproc
 vbaexpress
 vbindiff
+volumecontrol.app
+vectoroids

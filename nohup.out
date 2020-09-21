@@ -24136,3 +24136,27 @@ Real binaries:['/usr/bin/vite']
 Write to package-work.txt file: vite
 Write to package-binaries.txt file: ['/usr/bin/vite']
 ['/usr/bin/vite']
+Write pickle file
+tar_out:
+Package-nr:4090 of 11000, Name:volumecontrol.app-dbgsym
+Package >volumecontrol.app< not in package-all.txt file
+Write to package-all.txt file: volumecontrol.app
+In package >volumecontrol.app< are these binaries: ['/usr/bin/VolumeControl']
+Real binaries:[]
+Write to package-dontwork.txt file: volumecontrol.app
+[]
+Package-nr:4091 of 11000, Name:vectoroids-dbgsym
+Package >vectoroids< not in package-all.txt file
+Write to package-all.txt file: vectoroids
+In package >vectoroids< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: vectoroids
+[]
+Package-nr:4092 of 11000, Name:vtable-dumper-dbgsym
+Package >vtable-dumper< not in package-all.txt file
+Write to package-all.txt file: vtable-dumper
+In package >vtable-dumper< are these binaries: ['/usr/bin/vtable-dumper']
+Real binaries:['/usr/bin/vtable-dumper']
+Write to package-work.txt file: vtable-dumper
+Write to package-binaries.txt file: ['/usr/bin/vtable-dumper']
+['/usr/bin/vtable-dumper']

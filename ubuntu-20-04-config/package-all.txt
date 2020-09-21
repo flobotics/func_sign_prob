@@ -4107,3 +4107,6 @@ vbindiff
 vkd3d-demos
 vbrfix
 vite
+volumecontrol.app
+vectoroids
+vtable-dumper
