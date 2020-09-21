@@ -8257,3 +8257,6 @@
 /usr/bin/umbrello5
 /usr/bin/xmi2pot5
 /usr/bin/mlock
+/usr/bin/dmail
+/usr/bin/mailutil
+/usr/bin/tmail

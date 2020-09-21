@@ -2867,3 +2867,4 @@ usbredirserver
 unaccent
 umbrello
 mlock
+uw-mailutils

@@ -26394,3 +26394,13 @@ Real binaries:['/usr/bin/mlock']
 Write to package-work.txt file: mlock
 Write to package-binaries.txt file: ['/usr/bin/mlock']
 ['/usr/bin/mlock']
+Write pickle file
+tar_out:
+Package-nr:4346 of 11000, Name:uw-mailutils-dbgsym
+Package >uw-mailutils< not in package-all.txt file
+Write to package-all.txt file: uw-mailutils
+In package >uw-mailutils< are these binaries: ['/usr/bin/dmail', '/usr/bin/mailutil', '/usr/bin/tmail']
+Real binaries:['/usr/bin/dmail', '/usr/bin/mailutil', '/usr/bin/tmail']
+Write to package-work.txt file: uw-mailutils
+Write to package-binaries.txt file: ['/usr/bin/dmail', '/usr/bin/mailutil', '/usr/bin/tmail']
+['/usr/bin/dmail', '/usr/bin/mailutil', '/usr/bin/tmail']
