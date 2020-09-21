@@ -31016,3 +31016,13 @@ Real binaries:['/usr/bin/wps2odt']
 Write to package-work.txt file: wps2odt
 Write to package-binaries.txt file: ['/usr/bin/wps2odt']
 ['/usr/bin/wps2odt']
+Write pickle file
+tar_out:
+Package-nr:4895 of 11000, Name:ebook2epub-dbgsym
+Package >ebook2epub< not in package-all.txt file
+Write to package-all.txt file: ebook2epub
+In package >ebook2epub< are these binaries: ['/usr/bin/ebook2epub']
+Real binaries:['/usr/bin/ebook2epub']
+Write to package-work.txt file: ebook2epub
+Write to package-binaries.txt file: ['/usr/bin/ebook2epub']
+['/usr/bin/ebook2epub']
