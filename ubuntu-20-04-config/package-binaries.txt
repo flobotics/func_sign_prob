@@ -9653,3 +9653,4 @@
 /usr/bin/setuid
 /usr/bin/super
 /usr/bin/shotdetect
+/usr/bin/sqlsmith
