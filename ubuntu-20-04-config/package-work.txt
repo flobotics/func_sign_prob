@@ -3027,3 +3027,4 @@ nwrite
 netwox
 rwalld
 nilfs-tools
+ndisc6

@@ -8614,3 +8614,9 @@
 /usr/sbin/nilfs-clean
 /usr/sbin/nilfs-resize
 /usr/sbin/nilfs-tune
+/bin/rdisc6
+/usr/bin/name2addr
+/usr/bin/ndisc6
+/usr/bin/rltraceroute6
+/usr/bin/tcpspray.ndisc6
+/usr/bin/tcptraceroute6
