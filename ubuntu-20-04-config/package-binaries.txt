@@ -8103,3 +8103,4 @@
 /usr/bin/zhcon
 /usr/bin/zypper
 /usr/sbin/zypp-refresh
+/usr/bin/z3

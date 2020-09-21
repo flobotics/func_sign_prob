@@ -2804,3 +2804,4 @@ zeal
 ztex-bmp
 zhcon
 zypper
+z3
