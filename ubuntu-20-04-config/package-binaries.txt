@@ -8911,3 +8911,5 @@
 /usr/bin/ndselect
 /usr/bin/numdiff
 /usr/bin/npd6
+/usr/bin/GenPat
+/usr/bin/makensis

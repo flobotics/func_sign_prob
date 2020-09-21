@@ -3134,3 +3134,4 @@ telnetd-ssl
 telnet-ssl
 numdiff
 npd6
+nsis
