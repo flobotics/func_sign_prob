@@ -8262,3 +8262,4 @@
 /usr/bin/tmail
 /usr/bin/unadf
 /usr/bin/unace
+/usr/bin/uvccapture

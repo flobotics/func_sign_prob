@@ -26431,3 +26431,13 @@ Real binaries:['/usr/bin/unace']
 Write to package-work.txt file: unace
 Write to package-binaries.txt file: ['/usr/bin/unace']
 ['/usr/bin/unace']
+Write pickle file
+tar_out:
+Package-nr:4350 of 11000, Name:uvccapture-dbgsym
+Package >uvccapture< not in package-all.txt file
+Write to package-all.txt file: uvccapture
+In package >uvccapture< are these binaries: ['/usr/bin/uvccapture']
+Real binaries:['/usr/bin/uvccapture']
+Write to package-work.txt file: uvccapture
+Write to package-binaries.txt file: ['/usr/bin/uvccapture']
+['/usr/bin/uvccapture']

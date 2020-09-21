@@ -4353,3 +4353,4 @@ uw-mailutils
 unadf
 urfkill
 unace
+uvccapture
