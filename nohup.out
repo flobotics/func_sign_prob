@@ -28203,3 +28203,13 @@ Real binaries:['/usr/bin/curvecpclient', '/usr/bin/curvecpmakekey', '/usr/bin/cu
 Write to package-work.txt file: nacl-tools
 Write to package-binaries.txt file: ['/usr/bin/curvecpclient', '/usr/bin/curvecpmakekey', '/usr/bin/curvecpmessage', '/usr/bin/curvecpprintkey', '/usr/bin/nacl-sha256', '/usr/bin/nacl-sha512', '/usr/sbin/curvecpserver']
 ['/usr/bin/curvecpclient', '/usr/bin/curvecpmakekey', '/usr/bin/curvecpmessage', '/usr/bin/curvecpprintkey', '/usr/bin/nacl-sha256', '/usr/bin/nacl-sha512', '/usr/sbin/curvecpserver']
+Write pickle file
+tar_out:
+Package-nr:4564 of 11000, Name:node-srs-dbgsym
+Package >node-srs< not in package-all.txt file
+Write to package-all.txt file: node-srs
+In package >node-srs< are these binaries: ['/usr/lib/nodejs/srs/lib/binding/srs.node', '/usr/lib/nodejs/srs/lib/binding/srs_settings.js']
+Real binaries:['/usr/lib/nodejs/srs/lib/binding/srs.node']
+Write to package-work.txt file: node-srs
+Write to package-binaries.txt file: ['/usr/lib/nodejs/srs/lib/binding/srs.node']
+['/usr/lib/nodejs/srs/lib/binding/srs.node']

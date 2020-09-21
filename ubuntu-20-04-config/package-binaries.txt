@@ -8534,3 +8534,4 @@
 /usr/bin/nacl-sha256
 /usr/bin/nacl-sha512
 /usr/sbin/curvecpserver
+/usr/lib/nodejs/srs/lib/binding/srs.node
