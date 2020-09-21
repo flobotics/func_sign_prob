@@ -4506,3 +4506,8 @@ ncmpcpp
 nfacct
 nbd-client
 node-zipfile
+nethack-x11
+nethack-common
+nethack-lisp
+nethack-console
+nextepc-pgw

@@ -1519,3 +1519,7 @@ ufoai-server
 ufoai-uforadiant
 netris
 netgen-lvs
+nethack-x11
+nethack-common
+nethack-lisp
+nethack-console

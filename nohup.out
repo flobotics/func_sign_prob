@@ -27879,3 +27879,41 @@ Real binaries:['/usr/lib/x86_64-linux-gnu/nodejs/zipfile/lib/binding/zipfile.nod
 Write to package-work.txt file: node-zipfile
 Write to package-binaries.txt file: ['/usr/lib/x86_64-linux-gnu/nodejs/zipfile/lib/binding/zipfile.node']
 ['/usr/lib/x86_64-linux-gnu/nodejs/zipfile/lib/binding/zipfile.node']
+Write pickle file
+tar_out:
+Package-nr:4522 of 11000, Name:nethack-x11-dbgsym
+Package >nethack-x11< not in package-all.txt file
+Write to package-all.txt file: nethack-x11
+In package >nethack-x11< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: nethack-x11
+[]
+Package-nr:4523 of 11000, Name:nethack-common-dbgsym
+Package >nethack-common< not in package-all.txt file
+Write to package-all.txt file: nethack-common
+In package >nethack-common< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: nethack-common
+[]
+Package-nr:4524 of 11000, Name:nethack-lisp-dbgsym
+Package >nethack-lisp< not in package-all.txt file
+Write to package-all.txt file: nethack-lisp
+In package >nethack-lisp< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: nethack-lisp
+[]
+Package-nr:4525 of 11000, Name:nethack-console-dbgsym
+Package >nethack-console< not in package-all.txt file
+Write to package-all.txt file: nethack-console
+In package >nethack-console< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: nethack-console
+[]
+Package-nr:4526 of 11000, Name:nextepc-pgw-dbgsym
+Package >nextepc-pgw< not in package-all.txt file
+Write to package-all.txt file: nextepc-pgw
+In package >nextepc-pgw< are these binaries: ['/usr/bin/nextepc-pgwd']
+Real binaries:['/usr/bin/nextepc-pgwd']
+Write to package-work.txt file: nextepc-pgw
+Write to package-binaries.txt file: ['/usr/bin/nextepc-pgwd']
+['/usr/bin/nextepc-pgwd']
