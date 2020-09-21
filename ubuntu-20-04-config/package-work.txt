@@ -2845,3 +2845,4 @@ usbview
 unionfs-fuse
 unifont-bin
 uhubctl
+usepackage

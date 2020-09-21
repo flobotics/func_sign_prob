@@ -26117,3 +26117,13 @@ Real binaries:['/usr/sbin/uhubctl']
 Write to package-work.txt file: uhubctl
 Write to package-binaries.txt file: ['/usr/sbin/uhubctl']
 ['/usr/sbin/uhubctl']
+Write pickle file
+tar_out:
+Package-nr:4315 of 11000, Name:usepackage-dbgsym
+Package >usepackage< not in package-all.txt file
+Write to package-all.txt file: usepackage
+In package >usepackage< are these binaries: ['/usr/bin/usepackage']
+Real binaries:['/usr/bin/usepackage']
+Write to package-work.txt file: usepackage
+Write to package-binaries.txt file: ['/usr/bin/usepackage']
+['/usr/bin/usepackage']

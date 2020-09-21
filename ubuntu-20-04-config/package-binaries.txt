@@ -8208,3 +8208,4 @@
 /usr/bin/unihexgen
 /usr/bin/unipagecount
 /usr/sbin/uhubctl
+/usr/bin/usepackage
