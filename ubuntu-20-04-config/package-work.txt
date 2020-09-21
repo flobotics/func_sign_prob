@@ -3170,3 +3170,4 @@ netpipe-openmpi
 netpipe-lam
 netmask
 cdrskin
+rdiff

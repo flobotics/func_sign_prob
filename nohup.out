@@ -30444,3 +30444,13 @@ Real binaries:['/usr/bin/cdrskin']
 Write to package-work.txt file: cdrskin
 Write to package-binaries.txt file: ['/usr/bin/cdrskin']
 ['/usr/bin/cdrskin']
+Write pickle file
+tar_out:
+Package-nr:4835 of 11000, Name:rdiff-dbgsym
+Package >rdiff< not in package-all.txt file
+Write to package-all.txt file: rdiff
+In package >rdiff< are these binaries: ['/usr/bin/rdiff']
+Real binaries:['/usr/bin/rdiff']
+Write to package-work.txt file: rdiff
+Write to package-binaries.txt file: ['/usr/bin/rdiff']
+['/usr/bin/rdiff']

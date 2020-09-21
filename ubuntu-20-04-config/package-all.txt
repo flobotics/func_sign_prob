@@ -4784,3 +4784,4 @@ netmask
 network-manager-strongswan
 python3-libbde
 cdrskin
+rdiff

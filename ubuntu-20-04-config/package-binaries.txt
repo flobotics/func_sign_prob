@@ -8994,3 +8994,4 @@
 /usr/bin/NPlam2
 /usr/bin/netmask
 /usr/bin/cdrskin
+/usr/bin/rdiff
