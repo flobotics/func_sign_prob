@@ -5054,3 +5054,4 @@ gstreamer1.0-nice
 python3-liblnk
 lightify-util
 ldmtool
+livemedia-utils
