@@ -5071,3 +5071,4 @@ yorick-dev
 yoshimi
 erlang-yaws
 yosys
+yabasic

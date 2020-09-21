@@ -33136,3 +33136,13 @@ Real binaries:['/usr/bin/yosys', '/usr/bin/yosys-filterlib']
 Write to package-work.txt file: yosys
 Write to package-binaries.txt file: ['/usr/bin/yosys', '/usr/bin/yosys-filterlib']
 ['/usr/bin/yosys', '/usr/bin/yosys-filterlib']
+Write pickle file
+tar_out:
+Package-nr:5135 of 11000, Name:yabasic-dbgsym
+Package >yabasic< not in package-all.txt file
+Write to package-all.txt file: yabasic
+In package >yabasic< are these binaries: ['/usr/bin/yabasic']
+Real binaries:['/usr/bin/yabasic']
+Write to package-work.txt file: yabasic
+Write to package-binaries.txt file: ['/usr/bin/yabasic']
+['/usr/bin/yabasic']
