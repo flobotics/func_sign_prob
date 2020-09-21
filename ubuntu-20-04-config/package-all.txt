@@ -4140,3 +4140,4 @@ vim-nox
 xvile
 vile-filters
 votca-csg
+veyon-service

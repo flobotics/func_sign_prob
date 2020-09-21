@@ -24456,3 +24456,13 @@ Real binaries:['/usr/bin/csg_boltzmann', '/usr/bin/csg_density', '/usr/bin/csg_d
 Write to package-work.txt file: votca-csg
 Write to package-binaries.txt file: ['/usr/bin/csg_boltzmann', '/usr/bin/csg_density', '/usr/bin/csg_dlptopol', '/usr/bin/csg_dump', '/usr/bin/csg_fmatch', '/usr/bin/csg_gmxtopol', '/usr/bin/csg_imc_solve', '/usr/bin/csg_map', '/usr/bin/csg_property', '/usr/bin/csg_resample', '/usr/bin/csg_reupdate', '/usr/bin/csg_stat']
 ['/usr/bin/csg_boltzmann', '/usr/bin/csg_density', '/usr/bin/csg_dlptopol', '/usr/bin/csg_dump', '/usr/bin/csg_fmatch', '/usr/bin/csg_gmxtopol', '/usr/bin/csg_imc_solve', '/usr/bin/csg_map', '/usr/bin/csg_property', '/usr/bin/csg_resample', '/usr/bin/csg_reupdate', '/usr/bin/csg_stat']
+Write pickle file
+tar_out:
+Package-nr:4128 of 11000, Name:veyon-service-dbgsym
+Package >veyon-service< not in package-all.txt file
+Write to package-all.txt file: veyon-service
+In package >veyon-service< are these binaries: ['/usr/bin/veyon-auth-helper', '/usr/bin/veyon-cli', '/usr/bin/veyon-server', '/usr/bin/veyon-service', '/usr/bin/veyon-worker']
+Real binaries:['/usr/bin/veyon-auth-helper', '/usr/bin/veyon-cli', '/usr/bin/veyon-server', '/usr/bin/veyon-service', '/usr/bin/veyon-worker']
+Write to package-work.txt file: veyon-service
+Write to package-binaries.txt file: ['/usr/bin/veyon-auth-helper', '/usr/bin/veyon-cli', '/usr/bin/veyon-server', '/usr/bin/veyon-service', '/usr/bin/veyon-worker']
+['/usr/bin/veyon-auth-helper', '/usr/bin/veyon-cli', '/usr/bin/veyon-server', '/usr/bin/veyon-service', '/usr/bin/veyon-worker']

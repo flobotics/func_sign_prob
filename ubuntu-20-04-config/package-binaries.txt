@@ -7889,3 +7889,8 @@
 /usr/bin/csg_resample
 /usr/bin/csg_reupdate
 /usr/bin/csg_stat
+/usr/bin/veyon-auth-helper
+/usr/bin/veyon-cli
+/usr/bin/veyon-server
+/usr/bin/veyon-service
+/usr/bin/veyon-worker
