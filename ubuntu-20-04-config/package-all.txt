@@ -5021,3 +5021,4 @@ weplab
 w9wm
 wmtop
 wireshark-common
+wireshark-qt

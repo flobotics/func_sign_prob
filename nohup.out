@@ -32669,3 +32669,13 @@ Real binaries:['/usr/bin/capinfos', '/usr/bin/captype', '/usr/bin/dumpcap', '/us
 Write to package-work.txt file: wireshark-common
 Write to package-binaries.txt file: ['/usr/bin/capinfos', '/usr/bin/captype', '/usr/bin/dumpcap', '/usr/bin/editcap', '/usr/bin/mergecap', '/usr/bin/mmdbresolve', '/usr/bin/randpkt', '/usr/bin/rawshark', '/usr/bin/reordercap', '/usr/bin/sharkd', '/usr/bin/text2pcap']
 ['/usr/bin/capinfos', '/usr/bin/captype', '/usr/bin/dumpcap', '/usr/bin/editcap', '/usr/bin/mergecap', '/usr/bin/mmdbresolve', '/usr/bin/randpkt', '/usr/bin/rawshark', '/usr/bin/reordercap', '/usr/bin/sharkd', '/usr/bin/text2pcap']
+Write pickle file
+tar_out:
+Package-nr:5082 of 11000, Name:wireshark-qt-dbgsym
+Package >wireshark-qt< not in package-all.txt file
+Write to package-all.txt file: wireshark-qt
+In package >wireshark-qt< are these binaries: ['/usr/bin/wireshark']
+Real binaries:['/usr/bin/wireshark']
+Write to package-work.txt file: wireshark-qt
+Write to package-binaries.txt file: ['/usr/bin/wireshark']
+['/usr/bin/wireshark']

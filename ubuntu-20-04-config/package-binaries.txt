@@ -9423,3 +9423,4 @@
 /usr/bin/reordercap
 /usr/bin/sharkd
 /usr/bin/text2pcap
+/usr/bin/wireshark
