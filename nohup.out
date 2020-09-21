@@ -35060,3 +35060,13 @@ Real binaries:['/usr/bin/sucrack']
 Write to package-work.txt file: sucrack
 Write to package-binaries.txt file: ['/usr/bin/sucrack']
 ['/usr/bin/sucrack']
+Write pickle file
+tar_out:
+Package-nr:5362 of 11000, Name:sslsplit-dbgsym
+Package >sslsplit< not in package-all.txt file
+Write to package-all.txt file: sslsplit
+In package >sslsplit< are these binaries: ['/usr/bin/sslsplit']
+Real binaries:['/usr/bin/sslsplit']
+Write to package-work.txt file: sslsplit
+Write to package-binaries.txt file: ['/usr/bin/sslsplit']
+['/usr/bin/sslsplit']
