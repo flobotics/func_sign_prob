@@ -8446,3 +8446,4 @@
 /usr/bin/ukui-session
 /usr/bin/ukui-session-tools
 /usr/bin/ucblogo
+/usr/sbin/unity-greeter
