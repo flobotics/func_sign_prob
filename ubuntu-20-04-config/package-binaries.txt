@@ -9074,3 +9074,4 @@
 /usr/bin/wrapsrv
 /usr/bin/wiggle
 /usr/bin/wf-recorder
+/usr/bin/wmtv
