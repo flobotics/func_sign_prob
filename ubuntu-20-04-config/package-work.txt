@@ -3447,3 +3447,4 @@ sogo
 squeezelite-pa
 slurm
 scim
+scim-im-agent

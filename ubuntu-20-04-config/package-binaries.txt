@@ -9600,3 +9600,4 @@
 /usr/bin/slurm
 /usr/bin/scim
 /usr/bin/scim-config-agent
+/usr/bin/scim-im-agent
