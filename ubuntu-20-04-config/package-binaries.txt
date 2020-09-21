@@ -8740,3 +8740,5 @@
 /usr/sbin/nvdump
 /usr/sbin/nvtvd
 /usr/bin/nickle
+/usr/sbin/nfslogsum
+/usr/sbin/nfswatch

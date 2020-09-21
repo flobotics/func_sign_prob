@@ -4620,3 +4620,4 @@ nss-updatedb
 nettle-bin
 nvtv
 nickle
+nfswatch

@@ -28938,3 +28938,13 @@ Real binaries:['/usr/bin/nickle']
 Write to package-work.txt file: nickle
 Write to package-binaries.txt file: ['/usr/bin/nickle']
 ['/usr/bin/nickle']
+Write pickle file
+tar_out:
+Package-nr:4651 of 11000, Name:nfswatch-dbgsym
+Package >nfswatch< not in package-all.txt file
+Write to package-all.txt file: nfswatch
+In package >nfswatch< are these binaries: ['/usr/sbin/nfslogsum', '/usr/sbin/nfswatch']
+Real binaries:['/usr/sbin/nfslogsum', '/usr/sbin/nfswatch']
+Write to package-work.txt file: nfswatch
+Write to package-binaries.txt file: ['/usr/sbin/nfslogsum', '/usr/sbin/nfswatch']
+['/usr/sbin/nfslogsum', '/usr/sbin/nfswatch']
