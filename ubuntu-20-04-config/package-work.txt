@@ -3390,3 +3390,4 @@ yasr
 yeahconsole
 yavta
 yacas
+yorick-mpy-mpich2

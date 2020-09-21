@@ -5065,3 +5065,4 @@ yavta
 python3-yara
 yorick-curses
 yacas
+yorick-mpy-mpich2
