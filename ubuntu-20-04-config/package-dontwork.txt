@@ -1439,3 +1439,4 @@ python3-zope.hookable
 zynaddsubfx-vst
 zynaddsubfx-dssi
 zynaddsubfx-lv2
+python3-zfec

@@ -8008,3 +8008,4 @@
 /usr/sbin/kissbridge
 /usr/sbin/sccinit
 /usr/sbin/sccparam
+/usr/bin/zita-lrx

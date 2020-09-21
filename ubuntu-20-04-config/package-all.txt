@@ -4203,3 +4203,5 @@ zynaddsubfx-vst
 zynaddsubfx-dssi
 zynaddsubfx-lv2
 z8530-utils2
+python3-zfec
+zita-lrx
