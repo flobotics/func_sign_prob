@@ -8508,3 +8508,5 @@
 /usr/sbin/ngircd
 /usr/bin/nlkt
 /usr/bin/netsed
+/usr/bin/ntpstat
+/usr/bin/nngcat

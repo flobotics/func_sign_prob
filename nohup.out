@@ -28051,3 +28051,21 @@ Real binaries:['/usr/bin/netsed']
 Write to package-work.txt file: netsed
 Write to package-binaries.txt file: ['/usr/bin/netsed']
 ['/usr/bin/netsed']
+Write pickle file
+tar_out:
+Package-nr:4544 of 11000, Name:ntpstat-dbgsym
+Package >ntpstat< not in package-all.txt file
+Write to package-all.txt file: ntpstat
+In package >ntpstat< are these binaries: ['/usr/bin/ntpstat']
+Real binaries:['/usr/bin/ntpstat']
+Write to package-work.txt file: ntpstat
+Write to package-binaries.txt file: ['/usr/bin/ntpstat']
+['/usr/bin/ntpstat']
+Package-nr:4545 of 11000, Name:nng-utils-dbgsym
+Package >nng-utils< not in package-all.txt file
+Write to package-all.txt file: nng-utils
+In package >nng-utils< are these binaries: ['/usr/bin/nngcat']
+Real binaries:['/usr/bin/nngcat']
+Write to package-work.txt file: nng-utils
+Write to package-binaries.txt file: ['/usr/bin/nngcat']
+['/usr/bin/nngcat']

@@ -2992,3 +2992,5 @@ netcat-traditional
 ngircd
 nlkt
 netsed
+ntpstat
+nng-utils
