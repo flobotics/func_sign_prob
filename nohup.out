@@ -34916,3 +34916,13 @@ Real binaries:['/usr/bin/sscm']
 Write to package-work.txt file: sigscheme
 Write to package-binaries.txt file: ['/usr/bin/sscm']
 ['/usr/bin/sscm']
+Write pickle file
+tar_out:
+Package-nr:5346 of 11000, Name:safecat-dbgsym
+Package >safecat< not in package-all.txt file
+Write to package-all.txt file: safecat
+In package >safecat< are these binaries: ['/usr/bin/safecat']
+Real binaries:['/usr/bin/safecat']
+Write to package-work.txt file: safecat
+Write to package-binaries.txt file: ['/usr/bin/safecat']
+['/usr/bin/safecat']

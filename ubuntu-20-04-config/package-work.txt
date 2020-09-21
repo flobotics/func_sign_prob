@@ -3527,3 +3527,4 @@ sunxi-tools
 smb4k
 superkb
 sigscheme
+safecat

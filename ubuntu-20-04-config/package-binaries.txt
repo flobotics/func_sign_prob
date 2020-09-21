@@ -9967,3 +9967,4 @@
 /usr/bin/smb4k
 /usr/bin/superkb
 /usr/bin/sscm
+/usr/bin/safecat

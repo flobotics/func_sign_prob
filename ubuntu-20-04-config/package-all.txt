@@ -5261,3 +5261,4 @@ stockfish
 snoopy
 superkb
 sigscheme
+safecat
