@@ -4364,3 +4364,4 @@ ubuntu-kylin-wizard
 ufo-filters
 ukui-panel
 uncrustify
+unrar-free

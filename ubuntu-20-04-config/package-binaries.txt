@@ -8272,3 +8272,4 @@
 /usr/bin/ukui-flash-disk
 /usr/bin/ukui-panel
 /usr/bin/uncrustify
+/usr/bin/unrar-free
