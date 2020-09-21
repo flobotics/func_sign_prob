@@ -7961,3 +7961,4 @@
 /usr/bin/vsdump
 /usr/bin/vnstat
 /usr/sbin/vnstatd
+/usr/bin/vnstati
