@@ -4937,3 +4937,9 @@ wmifinfo
 worklog
 wsjtx
 wmnet
+w1retap-sqlite
+w1retap-mongo
+w1retap-pgsql
+w1retap-odbc
+w1retap-mysql
+wmix

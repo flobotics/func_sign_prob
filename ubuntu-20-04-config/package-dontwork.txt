@@ -1636,3 +1636,8 @@ widelands
 warzone2100
 w3m-img
 wrapperfactory.app
+w1retap-sqlite
+w1retap-mongo
+w1retap-pgsql
+w1retap-odbc
+w1retap-mysql

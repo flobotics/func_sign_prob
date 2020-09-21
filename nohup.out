@@ -31894,3 +31894,51 @@ Real binaries:['/usr/bin/wmnet']
 Write to package-work.txt file: wmnet
 Write to package-binaries.txt file: ['/usr/bin/wmnet']
 ['/usr/bin/wmnet']
+Write pickle file
+tar_out:
+Package-nr:4995 of 11000, Name:w1retap-sqlite-dbgsym
+Package >w1retap-sqlite< not in package-all.txt file
+Write to package-all.txt file: w1retap-sqlite
+In package >w1retap-sqlite< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: w1retap-sqlite
+[]
+Package-nr:4996 of 11000, Name:w1retap-mongo-dbgsym
+Package >w1retap-mongo< not in package-all.txt file
+Write to package-all.txt file: w1retap-mongo
+In package >w1retap-mongo< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: w1retap-mongo
+[]
+Package-nr:4997 of 11000, Name:w1retap-pgsql-dbgsym
+Package >w1retap-pgsql< not in package-all.txt file
+Write to package-all.txt file: w1retap-pgsql
+In package >w1retap-pgsql< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: w1retap-pgsql
+[]
+Package-nr:4998 of 11000, Name:w1retap-odbc-dbgsym
+Package >w1retap-odbc< not in package-all.txt file
+Write to package-all.txt file: w1retap-odbc
+In package >w1retap-odbc< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: w1retap-odbc
+[]
+Package-nr:4999 of 11000, Name:w1retap-mysql-dbgsym
+Package >w1retap-mysql< not in package-all.txt file
+Write to package-all.txt file: w1retap-mysql
+In package >w1retap-mysql< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: w1retap-mysql
+[]
+Package-nr:5000 of 11000, Name:w1retap-dbgsym
+Skip package >w1retap<, already in package-all.txt file
+[]
+Package-nr:5001 of 11000, Name:wmix-dbgsym
+Package >wmix< not in package-all.txt file
+Write to package-all.txt file: wmix
+In package >wmix< are these binaries: ['/usr/bin/wmix']
+Real binaries:['/usr/bin/wmix']
+Write to package-work.txt file: wmix
+Write to package-binaries.txt file: ['/usr/bin/wmix']
+['/usr/bin/wmix']

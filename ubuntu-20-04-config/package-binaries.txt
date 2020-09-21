@@ -9299,3 +9299,4 @@
 /usr/bin/wsjtx
 /usr/bin/wsprd
 /usr/bin/wmnet
+/usr/bin/wmix
