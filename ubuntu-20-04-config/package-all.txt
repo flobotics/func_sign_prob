@@ -4911,3 +4911,5 @@ waffle-utils
 wpagui
 hostapd
 workrave
+widelands
+wmacpi

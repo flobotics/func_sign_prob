@@ -1632,3 +1632,4 @@ python3-pywatchman
 wesnoth-1.14-core
 wesnoth-1.14-server
 wlcs
+widelands

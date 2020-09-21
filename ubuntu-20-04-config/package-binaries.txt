@@ -9256,3 +9256,5 @@
 /usr/sbin/hostapd
 /usr/sbin/hostapd_cli
 /usr/bin/workrave
+/usr/bin/wmacpi
+/usr/bin/wmacpi-cli
