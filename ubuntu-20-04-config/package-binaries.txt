@@ -10018,3 +10018,4 @@
 /usr/bin/3dtopos
 /usr/bin/aven
 /usr/bin/survexport
+/usr/bin/snarf

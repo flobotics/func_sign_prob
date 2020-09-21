@@ -5273,3 +5273,4 @@ python3-soapysdr
 soapysdr-tools
 survex
 survex-aven
+snarf

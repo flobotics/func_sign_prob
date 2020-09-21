@@ -3537,3 +3537,4 @@ simulpic
 soapysdr-tools
 survex
 survex-aven
+snarf
