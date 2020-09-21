@@ -26666,3 +26666,13 @@ Real binaries:['/usr/bin/unclutter-classic']
 Write to package-work.txt file: unclutter
 Write to package-binaries.txt file: ['/usr/bin/unclutter-classic']
 ['/usr/bin/unclutter-classic']
+Write pickle file
+tar_out:
+Package-nr:4379 of 11000, Name:unhide-dbgsym
+Package >unhide< not in package-all.txt file
+Write to package-all.txt file: unhide
+In package >unhide< are these binaries: ['/usr/sbin/unhide-linux', '/usr/sbin/unhide-posix', '/usr/sbin/unhide-tcp', '/usr/sbin/unhide_rb', '/usr/sbin/unhide']
+Real binaries:['/usr/sbin/unhide-linux', '/usr/sbin/unhide-posix', '/usr/sbin/unhide-tcp', '/usr/sbin/unhide_rb']
+Write to package-work.txt file: unhide
+Write to package-binaries.txt file: ['/usr/sbin/unhide-linux', '/usr/sbin/unhide-posix', '/usr/sbin/unhide-tcp', '/usr/sbin/unhide_rb']
+['/usr/sbin/unhide-linux', '/usr/sbin/unhide-posix', '/usr/sbin/unhide-tcp', '/usr/sbin/unhide_rb']

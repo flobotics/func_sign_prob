@@ -2886,3 +2886,4 @@ uprightdiff
 ufod
 unibetacode
 unclutter
+unhide
