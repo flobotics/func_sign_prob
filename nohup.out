@@ -28559,3 +28559,13 @@ Real binaries:['/sbin/rdnssd']
 Write to package-work.txt file: rdnssd
 Write to package-binaries.txt file: ['/sbin/rdnssd']
 ['/sbin/rdnssd']
+Write pickle file
+tar_out:
+Package-nr:4609 of 11000, Name:normaliz-bin-dbgsym
+Package >normaliz-bin< not in package-all.txt file
+Write to package-all.txt file: normaliz-bin
+In package >normaliz-bin< are these binaries: ['/usr/bin/normaliz', '/usr/share/doc/normaliz-bin/copyright', '/usr/share/doc/normaliz-bin/changelog.Debian.gz']
+Real binaries:['/usr/bin/normaliz']
+Write to package-work.txt file: normaliz-bin
+Write to package-binaries.txt file: ['/usr/bin/normaliz']
+['/usr/bin/normaliz']
