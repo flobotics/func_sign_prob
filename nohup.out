@@ -27474,3 +27474,16 @@ Real binaries:['/usr/bin/uim-xim']
 Write to package-work.txt file: uim-xim
 Write to package-binaries.txt file: ['/usr/bin/uim-xim']
 ['/usr/bin/uim-xim']
+Write pickle file
+tar_out:
+Package-nr:4474 of 11000, Name:uim-gtk3-dbgsym
+Skip package >uim-gtk3<, already in package-all.txt file
+[]
+Package-nr:4475 of 11000, Name:uim-fep-dbgsym
+Package >uim-fep< not in package-all.txt file
+Write to package-all.txt file: uim-fep
+In package >uim-fep< are these binaries: ['/usr/bin/uim-fep', '/usr/bin/uim-fep-tick']
+Real binaries:['/usr/bin/uim-fep', '/usr/bin/uim-fep-tick']
+Write to package-work.txt file: uim-fep
+Write to package-binaries.txt file: ['/usr/bin/uim-fep', '/usr/bin/uim-fep-tick']
+['/usr/bin/uim-fep', '/usr/bin/uim-fep-tick']

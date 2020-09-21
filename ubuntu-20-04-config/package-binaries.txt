@@ -8427,3 +8427,5 @@
 /usr/bin/uim-pref-qt5
 /usr/bin/uim-toolbar-qt5
 /usr/bin/uim-xim
+/usr/bin/uim-fep
+/usr/bin/uim-fep-tick
