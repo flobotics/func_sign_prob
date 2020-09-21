@@ -1515,3 +1515,4 @@ uim-gtk2.0-immodule
 uim-qt5-immodule
 unity-gtk2-module
 unity-gtk3-module
+ufoai-server

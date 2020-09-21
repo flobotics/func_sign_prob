@@ -4481,3 +4481,5 @@ ukui-session-manager
 ucblogo
 unity-greeter
 imapproxy
+ufoai-server
+ufoai-tools

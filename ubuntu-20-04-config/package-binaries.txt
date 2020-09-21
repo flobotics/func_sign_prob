@@ -8449,3 +8449,6 @@
 /usr/sbin/unity-greeter
 /usr/sbin/imapproxyd
 /usr/sbin/pimpstat
+/usr/bin/ufo2map
+/usr/bin/ufomodel
+/usr/bin/ufoslicer
