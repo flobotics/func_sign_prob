@@ -30656,3 +30656,21 @@ Real binaries:['/usr/bin/wl-copy', '/usr/bin/wl-paste']
 Write to package-work.txt file: wl-clipboard
 Write to package-binaries.txt file: ['/usr/bin/wl-copy', '/usr/bin/wl-paste']
 ['/usr/bin/wl-copy', '/usr/bin/wl-paste']
+Write pickle file
+tar_out:
+Package-nr:4858 of 11000, Name:wmwave-dbgsym
+Package >wmwave< not in package-all.txt file
+Write to package-all.txt file: wmwave
+In package >wmwave< are these binaries: ['/usr/bin/wmwave']
+Real binaries:['/usr/bin/wmwave']
+Write to package-work.txt file: wmwave
+Write to package-binaries.txt file: ['/usr/bin/wmwave']
+['/usr/bin/wmwave']
+Package-nr:4859 of 11000, Name:wmclockmon-dbgsym
+Package >wmclockmon< not in package-all.txt file
+Write to package-all.txt file: wmclockmon
+In package >wmclockmon< are these binaries: ['/usr/bin/wmclockmon-cal', '/usr/bin/wmclockmon', '/usr/bin/wmclockmon-config']
+Real binaries:['/usr/bin/wmclockmon-cal', '/usr/bin/wmclockmon', '/usr/bin/wmclockmon-config']
+Write to package-work.txt file: wmclockmon
+Write to package-binaries.txt file: ['/usr/bin/wmclockmon-cal', '/usr/bin/wmclockmon', '/usr/bin/wmclockmon-config']
+['/usr/bin/wmclockmon-cal', '/usr/bin/wmclockmon', '/usr/bin/wmclockmon-config']

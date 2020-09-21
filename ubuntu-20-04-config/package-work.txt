@@ -3187,3 +3187,5 @@ cd-paranoia
 cpuidtool
 wmfire
 wl-clipboard
+wmwave
+wmclockmon

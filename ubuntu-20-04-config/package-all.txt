@@ -4807,3 +4807,5 @@ cpuidtool
 wordplay
 wmfire
 wl-clipboard
+wmwave
+wmclockmon

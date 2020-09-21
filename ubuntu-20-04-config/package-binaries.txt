@@ -9062,3 +9062,7 @@
 /usr/bin/wmfire
 /usr/bin/wl-copy
 /usr/bin/wl-paste
+/usr/bin/wmwave
+/usr/bin/wmclockmon-cal
+/usr/bin/wmclockmon
+/usr/bin/wmclockmon-config
