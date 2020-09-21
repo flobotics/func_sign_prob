@@ -8923,3 +8923,5 @@
 /usr/bin/nfstrace
 /usr/bin/newsboat
 /usr/bin/podboat
+/usr/sbin/nullidentd
+/usr/bin/numatop

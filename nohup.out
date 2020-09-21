@@ -30085,3 +30085,28 @@ Real binaries:['/usr/bin/newsboat', '/usr/bin/podboat']
 Write to package-work.txt file: newsboat
 Write to package-binaries.txt file: ['/usr/bin/newsboat', '/usr/bin/podboat']
 ['/usr/bin/newsboat', '/usr/bin/podboat']
+Write pickle file
+tar_out:
+Package-nr:4790 of 11000, Name:nullidentd-dbgsym
+Package >nullidentd< not in package-all.txt file
+Write to package-all.txt file: nullidentd
+In package >nullidentd< are these binaries: ['/usr/sbin/nullidentd']
+Real binaries:['/usr/sbin/nullidentd']
+Write to package-work.txt file: nullidentd
+Write to package-binaries.txt file: ['/usr/sbin/nullidentd']
+['/usr/sbin/nullidentd']
+Package-nr:4791 of 11000, Name:nescc-dbgsym
+Package >nescc< not in package-all.txt file
+Write to package-all.txt file: nescc
+In package >nescc< are these binaries: ['/usr/bin/nescc', '/usr/bin/nescc-mig', '/usr/bin/nescc-ncg', '/usr/bin/nescc-wiring']
+Real binaries:[]
+Write to package-dontwork.txt file: nescc
+[]
+Package-nr:4792 of 11000, Name:numatop-dbgsym
+Package >numatop< not in package-all.txt file
+Write to package-all.txt file: numatop
+In package >numatop< are these binaries: ['/usr/bin/numatop']
+Real binaries:['/usr/bin/numatop']
+Write to package-work.txt file: numatop
+Write to package-binaries.txt file: ['/usr/bin/numatop']
+['/usr/bin/numatop']
