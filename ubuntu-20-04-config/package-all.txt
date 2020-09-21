@@ -4124,3 +4124,4 @@ vifm
 validns
 viewpdf.app
 vobcopy
+virtualjaguar

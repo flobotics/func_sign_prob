@@ -7853,3 +7853,4 @@
 /usr/bin/vifm
 /usr/bin/validns
 /usr/bin/vobcopy
+/usr/bin/virtualjaguar

@@ -2698,3 +2698,4 @@ vlevel
 vifm
 validns
 vobcopy
+virtualjaguar

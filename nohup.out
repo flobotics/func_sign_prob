@@ -24290,3 +24290,13 @@ Real binaries:['/usr/bin/vobcopy']
 Write to package-work.txt file: vobcopy
 Write to package-binaries.txt file: ['/usr/bin/vobcopy']
 ['/usr/bin/vobcopy']
+Write pickle file
+tar_out:
+Package-nr:4107 of 11000, Name:virtualjaguar-dbgsym
+Package >virtualjaguar< not in package-all.txt file
+Write to package-all.txt file: virtualjaguar
+In package >virtualjaguar< are these binaries: ['/usr/bin/virtualjaguar']
+Real binaries:['/usr/bin/virtualjaguar']
+Write to package-work.txt file: virtualjaguar
+Write to package-binaries.txt file: ['/usr/bin/virtualjaguar']
+['/usr/bin/virtualjaguar']
