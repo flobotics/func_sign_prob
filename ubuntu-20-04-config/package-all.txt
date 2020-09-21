@@ -4424,3 +4424,6 @@ utox
 udftools
 python3-uhd
 uhd-host
+uc-echo
+unicon-imc2
+utalk

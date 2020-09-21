@@ -8356,3 +8356,12 @@
 /usr/bin/uhd_find_devices
 /usr/bin/uhd_image_loader
 /usr/bin/uhd_usrp_probe
+/usr/lib/unicon/bin/cin2dat
+/usr/lib/unicon/bin/cin2tab
+/usr/lib/unicon/bin/tab2cin
+/usr/lib/unicon/bin/tab2dat
+/usr/lib/unicon/bin/tab2txt
+/usr/lib/unicon/bin/tab2txt1
+/usr/lib/unicon/bin/txt2tab
+/usr/lib/unicon/bin/txt2tab1
+/usr/bin/utalk

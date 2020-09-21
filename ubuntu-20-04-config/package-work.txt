@@ -2916,3 +2916,5 @@ udpcast
 utox
 udftools
 uhd-host
+unicon-imc2
+utalk

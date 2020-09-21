@@ -27077,3 +27077,31 @@ Real binaries:['/usr/bin/uhd_cal_rx_iq_balance', '/usr/bin/uhd_cal_tx_dc_offset'
 Write to package-work.txt file: uhd-host
 Write to package-binaries.txt file: ['/usr/bin/uhd_cal_rx_iq_balance', '/usr/bin/uhd_cal_tx_dc_offset', '/usr/bin/uhd_cal_tx_iq_balance', '/usr/bin/uhd_config_info', '/usr/bin/uhd_find_devices', '/usr/bin/uhd_image_loader', '/usr/bin/uhd_usrp_probe']
 ['/usr/bin/uhd_cal_rx_iq_balance', '/usr/bin/uhd_cal_tx_dc_offset', '/usr/bin/uhd_cal_tx_iq_balance', '/usr/bin/uhd_config_info', '/usr/bin/uhd_find_devices', '/usr/bin/uhd_image_loader', '/usr/bin/uhd_usrp_probe']
+Write pickle file
+tar_out:
+Package-nr:4426 of 11000, Name:uc-echo-dbgsym
+Package >uc-echo< not in package-all.txt file
+Write to package-all.txt file: uc-echo
+In package >uc-echo< are these binaries: ['/usr/bin/uc-echo']
+Real binaries:[]
+Write to package-dontwork.txt file: uc-echo
+[]
+Package-nr:4427 of 11000, Name:ukui-menu-dbgsym
+Skip package >ukui-menu<, already in package-all.txt file
+[]
+Package-nr:4428 of 11000, Name:unicon-imc2-dbgsym
+Package >unicon-imc2< not in package-all.txt file
+Write to package-all.txt file: unicon-imc2
+In package >unicon-imc2< are these binaries: ['/usr/lib/unicon/bin/cin2dat', '/usr/lib/unicon/bin/cin2tab', '/usr/lib/unicon/bin/tab2cin', '/usr/lib/unicon/bin/tab2dat', '/usr/lib/unicon/bin/tab2txt', '/usr/lib/unicon/bin/tab2txt1', '/usr/lib/unicon/bin/txt2tab', '/usr/lib/unicon/bin/txt2tab1']
+Real binaries:['/usr/lib/unicon/bin/cin2dat', '/usr/lib/unicon/bin/cin2tab', '/usr/lib/unicon/bin/tab2cin', '/usr/lib/unicon/bin/tab2dat', '/usr/lib/unicon/bin/tab2txt', '/usr/lib/unicon/bin/tab2txt1', '/usr/lib/unicon/bin/txt2tab', '/usr/lib/unicon/bin/txt2tab1']
+Write to package-work.txt file: unicon-imc2
+Write to package-binaries.txt file: ['/usr/lib/unicon/bin/cin2dat', '/usr/lib/unicon/bin/cin2tab', '/usr/lib/unicon/bin/tab2cin', '/usr/lib/unicon/bin/tab2dat', '/usr/lib/unicon/bin/tab2txt', '/usr/lib/unicon/bin/tab2txt1', '/usr/lib/unicon/bin/txt2tab', '/usr/lib/unicon/bin/txt2tab1']
+['/usr/lib/unicon/bin/cin2dat', '/usr/lib/unicon/bin/cin2tab', '/usr/lib/unicon/bin/tab2cin', '/usr/lib/unicon/bin/tab2dat', '/usr/lib/unicon/bin/tab2txt', '/usr/lib/unicon/bin/tab2txt1', '/usr/lib/unicon/bin/txt2tab', '/usr/lib/unicon/bin/txt2tab1']
+Package-nr:4429 of 11000, Name:utalk-dbgsym
+Package >utalk< not in package-all.txt file
+Write to package-all.txt file: utalk
+In package >utalk< are these binaries: ['/usr/bin/utalk']
+Real binaries:['/usr/bin/utalk']
+Write to package-work.txt file: utalk
+Write to package-binaries.txt file: ['/usr/bin/utalk']
+['/usr/bin/utalk']

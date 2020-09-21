@@ -1503,3 +1503,4 @@ uci2wb
 unicode-screensaver
 unicorn
 python3-uhd
+uc-echo
