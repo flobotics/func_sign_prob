@@ -8250,3 +8250,4 @@
 /usr/bin/uuwish
 /usr/bin/uudeview
 /usr/bin/uuenview
+/usr/bin/unyaffs

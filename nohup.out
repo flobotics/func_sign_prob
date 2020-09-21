@@ -26302,3 +26302,13 @@ Real binaries:['/usr/bin/uudeview', '/usr/bin/uuenview']
 Write to package-work.txt file: uudeview
 Write to package-binaries.txt file: ['/usr/bin/uudeview', '/usr/bin/uuenview']
 ['/usr/bin/uudeview', '/usr/bin/uuenview']
+Write pickle file
+tar_out:
+Package-nr:4335 of 11000, Name:unyaffs-dbgsym
+Package >unyaffs< not in package-all.txt file
+Write to package-all.txt file: unyaffs
+In package >unyaffs< are these binaries: ['/usr/bin/unyaffs']
+Real binaries:['/usr/bin/unyaffs']
+Write to package-work.txt file: unyaffs
+Write to package-binaries.txt file: ['/usr/bin/unyaffs']
+['/usr/bin/unyaffs']

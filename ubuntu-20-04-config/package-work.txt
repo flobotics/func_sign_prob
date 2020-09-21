@@ -2862,3 +2862,4 @@ ubuntu-app-test
 ubuntu-app-launch-tools
 xdeview
 uudeview
+unyaffs
