@@ -5243,3 +5243,4 @@ slang-expat
 sffview
 seafile-gui
 sooperlooper
+scanmem

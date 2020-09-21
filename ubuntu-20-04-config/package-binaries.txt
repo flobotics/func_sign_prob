@@ -9910,3 +9910,4 @@
 /usr/bin/slgui
 /usr/bin/slregister
 /usr/bin/sooperlooper
+/usr/bin/scanmem
