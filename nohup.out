@@ -30548,3 +30548,20 @@ Real binaries:['/usr/bin/cec-client']
 Write to package-work.txt file: cec-utils
 Write to package-binaries.txt file: ['/usr/bin/cec-client']
 ['/usr/bin/cec-client']
+Write pickle file
+tar_out:
+Package-nr:4846 of 11000, Name:python3-cec-dbgsym
+Package >python3-cec< not in package-all.txt file
+Write to package-all.txt file: python3-cec
+In package >python3-cec< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: python3-cec
+[]
+Package-nr:4847 of 11000, Name:seahorse-daemon-dbgsym
+Package >seahorse-daemon< not in package-all.txt file
+Write to package-all.txt file: seahorse-daemon
+In package >seahorse-daemon< are these binaries: ['/usr/bin/seahorse-daemon']
+Real binaries:['/usr/bin/seahorse-daemon']
+Write to package-work.txt file: seahorse-daemon
+Write to package-binaries.txt file: ['/usr/bin/seahorse-daemon']
+['/usr/bin/seahorse-daemon']

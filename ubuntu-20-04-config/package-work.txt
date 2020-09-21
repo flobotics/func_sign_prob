@@ -3179,3 +3179,4 @@ amqp-tools
 cgroup-tools
 cypher-lint
 cec-utils
+seahorse-daemon
