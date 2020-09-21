@@ -1440,3 +1440,8 @@ zynaddsubfx-vst
 zynaddsubfx-dssi
 zynaddsubfx-lv2
 python3-zfec
+znc-backlog
+znc-push
+znc-tcl
+znc-perl
+znc-python

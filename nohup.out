@@ -25170,3 +25170,51 @@ Real binaries:['/usr/bin/alsa_delay', '/usr/bin/alsa_loopback']
 Write to package-work.txt file: zita-alsa-pcmi-utils
 Write to package-binaries.txt file: ['/usr/bin/alsa_delay', '/usr/bin/alsa_loopback']
 ['/usr/bin/alsa_delay', '/usr/bin/alsa_loopback']
+Write pickle file
+tar_out:
+Package-nr:4209 of 11000, Name:znc-backlog-dbgsym
+Package >znc-backlog< not in package-all.txt file
+Write to package-all.txt file: znc-backlog
+In package >znc-backlog< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: znc-backlog
+[]
+Package-nr:4210 of 11000, Name:znc-push-dbgsym
+Package >znc-push< not in package-all.txt file
+Write to package-all.txt file: znc-push
+In package >znc-push< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: znc-push
+[]
+Package-nr:4211 of 11000, Name:znc-tcl-dbgsym
+Package >znc-tcl< not in package-all.txt file
+Write to package-all.txt file: znc-tcl
+In package >znc-tcl< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: znc-tcl
+[]
+Package-nr:4212 of 11000, Name:znc-perl-dbgsym
+Package >znc-perl< not in package-all.txt file
+Write to package-all.txt file: znc-perl
+In package >znc-perl< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: znc-perl
+[]
+Package-nr:4213 of 11000, Name:znc-python-dbgsym
+Package >znc-python< not in package-all.txt file
+Write to package-all.txt file: znc-python
+In package >znc-python< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: znc-python
+[]
+Package-nr:4214 of 11000, Name:znc-dbgsym
+Skip package >znc<, already in package-all.txt file
+[]
+Package-nr:4215 of 11000, Name:zbarcam-qt-dbgsym
+Package >zbarcam-qt< not in package-all.txt file
+Write to package-all.txt file: zbarcam-qt
+In package >zbarcam-qt< are these binaries: ['/usr/bin/zbarcam-qt']
+Real binaries:['/usr/bin/zbarcam-qt']
+Write to package-work.txt file: zbarcam-qt
+Write to package-binaries.txt file: ['/usr/bin/zbarcam-qt']
+['/usr/bin/zbarcam-qt']

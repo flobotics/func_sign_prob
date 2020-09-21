@@ -4215,3 +4215,9 @@ zh-autoconvert
 zmakebas
 zpspell
 zita-alsa-pcmi-utils
+znc-backlog
+znc-push
+znc-tcl
+znc-perl
+znc-python
+zbarcam-qt
