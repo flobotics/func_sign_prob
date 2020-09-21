@@ -9558,3 +9558,4 @@
 /usr/bin/yasw
 /usr/bin/yadifa
 /usr/sbin/yadifad
+/usr/bin/yash

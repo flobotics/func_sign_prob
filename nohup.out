@@ -33559,3 +33559,20 @@ Real binaries:['/usr/bin/yadifa', '/usr/sbin/yadifad']
 Write to package-work.txt file: yadifa
 Write to package-binaries.txt file: ['/usr/bin/yadifa', '/usr/sbin/yadifad']
 ['/usr/bin/yadifa', '/usr/sbin/yadifad']
+Write pickle file
+tar_out:
+Package-nr:5185 of 11000, Name:python3-yt-dbgsym
+Package >python3-yt< not in package-all.txt file
+Write to package-all.txt file: python3-yt
+In package >python3-yt< are these binaries: ['/usr/bin/iyt', '/usr/bin/yt']
+Real binaries:[]
+Write to package-dontwork.txt file: python3-yt
+[]
+Package-nr:5186 of 11000, Name:yash-dbgsym
+Package >yash< not in package-all.txt file
+Write to package-all.txt file: yash
+In package >yash< are these binaries: ['/usr/bin/yash']
+Real binaries:['/usr/bin/yash']
+Write to package-work.txt file: yash
+Write to package-binaries.txt file: ['/usr/bin/yash']
+['/usr/bin/yash']
