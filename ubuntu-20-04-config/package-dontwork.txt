@@ -1702,3 +1702,5 @@ python3-slepc4py-real
 scim-gtk-immodule
 scim-clutter-immodule
 scim-modules-socket
+snort-common-libraries
+ssvnc

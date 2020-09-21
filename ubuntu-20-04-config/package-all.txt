@@ -5156,3 +5156,6 @@ scim-gtk-immodule
 scim-clutter-immodule
 scim-modules-socket
 snort
+snort-common-libraries
+ssvnc
+samba-testsuite

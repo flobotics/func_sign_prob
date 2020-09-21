@@ -33927,3 +33927,27 @@ Real binaries:['/usr/bin/u2boat', '/usr/bin/u2spewfoo', '/usr/sbin/snort']
 Write to package-work.txt file: snort
 Write to package-binaries.txt file: ['/usr/bin/u2boat', '/usr/bin/u2spewfoo', '/usr/sbin/snort']
 ['/usr/bin/u2boat', '/usr/bin/u2spewfoo', '/usr/sbin/snort']
+Write pickle file
+tar_out:
+Package-nr:5231 of 11000, Name:snort-common-libraries-dbgsym
+Package >snort-common-libraries< not in package-all.txt file
+Write to package-all.txt file: snort-common-libraries
+In package >snort-common-libraries< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: snort-common-libraries
+[]
+Package-nr:5232 of 11000, Name:ssvnc-dbgsym
+Package >ssvnc< not in package-all.txt file
+Write to package-all.txt file: ssvnc
+In package >ssvnc< are these binaries: ['/usr/bin/sshvnc', '/usr/bin/ssvnc', '/usr/bin/tsvnc', '/usr/bin/ssvncviewer']
+Real binaries:[]
+Write to package-dontwork.txt file: ssvnc
+[]
+Package-nr:5233 of 11000, Name:samba-testsuite-dbgsym
+Package >samba-testsuite< not in package-all.txt file
+Write to package-all.txt file: samba-testsuite
+In package >samba-testsuite< are these binaries: ['/usr/bin/gentest', '/usr/bin/locktest', '/usr/bin/masktest', '/usr/bin/ndrdump', '/usr/bin/smbtorture']
+Real binaries:['/usr/bin/gentest', '/usr/bin/locktest', '/usr/bin/masktest', '/usr/bin/ndrdump', '/usr/bin/smbtorture']
+Write to package-work.txt file: samba-testsuite
+Write to package-binaries.txt file: ['/usr/bin/gentest', '/usr/bin/locktest', '/usr/bin/masktest', '/usr/bin/ndrdump', '/usr/bin/smbtorture']
+['/usr/bin/gentest', '/usr/bin/locktest', '/usr/bin/masktest', '/usr/bin/ndrdump', '/usr/bin/smbtorture']

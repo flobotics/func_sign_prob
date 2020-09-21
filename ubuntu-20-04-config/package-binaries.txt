@@ -9604,3 +9604,8 @@
 /usr/bin/u2boat
 /usr/bin/u2spewfoo
 /usr/sbin/snort
+/usr/bin/gentest
+/usr/bin/locktest
+/usr/bin/masktest
+/usr/bin/ndrdump
+/usr/bin/smbtorture
