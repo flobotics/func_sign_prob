@@ -4952,3 +4952,5 @@ wavpack
 wp2x
 wmmatrix
 whichman
+python3-wreport
+wmweather+

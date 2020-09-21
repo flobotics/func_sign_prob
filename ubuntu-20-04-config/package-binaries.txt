@@ -9314,3 +9314,4 @@
 /usr/bin/ftff
 /usr/bin/ftwhich
 /usr/bin/whichman
+/usr/bin/wmweather+

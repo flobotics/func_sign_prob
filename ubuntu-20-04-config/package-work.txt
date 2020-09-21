@@ -3306,3 +3306,4 @@ wavpack
 wp2x
 wmmatrix
 whichman
+wmweather+
