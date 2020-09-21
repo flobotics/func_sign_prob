@@ -32793,3 +32793,16 @@ Real binaries:['/usr/bin/wob']
 Write to package-work.txt file: wob
 Write to package-binaries.txt file: ['/usr/bin/wob']
 ['/usr/bin/wob']
+Write pickle file
+tar_out:
+Package-nr:5096 of 11000, Name:wv-dbgsym
+Skip package >wv<, already in package-all.txt file
+[]
+Package-nr:5097 of 11000, Name:wmdate-dbgsym
+Package >wmdate< not in package-all.txt file
+Write to package-all.txt file: wmdate
+In package >wmdate< are these binaries: ['/usr/bin/wmdate']
+Real binaries:['/usr/bin/wmdate']
+Write to package-work.txt file: wmdate
+Write to package-binaries.txt file: ['/usr/bin/wmdate']
+['/usr/bin/wmdate']

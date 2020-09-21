@@ -3368,3 +3368,4 @@ webalizer
 wmcore
 wmforecast
 wob
+wmdate

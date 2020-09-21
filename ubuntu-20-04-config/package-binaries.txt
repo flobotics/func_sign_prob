@@ -9434,3 +9434,4 @@
 /usr/bin/wmcore
 /usr/bin/wmforecast
 /usr/bin/wob
+/usr/bin/wmdate
