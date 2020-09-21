@@ -9697,3 +9697,5 @@
 /usr/lib/python3/dist-packages/sage/geometry/polyhedron/combinatorial_polyhedron/polyhedron_face_lattice.cpython-38-x86_64-linux-gnu.so
 /usr/bin/sfnt2woff-zopfli
 /usr/bin/woff2sfnt-zopfli
+/usr/bin/newgidmap
+/usr/bin/newuidmap

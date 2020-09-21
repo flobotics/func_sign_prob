@@ -34354,3 +34354,13 @@ Real binaries:['/usr/bin/sfnt2woff-zopfli', '/usr/bin/woff2sfnt-zopfli']
 Write to package-work.txt file: sfnt2woff-zopfli
 Write to package-binaries.txt file: ['/usr/bin/sfnt2woff-zopfli', '/usr/bin/woff2sfnt-zopfli']
 ['/usr/bin/sfnt2woff-zopfli', '/usr/bin/woff2sfnt-zopfli']
+Write pickle file
+tar_out:
+Package-nr:5280 of 11000, Name:uidmap-dbgsym
+Package >uidmap< not in package-all.txt file
+Write to package-all.txt file: uidmap
+In package >uidmap< are these binaries: ['/usr/bin/newgidmap', '/usr/bin/newuidmap']
+Real binaries:['/usr/bin/newgidmap', '/usr/bin/newuidmap']
+Write to package-work.txt file: uidmap
+Write to package-binaries.txt file: ['/usr/bin/newgidmap', '/usr/bin/newuidmap']
+['/usr/bin/newgidmap', '/usr/bin/newuidmap']
