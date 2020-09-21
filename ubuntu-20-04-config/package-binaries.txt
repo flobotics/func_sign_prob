@@ -9175,3 +9175,5 @@
 /usr/bin/wmshutdown
 /usr/bin/windowlab
 /usr/bin/webdis
+/usr/bin/wdm
+/usr/bin/wdmLogin

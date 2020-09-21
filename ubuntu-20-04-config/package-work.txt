@@ -3237,3 +3237,4 @@ wide-dhcpv6-client
 wmshutdown
 windowlab
 webdis
+wdm
