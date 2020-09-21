@@ -8033,3 +8033,4 @@
 /usr/bin/zytrax
 /usr/bin/ziproxy
 /usr/bin/ziproxylogtool
+/usr/bin/zita-dc1
