@@ -25132,3 +25132,13 @@ Real binaries:['/usr/bin/zuluSafe-cli']
 Write to package-work.txt file: zulusafe-cli
 Write to package-binaries.txt file: ['/usr/bin/zuluSafe-cli']
 ['/usr/bin/zuluSafe-cli']
+Write pickle file
+tar_out:
+Package-nr:4205 of 11000, Name:zh-autoconvert-dbgsym
+Package >zh-autoconvert< not in package-all.txt file
+Write to package-all.txt file: zh-autoconvert
+In package >zh-autoconvert< are these binaries: ['/usr/bin/autogb', '/usr/bin/autob5']
+Real binaries:['/usr/bin/autogb']
+Write to package-work.txt file: zh-autoconvert
+Write to package-binaries.txt file: ['/usr/bin/autogb']
+['/usr/bin/autogb']
