@@ -25768,3 +25768,13 @@ Real binaries:['/usr/bin/icepatch2server']
 Write to package-work.txt file: zeroc-icepatch2
 Write to package-binaries.txt file: ['/usr/bin/icepatch2server']
 ['/usr/bin/icepatch2server']
+Write pickle file
+tar_out:
+Package-nr:4276 of 11000, Name:zeroc-glacier2-dbgsym
+Package >zeroc-glacier2< not in package-all.txt file
+Write to package-all.txt file: zeroc-glacier2
+In package >zeroc-glacier2< are these binaries: ['/usr/bin/glacier2router']
+Real binaries:['/usr/bin/glacier2router']
+Write to package-work.txt file: zeroc-glacier2
+Write to package-binaries.txt file: ['/usr/bin/glacier2router']
+['/usr/bin/glacier2router']

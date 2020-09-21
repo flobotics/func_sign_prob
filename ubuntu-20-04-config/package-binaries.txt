@@ -8138,3 +8138,4 @@
 /usr/bin/icegridnode
 /usr/bin/icegridregistry
 /usr/bin/icepatch2server
+/usr/bin/glacier2router
