@@ -4307,3 +4307,4 @@ python3-libfwsi
 python3-libfwnt
 fastahack
 ffado-tools
+ffado-dbus-server

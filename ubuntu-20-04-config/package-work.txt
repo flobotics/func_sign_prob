@@ -2838,3 +2838,4 @@ ftdi-eeprom
 fido2-tools
 fastahack
 ffado-tools
+ffado-dbus-server

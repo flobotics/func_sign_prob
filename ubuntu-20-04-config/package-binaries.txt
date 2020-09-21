@@ -8188,3 +8188,4 @@
 /usr/bin/ffado-test-isorecv
 /usr/bin/ffado-test-isoxmit
 /usr/bin/ffado-test-streaming
+/usr/bin/ffado-dbus-server
