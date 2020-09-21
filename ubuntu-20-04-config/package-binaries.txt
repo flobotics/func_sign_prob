@@ -8914,3 +8914,4 @@
 /usr/bin/GenPat
 /usr/bin/makensis
 /usr/bin/nyancat
+/usr/bin/nitrokey-app

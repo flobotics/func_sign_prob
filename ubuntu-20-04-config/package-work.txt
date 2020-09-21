@@ -3136,3 +3136,4 @@ numdiff
 npd6
 nsis
 nyancat
+nitrokey-app
