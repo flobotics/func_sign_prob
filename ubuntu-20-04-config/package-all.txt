@@ -5234,3 +5234,5 @@ steptalk
 simavr
 schism
 shadowsocks-libev
+swell-foop
+supercat

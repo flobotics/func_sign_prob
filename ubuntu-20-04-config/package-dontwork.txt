@@ -1717,3 +1717,4 @@ slimevolley
 strongswan-nm
 strongswan-scepclient
 sdl-ball
+swell-foop

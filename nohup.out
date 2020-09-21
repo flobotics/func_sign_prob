@@ -34667,3 +34667,20 @@ Real binaries:['/usr/bin/ss-local', '/usr/bin/ss-manager', '/usr/bin/ss-redir', 
 Write to package-work.txt file: shadowsocks-libev
 Write to package-binaries.txt file: ['/usr/bin/ss-local', '/usr/bin/ss-manager', '/usr/bin/ss-redir', '/usr/bin/ss-server', '/usr/bin/ss-tunnel']
 ['/usr/bin/ss-local', '/usr/bin/ss-manager', '/usr/bin/ss-redir', '/usr/bin/ss-server', '/usr/bin/ss-tunnel']
+Write pickle file
+tar_out:
+Package-nr:5314 of 11000, Name:swell-foop-dbgsym
+Package >swell-foop< not in package-all.txt file
+Write to package-all.txt file: swell-foop
+In package >swell-foop< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: swell-foop
+[]
+Package-nr:5315 of 11000, Name:supercat-dbgsym
+Package >supercat< not in package-all.txt file
+Write to package-all.txt file: supercat
+In package >supercat< are these binaries: ['/usr/bin/spc']
+Real binaries:['/usr/bin/spc']
+Write to package-work.txt file: supercat
+Write to package-binaries.txt file: ['/usr/bin/spc']
+['/usr/bin/spc']

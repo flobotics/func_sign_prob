@@ -3512,3 +3512,4 @@ steptalk
 simavr
 schism
 shadowsocks-libev
+supercat
