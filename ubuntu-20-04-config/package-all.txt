@@ -4379,3 +4379,5 @@ ulogd2-mysql
 unibetacode
 unclutter
 unhide
+ucimf-openvanilla
+uchardet

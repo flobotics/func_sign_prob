@@ -8289,3 +8289,4 @@
 /usr/sbin/unhide-posix
 /usr/sbin/unhide-tcp
 /usr/sbin/unhide_rb
+/usr/bin/uchardet
