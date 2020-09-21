@@ -5249,3 +5249,6 @@ subnetcalc
 python3-simgrid
 simgrid-java
 subversion-tools
+ruby-svn
+python-subversion
+snmptrapfmt

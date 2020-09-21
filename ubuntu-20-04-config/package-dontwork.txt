@@ -1723,3 +1723,5 @@ scalapack-mpi-test
 slang-expat
 python3-simgrid
 simgrid-java
+ruby-svn
+python-subversion
