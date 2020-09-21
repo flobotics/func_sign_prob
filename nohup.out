@@ -27624,3 +27624,13 @@ Real binaries:['/usr/sbin/unity-greeter']
 Write to package-work.txt file: unity-greeter
 Write to package-binaries.txt file: ['/usr/sbin/unity-greeter']
 ['/usr/sbin/unity-greeter']
+Write pickle file
+tar_out:
+Package-nr:4493 of 11000, Name:imapproxy-dbgsym
+Package >imapproxy< not in package-all.txt file
+Write to package-all.txt file: imapproxy
+In package >imapproxy< are these binaries: ['/usr/sbin/imapproxyd', '/usr/sbin/pimpstat']
+Real binaries:['/usr/sbin/imapproxyd', '/usr/sbin/pimpstat']
+Write to package-work.txt file: imapproxy
+Write to package-binaries.txt file: ['/usr/sbin/imapproxyd', '/usr/sbin/pimpstat']
+['/usr/sbin/imapproxyd', '/usr/sbin/pimpstat']

@@ -8447,3 +8447,5 @@
 /usr/bin/ukui-session-tools
 /usr/bin/ucblogo
 /usr/sbin/unity-greeter
+/usr/sbin/imapproxyd
+/usr/sbin/pimpstat
