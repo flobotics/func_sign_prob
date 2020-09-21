@@ -9443,3 +9443,4 @@
 /usr/bin/wulfstat
 /usr/bin/sfnt2woff
 /usr/bin/woff2sfnt
+/usr/bin/wmtime
