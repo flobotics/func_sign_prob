@@ -8933,3 +8933,4 @@
 /usr/bin/nxtraverse
 /usr/bin/newpid
 /usr/bin/sntp
+/usr/sbin/ntpdate

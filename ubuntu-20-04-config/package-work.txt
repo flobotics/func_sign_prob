@@ -3150,3 +3150,4 @@ nexus-tools
 newpid
 ncompress
 sntp
+ntpdate
