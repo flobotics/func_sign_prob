@@ -9189,3 +9189,4 @@
 /usr/bin/wsman
 /usr/bin/wmxmms2
 /usr/bin/wmget
+/usr/bin/wmstickynotes

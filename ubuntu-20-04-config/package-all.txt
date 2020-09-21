@@ -4873,3 +4873,4 @@ wmcliphist
 wsmancli
 wmxmms2
 wmget
+wmstickynotes

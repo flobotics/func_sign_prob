@@ -31302,3 +31302,13 @@ Real binaries:['/usr/bin/wmget']
 Write to package-work.txt file: wmget
 Write to package-binaries.txt file: ['/usr/bin/wmget']
 ['/usr/bin/wmget']
+Write pickle file
+tar_out:
+Package-nr:4928 of 11000, Name:wmstickynotes-dbgsym
+Package >wmstickynotes< not in package-all.txt file
+Write to package-all.txt file: wmstickynotes
+In package >wmstickynotes< are these binaries: ['/usr/bin/wmstickynotes']
+Real binaries:['/usr/bin/wmstickynotes']
+Write to package-work.txt file: wmstickynotes
+Write to package-binaries.txt file: ['/usr/bin/wmstickynotes']
+['/usr/bin/wmstickynotes']
