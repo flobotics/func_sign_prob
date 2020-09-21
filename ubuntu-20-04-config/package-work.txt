@@ -3438,3 +3438,4 @@ simplescreenrecorder
 systemtap-runtime
 shntool
 spacenavd
+stm32flash

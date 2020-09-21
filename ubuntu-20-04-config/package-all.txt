@@ -5139,3 +5139,4 @@ systemtap-server
 systemtap-runtime
 shntool
 spacenavd
+stm32flash

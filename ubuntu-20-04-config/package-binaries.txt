@@ -9578,3 +9578,4 @@
 /usr/bin/staprun
 /usr/bin/shntool
 /usr/bin/spacenavd
+/usr/bin/stm32flash
