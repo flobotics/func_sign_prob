@@ -9169,3 +9169,4 @@
 /usr/bin/Welcome2L
 /usr/bin/wzip
 /usr/sbin/dhcp6relay
+/usr/sbin/dhcp6s
