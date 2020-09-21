@@ -8888,3 +8888,4 @@
 /usr/sbin/nsd-control
 /usr/bin/neomutt
 /usr/bin/netsurf-gtk
+/usr/bin/netsurf-fb

@@ -29758,3 +29758,13 @@ Real binaries:['/usr/bin/netsurf-gtk']
 Write to package-work.txt file: netsurf-gtk
 Write to package-binaries.txt file: ['/usr/bin/netsurf-gtk']
 ['/usr/bin/netsurf-gtk']
+Write pickle file
+tar_out:
+Package-nr:4750 of 11000, Name:netsurf-fb-dbgsym
+Package >netsurf-fb< not in package-all.txt file
+Write to package-all.txt file: netsurf-fb
+In package >netsurf-fb< are these binaries: ['/usr/bin/netsurf-fb']
+Real binaries:['/usr/bin/netsurf-fb']
+Write to package-work.txt file: netsurf-fb
+Write to package-binaries.txt file: ['/usr/bin/netsurf-fb']
+['/usr/bin/netsurf-fb']

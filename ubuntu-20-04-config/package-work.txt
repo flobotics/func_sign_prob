@@ -3119,3 +3119,4 @@ node-sqlite3
 nsd
 neomutt
 netsurf-gtk
+netsurf-fb

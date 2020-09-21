@@ -4712,3 +4712,4 @@ octave-nlopt
 nsd
 neomutt
 netsurf-gtk
+netsurf-fb
