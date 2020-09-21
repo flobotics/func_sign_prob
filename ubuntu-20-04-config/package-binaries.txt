@@ -8597,3 +8597,4 @@
 /usr/bin/mh/unseen
 /usr/bin/mh/whatnow
 /usr/bin/mh/whom
+/usr/bin/nitrogen

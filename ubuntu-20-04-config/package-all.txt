@@ -4570,3 +4570,4 @@ nomad
 python3-netgen
 nslint
 nmh
+nitrogen
