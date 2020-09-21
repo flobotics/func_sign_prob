@@ -4637,3 +4637,6 @@ r-cran-nlme
 n2n
 notmuch-addrlookup
 nifti-bin
+nyquist
+node-re2
+nemiver

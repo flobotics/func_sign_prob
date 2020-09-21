@@ -1556,3 +1556,5 @@ nemo-python
 nautilus-wipe
 naspro-bridges
 r-cran-nlme
+nyquist
+node-re2

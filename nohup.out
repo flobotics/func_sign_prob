@@ -29089,3 +29089,30 @@ Real binaries:['/usr/bin/nifti1_test', '/usr/bin/nifti_stats', '/usr/bin/nifti_t
 Write to package-work.txt file: nifti-bin
 Write to package-binaries.txt file: ['/usr/bin/nifti1_test', '/usr/bin/nifti_stats', '/usr/bin/nifti_tool']
 ['/usr/bin/nifti1_test', '/usr/bin/nifti_stats', '/usr/bin/nifti_tool']
+Write pickle file
+tar_out:
+Package-nr:4668 of 11000, Name:nn-dbgsym
+Skip package >nn<, already in package-all.txt file
+[]
+Package-nr:4669 of 11000, Name:nyquist-dbgsym
+Package >nyquist< not in package-all.txt file
+Write to package-all.txt file: nyquist
+In package >nyquist< are these binaries: ['/usr/bin/jny', '/usr/bin/ny']
+Real binaries:[]
+Write to package-dontwork.txt file: nyquist
+[]
+Package-nr:4670 of 11000, Name:node-re2-dbgsym
+Package >node-re2< not in package-all.txt file
+Write to package-all.txt file: node-re2
+In package >node-re2< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: node-re2
+[]
+Package-nr:4671 of 11000, Name:nemiver-dbgsym
+Package >nemiver< not in package-all.txt file
+Write to package-all.txt file: nemiver
+In package >nemiver< are these binaries: ['/usr/bin/nemiver']
+Real binaries:['/usr/bin/nemiver']
+Write to package-work.txt file: nemiver
+Write to package-binaries.txt file: ['/usr/bin/nemiver']
+['/usr/bin/nemiver']

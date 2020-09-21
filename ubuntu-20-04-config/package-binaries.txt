@@ -8768,3 +8768,4 @@
 /usr/bin/nifti1_test
 /usr/bin/nifti_stats
 /usr/bin/nifti_tool
+/usr/bin/nemiver
