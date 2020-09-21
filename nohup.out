@@ -30353,3 +30353,13 @@ Real binaries:['/usr/sbin/ndppd']
 Write to package-work.txt file: ndppd
 Write to package-binaries.txt file: ['/usr/sbin/ndppd']
 ['/usr/sbin/ndppd']
+Write pickle file
+tar_out:
+Package-nr:4825 of 11000, Name:netpipe-mpich2-dbgsym
+Package >netpipe-mpich2< not in package-all.txt file
+Write to package-all.txt file: netpipe-mpich2
+In package >netpipe-mpich2< are these binaries: ['/usr/bin/NPmpich2']
+Real binaries:['/usr/bin/NPmpich2']
+Write to package-work.txt file: netpipe-mpich2
+Write to package-binaries.txt file: ['/usr/bin/NPmpich2']
+['/usr/bin/NPmpich2']
