@@ -9255,3 +9255,4 @@
 /usr/sbin/wpa_gui
 /usr/sbin/hostapd
 /usr/sbin/hostapd_cli
+/usr/bin/workrave

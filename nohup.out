@@ -31639,3 +31639,13 @@ Real binaries:['/usr/sbin/hostapd', '/usr/sbin/hostapd_cli']
 Write to package-work.txt file: hostapd
 Write to package-binaries.txt file: ['/usr/sbin/hostapd', '/usr/sbin/hostapd_cli']
 ['/usr/sbin/hostapd', '/usr/sbin/hostapd_cli']
+Write pickle file
+tar_out:
+Package-nr:4967 of 11000, Name:workrave-dbgsym
+Package >workrave< not in package-all.txt file
+Write to package-all.txt file: workrave
+In package >workrave< are these binaries: ['/usr/bin/workrave']
+Real binaries:['/usr/bin/workrave']
+Write to package-work.txt file: workrave
+Write to package-binaries.txt file: ['/usr/bin/workrave']
+['/usr/bin/workrave']

@@ -4910,3 +4910,4 @@ wlcs
 waffle-utils
 wpagui
 hostapd
+workrave
