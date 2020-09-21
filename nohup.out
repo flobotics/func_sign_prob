@@ -32304,3 +32304,16 @@ Real binaries:['/usr/bin/wham', '/usr/bin/wham-build']
 Write to package-work.txt file: wham-align
 Write to package-binaries.txt file: ['/usr/bin/wham', '/usr/bin/wham-build']
 ['/usr/bin/wham', '/usr/bin/wham-build']
+Write pickle file
+tar_out:
+Package-nr:5041 of 11000, Name:wipe-dbgsym
+Skip package >wipe<, already in package-all.txt file
+[]
+Package-nr:5042 of 11000, Name:wmaker-dbgsym
+Package >wmaker< not in package-all.txt file
+Write to package-all.txt file: wmaker
+In package >wmaker< are these binaries: ['/usr/bin/WPrefs', '/usr/bin/geticonset', '/usr/bin/getstyle', '/usr/bin/seticons', '/usr/bin/setstyle', '/usr/bin/wdread', '/usr/bin/wdwrite', '/usr/bin/wmagnify', '/usr/bin/wmgenmenu', '/usr/bin/wmiv', '/usr/bin/wmmenugen', '/usr/bin/wmsetbg', '/usr/bin/WindowMaker']
+Real binaries:['/usr/bin/WPrefs', '/usr/bin/geticonset', '/usr/bin/getstyle', '/usr/bin/seticons', '/usr/bin/setstyle', '/usr/bin/wdread', '/usr/bin/wdwrite', '/usr/bin/wmagnify', '/usr/bin/wmgenmenu', '/usr/bin/wmiv', '/usr/bin/wmmenugen', '/usr/bin/wmsetbg']
+Write to package-work.txt file: wmaker
+Write to package-binaries.txt file: ['/usr/bin/WPrefs', '/usr/bin/geticonset', '/usr/bin/getstyle', '/usr/bin/seticons', '/usr/bin/setstyle', '/usr/bin/wdread', '/usr/bin/wdwrite', '/usr/bin/wmagnify', '/usr/bin/wmgenmenu', '/usr/bin/wmiv', '/usr/bin/wmmenugen', '/usr/bin/wmsetbg']
+['/usr/bin/WPrefs', '/usr/bin/geticonset', '/usr/bin/getstyle', '/usr/bin/seticons', '/usr/bin/setstyle', '/usr/bin/wdread', '/usr/bin/wdwrite', '/usr/bin/wmagnify', '/usr/bin/wmgenmenu', '/usr/bin/wmiv', '/usr/bin/wmmenugen', '/usr/bin/wmsetbg']

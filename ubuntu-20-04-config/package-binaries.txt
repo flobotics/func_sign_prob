@@ -9351,3 +9351,15 @@
 /usr/bin/whowatch
 /usr/bin/wham
 /usr/bin/wham-build
+/usr/bin/WPrefs
+/usr/bin/geticonset
+/usr/bin/getstyle
+/usr/bin/seticons
+/usr/bin/setstyle
+/usr/bin/wdread
+/usr/bin/wdwrite
+/usr/bin/wmagnify
+/usr/bin/wmgenmenu
+/usr/bin/wmiv
+/usr/bin/wmmenugen
+/usr/bin/wmsetbg
