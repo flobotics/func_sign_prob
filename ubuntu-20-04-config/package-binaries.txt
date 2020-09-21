@@ -8765,3 +8765,6 @@
 /usr/bin/supernode
 /usr/sbin/edge
 /usr/bin/notmuch-addrlookup
+/usr/bin/nifti1_test
+/usr/bin/nifti_stats
+/usr/bin/nifti_tool

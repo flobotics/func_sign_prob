@@ -29079,3 +29079,13 @@ Real binaries:['/usr/bin/notmuch-addrlookup']
 Write to package-work.txt file: notmuch-addrlookup
 Write to package-binaries.txt file: ['/usr/bin/notmuch-addrlookup']
 ['/usr/bin/notmuch-addrlookup']
+Write pickle file
+tar_out:
+Package-nr:4667 of 11000, Name:nifti-bin-dbgsym
+Package >nifti-bin< not in package-all.txt file
+Write to package-all.txt file: nifti-bin
+In package >nifti-bin< are these binaries: ['/usr/bin/nifti1_test', '/usr/bin/nifti_stats', '/usr/bin/nifti_tool', '/usr/share/doc/nifti-bin/README', '/usr/share/doc/nifti-bin/copyright', '/usr/share/doc/nifti-bin/Updates.txt.gz', '/usr/share/doc/nifti-bin/changelog.Debian.gz']
+Real binaries:['/usr/bin/nifti1_test', '/usr/bin/nifti_stats', '/usr/bin/nifti_tool']
+Write to package-work.txt file: nifti-bin
+Write to package-binaries.txt file: ['/usr/bin/nifti1_test', '/usr/bin/nifti_stats', '/usr/bin/nifti_tool']
+['/usr/bin/nifti1_test', '/usr/bin/nifti_stats', '/usr/bin/nifti_tool']

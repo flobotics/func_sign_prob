@@ -3075,3 +3075,4 @@ nvme-cli
 netdiag
 n2n
 notmuch-addrlookup
+nifti-bin
