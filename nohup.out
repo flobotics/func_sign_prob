@@ -26713,3 +26713,48 @@ Real binaries:['/usr/bin/ukui-volume-control', '/usr/bin/ukui-volume-control-app
 Write to package-work.txt file: ukui-media
 Write to package-binaries.txt file: ['/usr/bin/ukui-volume-control', '/usr/bin/ukui-volume-control-applet', '/usr/bin/ukui-volume-control-applet-qt']
 ['/usr/bin/ukui-volume-control', '/usr/bin/ukui-volume-control-applet', '/usr/bin/ukui-volume-control-applet-qt']
+Write pickle file
+tar_out:
+Package-nr:4384 of 11000, Name:udisks2-btrfs-dbgsym
+Package >udisks2-btrfs< not in package-all.txt file
+Write to package-all.txt file: udisks2-btrfs
+In package >udisks2-btrfs< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: udisks2-btrfs
+[]
+Package-nr:4385 of 11000, Name:udisks2-zram-dbgsym
+Package >udisks2-zram< not in package-all.txt file
+Write to package-all.txt file: udisks2-zram
+In package >udisks2-zram< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: udisks2-zram
+[]
+Package-nr:4386 of 11000, Name:udisks2-bcache-dbgsym
+Package >udisks2-bcache< not in package-all.txt file
+Write to package-all.txt file: udisks2-bcache
+In package >udisks2-bcache< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: udisks2-bcache
+[]
+Package-nr:4387 of 11000, Name:udisks2-vdo-dbgsym
+Package >udisks2-vdo< not in package-all.txt file
+Write to package-all.txt file: udisks2-vdo
+In package >udisks2-vdo< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: udisks2-vdo
+[]
+Package-nr:4388 of 11000, Name:udisks2-lvm2-dbgsym
+Package >udisks2-lvm2< not in package-all.txt file
+Write to package-all.txt file: udisks2-lvm2
+In package >udisks2-lvm2< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: udisks2-lvm2
+[]
+Package-nr:4389 of 11000, Name:utfout-dbgsym
+Package >utfout< not in package-all.txt file
+Write to package-all.txt file: utfout
+In package >utfout< are these binaries: ['/usr/bin/utfout']
+Real binaries:['/usr/bin/utfout']
+Write to package-work.txt file: utfout
+Write to package-binaries.txt file: ['/usr/bin/utfout']
+['/usr/bin/utfout']

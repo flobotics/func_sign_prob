@@ -1488,3 +1488,8 @@ ulogd2-sqlite3
 ulogd2-dbi
 ulogd2-mysql
 ucimf-openvanilla
+udisks2-btrfs
+udisks2-zram
+udisks2-bcache
+udisks2-vdo
+udisks2-lvm2

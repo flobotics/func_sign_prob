@@ -8294,3 +8294,4 @@
 /usr/bin/ukui-volume-control
 /usr/bin/ukui-volume-control-applet
 /usr/bin/ukui-volume-control-applet-qt
+/usr/bin/utfout
