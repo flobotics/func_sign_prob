@@ -8018,3 +8018,5 @@
 /usr/bin/autogb
 /usr/bin/zmakebas
 /usr/bin/zpspell
+/usr/bin/alsa_delay
+/usr/bin/alsa_loopback

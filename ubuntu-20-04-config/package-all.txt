@@ -4214,3 +4214,4 @@ zulusafe-cli
 zh-autoconvert
 zmakebas
 zpspell
+zita-alsa-pcmi-utils

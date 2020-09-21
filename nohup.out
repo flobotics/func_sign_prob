@@ -25160,3 +25160,13 @@ Real binaries:['/usr/bin/zpspell']
 Write to package-work.txt file: zpspell
 Write to package-binaries.txt file: ['/usr/bin/zpspell']
 ['/usr/bin/zpspell']
+Write pickle file
+tar_out:
+Package-nr:4208 of 11000, Name:zita-alsa-pcmi-utils-dbgsym
+Package >zita-alsa-pcmi-utils< not in package-all.txt file
+Write to package-all.txt file: zita-alsa-pcmi-utils
+In package >zita-alsa-pcmi-utils< are these binaries: ['/usr/bin/alsa_delay', '/usr/bin/alsa_loopback']
+Real binaries:['/usr/bin/alsa_delay', '/usr/bin/alsa_loopback']
+Write to package-work.txt file: zita-alsa-pcmi-utils
+Write to package-binaries.txt file: ['/usr/bin/alsa_delay', '/usr/bin/alsa_loopback']
+['/usr/bin/alsa_delay', '/usr/bin/alsa_loopback']
