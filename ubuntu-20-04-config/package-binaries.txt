@@ -8173,3 +8173,4 @@
 /usr/bin/zvbi-ntsc-cc
 /usr/sbin/zvbid
 /usr/bin/zeitgeist-datahub
+/usr/bin/zeitgeist-daemon
