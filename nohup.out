@@ -24720,3 +24720,24 @@ Real binaries:['/usr/bin/vacation']
 Write to package-work.txt file: vacation
 Write to package-binaries.txt file: ['/usr/bin/vacation']
 ['/usr/bin/vacation']
+Write pickle file
+tar_out:
+Package-nr:4157 of 11000, Name:vdr-dbgsym
+Skip package >vdr<, already in package-all.txt file
+[]
+Package-nr:4158 of 11000, Name:vuls-dbgsym
+Package >vuls< not in package-all.txt file
+Write to package-all.txt file: vuls
+In package >vuls< are these binaries: ['/usr/bin/vuls']
+Real binaries:['/usr/bin/vuls']
+Write to package-work.txt file: vuls
+Write to package-binaries.txt file: ['/usr/bin/vuls']
+['/usr/bin/vuls']
+Package-nr:4159 of 11000, Name:vde2-cryptcab-dbgsym
+Package >vde2-cryptcab< not in package-all.txt file
+Write to package-all.txt file: vde2-cryptcab
+In package >vde2-cryptcab< are these binaries: ['/usr/bin/vde_cryptcab']
+Real binaries:['/usr/bin/vde_cryptcab']
+Write to package-work.txt file: vde2-cryptcab
+Write to package-binaries.txt file: ['/usr/bin/vde_cryptcab']
+['/usr/bin/vde_cryptcab']

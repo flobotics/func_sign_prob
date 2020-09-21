@@ -4167,3 +4167,5 @@ velvet-long
 vtwm
 verilator
 vacation
+vuls
+vde2-cryptcab

@@ -7955,3 +7955,5 @@
 /usr/bin/velveth_long
 /usr/bin/vtwm
 /usr/bin/vacation
+/usr/bin/vuls
+/usr/bin/vde_cryptcab
