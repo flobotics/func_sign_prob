@@ -9534,3 +9534,4 @@
 /usr/sbin/yubikeyd
 /usr/bin/yamdi
 /usr/bin/yafc
+/usr/bin/yank-cli
