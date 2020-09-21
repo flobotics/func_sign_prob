@@ -9170,3 +9170,5 @@
 /usr/bin/wzip
 /usr/sbin/dhcp6relay
 /usr/sbin/dhcp6s
+/usr/sbin/dhcp6c
+/usr/sbin/dhcp6ctl
