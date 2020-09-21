@@ -32049,3 +32049,13 @@ Real binaries:['/usr/bin/wmweather+']
 Write to package-work.txt file: wmweather+
 Write to package-binaries.txt file: ['/usr/bin/wmweather+']
 ['/usr/bin/wmweather+']
+Write pickle file
+tar_out:
+Package-nr:5013 of 11000, Name:wmmixer-dbgsym
+Package >wmmixer< not in package-all.txt file
+Write to package-all.txt file: wmmixer
+In package >wmmixer< are these binaries: ['/usr/bin/wmmixer']
+Real binaries:['/usr/bin/wmmixer']
+Write to package-work.txt file: wmmixer
+Write to package-binaries.txt file: ['/usr/bin/wmmixer']
+['/usr/bin/wmmixer']

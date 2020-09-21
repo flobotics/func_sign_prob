@@ -3307,3 +3307,4 @@ wp2x
 wmmatrix
 whichman
 wmweather+
+wmmixer

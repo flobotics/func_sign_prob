@@ -4954,3 +4954,4 @@ wmmatrix
 whichman
 python3-wreport
 wmweather+
+wmmixer

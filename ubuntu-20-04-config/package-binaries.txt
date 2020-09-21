@@ -9315,3 +9315,4 @@
 /usr/bin/ftwhich
 /usr/bin/whichman
 /usr/bin/wmweather+
+/usr/bin/wmmixer
