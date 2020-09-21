@@ -9343,3 +9343,4 @@
 /usr/bin/wmforkplop
 /usr/bin/wmitime
 /usr/bin/wmhdplop
+/usr/bin/wayland-scanner++

@@ -4971,3 +4971,4 @@ wmitime
 php-wikidiff2
 gkrellm-hdplop
 wmhdplop
+wayland-scanner++
