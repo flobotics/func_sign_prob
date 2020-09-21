@@ -8903,3 +8903,4 @@
 /usr/sbin/nodm
 /usr/bin/nuntius
 /usr/bin/qrtest
+/usr/bin/sfcapd
