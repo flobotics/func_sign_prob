@@ -4906,3 +4906,5 @@ wmfrog
 waybar
 weston
 wmcpu
+wlcs
+waffle-utils

@@ -9251,3 +9251,4 @@
 /usr/bin/weston-touch-calibrator
 /usr/bin/weston-transformed
 /usr/bin/wmcpu
+/usr/bin/wflinfo
