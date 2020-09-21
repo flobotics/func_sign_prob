@@ -8891,3 +8891,9 @@
 /usr/bin/netsurf-fb
 /usr/bin/namazu
 /usr/lib/cgi-bin/namazu.cgi
+/usr/bin/encapsulate
+/usr/bin/faucet
+/usr/bin/getsockname
+/usr/bin/hose
+/usr/bin/sockdown
+/usr/bin/timelimit.netpipes

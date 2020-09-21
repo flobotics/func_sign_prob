@@ -29778,3 +29778,20 @@ Real binaries:['/usr/bin/namazu', '/usr/lib/cgi-bin/namazu.cgi']
 Write to package-work.txt file: namazu2
 Write to package-binaries.txt file: ['/usr/bin/namazu', '/usr/lib/cgi-bin/namazu.cgi']
 ['/usr/bin/namazu', '/usr/lib/cgi-bin/namazu.cgi']
+Write pickle file
+tar_out:
+Package-nr:4752 of 11000, Name:newt-tcl-dbgsym
+Package >newt-tcl< not in package-all.txt file
+Write to package-all.txt file: newt-tcl
+In package >newt-tcl< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: newt-tcl
+[]
+Package-nr:4753 of 11000, Name:netpipes-dbgsym
+Package >netpipes< not in package-all.txt file
+Write to package-all.txt file: netpipes
+In package >netpipes< are these binaries: ['/usr/bin/encapsulate', '/usr/bin/faucet', '/usr/bin/getsockname', '/usr/bin/hose', '/usr/bin/sockdown', '/usr/bin/timelimit.netpipes']
+Real binaries:['/usr/bin/encapsulate', '/usr/bin/faucet', '/usr/bin/getsockname', '/usr/bin/hose', '/usr/bin/sockdown', '/usr/bin/timelimit.netpipes']
+Write to package-work.txt file: netpipes
+Write to package-binaries.txt file: ['/usr/bin/encapsulate', '/usr/bin/faucet', '/usr/bin/getsockname', '/usr/bin/hose', '/usr/bin/sockdown', '/usr/bin/timelimit.netpipes']
+['/usr/bin/encapsulate', '/usr/bin/faucet', '/usr/bin/getsockname', '/usr/bin/hose', '/usr/bin/sockdown', '/usr/bin/timelimit.netpipes']

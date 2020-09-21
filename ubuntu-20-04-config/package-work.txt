@@ -3121,3 +3121,4 @@ neomutt
 netsurf-gtk
 netsurf-fb
 namazu2
+netpipes

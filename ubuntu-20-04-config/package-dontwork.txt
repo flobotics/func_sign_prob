@@ -1588,3 +1588,4 @@ nautilus-ideviceinfo
 python3-numba
 python3-nlopt
 octave-nlopt
+newt-tcl

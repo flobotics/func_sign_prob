@@ -4714,3 +4714,5 @@ neomutt
 netsurf-gtk
 netsurf-fb
 namazu2
+newt-tcl
+netpipes
