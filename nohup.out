@@ -30308,3 +30308,30 @@ Real binaries:['/usr/sbin/ntpd', '/usr/sbin/ntptime']
 Write to package-work.txt file: ntpsec
 Write to package-binaries.txt file: ['/usr/sbin/ntptime']
 ['/usr/sbin/ntptime']
+Write pickle file
+tar_out:
+Package-nr:4819 of 11000, Name:python3-ntp-dbgsym
+Package >python3-ntp< not in package-all.txt file
+Write to package-all.txt file: python3-ntp
+In package >python3-ntp< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: python3-ntp
+[]
+Package-nr:4820 of 11000, Name:nec2c-dbgsym
+Skip package >nec2c<, already in package-all.txt file
+[]
+Package-nr:4821 of 11000, Name:numptyphysics-dbgsym
+Package >numptyphysics< not in package-all.txt file
+Write to package-all.txt file: numptyphysics
+In package >numptyphysics< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: numptyphysics
+[]
+Package-nr:4822 of 11000, Name:nullmailer-dbgsym
+Package >nullmailer< not in package-all.txt file
+Write to package-all.txt file: nullmailer
+In package >nullmailer< are these binaries: ['/usr/bin/mailq', '/usr/bin/nullmailer-dsn', '/usr/bin/nullmailer-inject', '/usr/bin/nullmailer-smtpd', '/usr/sbin/nullmailer-queue', '/usr/sbin/nullmailer-send', '/usr/sbin/sendmail', '/usr/bin/newaliases']
+Real binaries:['/usr/bin/mailq', '/usr/bin/nullmailer-dsn', '/usr/bin/nullmailer-inject', '/usr/bin/nullmailer-smtpd', '/usr/sbin/nullmailer-queue', '/usr/sbin/nullmailer-send', '/usr/sbin/sendmail']
+Write to package-work.txt file: nullmailer
+Write to package-binaries.txt file: ['/usr/bin/nullmailer-dsn', '/usr/bin/nullmailer-inject', '/usr/bin/nullmailer-smtpd', '/usr/sbin/nullmailer-queue', '/usr/sbin/nullmailer-send', '/usr/sbin/sendmail']
+['/usr/bin/nullmailer-dsn', '/usr/bin/nullmailer-inject', '/usr/bin/nullmailer-smtpd', '/usr/sbin/nullmailer-queue', '/usr/sbin/nullmailer-send', '/usr/sbin/sendmail']

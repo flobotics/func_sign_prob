@@ -8946,3 +8946,9 @@
 /usr/bin/rusers
 /usr/sbin/rpc.rusersd
 /usr/sbin/ntptime
+/usr/bin/nullmailer-dsn
+/usr/bin/nullmailer-inject
+/usr/bin/nullmailer-smtpd
+/usr/sbin/nullmailer-queue
+/usr/sbin/nullmailer-send
+/usr/sbin/sendmail

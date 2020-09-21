@@ -4769,3 +4769,6 @@ ninja-build
 rusers
 rusersd
 ntpsec
+python3-ntp
+numptyphysics
+nullmailer
