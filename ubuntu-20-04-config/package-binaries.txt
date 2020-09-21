@@ -8434,3 +8434,4 @@
 /usr/bin/xcwcp
 /usr/bin/unixclient
 /usr/bin/unixserver
+/usr/bin/unmass
