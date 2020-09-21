@@ -34604,3 +34604,16 @@ Real binaries:['/usr/bin/sacct', '/usr/bin/sacctmgr', '/usr/bin/salloc', '/usr/b
 Write to package-work.txt file: slurm-client
 Write to package-binaries.txt file: ['/usr/bin/sacct', '/usr/bin/sacctmgr', '/usr/bin/salloc', '/usr/bin/sattach', '/usr/bin/sbatch', '/usr/bin/sbcast', '/usr/bin/scancel', '/usr/bin/scontrol', '/usr/bin/sdiag', '/usr/bin/sh5util', '/usr/bin/sinfo', '/usr/bin/smap', '/usr/bin/sprio', '/usr/bin/squeue', '/usr/bin/sreport', '/usr/bin/srun', '/usr/bin/sshare', '/usr/bin/sstat', '/usr/bin/strigger']
 ['/usr/bin/sacct', '/usr/bin/sacctmgr', '/usr/bin/salloc', '/usr/bin/sattach', '/usr/bin/sbatch', '/usr/bin/sbcast', '/usr/bin/scancel', '/usr/bin/scontrol', '/usr/bin/sdiag', '/usr/bin/sh5util', '/usr/bin/sinfo', '/usr/bin/smap', '/usr/bin/sprio', '/usr/bin/squeue', '/usr/bin/sreport', '/usr/bin/srun', '/usr/bin/sshare', '/usr/bin/sstat', '/usr/bin/strigger']
+Write pickle file
+tar_out:
+Package-nr:5306 of 11000, Name:spinner-dbgsym
+Skip package >spinner<, already in package-all.txt file
+[]
+Package-nr:5307 of 11000, Name:splint-dbgsym
+Package >splint< not in package-all.txt file
+Write to package-all.txt file: splint
+In package >splint< are these binaries: ['/usr/bin/splint']
+Real binaries:['/usr/bin/splint']
+Write to package-work.txt file: splint
+Write to package-binaries.txt file: ['/usr/bin/splint']
+['/usr/bin/splint']

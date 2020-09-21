@@ -3507,3 +3507,4 @@ slurmd
 slurmctld
 slurmdbd
 slurm-client
+splint
