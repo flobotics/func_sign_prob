@@ -2753,3 +2753,4 @@ votca-tools
 x86dis
 drumstick-tools
 zanshin
+zimwriterfs

@@ -7992,3 +7992,4 @@
 /usr/bin/drumstick-vpiano
 /usr/bin/zanshin
 /usr/bin/zanshin-migrator
+/usr/bin/zimwriterfs

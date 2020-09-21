@@ -1430,3 +1430,4 @@ valabind
 verilator
 happycoders-libdbg
 dvbpsi-utils
+python3-zodbpickle

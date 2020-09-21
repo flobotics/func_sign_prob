@@ -4188,3 +4188,5 @@ happycoders-libdbg
 drumstick-tools
 dvbpsi-utils
 zanshin
+python3-zodbpickle
+zimwriterfs
