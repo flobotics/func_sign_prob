@@ -25335,3 +25335,13 @@ Real binaries:['/usr/bin/zabbix_get', '/usr/sbin/zabbix_proxy']
 Write to package-work.txt file: zabbix-proxy-pgsql
 Write to package-binaries.txt file: ['/usr/bin/zabbix_get', '/usr/sbin/zabbix_proxy']
 ['/usr/bin/zabbix_get', '/usr/sbin/zabbix_proxy']
+Write pickle file
+tar_out:
+Package-nr:4228 of 11000, Name:zabbix-server-pgsql-dbgsym
+Package >zabbix-server-pgsql< not in package-all.txt file
+Write to package-all.txt file: zabbix-server-pgsql
+In package >zabbix-server-pgsql< are these binaries: ['/usr/bin/zabbix_get', '/usr/sbin/zabbix_server']
+Real binaries:['/usr/bin/zabbix_get', '/usr/sbin/zabbix_server']
+Write to package-work.txt file: zabbix-server-pgsql
+Write to package-binaries.txt file: ['/usr/sbin/zabbix_server']
+['/usr/sbin/zabbix_server']
