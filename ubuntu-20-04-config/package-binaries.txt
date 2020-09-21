@@ -7845,3 +7845,6 @@
 /usr/bin/vflx11
 /usr/bin/vdetelweb
 /usr/bin/videogen
+/sbin/v86d
+/usr/bin/viewmol
+/usr/bin/vttest

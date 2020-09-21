@@ -24217,3 +24217,29 @@ Real binaries:['/usr/bin/videogen']
 Write to package-work.txt file: videogen
 Write to package-binaries.txt file: ['/usr/bin/videogen']
 ['/usr/bin/videogen']
+Write pickle file
+tar_out:
+Package-nr:4099 of 11000, Name:v86d-dbgsym
+Package >v86d< not in package-all.txt file
+Write to package-all.txt file: v86d
+In package >v86d< are these binaries: ['/sbin/v86d']
+Real binaries:['/sbin/v86d']
+Write to package-work.txt file: v86d
+Write to package-binaries.txt file: ['/sbin/v86d']
+['/sbin/v86d']
+Package-nr:4100 of 11000, Name:viewmol-dbgsym
+Package >viewmol< not in package-all.txt file
+Write to package-all.txt file: viewmol
+In package >viewmol< are these binaries: ['/usr/bin/viewmol']
+Real binaries:['/usr/bin/viewmol']
+Write to package-work.txt file: viewmol
+Write to package-binaries.txt file: ['/usr/bin/viewmol']
+['/usr/bin/viewmol']
+Package-nr:4101 of 11000, Name:vttest-dbgsym
+Package >vttest< not in package-all.txt file
+Write to package-all.txt file: vttest
+In package >vttest< are these binaries: ['/usr/bin/vttest']
+Real binaries:['/usr/bin/vttest']
+Write to package-work.txt file: vttest
+Write to package-binaries.txt file: ['/usr/bin/vttest']
+['/usr/bin/vttest']
