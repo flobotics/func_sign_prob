@@ -33283,3 +33283,13 @@ Real binaries:['/usr/bin/json_reformat', '/usr/bin/json_verify']
 Write to package-work.txt file: yajl-tools
 Write to package-binaries.txt file: ['/usr/bin/json_reformat', '/usr/bin/json_verify']
 ['/usr/bin/json_reformat', '/usr/bin/json_verify']
+Write pickle file
+tar_out:
+Package-nr:5152 of 11000, Name:yubikey-personalization-dbgsym
+Package >yubikey-personalization< not in package-all.txt file
+Write to package-all.txt file: yubikey-personalization
+In package >yubikey-personalization< are these binaries: ['/usr/bin/ykchalresp', '/usr/bin/ykinfo', '/usr/bin/ykpersonalize']
+Real binaries:['/usr/bin/ykchalresp', '/usr/bin/ykinfo', '/usr/bin/ykpersonalize']
+Write to package-work.txt file: yubikey-personalization
+Write to package-binaries.txt file: ['/usr/bin/ykchalresp', '/usr/bin/ykinfo', '/usr/bin/ykpersonalize']
+['/usr/bin/ykchalresp', '/usr/bin/ykinfo', '/usr/bin/ykpersonalize']

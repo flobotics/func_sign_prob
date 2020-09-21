@@ -5086,3 +5086,4 @@ yasm
 ykush-control
 yodl
 yajl-tools
+yubikey-personalization

@@ -9527,3 +9527,6 @@
 /usr/bin/yodlpost
 /usr/bin/json_reformat
 /usr/bin/json_verify
+/usr/bin/ykchalresp
+/usr/bin/ykinfo
+/usr/bin/ykpersonalize
