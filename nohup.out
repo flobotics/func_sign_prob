@@ -31269,3 +31269,13 @@ Real binaries:['/usr/bin/wmcliphist']
 Write to package-work.txt file: wmcliphist
 Write to package-binaries.txt file: ['/usr/bin/wmcliphist']
 ['/usr/bin/wmcliphist']
+Write pickle file
+tar_out:
+Package-nr:4924 of 11000, Name:wsmancli-dbgsym
+Package >wsmancli< not in package-all.txt file
+Write to package-all.txt file: wsmancli
+In package >wsmancli< are these binaries: ['/usr/bin/wseventmgr', '/usr/bin/wsman']
+Real binaries:['/usr/bin/wseventmgr', '/usr/bin/wsman']
+Write to package-work.txt file: wsmancli
+Write to package-binaries.txt file: ['/usr/bin/wseventmgr', '/usr/bin/wsman']
+['/usr/bin/wseventmgr', '/usr/bin/wsman']

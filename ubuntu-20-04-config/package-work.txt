@@ -3244,3 +3244,4 @@ wmsystemtray
 wcc
 wordnet-grind
 wmcliphist
+wsmancli
