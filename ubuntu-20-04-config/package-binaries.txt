@@ -8168,3 +8168,7 @@
 /usr/bin/zinnia_convert
 /usr/bin/zinnia_learn
 /usr/bin/zita-rev1
+/usr/bin/zvbi-atsc-cc
+/usr/bin/zvbi-chains
+/usr/bin/zvbi-ntsc-cc
+/usr/sbin/zvbid
