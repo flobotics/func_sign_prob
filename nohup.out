@@ -27947,3 +27947,13 @@ Real binaries:['/usr/bin/nextepc-sgwd']
 Write to package-work.txt file: nextepc-sgw
 Write to package-binaries.txt file: ['/usr/bin/nextepc-sgwd']
 ['/usr/bin/nextepc-sgwd']
+Write pickle file
+tar_out:
+Package-nr:4530 of 11000, Name:nextepc-mme-dbgsym
+Package >nextepc-mme< not in package-all.txt file
+Write to package-all.txt file: nextepc-mme
+In package >nextepc-mme< are these binaries: ['/usr/bin/nextepc-mmed']
+Real binaries:['/usr/bin/nextepc-mmed']
+Write to package-work.txt file: nextepc-mme
+Write to package-binaries.txt file: ['/usr/bin/nextepc-mmed']
+['/usr/bin/nextepc-mmed']
