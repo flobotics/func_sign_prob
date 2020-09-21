@@ -2926,3 +2926,4 @@ unbound-host
 unbound-anchor
 uefitool-cli
 udunits-bin
+uni2ascii

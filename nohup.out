@@ -27227,3 +27227,13 @@ Real binaries:['/usr/bin/udunits2']
 Write to package-work.txt file: udunits-bin
 Write to package-binaries.txt file: ['/usr/bin/udunits2']
 ['/usr/bin/udunits2']
+Write pickle file
+tar_out:
+Package-nr:4446 of 11000, Name:uni2ascii-dbgsym
+Package >uni2ascii< not in package-all.txt file
+Write to package-all.txt file: uni2ascii
+In package >uni2ascii< are these binaries: ['/usr/bin/ascii2uni', '/usr/bin/uni2ascii']
+Real binaries:['/usr/bin/ascii2uni', '/usr/bin/uni2ascii']
+Write to package-work.txt file: uni2ascii
+Write to package-binaries.txt file: ['/usr/bin/ascii2uni', '/usr/bin/uni2ascii']
+['/usr/bin/ascii2uni', '/usr/bin/uni2ascii']
