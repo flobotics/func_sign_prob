@@ -9966,3 +9966,4 @@
 /usr/bin/sunxi-pio
 /usr/bin/smb4k
 /usr/bin/superkb
+/usr/bin/sscm

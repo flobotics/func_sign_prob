@@ -5260,3 +5260,4 @@ systemd-cron
 stockfish
 snoopy
 superkb
+sigscheme

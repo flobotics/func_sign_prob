@@ -34903,3 +34903,16 @@ Real binaries:['/usr/bin/superkb']
 Write to package-work.txt file: superkb
 Write to package-binaries.txt file: ['/usr/bin/superkb']
 ['/usr/bin/superkb']
+Write pickle file
+tar_out:
+Package-nr:5344 of 11000, Name:sudoku-dbgsym
+Skip package >sudoku<, already in package-all.txt file
+[]
+Package-nr:5345 of 11000, Name:sigscheme-dbgsym
+Package >sigscheme< not in package-all.txt file
+Write to package-all.txt file: sigscheme
+In package >sigscheme< are these binaries: ['/usr/bin/sscm']
+Real binaries:['/usr/bin/sscm']
+Write to package-work.txt file: sigscheme
+Write to package-binaries.txt file: ['/usr/bin/sscm']
+['/usr/bin/sscm']
