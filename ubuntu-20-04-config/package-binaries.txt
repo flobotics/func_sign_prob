@@ -9711,3 +9711,5 @@
 /usr/bin/splat-hd
 /usr/bin/srtm2sdf
 /usr/bin/usgs2sdf
+/usr/bin/sntop
+/usr/bin/swisswatch

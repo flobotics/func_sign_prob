@@ -34422,3 +34422,21 @@ Real binaries:['/usr/bin/bearing', '/usr/bin/citydecoder', '/usr/bin/fontdata', 
 Write to package-work.txt file: splat
 Write to package-binaries.txt file: ['/usr/bin/bearing', '/usr/bin/citydecoder', '/usr/bin/fontdata', '/usr/bin/splat', '/usr/bin/splat-hd', '/usr/bin/srtm2sdf', '/usr/bin/usgs2sdf']
 ['/usr/bin/bearing', '/usr/bin/citydecoder', '/usr/bin/fontdata', '/usr/bin/splat', '/usr/bin/splat-hd', '/usr/bin/srtm2sdf', '/usr/bin/usgs2sdf']
+Write pickle file
+tar_out:
+Package-nr:5287 of 11000, Name:sntop-dbgsym
+Package >sntop< not in package-all.txt file
+Write to package-all.txt file: sntop
+In package >sntop< are these binaries: ['/usr/bin/sntop']
+Real binaries:['/usr/bin/sntop']
+Write to package-work.txt file: sntop
+Write to package-binaries.txt file: ['/usr/bin/sntop']
+['/usr/bin/sntop']
+Package-nr:5288 of 11000, Name:swisswatch-dbgsym
+Package >swisswatch< not in package-all.txt file
+Write to package-all.txt file: swisswatch
+In package >swisswatch< are these binaries: ['/usr/bin/swisswatch']
+Real binaries:['/usr/bin/swisswatch']
+Write to package-work.txt file: swisswatch
+Write to package-binaries.txt file: ['/usr/bin/swisswatch']
+['/usr/bin/swisswatch']
