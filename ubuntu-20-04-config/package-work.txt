@@ -3046,3 +3046,5 @@ nauty
 daxctl
 ncbi-seg
 numad
+netsend
+nageru
