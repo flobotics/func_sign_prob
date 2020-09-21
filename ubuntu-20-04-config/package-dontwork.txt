@@ -1471,3 +1471,5 @@ python3-urwid
 user-manager
 uim-chewing
 unity-services
+unity-lens-video
+unity-scope-video-remote
