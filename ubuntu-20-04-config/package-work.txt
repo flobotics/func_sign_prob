@@ -3317,3 +3317,4 @@ wildmidi
 wavtool-pl
 wwl
 wabt
+wcalc

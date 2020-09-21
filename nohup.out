@@ -32156,3 +32156,13 @@ Real binaries:['/usr/bin/spectest-interp', '/usr/bin/wasm-decompile', '/usr/bin/
 Write to package-work.txt file: wabt
 Write to package-binaries.txt file: ['/usr/bin/spectest-interp', '/usr/bin/wasm-decompile', '/usr/bin/wasm-interp', '/usr/bin/wasm-objdump', '/usr/bin/wasm-opcodecnt', '/usr/bin/wasm-strip', '/usr/bin/wasm-validate', '/usr/bin/wasm2c', '/usr/bin/wasm2wat', '/usr/bin/wast2json', '/usr/bin/wat-desugar', '/usr/bin/wat2wasm']
 ['/usr/bin/spectest-interp', '/usr/bin/wasm-decompile', '/usr/bin/wasm-interp', '/usr/bin/wasm-objdump', '/usr/bin/wasm-opcodecnt', '/usr/bin/wasm-strip', '/usr/bin/wasm-validate', '/usr/bin/wasm2c', '/usr/bin/wasm2wat', '/usr/bin/wast2json', '/usr/bin/wat-desugar', '/usr/bin/wat2wasm']
+Write pickle file
+tar_out:
+Package-nr:5024 of 11000, Name:wcalc-dbgsym
+Package >wcalc< not in package-all.txt file
+Write to package-all.txt file: wcalc
+In package >wcalc< are these binaries: ['/usr/bin/wcalc']
+Real binaries:['/usr/bin/wcalc']
+Write to package-work.txt file: wcalc
+Write to package-binaries.txt file: ['/usr/bin/wcalc']
+['/usr/bin/wcalc']

@@ -4965,3 +4965,4 @@ west-chamber-common
 wavtool-pl
 wwl
 wabt
+wcalc
