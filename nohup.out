@@ -34314,3 +34314,13 @@ Real binaries:['/usr/bin/setBfree', '/usr/bin/setBfreeUI', '/usr/bin/x42-whirl']
 Write to package-work.txt file: setbfree
 Write to package-binaries.txt file: ['/usr/bin/setBfree', '/usr/bin/setBfreeUI', '/usr/bin/x42-whirl']
 ['/usr/bin/setBfree', '/usr/bin/setBfreeUI', '/usr/bin/x42-whirl']
+Write pickle file
+tar_out:
+Package-nr:5276 of 11000, Name:sdlbrt-dbgsym
+Package >sdlbrt< not in package-all.txt file
+Write to package-all.txt file: sdlbrt
+In package >sdlbrt< are these binaries: ['/usr/bin/sdlBrt']
+Real binaries:['/usr/bin/sdlBrt']
+Write to package-work.txt file: sdlbrt
+Write to package-binaries.txt file: ['/usr/bin/sdlBrt']
+['/usr/bin/sdlBrt']

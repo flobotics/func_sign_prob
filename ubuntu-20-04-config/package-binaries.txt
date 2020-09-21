@@ -9663,3 +9663,4 @@
 /usr/bin/setBfree
 /usr/bin/setBfreeUI
 /usr/bin/x42-whirl
+/usr/bin/sdlBrt
