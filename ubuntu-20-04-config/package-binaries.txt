@@ -8793,3 +8793,5 @@
 /usr/bin/arc-job-cgroup
 /usr/sbin/gridftpd
 /usr/sbin/arched
+/usr/bin/arcplugin
+/usr/bin/wsdl2hed
