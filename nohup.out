@@ -32327,3 +32327,13 @@ Real binaries:['/usr/bin/wxcopy', '/usr/bin/wxpaste']
 Write to package-work.txt file: wmaker-utils
 Write to package-binaries.txt file: ['/usr/bin/wxcopy', '/usr/bin/wxpaste']
 ['/usr/bin/wxcopy', '/usr/bin/wxpaste']
+Write pickle file
+tar_out:
+Package-nr:5044 of 11000, Name:wmanager-dbgsym
+Package >wmanager< not in package-all.txt file
+Write to package-all.txt file: wmanager
+In package >wmanager< are these binaries: ['/usr/bin/wmanager', '/usr/bin/wmanager-loop', '/usr/bin/wmanagerrc-update']
+Real binaries:['/usr/bin/wmanager']
+Write to package-work.txt file: wmanager
+Write to package-binaries.txt file: ['/usr/bin/wmanager']
+['/usr/bin/wmanager']

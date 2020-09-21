@@ -4983,3 +4983,4 @@ whowatch
 wham-align
 wmaker
 wmaker-utils
+wmanager

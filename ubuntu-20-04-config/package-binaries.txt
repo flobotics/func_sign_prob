@@ -9365,3 +9365,4 @@
 /usr/bin/wmsetbg
 /usr/bin/wxcopy
 /usr/bin/wxpaste
+/usr/bin/wmanager
