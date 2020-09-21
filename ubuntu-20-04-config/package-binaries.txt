@@ -8599,3 +8599,5 @@
 /usr/bin/mh/whom
 /usr/bin/nitrogen
 /usr/bin/nwrite
+/usr/bin/netwox
+/usr/sbin/rpc.rwalld

@@ -28491,3 +28491,28 @@ Real binaries:['/usr/bin/nwrite']
 Write to package-work.txt file: nwrite
 Write to package-binaries.txt file: ['/usr/bin/nwrite']
 ['/usr/bin/nwrite']
+Write pickle file
+tar_out:
+Package-nr:4600 of 11000, Name:netwox-dbgsym
+Package >netwox< not in package-all.txt file
+Write to package-all.txt file: netwox
+In package >netwox< are these binaries: ['/usr/bin/netwox']
+Real binaries:['/usr/bin/netwox']
+Write to package-work.txt file: netwox
+Write to package-binaries.txt file: ['/usr/bin/netwox']
+['/usr/bin/netwox']
+Package-nr:4601 of 11000, Name:ninvaders-dbgsym
+Package >ninvaders< not in package-all.txt file
+Write to package-all.txt file: ninvaders
+In package >ninvaders< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: ninvaders
+[]
+Package-nr:4602 of 11000, Name:rwalld-dbgsym
+Package >rwalld< not in package-all.txt file
+Write to package-all.txt file: rwalld
+In package >rwalld< are these binaries: ['/usr/sbin/rpc.rwalld']
+Real binaries:['/usr/sbin/rpc.rwalld']
+Write to package-work.txt file: rwalld
+Write to package-binaries.txt file: ['/usr/sbin/rpc.rwalld']
+['/usr/sbin/rpc.rwalld']

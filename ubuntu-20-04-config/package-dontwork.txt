@@ -1543,3 +1543,4 @@ nfs-ganesha-mem
 network-manager-openconnect-gnome
 noiz2sa
 python3-netgen
+ninvaders
