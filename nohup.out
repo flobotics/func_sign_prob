@@ -30936,3 +30936,13 @@ Real binaries:['/usr/bin/numbers2ods']
 Write to package-work.txt file: numbers2ods
 Write to package-binaries.txt file: ['/usr/bin/numbers2ods']
 ['/usr/bin/numbers2ods']
+Write pickle file
+tar_out:
+Package-nr:4887 of 11000, Name:zmf2odg-dbgsym
+Package >zmf2odg< not in package-all.txt file
+Write to package-all.txt file: zmf2odg
+In package >zmf2odg< are these binaries: ['/usr/bin/zmf2odg']
+Real binaries:['/usr/bin/zmf2odg']
+Write to package-work.txt file: zmf2odg
+Write to package-binaries.txt file: ['/usr/bin/zmf2odg']
+['/usr/bin/zmf2odg']

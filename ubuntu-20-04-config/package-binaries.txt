@@ -9091,3 +9091,4 @@
 /usr/bin/zmf2epub
 /usr/bin/key2odp
 /usr/bin/numbers2ods
+/usr/bin/zmf2odg

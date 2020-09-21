@@ -3214,3 +3214,4 @@ cdr2odg
 zmf2epub
 key2odp
 numbers2ods
+zmf2odg
