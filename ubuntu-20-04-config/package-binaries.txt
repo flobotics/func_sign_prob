@@ -8598,3 +8598,4 @@
 /usr/bin/mh/whatnow
 /usr/bin/mh/whom
 /usr/bin/nitrogen
+/usr/bin/nwrite
