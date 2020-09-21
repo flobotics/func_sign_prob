@@ -8998,3 +8998,4 @@
 /usr/bin/rpki-rov
 /usr/bin/rtrclient
 /usr/bin/ratbagd
+/usr/bin/lur-command

@@ -30481,3 +30481,13 @@ Real binaries:['/usr/bin/ratbagd']
 Write to package-work.txt file: ratbagd
 Write to package-binaries.txt file: ['/usr/bin/ratbagd']
 ['/usr/bin/ratbagd']
+Write pickle file
+tar_out:
+Package-nr:4839 of 11000, Name:lur-command-dbgsym
+Package >lur-command< not in package-all.txt file
+Write to package-all.txt file: lur-command
+In package >lur-command< are these binaries: ['/usr/bin/lur-command']
+Real binaries:['/usr/bin/lur-command']
+Write to package-work.txt file: lur-command
+Write to package-binaries.txt file: ['/usr/bin/lur-command']
+['/usr/bin/lur-command']
