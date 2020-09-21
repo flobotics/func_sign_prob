@@ -8223,3 +8223,4 @@
 /usr/bin/tcprules
 /usr/bin/tcprulescheck
 /usr/bin/tcpserver
+/usr/bin/unhtml

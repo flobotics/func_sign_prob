@@ -26184,3 +26184,21 @@ Real binaries:['/usr/bin/addcr', '/usr/bin/argv0', '/usr/bin/delcr', '/usr/bin/f
 Write to package-work.txt file: ucspi-tcp
 Write to package-binaries.txt file: ['/usr/bin/addcr', '/usr/bin/argv0', '/usr/bin/delcr', '/usr/bin/fixcrio', '/usr/bin/mconnect-io', '/usr/bin/rblsmtpd', '/usr/bin/recordio', '/usr/bin/tcpclient', '/usr/bin/tcprules', '/usr/bin/tcprulescheck', '/usr/bin/tcpserver']
 ['/usr/bin/addcr', '/usr/bin/argv0', '/usr/bin/delcr', '/usr/bin/fixcrio', '/usr/bin/mconnect-io', '/usr/bin/rblsmtpd', '/usr/bin/recordio', '/usr/bin/tcpclient', '/usr/bin/tcprules', '/usr/bin/tcprulescheck', '/usr/bin/tcpserver']
+Write pickle file
+tar_out:
+Package-nr:4323 of 11000, Name:ucspi-tcp-ipv6-dbgsym
+Package >ucspi-tcp-ipv6< not in package-all.txt file
+Write to package-all.txt file: ucspi-tcp-ipv6
+In package >ucspi-tcp-ipv6< are these binaries: ['/usr/bin/addcr', '/usr/bin/argv0', '/usr/bin/date@', '/usr/bin/delcr', '/usr/bin/finger@', '/usr/bin/fixcrio', '/usr/bin/http@', '/usr/bin/mconnect', '/usr/bin/mconnect-io', '/usr/bin/rblsmtpd', '/usr/bin/recordio', '/usr/bin/tcpcat', '/usr/bin/tcpclient', '/usr/bin/tcprules', '/usr/bin/tcprulescheck', '/usr/bin/tcpserver', '/usr/bin/who@']
+Real binaries:['/usr/bin/addcr', '/usr/bin/argv0', '/usr/bin/delcr', '/usr/bin/fixcrio', '/usr/bin/mconnect-io', '/usr/bin/rblsmtpd', '/usr/bin/recordio', '/usr/bin/tcpclient', '/usr/bin/tcprules', '/usr/bin/tcprulescheck', '/usr/bin/tcpserver']
+Write to package-work.txt file: ucspi-tcp-ipv6
+No binaries to write to package-binaries.txt file
+[]
+Package-nr:4324 of 11000, Name:unhtml-dbgsym
+Package >unhtml< not in package-all.txt file
+Write to package-all.txt file: unhtml
+In package >unhtml< are these binaries: ['/usr/bin/unhtml']
+Real binaries:['/usr/bin/unhtml']
+Write to package-work.txt file: unhtml
+Write to package-binaries.txt file: ['/usr/bin/unhtml']
+['/usr/bin/unhtml']
