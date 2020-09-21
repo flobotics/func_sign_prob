@@ -2856,3 +2856,4 @@ unrtf
 udns-utils
 unmo3
 uftrace
+ukui-control-center

@@ -8229,3 +8229,5 @@
 /usr/bin/rblcheck
 /usr/bin/unmo3
 /usr/bin/uftrace
+/usr/bin/launchSysDbus
+/usr/bin/ukui-control-center
