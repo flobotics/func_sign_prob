@@ -8271,3 +8271,4 @@
 /usr/bin/ubuntu-kylin-wizard
 /usr/bin/ukui-flash-disk
 /usr/bin/ukui-panel
+/usr/bin/uncrustify

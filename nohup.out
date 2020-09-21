@@ -26525,3 +26525,13 @@ Real binaries:['/usr/bin/ukui-flash-disk', '/usr/bin/ukui-panel']
 Write to package-work.txt file: ukui-panel
 Write to package-binaries.txt file: ['/usr/bin/ukui-flash-disk', '/usr/bin/ukui-panel']
 ['/usr/bin/ukui-flash-disk', '/usr/bin/ukui-panel']
+Write pickle file
+tar_out:
+Package-nr:4361 of 11000, Name:uncrustify-dbgsym
+Package >uncrustify< not in package-all.txt file
+Write to package-all.txt file: uncrustify
+In package >uncrustify< are these binaries: ['/usr/bin/uncrustify']
+Real binaries:['/usr/bin/uncrustify']
+Write to package-work.txt file: uncrustify
+Write to package-binaries.txt file: ['/usr/bin/uncrustify']
+['/usr/bin/uncrustify']
