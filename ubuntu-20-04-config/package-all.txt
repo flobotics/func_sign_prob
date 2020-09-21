@@ -4905,3 +4905,4 @@ wesnoth-1.14-server
 wmfrog
 waybar
 weston
+wmcpu
