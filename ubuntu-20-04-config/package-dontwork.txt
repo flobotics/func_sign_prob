@@ -1554,3 +1554,4 @@ nudoku
 notify-osd
 nemo-python
 nautilus-wipe
+naspro-bridges

@@ -29019,3 +29019,36 @@ Real binaries:['/usr/bin/ncftp3', '/usr/bin/ncftpbatch', '/usr/bin/ncftpbookmark
 Write to package-work.txt file: ncftp
 Write to package-binaries.txt file: ['/usr/bin/ncftp3', '/usr/bin/ncftpbatch', '/usr/bin/ncftpbookmarks', '/usr/bin/ncftpget', '/usr/bin/ncftpls', '/usr/bin/ncftpput', '/usr/bin/ncftpspooler']
 ['/usr/bin/ncftp3', '/usr/bin/ncftpbatch', '/usr/bin/ncftpbookmarks', '/usr/bin/ncftpget', '/usr/bin/ncftpls', '/usr/bin/ncftpput', '/usr/bin/ncftpspooler']
+Write pickle file
+tar_out:
+Package-nr:4660 of 11000, Name:nailgun-dbgsym
+Package >nailgun< not in package-all.txt file
+Write to package-all.txt file: nailgun
+In package >nailgun< are these binaries: ['/usr/bin/ng-nailgun']
+Real binaries:['/usr/bin/ng-nailgun']
+Write to package-work.txt file: nailgun
+Write to package-binaries.txt file: ['/usr/bin/ng-nailgun']
+['/usr/bin/ng-nailgun']
+Package-nr:4661 of 11000, Name:nvme-cli-dbgsym
+Package >nvme-cli< not in package-all.txt file
+Write to package-all.txt file: nvme-cli
+In package >nvme-cli< are these binaries: ['/usr/sbin/nvme']
+Real binaries:['/usr/sbin/nvme']
+Write to package-work.txt file: nvme-cli
+Write to package-binaries.txt file: ['/usr/sbin/nvme']
+['/usr/sbin/nvme']
+Package-nr:4662 of 11000, Name:naspro-bridges-dbgsym
+Package >naspro-bridges< not in package-all.txt file
+Write to package-all.txt file: naspro-bridges
+In package >naspro-bridges< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: naspro-bridges
+[]
+Package-nr:4663 of 11000, Name:netdiag-dbgsym
+Package >netdiag< not in package-all.txt file
+Write to package-all.txt file: netdiag
+In package >netdiag< are these binaries: ['/usr/bin/checkint', '/usr/bin/netload', '/usr/bin/statnet', '/usr/bin/tcpspray', '/usr/sbin/netwatch', '/usr/sbin/statnetd', '/usr/sbin/tcpblast', '/usr/sbin/trafshow', '/usr/sbin/udpblast']
+Real binaries:['/usr/bin/netload', '/usr/bin/statnet', '/usr/bin/tcpspray', '/usr/sbin/netwatch', '/usr/sbin/statnetd', '/usr/sbin/tcpblast', '/usr/sbin/trafshow']
+Write to package-work.txt file: netdiag
+Write to package-binaries.txt file: ['/usr/bin/netload', '/usr/bin/statnet', '/usr/bin/tcpspray', '/usr/sbin/netwatch', '/usr/sbin/statnetd', '/usr/sbin/tcpblast', '/usr/sbin/trafshow']
+['/usr/bin/netload', '/usr/bin/statnet', '/usr/bin/tcpspray', '/usr/sbin/netwatch', '/usr/sbin/statnetd', '/usr/sbin/tcpblast', '/usr/sbin/trafshow']

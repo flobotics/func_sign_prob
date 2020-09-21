@@ -4629,3 +4629,7 @@ nm-tray
 nautilus-wipe
 nabi
 ncftp
+nailgun
+nvme-cli
+naspro-bridges
+netdiag

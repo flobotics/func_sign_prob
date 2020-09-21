@@ -8753,3 +8753,12 @@
 /usr/bin/ncftpls
 /usr/bin/ncftpput
 /usr/bin/ncftpspooler
+/usr/bin/ng-nailgun
+/usr/sbin/nvme
+/usr/bin/netload
+/usr/bin/statnet
+/usr/bin/tcpspray
+/usr/sbin/netwatch
+/usr/sbin/statnetd
+/usr/sbin/tcpblast
+/usr/sbin/trafshow

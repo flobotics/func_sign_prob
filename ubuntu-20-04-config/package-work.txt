@@ -3070,3 +3070,6 @@ netdiscover
 nm-tray
 nabi
 ncftp
+nailgun
+nvme-cli
+netdiag
