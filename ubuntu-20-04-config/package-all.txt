@@ -5047,3 +5047,4 @@ whitedb
 python3-libnatpmp
 natpmpc
 ncl-tools
+neo4j-client
