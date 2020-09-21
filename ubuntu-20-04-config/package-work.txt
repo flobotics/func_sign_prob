@@ -3464,3 +3464,4 @@ silversearcher-ag
 smemstat
 ssdeep
 seqtk
+squizz
