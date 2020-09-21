@@ -4432,3 +4432,4 @@ ukui-polkit
 urjtag
 ukui-screensaver
 usermode
+ucommon-utils

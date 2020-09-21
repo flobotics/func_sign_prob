@@ -8374,3 +8374,12 @@
 /usr/bin/usermount
 /usr/bin/userpasswd
 /usr/sbin/userhelper
+/usr/bin/args
+/usr/bin/car
+/usr/bin/keywait
+/usr/bin/mdsum
+/usr/bin/pdetach
+/usr/bin/scrub-files
+/usr/bin/sockaddr
+/usr/bin/urlout
+/usr/bin/zerofill

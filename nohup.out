@@ -27147,3 +27147,13 @@ Real binaries:['/usr/bin/consolehelper', '/usr/bin/consolehelper-gtk', '/usr/bin
 Write to package-work.txt file: usermode
 Write to package-binaries.txt file: ['/usr/bin/consolehelper', '/usr/bin/consolehelper-gtk', '/usr/bin/userinfo', '/usr/bin/usermount', '/usr/bin/userpasswd', '/usr/sbin/userhelper']
 ['/usr/bin/consolehelper', '/usr/bin/consolehelper-gtk', '/usr/bin/userinfo', '/usr/bin/usermount', '/usr/bin/userpasswd', '/usr/sbin/userhelper']
+Write pickle file
+tar_out:
+Package-nr:4435 of 11000, Name:ucommon-utils-dbgsym
+Package >ucommon-utils< not in package-all.txt file
+Write to package-all.txt file: ucommon-utils
+In package >ucommon-utils< are these binaries: ['/usr/bin/args', '/usr/bin/car', '/usr/bin/keywait', '/usr/bin/mdsum', '/usr/bin/pdetach', '/usr/bin/scrub-files', '/usr/bin/sockaddr', '/usr/bin/urlout', '/usr/bin/zerofill']
+Real binaries:['/usr/bin/args', '/usr/bin/car', '/usr/bin/keywait', '/usr/bin/mdsum', '/usr/bin/pdetach', '/usr/bin/scrub-files', '/usr/bin/sockaddr', '/usr/bin/urlout', '/usr/bin/zerofill']
+Write to package-work.txt file: ucommon-utils
+Write to package-binaries.txt file: ['/usr/bin/args', '/usr/bin/car', '/usr/bin/keywait', '/usr/bin/mdsum', '/usr/bin/pdetach', '/usr/bin/scrub-files', '/usr/bin/sockaddr', '/usr/bin/urlout', '/usr/bin/zerofill']
+['/usr/bin/args', '/usr/bin/car', '/usr/bin/keywait', '/usr/bin/mdsum', '/usr/bin/pdetach', '/usr/bin/scrub-files', '/usr/bin/sockaddr', '/usr/bin/urlout', '/usr/bin/zerofill']
