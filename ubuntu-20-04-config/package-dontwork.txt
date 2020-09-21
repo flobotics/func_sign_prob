@@ -1592,3 +1592,4 @@ newt-tcl
 node-ws
 network-manager-l2tp
 network-manager-l2tp-gnome
+njam

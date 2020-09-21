@@ -4730,3 +4730,5 @@ telnet-ssl
 network-manager-l2tp
 network-manager-l2tp-gnome
 numdiff
+njam
+npd6

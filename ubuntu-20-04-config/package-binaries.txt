@@ -8910,3 +8910,4 @@
 /usr/bin/telnet-ssl
 /usr/bin/ndselect
 /usr/bin/numdiff
+/usr/bin/npd6
