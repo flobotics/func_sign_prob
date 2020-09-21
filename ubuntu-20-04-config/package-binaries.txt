@@ -7791,3 +7791,4 @@
 /usr/bin/varnishtest
 /usr/bin/varnishtop
 /usr/sbin/varnishd
+/usr/bin/vgrabbj
