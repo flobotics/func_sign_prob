@@ -3177,3 +3177,4 @@ lur-command
 rasterlite2-bin
 amqp-tools
 cgroup-tools
+cypher-lint

@@ -9019,3 +9019,4 @@
 /usr/sbin/cgclear
 /usr/sbin/cgconfigparser
 /usr/sbin/cgrulesengd
+/usr/bin/cypher-lint
