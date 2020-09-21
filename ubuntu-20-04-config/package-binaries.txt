@@ -9896,3 +9896,4 @@
 /usr/bin/stexec
 /usr/bin/stshell
 /usr/bin/simavr
+/usr/bin/schismtracker
