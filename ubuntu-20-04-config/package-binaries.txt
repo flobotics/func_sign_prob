@@ -9321,3 +9321,4 @@
 /usr/bin/win
 /usr/bin/wreplace
 /usr/bin/wav2cdr
+/usr/bin/wmbattery
