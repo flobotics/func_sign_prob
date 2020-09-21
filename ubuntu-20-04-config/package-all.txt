@@ -4402,3 +4402,8 @@ ubertooth
 uucp
 python3-ukui-menu
 upx-ucl
+umview-mod-umlwip
+umview-mod-umdevtap
+umview-mod-viewfs
+uapevent
+unworkable

@@ -1496,3 +1496,6 @@ udisks2-lvm2
 unity-scope-home
 ucimf-sunpinyin
 python3-ukui-menu
+umview-mod-umlwip
+umview-mod-umdevtap
+umview-mod-viewfs

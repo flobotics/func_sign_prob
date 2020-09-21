@@ -26879,3 +26879,45 @@ Real binaries:['/usr/bin/upx-ucl']
 Write to package-work.txt file: upx-ucl
 Write to package-binaries.txt file: ['/usr/bin/upx-ucl']
 ['/usr/bin/upx-ucl']
+Write pickle file
+tar_out:
+Package-nr:4403 of 11000, Name:umview-dbgsym
+Skip package >umview<, already in package-all.txt file
+[]
+Package-nr:4404 of 11000, Name:umview-mod-umlwip-dbgsym
+Package >umview-mod-umlwip< not in package-all.txt file
+Write to package-all.txt file: umview-mod-umlwip
+In package >umview-mod-umlwip< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: umview-mod-umlwip
+[]
+Package-nr:4405 of 11000, Name:umview-mod-umdevtap-dbgsym
+Package >umview-mod-umdevtap< not in package-all.txt file
+Write to package-all.txt file: umview-mod-umdevtap
+In package >umview-mod-umdevtap< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: umview-mod-umdevtap
+[]
+Package-nr:4406 of 11000, Name:umview-mod-viewfs-dbgsym
+Package >umview-mod-viewfs< not in package-all.txt file
+Write to package-all.txt file: umview-mod-viewfs
+In package >umview-mod-viewfs< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: umview-mod-viewfs
+[]
+Package-nr:4407 of 11000, Name:uapevent-dbgsym
+Package >uapevent< not in package-all.txt file
+Write to package-all.txt file: uapevent
+In package >uapevent< are these binaries: ['/usr/bin/uapevent']
+Real binaries:['/usr/bin/uapevent']
+Write to package-work.txt file: uapevent
+Write to package-binaries.txt file: ['/usr/bin/uapevent']
+['/usr/bin/uapevent']
+Package-nr:4408 of 11000, Name:unworkable-dbgsym
+Package >unworkable< not in package-all.txt file
+Write to package-all.txt file: unworkable
+In package >unworkable< are these binaries: ['/usr/bin/unworkable']
+Real binaries:['/usr/bin/unworkable']
+Write to package-work.txt file: unworkable
+Write to package-binaries.txt file: ['/usr/bin/unworkable']
+['/usr/bin/unworkable']

@@ -8328,3 +8328,5 @@
 /usr/sbin/uurate
 /usr/sbin/uuxqt
 /usr/bin/upx-ucl
+/usr/bin/uapevent
+/usr/bin/unworkable
