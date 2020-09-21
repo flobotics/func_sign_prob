@@ -34544,3 +34544,13 @@ Real binaries:['/usr/sbin/sniproxy']
 Write to package-work.txt file: sniproxy
 Write to package-binaries.txt file: ['/usr/sbin/sniproxy']
 ['/usr/sbin/sniproxy']
+Write pickle file
+tar_out:
+Package-nr:5300 of 11000, Name:stoken-dbgsym
+Package >stoken< not in package-all.txt file
+Write to package-all.txt file: stoken
+In package >stoken< are these binaries: ['/usr/bin/stoken', '/usr/bin/stoken-gui']
+Real binaries:['/usr/bin/stoken', '/usr/bin/stoken-gui']
+Write to package-work.txt file: stoken
+Write to package-binaries.txt file: ['/usr/bin/stoken', '/usr/bin/stoken-gui']
+['/usr/bin/stoken', '/usr/bin/stoken-gui']
