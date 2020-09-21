@@ -9645,3 +9645,4 @@
 /usr/bin/seqtk
 /usr/bin/squizz
 /usr/bin/sound-juicer
+/usr/bin/qshutdown

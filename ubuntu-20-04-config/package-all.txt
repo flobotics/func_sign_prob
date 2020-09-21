@@ -5184,3 +5184,4 @@ seqtk
 squizz
 gtk2-engines-sugar
 sound-juicer
+qshutdown

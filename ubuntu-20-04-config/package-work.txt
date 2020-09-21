@@ -3466,3 +3466,4 @@ ssdeep
 seqtk
 squizz
 sound-juicer
+qshutdown

@@ -34175,3 +34175,13 @@ Real binaries:['/usr/bin/sound-juicer']
 Write to package-work.txt file: sound-juicer
 Write to package-binaries.txt file: ['/usr/bin/sound-juicer']
 ['/usr/bin/sound-juicer']
+Write pickle file
+tar_out:
+Package-nr:5260 of 11000, Name:qshutdown-dbgsym
+Package >qshutdown< not in package-all.txt file
+Write to package-all.txt file: qshutdown
+In package >qshutdown< are these binaries: ['/usr/bin/qshutdown']
+Real binaries:['/usr/bin/qshutdown']
+Write to package-work.txt file: qshutdown
+Write to package-binaries.txt file: ['/usr/bin/qshutdown']
+['/usr/bin/qshutdown']
