@@ -4977,3 +4977,4 @@ wmsysmon
 uniconf-tools
 uniconfd
 wmsun
+wmnd
