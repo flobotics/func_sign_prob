@@ -9265,3 +9265,4 @@
 /usr/bin/wxHexEditor
 /usr/bin/wm2
 /usr/bin/wuzzah
+/usr/bin/wmfsm
