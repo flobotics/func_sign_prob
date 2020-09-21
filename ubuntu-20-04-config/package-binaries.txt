@@ -7907,3 +7907,16 @@
 /usr/bin/dvbv5-scan
 /usr/bin/dvbv5-zap
 /usr/bin/ir-keytable
+/usr/bin/cec-compliance
+/usr/bin/cec-ctl
+/usr/bin/cec-follower
+/usr/bin/cx18-ctl
+/usr/bin/decode_tm6000
+/usr/bin/ir-ctl
+/usr/bin/ivtv-ctl
+/usr/bin/media-ctl
+/usr/bin/rds-ctl
+/usr/bin/v4l2-compliance
+/usr/bin/v4l2-ctl
+/usr/bin/v4l2-sysfs-path
+/usr/sbin/v4l2-dbg
