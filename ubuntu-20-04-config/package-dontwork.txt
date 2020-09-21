@@ -1711,3 +1711,4 @@ scim-canna
 stax
 scim-skk
 spacearyarya
+scim-kmfl-imengine

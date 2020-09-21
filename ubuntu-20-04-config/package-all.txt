@@ -5179,3 +5179,5 @@ salmon
 silversearcher-ag
 smemstat
 ssdeep
+scim-kmfl-imengine
+seqtk

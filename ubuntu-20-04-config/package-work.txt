@@ -3463,3 +3463,4 @@ salmon
 silversearcher-ag
 smemstat
 ssdeep
+seqtk

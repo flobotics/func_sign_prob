@@ -9642,3 +9642,4 @@
 /usr/bin/ag
 /usr/bin/smemstat
 /usr/bin/ssdeep
+/usr/bin/seqtk

@@ -34131,3 +34131,20 @@ Real binaries:['/usr/bin/ssdeep']
 Write to package-work.txt file: ssdeep
 Write to package-binaries.txt file: ['/usr/bin/ssdeep']
 ['/usr/bin/ssdeep']
+Write pickle file
+tar_out:
+Package-nr:5255 of 11000, Name:scim-kmfl-imengine-dbgsym
+Package >scim-kmfl-imengine< not in package-all.txt file
+Write to package-all.txt file: scim-kmfl-imengine
+In package >scim-kmfl-imengine< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: scim-kmfl-imengine
+[]
+Package-nr:5256 of 11000, Name:seqtk-dbgsym
+Package >seqtk< not in package-all.txt file
+Write to package-all.txt file: seqtk
+In package >seqtk< are these binaries: ['/usr/bin/seqtk']
+Real binaries:['/usr/bin/seqtk']
+Write to package-work.txt file: seqtk
+Write to package-binaries.txt file: ['/usr/bin/seqtk']
+['/usr/bin/seqtk']
