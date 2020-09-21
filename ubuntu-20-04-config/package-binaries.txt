@@ -7843,3 +7843,4 @@
 /usr/bin/vflserver
 /usr/bin/vfltest
 /usr/bin/vflx11
+/usr/bin/vdetelweb

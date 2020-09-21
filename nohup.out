@@ -24197,3 +24197,13 @@ Real binaries:['/usr/bin/ctext2pgm', '/usr/bin/hyakubm', '/usr/bin/hyakux11', '/
 Write to package-work.txt file: vflib3-bin
 Write to package-binaries.txt file: ['/usr/bin/ctext2pgm', '/usr/bin/hyakubm', '/usr/bin/hyakux11', '/usr/bin/vfl2bdf', '/usr/bin/vflbanner', '/usr/bin/vfldisol', '/usr/bin/vfldrvs', '/usr/bin/vflmkajt', '/usr/bin/vflmkekan', '/usr/bin/vflmkgf', '/usr/bin/vflmkjpc', '/usr/bin/vflmkpcf', '/usr/bin/vflmkpk', '/usr/bin/vflmkt1', '/usr/bin/vflmktex', '/usr/bin/vflmktfm', '/usr/bin/vflmkttf', '/usr/bin/vflmkvf', '/usr/bin/vflmkvfl', '/usr/bin/vflpp', '/usr/bin/vflserver', '/usr/bin/vfltest', '/usr/bin/vflx11']
 ['/usr/bin/ctext2pgm', '/usr/bin/hyakubm', '/usr/bin/hyakux11', '/usr/bin/vfl2bdf', '/usr/bin/vflbanner', '/usr/bin/vfldisol', '/usr/bin/vfldrvs', '/usr/bin/vflmkajt', '/usr/bin/vflmkekan', '/usr/bin/vflmkgf', '/usr/bin/vflmkjpc', '/usr/bin/vflmkpcf', '/usr/bin/vflmkpk', '/usr/bin/vflmkt1', '/usr/bin/vflmktex', '/usr/bin/vflmktfm', '/usr/bin/vflmkttf', '/usr/bin/vflmkvf', '/usr/bin/vflmkvfl', '/usr/bin/vflpp', '/usr/bin/vflserver', '/usr/bin/vfltest', '/usr/bin/vflx11']
+Write pickle file
+tar_out:
+Package-nr:4097 of 11000, Name:vdetelweb-dbgsym
+Package >vdetelweb< not in package-all.txt file
+Write to package-all.txt file: vdetelweb
+In package >vdetelweb< are these binaries: ['/usr/bin/vdetelweb']
+Real binaries:['/usr/bin/vdetelweb']
+Write to package-work.txt file: vdetelweb
+Write to package-binaries.txt file: ['/usr/bin/vdetelweb']
+['/usr/bin/vdetelweb']

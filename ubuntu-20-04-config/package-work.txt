@@ -2689,3 +2689,4 @@ vtable-dumper
 vulkan-tools
 virgl-server
 vflib3-bin
+vdetelweb
