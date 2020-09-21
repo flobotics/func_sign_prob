@@ -9316,3 +9316,7 @@
 /usr/bin/whichman
 /usr/bin/wmweather+
 /usr/bin/wmmixer
+/usr/bin/wgoto
+/usr/bin/wily
+/usr/bin/win
+/usr/bin/wreplace
