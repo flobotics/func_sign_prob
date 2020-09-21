@@ -3285,3 +3285,4 @@ wmfsm
 wcslib-tools
 w-scan
 wbar-config
+wcd
