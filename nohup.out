@@ -24349,3 +24349,20 @@ Real binaries:['/usr/bin/dicomdump', '/usr/bin/dicomfind', '/usr/bin/dicompull',
 Write to package-work.txt file: vtk-dicom-tools
 Write to package-binaries.txt file: ['/usr/bin/dicomdump', '/usr/bin/dicomfind', '/usr/bin/dicompull', '/usr/bin/dicomtocsv', '/usr/bin/dicomtodicom', '/usr/bin/dicomtonifti', '/usr/bin/niftidump', '/usr/bin/niftitodicom', '/usr/bin/scancodump', '/usr/bin/scancotodicom']
 ['/usr/bin/dicomdump', '/usr/bin/dicomfind', '/usr/bin/dicompull', '/usr/bin/dicomtocsv', '/usr/bin/dicomtodicom', '/usr/bin/dicomtonifti', '/usr/bin/niftidump', '/usr/bin/niftitodicom', '/usr/bin/scancodump', '/usr/bin/scancotodicom']
+Write pickle file
+tar_out:
+Package-nr:4115 of 11000, Name:python3-vtk-dicom-dbgsym
+Package >python3-vtk-dicom< not in package-all.txt file
+Write to package-all.txt file: python3-vtk-dicom
+In package >python3-vtk-dicom< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: python3-vtk-dicom
+[]
+Package-nr:4116 of 11000, Name:vtprint-dbgsym
+Package >vtprint< not in package-all.txt file
+Write to package-all.txt file: vtprint
+In package >vtprint< are these binaries: ['/usr/bin/vtprint', '/usr/bin/vtprtoff', '/usr/bin/vtprton']
+Real binaries:['/usr/bin/vtprint']
+Write to package-work.txt file: vtprint
+Write to package-binaries.txt file: ['/usr/bin/vtprint']
+['/usr/bin/vtprint']

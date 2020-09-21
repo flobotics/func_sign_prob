@@ -2703,3 +2703,4 @@ virtuoso-opensource-6.1-common
 virtuoso-opensource-6.1-bin
 vrfy
 vtk-dicom-tools
+vtprint
