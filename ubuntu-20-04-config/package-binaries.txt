@@ -9097,3 +9097,4 @@
 /usr/bin/qxp2epub
 /usr/bin/pages2odt
 /usr/bin/ebook2odt
+/usr/bin/abw2odt

@@ -30996,3 +30996,13 @@ Real binaries:['/usr/bin/ebook2odt']
 Write to package-work.txt file: ebook2odt
 Write to package-binaries.txt file: ['/usr/bin/ebook2odt']
 ['/usr/bin/ebook2odt']
+Write pickle file
+tar_out:
+Package-nr:4893 of 11000, Name:abw2odt-dbgsym
+Package >abw2odt< not in package-all.txt file
+Write to package-all.txt file: abw2odt
+In package >abw2odt< are these binaries: ['/usr/bin/abw2odt']
+Real binaries:['/usr/bin/abw2odt']
+Write to package-work.txt file: abw2odt
+Write to package-binaries.txt file: ['/usr/bin/abw2odt']
+['/usr/bin/abw2odt']
