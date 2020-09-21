@@ -9207,3 +9207,4 @@
 /usr/bin/w90vdw.x
 /usr/bin/wannier90.x
 /usr/bin/wmcalc
+/usr/bin/wmpinboard

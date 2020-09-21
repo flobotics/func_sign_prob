@@ -1624,3 +1624,4 @@ wordnet-gui
 wine64-tools
 wine64-preloader
 postgresql-12-wal2json
+wings3d
