@@ -4968,3 +4968,6 @@ wabt
 wcalc
 wmforkplop
 wmitime
+php-wikidiff2
+gkrellm-hdplop
+wmhdplop

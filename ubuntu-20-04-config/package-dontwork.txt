@@ -1643,3 +1643,5 @@ w1retap-odbc
 w1retap-mysql
 python3-wreport
 west-chamber-common
+php-wikidiff2
+gkrellm-hdplop
