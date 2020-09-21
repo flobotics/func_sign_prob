@@ -1427,3 +1427,4 @@ vile-filters
 vodovod
 vitetris
 valabind
+verilator

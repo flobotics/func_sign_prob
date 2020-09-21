@@ -4165,3 +4165,5 @@ vmtouch
 voro++
 velvet-long
 vtwm
+verilator
+vacation

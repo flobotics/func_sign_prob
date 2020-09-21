@@ -7954,3 +7954,4 @@
 /usr/bin/velveth_63_long
 /usr/bin/velveth_long
 /usr/bin/vtwm
+/usr/bin/vacation

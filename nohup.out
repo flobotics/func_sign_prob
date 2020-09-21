@@ -24703,3 +24703,20 @@ Real binaries:['/usr/bin/vtwm']
 Write to package-work.txt file: vtwm
 Write to package-binaries.txt file: ['/usr/bin/vtwm']
 ['/usr/bin/vtwm']
+Write pickle file
+tar_out:
+Package-nr:4155 of 11000, Name:verilator-dbgsym
+Package >verilator< not in package-all.txt file
+Write to package-all.txt file: verilator
+In package >verilator< are these binaries: ['/usr/bin/verilator', '/usr/bin/verilator_coverage', '/usr/bin/verilator_gantt', '/usr/bin/verilator_profcfunc', '/usr/share/verilator/bin/verilator_includer']
+Real binaries:[]
+Write to package-dontwork.txt file: verilator
+[]
+Package-nr:4156 of 11000, Name:vacation-dbgsym
+Package >vacation< not in package-all.txt file
+Write to package-all.txt file: vacation
+In package >vacation< are these binaries: ['/usr/bin/vacation']
+Real binaries:['/usr/bin/vacation']
+Write to package-work.txt file: vacation
+Write to package-binaries.txt file: ['/usr/bin/vacation']
+['/usr/bin/vacation']

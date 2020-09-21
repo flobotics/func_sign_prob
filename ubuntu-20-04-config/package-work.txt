@@ -2733,3 +2733,4 @@ vmtouch
 voro++
 velvet-long
 vtwm
+vacation
