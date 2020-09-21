@@ -1580,3 +1580,5 @@ python3-numcodecs
 naev
 node-node-expat
 node-opencv
+notification-daemon
+ninka

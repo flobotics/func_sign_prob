@@ -29559,3 +29559,27 @@ Real binaries:['/usr/bin/Cn3D-3.0']
 Write to package-work.txt file: ncbi-cn3d
 Write to package-binaries.txt file: ['/usr/bin/Cn3D-3.0']
 ['/usr/bin/Cn3D-3.0']
+Write pickle file
+tar_out:
+Package-nr:4727 of 11000, Name:notification-daemon-dbgsym
+Package >notification-daemon< not in package-all.txt file
+Write to package-all.txt file: notification-daemon
+In package >notification-daemon< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: notification-daemon
+[]
+Package-nr:4728 of 11000, Name:ninka-dbgsym
+Package >ninka< not in package-all.txt file
+Write to package-all.txt file: ninka
+In package >ninka< are these binaries: ['/usr/bin/ninka']
+Real binaries:[]
+Write to package-dontwork.txt file: ninka
+[]
+Package-nr:4729 of 11000, Name:ndiswrapper-dbgsym
+Package >ndiswrapper< not in package-all.txt file
+Write to package-all.txt file: ndiswrapper
+In package >ndiswrapper< are these binaries: ['/sbin/loadndisdriver', '/usr/sbin/ndiswrapper', '/usr/sbin/ndiswrapper-buginfo']
+Real binaries:['/sbin/loadndisdriver']
+Write to package-work.txt file: ndiswrapper
+Write to package-binaries.txt file: ['/sbin/loadndisdriver']
+['/sbin/loadndisdriver']
