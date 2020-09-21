@@ -3206,3 +3206,4 @@ wpg2odg
 abw2epub
 mwaw2epub
 pmd2odg
+vsd2odg
