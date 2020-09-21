@@ -8673,3 +8673,4 @@
 /usr/bin/tblastx
 /usr/bin/windowmasker
 /usr/bin/natlog
+/usr/bin/nwchem
