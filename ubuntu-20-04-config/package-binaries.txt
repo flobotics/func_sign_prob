@@ -9076,3 +9076,4 @@
 /usr/bin/wf-recorder
 /usr/bin/wmtv
 /usr/bin/wmressel
+/usr/bin/wpd2epub

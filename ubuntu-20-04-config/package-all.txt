@@ -4821,3 +4821,4 @@ wiggle
 wf-recorder
 wmtv
 wmressel
+wpd2epub
