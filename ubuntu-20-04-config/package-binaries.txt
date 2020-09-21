@@ -8274,3 +8274,7 @@
 /usr/bin/uncrustify
 /usr/bin/unrar-free
 /usr/sbin/uanytun
+/usr/bin/uftp
+/usr/bin/uftp_keymgt
+/usr/bin/uftpd
+/usr/bin/uftpproxyd
