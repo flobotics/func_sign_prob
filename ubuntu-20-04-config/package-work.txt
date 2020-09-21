@@ -2719,3 +2719,4 @@ vinagre
 vprerex
 vilistextum
 qv4l2
+dvb-tools

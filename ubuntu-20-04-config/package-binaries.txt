@@ -7901,3 +7901,8 @@
 /usr/bin/vprerex
 /usr/bin/vilistextum
 /usr/bin/qv4l2
+/usr/bin/dvb-fe-tool
+/usr/bin/dvb-format-convert
+/usr/bin/dvbv5-daemon
+/usr/bin/dvbv5-scan
+/usr/bin/dvbv5-zap
