@@ -7958,3 +7958,4 @@
 /usr/bin/vuls
 /usr/bin/vde_cryptcab
 /usr/bin/vsearch
+/usr/bin/vsdump
