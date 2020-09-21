@@ -4669,3 +4669,8 @@ notary
 nikwi
 ruby-ngraph
 ngraph-gtk
+ngraph-gtk-addins-base
+nux-tools
+nsnake
+python3-stl
+normalize-audio

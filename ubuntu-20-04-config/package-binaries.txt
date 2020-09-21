@@ -8819,3 +8819,4 @@
 /usr/bin/notary-server
 /usr/bin/notary-signer
 /usr/bin/ngraph
+/usr/bin/normalize-audio

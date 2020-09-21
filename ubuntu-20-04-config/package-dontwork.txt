@@ -1569,3 +1569,7 @@ nordugrid-arc-arex
 nemo-fileroller
 nikwi
 ruby-ngraph
+ngraph-gtk-addins-base
+nux-tools
+nsnake
+python3-stl

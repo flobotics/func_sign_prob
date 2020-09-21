@@ -3095,3 +3095,4 @@ nordugrid-arc-client
 netplug
 notary
 ngraph-gtk
+normalize-audio
