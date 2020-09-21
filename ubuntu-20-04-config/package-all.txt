@@ -4919,3 +4919,5 @@ wkhtmltopdf
 whitedune
 wxhexeditor
 wm2
+w3m-img
+wuzzah

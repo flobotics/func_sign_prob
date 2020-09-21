@@ -1634,3 +1634,4 @@ wesnoth-1.14-server
 wlcs
 widelands
 warzone2100
+w3m-img

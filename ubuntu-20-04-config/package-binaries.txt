@@ -9264,3 +9264,4 @@
 /usr/bin/whitedune
 /usr/bin/wxHexEditor
 /usr/bin/wm2
+/usr/bin/wuzzah

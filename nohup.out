@@ -31721,3 +31721,20 @@ Real binaries:['/usr/bin/wm2']
 Write to package-work.txt file: wm2
 Write to package-binaries.txt file: ['/usr/bin/wm2']
 ['/usr/bin/wm2']
+Write pickle file
+tar_out:
+Package-nr:4976 of 11000, Name:w3m-img-dbgsym
+Package >w3m-img< not in package-all.txt file
+Write to package-all.txt file: w3m-img
+In package >w3m-img< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: w3m-img
+[]
+Package-nr:4977 of 11000, Name:wuzzah-dbgsym
+Package >wuzzah< not in package-all.txt file
+Write to package-all.txt file: wuzzah
+In package >wuzzah< are these binaries: ['/usr/bin/wuzzah']
+Real binaries:['/usr/bin/wuzzah']
+Write to package-work.txt file: wuzzah
+Write to package-binaries.txt file: ['/usr/bin/wuzzah']
+['/usr/bin/wuzzah']
