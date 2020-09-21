@@ -8485,3 +8485,8 @@
 /usr/bin/playbucket
 /usr/bin/soundtoh
 /usr/bin/nip2
+/usr/sbin/biosinfo
+/usr/sbin/cat_nvram
+/usr/sbin/guess
+/usr/sbin/nvram-wakeup
+/usr/sbin/rtc

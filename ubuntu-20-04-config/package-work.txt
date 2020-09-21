@@ -2974,3 +2974,4 @@ nmzmail
 newlisp
 nas-bin
 nip2
+nvram-wakeup

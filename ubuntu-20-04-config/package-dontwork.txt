@@ -1517,3 +1517,4 @@ unity-gtk2-module
 unity-gtk3-module
 ufoai-server
 ufoai-uforadiant
+netris
