@@ -4243,3 +4243,5 @@ zimpl
 zathura-cb
 z80asm
 zookeeper-bin
+python3-zookeeper
+zmap

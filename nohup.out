@@ -25426,3 +25426,20 @@ Real binaries:['/usr/bin/zktreeutil', '/usr/lib/zookeeper/bin/cli_mt', '/usr/lib
 Write to package-work.txt file: zookeeper-bin
 Write to package-binaries.txt file: ['/usr/bin/zktreeutil', '/usr/lib/zookeeper/bin/cli_mt', '/usr/lib/zookeeper/bin/load_gen']
 ['/usr/bin/zktreeutil', '/usr/lib/zookeeper/bin/cli_mt', '/usr/lib/zookeeper/bin/load_gen']
+Write pickle file
+tar_out:
+Package-nr:4238 of 11000, Name:python3-zookeeper-dbgsym
+Package >python3-zookeeper< not in package-all.txt file
+Write to package-all.txt file: python3-zookeeper
+In package >python3-zookeeper< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: python3-zookeeper
+[]
+Package-nr:4239 of 11000, Name:zmap-dbgsym
+Package >zmap< not in package-all.txt file
+Write to package-all.txt file: zmap
+In package >zmap< are these binaries: ['/usr/sbin/zblacklist', '/usr/sbin/zmap', '/usr/sbin/ztee']
+Real binaries:['/usr/sbin/zblacklist', '/usr/sbin/zmap', '/usr/sbin/ztee']
+Write to package-work.txt file: zmap
+Write to package-binaries.txt file: ['/usr/sbin/zblacklist', '/usr/sbin/zmap', '/usr/sbin/ztee']
+['/usr/sbin/zblacklist', '/usr/sbin/zmap', '/usr/sbin/ztee']

@@ -2791,3 +2791,4 @@ zoem
 zimpl
 z80asm
 zookeeper-bin
+zmap

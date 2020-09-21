@@ -8045,3 +8045,6 @@
 /usr/bin/zktreeutil
 /usr/lib/zookeeper/bin/cli_mt
 /usr/lib/zookeeper/bin/load_gen
+/usr/sbin/zblacklist
+/usr/sbin/zmap
+/usr/sbin/ztee

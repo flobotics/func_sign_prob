@@ -1447,3 +1447,4 @@ znc-perl
 znc-python
 python3-zbar
 zathura-cb
+python3-zookeeper
