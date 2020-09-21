@@ -7860,3 +7860,13 @@
 /usr/bin/virt_mail
 /usr/bin/virtuoso-t
 /usr/bin/vrfy
+/usr/bin/dicomdump
+/usr/bin/dicomfind
+/usr/bin/dicompull
+/usr/bin/dicomtocsv
+/usr/bin/dicomtodicom
+/usr/bin/dicomtonifti
+/usr/bin/niftidump
+/usr/bin/niftitodicom
+/usr/bin/scancodump
+/usr/bin/scancotodicom

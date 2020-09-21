@@ -24336,3 +24336,16 @@ Real binaries:['/usr/bin/vrfy']
 Write to package-work.txt file: vrfy
 Write to package-binaries.txt file: ['/usr/bin/vrfy']
 ['/usr/bin/vrfy']
+Write pickle file
+tar_out:
+Package-nr:4113 of 11000, Name:vor-dbgsym
+Skip package >vor<, already in package-all.txt file
+[]
+Package-nr:4114 of 11000, Name:vtk-dicom-tools-dbgsym
+Package >vtk-dicom-tools< not in package-all.txt file
+Write to package-all.txt file: vtk-dicom-tools
+In package >vtk-dicom-tools< are these binaries: ['/usr/bin/dicomdump', '/usr/bin/dicomfind', '/usr/bin/dicompull', '/usr/bin/dicomtocsv', '/usr/bin/dicomtodicom', '/usr/bin/dicomtonifti', '/usr/bin/niftidump', '/usr/bin/niftitodicom', '/usr/bin/scancodump', '/usr/bin/scancotodicom']
+Real binaries:['/usr/bin/dicomdump', '/usr/bin/dicomfind', '/usr/bin/dicompull', '/usr/bin/dicomtocsv', '/usr/bin/dicomtodicom', '/usr/bin/dicomtonifti', '/usr/bin/niftidump', '/usr/bin/niftitodicom', '/usr/bin/scancodump', '/usr/bin/scancotodicom']
+Write to package-work.txt file: vtk-dicom-tools
+Write to package-binaries.txt file: ['/usr/bin/dicomdump', '/usr/bin/dicomfind', '/usr/bin/dicompull', '/usr/bin/dicomtocsv', '/usr/bin/dicomtodicom', '/usr/bin/dicomtonifti', '/usr/bin/niftidump', '/usr/bin/niftitodicom', '/usr/bin/scancodump', '/usr/bin/scancotodicom']
+['/usr/bin/dicomdump', '/usr/bin/dicomfind', '/usr/bin/dicompull', '/usr/bin/dicomtocsv', '/usr/bin/dicomtodicom', '/usr/bin/dicomtonifti', '/usr/bin/niftidump', '/usr/bin/niftitodicom', '/usr/bin/scancodump', '/usr/bin/scancotodicom']
