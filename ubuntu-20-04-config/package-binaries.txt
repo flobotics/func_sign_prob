@@ -8545,3 +8545,4 @@
 /usr/bin/nfs4_getfacl
 /usr/sbin/ntopng
 /usr/sbin/netdata
+/usr/sbin/nrpe

@@ -4561,3 +4561,4 @@ nfs4-acl-tools
 noiz2sa
 ntopng
 netdata-core
+nagios-nrpe-server

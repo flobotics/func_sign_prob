@@ -28380,3 +28380,13 @@ Real binaries:['/usr/sbin/netdata']
 Write to package-work.txt file: netdata-core
 Write to package-binaries.txt file: ['/usr/sbin/netdata']
 ['/usr/sbin/netdata']
+Write pickle file
+tar_out:
+Package-nr:4587 of 11000, Name:nagios-nrpe-server-dbgsym
+Package >nagios-nrpe-server< not in package-all.txt file
+Write to package-all.txt file: nagios-nrpe-server
+In package >nagios-nrpe-server< are these binaries: ['/usr/sbin/nrpe']
+Real binaries:['/usr/sbin/nrpe']
+Write to package-work.txt file: nagios-nrpe-server
+Write to package-binaries.txt file: ['/usr/sbin/nrpe']
+['/usr/sbin/nrpe']
