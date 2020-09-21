@@ -4335,3 +4335,4 @@ uftrace
 ukui-control-center
 ubuntu-app-launch
 ubuntu-app-test
+ubuntu-app-launch-tools

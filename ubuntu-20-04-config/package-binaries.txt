@@ -8234,3 +8234,16 @@
 /usr/bin/snappy-xmir
 /usr/bin/snappy-xmir-envvars
 /usr/bin/ubuntu-app-test
+/usr/bin/ubuntu-app-info
+/usr/bin/ubuntu-app-launch
+/usr/bin/ubuntu-app-launch-appids
+/usr/bin/ubuntu-app-list
+/usr/bin/ubuntu-app-list-pids
+/usr/bin/ubuntu-app-pid
+/usr/bin/ubuntu-app-stop
+/usr/bin/ubuntu-app-triplet
+/usr/bin/ubuntu-app-usage
+/usr/bin/ubuntu-app-watch
+/usr/bin/ubuntu-helper-list
+/usr/bin/ubuntu-helper-start
+/usr/bin/ubuntu-helper-stop
