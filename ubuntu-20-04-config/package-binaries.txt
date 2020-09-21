@@ -8134,3 +8134,4 @@
 /usr/bin/icepatch2client
 /usr/bin/icestormadmin
 /usr/bin/icestormdb
+/usr/bin/icebox++11
