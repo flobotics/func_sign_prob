@@ -4719,3 +4719,4 @@ netpipes
 nvptx-tools
 nautilus-filename-repairer
 nodm
+nuntius

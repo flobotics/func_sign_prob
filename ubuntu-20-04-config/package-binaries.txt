@@ -8901,3 +8901,5 @@
 /usr/bin/nvptx-none-ld
 /usr/bin/nautilus-filename-repairer
 /usr/sbin/nodm
+/usr/bin/nuntius
+/usr/bin/qrtest
