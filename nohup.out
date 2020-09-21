@@ -31962,3 +31962,13 @@ Real binaries:['/usr/bin/webfsd']
 Write to package-work.txt file: webfs
 Write to package-binaries.txt file: ['/usr/bin/webfsd']
 ['/usr/bin/webfsd']
+Write pickle file
+tar_out:
+Package-nr:5004 of 11000, Name:wmload-dbgsym
+Package >wmload< not in package-all.txt file
+Write to package-all.txt file: wmload
+In package >wmload< are these binaries: ['/usr/bin/wmload']
+Real binaries:['/usr/bin/wmload']
+Write to package-work.txt file: wmload
+Write to package-binaries.txt file: ['/usr/bin/wmload']
+['/usr/bin/wmload']
