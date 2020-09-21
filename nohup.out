@@ -34384,3 +34384,13 @@ Real binaries:['/usr/bin/sks-ecc']
 Write to package-work.txt file: sks-ecc
 Write to package-binaries.txt file: ['/usr/bin/sks-ecc']
 ['/usr/bin/sks-ecc']
+Write pickle file
+tar_out:
+Package-nr:5283 of 11000, Name:simulide-dbgsym
+Package >simulide< not in package-all.txt file
+Write to package-all.txt file: simulide
+In package >simulide< are these binaries: ['/usr/bin/simulide']
+Real binaries:['/usr/bin/simulide']
+Write to package-work.txt file: simulide
+Write to package-binaries.txt file: ['/usr/bin/simulide']
+['/usr/bin/simulide']
