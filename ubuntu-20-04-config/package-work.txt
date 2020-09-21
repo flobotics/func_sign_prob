@@ -3087,3 +3087,4 @@ nocache
 nstreams
 numlockx
 nordugrid-arc-test-utils
+nordugrid-arc-wn

@@ -29258,3 +29258,13 @@ Real binaries:['/usr/bin/arcemiestest', '/usr/bin/arcperftest']
 Write to package-work.txt file: nordugrid-arc-test-utils
 Write to package-binaries.txt file: ['/usr/bin/arcemiestest', '/usr/bin/arcperftest']
 ['/usr/bin/arcemiestest', '/usr/bin/arcperftest']
+Write pickle file
+tar_out:
+Package-nr:4690 of 11000, Name:nordugrid-arc-wn-dbgsym
+Package >nordugrid-arc-wn< not in package-all.txt file
+Write to package-all.txt file: nordugrid-arc-wn
+In package >nordugrid-arc-wn< are these binaries: ['/usr/bin/arc-job-cgroup']
+Real binaries:['/usr/bin/arc-job-cgroup']
+Write to package-work.txt file: nordugrid-arc-wn
+Write to package-binaries.txt file: ['/usr/bin/arc-job-cgroup']
+['/usr/bin/arc-job-cgroup']

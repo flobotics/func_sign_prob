@@ -8790,3 +8790,4 @@
 /usr/bin/numlockx
 /usr/bin/arcemiestest
 /usr/bin/arcperftest
+/usr/bin/arc-job-cgroup
