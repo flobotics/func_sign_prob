@@ -31629,3 +31629,13 @@ Real binaries:['/usr/sbin/wpa_gui']
 Write to package-work.txt file: wpagui
 Write to package-binaries.txt file: ['/usr/sbin/wpa_gui']
 ['/usr/sbin/wpa_gui']
+Write pickle file
+tar_out:
+Package-nr:4966 of 11000, Name:hostapd-dbgsym
+Package >hostapd< not in package-all.txt file
+Write to package-all.txt file: hostapd
+In package >hostapd< are these binaries: ['/usr/sbin/hostapd', '/usr/sbin/hostapd_cli']
+Real binaries:['/usr/sbin/hostapd', '/usr/sbin/hostapd_cli']
+Write to package-work.txt file: hostapd
+Write to package-binaries.txt file: ['/usr/sbin/hostapd', '/usr/sbin/hostapd_cli']
+['/usr/sbin/hostapd', '/usr/sbin/hostapd_cli']

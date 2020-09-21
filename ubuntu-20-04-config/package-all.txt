@@ -4909,3 +4909,4 @@ wmcpu
 wlcs
 waffle-utils
 wpagui
+hostapd
