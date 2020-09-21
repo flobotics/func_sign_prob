@@ -8782,3 +8782,5 @@
 /usr/bin/nomarch
 /usr/bin/netstat-nat
 /usr/sbin/nbdkit
+/usr/bin/nbibfind
+/usr/bin/nbibtex

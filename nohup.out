@@ -29201,3 +29201,13 @@ Real binaries:['/usr/sbin/nbdkit']
 Write to package-work.txt file: nbdkit
 Write to package-binaries.txt file: ['/usr/sbin/nbdkit']
 ['/usr/sbin/nbdkit']
+Write pickle file
+tar_out:
+Package-nr:4684 of 11000, Name:nbibtex-dbgsym
+Package >nbibtex< not in package-all.txt file
+Write to package-all.txt file: nbibtex
+In package >nbibtex< are these binaries: ['/usr/bin/nbibfind', '/usr/bin/nbibtex']
+Real binaries:['/usr/bin/nbibfind', '/usr/bin/nbibtex']
+Write to package-work.txt file: nbibtex
+Write to package-binaries.txt file: ['/usr/bin/nbibfind', '/usr/bin/nbibtex']
+['/usr/bin/nbibfind', '/usr/bin/nbibtex']
