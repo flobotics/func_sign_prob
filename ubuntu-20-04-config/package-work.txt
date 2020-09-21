@@ -3245,3 +3245,4 @@ wcc
 wordnet-grind
 wmcliphist
 wsmancli
+wmxmms2
