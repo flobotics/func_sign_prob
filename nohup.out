@@ -30906,3 +30906,13 @@ Real binaries:['/usr/bin/cdr2odg']
 Write to package-work.txt file: cdr2odg
 Write to package-binaries.txt file: ['/usr/bin/cdr2odg']
 ['/usr/bin/cdr2odg']
+Write pickle file
+tar_out:
+Package-nr:4884 of 11000, Name:zmf2epub-dbgsym
+Package >zmf2epub< not in package-all.txt file
+Write to package-all.txt file: zmf2epub
+In package >zmf2epub< are these binaries: ['/usr/bin/zmf2epub']
+Real binaries:['/usr/bin/zmf2epub']
+Write to package-work.txt file: zmf2epub
+Write to package-binaries.txt file: ['/usr/bin/zmf2epub']
+['/usr/bin/zmf2epub']

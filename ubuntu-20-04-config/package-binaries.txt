@@ -9088,3 +9088,4 @@
 /usr/bin/fh2odg
 /usr/bin/sd2epub
 /usr/bin/cdr2odg
+/usr/bin/zmf2epub
