@@ -3398,3 +3398,4 @@ yabasic
 yangdump
 yangcli
 yaha
+yaz-illclient
