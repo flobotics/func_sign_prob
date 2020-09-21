@@ -7920,3 +7920,5 @@
 /usr/bin/v4l2-ctl
 /usr/bin/v4l2-sysfs-path
 /usr/sbin/v4l2-dbg
+/usr/bin/vtkWrapPython-7.1
+/usr/bin/vtkWrapPythonInit-7.1

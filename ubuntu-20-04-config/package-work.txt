@@ -2722,3 +2722,4 @@ qv4l2
 dvb-tools
 ir-keytable
 v4l-utils
+python3-vtk7
