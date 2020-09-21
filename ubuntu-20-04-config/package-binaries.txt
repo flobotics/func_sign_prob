@@ -9892,3 +9892,6 @@
 /usr/bin/sstat
 /usr/bin/strigger
 /usr/bin/splint
+/usr/bin/stenvironment
+/usr/bin/stexec
+/usr/bin/stshell

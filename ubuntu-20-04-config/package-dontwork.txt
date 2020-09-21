@@ -1716,3 +1716,4 @@ gtk2-engines-sugar
 slimevolley
 strongswan-nm
 strongswan-scepclient
+sdl-ball

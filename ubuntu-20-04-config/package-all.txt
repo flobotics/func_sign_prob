@@ -5229,3 +5229,5 @@ slurmctld
 slurmdbd
 slurm-client
 splint
+sdl-ball
+steptalk

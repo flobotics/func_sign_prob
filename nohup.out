@@ -34617,3 +34617,23 @@ Real binaries:['/usr/bin/splint']
 Write to package-work.txt file: splint
 Write to package-binaries.txt file: ['/usr/bin/splint']
 ['/usr/bin/splint']
+Write pickle file
+tar_out:
+Package-nr:5308 of 11000, Name:sdl-ball-dbgsym
+Package >sdl-ball< not in package-all.txt file
+Write to package-all.txt file: sdl-ball
+In package >sdl-ball< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: sdl-ball
+[]
+Package-nr:5309 of 11000, Name:sent-dbgsym
+Skip package >sent<, already in package-all.txt file
+[]
+Package-nr:5310 of 11000, Name:steptalk-dbgsym
+Package >steptalk< not in package-all.txt file
+Write to package-all.txt file: steptalk
+In package >steptalk< are these binaries: ['/usr/bin/stenvironment', '/usr/bin/stexec', '/usr/bin/stshell']
+Real binaries:['/usr/bin/stenvironment', '/usr/bin/stexec', '/usr/bin/stshell']
+Write to package-work.txt file: steptalk
+Write to package-binaries.txt file: ['/usr/bin/stenvironment', '/usr/bin/stexec', '/usr/bin/stshell']
+['/usr/bin/stenvironment', '/usr/bin/stexec', '/usr/bin/stshell']
