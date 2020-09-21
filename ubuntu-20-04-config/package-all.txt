@@ -4688,3 +4688,4 @@ netperfmeter
 nordlicht
 node-opencv
 ncbi-tools-bin
+ncbi-tools-x11

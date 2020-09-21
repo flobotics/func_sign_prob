@@ -29539,3 +29539,13 @@ Real binaries:['/usr/bin/asn2all', '/usr/bin/asn2asn', '/usr/bin/asn2ff', '/usr/
 Write to package-work.txt file: ncbi-tools-bin
 Write to package-binaries.txt file: ['/usr/bin/asn2all', '/usr/bin/asn2asn', '/usr/bin/asn2ff', '/usr/bin/asn2fsa', '/usr/bin/asn2gb', '/usr/bin/asn2idx', '/usr/bin/asn2xml', '/usr/bin/asndhuff', '/usr/bin/asndisc', '/usr/bin/asnmacro', '/usr/bin/asntool', '/usr/bin/asnval', '/usr/bin/checksub', '/usr/bin/cleanasn', '/usr/bin/debruijn', '/usr/bin/errhdr', '/usr/bin/fa2htgs', '/usr/bin/findspl', '/usr/bin/gbseqget', '/usr/bin/gene2xml', '/usr/bin/getmesh', '/usr/bin/getpub', '/usr/bin/idfetch', '/usr/bin/indexpub', '/usr/bin/insdseqget', '/usr/bin/makeset', '/usr/bin/nps2gps', '/usr/bin/sortbyquote', '/usr/bin/spidey', '/usr/bin/subfuse', '/usr/bin/taxblast', '/usr/bin/tbl2asn', '/usr/bin/trna2sap', '/usr/bin/trna2tbl', '/usr/bin/vecscreen']
 ['/usr/bin/asn2all', '/usr/bin/asn2asn', '/usr/bin/asn2ff', '/usr/bin/asn2fsa', '/usr/bin/asn2gb', '/usr/bin/asn2idx', '/usr/bin/asn2xml', '/usr/bin/asndhuff', '/usr/bin/asndisc', '/usr/bin/asnmacro', '/usr/bin/asntool', '/usr/bin/asnval', '/usr/bin/checksub', '/usr/bin/cleanasn', '/usr/bin/debruijn', '/usr/bin/errhdr', '/usr/bin/fa2htgs', '/usr/bin/findspl', '/usr/bin/gbseqget', '/usr/bin/gene2xml', '/usr/bin/getmesh', '/usr/bin/getpub', '/usr/bin/idfetch', '/usr/bin/indexpub', '/usr/bin/insdseqget', '/usr/bin/makeset', '/usr/bin/nps2gps', '/usr/bin/sortbyquote', '/usr/bin/spidey', '/usr/bin/subfuse', '/usr/bin/taxblast', '/usr/bin/tbl2asn', '/usr/bin/trna2sap', '/usr/bin/trna2tbl', '/usr/bin/vecscreen']
+Write pickle file
+tar_out:
+Package-nr:4725 of 11000, Name:ncbi-tools-x11-dbgsym
+Package >ncbi-tools-x11< not in package-all.txt file
+Write to package-all.txt file: ncbi-tools-x11
+In package >ncbi-tools-x11< are these binaries: ['/usr/bin/Psequin', '/usr/bin/ddv', '/usr/bin/entrez2', '/usr/bin/sbtedit', '/usr/bin/udv', '/usr/bin/entrez', '/usr/bin/sequin']
+Real binaries:['/usr/bin/Psequin', '/usr/bin/ddv', '/usr/bin/entrez2', '/usr/bin/sbtedit', '/usr/bin/udv']
+Write to package-work.txt file: ncbi-tools-x11
+Write to package-binaries.txt file: ['/usr/bin/Psequin', '/usr/bin/ddv', '/usr/bin/entrez2', '/usr/bin/sbtedit', '/usr/bin/udv']
+['/usr/bin/Psequin', '/usr/bin/ddv', '/usr/bin/entrez2', '/usr/bin/sbtedit', '/usr/bin/udv']

@@ -8865,3 +8865,8 @@
 /usr/bin/trna2sap
 /usr/bin/trna2tbl
 /usr/bin/vecscreen
+/usr/bin/Psequin
+/usr/bin/ddv
+/usr/bin/entrez2
+/usr/bin/sbtedit
+/usr/bin/udv

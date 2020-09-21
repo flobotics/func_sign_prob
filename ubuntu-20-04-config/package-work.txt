@@ -3103,3 +3103,4 @@ ncurses-hexedit
 netperfmeter
 nordlicht
 ncbi-tools-bin
+ncbi-tools-x11
