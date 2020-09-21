@@ -4713,3 +4713,4 @@ nsd
 neomutt
 netsurf-gtk
 netsurf-fb
+namazu2

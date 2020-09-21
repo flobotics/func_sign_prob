@@ -8889,3 +8889,5 @@
 /usr/bin/neomutt
 /usr/bin/netsurf-gtk
 /usr/bin/netsurf-fb
+/usr/bin/namazu
+/usr/lib/cgi-bin/namazu.cgi
