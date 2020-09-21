@@ -29864,3 +29864,13 @@ Real binaries:['/usr/sbin/send_nsca']
 Write to package-work.txt file: nsca-ng-client
 Write to package-binaries.txt file: ['/usr/sbin/send_nsca']
 ['/usr/sbin/send_nsca']
+Write pickle file
+tar_out:
+Package-nr:4763 of 11000, Name:nsca-ng-server-dbgsym
+Package >nsca-ng-server< not in package-all.txt file
+Write to package-all.txt file: nsca-ng-server
+In package >nsca-ng-server< are these binaries: ['/usr/sbin/nsca-ng']
+Real binaries:['/usr/sbin/nsca-ng']
+Write to package-work.txt file: nsca-ng-server
+Write to package-binaries.txt file: ['/usr/sbin/nsca-ng']
+['/usr/sbin/nsca-ng']
