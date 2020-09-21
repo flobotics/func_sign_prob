@@ -10015,3 +10015,6 @@
 /usr/bin/dump3d
 /usr/bin/extend
 /usr/bin/sorterr
+/usr/bin/3dtopos
+/usr/bin/aven
+/usr/bin/survexport

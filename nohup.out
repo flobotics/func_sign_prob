@@ -35023,3 +35023,13 @@ Real binaries:['/usr/bin/cavern', '/usr/bin/diffpos', '/usr/bin/dump3d', '/usr/b
 Write to package-work.txt file: survex
 Write to package-binaries.txt file: ['/usr/bin/cavern', '/usr/bin/diffpos', '/usr/bin/dump3d', '/usr/bin/extend', '/usr/bin/sorterr']
 ['/usr/bin/cavern', '/usr/bin/diffpos', '/usr/bin/dump3d', '/usr/bin/extend', '/usr/bin/sorterr']
+Write pickle file
+tar_out:
+Package-nr:5358 of 11000, Name:survex-aven-dbgsym
+Package >survex-aven< not in package-all.txt file
+Write to package-all.txt file: survex-aven
+In package >survex-aven< are these binaries: ['/usr/bin/3dtopos', '/usr/bin/aven', '/usr/bin/survexport']
+Real binaries:['/usr/bin/3dtopos', '/usr/bin/aven', '/usr/bin/survexport']
+Write to package-work.txt file: survex-aven
+Write to package-binaries.txt file: ['/usr/bin/3dtopos', '/usr/bin/aven', '/usr/bin/survexport']
+['/usr/bin/3dtopos', '/usr/bin/aven', '/usr/bin/survexport']
