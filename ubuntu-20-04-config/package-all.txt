@@ -5036,3 +5036,4 @@ wmforecast
 wob
 wmdate
 wmcdplay
+wmdrawer

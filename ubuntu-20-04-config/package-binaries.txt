@@ -9436,3 +9436,4 @@
 /usr/bin/wob
 /usr/bin/wmdate
 /usr/bin/wmcdplay
+/usr/bin/wmdrawer
