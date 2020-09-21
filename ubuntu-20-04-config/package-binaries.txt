@@ -9579,3 +9579,4 @@
 /usr/bin/shntool
 /usr/bin/spacenavd
 /usr/bin/stm32flash
+/usr/bin/sim4

@@ -33776,3 +33776,13 @@ Real binaries:['/usr/bin/stm32flash']
 Write to package-work.txt file: stm32flash
 Write to package-binaries.txt file: ['/usr/bin/stm32flash']
 ['/usr/bin/stm32flash']
+Write pickle file
+tar_out:
+Package-nr:5212 of 11000, Name:sim4-dbgsym
+Package >sim4< not in package-all.txt file
+Write to package-all.txt file: sim4
+In package >sim4< are these binaries: ['/usr/bin/sim4']
+Real binaries:['/usr/bin/sim4']
+Write to package-work.txt file: sim4
+Write to package-binaries.txt file: ['/usr/bin/sim4']
+['/usr/bin/sim4']
