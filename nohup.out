@@ -23806,3 +23806,13 @@ Real binaries:['/usr/bin/virt-top']
 Write to package-work.txt file: virt-top
 Write to package-binaries.txt file: ['/usr/bin/virt-top']
 ['/usr/bin/virt-top']
+Write pickle file
+tar_out:
+Package-nr:4054 of 11000, Name:vigor-dbgsym
+Package >vigor< not in package-all.txt file
+Write to package-all.txt file: vigor
+In package >vigor< are these binaries: ['/usr/bin/vigor']
+Real binaries:['/usr/bin/vigor']
+Write to package-work.txt file: vigor
+Write to package-binaries.txt file: ['/usr/bin/vigor']
+['/usr/bin/vigor']

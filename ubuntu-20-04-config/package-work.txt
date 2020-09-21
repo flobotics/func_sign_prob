@@ -2655,3 +2655,4 @@ vdesk
 vamps
 valentina
 virt-top
+vigor

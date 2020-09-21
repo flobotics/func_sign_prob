@@ -7749,3 +7749,4 @@
 /usr/bin/valentina
 /usr/bin/valentina-tape
 /usr/bin/virt-top
+/usr/bin/vigor
