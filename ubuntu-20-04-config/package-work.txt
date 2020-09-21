@@ -2967,3 +2967,4 @@ ukui-power-manager
 unshield
 netrik
 nqp
+nmapsi4

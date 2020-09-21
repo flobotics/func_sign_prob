@@ -27711,3 +27711,13 @@ Real binaries:['/usr/bin/nqp', '/usr/bin/nqp-m']
 Write to package-work.txt file: nqp
 Write to package-binaries.txt file: ['/usr/bin/nqp', '/usr/bin/nqp-m']
 ['/usr/bin/nqp', '/usr/bin/nqp-m']
+Write pickle file
+tar_out:
+Package-nr:4503 of 11000, Name:nmapsi4-dbgsym
+Package >nmapsi4< not in package-all.txt file
+Write to package-all.txt file: nmapsi4
+In package >nmapsi4< are these binaries: ['/usr/bin/nmapsi4']
+Real binaries:['/usr/bin/nmapsi4']
+Write to package-work.txt file: nmapsi4
+Write to package-binaries.txt file: ['/usr/bin/nmapsi4']
+['/usr/bin/nmapsi4']

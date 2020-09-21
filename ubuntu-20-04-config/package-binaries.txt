@@ -8465,3 +8465,4 @@
 /usr/bin/netrik
 /usr/bin/nqp
 /usr/bin/nqp-m
+/usr/bin/nmapsi4
