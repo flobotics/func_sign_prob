@@ -8746,3 +8746,10 @@
 /usr/sbin/netdiscover
 /usr/bin/nm-tray
 /usr/bin/nabi
+/usr/bin/ncftp3
+/usr/bin/ncftpbatch
+/usr/bin/ncftpbookmarks
+/usr/bin/ncftpget
+/usr/bin/ncftpls
+/usr/bin/ncftpput
+/usr/bin/ncftpspooler
