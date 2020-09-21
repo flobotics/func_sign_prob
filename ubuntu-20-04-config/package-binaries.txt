@@ -7922,3 +7922,5 @@
 /usr/sbin/v4l2-dbg
 /usr/bin/vtkWrapPython-7.1
 /usr/bin/vtkWrapPythonInit-7.1
+/usr/bin/vtkWrapTcl-7.1
+/usr/bin/vtkWrapTclInit-7.1

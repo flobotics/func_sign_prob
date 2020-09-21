@@ -24590,3 +24590,16 @@ Real binaries:['/usr/bin/vtkWrapPython-7.1', '/usr/bin/vtkWrapPythonInit-7.1']
 Write to package-work.txt file: python3-vtk7
 Write to package-binaries.txt file: ['/usr/bin/vtkWrapPython-7.1', '/usr/bin/vtkWrapPythonInit-7.1']
 ['/usr/bin/vtkWrapPython-7.1', '/usr/bin/vtkWrapPythonInit-7.1']
+Write pickle file
+tar_out:
+Package-nr:4142 of 11000, Name:vtk7-dbgsym
+Skip package >vtk7<, already in package-all.txt file
+[]
+Package-nr:4143 of 11000, Name:tcl-vtk7-dbgsym
+Package >tcl-vtk7< not in package-all.txt file
+Write to package-all.txt file: tcl-vtk7
+In package >tcl-vtk7< are these binaries: ['/usr/bin/vtkWrapTcl-7.1', '/usr/bin/vtkWrapTclInit-7.1']
+Real binaries:['/usr/bin/vtkWrapTcl-7.1', '/usr/bin/vtkWrapTclInit-7.1']
+Write to package-work.txt file: tcl-vtk7
+Write to package-binaries.txt file: ['/usr/bin/vtkWrapTcl-7.1', '/usr/bin/vtkWrapTclInit-7.1']
+['/usr/bin/vtkWrapTcl-7.1', '/usr/bin/vtkWrapTclInit-7.1']
