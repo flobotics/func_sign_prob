@@ -9704,3 +9704,10 @@
 /usr/bin/simulide
 /usr/sbin/sysrqd
 /usr/bin/synapse
+/usr/bin/bearing
+/usr/bin/citydecoder
+/usr/bin/fontdata
+/usr/bin/splat
+/usr/bin/splat-hd
+/usr/bin/srtm2sdf
+/usr/bin/usgs2sdf
