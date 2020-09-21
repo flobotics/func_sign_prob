@@ -9263,3 +9263,4 @@
 /usr/bin/wkhtmltopdf
 /usr/bin/whitedune
 /usr/bin/wxHexEditor
+/usr/bin/wm2

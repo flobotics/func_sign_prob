@@ -4918,3 +4918,4 @@ warzone2100
 wkhtmltopdf
 whitedune
 wxhexeditor
+wm2

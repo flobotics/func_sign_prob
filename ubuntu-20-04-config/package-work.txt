@@ -3279,3 +3279,4 @@ wiringpi
 wkhtmltopdf
 whitedune
 wxhexeditor
+wm2
