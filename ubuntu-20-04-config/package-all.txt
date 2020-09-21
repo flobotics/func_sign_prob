@@ -4806,3 +4806,4 @@ cd-paranoia
 cpuidtool
 wordplay
 wmfire
+wl-clipboard

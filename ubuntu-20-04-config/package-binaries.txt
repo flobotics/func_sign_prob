@@ -9060,3 +9060,5 @@
 /usr/bin/cd-paranoia
 /usr/bin/cpuid_tool
 /usr/bin/wmfire
+/usr/bin/wl-copy
+/usr/bin/wl-paste

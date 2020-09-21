@@ -30646,3 +30646,13 @@ Real binaries:['/usr/bin/wmfire']
 Write to package-work.txt file: wmfire
 Write to package-binaries.txt file: ['/usr/bin/wmfire']
 ['/usr/bin/wmfire']
+Write pickle file
+tar_out:
+Package-nr:4857 of 11000, Name:wl-clipboard-dbgsym
+Package >wl-clipboard< not in package-all.txt file
+Write to package-all.txt file: wl-clipboard
+In package >wl-clipboard< are these binaries: ['/usr/bin/wl-copy', '/usr/bin/wl-paste']
+Real binaries:['/usr/bin/wl-copy', '/usr/bin/wl-paste']
+Write to package-work.txt file: wl-clipboard
+Write to package-binaries.txt file: ['/usr/bin/wl-copy', '/usr/bin/wl-paste']
+['/usr/bin/wl-copy', '/usr/bin/wl-paste']
