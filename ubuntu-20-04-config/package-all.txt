@@ -4396,3 +4396,5 @@ unison
 unison-gtk
 unity-scope-home
 uget
+ucimf-sunpinyin
+universal-ctags
