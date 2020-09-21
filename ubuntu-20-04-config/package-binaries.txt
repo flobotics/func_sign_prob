@@ -8510,3 +8510,4 @@
 /usr/bin/netsed
 /usr/bin/ntpstat
 /usr/bin/nngcat
+/usr/bin/ncat

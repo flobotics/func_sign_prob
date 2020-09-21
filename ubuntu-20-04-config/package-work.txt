@@ -2994,3 +2994,4 @@ nlkt
 netsed
 ntpstat
 nng-utils
+ncat
