@@ -4234,3 +4234,4 @@ ziproxy
 zita-dc1
 zabbix-proxy-pgsql
 zabbix-server-pgsql
+zabbix-agent

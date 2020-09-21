@@ -8037,3 +8037,5 @@
 /usr/bin/zabbix_get
 /usr/sbin/zabbix_proxy
 /usr/sbin/zabbix_server
+/usr/bin/zabbix_sender
+/usr/sbin/zabbix_agentd
