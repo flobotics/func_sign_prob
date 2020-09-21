@@ -27298,3 +27298,13 @@ Real binaries:['/usr/bin/unpaper']
 Write to package-work.txt file: unpaper
 Write to package-binaries.txt file: ['/usr/bin/unpaper']
 ['/usr/bin/unpaper']
+Write pickle file
+tar_out:
+Package-nr:4454 of 11000, Name:ukwm-dbgsym
+Package >ukwm< not in package-all.txt file
+Write to package-all.txt file: ukwm
+In package >ukwm< are these binaries: ['/usr/bin/ukwm']
+Real binaries:['/usr/bin/ukwm']
+Write to package-work.txt file: ukwm
+Write to package-binaries.txt file: ['/usr/bin/ukwm']
+['/usr/bin/ukwm']

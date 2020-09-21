@@ -8396,3 +8396,4 @@
 /usr/bin/usbrelay
 /usr/sbin/ukui-greeter
 /usr/bin/unpaper
+/usr/bin/ukwm
