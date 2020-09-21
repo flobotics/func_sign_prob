@@ -9301,3 +9301,4 @@
 /usr/bin/wmnet
 /usr/bin/wmix
 /usr/bin/webissues
+/usr/bin/webfsd
