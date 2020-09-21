@@ -34304,3 +34304,13 @@ Real binaries:['/usr/bin/syldbimport', '/usr/bin/syldbquery', '/usr/bin/sylph-se
 Write to package-work.txt file: sylph-searcher
 Write to package-binaries.txt file: ['/usr/bin/syldbimport', '/usr/bin/syldbquery', '/usr/bin/sylph-searcher']
 ['/usr/bin/syldbimport', '/usr/bin/syldbquery', '/usr/bin/sylph-searcher']
+Write pickle file
+tar_out:
+Package-nr:5275 of 11000, Name:setbfree-dbgsym
+Package >setbfree< not in package-all.txt file
+Write to package-all.txt file: setbfree
+In package >setbfree< are these binaries: ['/usr/bin/setBfree', '/usr/bin/setBfreeUI', '/usr/bin/x42-whirl']
+Real binaries:['/usr/bin/setBfree', '/usr/bin/setBfreeUI', '/usr/bin/x42-whirl']
+Write to package-work.txt file: setbfree
+Write to package-binaries.txt file: ['/usr/bin/setBfree', '/usr/bin/setBfreeUI', '/usr/bin/x42-whirl']
+['/usr/bin/setBfree', '/usr/bin/setBfreeUI', '/usr/bin/x42-whirl']

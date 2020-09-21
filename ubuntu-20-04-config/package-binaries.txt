@@ -9660,3 +9660,6 @@
 /usr/bin/syldbimport
 /usr/bin/syldbquery
 /usr/bin/sylph-searcher
+/usr/bin/setBfree
+/usr/bin/setBfreeUI
+/usr/bin/x42-whirl
