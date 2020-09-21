@@ -9870,3 +9870,4 @@
 /usr/bin/samblaster
 /usr/sbin/slurmd-wlm
 /usr/sbin/slurmstepd-wlm
+/usr/sbin/slurmctld-wlm

@@ -5225,3 +5225,4 @@ sniproxy
 stoken
 samblaster
 slurmd
+slurmctld
