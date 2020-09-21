@@ -4195,3 +4195,7 @@ zile
 zsh-static
 zipper.app
 0install-core
+kde-zeroconf
+zathura-ps
+python3-zope.hookable
+zita-ajbridge

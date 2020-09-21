@@ -1433,3 +1433,6 @@ dvbpsi-utils
 python3-zodbpickle
 zatacka
 zipper.app
+kde-zeroconf
+zathura-ps
+python3-zope.hookable

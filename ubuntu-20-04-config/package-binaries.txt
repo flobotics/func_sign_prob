@@ -8001,3 +8001,5 @@
 /usr/bin/0launch
 /usr/bin/0store
 /usr/bin/0store-secure-add
+/usr/bin/zita-a2j
+/usr/bin/zita-j2a
