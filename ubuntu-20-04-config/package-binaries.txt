@@ -9278,3 +9278,4 @@
 /usr/lib/cgi-bin/w3cam.cgi
 /usr/bin/wdisplays
 /usr/bin/wmdiskmon
+/usr/bin/wmcpuload

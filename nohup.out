@@ -31821,3 +31821,13 @@ Real binaries:['/usr/bin/wmdiskmon']
 Write to package-work.txt file: wmdiskmon
 Write to package-binaries.txt file: ['/usr/bin/wmdiskmon']
 ['/usr/bin/wmdiskmon']
+Write pickle file
+tar_out:
+Package-nr:4987 of 11000, Name:wmcpuload-dbgsym
+Package >wmcpuload< not in package-all.txt file
+Write to package-all.txt file: wmcpuload
+In package >wmcpuload< are these binaries: ['/usr/bin/wmcpuload']
+Real binaries:['/usr/bin/wmcpuload']
+Write to package-work.txt file: wmcpuload
+Write to package-binaries.txt file: ['/usr/bin/wmcpuload']
+['/usr/bin/wmcpuload']

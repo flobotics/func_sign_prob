@@ -4929,3 +4929,4 @@ wcd
 w3cam
 wdisplays
 wmdiskmon
+wmcpuload
