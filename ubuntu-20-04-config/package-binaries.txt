@@ -7906,3 +7906,4 @@
 /usr/bin/dvbv5-daemon
 /usr/bin/dvbv5-scan
 /usr/bin/dvbv5-zap
+/usr/bin/ir-keytable
