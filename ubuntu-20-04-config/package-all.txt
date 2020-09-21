@@ -5172,3 +5172,4 @@ signond
 scim-canna
 stax
 sispmctl
+sac2mseed
