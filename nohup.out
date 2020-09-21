@@ -30886,3 +30886,13 @@ Real binaries:['/usr/bin/fh2odg']
 Write to package-work.txt file: fh2odg
 Write to package-binaries.txt file: ['/usr/bin/fh2odg']
 ['/usr/bin/fh2odg']
+Write pickle file
+tar_out:
+Package-nr:4882 of 11000, Name:sd2epub-dbgsym
+Package >sd2epub< not in package-all.txt file
+Write to package-all.txt file: sd2epub
+In package >sd2epub< are these binaries: ['/usr/bin/sd2epub']
+Real binaries:['/usr/bin/sd2epub']
+Write to package-work.txt file: sd2epub
+Write to package-binaries.txt file: ['/usr/bin/sd2epub']
+['/usr/bin/sd2epub']

@@ -9086,3 +9086,4 @@
 /usr/bin/vsd2odg
 /usr/bin/qxp2odg
 /usr/bin/fh2odg
+/usr/bin/sd2epub

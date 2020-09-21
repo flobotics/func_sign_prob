@@ -3209,3 +3209,4 @@ pmd2odg
 vsd2odg
 qxp2odg
 fh2odg
+sd2epub
