@@ -23996,3 +23996,13 @@ Real binaries:['/usr/bin/viewnior']
 Write to package-work.txt file: viewnior
 Write to package-binaries.txt file: ['/usr/bin/viewnior']
 ['/usr/bin/viewnior']
+Write pickle file
+tar_out:
+Package-nr:4075 of 11000, Name:vpnc-dbgsym
+Package >vpnc< not in package-all.txt file
+Write to package-all.txt file: vpnc
+In package >vpnc< are these binaries: ['/usr/bin/cisco-decrypt', '/usr/bin/pcf2vpnc', '/usr/sbin/vpnc', '/usr/sbin/vpnc-disconnect', '/usr/sbin/vpnc-connect']
+Real binaries:['/usr/bin/cisco-decrypt', '/usr/sbin/vpnc']
+Write to package-work.txt file: vpnc
+Write to package-binaries.txt file: ['/usr/bin/cisco-decrypt', '/usr/sbin/vpnc']
+['/usr/bin/cisco-decrypt', '/usr/sbin/vpnc']

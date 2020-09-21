@@ -7793,3 +7793,5 @@
 /usr/sbin/varnishd
 /usr/bin/vgrabbj
 /usr/bin/viewnior
+/usr/bin/cisco-decrypt
+/usr/sbin/vpnc
