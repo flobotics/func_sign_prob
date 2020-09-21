@@ -8154,3 +8154,13 @@
 /usr/bin/zopfli
 /usr/bin/zopflipng
 /usr/sbin/zephyrd
+/usr/bin/zaway
+/usr/bin/zctl
+/usr/bin/zleave
+/usr/bin/zlocate
+/usr/bin/znol
+/usr/bin/zstat
+/usr/bin/zwgc
+/usr/bin/zwrite
+/usr/sbin/zhm
+/usr/sbin/zshutdown_notify

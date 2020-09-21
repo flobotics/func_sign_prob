@@ -25832,3 +25832,13 @@ Real binaries:['/usr/sbin/zephyrd']
 Write to package-work.txt file: zephyr-server
 Write to package-binaries.txt file: ['/usr/sbin/zephyrd']
 ['/usr/sbin/zephyrd']
+Write pickle file
+tar_out:
+Package-nr:4283 of 11000, Name:zephyr-clients-dbgsym
+Package >zephyr-clients< not in package-all.txt file
+Write to package-all.txt file: zephyr-clients
+In package >zephyr-clients< are these binaries: ['/usr/bin/zaway', '/usr/bin/zctl', '/usr/bin/zleave', '/usr/bin/zlocate', '/usr/bin/znol', '/usr/bin/zstat', '/usr/bin/zwgc', '/usr/bin/zwrite', '/usr/sbin/zhm', '/usr/sbin/zshutdown_notify']
+Real binaries:['/usr/bin/zaway', '/usr/bin/zctl', '/usr/bin/zleave', '/usr/bin/zlocate', '/usr/bin/znol', '/usr/bin/zstat', '/usr/bin/zwgc', '/usr/bin/zwrite', '/usr/sbin/zhm', '/usr/sbin/zshutdown_notify']
+Write to package-work.txt file: zephyr-clients
+Write to package-binaries.txt file: ['/usr/bin/zaway', '/usr/bin/zctl', '/usr/bin/zleave', '/usr/bin/zlocate', '/usr/bin/znol', '/usr/bin/zstat', '/usr/bin/zwgc', '/usr/bin/zwrite', '/usr/sbin/zhm', '/usr/sbin/zshutdown_notify']
+['/usr/bin/zaway', '/usr/bin/zctl', '/usr/bin/zleave', '/usr/bin/zlocate', '/usr/bin/znol', '/usr/bin/zstat', '/usr/bin/zwgc', '/usr/bin/zwrite', '/usr/sbin/zhm', '/usr/sbin/zshutdown_notify']

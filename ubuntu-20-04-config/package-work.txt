@@ -2824,3 +2824,4 @@ zeroc-ice-compilers
 zeroc-icebridge
 zopfli
 zephyr-server
+zephyr-clients
