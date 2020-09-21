@@ -9324,3 +9324,4 @@
 /usr/bin/wmbattery
 /usr/bin/weex
 /usr/bin/wmbiff
+/usr/bin/wildmidi
