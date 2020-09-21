@@ -24794,3 +24794,13 @@ Real binaries:['/usr/bin/vorbisgain']
 Write to package-work.txt file: vorbisgain
 Write to package-binaries.txt file: ['/usr/bin/vorbisgain']
 ['/usr/bin/vorbisgain']
+Write pickle file
+tar_out:
+Package-nr:4166 of 11000, Name:vdens-dbgsym
+Package >vdens< not in package-all.txt file
+Write to package-all.txt file: vdens
+In package >vdens< are these binaries: ['/usr/bin/vdens']
+Real binaries:['/usr/bin/vdens']
+Write to package-work.txt file: vdens
+Write to package-binaries.txt file: ['/usr/bin/vdens']
+['/usr/bin/vdens']

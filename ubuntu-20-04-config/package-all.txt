@@ -4174,3 +4174,4 @@ vsdump
 vnstat
 vnstati
 vorbisgain
+vdens
