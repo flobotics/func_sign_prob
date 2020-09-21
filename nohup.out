@@ -29181,3 +29181,23 @@ Real binaries:['/usr/bin/netstat-nat']
 Write to package-work.txt file: netstat-nat
 Write to package-binaries.txt file: ['/usr/bin/netstat-nat']
 ['/usr/bin/netstat-nat']
+Write pickle file
+tar_out:
+Package-nr:4681 of 11000, Name:network-manager-ssh-gnome-dbgsym
+Package >network-manager-ssh-gnome< not in package-all.txt file
+Write to package-all.txt file: network-manager-ssh-gnome
+In package >network-manager-ssh-gnome< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: network-manager-ssh-gnome
+[]
+Package-nr:4682 of 11000, Name:network-manager-ssh-dbgsym
+Skip package >network-manager-ssh<, already in package-all.txt file
+[]
+Package-nr:4683 of 11000, Name:nbdkit-dbgsym
+Package >nbdkit< not in package-all.txt file
+Write to package-all.txt file: nbdkit
+In package >nbdkit< are these binaries: ['/usr/sbin/nbdkit']
+Real binaries:['/usr/sbin/nbdkit']
+Write to package-work.txt file: nbdkit
+Write to package-binaries.txt file: ['/usr/sbin/nbdkit']
+['/usr/sbin/nbdkit']

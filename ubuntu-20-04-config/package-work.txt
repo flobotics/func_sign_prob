@@ -3081,3 +3081,4 @@ netcdf-bin
 nasm
 nomarch
 netstat-nat
+nbdkit

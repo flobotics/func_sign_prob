@@ -1561,3 +1561,4 @@ node-re2
 ruby-notmuch
 python3-nautilus
 python-nautilus
+network-manager-ssh-gnome

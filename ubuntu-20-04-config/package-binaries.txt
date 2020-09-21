@@ -8781,3 +8781,4 @@
 /usr/bin/rdx
 /usr/bin/nomarch
 /usr/bin/netstat-nat
+/usr/sbin/nbdkit
