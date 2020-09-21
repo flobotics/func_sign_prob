@@ -8543,3 +8543,5 @@
 /usr/bin/nqc
 /usr/bin/nfs4_setfacl
 /usr/bin/nfs4_getfacl
+/usr/sbin/ntopng
+/usr/sbin/netdata

@@ -3012,3 +3012,5 @@ ncdu
 nanopolish
 nqc
 nfs4-acl-tools
+ntopng
+netdata-core

@@ -28355,3 +28355,28 @@ Real binaries:['/usr/bin/nfs4_setfacl', '/usr/bin/nfs4_getfacl']
 Write to package-work.txt file: nfs4-acl-tools
 Write to package-binaries.txt file: ['/usr/bin/nfs4_setfacl', '/usr/bin/nfs4_getfacl']
 ['/usr/bin/nfs4_setfacl', '/usr/bin/nfs4_getfacl']
+Write pickle file
+tar_out:
+Package-nr:4584 of 11000, Name:noiz2sa-dbgsym
+Package >noiz2sa< not in package-all.txt file
+Write to package-all.txt file: noiz2sa
+In package >noiz2sa< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: noiz2sa
+[]
+Package-nr:4585 of 11000, Name:ntopng-dbgsym
+Package >ntopng< not in package-all.txt file
+Write to package-all.txt file: ntopng
+In package >ntopng< are these binaries: ['/usr/sbin/ntopng']
+Real binaries:['/usr/sbin/ntopng']
+Write to package-work.txt file: ntopng
+Write to package-binaries.txt file: ['/usr/sbin/ntopng']
+['/usr/sbin/ntopng']
+Package-nr:4586 of 11000, Name:netdata-core-dbgsym
+Package >netdata-core< not in package-all.txt file
+Write to package-all.txt file: netdata-core
+In package >netdata-core< are these binaries: ['/usr/sbin/netdata']
+Real binaries:['/usr/sbin/netdata']
+Write to package-work.txt file: netdata-core
+Write to package-binaries.txt file: ['/usr/sbin/netdata']
+['/usr/sbin/netdata']

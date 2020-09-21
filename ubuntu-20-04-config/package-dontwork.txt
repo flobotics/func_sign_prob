@@ -1541,3 +1541,4 @@ nfs-ganesha-gluster
 nfs-ganesha-gpfs
 nfs-ganesha-mem
 network-manager-openconnect-gnome
+noiz2sa
