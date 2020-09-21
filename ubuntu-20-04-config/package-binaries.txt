@@ -7964,3 +7964,5 @@
 /usr/bin/vnstati
 /usr/bin/vorbisgain
 /usr/bin/vdens
+/usr/sbin/vrrpd
+/usr/bin/voronota

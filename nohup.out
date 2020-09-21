@@ -24804,3 +24804,21 @@ Real binaries:['/usr/bin/vdens']
 Write to package-work.txt file: vdens
 Write to package-binaries.txt file: ['/usr/bin/vdens']
 ['/usr/bin/vdens']
+Write pickle file
+tar_out:
+Package-nr:4167 of 11000, Name:vrrpd-dbgsym
+Package >vrrpd< not in package-all.txt file
+Write to package-all.txt file: vrrpd
+In package >vrrpd< are these binaries: ['/usr/sbin/vrrpd']
+Real binaries:['/usr/sbin/vrrpd']
+Write to package-work.txt file: vrrpd
+Write to package-binaries.txt file: ['/usr/sbin/vrrpd']
+['/usr/sbin/vrrpd']
+Package-nr:4168 of 11000, Name:voronota-dbgsym
+Package >voronota< not in package-all.txt file
+Write to package-all.txt file: voronota
+In package >voronota< are these binaries: ['/usr/bin/voronota', '/usr/bin/voronota-cadscore', '/usr/bin/voronota-contacts', '/usr/bin/voronota-membrane', '/usr/bin/voronota-pocket', '/usr/bin/voronota-resources', '/usr/bin/voronota-volumes', '/usr/bin/voronota-voromqa']
+Real binaries:['/usr/bin/voronota']
+Write to package-work.txt file: voronota
+Write to package-binaries.txt file: ['/usr/bin/voronota']
+['/usr/bin/voronota']
