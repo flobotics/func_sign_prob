@@ -9166,3 +9166,4 @@
 /usr/bin/wcshead
 /usr/bin/wcsremap
 /usr/bin/xy2sky
+/usr/bin/Welcome2L
