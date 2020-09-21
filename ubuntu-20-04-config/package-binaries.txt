@@ -8814,3 +8814,8 @@
 /usr/bin/arcsync
 /usr/bin/arctest
 /sbin/netplugd
+/usr/bin/escrow
+/usr/bin/notary
+/usr/bin/notary-server
+/usr/bin/notary-signer
+/usr/bin/ngraph

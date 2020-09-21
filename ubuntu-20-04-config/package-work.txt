@@ -3093,3 +3093,5 @@ nordugrid-arc-hed
 nordugrid-arc-dev
 nordugrid-arc-client
 netplug
+notary
+ngraph-gtk

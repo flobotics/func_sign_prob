@@ -4665,3 +4665,7 @@ nordugrid-arc-dev
 nordugrid-arc-client
 nemo-fileroller
 netplug
+notary
+nikwi
+ruby-ngraph
+ngraph-gtk

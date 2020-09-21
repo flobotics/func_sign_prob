@@ -29349,3 +29349,35 @@ Real binaries:['/sbin/netplugd']
 Write to package-work.txt file: netplug
 Write to package-binaries.txt file: ['/sbin/netplugd']
 ['/sbin/netplugd']
+Write pickle file
+tar_out:
+Package-nr:4701 of 11000, Name:notary-dbgsym
+Package >notary< not in package-all.txt file
+Write to package-all.txt file: notary
+In package >notary< are these binaries: ['/usr/bin/escrow', '/usr/bin/notary', '/usr/bin/notary-server', '/usr/bin/notary-signer']
+Real binaries:['/usr/bin/escrow', '/usr/bin/notary', '/usr/bin/notary-server', '/usr/bin/notary-signer']
+Write to package-work.txt file: notary
+Write to package-binaries.txt file: ['/usr/bin/escrow', '/usr/bin/notary', '/usr/bin/notary-server', '/usr/bin/notary-signer']
+['/usr/bin/escrow', '/usr/bin/notary', '/usr/bin/notary-server', '/usr/bin/notary-signer']
+Package-nr:4702 of 11000, Name:nikwi-dbgsym
+Package >nikwi< not in package-all.txt file
+Write to package-all.txt file: nikwi
+In package >nikwi< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: nikwi
+[]
+Package-nr:4703 of 11000, Name:ruby-ngraph-dbgsym
+Package >ruby-ngraph< not in package-all.txt file
+Write to package-all.txt file: ruby-ngraph
+In package >ruby-ngraph< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: ruby-ngraph
+[]
+Package-nr:4704 of 11000, Name:ngraph-gtk-dbgsym
+Package >ngraph-gtk< not in package-all.txt file
+Write to package-all.txt file: ngraph-gtk
+In package >ngraph-gtk< are these binaries: ['/usr/bin/ngp2', '/usr/bin/ngraph']
+Real binaries:['/usr/bin/ngraph']
+Write to package-work.txt file: ngraph-gtk
+Write to package-binaries.txt file: ['/usr/bin/ngraph']
+['/usr/bin/ngraph']
