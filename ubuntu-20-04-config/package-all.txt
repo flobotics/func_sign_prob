@@ -4785,3 +4785,5 @@ network-manager-strongswan
 python3-libbde
 cdrskin
 rdiff
+python3-libregf
+rtr-tools

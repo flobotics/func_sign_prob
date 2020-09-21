@@ -30454,3 +30454,20 @@ Real binaries:['/usr/bin/rdiff']
 Write to package-work.txt file: rdiff
 Write to package-binaries.txt file: ['/usr/bin/rdiff']
 ['/usr/bin/rdiff']
+Write pickle file
+tar_out:
+Package-nr:4836 of 11000, Name:python3-libregf-dbgsym
+Package >python3-libregf< not in package-all.txt file
+Write to package-all.txt file: python3-libregf
+In package >python3-libregf< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: python3-libregf
+[]
+Package-nr:4837 of 11000, Name:rtr-tools-dbgsym
+Package >rtr-tools< not in package-all.txt file
+Write to package-all.txt file: rtr-tools
+In package >rtr-tools< are these binaries: ['/usr/bin/rpki-rov', '/usr/bin/rtrclient']
+Real binaries:['/usr/bin/rpki-rov', '/usr/bin/rtrclient']
+Write to package-work.txt file: rtr-tools
+Write to package-binaries.txt file: ['/usr/bin/rpki-rov', '/usr/bin/rtrclient']
+['/usr/bin/rpki-rov', '/usr/bin/rtrclient']

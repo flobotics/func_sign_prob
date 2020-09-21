@@ -1609,3 +1609,4 @@ numptyphysics
 node-modern-syslog
 network-manager-strongswan
 python3-libbde
+python3-libregf
