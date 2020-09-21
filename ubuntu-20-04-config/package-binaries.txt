@@ -9078,3 +9078,4 @@
 /usr/bin/wmressel
 /usr/bin/wpd2epub
 /usr/bin/sd2odf
+/usr/bin/wps2epub

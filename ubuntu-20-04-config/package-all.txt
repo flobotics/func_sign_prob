@@ -4823,3 +4823,4 @@ wmtv
 wmressel
 wpd2epub
 sd2odf
+wps2epub
