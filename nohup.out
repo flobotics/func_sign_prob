@@ -33716,3 +33716,13 @@ Real binaries:['/usr/bin/berdecode', '/usr/bin/mkchdr', '/usr/bin/ptbl', '/usr/b
 Write to package-work.txt file: snacc
 Write to package-binaries.txt file: ['/usr/bin/berdecode', '/usr/bin/mkchdr', '/usr/bin/ptbl', '/usr/bin/pval', '/usr/bin/snacc']
 ['/usr/bin/berdecode', '/usr/bin/mkchdr', '/usr/bin/ptbl', '/usr/bin/pval', '/usr/bin/snacc']
+Write pickle file
+tar_out:
+Package-nr:5205 of 11000, Name:simplescreenrecorder-dbgsym
+Package >simplescreenrecorder< not in package-all.txt file
+Write to package-all.txt file: simplescreenrecorder
+In package >simplescreenrecorder< are these binaries: ['/usr/bin/simplescreenrecorder', '/usr/bin/ssr-glinject']
+Real binaries:['/usr/bin/simplescreenrecorder']
+Write to package-work.txt file: simplescreenrecorder
+Write to package-binaries.txt file: ['/usr/bin/simplescreenrecorder']
+['/usr/bin/simplescreenrecorder']

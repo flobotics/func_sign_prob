@@ -5134,3 +5134,4 @@ ssh-contact-client
 sollya
 socnetv
 snacc
+simplescreenrecorder

@@ -9573,3 +9573,4 @@
 /usr/bin/ptbl
 /usr/bin/pval
 /usr/bin/snacc
+/usr/bin/simplescreenrecorder
