@@ -5032,3 +5032,4 @@ python3-wxgtk-media4.0
 wmctrl
 webalizer
 wmcore
+wmforecast

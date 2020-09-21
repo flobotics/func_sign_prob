@@ -3366,3 +3366,4 @@ wmifs
 wmctrl
 webalizer
 wmcore
+wmforecast
