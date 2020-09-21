@@ -8535,3 +8535,4 @@
 /usr/bin/nacl-sha512
 /usr/sbin/curvecpserver
 /usr/lib/nodejs/srs/lib/binding/srs.node
+/usr/bin/nwall
