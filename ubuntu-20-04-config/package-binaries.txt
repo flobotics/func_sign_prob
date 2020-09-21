@@ -9733,3 +9733,4 @@
 /usr/lib/staden/bin/stops
 /usr/lib/staden/bin/tracediff
 /usr/lib/staden/bin/vector_clip
+/usr/bin/silverjuke
