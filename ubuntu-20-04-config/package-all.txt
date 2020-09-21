@@ -4812,3 +4812,4 @@ wmclockmon
 websockify
 whysynth
 webkit2gtk-driver
+wmcoincoin
