@@ -4193,3 +4193,5 @@ zimwriterfs
 zatacka
 zile
 zsh-static
+zipper.app
+0install-core

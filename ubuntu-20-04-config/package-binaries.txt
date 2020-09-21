@@ -7995,3 +7995,9 @@
 /usr/bin/zimwriterfs
 /usr/bin/zile
 /bin/zsh-static
+/usr/bin/0alias
+/usr/bin/0desktop
+/usr/bin/0install
+/usr/bin/0launch
+/usr/bin/0store
+/usr/bin/0store-secure-add

@@ -1432,3 +1432,4 @@ happycoders-libdbg
 dvbpsi-utils
 python3-zodbpickle
 zatacka
+zipper.app

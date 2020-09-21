@@ -2756,3 +2756,4 @@ zanshin
 zimwriterfs
 zile
 zsh-static
+0install-core

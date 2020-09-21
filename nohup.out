@@ -24970,3 +24970,20 @@ Real binaries:['/bin/zsh-static']
 Write to package-work.txt file: zsh-static
 Write to package-binaries.txt file: ['/bin/zsh-static']
 ['/bin/zsh-static']
+Write pickle file
+tar_out:
+Package-nr:4185 of 11000, Name:zipper.app-dbgsym
+Package >zipper.app< not in package-all.txt file
+Write to package-all.txt file: zipper.app
+In package >zipper.app< are these binaries: ['/usr/bin/Zipper']
+Real binaries:[]
+Write to package-dontwork.txt file: zipper.app
+[]
+Package-nr:4186 of 11000, Name:0install-core-dbgsym
+Package >0install-core< not in package-all.txt file
+Write to package-all.txt file: 0install-core
+In package >0install-core< are these binaries: ['/usr/bin/0alias', '/usr/bin/0desktop', '/usr/bin/0install', '/usr/bin/0launch', '/usr/bin/0store', '/usr/bin/0store-secure-add']
+Real binaries:['/usr/bin/0alias', '/usr/bin/0desktop', '/usr/bin/0install', '/usr/bin/0launch', '/usr/bin/0store', '/usr/bin/0store-secure-add']
+Write to package-work.txt file: 0install-core
+Write to package-binaries.txt file: ['/usr/bin/0alias', '/usr/bin/0desktop', '/usr/bin/0install', '/usr/bin/0launch', '/usr/bin/0store', '/usr/bin/0store-secure-add']
+['/usr/bin/0alias', '/usr/bin/0desktop', '/usr/bin/0install', '/usr/bin/0launch', '/usr/bin/0store', '/usr/bin/0store-secure-add']
