@@ -2656,3 +2656,4 @@ vamps
 valentina
 virt-top
 vigor
+volumeicon-alsa

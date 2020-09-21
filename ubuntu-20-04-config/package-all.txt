@@ -4073,3 +4073,4 @@ python3-virtkey
 valentina
 virt-top
 vigor
+volumeicon-alsa

@@ -23816,3 +23816,13 @@ Real binaries:['/usr/bin/vigor']
 Write to package-work.txt file: vigor
 Write to package-binaries.txt file: ['/usr/bin/vigor']
 ['/usr/bin/vigor']
+Write pickle file
+tar_out:
+Package-nr:4055 of 11000, Name:volumeicon-alsa-dbgsym
+Package >volumeicon-alsa< not in package-all.txt file
+Write to package-all.txt file: volumeicon-alsa
+In package >volumeicon-alsa< are these binaries: ['/usr/bin/volumeicon']
+Real binaries:['/usr/bin/volumeicon']
+Write to package-work.txt file: volumeicon-alsa
+Write to package-binaries.txt file: ['/usr/bin/volumeicon']
+['/usr/bin/volumeicon']
