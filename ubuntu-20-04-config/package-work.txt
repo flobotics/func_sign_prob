@@ -2948,3 +2948,4 @@ usbtop
 ums2net
 uim-gtk2.0
 uim-qt5
+uim-xim

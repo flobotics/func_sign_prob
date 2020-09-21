@@ -27464,3 +27464,13 @@ Real binaries:['/usr/bin/uim-chardict-qt5', '/usr/bin/uim-im-switcher-qt5', '/us
 Write to package-work.txt file: uim-qt5
 Write to package-binaries.txt file: ['/usr/bin/uim-chardict-qt5', '/usr/bin/uim-im-switcher-qt5', '/usr/bin/uim-pref-qt5', '/usr/bin/uim-toolbar-qt5']
 ['/usr/bin/uim-chardict-qt5', '/usr/bin/uim-im-switcher-qt5', '/usr/bin/uim-pref-qt5', '/usr/bin/uim-toolbar-qt5']
+Write pickle file
+tar_out:
+Package-nr:4473 of 11000, Name:uim-xim-dbgsym
+Package >uim-xim< not in package-all.txt file
+Write to package-all.txt file: uim-xim
+In package >uim-xim< are these binaries: ['/usr/bin/uim-xim']
+Real binaries:['/usr/bin/uim-xim']
+Write to package-work.txt file: uim-xim
+Write to package-binaries.txt file: ['/usr/bin/uim-xim']
+['/usr/bin/uim-xim']
