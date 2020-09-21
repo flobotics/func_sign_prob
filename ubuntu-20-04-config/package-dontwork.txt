@@ -1511,3 +1511,5 @@ python-unbound
 ubiquity-frontend-gtk-panel
 unity-lens-music
 uim-gtk3-immodule
+uim-gtk2.0-immodule
+uim-qt5-immodule

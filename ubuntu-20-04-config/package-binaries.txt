@@ -8429,3 +8429,5 @@
 /usr/bin/uim-xim
 /usr/bin/uim-fep
 /usr/bin/uim-fep-tick
+/usr/bin/uim-el-agent
+/usr/bin/uim-el-helper-agent
