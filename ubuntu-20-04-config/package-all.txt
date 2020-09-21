@@ -5012,3 +5012,4 @@ webauth-utils
 warmux
 warmux-servers
 wpan-tools
+wxastrocapture

@@ -9403,3 +9403,4 @@
 /usr/bin/iwpan
 /usr/bin/wpan-hwsim
 /usr/bin/wpan-ping
+/usr/bin/wxAstroCapture
