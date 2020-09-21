@@ -9647,3 +9647,4 @@
 /usr/bin/sound-juicer
 /usr/bin/qshutdown
 /usr/bin/qprogram-starter
+/usr/bin/slinkwatch
