@@ -2751,3 +2751,4 @@ vamp-examples
 vcdimager
 votca-tools
 x86dis
+drumstick-tools

@@ -4184,3 +4184,5 @@ vamp-examples
 vcdimager
 votca-tools
 x86dis
+happycoders-libdbg
+drumstick-tools

@@ -1428,3 +1428,4 @@ vodovod
 vitetris
 valabind
 verilator
+happycoders-libdbg

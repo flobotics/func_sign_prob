@@ -7980,3 +7980,13 @@
 /usr/bin/vcdxrip
 /usr/bin/votca_property
 /usr/bin/x86dis
+/usr/bin/drumstick-drumgrid
+/usr/bin/drumstick-dumpmid
+/usr/bin/drumstick-dumpove
+/usr/bin/drumstick-dumpsmf
+/usr/bin/drumstick-dumpwrk
+/usr/bin/drumstick-guiplayer
+/usr/bin/drumstick-metronome
+/usr/bin/drumstick-playsmf
+/usr/bin/drumstick-sysinfo
+/usr/bin/drumstick-vpiano
