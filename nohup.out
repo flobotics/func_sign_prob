@@ -31099,3 +31099,13 @@ Real binaries:['/usr/bin/Welcome2L']
 Write to package-work.txt file: welcome2l
 Write to package-binaries.txt file: ['/usr/bin/Welcome2L']
 ['/usr/bin/Welcome2L']
+Write pickle file
+tar_out:
+Package-nr:4904 of 11000, Name:wzip-dbgsym
+Package >wzip< not in package-all.txt file
+Write to package-all.txt file: wzip
+In package >wzip< are these binaries: ['/usr/bin/wzip']
+Real binaries:['/usr/bin/wzip']
+Write to package-work.txt file: wzip
+Write to package-binaries.txt file: ['/usr/bin/wzip']
+['/usr/bin/wzip']

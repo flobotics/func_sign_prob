@@ -3230,3 +3230,4 @@ wireguard-tools
 wims
 wcstools
 welcome2l
+wzip

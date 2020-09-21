@@ -4853,3 +4853,4 @@ wims
 wordwarvi
 wcstools
 welcome2l
+wzip
