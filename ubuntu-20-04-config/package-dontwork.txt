@@ -1477,3 +1477,4 @@ ucimf-chewing
 unity-china-video-scope
 gtk3-engines-unico
 r-cran-urca
+urfkill

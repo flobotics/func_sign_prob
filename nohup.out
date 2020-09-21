@@ -26414,3 +26414,20 @@ Real binaries:['/usr/bin/unadf']
 Write to package-work.txt file: unadf
 Write to package-binaries.txt file: ['/usr/bin/unadf']
 ['/usr/bin/unadf']
+Write pickle file
+tar_out:
+Package-nr:4348 of 11000, Name:urfkill-dbgsym
+Package >urfkill< not in package-all.txt file
+Write to package-all.txt file: urfkill
+In package >urfkill< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: urfkill
+[]
+Package-nr:4349 of 11000, Name:unace-dbgsym
+Package >unace< not in package-all.txt file
+Write to package-all.txt file: unace
+In package >unace< are these binaries: ['/usr/bin/unace']
+Real binaries:['/usr/bin/unace']
+Write to package-work.txt file: unace
+Write to package-binaries.txt file: ['/usr/bin/unace']
+['/usr/bin/unace']
