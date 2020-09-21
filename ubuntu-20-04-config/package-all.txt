@@ -4832,3 +4832,4 @@ vsd2odg
 qxp2odg
 fh2odg
 sd2epub
+cdr2odg
