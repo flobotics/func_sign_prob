@@ -8541,3 +8541,5 @@
 /usr/bin/ncdu
 /usr/bin/nanopolish
 /usr/bin/nqc
+/usr/bin/nfs4_setfacl
+/usr/bin/nfs4_getfacl
