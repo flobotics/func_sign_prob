@@ -27826,3 +27826,13 @@ Real binaries:['/usr/bin/nedit', '/usr/bin/nedit-nc']
 Write to package-work.txt file: nedit
 Write to package-binaries.txt file: ['/usr/bin/nedit', '/usr/bin/nedit-nc']
 ['/usr/bin/nedit', '/usr/bin/nedit-nc']
+Write pickle file
+tar_out:
+Package-nr:4516 of 11000, Name:nzbget-dbgsym
+Package >nzbget< not in package-all.txt file
+Write to package-all.txt file: nzbget
+In package >nzbget< are these binaries: ['/usr/bin/nzbget']
+Real binaries:['/usr/bin/nzbget']
+Write to package-work.txt file: nzbget
+Write to package-binaries.txt file: ['/usr/bin/nzbget']
+['/usr/bin/nzbget']

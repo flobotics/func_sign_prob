@@ -8493,3 +8493,4 @@
 /usr/bin/nanocat
 /usr/bin/nedit
 /usr/bin/nedit-nc
+/usr/bin/nzbget
