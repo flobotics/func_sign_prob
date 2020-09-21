@@ -3293,3 +3293,6 @@ wmcpuload
 wput
 wpewebkit-driver
 wmifinfo
+worklog
+wsjtx
+wmnet

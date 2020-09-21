@@ -31868,3 +31868,29 @@ Real binaries:['/usr/bin/wmifinfo']
 Write to package-work.txt file: wmifinfo
 Write to package-binaries.txt file: ['/usr/bin/wmifinfo']
 ['/usr/bin/wmifinfo']
+Write pickle file
+tar_out:
+Package-nr:4992 of 11000, Name:worklog-dbgsym
+Package >worklog< not in package-all.txt file
+Write to package-all.txt file: worklog
+In package >worklog< are these binaries: ['/usr/bin/worklog']
+Real binaries:['/usr/bin/worklog']
+Write to package-work.txt file: worklog
+Write to package-binaries.txt file: ['/usr/bin/worklog']
+['/usr/bin/worklog']
+Package-nr:4993 of 11000, Name:wsjtx-dbgsym
+Package >wsjtx< not in package-all.txt file
+Write to package-all.txt file: wsjtx
+In package >wsjtx< are these binaries: ['/usr/bin/fcal', '/usr/bin/fmeasure', '/usr/bin/fmtave', '/usr/bin/ft8code', '/usr/bin/jt4code', '/usr/bin/jt65code', '/usr/bin/jt9', '/usr/bin/jt9code', '/usr/bin/message_aggregator', '/usr/bin/msk144code', '/usr/bin/qra64code', '/usr/bin/qra64sim', '/usr/bin/udp_daemon', '/usr/bin/wsjtx', '/usr/bin/wsprd']
+Real binaries:['/usr/bin/fcal', '/usr/bin/fmeasure', '/usr/bin/fmtave', '/usr/bin/ft8code', '/usr/bin/jt4code', '/usr/bin/jt65code', '/usr/bin/jt9', '/usr/bin/jt9code', '/usr/bin/message_aggregator', '/usr/bin/msk144code', '/usr/bin/qra64code', '/usr/bin/qra64sim', '/usr/bin/udp_daemon', '/usr/bin/wsjtx', '/usr/bin/wsprd']
+Write to package-work.txt file: wsjtx
+Write to package-binaries.txt file: ['/usr/bin/fcal', '/usr/bin/fmeasure', '/usr/bin/fmtave', '/usr/bin/ft8code', '/usr/bin/jt4code', '/usr/bin/jt65code', '/usr/bin/jt9', '/usr/bin/jt9code', '/usr/bin/message_aggregator', '/usr/bin/msk144code', '/usr/bin/qra64code', '/usr/bin/qra64sim', '/usr/bin/udp_daemon', '/usr/bin/wsjtx', '/usr/bin/wsprd']
+['/usr/bin/fcal', '/usr/bin/fmeasure', '/usr/bin/fmtave', '/usr/bin/ft8code', '/usr/bin/jt4code', '/usr/bin/jt65code', '/usr/bin/jt9', '/usr/bin/jt9code', '/usr/bin/message_aggregator', '/usr/bin/msk144code', '/usr/bin/qra64code', '/usr/bin/qra64sim', '/usr/bin/udp_daemon', '/usr/bin/wsjtx', '/usr/bin/wsprd']
+Package-nr:4994 of 11000, Name:wmnet-dbgsym
+Package >wmnet< not in package-all.txt file
+Write to package-all.txt file: wmnet
+In package >wmnet< are these binaries: ['/usr/bin/wmnet']
+Real binaries:['/usr/bin/wmnet']
+Write to package-work.txt file: wmnet
+Write to package-binaries.txt file: ['/usr/bin/wmnet']
+['/usr/bin/wmnet']
