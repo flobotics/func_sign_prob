@@ -30518,3 +30518,13 @@ Real binaries:['/usr/bin/amqp-consume', '/usr/bin/amqp-declare-queue', '/usr/bin
 Write to package-work.txt file: amqp-tools
 Write to package-binaries.txt file: ['/usr/bin/amqp-consume', '/usr/bin/amqp-declare-queue', '/usr/bin/amqp-delete-queue', '/usr/bin/amqp-get', '/usr/bin/amqp-publish']
 ['/usr/bin/amqp-consume', '/usr/bin/amqp-declare-queue', '/usr/bin/amqp-delete-queue', '/usr/bin/amqp-get', '/usr/bin/amqp-publish']
+Write pickle file
+tar_out:
+Package-nr:4843 of 11000, Name:cgroup-tools-dbgsym
+Package >cgroup-tools< not in package-all.txt file
+Write to package-all.txt file: cgroup-tools
+In package >cgroup-tools< are these binaries: ['/usr/bin/cgclassify', '/usr/bin/cgcreate', '/usr/bin/cgdelete', '/usr/bin/cgexec', '/usr/bin/cgget', '/usr/bin/cgset', '/usr/bin/cgsnapshot', '/usr/bin/lscgroup', '/usr/bin/lssubsys', '/usr/sbin/cgclear', '/usr/sbin/cgconfigparser', '/usr/sbin/cgrulesengd']
+Real binaries:['/usr/bin/cgclassify', '/usr/bin/cgcreate', '/usr/bin/cgdelete', '/usr/bin/cgexec', '/usr/bin/cgget', '/usr/bin/cgset', '/usr/bin/cgsnapshot', '/usr/bin/lscgroup', '/usr/bin/lssubsys', '/usr/sbin/cgclear', '/usr/sbin/cgconfigparser', '/usr/sbin/cgrulesengd']
+Write to package-work.txt file: cgroup-tools
+Write to package-binaries.txt file: ['/usr/bin/cgclassify', '/usr/bin/cgcreate', '/usr/bin/cgdelete', '/usr/bin/cgexec', '/usr/bin/cgget', '/usr/bin/cgset', '/usr/bin/cgsnapshot', '/usr/bin/lscgroup', '/usr/bin/lssubsys', '/usr/sbin/cgclear', '/usr/sbin/cgconfigparser', '/usr/sbin/cgrulesengd']
+['/usr/bin/cgclassify', '/usr/bin/cgcreate', '/usr/bin/cgdelete', '/usr/bin/cgexec', '/usr/bin/cgget', '/usr/bin/cgset', '/usr/bin/cgsnapshot', '/usr/bin/lscgroup', '/usr/bin/lssubsys', '/usr/sbin/cgclear', '/usr/sbin/cgconfigparser', '/usr/sbin/cgrulesengd']

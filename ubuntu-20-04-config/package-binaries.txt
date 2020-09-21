@@ -9007,3 +9007,15 @@
 /usr/bin/amqp-delete-queue
 /usr/bin/amqp-get
 /usr/bin/amqp-publish
+/usr/bin/cgclassify
+/usr/bin/cgcreate
+/usr/bin/cgdelete
+/usr/bin/cgexec
+/usr/bin/cgget
+/usr/bin/cgset
+/usr/bin/cgsnapshot
+/usr/bin/lscgroup
+/usr/bin/lssubsys
+/usr/sbin/cgclear
+/usr/sbin/cgconfigparser
+/usr/sbin/cgrulesengd

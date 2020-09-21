@@ -4792,3 +4792,4 @@ lur-command
 python3-corepywrap
 rasterlite2-bin
 amqp-tools
+cgroup-tools
