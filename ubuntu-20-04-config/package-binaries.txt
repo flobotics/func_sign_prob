@@ -9404,3 +9404,4 @@
 /usr/bin/wpan-hwsim
 /usr/bin/wpan-ping
 /usr/bin/wxAstroCapture
+/usr/bin/catmaster

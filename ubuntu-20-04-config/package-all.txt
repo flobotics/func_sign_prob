@@ -5013,3 +5013,4 @@ warmux
 warmux-servers
 wpan-tools
 wxastrocapture
+watchcatd
