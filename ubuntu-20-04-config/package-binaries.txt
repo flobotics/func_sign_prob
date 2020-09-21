@@ -8031,3 +8031,5 @@
 /usr/bin/mpialign
 /usr/bin/zalign
 /usr/bin/zytrax
+/usr/bin/ziproxy
+/usr/bin/ziproxylogtool
