@@ -2938,3 +2938,5 @@ url-dispatcher-tools
 uvp-monitor
 udfclient
 uswsusp
+upse123
+ukui-sidebar

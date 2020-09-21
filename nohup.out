@@ -27349,3 +27349,21 @@ Real binaries:['/usr/sbin/s2both', '/usr/sbin/s2disk', '/usr/sbin/s2ram', '/usr/
 Write to package-work.txt file: uswsusp
 Write to package-binaries.txt file: ['/usr/sbin/s2both', '/usr/sbin/s2disk', '/usr/sbin/s2ram', '/usr/sbin/swap-offset']
 ['/usr/sbin/s2both', '/usr/sbin/s2disk', '/usr/sbin/s2ram', '/usr/sbin/swap-offset']
+Write pickle file
+tar_out:
+Package-nr:4460 of 11000, Name:upse123-dbgsym
+Package >upse123< not in package-all.txt file
+Write to package-all.txt file: upse123
+In package >upse123< are these binaries: ['/usr/bin/upse123']
+Real binaries:['/usr/bin/upse123']
+Write to package-work.txt file: upse123
+Write to package-binaries.txt file: ['/usr/bin/upse123']
+['/usr/bin/upse123']
+Package-nr:4461 of 11000, Name:ukui-sidebar-dbgsym
+Package >ukui-sidebar< not in package-all.txt file
+Write to package-all.txt file: ukui-sidebar
+In package >ukui-sidebar< are these binaries: ['/usr/bin/ukui-sidebar']
+Real binaries:['/usr/bin/ukui-sidebar']
+Write to package-work.txt file: ukui-sidebar
+Write to package-binaries.txt file: ['/usr/bin/ukui-sidebar']
+['/usr/bin/ukui-sidebar']
