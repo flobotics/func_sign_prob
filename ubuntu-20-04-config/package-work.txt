@@ -3462,3 +3462,4 @@ sac2mseed
 salmon
 silversearcher-ag
 smemstat
+ssdeep
