@@ -8722,3 +8722,4 @@
 /usr/bin/netsend
 /usr/bin/kaeru
 /usr/bin/futatabi
+/usr/bin/nheko
