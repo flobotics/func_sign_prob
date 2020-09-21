@@ -2904,3 +2904,5 @@ upx-ucl
 uapevent
 unworkable
 uisp
+userinfo
+uacme

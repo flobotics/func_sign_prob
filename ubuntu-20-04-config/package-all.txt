@@ -4408,3 +4408,5 @@ umview-mod-viewfs
 uapevent
 unworkable
 uisp
+userinfo
+uacme
