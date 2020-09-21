@@ -5141,3 +5141,5 @@ shntool
 spacenavd
 stm32flash
 sim4
+python3-segyio
+segyio-bin

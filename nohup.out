@@ -33786,3 +33786,20 @@ Real binaries:['/usr/bin/sim4']
 Write to package-work.txt file: sim4
 Write to package-binaries.txt file: ['/usr/bin/sim4']
 ['/usr/bin/sim4']
+Write pickle file
+tar_out:
+Package-nr:5213 of 11000, Name:python3-segyio-dbgsym
+Package >python3-segyio< not in package-all.txt file
+Write to package-all.txt file: python3-segyio
+In package >python3-segyio< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: python3-segyio
+[]
+Package-nr:5214 of 11000, Name:segyio-bin-dbgsym
+Package >segyio-bin< not in package-all.txt file
+Write to package-all.txt file: segyio-bin
+In package >segyio-bin< are these binaries: ['/usr/bin/segyio-catb', '/usr/bin/segyio-cath', '/usr/bin/segyio-catr', '/usr/bin/segyio-crop', '/usr/share/doc/segyio-bin/copyright', '/usr/share/doc/segyio-bin/changelog.Debian.gz']
+Real binaries:['/usr/bin/segyio-catb', '/usr/bin/segyio-cath', '/usr/bin/segyio-catr', '/usr/bin/segyio-crop']
+Write to package-work.txt file: segyio-bin
+Write to package-binaries.txt file: ['/usr/bin/segyio-catb', '/usr/bin/segyio-cath', '/usr/bin/segyio-catr', '/usr/bin/segyio-crop']
+['/usr/bin/segyio-catb', '/usr/bin/segyio-cath', '/usr/bin/segyio-catr', '/usr/bin/segyio-crop']

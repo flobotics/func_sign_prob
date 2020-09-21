@@ -9580,3 +9580,7 @@
 /usr/bin/spacenavd
 /usr/bin/stm32flash
 /usr/bin/sim4
+/usr/bin/segyio-catb
+/usr/bin/segyio-cath
+/usr/bin/segyio-catr
+/usr/bin/segyio-crop

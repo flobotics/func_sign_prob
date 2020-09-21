@@ -1696,3 +1696,4 @@ yorick-mpeg
 yorick-gl
 ssh-contact-service
 systemtap-server
+python3-segyio

@@ -3440,3 +3440,4 @@ shntool
 spacenavd
 stm32flash
 sim4
+segyio-bin
