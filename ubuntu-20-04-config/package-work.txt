@@ -3424,3 +3424,4 @@ yatm
 yasw
 yadifa
 yash
+yabause-qt

@@ -9559,3 +9559,4 @@
 /usr/bin/yadifa
 /usr/sbin/yadifad
 /usr/bin/yash
+/usr/bin/yabause-qt

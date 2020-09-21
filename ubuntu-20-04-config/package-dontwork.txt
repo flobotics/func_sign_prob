@@ -1691,3 +1691,4 @@ yorick-av
 ycmd
 yorick-gy
 python3-yt
+yorick-ygsl

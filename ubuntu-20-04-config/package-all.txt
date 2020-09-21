@@ -5120,3 +5120,5 @@ yorick-gy
 yadifa
 python3-yt
 yash
+yorick-ygsl
+yabause-qt
