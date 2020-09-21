@@ -3446,3 +3446,4 @@ sysbench
 sogo
 squeezelite-pa
 slurm
+scim

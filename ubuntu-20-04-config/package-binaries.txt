@@ -9598,3 +9598,5 @@
 /usr/sbin/sogod
 /usr/bin/squeezelite-pa
 /usr/bin/slurm
+/usr/bin/scim
+/usr/bin/scim-config-agent
