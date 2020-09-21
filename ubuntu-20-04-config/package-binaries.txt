@@ -9188,3 +9188,4 @@
 /usr/bin/wseventmgr
 /usr/bin/wsman
 /usr/bin/wmxmms2
+/usr/bin/wmget

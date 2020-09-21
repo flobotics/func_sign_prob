@@ -3246,3 +3246,4 @@ wordnet-grind
 wmcliphist
 wsmancli
 wmxmms2
+wmget
