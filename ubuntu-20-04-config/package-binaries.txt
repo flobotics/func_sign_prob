@@ -8327,3 +8327,4 @@
 /usr/sbin/in.uucpd
 /usr/sbin/uurate
 /usr/sbin/uuxqt
+/usr/bin/upx-ucl

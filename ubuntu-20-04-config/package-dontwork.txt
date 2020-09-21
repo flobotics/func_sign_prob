@@ -1495,3 +1495,4 @@ udisks2-vdo
 udisks2-lvm2
 unity-scope-home
 ucimf-sunpinyin
+python3-ukui-menu

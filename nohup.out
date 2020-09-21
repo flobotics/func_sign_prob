@@ -26862,3 +26862,20 @@ Real binaries:['/usr/bin/uucp', '/usr/bin/uulog', '/usr/bin/uuname', '/usr/bin/u
 Write to package-work.txt file: uucp
 Write to package-binaries.txt file: ['/usr/bin/uucp', '/usr/bin/uulog', '/usr/bin/uuname', '/usr/bin/uupick', '/usr/bin/uustat', '/usr/bin/uux', '/usr/sbin/in.uucpd', '/usr/sbin/uurate', '/usr/sbin/uuxqt']
 ['/usr/bin/uucp', '/usr/bin/uulog', '/usr/bin/uuname', '/usr/bin/uupick', '/usr/bin/uustat', '/usr/bin/uux', '/usr/sbin/in.uucpd', '/usr/sbin/uurate', '/usr/sbin/uuxqt']
+Write pickle file
+tar_out:
+Package-nr:4401 of 11000, Name:python3-ukui-menu-dbgsym
+Package >python3-ukui-menu< not in package-all.txt file
+Write to package-all.txt file: python3-ukui-menu
+In package >python3-ukui-menu< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: python3-ukui-menu
+[]
+Package-nr:4402 of 11000, Name:upx-ucl-dbgsym
+Package >upx-ucl< not in package-all.txt file
+Write to package-all.txt file: upx-ucl
+In package >upx-ucl< are these binaries: ['/usr/bin/upx-ucl']
+Real binaries:['/usr/bin/upx-ucl']
+Write to package-work.txt file: upx-ucl
+Write to package-binaries.txt file: ['/usr/bin/upx-ucl']
+['/usr/bin/upx-ucl']

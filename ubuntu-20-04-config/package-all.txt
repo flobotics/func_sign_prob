@@ -4400,3 +4400,5 @@ ucimf-sunpinyin
 universal-ctags
 ubertooth
 uucp
+python3-ukui-menu
+upx-ucl
