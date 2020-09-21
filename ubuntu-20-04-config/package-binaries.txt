@@ -8739,3 +8739,4 @@
 /usr/bin/nvtv
 /usr/sbin/nvdump
 /usr/sbin/nvtvd
+/usr/bin/nickle

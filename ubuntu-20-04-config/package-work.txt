@@ -3063,3 +3063,4 @@ nxagent
 nss-updatedb
 nettle-bin
 nvtv
+nickle
