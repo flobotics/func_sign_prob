@@ -7851,3 +7851,4 @@
 /usr/bin/vlevel
 /usr/bin/vlevel-jack
 /usr/bin/vifm
+/usr/bin/validns
