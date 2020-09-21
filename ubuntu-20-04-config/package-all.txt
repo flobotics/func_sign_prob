@@ -4815,3 +4815,4 @@ webkit2gtk-driver
 wmcoincoin
 why3
 wmrack
+wmmisc
