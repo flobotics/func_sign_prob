@@ -24613,3 +24613,20 @@ Real binaries:['/usr/bin/sftovkb', '/usr/bin/vkeybd']
 Write to package-work.txt file: vkeybd
 Write to package-binaries.txt file: ['/usr/bin/sftovkb', '/usr/bin/vkeybd']
 ['/usr/bin/sftovkb', '/usr/bin/vkeybd']
+Write pickle file
+tar_out:
+Package-nr:4145 of 11000, Name:valabind-dbgsym
+Package >valabind< not in package-all.txt file
+Write to package-all.txt file: valabind
+In package >valabind< are these binaries: ['/usr/share/doc/valabind/changelog.Debian.gz', '/usr/share/doc/valabind/copyright']
+Real binaries:[]
+Write to package-dontwork.txt file: valabind
+[]
+Package-nr:4146 of 11000, Name:vramsteg-dbgsym
+Package >vramsteg< not in package-all.txt file
+Write to package-all.txt file: vramsteg
+In package >vramsteg< are these binaries: ['/usr/bin/vramsteg']
+Real binaries:['/usr/bin/vramsteg']
+Write to package-work.txt file: vramsteg
+Write to package-binaries.txt file: ['/usr/bin/vramsteg']
+['/usr/bin/vramsteg']

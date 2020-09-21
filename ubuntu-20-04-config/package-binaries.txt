@@ -7926,3 +7926,4 @@
 /usr/bin/vtkWrapTclInit-7.1
 /usr/bin/sftovkb
 /usr/bin/vkeybd
+/usr/bin/vramsteg
