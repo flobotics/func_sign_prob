@@ -28142,3 +28142,64 @@ Real binaries:['/usr/bin/nautic']
 Write to package-work.txt file: nautic
 Write to package-binaries.txt file: ['/usr/bin/nautic']
 ['/usr/bin/nautic']
+Write pickle file
+tar_out:
+Package-nr:4555 of 11000, Name:python3-netcdf4-dbgsym
+Package >python3-netcdf4< not in package-all.txt file
+Write to package-all.txt file: python3-netcdf4
+In package >python3-netcdf4< are these binaries: ['/usr/bin/nc3tonc4', '/usr/bin/nc4tonc3', '/usr/bin/ncinfo']
+Real binaries:[]
+Write to package-dontwork.txt file: python3-netcdf4
+[]
+Package-nr:4556 of 11000, Name:network-manager-vpnc-gnome-dbgsym
+Package >network-manager-vpnc-gnome< not in package-all.txt file
+Write to package-all.txt file: network-manager-vpnc-gnome
+In package >network-manager-vpnc-gnome< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: network-manager-vpnc-gnome
+[]
+Package-nr:4557 of 11000, Name:network-manager-vpnc-dbgsym
+Skip package >network-manager-vpnc<, already in package-all.txt file
+[]
+Package-nr:4558 of 11000, Name:nautilus-image-converter-dbgsym
+Package >nautilus-image-converter< not in package-all.txt file
+Write to package-all.txt file: nautilus-image-converter
+In package >nautilus-image-converter< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: nautilus-image-converter
+[]
+Package-nr:4559 of 11000, Name:rsh-server-dbgsym
+Package >rsh-server< not in package-all.txt file
+Write to package-all.txt file: rsh-server
+In package >rsh-server< are these binaries: ['/usr/sbin/checkrhosts', '/usr/sbin/in.rexecd', '/usr/sbin/in.rlogind', '/usr/sbin/in.rshd']
+Real binaries:['/usr/sbin/in.rexecd', '/usr/sbin/in.rlogind', '/usr/sbin/in.rshd']
+Write to package-work.txt file: rsh-server
+Write to package-binaries.txt file: ['/usr/sbin/in.rexecd', '/usr/sbin/in.rlogind', '/usr/sbin/in.rshd']
+['/usr/sbin/in.rexecd', '/usr/sbin/in.rlogind', '/usr/sbin/in.rshd']
+Package-nr:4560 of 11000, Name:rsh-client-dbgsym
+Package >rsh-client< not in package-all.txt file
+Write to package-all.txt file: rsh-client
+In package >rsh-client< are these binaries: ['/usr/bin/netkit-rcp', '/usr/bin/netkit-rlogin', '/usr/bin/netkit-rsh']
+Real binaries:['/usr/bin/netkit-rcp', '/usr/bin/netkit-rlogin', '/usr/bin/netkit-rsh']
+Write to package-work.txt file: rsh-client
+Write to package-binaries.txt file: ['/usr/bin/netkit-rcp', '/usr/bin/netkit-rlogin', '/usr/bin/netkit-rsh']
+['/usr/bin/netkit-rcp', '/usr/bin/netkit-rlogin', '/usr/bin/netkit-rsh']
+Package-nr:4561 of 11000, Name:ng-utils-dbgsym
+Skip package >ng-utils<, already in package-all.txt file
+[]
+Package-nr:4562 of 11000, Name:njplot-dbgsym
+Package >njplot< not in package-all.txt file
+Write to package-all.txt file: njplot
+In package >njplot< are these binaries: ['/usr/bin/newicktops', '/usr/bin/newicktotxt', '/usr/bin/njplot', '/usr/bin/unrooted']
+Real binaries:['/usr/bin/newicktops', '/usr/bin/newicktotxt', '/usr/bin/njplot', '/usr/bin/unrooted']
+Write to package-work.txt file: njplot
+Write to package-binaries.txt file: ['/usr/bin/newicktops', '/usr/bin/newicktotxt', '/usr/bin/njplot', '/usr/bin/unrooted']
+['/usr/bin/newicktops', '/usr/bin/newicktotxt', '/usr/bin/njplot', '/usr/bin/unrooted']
+Package-nr:4563 of 11000, Name:nacl-tools-dbgsym
+Package >nacl-tools< not in package-all.txt file
+Write to package-all.txt file: nacl-tools
+In package >nacl-tools< are these binaries: ['/usr/bin/curvecpclient', '/usr/bin/curvecpmakekey', '/usr/bin/curvecpmessage', '/usr/bin/curvecpprintkey', '/usr/bin/nacl-sha256', '/usr/bin/nacl-sha512', '/usr/sbin/curvecpserver']
+Real binaries:['/usr/bin/curvecpclient', '/usr/bin/curvecpmakekey', '/usr/bin/curvecpmessage', '/usr/bin/curvecpprintkey', '/usr/bin/nacl-sha256', '/usr/bin/nacl-sha512', '/usr/sbin/curvecpserver']
+Write to package-work.txt file: nacl-tools
+Write to package-binaries.txt file: ['/usr/bin/curvecpclient', '/usr/bin/curvecpmakekey', '/usr/bin/curvecpmessage', '/usr/bin/curvecpprintkey', '/usr/bin/nacl-sha256', '/usr/bin/nacl-sha512', '/usr/sbin/curvecpserver']
+['/usr/bin/curvecpclient', '/usr/bin/curvecpmakekey', '/usr/bin/curvecpmessage', '/usr/bin/curvecpprintkey', '/usr/bin/nacl-sha256', '/usr/bin/nacl-sha512', '/usr/sbin/curvecpserver']

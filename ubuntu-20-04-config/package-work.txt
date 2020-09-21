@@ -3000,3 +3000,7 @@ nvramtool
 netrw
 niceshaper
 nautic
+rsh-server
+rsh-client
+njplot
+nacl-tools

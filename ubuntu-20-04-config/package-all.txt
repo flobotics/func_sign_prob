@@ -4534,3 +4534,10 @@ netrw
 nml
 niceshaper
 nautic
+python3-netcdf4
+network-manager-vpnc-gnome
+nautilus-image-converter
+rsh-server
+rsh-client
+njplot
+nacl-tools

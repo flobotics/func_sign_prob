@@ -1529,3 +1529,6 @@ navit-graphics-gtk-drawing-area
 navit-gui-internal
 navit-gui-gtk
 nml
+python3-netcdf4
+network-manager-vpnc-gnome
+nautilus-image-converter
