@@ -4567,3 +4567,6 @@ rwhod
 smb-nat
 nasty
 nomad
+python3-netgen
+nslint
+nmh
