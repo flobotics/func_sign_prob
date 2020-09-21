@@ -1655,3 +1655,4 @@ weechat-core
 weechat-lua
 weechat-python
 akqml
+python-wiredtiger

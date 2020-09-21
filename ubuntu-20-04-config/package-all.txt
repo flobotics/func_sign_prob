@@ -5006,3 +5006,5 @@ winwrangler
 webcamoid
 akqml
 wiredtiger
+python-wiredtiger
+wx-common

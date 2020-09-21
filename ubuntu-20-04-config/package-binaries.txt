@@ -9398,3 +9398,4 @@
 /usr/bin/winwrangler
 /usr/bin/webcamoid
 /usr/bin/wt
+/usr/bin/wxrc
