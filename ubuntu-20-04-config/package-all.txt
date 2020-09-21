@@ -4101,3 +4101,4 @@ vzquota
 vish
 valac
 valadoc
+valac-bin

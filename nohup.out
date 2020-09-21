@@ -24081,3 +24081,13 @@ Real binaries:['/usr/bin/valadoc-0.48']
 Write to package-work.txt file: valadoc
 Write to package-binaries.txt file: ['/usr/bin/valadoc-0.48']
 ['/usr/bin/valadoc-0.48']
+Write pickle file
+tar_out:
+Package-nr:4084 of 11000, Name:valac-bin-dbgsym
+Package >valac-bin< not in package-all.txt file
+Write to package-all.txt file: valac-bin
+In package >valac-bin< are these binaries: ['/usr/bin/valac-0.48', '/usr/share/doc/valac-bin/copyright', '/usr/bin/vala', '/usr/bin/vala-0.48', '/usr/bin/valac', '/usr/share/doc/valac-bin/NEWS.gz', '/usr/share/doc/valac-bin/README', '/usr/share/doc/valac-bin/README.md.gz', '/usr/share/doc/valac-bin/THANKS', '/usr/share/doc/valac-bin/changelog.Debian.gz']
+Real binaries:['/usr/bin/valac-0.48']
+Write to package-work.txt file: valac-bin
+Write to package-binaries.txt file: ['/usr/bin/valac-0.48']
+['/usr/bin/valac-0.48']
