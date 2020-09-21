@@ -8349,3 +8349,10 @@
 /usr/sbin/mkudffs
 /usr/sbin/pktsetup
 /usr/sbin/udflabel
+/usr/bin/uhd_cal_rx_iq_balance
+/usr/bin/uhd_cal_tx_dc_offset
+/usr/bin/uhd_cal_tx_iq_balance
+/usr/bin/uhd_config_info
+/usr/bin/uhd_find_devices
+/usr/bin/uhd_image_loader
+/usr/bin/uhd_usrp_probe

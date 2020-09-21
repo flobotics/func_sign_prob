@@ -2915,3 +2915,4 @@ ukui-settings-daemon
 udpcast
 utox
 udftools
+uhd-host
