@@ -25689,3 +25689,21 @@ Real binaries:['/usr/bin/zita-bls1']
 Write to package-work.txt file: zita-bls1
 Write to package-binaries.txt file: ['/usr/bin/zita-bls1']
 ['/usr/bin/zita-bls1']
+Write pickle file
+tar_out:
+Package-nr:4267 of 11000, Name:zziplib-bin-dbgsym
+Package >zziplib-bin< not in package-all.txt file
+Write to package-all.txt file: zziplib-bin
+In package >zziplib-bin< are these binaries: ['/usr/bin/zzcat', '/usr/bin/zzdir', '/usr/bin/zzxorcat', '/usr/bin/zzxorcopy', '/usr/bin/zzxordir', '/usr/share/doc/zziplib-bin/copyright', '/usr/share/doc/zziplib-bin/changelog.Debian.gz']
+Real binaries:['/usr/bin/zzcat', '/usr/bin/zzdir', '/usr/bin/zzxorcat', '/usr/bin/zzxorcopy', '/usr/bin/zzxordir']
+Write to package-work.txt file: zziplib-bin
+Write to package-binaries.txt file: ['/usr/bin/zzcat', '/usr/bin/zzdir', '/usr/bin/zzxorcat', '/usr/bin/zzxorcopy', '/usr/bin/zzxordir']
+['/usr/bin/zzcat', '/usr/bin/zzdir', '/usr/bin/zzxorcat', '/usr/bin/zzxorcopy', '/usr/bin/zzxordir']
+Package-nr:4268 of 11000, Name:ztclocalagent-dbgsym
+Package >ztclocalagent< not in package-all.txt file
+Write to package-all.txt file: ztclocalagent
+In package >ztclocalagent< are these binaries: ['/usr/bin/ZTCLocalAgent']
+Real binaries:['/usr/bin/ZTCLocalAgent']
+Write to package-work.txt file: ztclocalagent
+Write to package-binaries.txt file: ['/usr/bin/ZTCLocalAgent']
+['/usr/bin/ZTCLocalAgent']

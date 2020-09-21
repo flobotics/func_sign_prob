@@ -8121,3 +8121,9 @@
 /usr/bin/zita-n2j
 /usr/bin/zita-at1
 /usr/bin/zita-bls1
+/usr/bin/zzcat
+/usr/bin/zzdir
+/usr/bin/zzxorcat
+/usr/bin/zzxorcopy
+/usr/bin/zzxordir
+/usr/bin/ZTCLocalAgent
