@@ -4882,3 +4882,4 @@ wine64-preloader
 wallch
 wmcube
 woff2
+wmgtemp

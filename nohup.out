@@ -31387,3 +31387,13 @@ Real binaries:['/usr/bin/woff2_compress', '/usr/bin/woff2_decompress', '/usr/bin
 Write to package-work.txt file: woff2
 Write to package-binaries.txt file: ['/usr/bin/woff2_compress', '/usr/bin/woff2_decompress', '/usr/bin/woff2_info']
 ['/usr/bin/woff2_compress', '/usr/bin/woff2_decompress', '/usr/bin/woff2_info']
+Write pickle file
+tar_out:
+Package-nr:4938 of 11000, Name:wmgtemp-dbgsym
+Package >wmgtemp< not in package-all.txt file
+Write to package-all.txt file: wmgtemp
+In package >wmgtemp< are these binaries: ['/usr/bin/wmgtemp']
+Real binaries:['/usr/bin/wmgtemp']
+Write to package-work.txt file: wmgtemp
+Write to package-binaries.txt file: ['/usr/bin/wmgtemp']
+['/usr/bin/wmgtemp']
