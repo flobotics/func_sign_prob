@@ -5133,3 +5133,4 @@ ssh-contact-service
 ssh-contact-client
 sollya
 socnetv
+snacc

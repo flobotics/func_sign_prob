@@ -9568,3 +9568,8 @@
 /usr/bin/ssh-contact
 /usr/bin/sollya
 /usr/bin/socnetv
+/usr/bin/berdecode
+/usr/bin/mkchdr
+/usr/bin/ptbl
+/usr/bin/pval
+/usr/bin/snacc

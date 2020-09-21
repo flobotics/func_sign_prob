@@ -3433,3 +3433,4 @@ yakuake
 ssh-contact-client
 sollya
 socnetv
+snacc
