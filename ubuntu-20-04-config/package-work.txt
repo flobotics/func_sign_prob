@@ -3515,3 +3515,4 @@ shadowsocks-libev
 supercat
 sapphire
 sffview
+seafile-gui
