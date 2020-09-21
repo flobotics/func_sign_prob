@@ -4075,3 +4075,4 @@ virt-top
 vigor
 volumeicon-alsa
 voms-server
+voms-clients

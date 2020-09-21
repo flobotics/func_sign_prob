@@ -7752,3 +7752,8 @@
 /usr/bin/vigor
 /usr/bin/volumeicon
 /usr/sbin/voms
+/usr/bin/voms-proxy-destroy2
+/usr/bin/voms-proxy-fake
+/usr/bin/voms-proxy-info2
+/usr/bin/voms-proxy-init2
+/usr/bin/voms-verify
