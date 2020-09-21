@@ -8225,3 +8225,5 @@
 /usr/bin/tcpserver
 /usr/bin/unhtml
 /usr/bin/unrtf
+/usr/bin/dnsget
+/usr/bin/rblcheck
