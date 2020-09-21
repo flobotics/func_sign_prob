@@ -7953,3 +7953,4 @@
 /usr/bin/velveth_63
 /usr/bin/velveth_63_long
 /usr/bin/velveth_long
+/usr/bin/vtwm
