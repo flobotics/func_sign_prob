@@ -9262,3 +9262,4 @@
 /usr/bin/wkhtmltoimage
 /usr/bin/wkhtmltopdf
 /usr/bin/whitedune
+/usr/bin/wxHexEditor
