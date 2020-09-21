@@ -10022,3 +10022,5 @@
 /usr/bin/sucrack
 /usr/bin/sslsplit
 /usr/bin/ladspalist
+/usr/bin/soapdenovo2-127mer
+/usr/bin/soapdenovo2-63mer

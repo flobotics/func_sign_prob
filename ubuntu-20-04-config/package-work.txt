@@ -3541,3 +3541,4 @@ snarf
 sucrack
 sslsplit
 ladspalist
+soapdenovo2
