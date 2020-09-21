@@ -10024,3 +10024,4 @@
 /usr/bin/ladspalist
 /usr/bin/soapdenovo2-127mer
 /usr/bin/soapdenovo2-63mer
+/usr/bin/skinedit
