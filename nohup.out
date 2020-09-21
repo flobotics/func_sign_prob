@@ -33609,3 +33609,27 @@ Real binaries:['/usr/bin/yabause-gtk']
 Write to package-work.txt file: yabause-gtk
 Write to package-binaries.txt file: ['/usr/bin/yabause-gtk']
 ['/usr/bin/yabause-gtk']
+Write pickle file
+tar_out:
+Package-nr:5192 of 11000, Name:yorick-mpeg-dbgsym
+Package >yorick-mpeg< not in package-all.txt file
+Write to package-all.txt file: yorick-mpeg
+In package >yorick-mpeg< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: yorick-mpeg
+[]
+Package-nr:5193 of 11000, Name:yorick-gl-dbgsym
+Package >yorick-gl< not in package-all.txt file
+Write to package-all.txt file: yorick-gl
+In package >yorick-gl< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: yorick-gl
+[]
+Package-nr:5194 of 11000, Name:yubioath-desktop-dbgsym
+Package >yubioath-desktop< not in package-all.txt file
+Write to package-all.txt file: yubioath-desktop
+In package >yubioath-desktop< are these binaries: ['/usr/bin/yubioath-desktop']
+Real binaries:['/usr/bin/yubioath-desktop']
+Write to package-work.txt file: yubioath-desktop
+Write to package-binaries.txt file: ['/usr/bin/yubioath-desktop']
+['/usr/bin/yubioath-desktop']

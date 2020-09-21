@@ -3426,3 +3426,4 @@ yadifa
 yash
 yabause-qt
 yabause-gtk
+yubioath-desktop

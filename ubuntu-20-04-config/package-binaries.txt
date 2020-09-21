@@ -9561,3 +9561,4 @@
 /usr/bin/yash
 /usr/bin/yabause-qt
 /usr/bin/yabause-gtk
+/usr/bin/yubioath-desktop
