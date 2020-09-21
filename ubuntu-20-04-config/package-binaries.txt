@@ -7898,3 +7898,4 @@
 /usr/bin/veyon-configurator
 /usr/bin/vdpauinfo
 /usr/bin/vinagre
+/usr/bin/vprerex

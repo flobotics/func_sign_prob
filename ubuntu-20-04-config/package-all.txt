@@ -4145,3 +4145,4 @@ veyon-master
 veyon-configurator
 vdpauinfo
 vinagre
+vprerex
