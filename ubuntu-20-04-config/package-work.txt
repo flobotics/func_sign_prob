@@ -2763,3 +2763,4 @@ zita-lrx
 zulucrypt-gui
 zulumount-gui
 zulucrypt-cli
+zulumount-cli

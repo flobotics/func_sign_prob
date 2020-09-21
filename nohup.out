@@ -25102,3 +25102,13 @@ Real binaries:['/usr/bin/zuluCrypt-cli']
 Write to package-work.txt file: zulucrypt-cli
 Write to package-binaries.txt file: ['/usr/bin/zuluCrypt-cli']
 ['/usr/bin/zuluCrypt-cli']
+Write pickle file
+tar_out:
+Package-nr:4202 of 11000, Name:zulumount-cli-dbgsym
+Package >zulumount-cli< not in package-all.txt file
+Write to package-all.txt file: zulumount-cli
+In package >zulumount-cli< are these binaries: ['/usr/bin/zuluMount-cli']
+Real binaries:['/usr/bin/zuluMount-cli']
+Write to package-work.txt file: zulumount-cli
+Write to package-binaries.txt file: ['/usr/bin/zuluMount-cli']
+['/usr/bin/zuluMount-cli']
