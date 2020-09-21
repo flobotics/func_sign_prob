@@ -1615,3 +1615,5 @@ python3-cec
 python3-columbus
 python3-cap-ng
 wordplay
+websockify
+whysynth

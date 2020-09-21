@@ -9066,3 +9066,4 @@
 /usr/bin/wmclockmon-cal
 /usr/bin/wmclockmon
 /usr/bin/wmclockmon-config
+/usr/bin/WebKitWebDriver

@@ -4809,3 +4809,6 @@ wmfire
 wl-clipboard
 wmwave
 wmclockmon
+websockify
+whysynth
+webkit2gtk-driver

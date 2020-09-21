@@ -30674,3 +30674,27 @@ Real binaries:['/usr/bin/wmclockmon-cal', '/usr/bin/wmclockmon', '/usr/bin/wmclo
 Write to package-work.txt file: wmclockmon
 Write to package-binaries.txt file: ['/usr/bin/wmclockmon-cal', '/usr/bin/wmclockmon', '/usr/bin/wmclockmon-config']
 ['/usr/bin/wmclockmon-cal', '/usr/bin/wmclockmon', '/usr/bin/wmclockmon-config']
+Write pickle file
+tar_out:
+Package-nr:4860 of 11000, Name:websockify-dbgsym
+Package >websockify< not in package-all.txt file
+Write to package-all.txt file: websockify
+In package >websockify< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: websockify
+[]
+Package-nr:4861 of 11000, Name:whysynth-dbgsym
+Package >whysynth< not in package-all.txt file
+Write to package-all.txt file: whysynth
+In package >whysynth< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: whysynth
+[]
+Package-nr:4862 of 11000, Name:webkit2gtk-driver-dbgsym
+Package >webkit2gtk-driver< not in package-all.txt file
+Write to package-all.txt file: webkit2gtk-driver
+In package >webkit2gtk-driver< are these binaries: ['/usr/bin/WebKitWebDriver']
+Real binaries:['/usr/bin/WebKitWebDriver']
+Write to package-work.txt file: webkit2gtk-driver
+Write to package-binaries.txt file: ['/usr/bin/WebKitWebDriver']
+['/usr/bin/WebKitWebDriver']

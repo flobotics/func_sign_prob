@@ -3189,3 +3189,4 @@ wmfire
 wl-clipboard
 wmwave
 wmclockmon
+webkit2gtk-driver
