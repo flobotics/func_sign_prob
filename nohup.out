@@ -26808,3 +26808,20 @@ Real binaries:['/usr/bin/unison-2.48.4-gtk']
 Write to package-work.txt file: unison-gtk
 Write to package-binaries.txt file: ['/usr/bin/unison-2.48.4-gtk']
 ['/usr/bin/unison-2.48.4-gtk']
+Write pickle file
+tar_out:
+Package-nr:4395 of 11000, Name:unity-scope-home-dbgsym
+Package >unity-scope-home< not in package-all.txt file
+Write to package-all.txt file: unity-scope-home
+In package >unity-scope-home< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: unity-scope-home
+[]
+Package-nr:4396 of 11000, Name:uget-dbgsym
+Package >uget< not in package-all.txt file
+Write to package-all.txt file: uget
+In package >uget< are these binaries: ['/usr/bin/uget-gtk', '/usr/bin/uget-gtk-1to2']
+Real binaries:['/usr/bin/uget-gtk', '/usr/bin/uget-gtk-1to2']
+Write to package-work.txt file: uget
+Write to package-binaries.txt file: ['/usr/bin/uget-gtk', '/usr/bin/uget-gtk-1to2']
+['/usr/bin/uget-gtk', '/usr/bin/uget-gtk-1to2']

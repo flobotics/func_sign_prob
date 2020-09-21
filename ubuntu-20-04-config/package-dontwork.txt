@@ -1493,3 +1493,4 @@ udisks2-zram
 udisks2-bcache
 udisks2-vdo
 udisks2-lvm2
+unity-scope-home

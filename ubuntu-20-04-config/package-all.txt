@@ -4394,3 +4394,5 @@ umockdev
 ucarp
 unison
 unison-gtk
+unity-scope-home
+uget
