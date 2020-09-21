@@ -30746,3 +30746,13 @@ Real binaries:['/usr/bin/wrapsrv']
 Write to package-work.txt file: wrapsrv
 Write to package-binaries.txt file: ['/usr/bin/wrapsrv']
 ['/usr/bin/wrapsrv']
+Write pickle file
+tar_out:
+Package-nr:4868 of 11000, Name:wiggle-dbgsym
+Package >wiggle< not in package-all.txt file
+Write to package-all.txt file: wiggle
+In package >wiggle< are these binaries: ['/usr/bin/wiggle']
+Real binaries:['/usr/bin/wiggle']
+Write to package-work.txt file: wiggle
+Write to package-binaries.txt file: ['/usr/bin/wiggle']
+['/usr/bin/wiggle']
