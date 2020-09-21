@@ -5190,3 +5190,4 @@ slinkwatch
 slimevolley
 sagan
 super
+shotdetect

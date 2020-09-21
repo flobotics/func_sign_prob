@@ -9652,3 +9652,4 @@
 /usr/sbin/sagan
 /usr/bin/setuid
 /usr/bin/super
+/usr/bin/shotdetect

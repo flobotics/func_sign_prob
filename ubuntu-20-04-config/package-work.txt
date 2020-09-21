@@ -3471,3 +3471,4 @@ qprogram-starter
 slinkwatch
 sagan
 super
+shotdetect
