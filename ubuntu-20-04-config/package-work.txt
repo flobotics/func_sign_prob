@@ -2715,3 +2715,4 @@ veyon-service
 veyon-master
 veyon-configurator
 vdpauinfo
+vinagre

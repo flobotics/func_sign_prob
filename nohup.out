@@ -24496,3 +24496,13 @@ Real binaries:['/usr/bin/vdpauinfo']
 Write to package-work.txt file: vdpauinfo
 Write to package-binaries.txt file: ['/usr/bin/vdpauinfo']
 ['/usr/bin/vdpauinfo']
+Write pickle file
+tar_out:
+Package-nr:4132 of 11000, Name:vinagre-dbgsym
+Package >vinagre< not in package-all.txt file
+Write to package-all.txt file: vinagre
+In package >vinagre< are these binaries: ['/usr/bin/vinagre']
+Real binaries:['/usr/bin/vinagre']
+Write to package-work.txt file: vinagre
+Write to package-binaries.txt file: ['/usr/bin/vinagre']
+['/usr/bin/vinagre']
