@@ -26002,3 +26002,13 @@ Real binaries:['/usr/bin/fastahack']
 Write to package-work.txt file: fastahack
 Write to package-binaries.txt file: ['/usr/bin/fastahack']
 ['/usr/bin/fastahack']
+Write pickle file
+tar_out:
+Package-nr:4302 of 11000, Name:ffado-tools-dbgsym
+Package >ffado-tools< not in package-all.txt file
+Write to package-all.txt file: ffado-tools
+In package >ffado-tools< are these binaries: ['/usr/bin/ffado-bridgeco-downloader', '/usr/bin/ffado-debug', '/usr/bin/ffado-diag', '/usr/bin/ffado-fireworks-downloader', '/usr/bin/ffado-test', '/usr/bin/ffado-test-isorecv', '/usr/bin/ffado-test-isoxmit', '/usr/bin/ffado-test-streaming']
+Real binaries:['/usr/bin/ffado-bridgeco-downloader', '/usr/bin/ffado-fireworks-downloader', '/usr/bin/ffado-test', '/usr/bin/ffado-test-isorecv', '/usr/bin/ffado-test-isoxmit', '/usr/bin/ffado-test-streaming']
+Write to package-work.txt file: ffado-tools
+Write to package-binaries.txt file: ['/usr/bin/ffado-bridgeco-downloader', '/usr/bin/ffado-fireworks-downloader', '/usr/bin/ffado-test', '/usr/bin/ffado-test-isorecv', '/usr/bin/ffado-test-isoxmit', '/usr/bin/ffado-test-streaming']
+['/usr/bin/ffado-bridgeco-downloader', '/usr/bin/ffado-fireworks-downloader', '/usr/bin/ffado-test', '/usr/bin/ffado-test-isorecv', '/usr/bin/ffado-test-isoxmit', '/usr/bin/ffado-test-streaming']

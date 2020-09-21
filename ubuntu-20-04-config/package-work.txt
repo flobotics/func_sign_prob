@@ -2837,3 +2837,4 @@ u2f-host
 ftdi-eeprom
 fido2-tools
 fastahack
+ffado-tools
