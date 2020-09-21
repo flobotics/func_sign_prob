@@ -2709,3 +2709,4 @@ v-sim
 vim-gtk3
 vim-athena
 vim-nox
+xvile
