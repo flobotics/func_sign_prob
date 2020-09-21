@@ -9196,3 +9196,6 @@
 /usr/bin/worker
 /usr/bin/wallch
 /usr/bin/wmcube
+/usr/bin/woff2_compress
+/usr/bin/woff2_decompress
+/usr/bin/woff2_info
