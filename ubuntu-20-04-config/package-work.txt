@@ -2928,3 +2928,5 @@ uefitool-cli
 udunits-bin
 uni2ascii
 unsort
+uaputl
+untex

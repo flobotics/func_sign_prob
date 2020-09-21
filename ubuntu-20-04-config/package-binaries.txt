@@ -8391,3 +8391,5 @@
 /usr/bin/ascii2uni
 /usr/bin/uni2ascii
 /usr/bin/unsort
+/usr/bin/uaputl
+/usr/bin/untex
