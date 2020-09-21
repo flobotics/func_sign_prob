@@ -4894,3 +4894,4 @@ python-wxgtk-media3.0
 python-wxgtk3.0
 python-wxgtk-webview3.0
 weightwatcher
+wininfo

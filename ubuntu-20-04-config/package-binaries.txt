@@ -9210,3 +9210,4 @@
 /usr/bin/wmpinboard
 /usr/bin/wmtemp
 /usr/bin/weightwatcher
+/usr/bin/wininfo
