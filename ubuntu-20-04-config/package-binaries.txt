@@ -9640,3 +9640,4 @@
 /usr/bin/sac2mseed
 /usr/bin/salmon
 /usr/bin/ag
+/usr/bin/smemstat

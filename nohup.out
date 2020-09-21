@@ -34111,3 +34111,13 @@ Real binaries:['/usr/bin/ag']
 Write to package-work.txt file: silversearcher-ag
 Write to package-binaries.txt file: ['/usr/bin/ag']
 ['/usr/bin/ag']
+Write pickle file
+tar_out:
+Package-nr:5253 of 11000, Name:smemstat-dbgsym
+Package >smemstat< not in package-all.txt file
+Write to package-all.txt file: smemstat
+In package >smemstat< are these binaries: ['/usr/bin/smemstat']
+Real binaries:['/usr/bin/smemstat']
+Write to package-work.txt file: smemstat
+Write to package-binaries.txt file: ['/usr/bin/smemstat']
+['/usr/bin/smemstat']
