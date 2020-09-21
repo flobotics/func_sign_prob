@@ -31501,3 +31501,13 @@ Real binaries:['/usr/bin/wininfo']
 Write to package-work.txt file: wininfo
 Write to package-binaries.txt file: ['/usr/bin/wininfo']
 ['/usr/bin/wininfo']
+Write pickle file
+tar_out:
+Package-nr:4952 of 11000, Name:watchman-dbgsym
+Package >watchman< not in package-all.txt file
+Write to package-all.txt file: watchman
+In package >watchman< are these binaries: ['/usr/bin/watchman']
+Real binaries:['/usr/bin/watchman']
+Write to package-work.txt file: watchman
+Write to package-binaries.txt file: ['/usr/bin/watchman']
+['/usr/bin/watchman']

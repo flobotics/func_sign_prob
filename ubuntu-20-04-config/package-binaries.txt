@@ -9211,3 +9211,4 @@
 /usr/bin/wmtemp
 /usr/bin/weightwatcher
 /usr/bin/wininfo
+/usr/bin/watchman
