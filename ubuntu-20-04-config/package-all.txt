@@ -5050,3 +5050,6 @@ ncl-tools
 neo4j-client
 python3-libnbd
 nbdfuse
+gstreamer1.0-nice
+python3-liblnk
+lightify-util

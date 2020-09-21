@@ -1663,3 +1663,5 @@ python3-wxgtk4.0
 python3-wxgtk-media4.0
 python3-libnatpmp
 python3-libnbd
+gstreamer1.0-nice
+python3-liblnk

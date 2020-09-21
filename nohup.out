@@ -32950,3 +32950,27 @@ Real binaries:['/usr/bin/nbdfuse']
 Write to package-work.txt file: nbdfuse
 Write to package-binaries.txt file: ['/usr/bin/nbdfuse']
 ['/usr/bin/nbdfuse']
+Write pickle file
+tar_out:
+Package-nr:5113 of 11000, Name:gstreamer1.0-nice-dbgsym
+Package >gstreamer1.0-nice< not in package-all.txt file
+Write to package-all.txt file: gstreamer1.0-nice
+In package >gstreamer1.0-nice< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: gstreamer1.0-nice
+[]
+Package-nr:5114 of 11000, Name:python3-liblnk-dbgsym
+Package >python3-liblnk< not in package-all.txt file
+Write to package-all.txt file: python3-liblnk
+In package >python3-liblnk< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: python3-liblnk
+[]
+Package-nr:5115 of 11000, Name:lightify-util-dbgsym
+Package >lightify-util< not in package-all.txt file
+Write to package-all.txt file: lightify-util
+In package >lightify-util< are these binaries: ['/usr/bin/lightify-util']
+Real binaries:['/usr/bin/lightify-util']
+Write to package-work.txt file: lightify-util
+Write to package-binaries.txt file: ['/usr/bin/lightify-util']
+['/usr/bin/lightify-util']
