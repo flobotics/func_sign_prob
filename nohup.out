@@ -26703,3 +26703,13 @@ Real binaries:['/usr/bin/utf8gen']
 Write to package-work.txt file: utf8gen
 Write to package-binaries.txt file: ['/usr/bin/utf8gen']
 ['/usr/bin/utf8gen']
+Write pickle file
+tar_out:
+Package-nr:4383 of 11000, Name:ukui-media-dbgsym
+Package >ukui-media< not in package-all.txt file
+Write to package-all.txt file: ukui-media
+In package >ukui-media< are these binaries: ['/usr/bin/ukui-volume-control', '/usr/bin/ukui-volume-control-applet', '/usr/bin/ukui-volume-control-applet-qt']
+Real binaries:['/usr/bin/ukui-volume-control', '/usr/bin/ukui-volume-control-applet', '/usr/bin/ukui-volume-control-applet-qt']
+Write to package-work.txt file: ukui-media
+Write to package-binaries.txt file: ['/usr/bin/ukui-volume-control', '/usr/bin/ukui-volume-control-applet', '/usr/bin/ukui-volume-control-applet-qt']
+['/usr/bin/ukui-volume-control', '/usr/bin/ukui-volume-control-applet', '/usr/bin/ukui-volume-control-applet-qt']

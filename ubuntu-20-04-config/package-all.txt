@@ -4382,3 +4382,4 @@ unhide
 ucimf-openvanilla
 uchardet
 utf8gen
+ukui-media

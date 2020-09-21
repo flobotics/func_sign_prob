@@ -8291,3 +8291,6 @@
 /usr/sbin/unhide_rb
 /usr/bin/uchardet
 /usr/bin/utf8gen
+/usr/bin/ukui-volume-control
+/usr/bin/ukui-volume-control-applet
+/usr/bin/ukui-volume-control-applet-qt
