@@ -8769,3 +8769,7 @@
 /usr/bin/nifti_stats
 /usr/bin/nifti_tool
 /usr/bin/nemiver
+/usr/bin/nccopy
+/usr/bin/ncdump
+/usr/bin/ncgen
+/usr/bin/ncgen3
