@@ -25930,3 +25930,20 @@ Real binaries:['/usr/bin/u2f-host']
 Write to package-work.txt file: u2f-host
 Write to package-binaries.txt file: ['/usr/bin/u2f-host']
 ['/usr/bin/u2f-host']
+Write pickle file
+tar_out:
+Package-nr:4293 of 11000, Name:python3-fsapfs-dbgsym
+Package >python3-fsapfs< not in package-all.txt file
+Write to package-all.txt file: python3-fsapfs
+In package >python3-fsapfs< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: python3-fsapfs
+[]
+Package-nr:4294 of 11000, Name:ftdi-eeprom-dbgsym
+Package >ftdi-eeprom< not in package-all.txt file
+Write to package-all.txt file: ftdi-eeprom
+In package >ftdi-eeprom< are these binaries: ['/usr/bin/ftdi_eeprom']
+Real binaries:['/usr/bin/ftdi_eeprom']
+Write to package-work.txt file: ftdi-eeprom
+Write to package-binaries.txt file: ['/usr/bin/ftdi_eeprom']
+['/usr/bin/ftdi_eeprom']

@@ -1458,3 +1458,4 @@ zathura-djvu
 php-zeroc-ice
 python3-zeroc-ice
 python3-zope.i18nmessageid
+python3-fsapfs

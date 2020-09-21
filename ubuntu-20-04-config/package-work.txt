@@ -2834,3 +2834,4 @@ zeitgeist-core
 numconv
 u2f-server
 u2f-host
+ftdi-eeprom
