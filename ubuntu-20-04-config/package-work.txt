@@ -3036,3 +3036,4 @@ nwipe
 nghttp2-proxy
 nghttp2-server
 nghttp2-client
+snmptrapd

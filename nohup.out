@@ -28641,3 +28641,13 @@ Real binaries:['/usr/bin/h2load', '/usr/bin/nghttp']
 Write to package-work.txt file: nghttp2-client
 Write to package-binaries.txt file: ['/usr/bin/h2load', '/usr/bin/nghttp']
 ['/usr/bin/h2load', '/usr/bin/nghttp']
+Write pickle file
+tar_out:
+Package-nr:4618 of 11000, Name:snmptrapd-dbgsym
+Package >snmptrapd< not in package-all.txt file
+Write to package-all.txt file: snmptrapd
+In package >snmptrapd< are these binaries: ['/usr/bin/traptoemail', '/usr/sbin/snmptrapd']
+Real binaries:['/usr/sbin/snmptrapd']
+Write to package-work.txt file: snmptrapd
+Write to package-binaries.txt file: ['/usr/sbin/snmptrapd']
+['/usr/sbin/snmptrapd']

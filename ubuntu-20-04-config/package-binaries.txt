@@ -8644,3 +8644,4 @@
 /usr/sbin/nghttpd
 /usr/bin/h2load
 /usr/bin/nghttp
+/usr/sbin/snmptrapd
