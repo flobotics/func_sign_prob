@@ -4221,3 +4221,4 @@ znc-tcl
 znc-perl
 znc-python
 zbarcam-qt
+zbarcam-gtk

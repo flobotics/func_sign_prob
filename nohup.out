@@ -25218,3 +25218,13 @@ Real binaries:['/usr/bin/zbarcam-qt']
 Write to package-work.txt file: zbarcam-qt
 Write to package-binaries.txt file: ['/usr/bin/zbarcam-qt']
 ['/usr/bin/zbarcam-qt']
+Write pickle file
+tar_out:
+Package-nr:4216 of 11000, Name:zbarcam-gtk-dbgsym
+Package >zbarcam-gtk< not in package-all.txt file
+Write to package-all.txt file: zbarcam-gtk
+In package >zbarcam-gtk< are these binaries: ['/usr/bin/zbarcam-gtk']
+Real binaries:['/usr/bin/zbarcam-gtk']
+Write to package-work.txt file: zbarcam-gtk
+Write to package-binaries.txt file: ['/usr/bin/zbarcam-gtk']
+['/usr/bin/zbarcam-gtk']

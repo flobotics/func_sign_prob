@@ -8021,3 +8021,4 @@
 /usr/bin/alsa_delay
 /usr/bin/alsa_loopback
 /usr/bin/zbarcam-qt
+/usr/bin/zbarcam-gtk
