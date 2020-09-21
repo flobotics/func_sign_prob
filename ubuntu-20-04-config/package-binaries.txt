@@ -7792,3 +7792,4 @@
 /usr/bin/varnishtop
 /usr/sbin/varnishd
 /usr/bin/vgrabbj
+/usr/bin/viewnior
