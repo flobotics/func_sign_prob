@@ -8330,3 +8330,4 @@
 /usr/bin/upx-ucl
 /usr/bin/uapevent
 /usr/bin/unworkable
+/usr/bin/uisp

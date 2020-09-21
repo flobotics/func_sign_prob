@@ -26921,3 +26921,13 @@ Real binaries:['/usr/bin/unworkable']
 Write to package-work.txt file: unworkable
 Write to package-binaries.txt file: ['/usr/bin/unworkable']
 ['/usr/bin/unworkable']
+Write pickle file
+tar_out:
+Package-nr:4409 of 11000, Name:uisp-dbgsym
+Package >uisp< not in package-all.txt file
+Write to package-all.txt file: uisp
+In package >uisp< are these binaries: ['/usr/bin/uisp']
+Real binaries:['/usr/bin/uisp']
+Write to package-work.txt file: uisp
+Write to package-binaries.txt file: ['/usr/bin/uisp']
+['/usr/bin/uisp']
