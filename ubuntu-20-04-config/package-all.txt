@@ -4779,3 +4779,5 @@ netpipe-pvm
 netpipe-tcp
 netpipe-openmpi
 netpipe-lam
+node-modern-syslog
+netmask
