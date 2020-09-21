@@ -3169,3 +3169,4 @@ netpipe-tcp
 netpipe-openmpi
 netpipe-lam
 netmask
+cdrskin

@@ -4781,3 +4781,6 @@ netpipe-openmpi
 netpipe-lam
 node-modern-syslog
 netmask
+network-manager-strongswan
+python3-libbde
+cdrskin

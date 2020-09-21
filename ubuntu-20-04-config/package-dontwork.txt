@@ -1607,3 +1607,5 @@ tclspice
 python3-ntp
 numptyphysics
 node-modern-syslog
+network-manager-strongswan
+python3-libbde
