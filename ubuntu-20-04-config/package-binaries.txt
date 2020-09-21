@@ -9446,3 +9446,11 @@
 /usr/bin/wmtime
 /usr/bin/wgdb
 /usr/bin/natpmpc
+/usr/bin/NCLconverter
+/usr/bin/NEXUSnormalizer
+/usr/bin/NEXUSvalidator
+/usr/bin/checktaxonnodes
+/usr/bin/findunsupportededges
+/usr/bin/otTreeInspect
+/usr/bin/otsubtree
+/usr/bin/outdeg1count
