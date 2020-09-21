@@ -7810,3 +7810,4 @@
 /usr/bin/vapigen-0.48
 /usr/bin/valadoc-0.48
 /usr/bin/valac-0.48
+/usr/sbin/vtund
