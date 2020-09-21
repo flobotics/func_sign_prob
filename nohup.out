@@ -24466,3 +24466,13 @@ Real binaries:['/usr/bin/veyon-auth-helper', '/usr/bin/veyon-cli', '/usr/bin/vey
 Write to package-work.txt file: veyon-service
 Write to package-binaries.txt file: ['/usr/bin/veyon-auth-helper', '/usr/bin/veyon-cli', '/usr/bin/veyon-server', '/usr/bin/veyon-service', '/usr/bin/veyon-worker']
 ['/usr/bin/veyon-auth-helper', '/usr/bin/veyon-cli', '/usr/bin/veyon-server', '/usr/bin/veyon-service', '/usr/bin/veyon-worker']
+Write pickle file
+tar_out:
+Package-nr:4129 of 11000, Name:veyon-master-dbgsym
+Package >veyon-master< not in package-all.txt file
+Write to package-all.txt file: veyon-master
+In package >veyon-master< are these binaries: ['/usr/bin/veyon-master']
+Real binaries:['/usr/bin/veyon-master']
+Write to package-work.txt file: veyon-master
+Write to package-binaries.txt file: ['/usr/bin/veyon-master']
+['/usr/bin/veyon-master']

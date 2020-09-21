@@ -7894,3 +7894,4 @@
 /usr/bin/veyon-server
 /usr/bin/veyon-service
 /usr/bin/veyon-worker
+/usr/bin/veyon-master
