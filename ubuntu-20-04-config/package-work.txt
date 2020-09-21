@@ -2861,3 +2861,4 @@ ubuntu-app-launch
 ubuntu-app-test
 ubuntu-app-launch-tools
 xdeview
+uudeview

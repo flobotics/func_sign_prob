@@ -8248,3 +8248,5 @@
 /usr/bin/ubuntu-helper-start
 /usr/bin/ubuntu-helper-stop
 /usr/bin/uuwish
+/usr/bin/uudeview
+/usr/bin/uuenview
