@@ -9648,3 +9648,5 @@
 /usr/bin/qshutdown
 /usr/bin/qprogram-starter
 /usr/bin/slinkwatch
+/usr/bin/sagan
+/usr/sbin/sagan
