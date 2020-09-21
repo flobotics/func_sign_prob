@@ -1506,3 +1506,4 @@ python3-uhd
 uc-echo
 unicycler
 ukui-polkit
+python3-unbound
