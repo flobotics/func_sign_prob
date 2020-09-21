@@ -5087,3 +5087,5 @@ ykush-control
 yodl
 yajl-tools
 yubikey-personalization
+yorick-imutil
+yforth
