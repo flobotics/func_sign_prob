@@ -8718,3 +8718,4 @@
 /usr/bin/nauty-watercluster2
 /usr/bin/daxctl
 /usr/bin/ncbi-seg
+/usr/bin/numad

@@ -4600,3 +4600,4 @@ node-node-stringprep
 nauty
 daxctl
 ncbi-seg
+numad
