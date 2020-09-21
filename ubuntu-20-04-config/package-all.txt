@@ -4265,3 +4265,4 @@ z80dasm
 zutils
 zbackup
 zfs-fuse
+zdbsp

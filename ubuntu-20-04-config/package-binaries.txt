@@ -8116,3 +8116,4 @@
 /sbin/zfs-fuse
 /sbin/zpool
 /sbin/zstreamdump
+/usr/bin/zdbsp
