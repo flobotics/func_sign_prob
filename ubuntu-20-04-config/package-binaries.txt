@@ -8724,3 +8724,4 @@
 /usr/bin/futatabi
 /usr/bin/nheko
 /usr/bin/ftp-ssl
+/usr/bin/nss-passwords

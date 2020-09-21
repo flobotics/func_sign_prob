@@ -4606,3 +4606,7 @@ nageru
 futatabi
 nheko
 ftp-ssl
+nginx-extras
+nginx-full
+nginx-light
+nss-passwords

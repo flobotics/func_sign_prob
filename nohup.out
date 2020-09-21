@@ -28808,3 +28808,37 @@ Real binaries:['/usr/bin/ftp-ssl']
 Write to package-work.txt file: ftp-ssl
 Write to package-binaries.txt file: ['/usr/bin/ftp-ssl']
 ['/usr/bin/ftp-ssl']
+Write pickle file
+tar_out:
+Package-nr:4636 of 11000, Name:nginx-extras-dbgsym
+Package >nginx-extras< not in package-all.txt file
+Write to package-all.txt file: nginx-extras
+In package >nginx-extras< are these binaries: ['/usr/sbin/nginx']
+Real binaries:['/usr/sbin/nginx']
+Write to package-work.txt file: nginx-extras
+No binaries to write to package-binaries.txt file
+[]
+Package-nr:4637 of 11000, Name:nginx-full-dbgsym
+Package >nginx-full< not in package-all.txt file
+Write to package-all.txt file: nginx-full
+In package >nginx-full< are these binaries: ['/usr/sbin/nginx']
+Real binaries:['/usr/sbin/nginx']
+Write to package-work.txt file: nginx-full
+No binaries to write to package-binaries.txt file
+[]
+Package-nr:4638 of 11000, Name:nginx-light-dbgsym
+Package >nginx-light< not in package-all.txt file
+Write to package-all.txt file: nginx-light
+In package >nginx-light< are these binaries: ['/usr/sbin/nginx']
+Real binaries:['/usr/sbin/nginx']
+Write to package-work.txt file: nginx-light
+No binaries to write to package-binaries.txt file
+[]
+Package-nr:4639 of 11000, Name:nss-passwords-dbgsym
+Package >nss-passwords< not in package-all.txt file
+Write to package-all.txt file: nss-passwords
+In package >nss-passwords< are these binaries: ['/usr/bin/nss-passwords']
+Real binaries:['/usr/bin/nss-passwords']
+Write to package-work.txt file: nss-passwords
+Write to package-binaries.txt file: ['/usr/bin/nss-passwords']
+['/usr/bin/nss-passwords']
