@@ -3334,3 +3334,4 @@ wmaker
 wmaker-utils
 wmanager
 wavbreaker
+wimtools
