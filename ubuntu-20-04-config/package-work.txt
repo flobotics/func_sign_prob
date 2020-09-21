@@ -3524,3 +3524,4 @@ subversion-tools
 snmptrapfmt
 snp-sites
 sunxi-tools
+smb4k
