@@ -30826,3 +30826,13 @@ Real binaries:['/usr/bin/wpg2odg']
 Write to package-work.txt file: wpg2odg
 Write to package-binaries.txt file: ['/usr/bin/wpg2odg']
 ['/usr/bin/wpg2odg']
+Write pickle file
+tar_out:
+Package-nr:4876 of 11000, Name:abw2epub-dbgsym
+Package >abw2epub< not in package-all.txt file
+Write to package-all.txt file: abw2epub
+In package >abw2epub< are these binaries: ['/usr/bin/abw2epub']
+Real binaries:['/usr/bin/abw2epub']
+Write to package-work.txt file: abw2epub
+Write to package-binaries.txt file: ['/usr/bin/abw2epub']
+['/usr/bin/abw2epub']

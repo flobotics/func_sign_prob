@@ -4825,3 +4825,4 @@ wpd2epub
 sd2odf
 wps2epub
 wpg2odg
+abw2epub
