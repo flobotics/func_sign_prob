@@ -9399,3 +9399,4 @@
 /usr/bin/webcamoid
 /usr/bin/wt
 /usr/bin/wxrc
+/usr/bin/wa_keyring
