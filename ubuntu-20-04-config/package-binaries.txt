@@ -8195,3 +8195,15 @@
 /usr/bin/usbview
 /usr/bin/unionfs
 /usr/bin/unionfsctl
+/usr/bin/unibdf2hex
+/usr/bin/unibmp2hex
+/usr/bin/unibmpbump
+/usr/bin/unicoverage
+/usr/bin/unidup
+/usr/bin/unifont1per
+/usr/bin/unifontpic
+/usr/bin/unigencircles
+/usr/bin/unigenwidth
+/usr/bin/unihex2bmp
+/usr/bin/unihexgen
+/usr/bin/unipagecount

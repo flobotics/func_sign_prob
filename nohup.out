@@ -26090,3 +26090,13 @@ Real binaries:['/usr/bin/unionfs', '/usr/bin/unionfsctl']
 Write to package-work.txt file: unionfs-fuse
 Write to package-binaries.txt file: ['/usr/bin/unionfs', '/usr/bin/unionfsctl']
 ['/usr/bin/unionfs', '/usr/bin/unionfsctl']
+Write pickle file
+tar_out:
+Package-nr:4312 of 11000, Name:unifont-bin-dbgsym
+Package >unifont-bin< not in package-all.txt file
+Write to package-all.txt file: unifont-bin
+In package >unifont-bin< are these binaries: ['/usr/bin/bdfimplode', '/usr/bin/hex2bdf', '/usr/bin/hex2sfd', '/usr/bin/hexbraille', '/usr/bin/hexdraw', '/usr/bin/hexkinya', '/usr/bin/hexmerge', '/usr/bin/johab2ucs2', '/usr/bin/unibdf2hex', '/usr/bin/unibmp2hex', '/usr/bin/unibmpbump', '/usr/bin/unicoverage', '/usr/bin/unidup', '/usr/bin/unifont-viewer', '/usr/bin/unifont1per', '/usr/bin/unifontchojung', '/usr/bin/unifontksx', '/usr/bin/unifontpic', '/usr/bin/unigencircles', '/usr/bin/unigenwidth', '/usr/bin/unihex2bmp', '/usr/bin/unihex2png', '/usr/bin/unihexfill', '/usr/bin/unihexgen', '/usr/bin/unihexrotate', '/usr/bin/unipagecount', '/usr/bin/unipng2hex', '/usr/share/doc/unifont-bin/NEWS.gz', '/usr/share/doc/unifont-bin/README.gz', '/usr/share/doc/unifont-bin/changelog.Debian.gz', '/usr/share/doc/unifont-bin/copyright', '/usr/share/doc/unifont-bin/unifont.pdf.gz', '/usr/share/doc/unifont-bin/unifont.txt.gz']
+Real binaries:['/usr/bin/unibdf2hex', '/usr/bin/unibmp2hex', '/usr/bin/unibmpbump', '/usr/bin/unicoverage', '/usr/bin/unidup', '/usr/bin/unifont1per', '/usr/bin/unifontpic', '/usr/bin/unigencircles', '/usr/bin/unigenwidth', '/usr/bin/unihex2bmp', '/usr/bin/unihexgen', '/usr/bin/unipagecount']
+Write to package-work.txt file: unifont-bin
+Write to package-binaries.txt file: ['/usr/bin/unibdf2hex', '/usr/bin/unibmp2hex', '/usr/bin/unibmpbump', '/usr/bin/unicoverage', '/usr/bin/unidup', '/usr/bin/unifont1per', '/usr/bin/unifontpic', '/usr/bin/unigencircles', '/usr/bin/unigenwidth', '/usr/bin/unihex2bmp', '/usr/bin/unihexgen', '/usr/bin/unipagecount']
+['/usr/bin/unibdf2hex', '/usr/bin/unibmp2hex', '/usr/bin/unibmpbump', '/usr/bin/unicoverage', '/usr/bin/unidup', '/usr/bin/unifont1per', '/usr/bin/unifontpic', '/usr/bin/unigencircles', '/usr/bin/unigenwidth', '/usr/bin/unihex2bmp', '/usr/bin/unihexgen', '/usr/bin/unipagecount']
