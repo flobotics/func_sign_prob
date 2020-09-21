@@ -33089,3 +33089,16 @@ Real binaries:['/usr/lib/yorick/bin/mpy.mpich2']
 Write to package-work.txt file: yorick-mpy-mpich2
 Write to package-binaries.txt file: ['/usr/lib/yorick/bin/mpy.mpich2']
 ['/usr/lib/yorick/bin/mpy.mpich2']
+Write pickle file
+tar_out:
+Package-nr:5129 of 11000, Name:yorick-dbgsym
+Skip package >yorick<, already in package-all.txt file
+[]
+Package-nr:5130 of 11000, Name:yorick-mpy-openmpi-dbgsym
+Package >yorick-mpy-openmpi< not in package-all.txt file
+Write to package-all.txt file: yorick-mpy-openmpi
+In package >yorick-mpy-openmpi< are these binaries: ['/usr/lib/yorick/bin/mpy.openmpi', '/usr/bin/mpy.openmpi']
+Real binaries:['/usr/lib/yorick/bin/mpy.openmpi']
+Write to package-work.txt file: yorick-mpy-openmpi
+Write to package-binaries.txt file: ['/usr/lib/yorick/bin/mpy.openmpi']
+['/usr/lib/yorick/bin/mpy.openmpi']

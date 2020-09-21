@@ -9508,3 +9508,4 @@
 /usr/bin/yavta
 /usr/bin/yacas
 /usr/lib/yorick/bin/mpy.mpich2
+/usr/lib/yorick/bin/mpy.openmpi
