@@ -10,12 +10,25 @@ import getopt
 import sys
 from multiprocessing import Pool
 
+### amazon cloud aws path
 base_path = "/home/ubuntu/git/func_sign_prob/"
+### google cloud gcp path
+#base_path = "/home/infloflo/git/func_sign_prob/"
+### virtualbox path
 #base_path = "/home/ubu/git/test2/func_sign_prob/"
+
+### dir where packages-* files are located
 config_dir = "ubuntu-20-04-config/"
+### dir where the build pickle files are stored
 pickles_dir = "ubuntu-20-04-pickles/"
+
+### if aws or gcp is used
 gcloud = True
+
+###aws c5d.x12large
 nr_of_cpus = 48
+###virtualbox
+#nr_of_cpus = 2
 
 
 ### get a list with all packages with ending -dbgsym
