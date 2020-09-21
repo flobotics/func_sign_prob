@@ -9345,3 +9345,4 @@
 /usr/bin/wmhdplop
 /usr/bin/wayland-scanner++
 /usr/bin/wmsysmon
+/usr/sbin/uniconfd

@@ -3323,3 +3323,5 @@ wmitime
 wmhdplop
 wayland-scanner++
 wmsysmon
+uniconf-tools
+uniconfd

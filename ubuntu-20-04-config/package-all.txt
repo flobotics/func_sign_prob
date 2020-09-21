@@ -4974,3 +4974,5 @@ wmhdplop
 wayland-scanner++
 wsynth-dssi
 wmsysmon
+uniconf-tools
+uniconfd

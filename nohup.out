@@ -32238,3 +32238,21 @@ Real binaries:['/usr/bin/wmsysmon']
 Write to package-work.txt file: wmsysmon
 Write to package-binaries.txt file: ['/usr/bin/wmsysmon']
 ['/usr/bin/wmsysmon']
+Write pickle file
+tar_out:
+Package-nr:5034 of 11000, Name:uniconf-tools-dbgsym
+Package >uniconf-tools< not in package-all.txt file
+Write to package-all.txt file: uniconf-tools
+In package >uniconf-tools< are these binaries: ['/usr/bin/uni']
+Real binaries:['/usr/bin/uni']
+Write to package-work.txt file: uniconf-tools
+No binaries to write to package-binaries.txt file
+[]
+Package-nr:5035 of 11000, Name:uniconfd-dbgsym
+Package >uniconfd< not in package-all.txt file
+Write to package-all.txt file: uniconfd
+In package >uniconfd< are these binaries: ['/usr/sbin/uniconfd']
+Real binaries:['/usr/sbin/uniconfd']
+Write to package-work.txt file: uniconfd
+Write to package-binaries.txt file: ['/usr/sbin/uniconfd']
+['/usr/sbin/uniconfd']
