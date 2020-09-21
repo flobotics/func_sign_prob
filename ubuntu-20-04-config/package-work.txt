@@ -2815,3 +2815,4 @@ zita-at1
 zita-bls1
 zziplib-bin
 ztclocalagent
+zeroc-ice-utils

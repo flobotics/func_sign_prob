@@ -1453,3 +1453,6 @@ zoom-player
 zaz
 zlibc
 python3-zope.proxy
+zathura-pdf-poppler
+zathura-djvu
+php-zeroc-ice

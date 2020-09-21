@@ -4273,3 +4273,7 @@ python3-zope.proxy
 zita-bls1
 zziplib-bin
 ztclocalagent
+zathura-pdf-poppler
+zathura-djvu
+php-zeroc-ice
+zeroc-ice-utils

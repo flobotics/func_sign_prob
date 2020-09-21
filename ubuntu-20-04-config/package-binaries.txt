@@ -8127,3 +8127,10 @@
 /usr/bin/zzxorcopy
 /usr/bin/zzxordir
 /usr/bin/ZTCLocalAgent
+/usr/bin/iceboxadmin
+/usr/bin/icegridadmin
+/usr/bin/icegriddb
+/usr/bin/icepatch2calc
+/usr/bin/icepatch2client
+/usr/bin/icestormadmin
+/usr/bin/icestormdb

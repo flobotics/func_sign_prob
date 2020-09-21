@@ -25707,3 +25707,34 @@ Real binaries:['/usr/bin/ZTCLocalAgent']
 Write to package-work.txt file: ztclocalagent
 Write to package-binaries.txt file: ['/usr/bin/ZTCLocalAgent']
 ['/usr/bin/ZTCLocalAgent']
+Write pickle file
+tar_out:
+Package-nr:4269 of 11000, Name:zathura-pdf-poppler-dbgsym
+Package >zathura-pdf-poppler< not in package-all.txt file
+Write to package-all.txt file: zathura-pdf-poppler
+In package >zathura-pdf-poppler< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: zathura-pdf-poppler
+[]
+Package-nr:4270 of 11000, Name:zathura-djvu-dbgsym
+Package >zathura-djvu< not in package-all.txt file
+Write to package-all.txt file: zathura-djvu
+In package >zathura-djvu< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: zathura-djvu
+[]
+Package-nr:4271 of 11000, Name:php-zeroc-ice-dbgsym
+Package >php-zeroc-ice< not in package-all.txt file
+Write to package-all.txt file: php-zeroc-ice
+In package >php-zeroc-ice< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: php-zeroc-ice
+[]
+Package-nr:4272 of 11000, Name:zeroc-ice-utils-dbgsym
+Package >zeroc-ice-utils< not in package-all.txt file
+Write to package-all.txt file: zeroc-ice-utils
+In package >zeroc-ice-utils< are these binaries: ['/usr/bin/iceboxadmin', '/usr/bin/icegridadmin', '/usr/bin/icegriddb', '/usr/bin/icepatch2calc', '/usr/bin/icepatch2client', '/usr/bin/icestormadmin', '/usr/bin/icestormdb']
+Real binaries:['/usr/bin/iceboxadmin', '/usr/bin/icegridadmin', '/usr/bin/icegriddb', '/usr/bin/icepatch2calc', '/usr/bin/icepatch2client', '/usr/bin/icestormadmin', '/usr/bin/icestormdb']
+Write to package-work.txt file: zeroc-ice-utils
+Write to package-binaries.txt file: ['/usr/bin/iceboxadmin', '/usr/bin/icegridadmin', '/usr/bin/icegriddb', '/usr/bin/icepatch2calc', '/usr/bin/icepatch2client', '/usr/bin/icestormadmin', '/usr/bin/icestormdb']
+['/usr/bin/iceboxadmin', '/usr/bin/icegridadmin', '/usr/bin/icegriddb', '/usr/bin/icepatch2calc', '/usr/bin/icepatch2client', '/usr/bin/icestormadmin', '/usr/bin/icestormdb']
