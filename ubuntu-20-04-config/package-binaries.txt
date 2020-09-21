@@ -9437,3 +9437,4 @@
 /usr/bin/wmdate
 /usr/bin/wmcdplay
 /usr/bin/wmdrawer
+/usr/bin/wavemon

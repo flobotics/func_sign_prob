@@ -32826,3 +32826,13 @@ Real binaries:['/usr/bin/wmdrawer']
 Write to package-work.txt file: wmdrawer
 Write to package-binaries.txt file: ['/usr/bin/wmdrawer']
 ['/usr/bin/wmdrawer']
+Write pickle file
+tar_out:
+Package-nr:5100 of 11000, Name:wavemon-dbgsym
+Package >wavemon< not in package-all.txt file
+Write to package-all.txt file: wavemon
+In package >wavemon< are these binaries: ['/usr/bin/wavemon']
+Real binaries:['/usr/bin/wavemon']
+Write to package-work.txt file: wavemon
+Write to package-binaries.txt file: ['/usr/bin/wavemon']
+['/usr/bin/wavemon']
