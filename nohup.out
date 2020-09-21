@@ -31538,3 +31538,13 @@ Real binaries:['/usr/bin/kde_wacom_tabletfinder']
 Write to package-work.txt file: kde-config-tablet
 Write to package-binaries.txt file: ['/usr/bin/kde_wacom_tabletfinder']
 ['/usr/bin/kde_wacom_tabletfinder']
+Write pickle file
+tar_out:
+Package-nr:4956 of 11000, Name:wxmaxima-dbgsym
+Package >wxmaxima< not in package-all.txt file
+Write to package-all.txt file: wxmaxima
+In package >wxmaxima< are these binaries: ['/usr/bin/wxmaxima']
+Real binaries:['/usr/bin/wxmaxima']
+Write to package-work.txt file: wxmaxima
+Write to package-binaries.txt file: ['/usr/bin/wxmaxima']
+['/usr/bin/wxmaxima']

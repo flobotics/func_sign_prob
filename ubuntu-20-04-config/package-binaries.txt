@@ -9214,3 +9214,4 @@
 /usr/bin/watchman
 /usr/sbin/webcit
 /usr/bin/kde_wacom_tabletfinder
+/usr/bin/wxmaxima

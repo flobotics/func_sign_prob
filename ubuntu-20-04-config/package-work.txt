@@ -3265,3 +3265,4 @@ wininfo
 watchman
 citadel-webcit
 kde-config-tablet
+wxmaxima
