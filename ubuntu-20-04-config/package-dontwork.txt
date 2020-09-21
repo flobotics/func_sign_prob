@@ -1699,3 +1699,6 @@ systemtap-server
 python3-segyio
 python3-slepc4py-complex
 python3-slepc4py-real
+scim-gtk-immodule
+scim-clutter-immodule
+scim-modules-socket

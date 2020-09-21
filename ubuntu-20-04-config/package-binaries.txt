@@ -9601,3 +9601,6 @@
 /usr/bin/scim
 /usr/bin/scim-config-agent
 /usr/bin/scim-im-agent
+/usr/bin/u2boat
+/usr/bin/u2spewfoo
+/usr/sbin/snort

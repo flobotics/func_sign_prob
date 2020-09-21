@@ -3448,3 +3448,4 @@ squeezelite-pa
 slurm
 scim
 scim-im-agent
+snort

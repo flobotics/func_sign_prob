@@ -5152,3 +5152,7 @@ squeezelite-pa
 slurm
 scim
 scim-im-agent
+scim-gtk-immodule
+scim-clutter-immodule
+scim-modules-socket
+snort
