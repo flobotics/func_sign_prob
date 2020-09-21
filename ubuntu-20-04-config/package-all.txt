@@ -5227,3 +5227,4 @@ samblaster
 slurmd
 slurmctld
 slurmdbd
+slurm-client
