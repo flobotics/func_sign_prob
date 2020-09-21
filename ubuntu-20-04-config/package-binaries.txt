@@ -8642,3 +8642,5 @@
 /usr/sbin/nwipe
 /usr/sbin/nghttpx
 /usr/sbin/nghttpd
+/usr/bin/h2load
+/usr/bin/nghttp
