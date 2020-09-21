@@ -28611,3 +28611,13 @@ Real binaries:['/usr/sbin/nwipe']
 Write to package-work.txt file: nwipe
 Write to package-binaries.txt file: ['/usr/sbin/nwipe']
 ['/usr/sbin/nwipe']
+Write pickle file
+tar_out:
+Package-nr:4615 of 11000, Name:nghttp2-proxy-dbgsym
+Package >nghttp2-proxy< not in package-all.txt file
+Write to package-all.txt file: nghttp2-proxy
+In package >nghttp2-proxy< are these binaries: ['/usr/sbin/nghttpx']
+Real binaries:['/usr/sbin/nghttpx']
+Write to package-work.txt file: nghttp2-proxy
+Write to package-binaries.txt file: ['/usr/sbin/nghttpx']
+['/usr/sbin/nghttpx']

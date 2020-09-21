@@ -8640,3 +8640,4 @@
 /usr/sbin/winbond-diag
 /usr/sbin/yellowfin-diag
 /usr/sbin/nwipe
+/usr/sbin/nghttpx
