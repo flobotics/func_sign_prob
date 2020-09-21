@@ -4686,3 +4686,5 @@ node-node-expat
 ncurses-hexedit
 netperfmeter
 nordlicht
+node-opencv
+ncbi-tools-bin
