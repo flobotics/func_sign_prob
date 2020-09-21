@@ -8646,3 +8646,4 @@
 /usr/bin/nghttp
 /usr/sbin/snmptrapd
 /bin/nano-tiny
+/usr/bin/netmate
