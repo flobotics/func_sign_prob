@@ -1504,3 +1504,5 @@ unicode-screensaver
 unicorn
 python3-uhd
 uc-echo
+unicycler
+ukui-polkit

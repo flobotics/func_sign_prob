@@ -4427,3 +4427,7 @@ uhd-host
 uc-echo
 unicon-imc2
 utalk
+unicycler
+ukui-polkit
+urjtag
+ukui-screensaver
