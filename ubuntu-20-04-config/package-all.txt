@@ -5084,3 +5084,4 @@ ykcs11
 yubico-piv-tool
 yasm
 ykush-control
+yodl

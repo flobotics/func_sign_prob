@@ -9523,3 +9523,5 @@
 /usr/bin/yasm
 /usr/bin/ytasm
 /usr/bin/ykushcmd
+/usr/bin/yodl
+/usr/bin/yodlpost
