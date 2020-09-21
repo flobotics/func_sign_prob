@@ -1584,3 +1584,4 @@ notification-daemon
 ninka
 network-manager-fortisslvpn
 network-manager-fortisslvpn-gnome
+nautilus-ideviceinfo

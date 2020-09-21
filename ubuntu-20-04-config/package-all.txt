@@ -4698,3 +4698,5 @@ network-manager-fortisslvpn-gnome
 nuttcp
 nodau
 nodejs
+nautilus-ideviceinfo
+nethogs

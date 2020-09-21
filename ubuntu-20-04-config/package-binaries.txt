@@ -8875,3 +8875,4 @@
 /usr/bin/nuttcp
 /usr/bin/nodau
 /usr/bin/node
+/usr/sbin/nethogs
