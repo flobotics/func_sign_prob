@@ -31511,3 +31511,20 @@ Real binaries:['/usr/bin/watchman']
 Write to package-work.txt file: watchman
 Write to package-binaries.txt file: ['/usr/bin/watchman']
 ['/usr/bin/watchman']
+Write pickle file
+tar_out:
+Package-nr:4953 of 11000, Name:python3-pywatchman-dbgsym
+Package >python3-pywatchman< not in package-all.txt file
+Write to package-all.txt file: python3-pywatchman
+In package >python3-pywatchman< are these binaries: ['/usr/bin/watchman-make', '/usr/bin/watchman-wait']
+Real binaries:[]
+Write to package-dontwork.txt file: python3-pywatchman
+[]
+Package-nr:4954 of 11000, Name:citadel-webcit-dbgsym
+Package >citadel-webcit< not in package-all.txt file
+Write to package-all.txt file: citadel-webcit
+In package >citadel-webcit< are these binaries: ['/usr/sbin/webcit']
+Real binaries:['/usr/sbin/webcit']
+Write to package-work.txt file: citadel-webcit
+Write to package-binaries.txt file: ['/usr/sbin/webcit']
+['/usr/sbin/webcit']

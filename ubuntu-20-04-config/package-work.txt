@@ -3263,3 +3263,4 @@ wmtemp
 weightwatcher
 wininfo
 watchman
+citadel-webcit

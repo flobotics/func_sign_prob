@@ -9212,3 +9212,4 @@
 /usr/bin/weightwatcher
 /usr/bin/wininfo
 /usr/bin/watchman
+/usr/sbin/webcit

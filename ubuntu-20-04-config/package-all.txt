@@ -4896,3 +4896,5 @@ python-wxgtk-webview3.0
 weightwatcher
 wininfo
 watchman
+python3-pywatchman
+citadel-webcit
