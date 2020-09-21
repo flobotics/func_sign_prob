@@ -27187,3 +27187,27 @@ Real binaries:['/usr/sbin/unbound-anchor']
 Write to package-work.txt file: unbound-anchor
 Write to package-binaries.txt file: ['/usr/sbin/unbound-anchor']
 ['/usr/sbin/unbound-anchor']
+Write pickle file
+tar_out:
+Package-nr:4440 of 11000, Name:python-unbound-dbgsym
+Package >python-unbound< not in package-all.txt file
+Write to package-all.txt file: python-unbound
+In package >python-unbound< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: python-unbound
+[]
+Package-nr:4441 of 11000, Name:ubiquity-frontend-gtk-panel-dbgsym
+Package >ubiquity-frontend-gtk-panel< not in package-all.txt file
+Write to package-all.txt file: ubiquity-frontend-gtk-panel
+In package >ubiquity-frontend-gtk-panel< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: ubiquity-frontend-gtk-panel
+[]
+Package-nr:4442 of 11000, Name:uefitool-cli-dbgsym
+Package >uefitool-cli< not in package-all.txt file
+Write to package-all.txt file: uefitool-cli
+In package >uefitool-cli< are these binaries: ['/usr/bin/UEFIPatch', '/usr/bin/UEFIReplace']
+Real binaries:['/usr/bin/UEFIPatch', '/usr/bin/UEFIReplace']
+Write to package-work.txt file: uefitool-cli
+Write to package-binaries.txt file: ['/usr/bin/UEFIPatch', '/usr/bin/UEFIReplace']
+['/usr/bin/UEFIPatch', '/usr/bin/UEFIReplace']

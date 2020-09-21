@@ -4436,3 +4436,6 @@ ucommon-utils
 python3-unbound
 unbound-host
 unbound-anchor
+python-unbound
+ubiquity-frontend-gtk-panel
+uefitool-cli

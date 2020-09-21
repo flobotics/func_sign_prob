@@ -1507,3 +1507,5 @@ uc-echo
 unicycler
 ukui-polkit
 python3-unbound
+python-unbound
+ubiquity-frontend-gtk-panel
