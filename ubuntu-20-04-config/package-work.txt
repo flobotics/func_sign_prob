@@ -3078,3 +3078,4 @@ notmuch-addrlookup
 nifti-bin
 nemiver
 netcdf-bin
+nasm

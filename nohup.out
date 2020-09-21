@@ -29126,3 +29126,13 @@ Real binaries:['/usr/bin/nccopy', '/usr/bin/ncdump', '/usr/bin/ncgen', '/usr/bin
 Write to package-work.txt file: netcdf-bin
 Write to package-binaries.txt file: ['/usr/bin/nccopy', '/usr/bin/ncdump', '/usr/bin/ncgen', '/usr/bin/ncgen3']
 ['/usr/bin/nccopy', '/usr/bin/ncdump', '/usr/bin/ncgen', '/usr/bin/ncgen3']
+Write pickle file
+tar_out:
+Package-nr:4673 of 11000, Name:nasm-dbgsym
+Package >nasm< not in package-all.txt file
+Write to package-all.txt file: nasm
+In package >nasm< are these binaries: ['/usr/bin/ldrdf', '/usr/bin/nasm', '/usr/bin/ndisasm', '/usr/bin/rdfdump', '/usr/bin/rdflib', '/usr/bin/rdx', '/usr/bin/rdf2com', '/usr/bin/rdf2ihx', '/usr/bin/rdf2ith', '/usr/bin/rdf2srec']
+Real binaries:['/usr/bin/ldrdf', '/usr/bin/nasm', '/usr/bin/ndisasm', '/usr/bin/rdfdump', '/usr/bin/rdflib', '/usr/bin/rdx']
+Write to package-work.txt file: nasm
+Write to package-binaries.txt file: ['/usr/bin/ldrdf', '/usr/bin/nasm', '/usr/bin/ndisasm', '/usr/bin/rdfdump', '/usr/bin/rdflib', '/usr/bin/rdx']
+['/usr/bin/ldrdf', '/usr/bin/nasm', '/usr/bin/ndisasm', '/usr/bin/rdfdump', '/usr/bin/rdflib', '/usr/bin/rdx']
