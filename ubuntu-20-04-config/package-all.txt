@@ -4703,3 +4703,4 @@ nethogs
 nutcracker
 tftp
 tftpd
+neovim-qt

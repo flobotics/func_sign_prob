@@ -29677,3 +29677,13 @@ Real binaries:['/usr/sbin/in.tftpd']
 Write to package-work.txt file: tftpd
 Write to package-binaries.txt file: ['/usr/sbin/in.tftpd']
 ['/usr/sbin/in.tftpd']
+Write pickle file
+tar_out:
+Package-nr:4741 of 11000, Name:neovim-qt-dbgsym
+Package >neovim-qt< not in package-all.txt file
+Write to package-all.txt file: neovim-qt
+In package >neovim-qt< are these binaries: ['/usr/bin/nvim-qt']
+Real binaries:['/usr/bin/nvim-qt']
+Write to package-work.txt file: neovim-qt
+Write to package-binaries.txt file: ['/usr/bin/nvim-qt']
+['/usr/bin/nvim-qt']

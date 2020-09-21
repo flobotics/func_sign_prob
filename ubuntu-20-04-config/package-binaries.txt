@@ -8879,3 +8879,4 @@
 /usr/sbin/nutcracker
 /usr/bin/tftp
 /usr/sbin/in.tftpd
+/usr/bin/nvim-qt
