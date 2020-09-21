@@ -4078,3 +4078,4 @@ voms-server
 voms-clients
 vlock
 viking
+vmfs-tools
