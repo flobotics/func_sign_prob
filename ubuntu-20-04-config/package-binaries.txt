@@ -9576,3 +9576,4 @@
 /usr/bin/simplescreenrecorder
 /usr/bin/stap-merge
 /usr/bin/staprun
+/usr/bin/shntool
