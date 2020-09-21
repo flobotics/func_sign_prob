@@ -3518,3 +3518,4 @@ sffview
 seafile-gui
 sooperlooper
 scanmem
+simh
