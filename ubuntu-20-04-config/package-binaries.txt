@@ -9560,3 +9560,4 @@
 /usr/sbin/yadifad
 /usr/bin/yash
 /usr/bin/yabause-qt
+/usr/bin/yabause-gtk

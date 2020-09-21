@@ -5122,3 +5122,4 @@ python3-yt
 yash
 yorick-ygsl
 yabause-qt
+yabause-gtk

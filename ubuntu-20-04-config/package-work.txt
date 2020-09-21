@@ -3425,3 +3425,4 @@ yasw
 yadifa
 yash
 yabause-qt
+yabause-gtk
