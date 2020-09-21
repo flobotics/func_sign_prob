@@ -5182,3 +5182,5 @@ ssdeep
 scim-kmfl-imengine
 seqtk
 squizz
+gtk2-engines-sugar
+sound-juicer

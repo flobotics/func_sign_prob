@@ -34158,3 +34158,20 @@ Real binaries:['/usr/bin/squizz']
 Write to package-work.txt file: squizz
 Write to package-binaries.txt file: ['/usr/bin/squizz']
 ['/usr/bin/squizz']
+Write pickle file
+tar_out:
+Package-nr:5258 of 11000, Name:gtk2-engines-sugar-dbgsym
+Package >gtk2-engines-sugar< not in package-all.txt file
+Write to package-all.txt file: gtk2-engines-sugar
+In package >gtk2-engines-sugar< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: gtk2-engines-sugar
+[]
+Package-nr:5259 of 11000, Name:sound-juicer-dbgsym
+Package >sound-juicer< not in package-all.txt file
+Write to package-all.txt file: sound-juicer
+In package >sound-juicer< are these binaries: ['/usr/bin/sound-juicer']
+Real binaries:['/usr/bin/sound-juicer']
+Write to package-work.txt file: sound-juicer
+Write to package-binaries.txt file: ['/usr/bin/sound-juicer']
+['/usr/bin/sound-juicer']

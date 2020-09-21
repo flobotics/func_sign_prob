@@ -1712,3 +1712,4 @@ stax
 scim-skk
 spacearyarya
 scim-kmfl-imengine
+gtk2-engines-sugar
