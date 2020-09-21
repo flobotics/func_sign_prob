@@ -32659,3 +32659,13 @@ Real binaries:['/usr/bin/wmtop']
 Write to package-work.txt file: wmtop
 Write to package-binaries.txt file: ['/usr/bin/wmtop']
 ['/usr/bin/wmtop']
+Write pickle file
+tar_out:
+Package-nr:5081 of 11000, Name:wireshark-common-dbgsym
+Package >wireshark-common< not in package-all.txt file
+Write to package-all.txt file: wireshark-common
+In package >wireshark-common< are these binaries: ['/usr/bin/capinfos', '/usr/bin/captype', '/usr/bin/dumpcap', '/usr/bin/editcap', '/usr/bin/mergecap', '/usr/bin/mmdbresolve', '/usr/bin/randpkt', '/usr/bin/rawshark', '/usr/bin/reordercap', '/usr/bin/sharkd', '/usr/bin/text2pcap']
+Real binaries:['/usr/bin/capinfos', '/usr/bin/captype', '/usr/bin/dumpcap', '/usr/bin/editcap', '/usr/bin/mergecap', '/usr/bin/mmdbresolve', '/usr/bin/randpkt', '/usr/bin/rawshark', '/usr/bin/reordercap', '/usr/bin/sharkd', '/usr/bin/text2pcap']
+Write to package-work.txt file: wireshark-common
+Write to package-binaries.txt file: ['/usr/bin/capinfos', '/usr/bin/captype', '/usr/bin/dumpcap', '/usr/bin/editcap', '/usr/bin/mergecap', '/usr/bin/mmdbresolve', '/usr/bin/randpkt', '/usr/bin/rawshark', '/usr/bin/reordercap', '/usr/bin/sharkd', '/usr/bin/text2pcap']
+['/usr/bin/capinfos', '/usr/bin/captype', '/usr/bin/dumpcap', '/usr/bin/editcap', '/usr/bin/mergecap', '/usr/bin/mmdbresolve', '/usr/bin/randpkt', '/usr/bin/rawshark', '/usr/bin/reordercap', '/usr/bin/sharkd', '/usr/bin/text2pcap']

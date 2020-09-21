@@ -9412,3 +9412,14 @@
 /usr/bin/weplab
 /usr/bin/w9wm
 /usr/bin/wmtop
+/usr/bin/capinfos
+/usr/bin/captype
+/usr/bin/dumpcap
+/usr/bin/editcap
+/usr/bin/mergecap
+/usr/bin/mmdbresolve
+/usr/bin/randpkt
+/usr/bin/rawshark
+/usr/bin/reordercap
+/usr/bin/sharkd
+/usr/bin/text2pcap
