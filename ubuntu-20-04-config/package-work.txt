@@ -2664,3 +2664,5 @@ viking
 vmfs-tools
 vdr-genindex
 vorbis-tools
+vncsnapshot
+vmpk

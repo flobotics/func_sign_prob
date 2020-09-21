@@ -7768,3 +7768,5 @@
 /usr/bin/ogginfo
 /usr/bin/vcut
 /usr/bin/vorbiscomment
+/usr/bin/vncsnapshot
+/usr/bin/vmpk
