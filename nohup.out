@@ -26758,3 +26758,13 @@ Real binaries:['/usr/bin/utfout']
 Write to package-work.txt file: utfout
 Write to package-binaries.txt file: ['/usr/bin/utfout']
 ['/usr/bin/utfout']
+Write pickle file
+tar_out:
+Package-nr:4390 of 11000, Name:uptimed-dbgsym
+Package >uptimed< not in package-all.txt file
+Write to package-all.txt file: uptimed
+In package >uptimed< are these binaries: ['/usr/bin/uprecords', '/usr/sbin/uptimed']
+Real binaries:['/usr/bin/uprecords', '/usr/sbin/uptimed']
+Write to package-work.txt file: uptimed
+Write to package-binaries.txt file: ['/usr/bin/uprecords', '/usr/sbin/uptimed']
+['/usr/bin/uprecords', '/usr/sbin/uptimed']
