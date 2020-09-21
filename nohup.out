@@ -26595,3 +26595,61 @@ Real binaries:['/usr/bin/ufod']
 Write to package-work.txt file: ufod
 Write to package-binaries.txt file: ['/usr/bin/ufod']
 ['/usr/bin/ufod']
+Write pickle file
+tar_out:
+Package-nr:4368 of 11000, Name:usbauth-dbgsym
+Skip package >usbauth<, already in package-all.txt file
+[]
+Package-nr:4369 of 11000, Name:ulogd2-pgsql-dbgsym
+Package >ulogd2-pgsql< not in package-all.txt file
+Write to package-all.txt file: ulogd2-pgsql
+In package >ulogd2-pgsql< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: ulogd2-pgsql
+[]
+Package-nr:4370 of 11000, Name:ulogd2-json-dbgsym
+Package >ulogd2-json< not in package-all.txt file
+Write to package-all.txt file: ulogd2-json
+In package >ulogd2-json< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: ulogd2-json
+[]
+Package-nr:4371 of 11000, Name:ulogd2-pcap-dbgsym
+Package >ulogd2-pcap< not in package-all.txt file
+Write to package-all.txt file: ulogd2-pcap
+In package >ulogd2-pcap< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: ulogd2-pcap
+[]
+Package-nr:4372 of 11000, Name:ulogd2-sqlite3-dbgsym
+Package >ulogd2-sqlite3< not in package-all.txt file
+Write to package-all.txt file: ulogd2-sqlite3
+In package >ulogd2-sqlite3< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: ulogd2-sqlite3
+[]
+Package-nr:4373 of 11000, Name:ulogd2-dbi-dbgsym
+Package >ulogd2-dbi< not in package-all.txt file
+Write to package-all.txt file: ulogd2-dbi
+In package >ulogd2-dbi< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: ulogd2-dbi
+[]
+Package-nr:4374 of 11000, Name:ulogd2-mysql-dbgsym
+Package >ulogd2-mysql< not in package-all.txt file
+Write to package-all.txt file: ulogd2-mysql
+In package >ulogd2-mysql< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: ulogd2-mysql
+[]
+Package-nr:4375 of 11000, Name:ulogd2-dbgsym
+Skip package >ulogd2<, already in package-all.txt file
+[]
+Package-nr:4376 of 11000, Name:unibetacode-dbgsym
+Package >unibetacode< not in package-all.txt file
+Write to package-all.txt file: unibetacode
+In package >unibetacode< are these binaries: ['/usr/bin/beta2uni', '/usr/bin/uni2beta', '/usr/bin/unibetaprep']
+Real binaries:['/usr/bin/beta2uni', '/usr/bin/uni2beta', '/usr/bin/unibetaprep']
+Write to package-work.txt file: unibetacode
+Write to package-binaries.txt file: ['/usr/bin/beta2uni', '/usr/bin/uni2beta', '/usr/bin/unibetaprep']
+['/usr/bin/beta2uni', '/usr/bin/uni2beta', '/usr/bin/unibetaprep']

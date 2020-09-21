@@ -8281,3 +8281,6 @@
 /usr/bin/unifdef
 /usr/bin/uprightdiff
 /usr/bin/ufod
+/usr/bin/beta2uni
+/usr/bin/uni2beta
+/usr/bin/unibetaprep

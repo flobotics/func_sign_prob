@@ -4370,3 +4370,10 @@ uftp
 unifdef
 uprightdiff
 ufod
+ulogd2-pgsql
+ulogd2-json
+ulogd2-pcap
+ulogd2-sqlite3
+ulogd2-dbi
+ulogd2-mysql
+unibetacode
