@@ -8228,3 +8228,4 @@
 /usr/bin/dnsget
 /usr/bin/rblcheck
 /usr/bin/unmo3
+/usr/bin/uftrace
