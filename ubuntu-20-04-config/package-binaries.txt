@@ -8318,3 +8318,12 @@
 /usr/bin/ubertooth-scan
 /usr/bin/ubertooth-specan
 /usr/bin/ubertooth-util
+/usr/bin/uucp
+/usr/bin/uulog
+/usr/bin/uuname
+/usr/bin/uupick
+/usr/bin/uustat
+/usr/bin/uux
+/usr/sbin/in.uucpd
+/usr/sbin/uurate
+/usr/sbin/uuxqt

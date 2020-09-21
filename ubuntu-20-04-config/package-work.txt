@@ -2899,3 +2899,4 @@ unison-gtk
 uget
 universal-ctags
 ubertooth
+uucp

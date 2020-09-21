@@ -26852,3 +26852,13 @@ Real binaries:['/usr/bin/ubertooth-afh', '/usr/bin/ubertooth-btle', '/usr/bin/ub
 Write to package-work.txt file: ubertooth
 Write to package-binaries.txt file: ['/usr/bin/ubertooth-afh', '/usr/bin/ubertooth-btle', '/usr/bin/ubertooth-debug', '/usr/bin/ubertooth-dfu', '/usr/bin/ubertooth-ducky', '/usr/bin/ubertooth-dump', '/usr/bin/ubertooth-ego', '/usr/bin/ubertooth-follow', '/usr/bin/ubertooth-rx', '/usr/bin/ubertooth-scan', '/usr/bin/ubertooth-specan', '/usr/bin/ubertooth-util']
 ['/usr/bin/ubertooth-afh', '/usr/bin/ubertooth-btle', '/usr/bin/ubertooth-debug', '/usr/bin/ubertooth-dfu', '/usr/bin/ubertooth-ducky', '/usr/bin/ubertooth-dump', '/usr/bin/ubertooth-ego', '/usr/bin/ubertooth-follow', '/usr/bin/ubertooth-rx', '/usr/bin/ubertooth-scan', '/usr/bin/ubertooth-specan', '/usr/bin/ubertooth-util']
+Write pickle file
+tar_out:
+Package-nr:4400 of 11000, Name:uucp-dbgsym
+Package >uucp< not in package-all.txt file
+Write to package-all.txt file: uucp
+In package >uucp< are these binaries: ['/usr/bin/uucp', '/usr/bin/uulog', '/usr/bin/uuname', '/usr/bin/uupick', '/usr/bin/uustat', '/usr/bin/uuto', '/usr/bin/uux', '/usr/sbin/in.uucpd', '/usr/sbin/uupoll', '/usr/sbin/uurate', '/usr/sbin/uusched', '/usr/sbin/uuxqt', '/usr/sbin/uucico']
+Real binaries:['/usr/bin/uucp', '/usr/bin/uulog', '/usr/bin/uuname', '/usr/bin/uupick', '/usr/bin/uustat', '/usr/bin/uux', '/usr/sbin/in.uucpd', '/usr/sbin/uurate', '/usr/sbin/uuxqt']
+Write to package-work.txt file: uucp
+Write to package-binaries.txt file: ['/usr/bin/uucp', '/usr/bin/uulog', '/usr/bin/uuname', '/usr/bin/uupick', '/usr/bin/uustat', '/usr/bin/uux', '/usr/sbin/in.uucpd', '/usr/sbin/uurate', '/usr/sbin/uuxqt']
+['/usr/bin/uucp', '/usr/bin/uulog', '/usr/bin/uuname', '/usr/bin/uupick', '/usr/bin/uustat', '/usr/bin/uux', '/usr/sbin/in.uucpd', '/usr/sbin/uurate', '/usr/sbin/uuxqt']
