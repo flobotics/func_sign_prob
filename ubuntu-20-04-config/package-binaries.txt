@@ -8336,3 +8336,4 @@
 /usr/bin/ussp-push
 /usr/bin/utfcheck
 /usr/bin/udevil
+/usr/bin/ukui-window-switch

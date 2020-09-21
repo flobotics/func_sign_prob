@@ -4415,3 +4415,5 @@ ussp-push
 utfcheck
 uci2wb
 udevil
+unicode-screensaver
+ukui-window-switch

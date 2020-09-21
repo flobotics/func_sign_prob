@@ -26996,3 +26996,20 @@ Real binaries:['/usr/bin/udevil']
 Write to package-work.txt file: udevil
 Write to package-binaries.txt file: ['/usr/bin/udevil']
 ['/usr/bin/udevil']
+Write pickle file
+tar_out:
+Package-nr:4417 of 11000, Name:unicode-screensaver-dbgsym
+Package >unicode-screensaver< not in package-all.txt file
+Write to package-all.txt file: unicode-screensaver
+In package >unicode-screensaver< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: unicode-screensaver
+[]
+Package-nr:4418 of 11000, Name:ukui-window-switch-dbgsym
+Package >ukui-window-switch< not in package-all.txt file
+Write to package-all.txt file: ukui-window-switch
+In package >ukui-window-switch< are these binaries: ['/usr/bin/ukui-window-switch']
+Real binaries:['/usr/bin/ukui-window-switch']
+Write to package-work.txt file: ukui-window-switch
+Write to package-binaries.txt file: ['/usr/bin/ukui-window-switch']
+['/usr/bin/ukui-window-switch']

@@ -1500,3 +1500,4 @@ umview-mod-umlwip
 umview-mod-umdevtap
 umview-mod-viewfs
 uci2wb
+unicode-screensaver
