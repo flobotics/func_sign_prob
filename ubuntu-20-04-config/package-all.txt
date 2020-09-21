@@ -4900,3 +4900,6 @@ python3-pywatchman
 citadel-webcit
 kde-config-tablet
 wxmaxima
+wesnoth-1.14-core
+wesnoth-1.14-server
+wmfrog

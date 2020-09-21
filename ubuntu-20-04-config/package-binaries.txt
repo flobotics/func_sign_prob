@@ -9215,3 +9215,4 @@
 /usr/sbin/webcit
 /usr/bin/kde_wacom_tabletfinder
 /usr/bin/wxmaxima
+/usr/bin/wmfrog
