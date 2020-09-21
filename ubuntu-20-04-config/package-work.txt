@@ -2969,3 +2969,5 @@ netrik
 nqp
 nmapsi4
 nftlb
+nftables
+nmzmail
