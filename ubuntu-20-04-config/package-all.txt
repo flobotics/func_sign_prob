@@ -4875,3 +4875,4 @@ wmxmms2
 wmget
 wmstickynotes
 wmmon
+wvdial

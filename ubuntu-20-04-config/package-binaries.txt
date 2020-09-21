@@ -9191,3 +9191,5 @@
 /usr/bin/wmget
 /usr/bin/wmstickynotes
 /usr/bin/wmmon
+/usr/bin/wvdial
+/usr/bin/wvdialconf
