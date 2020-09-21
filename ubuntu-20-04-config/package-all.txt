@@ -5224,3 +5224,4 @@ sptk
 sniproxy
 stoken
 samblaster
+slurmd

@@ -34564,3 +34564,13 @@ Real binaries:['/usr/bin/samblaster']
 Write to package-work.txt file: samblaster
 Write to package-binaries.txt file: ['/usr/bin/samblaster']
 ['/usr/bin/samblaster']
+Write pickle file
+tar_out:
+Package-nr:5302 of 11000, Name:slurmd-dbgsym
+Package >slurmd< not in package-all.txt file
+Write to package-all.txt file: slurmd
+In package >slurmd< are these binaries: ['/usr/sbin/slurmd-wlm', '/usr/sbin/slurmstepd-wlm']
+Real binaries:['/usr/sbin/slurmd-wlm', '/usr/sbin/slurmstepd-wlm']
+Write to package-work.txt file: slurmd
+Write to package-binaries.txt file: ['/usr/sbin/slurmd-wlm', '/usr/sbin/slurmstepd-wlm']
+['/usr/sbin/slurmd-wlm', '/usr/sbin/slurmstepd-wlm']
