@@ -27584,3 +27584,13 @@ Real binaries:['/usr/bin/undbx']
 Write to package-work.txt file: undbx
 Write to package-binaries.txt file: ['/usr/bin/undbx']
 ['/usr/bin/undbx']
+Write pickle file
+tar_out:
+Package-nr:4489 of 11000, Name:uniutils-dbgsym
+Package >uniutils< not in package-all.txt file
+Write to package-all.txt file: uniutils
+In package >uniutils< are these binaries: ['/usr/bin/ExplicateUTF8', '/usr/bin/unidesc', '/usr/bin/unifuzz', '/usr/bin/unihist', '/usr/bin/uniname', '/usr/bin/unireverse', '/usr/bin/utf8lookup']
+Real binaries:['/usr/bin/ExplicateUTF8', '/usr/bin/unidesc', '/usr/bin/unifuzz', '/usr/bin/unihist', '/usr/bin/uniname', '/usr/bin/unireverse']
+Write to package-work.txt file: uniutils
+Write to package-binaries.txt file: ['/usr/bin/ExplicateUTF8', '/usr/bin/unidesc', '/usr/bin/unifuzz', '/usr/bin/unihist', '/usr/bin/uniname', '/usr/bin/unireverse']
+['/usr/bin/ExplicateUTF8', '/usr/bin/unidesc', '/usr/bin/unifuzz', '/usr/bin/unihist', '/usr/bin/uniname', '/usr/bin/unireverse']

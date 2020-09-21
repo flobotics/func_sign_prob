@@ -2956,3 +2956,4 @@ ucspi-unix
 unmass
 unscd
 undbx
+uniutils

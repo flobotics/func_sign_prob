@@ -8437,3 +8437,9 @@
 /usr/bin/unmass
 /usr/sbin/nscd
 /usr/bin/undbx
+/usr/bin/ExplicateUTF8
+/usr/bin/unidesc
+/usr/bin/unifuzz
+/usr/bin/unihist
+/usr/bin/uniname
+/usr/bin/unireverse
