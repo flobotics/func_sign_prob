@@ -25325,3 +25325,13 @@ Real binaries:['/usr/bin/zita-dc1']
 Write to package-work.txt file: zita-dc1
 Write to package-binaries.txt file: ['/usr/bin/zita-dc1']
 ['/usr/bin/zita-dc1']
+Write pickle file
+tar_out:
+Package-nr:4227 of 11000, Name:zabbix-proxy-pgsql-dbgsym
+Package >zabbix-proxy-pgsql< not in package-all.txt file
+Write to package-all.txt file: zabbix-proxy-pgsql
+In package >zabbix-proxy-pgsql< are these binaries: ['/usr/bin/zabbix_get', '/usr/sbin/zabbix_proxy']
+Real binaries:['/usr/bin/zabbix_get', '/usr/sbin/zabbix_proxy']
+Write to package-work.txt file: zabbix-proxy-pgsql
+Write to package-binaries.txt file: ['/usr/bin/zabbix_get', '/usr/sbin/zabbix_proxy']
+['/usr/bin/zabbix_get', '/usr/sbin/zabbix_proxy']

@@ -4232,3 +4232,4 @@ zalign
 zytrax
 ziproxy
 zita-dc1
+zabbix-proxy-pgsql

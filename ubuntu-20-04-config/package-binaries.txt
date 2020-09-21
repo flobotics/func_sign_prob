@@ -8034,3 +8034,5 @@
 /usr/bin/ziproxy
 /usr/bin/ziproxylogtool
 /usr/bin/zita-dc1
+/usr/bin/zabbix_get
+/usr/sbin/zabbix_proxy
