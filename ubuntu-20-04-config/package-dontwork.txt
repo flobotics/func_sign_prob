@@ -1459,3 +1459,6 @@ php-zeroc-ice
 python3-zeroc-ice
 python3-zope.i18nmessageid
 python3-fsapfs
+python3-ftdi1
+python3-libfsntfs
+python3-libfvde

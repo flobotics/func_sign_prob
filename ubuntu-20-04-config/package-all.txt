@@ -4299,3 +4299,7 @@ u2f-server
 u2f-host
 python3-fsapfs
 ftdi-eeprom
+python3-ftdi1
+python3-libfsntfs
+python3-libfvde
+fido2-tools

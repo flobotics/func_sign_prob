@@ -25947,3 +25947,34 @@ Real binaries:['/usr/bin/ftdi_eeprom']
 Write to package-work.txt file: ftdi-eeprom
 Write to package-binaries.txt file: ['/usr/bin/ftdi_eeprom']
 ['/usr/bin/ftdi_eeprom']
+Write pickle file
+tar_out:
+Package-nr:4295 of 11000, Name:python3-ftdi1-dbgsym
+Package >python3-ftdi1< not in package-all.txt file
+Write to package-all.txt file: python3-ftdi1
+In package >python3-ftdi1< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: python3-ftdi1
+[]
+Package-nr:4296 of 11000, Name:python3-libfsntfs-dbgsym
+Package >python3-libfsntfs< not in package-all.txt file
+Write to package-all.txt file: python3-libfsntfs
+In package >python3-libfsntfs< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: python3-libfsntfs
+[]
+Package-nr:4297 of 11000, Name:python3-libfvde-dbgsym
+Package >python3-libfvde< not in package-all.txt file
+Write to package-all.txt file: python3-libfvde
+In package >python3-libfvde< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: python3-libfvde
+[]
+Package-nr:4298 of 11000, Name:fido2-tools-dbgsym
+Package >fido2-tools< not in package-all.txt file
+Write to package-all.txt file: fido2-tools
+In package >fido2-tools< are these binaries: ['/usr/bin/fido2-assert', '/usr/bin/fido2-cred', '/usr/bin/fido2-token']
+Real binaries:['/usr/bin/fido2-assert', '/usr/bin/fido2-cred', '/usr/bin/fido2-token']
+Write to package-work.txt file: fido2-tools
+Write to package-binaries.txt file: ['/usr/bin/fido2-assert', '/usr/bin/fido2-cred', '/usr/bin/fido2-token']
+['/usr/bin/fido2-assert', '/usr/bin/fido2-cred', '/usr/bin/fido2-token']

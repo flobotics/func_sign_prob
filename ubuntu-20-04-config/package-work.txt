@@ -2835,3 +2835,4 @@ numconv
 u2f-server
 u2f-host
 ftdi-eeprom
+fido2-tools
