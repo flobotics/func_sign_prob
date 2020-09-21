@@ -9085,3 +9085,4 @@
 /usr/bin/pmd2odg
 /usr/bin/vsd2odg
 /usr/bin/qxp2odg
+/usr/bin/fh2odg

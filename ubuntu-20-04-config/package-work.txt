@@ -3208,3 +3208,4 @@ mwaw2epub
 pmd2odg
 vsd2odg
 qxp2odg
+fh2odg
