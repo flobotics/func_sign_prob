@@ -30298,3 +30298,13 @@ Real binaries:['/usr/sbin/rpc.rusersd']
 Write to package-work.txt file: rusersd
 Write to package-binaries.txt file: ['/usr/sbin/rpc.rusersd']
 ['/usr/sbin/rpc.rusersd']
+Write pickle file
+tar_out:
+Package-nr:4818 of 11000, Name:ntpsec-dbgsym
+Package >ntpsec< not in package-all.txt file
+Write to package-all.txt file: ntpsec
+In package >ntpsec< are these binaries: ['/usr/bin/ntpmon', '/usr/bin/ntpq', '/usr/bin/ntptrace', '/usr/sbin/ntpd', '/usr/sbin/ntpkeygen', '/usr/sbin/ntpleapfetch', '/usr/sbin/ntptime', '/usr/sbin/ntpwait']
+Real binaries:['/usr/sbin/ntpd', '/usr/sbin/ntptime']
+Write to package-work.txt file: ntpsec
+Write to package-binaries.txt file: ['/usr/sbin/ntptime']
+['/usr/sbin/ntptime']

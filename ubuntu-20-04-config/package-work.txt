@@ -3159,3 +3159,4 @@ ngspice
 ninja-build
 rusers
 rusersd
+ntpsec

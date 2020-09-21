@@ -4768,3 +4768,4 @@ tclspice
 ninja-build
 rusers
 rusersd
+ntpsec
