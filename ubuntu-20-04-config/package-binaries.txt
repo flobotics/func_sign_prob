@@ -9084,3 +9084,4 @@
 /usr/bin/mwaw2epub
 /usr/bin/pmd2odg
 /usr/bin/vsd2odg
+/usr/bin/qxp2odg

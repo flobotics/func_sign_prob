@@ -30866,3 +30866,13 @@ Real binaries:['/usr/bin/vsd2odg']
 Write to package-work.txt file: vsd2odg
 Write to package-binaries.txt file: ['/usr/bin/vsd2odg']
 ['/usr/bin/vsd2odg']
+Write pickle file
+tar_out:
+Package-nr:4880 of 11000, Name:qxp2odg-dbgsym
+Package >qxp2odg< not in package-all.txt file
+Write to package-all.txt file: qxp2odg
+In package >qxp2odg< are these binaries: ['/usr/bin/qxp2odg']
+Real binaries:['/usr/bin/qxp2odg']
+Write to package-work.txt file: qxp2odg
+Write to package-binaries.txt file: ['/usr/bin/qxp2odg']
+['/usr/bin/qxp2odg']
