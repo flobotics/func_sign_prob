@@ -5002,3 +5002,4 @@ weechat-core
 weechat-lua
 weechat-python
 wbox
+winwrangler

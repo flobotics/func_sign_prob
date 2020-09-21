@@ -32493,3 +32493,13 @@ Real binaries:['/usr/bin/wbox']
 Write to package-work.txt file: wbox
 Write to package-binaries.txt file: ['/usr/bin/wbox']
 ['/usr/bin/wbox']
+Write pickle file
+tar_out:
+Package-nr:5063 of 11000, Name:winwrangler-dbgsym
+Package >winwrangler< not in package-all.txt file
+Write to package-all.txt file: winwrangler
+In package >winwrangler< are these binaries: ['/usr/bin/winwrangler']
+Real binaries:['/usr/bin/winwrangler']
+Write to package-work.txt file: winwrangler
+Write to package-binaries.txt file: ['/usr/bin/winwrangler']
+['/usr/bin/winwrangler']

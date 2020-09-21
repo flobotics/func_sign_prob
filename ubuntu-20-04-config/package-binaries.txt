@@ -9395,3 +9395,4 @@
 /usr/bin/weechat
 /usr/bin/weechat-headless
 /usr/bin/wbox
+/usr/bin/winwrangler
