@@ -9441,3 +9441,5 @@
 /usr/bin/wulflogger
 /usr/sbin/xmlsysd
 /usr/bin/wulfstat
+/usr/bin/sfnt2woff
+/usr/bin/woff2sfnt
