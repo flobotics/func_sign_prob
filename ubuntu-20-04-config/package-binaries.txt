@@ -8934,3 +8934,6 @@
 /usr/bin/newpid
 /usr/bin/sntp
 /usr/sbin/ntpdate
+/usr/lib/neuron/bin/modlunit
+/usr/lib/neuron/bin/mos2nrn
+/usr/lib/neuron/bin/nocmodl
