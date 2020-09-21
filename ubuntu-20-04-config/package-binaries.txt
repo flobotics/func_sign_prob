@@ -8877,3 +8877,4 @@
 /usr/bin/node
 /usr/sbin/nethogs
 /usr/sbin/nutcracker
+/usr/bin/tftp
