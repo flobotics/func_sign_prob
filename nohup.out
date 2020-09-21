@@ -33310,3 +33310,13 @@ Real binaries:['/usr/bin/yforth']
 Write to package-work.txt file: yforth
 Write to package-binaries.txt file: ['/usr/bin/yforth']
 ['/usr/bin/yforth']
+Write pickle file
+tar_out:
+Package-nr:5155 of 11000, Name:yubikey-server-c-dbgsym
+Package >yubikey-server-c< not in package-all.txt file
+Write to package-all.txt file: yubikey-server-c
+In package >yubikey-server-c< are these binaries: ['/usr/sbin/yubikeyd']
+Real binaries:['/usr/sbin/yubikeyd']
+Write to package-work.txt file: yubikey-server-c
+Write to package-binaries.txt file: ['/usr/sbin/yubikeyd']
+['/usr/sbin/yubikeyd']

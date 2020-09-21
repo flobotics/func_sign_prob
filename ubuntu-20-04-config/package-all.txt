@@ -5089,3 +5089,4 @@ yajl-tools
 yubikey-personalization
 yorick-imutil
 yforth
+yubikey-server-c

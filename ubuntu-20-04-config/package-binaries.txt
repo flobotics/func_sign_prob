@@ -9531,3 +9531,4 @@
 /usr/bin/ykinfo
 /usr/bin/ykpersonalize
 /usr/bin/yforth
+/usr/sbin/yubikeyd

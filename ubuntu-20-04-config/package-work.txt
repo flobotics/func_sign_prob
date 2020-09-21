@@ -3408,3 +3408,4 @@ yodl
 yajl-tools
 yubikey-personalization
 yforth
+yubikey-server-c
