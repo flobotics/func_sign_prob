@@ -9562,3 +9562,4 @@
 /usr/bin/yabause-qt
 /usr/bin/yabause-gtk
 /usr/bin/yubioath-desktop
+/usr/bin/yubikey-personalization-gui

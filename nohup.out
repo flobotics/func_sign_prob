@@ -33633,3 +33633,13 @@ Real binaries:['/usr/bin/yubioath-desktop']
 Write to package-work.txt file: yubioath-desktop
 Write to package-binaries.txt file: ['/usr/bin/yubioath-desktop']
 ['/usr/bin/yubioath-desktop']
+Write pickle file
+tar_out:
+Package-nr:5195 of 11000, Name:yubikey-personalization-gui-dbgsym
+Package >yubikey-personalization-gui< not in package-all.txt file
+Write to package-all.txt file: yubikey-personalization-gui
+In package >yubikey-personalization-gui< are these binaries: ['/usr/bin/yubikey-personalization-gui']
+Real binaries:['/usr/bin/yubikey-personalization-gui']
+Write to package-work.txt file: yubikey-personalization-gui
+Write to package-binaries.txt file: ['/usr/bin/yubikey-personalization-gui']
+['/usr/bin/yubikey-personalization-gui']
