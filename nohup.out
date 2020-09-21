@@ -24033,3 +24033,21 @@ Real binaries:['/usr/bin/remote-viewer', '/usr/bin/virt-viewer']
 Write to package-work.txt file: virt-viewer
 Write to package-binaries.txt file: ['/usr/bin/remote-viewer', '/usr/bin/virt-viewer']
 ['/usr/bin/remote-viewer', '/usr/bin/virt-viewer']
+Write pickle file
+tar_out:
+Package-nr:4079 of 11000, Name:vtgrab-dbgsym
+Package >vtgrab< not in package-all.txt file
+Write to package-all.txt file: vtgrab
+In package >vtgrab< are these binaries: ['/usr/bin/rvc', '/usr/bin/rvcd', '/usr/bin/twiglet']
+Real binaries:['/usr/bin/rvc', '/usr/bin/rvcd', '/usr/bin/twiglet']
+Write to package-work.txt file: vtgrab
+Write to package-binaries.txt file: ['/usr/bin/rvc', '/usr/bin/rvcd', '/usr/bin/twiglet']
+['/usr/bin/rvc', '/usr/bin/rvcd', '/usr/bin/twiglet']
+Package-nr:4080 of 11000, Name:vzquota-dbgsym
+Package >vzquota< not in package-all.txt file
+Write to package-all.txt file: vzquota
+In package >vzquota< are these binaries: ['/usr/sbin/vzdqcheck', '/usr/sbin/vzdqdump', '/usr/sbin/vzdqload', '/usr/sbin/vzquota']
+Real binaries:['/usr/sbin/vzdqcheck', '/usr/sbin/vzdqdump', '/usr/sbin/vzdqload', '/usr/sbin/vzquota']
+Write to package-work.txt file: vzquota
+Write to package-binaries.txt file: ['/usr/sbin/vzdqcheck', '/usr/sbin/vzdqdump', '/usr/sbin/vzdqload', '/usr/sbin/vzquota']
+['/usr/sbin/vzdqcheck', '/usr/sbin/vzdqdump', '/usr/sbin/vzdqload', '/usr/sbin/vzquota']

@@ -2675,3 +2675,5 @@ viewnior
 vpnc
 vlc-bin
 virt-viewer
+vtgrab
+vzquota

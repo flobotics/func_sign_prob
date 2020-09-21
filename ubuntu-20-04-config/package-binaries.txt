@@ -7799,3 +7799,10 @@
 /usr/bin/vlc-wrapper
 /usr/bin/remote-viewer
 /usr/bin/virt-viewer
+/usr/bin/rvc
+/usr/bin/rvcd
+/usr/bin/twiglet
+/usr/sbin/vzdqcheck
+/usr/sbin/vzdqdump
+/usr/sbin/vzdqload
+/usr/sbin/vzquota

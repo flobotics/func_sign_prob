@@ -4096,3 +4096,5 @@ vpnc
 vlc-bin
 vbaexpress
 virt-viewer
+vtgrab
+vzquota
