@@ -9172,3 +9172,4 @@
 /usr/sbin/dhcp6s
 /usr/sbin/dhcp6c
 /usr/sbin/dhcp6ctl
+/usr/bin/wmshutdown
