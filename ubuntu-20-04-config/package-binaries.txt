@@ -9407,3 +9407,5 @@
 /usr/bin/catmaster
 /usr/bin/welle-cli
 /usr/bin/welle-io
+/usr/bin/wyrd
+/usr/bin/wsclean

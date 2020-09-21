@@ -5015,3 +5015,5 @@ wpan-tools
 wxastrocapture
 watchcatd
 welle.io
+wyrd
+wsclean

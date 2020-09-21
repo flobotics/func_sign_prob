@@ -32611,3 +32611,21 @@ Real binaries:['/usr/bin/welle-cli', '/usr/bin/welle-io']
 Write to package-work.txt file: welle.io
 Write to package-binaries.txt file: ['/usr/bin/welle-cli', '/usr/bin/welle-io']
 ['/usr/bin/welle-cli', '/usr/bin/welle-io']
+Write pickle file
+tar_out:
+Package-nr:5076 of 11000, Name:wyrd-dbgsym
+Package >wyrd< not in package-all.txt file
+Write to package-all.txt file: wyrd
+In package >wyrd< are these binaries: ['/usr/bin/wyrd']
+Real binaries:['/usr/bin/wyrd']
+Write to package-work.txt file: wyrd
+Write to package-binaries.txt file: ['/usr/bin/wyrd']
+['/usr/bin/wyrd']
+Package-nr:5077 of 11000, Name:wsclean-dbgsym
+Package >wsclean< not in package-all.txt file
+Write to package-all.txt file: wsclean
+In package >wsclean< are these binaries: ['/usr/bin/wsclean']
+Real binaries:['/usr/bin/wsclean']
+Write to package-work.txt file: wsclean
+Write to package-binaries.txt file: ['/usr/bin/wsclean']
+['/usr/bin/wsclean']
