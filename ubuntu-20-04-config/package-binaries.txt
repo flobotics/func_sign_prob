@@ -7848,3 +7848,5 @@
 /sbin/v86d
 /usr/bin/viewmol
 /usr/bin/vttest
+/usr/bin/vlevel
+/usr/bin/vlevel-jack
