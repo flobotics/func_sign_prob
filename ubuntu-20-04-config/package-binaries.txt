@@ -9168,3 +9168,4 @@
 /usr/bin/xy2sky
 /usr/bin/Welcome2L
 /usr/bin/wzip
+/usr/sbin/dhcp6relay
