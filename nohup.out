@@ -26404,3 +26404,13 @@ Real binaries:['/usr/bin/dmail', '/usr/bin/mailutil', '/usr/bin/tmail']
 Write to package-work.txt file: uw-mailutils
 Write to package-binaries.txt file: ['/usr/bin/dmail', '/usr/bin/mailutil', '/usr/bin/tmail']
 ['/usr/bin/dmail', '/usr/bin/mailutil', '/usr/bin/tmail']
+Write pickle file
+tar_out:
+Package-nr:4347 of 11000, Name:unadf-dbgsym
+Package >unadf< not in package-all.txt file
+Write to package-all.txt file: unadf
+In package >unadf< are these binaries: ['/usr/bin/unadf']
+Real binaries:['/usr/bin/unadf']
+Write to package-work.txt file: unadf
+Write to package-binaries.txt file: ['/usr/bin/unadf']
+['/usr/bin/unadf']
