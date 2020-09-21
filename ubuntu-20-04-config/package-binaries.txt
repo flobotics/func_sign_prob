@@ -9082,3 +9082,4 @@
 /usr/bin/wpg2odg
 /usr/bin/abw2epub
 /usr/bin/mwaw2epub
+/usr/bin/pmd2odg

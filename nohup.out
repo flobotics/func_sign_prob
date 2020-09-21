@@ -30846,3 +30846,13 @@ Real binaries:['/usr/bin/mwaw2epub']
 Write to package-work.txt file: mwaw2epub
 Write to package-binaries.txt file: ['/usr/bin/mwaw2epub']
 ['/usr/bin/mwaw2epub']
+Write pickle file
+tar_out:
+Package-nr:4878 of 11000, Name:pmd2odg-dbgsym
+Package >pmd2odg< not in package-all.txt file
+Write to package-all.txt file: pmd2odg
+In package >pmd2odg< are these binaries: ['/usr/bin/pmd2odg']
+Real binaries:['/usr/bin/pmd2odg']
+Write to package-work.txt file: pmd2odg
+Write to package-binaries.txt file: ['/usr/bin/pmd2odg']
+['/usr/bin/pmd2odg']

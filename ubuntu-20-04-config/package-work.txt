@@ -3205,3 +3205,4 @@ wps2epub
 wpg2odg
 abw2epub
 mwaw2epub
+pmd2odg
