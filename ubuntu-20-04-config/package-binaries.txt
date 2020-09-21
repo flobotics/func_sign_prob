@@ -9540,3 +9540,4 @@
 /usr/bin/yagf
 /usr/bin/yersinia
 /usr/bin/yabar
+/usr/bin/yyt

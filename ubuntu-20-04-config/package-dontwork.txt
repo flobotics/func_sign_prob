@@ -1683,3 +1683,6 @@ python3-yarl
 yorick-yeti-regex
 yorick-yeti-tiff
 yorick-yeti-fftw
+yorick-hdf5
+yorick-optimpack
+yorick-z

@@ -33440,3 +33440,34 @@ Real binaries:['/usr/bin/yabar']
 Write to package-work.txt file: yabar
 Write to package-binaries.txt file: ['/usr/bin/yabar']
 ['/usr/bin/yabar']
+Write pickle file
+tar_out:
+Package-nr:5171 of 11000, Name:yorick-hdf5-dbgsym
+Package >yorick-hdf5< not in package-all.txt file
+Write to package-all.txt file: yorick-hdf5
+In package >yorick-hdf5< are these binaries: ['/usr/lib/yorick/bin/h5convert', '/usr/lib/yorick/bin/h5info']
+Real binaries:[]
+Write to package-dontwork.txt file: yorick-hdf5
+[]
+Package-nr:5172 of 11000, Name:yorick-optimpack-dbgsym
+Package >yorick-optimpack< not in package-all.txt file
+Write to package-all.txt file: yorick-optimpack
+In package >yorick-optimpack< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: yorick-optimpack
+[]
+Package-nr:5173 of 11000, Name:yorick-z-dbgsym
+Package >yorick-z< not in package-all.txt file
+Write to package-all.txt file: yorick-z
+In package >yorick-z< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: yorick-z
+[]
+Package-nr:5174 of 11000, Name:yiyantang-dbgsym
+Package >yiyantang< not in package-all.txt file
+Write to package-all.txt file: yiyantang
+In package >yiyantang< are these binaries: ['/usr/bin/yyt']
+Real binaries:['/usr/bin/yyt']
+Write to package-work.txt file: yiyantang
+Write to package-binaries.txt file: ['/usr/bin/yyt']
+['/usr/bin/yyt']
