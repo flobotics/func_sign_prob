@@ -8461,3 +8461,4 @@
 /usr/bin/ukui-power-preferences
 /usr/bin/ukui-power-statistics
 /usr/sbin/ukui-power-backlight-helper
+/usr/bin/unshield

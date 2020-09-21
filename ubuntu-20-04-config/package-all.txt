@@ -4486,3 +4486,4 @@ ufoai-tools
 ufoai-uforadiant
 usbguard
 ukui-power-manager
+unshield

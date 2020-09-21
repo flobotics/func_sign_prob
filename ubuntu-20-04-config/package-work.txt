@@ -2964,3 +2964,4 @@ imapproxy
 ufoai-tools
 usbguard
 ukui-power-manager
+unshield
