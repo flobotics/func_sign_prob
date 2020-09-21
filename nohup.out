@@ -24670,3 +24670,13 @@ Real binaries:['/usr/bin/vmtouch']
 Write to package-work.txt file: vmtouch
 Write to package-binaries.txt file: ['/usr/bin/vmtouch']
 ['/usr/bin/vmtouch']
+Write pickle file
+tar_out:
+Package-nr:4151 of 11000, Name:voro++-dbgsym
+Package >voro++< not in package-all.txt file
+Write to package-all.txt file: voro++
+In package >voro++< are these binaries: ['/usr/bin/voro++']
+Real binaries:['/usr/bin/voro++']
+Write to package-work.txt file: voro++
+Write to package-binaries.txt file: ['/usr/bin/voro++']
+['/usr/bin/voro++']
