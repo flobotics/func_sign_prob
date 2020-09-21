@@ -5143,3 +5143,4 @@ stm32flash
 sim4
 python3-segyio
 segyio-bin
+samtools

@@ -9584,3 +9584,10 @@
 /usr/bin/segyio-cath
 /usr/bin/segyio-catr
 /usr/bin/segyio-crop
+/usr/bin/ace2sam
+/usr/bin/maq2sam-long
+/usr/bin/maq2sam-short
+/usr/bin/md5fa
+/usr/bin/md5sum-lite
+/usr/bin/samtools
+/usr/bin/wgsim
