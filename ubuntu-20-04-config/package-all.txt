@@ -4223,3 +4223,5 @@ znc-python
 zbarcam-qt
 zbarcam-gtk
 zbar-tools
+python3-zbar
+zomg

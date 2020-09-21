@@ -2773,3 +2773,4 @@ zita-alsa-pcmi-utils
 zbarcam-qt
 zbarcam-gtk
 zbar-tools
+zomg

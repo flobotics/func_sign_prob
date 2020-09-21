@@ -8023,3 +8023,4 @@
 /usr/bin/zbarcam-qt
 /usr/bin/zbarcam-gtk
 /usr/bin/zbarimg
+/usr/bin/zomghelper
