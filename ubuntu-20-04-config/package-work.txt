@@ -3481,3 +3481,4 @@ sylph-searcher
 setbfree
 sdlbrt
 sciteproj
+sagemath
