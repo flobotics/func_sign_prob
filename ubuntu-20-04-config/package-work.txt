@@ -2945,3 +2945,4 @@ u3-tool
 ufiformat
 unclutter-xfixes
 usbtop
+ums2net

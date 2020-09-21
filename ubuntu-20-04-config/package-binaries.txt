@@ -8416,3 +8416,4 @@
 /usr/bin/ufiformat
 /usr/bin/unclutter-xfixes
 /usr/sbin/usbtop
+/usr/sbin/ums2net

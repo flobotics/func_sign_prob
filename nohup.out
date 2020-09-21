@@ -27424,3 +27424,13 @@ Real binaries:['/usr/sbin/usbtop']
 Write to package-work.txt file: usbtop
 Write to package-binaries.txt file: ['/usr/sbin/usbtop']
 ['/usr/sbin/usbtop']
+Write pickle file
+tar_out:
+Package-nr:4468 of 11000, Name:ums2net-dbgsym
+Package >ums2net< not in package-all.txt file
+Write to package-all.txt file: ums2net
+In package >ums2net< are these binaries: ['/usr/sbin/ums2net']
+Real binaries:['/usr/sbin/ums2net']
+Write to package-work.txt file: ums2net
+Write to package-binaries.txt file: ['/usr/sbin/ums2net']
+['/usr/sbin/ums2net']
