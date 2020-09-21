@@ -34504,3 +34504,13 @@ Real binaries:['/usr/sbin/swanctl']
 Write to package-work.txt file: strongswan-swanctl
 Write to package-binaries.txt file: ['/usr/sbin/swanctl']
 ['/usr/sbin/swanctl']
+Write pickle file
+tar_out:
+Package-nr:5296 of 11000, Name:strongswan-pki-dbgsym
+Package >strongswan-pki< not in package-all.txt file
+Write to package-all.txt file: strongswan-pki
+In package >strongswan-pki< are these binaries: ['/usr/bin/pki']
+Real binaries:['/usr/bin/pki']
+Write to package-work.txt file: strongswan-pki
+Write to package-binaries.txt file: ['/usr/bin/pki']
+['/usr/bin/pki']

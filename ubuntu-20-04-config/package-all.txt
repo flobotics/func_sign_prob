@@ -5218,3 +5218,4 @@ strongswan-nm
 strongswan-scepclient
 charon-cmd
 strongswan-swanctl
+strongswan-pki
