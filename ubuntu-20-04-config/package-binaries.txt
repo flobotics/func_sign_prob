@@ -9340,3 +9340,5 @@
 /usr/bin/wat-desugar
 /usr/bin/wat2wasm
 /usr/bin/wcalc
+/usr/bin/wmforkplop
+/usr/bin/wmitime

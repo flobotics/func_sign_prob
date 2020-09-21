@@ -32166,3 +32166,21 @@ Real binaries:['/usr/bin/wcalc']
 Write to package-work.txt file: wcalc
 Write to package-binaries.txt file: ['/usr/bin/wcalc']
 ['/usr/bin/wcalc']
+Write pickle file
+tar_out:
+Package-nr:5025 of 11000, Name:wmforkplop-dbgsym
+Package >wmforkplop< not in package-all.txt file
+Write to package-all.txt file: wmforkplop
+In package >wmforkplop< are these binaries: ['/usr/bin/wmforkplop']
+Real binaries:['/usr/bin/wmforkplop']
+Write to package-work.txt file: wmforkplop
+Write to package-binaries.txt file: ['/usr/bin/wmforkplop']
+['/usr/bin/wmforkplop']
+Package-nr:5026 of 11000, Name:wmitime-dbgsym
+Package >wmitime< not in package-all.txt file
+Write to package-all.txt file: wmitime
+In package >wmitime< are these binaries: ['/usr/bin/wmitime']
+Real binaries:['/usr/bin/wmitime']
+Write to package-work.txt file: wmitime
+Write to package-binaries.txt file: ['/usr/bin/wmitime']
+['/usr/bin/wmitime']

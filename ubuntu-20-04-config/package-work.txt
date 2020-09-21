@@ -3318,3 +3318,5 @@ wavtool-pl
 wwl
 wabt
 wcalc
+wmforkplop
+wmitime
