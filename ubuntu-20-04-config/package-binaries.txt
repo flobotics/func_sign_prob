@@ -8764,3 +8764,4 @@
 /usr/sbin/trafshow
 /usr/bin/supernode
 /usr/sbin/edge
+/usr/bin/notmuch-addrlookup
