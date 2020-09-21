@@ -7850,3 +7850,4 @@
 /usr/bin/vttest
 /usr/bin/vlevel
 /usr/bin/vlevel-jack
+/usr/bin/vifm
