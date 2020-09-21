@@ -4997,3 +4997,4 @@ weechat-php
 weechat-perl
 weechat-tcl
 weechat-curses
+weechat-headless

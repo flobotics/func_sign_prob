@@ -3341,3 +3341,4 @@ wmmemload
 wofi
 webdruid
 weechat-curses
+weechat-headless

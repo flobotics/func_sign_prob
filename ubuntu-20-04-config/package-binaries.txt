@@ -9393,3 +9393,4 @@
 /usr/bin/wofi
 /usr/bin/webdruid
 /usr/bin/weechat
+/usr/bin/weechat-headless
