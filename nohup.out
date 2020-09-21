@@ -25748,3 +25748,13 @@ Real binaries:['/usr/bin/icebox', '/usr/bin/icebox++11']
 Write to package-work.txt file: zeroc-icebox
 Write to package-binaries.txt file: ['/usr/bin/icebox++11']
 ['/usr/bin/icebox++11']
+Write pickle file
+tar_out:
+Package-nr:4274 of 11000, Name:zeroc-icegrid-dbgsym
+Package >zeroc-icegrid< not in package-all.txt file
+Write to package-all.txt file: zeroc-icegrid
+In package >zeroc-icegrid< are these binaries: ['/usr/bin/icegridnode', '/usr/bin/icegridregistry']
+Real binaries:['/usr/bin/icegridnode', '/usr/bin/icegridregistry']
+Write to package-work.txt file: zeroc-icegrid
+Write to package-binaries.txt file: ['/usr/bin/icegridnode', '/usr/bin/icegridregistry']
+['/usr/bin/icegridnode', '/usr/bin/icegridregistry']

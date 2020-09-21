@@ -2817,3 +2817,4 @@ zziplib-bin
 ztclocalagent
 zeroc-ice-utils
 zeroc-icebox
+zeroc-icegrid
