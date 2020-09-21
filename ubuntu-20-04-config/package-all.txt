@@ -4086,3 +4086,4 @@ vorbis-tools
 vncsnapshot
 vmpk
 vagalume
+vfu

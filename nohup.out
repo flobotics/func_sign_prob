@@ -23941,3 +23941,13 @@ Real binaries:['/usr/bin/vagalume']
 Write to package-work.txt file: vagalume
 Write to package-binaries.txt file: ['/usr/bin/vagalume']
 ['/usr/bin/vagalume']
+Write pickle file
+tar_out:
+Package-nr:4069 of 11000, Name:vfu-dbgsym
+Package >vfu< not in package-all.txt file
+Write to package-all.txt file: vfu
+In package >vfu< are these binaries: ['/usr/bin/vfu']
+Real binaries:['/usr/bin/vfu']
+Write to package-work.txt file: vfu
+Write to package-binaries.txt file: ['/usr/bin/vfu']
+['/usr/bin/vfu']
