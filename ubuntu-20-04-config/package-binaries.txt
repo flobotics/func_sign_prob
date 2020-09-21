@@ -8048,3 +8048,4 @@
 /usr/sbin/zblacklist
 /usr/sbin/zmap
 /usr/sbin/ztee
+/usr/bin/zpaq

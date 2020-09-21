@@ -25443,3 +25443,16 @@ Real binaries:['/usr/sbin/zblacklist', '/usr/sbin/zmap', '/usr/sbin/ztee']
 Write to package-work.txt file: zmap
 Write to package-binaries.txt file: ['/usr/sbin/zblacklist', '/usr/sbin/zmap', '/usr/sbin/ztee']
 ['/usr/sbin/zblacklist', '/usr/sbin/zmap', '/usr/sbin/ztee']
+Write pickle file
+tar_out:
+Package-nr:4240 of 11000, Name:zathura-dbgsym
+Skip package >zathura<, already in package-all.txt file
+[]
+Package-nr:4241 of 11000, Name:zpaq-dbgsym
+Package >zpaq< not in package-all.txt file
+Write to package-all.txt file: zpaq
+In package >zpaq< are these binaries: ['/usr/bin/zpaq']
+Real binaries:['/usr/bin/zpaq']
+Write to package-work.txt file: zpaq
+Write to package-binaries.txt file: ['/usr/bin/zpaq']
+['/usr/bin/zpaq']
