@@ -25978,3 +25978,27 @@ Real binaries:['/usr/bin/fido2-assert', '/usr/bin/fido2-cred', '/usr/bin/fido2-t
 Write to package-work.txt file: fido2-tools
 Write to package-binaries.txt file: ['/usr/bin/fido2-assert', '/usr/bin/fido2-cred', '/usr/bin/fido2-token']
 ['/usr/bin/fido2-assert', '/usr/bin/fido2-cred', '/usr/bin/fido2-token']
+Write pickle file
+tar_out:
+Package-nr:4299 of 11000, Name:python3-libfwsi-dbgsym
+Package >python3-libfwsi< not in package-all.txt file
+Write to package-all.txt file: python3-libfwsi
+In package >python3-libfwsi< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: python3-libfwsi
+[]
+Package-nr:4300 of 11000, Name:python3-libfwnt-dbgsym
+Package >python3-libfwnt< not in package-all.txt file
+Write to package-all.txt file: python3-libfwnt
+In package >python3-libfwnt< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: python3-libfwnt
+[]
+Package-nr:4301 of 11000, Name:fastahack-dbgsym
+Package >fastahack< not in package-all.txt file
+Write to package-all.txt file: fastahack
+In package >fastahack< are these binaries: ['/usr/bin/fastahack']
+Real binaries:['/usr/bin/fastahack']
+Write to package-work.txt file: fastahack
+Write to package-binaries.txt file: ['/usr/bin/fastahack']
+['/usr/bin/fastahack']

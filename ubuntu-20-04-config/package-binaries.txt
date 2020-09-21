@@ -8181,3 +8181,4 @@
 /usr/bin/fido2-assert
 /usr/bin/fido2-cred
 /usr/bin/fido2-token
+/usr/bin/fastahack

@@ -4303,3 +4303,6 @@ python3-ftdi1
 python3-libfsntfs
 python3-libfvde
 fido2-tools
+python3-libfwsi
+python3-libfwnt
+fastahack
