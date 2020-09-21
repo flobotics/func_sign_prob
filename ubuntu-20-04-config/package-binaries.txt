@@ -9270,3 +9270,4 @@
 /usr/bin/fitshdr
 /usr/bin/wcsgrid
 /usr/bin/wcsware
+/usr/bin/w_scan
