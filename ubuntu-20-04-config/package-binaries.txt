@@ -9394,3 +9394,4 @@
 /usr/bin/webdruid
 /usr/bin/weechat
 /usr/bin/weechat-headless
+/usr/bin/wbox

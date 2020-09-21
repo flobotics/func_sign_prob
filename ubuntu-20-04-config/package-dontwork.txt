@@ -1651,3 +1651,6 @@ weechat-guile
 weechat-php
 weechat-perl
 weechat-tcl
+weechat-core
+weechat-lua
+weechat-python

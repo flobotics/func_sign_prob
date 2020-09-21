@@ -3342,3 +3342,4 @@ wofi
 webdruid
 weechat-curses
 weechat-headless
+wbox

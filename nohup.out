@@ -32462,3 +32462,34 @@ Real binaries:['/usr/bin/weechat-headless']
 Write to package-work.txt file: weechat-headless
 Write to package-binaries.txt file: ['/usr/bin/weechat-headless']
 ['/usr/bin/weechat-headless']
+Write pickle file
+tar_out:
+Package-nr:5059 of 11000, Name:weechat-core-dbgsym
+Package >weechat-core< not in package-all.txt file
+Write to package-all.txt file: weechat-core
+In package >weechat-core< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: weechat-core
+[]
+Package-nr:5060 of 11000, Name:weechat-lua-dbgsym
+Package >weechat-lua< not in package-all.txt file
+Write to package-all.txt file: weechat-lua
+In package >weechat-lua< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: weechat-lua
+[]
+Package-nr:5061 of 11000, Name:weechat-python-dbgsym
+Package >weechat-python< not in package-all.txt file
+Write to package-all.txt file: weechat-python
+In package >weechat-python< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: weechat-python
+[]
+Package-nr:5062 of 11000, Name:wbox-dbgsym
+Package >wbox< not in package-all.txt file
+Write to package-all.txt file: wbox
+In package >wbox< are these binaries: ['/usr/bin/wbox']
+Real binaries:['/usr/bin/wbox']
+Write to package-work.txt file: wbox
+Write to package-binaries.txt file: ['/usr/bin/wbox']
+['/usr/bin/wbox']
