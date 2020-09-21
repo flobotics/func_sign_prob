@@ -3495,3 +3495,4 @@ swisswatch
 staden
 silverjuke
 charon-systemd
+charon-cmd

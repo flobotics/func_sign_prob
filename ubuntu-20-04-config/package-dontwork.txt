@@ -1714,3 +1714,5 @@ spacearyarya
 scim-kmfl-imengine
 gtk2-engines-sugar
 slimevolley
+strongswan-nm
+strongswan-scepclient

@@ -5214,3 +5214,6 @@ swisswatch
 staden
 silverjuke
 charon-systemd
+strongswan-nm
+strongswan-scepclient
+charon-cmd
