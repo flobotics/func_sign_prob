@@ -24650,3 +24650,13 @@ Real binaries:['/usr/bin/vstream-client']
 Write to package-work.txt file: vstream-client
 Write to package-binaries.txt file: ['/usr/bin/vstream-client']
 ['/usr/bin/vstream-client']
+Write pickle file
+tar_out:
+Package-nr:4149 of 11000, Name:vzctl-dbgsym
+Package >vzctl< not in package-all.txt file
+Write to package-all.txt file: vzctl
+In package >vzctl< are these binaries: ['/usr/sbin/arpsend', '/usr/sbin/ndsend', '/usr/sbin/vzcalc', '/usr/sbin/vzcfgvalidate', '/usr/sbin/vzcptcheck', '/usr/sbin/vzcpucheck', '/usr/sbin/vzctl', '/usr/sbin/vzeventd', '/usr/sbin/vzfsync', '/usr/sbin/vzifup-post', '/usr/sbin/vzlist', '/usr/sbin/vzmemcheck', '/usr/sbin/vzmigrate', '/usr/sbin/vznetaddbr', '/usr/sbin/vznetcfg', '/usr/sbin/vznnc', '/usr/sbin/vzoversell', '/usr/sbin/vzpid', '/usr/sbin/vzsplit', '/usr/sbin/vztmpl-dl', '/usr/sbin/vzubc']
+Real binaries:['/usr/sbin/arpsend', '/usr/sbin/ndsend', '/usr/sbin/vzcalc', '/usr/sbin/vzcfgvalidate', '/usr/sbin/vzcptcheck', '/usr/sbin/vzctl', '/usr/sbin/vzeventd', '/usr/sbin/vzfsync', '/usr/sbin/vzlist', '/usr/sbin/vzmemcheck', '/usr/sbin/vznnc', '/usr/sbin/vzsplit']
+Write to package-work.txt file: vzctl
+Write to package-binaries.txt file: ['/usr/sbin/arpsend', '/usr/sbin/ndsend', '/usr/sbin/vzcalc', '/usr/sbin/vzcfgvalidate', '/usr/sbin/vzcptcheck', '/usr/sbin/vzctl', '/usr/sbin/vzeventd', '/usr/sbin/vzfsync', '/usr/sbin/vzlist', '/usr/sbin/vzmemcheck', '/usr/sbin/vznnc', '/usr/sbin/vzsplit']
+['/usr/sbin/arpsend', '/usr/sbin/ndsend', '/usr/sbin/vzcalc', '/usr/sbin/vzcfgvalidate', '/usr/sbin/vzcptcheck', '/usr/sbin/vzctl', '/usr/sbin/vzeventd', '/usr/sbin/vzfsync', '/usr/sbin/vzlist', '/usr/sbin/vzmemcheck', '/usr/sbin/vznnc', '/usr/sbin/vzsplit']

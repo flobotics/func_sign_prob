@@ -7929,3 +7929,15 @@
 /usr/bin/vramsteg
 /usr/bin/VisualBoyAdvance
 /usr/bin/vstream-client
+/usr/sbin/arpsend
+/usr/sbin/ndsend
+/usr/sbin/vzcalc
+/usr/sbin/vzcfgvalidate
+/usr/sbin/vzcptcheck
+/usr/sbin/vzctl
+/usr/sbin/vzeventd
+/usr/sbin/vzfsync
+/usr/sbin/vzlist
+/usr/sbin/vzmemcheck
+/usr/sbin/vznnc
+/usr/sbin/vzsplit

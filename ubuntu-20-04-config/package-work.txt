@@ -2728,3 +2728,4 @@ vkeybd
 vramsteg
 visualboyadvance
 vstream-client
+vzctl
