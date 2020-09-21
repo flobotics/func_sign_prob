@@ -1595,3 +1595,4 @@ network-manager-l2tp-gnome
 njam
 dolphin-nextcloud
 netrek-client-cow
+noweb

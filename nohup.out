@@ -30048,3 +30048,20 @@ Real binaries:['/usr/bin/nixnote2']
 Write to package-work.txt file: nixnote2
 Write to package-binaries.txt file: ['/usr/bin/nixnote2']
 ['/usr/bin/nixnote2']
+Write pickle file
+tar_out:
+Package-nr:4785 of 11000, Name:noweb-dbgsym
+Package >noweb< not in package-all.txt file
+Write to package-all.txt file: noweb
+In package >noweb< are these binaries: ['/usr/bin/cpif', '/usr/bin/htmltoc', '/usr/bin/nodefs', '/usr/bin/noindex', '/usr/bin/noroff', '/usr/bin/noroots', '/usr/bin/notangle', '/usr/bin/nountangle', '/usr/bin/noweave', '/usr/bin/noweb', '/usr/bin/nuweb2noweb', '/usr/bin/sl2h']
+Real binaries:[]
+Write to package-dontwork.txt file: noweb
+[]
+Package-nr:4786 of 11000, Name:nfstrace-dbgsym
+Package >nfstrace< not in package-all.txt file
+Write to package-all.txt file: nfstrace
+In package >nfstrace< are these binaries: ['/usr/bin/nfstrace']
+Real binaries:['/usr/bin/nfstrace']
+Write to package-work.txt file: nfstrace
+Write to package-binaries.txt file: ['/usr/bin/nfstrace']
+['/usr/bin/nfstrace']

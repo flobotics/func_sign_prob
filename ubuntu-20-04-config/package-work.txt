@@ -3142,3 +3142,4 @@ nextcloud-desktop-cmd
 net-acct
 ncaptool
 nixnote2
+nfstrace

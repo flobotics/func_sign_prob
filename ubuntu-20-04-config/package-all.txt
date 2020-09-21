@@ -4742,3 +4742,5 @@ netrek-client-cow
 net-acct
 ncaptool
 nixnote2
+noweb
+nfstrace
