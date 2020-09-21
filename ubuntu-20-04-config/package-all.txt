@@ -5185,3 +5185,4 @@ squizz
 gtk2-engines-sugar
 sound-juicer
 qshutdown
+qprogram-starter

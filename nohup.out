@@ -34185,3 +34185,13 @@ Real binaries:['/usr/bin/qshutdown']
 Write to package-work.txt file: qshutdown
 Write to package-binaries.txt file: ['/usr/bin/qshutdown']
 ['/usr/bin/qshutdown']
+Write pickle file
+tar_out:
+Package-nr:5261 of 11000, Name:qprogram-starter-dbgsym
+Package >qprogram-starter< not in package-all.txt file
+Write to package-all.txt file: qprogram-starter
+In package >qprogram-starter< are these binaries: ['/usr/bin/qprogram-starter']
+Real binaries:['/usr/bin/qprogram-starter']
+Write to package-work.txt file: qprogram-starter
+Write to package-binaries.txt file: ['/usr/bin/qprogram-starter']
+['/usr/bin/qprogram-starter']

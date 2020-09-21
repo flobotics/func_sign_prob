@@ -3467,3 +3467,4 @@ seqtk
 squizz
 sound-juicer
 qshutdown
+qprogram-starter
