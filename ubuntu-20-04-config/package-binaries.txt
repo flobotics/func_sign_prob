@@ -8829,3 +8829,4 @@
 /usr/bin/getabstime
 /usr/bin/netperfmeter
 /usr/bin/runtimeestimator
+/usr/bin/nordlicht

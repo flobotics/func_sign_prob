@@ -29512,3 +29512,13 @@ Real binaries:['/usr/bin/createsummary', '/usr/bin/extractvectors', '/usr/bin/ge
 Write to package-work.txt file: netperfmeter
 Write to package-binaries.txt file: ['/usr/bin/createsummary', '/usr/bin/extractvectors', '/usr/bin/getabstime', '/usr/bin/netperfmeter', '/usr/bin/runtimeestimator']
 ['/usr/bin/createsummary', '/usr/bin/extractvectors', '/usr/bin/getabstime', '/usr/bin/netperfmeter', '/usr/bin/runtimeestimator']
+Write pickle file
+tar_out:
+Package-nr:4722 of 11000, Name:nordlicht-dbgsym
+Package >nordlicht< not in package-all.txt file
+Write to package-all.txt file: nordlicht
+In package >nordlicht< are these binaries: ['/usr/bin/nordlicht']
+Real binaries:['/usr/bin/nordlicht']
+Write to package-work.txt file: nordlicht
+Write to package-binaries.txt file: ['/usr/bin/nordlicht']
+['/usr/bin/nordlicht']

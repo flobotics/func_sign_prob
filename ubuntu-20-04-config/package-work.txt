@@ -3101,3 +3101,4 @@ nulib2
 neat
 ncurses-hexedit
 netperfmeter
+nordlicht
