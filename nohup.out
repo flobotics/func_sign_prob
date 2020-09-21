@@ -28332,3 +28332,13 @@ Real binaries:['/usr/bin/nanopolish']
 Write to package-work.txt file: nanopolish
 Write to package-binaries.txt file: ['/usr/bin/nanopolish']
 ['/usr/bin/nanopolish']
+Write pickle file
+tar_out:
+Package-nr:4581 of 11000, Name:nqc-dbgsym
+Package >nqc< not in package-all.txt file
+Write to package-all.txt file: nqc
+In package >nqc< are these binaries: ['/usr/bin/nqc']
+Real binaries:['/usr/bin/nqc']
+Write to package-work.txt file: nqc
+Write to package-binaries.txt file: ['/usr/bin/nqc']
+['/usr/bin/nqc']

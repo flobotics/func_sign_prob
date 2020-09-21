@@ -8540,3 +8540,4 @@
 /usr/bin/nomacs
 /usr/bin/ncdu
 /usr/bin/nanopolish
+/usr/bin/nqc

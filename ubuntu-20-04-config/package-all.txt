@@ -4556,3 +4556,4 @@ nomacs
 ncdu
 network-manager-openconnect-gnome
 nanopolish
+nqc
