@@ -1545,3 +1545,5 @@ noiz2sa
 python3-netgen
 ninvaders
 netpanzer
+neverputt
+neverball

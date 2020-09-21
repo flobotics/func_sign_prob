@@ -28579,3 +28579,35 @@ Real binaries:['/usr/bin/nbtscan']
 Write to package-work.txt file: nbtscan
 Write to package-binaries.txt file: ['/usr/bin/nbtscan']
 ['/usr/bin/nbtscan']
+Write pickle file
+tar_out:
+Package-nr:4611 of 11000, Name:nictools-pci-dbgsym
+Package >nictools-pci< not in package-all.txt file
+Write to package-all.txt file: nictools-pci
+In package >nictools-pci< are these binaries: ['/usr/sbin/alta-diag', '/usr/sbin/eepro100-diag', '/usr/sbin/epic-diag', '/usr/sbin/myson-diag', '/usr/sbin/natsemi-diag', '/usr/sbin/ne2k-pci-diag', '/usr/sbin/ns820-diag', '/usr/sbin/pci-config', '/usr/sbin/pcnet-diag', '/usr/sbin/rtl8139-diag', '/usr/sbin/starfire-diag', '/usr/sbin/tulip-diag', '/usr/sbin/via-diag', '/usr/sbin/vortex-diag', '/usr/sbin/winbond-diag', '/usr/sbin/yellowfin-diag']
+Real binaries:['/usr/sbin/alta-diag', '/usr/sbin/eepro100-diag', '/usr/sbin/epic-diag', '/usr/sbin/myson-diag', '/usr/sbin/natsemi-diag', '/usr/sbin/ne2k-pci-diag', '/usr/sbin/ns820-diag', '/usr/sbin/pci-config', '/usr/sbin/pcnet-diag', '/usr/sbin/rtl8139-diag', '/usr/sbin/starfire-diag', '/usr/sbin/tulip-diag', '/usr/sbin/via-diag', '/usr/sbin/vortex-diag', '/usr/sbin/winbond-diag', '/usr/sbin/yellowfin-diag']
+Write to package-work.txt file: nictools-pci
+Write to package-binaries.txt file: ['/usr/sbin/alta-diag', '/usr/sbin/eepro100-diag', '/usr/sbin/epic-diag', '/usr/sbin/myson-diag', '/usr/sbin/natsemi-diag', '/usr/sbin/ne2k-pci-diag', '/usr/sbin/ns820-diag', '/usr/sbin/pci-config', '/usr/sbin/pcnet-diag', '/usr/sbin/rtl8139-diag', '/usr/sbin/starfire-diag', '/usr/sbin/tulip-diag', '/usr/sbin/via-diag', '/usr/sbin/vortex-diag', '/usr/sbin/winbond-diag', '/usr/sbin/yellowfin-diag']
+['/usr/sbin/alta-diag', '/usr/sbin/eepro100-diag', '/usr/sbin/epic-diag', '/usr/sbin/myson-diag', '/usr/sbin/natsemi-diag', '/usr/sbin/ne2k-pci-diag', '/usr/sbin/ns820-diag', '/usr/sbin/pci-config', '/usr/sbin/pcnet-diag', '/usr/sbin/rtl8139-diag', '/usr/sbin/starfire-diag', '/usr/sbin/tulip-diag', '/usr/sbin/via-diag', '/usr/sbin/vortex-diag', '/usr/sbin/winbond-diag', '/usr/sbin/yellowfin-diag']
+Package-nr:4612 of 11000, Name:neverputt-dbgsym
+Package >neverputt< not in package-all.txt file
+Write to package-all.txt file: neverputt
+In package >neverputt< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: neverputt
+[]
+Package-nr:4613 of 11000, Name:neverball-dbgsym
+Package >neverball< not in package-all.txt file
+Write to package-all.txt file: neverball
+In package >neverball< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: neverball
+[]
+Package-nr:4614 of 11000, Name:nwipe-dbgsym
+Package >nwipe< not in package-all.txt file
+Write to package-all.txt file: nwipe
+In package >nwipe< are these binaries: ['/usr/sbin/nwipe']
+Real binaries:['/usr/sbin/nwipe']
+Write to package-work.txt file: nwipe
+Write to package-binaries.txt file: ['/usr/sbin/nwipe']
+['/usr/sbin/nwipe']

@@ -4581,3 +4581,7 @@ ndisc6
 rdnssd
 normaliz-bin
 nbtscan
+nictools-pci
+neverputt
+neverball
+nwipe
