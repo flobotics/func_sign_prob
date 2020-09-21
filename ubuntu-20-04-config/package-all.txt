@@ -4502,3 +4502,4 @@ nanomsg-utils
 netgen-lvs
 nedit
 nzbget
+ncmpcpp

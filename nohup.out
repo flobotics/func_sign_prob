@@ -27836,3 +27836,16 @@ Real binaries:['/usr/bin/nzbget']
 Write to package-work.txt file: nzbget
 Write to package-binaries.txt file: ['/usr/bin/nzbget']
 ['/usr/bin/nzbget']
+Write pickle file
+tar_out:
+Package-nr:4517 of 11000, Name:telnetd-dbgsym
+Skip package >telnetd<, already in package-all.txt file
+[]
+Package-nr:4518 of 11000, Name:ncmpcpp-dbgsym
+Package >ncmpcpp< not in package-all.txt file
+Write to package-all.txt file: ncmpcpp
+In package >ncmpcpp< are these binaries: ['/usr/bin/ncmpcpp']
+Real binaries:['/usr/bin/ncmpcpp']
+Write to package-work.txt file: ncmpcpp
+Write to package-binaries.txt file: ['/usr/bin/ncmpcpp']
+['/usr/bin/ncmpcpp']
