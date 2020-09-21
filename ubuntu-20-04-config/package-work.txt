@@ -3480,3 +3480,4 @@ shisa
 sylph-searcher
 setbfree
 sdlbrt
+sciteproj

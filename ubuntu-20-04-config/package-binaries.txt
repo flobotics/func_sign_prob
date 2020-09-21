@@ -9664,3 +9664,4 @@
 /usr/bin/setBfreeUI
 /usr/bin/x42-whirl
 /usr/bin/sdlBrt
+/usr/bin/sciteproj
