@@ -9261,3 +9261,4 @@
 /usr/bin/gpio
 /usr/bin/wkhtmltoimage
 /usr/bin/wkhtmltopdf
+/usr/bin/whitedune

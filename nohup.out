@@ -31691,3 +31691,13 @@ Real binaries:['/usr/bin/wkhtmltoimage', '/usr/bin/wkhtmltopdf']
 Write to package-work.txt file: wkhtmltopdf
 Write to package-binaries.txt file: ['/usr/bin/wkhtmltoimage', '/usr/bin/wkhtmltopdf']
 ['/usr/bin/wkhtmltoimage', '/usr/bin/wkhtmltopdf']
+Write pickle file
+tar_out:
+Package-nr:4973 of 11000, Name:whitedune-dbgsym
+Package >whitedune< not in package-all.txt file
+Write to package-all.txt file: whitedune
+In package >whitedune< are these binaries: ['/usr/bin/whitedune']
+Real binaries:['/usr/bin/whitedune']
+Write to package-work.txt file: whitedune
+Write to package-binaries.txt file: ['/usr/bin/whitedune']
+['/usr/bin/whitedune']
