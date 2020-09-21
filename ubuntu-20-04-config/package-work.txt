@@ -3154,3 +3154,4 @@ ntpdate
 neuron-dev
 nnn
 nrg2iso
+nslcd

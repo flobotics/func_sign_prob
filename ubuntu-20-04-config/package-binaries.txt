@@ -8939,3 +8939,4 @@
 /usr/lib/neuron/bin/nocmodl
 /usr/bin/nnn
 /usr/bin/nrg2iso
+/usr/sbin/nslcd
