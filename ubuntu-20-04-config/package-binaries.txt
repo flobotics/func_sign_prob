@@ -9958,3 +9958,4 @@
 /usr/bin/svnraisetreeconflict
 /usr/sbin/snmptrapfmt
 /usr/sbin/snmptrapfmthdlr
+/usr/bin/snp-sites
