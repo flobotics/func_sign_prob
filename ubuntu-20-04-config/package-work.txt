@@ -3059,3 +3059,4 @@ ng-cjk-canna
 ng-latin
 noblenote
 nxproxy
+nxagent

@@ -8729,3 +8729,4 @@
 /usr/bin/ng-latin
 /usr/bin/noblenote
 /usr/bin/nxproxy
+/usr/bin/nxagent

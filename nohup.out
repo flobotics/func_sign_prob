@@ -28888,3 +28888,13 @@ Real binaries:['/usr/bin/nxproxy']
 Write to package-work.txt file: nxproxy
 Write to package-binaries.txt file: ['/usr/bin/nxproxy']
 ['/usr/bin/nxproxy']
+Write pickle file
+tar_out:
+Package-nr:4646 of 11000, Name:nxagent-dbgsym
+Package >nxagent< not in package-all.txt file
+Write to package-all.txt file: nxagent
+In package >nxagent< are these binaries: ['/usr/bin/nxagent', '/usr/lib/x86_64-linux-gnu/nx/bin/nxagent']
+Real binaries:['/usr/bin/nxagent']
+Write to package-work.txt file: nxagent
+Write to package-binaries.txt file: ['/usr/bin/nxagent']
+['/usr/bin/nxagent']
