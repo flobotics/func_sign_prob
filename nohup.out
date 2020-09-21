@@ -32256,3 +32256,13 @@ Real binaries:['/usr/sbin/uniconfd']
 Write to package-work.txt file: uniconfd
 Write to package-binaries.txt file: ['/usr/sbin/uniconfd']
 ['/usr/sbin/uniconfd']
+Write pickle file
+tar_out:
+Package-nr:5036 of 11000, Name:wmsun-dbgsym
+Package >wmsun< not in package-all.txt file
+Write to package-all.txt file: wmsun
+In package >wmsun< are these binaries: ['/usr/bin/wmsun']
+Real binaries:['/usr/bin/wmsun']
+Write to package-work.txt file: wmsun
+Write to package-binaries.txt file: ['/usr/bin/wmsun']
+['/usr/bin/wmsun']

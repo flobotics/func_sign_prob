@@ -3325,3 +3325,4 @@ wayland-scanner++
 wmsysmon
 uniconf-tools
 uniconfd
+wmsun

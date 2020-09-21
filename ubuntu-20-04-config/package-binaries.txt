@@ -9346,3 +9346,4 @@
 /usr/bin/wayland-scanner++
 /usr/bin/wmsysmon
 /usr/sbin/uniconfd
+/usr/bin/wmsun

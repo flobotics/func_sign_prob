@@ -4976,3 +4976,4 @@ wsynth-dssi
 wmsysmon
 uniconf-tools
 uniconfd
+wmsun
