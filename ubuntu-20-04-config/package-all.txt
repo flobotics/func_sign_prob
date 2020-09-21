@@ -4662,3 +4662,4 @@ python3-nordugrid-arc
 nordugrid-arc-arex
 nordugrid-arc-hed
 nordugrid-arc-dev
+nordugrid-arc-client

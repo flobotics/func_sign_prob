@@ -3091,3 +3091,4 @@ nordugrid-arc-wn
 nordugrid-arc-gridftpd
 nordugrid-arc-hed
 nordugrid-arc-dev
+nordugrid-arc-client
