@@ -10025,3 +10025,6 @@
 /usr/bin/soapdenovo2-127mer
 /usr/bin/soapdenovo2-63mer
 /usr/bin/skinedit
+/usr/bin/sd-c
+/usr/bin/sd-eng
+/usr/bin/sd-engf
