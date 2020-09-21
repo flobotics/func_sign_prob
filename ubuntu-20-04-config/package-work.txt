@@ -2952,3 +2952,4 @@ uim-xim
 uim-fep
 uim-el
 xcwcp
+ucspi-unix

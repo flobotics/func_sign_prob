@@ -8432,3 +8432,5 @@
 /usr/bin/uim-el-agent
 /usr/bin/uim-el-helper-agent
 /usr/bin/xcwcp
+/usr/bin/unixclient
+/usr/bin/unixserver

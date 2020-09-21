@@ -4472,3 +4472,4 @@ uim-el
 unity-gtk2-module
 unity-gtk3-module
 xcwcp
+ucspi-unix

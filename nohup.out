@@ -27538,3 +27538,19 @@ Real binaries:['/usr/bin/xcwcp']
 Write to package-work.txt file: xcwcp
 Write to package-binaries.txt file: ['/usr/bin/xcwcp']
 ['/usr/bin/xcwcp']
+Write pickle file
+tar_out:
+Package-nr:4483 of 11000, Name:cwcp-dbgsym
+Skip package >cwcp<, already in package-all.txt file
+[]
+Package-nr:4484 of 11000, Name:cw-dbgsym
+Skip package >cw<, already in package-all.txt file
+[]
+Package-nr:4485 of 11000, Name:ucspi-unix-dbgsym
+Package >ucspi-unix< not in package-all.txt file
+Write to package-all.txt file: ucspi-unix
+In package >ucspi-unix< are these binaries: ['/usr/bin/unixcat', '/usr/bin/unixclient', '/usr/bin/unixserver']
+Real binaries:['/usr/bin/unixclient', '/usr/bin/unixserver']
+Write to package-work.txt file: ucspi-unix
+Write to package-binaries.txt file: ['/usr/bin/unixclient', '/usr/bin/unixserver']
+['/usr/bin/unixclient', '/usr/bin/unixserver']
