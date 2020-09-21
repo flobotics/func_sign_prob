@@ -30956,3 +30956,13 @@ Real binaries:['/usr/bin/wks2ods']
 Write to package-work.txt file: wks2ods
 Write to package-binaries.txt file: ['/usr/bin/wks2ods']
 ['/usr/bin/wks2ods']
+Write pickle file
+tar_out:
+Package-nr:4889 of 11000, Name:wpd2odt-dbgsym
+Package >wpd2odt< not in package-all.txt file
+Write to package-all.txt file: wpd2odt
+In package >wpd2odt< are these binaries: ['/usr/bin/wpd2odt']
+Real binaries:['/usr/bin/wpd2odt']
+Write to package-work.txt file: wpd2odt
+Write to package-binaries.txt file: ['/usr/bin/wpd2odt']
+['/usr/bin/wpd2odt']

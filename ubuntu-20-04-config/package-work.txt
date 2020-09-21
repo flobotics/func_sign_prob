@@ -3216,3 +3216,4 @@ key2odp
 numbers2ods
 zmf2odg
 wks2ods
+wpd2odt

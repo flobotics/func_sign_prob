@@ -9093,3 +9093,4 @@
 /usr/bin/numbers2ods
 /usr/bin/zmf2odg
 /usr/bin/wks2ods
+/usr/bin/wpd2odt
