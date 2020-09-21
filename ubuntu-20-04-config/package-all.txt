@@ -4789,3 +4789,5 @@ python3-libregf
 rtr-tools
 ratbagd
 lur-command
+python3-corepywrap
+rasterlite2-bin

@@ -30491,3 +30491,20 @@ Real binaries:['/usr/bin/lur-command']
 Write to package-work.txt file: lur-command
 Write to package-binaries.txt file: ['/usr/bin/lur-command']
 ['/usr/bin/lur-command']
+Write pickle file
+tar_out:
+Package-nr:4840 of 11000, Name:python3-corepywrap-dbgsym
+Package >python3-corepywrap< not in package-all.txt file
+Write to package-all.txt file: python3-corepywrap
+In package >python3-corepywrap< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: python3-corepywrap
+[]
+Package-nr:4841 of 11000, Name:rasterlite2-bin-dbgsym
+Package >rasterlite2-bin< not in package-all.txt file
+Write to package-all.txt file: rasterlite2-bin
+In package >rasterlite2-bin< are these binaries: ['/usr/bin/rl2sniff', '/usr/bin/rl2tool', '/usr/bin/wmslite', '/usr/share/doc/rasterlite2-bin/copyright', '/usr/share/doc/rasterlite2-bin/changelog.Debian.gz']
+Real binaries:['/usr/bin/rl2sniff', '/usr/bin/rl2tool', '/usr/bin/wmslite']
+Write to package-work.txt file: rasterlite2-bin
+Write to package-binaries.txt file: ['/usr/bin/rl2sniff', '/usr/bin/rl2tool', '/usr/bin/wmslite']
+['/usr/bin/rl2sniff', '/usr/bin/rl2tool', '/usr/bin/wmslite']

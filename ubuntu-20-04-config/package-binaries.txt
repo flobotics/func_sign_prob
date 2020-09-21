@@ -8999,3 +8999,6 @@
 /usr/bin/rtrclient
 /usr/bin/ratbagd
 /usr/bin/lur-command
+/usr/bin/rl2sniff
+/usr/bin/rl2tool
+/usr/bin/wmslite

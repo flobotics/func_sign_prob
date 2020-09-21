@@ -3174,3 +3174,4 @@ rdiff
 rtr-tools
 ratbagd
 lur-command
+rasterlite2-bin
