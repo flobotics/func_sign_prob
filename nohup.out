@@ -31831,3 +31831,20 @@ Real binaries:['/usr/bin/wmcpuload']
 Write to package-work.txt file: wmcpuload
 Write to package-binaries.txt file: ['/usr/bin/wmcpuload']
 ['/usr/bin/wmcpuload']
+Write pickle file
+tar_out:
+Package-nr:4988 of 11000, Name:wrapperfactory.app-dbgsym
+Package >wrapperfactory.app< not in package-all.txt file
+Write to package-all.txt file: wrapperfactory.app
+In package >wrapperfactory.app< are these binaries: ['/usr/bin/WrapperFactory']
+Real binaries:[]
+Write to package-dontwork.txt file: wrapperfactory.app
+[]
+Package-nr:4989 of 11000, Name:wput-dbgsym
+Package >wput< not in package-all.txt file
+Write to package-all.txt file: wput
+In package >wput< are these binaries: ['/usr/bin/wput', '/usr/bin/wdel']
+Real binaries:['/usr/bin/wput']
+Write to package-work.txt file: wput
+Write to package-binaries.txt file: ['/usr/bin/wput']
+['/usr/bin/wput']

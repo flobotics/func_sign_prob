@@ -1635,3 +1635,4 @@ wlcs
 widelands
 warzone2100
 w3m-img
+wrapperfactory.app

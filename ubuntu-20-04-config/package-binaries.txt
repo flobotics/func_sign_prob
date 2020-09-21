@@ -9279,3 +9279,4 @@
 /usr/bin/wdisplays
 /usr/bin/wmdiskmon
 /usr/bin/wmcpuload
+/usr/bin/wput

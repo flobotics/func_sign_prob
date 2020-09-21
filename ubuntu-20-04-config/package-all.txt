@@ -4930,3 +4930,5 @@ w3cam
 wdisplays
 wmdiskmon
 wmcpuload
+wrapperfactory.app
+wput
