@@ -7872,3 +7872,4 @@
 /usr/bin/scancotodicom
 /usr/bin/vtprint
 /usr/bin/vcftools
+/usr/bin/v_sim

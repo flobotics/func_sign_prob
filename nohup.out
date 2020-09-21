@@ -24383,3 +24383,13 @@ Real binaries:['/usr/bin/vcftools']
 Write to package-work.txt file: vcftools
 Write to package-binaries.txt file: ['/usr/bin/vcftools']
 ['/usr/bin/vcftools']
+Write pickle file
+tar_out:
+Package-nr:4119 of 11000, Name:v-sim-dbgsym
+Package >v-sim< not in package-all.txt file
+Write to package-all.txt file: v-sim
+In package >v-sim< are these binaries: ['/usr/bin/v_sim']
+Real binaries:['/usr/bin/v_sim']
+Write to package-work.txt file: v-sim
+Write to package-binaries.txt file: ['/usr/bin/v_sim']
+['/usr/bin/v_sim']
