@@ -32012,3 +32012,13 @@ Real binaries:['/usr/bin/wp2x']
 Write to package-work.txt file: wp2x
 Write to package-binaries.txt file: ['/usr/bin/wp2x']
 ['/usr/bin/wp2x']
+Write pickle file
+tar_out:
+Package-nr:5009 of 11000, Name:wmmatrix-dbgsym
+Package >wmmatrix< not in package-all.txt file
+Write to package-all.txt file: wmmatrix
+In package >wmmatrix< are these binaries: ['/usr/bin/wmMatrix', '/usr/bin/wmmatrix']
+Real binaries:['/usr/bin/wmMatrix']
+Write to package-work.txt file: wmmatrix
+Write to package-binaries.txt file: ['/usr/bin/wmMatrix']
+['/usr/bin/wmMatrix']

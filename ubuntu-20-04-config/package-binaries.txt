@@ -9310,3 +9310,4 @@
 /usr/bin/wvtag
 /usr/bin/wvunpack
 /usr/bin/wp2x
+/usr/bin/wmMatrix

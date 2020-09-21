@@ -4950,3 +4950,4 @@ wmppp.app
 wmmoonclock
 wavpack
 wp2x
+wmmatrix
