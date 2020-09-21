@@ -4705,3 +4705,5 @@ tftp
 tftpd
 neovim-qt
 nootka
+python3-numba
+node-sqlite3

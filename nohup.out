@@ -29697,3 +29697,20 @@ Real binaries:['/usr/bin/nootka']
 Write to package-work.txt file: nootka
 Write to package-binaries.txt file: ['/usr/bin/nootka']
 ['/usr/bin/nootka']
+Write pickle file
+tar_out:
+Package-nr:4743 of 11000, Name:python3-numba-dbgsym
+Package >python3-numba< not in package-all.txt file
+Write to package-all.txt file: python3-numba
+In package >python3-numba< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: python3-numba
+[]
+Package-nr:4744 of 11000, Name:node-sqlite3-dbgsym
+Package >node-sqlite3< not in package-all.txt file
+Write to package-all.txt file: node-sqlite3
+In package >node-sqlite3< are these binaries: ['/usr/lib/x86_64-linux-gnu/nodejs/sqlite3/lib/binding/node-v64-linux-x64', '/usr/lib/x86_64-linux-gnu/nodejs/sqlite3/lib/binding/node-v64-linux-x64/node_sqlite3.node']
+Real binaries:['/usr/lib/x86_64-linux-gnu/nodejs/sqlite3/lib/binding/node-v64-linux-x64/node_sqlite3.node']
+Write to package-work.txt file: node-sqlite3
+Write to package-binaries.txt file: ['/usr/lib/x86_64-linux-gnu/nodejs/sqlite3/lib/binding/node-v64-linux-x64/node_sqlite3.node']
+['/usr/lib/x86_64-linux-gnu/nodejs/sqlite3/lib/binding/node-v64-linux-x64/node_sqlite3.node']
