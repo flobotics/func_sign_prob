@@ -8938,3 +8938,4 @@
 /usr/lib/neuron/bin/mos2nrn
 /usr/lib/neuron/bin/nocmodl
 /usr/bin/nnn
+/usr/bin/nrg2iso
