@@ -9020,3 +9020,4 @@
 /usr/sbin/cgconfigparser
 /usr/sbin/cgrulesengd
 /usr/bin/cypher-lint
+/usr/bin/cec-client
