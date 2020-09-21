@@ -2706,3 +2706,4 @@ vtk-dicom-tools
 vtprint
 vcftools
 v-sim
+vim-gtk3

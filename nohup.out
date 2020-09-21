@@ -24393,3 +24393,13 @@ Real binaries:['/usr/bin/v_sim']
 Write to package-work.txt file: v-sim
 Write to package-binaries.txt file: ['/usr/bin/v_sim']
 ['/usr/bin/v_sim']
+Write pickle file
+tar_out:
+Package-nr:4120 of 11000, Name:vim-gtk3-dbgsym
+Package >vim-gtk3< not in package-all.txt file
+Write to package-all.txt file: vim-gtk3
+In package >vim-gtk3< are these binaries: ['/usr/bin/vim.gtk3']
+Real binaries:['/usr/bin/vim.gtk3']
+Write to package-work.txt file: vim-gtk3
+Write to package-binaries.txt file: ['/usr/bin/vim.gtk3']
+['/usr/bin/vim.gtk3']

@@ -4134,3 +4134,4 @@ vtprint
 vim-command-t
 vcftools
 v-sim
+vim-gtk3
