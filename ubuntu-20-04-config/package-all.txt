@@ -4989,3 +4989,4 @@ wimtools
 wmbutton
 wmlongrun
 wmmemload
+wofi

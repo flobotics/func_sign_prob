@@ -32387,3 +32387,13 @@ Real binaries:['/usr/bin/wmmemload']
 Write to package-work.txt file: wmmemload
 Write to package-binaries.txt file: ['/usr/bin/wmmemload']
 ['/usr/bin/wmmemload']
+Write pickle file
+tar_out:
+Package-nr:5050 of 11000, Name:wofi-dbgsym
+Package >wofi< not in package-all.txt file
+Write to package-all.txt file: wofi
+In package >wofi< are these binaries: ['/usr/bin/wofi']
+Real binaries:['/usr/bin/wofi']
+Write to package-work.txt file: wofi
+Write to package-binaries.txt file: ['/usr/bin/wofi']
+['/usr/bin/wofi']

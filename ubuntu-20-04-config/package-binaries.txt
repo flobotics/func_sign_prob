@@ -9390,3 +9390,4 @@
 /usr/bin/wmbutton
 /usr/bin/wmlongrun
 /usr/bin/wmmemload
+/usr/bin/wofi
