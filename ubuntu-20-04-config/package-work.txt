@@ -2740,3 +2740,4 @@ vsearch
 vsdump
 vnstat
 vnstati
+vorbisgain

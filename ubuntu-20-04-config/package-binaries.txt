@@ -7962,3 +7962,4 @@
 /usr/bin/vnstat
 /usr/sbin/vnstatd
 /usr/bin/vnstati
+/usr/bin/vorbisgain

@@ -24784,3 +24784,13 @@ Real binaries:['/usr/bin/vnstati']
 Write to package-work.txt file: vnstati
 Write to package-binaries.txt file: ['/usr/bin/vnstati']
 ['/usr/bin/vnstati']
+Write pickle file
+tar_out:
+Package-nr:4165 of 11000, Name:vorbisgain-dbgsym
+Package >vorbisgain< not in package-all.txt file
+Write to package-all.txt file: vorbisgain
+In package >vorbisgain< are these binaries: ['/usr/bin/vorbisgain']
+Real binaries:['/usr/bin/vorbisgain']
+Write to package-work.txt file: vorbisgain
+Write to package-binaries.txt file: ['/usr/bin/vorbisgain']
+['/usr/bin/vorbisgain']
