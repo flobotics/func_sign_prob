@@ -9392,3 +9392,4 @@
 /usr/bin/wmmemload
 /usr/bin/wofi
 /usr/bin/webdruid
+/usr/bin/weechat

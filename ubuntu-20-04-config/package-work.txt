@@ -3340,3 +3340,4 @@ wmlongrun
 wmmemload
 wofi
 webdruid
+weechat-curses

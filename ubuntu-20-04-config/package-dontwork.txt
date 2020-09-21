@@ -1646,3 +1646,8 @@ west-chamber-common
 php-wikidiff2
 gkrellm-hdplop
 wsynth-dssi
+weechat-ruby
+weechat-guile
+weechat-php
+weechat-perl
+weechat-tcl

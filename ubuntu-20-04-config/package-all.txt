@@ -4991,3 +4991,9 @@ wmlongrun
 wmmemload
 wofi
 webdruid
+weechat-ruby
+weechat-guile
+weechat-php
+weechat-perl
+weechat-tcl
+weechat-curses

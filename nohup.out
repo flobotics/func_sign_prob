@@ -32407,3 +32407,48 @@ Real binaries:['/usr/bin/webdruid']
 Write to package-work.txt file: webdruid
 Write to package-binaries.txt file: ['/usr/bin/webdruid']
 ['/usr/bin/webdruid']
+Write pickle file
+tar_out:
+Package-nr:5052 of 11000, Name:weechat-ruby-dbgsym
+Package >weechat-ruby< not in package-all.txt file
+Write to package-all.txt file: weechat-ruby
+In package >weechat-ruby< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: weechat-ruby
+[]
+Package-nr:5053 of 11000, Name:weechat-guile-dbgsym
+Package >weechat-guile< not in package-all.txt file
+Write to package-all.txt file: weechat-guile
+In package >weechat-guile< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: weechat-guile
+[]
+Package-nr:5054 of 11000, Name:weechat-php-dbgsym
+Package >weechat-php< not in package-all.txt file
+Write to package-all.txt file: weechat-php
+In package >weechat-php< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: weechat-php
+[]
+Package-nr:5055 of 11000, Name:weechat-perl-dbgsym
+Package >weechat-perl< not in package-all.txt file
+Write to package-all.txt file: weechat-perl
+In package >weechat-perl< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: weechat-perl
+[]
+Package-nr:5056 of 11000, Name:weechat-tcl-dbgsym
+Package >weechat-tcl< not in package-all.txt file
+Write to package-all.txt file: weechat-tcl
+In package >weechat-tcl< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: weechat-tcl
+[]
+Package-nr:5057 of 11000, Name:weechat-curses-dbgsym
+Package >weechat-curses< not in package-all.txt file
+Write to package-all.txt file: weechat-curses
+In package >weechat-curses< are these binaries: ['/usr/bin/weechat', '/usr/bin/weechat-curses']
+Real binaries:['/usr/bin/weechat']
+Write to package-work.txt file: weechat-curses
+Write to package-binaries.txt file: ['/usr/bin/weechat']
+['/usr/bin/weechat']
