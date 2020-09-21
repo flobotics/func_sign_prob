@@ -5277,3 +5277,4 @@ snarf
 python3-silo
 sucrack
 sslsplit
+ladspalist

@@ -3540,3 +3540,4 @@ survex-aven
 snarf
 sucrack
 sslsplit
+ladspalist

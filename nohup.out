@@ -35070,3 +35070,13 @@ Real binaries:['/usr/bin/sslsplit']
 Write to package-work.txt file: sslsplit
 Write to package-binaries.txt file: ['/usr/bin/sslsplit']
 ['/usr/bin/sslsplit']
+Write pickle file
+tar_out:
+Package-nr:5363 of 11000, Name:ladspalist-dbgsym
+Package >ladspalist< not in package-all.txt file
+Write to package-all.txt file: ladspalist
+In package >ladspalist< are these binaries: ['/usr/bin/ladspalist']
+Real binaries:['/usr/bin/ladspalist']
+Write to package-work.txt file: ladspalist
+Write to package-binaries.txt file: ['/usr/bin/ladspalist']
+['/usr/bin/ladspalist']
