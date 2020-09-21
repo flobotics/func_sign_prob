@@ -4135,3 +4135,4 @@ vim-command-t
 vcftools
 v-sim
 vim-gtk3
+vim-athena

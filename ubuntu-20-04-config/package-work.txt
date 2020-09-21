@@ -2707,3 +2707,4 @@ vtprint
 vcftools
 v-sim
 vim-gtk3
+vim-athena
