@@ -9300,3 +9300,4 @@
 /usr/bin/wsprd
 /usr/bin/wmnet
 /usr/bin/wmix
+/usr/bin/webissues
