@@ -8256,3 +8256,4 @@
 /usr/bin/po2xmi5
 /usr/bin/umbrello5
 /usr/bin/xmi2pot5
+/usr/bin/mlock

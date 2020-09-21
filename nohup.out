@@ -26384,3 +26384,13 @@ Real binaries:['/usr/bin/po2xmi5', '/usr/bin/umbrello5', '/usr/bin/xmi2pot5']
 Write to package-work.txt file: umbrello
 Write to package-binaries.txt file: ['/usr/bin/po2xmi5', '/usr/bin/umbrello5', '/usr/bin/xmi2pot5']
 ['/usr/bin/po2xmi5', '/usr/bin/umbrello5', '/usr/bin/xmi2pot5']
+Write pickle file
+tar_out:
+Package-nr:4345 of 11000, Name:mlock-dbgsym
+Package >mlock< not in package-all.txt file
+Write to package-all.txt file: mlock
+In package >mlock< are these binaries: ['/usr/bin/mlock']
+Real binaries:['/usr/bin/mlock']
+Write to package-work.txt file: mlock
+Write to package-binaries.txt file: ['/usr/bin/mlock']
+['/usr/bin/mlock']
