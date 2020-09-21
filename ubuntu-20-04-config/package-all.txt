@@ -4192,3 +4192,4 @@ python3-zodbpickle
 zimwriterfs
 zatacka
 zile
+zsh-static
