@@ -26137,3 +26137,13 @@ Real binaries:['/usr/bin/uwsc']
 Write to package-work.txt file: uwsc
 Write to package-binaries.txt file: ['/usr/bin/uwsc']
 ['/usr/bin/uwsc']
+Write pickle file
+tar_out:
+Package-nr:4317 of 11000, Name:units-filter-dbgsym
+Package >units-filter< not in package-all.txt file
+Write to package-all.txt file: units-filter
+In package >units-filter< are these binaries: ['/usr/bin/units-filter']
+Real binaries:['/usr/bin/units-filter']
+Write to package-work.txt file: units-filter
+Write to package-binaries.txt file: ['/usr/bin/units-filter']
+['/usr/bin/units-filter']

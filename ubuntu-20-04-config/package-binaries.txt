@@ -8210,3 +8210,4 @@
 /usr/sbin/uhubctl
 /usr/bin/usepackage
 /usr/bin/uwsc
+/usr/bin/units-filter

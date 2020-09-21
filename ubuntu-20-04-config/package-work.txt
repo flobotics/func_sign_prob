@@ -2847,3 +2847,4 @@ unifont-bin
 uhubctl
 usepackage
 uwsc
+units-filter
