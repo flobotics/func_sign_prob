@@ -4459,3 +4459,4 @@ u3-tool
 ufiformat
 unity-lens-music
 unclutter-xfixes
+usbtop

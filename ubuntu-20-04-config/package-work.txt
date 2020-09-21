@@ -2944,3 +2944,4 @@ ukopp
 u3-tool
 ufiformat
 unclutter-xfixes
+usbtop

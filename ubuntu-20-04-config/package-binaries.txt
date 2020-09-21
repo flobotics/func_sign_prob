@@ -8415,3 +8415,4 @@
 /usr/sbin/u3-tool
 /usr/bin/ufiformat
 /usr/bin/unclutter-xfixes
+/usr/sbin/usbtop
