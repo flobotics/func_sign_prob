@@ -9193,3 +9193,4 @@
 /usr/bin/wmmon
 /usr/bin/wvdial
 /usr/bin/wvdialconf
+/usr/bin/worker
