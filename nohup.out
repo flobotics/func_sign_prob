@@ -27869,3 +27869,13 @@ Real binaries:['/sbin/nbd-client']
 Write to package-work.txt file: nbd-client
 Write to package-binaries.txt file: ['/sbin/nbd-client']
 ['/sbin/nbd-client']
+Write pickle file
+tar_out:
+Package-nr:4521 of 11000, Name:node-zipfile-dbgsym
+Package >node-zipfile< not in package-all.txt file
+Write to package-all.txt file: node-zipfile
+In package >node-zipfile< are these binaries: ['/usr/lib/x86_64-linux-gnu/nodejs/zipfile/lib/binding/zipfile.node']
+Real binaries:['/usr/lib/x86_64-linux-gnu/nodejs/zipfile/lib/binding/zipfile.node']
+Write to package-work.txt file: node-zipfile
+Write to package-binaries.txt file: ['/usr/lib/x86_64-linux-gnu/nodejs/zipfile/lib/binding/zipfile.node']
+['/usr/lib/x86_64-linux-gnu/nodejs/zipfile/lib/binding/zipfile.node']

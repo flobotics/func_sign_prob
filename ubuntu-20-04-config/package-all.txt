@@ -4505,3 +4505,4 @@ nzbget
 ncmpcpp
 nfacct
 nbd-client
+node-zipfile
