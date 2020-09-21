@@ -9515,3 +9515,4 @@
 /usr/bin/yabasic
 /usr/bin/yangdump
 /usr/bin/yangcli
+/usr/bin/yaha
