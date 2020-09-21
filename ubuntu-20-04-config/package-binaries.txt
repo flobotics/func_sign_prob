@@ -8511,3 +8511,4 @@
 /usr/bin/ntpstat
 /usr/bin/nngcat
 /usr/bin/ncat
+/usr/sbin/rpc.bootparamd

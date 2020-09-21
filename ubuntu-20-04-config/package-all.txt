@@ -4528,3 +4528,4 @@ netsed
 ntpstat
 nng-utils
 ncat
+bootparamd
