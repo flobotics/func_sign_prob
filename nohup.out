@@ -29851,3 +29851,16 @@ Real binaries:['/usr/bin/sfcapd']
 Write to package-work.txt file: nfdump-sflow
 Write to package-binaries.txt file: ['/usr/bin/sfcapd']
 ['/usr/bin/sfcapd']
+Write pickle file
+tar_out:
+Package-nr:4761 of 11000, Name:nfdump-dbgsym
+Skip package >nfdump<, already in package-all.txt file
+[]
+Package-nr:4762 of 11000, Name:nsca-ng-client-dbgsym
+Package >nsca-ng-client< not in package-all.txt file
+Write to package-all.txt file: nsca-ng-client
+In package >nsca-ng-client< are these binaries: ['/usr/sbin/send_nsca']
+Real binaries:['/usr/sbin/send_nsca']
+Write to package-work.txt file: nsca-ng-client
+Write to package-binaries.txt file: ['/usr/sbin/send_nsca']
+['/usr/sbin/send_nsca']

@@ -3127,3 +3127,4 @@ nautilus-filename-repairer
 nodm
 nuntius
 nfdump-sflow
+nsca-ng-client

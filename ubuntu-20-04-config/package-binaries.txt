@@ -8904,3 +8904,4 @@
 /usr/bin/nuntius
 /usr/bin/qrtest
 /usr/bin/sfcapd
+/usr/sbin/send_nsca
