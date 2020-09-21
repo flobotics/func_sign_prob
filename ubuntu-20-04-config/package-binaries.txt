@@ -8306,3 +8306,15 @@
 /usr/bin/uget-gtk-1to2
 /usr/bin/ctags-universal
 /usr/bin/readtags
+/usr/bin/ubertooth-afh
+/usr/bin/ubertooth-btle
+/usr/bin/ubertooth-debug
+/usr/bin/ubertooth-dfu
+/usr/bin/ubertooth-ducky
+/usr/bin/ubertooth-dump
+/usr/bin/ubertooth-ego
+/usr/bin/ubertooth-follow
+/usr/bin/ubertooth-rx
+/usr/bin/ubertooth-scan
+/usr/bin/ubertooth-specan
+/usr/bin/ubertooth-util
