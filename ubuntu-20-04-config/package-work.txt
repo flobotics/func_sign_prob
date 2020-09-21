@@ -2957,3 +2957,4 @@ unmass
 unscd
 undbx
 uniutils
+ukui-session-manager

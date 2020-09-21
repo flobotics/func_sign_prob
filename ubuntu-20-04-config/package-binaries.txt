@@ -8443,3 +8443,5 @@
 /usr/bin/unihist
 /usr/bin/uniname
 /usr/bin/unireverse
+/usr/bin/ukui-session
+/usr/bin/ukui-session-tools
