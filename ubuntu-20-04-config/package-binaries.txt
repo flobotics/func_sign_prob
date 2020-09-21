@@ -8900,3 +8900,4 @@
 /usr/bin/nvptx-none-as
 /usr/bin/nvptx-none-ld
 /usr/bin/nautilus-filename-repairer
+/usr/sbin/nodm
