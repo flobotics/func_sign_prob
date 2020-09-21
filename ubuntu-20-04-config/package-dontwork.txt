@@ -1550,3 +1550,4 @@ neverball
 nettoe
 nestopia
 node-node-stringprep
+nudoku

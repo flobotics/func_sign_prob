@@ -28842,3 +28842,39 @@ Real binaries:['/usr/bin/nss-passwords']
 Write to package-work.txt file: nss-passwords
 Write to package-binaries.txt file: ['/usr/bin/nss-passwords']
 ['/usr/bin/nss-passwords']
+Write pickle file
+tar_out:
+Package-nr:4640 of 11000, Name:ng-cjk-canna-dbgsym
+Package >ng-cjk-canna< not in package-all.txt file
+Write to package-all.txt file: ng-cjk-canna
+In package >ng-cjk-canna< are these binaries: ['/usr/bin/ng-cjk-canna']
+Real binaries:['/usr/bin/ng-cjk-canna']
+Write to package-work.txt file: ng-cjk-canna
+Write to package-binaries.txt file: ['/usr/bin/ng-cjk-canna']
+['/usr/bin/ng-cjk-canna']
+Package-nr:4641 of 11000, Name:ng-cjk-dbgsym
+Skip package >ng-cjk<, already in package-all.txt file
+[]
+Package-nr:4642 of 11000, Name:ng-latin-dbgsym
+Package >ng-latin< not in package-all.txt file
+Write to package-all.txt file: ng-latin
+In package >ng-latin< are these binaries: ['/usr/bin/ng-latin']
+Real binaries:['/usr/bin/ng-latin']
+Write to package-work.txt file: ng-latin
+Write to package-binaries.txt file: ['/usr/bin/ng-latin']
+['/usr/bin/ng-latin']
+Package-nr:4643 of 11000, Name:nudoku-dbgsym
+Package >nudoku< not in package-all.txt file
+Write to package-all.txt file: nudoku
+In package >nudoku< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: nudoku
+[]
+Package-nr:4644 of 11000, Name:noblenote-dbgsym
+Package >noblenote< not in package-all.txt file
+Write to package-all.txt file: noblenote
+In package >noblenote< are these binaries: ['/usr/bin/noblenote']
+Real binaries:['/usr/bin/noblenote']
+Write to package-work.txt file: noblenote
+Write to package-binaries.txt file: ['/usr/bin/noblenote']
+['/usr/bin/noblenote']

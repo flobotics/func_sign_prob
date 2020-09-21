@@ -4610,3 +4610,7 @@ nginx-extras
 nginx-full
 nginx-light
 nss-passwords
+ng-cjk-canna
+ng-latin
+nudoku
+noblenote

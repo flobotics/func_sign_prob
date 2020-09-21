@@ -8725,3 +8725,6 @@
 /usr/bin/nheko
 /usr/bin/ftp-ssl
 /usr/bin/nss-passwords
+/usr/bin/ng-cjk-canna
+/usr/bin/ng-latin
+/usr/bin/noblenote
