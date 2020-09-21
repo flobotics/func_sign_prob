@@ -9201,3 +9201,9 @@
 /usr/bin/woff2_info
 /usr/bin/wmgtemp
 /usr/bin/wmbubble
+/usr/bin/postw90.x
+/usr/bin/w90chk2chk.x
+/usr/bin/w90pov
+/usr/bin/w90vdw.x
+/usr/bin/wannier90.x
+/usr/bin/wmcalc

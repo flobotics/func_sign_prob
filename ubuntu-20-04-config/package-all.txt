@@ -4884,3 +4884,6 @@ wmcube
 woff2
 wmgtemp
 wmbubble
+postgresql-12-wal2json
+wannier90
+wmcalc

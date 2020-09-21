@@ -3256,3 +3256,5 @@ wmcube
 woff2
 wmgtemp
 wmbubble
+wannier90
+wmcalc

@@ -31407,3 +31407,28 @@ Real binaries:['/usr/bin/wmbubble']
 Write to package-work.txt file: wmbubble
 Write to package-binaries.txt file: ['/usr/bin/wmbubble']
 ['/usr/bin/wmbubble']
+Write pickle file
+tar_out:
+Package-nr:4940 of 11000, Name:postgresql-12-wal2json-dbgsym
+Package >postgresql-12-wal2json< not in package-all.txt file
+Write to package-all.txt file: postgresql-12-wal2json
+In package >postgresql-12-wal2json< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: postgresql-12-wal2json
+[]
+Package-nr:4941 of 11000, Name:wannier90-dbgsym
+Package >wannier90< not in package-all.txt file
+Write to package-all.txt file: wannier90
+In package >wannier90< are these binaries: ['/usr/bin/postw90.x', '/usr/bin/w90chk2chk.x', '/usr/bin/w90pov', '/usr/bin/w90vdw.x', '/usr/bin/wannier90.x']
+Real binaries:['/usr/bin/postw90.x', '/usr/bin/w90chk2chk.x', '/usr/bin/w90pov', '/usr/bin/w90vdw.x', '/usr/bin/wannier90.x']
+Write to package-work.txt file: wannier90
+Write to package-binaries.txt file: ['/usr/bin/postw90.x', '/usr/bin/w90chk2chk.x', '/usr/bin/w90pov', '/usr/bin/w90vdw.x', '/usr/bin/wannier90.x']
+['/usr/bin/postw90.x', '/usr/bin/w90chk2chk.x', '/usr/bin/w90pov', '/usr/bin/w90vdw.x', '/usr/bin/wannier90.x']
+Package-nr:4942 of 11000, Name:wmcalc-dbgsym
+Package >wmcalc< not in package-all.txt file
+Write to package-all.txt file: wmcalc
+In package >wmcalc< are these binaries: ['/usr/bin/wmcalc']
+Real binaries:['/usr/bin/wmcalc']
+Write to package-work.txt file: wmcalc
+Write to package-binaries.txt file: ['/usr/bin/wmcalc']
+['/usr/bin/wmcalc']
