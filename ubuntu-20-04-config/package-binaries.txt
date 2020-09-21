@@ -9409,3 +9409,4 @@
 /usr/bin/welle-io
 /usr/bin/wyrd
 /usr/bin/wsclean
+/usr/bin/weplab
