@@ -3311,3 +3311,4 @@ wmmixer
 wily
 wav2cdr
 wmbattery
+weex

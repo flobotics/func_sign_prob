@@ -9322,3 +9322,4 @@
 /usr/bin/wreplace
 /usr/bin/wav2cdr
 /usr/bin/wmbattery
+/usr/bin/weex
