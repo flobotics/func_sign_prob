@@ -8538,3 +8538,4 @@
 /usr/bin/nwall
 /usr/sbin/nield
 /usr/bin/nomacs
+/usr/bin/ncdu
