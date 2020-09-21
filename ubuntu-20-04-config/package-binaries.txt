@@ -9056,3 +9056,4 @@
 /usr/bin/cacaserver
 /usr/bin/cacaview
 /usr/bin/img2txt
+/usr/bin/cmis-client

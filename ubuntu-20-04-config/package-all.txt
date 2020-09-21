@@ -4799,3 +4799,5 @@ python3-cec
 seahorse-daemon
 cgns-convert
 caca-utils
+python3-columbus
+cmis-client
