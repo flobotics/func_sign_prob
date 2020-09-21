@@ -9309,3 +9309,4 @@
 /usr/bin/wvgain
 /usr/bin/wvtag
 /usr/bin/wvunpack
+/usr/bin/wp2x

@@ -32002,3 +32002,13 @@ Real binaries:['/usr/bin/wavpack', '/usr/bin/wvgain', '/usr/bin/wvtag', '/usr/bi
 Write to package-work.txt file: wavpack
 Write to package-binaries.txt file: ['/usr/bin/wavpack', '/usr/bin/wvgain', '/usr/bin/wvtag', '/usr/bin/wvunpack']
 ['/usr/bin/wavpack', '/usr/bin/wvgain', '/usr/bin/wvtag', '/usr/bin/wvunpack']
+Write pickle file
+tar_out:
+Package-nr:5008 of 11000, Name:wp2x-dbgsym
+Package >wp2x< not in package-all.txt file
+Write to package-all.txt file: wp2x
+In package >wp2x< are these binaries: ['/usr/bin/wp2x']
+Real binaries:['/usr/bin/wp2x']
+Write to package-work.txt file: wp2x
+Write to package-binaries.txt file: ['/usr/bin/wp2x']
+['/usr/bin/wp2x']
