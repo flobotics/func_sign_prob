@@ -4183,3 +4183,4 @@ vera++
 vamp-examples
 vcdimager
 votca-tools
+x86dis

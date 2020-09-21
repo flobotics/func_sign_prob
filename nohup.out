@@ -24882,3 +24882,13 @@ Real binaries:['/usr/bin/votca_property']
 Write to package-work.txt file: votca-tools
 Write to package-binaries.txt file: ['/usr/bin/votca_property']
 ['/usr/bin/votca_property']
+Write pickle file
+tar_out:
+Package-nr:4175 of 11000, Name:x86dis-dbgsym
+Package >x86dis< not in package-all.txt file
+Write to package-all.txt file: x86dis
+In package >x86dis< are these binaries: ['/usr/bin/x86dis']
+Real binaries:['/usr/bin/x86dis']
+Write to package-work.txt file: x86dis
+Write to package-binaries.txt file: ['/usr/bin/x86dis']
+['/usr/bin/x86dis']

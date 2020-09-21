@@ -7979,3 +7979,4 @@
 /usr/bin/vcdxminfo
 /usr/bin/vcdxrip
 /usr/bin/votca_property
+/usr/bin/x86dis
