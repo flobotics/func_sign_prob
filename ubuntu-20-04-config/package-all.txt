@@ -5145,3 +5145,4 @@ python3-segyio
 segyio-bin
 samtools
 sysbench
+sogo

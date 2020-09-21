@@ -9592,3 +9592,7 @@
 /usr/bin/samtools
 /usr/bin/wgsim
 /usr/bin/sysbench
+/usr/sbin/sogo-ealarms-notify
+/usr/sbin/sogo-slapd-sockd
+/usr/sbin/sogo-tool
+/usr/sbin/sogod

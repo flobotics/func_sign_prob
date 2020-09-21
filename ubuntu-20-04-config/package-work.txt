@@ -3443,3 +3443,4 @@ sim4
 segyio-bin
 samtools
 sysbench
+sogo
