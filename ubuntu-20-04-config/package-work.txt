@@ -3034,3 +3034,4 @@ nbtscan
 nictools-pci
 nwipe
 nghttp2-proxy
+nghttp2-server
