@@ -9075,3 +9075,4 @@
 /usr/bin/wiggle
 /usr/bin/wf-recorder
 /usr/bin/wmtv
+/usr/bin/wmressel
