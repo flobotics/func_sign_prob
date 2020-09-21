@@ -8343,3 +8343,9 @@
 /usr/bin/udp-receiver
 /usr/bin/udp-sender
 /usr/bin/utox
+/usr/bin/cdrwtool
+/usr/bin/udfinfo
+/usr/bin/wrudf
+/usr/sbin/mkudffs
+/usr/sbin/pktsetup
+/usr/sbin/udflabel

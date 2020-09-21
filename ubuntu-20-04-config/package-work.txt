@@ -2914,3 +2914,4 @@ ukui-window-switch
 ukui-settings-daemon
 udpcast
 utox
+udftools

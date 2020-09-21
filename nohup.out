@@ -27050,3 +27050,13 @@ Real binaries:['/usr/bin/utox']
 Write to package-work.txt file: utox
 Write to package-binaries.txt file: ['/usr/bin/utox']
 ['/usr/bin/utox']
+Write pickle file
+tar_out:
+Package-nr:4423 of 11000, Name:udftools-dbgsym
+Package >udftools< not in package-all.txt file
+Write to package-all.txt file: udftools
+In package >udftools< are these binaries: ['/usr/bin/cdrwtool', '/usr/bin/udfinfo', '/usr/bin/wrudf', '/usr/sbin/mkudffs', '/usr/sbin/pktsetup', '/usr/sbin/udflabel', '/usr/sbin/mkfs.udf']
+Real binaries:['/usr/bin/cdrwtool', '/usr/bin/udfinfo', '/usr/bin/wrudf', '/usr/sbin/mkudffs', '/usr/sbin/pktsetup', '/usr/sbin/udflabel']
+Write to package-work.txt file: udftools
+Write to package-binaries.txt file: ['/usr/bin/cdrwtool', '/usr/bin/udfinfo', '/usr/bin/wrudf', '/usr/sbin/mkudffs', '/usr/sbin/pktsetup', '/usr/sbin/udflabel']
+['/usr/bin/cdrwtool', '/usr/bin/udfinfo', '/usr/bin/wrudf', '/usr/sbin/mkudffs', '/usr/sbin/pktsetup', '/usr/sbin/udflabel']
