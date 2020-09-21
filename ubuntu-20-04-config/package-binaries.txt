@@ -9532,3 +9532,5 @@
 /usr/bin/ykpersonalize
 /usr/bin/yforth
 /usr/sbin/yubikeyd
+/usr/bin/yamdi
+/usr/bin/yafc

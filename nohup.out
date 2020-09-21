@@ -33320,3 +33320,28 @@ Real binaries:['/usr/sbin/yubikeyd']
 Write to package-work.txt file: yubikey-server-c
 Write to package-binaries.txt file: ['/usr/sbin/yubikeyd']
 ['/usr/sbin/yubikeyd']
+Write pickle file
+tar_out:
+Package-nr:5156 of 11000, Name:yorick-soy-dbgsym
+Package >yorick-soy< not in package-all.txt file
+Write to package-all.txt file: yorick-soy
+In package >yorick-soy< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: yorick-soy
+[]
+Package-nr:5157 of 11000, Name:yamdi-dbgsym
+Package >yamdi< not in package-all.txt file
+Write to package-all.txt file: yamdi
+In package >yamdi< are these binaries: ['/usr/bin/yamdi']
+Real binaries:['/usr/bin/yamdi']
+Write to package-work.txt file: yamdi
+Write to package-binaries.txt file: ['/usr/bin/yamdi']
+['/usr/bin/yamdi']
+Package-nr:5158 of 11000, Name:yafc-dbgsym
+Package >yafc< not in package-all.txt file
+Write to package-all.txt file: yafc
+In package >yafc< are these binaries: ['/usr/bin/yafc']
+Real binaries:['/usr/bin/yafc']
+Write to package-work.txt file: yafc
+Write to package-binaries.txt file: ['/usr/bin/yafc']
+['/usr/bin/yafc']

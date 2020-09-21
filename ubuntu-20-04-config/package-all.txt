@@ -5090,3 +5090,6 @@ yubikey-personalization
 yorick-imutil
 yforth
 yubikey-server-c
+yorick-soy
+yamdi
+yafc
