@@ -5164,3 +5164,5 @@ registry-tools
 sniffit
 scim-pinyin
 suckless-tools
+svgpart
+sdcv

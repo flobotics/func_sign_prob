@@ -33998,3 +33998,23 @@ Real binaries:['/usr/bin/dmenu', '/usr/bin/lsw', '/usr/bin/slock', '/usr/bin/spr
 Write to package-work.txt file: suckless-tools
 Write to package-binaries.txt file: ['/usr/bin/dmenu', '/usr/bin/lsw', '/usr/bin/slock', '/usr/bin/sprop', '/usr/bin/sselp', '/usr/bin/ssid', '/usr/bin/stest', '/usr/bin/swarp', '/usr/bin/tabbed.default', '/usr/bin/tabbed.meta', '/usr/bin/wmname', '/usr/bin/xssstate']
 ['/usr/bin/dmenu', '/usr/bin/lsw', '/usr/bin/slock', '/usr/bin/sprop', '/usr/bin/sselp', '/usr/bin/ssid', '/usr/bin/stest', '/usr/bin/swarp', '/usr/bin/tabbed.default', '/usr/bin/tabbed.meta', '/usr/bin/wmname', '/usr/bin/xssstate']
+Write pickle file
+tar_out:
+Package-nr:5239 of 11000, Name:savi-dbgsym
+Skip package >savi<, already in package-all.txt file
+[]
+Package-nr:5240 of 11000, Name:svgpart-dbgsym
+Package >svgpart< not in package-all.txt file
+Write to package-all.txt file: svgpart
+In package >svgpart< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: svgpart
+[]
+Package-nr:5241 of 11000, Name:sdcv-dbgsym
+Package >sdcv< not in package-all.txt file
+Write to package-all.txt file: sdcv
+In package >sdcv< are these binaries: ['/usr/bin/sdcv']
+Real binaries:['/usr/bin/sdcv']
+Write to package-work.txt file: sdcv
+Write to package-binaries.txt file: ['/usr/bin/sdcv']
+['/usr/bin/sdcv']

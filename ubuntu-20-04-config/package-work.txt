@@ -3454,3 +3454,4 @@ ctdb
 registry-tools
 sniffit
 suckless-tools
+sdcv

@@ -9630,3 +9630,4 @@
 /usr/bin/tabbed.meta
 /usr/bin/wmname
 /usr/bin/xssstate
+/usr/bin/sdcv
