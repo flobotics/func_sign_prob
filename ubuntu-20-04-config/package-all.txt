@@ -4565,3 +4565,4 @@ nagios-nrpe-server
 rwho
 rwhod
 smb-nat
+nasty

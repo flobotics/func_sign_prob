@@ -8550,3 +8550,4 @@
 /usr/bin/rwho
 /usr/sbin/rwhod
 /usr/bin/smb-nat
+/usr/bin/nasty
