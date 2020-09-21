@@ -28678,3 +28678,21 @@ Real binaries:['/usr/bin/netmate']
 Write to package-work.txt file: netmate
 Write to package-binaries.txt file: ['/usr/bin/netmate']
 ['/usr/bin/netmate']
+Write pickle file
+tar_out:
+Package-nr:4622 of 11000, Name:ncbi-blast+-dbgsym
+Package >ncbi-blast+< not in package-all.txt file
+Write to package-all.txt file: ncbi-blast+
+In package >ncbi-blast+< are these binaries: ['/usr/bin/blast_formatter', '/usr/bin/blast_report', '/usr/bin/blastdb_aliastool', '/usr/bin/blastdb_convert', '/usr/bin/blastdb_path', '/usr/bin/blastdbcheck', '/usr/bin/blastdbcmd', '/usr/bin/blastdbcp', '/usr/bin/blastn', '/usr/bin/blastp', '/usr/bin/blastx', '/usr/bin/convert2blastmask', '/usr/bin/deltablast', '/usr/bin/dustmasker', '/usr/bin/gene_info_reader', '/usr/bin/get_species_taxids', '/usr/bin/legacy_blast', '/usr/bin/makeblastdb', '/usr/bin/makeprofiledb', '/usr/bin/psiblast', '/usr/bin/rpsblast+', '/usr/bin/rpstblastn', '/usr/bin/seedtop+', '/usr/bin/segmasker', '/usr/bin/tblastn', '/usr/bin/tblastx', '/usr/bin/update_blastdb', '/usr/bin/windowmasker', '/usr/bin/windowmasker_2.2.22_adapter', '/usr/bin/windowmasker_2.2.22_adapter.bak']
+Real binaries:['/usr/bin/blast_formatter', '/usr/bin/blast_report', '/usr/bin/blastdb_aliastool', '/usr/bin/blastdb_convert', '/usr/bin/blastdb_path', '/usr/bin/blastdbcheck', '/usr/bin/blastdbcmd', '/usr/bin/blastdbcp', '/usr/bin/blastn', '/usr/bin/blastp', '/usr/bin/blastx', '/usr/bin/convert2blastmask', '/usr/bin/deltablast', '/usr/bin/dustmasker', '/usr/bin/gene_info_reader', '/usr/bin/makeblastdb', '/usr/bin/makeprofiledb', '/usr/bin/psiblast', '/usr/bin/rpsblast+', '/usr/bin/rpstblastn', '/usr/bin/seedtop+', '/usr/bin/segmasker', '/usr/bin/tblastn', '/usr/bin/tblastx', '/usr/bin/windowmasker']
+Write to package-work.txt file: ncbi-blast+
+Write to package-binaries.txt file: ['/usr/bin/blast_formatter', '/usr/bin/blast_report', '/usr/bin/blastdb_aliastool', '/usr/bin/blastdb_convert', '/usr/bin/blastdb_path', '/usr/bin/blastdbcheck', '/usr/bin/blastdbcmd', '/usr/bin/blastdbcp', '/usr/bin/blastn', '/usr/bin/blastp', '/usr/bin/blastx', '/usr/bin/convert2blastmask', '/usr/bin/deltablast', '/usr/bin/dustmasker', '/usr/bin/gene_info_reader', '/usr/bin/makeblastdb', '/usr/bin/makeprofiledb', '/usr/bin/psiblast', '/usr/bin/rpsblast+', '/usr/bin/rpstblastn', '/usr/bin/seedtop+', '/usr/bin/segmasker', '/usr/bin/tblastn', '/usr/bin/tblastx', '/usr/bin/windowmasker']
+['/usr/bin/blast_formatter', '/usr/bin/blast_report', '/usr/bin/blastdb_aliastool', '/usr/bin/blastdb_convert', '/usr/bin/blastdb_path', '/usr/bin/blastdbcheck', '/usr/bin/blastdbcmd', '/usr/bin/blastdbcp', '/usr/bin/blastn', '/usr/bin/blastp', '/usr/bin/blastx', '/usr/bin/convert2blastmask', '/usr/bin/deltablast', '/usr/bin/dustmasker', '/usr/bin/gene_info_reader', '/usr/bin/makeblastdb', '/usr/bin/makeprofiledb', '/usr/bin/psiblast', '/usr/bin/rpsblast+', '/usr/bin/rpstblastn', '/usr/bin/seedtop+', '/usr/bin/segmasker', '/usr/bin/tblastn', '/usr/bin/tblastx', '/usr/bin/windowmasker']
+Package-nr:4623 of 11000, Name:natlog-dbgsym
+Package >natlog< not in package-all.txt file
+Write to package-all.txt file: natlog
+In package >natlog< are these binaries: ['/usr/bin/natlog']
+Real binaries:['/usr/bin/natlog']
+Write to package-work.txt file: natlog
+Write to package-binaries.txt file: ['/usr/bin/natlog']
+['/usr/bin/natlog']
