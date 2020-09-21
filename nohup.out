@@ -32679,3 +32679,13 @@ Real binaries:['/usr/bin/wireshark']
 Write to package-work.txt file: wireshark-qt
 Write to package-binaries.txt file: ['/usr/bin/wireshark']
 ['/usr/bin/wireshark']
+Write pickle file
+tar_out:
+Package-nr:5083 of 11000, Name:tshark-dbgsym
+Package >tshark< not in package-all.txt file
+Write to package-all.txt file: tshark
+In package >tshark< are these binaries: ['/usr/bin/tshark']
+Real binaries:['/usr/bin/tshark']
+Write to package-work.txt file: tshark
+Write to package-binaries.txt file: ['/usr/bin/tshark']
+['/usr/bin/tshark']

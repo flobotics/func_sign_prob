@@ -9424,3 +9424,4 @@
 /usr/bin/sharkd
 /usr/bin/text2pcap
 /usr/bin/wireshark
+/usr/bin/tshark
