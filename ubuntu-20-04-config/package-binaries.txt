@@ -9071,3 +9071,4 @@
 /usr/bin/why3
 /usr/bin/wmrack
 /usr/bin/wmmisc
+/usr/bin/wrapsrv
