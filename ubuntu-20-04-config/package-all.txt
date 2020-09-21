@@ -4431,3 +4431,4 @@ unicycler
 ukui-polkit
 urjtag
 ukui-screensaver
+usermode

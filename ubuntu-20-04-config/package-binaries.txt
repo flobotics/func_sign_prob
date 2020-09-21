@@ -8368,3 +8368,9 @@
 /usr/bin/ukui-screensaver-backend
 /usr/bin/ukui-screensaver-command
 /usr/bin/ukui-screensaver-dialog
+/usr/bin/consolehelper
+/usr/bin/consolehelper-gtk
+/usr/bin/userinfo
+/usr/bin/usermount
+/usr/bin/userpasswd
+/usr/sbin/userhelper

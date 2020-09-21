@@ -2920,3 +2920,4 @@ unicon-imc2
 utalk
 urjtag
 ukui-screensaver
+usermode
