@@ -4751,3 +4751,6 @@ nescc
 numatop
 nexus-tools
 newpid
+node-leveldown
+ncompress
+sntp

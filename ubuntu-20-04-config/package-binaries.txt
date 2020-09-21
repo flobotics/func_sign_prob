@@ -8932,3 +8932,4 @@
 /usr/bin/nxtranslate
 /usr/bin/nxtraverse
 /usr/bin/newpid
+/usr/bin/sntp

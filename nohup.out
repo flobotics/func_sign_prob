@@ -30130,3 +30130,31 @@ Real binaries:['/usr/bin/newpid']
 Write to package-work.txt file: newpid
 Write to package-binaries.txt file: ['/usr/bin/newpid']
 ['/usr/bin/newpid']
+Write pickle file
+tar_out:
+Package-nr:4795 of 11000, Name:node-leveldown-dbgsym
+Package >node-leveldown< not in package-all.txt file
+Write to package-all.txt file: node-leveldown
+In package >node-leveldown< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: node-leveldown
+[]
+Package-nr:4796 of 11000, Name:ncompress-dbgsym
+Package >ncompress< not in package-all.txt file
+Write to package-all.txt file: ncompress
+In package >ncompress< are these binaries: ['/usr/bin/compress', '/usr/bin/uncompress.real']
+Real binaries:['/usr/bin/compress']
+Write to package-work.txt file: ncompress
+No binaries to write to package-binaries.txt file
+[]
+Package-nr:4797 of 11000, Name:ncc-dbgsym
+Skip package >ncc<, already in package-all.txt file
+[]
+Package-nr:4798 of 11000, Name:sntp-dbgsym
+Package >sntp< not in package-all.txt file
+Write to package-all.txt file: sntp
+In package >sntp< are these binaries: ['/usr/bin/sntp']
+Real binaries:['/usr/bin/sntp']
+Write to package-work.txt file: sntp
+Write to package-binaries.txt file: ['/usr/bin/sntp']
+['/usr/bin/sntp']

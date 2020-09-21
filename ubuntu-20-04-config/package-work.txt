@@ -3148,3 +3148,5 @@ nullidentd
 numatop
 nexus-tools
 newpid
+ncompress
+sntp
