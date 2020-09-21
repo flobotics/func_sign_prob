@@ -7813,3 +7813,5 @@
 /usr/sbin/vtund
 /usr/bin/gears-vkd3d
 /usr/bin/triangle-vkd3d
+/usr/bin/vbrfix
+/usr/bin/vite

@@ -4105,3 +4105,5 @@ valac-bin
 vtun
 vbindiff
 vkd3d-demos
+vbrfix
+vite

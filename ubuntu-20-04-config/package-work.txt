@@ -2683,3 +2683,5 @@ valadoc
 valac-bin
 vtun
 vkd3d-demos
+vbrfix
+vite

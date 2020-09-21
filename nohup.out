@@ -24118,3 +24118,21 @@ Real binaries:['/usr/bin/gears-vkd3d', '/usr/bin/triangle-vkd3d']
 Write to package-work.txt file: vkd3d-demos
 Write to package-binaries.txt file: ['/usr/bin/gears-vkd3d', '/usr/bin/triangle-vkd3d']
 ['/usr/bin/gears-vkd3d', '/usr/bin/triangle-vkd3d']
+Write pickle file
+tar_out:
+Package-nr:4088 of 11000, Name:vbrfix-dbgsym
+Package >vbrfix< not in package-all.txt file
+Write to package-all.txt file: vbrfix
+In package >vbrfix< are these binaries: ['/usr/bin/vbrfix']
+Real binaries:['/usr/bin/vbrfix']
+Write to package-work.txt file: vbrfix
+Write to package-binaries.txt file: ['/usr/bin/vbrfix']
+['/usr/bin/vbrfix']
+Package-nr:4089 of 11000, Name:vite-dbgsym
+Package >vite< not in package-all.txt file
+Write to package-all.txt file: vite
+In package >vite< are these binaries: ['/usr/bin/vite']
+Real binaries:['/usr/bin/vite']
+Write to package-work.txt file: vite
+Write to package-binaries.txt file: ['/usr/bin/vite']
+['/usr/bin/vite']
