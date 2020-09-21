@@ -9002,3 +9002,8 @@
 /usr/bin/rl2sniff
 /usr/bin/rl2tool
 /usr/bin/wmslite
+/usr/bin/amqp-consume
+/usr/bin/amqp-declare-queue
+/usr/bin/amqp-delete-queue
+/usr/bin/amqp-get
+/usr/bin/amqp-publish
