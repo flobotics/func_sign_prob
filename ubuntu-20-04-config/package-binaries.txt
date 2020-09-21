@@ -8110,3 +8110,4 @@
 /bin/zgrep
 /bin/ztest
 /bin/zupdate
+/usr/bin/zbackup

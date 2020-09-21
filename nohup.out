@@ -25615,3 +25615,13 @@ Real binaries:['/bin/zcat', '/bin/zcmp', '/bin/zdiff', '/bin/zgrep', '/bin/ztest
 Write to package-work.txt file: zutils
 Write to package-binaries.txt file: ['/bin/zcmp', '/bin/zdiff', '/bin/zgrep', '/bin/ztest', '/bin/zupdate']
 ['/bin/zcmp', '/bin/zdiff', '/bin/zgrep', '/bin/ztest', '/bin/zupdate']
+Write pickle file
+tar_out:
+Package-nr:4259 of 11000, Name:zbackup-dbgsym
+Package >zbackup< not in package-all.txt file
+Write to package-all.txt file: zbackup
+In package >zbackup< are these binaries: ['/usr/bin/zbackup']
+Real binaries:['/usr/bin/zbackup']
+Write to package-work.txt file: zbackup
+Write to package-binaries.txt file: ['/usr/bin/zbackup']
+['/usr/bin/zbackup']

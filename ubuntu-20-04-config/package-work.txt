@@ -2807,3 +2807,4 @@ zypper
 z3
 z80dasm
 zutils
+zbackup
