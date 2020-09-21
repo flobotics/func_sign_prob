@@ -2874,3 +2874,4 @@ uvccapture
 ucto
 ultracopier
 unity-control-center
+urlview
