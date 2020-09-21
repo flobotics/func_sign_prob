@@ -30335,3 +30335,21 @@ Real binaries:['/usr/bin/mailq', '/usr/bin/nullmailer-dsn', '/usr/bin/nullmailer
 Write to package-work.txt file: nullmailer
 Write to package-binaries.txt file: ['/usr/bin/nullmailer-dsn', '/usr/bin/nullmailer-inject', '/usr/bin/nullmailer-smtpd', '/usr/sbin/nullmailer-queue', '/usr/sbin/nullmailer-send', '/usr/sbin/sendmail']
 ['/usr/bin/nullmailer-dsn', '/usr/bin/nullmailer-inject', '/usr/bin/nullmailer-smtpd', '/usr/sbin/nullmailer-queue', '/usr/sbin/nullmailer-send', '/usr/sbin/sendmail']
+Write pickle file
+tar_out:
+Package-nr:4823 of 11000, Name:ncl-ncarg-dbgsym
+Package >ncl-ncarg< not in package-all.txt file
+Write to package-all.txt file: ncl-ncarg
+In package >ncl-ncarg< are these binaries: ['/usr/bin/ConvertMapData', '/usr/bin/WriteLineFile', '/usr/bin/WriteNameFile', '/usr/bin/cgm2ncgm', '/usr/bin/ctlib', '/usr/bin/ctrans', '/usr/bin/ezmapdemo', '/usr/bin/fcaps', '/usr/bin/findg', '/usr/bin/fontc', '/usr/bin/gcaps', '/usr/bin/graphc', '/usr/bin/ictrans', '/usr/bin/idt', '/usr/bin/med', '/usr/bin/ncargfile', '/usr/bin/ncargpath', '/usr/bin/ncargrun', '/usr/bin/ncargversion', '/usr/bin/ncargworld', '/usr/bin/ncarlogo2ps', '/usr/bin/ncarvversion', '/usr/bin/ncgm2cgm', '/usr/bin/ncgmstat', '/usr/bin/ncl', '/usr/bin/ncl_convert2nc', '/usr/bin/ncl_filedump', '/usr/bin/ncl_grib2nc', '/usr/bin/nnalg', '/usr/bin/pre2ncgm', '/usr/bin/psblack', '/usr/bin/psplit', '/usr/bin/pswhite', '/usr/bin/ras2ccir601', '/usr/bin/rascat', '/usr/bin/rasgetpal', '/usr/bin/rasls', '/usr/bin/rassplit', '/usr/bin/rasstat', '/usr/bin/rasview', '/usr/bin/scrip_check_input', '/usr/bin/tdpackdemo', '/usr/bin/tgks0a', '/usr/bin/tlocal']
+Real binaries:['/usr/bin/ConvertMapData', '/usr/bin/WriteLineFile', '/usr/bin/WriteNameFile', '/usr/bin/cgm2ncgm', '/usr/bin/ctrans', '/usr/bin/ezmapdemo', '/usr/bin/findg', '/usr/bin/fontc', '/usr/bin/graphc', '/usr/bin/ictrans', '/usr/bin/idt', '/usr/bin/med', '/usr/bin/ncargpath', '/usr/bin/ncargworld', '/usr/bin/ncarlogo2ps', '/usr/bin/ncgm2cgm', '/usr/bin/ncgmstat', '/usr/bin/ncl', '/usr/bin/nnalg', '/usr/bin/psblack', '/usr/bin/psplit', '/usr/bin/pswhite', '/usr/bin/ras2ccir601', '/usr/bin/rascat', '/usr/bin/rasgetpal', '/usr/bin/rasls', '/usr/bin/rassplit', '/usr/bin/rasstat', '/usr/bin/rasview', '/usr/bin/tdpackdemo', '/usr/bin/tgks0a', '/usr/bin/tlocal']
+Write to package-work.txt file: ncl-ncarg
+Write to package-binaries.txt file: ['/usr/bin/ConvertMapData', '/usr/bin/WriteLineFile', '/usr/bin/WriteNameFile', '/usr/bin/cgm2ncgm', '/usr/bin/ctrans', '/usr/bin/ezmapdemo', '/usr/bin/findg', '/usr/bin/fontc', '/usr/bin/graphc', '/usr/bin/ictrans', '/usr/bin/idt', '/usr/bin/med', '/usr/bin/ncargpath', '/usr/bin/ncargworld', '/usr/bin/ncarlogo2ps', '/usr/bin/ncgm2cgm', '/usr/bin/ncgmstat', '/usr/bin/ncl', '/usr/bin/nnalg', '/usr/bin/psblack', '/usr/bin/psplit', '/usr/bin/pswhite', '/usr/bin/ras2ccir601', '/usr/bin/rascat', '/usr/bin/rasgetpal', '/usr/bin/rasls', '/usr/bin/rassplit', '/usr/bin/rasstat', '/usr/bin/rasview', '/usr/bin/tdpackdemo', '/usr/bin/tgks0a', '/usr/bin/tlocal']
+['/usr/bin/ConvertMapData', '/usr/bin/WriteLineFile', '/usr/bin/WriteNameFile', '/usr/bin/cgm2ncgm', '/usr/bin/ctrans', '/usr/bin/ezmapdemo', '/usr/bin/findg', '/usr/bin/fontc', '/usr/bin/graphc', '/usr/bin/ictrans', '/usr/bin/idt', '/usr/bin/med', '/usr/bin/ncargpath', '/usr/bin/ncargworld', '/usr/bin/ncarlogo2ps', '/usr/bin/ncgm2cgm', '/usr/bin/ncgmstat', '/usr/bin/ncl', '/usr/bin/nnalg', '/usr/bin/psblack', '/usr/bin/psplit', '/usr/bin/pswhite', '/usr/bin/ras2ccir601', '/usr/bin/rascat', '/usr/bin/rasgetpal', '/usr/bin/rasls', '/usr/bin/rassplit', '/usr/bin/rasstat', '/usr/bin/rasview', '/usr/bin/tdpackdemo', '/usr/bin/tgks0a', '/usr/bin/tlocal']
+Package-nr:4824 of 11000, Name:ndppd-dbgsym
+Package >ndppd< not in package-all.txt file
+Write to package-all.txt file: ndppd
+In package >ndppd< are these binaries: ['/usr/sbin/ndppd']
+Real binaries:['/usr/sbin/ndppd']
+Write to package-work.txt file: ndppd
+Write to package-binaries.txt file: ['/usr/sbin/ndppd']
+['/usr/sbin/ndppd']

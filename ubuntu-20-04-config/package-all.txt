@@ -4772,3 +4772,5 @@ ntpsec
 python3-ntp
 numptyphysics
 nullmailer
+ncl-ncarg
+ndppd
