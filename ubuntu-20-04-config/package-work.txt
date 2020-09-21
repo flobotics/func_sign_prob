@@ -2999,3 +2999,4 @@ bootparamd
 nvramtool
 netrw
 niceshaper
+nautic

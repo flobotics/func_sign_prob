@@ -8516,3 +8516,4 @@
 /usr/bin/netread
 /usr/bin/netwrite
 /usr/bin/niceshaper
+/usr/bin/nautic

@@ -4533,3 +4533,4 @@ nvramtool
 netrw
 nml
 niceshaper
+nautic
