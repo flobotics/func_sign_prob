@@ -3348,3 +3348,4 @@ webcamoid
 wiredtiger
 wx-common
 webauth-utils
+wpan-tools

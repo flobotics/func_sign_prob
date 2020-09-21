@@ -5009,3 +5009,6 @@ wiredtiger
 python-wiredtiger
 wx-common
 webauth-utils
+warmux
+warmux-servers
+wpan-tools

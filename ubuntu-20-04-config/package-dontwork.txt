@@ -1656,3 +1656,5 @@ weechat-lua
 weechat-python
 akqml
 python-wiredtiger
+warmux
+warmux-servers

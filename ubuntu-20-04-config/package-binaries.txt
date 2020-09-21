@@ -9400,3 +9400,6 @@
 /usr/bin/wt
 /usr/bin/wxrc
 /usr/bin/wa_keyring
+/usr/bin/iwpan
+/usr/bin/wpan-hwsim
+/usr/bin/wpan-ping

@@ -32557,3 +32557,27 @@ Real binaries:['/usr/bin/wa_keyring']
 Write to package-work.txt file: webauth-utils
 Write to package-binaries.txt file: ['/usr/bin/wa_keyring']
 ['/usr/bin/wa_keyring']
+Write pickle file
+tar_out:
+Package-nr:5070 of 11000, Name:warmux-dbgsym
+Package >warmux< not in package-all.txt file
+Write to package-all.txt file: warmux
+In package >warmux< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: warmux
+[]
+Package-nr:5071 of 11000, Name:warmux-servers-dbgsym
+Package >warmux-servers< not in package-all.txt file
+Write to package-all.txt file: warmux-servers
+In package >warmux-servers< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: warmux-servers
+[]
+Package-nr:5072 of 11000, Name:wpan-tools-dbgsym
+Package >wpan-tools< not in package-all.txt file
+Write to package-all.txt file: wpan-tools
+In package >wpan-tools< are these binaries: ['/usr/bin/iwpan', '/usr/bin/wpan-hwsim', '/usr/bin/wpan-ping']
+Real binaries:['/usr/bin/iwpan', '/usr/bin/wpan-hwsim', '/usr/bin/wpan-ping']
+Write to package-work.txt file: wpan-tools
+Write to package-binaries.txt file: ['/usr/bin/iwpan', '/usr/bin/wpan-hwsim', '/usr/bin/wpan-ping']
+['/usr/bin/iwpan', '/usr/bin/wpan-hwsim', '/usr/bin/wpan-ping']
