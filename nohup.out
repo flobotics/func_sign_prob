@@ -28908,3 +28908,13 @@ Real binaries:['/usr/sbin/nss_updatedb']
 Write to package-work.txt file: nss-updatedb
 Write to package-binaries.txt file: ['/usr/sbin/nss_updatedb']
 ['/usr/sbin/nss_updatedb']
+Write pickle file
+tar_out:
+Package-nr:4648 of 11000, Name:nettle-bin-dbgsym
+Package >nettle-bin< not in package-all.txt file
+Write to package-all.txt file: nettle-bin
+In package >nettle-bin< are these binaries: ['/usr/bin/nettle-hash', '/usr/bin/nettle-lfib-stream', '/usr/bin/nettle-pbkdf2', '/usr/bin/pkcs1-conv', '/usr/bin/sexp-conv']
+Real binaries:['/usr/bin/nettle-hash', '/usr/bin/nettle-lfib-stream', '/usr/bin/nettle-pbkdf2', '/usr/bin/pkcs1-conv', '/usr/bin/sexp-conv']
+Write to package-work.txt file: nettle-bin
+Write to package-binaries.txt file: ['/usr/bin/nettle-hash', '/usr/bin/nettle-lfib-stream', '/usr/bin/nettle-pbkdf2', '/usr/bin/pkcs1-conv', '/usr/bin/sexp-conv']
+['/usr/bin/nettle-hash', '/usr/bin/nettle-lfib-stream', '/usr/bin/nettle-pbkdf2', '/usr/bin/pkcs1-conv', '/usr/bin/sexp-conv']

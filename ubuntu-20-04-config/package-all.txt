@@ -4617,3 +4617,4 @@ noblenote
 nxproxy
 nxagent
 nss-updatedb
+nettle-bin
