@@ -3110,3 +3110,4 @@ nuttcp
 nodau
 nodejs
 nethogs
+nutcracker

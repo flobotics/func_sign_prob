@@ -4700,3 +4700,4 @@ nodau
 nodejs
 nautilus-ideviceinfo
 nethogs
+nutcracker
