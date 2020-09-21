@@ -3058,3 +3058,4 @@ nss-passwords
 ng-cjk-canna
 ng-latin
 noblenote
+nxproxy

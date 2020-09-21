@@ -8728,3 +8728,4 @@
 /usr/bin/ng-cjk-canna
 /usr/bin/ng-latin
 /usr/bin/noblenote
+/usr/bin/nxproxy
