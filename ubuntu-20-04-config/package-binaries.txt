@@ -9425,3 +9425,4 @@
 /usr/bin/text2pcap
 /usr/bin/wireshark
 /usr/bin/tshark
+/usr/bin/wmail

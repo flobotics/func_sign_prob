@@ -3360,3 +3360,4 @@ wmtop
 wireshark-common
 wireshark-qt
 tshark
+wmail
