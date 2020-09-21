@@ -9564,3 +9564,4 @@
 /usr/bin/yubioath-desktop
 /usr/bin/yubikey-personalization-gui
 /usr/sbin/yrmcdsd
+/usr/bin/yakuake

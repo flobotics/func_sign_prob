@@ -5128,3 +5128,4 @@ yorick-gl
 yubioath-desktop
 yubikey-personalization-gui
 yrmcds
+yakuake

@@ -3429,3 +3429,4 @@ yabause-gtk
 yubioath-desktop
 yubikey-personalization-gui
 yrmcds
+yakuake
