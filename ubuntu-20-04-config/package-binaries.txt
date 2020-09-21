@@ -8335,3 +8335,4 @@
 /usr/bin/udptunnel
 /usr/bin/ussp-push
 /usr/bin/utfcheck
+/usr/bin/udevil

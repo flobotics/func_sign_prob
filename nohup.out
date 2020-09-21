@@ -26979,3 +26979,20 @@ Real binaries:['/usr/bin/utfcheck']
 Write to package-work.txt file: utfcheck
 Write to package-binaries.txt file: ['/usr/bin/utfcheck']
 ['/usr/bin/utfcheck']
+Write pickle file
+tar_out:
+Package-nr:4415 of 11000, Name:uci2wb-dbgsym
+Package >uci2wb< not in package-all.txt file
+Write to package-all.txt file: uci2wb
+In package >uci2wb< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: uci2wb
+[]
+Package-nr:4416 of 11000, Name:udevil-dbgsym
+Package >udevil< not in package-all.txt file
+Write to package-all.txt file: udevil
+In package >udevil< are these binaries: ['/usr/bin/devmon', '/usr/bin/udevil']
+Real binaries:['/usr/bin/udevil']
+Write to package-work.txt file: udevil
+Write to package-binaries.txt file: ['/usr/bin/udevil']
+['/usr/bin/udevil']
