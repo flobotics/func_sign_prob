@@ -8411,3 +8411,4 @@
 /usr/sbin/swap-offset
 /usr/bin/upse123
 /usr/bin/ukui-sidebar
+/usr/bin/ukopp
