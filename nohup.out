@@ -27769,3 +27769,16 @@ Real binaries:['/usr/bin/auconvert', '/usr/bin/auctl', '/usr/bin/audemo', '/usr/
 Write to package-work.txt file: nas-bin
 Write to package-binaries.txt file: ['/usr/bin/auconvert', '/usr/bin/auctl', '/usr/bin/audemo', '/usr/bin/audial', '/usr/bin/auedit', '/usr/bin/auinfo', '/usr/bin/aupanel', '/usr/bin/auphone', '/usr/bin/auplay', '/usr/bin/aurecord', '/usr/bin/autool', '/usr/bin/auwave', '/usr/bin/issndfile', '/usr/bin/playbucket', '/usr/bin/soundtoh']
 ['/usr/bin/auconvert', '/usr/bin/auctl', '/usr/bin/audemo', '/usr/bin/audial', '/usr/bin/auedit', '/usr/bin/auinfo', '/usr/bin/aupanel', '/usr/bin/auphone', '/usr/bin/auplay', '/usr/bin/aurecord', '/usr/bin/autool', '/usr/bin/auwave', '/usr/bin/issndfile', '/usr/bin/playbucket', '/usr/bin/soundtoh']
+Write pickle file
+tar_out:
+Package-nr:4509 of 11000, Name:nas-dbgsym
+Skip package >nas<, already in package-all.txt file
+[]
+Package-nr:4510 of 11000, Name:nip2-dbgsym
+Package >nip2< not in package-all.txt file
+Write to package-all.txt file: nip2
+In package >nip2< are these binaries: ['/usr/bin/nip2']
+Real binaries:['/usr/bin/nip2']
+Write to package-work.txt file: nip2
+Write to package-binaries.txt file: ['/usr/bin/nip2']
+['/usr/bin/nip2']

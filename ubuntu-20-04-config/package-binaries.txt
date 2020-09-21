@@ -8484,3 +8484,4 @@
 /usr/bin/issndfile
 /usr/bin/playbucket
 /usr/bin/soundtoh
+/usr/bin/nip2
