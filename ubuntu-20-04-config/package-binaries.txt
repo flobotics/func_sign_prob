@@ -8279,3 +8279,4 @@
 /usr/bin/uftpd
 /usr/bin/uftpproxyd
 /usr/bin/unifdef
+/usr/bin/uprightdiff
