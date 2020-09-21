@@ -8824,3 +8824,8 @@
 /usr/bin/nulib2
 /usr/bin/neat
 /usr/bin/hexeditor
+/usr/bin/createsummary
+/usr/bin/extractvectors
+/usr/bin/getabstime
+/usr/bin/netperfmeter
+/usr/bin/runtimeestimator

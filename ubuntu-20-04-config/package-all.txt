@@ -4684,3 +4684,4 @@ naev
 neat
 node-node-expat
 ncurses-hexedit
+netperfmeter

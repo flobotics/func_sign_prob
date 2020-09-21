@@ -3100,3 +3100,4 @@ nagcon
 nulib2
 neat
 ncurses-hexedit
+netperfmeter
