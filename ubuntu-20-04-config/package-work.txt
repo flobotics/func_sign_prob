@@ -2736,3 +2736,4 @@ vtwm
 vacation
 vuls
 vde2-cryptcab
+vsearch

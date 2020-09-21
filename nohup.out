@@ -24741,3 +24741,16 @@ Real binaries:['/usr/bin/vde_cryptcab']
 Write to package-work.txt file: vde2-cryptcab
 Write to package-binaries.txt file: ['/usr/bin/vde_cryptcab']
 ['/usr/bin/vde_cryptcab']
+Write pickle file
+tar_out:
+Package-nr:4160 of 11000, Name:vde2-dbgsym
+Skip package >vde2<, already in package-all.txt file
+[]
+Package-nr:4161 of 11000, Name:vsearch-dbgsym
+Package >vsearch< not in package-all.txt file
+Write to package-all.txt file: vsearch
+In package >vsearch< are these binaries: ['/usr/bin/vsearch']
+Real binaries:['/usr/bin/vsearch']
+Write to package-work.txt file: vsearch
+Write to package-binaries.txt file: ['/usr/bin/vsearch']
+['/usr/bin/vsearch']

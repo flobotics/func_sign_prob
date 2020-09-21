@@ -7957,3 +7957,4 @@
 /usr/bin/vacation
 /usr/bin/vuls
 /usr/bin/vde_cryptcab
+/usr/bin/vsearch
