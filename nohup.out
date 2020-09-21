@@ -34986,3 +34986,13 @@ Real binaries:['/usr/bin/smalt']
 Write to package-work.txt file: smalt
 Write to package-binaries.txt file: ['/usr/bin/smalt']
 ['/usr/bin/smalt']
+Write pickle file
+tar_out:
+Package-nr:5354 of 11000, Name:simulpic-dbgsym
+Package >simulpic< not in package-all.txt file
+Write to package-all.txt file: simulpic
+In package >simulpic< are these binaries: ['/usr/bin/simulpic']
+Real binaries:['/usr/bin/simulpic']
+Write to package-work.txt file: simulpic
+Write to package-binaries.txt file: ['/usr/bin/simulpic']
+['/usr/bin/simulpic']

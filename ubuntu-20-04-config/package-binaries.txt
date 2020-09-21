@@ -10008,3 +10008,4 @@
 /usr/lib/spades/bin/spades-kmercount
 /usr/lib/spades/bin/spades-truseq-scfcorrection
 /usr/bin/smalt
+/usr/bin/simulpic

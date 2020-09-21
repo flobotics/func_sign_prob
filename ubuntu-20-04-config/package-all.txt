@@ -5268,3 +5268,4 @@ smp-utils
 sox
 spades
 smalt
+simulpic
