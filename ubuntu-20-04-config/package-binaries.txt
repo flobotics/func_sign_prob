@@ -8393,3 +8393,4 @@
 /usr/bin/unsort
 /usr/bin/uaputl
 /usr/bin/untex
+/usr/bin/usbrelay

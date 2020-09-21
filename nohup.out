@@ -27265,3 +27265,13 @@ Real binaries:['/usr/bin/untex']
 Write to package-work.txt file: untex
 Write to package-binaries.txt file: ['/usr/bin/untex']
 ['/usr/bin/untex']
+Write pickle file
+tar_out:
+Package-nr:4450 of 11000, Name:usbrelay-dbgsym
+Package >usbrelay< not in package-all.txt file
+Write to package-all.txt file: usbrelay
+In package >usbrelay< are these binaries: ['/usr/bin/usbrelay']
+Real binaries:['/usr/bin/usbrelay']
+Write to package-work.txt file: usbrelay
+Write to package-binaries.txt file: ['/usr/bin/usbrelay']
+['/usr/bin/usbrelay']
