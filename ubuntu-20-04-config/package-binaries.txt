@@ -9553,3 +9553,4 @@
 /usr/bin/randtest
 /usr/bin/selftest
 /usr/bin/yagi
+/usr/bin/kylin-assistant
