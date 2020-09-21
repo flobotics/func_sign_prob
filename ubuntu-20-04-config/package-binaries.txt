@@ -8944,3 +8944,4 @@
 /usr/bin/ngspice
 /usr/bin/ninja
 /usr/bin/rusers
+/usr/sbin/rpc.rusersd

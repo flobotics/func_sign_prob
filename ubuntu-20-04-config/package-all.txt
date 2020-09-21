@@ -4767,3 +4767,4 @@ ngspice
 tclspice
 ninja-build
 rusers
+rusersd
