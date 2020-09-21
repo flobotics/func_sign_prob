@@ -3044,3 +3044,4 @@ natlog
 nwchem
 nauty
 daxctl
+ncbi-seg

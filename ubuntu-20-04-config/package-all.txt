@@ -4599,3 +4599,4 @@ nestopia
 node-node-stringprep
 nauty
 daxctl
+ncbi-seg

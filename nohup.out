@@ -28740,3 +28740,13 @@ Real binaries:['/usr/bin/daxctl']
 Write to package-work.txt file: daxctl
 Write to package-binaries.txt file: ['/usr/bin/daxctl']
 ['/usr/bin/daxctl']
+Write pickle file
+tar_out:
+Package-nr:4629 of 11000, Name:ncbi-seg-dbgsym
+Package >ncbi-seg< not in package-all.txt file
+Write to package-all.txt file: ncbi-seg
+In package >ncbi-seg< are these binaries: ['/usr/bin/ncbi-seg']
+Real binaries:['/usr/bin/ncbi-seg']
+Write to package-work.txt file: ncbi-seg
+Write to package-binaries.txt file: ['/usr/bin/ncbi-seg']
+['/usr/bin/ncbi-seg']

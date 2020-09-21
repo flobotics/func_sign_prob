@@ -8717,3 +8717,4 @@
 /usr/bin/nauty-vcolg
 /usr/bin/nauty-watercluster2
 /usr/bin/daxctl
+/usr/bin/ncbi-seg
