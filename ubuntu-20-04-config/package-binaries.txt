@@ -7816,3 +7816,6 @@
 /usr/bin/vbrfix
 /usr/bin/vite
 /usr/bin/vtable-dumper
+/usr/bin/vkcube
+/usr/bin/vkcubepp
+/usr/bin/vulkaninfo

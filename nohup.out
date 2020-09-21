@@ -24160,3 +24160,13 @@ Real binaries:['/usr/bin/vtable-dumper']
 Write to package-work.txt file: vtable-dumper
 Write to package-binaries.txt file: ['/usr/bin/vtable-dumper']
 ['/usr/bin/vtable-dumper']
+Write pickle file
+tar_out:
+Package-nr:4093 of 11000, Name:vulkan-tools-dbgsym
+Package >vulkan-tools< not in package-all.txt file
+Write to package-all.txt file: vulkan-tools
+In package >vulkan-tools< are these binaries: ['/usr/bin/vkcube', '/usr/bin/vkcubepp', '/usr/bin/vulkaninfo']
+Real binaries:['/usr/bin/vkcube', '/usr/bin/vkcubepp', '/usr/bin/vulkaninfo']
+Write to package-work.txt file: vulkan-tools
+Write to package-binaries.txt file: ['/usr/bin/vkcube', '/usr/bin/vkcubepp', '/usr/bin/vulkaninfo']
+['/usr/bin/vkcube', '/usr/bin/vkcubepp', '/usr/bin/vulkaninfo']

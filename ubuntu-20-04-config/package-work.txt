@@ -2686,3 +2686,4 @@ vkd3d-demos
 vbrfix
 vite
 vtable-dumper
+vulkan-tools

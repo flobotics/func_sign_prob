@@ -4110,3 +4110,4 @@ vite
 volumecontrol.app
 vectoroids
 vtable-dumper
+vulkan-tools
