@@ -4680,3 +4680,7 @@ nut-xml
 nagcon
 python3-numcodecs
 nulib2
+naev
+neat
+node-node-expat
+ncurses-hexedit

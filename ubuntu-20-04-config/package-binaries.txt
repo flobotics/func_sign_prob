@@ -8822,3 +8822,5 @@
 /usr/bin/normalize-audio
 /usr/bin/nagcon
 /usr/bin/nulib2
+/usr/bin/neat
+/usr/bin/hexeditor

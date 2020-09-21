@@ -3098,3 +3098,5 @@ ngraph-gtk
 normalize-audio
 nagcon
 nulib2
+neat
+ncurses-hexedit

@@ -1577,3 +1577,5 @@ nut-ipmi
 nut-powerman-pdu
 nut-xml
 python3-numcodecs
+naev
+node-node-expat
