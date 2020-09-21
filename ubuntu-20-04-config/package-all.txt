@@ -4798,3 +4798,4 @@ cec-utils
 python3-cec
 seahorse-daemon
 cgns-convert
+caca-utils

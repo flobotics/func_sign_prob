@@ -30575,3 +30575,13 @@ Real binaries:['/usr/bin/aflr3_to_cgns', '/usr/bin/calcwish', '/usr/bin/cgiowish
 Write to package-work.txt file: cgns-convert
 Write to package-binaries.txt file: ['/usr/bin/aflr3_to_cgns', '/usr/bin/calcwish', '/usr/bin/cgiowish', '/usr/bin/cgns_to_aflr3', '/usr/bin/cgns_to_fast', '/usr/bin/cgns_to_plot3d', '/usr/bin/cgns_to_tecplot', '/usr/bin/cgns_to_vtk', '/usr/bin/cgnscheck', '/usr/bin/cgnscompress', '/usr/bin/cgnsconvert', '/usr/bin/cgnsdiff', '/usr/bin/cgnslist', '/usr/bin/cgnsnames', '/usr/bin/convert_dataclass', '/usr/bin/convert_location', '/usr/bin/convert_variables', '/usr/bin/extract_subset', '/usr/bin/fast_to_cgns', '/usr/bin/interpolate_cgns', '/usr/bin/patran_to_cgns', '/usr/bin/plot3d_to_cgns', '/usr/bin/plotwish', '/usr/bin/tecplot_to_cgns', '/usr/bin/tetgen_to_cgns', '/usr/bin/update_ngon', '/usr/bin/vgrid_to_cgns']
 ['/usr/bin/aflr3_to_cgns', '/usr/bin/calcwish', '/usr/bin/cgiowish', '/usr/bin/cgns_to_aflr3', '/usr/bin/cgns_to_fast', '/usr/bin/cgns_to_plot3d', '/usr/bin/cgns_to_tecplot', '/usr/bin/cgns_to_vtk', '/usr/bin/cgnscheck', '/usr/bin/cgnscompress', '/usr/bin/cgnsconvert', '/usr/bin/cgnsdiff', '/usr/bin/cgnslist', '/usr/bin/cgnsnames', '/usr/bin/convert_dataclass', '/usr/bin/convert_location', '/usr/bin/convert_variables', '/usr/bin/extract_subset', '/usr/bin/fast_to_cgns', '/usr/bin/interpolate_cgns', '/usr/bin/patran_to_cgns', '/usr/bin/plot3d_to_cgns', '/usr/bin/plotwish', '/usr/bin/tecplot_to_cgns', '/usr/bin/tetgen_to_cgns', '/usr/bin/update_ngon', '/usr/bin/vgrid_to_cgns']
+Write pickle file
+tar_out:
+Package-nr:4849 of 11000, Name:caca-utils-dbgsym
+Package >caca-utils< not in package-all.txt file
+Write to package-all.txt file: caca-utils
+In package >caca-utils< are these binaries: ['/usr/bin/cacaclock', '/usr/bin/cacademo', '/usr/bin/cacafire', '/usr/bin/cacaplay', '/usr/bin/cacaserver', '/usr/bin/cacaview', '/usr/bin/img2txt']
+Real binaries:['/usr/bin/cacaclock', '/usr/bin/cacademo', '/usr/bin/cacafire', '/usr/bin/cacaplay', '/usr/bin/cacaserver', '/usr/bin/cacaview', '/usr/bin/img2txt']
+Write to package-work.txt file: caca-utils
+Write to package-binaries.txt file: ['/usr/bin/cacaclock', '/usr/bin/cacademo', '/usr/bin/cacafire', '/usr/bin/cacaplay', '/usr/bin/cacaserver', '/usr/bin/cacaview', '/usr/bin/img2txt']
+['/usr/bin/cacaclock', '/usr/bin/cacademo', '/usr/bin/cacafire', '/usr/bin/cacaplay', '/usr/bin/cacaserver', '/usr/bin/cacaview', '/usr/bin/img2txt']

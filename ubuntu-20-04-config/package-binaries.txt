@@ -9049,3 +9049,10 @@
 /usr/bin/tetgen_to_cgns
 /usr/bin/update_ngon
 /usr/bin/vgrid_to_cgns
+/usr/bin/cacaclock
+/usr/bin/cacademo
+/usr/bin/cacafire
+/usr/bin/cacaplay
+/usr/bin/cacaserver
+/usr/bin/cacaview
+/usr/bin/img2txt
