@@ -28992,3 +28992,20 @@ Real binaries:['/usr/bin/nm-tray']
 Write to package-work.txt file: nm-tray
 Write to package-binaries.txt file: ['/usr/bin/nm-tray']
 ['/usr/bin/nm-tray']
+Write pickle file
+tar_out:
+Package-nr:4657 of 11000, Name:nautilus-wipe-dbgsym
+Package >nautilus-wipe< not in package-all.txt file
+Write to package-all.txt file: nautilus-wipe
+In package >nautilus-wipe< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: nautilus-wipe
+[]
+Package-nr:4658 of 11000, Name:nabi-dbgsym
+Package >nabi< not in package-all.txt file
+Write to package-all.txt file: nabi
+In package >nabi< are these binaries: ['/usr/bin/nabi']
+Real binaries:['/usr/bin/nabi']
+Write to package-work.txt file: nabi
+Write to package-binaries.txt file: ['/usr/bin/nabi']
+['/usr/bin/nabi']

@@ -3068,3 +3068,4 @@ nfswatch
 netstress
 netdiscover
 nm-tray
+nabi

@@ -1553,3 +1553,4 @@ node-node-stringprep
 nudoku
 notify-osd
 nemo-python
+nautilus-wipe
