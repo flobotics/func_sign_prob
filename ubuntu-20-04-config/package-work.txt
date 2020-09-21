@@ -3514,3 +3514,4 @@ schism
 shadowsocks-libev
 supercat
 sapphire
+sffview

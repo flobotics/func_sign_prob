@@ -34704,3 +34704,30 @@ Real binaries:['/usr/bin/sapphire']
 Write to package-work.txt file: sapphire
 Write to package-binaries.txt file: ['/usr/bin/sapphire']
 ['/usr/bin/sapphire']
+Write pickle file
+tar_out:
+Package-nr:5319 of 11000, Name:scalapack-mpi-test-dbgsym
+Package >scalapack-mpi-test< not in package-all.txt file
+Write to package-all.txt file: scalapack-mpi-test
+In package >scalapack-mpi-test< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: scalapack-mpi-test
+[]
+Package-nr:5320 of 11000, Name:slang-expat-dbgsym
+Package >slang-expat< not in package-all.txt file
+Write to package-all.txt file: slang-expat
+In package >slang-expat< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: slang-expat
+[]
+Package-nr:5321 of 11000, Name:slim-dbgsym
+Skip package >slim<, already in package-all.txt file
+[]
+Package-nr:5322 of 11000, Name:sffview-dbgsym
+Package >sffview< not in package-all.txt file
+Write to package-all.txt file: sffview
+In package >sffview< are these binaries: ['/usr/bin/sffview']
+Real binaries:['/usr/bin/sffview']
+Write to package-work.txt file: sffview
+Write to package-binaries.txt file: ['/usr/bin/sffview']
+['/usr/bin/sffview']

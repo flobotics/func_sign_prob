@@ -9904,3 +9904,4 @@
 /usr/bin/ss-tunnel
 /usr/bin/spc
 /usr/bin/sapphire
+/usr/bin/sffview

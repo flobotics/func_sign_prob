@@ -1719,3 +1719,5 @@ strongswan-scepclient
 sdl-ball
 swell-foop
 python3-siphashc
+scalapack-mpi-test
+slang-expat

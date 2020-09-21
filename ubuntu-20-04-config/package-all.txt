@@ -5238,3 +5238,6 @@ swell-foop
 supercat
 python3-siphashc
 sapphire
+scalapack-mpi-test
+slang-expat
+sffview
