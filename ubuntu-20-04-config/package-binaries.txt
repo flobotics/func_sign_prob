@@ -7978,3 +7978,4 @@
 /usr/bin/vcdxgen
 /usr/bin/vcdxminfo
 /usr/bin/vcdxrip
+/usr/bin/votca_property

@@ -2749,3 +2749,4 @@ xineliboutput-sxfe
 vera++
 vamp-examples
 vcdimager
+votca-tools

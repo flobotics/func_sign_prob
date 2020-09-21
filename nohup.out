@@ -24872,3 +24872,13 @@ Real binaries:['/usr/bin/cdxa2mpeg', '/usr/bin/vcd-info', '/usr/bin/vcdimager', 
 Write to package-work.txt file: vcdimager
 Write to package-binaries.txt file: ['/usr/bin/cdxa2mpeg', '/usr/bin/vcd-info', '/usr/bin/vcdimager', '/usr/bin/vcdxbuild', '/usr/bin/vcdxgen', '/usr/bin/vcdxminfo', '/usr/bin/vcdxrip']
 ['/usr/bin/cdxa2mpeg', '/usr/bin/vcd-info', '/usr/bin/vcdimager', '/usr/bin/vcdxbuild', '/usr/bin/vcdxgen', '/usr/bin/vcdxminfo', '/usr/bin/vcdxrip']
+Write pickle file
+tar_out:
+Package-nr:4174 of 11000, Name:votca-tools-dbgsym
+Package >votca-tools< not in package-all.txt file
+Write to package-all.txt file: votca-tools
+In package >votca-tools< are these binaries: ['/usr/bin/votca_compare', '/usr/bin/votca_property']
+Real binaries:['/usr/bin/votca_property']
+Write to package-work.txt file: votca-tools
+Write to package-binaries.txt file: ['/usr/bin/votca_property']
+['/usr/bin/votca_property']
