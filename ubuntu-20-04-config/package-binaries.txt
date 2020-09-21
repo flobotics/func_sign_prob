@@ -8512,3 +8512,4 @@
 /usr/bin/nngcat
 /usr/bin/ncat
 /usr/sbin/rpc.bootparamd
+/usr/sbin/nvramtool
