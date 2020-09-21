@@ -9864,3 +9864,4 @@
 /usr/lib/sptk/bin/xgr
 /usr/lib/sptk/bin/zcross
 /usr/lib/sptk/bin/zerodf
+/usr/sbin/sniproxy
