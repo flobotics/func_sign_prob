@@ -9098,3 +9098,4 @@
 /usr/bin/pages2odt
 /usr/bin/ebook2odt
 /usr/bin/abw2odt
+/usr/bin/wps2odt

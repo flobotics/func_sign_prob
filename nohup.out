@@ -31006,3 +31006,13 @@ Real binaries:['/usr/bin/abw2odt']
 Write to package-work.txt file: abw2odt
 Write to package-binaries.txt file: ['/usr/bin/abw2odt']
 ['/usr/bin/abw2odt']
+Write pickle file
+tar_out:
+Package-nr:4894 of 11000, Name:wps2odt-dbgsym
+Package >wps2odt< not in package-all.txt file
+Write to package-all.txt file: wps2odt
+In package >wps2odt< are these binaries: ['/usr/bin/wps2odt']
+Real binaries:['/usr/bin/wps2odt']
+Write to package-work.txt file: wps2odt
+Write to package-binaries.txt file: ['/usr/bin/wps2odt']
+['/usr/bin/wps2odt']
