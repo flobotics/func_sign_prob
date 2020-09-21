@@ -25625,3 +25625,13 @@ Real binaries:['/usr/bin/zbackup']
 Write to package-work.txt file: zbackup
 Write to package-binaries.txt file: ['/usr/bin/zbackup']
 ['/usr/bin/zbackup']
+Write pickle file
+tar_out:
+Package-nr:4260 of 11000, Name:zfs-fuse-dbgsym
+Package >zfs-fuse< not in package-all.txt file
+Write to package-all.txt file: zfs-fuse
+In package >zfs-fuse< are these binaries: ['/sbin/zdb', '/sbin/zfs', '/sbin/zfs-fuse', '/sbin/zpool', '/sbin/zstreamdump']
+Real binaries:['/sbin/zdb', '/sbin/zfs', '/sbin/zfs-fuse', '/sbin/zpool', '/sbin/zstreamdump']
+Write to package-work.txt file: zfs-fuse
+Write to package-binaries.txt file: ['/sbin/zdb', '/sbin/zfs', '/sbin/zfs-fuse', '/sbin/zpool', '/sbin/zstreamdump']
+['/sbin/zdb', '/sbin/zfs', '/sbin/zfs-fuse', '/sbin/zpool', '/sbin/zstreamdump']
