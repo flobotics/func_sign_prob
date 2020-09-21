@@ -8299,3 +8299,4 @@
 /usr/sbin/uptimed
 /usr/bin/umockdev-record
 /usr/bin/umockdev-run
+/usr/sbin/ucarp
