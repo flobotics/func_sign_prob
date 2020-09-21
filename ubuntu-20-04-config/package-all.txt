@@ -4656,3 +4656,4 @@ nstreams
 numlockx
 nordugrid-arc-test-utils
 nordugrid-arc-wn
+nordugrid-arc-gridftpd
