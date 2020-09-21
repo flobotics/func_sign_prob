@@ -9700,3 +9700,4 @@
 /usr/bin/newgidmap
 /usr/bin/newuidmap
 /usr/bin/mongoose
+/usr/bin/sks-ecc

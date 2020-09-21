@@ -34374,3 +34374,13 @@ Real binaries:['/usr/bin/mongoose']
 Write to package-work.txt file: mongoose
 Write to package-binaries.txt file: ['/usr/bin/mongoose']
 ['/usr/bin/mongoose']
+Write pickle file
+tar_out:
+Package-nr:5282 of 11000, Name:sks-ecc-dbgsym
+Package >sks-ecc< not in package-all.txt file
+Write to package-all.txt file: sks-ecc
+In package >sks-ecc< are these binaries: ['/usr/bin/sks-ecc']
+Real binaries:['/usr/bin/sks-ecc']
+Write to package-work.txt file: sks-ecc
+Write to package-binaries.txt file: ['/usr/bin/sks-ecc']
+['/usr/bin/sks-ecc']
