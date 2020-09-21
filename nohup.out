@@ -26157,3 +26157,30 @@ Real binaries:['/usr/bin/unalz']
 Write to package-work.txt file: unalz
 Write to package-binaries.txt file: ['/usr/bin/unalz']
 ['/usr/bin/unalz']
+Write pickle file
+tar_out:
+Package-nr:4319 of 11000, Name:uim-chewing-dbgsym
+Package >uim-chewing< not in package-all.txt file
+Write to package-all.txt file: uim-chewing
+In package >uim-chewing< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: uim-chewing
+[]
+Package-nr:4320 of 11000, Name:unity-services-dbgsym
+Package >unity-services< not in package-all.txt file
+Write to package-all.txt file: unity-services
+In package >unity-services< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: unity-services
+[]
+Package-nr:4321 of 11000, Name:unity-dbgsym
+Skip package >unity<, already in package-all.txt file
+[]
+Package-nr:4322 of 11000, Name:ucspi-tcp-dbgsym
+Package >ucspi-tcp< not in package-all.txt file
+Write to package-all.txt file: ucspi-tcp
+In package >ucspi-tcp< are these binaries: ['/usr/bin/addcr', '/usr/bin/argv0', '/usr/bin/date@', '/usr/bin/delcr', '/usr/bin/finger@', '/usr/bin/fixcrio', '/usr/bin/http@', '/usr/bin/mconnect', '/usr/bin/mconnect-io', '/usr/bin/rblsmtpd', '/usr/bin/recordio', '/usr/bin/tcpcat', '/usr/bin/tcpclient', '/usr/bin/tcprules', '/usr/bin/tcprulescheck', '/usr/bin/tcpserver', '/usr/bin/who@']
+Real binaries:['/usr/bin/addcr', '/usr/bin/argv0', '/usr/bin/delcr', '/usr/bin/fixcrio', '/usr/bin/mconnect-io', '/usr/bin/rblsmtpd', '/usr/bin/recordio', '/usr/bin/tcpclient', '/usr/bin/tcprules', '/usr/bin/tcprulescheck', '/usr/bin/tcpserver']
+Write to package-work.txt file: ucspi-tcp
+Write to package-binaries.txt file: ['/usr/bin/addcr', '/usr/bin/argv0', '/usr/bin/delcr', '/usr/bin/fixcrio', '/usr/bin/mconnect-io', '/usr/bin/rblsmtpd', '/usr/bin/recordio', '/usr/bin/tcpclient', '/usr/bin/tcprules', '/usr/bin/tcprulescheck', '/usr/bin/tcpserver']
+['/usr/bin/addcr', '/usr/bin/argv0', '/usr/bin/delcr', '/usr/bin/fixcrio', '/usr/bin/mconnect-io', '/usr/bin/rblsmtpd', '/usr/bin/recordio', '/usr/bin/tcpclient', '/usr/bin/tcprules', '/usr/bin/tcprulescheck', '/usr/bin/tcpserver']

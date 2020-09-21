@@ -1469,3 +1469,5 @@ usbauth-notifier
 unity-lens-applications
 python3-urwid
 user-manager
+uim-chewing
+unity-services

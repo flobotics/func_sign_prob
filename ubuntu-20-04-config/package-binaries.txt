@@ -8212,3 +8212,14 @@
 /usr/bin/uwsc
 /usr/bin/units-filter
 /usr/bin/unalz
+/usr/bin/addcr
+/usr/bin/argv0
+/usr/bin/delcr
+/usr/bin/fixcrio
+/usr/bin/mconnect-io
+/usr/bin/rblsmtpd
+/usr/bin/recordio
+/usr/bin/tcpclient
+/usr/bin/tcprules
+/usr/bin/tcprulescheck
+/usr/bin/tcpserver
