@@ -2668,3 +2668,5 @@ vncsnapshot
 vmpk
 vagalume
 vfu
+vmatch
+varnish
