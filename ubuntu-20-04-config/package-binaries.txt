@@ -9273,3 +9273,6 @@
 /usr/bin/w_scan
 /usr/bin/wbar-config
 /usr/bin/wcd.exec
+/usr/sbin/w3camd
+/usr/bin/vidcat
+/usr/lib/cgi-bin/w3cam.cgi

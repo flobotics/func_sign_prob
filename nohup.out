@@ -31791,3 +31791,13 @@ Real binaries:['/usr/bin/wcd.exec']
 Write to package-work.txt file: wcd
 Write to package-binaries.txt file: ['/usr/bin/wcd.exec']
 ['/usr/bin/wcd.exec']
+Write pickle file
+tar_out:
+Package-nr:4984 of 11000, Name:w3cam-dbgsym
+Package >w3cam< not in package-all.txt file
+Write to package-all.txt file: w3cam
+In package >w3cam< are these binaries: ['/usr/sbin/w3camd', '/usr/bin/vidcat', '/usr/lib/cgi-bin/w3cam.cgi']
+Real binaries:['/usr/sbin/w3camd', '/usr/bin/vidcat', '/usr/lib/cgi-bin/w3cam.cgi']
+Write to package-work.txt file: w3cam
+Write to package-binaries.txt file: ['/usr/sbin/w3camd', '/usr/bin/vidcat', '/usr/lib/cgi-bin/w3cam.cgi']
+['/usr/sbin/w3camd', '/usr/bin/vidcat', '/usr/lib/cgi-bin/w3cam.cgi']
