@@ -9999,3 +9999,11 @@
 /usr/bin/smp_zone_unlock
 /usr/bin/smp_zoned_broadcast
 /usr/bin/sox
+/usr/lib/spades/bin/spades-core
+/usr/lib/spades/bin/spades-corrector-core
+/usr/lib/spades/bin/spades-gbuilder
+/usr/lib/spades/bin/spades-gmapper
+/usr/lib/spades/bin/spades-hammer
+/usr/lib/spades/bin/spades-ionhammer
+/usr/lib/spades/bin/spades-kmercount
+/usr/lib/spades/bin/spades-truseq-scfcorrection

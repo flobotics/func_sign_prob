@@ -3531,3 +3531,4 @@ safecat
 stress-ng
 smp-utils
 sox
+spades

@@ -34963,3 +34963,16 @@ Real binaries:['/usr/bin/sox']
 Write to package-work.txt file: sox
 Write to package-binaries.txt file: ['/usr/bin/sox']
 ['/usr/bin/sox']
+Write pickle file
+tar_out:
+Package-nr:5351 of 11000, Name:step-dbgsym
+Skip package >step<, already in package-all.txt file
+[]
+Package-nr:5352 of 11000, Name:spades-dbgsym
+Package >spades< not in package-all.txt file
+Write to package-all.txt file: spades
+In package >spades< are these binaries: ['/usr/bin/spades', '/usr/lib/spades/bin/spades-core', '/usr/lib/spades/bin/spades-corrector-core', '/usr/lib/spades/bin/spades-gbuilder', '/usr/lib/spades/bin/spades-gmapper', '/usr/lib/spades/bin/spades-hammer', '/usr/lib/spades/bin/spades-ionhammer', '/usr/lib/spades/bin/spades-kmercount', '/usr/lib/spades/bin/spades-truseq-scfcorrection', '/usr/lib/spades/bin/spades.py', '/usr/lib/spades/bin/spades_init.py', '/usr/lib/spades/bin/truspades.py', '/usr/bin/metaspades', '/usr/bin/metaspades.py', '/usr/bin/plasmidspades', '/usr/bin/plasmidspades.py', '/usr/bin/rnaspades', '/usr/bin/rnaspades.py', '/usr/bin/spades.py', '/usr/bin/truspades', '/usr/bin/truspades.py', '/usr/lib/spades/bin/VERSION', '/usr/lib/spades/bin/metaspades.py', '/usr/lib/spades/bin/plasmidspades.py', '/usr/lib/spades/bin/rnaspades.py', '/usr/lib/spades/bin/spades-bwa']
+Real binaries:['/usr/lib/spades/bin/spades-core', '/usr/lib/spades/bin/spades-corrector-core', '/usr/lib/spades/bin/spades-gbuilder', '/usr/lib/spades/bin/spades-gmapper', '/usr/lib/spades/bin/spades-hammer', '/usr/lib/spades/bin/spades-ionhammer', '/usr/lib/spades/bin/spades-kmercount', '/usr/lib/spades/bin/spades-truseq-scfcorrection']
+Write to package-work.txt file: spades
+Write to package-binaries.txt file: ['/usr/lib/spades/bin/spades-core', '/usr/lib/spades/bin/spades-corrector-core', '/usr/lib/spades/bin/spades-gbuilder', '/usr/lib/spades/bin/spades-gmapper', '/usr/lib/spades/bin/spades-hammer', '/usr/lib/spades/bin/spades-ionhammer', '/usr/lib/spades/bin/spades-kmercount', '/usr/lib/spades/bin/spades-truseq-scfcorrection']
+['/usr/lib/spades/bin/spades-core', '/usr/lib/spades/bin/spades-corrector-core', '/usr/lib/spades/bin/spades-gbuilder', '/usr/lib/spades/bin/spades-gmapper', '/usr/lib/spades/bin/spades-hammer', '/usr/lib/spades/bin/spades-ionhammer', '/usr/lib/spades/bin/spades-kmercount', '/usr/lib/spades/bin/spades-truseq-scfcorrection']
