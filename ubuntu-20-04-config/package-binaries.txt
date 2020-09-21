@@ -7855,3 +7855,7 @@
 /usr/bin/vobcopy
 /usr/bin/virtualjaguar
 /usr/bin/inifile
+/usr/bin/isql-vt
+/usr/bin/isqlw-vt
+/usr/bin/virt_mail
+/usr/bin/virtuoso-t

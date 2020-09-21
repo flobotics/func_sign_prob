@@ -2700,3 +2700,4 @@ validns
 vobcopy
 virtualjaguar
 virtuoso-opensource-6.1-common
+virtuoso-opensource-6.1-bin

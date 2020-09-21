@@ -24310,3 +24310,16 @@ Real binaries:['/usr/bin/inifile']
 Write to package-work.txt file: virtuoso-opensource-6.1-common
 Write to package-binaries.txt file: ['/usr/bin/inifile']
 ['/usr/bin/inifile']
+Write pickle file
+tar_out:
+Package-nr:4109 of 11000, Name:virtuoso-opensource-6.1-dbgsym
+Skip package >virtuoso-opensource-6.1<, already in package-all.txt file
+[]
+Package-nr:4110 of 11000, Name:virtuoso-opensource-6.1-bin-dbgsym
+Package >virtuoso-opensource-6.1-bin< not in package-all.txt file
+Write to package-all.txt file: virtuoso-opensource-6.1-bin
+In package >virtuoso-opensource-6.1-bin< are these binaries: ['/usr/bin/isql-vt', '/usr/bin/isqlw-vt', '/usr/bin/virt_mail', '/usr/bin/virtuoso-t', '/usr/share/doc/virtuoso-opensource-6.1-bin/AUTHORS', '/usr/share/doc/virtuoso-opensource-6.1-bin/CREDITS.gz', '/usr/share/doc/virtuoso-opensource-6.1-bin/NEWS.gz', '/usr/share/doc/virtuoso-opensource-6.1-bin/README.gz', '/usr/share/doc/virtuoso-opensource-6.1-bin/changelog.Debian.gz', '/usr/share/doc/virtuoso-opensource-6.1-bin/copyright']
+Real binaries:['/usr/bin/isql-vt', '/usr/bin/isqlw-vt', '/usr/bin/virt_mail', '/usr/bin/virtuoso-t']
+Write to package-work.txt file: virtuoso-opensource-6.1-bin
+Write to package-binaries.txt file: ['/usr/bin/isql-vt', '/usr/bin/isqlw-vt', '/usr/bin/virt_mail', '/usr/bin/virtuoso-t']
+['/usr/bin/isql-vt', '/usr/bin/isqlw-vt', '/usr/bin/virt_mail', '/usr/bin/virtuoso-t']
