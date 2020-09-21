@@ -24300,3 +24300,13 @@ Real binaries:['/usr/bin/virtualjaguar']
 Write to package-work.txt file: virtualjaguar
 Write to package-binaries.txt file: ['/usr/bin/virtualjaguar']
 ['/usr/bin/virtualjaguar']
+Write pickle file
+tar_out:
+Package-nr:4108 of 11000, Name:virtuoso-opensource-6.1-common-dbgsym
+Package >virtuoso-opensource-6.1-common< not in package-all.txt file
+Write to package-all.txt file: virtuoso-opensource-6.1-common
+In package >virtuoso-opensource-6.1-common< are these binaries: ['/usr/bin/inifile']
+Real binaries:['/usr/bin/inifile']
+Write to package-work.txt file: virtuoso-opensource-6.1-common
+Write to package-binaries.txt file: ['/usr/bin/inifile']
+['/usr/bin/inifile']

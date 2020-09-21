@@ -7854,3 +7854,4 @@
 /usr/bin/validns
 /usr/bin/vobcopy
 /usr/bin/virtualjaguar
+/usr/bin/inifile
