@@ -7959,3 +7959,5 @@
 /usr/bin/vde_cryptcab
 /usr/bin/vsearch
 /usr/bin/vsdump
+/usr/bin/vnstat
+/usr/sbin/vnstatd
