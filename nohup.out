@@ -24943,3 +24943,20 @@ Real binaries:['/usr/bin/zimwriterfs']
 Write to package-work.txt file: zimwriterfs
 Write to package-binaries.txt file: ['/usr/bin/zimwriterfs']
 ['/usr/bin/zimwriterfs']
+Write pickle file
+tar_out:
+Package-nr:4182 of 11000, Name:zatacka-dbgsym
+Package >zatacka< not in package-all.txt file
+Write to package-all.txt file: zatacka
+In package >zatacka< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: zatacka
+[]
+Package-nr:4183 of 11000, Name:zile-dbgsym
+Package >zile< not in package-all.txt file
+Write to package-all.txt file: zile
+In package >zile< are these binaries: ['/usr/bin/zile']
+Real binaries:['/usr/bin/zile']
+Write to package-work.txt file: zile
+Write to package-binaries.txt file: ['/usr/bin/zile']
+['/usr/bin/zile']

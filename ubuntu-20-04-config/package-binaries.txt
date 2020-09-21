@@ -7993,3 +7993,4 @@
 /usr/bin/zanshin
 /usr/bin/zanshin-migrator
 /usr/bin/zimwriterfs
+/usr/bin/zile
