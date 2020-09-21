@@ -9431,3 +9431,4 @@
 /usr/bin/wmctrl
 /usr/bin/wcmgr
 /usr/bin/webalizer
+/usr/bin/wmcore

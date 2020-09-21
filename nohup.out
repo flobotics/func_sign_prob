@@ -32763,3 +32763,13 @@ Real binaries:['/usr/bin/wcmgr', '/usr/bin/webalizer']
 Write to package-work.txt file: webalizer
 Write to package-binaries.txt file: ['/usr/bin/wcmgr', '/usr/bin/webalizer']
 ['/usr/bin/wcmgr', '/usr/bin/webalizer']
+Write pickle file
+tar_out:
+Package-nr:5093 of 11000, Name:wmcore-dbgsym
+Package >wmcore< not in package-all.txt file
+Write to package-all.txt file: wmcore
+In package >wmcore< are these binaries: ['/usr/bin/wmcore']
+Real binaries:['/usr/bin/wmcore']
+Write to package-work.txt file: wmcore
+Write to package-binaries.txt file: ['/usr/bin/wmcore']
+['/usr/bin/wmcore']
