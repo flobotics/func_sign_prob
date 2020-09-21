@@ -1695,3 +1695,4 @@ yorick-ygsl
 yorick-mpeg
 yorick-gl
 ssh-contact-service
+systemtap-server

@@ -9574,3 +9574,5 @@
 /usr/bin/pval
 /usr/bin/snacc
 /usr/bin/simplescreenrecorder
+/usr/bin/stap-merge
+/usr/bin/staprun

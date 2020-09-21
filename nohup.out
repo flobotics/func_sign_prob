@@ -33726,3 +33726,20 @@ Real binaries:['/usr/bin/simplescreenrecorder']
 Write to package-work.txt file: simplescreenrecorder
 Write to package-binaries.txt file: ['/usr/bin/simplescreenrecorder']
 ['/usr/bin/simplescreenrecorder']
+Write pickle file
+tar_out:
+Package-nr:5206 of 11000, Name:systemtap-server-dbgsym
+Package >systemtap-server< not in package-all.txt file
+Write to package-all.txt file: systemtap-server
+In package >systemtap-server< are these binaries: ['/usr/bin/stap-server']
+Real binaries:[]
+Write to package-dontwork.txt file: systemtap-server
+[]
+Package-nr:5207 of 11000, Name:systemtap-runtime-dbgsym
+Package >systemtap-runtime< not in package-all.txt file
+Write to package-all.txt file: systemtap-runtime
+In package >systemtap-runtime< are these binaries: ['/usr/bin/stap-merge', '/usr/bin/staprun']
+Real binaries:['/usr/bin/stap-merge', '/usr/bin/staprun']
+Write to package-work.txt file: systemtap-runtime
+Write to package-binaries.txt file: ['/usr/bin/stap-merge', '/usr/bin/staprun']
+['/usr/bin/stap-merge', '/usr/bin/staprun']

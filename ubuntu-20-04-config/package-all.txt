@@ -5135,3 +5135,5 @@ sollya
 socnetv
 snacc
 simplescreenrecorder
+systemtap-server
+systemtap-runtime
