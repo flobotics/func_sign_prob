@@ -2762,3 +2762,4 @@ z8530-utils2
 zita-lrx
 zulucrypt-gui
 zulumount-gui
+zulucrypt-cli

@@ -4207,3 +4207,4 @@ python3-zfec
 zita-lrx
 zulucrypt-gui
 zulumount-gui
+zulucrypt-cli

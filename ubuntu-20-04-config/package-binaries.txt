@@ -8011,3 +8011,4 @@
 /usr/bin/zita-lrx
 /usr/bin/zuluCrypt-gui
 /usr/bin/zuluMount-gui
+/usr/bin/zuluCrypt-cli
