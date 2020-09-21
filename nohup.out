@@ -30065,3 +30065,23 @@ Real binaries:['/usr/bin/nfstrace']
 Write to package-work.txt file: nfstrace
 Write to package-binaries.txt file: ['/usr/bin/nfstrace']
 ['/usr/bin/nfstrace']
+Write pickle file
+tar_out:
+Package-nr:4787 of 11000, Name:nemo-dbgsym
+Skip package >nemo<, already in package-all.txt file
+[]
+Package-nr:4788 of 11000, Name:node-nodedbi-dbgsym
+Package >node-nodedbi< not in package-all.txt file
+Write to package-all.txt file: node-nodedbi
+In package >node-nodedbi< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: node-nodedbi
+[]
+Package-nr:4789 of 11000, Name:newsboat-dbgsym
+Package >newsboat< not in package-all.txt file
+Write to package-all.txt file: newsboat
+In package >newsboat< are these binaries: ['/usr/bin/newsboat', '/usr/bin/podboat']
+Real binaries:['/usr/bin/newsboat', '/usr/bin/podboat']
+Write to package-work.txt file: newsboat
+Write to package-binaries.txt file: ['/usr/bin/newsboat', '/usr/bin/podboat']
+['/usr/bin/newsboat', '/usr/bin/podboat']

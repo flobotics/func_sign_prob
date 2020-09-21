@@ -4744,3 +4744,5 @@ ncaptool
 nixnote2
 noweb
 nfstrace
+node-nodedbi
+newsboat

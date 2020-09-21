@@ -8921,3 +8921,5 @@
 /usr/bin/ncaptool
 /usr/bin/nixnote2
 /usr/bin/nfstrace
+/usr/bin/newsboat
+/usr/bin/podboat

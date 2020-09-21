@@ -3143,3 +3143,4 @@ net-acct
 ncaptool
 nixnote2
 nfstrace
+newsboat
