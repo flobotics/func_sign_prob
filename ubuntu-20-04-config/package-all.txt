@@ -4711,3 +4711,4 @@ python3-nlopt
 octave-nlopt
 nsd
 neomutt
+netsurf-gtk

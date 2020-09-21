@@ -3118,3 +3118,4 @@ nootka
 node-sqlite3
 nsd
 neomutt
+netsurf-gtk
