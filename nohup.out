@@ -28982,3 +28982,13 @@ Real binaries:['/usr/sbin/netdiscover']
 Write to package-work.txt file: netdiscover
 Write to package-binaries.txt file: ['/usr/sbin/netdiscover']
 ['/usr/sbin/netdiscover']
+Write pickle file
+tar_out:
+Package-nr:4656 of 11000, Name:nm-tray-dbgsym
+Package >nm-tray< not in package-all.txt file
+Write to package-all.txt file: nm-tray
+In package >nm-tray< are these binaries: ['/usr/bin/nm-tray']
+Real binaries:['/usr/bin/nm-tray']
+Write to package-work.txt file: nm-tray
+Write to package-binaries.txt file: ['/usr/bin/nm-tray']
+['/usr/bin/nm-tray']

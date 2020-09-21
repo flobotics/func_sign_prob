@@ -8744,3 +8744,4 @@
 /usr/sbin/nfswatch
 /usr/bin/netstress
 /usr/sbin/netdiscover
+/usr/bin/nm-tray
