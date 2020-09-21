@@ -31972,3 +31972,13 @@ Real binaries:['/usr/bin/wmload']
 Write to package-work.txt file: wmload
 Write to package-binaries.txt file: ['/usr/bin/wmload']
 ['/usr/bin/wmload']
+Write pickle file
+tar_out:
+Package-nr:5005 of 11000, Name:wmppp.app-dbgsym
+Package >wmppp.app< not in package-all.txt file
+Write to package-all.txt file: wmppp.app
+In package >wmppp.app< are these binaries: ['/usr/bin/wmppp']
+Real binaries:['/usr/bin/wmppp']
+Write to package-work.txt file: wmppp.app
+Write to package-binaries.txt file: ['/usr/bin/wmppp']
+['/usr/bin/wmppp']
