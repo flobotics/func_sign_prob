@@ -9305,3 +9305,7 @@
 /usr/bin/wmload
 /usr/bin/wmppp
 /usr/bin/wmmoonclock
+/usr/bin/wavpack
+/usr/bin/wvgain
+/usr/bin/wvtag
+/usr/bin/wvunpack

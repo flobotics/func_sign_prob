@@ -4948,3 +4948,4 @@ webfs
 wmload
 wmppp.app
 wmmoonclock
+wavpack
