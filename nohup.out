@@ -34291,3 +34291,16 @@ Real binaries:['/usr/bin/shisa']
 Write to package-work.txt file: shisa
 Write to package-binaries.txt file: ['/usr/bin/shisa']
 ['/usr/bin/shisa']
+Write pickle file
+tar_out:
+Package-nr:5273 of 11000, Name:shishi-dbgsym
+Skip package >shishi<, already in package-all.txt file
+[]
+Package-nr:5274 of 11000, Name:sylph-searcher-dbgsym
+Package >sylph-searcher< not in package-all.txt file
+Write to package-all.txt file: sylph-searcher
+In package >sylph-searcher< are these binaries: ['/usr/bin/syldbimport', '/usr/bin/syldbquery', '/usr/bin/sylph-searcher']
+Real binaries:['/usr/bin/syldbimport', '/usr/bin/syldbquery', '/usr/bin/sylph-searcher']
+Write to package-work.txt file: sylph-searcher
+Write to package-binaries.txt file: ['/usr/bin/syldbimport', '/usr/bin/syldbquery', '/usr/bin/sylph-searcher']
+['/usr/bin/syldbimport', '/usr/bin/syldbquery', '/usr/bin/sylph-searcher']
