@@ -9503,3 +9503,4 @@
 /usr/bin/ypwhich
 /usr/sbin/yppoll
 /usr/sbin/ypset
+/usr/bin/yasr

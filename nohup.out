@@ -33004,3 +33004,13 @@ Real binaries:['/usr/bin/ypcat', '/usr/bin/ypchfn', '/usr/bin/ypchsh', '/usr/bin
 Write to package-work.txt file: yp-tools
 Write to package-binaries.txt file: ['/usr/bin/ypcat', '/usr/bin/ypchfn', '/usr/bin/ypchsh', '/usr/bin/ypmatch', '/usr/bin/yppasswd', '/usr/bin/ypwhich', '/usr/sbin/yppoll', '/usr/sbin/ypset']
 ['/usr/bin/ypcat', '/usr/bin/ypchfn', '/usr/bin/ypchsh', '/usr/bin/ypmatch', '/usr/bin/yppasswd', '/usr/bin/ypwhich', '/usr/sbin/yppoll', '/usr/sbin/ypset']
+Write pickle file
+tar_out:
+Package-nr:5119 of 11000, Name:yasr-dbgsym
+Package >yasr< not in package-all.txt file
+Write to package-all.txt file: yasr
+In package >yasr< are these binaries: ['/usr/bin/yasr']
+Real binaries:['/usr/bin/yasr']
+Write to package-work.txt file: yasr
+Write to package-binaries.txt file: ['/usr/bin/yasr']
+['/usr/bin/yasr']
