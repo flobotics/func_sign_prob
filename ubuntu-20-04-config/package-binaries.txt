@@ -8463,3 +8463,5 @@
 /usr/sbin/ukui-power-backlight-helper
 /usr/bin/unshield
 /usr/bin/netrik
+/usr/bin/nqp
+/usr/bin/nqp-m

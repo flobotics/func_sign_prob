@@ -27701,3 +27701,13 @@ Real binaries:['/usr/bin/netrik']
 Write to package-work.txt file: netrik
 Write to package-binaries.txt file: ['/usr/bin/netrik']
 ['/usr/bin/netrik']
+Write pickle file
+tar_out:
+Package-nr:4502 of 11000, Name:nqp-dbgsym
+Package >nqp< not in package-all.txt file
+Write to package-all.txt file: nqp
+In package >nqp< are these binaries: ['/usr/bin/nqp', '/usr/bin/nqp-m']
+Real binaries:['/usr/bin/nqp', '/usr/bin/nqp-m']
+Write to package-work.txt file: nqp
+Write to package-binaries.txt file: ['/usr/bin/nqp', '/usr/bin/nqp-m']
+['/usr/bin/nqp', '/usr/bin/nqp-m']
