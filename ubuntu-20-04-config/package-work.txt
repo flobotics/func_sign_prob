@@ -2822,3 +2822,4 @@ zeroc-icepatch2
 zeroc-glacier2
 zeroc-ice-compilers
 zeroc-icebridge
+zopfli

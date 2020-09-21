@@ -25805,3 +25805,20 @@ Real binaries:['/usr/bin/icebridge']
 Write to package-work.txt file: zeroc-icebridge
 Write to package-binaries.txt file: ['/usr/bin/icebridge']
 ['/usr/bin/icebridge']
+Write pickle file
+tar_out:
+Package-nr:4280 of 11000, Name:python3-zope.i18nmessageid-dbgsym
+Package >python3-zope.i18nmessageid< not in package-all.txt file
+Write to package-all.txt file: python3-zope.i18nmessageid
+In package >python3-zope.i18nmessageid< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: python3-zope.i18nmessageid
+[]
+Package-nr:4281 of 11000, Name:zopfli-dbgsym
+Package >zopfli< not in package-all.txt file
+Write to package-all.txt file: zopfli
+In package >zopfli< are these binaries: ['/usr/bin/zopfli', '/usr/bin/zopflipng']
+Real binaries:['/usr/bin/zopfli', '/usr/bin/zopflipng']
+Write to package-work.txt file: zopfli
+Write to package-binaries.txt file: ['/usr/bin/zopfli', '/usr/bin/zopflipng']
+['/usr/bin/zopfli', '/usr/bin/zopflipng']

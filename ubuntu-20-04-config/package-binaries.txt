@@ -8151,3 +8151,5 @@
 /usr/bin/slice2rb
 /usr/bin/slice2swift
 /usr/bin/icebridge
+/usr/bin/zopfli
+/usr/bin/zopflipng
