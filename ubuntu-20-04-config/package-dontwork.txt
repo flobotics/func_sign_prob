@@ -1436,3 +1436,6 @@ zipper.app
 kde-zeroconf
 zathura-ps
 python3-zope.hookable
+zynaddsubfx-vst
+zynaddsubfx-dssi
+zynaddsubfx-lv2

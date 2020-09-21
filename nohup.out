@@ -25021,3 +25021,37 @@ Real binaries:['/usr/bin/zita-a2j', '/usr/bin/zita-j2a']
 Write to package-work.txt file: zita-ajbridge
 Write to package-binaries.txt file: ['/usr/bin/zita-a2j', '/usr/bin/zita-j2a']
 ['/usr/bin/zita-a2j', '/usr/bin/zita-j2a']
+Write pickle file
+tar_out:
+Package-nr:4192 of 11000, Name:zynaddsubfx-vst-dbgsym
+Package >zynaddsubfx-vst< not in package-all.txt file
+Write to package-all.txt file: zynaddsubfx-vst
+In package >zynaddsubfx-vst< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: zynaddsubfx-vst
+[]
+Package-nr:4193 of 11000, Name:zynaddsubfx-dbgsym
+Skip package >zynaddsubfx<, already in package-all.txt file
+[]
+Package-nr:4194 of 11000, Name:zynaddsubfx-dssi-dbgsym
+Package >zynaddsubfx-dssi< not in package-all.txt file
+Write to package-all.txt file: zynaddsubfx-dssi
+In package >zynaddsubfx-dssi< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: zynaddsubfx-dssi
+[]
+Package-nr:4195 of 11000, Name:zynaddsubfx-lv2-dbgsym
+Package >zynaddsubfx-lv2< not in package-all.txt file
+Write to package-all.txt file: zynaddsubfx-lv2
+In package >zynaddsubfx-lv2< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: zynaddsubfx-lv2
+[]
+Package-nr:4196 of 11000, Name:z8530-utils2-dbgsym
+Package >z8530-utils2< not in package-all.txt file
+Write to package-all.txt file: z8530-utils2
+In package >z8530-utils2< are these binaries: ['/usr/bin/gencfg', '/usr/bin/sccstat', '/usr/sbin/kissbridge', '/usr/sbin/sccinit', '/usr/sbin/sccparam']
+Real binaries:['/usr/bin/gencfg', '/usr/bin/sccstat', '/usr/sbin/kissbridge', '/usr/sbin/sccinit', '/usr/sbin/sccparam']
+Write to package-work.txt file: z8530-utils2
+Write to package-binaries.txt file: ['/usr/bin/gencfg', '/usr/bin/sccstat', '/usr/sbin/kissbridge', '/usr/sbin/sccinit', '/usr/sbin/sccparam']
+['/usr/bin/gencfg', '/usr/bin/sccstat', '/usr/sbin/kissbridge', '/usr/sbin/sccinit', '/usr/sbin/sccparam']

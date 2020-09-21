@@ -8003,3 +8003,8 @@
 /usr/bin/0store-secure-add
 /usr/bin/zita-a2j
 /usr/bin/zita-j2a
+/usr/bin/gencfg
+/usr/bin/sccstat
+/usr/sbin/kissbridge
+/usr/sbin/sccinit
+/usr/sbin/sccparam
