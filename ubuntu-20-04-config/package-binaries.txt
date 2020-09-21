@@ -8027,3 +8027,4 @@
 /usr/bin/zssh
 /usr/bin/zita-resampler
 /usr/bin/zita-retune
+/usr/bin/zita-mu1

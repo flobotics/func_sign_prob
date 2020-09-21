@@ -2776,3 +2776,4 @@ zbar-tools
 zomg
 zssh
 zita-resampler
+zita-mu1

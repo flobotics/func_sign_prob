@@ -4227,3 +4227,4 @@ python3-zbar
 zomg
 zssh
 zita-resampler
+zita-mu1
