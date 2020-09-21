@@ -5100,3 +5100,7 @@ yorick-ml4
 python3-yarl
 yagf
 yersinia
+yorick-yeti-regex
+yorick-yeti-tiff
+yorick-yeti-fftw
+yabar

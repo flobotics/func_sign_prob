@@ -9539,3 +9539,4 @@
 /usr/bin/yubiserver-admin
 /usr/bin/yagf
 /usr/bin/yersinia
+/usr/bin/yabar
