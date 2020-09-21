@@ -8394,3 +8394,4 @@
 /usr/bin/uaputl
 /usr/bin/untex
 /usr/bin/usbrelay
+/usr/sbin/ukui-greeter

@@ -2931,3 +2931,4 @@ unsort
 uaputl
 untex
 usbrelay
+ukui-greeter
