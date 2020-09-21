@@ -34996,3 +34996,20 @@ Real binaries:['/usr/bin/simulpic']
 Write to package-work.txt file: simulpic
 Write to package-binaries.txt file: ['/usr/bin/simulpic']
 ['/usr/bin/simulpic']
+Write pickle file
+tar_out:
+Package-nr:5355 of 11000, Name:python3-soapysdr-dbgsym
+Package >python3-soapysdr< not in package-all.txt file
+Write to package-all.txt file: python3-soapysdr
+In package >python3-soapysdr< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: python3-soapysdr
+[]
+Package-nr:5356 of 11000, Name:soapysdr-tools-dbgsym
+Package >soapysdr-tools< not in package-all.txt file
+Write to package-all.txt file: soapysdr-tools
+In package >soapysdr-tools< are these binaries: ['/usr/bin/SoapySDRUtil']
+Real binaries:['/usr/bin/SoapySDRUtil']
+Write to package-work.txt file: soapysdr-tools
+Write to package-binaries.txt file: ['/usr/bin/SoapySDRUtil']
+['/usr/bin/SoapySDRUtil']

@@ -1730,3 +1730,4 @@ systemd-cron
 stockfish
 snoopy
 soapysdr0.7-module-bladerf
+python3-soapysdr

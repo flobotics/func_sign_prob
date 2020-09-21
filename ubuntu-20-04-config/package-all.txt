@@ -5269,3 +5269,5 @@ sox
 spades
 smalt
 simulpic
+python3-soapysdr
+soapysdr-tools
