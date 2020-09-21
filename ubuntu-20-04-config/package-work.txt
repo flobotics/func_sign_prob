@@ -3043,3 +3043,4 @@ ncbi-blast+
 natlog
 nwchem
 nauty
+daxctl

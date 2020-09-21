@@ -8716,3 +8716,4 @@
 /usr/bin/nauty-twohamg
 /usr/bin/nauty-vcolg
 /usr/bin/nauty-watercluster2
+/usr/bin/daxctl
