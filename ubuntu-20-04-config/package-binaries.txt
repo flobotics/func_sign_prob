@@ -8297,3 +8297,5 @@
 /usr/bin/utfout
 /usr/bin/uprecords
 /usr/sbin/uptimed
+/usr/bin/umockdev-record
+/usr/bin/umockdev-run
