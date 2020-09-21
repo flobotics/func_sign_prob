@@ -4858,3 +4858,6 @@ wide-dhcpv6-relay
 wide-dhcpv6-server
 wide-dhcpv6-client
 wmshutdown
+wine64-development-tools
+wine64-development-preloader
+windowlab

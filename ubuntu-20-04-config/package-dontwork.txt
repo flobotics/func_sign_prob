@@ -1618,3 +1618,5 @@ wordplay
 websockify
 whysynth
 wordwarvi
+wine64-development-tools
+wine64-development-preloader

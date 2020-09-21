@@ -31149,3 +31149,30 @@ Real binaries:['/usr/bin/wmshutdown']
 Write to package-work.txt file: wmshutdown
 Write to package-binaries.txt file: ['/usr/bin/wmshutdown']
 ['/usr/bin/wmshutdown']
+Write pickle file
+tar_out:
+Package-nr:4909 of 11000, Name:wine64-development-tools-dbgsym
+Package >wine64-development-tools< not in package-all.txt file
+Write to package-all.txt file: wine64-development-tools
+In package >wine64-development-tools< are these binaries: ['/usr/bin/function_grep.pl', '/usr/bin/winegcc-development', '/usr/bin/widl-development', '/usr/bin/winebuild-development', '/usr/bin/winecpp-development', '/usr/bin/winedump-development', '/usr/bin/wineg++-development', '/usr/bin/winemaker-development', '/usr/bin/wmc-development', '/usr/bin/wrc-development']
+Real binaries:[]
+Write to package-dontwork.txt file: wine64-development-tools
+[]
+Package-nr:4910 of 11000, Name:wine64-development-dbgsym
+Skip package >wine64-development<, already in package-all.txt file
+[]
+Package-nr:4911 of 11000, Name:wine64-development-preloader-dbgsym
+Package >wine64-development-preloader< not in package-all.txt file
+Write to package-all.txt file: wine64-development-preloader
+In package >wine64-development-preloader< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: wine64-development-preloader
+[]
+Package-nr:4912 of 11000, Name:windowlab-dbgsym
+Package >windowlab< not in package-all.txt file
+Write to package-all.txt file: windowlab
+In package >windowlab< are these binaries: ['/usr/bin/windowlab']
+Real binaries:['/usr/bin/windowlab']
+Write to package-work.txt file: windowlab
+Write to package-binaries.txt file: ['/usr/bin/windowlab']
+['/usr/bin/windowlab']

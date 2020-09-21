@@ -3235,3 +3235,4 @@ wide-dhcpv6-relay
 wide-dhcpv6-server
 wide-dhcpv6-client
 wmshutdown
+windowlab
