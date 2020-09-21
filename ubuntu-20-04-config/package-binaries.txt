@@ -9094,3 +9094,4 @@
 /usr/bin/zmf2odg
 /usr/bin/wks2ods
 /usr/bin/wpd2odt
+/usr/bin/qxp2epub
