@@ -32367,3 +32367,13 @@ Real binaries:['/usr/bin/wmbutton']
 Write to package-work.txt file: wmbutton
 Write to package-binaries.txt file: ['/usr/bin/wmbutton']
 ['/usr/bin/wmbutton']
+Write pickle file
+tar_out:
+Package-nr:5048 of 11000, Name:wmlongrun-dbgsym
+Package >wmlongrun< not in package-all.txt file
+Write to package-all.txt file: wmlongrun
+In package >wmlongrun< are these binaries: ['/usr/bin/wmlongrun']
+Real binaries:['/usr/bin/wmlongrun']
+Write to package-work.txt file: wmlongrun
+Write to package-binaries.txt file: ['/usr/bin/wmlongrun']
+['/usr/bin/wmlongrun']

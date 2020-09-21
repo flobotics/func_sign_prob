@@ -9388,3 +9388,4 @@
 /usr/bin/wimupdate
 /usr/bin/wimverify
 /usr/bin/wmbutton
+/usr/bin/wmlongrun

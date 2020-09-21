@@ -3336,3 +3336,4 @@ wmanager
 wavbreaker
 wimtools
 wmbutton
+wmlongrun
