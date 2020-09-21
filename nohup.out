@@ -32649,3 +32649,13 @@ Real binaries:['/usr/bin/w9wm']
 Write to package-work.txt file: w9wm
 Write to package-binaries.txt file: ['/usr/bin/w9wm']
 ['/usr/bin/w9wm']
+Write pickle file
+tar_out:
+Package-nr:5080 of 11000, Name:wmtop-dbgsym
+Package >wmtop< not in package-all.txt file
+Write to package-all.txt file: wmtop
+In package >wmtop< are these binaries: ['/usr/bin/wmtop']
+Real binaries:['/usr/bin/wmtop']
+Write to package-work.txt file: wmtop
+Write to package-binaries.txt file: ['/usr/bin/wmtop']
+['/usr/bin/wmtop']
