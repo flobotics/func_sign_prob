@@ -25665,3 +25665,27 @@ Real binaries:['/usr/bin/zita-at1']
 Write to package-work.txt file: zita-at1
 Write to package-binaries.txt file: ['/usr/bin/zita-at1']
 ['/usr/bin/zita-at1']
+Write pickle file
+tar_out:
+Package-nr:4264 of 11000, Name:zlibc-dbgsym
+Package >zlibc< not in package-all.txt file
+Write to package-all.txt file: zlibc
+In package >zlibc< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: zlibc
+[]
+Package-nr:4265 of 11000, Name:python3-zope.proxy-dbgsym
+Package >python3-zope.proxy< not in package-all.txt file
+Write to package-all.txt file: python3-zope.proxy
+In package >python3-zope.proxy< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: python3-zope.proxy
+[]
+Package-nr:4266 of 11000, Name:zita-bls1-dbgsym
+Package >zita-bls1< not in package-all.txt file
+Write to package-all.txt file: zita-bls1
+In package >zita-bls1< are these binaries: ['/usr/bin/zita-bls1']
+Real binaries:['/usr/bin/zita-bls1']
+Write to package-work.txt file: zita-bls1
+Write to package-binaries.txt file: ['/usr/bin/zita-bls1']
+['/usr/bin/zita-bls1']

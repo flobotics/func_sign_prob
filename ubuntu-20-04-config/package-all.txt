@@ -4268,3 +4268,6 @@ zfs-fuse
 zdbsp
 zita-njbridge
 zita-at1
+zlibc
+python3-zope.proxy
+zita-bls1

@@ -1451,3 +1451,5 @@ python3-zookeeper
 python3-zope.security
 zoom-player
 zaz
+zlibc
+python3-zope.proxy
