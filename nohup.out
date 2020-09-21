@@ -33951,3 +33951,13 @@ Real binaries:['/usr/bin/gentest', '/usr/bin/locktest', '/usr/bin/masktest', '/u
 Write to package-work.txt file: samba-testsuite
 Write to package-binaries.txt file: ['/usr/bin/gentest', '/usr/bin/locktest', '/usr/bin/masktest', '/usr/bin/ndrdump', '/usr/bin/smbtorture']
 ['/usr/bin/gentest', '/usr/bin/locktest', '/usr/bin/masktest', '/usr/bin/ndrdump', '/usr/bin/smbtorture']
+Write pickle file
+tar_out:
+Package-nr:5234 of 11000, Name:ctdb-dbgsym
+Package >ctdb< not in package-all.txt file
+Write to package-all.txt file: ctdb
+In package >ctdb< are these binaries: ['/usr/bin/ctdb', '/usr/bin/ctdb_diagnostics', '/usr/bin/ctdb_local_daemons', '/usr/bin/ltdbtool', '/usr/bin/onnode', '/usr/bin/ping_pong', '/usr/sbin/ctdbd', '/usr/sbin/ctdbd_wrapper']
+Real binaries:['/usr/bin/ctdb', '/usr/bin/ltdbtool', '/usr/bin/ping_pong', '/usr/sbin/ctdbd']
+Write to package-work.txt file: ctdb
+Write to package-binaries.txt file: ['/usr/bin/ctdb', '/usr/bin/ltdbtool', '/usr/bin/ping_pong', '/usr/sbin/ctdbd']
+['/usr/bin/ctdb', '/usr/bin/ltdbtool', '/usr/bin/ping_pong', '/usr/sbin/ctdbd']

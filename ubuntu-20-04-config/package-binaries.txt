@@ -9609,3 +9609,7 @@
 /usr/bin/masktest
 /usr/bin/ndrdump
 /usr/bin/smbtorture
+/usr/bin/ctdb
+/usr/bin/ltdbtool
+/usr/bin/ping_pong
+/usr/sbin/ctdbd
