@@ -26039,3 +26039,13 @@ Real binaries:['/usr/bin/DHT_bootstrap', '/usr/bin/tox-bootstrapd']
 Write to package-work.txt file: toxcore-utils
 Write to package-binaries.txt file: ['/usr/bin/DHT_bootstrap', '/usr/bin/tox-bootstrapd']
 ['/usr/bin/DHT_bootstrap', '/usr/bin/tox-bootstrapd']
+Write pickle file
+tar_out:
+Package-nr:4306 of 11000, Name:urweb-dbgsym
+Package >urweb< not in package-all.txt file
+Write to package-all.txt file: urweb
+In package >urweb< are these binaries: ['/usr/bin/urweb']
+Real binaries:['/usr/bin/urweb']
+Write to package-work.txt file: urweb
+Write to package-binaries.txt file: ['/usr/bin/urweb']
+['/usr/bin/urweb']
