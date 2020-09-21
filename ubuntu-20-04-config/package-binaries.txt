@@ -8342,3 +8342,4 @@
 /usr/bin/usd-locate-pointer
 /usr/bin/udp-receiver
 /usr/bin/udp-sender
+/usr/bin/utox

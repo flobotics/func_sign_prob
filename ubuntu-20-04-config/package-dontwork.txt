@@ -1501,3 +1501,4 @@ umview-mod-umdevtap
 umview-mod-viewfs
 uci2wb
 unicode-screensaver
+unicorn

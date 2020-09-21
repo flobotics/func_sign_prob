@@ -4419,3 +4419,5 @@ unicode-screensaver
 ukui-window-switch
 ukui-settings-daemon
 udpcast
+unicorn
+utox
