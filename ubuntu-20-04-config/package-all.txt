@@ -4493,3 +4493,4 @@ nmapsi4
 nftlb
 nftables
 nmzmail
+newlisp

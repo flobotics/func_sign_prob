@@ -8468,3 +8468,4 @@
 /usr/bin/nmapsi4
 /usr/sbin/nftlb
 /usr/bin/nmzmail
+/usr/bin/newlisp
