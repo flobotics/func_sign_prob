@@ -3183,3 +3183,4 @@ seahorse-daemon
 cgns-convert
 caca-utils
 cmis-client
+cd-paranoia

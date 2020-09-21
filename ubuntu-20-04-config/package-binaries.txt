@@ -9057,3 +9057,4 @@
 /usr/bin/cacaview
 /usr/bin/img2txt
 /usr/bin/cmis-client
+/usr/bin/cd-paranoia

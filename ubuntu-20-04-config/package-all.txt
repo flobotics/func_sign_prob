@@ -4801,3 +4801,5 @@ cgns-convert
 caca-utils
 python3-columbus
 cmis-client
+python3-cap-ng
+cd-paranoia
