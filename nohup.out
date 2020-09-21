@@ -29211,3 +29211,13 @@ Real binaries:['/usr/bin/nbibfind', '/usr/bin/nbibtex']
 Write to package-work.txt file: nbibtex
 Write to package-binaries.txt file: ['/usr/bin/nbibfind', '/usr/bin/nbibtex']
 ['/usr/bin/nbibfind', '/usr/bin/nbibtex']
+Write pickle file
+tar_out:
+Package-nr:4685 of 11000, Name:nocache-dbgsym
+Package >nocache< not in package-all.txt file
+Write to package-all.txt file: nocache
+In package >nocache< are these binaries: ['/usr/bin/cachedel', '/usr/bin/cachestats', '/usr/bin/nocache']
+Real binaries:['/usr/bin/cachedel', '/usr/bin/cachestats']
+Write to package-work.txt file: nocache
+Write to package-binaries.txt file: ['/usr/bin/cachedel', '/usr/bin/cachestats']
+['/usr/bin/cachedel', '/usr/bin/cachestats']
