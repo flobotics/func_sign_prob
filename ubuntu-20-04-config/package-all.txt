@@ -4242,3 +4242,4 @@ zoem
 zimpl
 zathura-cb
 z80asm
+zookeeper-bin

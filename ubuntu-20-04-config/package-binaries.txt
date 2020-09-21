@@ -8042,3 +8042,6 @@
 /usr/bin/zoem
 /usr/bin/zimpl
 /usr/bin/z80asm
+/usr/bin/zktreeutil
+/usr/lib/zookeeper/bin/cli_mt
+/usr/lib/zookeeper/bin/load_gen
