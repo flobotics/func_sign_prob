@@ -8506,3 +8506,4 @@
 /usr/bin/nted
 /bin/nc.traditional
 /usr/sbin/ngircd
+/usr/bin/nlkt

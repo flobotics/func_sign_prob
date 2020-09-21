@@ -1524,3 +1524,7 @@ nethack-common
 nethack-lisp
 nethack-console
 nextepc-core
+node-node-sass
+navit-graphics-gtk-drawing-area
+navit-gui-internal
+navit-gui-gtk

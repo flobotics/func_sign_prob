@@ -27994,3 +27994,50 @@ Real binaries:['/usr/sbin/ngircd']
 Write to package-work.txt file: ngircd
 Write to package-binaries.txt file: ['/usr/sbin/ngircd']
 ['/usr/sbin/ngircd']
+Write pickle file
+tar_out:
+Package-nr:4535 of 11000, Name:nq-dbgsym
+Skip package >nq<, already in package-all.txt file
+[]
+Package-nr:4536 of 11000, Name:node-node-sass-dbgsym
+Package >node-node-sass< not in package-all.txt file
+Write to package-all.txt file: node-node-sass
+In package >node-node-sass< are these binaries: ['/usr/lib/x86_64-linux-gnu/nodejs/node-sass/bin/node-sass', '/usr/lib/x86_64-linux-gnu/nodejs/node-sass/node_modules/sass-graph/bin/sassgraph', '/usr/bin/node-sass']
+Real binaries:[]
+Write to package-dontwork.txt file: node-node-sass
+[]
+Package-nr:4537 of 11000, Name:navit-graphics-gtk-drawing-area-dbgsym
+Package >navit-graphics-gtk-drawing-area< not in package-all.txt file
+Write to package-all.txt file: navit-graphics-gtk-drawing-area
+In package >navit-graphics-gtk-drawing-area< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: navit-graphics-gtk-drawing-area
+[]
+Package-nr:4538 of 11000, Name:maptool-dbgsym
+Skip package >maptool<, already in package-all.txt file
+[]
+Package-nr:4539 of 11000, Name:navit-dbgsym
+Skip package >navit<, already in package-all.txt file
+[]
+Package-nr:4540 of 11000, Name:navit-gui-internal-dbgsym
+Package >navit-gui-internal< not in package-all.txt file
+Write to package-all.txt file: navit-gui-internal
+In package >navit-gui-internal< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: navit-gui-internal
+[]
+Package-nr:4541 of 11000, Name:navit-gui-gtk-dbgsym
+Package >navit-gui-gtk< not in package-all.txt file
+Write to package-all.txt file: navit-gui-gtk
+In package >navit-gui-gtk< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: navit-gui-gtk
+[]
+Package-nr:4542 of 11000, Name:nlkt-dbgsym
+Package >nlkt< not in package-all.txt file
+Write to package-all.txt file: nlkt
+In package >nlkt< are these binaries: ['/usr/bin/nlkt']
+Real binaries:['/usr/bin/nlkt']
+Write to package-work.txt file: nlkt
+Write to package-binaries.txt file: ['/usr/bin/nlkt']
+['/usr/bin/nlkt']

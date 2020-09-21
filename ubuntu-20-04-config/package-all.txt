@@ -4519,3 +4519,8 @@ nextepc-core
 nted
 netcat-traditional
 ngircd
+node-node-sass
+navit-graphics-gtk-drawing-area
+navit-gui-internal
+navit-gui-gtk
+nlkt
