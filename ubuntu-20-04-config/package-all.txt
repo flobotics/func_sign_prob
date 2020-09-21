@@ -4716,3 +4716,4 @@ netsurf-fb
 namazu2
 newt-tcl
 netpipes
+nvptx-tools

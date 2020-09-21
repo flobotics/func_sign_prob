@@ -29795,3 +29795,13 @@ Real binaries:['/usr/bin/encapsulate', '/usr/bin/faucet', '/usr/bin/getsockname'
 Write to package-work.txt file: netpipes
 Write to package-binaries.txt file: ['/usr/bin/encapsulate', '/usr/bin/faucet', '/usr/bin/getsockname', '/usr/bin/hose', '/usr/bin/sockdown', '/usr/bin/timelimit.netpipes']
 ['/usr/bin/encapsulate', '/usr/bin/faucet', '/usr/bin/getsockname', '/usr/bin/hose', '/usr/bin/sockdown', '/usr/bin/timelimit.netpipes']
+Write pickle file
+tar_out:
+Package-nr:4754 of 11000, Name:nvptx-tools-dbgsym
+Package >nvptx-tools< not in package-all.txt file
+Write to package-all.txt file: nvptx-tools
+In package >nvptx-tools< are these binaries: ['/usr/bin/nvptx-none-as', '/usr/bin/nvptx-none-ld', '/usr/bin/nvptx-none-ar', '/usr/bin/nvptx-none-ranlib', '/usr/nvptx-none/bin/ar', '/usr/nvptx-none/bin/as', '/usr/nvptx-none/bin/ld', '/usr/nvptx-none/bin/ranlib']
+Real binaries:['/usr/bin/nvptx-none-as', '/usr/bin/nvptx-none-ld']
+Write to package-work.txt file: nvptx-tools
+Write to package-binaries.txt file: ['/usr/bin/nvptx-none-as', '/usr/bin/nvptx-none-ld']
+['/usr/bin/nvptx-none-as', '/usr/bin/nvptx-none-ld']
