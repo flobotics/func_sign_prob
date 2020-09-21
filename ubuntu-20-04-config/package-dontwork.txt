@@ -1548,3 +1548,5 @@ netpanzer
 neverputt
 neverball
 nettoe
+nestopia
+node-node-stringprep

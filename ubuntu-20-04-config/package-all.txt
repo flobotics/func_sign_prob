@@ -4595,3 +4595,6 @@ netmate
 ncbi-blast+
 natlog
 nwchem
+nestopia
+node-node-stringprep
+nauty
