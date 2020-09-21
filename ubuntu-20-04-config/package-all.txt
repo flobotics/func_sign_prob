@@ -4122,3 +4122,5 @@ vttest
 vlevel
 vifm
 validns
+viewpdf.app
+vobcopy
