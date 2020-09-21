@@ -2652,3 +2652,5 @@ verbiste-gtk
 vmfs6-tools
 vbetool
 vdesk
+vamps
+valentina

@@ -1408,3 +1408,7 @@ val-and-rick
 vala-panel-appmenu
 mate-applet-appmenu
 budgie-appmenu-applet
+python3-volume-key
+vulkan-validationlayers
+viruskiller
+python3-virtkey

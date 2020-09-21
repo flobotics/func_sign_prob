@@ -4065,3 +4065,9 @@ budgie-appmenu-applet
 vmfs6-tools
 vbetool
 vdesk
+vamps
+python3-volume-key
+vulkan-validationlayers
+viruskiller
+python3-virtkey
+valentina
