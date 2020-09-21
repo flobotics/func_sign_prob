@@ -8398,3 +8398,10 @@
 /usr/bin/unpaper
 /usr/bin/ukwm
 /usr/bin/url-dispatcher
+/usr/bin/uvp-monitor
+/usr/bin/cd_disect
+/usr/bin/cd_sessions
+/usr/bin/mmc_format
+/usr/bin/newfs_udf
+/usr/bin/udfclient
+/usr/bin/udfdump

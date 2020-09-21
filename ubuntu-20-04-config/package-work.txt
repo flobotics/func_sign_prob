@@ -2935,3 +2935,5 @@ ukui-greeter
 unpaper
 ukwm
 url-dispatcher-tools
+uvp-monitor
+udfclient
