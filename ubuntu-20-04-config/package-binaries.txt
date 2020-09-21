@@ -8762,3 +8762,5 @@
 /usr/sbin/statnetd
 /usr/sbin/tcpblast
 /usr/sbin/trafshow
+/usr/bin/supernode
+/usr/sbin/edge

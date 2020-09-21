@@ -29052,3 +29052,20 @@ Real binaries:['/usr/bin/netload', '/usr/bin/statnet', '/usr/bin/tcpspray', '/us
 Write to package-work.txt file: netdiag
 Write to package-binaries.txt file: ['/usr/bin/netload', '/usr/bin/statnet', '/usr/bin/tcpspray', '/usr/sbin/netwatch', '/usr/sbin/statnetd', '/usr/sbin/tcpblast', '/usr/sbin/trafshow']
 ['/usr/bin/netload', '/usr/bin/statnet', '/usr/bin/tcpspray', '/usr/sbin/netwatch', '/usr/sbin/statnetd', '/usr/sbin/tcpblast', '/usr/sbin/trafshow']
+Write pickle file
+tar_out:
+Package-nr:4664 of 11000, Name:r-cran-nlme-dbgsym
+Package >r-cran-nlme< not in package-all.txt file
+Write to package-all.txt file: r-cran-nlme
+In package >r-cran-nlme< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: r-cran-nlme
+[]
+Package-nr:4665 of 11000, Name:n2n-dbgsym
+Package >n2n< not in package-all.txt file
+Write to package-all.txt file: n2n
+In package >n2n< are these binaries: ['/usr/bin/supernode', '/usr/sbin/edge']
+Real binaries:['/usr/bin/supernode', '/usr/sbin/edge']
+Write to package-work.txt file: n2n
+Write to package-binaries.txt file: ['/usr/bin/supernode', '/usr/sbin/edge']
+['/usr/bin/supernode', '/usr/sbin/edge']
