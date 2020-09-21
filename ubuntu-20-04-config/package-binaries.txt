@@ -8078,3 +8078,5 @@
 /usr/share/zfs/zfs-tests/bin/threadsappend
 /usr/share/zfs/zfs-tests/bin/user_ns_exec
 /usr/share/zfs/zfs-tests/bin/xattrtest
+/usr/bin/zzat
+/usr/bin/zzuf

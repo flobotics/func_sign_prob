@@ -1448,3 +1448,5 @@ znc-python
 python3-zbar
 zathura-cb
 python3-zookeeper
+python3-zope.security
+zoom-player

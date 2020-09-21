@@ -4248,3 +4248,6 @@ zmap
 zpaq
 zfcp-hbaapi-utils
 zfs-test
+python3-zope.security
+zoom-player
+zzuf
