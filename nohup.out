@@ -29966,3 +29966,13 @@ Real binaries:['/usr/bin/GenPat', '/usr/bin/makensis']
 Write to package-work.txt file: nsis
 Write to package-binaries.txt file: ['/usr/bin/GenPat', '/usr/bin/makensis']
 ['/usr/bin/GenPat', '/usr/bin/makensis']
+Write pickle file
+tar_out:
+Package-nr:4776 of 11000, Name:nyancat-dbgsym
+Package >nyancat< not in package-all.txt file
+Write to package-all.txt file: nyancat
+In package >nyancat< are these binaries: ['/usr/bin/nyancat']
+Real binaries:['/usr/bin/nyancat']
+Write to package-work.txt file: nyancat
+Write to package-binaries.txt file: ['/usr/bin/nyancat']
+['/usr/bin/nyancat']
