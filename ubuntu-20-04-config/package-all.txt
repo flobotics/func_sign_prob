@@ -5040,3 +5040,4 @@ wmdrawer
 wavemon
 wulflogger
 xmlsysd
+wulfstat

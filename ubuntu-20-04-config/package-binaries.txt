@@ -9440,3 +9440,4 @@
 /usr/bin/wavemon
 /usr/bin/wulflogger
 /usr/sbin/xmlsysd
+/usr/bin/wulfstat
