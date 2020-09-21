@@ -9410,3 +9410,4 @@
 /usr/bin/wyrd
 /usr/bin/wsclean
 /usr/bin/weplab
+/usr/bin/w9wm
