@@ -7875,3 +7875,4 @@
 /usr/bin/v_sim
 /usr/bin/vim.gtk3
 /usr/bin/vim.athena
+/usr/bin/vim.nox

@@ -24413,3 +24413,13 @@ Real binaries:['/usr/bin/vim.athena']
 Write to package-work.txt file: vim-athena
 Write to package-binaries.txt file: ['/usr/bin/vim.athena']
 ['/usr/bin/vim.athena']
+Write pickle file
+tar_out:
+Package-nr:4122 of 11000, Name:vim-nox-dbgsym
+Package >vim-nox< not in package-all.txt file
+Write to package-all.txt file: vim-nox
+In package >vim-nox< are these binaries: ['/usr/bin/vim.nox']
+Real binaries:['/usr/bin/vim.nox']
+Write to package-work.txt file: vim-nox
+Write to package-binaries.txt file: ['/usr/bin/vim.nox']
+['/usr/bin/vim.nox']
