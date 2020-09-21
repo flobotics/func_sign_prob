@@ -8387,3 +8387,4 @@
 /usr/sbin/unbound-anchor
 /usr/bin/UEFIPatch
 /usr/bin/UEFIReplace
+/usr/bin/udunits2
