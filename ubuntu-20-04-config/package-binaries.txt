@@ -8880,3 +8880,4 @@
 /usr/bin/tftp
 /usr/sbin/in.tftpd
 /usr/bin/nvim-qt
+/usr/bin/nootka
