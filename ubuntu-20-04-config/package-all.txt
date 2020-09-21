@@ -4418,3 +4418,4 @@ udevil
 unicode-screensaver
 ukui-window-switch
 ukui-settings-daemon
+udpcast

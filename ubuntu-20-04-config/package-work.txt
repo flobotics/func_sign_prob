@@ -2912,3 +2912,4 @@ utfcheck
 udevil
 ukui-window-switch
 ukui-settings-daemon
+udpcast

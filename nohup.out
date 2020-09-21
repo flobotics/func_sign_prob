@@ -27023,3 +27023,13 @@ Real binaries:['/usr/bin/ukui-settings-daemon', '/usr/bin/usd-datetime-mechanism
 Write to package-work.txt file: ukui-settings-daemon
 Write to package-binaries.txt file: ['/usr/bin/ukui-settings-daemon', '/usr/bin/usd-datetime-mechanism', '/usr/bin/usd-locate-pointer']
 ['/usr/bin/ukui-settings-daemon', '/usr/bin/usd-datetime-mechanism', '/usr/bin/usd-locate-pointer']
+Write pickle file
+tar_out:
+Package-nr:4420 of 11000, Name:udpcast-dbgsym
+Package >udpcast< not in package-all.txt file
+Write to package-all.txt file: udpcast
+In package >udpcast< are these binaries: ['/usr/bin/udp-receiver', '/usr/bin/udp-sender']
+Real binaries:['/usr/bin/udp-receiver', '/usr/bin/udp-sender']
+Write to package-work.txt file: udpcast
+Write to package-binaries.txt file: ['/usr/bin/udp-receiver', '/usr/bin/udp-sender']
+['/usr/bin/udp-receiver', '/usr/bin/udp-sender']
