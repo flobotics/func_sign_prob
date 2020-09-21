@@ -9438,3 +9438,4 @@
 /usr/bin/wmcdplay
 /usr/bin/wmdrawer
 /usr/bin/wavemon
+/usr/bin/wulflogger

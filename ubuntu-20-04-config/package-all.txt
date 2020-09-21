@@ -5038,3 +5038,4 @@ wmdate
 wmcdplay
 wmdrawer
 wavemon
+wulflogger
