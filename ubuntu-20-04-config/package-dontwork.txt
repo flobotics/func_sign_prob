@@ -1617,3 +1617,4 @@ python3-cap-ng
 wordplay
 websockify
 whysynth
+wordwarvi
