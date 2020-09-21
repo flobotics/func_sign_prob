@@ -26252,3 +26252,13 @@ Real binaries:['/usr/bin/launchSysDbus', '/usr/bin/ukui-control-center']
 Write to package-work.txt file: ukui-control-center
 Write to package-binaries.txt file: ['/usr/bin/launchSysDbus', '/usr/bin/ukui-control-center']
 ['/usr/bin/launchSysDbus', '/usr/bin/ukui-control-center']
+Write pickle file
+tar_out:
+Package-nr:4330 of 11000, Name:ubuntu-app-launch-dbgsym
+Package >ubuntu-app-launch< not in package-all.txt file
+Write to package-all.txt file: ubuntu-app-launch
+In package >ubuntu-app-launch< are these binaries: ['/usr/bin/snappy-xmir', '/usr/bin/snappy-xmir-envvars']
+Real binaries:['/usr/bin/snappy-xmir', '/usr/bin/snappy-xmir-envvars']
+Write to package-work.txt file: ubuntu-app-launch
+Write to package-binaries.txt file: ['/usr/bin/snappy-xmir', '/usr/bin/snappy-xmir-envvars']
+['/usr/bin/snappy-xmir', '/usr/bin/snappy-xmir-envvars']
