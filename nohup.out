@@ -33055,3 +33055,27 @@ Real binaries:['/usr/bin/yavta']
 Write to package-work.txt file: yavta
 Write to package-binaries.txt file: ['/usr/bin/yavta']
 ['/usr/bin/yavta']
+Write pickle file
+tar_out:
+Package-nr:5125 of 11000, Name:python3-yara-dbgsym
+Package >python3-yara< not in package-all.txt file
+Write to package-all.txt file: python3-yara
+In package >python3-yara< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: python3-yara
+[]
+Package-nr:5126 of 11000, Name:yorick-curses-dbgsym
+Package >yorick-curses< not in package-all.txt file
+Write to package-all.txt file: yorick-curses
+In package >yorick-curses< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: yorick-curses
+[]
+Package-nr:5127 of 11000, Name:yacas-dbgsym
+Package >yacas< not in package-all.txt file
+Write to package-all.txt file: yacas
+In package >yacas< are these binaries: ['/usr/bin/yacas', '/usr/share/yacas/scripts/rabinmiller.rep/code.ys', '/usr/share/yacas/scripts/rabinmiller.rep/code.ys.def']
+Real binaries:['/usr/bin/yacas']
+Write to package-work.txt file: yacas
+Write to package-binaries.txt file: ['/usr/bin/yacas']
+['/usr/bin/yacas']

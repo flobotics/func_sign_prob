@@ -9506,3 +9506,4 @@
 /usr/bin/yasr
 /usr/bin/yeahconsole
 /usr/bin/yavta
+/usr/bin/yacas

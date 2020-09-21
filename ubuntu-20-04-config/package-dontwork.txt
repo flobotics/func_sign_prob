@@ -1668,3 +1668,5 @@ python3-liblnk
 yc-el
 python3-svipc
 yorick-svipc
+python3-yara
+yorick-curses

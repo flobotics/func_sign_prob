@@ -3389,3 +3389,4 @@ yp-tools
 yasr
 yeahconsole
 yavta
+yacas

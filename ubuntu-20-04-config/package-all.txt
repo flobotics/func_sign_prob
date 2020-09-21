@@ -5062,3 +5062,6 @@ yeahconsole
 python3-svipc
 yorick-svipc
 yavta
+python3-yara
+yorick-curses
+yacas
