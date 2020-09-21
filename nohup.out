@@ -27604,3 +27604,13 @@ Real binaries:['/usr/bin/ukui-session', '/usr/bin/ukui-session-tools']
 Write to package-work.txt file: ukui-session-manager
 Write to package-binaries.txt file: ['/usr/bin/ukui-session', '/usr/bin/ukui-session-tools']
 ['/usr/bin/ukui-session', '/usr/bin/ukui-session-tools']
+Write pickle file
+tar_out:
+Package-nr:4491 of 11000, Name:ucblogo-dbgsym
+Package >ucblogo< not in package-all.txt file
+Write to package-all.txt file: ucblogo
+In package >ucblogo< are these binaries: ['/usr/bin/ucblogo', '/usr/bin/logo']
+Real binaries:['/usr/bin/ucblogo']
+Write to package-work.txt file: ucblogo
+Write to package-binaries.txt file: ['/usr/bin/ucblogo']
+['/usr/bin/ucblogo']

@@ -8445,3 +8445,4 @@
 /usr/bin/unireverse
 /usr/bin/ukui-session
 /usr/bin/ukui-session-tools
+/usr/bin/ucblogo

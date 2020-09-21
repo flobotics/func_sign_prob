@@ -4478,3 +4478,4 @@ unscd
 undbx
 uniutils
 ukui-session-manager
+ucblogo
