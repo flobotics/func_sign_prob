@@ -26585,3 +26585,13 @@ Real binaries:['/usr/bin/uprightdiff']
 Write to package-work.txt file: uprightdiff
 Write to package-binaries.txt file: ['/usr/bin/uprightdiff']
 ['/usr/bin/uprightdiff']
+Write pickle file
+tar_out:
+Package-nr:4367 of 11000, Name:ufod-dbgsym
+Package >ufod< not in package-all.txt file
+Write to package-all.txt file: ufod
+In package >ufod< are these binaries: ['/usr/bin/ufod']
+Real binaries:['/usr/bin/ufod']
+Write to package-work.txt file: ufod
+Write to package-binaries.txt file: ['/usr/bin/ufod']
+['/usr/bin/ufod']

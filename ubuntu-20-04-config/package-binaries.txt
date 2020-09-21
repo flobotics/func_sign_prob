@@ -8280,3 +8280,4 @@
 /usr/bin/uftpproxyd
 /usr/bin/unifdef
 /usr/bin/uprightdiff
+/usr/bin/ufod
