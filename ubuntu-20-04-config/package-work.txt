@@ -2663,3 +2663,4 @@ vlock
 viking
 vmfs-tools
 vdr-genindex
+vorbis-tools

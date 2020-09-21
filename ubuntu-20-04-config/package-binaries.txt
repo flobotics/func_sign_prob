@@ -7762,3 +7762,9 @@
 /usr/sbin/vmfs-fuse
 /usr/sbin/vmfs-lvm
 /usr/bin/genindex
+/usr/bin/ogg123
+/usr/bin/oggdec
+/usr/bin/oggenc
+/usr/bin/ogginfo
+/usr/bin/vcut
+/usr/bin/vorbiscomment
