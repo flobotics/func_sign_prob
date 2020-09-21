@@ -4093,3 +4093,4 @@ vocproc
 vgrabbj
 viewnior
 vpnc
+vlc-bin

@@ -7795,3 +7795,5 @@
 /usr/bin/viewnior
 /usr/bin/cisco-decrypt
 /usr/sbin/vpnc
+/usr/bin/vlc
+/usr/bin/vlc-wrapper

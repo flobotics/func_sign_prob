@@ -2673,3 +2673,4 @@ varnish
 vgrabbj
 viewnior
 vpnc
+vlc-bin
