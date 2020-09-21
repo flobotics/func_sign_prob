@@ -4111,3 +4111,4 @@ volumecontrol.app
 vectoroids
 vtable-dumper
 vulkan-tools
+virgl-server

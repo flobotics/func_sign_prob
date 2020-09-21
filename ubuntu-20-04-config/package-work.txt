@@ -2687,3 +2687,4 @@ vbrfix
 vite
 vtable-dumper
 vulkan-tools
+virgl-server

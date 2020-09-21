@@ -7819,3 +7819,4 @@
 /usr/bin/vkcube
 /usr/bin/vkcubepp
 /usr/bin/vulkaninfo
+/usr/bin/virgl_test_server
