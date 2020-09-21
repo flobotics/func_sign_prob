@@ -9090,3 +9090,4 @@
 /usr/bin/cdr2odg
 /usr/bin/zmf2epub
 /usr/bin/key2odp
+/usr/bin/numbers2ods
