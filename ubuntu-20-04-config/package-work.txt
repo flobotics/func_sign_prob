@@ -3460,3 +3460,4 @@ signond
 sispmctl
 sac2mseed
 salmon
+silversearcher-ag

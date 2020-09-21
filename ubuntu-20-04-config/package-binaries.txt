@@ -9639,3 +9639,4 @@
 /usr/bin/sispmctl
 /usr/bin/sac2mseed
 /usr/bin/salmon
+/usr/bin/ag

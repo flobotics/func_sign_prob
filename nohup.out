@@ -34101,3 +34101,13 @@ Real binaries:['/usr/bin/salmon']
 Write to package-work.txt file: salmon
 Write to package-binaries.txt file: ['/usr/bin/salmon']
 ['/usr/bin/salmon']
+Write pickle file
+tar_out:
+Package-nr:5252 of 11000, Name:silversearcher-ag-dbgsym
+Package >silversearcher-ag< not in package-all.txt file
+Write to package-all.txt file: silversearcher-ag
+In package >silversearcher-ag< are these binaries: ['/usr/bin/ag']
+Real binaries:['/usr/bin/ag']
+Write to package-work.txt file: silversearcher-ag
+Write to package-binaries.txt file: ['/usr/bin/ag']
+['/usr/bin/ag']
