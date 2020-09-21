@@ -33372,3 +33372,27 @@ Real binaries:['/usr/bin/yubiserver', '/usr/bin/yubiserver-admin']
 Write to package-work.txt file: yubiserver
 Write to package-binaries.txt file: ['/usr/bin/yubiserver', '/usr/bin/yubiserver-admin']
 ['/usr/bin/yubiserver', '/usr/bin/yubiserver-admin']
+Write pickle file
+tar_out:
+Package-nr:5162 of 11000, Name:yorick-ml4-dbgsym
+Package >yorick-ml4< not in package-all.txt file
+Write to package-all.txt file: yorick-ml4
+In package >yorick-ml4< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: yorick-ml4
+[]
+Package-nr:5163 of 11000, Name:python3-yarl-dbgsym
+Package >python3-yarl< not in package-all.txt file
+Write to package-all.txt file: python3-yarl
+In package >python3-yarl< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: python3-yarl
+[]
+Package-nr:5164 of 11000, Name:yagf-dbgsym
+Package >yagf< not in package-all.txt file
+Write to package-all.txt file: yagf
+In package >yagf< are these binaries: ['/usr/bin/yagf']
+Real binaries:['/usr/bin/yagf']
+Write to package-work.txt file: yagf
+Write to package-binaries.txt file: ['/usr/bin/yagf']
+['/usr/bin/yagf']

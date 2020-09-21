@@ -9537,3 +9537,4 @@
 /usr/bin/yank-cli
 /usr/bin/yubiserver
 /usr/bin/yubiserver-admin
+/usr/bin/yagf
