@@ -4847,3 +4847,4 @@ wps2odt
 ebook2epub
 pub2odg
 pages2epub
+mwaw2odf

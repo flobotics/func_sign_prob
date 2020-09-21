@@ -9102,3 +9102,4 @@
 /usr/bin/ebook2epub
 /usr/bin/pub2odg
 /usr/bin/pages2epub
+/usr/bin/mwaw2odf
