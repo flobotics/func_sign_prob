@@ -8997,3 +8997,4 @@
 /usr/bin/rdiff
 /usr/bin/rpki-rov
 /usr/bin/rtrclient
+/usr/bin/ratbagd

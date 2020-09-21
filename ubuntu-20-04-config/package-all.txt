@@ -4787,3 +4787,4 @@ cdrskin
 rdiff
 python3-libregf
 rtr-tools
+ratbagd
