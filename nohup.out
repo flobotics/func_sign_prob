@@ -27671,3 +27671,13 @@ Real binaries:['/usr/bin/usbguard', '/usr/bin/usbguard-rule-parser', '/usr/sbin/
 Write to package-work.txt file: usbguard
 Write to package-binaries.txt file: ['/usr/bin/usbguard', '/usr/bin/usbguard-rule-parser', '/usr/sbin/usbguard-daemon', '/usr/sbin/usbguard-dbus']
 ['/usr/bin/usbguard', '/usr/bin/usbguard-rule-parser', '/usr/sbin/usbguard-daemon', '/usr/sbin/usbguard-dbus']
+Write pickle file
+tar_out:
+Package-nr:4499 of 11000, Name:ukui-power-manager-dbgsym
+Package >ukui-power-manager< not in package-all.txt file
+Write to package-all.txt file: ukui-power-manager
+In package >ukui-power-manager< are these binaries: ['/usr/bin/ukui-power-manager', '/usr/bin/ukui-power-manager-tray', '/usr/bin/ukui-power-preferences', '/usr/bin/ukui-power-statistics', '/usr/sbin/ukui-power-backlight-helper']
+Real binaries:['/usr/bin/ukui-power-manager', '/usr/bin/ukui-power-manager-tray', '/usr/bin/ukui-power-preferences', '/usr/bin/ukui-power-statistics', '/usr/sbin/ukui-power-backlight-helper']
+Write to package-work.txt file: ukui-power-manager
+Write to package-binaries.txt file: ['/usr/bin/ukui-power-manager', '/usr/bin/ukui-power-manager-tray', '/usr/bin/ukui-power-preferences', '/usr/bin/ukui-power-statistics', '/usr/sbin/ukui-power-backlight-helper']
+['/usr/bin/ukui-power-manager', '/usr/bin/ukui-power-manager-tray', '/usr/bin/ukui-power-preferences', '/usr/bin/ukui-power-statistics', '/usr/sbin/ukui-power-backlight-helper']

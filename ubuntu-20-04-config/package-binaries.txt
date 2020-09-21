@@ -8456,3 +8456,8 @@
 /usr/bin/usbguard-rule-parser
 /usr/sbin/usbguard-daemon
 /usr/sbin/usbguard-dbus
+/usr/bin/ukui-power-manager
+/usr/bin/ukui-power-manager-tray
+/usr/bin/ukui-power-preferences
+/usr/bin/ukui-power-statistics
+/usr/sbin/ukui-power-backlight-helper

@@ -4485,3 +4485,4 @@ ufoai-server
 ufoai-tools
 ufoai-uforadiant
 usbguard
+ukui-power-manager

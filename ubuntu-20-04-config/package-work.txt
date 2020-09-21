@@ -2963,3 +2963,4 @@ unity-greeter
 imapproxy
 ufoai-tools
 usbguard
+ukui-power-manager
