@@ -4158,3 +4158,4 @@ tcl-vtk7
 vkeybd
 valabind
 vramsteg
+visualboyadvance

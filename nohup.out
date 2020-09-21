@@ -24630,3 +24630,13 @@ Real binaries:['/usr/bin/vramsteg']
 Write to package-work.txt file: vramsteg
 Write to package-binaries.txt file: ['/usr/bin/vramsteg']
 ['/usr/bin/vramsteg']
+Write pickle file
+tar_out:
+Package-nr:4147 of 11000, Name:visualboyadvance-dbgsym
+Package >visualboyadvance< not in package-all.txt file
+Write to package-all.txt file: visualboyadvance
+In package >visualboyadvance< are these binaries: ['/usr/bin/VisualBoyAdvance', '/usr/bin/vba']
+Real binaries:['/usr/bin/VisualBoyAdvance']
+Write to package-work.txt file: visualboyadvance
+Write to package-binaries.txt file: ['/usr/bin/VisualBoyAdvance']
+['/usr/bin/VisualBoyAdvance']
