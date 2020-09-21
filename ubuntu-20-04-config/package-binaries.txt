@@ -9258,3 +9258,6 @@
 /usr/bin/workrave
 /usr/bin/wmacpi
 /usr/bin/wmacpi-cli
+/usr/bin/gpio
+/usr/bin/wkhtmltoimage
+/usr/bin/wkhtmltopdf

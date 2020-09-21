@@ -1633,3 +1633,4 @@ wesnoth-1.14-core
 wesnoth-1.14-server
 wlcs
 widelands
+warzone2100

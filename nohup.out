@@ -31666,3 +31666,28 @@ Real binaries:['/usr/bin/wmacpi', '/usr/bin/wmacpi-cli']
 Write to package-work.txt file: wmacpi
 Write to package-binaries.txt file: ['/usr/bin/wmacpi', '/usr/bin/wmacpi-cli']
 ['/usr/bin/wmacpi', '/usr/bin/wmacpi-cli']
+Write pickle file
+tar_out:
+Package-nr:4970 of 11000, Name:wiringpi-dbgsym
+Package >wiringpi< not in package-all.txt file
+Write to package-all.txt file: wiringpi
+In package >wiringpi< are these binaries: ['/usr/bin/gpio']
+Real binaries:['/usr/bin/gpio']
+Write to package-work.txt file: wiringpi
+Write to package-binaries.txt file: ['/usr/bin/gpio']
+['/usr/bin/gpio']
+Package-nr:4971 of 11000, Name:warzone2100-dbgsym
+Package >warzone2100< not in package-all.txt file
+Write to package-all.txt file: warzone2100
+In package >warzone2100< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: warzone2100
+[]
+Package-nr:4972 of 11000, Name:wkhtmltopdf-dbgsym
+Package >wkhtmltopdf< not in package-all.txt file
+Write to package-all.txt file: wkhtmltopdf
+In package >wkhtmltopdf< are these binaries: ['/usr/bin/wkhtmltoimage', '/usr/bin/wkhtmltopdf']
+Real binaries:['/usr/bin/wkhtmltoimage', '/usr/bin/wkhtmltopdf']
+Write to package-work.txt file: wkhtmltopdf
+Write to package-binaries.txt file: ['/usr/bin/wkhtmltoimage', '/usr/bin/wkhtmltopdf']
+['/usr/bin/wkhtmltoimage', '/usr/bin/wkhtmltopdf']
