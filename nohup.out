@@ -31036,3 +31036,13 @@ Real binaries:['/usr/bin/pub2odg']
 Write to package-work.txt file: pub2odg
 Write to package-binaries.txt file: ['/usr/bin/pub2odg']
 ['/usr/bin/pub2odg']
+Write pickle file
+tar_out:
+Package-nr:4897 of 11000, Name:pages2epub-dbgsym
+Package >pages2epub< not in package-all.txt file
+Write to package-all.txt file: pages2epub
+In package >pages2epub< are these binaries: ['/usr/bin/pages2epub']
+Real binaries:['/usr/bin/pages2epub']
+Write to package-work.txt file: pages2epub
+Write to package-binaries.txt file: ['/usr/bin/pages2epub']
+['/usr/bin/pages2epub']

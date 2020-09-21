@@ -9101,3 +9101,4 @@
 /usr/bin/wps2odt
 /usr/bin/ebook2epub
 /usr/bin/pub2odg
+/usr/bin/pages2epub
