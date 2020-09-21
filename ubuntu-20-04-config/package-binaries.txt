@@ -9554,3 +9554,4 @@
 /usr/bin/selftest
 /usr/bin/yagi
 /usr/bin/kylin-assistant
+/usr/bin/yatm

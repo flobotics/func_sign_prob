@@ -1686,3 +1686,5 @@ yorick-yeti-fftw
 yorick-hdf5
 yorick-optimpack
 yorick-z
+yorick-ynfft
+yorick-av
