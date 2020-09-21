@@ -3505,3 +3505,4 @@ stoken
 samblaster
 slurmd
 slurmctld
+slurmdbd
