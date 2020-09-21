@@ -8436,3 +8436,4 @@
 /usr/bin/unixserver
 /usr/bin/unmass
 /usr/sbin/nscd
+/usr/bin/undbx
