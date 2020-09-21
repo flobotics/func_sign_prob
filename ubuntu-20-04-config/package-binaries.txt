@@ -9636,3 +9636,4 @@
 /usr/bin/modelicat
 /usr/bin/signond
 /usr/bin/signonpluginprocess
+/usr/bin/sispmctl

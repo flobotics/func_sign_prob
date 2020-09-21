@@ -5169,3 +5169,6 @@ sdcv
 scilab-minimal-bin
 scilab-full-bin
 signond
+scim-canna
+stax
+sispmctl

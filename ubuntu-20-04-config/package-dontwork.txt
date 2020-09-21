@@ -1707,3 +1707,5 @@ ssvnc
 scim-pinyin
 svgpart
 scilab-minimal-bin
+scim-canna
+stax

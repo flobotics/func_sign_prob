@@ -3457,3 +3457,4 @@ suckless-tools
 sdcv
 scilab-full-bin
 signond
+sispmctl

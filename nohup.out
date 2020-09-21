@@ -34043,3 +34043,27 @@ Real binaries:['/usr/bin/signond', '/usr/bin/signonpluginprocess']
 Write to package-work.txt file: signond
 Write to package-binaries.txt file: ['/usr/bin/signond', '/usr/bin/signonpluginprocess']
 ['/usr/bin/signond', '/usr/bin/signonpluginprocess']
+Write pickle file
+tar_out:
+Package-nr:5245 of 11000, Name:scim-canna-dbgsym
+Package >scim-canna< not in package-all.txt file
+Write to package-all.txt file: scim-canna
+In package >scim-canna< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: scim-canna
+[]
+Package-nr:5246 of 11000, Name:stax-dbgsym
+Package >stax< not in package-all.txt file
+Write to package-all.txt file: stax
+In package >stax< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: stax
+[]
+Package-nr:5247 of 11000, Name:sispmctl-dbgsym
+Package >sispmctl< not in package-all.txt file
+Write to package-all.txt file: sispmctl
+In package >sispmctl< are these binaries: ['/usr/bin/sispmctl']
+Real binaries:['/usr/bin/sispmctl']
+Write to package-work.txt file: sispmctl
+Write to package-binaries.txt file: ['/usr/bin/sispmctl']
+['/usr/bin/sispmctl']
