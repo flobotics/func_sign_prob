@@ -27377,3 +27377,13 @@ Real binaries:['/usr/bin/ukopp']
 Write to package-work.txt file: ukopp
 Write to package-binaries.txt file: ['/usr/bin/ukopp']
 ['/usr/bin/ukopp']
+Write pickle file
+tar_out:
+Package-nr:4463 of 11000, Name:u3-tool-dbgsym
+Package >u3-tool< not in package-all.txt file
+Write to package-all.txt file: u3-tool
+In package >u3-tool< are these binaries: ['/usr/sbin/u3-tool']
+Real binaries:['/usr/sbin/u3-tool']
+Write to package-work.txt file: u3-tool
+Write to package-binaries.txt file: ['/usr/sbin/u3-tool']
+['/usr/sbin/u3-tool']

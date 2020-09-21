@@ -8412,3 +8412,4 @@
 /usr/bin/upse123
 /usr/bin/ukui-sidebar
 /usr/bin/ukopp
+/usr/sbin/u3-tool
