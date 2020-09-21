@@ -3086,3 +3086,4 @@ nbibtex
 nocache
 nstreams
 numlockx
+nordugrid-arc-test-utils

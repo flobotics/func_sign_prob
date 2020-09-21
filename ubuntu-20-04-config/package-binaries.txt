@@ -8788,3 +8788,5 @@
 /usr/bin/cachestats
 /usr/bin/nstreams
 /usr/bin/numlockx
+/usr/bin/arcemiestest
+/usr/bin/arcperftest
