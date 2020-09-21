@@ -4861,3 +4861,4 @@ wmshutdown
 wine64-development-tools
 wine64-development-preloader
 windowlab
+webdis

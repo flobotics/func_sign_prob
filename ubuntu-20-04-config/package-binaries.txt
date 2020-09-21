@@ -9174,3 +9174,4 @@
 /usr/sbin/dhcp6ctl
 /usr/bin/wmshutdown
 /usr/bin/windowlab
+/usr/bin/webdis
