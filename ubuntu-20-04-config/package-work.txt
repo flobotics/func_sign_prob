@@ -3528,3 +3528,4 @@ smb4k
 superkb
 sigscheme
 safecat
+stress-ng

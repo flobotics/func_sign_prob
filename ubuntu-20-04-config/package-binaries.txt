@@ -9968,3 +9968,4 @@
 /usr/bin/superkb
 /usr/bin/sscm
 /usr/bin/safecat
+/usr/bin/stress-ng

@@ -5262,3 +5262,4 @@ snoopy
 superkb
 sigscheme
 safecat
+stress-ng
