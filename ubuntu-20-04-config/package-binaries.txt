@@ -8906,3 +8906,4 @@
 /usr/bin/sfcapd
 /usr/sbin/send_nsca
 /usr/sbin/nsca-ng
+/usr/sbin/in.telnetd

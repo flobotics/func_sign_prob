@@ -29874,3 +29874,34 @@ Real binaries:['/usr/sbin/nsca-ng']
 Write to package-work.txt file: nsca-ng-server
 Write to package-binaries.txt file: ['/usr/sbin/nsca-ng']
 ['/usr/sbin/nsca-ng']
+Write pickle file
+tar_out:
+Package-nr:4764 of 11000, Name:nsca-client-dbgsym
+Package >nsca-client< not in package-all.txt file
+Write to package-all.txt file: nsca-client
+In package >nsca-client< are these binaries: ['/usr/sbin/send_nsca']
+Real binaries:['/usr/sbin/send_nsca']
+Write to package-work.txt file: nsca-client
+No binaries to write to package-binaries.txt file
+[]
+Package-nr:4765 of 11000, Name:nsca-dbgsym
+Skip package >nsca<, already in package-all.txt file
+[]
+Package-nr:4766 of 11000, Name:neovim-dbgsym
+Skip package >neovim<, already in package-all.txt file
+[]
+Package-nr:4767 of 11000, Name:node-ws-dbgsym
+Package >node-ws< not in package-all.txt file
+Write to package-all.txt file: node-ws
+In package >node-ws< are these binaries: ['/usr/lib/x86_64-linux-gnu/nodejs/wscat/bin/wscat', '/usr/bin/wscat']
+Real binaries:[]
+Write to package-dontwork.txt file: node-ws
+[]
+Package-nr:4768 of 11000, Name:telnetd-ssl-dbgsym
+Package >telnetd-ssl< not in package-all.txt file
+Write to package-all.txt file: telnetd-ssl
+In package >telnetd-ssl< are these binaries: ['/usr/sbin/in.telnetd']
+Real binaries:['/usr/sbin/in.telnetd']
+Write to package-work.txt file: telnetd-ssl
+Write to package-binaries.txt file: ['/usr/sbin/in.telnetd']
+['/usr/sbin/in.telnetd']

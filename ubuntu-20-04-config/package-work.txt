@@ -3129,3 +3129,5 @@ nuntius
 nfdump-sflow
 nsca-ng-client
 nsca-ng-server
+nsca-client
+telnetd-ssl

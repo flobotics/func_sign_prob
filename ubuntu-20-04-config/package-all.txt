@@ -4723,3 +4723,6 @@ nuntius
 nfdump-sflow
 nsca-ng-client
 nsca-ng-server
+nsca-client
+node-ws
+telnetd-ssl
