@@ -4710,3 +4710,4 @@ node-sqlite3
 python3-nlopt
 octave-nlopt
 nsd
+neomutt

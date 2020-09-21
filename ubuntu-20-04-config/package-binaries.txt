@@ -8886,3 +8886,4 @@
 /usr/sbin/nsd-checkconf
 /usr/sbin/nsd-checkzone
 /usr/sbin/nsd-control
+/usr/bin/neomutt
