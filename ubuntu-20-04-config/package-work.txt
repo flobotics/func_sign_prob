@@ -3131,3 +3131,4 @@ nsca-ng-client
 nsca-ng-server
 nsca-client
 telnetd-ssl
+telnet-ssl

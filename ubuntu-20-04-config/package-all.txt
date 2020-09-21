@@ -4726,3 +4726,4 @@ nsca-ng-server
 nsca-client
 node-ws
 telnetd-ssl
+telnet-ssl

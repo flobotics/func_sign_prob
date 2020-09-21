@@ -29905,3 +29905,13 @@ Real binaries:['/usr/sbin/in.telnetd']
 Write to package-work.txt file: telnetd-ssl
 Write to package-binaries.txt file: ['/usr/sbin/in.telnetd']
 ['/usr/sbin/in.telnetd']
+Write pickle file
+tar_out:
+Package-nr:4769 of 11000, Name:telnet-ssl-dbgsym
+Package >telnet-ssl< not in package-all.txt file
+Write to package-all.txt file: telnet-ssl
+In package >telnet-ssl< are these binaries: ['/usr/bin/telnet-ssl']
+Real binaries:['/usr/bin/telnet-ssl']
+Write to package-work.txt file: telnet-ssl
+Write to package-binaries.txt file: ['/usr/bin/telnet-ssl']
+['/usr/bin/telnet-ssl']
