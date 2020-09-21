@@ -3431,3 +3431,4 @@ yubikey-personalization-gui
 yrmcds
 yakuake
 ssh-contact-client
+sollya

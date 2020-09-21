@@ -9566,3 +9566,4 @@
 /usr/sbin/yrmcdsd
 /usr/bin/yakuake
 /usr/bin/ssh-contact
+/usr/bin/sollya
