@@ -4235,3 +4235,7 @@ zita-dc1
 zabbix-proxy-pgsql
 zabbix-server-pgsql
 zabbix-agent
+zabbix-proxy-sqlite3
+zabbix-server-mysql
+zabbix-proxy-mysql
+zoem

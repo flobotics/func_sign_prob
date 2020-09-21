@@ -8039,3 +8039,4 @@
 /usr/sbin/zabbix_server
 /usr/bin/zabbix_sender
 /usr/sbin/zabbix_agentd
+/usr/bin/zoem

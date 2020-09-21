@@ -25355,3 +25355,37 @@ Real binaries:['/usr/bin/zabbix_sender', '/usr/sbin/zabbix_agentd']
 Write to package-work.txt file: zabbix-agent
 Write to package-binaries.txt file: ['/usr/bin/zabbix_sender', '/usr/sbin/zabbix_agentd']
 ['/usr/bin/zabbix_sender', '/usr/sbin/zabbix_agentd']
+Write pickle file
+tar_out:
+Package-nr:4230 of 11000, Name:zabbix-proxy-sqlite3-dbgsym
+Package >zabbix-proxy-sqlite3< not in package-all.txt file
+Write to package-all.txt file: zabbix-proxy-sqlite3
+In package >zabbix-proxy-sqlite3< are these binaries: ['/usr/bin/zabbix_get', '/usr/sbin/zabbix_proxy']
+Real binaries:['/usr/bin/zabbix_get', '/usr/sbin/zabbix_proxy']
+Write to package-work.txt file: zabbix-proxy-sqlite3
+No binaries to write to package-binaries.txt file
+[]
+Package-nr:4231 of 11000, Name:zabbix-server-mysql-dbgsym
+Package >zabbix-server-mysql< not in package-all.txt file
+Write to package-all.txt file: zabbix-server-mysql
+In package >zabbix-server-mysql< are these binaries: ['/usr/bin/zabbix_get', '/usr/sbin/zabbix_server']
+Real binaries:['/usr/bin/zabbix_get', '/usr/sbin/zabbix_server']
+Write to package-work.txt file: zabbix-server-mysql
+No binaries to write to package-binaries.txt file
+[]
+Package-nr:4232 of 11000, Name:zabbix-proxy-mysql-dbgsym
+Package >zabbix-proxy-mysql< not in package-all.txt file
+Write to package-all.txt file: zabbix-proxy-mysql
+In package >zabbix-proxy-mysql< are these binaries: ['/usr/bin/zabbix_get', '/usr/sbin/zabbix_proxy']
+Real binaries:['/usr/bin/zabbix_get', '/usr/sbin/zabbix_proxy']
+Write to package-work.txt file: zabbix-proxy-mysql
+No binaries to write to package-binaries.txt file
+[]
+Package-nr:4233 of 11000, Name:zoem-dbgsym
+Package >zoem< not in package-all.txt file
+Write to package-all.txt file: zoem
+In package >zoem< are these binaries: ['/usr/bin/zoem']
+Real binaries:['/usr/bin/zoem']
+Write to package-work.txt file: zoem
+Write to package-binaries.txt file: ['/usr/bin/zoem']
+['/usr/bin/zoem']
