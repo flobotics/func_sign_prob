@@ -9738,3 +9738,4 @@
 /usr/sbin/charon-cmd
 /usr/sbin/swanctl
 /usr/bin/pki
+/usr/sbin/spamass-milter
