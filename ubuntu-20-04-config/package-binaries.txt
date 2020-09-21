@@ -7924,3 +7924,5 @@
 /usr/bin/vtkWrapPythonInit-7.1
 /usr/bin/vtkWrapTcl-7.1
 /usr/bin/vtkWrapTclInit-7.1
+/usr/bin/sftovkb
+/usr/bin/vkeybd

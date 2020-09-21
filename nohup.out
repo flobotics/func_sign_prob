@@ -24603,3 +24603,13 @@ Real binaries:['/usr/bin/vtkWrapTcl-7.1', '/usr/bin/vtkWrapTclInit-7.1']
 Write to package-work.txt file: tcl-vtk7
 Write to package-binaries.txt file: ['/usr/bin/vtkWrapTcl-7.1', '/usr/bin/vtkWrapTclInit-7.1']
 ['/usr/bin/vtkWrapTcl-7.1', '/usr/bin/vtkWrapTclInit-7.1']
+Write pickle file
+tar_out:
+Package-nr:4144 of 11000, Name:vkeybd-dbgsym
+Package >vkeybd< not in package-all.txt file
+Write to package-all.txt file: vkeybd
+In package >vkeybd< are these binaries: ['/usr/bin/sftovkb', '/usr/bin/vkeybd']
+Real binaries:['/usr/bin/sftovkb', '/usr/bin/vkeybd']
+Write to package-work.txt file: vkeybd
+Write to package-binaries.txt file: ['/usr/bin/sftovkb', '/usr/bin/vkeybd']
+['/usr/bin/sftovkb', '/usr/bin/vkeybd']
