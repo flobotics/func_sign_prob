@@ -4181,3 +4181,4 @@ xineliboutput-fbfe
 xineliboutput-sxfe
 vera++
 vamp-examples
+vcdimager

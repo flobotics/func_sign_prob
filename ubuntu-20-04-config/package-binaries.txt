@@ -7971,3 +7971,10 @@
 /usr/bin/vera++
 /usr/bin/vamp-rdf-template-generator
 /usr/bin/vamp-simple-host
+/usr/bin/cdxa2mpeg
+/usr/bin/vcd-info
+/usr/bin/vcdimager
+/usr/bin/vcdxbuild
+/usr/bin/vcdxgen
+/usr/bin/vcdxminfo
+/usr/bin/vcdxrip
