@@ -3345,3 +3345,4 @@ weechat-headless
 wbox
 winwrangler
 webcamoid
+wiredtiger

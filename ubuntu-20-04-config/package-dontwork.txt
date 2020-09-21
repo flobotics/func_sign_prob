@@ -1654,3 +1654,4 @@ weechat-tcl
 weechat-core
 weechat-lua
 weechat-python
+akqml

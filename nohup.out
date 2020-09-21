@@ -32513,3 +32513,20 @@ Real binaries:['/usr/bin/webcamoid']
 Write to package-work.txt file: webcamoid
 Write to package-binaries.txt file: ['/usr/bin/webcamoid']
 ['/usr/bin/webcamoid']
+Write pickle file
+tar_out:
+Package-nr:5065 of 11000, Name:akqml-dbgsym
+Package >akqml< not in package-all.txt file
+Write to package-all.txt file: akqml
+In package >akqml< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: akqml
+[]
+Package-nr:5066 of 11000, Name:wiredtiger-dbgsym
+Package >wiredtiger< not in package-all.txt file
+Write to package-all.txt file: wiredtiger
+In package >wiredtiger< are these binaries: ['/usr/bin/wt']
+Real binaries:['/usr/bin/wt']
+Write to package-work.txt file: wiredtiger
+Write to package-binaries.txt file: ['/usr/bin/wt']
+['/usr/bin/wt']
