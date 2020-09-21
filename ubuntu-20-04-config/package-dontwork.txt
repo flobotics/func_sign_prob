@@ -1412,3 +1412,5 @@ python3-volume-key
 vulkan-validationlayers
 viruskiller
 python3-virtkey
+python3-veusz.helpers
+virt-what

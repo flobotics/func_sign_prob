@@ -4079,3 +4079,6 @@ voms-clients
 vlock
 viking
 vmfs-tools
+python3-veusz.helpers
+virt-what
+vdr-genindex

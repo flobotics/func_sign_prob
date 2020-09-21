@@ -23876,3 +23876,27 @@ Real binaries:['/usr/sbin/debugvmfs', '/usr/sbin/fsck.vmfs', '/usr/sbin/vmfs-fus
 Write to package-work.txt file: vmfs-tools
 Write to package-binaries.txt file: ['/usr/sbin/vmfs-fuse', '/usr/sbin/vmfs-lvm']
 ['/usr/sbin/vmfs-fuse', '/usr/sbin/vmfs-lvm']
+Write pickle file
+tar_out:
+Package-nr:4061 of 11000, Name:python3-veusz.helpers-dbgsym
+Package >python3-veusz.helpers< not in package-all.txt file
+Write to package-all.txt file: python3-veusz.helpers
+In package >python3-veusz.helpers< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: python3-veusz.helpers
+[]
+Package-nr:4062 of 11000, Name:virt-what-dbgsym
+Package >virt-what< not in package-all.txt file
+Write to package-all.txt file: virt-what
+In package >virt-what< are these binaries: ['/usr/sbin/virt-what']
+Real binaries:[]
+Write to package-dontwork.txt file: virt-what
+[]
+Package-nr:4063 of 11000, Name:vdr-genindex-dbgsym
+Package >vdr-genindex< not in package-all.txt file
+Write to package-all.txt file: vdr-genindex
+In package >vdr-genindex< are these binaries: ['/usr/bin/genindex']
+Real binaries:['/usr/bin/genindex']
+Write to package-work.txt file: vdr-genindex
+Write to package-binaries.txt file: ['/usr/bin/genindex']
+['/usr/bin/genindex']
