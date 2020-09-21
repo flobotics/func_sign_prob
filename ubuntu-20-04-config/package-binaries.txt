@@ -8263,3 +8263,4 @@
 /usr/bin/unadf
 /usr/bin/unace
 /usr/bin/uvccapture
+/usr/bin/ucto

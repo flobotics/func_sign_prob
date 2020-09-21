@@ -26441,3 +26441,13 @@ Real binaries:['/usr/bin/uvccapture']
 Write to package-work.txt file: uvccapture
 Write to package-binaries.txt file: ['/usr/bin/uvccapture']
 ['/usr/bin/uvccapture']
+Write pickle file
+tar_out:
+Package-nr:4351 of 11000, Name:ucto-dbgsym
+Package >ucto< not in package-all.txt file
+Write to package-all.txt file: ucto
+In package >ucto< are these binaries: ['/usr/bin/ucto']
+Real binaries:['/usr/bin/ucto']
+Write to package-work.txt file: ucto
+Write to package-binaries.txt file: ['/usr/bin/ucto']
+['/usr/bin/ucto']
