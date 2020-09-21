@@ -34865,3 +34865,41 @@ Real binaries:['/usr/bin/smb4k']
 Write to package-work.txt file: smb4k
 Write to package-binaries.txt file: ['/usr/bin/smb4k']
 ['/usr/bin/smb4k']
+Write pickle file
+tar_out:
+Package-nr:5339 of 11000, Name:siridb-server-dbgsym
+Package >siridb-server< not in package-all.txt file
+Write to package-all.txt file: siridb-server
+In package >siridb-server< are these binaries: ['/usr/bin/siridb-server']
+Real binaries:[]
+Write to package-dontwork.txt file: siridb-server
+[]
+Package-nr:5340 of 11000, Name:systemd-cron-dbgsym
+Package >systemd-cron< not in package-all.txt file
+Write to package-all.txt file: systemd-cron
+In package >systemd-cron< are these binaries: ['/usr/bin/crontab']
+Real binaries:[]
+Write to package-dontwork.txt file: systemd-cron
+[]
+Package-nr:5341 of 11000, Name:stockfish-dbgsym
+Package >stockfish< not in package-all.txt file
+Write to package-all.txt file: stockfish
+In package >stockfish< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: stockfish
+[]
+Package-nr:5342 of 11000, Name:snoopy-dbgsym
+Package >snoopy< not in package-all.txt file
+Write to package-all.txt file: snoopy
+In package >snoopy< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: snoopy
+[]
+Package-nr:5343 of 11000, Name:superkb-dbgsym
+Package >superkb< not in package-all.txt file
+Write to package-all.txt file: superkb
+In package >superkb< are these binaries: ['/usr/bin/superkb']
+Real binaries:['/usr/bin/superkb']
+Write to package-work.txt file: superkb
+Write to package-binaries.txt file: ['/usr/bin/superkb']
+['/usr/bin/superkb']

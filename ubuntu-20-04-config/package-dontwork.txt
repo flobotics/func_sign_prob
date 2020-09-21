@@ -1725,3 +1725,7 @@ python3-simgrid
 simgrid-java
 ruby-svn
 python-subversion
+siridb-server
+systemd-cron
+stockfish
+snoopy

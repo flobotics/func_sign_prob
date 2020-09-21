@@ -3525,3 +3525,4 @@ snmptrapfmt
 snp-sites
 sunxi-tools
 smb4k
+superkb

@@ -5255,3 +5255,8 @@ snmptrapfmt
 snp-sites
 sunxi-tools
 smb4k
+siridb-server
+systemd-cron
+stockfish
+snoopy
+superkb
