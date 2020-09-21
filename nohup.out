@@ -27799,3 +27799,13 @@ Real binaries:['/usr/sbin/biosinfo', '/usr/sbin/cat_nvram', '/usr/sbin/guess', '
 Write to package-work.txt file: nvram-wakeup
 Write to package-binaries.txt file: ['/usr/sbin/biosinfo', '/usr/sbin/cat_nvram', '/usr/sbin/guess', '/usr/sbin/nvram-wakeup', '/usr/sbin/rtc']
 ['/usr/sbin/biosinfo', '/usr/sbin/cat_nvram', '/usr/sbin/guess', '/usr/sbin/nvram-wakeup', '/usr/sbin/rtc']
+Write pickle file
+tar_out:
+Package-nr:4513 of 11000, Name:nanomsg-utils-dbgsym
+Package >nanomsg-utils< not in package-all.txt file
+Write to package-all.txt file: nanomsg-utils
+In package >nanomsg-utils< are these binaries: ['/usr/bin/nanocat']
+Real binaries:['/usr/bin/nanocat']
+Write to package-work.txt file: nanomsg-utils
+Write to package-binaries.txt file: ['/usr/bin/nanocat']
+['/usr/bin/nanocat']

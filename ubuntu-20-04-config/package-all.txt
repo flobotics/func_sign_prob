@@ -4498,3 +4498,4 @@ nas-bin
 nip2
 netris
 nvram-wakeup
+nanomsg-utils

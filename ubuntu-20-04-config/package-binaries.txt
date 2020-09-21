@@ -8490,3 +8490,4 @@
 /usr/sbin/guess
 /usr/sbin/nvram-wakeup
 /usr/sbin/rtc
+/usr/bin/nanocat
