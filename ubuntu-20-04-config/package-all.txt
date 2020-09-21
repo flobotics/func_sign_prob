@@ -4990,3 +4990,4 @@ wmbutton
 wmlongrun
 wmmemload
 wofi
+webdruid
