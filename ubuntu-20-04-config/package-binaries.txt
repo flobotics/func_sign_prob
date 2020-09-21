@@ -8495,3 +8495,4 @@
 /usr/bin/nedit-nc
 /usr/bin/nzbget
 /usr/bin/ncmpcpp
+/usr/sbin/nfacct

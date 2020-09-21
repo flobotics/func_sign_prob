@@ -2979,3 +2979,4 @@ nanomsg-utils
 nedit
 nzbget
 ncmpcpp
+nfacct
