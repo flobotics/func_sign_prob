@@ -31216,3 +31216,13 @@ Real binaries:['/usr/bin/wmauda']
 Write to package-work.txt file: wmauda
 Write to package-binaries.txt file: ['/usr/bin/wmauda']
 ['/usr/bin/wmauda']
+Write pickle file
+tar_out:
+Package-nr:4917 of 11000, Name:wmsystemtray-dbgsym
+Package >wmsystemtray< not in package-all.txt file
+Write to package-all.txt file: wmsystemtray
+In package >wmsystemtray< are these binaries: ['/usr/bin/wmsystemtray']
+Real binaries:['/usr/bin/wmsystemtray']
+Write to package-work.txt file: wmsystemtray
+Write to package-binaries.txt file: ['/usr/bin/wmsystemtray']
+['/usr/bin/wmsystemtray']

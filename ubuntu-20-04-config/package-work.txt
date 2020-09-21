@@ -3240,3 +3240,4 @@ webdis
 wdm
 weborf
 wmauda
+wmsystemtray

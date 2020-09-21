@@ -9179,3 +9179,4 @@
 /usr/bin/wdmLogin
 /usr/bin/weborf
 /usr/bin/wmauda
+/usr/bin/wmsystemtray
