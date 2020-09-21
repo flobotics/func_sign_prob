@@ -29805,3 +29805,13 @@ Real binaries:['/usr/bin/nvptx-none-as', '/usr/bin/nvptx-none-ld']
 Write to package-work.txt file: nvptx-tools
 Write to package-binaries.txt file: ['/usr/bin/nvptx-none-as', '/usr/bin/nvptx-none-ld']
 ['/usr/bin/nvptx-none-as', '/usr/bin/nvptx-none-ld']
+Write pickle file
+tar_out:
+Package-nr:4755 of 11000, Name:nautilus-filename-repairer-dbgsym
+Package >nautilus-filename-repairer< not in package-all.txt file
+Write to package-all.txt file: nautilus-filename-repairer
+In package >nautilus-filename-repairer< are these binaries: ['/usr/bin/nautilus-filename-repairer']
+Real binaries:['/usr/bin/nautilus-filename-repairer']
+Write to package-work.txt file: nautilus-filename-repairer
+Write to package-binaries.txt file: ['/usr/bin/nautilus-filename-repairer']
+['/usr/bin/nautilus-filename-repairer']
