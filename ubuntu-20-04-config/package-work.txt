@@ -3062,3 +3062,4 @@ nxproxy
 nxagent
 nss-updatedb
 nettle-bin
+nvtv
