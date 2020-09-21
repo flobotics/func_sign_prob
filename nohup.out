@@ -25255,3 +25255,13 @@ Real binaries:['/usr/bin/zomghelper']
 Write to package-work.txt file: zomg
 Write to package-binaries.txt file: ['/usr/bin/zomghelper']
 ['/usr/bin/zomghelper']
+Write pickle file
+tar_out:
+Package-nr:4220 of 11000, Name:zssh-dbgsym
+Package >zssh< not in package-all.txt file
+Write to package-all.txt file: zssh
+In package >zssh< are these binaries: ['/usr/bin/zssh', '/usr/bin/ztelnet']
+Real binaries:['/usr/bin/zssh']
+Write to package-work.txt file: zssh
+Write to package-binaries.txt file: ['/usr/bin/zssh']
+['/usr/bin/zssh']

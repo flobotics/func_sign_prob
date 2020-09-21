@@ -4225,3 +4225,4 @@ zbarcam-gtk
 zbar-tools
 python3-zbar
 zomg
+zssh
