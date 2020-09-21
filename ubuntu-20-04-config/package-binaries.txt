@@ -9089,3 +9089,4 @@
 /usr/bin/sd2epub
 /usr/bin/cdr2odg
 /usr/bin/zmf2epub
+/usr/bin/key2odp
