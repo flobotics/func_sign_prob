@@ -3502,3 +3502,4 @@ spamass-milter
 sptk
 sniproxy
 stoken
+samblaster

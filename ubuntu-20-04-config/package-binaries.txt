@@ -9867,3 +9867,4 @@
 /usr/sbin/sniproxy
 /usr/bin/stoken
 /usr/bin/stoken-gui
+/usr/bin/samblaster
