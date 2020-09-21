@@ -7943,3 +7943,13 @@
 /usr/sbin/vzsplit
 /usr/bin/vmtouch
 /usr/bin/voro++
+/usr/bin/velvetg_127
+/usr/bin/velvetg_127_long
+/usr/bin/velvetg_63
+/usr/bin/velvetg_63_long
+/usr/bin/velvetg_long
+/usr/bin/velveth_127
+/usr/bin/velveth_127_long
+/usr/bin/velveth_63
+/usr/bin/velveth_63_long
+/usr/bin/velveth_long

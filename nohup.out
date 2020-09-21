@@ -24680,3 +24680,13 @@ Real binaries:['/usr/bin/voro++']
 Write to package-work.txt file: voro++
 Write to package-binaries.txt file: ['/usr/bin/voro++']
 ['/usr/bin/voro++']
+Write pickle file
+tar_out:
+Package-nr:4152 of 11000, Name:velvet-long-dbgsym
+Package >velvet-long< not in package-all.txt file
+Write to package-all.txt file: velvet-long
+In package >velvet-long< are these binaries: ['/usr/bin/velvetg_127', '/usr/bin/velvetg_127_long', '/usr/bin/velvetg_63', '/usr/bin/velvetg_63_long', '/usr/bin/velvetg_long', '/usr/bin/velveth_127', '/usr/bin/velveth_127_long', '/usr/bin/velveth_63', '/usr/bin/velveth_63_long', '/usr/bin/velveth_long']
+Real binaries:['/usr/bin/velvetg_127', '/usr/bin/velvetg_127_long', '/usr/bin/velvetg_63', '/usr/bin/velvetg_63_long', '/usr/bin/velvetg_long', '/usr/bin/velveth_127', '/usr/bin/velveth_127_long', '/usr/bin/velveth_63', '/usr/bin/velveth_63_long', '/usr/bin/velveth_long']
+Write to package-work.txt file: velvet-long
+Write to package-binaries.txt file: ['/usr/bin/velvetg_127', '/usr/bin/velvetg_127_long', '/usr/bin/velvetg_63', '/usr/bin/velvetg_63_long', '/usr/bin/velvetg_long', '/usr/bin/velveth_127', '/usr/bin/velveth_127_long', '/usr/bin/velveth_63', '/usr/bin/velveth_63_long', '/usr/bin/velveth_long']
+['/usr/bin/velvetg_127', '/usr/bin/velvetg_127_long', '/usr/bin/velvetg_63', '/usr/bin/velvetg_63_long', '/usr/bin/velvetg_long', '/usr/bin/velveth_127', '/usr/bin/velveth_127_long', '/usr/bin/velveth_63', '/usr/bin/velveth_63_long', '/usr/bin/velveth_long']
