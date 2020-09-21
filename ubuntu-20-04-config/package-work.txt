@@ -3364,3 +3364,4 @@ wmail
 wget2
 wmifs
 wmctrl
+webalizer
