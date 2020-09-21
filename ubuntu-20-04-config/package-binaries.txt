@@ -8730,3 +8730,4 @@
 /usr/bin/noblenote
 /usr/bin/nxproxy
 /usr/bin/nxagent
+/usr/sbin/nss_updatedb

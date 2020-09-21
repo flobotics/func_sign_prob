@@ -4616,3 +4616,4 @@ nudoku
 noblenote
 nxproxy
 nxagent
+nss-updatedb

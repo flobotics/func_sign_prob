@@ -3060,3 +3060,4 @@ ng-latin
 noblenote
 nxproxy
 nxagent
+nss-updatedb
