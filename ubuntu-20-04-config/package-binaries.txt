@@ -9389,3 +9389,4 @@
 /usr/bin/wimverify
 /usr/bin/wmbutton
 /usr/bin/wmlongrun
+/usr/bin/wmmemload

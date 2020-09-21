@@ -32377,3 +32377,13 @@ Real binaries:['/usr/bin/wmlongrun']
 Write to package-work.txt file: wmlongrun
 Write to package-binaries.txt file: ['/usr/bin/wmlongrun']
 ['/usr/bin/wmlongrun']
+Write pickle file
+tar_out:
+Package-nr:5049 of 11000, Name:wmmemload-dbgsym
+Package >wmmemload< not in package-all.txt file
+Write to package-all.txt file: wmmemload
+In package >wmmemload< are these binaries: ['/usr/bin/wmmemload']
+Real binaries:['/usr/bin/wmmemload']
+Write to package-work.txt file: wmmemload
+Write to package-binaries.txt file: ['/usr/bin/wmmemload']
+['/usr/bin/wmmemload']
