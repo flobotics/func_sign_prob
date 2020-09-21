@@ -26693,3 +26693,13 @@ Real binaries:['/usr/bin/uchardet']
 Write to package-work.txt file: uchardet
 Write to package-binaries.txt file: ['/usr/bin/uchardet']
 ['/usr/bin/uchardet']
+Write pickle file
+tar_out:
+Package-nr:4382 of 11000, Name:utf8gen-dbgsym
+Package >utf8gen< not in package-all.txt file
+Write to package-all.txt file: utf8gen
+In package >utf8gen< are these binaries: ['/usr/bin/utf8gen']
+Real binaries:['/usr/bin/utf8gen']
+Write to package-work.txt file: utf8gen
+Write to package-binaries.txt file: ['/usr/bin/utf8gen']
+['/usr/bin/utf8gen']

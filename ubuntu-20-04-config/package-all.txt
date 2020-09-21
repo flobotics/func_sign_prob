@@ -4381,3 +4381,4 @@ unclutter
 unhide
 ucimf-openvanilla
 uchardet
+utf8gen

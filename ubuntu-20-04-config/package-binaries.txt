@@ -8290,3 +8290,4 @@
 /usr/sbin/unhide-tcp
 /usr/sbin/unhide_rb
 /usr/bin/uchardet
+/usr/bin/utf8gen
