@@ -7895,3 +7895,4 @@
 /usr/bin/veyon-service
 /usr/bin/veyon-worker
 /usr/bin/veyon-master
+/usr/bin/veyon-configurator
