@@ -2760,3 +2760,4 @@ zsh-static
 zita-ajbridge
 z8530-utils2
 zita-lrx
+zulucrypt-gui

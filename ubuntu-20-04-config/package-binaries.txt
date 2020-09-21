@@ -8009,3 +8009,4 @@
 /usr/sbin/sccinit
 /usr/sbin/sccparam
 /usr/bin/zita-lrx
+/usr/bin/zuluCrypt-gui
