@@ -8333,3 +8333,4 @@
 /usr/bin/uisp
 /usr/bin/uacme
 /usr/bin/udptunnel
+/usr/bin/ussp-push

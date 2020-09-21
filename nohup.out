@@ -26959,3 +26959,13 @@ Real binaries:['/usr/bin/udptunnel']
 Write to package-work.txt file: udptunnel
 Write to package-binaries.txt file: ['/usr/bin/udptunnel']
 ['/usr/bin/udptunnel']
+Write pickle file
+tar_out:
+Package-nr:4413 of 11000, Name:ussp-push-dbgsym
+Package >ussp-push< not in package-all.txt file
+Write to package-all.txt file: ussp-push
+In package >ussp-push< are these binaries: ['/usr/bin/ussp-push']
+Real binaries:['/usr/bin/ussp-push']
+Write to package-work.txt file: ussp-push
+Write to package-binaries.txt file: ['/usr/bin/ussp-push']
+['/usr/bin/ussp-push']
