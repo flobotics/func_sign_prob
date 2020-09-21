@@ -9455,3 +9455,4 @@
 /usr/bin/otsubtree
 /usr/bin/outdeg1count
 /usr/bin/neo4j-client
+/usr/bin/nbdfuse
