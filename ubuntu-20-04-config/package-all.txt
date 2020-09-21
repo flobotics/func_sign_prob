@@ -4359,3 +4359,5 @@ ultracopier
 unity-settings-daemon
 unity-control-center
 urlview
+unity-lens-files
+ubuntu-kylin-wizard

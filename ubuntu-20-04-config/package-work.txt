@@ -2875,3 +2875,4 @@ ucto
 ultracopier
 unity-control-center
 urlview
+ubuntu-kylin-wizard

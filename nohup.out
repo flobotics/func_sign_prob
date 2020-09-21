@@ -26488,3 +26488,23 @@ Real binaries:['/usr/bin/urlview']
 Write to package-work.txt file: urlview
 Write to package-binaries.txt file: ['/usr/bin/urlview']
 ['/usr/bin/urlview']
+Write pickle file
+tar_out:
+Package-nr:4356 of 11000, Name:unixodbc-dbgsym
+Skip package >unixodbc<, already in package-all.txt file
+[]
+Package-nr:4357 of 11000, Name:unity-lens-files-dbgsym
+Package >unity-lens-files< not in package-all.txt file
+Write to package-all.txt file: unity-lens-files
+In package >unity-lens-files< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: unity-lens-files
+[]
+Package-nr:4358 of 11000, Name:ubuntu-kylin-wizard-dbgsym
+Package >ubuntu-kylin-wizard< not in package-all.txt file
+Write to package-all.txt file: ubuntu-kylin-wizard
+In package >ubuntu-kylin-wizard< are these binaries: ['/usr/bin/ubuntu-kylin-wizard']
+Real binaries:['/usr/bin/ubuntu-kylin-wizard']
+Write to package-work.txt file: ubuntu-kylin-wizard
+Write to package-binaries.txt file: ['/usr/bin/ubuntu-kylin-wizard']
+['/usr/bin/ubuntu-kylin-wizard']

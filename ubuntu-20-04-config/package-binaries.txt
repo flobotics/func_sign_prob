@@ -8268,3 +8268,4 @@
 /usr/bin/bluetooth-wizard
 /usr/bin/unity-control-center
 /usr/bin/urlview
+/usr/bin/ubuntu-kylin-wizard
