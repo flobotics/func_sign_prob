@@ -3184,3 +3184,4 @@ cgns-convert
 caca-utils
 cmis-client
 cd-paranoia
+cpuidtool

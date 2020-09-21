@@ -4803,3 +4803,4 @@ python3-columbus
 cmis-client
 python3-cap-ng
 cd-paranoia
+cpuidtool
