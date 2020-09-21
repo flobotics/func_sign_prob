@@ -1566,3 +1566,4 @@ node-iconv
 nordugrid-arc-datadelivery-service
 python3-nordugrid-arc
 nordugrid-arc-arex
+nemo-fileroller

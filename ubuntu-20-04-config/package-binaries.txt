@@ -8813,3 +8813,4 @@
 /usr/bin/arcsub
 /usr/bin/arcsync
 /usr/bin/arctest
+/sbin/netplugd

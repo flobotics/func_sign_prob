@@ -4663,3 +4663,5 @@ nordugrid-arc-arex
 nordugrid-arc-hed
 nordugrid-arc-dev
 nordugrid-arc-client
+nemo-fileroller
+netplug

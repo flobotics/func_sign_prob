@@ -29329,3 +29329,23 @@ Real binaries:['/usr/bin/arccat', '/usr/bin/arcclean', '/usr/bin/arccp', '/usr/b
 Write to package-work.txt file: nordugrid-arc-client
 Write to package-binaries.txt file: ['/usr/bin/arccat', '/usr/bin/arcclean', '/usr/bin/arccp', '/usr/bin/arcget', '/usr/bin/arcinfo', '/usr/bin/arckill', '/usr/bin/arcls', '/usr/bin/arcmkdir', '/usr/bin/arcproxy', '/usr/bin/arcrename', '/usr/bin/arcrenew', '/usr/bin/arcresub', '/usr/bin/arcresume', '/usr/bin/arcrm', '/usr/bin/arcstat', '/usr/bin/arcsub', '/usr/bin/arcsync', '/usr/bin/arctest']
 ['/usr/bin/arccat', '/usr/bin/arcclean', '/usr/bin/arccp', '/usr/bin/arcget', '/usr/bin/arcinfo', '/usr/bin/arckill', '/usr/bin/arcls', '/usr/bin/arcmkdir', '/usr/bin/arcproxy', '/usr/bin/arcrename', '/usr/bin/arcrenew', '/usr/bin/arcresub', '/usr/bin/arcresume', '/usr/bin/arcrm', '/usr/bin/arcstat', '/usr/bin/arcsub', '/usr/bin/arcsync', '/usr/bin/arctest']
+Write pickle file
+tar_out:
+Package-nr:4698 of 11000, Name:nemo-fileroller-dbgsym
+Package >nemo-fileroller< not in package-all.txt file
+Write to package-all.txt file: nemo-fileroller
+In package >nemo-fileroller< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: nemo-fileroller
+[]
+Package-nr:4699 of 11000, Name:ne-dbgsym
+Skip package >ne<, already in package-all.txt file
+[]
+Package-nr:4700 of 11000, Name:netplug-dbgsym
+Package >netplug< not in package-all.txt file
+Write to package-all.txt file: netplug
+In package >netplug< are these binaries: ['/sbin/netplugd']
+Real binaries:['/sbin/netplugd']
+Write to package-work.txt file: netplug
+Write to package-binaries.txt file: ['/sbin/netplugd']
+['/sbin/netplugd']
