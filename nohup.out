@@ -27721,3 +27721,13 @@ Real binaries:['/usr/bin/nmapsi4']
 Write to package-work.txt file: nmapsi4
 Write to package-binaries.txt file: ['/usr/bin/nmapsi4']
 ['/usr/bin/nmapsi4']
+Write pickle file
+tar_out:
+Package-nr:4504 of 11000, Name:nftlb-dbgsym
+Package >nftlb< not in package-all.txt file
+Write to package-all.txt file: nftlb
+In package >nftlb< are these binaries: ['/usr/sbin/nftlb']
+Real binaries:['/usr/sbin/nftlb']
+Write to package-work.txt file: nftlb
+Write to package-binaries.txt file: ['/usr/sbin/nftlb']
+['/usr/sbin/nftlb']
