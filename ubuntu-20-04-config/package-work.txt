@@ -2820,3 +2820,4 @@ zeroc-icebox
 zeroc-icegrid
 zeroc-icepatch2
 zeroc-glacier2
+zeroc-ice-compilers

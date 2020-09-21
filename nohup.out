@@ -25778,3 +25778,20 @@ Real binaries:['/usr/bin/glacier2router']
 Write to package-work.txt file: zeroc-glacier2
 Write to package-binaries.txt file: ['/usr/bin/glacier2router']
 ['/usr/bin/glacier2router']
+Write pickle file
+tar_out:
+Package-nr:4277 of 11000, Name:python3-zeroc-ice-dbgsym
+Package >python3-zeroc-ice< not in package-all.txt file
+Write to package-all.txt file: python3-zeroc-ice
+In package >python3-zeroc-ice< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: python3-zeroc-ice
+[]
+Package-nr:4278 of 11000, Name:zeroc-ice-compilers-dbgsym
+Package >zeroc-ice-compilers< not in package-all.txt file
+Write to package-all.txt file: zeroc-ice-compilers
+In package >zeroc-ice-compilers< are these binaries: ['/usr/bin/slice2cpp', '/usr/bin/slice2cs', '/usr/bin/slice2html', '/usr/bin/slice2java', '/usr/bin/slice2js', '/usr/bin/slice2matlab', '/usr/bin/slice2objc', '/usr/bin/slice2php', '/usr/bin/slice2py', '/usr/bin/slice2rb', '/usr/bin/slice2swift']
+Real binaries:['/usr/bin/slice2cpp', '/usr/bin/slice2cs', '/usr/bin/slice2html', '/usr/bin/slice2java', '/usr/bin/slice2js', '/usr/bin/slice2matlab', '/usr/bin/slice2objc', '/usr/bin/slice2php', '/usr/bin/slice2py', '/usr/bin/slice2rb', '/usr/bin/slice2swift']
+Write to package-work.txt file: zeroc-ice-compilers
+Write to package-binaries.txt file: ['/usr/bin/slice2cpp', '/usr/bin/slice2cs', '/usr/bin/slice2html', '/usr/bin/slice2java', '/usr/bin/slice2js', '/usr/bin/slice2matlab', '/usr/bin/slice2objc', '/usr/bin/slice2php', '/usr/bin/slice2py', '/usr/bin/slice2rb', '/usr/bin/slice2swift']
+['/usr/bin/slice2cpp', '/usr/bin/slice2cs', '/usr/bin/slice2html', '/usr/bin/slice2java', '/usr/bin/slice2js', '/usr/bin/slice2matlab', '/usr/bin/slice2objc', '/usr/bin/slice2php', '/usr/bin/slice2py', '/usr/bin/slice2rb', '/usr/bin/slice2swift']

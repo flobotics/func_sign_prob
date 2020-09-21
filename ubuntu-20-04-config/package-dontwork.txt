@@ -1456,3 +1456,4 @@ python3-zope.proxy
 zathura-pdf-poppler
 zathura-djvu
 php-zeroc-ice
+python3-zeroc-ice
