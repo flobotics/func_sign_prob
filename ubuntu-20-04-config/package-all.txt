@@ -4922,3 +4922,4 @@ wm2
 w3m-img
 wuzzah
 wmfsm
+wcslib-tools

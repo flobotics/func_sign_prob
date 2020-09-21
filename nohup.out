@@ -31748,3 +31748,13 @@ Real binaries:['/usr/bin/wmfsm']
 Write to package-work.txt file: wmfsm
 Write to package-binaries.txt file: ['/usr/bin/wmfsm']
 ['/usr/bin/wmfsm']
+Write pickle file
+tar_out:
+Package-nr:4979 of 11000, Name:wcslib-tools-dbgsym
+Package >wcslib-tools< not in package-all.txt file
+Write to package-all.txt file: wcslib-tools
+In package >wcslib-tools< are these binaries: ['/usr/bin/HPXcvt', '/usr/bin/fitshdr', '/usr/bin/wcsgrid', '/usr/bin/wcsware']
+Real binaries:['/usr/bin/HPXcvt', '/usr/bin/fitshdr', '/usr/bin/wcsgrid', '/usr/bin/wcsware']
+Write to package-work.txt file: wcslib-tools
+Write to package-binaries.txt file: ['/usr/bin/HPXcvt', '/usr/bin/fitshdr', '/usr/bin/wcsgrid', '/usr/bin/wcsware']
+['/usr/bin/HPXcvt', '/usr/bin/fitshdr', '/usr/bin/wcsgrid', '/usr/bin/wcsware']

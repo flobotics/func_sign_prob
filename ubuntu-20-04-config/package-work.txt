@@ -3282,3 +3282,4 @@ wxhexeditor
 wm2
 wuzzah
 wmfsm
+wcslib-tools

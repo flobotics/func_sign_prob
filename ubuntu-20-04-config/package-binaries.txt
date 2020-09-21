@@ -9266,3 +9266,7 @@
 /usr/bin/wm2
 /usr/bin/wuzzah
 /usr/bin/wmfsm
+/usr/bin/HPXcvt
+/usr/bin/fitshdr
+/usr/bin/wcsgrid
+/usr/bin/wcsware
