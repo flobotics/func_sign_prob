@@ -8882,3 +8882,7 @@
 /usr/bin/nvim-qt
 /usr/bin/nootka
 /usr/lib/x86_64-linux-gnu/nodejs/sqlite3/lib/binding/node-v64-linux-x64/node_sqlite3.node
+/usr/sbin/nsd
+/usr/sbin/nsd-checkconf
+/usr/sbin/nsd-checkzone
+/usr/sbin/nsd-control

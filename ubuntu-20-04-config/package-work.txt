@@ -3116,3 +3116,4 @@ tftpd
 neovim-qt
 nootka
 node-sqlite3
+nsd

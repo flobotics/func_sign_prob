@@ -1586,3 +1586,5 @@ network-manager-fortisslvpn
 network-manager-fortisslvpn-gnome
 nautilus-ideviceinfo
 python3-numba
+python3-nlopt
+octave-nlopt

@@ -29714,3 +29714,27 @@ Real binaries:['/usr/lib/x86_64-linux-gnu/nodejs/sqlite3/lib/binding/node-v64-li
 Write to package-work.txt file: node-sqlite3
 Write to package-binaries.txt file: ['/usr/lib/x86_64-linux-gnu/nodejs/sqlite3/lib/binding/node-v64-linux-x64/node_sqlite3.node']
 ['/usr/lib/x86_64-linux-gnu/nodejs/sqlite3/lib/binding/node-v64-linux-x64/node_sqlite3.node']
+Write pickle file
+tar_out:
+Package-nr:4745 of 11000, Name:python3-nlopt-dbgsym
+Package >python3-nlopt< not in package-all.txt file
+Write to package-all.txt file: python3-nlopt
+In package >python3-nlopt< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: python3-nlopt
+[]
+Package-nr:4746 of 11000, Name:octave-nlopt-dbgsym
+Package >octave-nlopt< not in package-all.txt file
+Write to package-all.txt file: octave-nlopt
+In package >octave-nlopt< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: octave-nlopt
+[]
+Package-nr:4747 of 11000, Name:nsd-dbgsym
+Package >nsd< not in package-all.txt file
+Write to package-all.txt file: nsd
+In package >nsd< are these binaries: ['/usr/sbin/nsd', '/usr/sbin/nsd-checkconf', '/usr/sbin/nsd-checkzone', '/usr/sbin/nsd-control', '/usr/sbin/nsd-control-setup', '/usr/share/doc/nsd/contrib/bind2nsd/COPYING', '/usr/share/doc/nsd/contrib/bind2nsd/ChangeLog', '/usr/share/doc/nsd/contrib/bind2nsd/MANIFEST', '/usr/share/doc/nsd/contrib/bind2nsd/README', '/usr/share/doc/nsd/contrib/bind2nsd/TODO', '/usr/share/doc/nsd/contrib/bind2nsd/bind2nsd/Config.py.gz', '/usr/share/doc/nsd/contrib/bind2nsd/bind2nsd/Key.py', '/usr/share/doc/nsd/contrib/bind2nsd/bind2nsd/NamedConf.py.gz', '/usr/share/doc/nsd/contrib/bind2nsd/bind2nsd/NsdConf.py.gz', '/usr/share/doc/nsd/contrib/bind2nsd/bind2nsd/Parser.py.gz', '/usr/share/doc/nsd/contrib/bind2nsd/bind2nsd/Tokenizer.py.gz', '/usr/share/doc/nsd/contrib/bind2nsd/bind2nsd/Utils.py', '/usr/share/doc/nsd/contrib/bind2nsd/bind2nsd/Zone.py', '/usr/share/doc/nsd/contrib/bind2nsd/bind2nsd/__init__.py', '/usr/share/doc/nsd/contrib/bind2nsd/chk_version', '/usr/share/doc/nsd/contrib/bind2nsd/etc', '/usr/share/doc/nsd/contrib/bind2nsd/install.sh', '/usr/share/doc/nsd/contrib/bind2nsd/scripts', '/usr/share/doc/nsd/contrib/bind2nsd/scripts/nsd-sync.gz', '/usr/share/doc/nsd/contrib/bind2nsd/scripts/s64-mkpw', '/usr/share/doc/nsd/contrib/bind2nsd/scripts/s64-sync.gz', '/usr/share/doc/nsd/contrib/bind2nsd/set_version', '/usr/share/doc/nsd/contrib/bind2nsd/setup.py']
+Real binaries:['/usr/sbin/nsd', '/usr/sbin/nsd-checkconf', '/usr/sbin/nsd-checkzone', '/usr/sbin/nsd-control']
+Write to package-work.txt file: nsd
+Write to package-binaries.txt file: ['/usr/sbin/nsd', '/usr/sbin/nsd-checkconf', '/usr/sbin/nsd-checkzone', '/usr/sbin/nsd-control']
+['/usr/sbin/nsd', '/usr/sbin/nsd-checkconf', '/usr/sbin/nsd-checkzone', '/usr/sbin/nsd-control']
