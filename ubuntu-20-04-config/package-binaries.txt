@@ -8988,3 +8988,5 @@
 /usr/bin/NPmpich2
 /usr/bin/NPpvm
 /usr/bin/NPtcp
+/usr/bin/NPopenmpi
+/usr/bin/NPopenmpi2
