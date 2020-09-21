@@ -9183,3 +9183,4 @@
 /usr/bin/wcc
 /usr/bin/wld
 /usr/bin/wsh
+/usr/bin/grind

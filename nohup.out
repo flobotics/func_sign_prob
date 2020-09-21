@@ -31239,3 +31239,13 @@ Real binaries:['/usr/bin/wcc', '/usr/bin/wld', '/usr/bin/wsh']
 Write to package-work.txt file: wcc
 Write to package-binaries.txt file: ['/usr/bin/wcc', '/usr/bin/wld', '/usr/bin/wsh']
 ['/usr/bin/wcc', '/usr/bin/wld', '/usr/bin/wsh']
+Write pickle file
+tar_out:
+Package-nr:4920 of 11000, Name:wordnet-grind-dbgsym
+Package >wordnet-grind< not in package-all.txt file
+Write to package-all.txt file: wordnet-grind
+In package >wordnet-grind< are these binaries: ['/usr/bin/grind']
+Real binaries:['/usr/bin/grind']
+Write to package-work.txt file: wordnet-grind
+Write to package-binaries.txt file: ['/usr/bin/grind']
+['/usr/bin/grind']
