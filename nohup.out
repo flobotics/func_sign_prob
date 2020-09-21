@@ -34845,3 +34845,13 @@ Real binaries:['/usr/bin/snp-sites']
 Write to package-work.txt file: snp-sites
 Write to package-binaries.txt file: ['/usr/bin/snp-sites']
 ['/usr/bin/snp-sites']
+Write pickle file
+tar_out:
+Package-nr:5337 of 11000, Name:sunxi-tools-dbgsym
+Package >sunxi-tools< not in package-all.txt file
+Write to package-all.txt file: sunxi-tools
+In package >sunxi-tools< are these binaries: ['/usr/bin/sunxi-bootinfo', '/usr/bin/sunxi-fel', '/usr/bin/sunxi-fexc', '/usr/bin/sunxi-nand-part', '/usr/bin/sunxi-pio']
+Real binaries:['/usr/bin/sunxi-bootinfo', '/usr/bin/sunxi-fel', '/usr/bin/sunxi-fexc', '/usr/bin/sunxi-nand-part', '/usr/bin/sunxi-pio']
+Write to package-work.txt file: sunxi-tools
+Write to package-binaries.txt file: ['/usr/bin/sunxi-bootinfo', '/usr/bin/sunxi-fel', '/usr/bin/sunxi-fexc', '/usr/bin/sunxi-nand-part', '/usr/bin/sunxi-pio']
+['/usr/bin/sunxi-bootinfo', '/usr/bin/sunxi-fel', '/usr/bin/sunxi-fexc', '/usr/bin/sunxi-nand-part', '/usr/bin/sunxi-pio']

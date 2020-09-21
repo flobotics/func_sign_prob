@@ -3523,3 +3523,4 @@ subnetcalc
 subversion-tools
 snmptrapfmt
 snp-sites
+sunxi-tools

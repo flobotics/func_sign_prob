@@ -9959,3 +9959,8 @@
 /usr/sbin/snmptrapfmt
 /usr/sbin/snmptrapfmthdlr
 /usr/bin/snp-sites
+/usr/bin/sunxi-bootinfo
+/usr/bin/sunxi-fel
+/usr/bin/sunxi-fexc
+/usr/bin/sunxi-nand-part
+/usr/bin/sunxi-pio

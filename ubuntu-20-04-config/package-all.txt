@@ -5253,3 +5253,4 @@ ruby-svn
 python-subversion
 snmptrapfmt
 snp-sites
+sunxi-tools
