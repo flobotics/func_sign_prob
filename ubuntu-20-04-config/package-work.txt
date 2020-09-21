@@ -2765,3 +2765,4 @@ zulumount-gui
 zulucrypt-cli
 zulumount-cli
 zulupolkit
+zulusafe-cli

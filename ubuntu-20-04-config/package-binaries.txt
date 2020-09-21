@@ -8014,3 +8014,4 @@
 /usr/bin/zuluCrypt-cli
 /usr/bin/zuluMount-cli
 /usr/bin/zuluPolkit
+/usr/bin/zuluSafe-cli
