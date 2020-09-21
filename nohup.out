@@ -31858,3 +31858,13 @@ Real binaries:['/usr/bin/WPEWebDriver']
 Write to package-work.txt file: wpewebkit-driver
 Write to package-binaries.txt file: ['/usr/bin/WPEWebDriver']
 ['/usr/bin/WPEWebDriver']
+Write pickle file
+tar_out:
+Package-nr:4991 of 11000, Name:wmifinfo-dbgsym
+Package >wmifinfo< not in package-all.txt file
+Write to package-all.txt file: wmifinfo
+In package >wmifinfo< are these binaries: ['/usr/bin/wmifinfo']
+Real binaries:['/usr/bin/wmifinfo']
+Write to package-work.txt file: wmifinfo
+Write to package-binaries.txt file: ['/usr/bin/wmifinfo']
+['/usr/bin/wmifinfo']
