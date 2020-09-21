@@ -3513,3 +3513,4 @@ simavr
 schism
 shadowsocks-libev
 supercat
+sapphire

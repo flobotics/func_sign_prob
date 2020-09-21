@@ -5236,3 +5236,5 @@ schism
 shadowsocks-libev
 swell-foop
 supercat
+python3-siphashc
+sapphire

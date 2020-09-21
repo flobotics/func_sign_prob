@@ -9903,3 +9903,4 @@
 /usr/bin/ss-server
 /usr/bin/ss-tunnel
 /usr/bin/spc
+/usr/bin/sapphire
