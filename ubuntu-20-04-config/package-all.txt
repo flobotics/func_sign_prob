@@ -4741,3 +4741,4 @@ nextcloud-desktop-cmd
 netrek-client-cow
 net-acct
 ncaptool
+nixnote2

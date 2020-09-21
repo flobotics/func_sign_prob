@@ -8919,3 +8919,4 @@
 /usr/bin/nextcloudcmd
 /usr/sbin/nacctd
 /usr/bin/ncaptool
+/usr/bin/nixnote2
