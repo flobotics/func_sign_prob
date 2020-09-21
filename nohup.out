@@ -26147,3 +26147,13 @@ Real binaries:['/usr/bin/units-filter']
 Write to package-work.txt file: units-filter
 Write to package-binaries.txt file: ['/usr/bin/units-filter']
 ['/usr/bin/units-filter']
+Write pickle file
+tar_out:
+Package-nr:4318 of 11000, Name:unalz-dbgsym
+Package >unalz< not in package-all.txt file
+Write to package-all.txt file: unalz
+In package >unalz< are these binaries: ['/usr/bin/unalz']
+Real binaries:['/usr/bin/unalz']
+Write to package-work.txt file: unalz
+Write to package-binaries.txt file: ['/usr/bin/unalz']
+['/usr/bin/unalz']
