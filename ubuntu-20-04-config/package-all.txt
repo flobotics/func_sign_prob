@@ -4580,3 +4580,4 @@ netpanzer
 ndisc6
 rdnssd
 normaliz-bin
+nbtscan

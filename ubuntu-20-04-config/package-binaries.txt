@@ -8622,3 +8622,4 @@
 /usr/bin/tcptraceroute6
 /sbin/rdnssd
 /usr/bin/normaliz
+/usr/bin/nbtscan

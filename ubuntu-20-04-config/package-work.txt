@@ -3030,3 +3030,4 @@ nilfs-tools
 ndisc6
 rdnssd
 normaliz-bin
+nbtscan
