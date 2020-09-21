@@ -33756,3 +33756,13 @@ Real binaries:['/usr/bin/shntool']
 Write to package-work.txt file: shntool
 Write to package-binaries.txt file: ['/usr/bin/shntool']
 ['/usr/bin/shntool']
+Write pickle file
+tar_out:
+Package-nr:5210 of 11000, Name:spacenavd-dbgsym
+Package >spacenavd< not in package-all.txt file
+Write to package-all.txt file: spacenavd
+In package >spacenavd< are these binaries: ['/usr/bin/spacenavd', '/usr/bin/spnavd_ctl']
+Real binaries:['/usr/bin/spacenavd']
+Write to package-work.txt file: spacenavd
+Write to package-binaries.txt file: ['/usr/bin/spacenavd']
+['/usr/bin/spacenavd']

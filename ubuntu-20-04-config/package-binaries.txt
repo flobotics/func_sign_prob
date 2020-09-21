@@ -9577,3 +9577,4 @@
 /usr/bin/stap-merge
 /usr/bin/staprun
 /usr/bin/shntool
+/usr/bin/spacenavd

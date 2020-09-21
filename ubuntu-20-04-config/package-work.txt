@@ -3437,3 +3437,4 @@ snacc
 simplescreenrecorder
 systemtap-runtime
 shntool
+spacenavd
