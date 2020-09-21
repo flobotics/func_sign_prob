@@ -8137,3 +8137,4 @@
 /usr/bin/icebox++11
 /usr/bin/icegridnode
 /usr/bin/icegridregistry
+/usr/bin/icepatch2server

@@ -4279,3 +4279,4 @@ php-zeroc-ice
 zeroc-ice-utils
 zeroc-icebox
 zeroc-icegrid
+zeroc-icepatch2
