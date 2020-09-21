@@ -33481,3 +33481,13 @@ Real binaries:['/usr/bin/csv2yapet', '/usr/bin/yapet', '/usr/bin/yapet2csv']
 Write to package-work.txt file: yapet
 Write to package-binaries.txt file: ['/usr/bin/csv2yapet', '/usr/bin/yapet', '/usr/bin/yapet2csv']
 ['/usr/bin/csv2yapet', '/usr/bin/yapet', '/usr/bin/yapet2csv']
+Write pickle file
+tar_out:
+Package-nr:5176 of 11000, Name:yagiuda-dbgsym
+Package >yagiuda< not in package-all.txt file
+Write to package-all.txt file: yagiuda
+In package >yagiuda< are these binaries: ['/usr/bin/dipole', '/usr/bin/first', '/usr/bin/input', '/usr/bin/mutual', '/usr/bin/optimise', '/usr/bin/output', '/usr/bin/randtest', '/usr/bin/selftest', '/usr/bin/yagi']
+Real binaries:['/usr/bin/dipole', '/usr/bin/first', '/usr/bin/input', '/usr/bin/mutual', '/usr/bin/optimise', '/usr/bin/output', '/usr/bin/randtest', '/usr/bin/selftest', '/usr/bin/yagi']
+Write to package-work.txt file: yagiuda
+Write to package-binaries.txt file: ['/usr/bin/dipole', '/usr/bin/first', '/usr/bin/input', '/usr/bin/mutual', '/usr/bin/optimise', '/usr/bin/output', '/usr/bin/randtest', '/usr/bin/selftest', '/usr/bin/yagi']
+['/usr/bin/dipole', '/usr/bin/first', '/usr/bin/input', '/usr/bin/mutual', '/usr/bin/optimise', '/usr/bin/output', '/usr/bin/randtest', '/usr/bin/selftest', '/usr/bin/yagi']

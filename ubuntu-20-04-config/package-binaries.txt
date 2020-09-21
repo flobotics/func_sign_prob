@@ -9544,3 +9544,12 @@
 /usr/bin/csv2yapet
 /usr/bin/yapet
 /usr/bin/yapet2csv
+/usr/bin/dipole
+/usr/bin/first
+/usr/bin/input
+/usr/bin/mutual
+/usr/bin/optimise
+/usr/bin/output
+/usr/bin/randtest
+/usr/bin/selftest
+/usr/bin/yagi
