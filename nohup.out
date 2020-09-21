@@ -29617,3 +29617,16 @@ Real binaries:['/usr/bin/nodau']
 Write to package-work.txt file: nodau
 Write to package-binaries.txt file: ['/usr/bin/nodau']
 ['/usr/bin/nodau']
+Write pickle file
+tar_out:
+Package-nr:4734 of 11000, Name:nim-dbgsym
+Skip package >nim<, already in package-all.txt file
+[]
+Package-nr:4735 of 11000, Name:nodejs-dbgsym
+Package >nodejs< not in package-all.txt file
+Write to package-all.txt file: nodejs
+In package >nodejs< are these binaries: ['/usr/bin/node', '/usr/bin/nodejs']
+Real binaries:['/usr/bin/node']
+Write to package-work.txt file: nodejs
+Write to package-binaries.txt file: ['/usr/bin/node']
+['/usr/bin/node']

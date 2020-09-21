@@ -3108,3 +3108,4 @@ ncbi-cn3d
 ndiswrapper
 nuttcp
 nodau
+nodejs
