@@ -34657,3 +34657,13 @@ Real binaries:['/usr/bin/schismtracker']
 Write to package-work.txt file: schism
 Write to package-binaries.txt file: ['/usr/bin/schismtracker']
 ['/usr/bin/schismtracker']
+Write pickle file
+tar_out:
+Package-nr:5313 of 11000, Name:shadowsocks-libev-dbgsym
+Package >shadowsocks-libev< not in package-all.txt file
+Write to package-all.txt file: shadowsocks-libev
+In package >shadowsocks-libev< are these binaries: ['/usr/bin/ss-local', '/usr/bin/ss-manager', '/usr/bin/ss-nat', '/usr/bin/ss-redir', '/usr/bin/ss-server', '/usr/bin/ss-tunnel']
+Real binaries:['/usr/bin/ss-local', '/usr/bin/ss-manager', '/usr/bin/ss-redir', '/usr/bin/ss-server', '/usr/bin/ss-tunnel']
+Write to package-work.txt file: shadowsocks-libev
+Write to package-binaries.txt file: ['/usr/bin/ss-local', '/usr/bin/ss-manager', '/usr/bin/ss-redir', '/usr/bin/ss-server', '/usr/bin/ss-tunnel']
+['/usr/bin/ss-local', '/usr/bin/ss-manager', '/usr/bin/ss-redir', '/usr/bin/ss-server', '/usr/bin/ss-tunnel']

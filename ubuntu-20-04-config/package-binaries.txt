@@ -9897,3 +9897,8 @@
 /usr/bin/stshell
 /usr/bin/simavr
 /usr/bin/schismtracker
+/usr/bin/ss-local
+/usr/bin/ss-manager
+/usr/bin/ss-redir
+/usr/bin/ss-server
+/usr/bin/ss-tunnel

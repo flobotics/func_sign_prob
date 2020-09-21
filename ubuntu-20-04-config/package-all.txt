@@ -5233,3 +5233,4 @@ sdl-ball
 steptalk
 simavr
 schism
+shadowsocks-libev

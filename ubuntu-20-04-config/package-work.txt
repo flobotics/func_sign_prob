@@ -3511,3 +3511,4 @@ splint
 steptalk
 simavr
 schism
+shadowsocks-libev
