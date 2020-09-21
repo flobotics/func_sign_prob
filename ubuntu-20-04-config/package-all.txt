@@ -4702,3 +4702,4 @@ nautilus-ideviceinfo
 nethogs
 nutcracker
 tftp
+tftpd

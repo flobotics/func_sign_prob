@@ -29667,3 +29667,13 @@ Real binaries:['/usr/bin/tftp']
 Write to package-work.txt file: tftp
 Write to package-binaries.txt file: ['/usr/bin/tftp']
 ['/usr/bin/tftp']
+Write pickle file
+tar_out:
+Package-nr:4740 of 11000, Name:tftpd-dbgsym
+Package >tftpd< not in package-all.txt file
+Write to package-all.txt file: tftpd
+In package >tftpd< are these binaries: ['/usr/sbin/in.tftpd']
+Real binaries:['/usr/sbin/in.tftpd']
+Write to package-work.txt file: tftpd
+Write to package-binaries.txt file: ['/usr/sbin/in.tftpd']
+['/usr/sbin/in.tftpd']

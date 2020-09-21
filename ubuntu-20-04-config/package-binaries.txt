@@ -8878,3 +8878,4 @@
 /usr/sbin/nethogs
 /usr/sbin/nutcracker
 /usr/bin/tftp
+/usr/sbin/in.tftpd
