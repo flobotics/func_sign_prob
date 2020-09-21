@@ -3009,3 +3009,4 @@ nwall
 nield
 nomacs
 ncdu
+nanopolish

@@ -8539,3 +8539,4 @@
 /usr/sbin/nield
 /usr/bin/nomacs
 /usr/bin/ncdu
+/usr/bin/nanopolish
