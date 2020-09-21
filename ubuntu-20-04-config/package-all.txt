@@ -5206,3 +5206,5 @@ uidmap
 mongoose
 sks-ecc
 simulide
+sysrqd
+synapse

@@ -34394,3 +34394,21 @@ Real binaries:['/usr/bin/simulide']
 Write to package-work.txt file: simulide
 Write to package-binaries.txt file: ['/usr/bin/simulide']
 ['/usr/bin/simulide']
+Write pickle file
+tar_out:
+Package-nr:5284 of 11000, Name:sysrqd-dbgsym
+Package >sysrqd< not in package-all.txt file
+Write to package-all.txt file: sysrqd
+In package >sysrqd< are these binaries: ['/usr/sbin/sysrqd']
+Real binaries:['/usr/sbin/sysrqd']
+Write to package-work.txt file: sysrqd
+Write to package-binaries.txt file: ['/usr/sbin/sysrqd']
+['/usr/sbin/sysrqd']
+Package-nr:5285 of 11000, Name:synapse-dbgsym
+Package >synapse< not in package-all.txt file
+Write to package-all.txt file: synapse
+In package >synapse< are these binaries: ['/usr/bin/synapse']
+Real binaries:['/usr/bin/synapse']
+Write to package-work.txt file: synapse
+Write to package-binaries.txt file: ['/usr/bin/synapse']
+['/usr/bin/synapse']
