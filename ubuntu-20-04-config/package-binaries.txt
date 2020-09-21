@@ -8870,3 +8870,4 @@
 /usr/bin/entrez2
 /usr/bin/sbtedit
 /usr/bin/udv
+/usr/bin/Cn3D-3.0

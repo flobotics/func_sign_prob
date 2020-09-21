@@ -3104,3 +3104,4 @@ netperfmeter
 nordlicht
 ncbi-tools-bin
 ncbi-tools-x11
+ncbi-cn3d

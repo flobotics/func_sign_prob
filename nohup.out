@@ -29549,3 +29549,13 @@ Real binaries:['/usr/bin/Psequin', '/usr/bin/ddv', '/usr/bin/entrez2', '/usr/bin
 Write to package-work.txt file: ncbi-tools-x11
 Write to package-binaries.txt file: ['/usr/bin/Psequin', '/usr/bin/ddv', '/usr/bin/entrez2', '/usr/bin/sbtedit', '/usr/bin/udv']
 ['/usr/bin/Psequin', '/usr/bin/ddv', '/usr/bin/entrez2', '/usr/bin/sbtedit', '/usr/bin/udv']
+Write pickle file
+tar_out:
+Package-nr:4726 of 11000, Name:ncbi-cn3d-dbgsym
+Package >ncbi-cn3d< not in package-all.txt file
+Write to package-all.txt file: ncbi-cn3d
+In package >ncbi-cn3d< are these binaries: ['/usr/bin/Cn3D-3.0']
+Real binaries:['/usr/bin/Cn3D-3.0']
+Write to package-work.txt file: ncbi-cn3d
+Write to package-binaries.txt file: ['/usr/bin/Cn3D-3.0']
+['/usr/bin/Cn3D-3.0']
