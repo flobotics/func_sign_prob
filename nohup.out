@@ -23931,3 +23931,13 @@ Real binaries:['/usr/bin/vmpk']
 Write to package-work.txt file: vmpk
 Write to package-binaries.txt file: ['/usr/bin/vmpk']
 ['/usr/bin/vmpk']
+Write pickle file
+tar_out:
+Package-nr:4068 of 11000, Name:vagalume-dbgsym
+Package >vagalume< not in package-all.txt file
+Write to package-all.txt file: vagalume
+In package >vagalume< are these binaries: ['/usr/bin/vagalume', '/usr/bin/vagalumectl']
+Real binaries:['/usr/bin/vagalume']
+Write to package-work.txt file: vagalume
+Write to package-binaries.txt file: ['/usr/bin/vagalume']
+['/usr/bin/vagalume']

@@ -7770,3 +7770,4 @@
 /usr/bin/vorbiscomment
 /usr/bin/vncsnapshot
 /usr/bin/vmpk
+/usr/bin/vagalume
