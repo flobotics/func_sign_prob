@@ -3535,3 +3535,4 @@ spades
 smalt
 simulpic
 soapysdr-tools
+survex

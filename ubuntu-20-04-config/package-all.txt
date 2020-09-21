@@ -5271,3 +5271,4 @@ smalt
 simulpic
 python3-soapysdr
 soapysdr-tools
+survex

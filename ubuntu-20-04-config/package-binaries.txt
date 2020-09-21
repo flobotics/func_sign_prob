@@ -10010,3 +10010,8 @@
 /usr/bin/smalt
 /usr/bin/simulpic
 /usr/bin/SoapySDRUtil
+/usr/bin/cavern
+/usr/bin/diffpos
+/usr/bin/dump3d
+/usr/bin/extend
+/usr/bin/sorterr
