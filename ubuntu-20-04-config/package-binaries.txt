@@ -8022,3 +8022,4 @@
 /usr/bin/alsa_loopback
 /usr/bin/zbarcam-qt
 /usr/bin/zbarcam-gtk
+/usr/bin/zbarimg
