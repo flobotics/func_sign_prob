@@ -1415,3 +1415,4 @@ python3-virtkey
 python3-veusz.helpers
 virt-what
 vocproc
+vbaexpress

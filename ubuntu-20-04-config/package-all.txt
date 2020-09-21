@@ -4094,3 +4094,5 @@ vgrabbj
 viewnior
 vpnc
 vlc-bin
+vbaexpress
+virt-viewer

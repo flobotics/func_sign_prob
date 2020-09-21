@@ -2674,3 +2674,4 @@ vgrabbj
 viewnior
 vpnc
 vlc-bin
+virt-viewer

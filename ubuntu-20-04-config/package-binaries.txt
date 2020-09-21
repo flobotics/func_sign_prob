@@ -7797,3 +7797,5 @@
 /usr/sbin/vpnc
 /usr/bin/vlc
 /usr/bin/vlc-wrapper
+/usr/bin/remote-viewer
+/usr/bin/virt-viewer
