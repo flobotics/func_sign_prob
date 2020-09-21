@@ -10007,3 +10007,4 @@
 /usr/lib/spades/bin/spades-ionhammer
 /usr/lib/spades/bin/spades-kmercount
 /usr/lib/spades/bin/spades-truseq-scfcorrection
+/usr/bin/smalt

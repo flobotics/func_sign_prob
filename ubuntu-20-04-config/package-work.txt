@@ -3532,3 +3532,4 @@ stress-ng
 smp-utils
 sox
 spades
+smalt

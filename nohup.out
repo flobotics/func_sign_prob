@@ -34976,3 +34976,13 @@ Real binaries:['/usr/lib/spades/bin/spades-core', '/usr/lib/spades/bin/spades-co
 Write to package-work.txt file: spades
 Write to package-binaries.txt file: ['/usr/lib/spades/bin/spades-core', '/usr/lib/spades/bin/spades-corrector-core', '/usr/lib/spades/bin/spades-gbuilder', '/usr/lib/spades/bin/spades-gmapper', '/usr/lib/spades/bin/spades-hammer', '/usr/lib/spades/bin/spades-ionhammer', '/usr/lib/spades/bin/spades-kmercount', '/usr/lib/spades/bin/spades-truseq-scfcorrection']
 ['/usr/lib/spades/bin/spades-core', '/usr/lib/spades/bin/spades-corrector-core', '/usr/lib/spades/bin/spades-gbuilder', '/usr/lib/spades/bin/spades-gmapper', '/usr/lib/spades/bin/spades-hammer', '/usr/lib/spades/bin/spades-ionhammer', '/usr/lib/spades/bin/spades-kmercount', '/usr/lib/spades/bin/spades-truseq-scfcorrection']
+Write pickle file
+tar_out:
+Package-nr:5353 of 11000, Name:smalt-dbgsym
+Package >smalt< not in package-all.txt file
+Write to package-all.txt file: smalt
+In package >smalt< are these binaries: ['/usr/bin/smalt']
+Real binaries:['/usr/bin/smalt']
+Write to package-work.txt file: smalt
+Write to package-binaries.txt file: ['/usr/bin/smalt']
+['/usr/bin/smalt']

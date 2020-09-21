@@ -5267,3 +5267,4 @@ soapysdr0.7-module-bladerf
 smp-utils
 sox
 spades
+smalt
