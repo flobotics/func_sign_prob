@@ -5094,3 +5094,5 @@ yorick-soy
 yamdi
 yafc
 yank
+tcl-yajltcl
+yubiserver

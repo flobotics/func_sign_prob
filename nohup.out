@@ -33355,3 +33355,20 @@ Real binaries:['/usr/bin/yank-cli']
 Write to package-work.txt file: yank
 Write to package-binaries.txt file: ['/usr/bin/yank-cli']
 ['/usr/bin/yank-cli']
+Write pickle file
+tar_out:
+Package-nr:5160 of 11000, Name:tcl-yajltcl-dbgsym
+Package >tcl-yajltcl< not in package-all.txt file
+Write to package-all.txt file: tcl-yajltcl
+In package >tcl-yajltcl< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: tcl-yajltcl
+[]
+Package-nr:5161 of 11000, Name:yubiserver-dbgsym
+Package >yubiserver< not in package-all.txt file
+Write to package-all.txt file: yubiserver
+In package >yubiserver< are these binaries: ['/usr/bin/yubiserver', '/usr/bin/yubiserver-admin']
+Real binaries:['/usr/bin/yubiserver', '/usr/bin/yubiserver-admin']
+Write to package-work.txt file: yubiserver
+Write to package-binaries.txt file: ['/usr/bin/yubiserver', '/usr/bin/yubiserver-admin']
+['/usr/bin/yubiserver', '/usr/bin/yubiserver-admin']

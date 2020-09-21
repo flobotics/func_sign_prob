@@ -1677,3 +1677,4 @@ netconfd-module-ietf-interfaces
 ykcs11
 yorick-imutil
 yorick-soy
+tcl-yajltcl
