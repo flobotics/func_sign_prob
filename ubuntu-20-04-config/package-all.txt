@@ -4283,3 +4283,4 @@ zeroc-icepatch2
 zeroc-glacier2
 python3-zeroc-ice
 zeroc-ice-compilers
+zeroc-icebridge

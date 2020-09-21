@@ -25795,3 +25795,13 @@ Real binaries:['/usr/bin/slice2cpp', '/usr/bin/slice2cs', '/usr/bin/slice2html',
 Write to package-work.txt file: zeroc-ice-compilers
 Write to package-binaries.txt file: ['/usr/bin/slice2cpp', '/usr/bin/slice2cs', '/usr/bin/slice2html', '/usr/bin/slice2java', '/usr/bin/slice2js', '/usr/bin/slice2matlab', '/usr/bin/slice2objc', '/usr/bin/slice2php', '/usr/bin/slice2py', '/usr/bin/slice2rb', '/usr/bin/slice2swift']
 ['/usr/bin/slice2cpp', '/usr/bin/slice2cs', '/usr/bin/slice2html', '/usr/bin/slice2java', '/usr/bin/slice2js', '/usr/bin/slice2matlab', '/usr/bin/slice2objc', '/usr/bin/slice2php', '/usr/bin/slice2py', '/usr/bin/slice2rb', '/usr/bin/slice2swift']
+Write pickle file
+tar_out:
+Package-nr:4279 of 11000, Name:zeroc-icebridge-dbgsym
+Package >zeroc-icebridge< not in package-all.txt file
+Write to package-all.txt file: zeroc-icebridge
+In package >zeroc-icebridge< are these binaries: ['/usr/bin/icebridge']
+Real binaries:['/usr/bin/icebridge']
+Write to package-work.txt file: zeroc-icebridge
+Write to package-binaries.txt file: ['/usr/bin/icebridge']
+['/usr/bin/icebridge']
