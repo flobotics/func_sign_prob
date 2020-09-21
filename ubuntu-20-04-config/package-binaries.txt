@@ -9618,3 +9618,15 @@
 /usr/bin/regshell
 /usr/bin/regtree
 /usr/sbin/sniffit
+/usr/bin/dmenu
+/usr/bin/lsw
+/usr/bin/slock
+/usr/bin/sprop
+/usr/bin/sselp
+/usr/bin/ssid
+/usr/bin/stest
+/usr/bin/swarp
+/usr/bin/tabbed.default
+/usr/bin/tabbed.meta
+/usr/bin/wmname
+/usr/bin/xssstate

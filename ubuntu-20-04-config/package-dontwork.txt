@@ -1704,3 +1704,4 @@ scim-clutter-immodule
 scim-modules-socket
 snort-common-libraries
 ssvnc
+scim-pinyin

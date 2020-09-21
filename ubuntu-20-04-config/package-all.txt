@@ -5162,3 +5162,5 @@ samba-testsuite
 ctdb
 registry-tools
 sniffit
+scim-pinyin
+suckless-tools
