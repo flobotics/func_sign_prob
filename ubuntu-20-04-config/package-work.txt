@@ -3243,3 +3243,4 @@ wmauda
 wmsystemtray
 wcc
 wordnet-grind
+wmcliphist

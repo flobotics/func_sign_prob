@@ -9184,3 +9184,4 @@
 /usr/bin/wld
 /usr/bin/wsh
 /usr/bin/grind
+/usr/bin/wmcliphist

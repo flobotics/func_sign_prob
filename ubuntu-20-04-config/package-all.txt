@@ -4868,3 +4868,5 @@ wmauda
 wmsystemtray
 wcc
 wordnet-grind
+wordnet-gui
+wmcliphist

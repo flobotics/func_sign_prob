@@ -31249,3 +31249,23 @@ Real binaries:['/usr/bin/grind']
 Write to package-work.txt file: wordnet-grind
 Write to package-binaries.txt file: ['/usr/bin/grind']
 ['/usr/bin/grind']
+Write pickle file
+tar_out:
+Package-nr:4921 of 11000, Name:wordnet-dbgsym
+Skip package >wordnet<, already in package-all.txt file
+[]
+Package-nr:4922 of 11000, Name:wordnet-gui-dbgsym
+Package >wordnet-gui< not in package-all.txt file
+Write to package-all.txt file: wordnet-gui
+In package >wordnet-gui< are these binaries: ['/usr/bin/wnb', '/usr/share/wordnet/bin/wnb']
+Real binaries:[]
+Write to package-dontwork.txt file: wordnet-gui
+[]
+Package-nr:4923 of 11000, Name:wmcliphist-dbgsym
+Package >wmcliphist< not in package-all.txt file
+Write to package-all.txt file: wmcliphist
+In package >wmcliphist< are these binaries: ['/usr/bin/wmcliphist']
+Real binaries:['/usr/bin/wmcliphist']
+Write to package-work.txt file: wmcliphist
+Write to package-binaries.txt file: ['/usr/bin/wmcliphist']
+['/usr/bin/wmcliphist']
