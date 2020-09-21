@@ -4621,3 +4621,6 @@ nettle-bin
 nvtv
 nickle
 nfswatch
+notify-osd
+nemo-python
+netstress

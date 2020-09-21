@@ -3065,3 +3065,4 @@ nettle-bin
 nvtv
 nickle
 nfswatch
+netstress

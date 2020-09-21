@@ -1551,3 +1551,5 @@ nettoe
 nestopia
 node-node-stringprep
 nudoku
+notify-osd
+nemo-python

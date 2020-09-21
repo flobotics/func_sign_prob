@@ -28948,3 +28948,27 @@ Real binaries:['/usr/sbin/nfslogsum', '/usr/sbin/nfswatch']
 Write to package-work.txt file: nfswatch
 Write to package-binaries.txt file: ['/usr/sbin/nfslogsum', '/usr/sbin/nfswatch']
 ['/usr/sbin/nfslogsum', '/usr/sbin/nfswatch']
+Write pickle file
+tar_out:
+Package-nr:4652 of 11000, Name:notify-osd-dbgsym
+Package >notify-osd< not in package-all.txt file
+Write to package-all.txt file: notify-osd
+In package >notify-osd< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: notify-osd
+[]
+Package-nr:4653 of 11000, Name:nemo-python-dbgsym
+Package >nemo-python< not in package-all.txt file
+Write to package-all.txt file: nemo-python
+In package >nemo-python< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: nemo-python
+[]
+Package-nr:4654 of 11000, Name:netstress-dbgsym
+Package >netstress< not in package-all.txt file
+Write to package-all.txt file: netstress
+In package >netstress< are these binaries: ['/usr/bin/netstress']
+Real binaries:['/usr/bin/netstress']
+Write to package-work.txt file: netstress
+Write to package-binaries.txt file: ['/usr/bin/netstress']
+['/usr/bin/netstress']

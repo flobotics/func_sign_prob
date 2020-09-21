@@ -8742,3 +8742,4 @@
 /usr/bin/nickle
 /usr/sbin/nfslogsum
 /usr/sbin/nfswatch
+/usr/bin/netstress
