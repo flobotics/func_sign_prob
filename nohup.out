@@ -26336,3 +26336,13 @@ Real binaries:['/usr/sbin/usbredirserver']
 Write to package-work.txt file: usbredirserver
 Write to package-binaries.txt file: ['/usr/sbin/usbredirserver']
 ['/usr/sbin/usbredirserver']
+Write pickle file
+tar_out:
+Package-nr:4339 of 11000, Name:unaccent-dbgsym
+Package >unaccent< not in package-all.txt file
+Write to package-all.txt file: unaccent
+In package >unaccent< are these binaries: ['/usr/bin/unaccent']
+Real binaries:['/usr/bin/unaccent']
+Write to package-work.txt file: unaccent
+Write to package-binaries.txt file: ['/usr/bin/unaccent']
+['/usr/bin/unaccent']

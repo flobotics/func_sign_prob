@@ -8252,3 +8252,4 @@
 /usr/bin/uuenview
 /usr/bin/unyaffs
 /usr/sbin/usbredirserver
+/usr/bin/unaccent
