@@ -9304,3 +9304,4 @@
 /usr/bin/webfsd
 /usr/bin/wmload
 /usr/bin/wmppp
+/usr/bin/wmmoonclock
