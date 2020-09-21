@@ -5263,3 +5263,5 @@ superkb
 sigscheme
 safecat
 stress-ng
+soapysdr0.7-module-bladerf
+smp-utils

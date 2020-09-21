@@ -3529,3 +3529,4 @@ superkb
 sigscheme
 safecat
 stress-ng
+smp-utils
