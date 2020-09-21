@@ -8501,3 +8501,4 @@
 /usr/bin/nextepc-pgwd
 /usr/bin/nextepc-pcrfd
 /usr/bin/nextepc-hssd
+/usr/bin/nextepc-sgwd

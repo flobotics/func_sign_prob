@@ -4513,3 +4513,4 @@ nethack-console
 nextepc-pgw
 nextepc-pcrf
 nextepc-hss
+nextepc-sgw
