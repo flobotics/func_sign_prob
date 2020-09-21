@@ -1558,3 +1558,6 @@ naspro-bridges
 r-cran-nlme
 nyquist
 node-re2
+ruby-notmuch
+python3-nautilus
+python-nautilus

@@ -8779,3 +8779,5 @@
 /usr/bin/rdfdump
 /usr/bin/rdflib
 /usr/bin/rdx
+/usr/bin/nomarch
+/usr/bin/netstat-nat

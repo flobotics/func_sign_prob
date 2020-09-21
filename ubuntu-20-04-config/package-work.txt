@@ -3079,3 +3079,5 @@ nifti-bin
 nemiver
 netcdf-bin
 nasm
+nomarch
+netstat-nat

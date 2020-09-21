@@ -4642,3 +4642,8 @@ node-re2
 nemiver
 netcdf-bin
 nasm
+ruby-notmuch
+python3-nautilus
+python-nautilus
+nomarch
+netstat-nat

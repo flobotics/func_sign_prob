@@ -29136,3 +29136,48 @@ Real binaries:['/usr/bin/ldrdf', '/usr/bin/nasm', '/usr/bin/ndisasm', '/usr/bin/
 Write to package-work.txt file: nasm
 Write to package-binaries.txt file: ['/usr/bin/ldrdf', '/usr/bin/nasm', '/usr/bin/ndisasm', '/usr/bin/rdfdump', '/usr/bin/rdflib', '/usr/bin/rdx']
 ['/usr/bin/ldrdf', '/usr/bin/nasm', '/usr/bin/ndisasm', '/usr/bin/rdfdump', '/usr/bin/rdflib', '/usr/bin/rdx']
+Write pickle file
+tar_out:
+Package-nr:4674 of 11000, Name:nkf-dbgsym
+Skip package >nkf<, already in package-all.txt file
+[]
+Package-nr:4675 of 11000, Name:ruby-notmuch-dbgsym
+Package >ruby-notmuch< not in package-all.txt file
+Write to package-all.txt file: ruby-notmuch
+In package >ruby-notmuch< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: ruby-notmuch
+[]
+Package-nr:4676 of 11000, Name:notmuch-dbgsym
+Skip package >notmuch<, already in package-all.txt file
+[]
+Package-nr:4677 of 11000, Name:python3-nautilus-dbgsym
+Package >python3-nautilus< not in package-all.txt file
+Write to package-all.txt file: python3-nautilus
+In package >python3-nautilus< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: python3-nautilus
+[]
+Package-nr:4678 of 11000, Name:python-nautilus-dbgsym
+Package >python-nautilus< not in package-all.txt file
+Write to package-all.txt file: python-nautilus
+In package >python-nautilus< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: python-nautilus
+[]
+Package-nr:4679 of 11000, Name:nomarch-dbgsym
+Package >nomarch< not in package-all.txt file
+Write to package-all.txt file: nomarch
+In package >nomarch< are these binaries: ['/usr/bin/nomarch']
+Real binaries:['/usr/bin/nomarch']
+Write to package-work.txt file: nomarch
+Write to package-binaries.txt file: ['/usr/bin/nomarch']
+['/usr/bin/nomarch']
+Package-nr:4680 of 11000, Name:netstat-nat-dbgsym
+Package >netstat-nat< not in package-all.txt file
+Write to package-all.txt file: netstat-nat
+In package >netstat-nat< are these binaries: ['/usr/bin/netstat-nat']
+Real binaries:['/usr/bin/netstat-nat']
+Write to package-work.txt file: netstat-nat
+Write to package-binaries.txt file: ['/usr/bin/netstat-nat']
+['/usr/bin/netstat-nat']
