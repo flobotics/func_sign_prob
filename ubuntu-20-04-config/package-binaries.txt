@@ -9650,3 +9650,5 @@
 /usr/bin/slinkwatch
 /usr/bin/sagan
 /usr/sbin/sagan
+/usr/bin/setuid
+/usr/bin/super

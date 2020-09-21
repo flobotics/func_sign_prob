@@ -34222,3 +34222,16 @@ Real binaries:['/usr/bin/sagan', '/usr/sbin/sagan']
 Write to package-work.txt file: sagan
 Write to package-binaries.txt file: ['/usr/bin/sagan', '/usr/sbin/sagan']
 ['/usr/bin/sagan', '/usr/sbin/sagan']
+Write pickle file
+tar_out:
+Package-nr:5265 of 11000, Name:sane-dbgsym
+Skip package >sane<, already in package-all.txt file
+[]
+Package-nr:5266 of 11000, Name:super-dbgsym
+Package >super< not in package-all.txt file
+Write to package-all.txt file: super
+In package >super< are these binaries: ['/usr/bin/setuid', '/usr/bin/super']
+Real binaries:['/usr/bin/setuid', '/usr/bin/super']
+Write to package-work.txt file: super
+Write to package-binaries.txt file: ['/usr/bin/setuid', '/usr/bin/super']
+['/usr/bin/setuid', '/usr/bin/super']
