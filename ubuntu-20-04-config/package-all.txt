@@ -4252,3 +4252,4 @@ python3-zope.security
 zoom-player
 zzuf
 z88
+zsync

@@ -2797,3 +2797,4 @@ zfcp-hbaapi-utils
 zfs-test
 zzuf
 z88
+zsync

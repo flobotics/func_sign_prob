@@ -25510,3 +25510,13 @@ Real binaries:['/usr/bin/z88com', '/usr/bin/z88d', '/usr/bin/z88e', '/usr/bin/z8
 Write to package-work.txt file: z88
 Write to package-binaries.txt file: ['/usr/bin/z88com', '/usr/bin/z88d', '/usr/bin/z88e', '/usr/bin/z88f', '/usr/bin/z88g', '/usr/bin/z88h', '/usr/bin/z88i1', '/usr/bin/z88i2', '/usr/bin/z88n', '/usr/bin/z88o', '/usr/bin/z88v', '/usr/bin/z88x']
 ['/usr/bin/z88com', '/usr/bin/z88d', '/usr/bin/z88e', '/usr/bin/z88f', '/usr/bin/z88g', '/usr/bin/z88h', '/usr/bin/z88i1', '/usr/bin/z88i2', '/usr/bin/z88n', '/usr/bin/z88o', '/usr/bin/z88v', '/usr/bin/z88x']
+Write pickle file
+tar_out:
+Package-nr:4248 of 11000, Name:zsync-dbgsym
+Package >zsync< not in package-all.txt file
+Write to package-all.txt file: zsync
+In package >zsync< are these binaries: ['/usr/bin/zsync', '/usr/bin/zsyncmake']
+Real binaries:['/usr/bin/zsync', '/usr/bin/zsyncmake']
+Write to package-work.txt file: zsync
+Write to package-binaries.txt file: ['/usr/bin/zsync', '/usr/bin/zsyncmake']
+['/usr/bin/zsync', '/usr/bin/zsyncmake']

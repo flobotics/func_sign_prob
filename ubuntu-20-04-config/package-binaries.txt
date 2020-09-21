@@ -8092,3 +8092,5 @@
 /usr/bin/z88o
 /usr/bin/z88v
 /usr/bin/z88x
+/usr/bin/zsync
+/usr/bin/zsyncmake
