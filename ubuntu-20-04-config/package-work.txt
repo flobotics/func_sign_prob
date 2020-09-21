@@ -2842,3 +2842,4 @@ ffado-dbus-server
 toxcore-utils
 urweb
 usbview
+unionfs-fuse

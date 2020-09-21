@@ -4313,3 +4313,6 @@ toxcore-utils
 urweb
 usbauth-notifier
 usbview
+unity-lens-applications
+python3-urwid
+unionfs-fuse

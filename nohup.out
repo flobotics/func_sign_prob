@@ -26066,3 +26066,27 @@ Real binaries:['/usr/bin/usbview']
 Write to package-work.txt file: usbview
 Write to package-binaries.txt file: ['/usr/bin/usbview']
 ['/usr/bin/usbview']
+Write pickle file
+tar_out:
+Package-nr:4309 of 11000, Name:unity-lens-applications-dbgsym
+Package >unity-lens-applications< not in package-all.txt file
+Write to package-all.txt file: unity-lens-applications
+In package >unity-lens-applications< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: unity-lens-applications
+[]
+Package-nr:4310 of 11000, Name:python3-urwid-dbgsym
+Package >python3-urwid< not in package-all.txt file
+Write to package-all.txt file: python3-urwid
+In package >python3-urwid< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: python3-urwid
+[]
+Package-nr:4311 of 11000, Name:unionfs-fuse-dbgsym
+Package >unionfs-fuse< not in package-all.txt file
+Write to package-all.txt file: unionfs-fuse
+In package >unionfs-fuse< are these binaries: ['/usr/bin/unionfs', '/usr/bin/unionfsctl', '/usr/sbin/mount.unionfs', '/usr/bin/unionfs-fuse']
+Real binaries:['/usr/bin/unionfs', '/usr/bin/unionfsctl']
+Write to package-work.txt file: unionfs-fuse
+Write to package-binaries.txt file: ['/usr/bin/unionfs', '/usr/bin/unionfsctl']
+['/usr/bin/unionfs', '/usr/bin/unionfsctl']

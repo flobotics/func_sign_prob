@@ -1466,3 +1466,5 @@ python3-libfwsi
 python3-libfwnt
 python3-fiu
 usbauth-notifier
+unity-lens-applications
+python3-urwid
