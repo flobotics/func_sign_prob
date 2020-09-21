@@ -2932,3 +2932,4 @@ uaputl
 untex
 usbrelay
 ukui-greeter
+unpaper

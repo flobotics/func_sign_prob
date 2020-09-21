@@ -8395,3 +8395,4 @@
 /usr/bin/untex
 /usr/bin/usbrelay
 /usr/sbin/ukui-greeter
+/usr/bin/unpaper
