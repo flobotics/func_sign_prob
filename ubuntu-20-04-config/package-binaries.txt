@@ -7877,3 +7877,15 @@
 /usr/bin/vim.athena
 /usr/bin/vim.nox
 /usr/bin/xvile
+/usr/bin/csg_boltzmann
+/usr/bin/csg_density
+/usr/bin/csg_dlptopol
+/usr/bin/csg_dump
+/usr/bin/csg_fmatch
+/usr/bin/csg_gmxtopol
+/usr/bin/csg_imc_solve
+/usr/bin/csg_map
+/usr/bin/csg_property
+/usr/bin/csg_resample
+/usr/bin/csg_reupdate
+/usr/bin/csg_stat

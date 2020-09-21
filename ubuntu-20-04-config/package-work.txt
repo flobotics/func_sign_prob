@@ -2710,3 +2710,4 @@ vim-gtk3
 vim-athena
 vim-nox
 xvile
+votca-csg

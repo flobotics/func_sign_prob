@@ -24433,3 +24433,26 @@ Real binaries:['/usr/bin/xvile']
 Write to package-work.txt file: xvile
 Write to package-binaries.txt file: ['/usr/bin/xvile']
 ['/usr/bin/xvile']
+Write pickle file
+tar_out:
+Package-nr:4124 of 11000, Name:vile-dbgsym
+Skip package >vile<, already in package-all.txt file
+[]
+Package-nr:4125 of 11000, Name:vile-filters-dbgsym
+Package >vile-filters< not in package-all.txt file
+Write to package-all.txt file: vile-filters
+In package >vile-filters< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: vile-filters
+[]
+Package-nr:4126 of 11000, Name:vala-panel-dbgsym
+Skip package >vala-panel<, already in package-all.txt file
+[]
+Package-nr:4127 of 11000, Name:votca-csg-dbgsym
+Package >votca-csg< not in package-all.txt file
+Write to package-all.txt file: votca-csg
+In package >votca-csg< are these binaries: ['/usr/bin/csg_boltzmann', '/usr/bin/csg_call', '/usr/bin/csg_density', '/usr/bin/csg_dlptopol', '/usr/bin/csg_dump', '/usr/bin/csg_fmatch', '/usr/bin/csg_gmxtopol', '/usr/bin/csg_imc_solve', '/usr/bin/csg_inverse', '/usr/bin/csg_map', '/usr/bin/csg_property', '/usr/bin/csg_resample', '/usr/bin/csg_reupdate', '/usr/bin/csg_stat']
+Real binaries:['/usr/bin/csg_boltzmann', '/usr/bin/csg_density', '/usr/bin/csg_dlptopol', '/usr/bin/csg_dump', '/usr/bin/csg_fmatch', '/usr/bin/csg_gmxtopol', '/usr/bin/csg_imc_solve', '/usr/bin/csg_map', '/usr/bin/csg_property', '/usr/bin/csg_resample', '/usr/bin/csg_reupdate', '/usr/bin/csg_stat']
+Write to package-work.txt file: votca-csg
+Write to package-binaries.txt file: ['/usr/bin/csg_boltzmann', '/usr/bin/csg_density', '/usr/bin/csg_dlptopol', '/usr/bin/csg_dump', '/usr/bin/csg_fmatch', '/usr/bin/csg_gmxtopol', '/usr/bin/csg_imc_solve', '/usr/bin/csg_map', '/usr/bin/csg_property', '/usr/bin/csg_resample', '/usr/bin/csg_reupdate', '/usr/bin/csg_stat']
+['/usr/bin/csg_boltzmann', '/usr/bin/csg_density', '/usr/bin/csg_dlptopol', '/usr/bin/csg_dump', '/usr/bin/csg_fmatch', '/usr/bin/csg_gmxtopol', '/usr/bin/csg_imc_solve', '/usr/bin/csg_map', '/usr/bin/csg_property', '/usr/bin/csg_resample', '/usr/bin/csg_reupdate', '/usr/bin/csg_stat']
