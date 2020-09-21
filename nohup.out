@@ -33693,3 +33693,16 @@ Real binaries:['/usr/bin/sollya']
 Write to package-work.txt file: sollya
 Write to package-binaries.txt file: ['/usr/bin/sollya']
 ['/usr/bin/sollya']
+Write pickle file
+tar_out:
+Package-nr:5202 of 11000, Name:sn-dbgsym
+Skip package >sn<, already in package-all.txt file
+[]
+Package-nr:5203 of 11000, Name:socnetv-dbgsym
+Package >socnetv< not in package-all.txt file
+Write to package-all.txt file: socnetv
+In package >socnetv< are these binaries: ['/usr/bin/socnetv']
+Real binaries:['/usr/bin/socnetv']
+Write to package-work.txt file: socnetv
+Write to package-binaries.txt file: ['/usr/bin/socnetv']
+['/usr/bin/socnetv']

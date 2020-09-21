@@ -9567,3 +9567,4 @@
 /usr/bin/yakuake
 /usr/bin/ssh-contact
 /usr/bin/sollya
+/usr/bin/socnetv

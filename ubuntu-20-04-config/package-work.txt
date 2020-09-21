@@ -3432,3 +3432,4 @@ yrmcds
 yakuake
 ssh-contact-client
 sollya
+socnetv

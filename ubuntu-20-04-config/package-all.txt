@@ -5132,3 +5132,4 @@ yakuake
 ssh-contact-service
 ssh-contact-client
 sollya
+socnetv
