@@ -9596,3 +9596,4 @@
 /usr/sbin/sogo-slapd-sockd
 /usr/sbin/sogo-tool
 /usr/sbin/sogod
+/usr/bin/squeezelite-pa

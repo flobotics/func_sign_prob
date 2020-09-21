@@ -33833,3 +33833,30 @@ Real binaries:['/usr/sbin/sogo-ealarms-notify', '/usr/sbin/sogo-slapd-sockd', '/
 Write to package-work.txt file: sogo
 Write to package-binaries.txt file: ['/usr/sbin/sogo-ealarms-notify', '/usr/sbin/sogo-slapd-sockd', '/usr/sbin/sogo-tool', '/usr/sbin/sogod']
 ['/usr/sbin/sogo-ealarms-notify', '/usr/sbin/sogo-slapd-sockd', '/usr/sbin/sogo-tool', '/usr/sbin/sogod']
+Write pickle file
+tar_out:
+Package-nr:5218 of 11000, Name:spell-dbgsym
+Skip package >spell<, already in package-all.txt file
+[]
+Package-nr:5219 of 11000, Name:python3-slepc4py-complex-dbgsym
+Package >python3-slepc4py-complex< not in package-all.txt file
+Write to package-all.txt file: python3-slepc4py-complex
+In package >python3-slepc4py-complex< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: python3-slepc4py-complex
+[]
+Package-nr:5220 of 11000, Name:python3-slepc4py-real-dbgsym
+Package >python3-slepc4py-real< not in package-all.txt file
+Write to package-all.txt file: python3-slepc4py-real
+In package >python3-slepc4py-real< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: python3-slepc4py-real
+[]
+Package-nr:5221 of 11000, Name:squeezelite-pa-dbgsym
+Package >squeezelite-pa< not in package-all.txt file
+Write to package-all.txt file: squeezelite-pa
+In package >squeezelite-pa< are these binaries: ['/usr/bin/squeezelite-pa', '/usr/bin/squeezelite']
+Real binaries:['/usr/bin/squeezelite-pa']
+Write to package-work.txt file: squeezelite-pa
+Write to package-binaries.txt file: ['/usr/bin/squeezelite-pa']
+['/usr/bin/squeezelite-pa']

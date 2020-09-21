@@ -1697,3 +1697,5 @@ yorick-gl
 ssh-contact-service
 systemtap-server
 python3-segyio
+python3-slepc4py-complex
+python3-slepc4py-real
