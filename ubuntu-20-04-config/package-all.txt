@@ -4826,3 +4826,4 @@ sd2odf
 wps2epub
 wpg2odg
 abw2epub
+mwaw2epub
