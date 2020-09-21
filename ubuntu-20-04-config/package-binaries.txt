@@ -9366,3 +9366,7 @@
 /usr/bin/wxcopy
 /usr/bin/wxpaste
 /usr/bin/wmanager
+/usr/bin/wavbreaker
+/usr/bin/wavgen
+/usr/bin/wavinfo
+/usr/bin/wavmerge
