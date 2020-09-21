@@ -25605,3 +25605,13 @@ Real binaries:['/usr/bin/z80dasm']
 Write to package-work.txt file: z80dasm
 Write to package-binaries.txt file: ['/usr/bin/z80dasm']
 ['/usr/bin/z80dasm']
+Write pickle file
+tar_out:
+Package-nr:4258 of 11000, Name:zutils-dbgsym
+Package >zutils< not in package-all.txt file
+Write to package-all.txt file: zutils
+In package >zutils< are these binaries: ['/bin/zcat', 'package diverts others to: /bin/zcat.gzip', '/bin/zcmp', 'package diverts others to: /bin/zcmp.gzip', '/bin/zdiff', 'package diverts others to: /bin/zdiff.gzip', '/bin/zegrep', 'package diverts others to: /bin/zegrep.gzip', '/bin/zfgrep', 'package diverts others to: /bin/zfgrep.gzip', '/bin/zgrep', 'package diverts others to: /bin/zgrep.gzip', '/bin/ztest', '/bin/zupdate']
+Real binaries:['/bin/zcat', '/bin/zcmp', '/bin/zdiff', '/bin/zgrep', '/bin/ztest', '/bin/zupdate']
+Write to package-work.txt file: zutils
+Write to package-binaries.txt file: ['/bin/zcmp', '/bin/zdiff', '/bin/zgrep', '/bin/ztest', '/bin/zupdate']
+['/bin/zcmp', '/bin/zdiff', '/bin/zgrep', '/bin/ztest', '/bin/zupdate']

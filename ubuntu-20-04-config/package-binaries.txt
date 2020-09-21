@@ -8105,3 +8105,8 @@
 /usr/sbin/zypp-refresh
 /usr/bin/z3
 /usr/bin/z80dasm
+/bin/zcmp
+/bin/zdiff
+/bin/zgrep
+/bin/ztest
+/bin/zupdate
