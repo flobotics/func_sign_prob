@@ -5025,3 +5025,4 @@ wireshark-qt
 tshark
 wmail
 wget2
+wmifs

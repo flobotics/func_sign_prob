@@ -32709,3 +32709,13 @@ Real binaries:['/usr/bin/wget2']
 Write to package-work.txt file: wget2
 Write to package-binaries.txt file: ['/usr/bin/wget2']
 ['/usr/bin/wget2']
+Write pickle file
+tar_out:
+Package-nr:5086 of 11000, Name:wmifs-dbgsym
+Package >wmifs< not in package-all.txt file
+Write to package-all.txt file: wmifs
+In package >wmifs< are these binaries: ['/usr/bin/wmifs']
+Real binaries:['/usr/bin/wmifs']
+Write to package-work.txt file: wmifs
+Write to package-binaries.txt file: ['/usr/bin/wmifs']
+['/usr/bin/wmifs']
