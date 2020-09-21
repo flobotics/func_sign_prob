@@ -8167,3 +8167,4 @@
 /usr/bin/zinnia
 /usr/bin/zinnia_convert
 /usr/bin/zinnia_learn
+/usr/bin/zita-rev1
