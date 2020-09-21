@@ -9525,3 +9525,5 @@
 /usr/bin/ykushcmd
 /usr/bin/yodl
 /usr/bin/yodlpost
+/usr/bin/json_reformat
+/usr/bin/json_verify

@@ -5085,3 +5085,4 @@ yubico-piv-tool
 yasm
 ykush-control
 yodl
+yajl-tools
