@@ -1689,3 +1689,4 @@ yorick-z
 yorick-ynfft
 yorick-av
 ycmd
+yorick-gy

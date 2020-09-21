@@ -9556,3 +9556,5 @@
 /usr/bin/kylin-assistant
 /usr/bin/yatm
 /usr/bin/yasw
+/usr/bin/yadifa
+/usr/sbin/yadifad

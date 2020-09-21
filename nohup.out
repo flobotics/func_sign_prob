@@ -33542,3 +33542,20 @@ Real binaries:['/usr/bin/yasw']
 Write to package-work.txt file: yasw
 Write to package-binaries.txt file: ['/usr/bin/yasw']
 ['/usr/bin/yasw']
+Write pickle file
+tar_out:
+Package-nr:5183 of 11000, Name:yorick-gy-dbgsym
+Package >yorick-gy< not in package-all.txt file
+Write to package-all.txt file: yorick-gy
+In package >yorick-gy< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: yorick-gy
+[]
+Package-nr:5184 of 11000, Name:yadifa-dbgsym
+Package >yadifa< not in package-all.txt file
+Write to package-all.txt file: yadifa
+In package >yadifa< are these binaries: ['/usr/bin/yadifa', '/usr/sbin/yadifad']
+Real binaries:['/usr/bin/yadifa', '/usr/sbin/yadifad']
+Write to package-work.txt file: yadifa
+Write to package-binaries.txt file: ['/usr/bin/yadifa', '/usr/sbin/yadifad']
+['/usr/bin/yadifa', '/usr/sbin/yadifad']

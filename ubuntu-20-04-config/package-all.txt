@@ -5116,3 +5116,5 @@ yorick-av
 yatm
 ycmd
 yasw
+yorick-gy
+yadifa
