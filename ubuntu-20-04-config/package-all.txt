@@ -5149,3 +5149,4 @@ sogo
 python3-slepc4py-complex
 python3-slepc4py-real
 squeezelite-pa
+slurm

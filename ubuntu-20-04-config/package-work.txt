@@ -3445,3 +3445,4 @@ samtools
 sysbench
 sogo
 squeezelite-pa
+slurm

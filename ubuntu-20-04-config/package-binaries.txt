@@ -9597,3 +9597,4 @@
 /usr/sbin/sogo-tool
 /usr/sbin/sogod
 /usr/bin/squeezelite-pa
+/usr/bin/slurm
