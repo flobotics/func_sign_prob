@@ -9520,3 +9520,5 @@
 /usr/bin/yaz-icu
 /usr/bin/ytree
 /usr/bin/yubico-piv-tool
+/usr/bin/yasm
+/usr/bin/ytasm
