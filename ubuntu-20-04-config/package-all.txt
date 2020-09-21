@@ -4898,3 +4898,4 @@ wininfo
 watchman
 python3-pywatchman
 citadel-webcit
+kde-config-tablet

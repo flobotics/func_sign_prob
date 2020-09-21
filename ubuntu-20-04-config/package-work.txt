@@ -3264,3 +3264,4 @@ weightwatcher
 wininfo
 watchman
 citadel-webcit
+kde-config-tablet
