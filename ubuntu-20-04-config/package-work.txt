@@ -2984,3 +2984,4 @@ nbd-client
 node-zipfile
 nextepc-pgw
 nextepc-pcrf
+nextepc-hss

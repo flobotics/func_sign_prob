@@ -27927,3 +27927,13 @@ Real binaries:['/usr/bin/nextepc-pcrfd']
 Write to package-work.txt file: nextepc-pcrf
 Write to package-binaries.txt file: ['/usr/bin/nextepc-pcrfd']
 ['/usr/bin/nextepc-pcrfd']
+Write pickle file
+tar_out:
+Package-nr:4528 of 11000, Name:nextepc-hss-dbgsym
+Package >nextepc-hss< not in package-all.txt file
+Write to package-all.txt file: nextepc-hss
+In package >nextepc-hss< are these binaries: ['/usr/bin/nextepc-hssd']
+Real binaries:['/usr/bin/nextepc-hssd']
+Write to package-work.txt file: nextepc-hss
+Write to package-binaries.txt file: ['/usr/bin/nextepc-hssd']
+['/usr/bin/nextepc-hssd']
