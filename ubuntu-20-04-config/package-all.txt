@@ -5059,3 +5059,6 @@ yp-tools
 yasr
 yc-el
 yeahconsole
+python3-svipc
+yorick-svipc
+yavta

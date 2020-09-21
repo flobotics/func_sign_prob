@@ -3388,3 +3388,4 @@ livemedia-utils
 yp-tools
 yasr
 yeahconsole
+yavta

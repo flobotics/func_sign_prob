@@ -1666,3 +1666,5 @@ python3-libnbd
 gstreamer1.0-nice
 python3-liblnk
 yc-el
+python3-svipc
+yorick-svipc

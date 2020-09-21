@@ -9505,3 +9505,4 @@
 /usr/sbin/ypset
 /usr/bin/yasr
 /usr/bin/yeahconsole
+/usr/bin/yavta

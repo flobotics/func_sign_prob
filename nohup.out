@@ -33031,3 +33031,27 @@ Real binaries:['/usr/bin/yeahconsole']
 Write to package-work.txt file: yeahconsole
 Write to package-binaries.txt file: ['/usr/bin/yeahconsole']
 ['/usr/bin/yeahconsole']
+Write pickle file
+tar_out:
+Package-nr:5122 of 11000, Name:python3-svipc-dbgsym
+Package >python3-svipc< not in package-all.txt file
+Write to package-all.txt file: python3-svipc
+In package >python3-svipc< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: python3-svipc
+[]
+Package-nr:5123 of 11000, Name:yorick-svipc-dbgsym
+Package >yorick-svipc< not in package-all.txt file
+Write to package-all.txt file: yorick-svipc
+In package >yorick-svipc< are these binaries: []
+Real binaries:[]
+Write to package-dontwork.txt file: yorick-svipc
+[]
+Package-nr:5124 of 11000, Name:yavta-dbgsym
+Package >yavta< not in package-all.txt file
+Write to package-all.txt file: yavta
+In package >yavta< are these binaries: ['/usr/bin/yavta']
+Real binaries:['/usr/bin/yavta']
+Write to package-work.txt file: yavta
+Write to package-binaries.txt file: ['/usr/bin/yavta']
+['/usr/bin/yavta']
