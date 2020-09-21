@@ -4288,3 +4288,5 @@ python3-zope.i18nmessageid
 zopfli
 zephyr-server
 zephyr-clients
+zephyr-server-krb5
+zinnia-utils

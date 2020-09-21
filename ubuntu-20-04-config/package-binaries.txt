@@ -8164,3 +8164,6 @@
 /usr/bin/zwrite
 /usr/sbin/zhm
 /usr/sbin/zshutdown_notify
+/usr/bin/zinnia
+/usr/bin/zinnia_convert
+/usr/bin/zinnia_learn
