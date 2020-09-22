@@ -38,6 +38,8 @@ def get_vocabulary(full_path_vocab_file):
 
 
 def save_embeddings_to_pickle(embedding_build_dir, embedding_build_file, full_path_embeddings_save_dir, embeddings_list):
+    pickle_list = list()
+    
     ###check if file is in embedding_build_dir ?
     if os.path.isfile(embedding_build_dir + '/' + embedding_build_file + '.pickle.tar.bz2'):
         print(f'file found')
@@ -67,11 +69,15 @@ def save_embeddings_to_pickle(embedding_build_dir, embedding_build_file, full_pa
         os.remove(embedding_build_dir + '/' + embedding_build_file + '.pickle')
         ### check size of .pickle.tar.bz2, need < 100mb
         file_stats = os.stat(embedding_build_dir + '/' + embedding_build_file + '.pickle.tar.bz2')
-        print(f'File size of .pickle.tar.bz2 actually is >{file_stats.st_size}< bytes = >{file_stats.st_size/1024}< MB')
-        if (int(file_stats.st_size/1024)) < 13:
+        print(f'File size of .pickle.tar.bz2 actually is >{file_stats.st_size}< bytes \
+                =>{file_stats.st_size/1024}< kb or =>{file_stats.st_size/1024/1024}< Mb')
+        if (int(file_stats.st_size/1024/1024)) < 13:   ###TODO ~<100mb
             print('smaller')
+            ### OK, let it be
         else:
+            ### dont save last embeddings, copy .pickle.tar.bz2 to e.g. ubuntu-20-04-att-embeddings
             print('bigger--------------------')
+            ### then save last embeddings to new .pickle.tar.bz2
     
     ### if no file is there, we build it
     else:
