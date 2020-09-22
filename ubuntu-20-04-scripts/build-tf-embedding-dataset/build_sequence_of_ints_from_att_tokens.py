@@ -65,7 +65,13 @@ def save_embeddings_to_pickle(embedding_build_dir, embedding_build_file, full_pa
         tar.close()
         ###delete pickle file
         os.remove(embedding_build_dir + '/' + embedding_build_file + '.pickle')
-        print(f'type: {type(pickle_list)}')
+        ### check size of .pickle.tar.bz2, need < 100mb
+        file_stats = os.stat(embedding_build_dir + '/' + embedding_build_file + '.pickle.tar.bz2')
+        print(f'File size of .pickle.tar.bz2 actually is >{file_stats.st_size}< bytes = >{file_stats.st_size/1024}< MB')
+        if (int(file_stats.st_size/1024)) < 13:
+            print('smaller')
+        else:
+            print('bigger--------------------')
     
     ### if no file is there, we build it
     else:
