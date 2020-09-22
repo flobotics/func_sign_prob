@@ -50,7 +50,21 @@ def save_embeddings_to_pickle(embedding_build_dir, embedding_build_file, full_pa
         ### read out
         pickle_list = pickle.load(pickle_file, encoding='latin1')
         pickle_file.close()
+        os.remove(embedding_build_dir + '/' + embedding_build_file + '.pickle')
         ### and extend embeddings_list
+        pickle_list.extend(embeddings_list)
+        ### and save it as pickle 
+        pickle_file = open(embedding_build_dir + '/' + embedding_build_file + '.pickle','wb+')
+        ### dump to pickle
+        pickle.dump(pickle_list, pickle_file)
+        pickle_file.close()
+        ### tar it again
+        tar = tarfile.open(embedding_build_dir + '/' + embedding_build_file + '.pickle.tar.bz2', "w:bz2")
+        aname = embedding_build_file + ".pickle"
+        tar.add(embedding_build_dir + '/' + embedding_build_file + '.pickle', arcname=aname)
+        tar.close()
+        ###delete pickle file
+        os.remove(embedding_build_dir + '/' + embedding_build_file + '.pickle')
         print(f'type: {type(pickle_list)}')
     
     ### if no file is there, we build it
