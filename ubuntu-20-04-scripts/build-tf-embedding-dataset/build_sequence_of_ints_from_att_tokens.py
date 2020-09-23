@@ -2,6 +2,7 @@ import pickle
 import os
 from datetime import datetime
 import tarfile
+import shutil
 
 
 def get_all_pickle_filenames(pickle_file_dir):
@@ -37,61 +38,88 @@ def get_vocabulary(full_path_vocab_file):
     return pickle_list
 
 
-def save_embeddings_to_pickle(embedding_build_dir, embedding_build_file, full_path_embeddings_save_dir, embeddings_list):
-    pickle_list = list()
+def save_embeddings_to_pickle(embedding_build_dir, embedding_build_file, embedding_store_dir, full_path_embeddings_save_dir, embeddings_list):
+    global store_counter
     
-    ###check if file is in embedding_build_dir ?
-    if os.path.isfile(embedding_build_dir + '/' + embedding_build_file + '.pickle.tar.bz2'):
+    pickle_list = list()
+    pick_tar_bz2 = embedding_build_dir + "/" + embedding_build_file + ".pickle.tar.bz2"
+    pick_tar_bz2_shadow = embedding_build_dir + '/' + 'shadow-' + embedding_build_file + '.pickle.tar.bz2'
+    pickle_raw = embedding_build_dir + '/' + embedding_build_file + '.pickle'
+    
+    ###check if .pickle.tar.bz2 file is in embedding_build_dir ?
+    if os.path.isfile(pick_tar_bz2):
         print(f'file found')
-        ###untar 
-        tar = tarfile.open(embedding_build_dir + '/' + embedding_build_file + '.pickle.tar.bz2', "r:bz2")  
+        ### create/copy 'shadow' file for later usage
+        shutil.copyfile(pick_tar_bz2, pick_tar_bz2_shadow)
+        ###untar (does not delete the .pickle.tar.bz2 file)
+        tar = tarfile.open(pick_tar_bz2, "r:bz2")  
         tar.extractall(embedding_build_dir)
         tar.close()
         ### and open file 
-        pickle_file = open(embedding_build_dir + '/' + embedding_build_file + '.pickle','rb')
+        pickle_file = open(pickle_raw,'rb')
         ### read out
         pickle_list = pickle.load(pickle_file, encoding='latin1')
         pickle_file.close()
-        os.remove(embedding_build_dir + '/' + embedding_build_file + '.pickle')
+        os.remove(pickle_raw)
         ### and extend embeddings_list
         pickle_list.extend(embeddings_list)
         ### and save it as pickle 
-        pickle_file = open(embedding_build_dir + '/' + embedding_build_file + '.pickle','wb+')
+        pickle_file = open(pickle_raw,'wb+')
         ### dump to pickle
         pickle.dump(pickle_list, pickle_file)
         pickle_file.close()
         ### tar it again
-        tar = tarfile.open(embedding_build_dir + '/' + embedding_build_file + '.pickle.tar.bz2', "w:bz2")
+        tar = tarfile.open(pick_tar_bz2, "w:bz2")
         aname = embedding_build_file + ".pickle"
-        tar.add(embedding_build_dir + '/' + embedding_build_file + '.pickle', arcname=aname)
+        tar.add(pickle_raw, arcname=aname)
         tar.close()
         ###delete pickle file
-        os.remove(embedding_build_dir + '/' + embedding_build_file + '.pickle')
+        os.remove(pickle_raw)
         ### check size of .pickle.tar.bz2, need < 100mb
-        file_stats = os.stat(embedding_build_dir + '/' + embedding_build_file + '.pickle.tar.bz2')
+        file_stats = os.stat(pick_tar_bz2)
         print(f'File size of .pickle.tar.bz2 actually is >{file_stats.st_size}< bytes \
                 =>{file_stats.st_size/1024}< kb or =>{file_stats.st_size/1024/1024}< Mb')
-        if (int(file_stats.st_size/1024/1024)) < 13:   ###TODO ~<100mb
+        if (int(file_stats.st_size/1024)) < 13:   ###TODO ~<100mb
             print('smaller')
             ### OK, let it be
         else:
-            ### dont save last embeddings, copy .pickle.tar.bz2 to e.g. ubuntu-20-04-att-embeddings
             print('bigger--------------------')
-            ### then save last embeddings to new .pickle.tar.bz2
+            
+            ### dont save last embeddings, copy shadow-*.pickle.tar.bz2 to e.g. ubuntu-20-04-att-embeddings
+            shutil.copyfile(pick_tar_bz2_shadow,
+                            embedding_store_dir + '/' + 'att-embedding-ints-' + str(store_counter) + '.pickle.tar.bz2')
+            store_counter += 1
+            ### delete old pickle
+            #os.remove(embedding_build_dir + '/' + embedding_build_file + '.pickle')
+            os.remove(pick_tar_bz2_shadow)
+            ### delete old .tar.bz2
+            os.remove(pick_tar_bz2)
+            ### then save last embeddings to new .pickle
+            pickle_file = open(pickle_raw,'wb+')
+            pickle_list = pickle.dump(embeddings_list, pickle_file)
+            pickle_file.close()
+            ### then tar it
+            tar = tarfile.open(pick_tar_bz2, "w:bz2")
+            aname = embedding_build_file + ".pickle"
+            tar.add(pickle_raw, arcname=aname)
+            tar.close()
+            ### remove old pickle
+            os.remove(pickle_raw)
+            
     
     ### if no file is there, we build it
     else:
         print(f"no file >{embedding_build_dir + '/' + embedding_build_file + '.pickle.tar.bz2'}< there, we build it")
-        pickle_file = open(embedding_build_dir + '/' + embedding_build_file + '.pickle','wb+')
+        pickle_file = open(pickle_raw,'wb+')
         pickle_list = pickle.dump(embeddings_list, pickle_file)
         pickle_file.close()
         ### now we tar it to see its real size
         #'w:bz2'
-        tar = tarfile.open(embedding_build_dir + '/' + embedding_build_file + '.pickle.tar.bz2', "w:bz2")
+        tar = tarfile.open(pick_tar_bz2, "w:bz2")
         aname = embedding_build_file + ".pickle"
-        tar.add(embedding_build_dir + '/' + embedding_build_file + '.pickle', arcname=aname)
+        tar.add(pickle_raw, arcname=aname)
         tar.close()
-        os.remove(embedding_build_dir + '/' + embedding_build_file + '.pickle')
+        os.remove(pickle_raw)
         
     
     #pickle_file = open(full_path_embeddings_file,'wb+')
@@ -102,12 +130,14 @@ def save_embeddings_to_pickle(embedding_build_dir, embedding_build_file, full_pa
     
 #### main
 start=datetime.now()
+store_counter = 0
 
 bag_styled_file_dir = "/tmp/savetest"
 embedding_styled_file_dir = "/tmp/embtest"
 embedding_build_dir = "/tmp/embbuild"
 embedding_build_filename = "embbuildfile"
 full_path_vocab_file = "/tmp/vocab.pickle"
+embedding_store_dir = "/tmp/embstoredir"
 
 
 embeddings_list = list()
@@ -127,6 +157,10 @@ if not os.path.isdir(embedding_styled_file_dir):
     
 if not os.path.isdir(embedding_build_dir):
     print(f'Error: No dir to build embeddings file in >{embedding_build_dir}< . You need to create it.')
+    exit()
+    
+if not os.path.isdir(embedding_store_dir):
+    print(f'Error: No dir to store the resulting embedding-ints+labels file in >{embedding_store_dir}<. You need to create it.')
     exit()
     
 ### get the vocab
@@ -164,7 +198,7 @@ for file in all_files:
         disas_embeddings = []     
     
     ### save every embedding to its own pickle file
-    save_embeddings_to_pickle(embedding_build_dir, embedding_build_filename, embedding_styled_file_dir, embeddings_list)
+    save_embeddings_to_pickle(embedding_build_dir, embedding_build_filename, embedding_store_dir, embedding_styled_file_dir, embeddings_list)
     embeddings_list = []
     
     
