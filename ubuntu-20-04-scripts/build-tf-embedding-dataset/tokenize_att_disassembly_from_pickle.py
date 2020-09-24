@@ -106,6 +106,8 @@ def get_raw_return_type_from_gdb_ptype(gdb_ptype):
         ### delete some strange return-types
         if raw_gdb_ptype == 'unsigned char (*)[16]':
             return 'delete'
+        elif raw_gdb_ptype == 'unsigned char (*)[12]':
+            return 'delete'
         elif raw_gdb_ptype == 'int (*)(int (*)(void *, int, int), void *, int)':
             return 'delete'
         
