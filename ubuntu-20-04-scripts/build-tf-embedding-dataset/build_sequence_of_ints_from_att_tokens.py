@@ -69,6 +69,7 @@ def save_embeddings_to_pickle(embedding_build_dir, embedding_build_file, embeddi
         pickle.dump(pickle_list, pickle_file)
         pickle_file.close()
         ### tar it again
+        os.remove(pick_tar_bz2)
         tar = tarfile.open(pick_tar_bz2, "w:bz2")
         aname = embedding_build_file + ".pickle"
         tar.add(pickle_raw, arcname=aname)
@@ -80,7 +81,8 @@ def save_embeddings_to_pickle(embedding_build_dir, embedding_build_file, embeddi
         print(f'File size of .pickle.tar.bz2 actually is >{file_stats.st_size}< bytes \
                 =>{file_stats.st_size/1024}< kb or =>{file_stats.st_size/1024/1024}< Mb')
         
-        github_filesize_in_mb = 40000 / 1024 / 1024
+        ### 85mb
+        github_filesize_in_mb = 85000000 / 1024 / 1024
         if (file_stats.st_size/1024/1024) < github_filesize_in_mb:   ###TODO ~<100mb
             print(f'File size is smaller than >{github_filesize_in_mb}< Mb its >{file_stats.st_size/1024/1024}< Mb, so we try to add more data')
             ### OK, let it be

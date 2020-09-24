@@ -76,25 +76,37 @@ def get_raw_return_type_from_gdb_ptype(gdb_ptype):
                         'char', 'char *', 'unsigned char *', 'char **', 'const char *', 'signed char',
                         'const char **', 'unsigned char', 'const char', 'const unsigned char *',
                         'unsigned char **', 'const char * const *', 'char32_t',
-                        'signed char *', 'wchar_t *', 'const char16_t *',
+                        'signed char *', 'wchar_t *', 'const char16_t *', 'char ***',
+                        'wchar_t', 'const char * const', 'const wchar_t *', 'char16_t *',
+                        'const unsigned char **', 'char * const *', 'const signed char *',
                         'unsigned short', 'short', 'unsigned short *', 'short *',
                         'const unsigned short *', 'unsigned short **', 'short **',
+                        'const unsigned short',
                         'int', 'int *', 'unsigned int', 'const int *', 'const unsigned int *',
                         'int **', 'unsigned int **', 'volatile int *',
-                        'unsigned int *', 'const unsigned int', 'const int',
+                        'unsigned int *', 'const unsigned int', 'const int', 'int ***',
+                        '__int128',
                         'long','unsigned long', 'unsigned long long', 'unsigned long *', 'long long',
                         'const unsigned long', 'unsigned long **', 'const long', 'const long *',
                         'long *', 'const unsigned long long *', 'const unsigned long *',
-                        'long long *',
+                        'long long *', 'unsigned long ***',
                         'double', 'const double *', 'double *', 'const double', 'long double',
-                        'double **',
+                        'double **', 'double ***',
                         'float', 'const float *', 'float *', 'const float',
-                        'float **']
+                        'float **', 'float ***', 'float ****',
+                        'complex *']
+    
     
     if "type =" in gdb_ptype:
         ### pattern based
         new_gdb_ptype = gdb_ptype.replace('type =', '')
         raw_gdb_ptype = new_gdb_ptype.strip()
+        
+        ### delete some strange return-types
+        if raw_gdb_ptype == 'unsigned char (*)[16]':
+            return 'delete'
+        elif raw_gdb_ptype == 'int (*)(int (*)(void *, int, int), void *, int)':
+            return 'delete'
         
         ### check if we directly find a valid return type
         for return_type in return_type_list:
@@ -151,6 +163,10 @@ def get_raw_return_type_from_gdb_ptype(gdb_ptype):
                 elif 'std::' in front_str:
                     return 'delete'
                 elif 'QPair' in front_str:
+                    return 'delete'
+                elif 'ts::Rv' in front_str: ##strange stuff from a package,dont know,delete
+                    return 'delete'
+                elif 'fMPI' in front_str: #strange
                     return 'delete'
                 else:
                     print(f'Error star_count struct >{star_count}< front_str >{front_str}<')
@@ -374,7 +390,7 @@ for one_tar_file in all_tar_files:
     ### check if we have already done this package in a previous run
     for bag_file in all_bag_styled_files:
         #print(f'bag-file:{bag_file}')
-        if bag_file.replace('att-', '') == one_tar_file.replace(".tar.bz2", ""):
+        if bag_file.replace('att-tokenized-', '') == one_tar_file.replace(".tar.bz2", ""):
             #print('Already tokenized this file')
             cont = True
             break
