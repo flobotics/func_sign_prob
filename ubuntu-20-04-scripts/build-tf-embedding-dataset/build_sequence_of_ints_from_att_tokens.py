@@ -48,8 +48,8 @@ def save_embeddings_to_pickle(embedding_build_dir, embedding_build_file, embeddi
     
     ###check if .pickle.tar.bz2 file is in embedding_build_dir ?
     if os.path.isfile(pick_tar_bz2):
-        print(f'file found')
-        ### create/copy 'shadow' file for later usage
+        print(f'pickle file {pick_tar_bz2} found')
+        ### copy to 'shadow' file for later usage
         shutil.copyfile(pick_tar_bz2, pick_tar_bz2_shadow)
         ###untar (does not delete the .pickle.tar.bz2 file)
         tar = tarfile.open(pick_tar_bz2, "r:bz2")  
@@ -79,15 +79,20 @@ def save_embeddings_to_pickle(embedding_build_dir, embedding_build_file, embeddi
         file_stats = os.stat(pick_tar_bz2)
         print(f'File size of .pickle.tar.bz2 actually is >{file_stats.st_size}< bytes \
                 =>{file_stats.st_size/1024}< kb or =>{file_stats.st_size/1024/1024}< Mb')
-        if (int(file_stats.st_size/1024)) < 13:   ###TODO ~<100mb
-            print('smaller')
+        
+        github_filesize_in_mb = 40000 / 1024 / 1024
+        if (file_stats.st_size/1024/1024) < github_filesize_in_mb:   ###TODO ~<100mb
+            print(f'File size is smaller than >{github_filesize_in_mb}< Mb its >{file_stats.st_size/1024/1024}< Mb, so we try to add more data')
             ### OK, let it be
         else:
-            print('bigger--------------------')
+            print(f'File size is bigger than >{github_filesize_in_mb}<, Mb \
+                    its >{file_stats.st_size/1024/1024}< Mb\
+                    so we copy the shadow-file to >{embedding_store_dir}<, and create new tmp file')
             
             ### dont save last embeddings, copy shadow-*.pickle.tar.bz2 to e.g. ubuntu-20-04-att-embeddings
             shutil.copyfile(pick_tar_bz2_shadow,
                             embedding_store_dir + '/' + 'att-embedding-ints-' + str(store_counter) + '.pickle.tar.bz2')
+            ###increment counter which gets added to the stored file name
             store_counter += 1
             ### delete old pickle
             #os.remove(embedding_build_dir + '/' + embedding_build_file + '.pickle')
@@ -107,9 +112,9 @@ def save_embeddings_to_pickle(embedding_build_dir, embedding_build_file, embeddi
             os.remove(pickle_raw)
             
     
-    ### if no file is there, we build it
+    ### if no file is there, we build it, that is the first round
     else:
-        print(f"no file >{embedding_build_dir + '/' + embedding_build_file + '.pickle.tar.bz2'}< there, we build it")
+        print(f"No file >{embedding_build_dir + '/' + embedding_build_file + '.pickle.tar.bz2'}< there, we build it")
         pickle_file = open(pickle_raw,'wb+')
         pickle_list = pickle.dump(embeddings_list, pickle_file)
         pickle_file.close()
@@ -148,7 +153,7 @@ nr_of_disas = 0
 
 ### check if dirs are there
 if not os.path.isdir(bag_styled_file_dir):
-    print(f'Error: No dir with tokenized files >{bag_styled_file_dir}<')
+    print(f'Error: No dir with tokenized files >{bag_styled_file_dir}<. You run tokenize_att_disassembly_from_pickle.py before?')
     exit()
     
 if not os.path.isdir(embedding_styled_file_dir):
@@ -166,7 +171,7 @@ if not os.path.isdir(embedding_store_dir):
 ### get the vocab
 vocab = get_vocabulary(full_path_vocab_file)
 if len(vocab) == 0:
-    print(f'Error: No vocabulary found. Create it first.')
+    print(f'Error: No vocabulary found. You run build_vocabulary_from_tokenized_pickle_files.py before ?.')
     exit()
 
 ### get list with all files, we want to replace word with embedding-int

@@ -2,7 +2,7 @@ import tarfile
 import os
 import sys
 import pickle
-import tensorflow as tf
+#import tensorflow as tf
 from datetime import datetime
 
 def get_all_tar_filenames(tar_file_dir):
@@ -359,7 +359,7 @@ if len(all_tar_files) == 0:
 ### if we run it again, check what files we already have done yet
 all_bag_styled_files = get_all_bag_styled_pickle_files(save_dir)
 if len(all_bag_styled_files) == 0:
-    print(f'Info: No tokenized pickle files already done, now we tokenize.')
+    print(f'Info: No tokenized pickle files found, now we tokenize.')
 
 breaker = False
 
@@ -429,7 +429,7 @@ for one_tar_file in all_tar_files:
         
     ### save to new pickle file, to save_dir
     print(f'Save file: att-{one_tar_file.replace(".tar.bz2", "")}')
-    save_new_pickle(save_dir + '/' + 'att-' + one_tar_file.replace(".tar.bz2", ""), 
+    save_new_pickle(save_dir + '/' + 'att-tokenized-' + one_tar_file.replace(".tar.bz2", ""), 
                     disassembly_att_and_ret_types_list)
      
     
@@ -439,14 +439,14 @@ for one_tar_file in all_tar_files:
 stop=datetime.now()
 print(f'Run took:{stop-start} Hours:Min:Sec')
 
-###print 3 list items
-c=0
-for d, r in disassembly_att_and_ret_types_list:
-    print(f'bag-style-disas:{d} \n return-type:{r}')
-    print('-----------')
-    c += 1
-    if c > 3:
-        break
+### debug: print 3 list items
+#c=0
+#for d, r in disassembly_att_and_ret_types_list:
+#    print(f'bag-style-disas:{d} \n return-type:{r}')
+#    print('-----------')
+#    c += 1
+#    if c > 3:
+#        break
     ### can a function end with callq ???????
     ### remove numbers 0x and $0x, etc.
         
