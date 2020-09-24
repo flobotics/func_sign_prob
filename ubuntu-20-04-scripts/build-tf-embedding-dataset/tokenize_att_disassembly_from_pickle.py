@@ -82,7 +82,7 @@ def get_raw_return_type_from_gdb_ptype(gdb_ptype):
                         'const char ***',
                         'unsigned short', 'short', 'unsigned short *', 'short *',
                         'const unsigned short *', 'unsigned short **', 'short **',
-                        'const unsigned short',
+                        'const unsigned short', 'const short',
                         'int', 'int *', 'unsigned int', 'const int *', 'const unsigned int *',
                         'int **', 'unsigned int **', 'volatile int *',
                         'unsigned int *', 'const unsigned int', 'const int', 'int ***',
@@ -453,7 +453,7 @@ for one_tar_file in all_tar_files:
         break
         
     ### save to new pickle file, to save_dir
-    print(f'Save file: att-{one_tar_file.replace(".tar.bz2", "")}')
+    print(f'Save file: att-tokenized-{one_tar_file.replace(".tar.bz2", "")}')
     save_new_pickle(save_dir + '/' + 'att-tokenized-' + one_tar_file.replace(".tar.bz2", ""), 
                     disassembly_att_and_ret_types_list)
      
