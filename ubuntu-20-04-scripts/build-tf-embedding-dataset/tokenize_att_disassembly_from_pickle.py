@@ -95,7 +95,7 @@ def get_raw_return_type_from_gdb_ptype(gdb_ptype):
                         'double **', 'double ***',
                         'float', 'const float *', 'float *', 'const float',
                         'float **', 'float ***', 'float ****',
-                        'complex *', 'complex double']
+                        'complex *', 'complex double', 'complex float']
     
     
     if "type =" in gdb_ptype:
