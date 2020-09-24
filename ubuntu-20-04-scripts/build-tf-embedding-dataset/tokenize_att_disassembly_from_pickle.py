@@ -86,11 +86,11 @@ def get_raw_return_type_from_gdb_ptype(gdb_ptype):
                         'int', 'int *', 'unsigned int', 'const int *', 'const unsigned int *',
                         'int **', 'unsigned int **', 'volatile int *',
                         'unsigned int *', 'const unsigned int', 'const int', 'int ***',
-                        '__int128',
+                        '__int128', 'long int',
                         'long','unsigned long', 'unsigned long long', 'unsigned long *', 'long long',
                         'const unsigned long', 'unsigned long **', 'const long', 'const long *',
                         'long *', 'const unsigned long long *', 'const unsigned long *',
-                        'long long *', 'unsigned long ***',
+                        'long long *', 'unsigned long ***', 'unsigned long long *',
                         'double', 'const double *', 'double *', 'const double', 'long double',
                         'double **', 'double ***',
                         'float', 'const float *', 'float *', 'const float',
@@ -111,6 +111,8 @@ def get_raw_return_type_from_gdb_ptype(gdb_ptype):
         elif raw_gdb_ptype == 'int (*)(int (*)(void *, int, int), void *, int)':
             return 'delete'
         elif raw_gdb_ptype == 'PTR TO -> ( character )':
+            return 'delete'
+        elif raw_gdb_ptype == 'logical*4':
             return 'delete'
         
         ### check if we directly find a valid return type
