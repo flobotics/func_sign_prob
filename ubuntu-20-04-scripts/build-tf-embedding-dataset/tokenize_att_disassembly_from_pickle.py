@@ -86,7 +86,7 @@ def get_raw_return_type_from_gdb_ptype(gdb_ptype):
                         'int', 'int *', 'unsigned int', 'const int *', 'const unsigned int *',
                         'int **', 'unsigned int **', 'volatile int *',
                         'unsigned int *', 'const unsigned int', 'const int', 'int ***',
-                        '__int128', 'long int',
+                        '__int128', 'long int', '__int128 unsigned',
                         'long','unsigned long', 'unsigned long long', 'unsigned long *', 'long long',
                         'const unsigned long', 'unsigned long **', 'const long', 'const long *',
                         'long *', 'const unsigned long long *', 'const unsigned long *',
