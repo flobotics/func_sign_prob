@@ -122,6 +122,8 @@ def get_raw_return_type_from_gdb_ptype(gdb_ptype):
             return 'delete'
         elif raw_gdb_ptype == 'long long __attribute__ ((vector_size(2)))':
             return 'delete'
+        elif 'Yosys' in raw_gdb_ptype:
+            return 'delete'
         
         ### check if we directly find a valid return type
         for return_type in return_type_list:
