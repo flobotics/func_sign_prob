@@ -133,6 +133,8 @@ def get_raw_return_type_from_gdb_ptype(gdb_ptype):
                 return 'unsigned char *'
             elif raw_gdb_ptype == 'integer':
                 return 'delete'   ### dont know if its signed,or unsigned or ????
+            elif raw_gdb_ptype == 'ushort':
+                return "unsigned short"
 
             
         ### check if { is there
