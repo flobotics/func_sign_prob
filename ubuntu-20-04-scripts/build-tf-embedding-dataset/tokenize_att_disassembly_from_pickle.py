@@ -92,7 +92,7 @@ def get_raw_return_type_from_gdb_ptype(gdb_ptype):
                         'long *', 'const unsigned long long *', 'const unsigned long *',
                         'long long *', 'unsigned long ***', 'unsigned long long *',
                         'double', 'const double *', 'double *', 'const double', 'long double',
-                        'double **', 'double ***',
+                        'double **', 'double ***', 'const long double',
                         'float', 'const float *', 'float *', 'const float',
                         'float **', 'float ***', 'float ****',
                         'complex *', 'complex double', 'complex float']
