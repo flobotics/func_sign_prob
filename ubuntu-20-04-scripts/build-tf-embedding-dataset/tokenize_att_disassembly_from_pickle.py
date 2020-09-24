@@ -79,7 +79,7 @@ def get_raw_return_type_from_gdb_ptype(gdb_ptype):
                         'signed char *', 'wchar_t *', 'const char16_t *', 'char ***',
                         'wchar_t', 'const char * const', 'const wchar_t *', 'char16_t *',
                         'const unsigned char **', 'char * const *', 'const signed char *',
-                        'const char ***',
+                        'const char ***', 'volatile char *',
                         'unsigned short', 'short', 'unsigned short *', 'short *',
                         'const unsigned short *', 'unsigned short **', 'short **',
                         'const unsigned short', 'const short',
