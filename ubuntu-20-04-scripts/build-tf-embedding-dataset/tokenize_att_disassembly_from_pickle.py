@@ -114,6 +114,8 @@ def get_raw_return_type_from_gdb_ptype(gdb_ptype):
             return 'delete'
         elif raw_gdb_ptype == 'logical*4':
             return 'delete'
+        elif raw_gdb_ptype == 'PTR TO -> ( Type _object )':
+            return 'delete'
         
         ### check if we directly find a valid return type
         for return_type in return_type_list:
