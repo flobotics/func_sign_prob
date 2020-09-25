@@ -146,8 +146,8 @@ def save_embs_to_pickle(embeddings_part, embedding_build_dir, embedding_build_fi
     
     ### check size
     size_in_bytes = sys.getsizeof(ds_tmp_bucket)
-    #if size_in_bytes > 85000000:
-    if size_in_bytes > 10000:
+    if size_in_bytes > 200000000:
+    #if size_in_bytes > 10000:
         ### save as pickle
         pickle_file = open(pickle_raw,'wb+')
         pickle_list = pickle.dump(ds_tmp_bucket, pickle_file)
