@@ -56,12 +56,6 @@ if len(all_files) == 0:
 
 
 for file in all_files:
-    if not os.path.isfile(bag_styled_file_dir + '/' + file):
-        continue
-    sz = os.stat(bag_styled_file_dir + '/' + file)
-    if not sz:
-        continue
-    
     content = get_pickle_file_content(bag_styled_file_dir + '/' + file)
     for disas,ret_type in content:
         for disas_item in disas:
