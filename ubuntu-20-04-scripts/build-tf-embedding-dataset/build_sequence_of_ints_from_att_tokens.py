@@ -3,6 +3,7 @@ import os
 from datetime import datetime
 import tarfile
 import shutil
+import sys
 
 
 def get_all_pickle_filenames(pickle_file_dir):
