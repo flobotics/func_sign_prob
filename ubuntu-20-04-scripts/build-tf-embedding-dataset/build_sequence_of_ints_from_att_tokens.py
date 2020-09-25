@@ -146,8 +146,8 @@ def save_embs_to_pickle(embeddings_part, embedding_build_dir, embedding_build_fi
     
     ### check size
     size_in_bytes = sys.getsizeof(ds_tmp_bucket)
-    #print(f'size-in-bytes: {size_in_bytes}')
-    if size_in_bytes > 300000000:
+    print(f'size-in-bytes: {size_in_bytes}')
+    if size_in_bytes > 30000000:
         #print(f'save pickle')
         ### save as pickle
         pickle_file = open(pickle_raw,'wb+')
@@ -238,7 +238,7 @@ for file in all_files:
     
     ### save every embedding to its own pickle file
     ##save_embeddings_to_pickle(embedding_build_dir, embedding_build_filename, embedding_store_dir, embedding_styled_file_dir, embeddings_list)
-    print(f'len: {len(embeddings_list)}')
+    #print(f'len: {len(embeddings_list)}')
     save_embs_to_pickle(embeddings_list, embedding_build_dir, embedding_build_filename)
     #embeddings_list = []
     
