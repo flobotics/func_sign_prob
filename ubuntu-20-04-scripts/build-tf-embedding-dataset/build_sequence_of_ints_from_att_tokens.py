@@ -236,7 +236,7 @@ for file in all_files:
     
     ### save every embedding to its own pickle file
     ##save_embeddings_to_pickle(embedding_build_dir, embedding_build_filename, embedding_store_dir, embedding_styled_file_dir, embeddings_list)
-    save_embs_to_pickle(embeddings_part, embedding_build_dir, embedding_build_filename)
+    save_embs_to_pickle(embeddings_list, embedding_build_dir, embedding_build_filename)
     embeddings_list = []
     
     
