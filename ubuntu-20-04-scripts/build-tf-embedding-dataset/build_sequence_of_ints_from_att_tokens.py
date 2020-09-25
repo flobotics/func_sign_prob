@@ -138,7 +138,7 @@ def save_embs_to_pickle(embeddings_part, embedding_build_dir, embedding_build_fi
     global ds_tmp_bucket
     global store_counter
     
-    pick_tar_bz2 = embedding_build_dir + "/" + embedding_build_file + "-" + store_counter + ".pickle.tar.bz2"
+    pick_tar_bz2 = embedding_build_dir + "/" + embedding_build_file + "-" + str(store_counter) + ".pickle.tar.bz2"
     pickle_raw = embedding_build_dir + '/' + embedding_build_file + '.pickle'
     
     ds_tmp_bucket.extend(embeddings_part)
@@ -155,7 +155,7 @@ def save_embs_to_pickle(embeddings_part, embedding_build_dir, embedding_build_fi
         ds_tmp_bucket.clear()
         ### save as tar.bz2
         tar = tarfile.open(pick_tar_bz2, "w:bz2")
-        aname = embedding_build_file + "-" + store_counter + ".pickle"
+        aname = embedding_build_file + "-" + str(store_counter) + ".pickle"
         tar.add(pickle_raw, arcname=aname)
         tar.close()
         ### delete pickle file
