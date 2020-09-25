@@ -148,7 +148,7 @@ def save_embs_to_pickle(embeddings_part, embedding_build_dir, embedding_build_fi
     size_in_bytes = sys.getsizeof(ds_tmp_bucket)
     print(f'size-in-bytes: {size_in_bytes}')
     print(f'len : {len(ds_tmp_bucket)}')
-    if size_in_bytes > 100000:
+    if size_in_bytes > 1:
         #print(f'save pickle')
         ### save as pickle
         pickle_file = open(pickle_raw,'wb+')
@@ -215,6 +215,8 @@ if len(all_files) == 0:
     print(f'Error: No tokenized files found in >{bag_styled_file_dir}<')
     exit()
 
+all_ds = list()
+
 for file in all_files:
     content = get_pickle_file_content(bag_styled_file_dir + '/' + file)
     
@@ -240,10 +242,11 @@ for file in all_files:
     ### save every embedding to its own pickle file
     ##save_embeddings_to_pickle(embedding_build_dir, embedding_build_filename, embedding_store_dir, embedding_styled_file_dir, embeddings_list)
     #print(f'len: {len(embeddings_list)}')
-    save_embs_to_pickle(embeddings_list, embedding_build_dir, embedding_build_filename)
-    #embeddings_list = []
     
+    #save_embs_to_pickle(embeddings_list, embedding_build_dir, embedding_build_filename)
+    all_ds.extend(embeddings_list)
     
+save_embs_to_pickle(all_ds, embedding_build_dir, embedding_build_filename)    
     #break
 
 stop=datetime.now()    
