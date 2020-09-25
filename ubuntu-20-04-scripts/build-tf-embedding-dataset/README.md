@@ -1,0 +1,8 @@
+First run:
+tokenize_att_disassembly_from_pickle.py
+
+Second run:
+build_vocabulary_from_tokenized_pickle_files.py
+
+Third run:
+build_sequence_of_ints_from_att_tokens.py
