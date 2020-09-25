@@ -218,7 +218,7 @@ for file in all_files:
     content = get_pickle_file_content(bag_styled_file_dir + '/' + file)
     
     ### clean for next loop
-    embeddings_list = []
+    embeddings_list.clear()
     disas_embeddings = []
     
     ### loop through all items, and build new list with embedding-ints
@@ -234,12 +234,12 @@ for file in all_files:
         embeddings_list.append((disas_embeddings, ret_type))
         #break 
         
-        disas_embeddings = []     
+        disas_embeddings.clear()    
     
     ### save every embedding to its own pickle file
     ##save_embeddings_to_pickle(embedding_build_dir, embedding_build_filename, embedding_store_dir, embedding_styled_file_dir, embeddings_list)
     save_embs_to_pickle(embeddings_list, embedding_build_dir, embedding_build_filename)
-    embeddings_list = []
+    #embeddings_list = []
     
     
     #break
