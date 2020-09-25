@@ -133,6 +133,35 @@ def save_embeddings_to_pickle(embedding_build_dir, embedding_build_file, embeddi
     #pickle_list = pickle.dump(embeddings_list, pickle_file)
     #pickle_file.close()
     
+   
+def save_embs_to_pickle(embeddings_part, embedding_build_dir, embedding_build_file):
+    global ds_tmp_bucket
+    global store_counter
+    
+    pick_tar_bz2 = embedding_build_dir + "/" + embedding_build_file + "-" + store_counter + ".pickle.tar.bz2"
+    pickle_raw = embedding_build_dir + '/' + embedding_build_file + '.pickle'
+    
+    ds_tmp_bucket.extend(embeddings_part)
+    
+    ### check size
+    size_in_bytes = sys.getsizeof(ds_tmp_bucket)
+    #if size_in_bytes > 85000000:
+    if size_in_bytes > 10000:
+        ### save as pickle
+        pickle_file = open(pickle_raw,'wb+')
+        pickle_list = pickle.dump(ds_tmp_bucket, pickle_file)
+        pickle_file.close()
+        ### delete for next round
+        ds_tmp_bucket.clear()
+        ### save as tar.bz2
+        tar = tarfile.open(pick_tar_bz2, "w:bz2")
+        aname = embedding_build_file + "-" + store_counter + ".pickle"
+        tar.add(pickle_raw, arcname=aname)
+        tar.close()
+        ### delete pickle file
+        os.remove(pickle_raw)
+        store_counter += 1
+        
     
     
 #### main
@@ -142,10 +171,11 @@ store_counter = 0
 bag_styled_file_dir = "/tmp/savetest"
 embedding_styled_file_dir = "/tmp/embtest"
 embedding_build_dir = "/tmp/embbuild"
-embedding_build_filename = "embbuildfile"
+embedding_build_filename = "seq_to_int_and_labels"
 full_path_vocab_file = "/tmp/vocab.pickle"
 embedding_store_dir = "/tmp/embstoredir"
 
+ds_tmp_bucket = list()
 
 embeddings_list = list()
 disas_embeddings = list()
@@ -205,7 +235,8 @@ for file in all_files:
         disas_embeddings = []     
     
     ### save every embedding to its own pickle file
-    save_embeddings_to_pickle(embedding_build_dir, embedding_build_filename, embedding_store_dir, embedding_styled_file_dir, embeddings_list)
+    ##save_embeddings_to_pickle(embedding_build_dir, embedding_build_filename, embedding_store_dir, embedding_styled_file_dir, embeddings_list)
+    save_embs_to_pickle(embeddings_part, embedding_build_dir, embedding_build_filename)
     embeddings_list = []
     
     
