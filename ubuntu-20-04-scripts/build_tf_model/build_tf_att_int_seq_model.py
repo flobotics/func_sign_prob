@@ -8,7 +8,14 @@ from datetime import datetime
 
 
 
-def build_tf_dataset():
+def build_tf_dataset(path_to_int_seq_pickle):
+    ### read full_dataset_att_int_seq.pickle
+    pickle_file = open(path_to_int_seq_pickle, 'rb')
+    pickle_list = pickle.load(pickle_file, encoding='latin1')
+    pickle_file.close()
+    
+    ### 
+    
     label_as_int = vocab_ret_types[label]
     label_as_one_hot = tf.one_hot(label_as_int, len(vocab_ret_types))
     
@@ -65,91 +72,106 @@ def shuffle_and_pad():
 
 
 
-embedding_dim=64
 
-print(len(vocab))
 
-#model = keras.Sequential([
-#  layers.Embedding(len(vocab), embedding_dim),
-#  layers.GlobalAveragePooling1D(),
-#  layers.Dense(32, activation='relu'),
-#  layers.Dense(len(vocab_ret_types))
-#])
-
-model = keras.Sequential([
-    layers.Embedding(len(vocab)+1, embedding_dim, mask_zero=True),
-    layers.GlobalAveragePooling1D(),
-    layers.Dense(32, activation='relu'),
-    layers.Dense(len(vocab_ret_types))
-])
+def main():
+    path_to_int_seq_pickle = "../../ubuntu-20-04-datasets/full_dataset_att_int_seq.pickle"
     
-    
-
-
-
-#model.compile(optimizer='adam',
-#              loss=tf.keras.losses.BinaryCrossentropy(from_logits=True),
-#              metrics=['accuracy'])
-    
-model.compile(optimizer='adam',
-              loss=tf.keras.losses.CategoricalCrossentropy(from_logits=True),
-              metrics=['accuracy'])
-
-
-date_str = datetime.now().strftime("%Y%m%d-%H%M%S")
-
-#checkpoint_filepath = 'logs/' + date_str
-checkpoint_filepath = 'logs/checkpoint'
-model_checkpoint_callback = tf.keras.callbacks.ModelCheckpoint(
-    filepath=checkpoint_filepath,
-    save_weights_only=True,
-    monitor='val_accuracy',
-    mode='max',
-    save_best_only=True)
-
-
-print(checkpoint_filepath)
-
-
-logdir = "logs/scalars/" + date_str
-tensorboard_callback = keras.callbacks.TensorBoard(log_dir=logdir, histogram_freq=1)
-#, callbacks=[tensorboard_callback]
-
-history = model.fit(
-    train_batches,
-    epochs=30,
-    validation_data=test_batches, validation_steps=20, callbacks=[tensorboard_callback, model_checkpoint_callback]
-)
-
-
+    ### build tf dataset from pickle file
+    tf_ds = build_tf_dataset(path_to_int_seq_pickle)
     
     
     
+    embedding_dim=64
     
-#model = tf.keras.Sequential([
-#    tf.keras.layers.Embedding(len(vocab), embedding_dim),
-#    tf.keras.layers.Bidirectional(tf.keras.layers.LSTM(embedding_dim)),
-#    tf.keras.layers.Dense(32, activation='relu'),
-#    tf.keras.layers.Dense(len(vocab_ret_types))
-#])
+    print(len(vocab))
+    
+    #model = keras.Sequential([
+    #  layers.Embedding(len(vocab), embedding_dim),
+    #  layers.GlobalAveragePooling1D(),
+    #  layers.Dense(32, activation='relu'),
+    #  layers.Dense(len(vocab_ret_types))
+    #])
+    
+    model = keras.Sequential([
+        layers.Embedding(len(vocab)+1, embedding_dim, mask_zero=True),
+        layers.GlobalAveragePooling1D(),
+        layers.Dense(32, activation='relu'),
+        layers.Dense(len(vocab_ret_types))
+    ])
+        
+        
+    
+    
+    
+    #model.compile(optimizer='adam',
+    #              loss=tf.keras.losses.BinaryCrossentropy(from_logits=True),
+    #              metrics=['accuracy'])
+        
+    model.compile(optimizer='adam',
+                  loss=tf.keras.losses.CategoricalCrossentropy(from_logits=True),
+                  metrics=['accuracy'])
+    
+    
+    date_str = datetime.now().strftime("%Y%m%d-%H%M%S")
+    
+    #checkpoint_filepath = 'logs/' + date_str
+    checkpoint_filepath = 'logs/checkpoint'
+    model_checkpoint_callback = tf.keras.callbacks.ModelCheckpoint(
+        filepath=checkpoint_filepath,
+        save_weights_only=True,
+        monitor='val_accuracy',
+        mode='max',
+        save_best_only=True)
+    
+    
+    print(checkpoint_filepath)
+    
+    
+    logdir = "logs/scalars/" + date_str
+    tensorboard_callback = keras.callbacks.TensorBoard(log_dir=logdir, histogram_freq=1)
+    #, callbacks=[tensorboard_callback]
+    
+    history = model.fit(
+        train_batches,
+        epochs=30,
+        validation_data=test_batches, validation_steps=20, callbacks=[tensorboard_callback, model_checkpoint_callback]
+    )
+    
+    
+        
+        
+        
+        
+    #model = tf.keras.Sequential([
+    #    tf.keras.layers.Embedding(len(vocab), embedding_dim),
+    #    tf.keras.layers.Bidirectional(tf.keras.layers.LSTM(embedding_dim)),
+    #    tf.keras.layers.Dense(32, activation='relu'),
+    #    tf.keras.layers.Dense(len(vocab_ret_types))
+    #])
+    
+    #batch_size --- 10
+    #model = tf.keras.Sequential([
+    #    tf.keras.layers.Embedding(len(vocab), embedding_dim,
+    #                              batch_input_shape=[1, None]),
+    #    tf.keras.layers.GRU(1024,
+    #                        return_sequences=True,
+    #                        stateful=True,
+    #                        recurrent_initializer='glorot_uniform'),
+    #    tf.keras.layers.Dense(len(vocab_ret_types))
+    #])
+    
+    
+    model.summary()
 
-#batch_size --- 10
-#model = tf.keras.Sequential([
-#    tf.keras.layers.Embedding(len(vocab), embedding_dim,
-#                              batch_input_shape=[1, None]),
-#    tf.keras.layers.GRU(1024,
-#                        return_sequences=True,
-#                        stateful=True,
-#                        recurrent_initializer='glorot_uniform'),
-#    tf.keras.layers.Dense(len(vocab_ret_types))
-#])
-
-
-model.summary()
 
 
 
 
+    
+
+if __name__ == "__main__":
+    main()
 
    
     
