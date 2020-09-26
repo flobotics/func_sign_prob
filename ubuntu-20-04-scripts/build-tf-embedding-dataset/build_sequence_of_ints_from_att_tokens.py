@@ -139,31 +139,28 @@ def save_embs_to_pickle(embeddings_part, embedding_build_dir, embedding_build_fi
     global ds_tmp_bucket
     global store_counter
     
-    pick_tar_bz2 = embedding_build_dir + "/" + embedding_build_file + "-" + str(store_counter) + ".pickle.tar.bz2"
+    
+    pick_tar_bz2 = embedding_build_dir + "/" + embedding_build_file + ".pickle.tar.bz2"
     pickle_raw = embedding_build_dir + '/' + embedding_build_file + '.pickle'
     
-    ds_tmp_bucket.extend(embeddings_part)
+    #ds_tmp_bucket.extend(embeddings_part)
     
-    ### check size
-    size_in_bytes = sys.getsizeof(ds_tmp_bucket)
-    print(f'size-in-bytes: {size_in_bytes}')
-    print(f'len : {len(ds_tmp_bucket)}')
-    if size_in_bytes > 1:
-        #print(f'save pickle')
-        ### save as pickle
-        pickle_file = open(pickle_raw,'wb+')
-        pickle_list = pickle.dump(ds_tmp_bucket, pickle_file)
-        pickle_file.close()
-        ### delete for next round
-        ds_tmp_bucket.clear()
-        ### save as tar.bz2
-        tar = tarfile.open(pick_tar_bz2, "w:bz2")
-        aname = embedding_build_file + "-" + str(store_counter) + ".pickle"
-        tar.add(pickle_raw, arcname=aname)
-        tar.close()
-        ### delete pickle file
-        os.remove(pickle_raw)
-        store_counter += 1
+   
+    #print(f'save pickle')
+    ### save as pickle
+    pickle_file = open(pickle_raw,'wb+')
+    pickle_list = pickle.dump(embeddings_part, pickle_file)
+    pickle_file.close()
+    ### delete for next round
+    #ds_tmp_bucket.clear()
+    ### save as tar.bz2
+    #tar = tarfile.open(pick_tar_bz2, "w:bz2")
+    #aname = embedding_build_file + ".pickle"
+    #tar.add(pickle_raw, arcname=aname)
+    #tar.close()
+    ### delete pickle file
+    #os.remove(pickle_raw)
+    store_counter += 1
         
     
     
@@ -220,33 +217,39 @@ all_ds = list()
 for file in all_files:
     content = get_pickle_file_content(bag_styled_file_dir + '/' + file)
     
-    ### clean for next loop
+    ### clean for next loop/file
     embeddings_list.clear()
-    disas_embeddings = []
+    disas_embeddings.clear()
     
     ### loop through all items, and build new list with embedding-ints
     for disas,ret_type in content:
         nr_of_disas += 1
+        ### loop through all disas_items, like  mov, rbp,etc. and give them numbers
+        disas_embeddings.clear() 
         for disas_item in disas:
             vi = vocab[disas_item]
             disas_embeddings.append(vi)
             #print(f'disas_item:{disas_item} embedding-int:{vi}')
+            #print(f'disas_embeddings: {disas_embeddings}')
+            #print('--------')
               
         if biggest_nr_of_words_in_disas < len(disas_embeddings):
             biggest_nr_of_words_in_disas = len(disas_embeddings)
         embeddings_list.append((disas_embeddings, ret_type))
+        
         #break 
         
-        disas_embeddings.clear()    
+           
     
     ### save every embedding to its own pickle file
     ##save_embeddings_to_pickle(embedding_build_dir, embedding_build_filename, embedding_store_dir, embedding_styled_file_dir, embeddings_list)
     #print(f'len: {len(embeddings_list)}')
     
     #save_embs_to_pickle(embeddings_list, embedding_build_dir, embedding_build_filename)
-    all_ds.extend(embeddings_list)
-    
-save_embs_to_pickle(all_ds, embedding_build_dir, embedding_build_filename)    
+    #all_ds.extend(embeddings_list)
+    new_file = file.replace('.pickle','')
+    new_file = new_file.replace('att-tokenized', 'att-int-seq')
+    save_embs_to_pickle(embeddings_list, embedding_build_dir, new_file)    
     #break
 
 stop=datetime.now()    
