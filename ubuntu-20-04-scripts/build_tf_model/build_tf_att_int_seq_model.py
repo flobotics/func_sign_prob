@@ -124,6 +124,26 @@ def main():
     vocab_file.close()
     print(f'Number of items in vocabulary: {len(vocab)}')
     
+    
+    
+    split_tf_dataset
+    
+    
+    shuffle_and_pad
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     #####################
     ### build tf model
     #####################
