@@ -11,7 +11,7 @@ def get_pickle_file_content(full_path_pickle_file):
     return pickle_list
 
 
-tar_file_dir = "/tmp/embbuild"
+tar_file_dir = "/tmp/embstoredir"
 file = "full_dataset_att_int_seq.pickle"
 
 content = get_pickle_file_content(tar_file_dir + '/' + file)
@@ -28,7 +28,7 @@ for i in content:
 print(f'Biggest length of int_seq is: {biggest_length}')
 
 size_file = open(tar_file_dir + '/full_dataset_att_int_seq_biggest_int_seq_nr.txt','w+')
-size_file.write(biggest_length)
+size_file.write(str(biggest_length))
 size_file.close()
 
 
