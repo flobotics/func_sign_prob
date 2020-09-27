@@ -37,7 +37,7 @@ def add_one_item_to_tf_dataset(func_as_int_list, label_as_one_hot, dataset):
     return dataset
     
     
-def split_tf_dataset(dataset):
+def split_tf_dataset(dataset, num_elements_in_dataset):
     train_size = int(0.7 * num_elements_in_dataset)
 
     train_data = dataset.take(train_size)
@@ -164,7 +164,7 @@ def main():
     print(f'Number of items in vocabulary: {len(vocab)}')
     
     ### split ds in train, test  
-    train_ds, test_ds = split_tf_dataset(dataset)
+    train_ds, test_ds = split_tf_dataset(dataset, len_of_all_contents)
     
     ### get lenght of biggest int_seq
     len_big_int_seq_file = open(path_to_biggest_int_seq, 'r')
