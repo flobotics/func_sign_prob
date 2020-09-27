@@ -24,12 +24,15 @@ def get_ret_type_dict(path_to_return_type_dict_file):
 
 
 def add_one_item_to_tf_dataset(func_as_int_list, label_as_one_hot, dataset):
-
+    global dataset_counter
+    
     ds = tf.data.Dataset.from_tensors( ( func_as_int_list,label_as_one_hot ))
     dataset = dataset.concatenate( ds )
          
-    component = next(iter(dataset))
-    print(component)
+    if dataset_counter == 1:
+        dataset_counter = 2
+        component = next(iter(dataset))
+        print(f'One item from tf-dataset: {component}')
     
     return dataset
     
@@ -55,9 +58,9 @@ def split_tf_dataset(dataset):
     return (train_data, test_data)
     
  
-def shuffle_and_pad(train_data, test_data):
-    train_batches = train_data.shuffle(10).padded_batch(5)
-    test_batches = test_data.shuffle(10).padded_batch(5)
+def shuffle_and_pad(train_data, test_data, shuffle_nr, pad_nr):
+    train_batches = train_data.shuffle(int(shuffle_nr)).padded_batch(int(pad_nr))
+    test_batches = test_data.shuffle(int(shuffle_nr)).padded_batch(int(pad_nr))
     
     
     train_batch, train_labels = next(iter(train_batches))
@@ -82,10 +85,24 @@ def main():
     
     path_to_int_seq_pickle = "../../ubuntu-20-04-datasets/full_dataset_att_int_seq.pickle"
     path_to_return_type_dict_file = "../../ubuntu-20-04-datasets/full_dataset_att_int_seq_ret_type_dict.pickle"
+    path_to_vocab_file = "../../ubuntu-20-04-datasets/full_dataset_att_int_seq_vocabulary.pickle"
+    path_to_biggest_int_seq = "../../ubuntu-20-04-datasets/full_dataset_att_int_seq_biggest_int_seq_nr.txt"
     
     ###read out full ds pickle
     if not os.path.isfile(path_to_int_seq_pickle):
         print(f'No file: {path_to_int_seq_pickle} there ?')
+        exit()
+        
+    if not os.path.isfile(path_to_return_type_dict_file):
+        print(f'No file: {path_to_return_type_dict_file} there ?')
+        exit()
+        
+    if not os.path.isfile(path_to_vocab_file):
+        print(f'No file: {path_to_vocab_file} there ?')
+        exit()
+        
+    if not os.path.isfile(path_to_biggest_int_seq):
+        print(f'No file: {path_to_biggest_int_seq} there ?')
         exit()
         
     pickle_file_content = get_pickle_file_content(path_to_int_seq_pickle)
@@ -99,21 +116,22 @@ def main():
         ### for every item in list
         for func_as_int_list, label in content: 
             ### build tf-one-hot
-            print(f'label: {label}')
             label_as_int = ret_type_dict[label]
-            print(f'label-as-int: {label_as_int}')
             label_as_one_hot = tf.one_hot(label_as_int, len(ret_type_dict))
             
             ### build tf dataset
             if dataset_counter == 0:
                 dataset_counter = 1
+                print(f'label: {label}')
+                print(f'label-as-int: {label_as_int}')
                 dataset = tf.data.Dataset.from_tensors( ( func_as_int_list,label_as_one_hot ))
             
             full_tf_ds = add_one_item_to_tf_dataset(func_as_int_list, label_as_one_hot, dataset)
 
     ds1 = next(iter(full_tf_ds))
-    print(f'dataset:{ds1}')
-    exit()
+    print(f'One full-tf-dataset item:{ds1}')
+    print(f'length of full tf-dataset: {len(full_tf_ds}')
+    #exit()
     #####################
     ### Now we got our tf dataset which we can easily push into model.compile
     
@@ -124,30 +142,26 @@ def main():
     
     ### get number of "words" in our vocabulay of int_seq (NOT ret-types)
     ### open vocab file
-    vocab_file = open("../../ubuntu-20-04-datasets/full_dataset_att_int_seq_vocabulary.pickle")
+    vocab_file = open(path_to_vocab_file)
     vocab = pickle.load(vocab_file, encoding='latin1')
     vocab_file.close()
     print(f'Number of items in vocabulary: {len(vocab)}')
     
+    ### split ds in train, test  
+    train_ds, test_ds = split_tf_dataset(dataset)
     
+    ### get lenght of biggest int_seq
+    len_big_int_seq_file = open(path_to_biggest_int_seq, 'r')
+    len_big_int_seq = len_big_int_seq_file.readline()
+    len_big_int_seq_file.close()
+    print(f'len biggest int-seq: {len_big_int_seq}')
     
-    split_tf_dataset
+    ### shuffle and pad
+    train_ds_batch, test_ds_batch = shuffle_and_pad(train_ds, test_ds, 1000, int(len_big_int_seq))
     
-    
-    shuffle_and_pad
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+
+    print(f'stop here')
+    exit()
     
     #####################
     ### build tf model
