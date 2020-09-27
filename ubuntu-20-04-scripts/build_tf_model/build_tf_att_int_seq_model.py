@@ -19,8 +19,9 @@ def get_ret_type_dict(pickle_list):
     
     for content in pickle_list:
         for int_seq, ret_type in content:
+            #print(f'int_seq: {int_seq}  ret_type:{ret_type}')
             ret_type_set.add(ret_type)
-            
+                
             
     ### build ret_type dict
     ret_type_dict = {v:k for v,k in enumerate(ret_type_set, start=1)}
@@ -51,7 +52,7 @@ def add_one_item_to_tf_dataset(func_as_int_list, label_as_one_hot):
     return dataset
     
     
-def split_tf_dataset():
+def split_tf_dataset(dataset):
     train_size = int(0.7 * num_elements_in_dataset)
 
     train_data = dataset.take(train_size)
@@ -69,8 +70,10 @@ def split_tf_dataset():
     num_elements_in_test_data = tf.data.experimental.cardinality(test_data).numpy()
     print(f'We got {num_elements_in_test_data} in test_data dataset')
     
+    return (train_data, test_data)
+    
  
-def shuffle_and_pad():
+def shuffle_and_pad(train_data, test_data):
     train_batches = train_data.shuffle(10).padded_batch(5)
     test_batches = test_data.shuffle(10).padded_batch(5)
     
@@ -85,7 +88,7 @@ def shuffle_and_pad():
     num_elements_in_test_batches = tf.data.experimental.cardinality(test_batches).numpy()
     print(num_elements_in_test_batches)
 
-
+    return (train_batches, test_batches)
 
 
 
@@ -93,22 +96,32 @@ def main():
     path_to_int_seq_pickle = "../../ubuntu-20-04-datasets/full_dataset_att_int_seq.pickle"
     
     ###read out full ds pickle
+    if not os.path.isfile(path_to_int_seq_pickle):
+        print(f'No file: {path_to_int_seq_pickle} there ?')
+        exit()
+        
     pickle_file_content = get_pickle_file_content(path_to_int_seq_pickle)
     
     ### get return type dict
-    ret_type_dict = get_ret_type_dict(path_to_int_seq_pickle)
+    ret_type_dict = get_ret_type_dict(pickle_file_content)
+    print(f'ret-type-dict: {ret_type_dict}')
     
     ### for content
     for content in pickle_file_content:
         ### for every item in list
         for func_as_int_list, label in content: 
             ### build tf-one-hot
+            print(f'label: {label}')
             label_as_int = ret_type_dict[label]
+            print(f'label-as-int: {label_as_int}')
             label_as_one_hot = tf.one_hot(label_as_int, len(ret_type_dict))
             
             ### build tf dataset
             full_tf_ds = add_one_item_to_tf_dataset(func_as_int_list, label_as_one_hot)
 
+    ds1 = next(iter(full_tf_ds))
+    print(f'dataset:{ds1}')
+    exit()
     #####################
     ### Now we got our tf dataset which we can easily push into model.compile
     
