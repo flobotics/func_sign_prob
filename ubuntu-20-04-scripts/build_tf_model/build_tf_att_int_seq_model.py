@@ -155,7 +155,7 @@ def main():
     
     ### get number of "words" in our vocabulay of int_seq (NOT ret-types)
     ### open vocab file
-    vocab_file = open(path_to_vocab_file)
+    vocab_file = open(path_to_vocab_file, 'rb')
     vocab = pickle.load(vocab_file, encoding='latin1')
     vocab_file.close()
     print(f'Number of items in vocabulary: {len(vocab)}')
