@@ -22,7 +22,7 @@ def get_ret_type_dict(pickle_list):
                 
             
     ### build ret_type dict
-    ret_type_dict = {v:k for v,k in enumerate(ret_type_set, start=1)}
+    ret_type_dict = {k:v for v,k in enumerate(ret_type_set, start=1)}
             
     return ret_type_dict
 

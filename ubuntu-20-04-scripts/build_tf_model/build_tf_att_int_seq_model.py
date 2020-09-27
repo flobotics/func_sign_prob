@@ -14,23 +14,14 @@ def get_pickle_file_content(full_path_pickle_file):
     return pickle_list
 
 
-def get_ret_type_dict(pickle_list):
-    ret_type_set = set()
-    
-    for content in pickle_list:
-        for int_seq, ret_type in content:
-            #print(f'int_seq: {int_seq}  ret_type:{ret_type}')
-            ret_type_set.add(ret_type)
-                
-            
-    ### build ret_type dict
-    ret_type_dict = {v:k for v,k in enumerate(ret_type_set, start=1)}
-            
-    return ret_type_dict
+
+def get_ret_type_dict(path_to_return_type_dict_file):
+    ret_type_list = get_pickle_file_content(path_to_return_type_dict_file)
+               
+    return ret_type_list
             
 
-    
-    
+
 
 def add_one_item_to_tf_dataset(func_as_int_list, label_as_one_hot):
     
@@ -94,6 +85,7 @@ def shuffle_and_pad(train_data, test_data):
 
 def main():
     path_to_int_seq_pickle = "../../ubuntu-20-04-datasets/full_dataset_att_int_seq.pickle"
+    path_to_return_type_dict_file = "../../ubuntu-20-04-datasets/full_dataset_att_int_seq_ret_type_dict.pickle"
     
     ###read out full ds pickle
     if not os.path.isfile(path_to_int_seq_pickle):
@@ -103,7 +95,7 @@ def main():
     pickle_file_content = get_pickle_file_content(path_to_int_seq_pickle)
     
     ### get return type dict
-    ret_type_dict = get_ret_type_dict(pickle_file_content)
+    ret_type_dict = get_ret_type_dict(path_to_return_type_dict_file)
     print(f'ret-type-dict: {ret_type_dict}')
     
     ### for content
