@@ -111,9 +111,15 @@ def main():
     ret_type_dict = get_ret_type_dict(path_to_return_type_dict_file)
     print(f'ret-type-dict: {ret_type_dict}')
     
+    counter = 0
+    len_of_all_contents = 0
+    start = datetime.now()
+    
     ### for content
     for content in pickle_file_content:
         ### for every item in list
+        #print(f'len-content: {len(content)}')
+        len_of_all_contents += len(content)
         for func_as_int_list, label in content: 
             ### build tf-one-hot
             label_as_int = ret_type_dict[label]
@@ -125,9 +131,16 @@ def main():
                 print(f'label: {label}')
                 print(f'label-as-int: {label_as_int}')
                 dataset = tf.data.Dataset.from_tensors( ( func_as_int_list,label_as_one_hot ))
-            
-            full_tf_ds = add_one_item_to_tf_dataset(func_as_int_list, label_as_one_hot, dataset)
+            else:
+                full_tf_ds = add_one_item_to_tf_dataset(func_as_int_list, label_as_one_hot, dataset)
 
+            print(f'Adding >{counter}< int_seqs to tf-ds of >{len_of_all_contents}<', end='\r')
+            counter += 1
+
+    stop = datetime.now()
+    print(f'Building tf-ds took: >{stop-start}< Hours:Min:Sec')
+    
+    print(f'Len of all-contents from pickle: {len_of_all_contents}')
     ds1 = next(iter(full_tf_ds))
     print(f'One full-tf-dataset item:{ds1}')
     print(f'length of full tf-dataset: {len(full_tf_ds)}')
