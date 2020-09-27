@@ -120,6 +120,9 @@ def main():
         ### for every item in list
         #print(f'len-content: {len(content)}')
         len_of_all_contents += len(content)
+        ##for TESTING
+        if len_of_all_contents > 50000:
+            break
         for func_as_int_list, label in content: 
             ### build tf-one-hot
             label_as_int = ret_type_dict[label]
