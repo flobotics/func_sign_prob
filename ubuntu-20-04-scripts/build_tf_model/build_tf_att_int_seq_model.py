@@ -23,20 +23,11 @@ def get_ret_type_dict(path_to_return_type_dict_file):
 
 
 
-def add_one_item_to_tf_dataset(func_as_int_list, label_as_one_hot):
-    
-    if dataset_counter == 0:
-        #dataset = tf.data.Dataset.from_tensors( ( func_as_int_list,label_as_int ))
-        dataset = tf.data.Dataset.from_tensors( ( func_as_int_list,label_as_one_hot ))
-        dataset_counter = 1
-    else:
-        #ds = tf.data.Dataset.from_tensors( ( func_as_int_list,label_as_int ))
-        ds = tf.data.Dataset.from_tensors( ( func_as_int_list,label_as_one_hot ))
-        #for elem,e in ds:
-            #print(elem.shape)
-        dataset = dataset.concatenate( ds )
-        
-        
+def add_one_item_to_tf_dataset(func_as_int_list, label_as_one_hot, dataset):
+
+    ds = tf.data.Dataset.from_tensors( ( func_as_int_list,label_as_one_hot ))
+    dataset = dataset.concatenate( ds )
+         
     component = next(iter(dataset))
     print(component)
     
@@ -82,8 +73,13 @@ def shuffle_and_pad(train_data, test_data):
     return (train_batches, test_batches)
 
 
+dataset_counter = 0
+dataset = ''
 
 def main():
+    global dataset
+    global dataset_counter
+    
     path_to_int_seq_pickle = "../../ubuntu-20-04-datasets/full_dataset_att_int_seq.pickle"
     path_to_return_type_dict_file = "../../ubuntu-20-04-datasets/full_dataset_att_int_seq_ret_type_dict.pickle"
     
@@ -109,7 +105,11 @@ def main():
             label_as_one_hot = tf.one_hot(label_as_int, len(ret_type_dict))
             
             ### build tf dataset
-            full_tf_ds = add_one_item_to_tf_dataset(func_as_int_list, label_as_one_hot)
+            if dataset_counter == 0:
+                dataset_counter = 1
+                dataset = tf.data.Dataset.from_tensors( ( func_as_int_list,label_as_one_hot ))
+            
+            full_tf_ds = add_one_item_to_tf_dataset(func_as_int_list, label_as_one_hot, dataset)
 
     ds1 = next(iter(full_tf_ds))
     print(f'dataset:{ds1}')
