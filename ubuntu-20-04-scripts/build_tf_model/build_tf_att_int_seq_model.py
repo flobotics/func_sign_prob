@@ -130,7 +130,7 @@ def main():
 
     ds1 = next(iter(full_tf_ds))
     print(f'One full-tf-dataset item:{ds1}')
-    print(f'length of full tf-dataset: {len(full_tf_ds}')
+    print(f'length of full tf-dataset: {len(full_tf_ds)}')
     #exit()
     #####################
     ### Now we got our tf dataset which we can easily push into model.compile
