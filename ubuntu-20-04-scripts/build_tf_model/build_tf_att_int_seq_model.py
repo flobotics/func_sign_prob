@@ -131,8 +131,8 @@ def main():
     
     ### shuffle and pad
     #train_ds_batch, test_ds_batch = shuffle_and_pad(train_ds, test_ds, 1000, int(len_big_int_seq))
-    train_ds_batch = train_data.shuffle(1000).padded_batch(int(len_big_int_seq))
-    test_ds_batch = test_data.shuffle(1000).padded_batch(int(len_big_int_seq))
+    train_ds_batch = train_data.shuffle(1000).padded_batch(int(len_big_int_seq), padded_shapes=[([None], [int(len_big_int_seq)] )])
+    test_ds_batch = test_data.shuffle(1000).padded_batch(int(len_big_int_seq), padded_shapes=[([None], [int(len_big_int_seq)] )])
     
     
     train_batch, train_labels = next(iter(train_ds_batch))
