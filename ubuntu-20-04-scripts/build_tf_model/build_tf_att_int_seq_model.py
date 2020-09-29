@@ -77,10 +77,8 @@ def shuffle_and_pad(train_data, test_data, shuffle_nr, pad_nr):
 
 
 dataset_counter = 0
-dataset = ''
 
 def main():
-    global dataset
     global dataset_counter
     
     path_to_int_seq_pickle = "../../ubuntu-20-04-datasets/full_dataset_att_int_seq.pickle"
@@ -135,13 +133,21 @@ def main():
                 print(f'label-as-int: {label_as_int}')
                 dataset = tf.data.Dataset.from_tensors( ( func_as_int_list,label_as_one_hot ))
             else:
-                full_tf_ds = add_one_item_to_tf_dataset(func_as_int_list, label_as_one_hot, dataset)
+                #full_tf_ds = add_one_item_to_tf_dataset(func_as_int_list, label_as_one_hot, dataset)
+                ds = tf.data.Dataset.from_tensors( ( func_as_int_list,label_as_one_hot ))
+                dataset = dataset.concatenate( ds )
 
             print(f'Adding >{counter}< int_seqs to tf-ds of >{len_of_all_contents}<', end='\r')
             counter += 1
 
     stop = datetime.now()
     print(f'Building tf-ds took: >{stop-start}< Hours:Min:Sec')
+    
+    num_elements_in_train_data = tf.data.experimental.cardinality(train_data).numpy()
+    print(f'We got {num_elements_in_train_data} in train_data dataset')
+    
+    num_elements_in_test_data = tf.data.experimental.cardinality(test_data).numpy()
+    print(f'We got {num_elements_in_test_data} in test_data dataset')
     
     print(f'Len of all-contents from pickle: {len_of_all_contents}')
     ds1 = next(iter(full_tf_ds))
@@ -173,7 +179,21 @@ def main():
     print(f'len biggest int-seq: {len_big_int_seq}')
     
     ### shuffle and pad
-    train_ds_batch, test_ds_batch = shuffle_and_pad(train_ds, test_ds, 1000, int(len_big_int_seq))
+    print(f'len_big_int_seq batch: >{len_big_int_seq}<')
+    #train_ds_batch, test_ds_batch = shuffle_and_pad(train_ds, test_ds, 1000, int(len_big_int_seq))
+    train_batches = train_data.shuffle(1000).padded_batch(int(len_big_int_seq))
+    test_batches = test_data.shuffle(1000).padded_batch(int(len_big_int_seq))
+    
+    
+    train_batch, train_labels = next(iter(train_batches))
+    print(train_batch.numpy())
+    print(train_batch.shape)
+    
+    num_elements_in_train_batches = tf.data.experimental.cardinality(train_batches).numpy()
+    print(num_elements_in_train_batches)
+    
+    num_elements_in_test_batches = tf.data.experimental.cardinality(test_batches).numpy()
+    print(num_elements_in_test_batches)
     
 
     #print(f'stop here')
