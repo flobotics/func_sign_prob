@@ -121,7 +121,7 @@ def main():
         #print(f'len-content: {len(content)}')
         len_of_all_contents += len(content)
         ##for TESTING
-        if len_of_all_contents > 50000:
+        if len_of_all_contents > 100000:
             break
         for func_as_int_list, label in content: 
             ### build tf-one-hot
@@ -208,7 +208,7 @@ def main():
     #    tf.keras.layers.Dense(len(vocab_ret_types))
     #])
     
-    
+    ### adding +1, because of the padded-zero, which we mask out
     model = keras.Sequential([
         layers.Embedding(len(vocab)+1, embedding_dim, mask_zero=True),
         layers.GlobalAveragePooling1D(),
