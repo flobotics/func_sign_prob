@@ -176,8 +176,8 @@ def main():
     train_ds_batch, test_ds_batch = shuffle_and_pad(train_ds, test_ds, 1000, int(len_big_int_seq))
     
 
-    print(f'stop here')
-    exit()
+    #print(f'stop here')
+    #exit()
     
     #####################
     ### build tf model
@@ -213,7 +213,7 @@ def main():
         layers.Embedding(len(vocab)+1, embedding_dim, mask_zero=True),
         layers.GlobalAveragePooling1D(),
         layers.Dense(32, activation='relu'),
-        layers.Dense(len(vocab_ret_types))
+        layers.Dense(len(ret_type_dict))
     ])
         
     model.summary()    
@@ -258,9 +258,9 @@ def main():
     
     
     history = model.fit(
-        train_batches,
+        train_ds_batch,
         epochs=30,
-        validation_data=test_batches, validation_steps=20, callbacks=[tensorboard_callback, model_checkpoint_callback]
+        validation_data=test_ds_batch, validation_steps=20, callbacks=[tensorboard_callback, model_checkpoint_callback]
     )
         
 
