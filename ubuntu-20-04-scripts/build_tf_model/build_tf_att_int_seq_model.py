@@ -228,7 +228,7 @@ def main():
         
     model.compile(optimizer='adam',
                   loss=tf.keras.losses.CategoricalCrossentropy(from_logits=True),
-                  metrics=['accuracy'])
+                  metrics=['val_acc'])
     
     
     date_str = datetime.now().strftime("%Y%m%d-%H%M%S")
