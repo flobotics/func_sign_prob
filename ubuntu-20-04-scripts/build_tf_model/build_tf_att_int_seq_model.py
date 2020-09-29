@@ -22,60 +22,6 @@ def get_ret_type_dict(path_to_return_type_dict_file):
             
 
 
-
-def add_one_item_to_tf_dataset(func_as_int_list, label_as_one_hot, dataset):
-    global dataset_counter
-    
-    ds = tf.data.Dataset.from_tensors( ( func_as_int_list,label_as_one_hot ))
-    dataset = dataset.concatenate( ds )
-         
-    if dataset_counter == 1:
-        dataset_counter = 2
-        component = next(iter(dataset))
-        print(f'One item from tf-dataset: {component}')
-    
-    return dataset
-    
-    
-def split_tf_dataset(dataset, num_elements_in_dataset):
-    train_size = int(0.7 * num_elements_in_dataset)
-
-    train_data = dataset.take(train_size)
-    test_data = dataset.skip(train_size)
-    
-    #for e in train_data:
-    #    print(e)
-        
-    #for e in test_data:
-    #    print(e)
-        
-    num_elements_in_train_data = tf.data.experimental.cardinality(train_data).numpy()
-    print(f'We got {num_elements_in_train_data} in train_data dataset')
-    
-    num_elements_in_test_data = tf.data.experimental.cardinality(test_data).numpy()
-    print(f'We got {num_elements_in_test_data} in test_data dataset')
-    
-    return (train_data, test_data)
-    
- 
-def shuffle_and_pad(train_data, test_data, shuffle_nr, pad_nr):
-    train_batches = train_data.shuffle(int(shuffle_nr)).padded_batch(int(pad_nr))
-    test_batches = test_data.shuffle(int(shuffle_nr)).padded_batch(int(pad_nr))
-    
-    
-    train_batch, train_labels = next(iter(train_batches))
-    print(train_batch.numpy())
-    print(train_batch.shape)
-    
-    num_elements_in_train_batches = tf.data.experimental.cardinality(train_batches).numpy()
-    print(num_elements_in_train_batches)
-    
-    num_elements_in_test_batches = tf.data.experimental.cardinality(test_batches).numpy()
-    print(num_elements_in_test_batches)
-
-    return (train_batches, test_batches)
-
-
 dataset_counter = 0
 
 def main():
@@ -86,7 +32,7 @@ def main():
     path_to_vocab_file = "../../ubuntu-20-04-datasets/full_dataset_att_int_seq_vocabulary.pickle"
     path_to_biggest_int_seq = "../../ubuntu-20-04-datasets/full_dataset_att_int_seq_biggest_int_seq_nr.txt"
     
-    ###read out full ds pickle
+    ### check if files exist
     if not os.path.isfile(path_to_int_seq_pickle):
         print(f'No file: {path_to_int_seq_pickle} there ?')
         exit()
@@ -103,6 +49,7 @@ def main():
         print(f'No file: {path_to_biggest_int_seq} there ?')
         exit()
         
+    ### read int-seq from pickle file
     pickle_file_content = get_pickle_file_content(path_to_int_seq_pickle)
     
     ### get return type dict
@@ -137,11 +84,12 @@ def main():
                 ds = tf.data.Dataset.from_tensors( ( func_as_int_list,label_as_one_hot ))
                 dataset = dataset.concatenate( ds )
 
+            ### print to show the user that something is happening, this loop took a while
             print(f'Adding >{counter}< int_seqs to tf-ds of >{len_of_all_contents}<', end='\r')
             counter += 1
 
     stop = datetime.now()
-    print(f'Building tf-ds took: >{stop-start}< Hours:Min:Sec')
+    print(f'Building dataset took: >{stop-start}< Hours:Min:Sec')
     
     num_elements_in_train_data = tf.data.experimental.cardinality(dataset).numpy()
     print(f'We got {num_elements_in_train_data} in  dataset')
@@ -165,11 +113,11 @@ def main():
     vocab_file = open(path_to_vocab_file, 'rb')
     vocab = pickle.load(vocab_file, encoding='latin1')
     vocab_file.close()
-    print(f'Number of items in vocabulary: {len(vocab)}')
+    print(f'Number of items in vocabulary: >{len(vocab)}<')
     
     ### split ds in train, test  
     #train_ds, test_ds = split_tf_dataset(dataset, len_of_all_contents)
-    print(f'len_of_all_contents: {len_of_all_contents}')
+    print(f'len_of_all_contents: >{len_of_all_contents}< we split now')
     train_size = int(0.7 * len_of_all_contents)
 
     train_data = dataset.take(train_size)
@@ -182,7 +130,6 @@ def main():
     print(f'len biggest int-seq: {len_big_int_seq}')
     
     ### shuffle and pad
-    print(f'len_big_int_seq batch: >{len_big_int_seq}<')
     #train_ds_batch, test_ds_batch = shuffle_and_pad(train_ds, test_ds, 1000, int(len_big_int_seq))
     train_ds_batch = train_data.shuffle(1000).padded_batch(int(len_big_int_seq))
     test_ds_batch = test_data.shuffle(1000).padded_batch(int(len_big_int_seq))
