@@ -230,7 +230,7 @@ def main():
         
     model.compile(optimizer='adam',
                   loss=tf.keras.losses.CategoricalCrossentropy(from_logits=True),
-                  metrics=['val_accuracy'])
+                  metrics=['val_acc'])
     
     
     date_str = datetime.now().strftime("%Y%m%d-%H%M%S")
@@ -244,7 +244,7 @@ def main():
     model_checkpoint_callback = tf.keras.callbacks.ModelCheckpoint(
         filepath=checkpoint_filepath,
         save_weights_only=True,
-        monitor='val_accuracy',
+        monitor='accuracy',
         mode='max',
         save_best_only=True)
     
