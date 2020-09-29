@@ -143,11 +143,9 @@ def main():
     stop = datetime.now()
     print(f'Building tf-ds took: >{stop-start}< Hours:Min:Sec')
     
-    num_elements_in_train_data = tf.data.experimental.cardinality(train_data).numpy()
-    print(f'We got {num_elements_in_train_data} in train_data dataset')
+    num_elements_in_train_data = tf.data.experimental.cardinality(dataset).numpy()
+    print(f'We got {num_elements_in_train_data} in  dataset')
     
-    num_elements_in_test_data = tf.data.experimental.cardinality(test_data).numpy()
-    print(f'We got {num_elements_in_test_data} in test_data dataset')
     
     print(f'Len of all-contents from pickle: {len_of_all_contents}')
     ds1 = next(iter(full_tf_ds))
