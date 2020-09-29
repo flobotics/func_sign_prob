@@ -149,8 +149,8 @@ def main():
     
     print(f'Len of all-contents from pickle: {len_of_all_contents}')
     ds1 = next(iter(dataset))
-    print(f'One full-tf-dataset item:{ds1}')
-    print(f'length of full tf-dataset: {len(full_tf_ds)}')
+    print(f'One dataset item:{ds1}')
+    print(f'length of dataset: {len(dataset)}')
     #exit()
     #####################
     ### Now we got our tf dataset which we can easily push into model.compile
