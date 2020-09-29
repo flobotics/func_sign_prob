@@ -121,7 +121,7 @@ def main():
         #print(f'len-content: {len(content)}')
         len_of_all_contents += len(content)
         ##for TESTING
-        if len_of_all_contents > 80000:
+        if len_of_all_contents > 100000:
             break
         for func_as_int_list, label in content: 
             ### build tf-one-hot
