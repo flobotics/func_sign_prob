@@ -168,7 +168,12 @@ def main():
     print(f'Number of items in vocabulary: {len(vocab)}')
     
     ### split ds in train, test  
-    train_ds, test_ds = split_tf_dataset(dataset, len_of_all_contents)
+    #train_ds, test_ds = split_tf_dataset(dataset, len_of_all_contents)
+    print(f'len_of_all_contents: {len_of_all_contents}')
+    train_size = int(0.7 * len_of_all_contents)
+
+    train_data = dataset.take(train_size)
+    test_data = dataset.skip(train_size)
     
     ### get lenght of biggest int_seq
     len_big_int_seq_file = open(path_to_biggest_int_seq, 'r')
@@ -179,18 +184,18 @@ def main():
     ### shuffle and pad
     print(f'len_big_int_seq batch: >{len_big_int_seq}<')
     #train_ds_batch, test_ds_batch = shuffle_and_pad(train_ds, test_ds, 1000, int(len_big_int_seq))
-    train_batches = train_data.shuffle(1000).padded_batch(int(len_big_int_seq))
-    test_batches = test_data.shuffle(1000).padded_batch(int(len_big_int_seq))
+    train_ds_batch = train_data.shuffle(1000).padded_batch(int(len_big_int_seq))
+    test_ds_batch = test_data.shuffle(1000).padded_batch(int(len_big_int_seq))
     
     
-    train_batch, train_labels = next(iter(train_batches))
+    train_batch, train_labels = next(iter(train_ds_batch))
     print(train_batch.numpy())
     print(train_batch.shape)
     
-    num_elements_in_train_batches = tf.data.experimental.cardinality(train_batches).numpy()
+    num_elements_in_train_batches = tf.data.experimental.cardinality(train_ds_batch).numpy()
     print(num_elements_in_train_batches)
     
-    num_elements_in_test_batches = tf.data.experimental.cardinality(test_batches).numpy()
+    num_elements_in_test_batches = tf.data.experimental.cardinality(train_ds_batch).numpy()
     print(num_elements_in_test_batches)
     
 
