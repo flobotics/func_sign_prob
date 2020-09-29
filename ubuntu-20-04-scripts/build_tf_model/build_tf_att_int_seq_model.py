@@ -213,7 +213,7 @@ def main():
         layers.Embedding(len(vocab)+1, embedding_dim, mask_zero=True),
         layers.GlobalAveragePooling1D(),
         layers.Dense(32, activation='relu'),
-        layers.Dense(len(ret_type_dict))
+        layers.Dense(len(ret_type_dict), activation='softmax')
     ])
         
     model.summary()    
