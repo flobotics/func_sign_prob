@@ -121,7 +121,7 @@ def main():
         #print(f'len-content: {len(content)}')
         len_of_all_contents += len(content)
         ##for TESTING
-        if len_of_all_contents > 100000:
+        if len_of_all_contents > 80000:
             break
         for func_as_int_list, label in content: 
             ### build tf-one-hot
@@ -226,6 +226,8 @@ def main():
     #              loss=tf.keras.losses.BinaryCrossentropy(from_logits=True),
     #              metrics=['accuracy'])
         
+    ## sparseCategorialCrossentropy
+        
     model.compile(optimizer='adam',
                   loss=tf.keras.losses.CategoricalCrossentropy(from_logits=True),
                   metrics=['accuracy'])
@@ -242,7 +244,7 @@ def main():
     model_checkpoint_callback = tf.keras.callbacks.ModelCheckpoint(
         filepath=checkpoint_filepath,
         save_weights_only=True,
-        monitor='accuracy',
+        monitor='val_accuracy',
         mode='max',
         save_best_only=True)
     
