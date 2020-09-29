@@ -5,6 +5,7 @@ import pickle
 import numpy as np
 import os
 from datetime import datetime
+from psutil.tests.test_posix import ps
 
 def get_pickle_file_content(full_path_pickle_file):
     pickle_file = open(full_path_pickle_file,'rb')
@@ -27,34 +28,60 @@ dataset_counter = 0
 def main():
     global dataset_counter
     
+    verbose = True
+    
+    ### full dataset
+    ### ([3,45,66,68], 'void')
     path_to_int_seq_pickle = "../../ubuntu-20-04-datasets/full_dataset_att_int_seq.pickle"
+    ### ret-type-dict
+    ### { "void": 1, "char": 2,......
     path_to_return_type_dict_file = "../../ubuntu-20-04-datasets/full_dataset_att_int_seq_ret_type_dict.pickle"
+    ### vocab
+    ### ['mov','rbp'....
     path_to_vocab_file = "../../ubuntu-20-04-datasets/full_dataset_att_int_seq_vocabulary.pickle"
+    ### number of words of the biggest int seq
     path_to_biggest_int_seq = "../../ubuntu-20-04-datasets/full_dataset_att_int_seq_biggest_int_seq_nr.txt"
     
     ### check if files exist
     if not os.path.isfile(path_to_int_seq_pickle):
-        print(f'No file: {path_to_int_seq_pickle} there ?')
+        print(f'No file with full dataset, named >{path_to_int_seq_pickle}< there ?')
         exit()
+    else:
+        if verbose:
+            print(f'The full dataset we read from file >{path_to_int_seq_pickle}<')
+        pass
         
     if not os.path.isfile(path_to_return_type_dict_file):
-        print(f'No file: {path_to_return_type_dict_file} there ?')
+        print(f'No file with return-type-dict, named >{path_to_return_type_dict_file}< there ?')
         exit()
+    else:
+        if verbose:
+            print(f'Return type-dict we read from file >{path_to_return_type_dict_file}<')
+        pass
         
     if not os.path.isfile(path_to_vocab_file):
-        print(f'No file: {path_to_vocab_file} there ?')
+        print(f'No file with vocabulary, named  >{path_to_vocab_file}< there ?')
         exit()
+    else:
+        if verbose:
+            print(f'Vocabulary we read from >{path_to_vocab_file}<')
+        pass
         
     if not os.path.isfile(path_to_biggest_int_seq):
-        print(f'No file: {path_to_biggest_int_seq} there ?')
+        print(f'No file with size of biggest int-sequence, named >{path_to_biggest_int_seq}< there ?')
         exit()
-        
-    ### read int-seq from pickle file
+    else:
+        if verbose:
+            print(f'The size of the biggest int-sequence we read from file >{path_to_biggest_int_seq}<')
+        pass
+    
+    
+    ### read int-seq,label from pickle file
     pickle_file_content = get_pickle_file_content(path_to_int_seq_pickle)
     
     ### get return type dict
     ret_type_dict = get_ret_type_dict(path_to_return_type_dict_file)
-    print(f'ret-type-dict: {ret_type_dict}')
+    print(f'\nret-type-dict: {ret_type_dict}\n')
     
     counter = 0
     len_of_all_contents = 0
@@ -66,7 +93,7 @@ def main():
         #print(f'len-content: {len(content)}')
         len_of_all_contents += len(content)
         ##for TESTING
-        if len_of_all_contents > 100000:
+        if len_of_all_contents > 10000:
             break
         for func_as_int_list, label in content: 
             ### build tf-one-hot
@@ -91,8 +118,11 @@ def main():
     stop = datetime.now()
     print(f'Building dataset took: >{stop-start}< Hours:Min:Sec')
     
-    num_elements_in_train_data = tf.data.experimental.cardinality(dataset).numpy()
-    print(f'We got {num_elements_in_train_data} in  dataset')
+    num_elements_in_dataset = tf.data.experimental.cardinality(dataset).numpy()
+    print(f'We got {num_elements_in_dataset} in  dataset')
+    
+    ### ERRROR
+    print(f'Shape of dataset >{tf.shape(dataset)}<')
     
     
     print(f'Len of all-contents from pickle: {len_of_all_contents}')
@@ -116,8 +146,8 @@ def main():
     
     ### split ds in train, test  
     #train_ds, test_ds = split_tf_dataset(dataset, len_of_all_contents)
-    print(f'len_of_all_contents: >{len_of_all_contents}< we split now')
-    train_size = int(0.7 * len_of_all_contents)
+    print(f'num_elements_in_dataset: >{num_elements_in_dataset}< we split now')
+    train_size = int(0.7 * num_elements_in_dataset)
 
     train_data = dataset.take(train_size)
     test_data = dataset.skip(train_size)
