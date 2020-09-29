@@ -148,7 +148,7 @@ def main():
     
     
     print(f'Len of all-contents from pickle: {len_of_all_contents}')
-    ds1 = next(iter(full_tf_ds))
+    ds1 = next(iter(dataset))
     print(f'One full-tf-dataset item:{ds1}')
     print(f'length of full tf-dataset: {len(full_tf_ds)}')
     #exit()
