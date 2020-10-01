@@ -123,9 +123,16 @@ def main():
     num_elements_in_dataset = tf.data.experimental.cardinality(dataset).numpy()
     print(f'We got {num_elements_in_dataset} in  dataset')
     
-    ### ERRROR
+    ### debug
     dshape = dataset.element_spec
     print(f'Shape of dataset >{dshape}<')
+    
+    c =0
+    for elem in dataset:
+        print(f'element >{c}< >{elem}<')
+        c += 1
+        if c > 3:
+            break
     
     
     print(f'Len of all-contents from pickle: {len_of_all_contents}')
