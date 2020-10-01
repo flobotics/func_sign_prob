@@ -157,13 +157,16 @@ def main():
     len_big_int_seq_file = open(path_to_biggest_int_seq, 'r')
     len_big_int_seq = len_big_int_seq_file.readline()
     len_big_int_seq_file.close()
-    print(f'len biggest int-seq: {len_big_int_seq}')
+    print(f'len biggest int-seq, we pad int-seq to: {len_big_int_seq}')
     
     ### shuffle and pad
     #train_ds_batch, test_ds_batch = shuffle_and_pad(train_ds, test_ds, 1000, int(len_big_int_seq))
-    train_ds_batch = train_data.shuffle(1000).padded_batch(int(len_big_int_seq), padded_shapes=[([None], [int(len_big_int_seq)] )])
-    test_ds_batch = test_data.shuffle(1000).padded_batch(int(len_big_int_seq), padded_shapes=[([None], [int(len_big_int_seq)] )])
     
+    #train_ds_batch = train_data.shuffle(1000).padded_batch(int(len_big_int_seq), padded_shapes=[([None], [int(len_big_int_seq)] )])
+    #test_ds_batch = test_data.shuffle(1000).padded_batch(int(len_big_int_seq), padded_shapes=[([None], [int(len_big_int_seq)] )])
+    
+    train_ds_batch = train_data.shuffle(1000).padded_batch(int(len_big_int_seq))
+    test_ds_batch = test_data.shuffle(1000).padded_batch(int(len_big_int_seq))
     
     train_batch, train_labels = next(iter(train_ds_batch))
     print(train_batch.numpy())
