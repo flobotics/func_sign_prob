@@ -184,8 +184,8 @@ def main():
     print(f'len biggest int-seq, we pad int-seq to: {len_big_int_seq}')
     
     ### shuffle and pad
-    train_ds_batch = train_data.shuffle(100).padded_batch(int(len_big_int_seq))
-    test_ds_batch = test_data.shuffle(100).padded_batch(int(len_big_int_seq))
+    train_ds_batch = train_data.shuffle(10).padded_batch(int(len_big_int_seq))
+    test_ds_batch = test_data.shuffle(10).padded_batch(int(len_big_int_seq))
     
     num_elements_in_train_ds_batch = tf.data.experimental.cardinality(train_ds_batch).numpy()
     print(f'We got {num_elements_in_train_ds_batch} in  train_ds_batch after padding')
@@ -200,10 +200,10 @@ def main():
         if c > 3:
             break
     
-    train_ds_batch_int_seq, train_ds_batch_label = next(iter(train_ds_batch))
-    print(f'One train_ds_batch_int_seq example: >{train_ds_batch_int_seq.numpy()}<')
+    #train_ds_batch_int_seq, train_ds_batch_label = next(iter(train_ds_batch))
+    #print(f'One train_ds_batch_int_seq example: >{train_ds_batch_int_seq.numpy()}<')
     print(f'Shape of train_ds_batch_int_seq example: >{train_ds_batch_int_seq.shape}<')
-    print(f'Label of train_ds_batch_label example: >{train_ds_batch_label.numpy()}<')
+    #print(f'Label of train_ds_batch_label example: >{train_ds_batch_label.numpy()}<')
     print(f'Shape of train_ds_batch_label example: >{train_ds_batch_label.shape}<')
     
     
