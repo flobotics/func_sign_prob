@@ -5,7 +5,6 @@ import pickle
 import numpy as np
 import os
 from datetime import datetime
-from psutil.tests.test_posix import ps
 
 def get_pickle_file_content(full_path_pickle_file):
     pickle_file = open(full_path_pickle_file,'rb')
