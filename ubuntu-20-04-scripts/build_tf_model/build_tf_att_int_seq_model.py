@@ -290,22 +290,22 @@ def main():
     
     
     logdir = "/tmp/logs/scalars/" + date_str
-    tensorboard_callback = keras.callbacks.TensorBoard(log_dir=logdir, histogram_freq=1)
+    tensorboard_callback = keras.callbacks.TensorBoard(log_dir=logdir, histogram_freq=0)
     #, callbacks=[tensorboard_callback]
     print(f'Storing tensorboard files to: {logdir}')
     
     
     
-#     history = model.fit(
-#         train_ds_batch,
-#         epochs=30,
-#         validation_data=test_ds_batch, validation_steps=20, callbacks=[tensorboard_callback, model_checkpoint_callback]
-#     )
     history = model.fit(
         train_ds_batch,
         epochs=30,
-        validation_data=test_ds_batch, validation_steps=20, callbacks=[model_checkpoint_callback]
-    )  
+        validation_data=test_ds_batch, validation_steps=20, callbacks=[tensorboard_callback, model_checkpoint_callback]
+    )
+#     history = model.fit(
+#         train_ds_batch,
+#         epochs=30,
+#         validation_data=test_ds_batch, validation_steps=20, callbacks=[model_checkpoint_callback]
+#     )  
 
     
 
