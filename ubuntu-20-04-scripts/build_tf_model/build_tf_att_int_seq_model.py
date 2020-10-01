@@ -244,7 +244,7 @@ def main():
     ### adding +1, because of the padded-zero, which we mask out
     print(f'len(vocab)+1: >{len(vocab)+1}<  embedding_dim: >{embedding_dim}<')
     
-    tf.profiler.experimental.stop()
+    #tf.profiler.experimental.stop()
     
     model = keras.Sequential([
         layers.Embedding(len(vocab)+1, embedding_dim, mask_zero=True),
@@ -296,12 +296,16 @@ def main():
     
     
     
+#     history = model.fit(
+#         train_ds_batch,
+#         epochs=30,
+#         validation_data=test_ds_batch, validation_steps=20, callbacks=[tensorboard_callback, model_checkpoint_callback]
+#     )
     history = model.fit(
         train_ds_batch,
         epochs=30,
-        validation_data=test_ds_batch, validation_steps=20, callbacks=[tensorboard_callback, model_checkpoint_callback]
-    )
-        
+        validation_data=test_ds_batch, validation_steps=20, callbacks=[model_checkpoint_callback]
+    )  
 
     
 
