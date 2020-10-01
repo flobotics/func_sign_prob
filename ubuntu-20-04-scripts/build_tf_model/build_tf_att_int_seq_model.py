@@ -181,9 +181,10 @@ def main():
     num_elements_in_test_ds_batch = tf.data.experimental.cardinality(test_ds_batch).numpy()
     print(f'We got {num_elements_in_test_ds_batch} in  test_ds_batch after padding')
     
-    train_batch, train_labels = next(iter(train_ds_batch))
-    print(f'One train_batch example: >{train_batch.numpy()}<')
-    print(f'Shape of train_batch example: >{train_batch.shape}<')
+    train_ds_batch_int_seq, train_ds_batch_label = next(iter(train_ds_batch))
+    print(f'One train_ds_batch_int_seq example: >{train_ds_batch_int_seq.numpy()}<')
+    print(f'Shape of train_ds_batch_int_seq example: >{train_batch.shape}<')
+    print(f'Label of train_ds_batch_int_seq example: >{train_ds_batch_label}<')
     
     
 
