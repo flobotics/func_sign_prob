@@ -147,11 +147,17 @@ def main():
     
     ### split ds in train, test  
     #train_ds, test_ds = split_tf_dataset(dataset, len_of_all_contents)
-    print(f'num_elements_in_dataset: >{num_elements_in_dataset}< we split now')
+    print(f'We got >{num_elements_in_dataset}< in dataset, we split now')
     train_size = int(0.7 * num_elements_in_dataset)
+    print(f'train_size: >{train_size}<  and test_size >{num_elements_in_dataset - train_size}<')
 
     train_data = dataset.take(train_size)
     test_data = dataset.skip(train_size)
+    
+    num_elements_in_train_data = tf.data.experimental.cardinality(train_data).numpy()
+    print(f'We got {num_elements_in_train_data} in  train_data after split')
+    num_elements_in_test_data = tf.data.experimental.cardinality(test_data).numpy()
+    print(f'We got {num_elements_in_test_data} in  test_data after split')
     
     ### get lenght of biggest int_seq
     len_big_int_seq_file = open(path_to_biggest_int_seq, 'r')
@@ -168,15 +174,15 @@ def main():
     train_ds_batch = train_data.shuffle(1000).padded_batch(int(len_big_int_seq))
     test_ds_batch = test_data.shuffle(1000).padded_batch(int(len_big_int_seq))
     
+    num_elements_in_train_ds_batch = tf.data.experimental.cardinality(train_ds_batch).numpy()
+    print(f'We got {num_elements_in_train_ds_batch} in  train_ds_batch after padding')
+    num_elements_in_test_ds_batch = tf.data.experimental.cardinality(test_ds_batch).numpy()
+    print(f'We got {num_elements_in_test_ds_batch} in  test_ds_batch after padding')
+    
     train_batch, train_labels = next(iter(train_ds_batch))
-    print(train_batch.numpy())
-    print(train_batch.shape)
+    print(f'One train_batch example: >{train_batch.numpy()}<')
+    print(f'Shape of train_batch example: >{train_batch.shape}<')
     
-    num_elements_in_train_batches = tf.data.experimental.cardinality(train_ds_batch).numpy()
-    print(num_elements_in_train_batches)
-    
-    num_elements_in_test_batches = tf.data.experimental.cardinality(train_ds_batch).numpy()
-    print(num_elements_in_test_batches)
     
 
     #print(f'stop here')
@@ -212,6 +218,8 @@ def main():
     #])
     
     ### adding +1, because of the padded-zero, which we mask out
+    print(f'len(vocab)+1: >{len(vocab)+1}<  embedding_dim: >{embedding_dim}<')
+    
     model = keras.Sequential([
         layers.Embedding(len(vocab)+1, embedding_dim, mask_zero=True),
         layers.GlobalAveragePooling1D(),
