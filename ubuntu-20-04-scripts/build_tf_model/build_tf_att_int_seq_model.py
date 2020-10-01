@@ -145,7 +145,7 @@ def main():
     ### Next we create our model
     #####################
 
-    embedding_dim=64
+    embedding_dim=8
     
     ### get number of "words" in our vocabulay of int_seq (NOT ret-types)
     ### open vocab file
