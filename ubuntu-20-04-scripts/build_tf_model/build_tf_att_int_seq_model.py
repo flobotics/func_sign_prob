@@ -244,7 +244,7 @@ def main():
     ### adding +1, because of the padded-zero, which we mask out
     print(f'len(vocab)+1: >{len(vocab)+1}<  embedding_dim: >{embedding_dim}<')
     
-    tf.profiler.experimental.stop
+    tf.profiler.experimental.stop()
     
     model = keras.Sequential([
         layers.Embedding(len(vocab)+1, embedding_dim, mask_zero=True),
