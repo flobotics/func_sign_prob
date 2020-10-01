@@ -289,7 +289,7 @@ def main():
     print(f'Storing tf checkpoint files to: {checkpoint_filepath}')
     
     
-    logdir = "/tmp/logs/scalars/" + date_str
+    logdir = "/tmp/logs/scalars/" + date_str + "/"
     tensorboard_callback = keras.callbacks.TensorBoard(log_dir=logdir, histogram_freq=0)
     #, callbacks=[tensorboard_callback]
     print(f'Storing tensorboard files to: {logdir}')
