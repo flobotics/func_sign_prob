@@ -122,7 +122,8 @@ def main():
     print(f'We got {num_elements_in_dataset} in  dataset')
     
     ### ERRROR
-    print(f'Shape of dataset >{tf.shape(dataset)}<')
+    dshape = dataset.element_spec
+    print(f'Shape of dataset >{dshape}<')
     
     
     print(f'Len of all-contents from pickle: {len_of_all_contents}')
