@@ -100,20 +100,22 @@ def main():
             label_as_int = ret_type_dict[label]
             label_as_one_hot = tf.one_hot(label_as_int, len(ret_type_dict))
             
-            ### build tf dataset
-            if dataset_counter == 0:
-                dataset_counter = 1
-                print(f'label: {label}')
-                print(f'label-as-int: {label_as_int}')
-                dataset = tf.data.Dataset.from_tensors( ( func_as_int_list,label_as_one_hot ))
-            else:
-                #full_tf_ds = add_one_item_to_tf_dataset(func_as_int_list, label_as_one_hot, dataset)
-                ds = tf.data.Dataset.from_tensors( ( func_as_int_list,label_as_one_hot ))
-                dataset = dataset.concatenate( ds )
-
-            ### print to show the user that something is happening, this loop took a while
-            print(f'Adding >{counter}< int_seqs to tf-ds of >{len_of_all_contents}<', end='\r')
-            counter += 1
+            ### removing all int-seqs which are bigger then 30000 and smaller than 50
+            if len(func_as_int_list) > 50 and len(func_as_int_list) < 30000:
+                ### build tf dataset
+                if dataset_counter == 0:
+                    dataset_counter = 1
+                    print(f'label: {label}')
+                    print(f'label-as-int: {label_as_int}')
+                    dataset = tf.data.Dataset.from_tensors( ( func_as_int_list,label_as_one_hot ))
+                else:
+                    #full_tf_ds = add_one_item_to_tf_dataset(func_as_int_list, label_as_one_hot, dataset)
+                    ds = tf.data.Dataset.from_tensors( ( func_as_int_list,label_as_one_hot ))
+                    dataset = dataset.concatenate( ds )
+    
+                ### print to show the user that something is happening, this loop took a while
+                print(f'Adding >{counter}< int_seqs to tf-ds of >{len_of_all_contents}<', end='\r')
+                counter += 1
 
     stop = datetime.now()
     print(f'Building dataset took: >{stop-start}< Hours:Min:Sec')
