@@ -127,12 +127,14 @@ def main():
     print(f'Shape of dataset >{dshape}<')
     
     ### print element from dataset for debug
-    c =0
-    for elem in dataset:
-        print(f'element >{c}< >{elem}<')
-        c += 1
-        if c > 3:
-            break
+    print_elem = False
+    if print_elem:
+        c =0
+        for elem in dataset:
+            print(f'element >{c}< >{elem}<')
+            c += 1
+            if c > 3:
+                break
     
     
     print(f'Len of all-contents from pickle: {len_of_all_contents}')
@@ -164,12 +166,13 @@ def main():
     test_data = dataset.skip(train_size)
     
     ### print element of train dataset for debug
-    c =0
-    for elem in train_data:
-        print(f'train_data element >{c}< >{elem}<')
-        c += 1
-        if c > 3:
-            break
+    if print_elem:
+        c =0
+        for elem in train_data:
+            print(f'train_data element >{c}< >{elem}<')
+            c += 1
+            if c > 3:
+                break
     
     num_elements_in_train_data = tf.data.experimental.cardinality(train_data).numpy()
     print(f'We got {num_elements_in_train_data} in  train_data after split')
@@ -194,12 +197,13 @@ def main():
     print(f'We got {num_elements_in_test_ds_batch} in  test_ds_batch after padding')
     
     ### print element of train dataset for debug
-    c =0
-    for elem in train_ds_batch:
-        print(f'train_ds_batch element >{c}< >{elem}<')
-        c += 1
-        if c > 3:
-            break
+    if print_elem:
+        c =0
+        for elem in train_ds_batch:
+            print(f'train_ds_batch element >{c}< >{elem}<')
+            c += 1
+            if c > 3:
+                break
     
     train_ds_batch_int_seq, train_ds_batch_label = next(iter(train_ds_batch))
     #print(f'One train_ds_batch_int_seq example: >{train_ds_batch_int_seq.numpy()}<')
