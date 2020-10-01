@@ -314,6 +314,26 @@ def main():
 #     )  
 
     
+    ### get embeddings to load in tensorboard
+    emb_vocab = vectorize_layer.get_vocabulary()
+    print(emb_vocab[:10])
+    # Get weights matrix of layer named 'embedding'
+    weights = model.get_layer('embedding').get_weights()[0]
+    print(weights.shape) 
+    
+    out_v = io.open("/tmp/logs/" + 'vecs.tsv', 'w', encoding='utf-8')
+    out_m = io.open("/tmp/logs/" + 'meta.tsv', 'w', encoding='utf-8')
+
+    for num, word in enumerate(vocab):
+        if num == 0: continue # skip padding token from vocab
+        vec = weights[num]
+        out_m.write(word + "\n")
+        out_v.write('\t'.join([str(x) for x in vec]) + "\n")
+        
+    out_v.close()
+    out_m.close()
+
+    
 
 if __name__ == "__main__":
     main()
