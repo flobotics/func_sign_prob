@@ -183,7 +183,7 @@ def main():
     
     train_ds_batch_int_seq, train_ds_batch_label = next(iter(train_ds_batch))
     print(f'One train_ds_batch_int_seq example: >{train_ds_batch_int_seq.numpy()}<')
-    print(f'Shape of train_ds_batch_int_seq example: >{train_batch.shape}<')
+    print(f'Shape of train_ds_batch_int_seq example: >{train_ds_batch_int_seq.shape}<')
     print(f'Label of train_ds_batch_int_seq example: >{train_ds_batch_label}<')
     
     
