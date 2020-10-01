@@ -25,8 +25,9 @@ def main():
         for dis,ret in i:
             len_list.append(len(dis))
             if len(dis) > biggest_length:
-                print(f'New length of int_seq: {len(dis)}')
-                biggest_length = len(dis)
+                if len(dis) > 50 and len(dis) < 30000:
+                    print(f'New length of int_seq: {len(dis)}')
+                    biggest_length = len(dis)
                 
             ###debug
             if len(dis) == 8:
