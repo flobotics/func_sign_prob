@@ -168,11 +168,6 @@ def main():
     print(f'len biggest int-seq, we pad int-seq to: {len_big_int_seq}')
     
     ### shuffle and pad
-    #train_ds_batch, test_ds_batch = shuffle_and_pad(train_ds, test_ds, 1000, int(len_big_int_seq))
-    
-    #train_ds_batch = train_data.shuffle(1000).padded_batch(int(len_big_int_seq), padded_shapes=[([None], [int(len_big_int_seq)] )])
-    #test_ds_batch = test_data.shuffle(1000).padded_batch(int(len_big_int_seq), padded_shapes=[([None], [int(len_big_int_seq)] )])
-    
     train_ds_batch = train_data.shuffle(100).padded_batch(int(len_big_int_seq))
     test_ds_batch = test_data.shuffle(100).padded_batch(int(len_big_int_seq))
     
@@ -184,7 +179,8 @@ def main():
     train_ds_batch_int_seq, train_ds_batch_label = next(iter(train_ds_batch))
     print(f'One train_ds_batch_int_seq example: >{train_ds_batch_int_seq.numpy()}<')
     print(f'Shape of train_ds_batch_int_seq example: >{train_ds_batch_int_seq.shape}<')
-    print(f'Label of train_ds_batch_int_seq example: >{train_ds_batch_label}<')
+    print(f'Label of train_ds_batch_label example: >{train_ds_batch_label.numpy()}<')
+    print(f'Shape of train_ds_batch_label example: >{train_ds_batch_label.shape}<')
     
     
 
