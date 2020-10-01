@@ -173,8 +173,8 @@ def main():
     #train_ds_batch = train_data.shuffle(1000).padded_batch(int(len_big_int_seq), padded_shapes=[([None], [int(len_big_int_seq)] )])
     #test_ds_batch = test_data.shuffle(1000).padded_batch(int(len_big_int_seq), padded_shapes=[([None], [int(len_big_int_seq)] )])
     
-    train_ds_batch = train_data.shuffle(1000).padded_batch(int(len_big_int_seq))
-    test_ds_batch = test_data.shuffle(1000).padded_batch(int(len_big_int_seq))
+    train_ds_batch = train_data.shuffle(100).padded_batch(int(len_big_int_seq))
+    test_ds_batch = test_data.shuffle(100).padded_batch(int(len_big_int_seq))
     
     num_elements_in_train_ds_batch = tf.data.experimental.cardinality(train_ds_batch).numpy()
     print(f'We got {num_elements_in_train_ds_batch} in  train_ds_batch after padding')
