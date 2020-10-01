@@ -294,7 +294,7 @@ def main():
     
     
     logdir = "/tmp/logs/scalars/" + date_str + "/"
-    tensorboard_callback = keras.callbacks.TensorBoard(log_dir=logdir, histogram_freq=10)
+    tensorboard_callback = keras.callbacks.TensorBoard(log_dir=logdir)
     #tensorboard_callback = keras.callbacks.TensorBoard(log_dir=logdir)
     print(f'Storing tensorboard files to: {logdir}')
     
