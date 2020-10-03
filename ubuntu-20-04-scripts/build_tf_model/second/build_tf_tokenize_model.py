@@ -34,28 +34,41 @@ def get_sequence_length(full_path_seq_file):
     file.close()
     return ret
 
+full_path_vocab_file = "/tmp/vocab_size.txt"
+full_path_seq_file = "/tmp/sequence_length.txt"
+# Vocabulary size and number of words in a sequence.
+vocab_size = get_vocab_size(full_path_vocab_file)
+sequence_length = get_sequence_length(full_path_seq_file)
+
+vectorize_layer = TextVectorization(standardize=None,
+                                        max_tokens=int(vocab_size),
+                                        output_mode='int',
+                                        output_sequence_length=int(sequence_length))
+
 def vectorize_text(text, label):
     text = tf.expand_dims(text, -1)
     return vectorize_layer(text), label
   
 
+
 def main():
-    full_path_vocab_file = "/tmp/vocab_size.txt"
-    full_path_seq_file = "/tmp/sequence_length.txt"
+    global vectorize_layer
+    
+    
     pickle_file_dir = "/tmp/savetest"
     tensorboard_logdir = "/tmp/logs"
+    path_to_return_type_dict_file = "/tmp/full_dataset_att_int_seq_ret_type_dict.pickle"
     
-    # Vocabulary size and number of words in a sequence.
-    vocab_size = get_vocab_size(full_path_vocab_file)
-    sequence_length = get_sequence_length(full_path_seq_file)
+    
     
     print(f'Vocabulary size is >{vocab_size}<')
     print(f'Sequence length is >{sequence_length}<')
     
-    vectorize_layer = TextVectorization(standardize=None,
-                                        max_tokens=int(vocab_size),
-                                        output_mode='int',
-                                        output_sequence_length=int(sequence_length))
+    
+
+    ### get return type dict
+    ret_type_dict = get_pickle_file_content(path_to_return_type_dict_file)
+    
 
     ### build ds from tokenized files, then get texts
     ds_counter = 0
@@ -63,11 +76,12 @@ def main():
     for file in pickle_files:
         cont = get_pickle_file_content(pickle_file_dir + '/' + file)
         for dis,ret in cont:
+            ret_type_int = ret_type_dict[ret]
             if ds_counter == 0:
-                raw_dataset = tf.data.Dataset.from_tensors( (dis, vectorize_layer(ret) ) )
+                raw_dataset = tf.data.Dataset.from_tensors( (dis, ret_type_int ) )
                 ds_counter = 1
             else:
-                ds = tf.data.Dataset.from_tensors( (dis, vectorize_layer(ret) ) )
+                ds = tf.data.Dataset.from_tensors( (dis, ret_type_int ) )
                 raw_dataset = raw_dataset.concatenate( ds )
 
 
@@ -102,23 +116,24 @@ def main():
     ## build model
     embedding_dim = 8
     
-    model = tf.keras.Sequential([layers.Embedding(vocab_size + 1, embedding_dim),
-                                layers.Dropout(0.2),
-                                layers.GlobalAveragePooling1D(),
-                                layers.Dropout(0.2),
-                                layers.Dense(4)])
+    model = tf.keras.Sequential([tf.keras.layers.Embedding(int(vocab_size) + 1, embedding_dim),
+                                tf.keras.layers.Dropout(0.2),
+                                tf.keras.layers.GlobalAveragePooling1D(),
+                                tf.keras.layers.Dropout(0.2),
+                                tf.keras.layers.Dense(len(ret_type_dict))])
                                   
     tensorboard_callback = tf.keras.callbacks.TensorBoard(log_dir=tensorboard_logdir)
 
 
 
-    model.compile(loss=losses.SparseCategoricalCrossentropy(from_logits=True), 
+    model.compile(loss=tf.keras.losses.SparseCategoricalCrossentropy(from_logits=True), 
                 optimizer='adam', 
                 metrics=['accuracy'])
 
     history = model.fit(train_ds,
                         validation_data=val_ds,
-                        epochs=5)
+                        epochs=5,
+                        callbacks=[tensorboard_callback])
 
     ### evaluate the model
     loss, accuracy = model.evaluate(test_ds)
