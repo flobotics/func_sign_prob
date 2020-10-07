@@ -62,18 +62,21 @@ if len(all_files) == 0:
 
 counter = 0
 biggest = 0
+longest_disas = 30000
+shortest_disas = 50
 
 for file in all_files:
     content = get_pickle_file_content(bag_styled_file_dir + '/' + file)
+    
     for disas,ret_type in content:
-        counter = 0
-        for disas_item in disas.split():
-            counter += 1
-            #print(f'disas_item:{disas_item}')
-            unique_vocab.add(disas_item)
-        
-        if counter > biggest:
-            biggest = counter
+        #print(f'len disas >{len(disas)}<')
+        ### we filter out some
+        if (len(disas) <= longest_disas) and ( len(disas) >= shortest_disas):
+            for disas_item in disas.split():
+                unique_vocab.add(disas_item)
+            
+            if len(disas) > biggest:
+                biggest = len(disas)
     #break
     
 stop = datetime.now()

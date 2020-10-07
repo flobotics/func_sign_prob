@@ -303,6 +303,7 @@ def clean_att_disassembly(att_disassembly):
         if 'ako' in i:
             print(f'Error')
         
+        
     return cleaned
 
 
@@ -323,7 +324,7 @@ def build_bag_of_words_style_assembly(cleaned_att_disassembly):
                 bag_style_att_disassembly.append('0x')
             else:
                 bag_style_att_disassembly.append(item)
-        
+    
     return bag_style_att_disassembly
 
     
@@ -456,6 +457,8 @@ for one_tar_file in all_tar_files:
                     cleaned_att_disassembly = clean_att_disassembly(item[4])
                     bag_of_words_style_assembly = build_bag_of_words_style_assembly(cleaned_att_disassembly)
                     dis_str = ' '.join(bag_of_words_style_assembly)
+                    
+                    print(f'dis_str >{dis_str}<')
                     
                     ### append it to the last list, which gets stored to tfrecord
                     disassembly_att_and_ret_types_list.append((dis_str, return_type))
