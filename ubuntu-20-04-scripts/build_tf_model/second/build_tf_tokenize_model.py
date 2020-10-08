@@ -60,7 +60,7 @@ def vectorize_text(text, label):
   
   
 def save_trained_word_embeddings(date_str, model):
-    trained_dir = "/tmp/logs/" + date_str
+    trained_dir = "/tmp/logs/" + date_str + "/trained_word_embeddings"
     vecs_filename = "/tmp/logs/" + date_str + "/trained_word_embeddings/vecs.tsv"
     meta_filename = "/tmp/logs/" + date_str + "/trained_word_embeddings/meta.tsv"
     
