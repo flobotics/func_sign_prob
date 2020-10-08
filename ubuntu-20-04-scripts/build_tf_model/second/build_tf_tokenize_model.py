@@ -206,10 +206,18 @@ def main():
     model.summary()
 
                                   
-    tensorboard_callback = tf.keras.callbacks.TensorBoard(log_dir=tensorboard_logdir)
+    tensorboard_callback = tf.keras.callbacks.TensorBoard(log_dir=tensorboard_logdir, histogram_freq=1)
 
+    checkpoint_filepath = '/tmp/logs/checkpoint'
+    model_checkpoint_callback = tf.keras.callbacks.ModelCheckpoint(
+        filepath=checkpoint_filepath,
+        save_weights_only=True,
+        monitor='accuracy',
+        mode='max',
+        save_best_only=True)
 
-
+    print(f'Storing tf checkpoint files to: {checkpoint_filepath}')
+    
     model.compile(loss=tf.keras.losses.SparseCategoricalCrossentropy(from_logits=True), 
                 optimizer='adam', 
                 metrics=['accuracy'])
@@ -217,7 +225,7 @@ def main():
     history = model.fit(train_ds,
                         validation_data=val_ds,
                         epochs=5,
-                        callbacks=[tensorboard_callback])
+                        callbacks=[tensorboard_callback, model_checkpoint_callback])
 
     ### evaluate the model
     loss, accuracy = model.evaluate(test_ds)
