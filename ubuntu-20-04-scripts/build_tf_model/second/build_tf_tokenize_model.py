@@ -5,6 +5,8 @@ from tensorflow.keras.layers.experimental.preprocessing import TextVectorization
 import pickle
 import os  
 from tensorflow.python.ops.ragged.ragged_string_ops import ngrams
+from datetime import datetime
+
 
 def get_all_pickle_filenames(pickle_file_dir):
     files = os.listdir(pickle_file_dir)
@@ -56,6 +58,30 @@ def vectorize_text(text, label):
     text = tf.expand_dims(text, -1)
     return vectorize_layer(text), label
   
+  
+def save_trained_word_embeddings(date_str, model):
+    vecs_filename = "/tmp/logs/" + date_str + "/trained_word_embeddings/vecs.tsv"
+    meta_filename = "/tmp/logs/" + date_str + "/trained_word_embeddings/meta.tsv"
+    
+    vocab = vectorize_layer.get_vocabulary()
+    print(f'10 vocab words >{vocab[:10]}<')
+    
+    # Get weights matrix of layer named 'embedding'
+    weights = model.get_layer('embedding').get_weights()[0]
+    print(f'Shape of the weigths >{weights.shape}<') 
+    
+    out_v = io.open(vecs_filename, 'w', encoding='utf-8')
+    out_m = io.open(meta_filename, 'w', encoding='utf-8')
+    
+    for num, word in enumerate(vocab):
+      if num == 0: continue # skip padding token from vocab
+      vec = weights[num]
+      out_m.write(word + "\n")
+      out_v.write('\t'.join([str(x) for x in vec]) + "\n")
+    out_v.close()
+    out_m.close()
+
+
 
 
 def main():
@@ -63,9 +89,12 @@ def main():
     global vocab_size
     global sequence_length
     
+    date_str = datetime.now().strftime("%Y%m%d-%H%M%S")
+
+    checkpoint_filepath = '/tmp/logs/' + date_str + '/checkpoint'
+    tensorboard_logdir = "/tmp/logs/" + date_str
     
     pickle_file_dir = "/tmp/savetest"
-    tensorboard_logdir = "/tmp/logs"
     path_to_return_type_dict_file = "/tmp/full_dataset_att_int_seq_ret_type_dict.pickle"
     
     
@@ -208,7 +237,7 @@ def main():
                                   
     tensorboard_callback = tf.keras.callbacks.TensorBoard(log_dir=tensorboard_logdir, histogram_freq=1)
 
-    checkpoint_filepath = '/tmp/logs/checkpoint'
+    
     model_checkpoint_callback = tf.keras.callbacks.ModelCheckpoint(
         filepath=checkpoint_filepath,
         save_weights_only=True,
@@ -232,7 +261,8 @@ def main():
     print("Loss: ", loss)
     print("Accuracy: ", accuracy)
 
-
+    ### save trained word embeddings
+    save_trained_word_embeddings(date_str, model)
 
 
 if __name__ == "__main__":
