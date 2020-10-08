@@ -99,6 +99,8 @@ def main():
     pickle_file_dir = "/tmp/savetest"
     path_to_return_type_dict_file = "/tmp/full_dataset_att_int_seq_ret_type_dict.pickle"
     
+    raw_dataset_path = "/tmp/raw_dataset.tfrecord"
+    
     
     print(f'tensorflow version >{tf.__version__}<')
     print(f'Vocabulary size is >{vocab_size}<')
@@ -109,20 +111,28 @@ def main():
     ### get return type dict
     ret_type_dict = get_pickle_file_content(path_to_return_type_dict_file)
     
+    ### check if we already got a dataset from tokenized files
+    print(f'check if we already got a dataset from tokenized files')
+    if os.path.isfile(raw_dataset_path):
+        print(f'Found raw_dataset file, will use it')
+        tf.data.experimental.load(raw_dataset_path, tf.TensorSpec(shape=(), dtype=tf.int64))
     
     ### build ds from tokenized files, then get texts
     print(f'Building tf dataset from tokenized files')
     ds_counter = 0
     pickle_files = get_all_pickle_filenames(pickle_file_dir)
     nr_of_pickle_files = len(pickle_files)
-    pickle_file_counter = 1
+    pickle_file_counter = 0
+    dis_counter = 1
     
     for file in pickle_files:
-        print(f'{pickle_file_counter}/{nr_of_pickle_files}', end='\r')
         pickle_file_counter += 1
         
         cont = get_pickle_file_content(pickle_file_dir + '/' + file)
         for dis,ret in cont:
+            print(f'Tokenized file {pickle_file_counter}/{nr_of_pickle_files} and >{dis_counter}< assemblies', end='\r')
+            dis_counter += 1
+            
             ret_type_int = ret_type_dict[ret] - 1
             if ds_counter == 0:
                 #print(f'dis >{dis}<')
@@ -135,7 +145,11 @@ def main():
                 ds = tf.data.Dataset.from_tensors( (dis, ret_type_int) )
                 raw_dataset = raw_dataset.concatenate( ds )
 
-    #raw_dataset = raw_dataset.batch(10, drop_remainder=False)       
+
+    ### save dataset 
+    print(f'Saving raw_dataset to file >{raw_dataset_path}<')
+    tf.data.experimental.save(raw_dataset, raw_dataset_path)
+      
     
     ##debug
 #     for text_batch, label_batch in raw_dataset.take(1):
