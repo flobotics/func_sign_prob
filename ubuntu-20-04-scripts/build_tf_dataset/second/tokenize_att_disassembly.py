@@ -458,7 +458,7 @@ for one_tar_file in all_tar_files:
                     bag_of_words_style_assembly = build_bag_of_words_style_assembly(cleaned_att_disassembly)
                     dis_str = ' '.join(bag_of_words_style_assembly)
                     
-                    print(f'dis_str >{dis_str}<')
+                    #print(f'dis_str >{dis_str}<')
                     
                     ### append it to the last list, which gets stored to tfrecord
                     disassembly_att_and_ret_types_list.append((dis_str, return_type))
