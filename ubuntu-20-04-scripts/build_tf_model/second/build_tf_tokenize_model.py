@@ -6,7 +6,6 @@ import pickle
 import os  
 from tensorflow.python.ops.ragged.ragged_string_ops import ngrams
 from datetime import datetime
-import io
 
 
 def get_all_pickle_filenames(pickle_file_dir):
@@ -61,6 +60,7 @@ def vectorize_text(text, label):
   
   
 def save_trained_word_embeddings(date_str, model):
+    trained_dir = "/tmp/logs/" + date_str
     vecs_filename = "/tmp/logs/" + date_str + "/trained_word_embeddings/vecs.tsv"
     meta_filename = "/tmp/logs/" + date_str + "/trained_word_embeddings/meta.tsv"
     
@@ -71,8 +71,7 @@ def save_trained_word_embeddings(date_str, model):
     weights = model.get_layer('embedding').get_weights()[0]
     print(f'Shape of the weigths >{weights.shape}<') 
     
-#     out_v = io.open(vecs_filename, 'w+', encoding='utf-8')
-#     out_m = io.open(meta_filename, 'w+', encoding='utf-8')
+    os.mkdir(trained_dir)
     out_v = open(vecs_filename, 'w+')
     out_m = open(meta_filename, 'w+')
     
