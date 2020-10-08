@@ -214,13 +214,13 @@ def get_raw_return_type_from_gdb_ptype(gdb_ptype):
                 return 'unknown'
             
         elif (raw_gdb_ptype.count('(') == 2) and (raw_gdb_ptype.count(')') == 2):
-            print(f'Found func-pointer as return-type, delete till now')
+            #print(f'Found func-pointer as return-type, delete till now')
             return 'delete'
         elif 'substitution' in raw_gdb_ptype:
-            print(f'Found substituion-string, dont know, delete it')
+            #print(f'Found substituion-string, dont know, delete it')
             return 'delete'
         else:
-            print(f'------no gdb ptype-match for: >{raw_gdb_ptype}<')
+            #print(f'------no gdb ptype-match for: >{raw_gdb_ptype}<')
             return 'unknown'
     else:
         print(f'No gdb ptype found')
@@ -406,6 +406,9 @@ breaker = False
 ##all_bag_styled_files = []
 
 ### loop through all pickle.tar.bz2 files and untar them
+len_all_tar_files = len(all_tar_files)
+len_all_tar_files_counter = 0
+
 for one_tar_file in all_tar_files:
     cont = False
     
@@ -448,9 +451,9 @@ for one_tar_file in all_tar_files:
                     breaker = True
                     break
                 elif return_type == 'delete':
-                    print('delete found')
+                    #print('delete found')
                     ### no return type found, so delete this item
-                    #pass
+                    pass
                 else:
                     unique_return_types.add(return_type)
                     ### remove addr and stuff
@@ -469,7 +472,8 @@ for one_tar_file in all_tar_files:
         break
         
     ### save to new pickle file, to save_dir
-    print(f'Save file: att-tokenized-{one_tar_file.replace(".tar.bz2", "")}')
+    print(f'Save file nr >{len_all_tar_files_counter}/{len_all_tar_files}}< named >att-tokenized-{one_tar_file.replace(".tar.bz2", "")}<', end='\r')
+    len_all_tar_files_counter += 1
     save_new_pickle(save_dir + '/' + 'att-tokenized-' + one_tar_file.replace(".tar.bz2", ""), 
                     disassembly_att_and_ret_types_list)
      
