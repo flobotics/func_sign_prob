@@ -87,7 +87,7 @@ def main():
         for dis,ret in cont:
             ret_type_int = ret_type_dict[ret] - 1
             if ds_counter == 0:
-                print(f'dis >{dis}<')
+                #print(f'dis >{dis}<')
                 
                 #raw_dataset = tf.data.Dataset.from_tensor_slices(dis_ret )
                 raw_dataset = tf.data.Dataset.from_tensors( (dis, ret_type_int)  )
@@ -97,7 +97,8 @@ def main():
                 ds = tf.data.Dataset.from_tensors( (dis, ret_type_int) )
                 raw_dataset = raw_dataset.concatenate( ds )
 
-    raw_dataset = raw_dataset.batch(10, drop_remainder=False)       
+    #raw_dataset = raw_dataset.batch(10, drop_remainder=False)       
+    
     ##debug
 #     for text_batch, label_batch in raw_dataset.take(1):
 #         print(text_batch.numpy()[i])
@@ -147,6 +148,12 @@ def main():
     test_dataset = remaining.take(test_size)
     val_dataset = remaining.skip(test_size)
     
+    train_dataset = train_dataset.batch(10, drop_remainder=False)
+    val_dataset = val_dataset.batch(10, drop_remainder=False)
+    test_dataset = test_dataset.batch(10, drop_remainder=False)
+    
+    print(f'train_ds element_spec-2 >{train_dataset.element_spec}<')
+    
     print(f'train_dataset element_spec >{train_dataset.element_spec}<')
     
     print(f'train_dataset size >{tf.data.experimental.cardinality(train_dataset).numpy()}<')
@@ -168,6 +175,8 @@ def main():
     
     print(f'train_ds element_spec >{train_ds.element_spec}<')
     
+
+    
 #     train_ds = train_dataset
 #     val_ds = val_dataset
 #     test_ds = test_dataset
@@ -182,7 +191,7 @@ def main():
     ## build model
     embedding_dim = 8
     
-    model = tf.keras.Sequential([tf.keras.layers.Embedding(int(vocab_size)+1, embedding_dim),
+    model = tf.keras.Sequential([tf.keras.layers.Embedding(int(vocab_size)+2, embedding_dim),
                                     tf.keras.layers.Dropout(0.2),
                                     tf.keras.layers.GlobalAveragePooling1D(),
                                     tf.keras.layers.Dropout(0.2),
