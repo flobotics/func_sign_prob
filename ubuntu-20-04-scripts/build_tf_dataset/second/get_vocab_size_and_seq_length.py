@@ -63,10 +63,13 @@ def main():
     biggest = 0
     longest_disas = 30000
     shortest_disas = 50
+    len_all_files = len(all_files)
+    len_all_files_counter = 1
     
     for file in all_files:
         content = get_pickle_file_content(bag_styled_file_dir + '/' + file)
-        
+        print(f'Building vocab from file nr >{len_all_files_counter}/{len_all_files}<')
+        len_all_files_counter += 1
         for disas,ret_type in content:
             #print(f'len disas >{len(disas)}<')
             ### we filter out some

@@ -112,10 +112,12 @@ def main():
     ret_type_dict = get_pickle_file_content(path_to_return_type_dict_file)
     
     ### check if we already got a dataset from tokenized files
-    print(f'check if we already got a dataset from tokenized files')
+    print(f'Check if we already got a dataset from tokenized files')
     if os.path.isfile(raw_dataset_path):
         print(f'Found raw_dataset file, will use it')
         tf.data.experimental.load(raw_dataset_path, tf.TensorSpec(shape=(), dtype=tf.int64))
+    else:
+        print('No dataset from tokenized files found')
     
     ### build ds from tokenized files, then get texts
     print(f'Building tf dataset from tokenized files')
