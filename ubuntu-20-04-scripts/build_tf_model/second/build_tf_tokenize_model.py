@@ -111,9 +111,16 @@ def main():
     
     
     ### build ds from tokenized files, then get texts
+    print(f'Building tf dataset from tokenized files')
     ds_counter = 0
     pickle_files = get_all_pickle_filenames(pickle_file_dir)
+    nr_of_pickle_files = len(pickle_files)
+    pickle_file_counter = 1
+    
     for file in pickle_files:
+        print(f'{pickle_file_counter}/{nr_of_pickle_files}', end='\r')
+        pickle_file_counter += 1
+        
         cont = get_pickle_file_content(pickle_file_dir + '/' + file)
         for dis,ret in cont:
             ret_type_int = ret_type_dict[ret] - 1

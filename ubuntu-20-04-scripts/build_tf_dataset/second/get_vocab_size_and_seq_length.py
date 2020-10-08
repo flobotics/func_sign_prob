@@ -43,52 +43,57 @@ def build_vocab_dict_from_set(vocab_set):
     return vocab_dict
 
 
-
-#### main
-start=datetime.now()
-
-bag_styled_file_dir = "/tmp/savetest"
-full_path_vocab_file = "/tmp/vocab_size.txt"
-full_path_seq_file = "/tmp/sequence_length.txt"
-
-unique_vocab = set()
-
-
-print(f'Read out all tokenized pickle files in >{bag_styled_file_dir}<')
-all_files = get_all_pickle_filenames(bag_styled_file_dir)
-if len(all_files) == 0:
-    print(f'Error: No tokenized files in dir >{bag_styled_file_dir}<')
-    exit()
-
-counter = 0
-biggest = 0
-longest_disas = 30000
-shortest_disas = 50
-
-for file in all_files:
-    content = get_pickle_file_content(bag_styled_file_dir + '/' + file)
+def main():
+    start=datetime.now()
     
-    for disas,ret_type in content:
-        #print(f'len disas >{len(disas)}<')
-        ### we filter out some
-        if (len(disas) <= longest_disas) and ( len(disas) >= shortest_disas):
-            for disas_item in disas.split():
-                unique_vocab.add(disas_item)
-            
-            if len(disas) > biggest:
-                biggest = len(disas)
-    #break
+    bag_styled_file_dir = "/tmp/savetest"
+    full_path_vocab_file = "/tmp/vocab_size.txt"
+    full_path_seq_file = "/tmp/sequence_length.txt"
     
-stop = datetime.now()
+    unique_vocab = set()
+    
+    
+    print(f'Read out all tokenized pickle files in >{bag_styled_file_dir}<')
+    all_files = get_all_pickle_filenames(bag_styled_file_dir)
+    if len(all_files) == 0:
+        print(f'Error: No tokenized files in dir >{bag_styled_file_dir}<')
+        exit()
+    
+    counter = 0
+    biggest = 0
+    longest_disas = 30000
+    shortest_disas = 50
+    
+    for file in all_files:
+        content = get_pickle_file_content(bag_styled_file_dir + '/' + file)
+        
+        for disas,ret_type in content:
+            #print(f'len disas >{len(disas)}<')
+            ### we filter out some
+            if (len(disas) <= longest_disas) and ( len(disas) >= shortest_disas):
+                for disas_item in disas.split():
+                    unique_vocab.add(disas_item)
+                
+                if len(disas) > biggest:
+                    biggest = len(disas)
+        #break
+        
+    stop = datetime.now()
+    
+    #vocab_dict = build_vocab_dict_from_set(unique_vocab)
+    
+    print(f'Run took:{stop-start} Hour:Min:Sec')
+    print(f'We save Vocabulary in file >{full_path_vocab_file}<')
+    print(f'Vocab size is >{len(unique_vocab)}<')
+    print(f'Biggest sequence length is >{biggest}<')
+    
+    save_vocab_size(full_path_vocab_file, len(unique_vocab))
+    save_sequence_length(full_path_seq_file, biggest)
+    
+    print(unique_vocab)
+    
 
-#vocab_dict = build_vocab_dict_from_set(unique_vocab)
 
-print(f'Run took:{stop-start} Hour:Min:Sec')
-print(f'We save Vocabulary in file >{full_path_vocab_file}<')
-print(f'Vocab size is >{len(unique_vocab)}<')
-print(f'Biggest sequence length is >{biggest}<')
+if __name__ == "__main__":
+    main()
 
-save_vocab_size(full_path_vocab_file, len(unique_vocab))
-save_sequence_length(full_path_seq_file, biggest)
-
-print(unique_vocab)
