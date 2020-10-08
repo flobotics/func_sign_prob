@@ -6,6 +6,7 @@ import pickle
 import os  
 from tensorflow.python.ops.ragged.ragged_string_ops import ngrams
 from datetime import datetime
+import io
 
 
 def get_all_pickle_filenames(pickle_file_dir):
