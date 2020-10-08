@@ -179,9 +179,9 @@ def main():
     test_dataset = remaining.take(test_size)
     val_dataset = remaining.skip(test_size)
     
-    train_dataset = train_dataset.batch(10, drop_remainder=False)
-    val_dataset = val_dataset.batch(10, drop_remainder=False)
-    test_dataset = test_dataset.batch(10, drop_remainder=False)
+    train_dataset = train_dataset.batch(100, drop_remainder=False)
+    val_dataset = val_dataset.batch(100, drop_remainder=False)
+    test_dataset = test_dataset.batch(100, drop_remainder=False)
     
     print(f'train_ds element_spec-2 >{train_dataset.element_spec}<')
     
