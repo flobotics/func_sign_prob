@@ -71,8 +71,8 @@ def save_trained_word_embeddings(date_str, model):
     weights = model.get_layer('embedding').get_weights()[0]
     print(f'Shape of the weigths >{weights.shape}<') 
     
-    out_v = io.open(vecs_filename, 'w', encoding='utf-8')
-    out_m = io.open(meta_filename, 'w', encoding='utf-8')
+    out_v = io.open(vecs_filename, 'w+', encoding='utf-8')
+    out_m = io.open(meta_filename, 'w+', encoding='utf-8')
     
     for num, word in enumerate(vocab):
       if num == 0: continue # skip padding token from vocab
