@@ -251,7 +251,7 @@ def main():
     ## build model
     embedding_dim = 8
     
-    model = tf.keras.Sequential([tf.keras.layers.Embedding(int(vocab_size)+2, embedding_dim),
+    model = tf.keras.Sequential([tf.keras.layers.Embedding(int(vocab_size)+2, embedding_dim, mask_zero=True),
                                     tf.keras.layers.Dropout(0.2),
                                     tf.keras.layers.GlobalAveragePooling1D(),
                                     tf.keras.layers.Dropout(0.2),
