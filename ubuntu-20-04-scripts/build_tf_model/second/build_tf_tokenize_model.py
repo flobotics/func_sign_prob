@@ -6,6 +6,10 @@ import pickle
 import os  
 from tensorflow.python.ops.ragged.ragged_string_ops import ngrams
 from datetime import datetime
+from multiprocessing import Pool
+
+nr_of_cpus = 2
+
 
 
 def get_all_pickle_filenames(pickle_file_dir):
@@ -84,6 +88,32 @@ def save_trained_word_embeddings(date_str, model):
     out_m.close()
 
 
+def proc_build_tf_ds(file):
+    global ret_type_dict
+
+    pickle_file_dir = "/tmp/savetest"
+    
+    ds_counter = 0
+    
+    ret_list = list()
+            
+    cont = get_pickle_file_content(pickle_file_dir + '/' + file)
+    for dis,ret in cont:
+        #print(f'Tokenized file {pickle_file_counter}/{nr_of_pickle_files} and >{dis_counter}< assemblies', end='\r')
+        #dis_counter += 1
+        
+        ret_type_int = ret_type_dict[ret] - 1
+        
+        ret_list.append( (dis, ret_type_int) )
+
+    return ret_list
+
+
+
+
+
+path_to_return_type_dict_file = "/tmp/full_dataset_att_int_seq_ret_type_dict.pickle"
+ret_type_dict = get_pickle_file_content(path_to_return_type_dict_file)
 
 
 def main():
@@ -92,6 +122,8 @@ def main():
     global sequence_length
     global full_path_vocab_file
     global full_path_seq_file
+    global nr_of_cpus
+    global ret_type_dict
     
     date_str = datetime.now().strftime("%Y%m%d-%H%M%S")
 
@@ -99,7 +131,7 @@ def main():
     tensorboard_logdir = "/tmp/logs/" + date_str
     
     pickle_file_dir = "/tmp/savetest"
-    path_to_return_type_dict_file = "/tmp/full_dataset_att_int_seq_ret_type_dict.pickle"
+    
     
     raw_dataset_path = "/tmp/logs/" + date_str + "/tf_dataset_dir"
     
@@ -133,26 +165,52 @@ def main():
         pickle_file_counter = 0
         dis_counter = 1
         
-        for file in pickle_files:
-            pickle_file_counter += 1
+        ####
+        p = Pool(nr_of_cpus)
+#         for a, ret_type, funcName, baseFileName in funcs_and_ret_types:
+#             proc_ret_type_list.append((ret_type, binary_name))
             
-            cont = get_pickle_file_content(pickle_file_dir + '/' + file)
-            for dis,ret in cont:
-                print(f'Tokenized file {pickle_file_counter}/{nr_of_pickle_files} and >{dis_counter}< assemblies', end='\r')
-                dis_counter += 1
-                
-                ret_type_int = ret_type_dict[ret] - 1
-                if ds_counter == 0:
-                    #print(f'dis >{dis}<')
-                    
-                    #raw_dataset = tf.data.Dataset.from_tensor_slices(dis_ret )
-                    raw_dataset = tf.data.Dataset.from_tensors( (dis, ret_type_int)  )
-                    ds_counter = 1
-                else:
-                    #ds = tf.data.Dataset.from_tensor_slices(dis_ret )
-                    ds = tf.data.Dataset.from_tensors( (dis, ret_type_int) )
-                    raw_dataset = raw_dataset.concatenate( ds )
-    
+        all_ret_types = p.map(proc_build_tf_ds, pickle_files )
+        p.close()
+        p.join()    
+            
+        
+        ds_counter = 0
+        
+        if all_ret_types:
+            for ds in all_ret_types:
+                for dis,ret in ds:
+                    if ds_counter == 0:
+                        
+                        raw_dataset = tf.data.Dataset.from_tensors( (dis, ret))
+                        ds_counter = 1
+                    else:
+                        ds_tmp = tf.data.Dataset.from_tensors( (dis,ret))
+                        raw_dataset = raw_dataset.concatenate( ds_tmp )
+   
+      
+        ####
+        
+#         for file in pickle_files:
+#             pickle_file_counter += 1
+#             
+#             cont = get_pickle_file_content(pickle_file_dir + '/' + file)
+#             for dis,ret in cont:
+#                 print(f'Tokenized file {pickle_file_counter}/{nr_of_pickle_files} and >{dis_counter}< assemblies', end='\r')
+#                 dis_counter += 1
+#                 
+#                 ret_type_int = ret_type_dict[ret] - 1
+#                 if ds_counter == 0:
+#                     #print(f'dis >{dis}<')
+#                     
+#                     #raw_dataset = tf.data.Dataset.from_tensor_slices(dis_ret )
+#                     raw_dataset = tf.data.Dataset.from_tensors( (dis, ret_type_int)  )
+#                     ds_counter = 1
+#                 else:
+#                     #ds = tf.data.Dataset.from_tensor_slices(dis_ret )
+#                     ds = tf.data.Dataset.from_tensors( (dis, ret_type_int) )
+#                     raw_dataset = raw_dataset.concatenate( ds )
+#     
     
         ### save dataset 
         print(f'Saving raw_dataset to file >{raw_dataset_path}<')
