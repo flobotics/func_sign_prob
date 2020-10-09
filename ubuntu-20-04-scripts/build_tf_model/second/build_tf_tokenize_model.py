@@ -101,7 +101,7 @@ def main():
     pickle_file_dir = "/tmp/savetest"
     path_to_return_type_dict_file = "/tmp/full_dataset_att_int_seq_ret_type_dict.pickle"
     
-    raw_dataset_path = "/tmp/raw_dataset.tfrecord"
+    raw_dataset_path = "/tmp/logs/" + date_str + "/tf_dataset_dir"
     
     
     print(f'tensorflow version >{tf.__version__}<, build with 2.3.1')
@@ -113,46 +113,50 @@ def main():
     ### get return type dict
     ret_type_dict = get_pickle_file_content(path_to_return_type_dict_file)
     
+    got_dataset = False
     ### check if we already got a dataset from tokenized files
     print(f'Check if we already got a dataset from tokenized files')
-    if os.path.isfile(raw_dataset_path):
+    if os.path.isdir(raw_dataset_path):
         print(f'Found raw_dataset file, will use it')
-        tf.data.experimental.load(raw_dataset_path, tf.TensorSpec(shape=(), dtype=tf.int64))
+        raw_dataset = tf.data.experimental.load(raw_dataset_path, (tf.TensorSpec(shape=(), dtype=tf.string, name=None), tf.TensorSpec(shape=(), dtype=tf.int32, name=None)) )
+        got_dataset = True
     else:
         print('No dataset from tokenized files found')
     
-    ### build ds from tokenized files, then get texts
-    print(f'Building tf dataset from tokenized files')
-    ds_counter = 0
-    pickle_files = get_all_pickle_filenames(pickle_file_dir)
-    nr_of_pickle_files = len(pickle_files)
-    pickle_file_counter = 0
-    dis_counter = 1
     
-    for file in pickle_files:
-        pickle_file_counter += 1
+    if not got_dataset:
+        ### build ds from tokenized files, then get texts
+        print(f'Building tf dataset from tokenized files')
+        ds_counter = 0
+        pickle_files = get_all_pickle_filenames(pickle_file_dir)
+        nr_of_pickle_files = len(pickle_files)
+        pickle_file_counter = 0
+        dis_counter = 1
         
-        cont = get_pickle_file_content(pickle_file_dir + '/' + file)
-        for dis,ret in cont:
-            print(f'Tokenized file {pickle_file_counter}/{nr_of_pickle_files} and >{dis_counter}< assemblies', end='\r')
-            dis_counter += 1
+        for file in pickle_files:
+            pickle_file_counter += 1
             
-            ret_type_int = ret_type_dict[ret] - 1
-            if ds_counter == 0:
-                #print(f'dis >{dis}<')
+            cont = get_pickle_file_content(pickle_file_dir + '/' + file)
+            for dis,ret in cont:
+                print(f'Tokenized file {pickle_file_counter}/{nr_of_pickle_files} and >{dis_counter}< assemblies', end='\r')
+                dis_counter += 1
                 
-                #raw_dataset = tf.data.Dataset.from_tensor_slices(dis_ret )
-                raw_dataset = tf.data.Dataset.from_tensors( (dis, ret_type_int)  )
-                ds_counter = 1
-            else:
-                #ds = tf.data.Dataset.from_tensor_slices(dis_ret )
-                ds = tf.data.Dataset.from_tensors( (dis, ret_type_int) )
-                raw_dataset = raw_dataset.concatenate( ds )
-
-
-    ### save dataset 
-    print(f'Saving raw_dataset to file >{raw_dataset_path}<')
-    tf.data.experimental.save(raw_dataset, raw_dataset_path)
+                ret_type_int = ret_type_dict[ret] - 1
+                if ds_counter == 0:
+                    #print(f'dis >{dis}<')
+                    
+                    #raw_dataset = tf.data.Dataset.from_tensor_slices(dis_ret )
+                    raw_dataset = tf.data.Dataset.from_tensors( (dis, ret_type_int)  )
+                    ds_counter = 1
+                else:
+                    #ds = tf.data.Dataset.from_tensor_slices(dis_ret )
+                    ds = tf.data.Dataset.from_tensors( (dis, ret_type_int) )
+                    raw_dataset = raw_dataset.concatenate( ds )
+    
+    
+        ### save dataset 
+        print(f'Saving raw_dataset to file >{raw_dataset_path}<')
+        tf.data.experimental.save(raw_dataset, raw_dataset_path)
       
     
     ##debug
@@ -204,9 +208,9 @@ def main():
     test_dataset = remaining.take(test_size)
     val_dataset = remaining.skip(test_size)
     
-    train_dataset = train_dataset.batch(100, drop_remainder=False)
-    val_dataset = val_dataset.batch(100, drop_remainder=False)
-    test_dataset = test_dataset.batch(100, drop_remainder=False)
+    train_dataset = train_dataset.batch(1000, drop_remainder=False)
+    val_dataset = val_dataset.batch(1000, drop_remainder=False)
+    test_dataset = test_dataset.batch(1000, drop_remainder=False)
     
     print(f'train_ds element_spec-2 >{train_dataset.element_spec}<')
     
@@ -262,7 +266,12 @@ def main():
     model.summary()
 
                                   
-    tensorboard_callback = tf.keras.callbacks.TensorBoard(log_dir=tensorboard_logdir, histogram_freq=1)
+    tensorboard_callback = tf.keras.callbacks.TensorBoard(log_dir=tensorboard_logdir, 
+                                                             histogram_freq=1, 
+                                                             write_graph=False, 
+                                                             write_images=True)
+                                                            
+    #tensorboard_callback = tf.keras.callbacks.TensorBoard(log_dir=tensorboard_logdir)
 
     
     model_checkpoint_callback = tf.keras.callbacks.ModelCheckpoint(
