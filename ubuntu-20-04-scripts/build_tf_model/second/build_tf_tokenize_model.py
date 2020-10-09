@@ -90,6 +90,8 @@ def main():
     global vectorize_layer
     global vocab_size
     global sequence_length
+    global full_path_vocab_file
+    global full_path_seq_file
     
     date_str = datetime.now().strftime("%Y%m%d-%H%M%S")
 
@@ -102,9 +104,9 @@ def main():
     raw_dataset_path = "/tmp/raw_dataset.tfrecord"
     
     
-    print(f'tensorflow version >{tf.__version__}<')
-    print(f'Vocabulary size is >{vocab_size}<')
-    print(f'Sequence length is >{sequence_length}<')
+    print(f'tensorflow version >{tf.__version__}<, build with 2.3.1')
+    print(f'Vocabulary size read from file >{full_path_vocab_file}< is >{vocab_size}<')
+    print(f'Sequence length read from file >{full_path_seq_file}< is >{sequence_length}<')
     
     
 
