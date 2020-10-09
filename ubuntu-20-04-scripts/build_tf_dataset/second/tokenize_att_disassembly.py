@@ -472,7 +472,7 @@ for one_tar_file in all_tar_files:
         break
         
     ### save to new pickle file, to save_dir
-    print(f'Save file nr >{len_all_tar_files_counter}/{len_all_tar_files}}< named >att-tokenized-{one_tar_file.replace(".tar.bz2", "")}<', end='\r')
+    print(f'Save file nr >{len_all_tar_files_counter}/{len_all_tar_files}< named >att-tokenized-{one_tar_file.replace(".tar.bz2", "")}<', end='\r')
     len_all_tar_files_counter += 1
     save_new_pickle(save_dir + '/' + 'att-tokenized-' + one_tar_file.replace(".tar.bz2", ""), 
                     disassembly_att_and_ret_types_list)
