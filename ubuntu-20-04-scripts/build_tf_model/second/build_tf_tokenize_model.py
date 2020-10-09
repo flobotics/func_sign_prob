@@ -177,6 +177,7 @@ def main():
         
         ds_counter = 0
         
+        print(f'Build tf dataset now')
         if all_ret_types:
             for ds in all_ret_types:
                 for dis,ret in ds:
