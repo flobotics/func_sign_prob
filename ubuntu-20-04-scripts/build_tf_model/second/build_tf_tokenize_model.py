@@ -261,6 +261,7 @@ def main():
     
     text_ds = raw_dataset.map(lambda x, y: x)
     print(f'text_ds element_spec >{text_ds.element_spec}<')
+    print(f'Adapt our text to tf TextVectorization layer, this could take some time (20-30min on 8vcpu,tesla-p100-gpu)')
     vectorize_layer.adapt(text_ds)
     
     #a = next(iter(text_ds))
@@ -355,7 +356,7 @@ def main():
 
                                   
     tensorboard_callback = tf.keras.callbacks.TensorBoard(log_dir=tensorboard_logdir, 
-                                                             histogram_freq=1, 
+                                                             histogram_freq=100, 
                                                              write_graph=False, 
                                                              write_images=True)
                                                             
