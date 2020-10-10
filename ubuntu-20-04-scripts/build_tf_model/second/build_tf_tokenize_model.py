@@ -261,7 +261,7 @@ def main():
     
     text_ds = raw_dataset.map(lambda x, y: x)
     print(f'text_ds element_spec >{text_ds.element_spec}<')
-    print(f'Adapt our text to tf TextVectorization layer, this could take some time (20-30min on 8vcpu,tesla-p100-gpu)')
+    print(f'Adapt our text to tf TextVectorization layer, this could take some time (+17min on 8vcpu,tesla-p100-gpu)')
     vectorize_layer.adapt(text_ds)
     
     #a = next(iter(text_ds))
@@ -297,9 +297,9 @@ def main():
     test_dataset = remaining.take(test_size)
     val_dataset = remaining.skip(test_size)
     
-    train_dataset = train_dataset.batch(1000, drop_remainder=False)
-    val_dataset = val_dataset.batch(1000, drop_remainder=False)
-    test_dataset = test_dataset.batch(1000, drop_remainder=False)
+    train_dataset = train_dataset.batch(50, drop_remainder=False)
+    val_dataset = val_dataset.batch(50, drop_remainder=False)
+    test_dataset = test_dataset.batch(50, drop_remainder=False)
     
     print(f'train_ds element_spec-2 >{train_dataset.element_spec}<')
     
@@ -340,7 +340,7 @@ def main():
     ## build model
     embedding_dim = 8
     
-    model = tf.keras.Sequential([tf.keras.layers.Embedding(int(vocab_size)+2, embedding_dim, mask_zero=True),
+    model = tf.keras.Sequential([tf.keras.layers.Embedding(int(vocab_size)+2, embedding_dim),
                                     tf.keras.layers.Dropout(0.2),
                                     tf.keras.layers.GlobalAveragePooling1D(),
                                     tf.keras.layers.Dropout(0.2),
@@ -356,7 +356,7 @@ def main():
 
                                   
     tensorboard_callback = tf.keras.callbacks.TensorBoard(log_dir=tensorboard_logdir, 
-                                                             histogram_freq=100, 
+                                                             histogram_freq=1000, 
                                                              write_graph=False, 
                                                              write_images=True)
                                                             
