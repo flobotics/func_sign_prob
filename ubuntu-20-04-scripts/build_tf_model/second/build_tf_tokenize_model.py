@@ -7,6 +7,7 @@ import os
 from tensorflow.python.ops.ragged.ragged_string_ops import ngrams
 from datetime import datetime
 from multiprocessing import Pool
+import numpy as np
 
 nr_of_cpus = 2
 
@@ -88,7 +89,7 @@ def save_trained_word_embeddings(date_str, model):
     out_m.close()
 
 
-def proc_build_tf_ds(file):
+def proc_build_list_with_label_ints(file):
     global ret_type_dict
 
     pickle_file_dir = "/tmp/savetest"
@@ -170,7 +171,7 @@ def main():
 #         for a, ret_type, funcName, baseFileName in funcs_and_ret_types:
 #             proc_ret_type_list.append((ret_type, binary_name))
             
-        all_ret_types = p.map(proc_build_tf_ds, pickle_files )
+        all_ret_types = p.map(proc_build_list_with_label_ints, pickle_files )
         p.close()
         p.join()    
             
@@ -178,17 +179,41 @@ def main():
         ds_counter = 0
         
         print(f'Build tf dataset now')
+        dis_list = list()
+        ret_list = list()
+        
         if all_ret_types:
             for ds in all_ret_types:
+                #print(f'type-ds >{type(ds)}<')
+                #print(f'numpy-shape >{np.shape(ds)}<')
+                if (ds_counter+1) >= nr_of_pickle_files:
+                    print(f'From file >{ds_counter+1}/{nr_of_pickle_files}<', end='\n')
+                else:
+                    print(f'From file >{ds_counter+1}/{nr_of_pickle_files}<', end='\r')
+                
+                dis_list.clear()
+                ret_list.clear()
+                
                 for dis,ret in ds:
-                    if ds_counter == 0:
-                        
-                        raw_dataset = tf.data.Dataset.from_tensors( (dis, ret))
-                        ds_counter = 1
-                    else:
-                        ds_tmp = tf.data.Dataset.from_tensors( (dis,ret))
-                        raw_dataset = raw_dataset.concatenate( ds_tmp )
-   
+                    dis_list.append(dis)
+                    ret_list.append(ret)
+                    
+                if ds_counter == 0:
+                    dis_ds = tf.data.Dataset.from_tensor_slices(dis_list)
+                    ret_ds = tf.data.Dataset.from_tensor_slices(ret_list)
+                    
+                    raw_dataset = tf.data.Dataset.zip( (dis_ds, ret_ds ))
+                    #ds_item = next(iter(raw_dataset))
+                    #print(f'ds_item >{ds_item}<')
+                    #ds_counter = 1
+                else:
+                    dis_ds = tf.data.Dataset.from_tensor_slices(dis_list)
+                    ret_ds = tf.data.Dataset.from_tensor_slices(ret_list)
+                    
+                    ds_tmp = tf.data.Dataset.zip( (dis_ds, ret_ds ))
+                    raw_dataset = raw_dataset.concatenate( ds_tmp )
+                    
+                ds_counter += 1
       
         ####
         
