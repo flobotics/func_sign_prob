@@ -134,7 +134,7 @@ def main():
     pickle_file_dir = "/tmp/savetest"
     
     
-    raw_dataset_path = "/tmp/logs/" + date_str + "/tf_dataset_dir"
+    raw_dataset_path = "/tmp/logs/tf_dataset_dir"
     
     
     print(f'tensorflow version >{tf.__version__}<, build with 2.3.1')
