@@ -9,7 +9,7 @@ from datetime import datetime
 from multiprocessing import Pool
 import numpy as np
 
-nr_of_cpus = 2
+nr_of_cpus = 8
 
 
 
@@ -209,9 +209,13 @@ def main():
                 else:
                     dis_ds = tf.data.Dataset.from_tensor_slices(dis_list)
                     ret_ds = tf.data.Dataset.from_tensor_slices(ret_list)
-                    
-                    ds_tmp = tf.data.Dataset.zip( (dis_ds, ret_ds ))
-                    raw_dataset = raw_dataset.concatenate( ds_tmp )
+                    #print(f'dis_ds.element_spec >{dis_ds.element_spec}<')
+                    #print(f'ret_ds.element_spec >{ret_ds.element_spec}<')
+                    if dis_ds.element_spec == tf.TensorSpec(shape=(), dtype=tf.string, name=None) and ret_ds.element_spec == tf.TensorSpec(shape=(), dtype=tf.int32, name=None):
+                        ds_tmp = tf.data.Dataset.zip( (dis_ds, ret_ds ))
+                        raw_dataset = raw_dataset.concatenate( ds_tmp )
+                    else:
+                        print(f'found wrong dataset element')
                     
                 ds_counter += 1
       
