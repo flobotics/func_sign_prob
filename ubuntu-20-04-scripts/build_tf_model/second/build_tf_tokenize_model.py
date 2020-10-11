@@ -346,9 +346,12 @@ def main():
     AUTOTUNE = 50
     print(f'AUTOTUNE >{AUTOTUNE}<')
 
-    train_ds = train_ds.cache().prefetch(buffer_size=AUTOTUNE)
-    val_ds = val_ds.cache().prefetch(buffer_size=AUTOTUNE)
-    test_ds = test_ds.cache().prefetch(buffer_size=AUTOTUNE)
+#     train_ds = train_ds.cache().prefetch(buffer_size=AUTOTUNE)
+#     val_ds = val_ds.cache().prefetch(buffer_size=AUTOTUNE)
+#     test_ds = test_ds.cache().prefetch(buffer_size=AUTOTUNE)
+    train_ds = train_ds.prefetch(buffer_size=AUTOTUNE)
+    val_ds = val_ds.prefetch(buffer_size=AUTOTUNE)
+    test_ds = test_ds.prefetch(buffer_size=AUTOTUNE)
     
     ## build model
     embedding_dim = 8
