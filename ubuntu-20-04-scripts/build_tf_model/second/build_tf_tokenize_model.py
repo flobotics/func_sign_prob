@@ -343,6 +343,7 @@ def main():
 
     ### config for performance
     AUTOTUNE = tf.data.experimental.AUTOTUNE
+    print(f'AUTOTUNE >{AUTOTUNE}<')
 
     train_ds = train_ds.cache().prefetch(buffer_size=AUTOTUNE)
     val_ds = val_ds.cache().prefetch(buffer_size=AUTOTUNE)
