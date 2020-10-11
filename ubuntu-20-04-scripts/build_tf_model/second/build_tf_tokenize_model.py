@@ -168,7 +168,7 @@ def main():
     print(f'Print 3 words from our vocabulary')
     for key in vocab_ret:
         if c <= 2:
-            print(f'vocab key >{key}<  value >{vocab_ret[key]}<')
+            print(f'vocab key >{key}<')
             c += 1
         vocab_word_list.append(str(key))
         
