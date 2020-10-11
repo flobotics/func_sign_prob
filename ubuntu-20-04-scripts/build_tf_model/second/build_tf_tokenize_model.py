@@ -132,17 +132,24 @@ def main():
     tensorboard_logdir = "/tmp/logs/" + date_str
     
     pickle_file_dir = "/tmp/savetest"
-    
-    
     raw_dataset_path = "/tmp/logs/tf_dataset_dir"
+    vocab_file = "../../../ubuntu-20-04-datasets/full_dataset_att_int_seq_vocabulary.pickle"
     
     
     print(f'tensorflow version >{tf.__version__}<, build with 2.3.1')
     print(f'Vocabulary size read from file >{full_path_vocab_file}< is >{vocab_size}<')
     print(f'Sequence length read from file >{full_path_seq_file}< is >{sequence_length}<')
     
-    
+    ### get vocabulary
+    vocab_ret = get_pickle_file_content(path_to_return_type_dict_file)
+    vocab_word_list = list()
+    for item in vocab_ret:
+        print(f'vocab-word-list >{item}<')
+        vocab_word_list.append(str(item))
+        
+    print(f'vocab-word-list list >{vocab_word_list}<')
 
+    #exit()
     ### get return type dict
     ret_type_dict = get_pickle_file_content(path_to_return_type_dict_file)
     
@@ -262,7 +269,11 @@ def main():
     text_ds = raw_dataset.map(lambda x, y: x)
     print(f'text_ds element_spec >{text_ds.element_spec}<')
     print(f'Adapt our text to tf TextVectorization layer, this could take some time (+17min on 8vcpu,tesla-p100-gpu)')
-    vectorize_layer.adapt(text_ds.batch(64))
+    #vectorize_layer.adapt(text_ds.batch(64))
+    
+    vectorize_layer.set_vocabulary(vocab_word_list)
+    
+    exit()
     
     #a = next(iter(text_ds))
     x = next(iter(raw_dataset))
