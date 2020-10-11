@@ -262,7 +262,7 @@ def main():
     text_ds = raw_dataset.map(lambda x, y: x)
     print(f'text_ds element_spec >{text_ds.element_spec}<')
     print(f'Adapt our text to tf TextVectorization layer, this could take some time (+17min on 8vcpu,tesla-p100-gpu)')
-    vectorize_layer.adapt(text_ds)
+    vectorize_layer.adapt(text_ds.batch(64))
     
     #a = next(iter(text_ds))
     x = next(iter(raw_dataset))
