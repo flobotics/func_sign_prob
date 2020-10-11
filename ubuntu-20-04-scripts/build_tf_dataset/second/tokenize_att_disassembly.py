@@ -4,6 +4,9 @@ import sys
 import pickle
 #import tensorflow as tf
 from datetime import datetime
+from multiprocessing import Pool
+
+nr_of_cpus = 2
 
 def get_all_tar_filenames(tar_file_dir):
     tar_files = list()
@@ -367,7 +370,71 @@ def save_new_pickle(full_path_pickle_file, pickle_content):
     pickle_file.close()
 
 
+def tokenize_file(one_tar_file):
+    ### check if we have already done this package in a previous run
+#     for bag_file in all_bag_styled_files:
+#         #print(f'bag-file:{bag_file}')
+#         if bag_file.replace('att-tokenized-', '') == one_tar_file.replace(".tar.bz2", ""):
+#             #print('Already tokenized this file')
+#             cont = True
+#             break
+#     
+#     if(cont):
+#         continue
+    
+    untar_one_pickle_file(tar_file_dir + "/" + one_tar_file, work_dir)
 
+    ### read out pickle file
+    pickle_file_content = get_pickle_file_content(work_dir + "/" + one_tar_file.replace(".tar.bz2", ""))
+
+    ##for debug
+    #print_one_pickle_list_item(pickle_file_content)
+    disassembly_att_and_ret_types_list = list()
+    disassembly_att_and_ret_types_list.clear()
+    
+    ### loop through all pickle items and 
+    for item in pickle_file_content:
+        if item:
+            ### if the item[0] exists
+            ### item[4] => att
+            ### item[5] => intel
+            if item[0].strip() and item[1].strip() and (len(item[4]) > 1) and (len(item[5]) > 1):
+                
+                string_before_func_name = get_string_before_function_name(item[0])
+                #print(f'string_before_func_name: >{string_before_func_name}<')
+                return_type = get_function_return_type(string_before_func_name, item[1])
+                
+                #print(f'return_type: >{return_type}<')
+                if return_type == 'unknown':
+                    print('unknown found')
+                    breaker = True
+                    break
+                elif return_type == 'delete':
+                    #print('delete found')
+                    ### no return type found, so delete this item
+                    pass
+                else:
+                    unique_return_types.add(return_type)
+                    ### remove addr and stuff
+                    cleaned_att_disassembly = clean_att_disassembly(item[4])
+                    bag_of_words_style_assembly = build_bag_of_words_style_assembly(cleaned_att_disassembly)
+                    dis_str = ' '.join(bag_of_words_style_assembly)
+                    
+                    #print(f'dis_str >{dis_str}<')
+                    
+                    ### append it to the last list, which gets stored to tfrecord
+                    disassembly_att_and_ret_types_list.append((dis_str, return_type))
+        else:
+            print("-----No item in pickle file")
+       
+#     if breaker:
+#         break
+        
+    ### save to new pickle file, to save_dir
+    print(f'Save file nr named >att-tokenized-{one_tar_file.replace(".tar.bz2", "")}<', end='\r')
+    #len_all_tar_files_counter += 1
+    save_new_pickle(save_dir + '/' + 'att-tokenized-' + one_tar_file.replace(".tar.bz2", ""), 
+                    disassembly_att_and_ret_types_list)
 
 
 #### main
@@ -409,73 +476,82 @@ breaker = False
 len_all_tar_files = len(all_tar_files)
 len_all_tar_files_counter = 0
 
-for one_tar_file in all_tar_files:
-    cont = False
-    
-    ### check if we have already done this package in a previous run
-    for bag_file in all_bag_styled_files:
-        #print(f'bag-file:{bag_file}')
-        if bag_file.replace('att-tokenized-', '') == one_tar_file.replace(".tar.bz2", ""):
-            #print('Already tokenized this file')
-            cont = True
-            break
-    
-    if(cont):
-        continue
-    
-    untar_one_pickle_file(tar_file_dir + "/" + one_tar_file, work_dir)
+p = Pool(nr_of_cpus)
+#         for a, ret_type, funcName, baseFileName in funcs_and_ret_types:
+#             proc_ret_type_list.append((ret_type, binary_name))
+            
+all_ret_types = p.map(tokenize_file, all_tar_files )
+p.close()
+p.join()    
 
-    ### read out pickle file
-    pickle_file_content = get_pickle_file_content(work_dir + "/" + one_tar_file.replace(".tar.bz2", ""))
 
-    ##for debug
-    #print_one_pickle_list_item(pickle_file_content)
-
-    disassembly_att_and_ret_types_list.clear()
+# for one_tar_file in all_tar_files:
+#     cont = False
     
-    ### loop through all pickle items and 
-    for item in pickle_file_content:
-        if item:
-            ### if the item[0] exists
-            ### item[4] => att
-            ### item[5] => intel
-            if item[0].strip() and item[1].strip() and (len(item[4]) > 1) and (len(item[5]) > 1):
-                
-                string_before_func_name = get_string_before_function_name(item[0])
-                #print(f'string_before_func_name: >{string_before_func_name}<')
-                return_type = get_function_return_type(string_before_func_name, item[1])
-                
-                #print(f'return_type: >{return_type}<')
-                if return_type == 'unknown':
-                    print('unknown found')
-                    breaker = True
-                    break
-                elif return_type == 'delete':
-                    #print('delete found')
-                    ### no return type found, so delete this item
-                    pass
-                else:
-                    unique_return_types.add(return_type)
-                    ### remove addr and stuff
-                    cleaned_att_disassembly = clean_att_disassembly(item[4])
-                    bag_of_words_style_assembly = build_bag_of_words_style_assembly(cleaned_att_disassembly)
-                    dis_str = ' '.join(bag_of_words_style_assembly)
-                    
-                    #print(f'dis_str >{dis_str}<')
-                    
-                    ### append it to the last list, which gets stored to tfrecord
-                    disassembly_att_and_ret_types_list.append((dis_str, return_type))
-        else:
-            print("-----No item in pickle file")
-       
-    if breaker:
-        break
-        
-    ### save to new pickle file, to save_dir
-    print(f'Save file nr >{len_all_tar_files_counter}/{len_all_tar_files}< named >att-tokenized-{one_tar_file.replace(".tar.bz2", "")}<', end='\r')
-    len_all_tar_files_counter += 1
-    save_new_pickle(save_dir + '/' + 'att-tokenized-' + one_tar_file.replace(".tar.bz2", ""), 
-                    disassembly_att_and_ret_types_list)
+#     ### check if we have already done this package in a previous run
+#     for bag_file in all_bag_styled_files:
+#         #print(f'bag-file:{bag_file}')
+#         if bag_file.replace('att-tokenized-', '') == one_tar_file.replace(".tar.bz2", ""):
+#             #print('Already tokenized this file')
+#             cont = True
+#             break
+#     
+#     if(cont):
+#         continue
+#     
+#     untar_one_pickle_file(tar_file_dir + "/" + one_tar_file, work_dir)
+# 
+#     ### read out pickle file
+#     pickle_file_content = get_pickle_file_content(work_dir + "/" + one_tar_file.replace(".tar.bz2", ""))
+# 
+#     ##for debug
+#     #print_one_pickle_list_item(pickle_file_content)
+# 
+#     disassembly_att_and_ret_types_list.clear()
+#     
+#     ### loop through all pickle items and 
+#     for item in pickle_file_content:
+#         if item:
+#             ### if the item[0] exists
+#             ### item[4] => att
+#             ### item[5] => intel
+#             if item[0].strip() and item[1].strip() and (len(item[4]) > 1) and (len(item[5]) > 1):
+#                 
+#                 string_before_func_name = get_string_before_function_name(item[0])
+#                 #print(f'string_before_func_name: >{string_before_func_name}<')
+#                 return_type = get_function_return_type(string_before_func_name, item[1])
+#                 
+#                 #print(f'return_type: >{return_type}<')
+#                 if return_type == 'unknown':
+#                     print('unknown found')
+#                     breaker = True
+#                     break
+#                 elif return_type == 'delete':
+#                     #print('delete found')
+#                     ### no return type found, so delete this item
+#                     pass
+#                 else:
+#                     unique_return_types.add(return_type)
+#                     ### remove addr and stuff
+#                     cleaned_att_disassembly = clean_att_disassembly(item[4])
+#                     bag_of_words_style_assembly = build_bag_of_words_style_assembly(cleaned_att_disassembly)
+#                     dis_str = ' '.join(bag_of_words_style_assembly)
+#                     
+#                     #print(f'dis_str >{dis_str}<')
+#                     
+#                     ### append it to the last list, which gets stored to tfrecord
+#                     disassembly_att_and_ret_types_list.append((dis_str, return_type))
+#         else:
+#             print("-----No item in pickle file")
+#        
+#     if breaker:
+#         break
+#         
+#     ### save to new pickle file, to save_dir
+#     print(f'Save file nr >{len_all_tar_files_counter}/{len_all_tar_files}< named >att-tokenized-{one_tar_file.replace(".tar.bz2", "")}<', end='\r')
+#     len_all_tar_files_counter += 1
+#     save_new_pickle(save_dir + '/' + 'att-tokenized-' + one_tar_file.replace(".tar.bz2", ""), 
+#                     disassembly_att_and_ret_types_list)
      
     
     
