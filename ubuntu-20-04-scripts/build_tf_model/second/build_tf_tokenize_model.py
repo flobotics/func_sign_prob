@@ -361,7 +361,7 @@ def main():
     first_review, first_label = text_batch, label_batch
     print("Text", first_review)
     print("Label", first_label)
-    print("Vectorized review", vectorize_text(first_review, first_label))
+    #print("Vectorized review", vectorize_text(first_review, first_label))
     
     ### vec text
     train_ds = train_dataset.map(vectorize_text)
@@ -374,7 +374,7 @@ def main():
     first_review, first_label = text_batch, label_batch
     print("Text", first_review)
     print("Label", first_label)
-    print("Vectorized review", vectorize_text(first_review, first_label))
+    #print("Vectorized review", vectorize_text(first_review, first_label))
     
     print('----\n')  ###for nicer output
     
