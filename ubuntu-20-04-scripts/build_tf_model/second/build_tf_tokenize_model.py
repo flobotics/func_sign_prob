@@ -144,7 +144,8 @@ def main():
     
     pickle_file_dir = "/tmp/savetest"
     raw_dataset_path = "/tmp/logs/tf_dataset_dir"
-    vocab_file = "../../../ubuntu-20-04-datasets/full_dataset_att_int_seq_vocabulary.pickle"
+    #vocab_file = "../../../ubuntu-20-04-datasets/full_dataset_att_int_seq_vocabulary.pickle"
+    vocab_file = "/tmp/vocab.pickle"
     
     print('----\n')  ###for nicer output
     does_file_exist(vocab_file)
