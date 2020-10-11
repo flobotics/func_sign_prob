@@ -174,7 +174,7 @@ def main():
     
     got_dataset = False
     ### check if we already got a dataset from tokenized files
-    print(f'Check if we already got a tf.data.Dataset from tokenized files, from a run before')
+    print(f'Check if we already got a tf.data.Dataset from tokenized files, from a previous run')
     if os.path.isdir(raw_dataset_path):
         print(f'Found tf.data.Dataset, will use it')
         raw_dataset = tf.data.experimental.load(raw_dataset_path, (tf.TensorSpec(shape=(), dtype=tf.string, name=None), tf.TensorSpec(shape=(), dtype=tf.int32, name=None)) )
