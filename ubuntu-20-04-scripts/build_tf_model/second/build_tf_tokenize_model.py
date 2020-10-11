@@ -378,9 +378,9 @@ def main():
     
     print('----\n')  ###for nicer output
     
-    train_ds = train_ds.batch(50, drop_remainder=False)
-    val_ds = val_ds.batch(50, drop_remainder=False)
-    test_ds = test_ds.batch(50, drop_remainder=False)
+#     train_ds = train_ds.batch(50, drop_remainder=False)
+#     val_ds = val_ds.batch(50, drop_remainder=False)
+#     test_ds = test_ds.batch(50, drop_remainder=False)
 
     ### config for performance
     AUTOTUNE = tf.data.experimental.AUTOTUNE
