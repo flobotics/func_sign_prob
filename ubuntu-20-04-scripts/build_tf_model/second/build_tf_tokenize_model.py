@@ -54,15 +54,15 @@ def custom_standardization(input_data):
 
 
 ### add 2   UNK and empty
-# vectorize_layer = TextVectorization(standardize=None,
-#                                         max_tokens=int(vocab_size)+2,
-#                                         output_mode='int',
-#                                         output_sequence_length=int(sequence_length))
-
 vectorize_layer = TextVectorization(standardize=None,
-                                        max_tokens=755+2,
+                                        max_tokens=int(vocab_size)+2,
                                         output_mode='int',
                                         output_sequence_length=int(sequence_length))
+
+# vectorize_layer = TextVectorization(standardize=None,
+#                                         max_tokens=755+2,
+#                                         output_mode='int',
+#                                         output_sequence_length=int(sequence_length))
 
 def vectorize_text(text, label):
     text = tf.expand_dims(text, -1)
