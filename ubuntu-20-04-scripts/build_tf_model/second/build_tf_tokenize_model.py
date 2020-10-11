@@ -70,9 +70,9 @@ def vectorize_text(text, label):
   
   
 def save_trained_word_embeddings(date_str, model):
-    trained_dir = "/tmp/logs/" + date_str + "/trained_word_embeddings"
-    vecs_filename = "/tmp/logs/" + date_str + "/trained_word_embeddings/vecs.tsv"
-    meta_filename = "/tmp/logs/" + date_str + "/trained_word_embeddings/meta.tsv"
+    trained_dir = "/tmp/logs/trained_word_embeddings"
+    vecs_filename = "/tmp/logs/trained_word_embeddings/vecs.tsv"
+    meta_filename = "/tmp/logs/trained_word_embeddings/meta.tsv"
     
     vocab = vectorize_layer.get_vocabulary()
     print(f'10 vocab words >{vocab[:10]}<')
