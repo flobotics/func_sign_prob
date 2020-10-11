@@ -138,9 +138,12 @@ def main():
     global path_to_return_type_dict_file
     
     date_str = datetime.now().strftime("%Y%m%d-%H%M%S")
+    
+    #pre_savedir_path = ""
+    pre_savedir_path = "/home/infloflo/"
 
-    checkpoint_filepath = '/tmp/logs/' + date_str + '/checkpoint'
-    tensorboard_logdir = "/tmp/logs/" + date_str
+    checkpoint_filepath = pre_savedir_path + '/tmp/logs/' + date_str + '/checkpoint'
+    tensorboard_logdir = pre_savedir_path + "/tmp/logs/" + date_str
     
     pickle_file_dir = "/tmp/savetest"
     raw_dataset_path = "/tmp/logs/tf_dataset_dir"
@@ -397,11 +400,16 @@ def main():
     ## build model
     embedding_dim = 8
     
-    model = tf.keras.Sequential([tf.keras.layers.Embedding(int(vocab_size)+2, embedding_dim, mask_zero=True),
-                                    tf.keras.layers.Dropout(0.2),
-                                    tf.keras.layers.GlobalAveragePooling1D(),
-                                    tf.keras.layers.Dropout(0.2),
-                                    tf.keras.layers.Dense(len(ret_type_dict))])
+    print(f'Check if we got a model saved from a previous run')
+    if os.path.isdir(checkpoint_filepath):
+        print(f'Found checkpoint path, think there is a model')
+        model = tf.keras.models.load_model(checkpoint_filepath)
+    else:
+        model = tf.keras.Sequential([tf.keras.layers.Embedding(int(vocab_size)+2, embedding_dim, mask_zero=True),
+                                        tf.keras.layers.Dropout(0.2),
+                                        tf.keras.layers.GlobalAveragePooling1D(),
+                                        tf.keras.layers.Dropout(0.2),
+                                        tf.keras.layers.Dense(len(ret_type_dict))])
     
 #     model = tf.keras.Sequential([tf.keras.layers.Embedding(int(vocab_size) + 1, embedding_dim, mask_zero=True),
 #                                 tf.keras.layers.Dropout(0.2),
