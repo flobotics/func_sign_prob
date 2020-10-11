@@ -54,8 +54,13 @@ def custom_standardization(input_data):
 
 
 ### add 2   UNK and empty
+# vectorize_layer = TextVectorization(standardize=None,
+#                                         max_tokens=int(vocab_size)+2,
+#                                         output_mode='int',
+#                                         output_sequence_length=int(sequence_length))
+
 vectorize_layer = TextVectorization(standardize=None,
-                                        max_tokens=int(vocab_size)+2,
+                                        max_tokens=755+2,
                                         output_mode='int',
                                         output_sequence_length=int(sequence_length))
 
@@ -110,8 +115,13 @@ def proc_build_list_with_label_ints(file):
     return ret_list
 
 
-
-
+def does_file_exist(file):
+    if os.path.isfile(file):
+        print(f'File >{file}< exists')
+    else:
+        print(f'File >{file}< does not exist')
+        exit()
+    
 
 path_to_return_type_dict_file = "/tmp/full_dataset_att_int_seq_ret_type_dict.pickle"
 ret_type_dict = get_pickle_file_content(path_to_return_type_dict_file)
@@ -125,6 +135,7 @@ def main():
     global full_path_seq_file
     global nr_of_cpus
     global ret_type_dict
+    global path_to_return_type_dict_file
     
     date_str = datetime.now().strftime("%Y%m%d-%H%M%S")
 
@@ -135,19 +146,27 @@ def main():
     raw_dataset_path = "/tmp/logs/tf_dataset_dir"
     vocab_file = "../../../ubuntu-20-04-datasets/full_dataset_att_int_seq_vocabulary.pickle"
     
+    does_file_exist(vocab_file)
+    does_file_exist(full_path_vocab_file)
+    does_file_exist(full_path_seq_file)
+    does_file_exist(path_to_return_type_dict_file)
     
     print(f'tensorflow version >{tf.__version__}<, build with 2.3.1')
     print(f'Vocabulary size read from file >{full_path_vocab_file}< is >{vocab_size}<')
     print(f'Sequence length read from file >{full_path_seq_file}< is >{sequence_length}<')
     
-    ### get vocabulary
-    vocab_ret = get_pickle_file_content(path_to_return_type_dict_file)
+    ### get vocabulary, to feed into textvectorization.set_vocabulary() , much faster than .adapt()
+    vocab_ret = get_pickle_file_content(vocab_file)
     vocab_word_list = list()
-    for item in vocab_ret:
-        print(f'vocab-word-list >{item}<')
-        vocab_word_list.append(str(item))
+    c = 0
+    print(f'Print 2 words from our vocabulary')
+    for key in vocab_ret:
+        if c <= 2:
+            print(f'vocab key >{key}<  value >{vocab_ret[key]}<')
+            c += 1
+        vocab_word_list.append(str(key))
         
-    print(f'vocab-word-list list >{vocab_word_list}<')
+    #print(f'vocab-word-list >{vocab_word_list}<')
 
     #exit()
     ### get return type dict
@@ -155,18 +174,18 @@ def main():
     
     got_dataset = False
     ### check if we already got a dataset from tokenized files
-    print(f'Check if we already got a dataset from tokenized files')
+    print(f'Check if we already got a tf.data.Dataset from tokenized files, from a run before')
     if os.path.isdir(raw_dataset_path):
-        print(f'Found raw_dataset file, will use it')
+        print(f'Found tf.data.Dataset, will use it')
         raw_dataset = tf.data.experimental.load(raw_dataset_path, (tf.TensorSpec(shape=(), dtype=tf.string, name=None), tf.TensorSpec(shape=(), dtype=tf.int32, name=None)) )
         got_dataset = True
     else:
-        print('No dataset from tokenized files found')
+        print('No tf.data.Dataset from tokenized files found')
     
     
     if not got_dataset:
         ### build ds from tokenized files, then get texts
-        print(f'Building tf dataset from tokenized files')
+        print(f'Building tf.data.Dataset from tokenized files')
         ds_counter = 0
         pickle_files = get_all_pickle_filenames(pickle_file_dir)
         nr_of_pickle_files = len(pickle_files)
@@ -250,7 +269,7 @@ def main():
 #     
     
         ### save dataset 
-        print(f'Saving raw_dataset to file >{raw_dataset_path}<')
+        print(f'Saving tf.data.Dataset files to directory >{raw_dataset_path}<')
         tf.data.experimental.save(raw_dataset, raw_dataset_path)
       
     
@@ -261,10 +280,11 @@ def main():
 #         print()
     
 
+    print(f'Print one element from tf.data.Dataset')
     for x, y in raw_dataset:
-        print(f'x: >{x.numpy()}<  y: >{y.numpy()}<')
+        print(f'Text >{x.numpy()}<  \nReturn-Type >{y.numpy()}<')
         break
-    print(f'raw_dataset element_spec >{raw_dataset.element_spec}<')
+    print(f'tf.data.Dataset element_spec >{raw_dataset.element_spec}<')
     
     text_ds = raw_dataset.map(lambda x, y: x)
     print(f'text_ds element_spec >{text_ds.element_spec}<')
@@ -276,9 +296,9 @@ def main():
     
     
     #a = next(iter(text_ds))
-    x = next(iter(raw_dataset))
-    print(f'x-next-iter >{x[0].numpy()}<')
-    print(vectorize_text(x[0], x[1]) )
+    #x = next(iter(raw_dataset))
+    #print(f'x-next-iter >{x[0].numpy()}<')
+    #print(vectorize_text(x[0], x[1]) )
     #x = vectorize_layer(x)
     #print(f'x vec-layer type: >{type(x)}<')
     #print(f'x vec-layer numpy: >{x.numpy()}<')
@@ -287,12 +307,13 @@ def main():
     
     v = vectorize_layer.get_vocabulary()
     c =0
+    print(f'Print 5 words from TextVectorization layer vocabulary')
     for v1 in v:
         print(f'vec-vocab: >{v1}<')
         c += 1
         if c > 6:
             break
-    print(f'len vec-vocab: >{len(v)}')
+    print(f'The TextVectorization layer vocabulary got >{len(v)}< words in it')
     #exit()
     
     ### split dataset
@@ -308,9 +329,10 @@ def main():
     test_dataset = remaining.take(test_size)
     val_dataset = remaining.skip(test_size)
     
-    train_dataset = train_dataset.batch(50, drop_remainder=False)
-    val_dataset = val_dataset.batch(50, drop_remainder=False)
-    test_dataset = test_dataset.batch(50, drop_remainder=False)
+    ###worked
+#     train_dataset = train_dataset.batch(50, drop_remainder=False)
+#     val_dataset = val_dataset.batch(50, drop_remainder=False)
+#     test_dataset = test_dataset.batch(50, drop_remainder=False)
     
     print(f'train_ds element_spec-2 >{train_dataset.element_spec}<')
     
@@ -320,13 +342,12 @@ def main():
     print(f'test_dataset size >{tf.data.experimental.cardinality(test_dataset).numpy()}<')
     print(f'val_dataset size >{tf.data.experimental.cardinality(val_dataset).numpy()}<')
     
-
+    
     text_batch, label_batch = next(iter(train_dataset))
     first_review, first_label = text_batch, label_batch
-    print("Review", first_review)
+    print("Text", first_review)
     print("Label", first_label)
     print("Vectorized review", vectorize_text(first_review, first_label))
-    
     
     ### vec text
     train_ds = train_dataset.map(vectorize_text)
@@ -335,16 +356,22 @@ def main():
     
     print(f'train_ds element_spec >{train_ds.element_spec}<')
     
-
+    text_batch, label_batch = next(iter(train_ds))
+    first_review, first_label = text_batch, label_batch
+    print("Text", first_review)
+    print("Label", first_label)
+    print("Vectorized review", vectorize_text(first_review, first_label))
     
-#     train_ds = train_dataset
-#     val_ds = val_dataset
-#     test_ds = test_dataset
+    exit()
+    
+    train_ds = train_ds.batch(50, drop_remainder=False)
+    val_ds = val_ds.batch(50, drop_remainder=False)
+    test_ds = test_ds.batch(50, drop_remainder=False)
 
     ### config for performance
     AUTOTUNE = tf.data.experimental.AUTOTUNE
-    AUTOTUNE = 50
-    print(f'AUTOTUNE >{AUTOTUNE}<')
+    #AUTOTUNE = 50
+    print(f'AUTOTUNE value for prefetch >{AUTOTUNE}<')
 
 #     train_ds = train_ds.cache().prefetch(buffer_size=AUTOTUNE)
 #     val_ds = val_ds.cache().prefetch(buffer_size=AUTOTUNE)
@@ -356,7 +383,7 @@ def main():
     ## build model
     embedding_dim = 8
     
-    model = tf.keras.Sequential([tf.keras.layers.Embedding(int(vocab_size)+2, embedding_dim),
+    model = tf.keras.Sequential([tf.keras.layers.Embedding(int(vocab_size)+2, embedding_dim, mask_zero=True),
                                     tf.keras.layers.Dropout(0.2),
                                     tf.keras.layers.GlobalAveragePooling1D(),
                                     tf.keras.layers.Dropout(0.2),
