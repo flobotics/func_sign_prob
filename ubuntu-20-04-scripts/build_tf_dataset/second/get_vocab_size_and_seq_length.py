@@ -43,6 +43,13 @@ def build_vocab_dict_from_set(vocab_set):
     return vocab_dict
 
 
+def save_vocab(full_path_vocabfile, unique_vocab):
+    pickle_file = open(full_path_vocabfile,'wb+')
+    pickle.dump(unique_vocab, pickle_file)
+    pickle_file.close()
+    
+    
+
 def main():
     start=datetime.now()
     
@@ -89,6 +96,8 @@ def main():
     print(f'We save Vocabulary in file >{full_path_vocab_file}<')
     print(f'Vocab size is >{len(unique_vocab)}<')
     print(f'Biggest sequence length is >{biggest}<')
+    
+    save_vocab(full_path_vocabfile, unique_vocab)
     
     save_vocab_size(full_path_vocab_file, len(unique_vocab))
     save_sequence_length(full_path_seq_file, biggest)
