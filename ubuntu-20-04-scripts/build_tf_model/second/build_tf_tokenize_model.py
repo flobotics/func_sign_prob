@@ -161,9 +161,10 @@ def main():
     print('----\n')  ###for nicer output
     
     ### get vocabulary, to feed into textvectorization.set_vocabulary() , much faster than .adapt()
-    vocab_ret = get_pickle_file_content(vocab_file)
+    vocab_ret1 = get_pickle_file_content(vocab_file)
     vocab_word_list = list()
     c = 0
+    vocab_ret = list(vocab_ret1)
     print(f'Print 3 words from our vocabulary')
     for key in vocab_ret:
         if c <= 2:
