@@ -146,14 +146,18 @@ def main():
     raw_dataset_path = "/tmp/logs/tf_dataset_dir"
     vocab_file = "../../../ubuntu-20-04-datasets/full_dataset_att_int_seq_vocabulary.pickle"
     
+    print('----\n')  ###for nicer output
     does_file_exist(vocab_file)
     does_file_exist(full_path_vocab_file)
     does_file_exist(full_path_seq_file)
     does_file_exist(path_to_return_type_dict_file)
+    print('----\n')  ###for nicer output
     
     print(f'tensorflow version >{tf.__version__}<, build with 2.3.1')
     print(f'Vocabulary size read from file >{full_path_vocab_file}< is >{vocab_size}<')
     print(f'Sequence length read from file >{full_path_seq_file}< is >{sequence_length}<')
+    
+    print('----\n')  ###for nicer output
     
     ### get vocabulary, to feed into textvectorization.set_vocabulary() , much faster than .adapt()
     vocab_ret = get_pickle_file_content(vocab_file)
@@ -167,6 +171,7 @@ def main():
         vocab_word_list.append(str(key))
         
     #print(f'vocab-word-list >{vocab_word_list}<')
+    print('----\n')  ###for nicer output
 
     #exit()
     ### get return type dict
@@ -182,6 +187,7 @@ def main():
     else:
         print('No tf.data.Dataset from tokenized files found')
     
+    print('----\n')  ###for nicer output
     
     if not got_dataset:
         ### build ds from tokenized files, then get texts
@@ -272,6 +278,7 @@ def main():
         print(f'Saving tf.data.Dataset files to directory >{raw_dataset_path}<')
         tf.data.experimental.save(raw_dataset, raw_dataset_path)
       
+    print('----\n')  ###for nicer output
     
     ##debug
 #     for text_batch, label_batch in raw_dataset.take(1):
@@ -288,6 +295,9 @@ def main():
     
     text_ds = raw_dataset.map(lambda x, y: x)
     print(f'text_ds element_spec >{text_ds.element_spec}<')
+    
+    print('----\n')  ###for nicer output
+    
     print(f'Adapt our text to tf TextVectorization layer, this could take some time (+17min on 8vcpu,tesla-p100-gpu)')
     #vectorize_layer.adapt(text_ds.batch(64))
     
@@ -314,7 +324,8 @@ def main():
         if c > 6:
             break
     print(f'The TextVectorization layer vocabulary got >{len(v)}< words in it')
-    #exit()
+    
+    print('----\n')  ###for nicer output
     
     ### split dataset
     DATASET_SIZE = tf.data.experimental.cardinality(raw_dataset).numpy()
@@ -342,6 +353,7 @@ def main():
     print(f'test_dataset size >{tf.data.experimental.cardinality(test_dataset).numpy()}<')
     print(f'val_dataset size >{tf.data.experimental.cardinality(val_dataset).numpy()}<')
     
+    print('----\n')  ###for nicer output
     
     text_batch, label_batch = next(iter(train_dataset))
     first_review, first_label = text_batch, label_batch
@@ -362,7 +374,7 @@ def main():
     print("Label", first_label)
     print("Vectorized review", vectorize_text(first_review, first_label))
     
-    exit()
+    print('----\n')  ###for nicer output
     
     train_ds = train_ds.batch(50, drop_remainder=False)
     val_ds = val_ds.batch(50, drop_remainder=False)
