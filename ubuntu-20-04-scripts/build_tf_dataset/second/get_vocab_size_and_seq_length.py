@@ -56,6 +56,7 @@ def main():
     bag_styled_file_dir = "/tmp/savetest"
     full_path_vocab_file = "/tmp/vocab_size.txt"
     full_path_seq_file = "/tmp/sequence_length.txt"
+    full_path_vocabfile = "/tmp/vocab.pickle"
     
     unique_vocab = set()
     
