@@ -405,6 +405,7 @@ def main():
         print(f'Found checkpoint path, think there is a model')
         model = tf.keras.models.load_model(checkpoint_filepath)
     else:
+        print(f'No checkpoint path, so i think no model, we create one')
         model = tf.keras.Sequential([tf.keras.layers.Embedding(int(vocab_size)+2, embedding_dim, mask_zero=True),
                                         tf.keras.layers.Dropout(0.2),
                                         tf.keras.layers.GlobalAveragePooling1D(),
