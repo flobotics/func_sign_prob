@@ -159,7 +159,7 @@ def main():
     vocab_ret = get_pickle_file_content(vocab_file)
     vocab_word_list = list()
     c = 0
-    print(f'Print 2 words from our vocabulary')
+    print(f'Print 3 words from our vocabulary')
     for key in vocab_ret:
         if c <= 2:
             print(f'vocab key >{key}<  value >{vocab_ret[key]}<')
