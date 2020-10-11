@@ -443,7 +443,7 @@ def main():
 
     history = model.fit(train_ds,
                         validation_data=val_ds,
-                        epochs=5,
+                        epochs=30,
                         callbacks=[tensorboard_callback, model_checkpoint_callback])
 
     ### evaluate the model
