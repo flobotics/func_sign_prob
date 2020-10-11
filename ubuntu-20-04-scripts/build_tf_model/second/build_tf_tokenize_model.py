@@ -273,7 +273,7 @@ def main():
     
     vectorize_layer.set_vocabulary(vocab_word_list)
     
-    exit()
+    
     
     #a = next(iter(text_ds))
     x = next(iter(raw_dataset))
