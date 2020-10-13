@@ -56,7 +56,9 @@ def parseArgs():
     short_opts = 'hp:'
     long_opts = ['pickle-dir=']
     config = dict()
+    
     config['pickle_dir'] = '../../../ubuntu-20-04-pickles'
+    config['work_dir'] = '/tmp/work_dir'
  
     try:
         args, rest = getopt.getopt(sys.argv[1:], short_opts, long_opts)
@@ -68,15 +70,22 @@ def parseArgs():
     for option_key, option_value in args:
         if option_key in ('-p', '--pickle-dir'):
             print(f'found p')
-            config['pickle_dir'] = option_value
+            config['pickle_dir'] = option_value[1:]
+        elif option_key in ('-w', '--work-dir'):
+            config['work_dir'] = option_value[1:]
         elif option_key in ('-h'):
             print(f'<optional> -p or --pickle-dir The directory with disassemblies,etc. Default: ubuntu-20-04-pickles')
+            print(f'<optional> -w or --work-dir   The directory where we e.g. untar,etc. Default: /tmp/work_dir')
             
             
     return config
     
 
 def print_5_pickle_files(pickle_files, config):
+    if len(pickle_files) == 0:
+        print(f'Pickle dir is empty')
+        exit()
+        
     print(f'Five files from dir >{config["pickle_dir"]}<')
     c = 0
     for file in pickle_files:
@@ -86,23 +95,32 @@ def print_5_pickle_files(pickle_files, config):
             break
         
  
-def proc_build():
+def proc_build(full_path_tar_file, work_dir):
     untar_one_pickle_file(full_path_tar_file, work_dir)
         
-    get_pickle_file_content(full_path_pickle_file)
+    pickle_list = get_pickle_file_content(full_path_pickle_file)
   
 def main():
     config = parseArgs()
     
     print(f'config >{config}<')
      
-    ### get all pickle files 
+    ### get all pickle files
     pickle_files = get_all_tar_filenames(config['pickle_dir'])
     
-    ### print 5 files
+    ### print 5 files, check and debug
     print_5_pickle_files(pickle_files, config)
     
     
+    ### build
+    p = Pool(nr_of_cpus)
+            
+    all_ret_types = p.starmap(proc_build, (pickle_files , config['work_dir']))
+    p.close()
+    p.join()
+    
+    for ret in all_ret_types:
+        print(f'ret >{ret}<')
     
     
 if __name__ == "__main__":
