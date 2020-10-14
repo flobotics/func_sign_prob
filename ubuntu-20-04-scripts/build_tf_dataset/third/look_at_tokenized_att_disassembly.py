@@ -30,10 +30,8 @@ def get_pickle_file_content(full_path_pickle_file):
 def print_one_pickle_list_item(pickle_file_content):
     item = next(iter(pickle_file_content))
     if item:
-        print(f'caller-disassembly: {item[0]}')
-        print(f'callee-disassembly: {item[1]}')
-        print(f'function-signature: {item[2]}')
-        print(f'gdb-ptype: {item[3]}')
+        print(f'caller-and-callee-disassembly: {item[0]}')
+        print(f'return-type: {item[1]}')
     else:
         print('Error item[0]')
         
