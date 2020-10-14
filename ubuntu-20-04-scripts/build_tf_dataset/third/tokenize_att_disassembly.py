@@ -6,6 +6,7 @@ import pickle
 from datetime import datetime
 from multiprocessing import Pool
 import getopt
+from itertools import repeat
 
 nr_of_cpus = 2
 
@@ -53,12 +54,13 @@ def print_one_pickle_list_item(pickle_file_content):
         print('Error item[0]')
         
 def parseArgs():
-    short_opts = 'hp:'
-    long_opts = ['pickle-dir=']
+    short_opts = 'hp:s:w:'
+    long_opts = ['pickle-dir=', 'work-dir=', 'save-dir=']
     config = dict()
     
     config['pickle_dir'] = '../../../ubuntu-20-04-pickles'
-    config['work_dir'] = '/tmp/work_dir'
+    config['work_dir'] = '/tmp/work_dir/'
+    config['save_dir'] = '/tmp/save_dir'
  
     try:
         args, rest = getopt.getopt(sys.argv[1:], short_opts, long_opts)
@@ -73,9 +75,12 @@ def parseArgs():
             config['pickle_dir'] = option_value[1:]
         elif option_key in ('-w', '--work-dir'):
             config['work_dir'] = option_value[1:]
+        elif option_key in ('-s', '--save-dir'):
+            config['save_dir'] = option_value[1:]
         elif option_key in ('-h'):
             print(f'<optional> -p or --pickle-dir The directory with disassemblies,etc. Default: ubuntu-20-04-pickles')
-            print(f'<optional> -w or --work-dir   The directory where we e.g. untar,etc. Default: /tmp/work_dir')
+            print(f'<optional> -w or --work-dir   The directory where we e.g. untar,etc. Default: /tmp/work_dir/')
+            print(f'<optional> -s or --save-dir   The directory where we save dataset.  Default: /tmp/save_dir')
             
             
     return config
@@ -95,15 +100,77 @@ def print_5_pickle_files(pickle_files, config):
             break
         
  
-def proc_build(full_path_tar_file, work_dir):
-    untar_one_pickle_file(full_path_tar_file, work_dir)
+def proc_build(pickle_file, work_dir, save_dir):
+    untar_one_pickle_file(pickle_file, work_dir)
         
-    pickle_list = get_pickle_file_content(full_path_pickle_file)
+    pickle_file_content = get_pickle_file_content(work_dir + os.path.basename(pickle_file).replace('.tar.bz2', ''))
+    
+    binaries = set()
+    functions = set()
+    for elem in pickle_file_content:
+        binaries.add(elem[7])
+        functions.add(elem[2])
+    
+    print(f'binaries >{binaries}<')
+    
+    counter = 0
+    dataset_list = list()
+    
+    ## 1. get one binary
+    ## 2. get one function of this binary
+    ## 3. get disassembly of this function
+    ## 4. check if this disassembly calls another function
+    ## 4.1 filter @plt
+    ## 5. if yes: get disassembly of caller function
+    ## 6. save caller, callee, func_signature
+    ## 7. check again, if it calls another function
+    ## 8. if yes: get disassembly of caller function
+    ## 9. save caller, calle, func_signature
+    ##10. get disassembly of next function of this binary
+    ##11. check if ....
+    for bin in binaries:
+        for func in functions:
+            for elem in pickle_file_content:
+                if elem[7] == bin and elem[2] == func:
+                    att_dis = elem[4]
+                    for item in att_dis:
+                        if 'call' in item and not '@plt' in item and not 'std::' in item:
+                            #print(f'caller >{item}<')
+                            ## get callee name
+                            callee_name = ''
+                            item_split = item.split()
+                            callee_name = item_split[len(item_split)-1]
+                            callee_name = callee_name.replace('<', '')
+                            callee_name = callee_name.replace('>', '')
+                                
+                                    
+                                    
+                            #print(f'callee_name >{callee_name}<')
+                            
+                            for elem2 in pickle_file_content:
+                                if elem2[7] == bin and elem2[2] == callee_name:
+                                    #print(f'caller >{item}<')
+                                    #print(f'callee_name >{callee_name}<')
+                                    #print(f'dis-of-callee >{elem2[4]}<')
+                                    ##save caller-disassembly, callee-disassembly, callee-func-sign, callee-gdb-ptype
+                                    dataset_list.append((att_dis ,elem2[4], elem2[0], elem2[1]))
+                                    counter += 1
+                                    break
+                  
+           
+    if dataset_list:       
+        ret_file = open(save_dir + '/' + os.path.basename(pickle_file).replace('.tar.bz2', ''), 'wb+')
+        pickle_list = pickle.dump(dataset_list, ret_file)
+        ret_file.close()
+                  
+    return counter
+    
   
 def main():
     config = parseArgs()
     
     print(f'config >{config}<')
+    
      
     ### get all pickle files
     pickle_files = get_all_tar_filenames(config['pickle_dir'])
@@ -114,13 +181,19 @@ def main():
     
     ### build
     p = Pool(nr_of_cpus)
-            
-    all_ret_types = p.starmap(proc_build, (pickle_files , config['work_dir']))
+    
+    
+    pickle_files = [config["pickle_dir"] + "/" + f for f in pickle_files]
+    star_list = zip(pickle_files, repeat(config['work_dir']), repeat(config['save_dir']))
+    all_ret_types = p.starmap(proc_build, star_list)
     p.close()
     p.join()
     
-    for ret in all_ret_types:
-        print(f'ret >{ret}<')
+    
+    for counter in all_ret_types:
+        if counter > 0:
+            print(f'disassemblies saved >{counter}<')
+            break
     
     
 if __name__ == "__main__":
