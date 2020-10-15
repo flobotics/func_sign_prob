@@ -8,6 +8,7 @@ from tensorflow.python.ops.ragged.ragged_string_ops import ngrams
 from datetime import datetime
 from multiprocessing import Pool
 import numpy as np
+import getopt
 
 nr_of_cpus = 8
 
@@ -122,6 +123,41 @@ def does_file_exist(file):
         print(f'File >{file}< does not exist')
         exit()
     
+    
+def parseArgs():
+    short_opts = 'hp:c:t:d:'
+    long_opts = ['pickle-dir=', 'checkpoint-dir=', 'tensorboard-log-dir=', 'tf-dataset-save-dir=']
+    config = dict()
+    
+    config['pickle_dir'] = '/tmp/save_dir'
+    config['checkpoint_dir'] = '/tmp/logs/checkpoint'
+    config['tensorboard_log_dir'] = '/tmp/logs'
+    config['tf_dataset_save_dir'] = '/tmp/logs/tf_dataset_dir'
+ 
+    try:
+        args, rest = getopt.getopt(sys.argv[1:], short_opts, long_opts)
+    except getopt.GetoptError as msg:
+        print(msg)
+        print(f'Call with argument -h to see help')
+        exit()
+    
+    for option_key, option_value in args:
+        if option_key in ('-p', '--pickle-dir'):
+            config['pickle_dir'] = option_value[1:]
+        elif option_key in ('-c', '--checkpoint-dir'):
+            config['checkpoint_dir'] = option_value[1:]
+        elif option_key in ('-t', '--tensorboard-log-dir'):
+            config['tensorboard_log_dir'] = option_value[1:]
+        elif option_key in ('-d', '--tf-dataset-save-dir'):
+            config['tf_dataset_save_dir'] = option_value[1:]
+        elif option_key in ('-h'):
+            print(f'<optional> -p or --pickle-dir The directory with disassemblies,etc. Default: /tmp/save_dir')
+            print(f'<optional> -w or --checkpoint-dir   The directory where we store tensorflow checkpoints Default: /tmp/logs/checkpoint')
+            
+            
+    return config   
+    
+    
 
 path_to_return_type_dict_file = "/tmp/full_dataset_att_int_seq_ret_type_dict.pickle"
 ret_type_dict = get_pickle_file_content(path_to_return_type_dict_file)
@@ -137,16 +173,18 @@ def main():
     global ret_type_dict
     global path_to_return_type_dict_file
     
+    config = parseArgs()
+    
     date_str = datetime.now().strftime("%Y%m%d-%H%M%S")
     
     #pre_savedir_path = ""
-    pre_savedir_path = "/home/infloflo"
+    #pre_savedir_path = "/home/ubu"
 
-    checkpoint_filepath = pre_savedir_path + '/tmp/logs/' + date_str + '/checkpoint'
-    tensorboard_logdir = pre_savedir_path + "/tmp/logs/" + date_str
+    checkpoint_filepath = config['checkpoint_dir']
+    tensorboard_logdir = config['tensorboard_log_dir']
+    pickle_file_dir = config['pickle_dir']
     
-    pickle_file_dir = "/tmp/savetest"
-    raw_dataset_path = "/tmp/logs/tf_dataset_dir"
+    raw_dataset_path = config['tf_dataset_save_dir']
     #vocab_file = "../../../ubuntu-20-04-datasets/full_dataset_att_int_seq_vocabulary.pickle"
     vocab_file = "/tmp/vocab.pickle"
     
