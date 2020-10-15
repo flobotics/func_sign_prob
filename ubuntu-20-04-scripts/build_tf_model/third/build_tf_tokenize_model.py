@@ -9,6 +9,7 @@ from datetime import datetime
 from multiprocessing import Pool
 import numpy as np
 import getopt
+import sys
 
 nr_of_cpus = 8
 
@@ -98,18 +99,19 @@ def save_trained_word_embeddings(date_str, model):
 def proc_build_list_with_label_ints(file):
     global ret_type_dict
 
-    pickle_file_dir = "/tmp/savetest"
+    #pickle_file_dir = "/tmp/savetest"
+    #pickle_file_dir = pickle_dir
     
     ds_counter = 0
     
     ret_list = list()
             
-    cont = get_pickle_file_content(pickle_file_dir + '/' + file)
+    cont = get_pickle_file_content(file)
     for dis,ret in cont:
         #print(f'Tokenized file {pickle_file_counter}/{nr_of_pickle_files} and >{dis_counter}< assemblies', end='\r')
         #dis_counter += 1
         
-        ret_type_int = ret_type_dict[ret] - 1
+        ret_type_int = ret_type_dict[ret] -1
         
         ret_list.append( (dis, ret_type_int) )
 
@@ -170,7 +172,8 @@ def parseArgs():
     
     
 
-path_to_return_type_dict_file = "/tmp/full_dataset_att_int_seq_ret_type_dict.pickle"
+#path_to_return_type_dict_file = "/tmp/full_dataset_att_int_seq_ret_type_dict.pickle"
+path_to_return_type_dict_file = "/tmp/ret_type_dict.pickle"
 ret_type_dict = get_pickle_file_content(path_to_return_type_dict_file)
 
 
@@ -200,7 +203,6 @@ def main():
     checkpoint_filepath = config['checkpoint_dir']
     tensorboard_logdir = config['tensorboard_log_dir']
     pickle_file_dir = config['pickle_dir']
-    
     raw_dataset_path = config['tf_dataset_save_dir']
     #vocab_file = "../../../ubuntu-20-04-datasets/full_dataset_att_int_seq_vocabulary.pickle"
     #vocab_file = "/tmp/vocab.pickle"
@@ -271,7 +273,10 @@ def main():
 #         for a, ret_type, funcName, baseFileName in funcs_and_ret_types:
 #             proc_ret_type_list.append((ret_type, binary_name))
             
-        all_ret_types = p.map(proc_build_list_with_label_ints, pickle_files )
+        
+        pickle_files = [config["pickle_dir"] + "/" + f for f in pickle_files]
+        all_ret_types = p.map(proc_build_list_with_label_ints, pickle_files)
+        #all_ret_types = p.map(proc_build_list_with_label_ints, pickle_files )
         p.close()
         p.join()    
             
