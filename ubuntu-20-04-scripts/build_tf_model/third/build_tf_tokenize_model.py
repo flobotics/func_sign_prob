@@ -297,41 +297,41 @@ def main():
         #if all_ret_types:
         pickle_files_int = get_all_pickle_filenames(pickle_file_int_dir)
         for file in pickle_files_int:
-            #for ds in file:
-            #print(f'type-ds >{type(ds)}<')
-            #print(f'numpy-shape >{np.shape(ds)}<')
-            if (ds_counter+1) >= nr_of_pickle_files:
-                print(f'From file >{ds_counter+1}/{nr_of_pickle_files}<', end='\n')
-            else:
-                print(f'From file >{ds_counter+1}/{nr_of_pickle_files}<', end='\r')
-            
-            dis_list.clear()
-            ret_list.clear()
-            
-            for dis,ret in file:
-                dis_list.append(dis)
-                ret_list.append(ret)
-                
-            if ds_counter == 0:
-                dis_ds = tf.data.Dataset.from_tensor_slices(dis_list)
-                ret_ds = tf.data.Dataset.from_tensor_slices(ret_list)
-                
-                raw_dataset = tf.data.Dataset.zip( (dis_ds, ret_ds ))
-                #ds_item = next(iter(raw_dataset))
-                #print(f'ds_item >{ds_item}<')
-                #ds_counter = 1
-            else:
-                dis_ds = tf.data.Dataset.from_tensor_slices(dis_list)
-                ret_ds = tf.data.Dataset.from_tensor_slices(ret_list)
-                #print(f'dis_ds.element_spec >{dis_ds.element_spec}<')
-                #print(f'ret_ds.element_spec >{ret_ds.element_spec}<')
-                if dis_ds.element_spec == tf.TensorSpec(shape=(), dtype=tf.string, name=None) and ret_ds.element_spec == tf.TensorSpec(shape=(), dtype=tf.int32, name=None):
-                    ds_tmp = tf.data.Dataset.zip( (dis_ds, ret_ds ))
-                    raw_dataset = raw_dataset.concatenate( ds_tmp )
+            for ds in file:
+                #print(f'type-ds >{type(ds)}<')
+                #print(f'numpy-shape >{np.shape(ds)}<')
+                if (ds_counter+1) >= nr_of_pickle_files:
+                    print(f'From file >{ds_counter+1}/{nr_of_pickle_files}<', end='\n')
                 else:
-                    print(f'found wrong dataset element')
+                    print(f'From file >{ds_counter+1}/{nr_of_pickle_files}<', end='\r')
+            
+                dis_list.clear()
+                ret_list.clear()
                 
-            ds_counter += 1
+                for dis,ret in ds:
+                    dis_list.append(dis)
+                    ret_list.append(ret)
+                    
+                if ds_counter == 0:
+                    dis_ds = tf.data.Dataset.from_tensor_slices(dis_list)
+                    ret_ds = tf.data.Dataset.from_tensor_slices(ret_list)
+                    
+                    raw_dataset = tf.data.Dataset.zip( (dis_ds, ret_ds ))
+                    #ds_item = next(iter(raw_dataset))
+                    #print(f'ds_item >{ds_item}<')
+                    #ds_counter = 1
+                else:
+                    dis_ds = tf.data.Dataset.from_tensor_slices(dis_list)
+                    ret_ds = tf.data.Dataset.from_tensor_slices(ret_list)
+                    #print(f'dis_ds.element_spec >{dis_ds.element_spec}<')
+                    #print(f'ret_ds.element_spec >{ret_ds.element_spec}<')
+                    if dis_ds.element_spec == tf.TensorSpec(shape=(), dtype=tf.string, name=None) and ret_ds.element_spec == tf.TensorSpec(shape=(), dtype=tf.int32, name=None):
+                        ds_tmp = tf.data.Dataset.zip( (dis_ds, ret_ds ))
+                        raw_dataset = raw_dataset.concatenate( ds_tmp )
+                    else:
+                        print(f'found wrong dataset element')
+                    
+                ds_counter += 1
       
         ####
         
