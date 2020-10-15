@@ -390,11 +390,20 @@ def proc_build(pickle_file, work_dir, save_dir):
                   
     return counter
     
+    
+def check_if_dir_exists(dir):
+    if not os.path.isdir(dir):
+        print(f'Directory >{dir}< does not exist. Create it.')
+        exit()
   
 def main():
     config = parseArgs()
     
     print(f'config >{config}<')
+    
+    check_if_dir_exists(config['pickle_dir'])
+    check_if_dir_exists(config['work_dir'])
+    check_if_dir_exists(config['save_dir'])
     
      
     ### get all pickle files

@@ -30,8 +30,8 @@ def get_pickle_file_content(full_path_pickle_file):
     
     return pickle_list
 
-def get_vocab_size(full_path_vocab_file):
-    file = open(full_path_vocab_file,'r')
+def get_vocab_size(vocab_size_file):
+    file = open(vocab_size_file,'r')
     ret = file.read()
     file.close()
     return ret
@@ -43,10 +43,10 @@ def get_sequence_length(full_path_seq_file):
     file.close()
     return ret
 
-full_path_vocab_file = "/tmp/vocab_size.txt"
+vocab_size_file = "/tmp/vocab_size.txt"
 full_path_seq_file = "/tmp/sequence_length.txt"
 # Vocabulary size and number of words in a sequence.
-vocab_size = get_vocab_size(full_path_vocab_file)
+vocab_size = get_vocab_size(vocab_size_file)
 sequence_length = get_sequence_length(full_path_seq_file)
 
 
@@ -125,15 +125,18 @@ def does_file_exist(file):
     
     
 def parseArgs():
-    short_opts = 'hp:c:t:d:'
-    long_opts = ['pickle-dir=', 'checkpoint-dir=', 'tensorboard-log-dir=', 'tf-dataset-save-dir=']
+    short_opts = 'hp:c:t:d:v:s:l:'
+    long_opts = ['pickle-dir=', 'checkpoint-dir=', 'tensorboard-log-dir=', 'tf-dataset-save-dir=', 'vocab-file=',
+                 'vocab-size-file=', 'seq-length-file=']
     config = dict()
     
     config['pickle_dir'] = '/tmp/save_dir'
     config['checkpoint_dir'] = '/tmp/logs/checkpoint'
     config['tensorboard_log_dir'] = '/tmp/logs'
     config['tf_dataset_save_dir'] = '/tmp/logs/tf_dataset_dir'
- 
+    config['vocab_file'] = ''
+    config['vocab_size_file'] = ''
+    config['seq_length_file'] = ''
     try:
         args, rest = getopt.getopt(sys.argv[1:], short_opts, long_opts)
     except getopt.GetoptError as msg:
@@ -150,10 +153,18 @@ def parseArgs():
             config['tensorboard_log_dir'] = option_value[1:]
         elif option_key in ('-d', '--tf-dataset-save-dir'):
             config['tf_dataset_save_dir'] = option_value[1:]
+        elif option_key in ('-v', '--vocab-file'):
+            config['vocab_file'] = option_value[1:]
+        elif option_key in ('-s', '--vocab-size-file'):
+            config['vocab_size_file'] = option_value[1:]
+        elif option_key in ('-l', '--seq-length-file'):
+            config['seq_length_file'] = option_value[1:]
         elif option_key in ('-h'):
             print(f'<optional> -p or --pickle-dir The directory with disassemblies,etc. Default: /tmp/save_dir')
             print(f'<optional> -w or --checkpoint-dir   The directory where we store tensorflow checkpoints Default: /tmp/logs/checkpoint')
-            
+            print(f'<optional> -v or --vocab-file   The file with the vocabulary. Default: None')
+            print(f'<optional> -s or --vocab-size-file  The file with the size of the vocabulary. Default: None')
+            print(f'<optional> -l or --seq-length-file   The file with the sequence lenght. Default: None')
             
     return config   
     
@@ -163,11 +174,18 @@ path_to_return_type_dict_file = "/tmp/full_dataset_att_int_seq_ret_type_dict.pic
 ret_type_dict = get_pickle_file_content(path_to_return_type_dict_file)
 
 
+def check_if_dir_exists(dir):
+    if not os.path.isdir(dir):
+        print(f'Directory >{dir}< does not exist. Create it.')
+        exit()
+        
+        
+
 def main():
     global vectorize_layer
     global vocab_size
     global sequence_length
-    global full_path_vocab_file
+    global vocab_size_file
     global full_path_seq_file
     global nr_of_cpus
     global ret_type_dict
@@ -177,8 +195,7 @@ def main():
     
     date_str = datetime.now().strftime("%Y%m%d-%H%M%S")
     
-    #pre_savedir_path = ""
-    #pre_savedir_path = "/home/ubu"
+    check_if_dir_exists(config['pickle_dir'])
 
     checkpoint_filepath = config['checkpoint_dir']
     tensorboard_logdir = config['tensorboard_log_dir']
@@ -186,34 +203,42 @@ def main():
     
     raw_dataset_path = config['tf_dataset_save_dir']
     #vocab_file = "../../../ubuntu-20-04-datasets/full_dataset_att_int_seq_vocabulary.pickle"
-    vocab_file = "/tmp/vocab.pickle"
+    #vocab_file = "/tmp/vocab.pickle"
     
     print('----\n')  ###for nicer output
-    does_file_exist(vocab_file)
-    does_file_exist(full_path_vocab_file)
-    does_file_exist(full_path_seq_file)
+    if config['vocab_file']:
+        does_file_exist(vocab_file)
+    if config['vocab_size_file']:
+        does_file_exist(vocab_size_file)
+    if config['seq_length_file']:
+        does_file_exist(full_path_seq_file)
     does_file_exist(path_to_return_type_dict_file)
     print('----\n')  ###for nicer output
     
     print(f'tensorflow version >{tf.__version__}<, build with 2.3.1')
-    print(f'Vocabulary size read from file >{full_path_vocab_file}< is >{vocab_size}<')
-    print(f'Sequence length read from file >{full_path_seq_file}< is >{sequence_length}<')
+    if config['vocab_size_file']:
+        print(f'Vocabulary size read from file >{vocab_size_file}< is >{vocab_size}<')
+    if config['seq_length_file']:
+        print(f'Sequence length read from file >{full_path_seq_file}< is >{sequence_length}<')
+    print(f'TF dataset read from >{raw_dataset_path}<')
     
     print('----\n')  ###for nicer output
     
     ### get vocabulary, to feed into textvectorization.set_vocabulary() , much faster than .adapt()
-    vocab_ret1 = get_pickle_file_content(vocab_file)
-    vocab_word_list = list()
-    c = 0
-    vocab_ret = list(vocab_ret1)
-    print(f'Print 3 words from our vocabulary')
-    for key in vocab_ret:
-        if c <= 2:
-            print(f'vocab key >{key}<')
-            c += 1
-        vocab_word_list.append(str(key))
-        
-    #print(f'vocab-word-list >{vocab_word_list}<')
+    if config['vocab_file']:
+        print(f'We got a vocabulary file, so we use it')
+        vocab_ret1 = get_pickle_file_content(vocab_file)
+        vocab_word_list = list()
+        c = 0
+        vocab_ret = list(vocab_ret1)
+        print(f'Print 3 words from our vocabulary')
+        for key in vocab_ret:
+            if c <= 2:
+                print(f'vocab key >{key}<')
+                c += 1
+            vocab_word_list.append(str(key))
+            
+        #print(f'vocab-word-list >{vocab_word_list}<')
     print('----\n')  ###for nicer output
 
     #exit()
@@ -336,15 +361,20 @@ def main():
         break
     print(f'tf.data.Dataset element_spec >{raw_dataset.element_spec}<')
     
-    text_ds = raw_dataset.map(lambda x, y: x)
-    print(f'text_ds element_spec >{text_ds.element_spec}<')
+    
     
     print('----\n')  ###for nicer output
     
-    print(f'Adapt our text to tf TextVectorization layer, this could take some time (+17min on 8vcpu,tesla-p100-gpu)')
-    #vectorize_layer.adapt(text_ds.batch(64))
+    if config['vocab_file']:
+        print(f'Set own vocabulary to TextVectorization layer')
+        vectorize_layer.set_vocabulary(vocab_word_list)
+    else:
+        text_ds = raw_dataset.map(lambda x, y: x)
+        print(f'text_ds element_spec >{text_ds.element_spec}<')
+        print(f'Adapt our text to tf TextVectorization layer, this could take some time (+17min on 8vcpu,tesla-p100-gpu)')
+        vectorize_layer.adapt(text_ds.batch(64))
     
-    vectorize_layer.set_vocabulary(vocab_word_list)
+    
     
     
     
