@@ -366,15 +366,19 @@ def proc_build(pickle_file, work_dir, save_dir):
 #                                         print(f'att_dis >{att_dis}<')
 #                                         print(f'elem2[4] >{elem2[4]}<')
 #                                         print(f'return_type >{return_type}<')
-                                        dis_combined = list()
-                                        dis_combined.clear()
-                                        dis_combined = att_dis
-                                        for elem3 in elem2[4]:
-                                            dis_combined.append(elem3)
+                                        #dis_combined = list()
+                                        #dis_combined.clear()
+                                        #dis_combined = att_dis
+                                        #for elem3 in elem2[4]:
+                                        #    dis_combined.append(elem3)
                                             
-                                        print(f'dis_combined >{dis_combined}<')
+                                        dis1_str = ' '.join(att_dis)
+                                        dis2_str = ' '.join(elem2[4])
+                                        dis_str = dis1_str + dis2_str
+                                            
+                                        #print(f'dis_str >{dis_str}<')
                                     
-                                        dataset_list.append((dis_combined, return_type))
+                                        dataset_list.append((dis_str, return_type))
                                         counter += 1
                                         break
                   
