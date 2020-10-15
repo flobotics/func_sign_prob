@@ -11,7 +11,7 @@ import numpy as np
 import getopt
 import sys
 
-nr_of_cpus = 8
+nr_of_cpus = 4
 
 
 

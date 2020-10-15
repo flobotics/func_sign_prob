@@ -8,7 +8,7 @@ from multiprocessing import Pool
 import getopt
 from itertools import repeat
 
-nr_of_cpus = 2
+nr_of_cpus = 4
 
 def get_all_tar_filenames(tar_file_dir):
     tar_files = list()
