@@ -10,6 +10,7 @@ from multiprocessing import Pool
 import numpy as np
 import getopt
 import sys
+from itertools import repeat
 
 nr_of_cpus = 16
 
@@ -96,12 +97,8 @@ def save_trained_word_embeddings(date_str, model):
     out_m.close()
 
 
-def proc_build_list_with_label_ints(file):
+def proc_build_list_with_label_ints(file, save_dir):
     global ret_type_dict
-
-    #pickle_file_dir = "/home/infloflo/label-ints/"
-    pickle_file_dir = "/tmp/label-ints/"
-    #pickle_file_dir = pickle_dir
     
     ds_counter = 0
     
@@ -109,15 +106,15 @@ def proc_build_list_with_label_ints(file):
             
     cont = get_pickle_file_content(file)
     for dis,ret in cont:
-        #print(f'Tokenized file {pickle_file_counter}/{nr_of_pickle_files} and >{dis_counter}< assemblies', end='\r')
-        #dis_counter += 1
         
         ret_type_int = ret_type_dict[ret] -1
         
-        ret_list.append( (dis, ret_type_int) )
+        #ret_list.append( (dis, ret_type_int) )
+        ret_list.append( (dis.encode('utf-8'), ret_type_int) )
+        
 
 
-    ret_file = open(pickle_file_dir + os.path.basename(file), 'wb+')
+    ret_file = open(save_dir + os.path.basename(file), 'wb+')
     pickle_list = pickle.dump(ret_list, ret_file)
     ret_file.close()
     
@@ -133,9 +130,9 @@ def does_file_exist(file):
     
     
 def parseArgs():
-    short_opts = 'hp:c:t:d:v:s:l:'
+    short_opts = 'hp:c:t:d:v:s:l:i:r:'
     long_opts = ['pickle-dir=', 'checkpoint-dir=', 'tensorboard-log-dir=', 'tf-dataset-save-dir=', 'vocab-file=',
-                 'vocab-size-file=', 'seq-length-file=']
+                 'vocab-size-file=', 'seq-length-file=', 'label-ints-dir=', 'tf-record-dir=']
     config = dict()
     
     config['pickle_dir'] = '/tmp/save_dir'
@@ -145,6 +142,9 @@ def parseArgs():
     config['vocab_file'] = ''
     config['vocab_size_file'] = ''
     config['seq_length_file'] = ''
+    config['label_ints_dir'] = '/tmp/label-ints-dir/'
+    config['tf_record_dir'] = '/tmp/tf_record_dir/'
+    
     try:
         args, rest = getopt.getopt(sys.argv[1:], short_opts, long_opts)
     except getopt.GetoptError as msg:
@@ -167,12 +167,18 @@ def parseArgs():
             config['vocab_size_file'] = option_value[1:]
         elif option_key in ('-l', '--seq-length-file'):
             config['seq_length_file'] = option_value[1:]
+        elif option_key in ('-i', '--label-ints-dir'):
+            config['label_ints_dir'] = option_value[1:]
+        elif option_key in ('-r', '--tf-record-dir'):
+            config['tf_record_dir'] = option_value[1:]
         elif option_key in ('-h'):
             print(f'<optional> -p or --pickle-dir The directory with disassemblies,etc. Default: /tmp/save_dir')
             print(f'<optional> -w or --checkpoint-dir   The directory where we store tensorflow checkpoints Default: /tmp/logs/checkpoint')
             print(f'<optional> -v or --vocab-file   The file with the vocabulary. Default: None')
             print(f'<optional> -s or --vocab-size-file  The file with the size of the vocabulary. Default: None')
             print(f'<optional> -l or --seq-length-file   The file with the sequence lenght. Default: None')
+            print(f'<optional> -i or --label-ints-dir   The directory we store pickles with string,int tuples')
+            print(f'<optional> -r or --tf-record-dir   The directory we store tfrecord files')
             
     return config   
     
@@ -188,7 +194,36 @@ def check_if_dir_exists(dir):
         print(f'Directory >{dir}< does not exist. Create it.')
         exit()
         
-        
+def serialize_example(feature0, feature1):
+    """
+    Creates a tf.train.Example message ready to be written to a file.
+    """
+    # Create a dictionary mapping the feature name to the tf.train.Example-compatible
+    # data type.
+    feature0 = feature0.numpy()
+    feature = {
+              'caller_callee': tf.train.Feature(bytes_list=tf.train.BytesList(value=[feature0])),
+              'label_int': tf.train.Feature(int64_list=tf.train.Int64List(value=[feature1])),
+    }
+    
+    # Create a Features message using tf.train.Example.
+    
+    example_proto = tf.train.Example(features=tf.train.Features(feature=feature))
+    return example_proto.SerializeToString()  
+
+
+def tf_serialize_example(f0,f1):
+    tf_string = tf.py_function(
+      serialize_example,
+      (f0,f1),  # pass these args to the above function.
+      tf.string)      # the return type is `tf.string`.
+    return tf.reshape(tf_string, ()) # The result is a scalar     
+
+
+def generator():
+    for features in raw_dataset:
+        yield serialize_example(*features)
+    
 
 def main():
     global vectorize_layer
@@ -204,13 +239,17 @@ def main():
     
     date_str = datetime.now().strftime("%Y%m%d-%H%M%S")
     
+    ### check, else exit and inform user
     check_if_dir_exists(config['pickle_dir'])
+    check_if_dir_exists(config['label_ints_dir'])
+    check_if_dir_exists(config['tf_record_dir'])
+    
 
     checkpoint_filepath = config['checkpoint_dir']
     tensorboard_logdir = config['tensorboard_log_dir']
     pickle_file_dir = config['pickle_dir']
     raw_dataset_path = config['tf_dataset_save_dir']
-    pickle_file_int_dir = '/tmp/label-ints/'
+    pickle_file_int_dir = config['label_ints_dir']
     #vocab_file = "../../../ubuntu-20-04-datasets/full_dataset_att_int_seq_vocabulary.pickle"
     #vocab_file = "/tmp/vocab.pickle"
     
@@ -282,8 +321,9 @@ def main():
             
         
         pickle_files = [config["pickle_dir"] + "/" + f for f in pickle_files]
-        #all_ret_types = p.map(proc_build_list_with_label_ints, pickle_files)
-        p.map(proc_build_list_with_label_ints, pickle_files )
+        star_list = zip(pickle_files, repeat(config['label_ints_dir']))
+        all_ret_types = p.starmap(proc_build_list_with_label_ints, star_list)
+        #p.map(proc_build_list_with_label_ints, pickle_files )
         p.close()
         p.join()    
             
@@ -316,26 +356,54 @@ def main():
                 dis_list.append(dis)
                 ret_list.append(ret)
                 
-            if ds_counter == 0:
-                dis_ds = tf.data.Dataset.from_tensor_slices(dis_list)
-                ret_ds = tf.data.Dataset.from_tensor_slices(ret_list)
+                ### build tf feature example
+#                 feature = {
+#                       'caller_callee': tf.train.Feature(bytes_list=tf.train.BytesList(value=[dis.encode('utf-8')])),
+#                       'label_int': tf.train.Feature(int64_list=tf.train.Int64List(value=[ret])),
+#                 }
+#                  
+#                 example_proto = tf.train.Example(features=tf.train.Features(feature=feature))
+#              
+# #                 example_proto = tf.train.Example.FromString(example_proto.SerializeToString())
+# #                 example_proto
+#                  
+#                 filename = '/tmp/test.tfrecord'
+#                 writer = tf.data.experimental.TFRecordWriter(filename)
+#                 writer.write(example_proto)
                 
-                raw_dataset = tf.data.Dataset.zip( (dis_ds, ret_ds ))
+#             if ds_counter == 0:
+#             dis_ds = tf.data.Dataset.from_tensor_slices(dis_list)
+#             ret_ds = tf.data.Dataset.from_tensor_slices(ret_list)
+#             
+#             raw_dataset = tf.data.Dataset.zip( (dis_ds, ret_ds ))
+                raw_dataset = tf.data.Dataset.from_tensor_slices( (dis_list, ret_list ))
+            
+            
                 #ds_item = next(iter(raw_dataset))
                 #print(f'ds_item >{ds_item}<')
                 #ds_counter = 1
-            else:
-                dis_ds = tf.data.Dataset.from_tensor_slices(dis_list)
-                ret_ds = tf.data.Dataset.from_tensor_slices(ret_list)
-                #print(f'dis_ds.element_spec >{dis_ds.element_spec}<')
-                #print(f'ret_ds.element_spec >{ret_ds.element_spec}<')
-                if dis_ds.element_spec == tf.TensorSpec(shape=(), dtype=tf.string, name=None) and ret_ds.element_spec == tf.TensorSpec(shape=(), dtype=tf.int32, name=None):
-                    ds_tmp = tf.data.Dataset.zip( (dis_ds, ret_ds ))
-                    raw_dataset = raw_dataset.concatenate( ds_tmp )
-                else:
-                    print(f'found wrong dataset element')
+#             else:
+#                 dis_ds = tf.data.Dataset.from_tensor_slices(dis_list)
+#                 ret_ds = tf.data.Dataset.from_tensor_slices(ret_list)
+#                 #print(f'dis_ds.element_spec >{dis_ds.element_spec}<')
+#                 #print(f'ret_ds.element_spec >{ret_ds.element_spec}<')
+#                 if dis_ds.element_spec == tf.TensorSpec(shape=(), dtype=tf.string, name=None) and ret_ds.element_spec == tf.TensorSpec(shape=(), dtype=tf.int32, name=None):
+#                     ds_tmp = tf.data.Dataset.zip( (dis_ds, ret_ds ))
+#                     raw_dataset = raw_dataset.concatenate( ds_tmp )
+#                 else:
+#                     print(f'found wrong dataset element')
                 
-            ds_counter += 1
+            #ds_counter += 1
+            
+            serialized_features_dataset = raw_dataset.map(tf_serialize_example)
+#             serialized_features_dataset = tf.data.Dataset.from_generator(
+#                                                 generator, output_types=tf.string, output_shapes=())
+            
+            filename = config['tf_record_dir'] + file.replace('.pickle','') + '.tfrecord'
+            writer = tf.data.experimental.TFRecordWriter(filename)
+            writer.write(serialized_features_dataset)
+
+        
       
         ####
         
