@@ -242,7 +242,7 @@ def main():
     ### check, else exit and inform user
     check_if_dir_exists(config['pickle_dir'])
     check_if_dir_exists(config['label_ints_dir'])
-    check_if_dir_exists(config['tf_record_dir'])
+    ##check_if_dir_exists(config['tf_record_dir'])
     
 
     checkpoint_filepath = config['checkpoint_dir']
@@ -295,13 +295,16 @@ def main():
     
     got_dataset = False
     ### check if we already got a dataset from tokenized files
-    print(f'Check if we already got a tf.data.Dataset from tokenized files, from a previous run')
-    if os.path.isdir(raw_dataset_path):
-        print(f'Found tf.data.Dataset, will use it')
-        raw_dataset = tf.data.experimental.load(raw_dataset_path, (tf.TensorSpec(shape=(), dtype=tf.string, name=None), tf.TensorSpec(shape=(), dtype=tf.int32, name=None)) )
+#     print(f'Check if we already got a tf.data.Dataset from tokenized files, from a previous run')
+#     if os.path.isdir(raw_dataset_path):
+#         print(f'Found tf.data.Dataset, will use it')
+#         raw_dataset = tf.data.experimental.load(raw_dataset_path, (tf.TensorSpec(shape=(), dtype=tf.string, name=None), tf.TensorSpec(shape=(), dtype=tf.int32, name=None)) )
+#         got_dataset = True
+#     else:
+#         print('No tf.data.Dataset from tokenized files found')
+
+    if os.path.isdir(config['tf_record_dir']):
         got_dataset = True
-    else:
-        print('No tf.data.Dataset from tokenized files found')
     
     print('----\n')  ###for nicer output
     
@@ -314,11 +317,8 @@ def main():
         pickle_file_counter = 0
         dis_counter = 1
         
-        ####
+        #### convert string return type to int
         p = Pool(nr_of_cpus)
-#         for a, ret_type, funcName, baseFileName in funcs_and_ret_types:
-#             proc_ret_type_list.append((ret_type, binary_name))
-            
         
         pickle_files = [config["pickle_dir"] + "/" + f for f in pickle_files]
         star_list = zip(pickle_files, repeat(config['label_ints_dir']))
@@ -334,66 +334,29 @@ def main():
         dis_list = list()
         ret_list = list()
         
-        #if all_ret_types:
         pickle_files_int = get_all_pickle_filenames(pickle_file_int_dir)
         for file in pickle_files_int:
             dis_list.clear()
             ret_list.clear()
             
             cont = get_pickle_file_content(pickle_file_int_dir + file)
-            #for ds in cont:
-#             print(f'type-ds >{type(ds)}<')
-#             print(f'numpy-shape >{np.shape(ds)}<')
-#             print(f'ds >{ds}<')
+            
             if (ds_counter+1) >= nr_of_pickle_files:
                 print(f'From file >{pickle_file_int_dir + file}< nr >{ds_counter+1}/{nr_of_pickle_files}<', end='\n')
             else:
                 print(f'From file >{pickle_file_int_dir + file}< nr >{ds_counter+1}/{nr_of_pickle_files}<', end='\r')
         
             
-            
             for dis,ret in cont:
                 dis_list.append(dis)
                 ret_list.append(ret)
-                
-                ### build tf feature example
-#                 feature = {
-#                       'caller_callee': tf.train.Feature(bytes_list=tf.train.BytesList(value=[dis.encode('utf-8')])),
-#                       'label_int': tf.train.Feature(int64_list=tf.train.Int64List(value=[ret])),
-#                 }
-#                  
-#                 example_proto = tf.train.Example(features=tf.train.Features(feature=feature))
-#              
-# #                 example_proto = tf.train.Example.FromString(example_proto.SerializeToString())
-# #                 example_proto
-#                  
-#                 filename = '/tmp/test.tfrecord'
-#                 writer = tf.data.experimental.TFRecordWriter(filename)
-#                 writer.write(example_proto)
-                
-#             if ds_counter == 0:
-#             dis_ds = tf.data.Dataset.from_tensor_slices(dis_list)
-#             ret_ds = tf.data.Dataset.from_tensor_slices(ret_list)
-#             
-#             raw_dataset = tf.data.Dataset.zip( (dis_ds, ret_ds ))
-                raw_dataset = tf.data.Dataset.from_tensor_slices( (dis_list, ret_list ))
-            
-            
-                #ds_item = next(iter(raw_dataset))
-                #print(f'ds_item >{ds_item}<')
-                #ds_counter = 1
-#             else:
-#                 dis_ds = tf.data.Dataset.from_tensor_slices(dis_list)
-#                 ret_ds = tf.data.Dataset.from_tensor_slices(ret_list)
-#                 #print(f'dis_ds.element_spec >{dis_ds.element_spec}<')
-#                 #print(f'ret_ds.element_spec >{ret_ds.element_spec}<')
-#                 if dis_ds.element_spec == tf.TensorSpec(shape=(), dtype=tf.string, name=None) and ret_ds.element_spec == tf.TensorSpec(shape=(), dtype=tf.int32, name=None):
-#                     ds_tmp = tf.data.Dataset.zip( (dis_ds, ret_ds ))
-#                     raw_dataset = raw_dataset.concatenate( ds_tmp )
-#                 else:
-#                     print(f'found wrong dataset element')
-                
-            #ds_counter += 1
+                 
+            raw_dataset = tf.data.Dataset.from_tensor_slices( (dis_list, ret_list ))
+
+            ## ValueError: Can't convert Python sequence with mixed types to Tensor.
+            ##raw_dataset = tf.data.Dataset.from_tensor_slices(cont)
+              
+            ds_counter += 1
             
             serialized_features_dataset = raw_dataset.map(tf_serialize_example)
 #             serialized_features_dataset = tf.data.Dataset.from_generator(
@@ -404,33 +367,21 @@ def main():
             writer.write(serialized_features_dataset)
 
         
-      
-        ####
-        
-#         for file in pickle_files:
-#             pickle_file_counter += 1
-#             
-#             cont = get_pickle_file_content(pickle_file_dir + '/' + file)
-#             for dis,ret in cont:
-#                 print(f'Tokenized file {pickle_file_counter}/{nr_of_pickle_files} and >{dis_counter}< assemblies', end='\r')
-#                 dis_counter += 1
-#                 
-#                 ret_type_int = ret_type_dict[ret] - 1
-#                 if ds_counter == 0:
-#                     #print(f'dis >{dis}<')
-#                     
-#                     #raw_dataset = tf.data.Dataset.from_tensor_slices(dis_ret )
-#                     raw_dataset = tf.data.Dataset.from_tensors( (dis, ret_type_int)  )
-#                     ds_counter = 1
-#                 else:
-#                     #ds = tf.data.Dataset.from_tensor_slices(dis_ret )
-#                     ds = tf.data.Dataset.from_tensors( (dis, ret_type_int) )
-#                     raw_dataset = raw_dataset.concatenate( ds )
-#     
-    
         ### save dataset 
-        print(f'Saving tf.data.Dataset files to directory >{raw_dataset_path}<')
-        tf.data.experimental.save(raw_dataset, raw_dataset_path)
+        #print(f'Saving tf.data.Dataset files to directory >{raw_dataset_path}<')
+        #tf.data.experimental.save(raw_dataset, raw_dataset_path)
+     
+    else:
+        ### we got tfrecord files, so create dataset
+        d = config['tf_record_dir']
+        print(f'Reading tfrecord files from directory >{d}<')
+        tf_record_files = list()
+        files = os.listdir(config['tf_record_dir'])
+        for f in files:
+            if f.endswith(".tfrecord"):
+                tf_record_files.append(config['tf_record_dir'] + f)
+                
+        raw_dataset = tf.data.TFRecordDataset(tf_record_files)
       
     print('----\n')  ###for nicer output
     
@@ -442,12 +393,14 @@ def main():
     
 
     print(f'Print one element from tf.data.Dataset')
-    for x, y in raw_dataset:
-        print(f'Text >{x.numpy()}<  \nReturn-Type >{y.numpy()}<')
-        break
+#     for x, y in raw_dataset:
+#         print(f'Text >{x.numpy()}<  \nReturn-Type >{y.numpy()}<')
+#         break
+    a = next(iter(raw_dataset))
+    print(f'proto-string >{a.numpy}<')
     print(f'tf.data.Dataset element_spec >{raw_dataset.element_spec}<')
     
-    
+    exit()
     
     print('----\n')  ###for nicer output
     
