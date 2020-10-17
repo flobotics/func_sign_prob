@@ -234,20 +234,33 @@ def generator():
 def _parse_function(example_proto):
     # Create a description of the features.
     feature_description = {
-        'features': tf.io.FixedLenFeature([], tf.string, default_value=''),
-        'label': tf.io.FixedLenFeature([], tf.int64, default_value=0),
+        'caller_callee': tf.io.FixedLenFeature([], tf.string, default_value=''),
+        'label_int': tf.io.FixedLenFeature([], tf.int64, default_value=0),
     }
     # Parse the input `tf.train.Example` proto using the dictionary above.
     
     ex = tf.io.parse_single_example(example_proto, feature_description)
-    e = ex['features']
+    e = ex['caller_callee']
     #e = ex.features.feature['features'].bytes_list.value[0]
     print(f'\n\n example parse >{e}<')
     
     #return tf.io.parse_single_example(example_proto, feature_description)
     
-    return ex['features'], ex['label']
+    return ex['caller_callee'], ex['label_int']
 
+
+def check_dir_and_files_exists(config):
+    ### check, else exit and inform user
+    check_if_dir_exists(config['pickle_dir'])
+    check_if_dir_exists(config['label_ints_dir'])
+    ##check_if_dir_exists(config['tf_record_dir'])
+    
+    if config['vocab_file']:
+        does_file_exist(config['vocab_file'])
+    if config['vocab_size_file']:
+        does_file_exist(config['vocab_size_file'])
+    if config['seq_length_file']:
+        does_file_exist(config['seq_length_file'])
 
 def main():
     global vectorize_layer
@@ -263,36 +276,25 @@ def main():
     
     date_str = datetime.now().strftime("%Y%m%d-%H%M%S")
     
-    ### check, else exit and inform user
-    check_if_dir_exists(config['pickle_dir'])
-    check_if_dir_exists(config['label_ints_dir'])
-    ##check_if_dir_exists(config['tf_record_dir'])
-    
+    ### check if the dirs and files needed are there, else exit
+    check_dir_and_files_exists(config)
 
-    checkpoint_filepath = config['checkpoint_dir']
+
+    #checkpoint_filepath = config['checkpoint_dir']
     tensorboard_logdir = config['tensorboard_log_dir']
     pickle_file_dir = config['pickle_dir']
     raw_dataset_path = config['tf_dataset_save_dir']
     pickle_file_int_dir = config['label_ints_dir']
-    #vocab_file = "../../../ubuntu-20-04-datasets/full_dataset_att_int_seq_vocabulary.pickle"
-    #vocab_file = "/tmp/vocab.pickle"
     
-    print('----\n')  ###for nicer output
-    if config['vocab_file']:
-        does_file_exist(config['vocab_file'])
-    if config['vocab_size_file']:
-        does_file_exist(config['vocab_size_file'])
-    if config['seq_length_file']:
-        does_file_exist(config['seq_length_file'])
+    
     does_file_exist(path_to_return_type_dict_file)
-    print('----\n')  ###for nicer output
     
     print(f'tensorflow version >{tf.__version__}<, build with 2.3.1')
     if config['vocab_size_file']:
         print(f'Vocabulary size read from file >{vocab_size_file}< is >{vocab_size}<')
     if config['seq_length_file']:
         print(f'Sequence length read from file >{full_path_seq_file}< is >{sequence_length}<')
-    print(f'TF dataset read from >{raw_dataset_path}<')
+    print(f'TF dataset directory is >{raw_dataset_path}<')
     
     print('----\n')  ###for nicer output
     
@@ -330,11 +332,10 @@ def main():
     if os.path.isdir(config['tf_record_dir']):
         got_dataset = True
     
-    print('----\n')  ###for nicer output
     
     if not got_dataset:
         ### build ds from tokenized files, then get texts
-        print(f'Building tf.data.Dataset from tokenized files')
+        print(f'Building tf.data.Dataset from tokenized files from dir >{config["pickle_dir"]}<')
         ds_counter = 0
         pickle_files = get_all_pickle_filenames(pickle_file_dir)
         nr_of_pickle_files = len(pickle_files)
@@ -386,6 +387,8 @@ def main():
 #             serialized_features_dataset = tf.data.Dataset.from_generator(
 #                                                 generator, output_types=tf.string, output_shapes=())
             
+            if ds_counter == 1:
+                os.mkdir(config['tf_record_dir'])
             filename = config['tf_record_dir'] + file.replace('.pickle','') + '.tfrecord'
             writer = tf.data.experimental.TFRecordWriter(filename)
             writer.write(serialized_features_dataset)
@@ -395,29 +398,20 @@ def main():
         #print(f'Saving tf.data.Dataset files to directory >{raw_dataset_path}<')
         #tf.data.experimental.save(raw_dataset, raw_dataset_path)
      
-    else:
-        ### we got tfrecord files, so create dataset
-        d = config['tf_record_dir']
-        print(f'Build dataset with tfrecord files from directory >{d}<')
+    
+    ## we read the ds again
+    ### we got tfrecord files, so create dataset
+    d = config['tf_record_dir']
+    print(f'Build dataset with tfrecord files from directory >{d}<')
 
-        tfrecord_files_dataset = tf.data.Dataset.list_files(config['tf_record_dir'] + '*.tfrecord')
-        raw_dataset = tf.data.TFRecordDataset(tfrecord_files_dataset)
+    tfrecord_files_dataset = tf.data.Dataset.list_files(config['tf_record_dir'] + '*.tfrecord')
+    raw_dataset = tf.data.TFRecordDataset(tfrecord_files_dataset)
       
     print('----\n')  ###for nicer output
     
-    ##debug
-#     for text_batch, label_batch in raw_dataset.take(1):
-#         print(text_batch.numpy()[i])
-#         print(label_batch.numpy()[i])
-#         print()
-    
-
     print(f'Print one element from tf.data.Dataset')
-#     for x, y in raw_dataset:
-#         print(f'Text >{x.numpy()}<  \nReturn-Type >{y.numpy()}<')
-#         break
-    a = next(iter(raw_dataset))
-    print(f'proto-string >{a.numpy}<')
+    #a = next(iter(raw_dataset))
+    #print(f'proto-string >{a.numpy}<')
     
 #     for raw_record in raw_dataset.take(1):
 #         print(repr(raw_record))
@@ -426,11 +420,11 @@ def main():
         example.ParseFromString(raw_record.numpy())
         print(f'One example: >{example}<')
 
-
+    
     print(f'tf.data.Dataset element_spec >{raw_dataset.element_spec}<')
     
-    nr = tf.data.experimental.cardinality(raw_dataset).numpy()
-    print(f'Number of item in ds >{nr}<')
+    #nr = tf.data.experimental.cardinality(raw_dataset).numpy()
+    #print(f'Number of item in ds >{nr}<')
     
     raw_dataset = raw_dataset.map(_parse_function, num_parallel_calls=nr_of_cpus)
     raw_dataset
@@ -439,13 +433,12 @@ def main():
         print(f'text: >{text}<  label >{label}<')
         
 
-    nr = tf.data.experimental.cardinality(raw_dataset).numpy()
-    print(f'Number of item in ds >{nr}<')
+    #nr = tf.data.experimental.cardinality(raw_dataset).numpy()
+    #print(f'Number of item in ds >{nr}<')
     
-    for raw_record in raw_dataset.take(1):
-        print(repr(raw_record))
+    #for raw_record in raw_dataset.take(1):
+    #   print(f'raw_record >{raw_record}<')
     
-    #exit()
     
     print('----\n')  ###for nicer output
     
@@ -459,23 +452,11 @@ def main():
         vectorize_layer.adapt(text_ds.batch(64))
     
     
-    
-    
-    #a = next(iter(text_ds))
-    #x = next(iter(raw_dataset))
-    #print(f'x-next-iter >{x[0].numpy()}<')
-    #print(vectorize_text(x[0], x[1]) )
-    #x = vectorize_layer(x)
-    #print(f'x vec-layer type: >{type(x)}<')
-    #print(f'x vec-layer numpy: >{x.numpy()}<')
-    #print(f'x vec-layer: >{x}<')
-    
-    
     v = vectorize_layer.get_vocabulary()
     c =0
     print(f'Print 5 words from TextVectorization layer vocabulary')
     for v1 in v:
-        print(f'vec-vocab: >{v1}<')
+        print(f'TextVectorization-vocabulary-word: >{v1}<')
         c += 1
         if c > 6:
             break
@@ -483,78 +464,42 @@ def main():
     
     print('----\n')  ###for nicer output
     
-    ### split dataset
-    DATASET_SIZE = tf.data.experimental.cardinality(raw_dataset).numpy()
-    train_size = int(0.7 * DATASET_SIZE)
-    val_size = int(0.15 * DATASET_SIZE)
-    test_size = int(0.15 * DATASET_SIZE)
+    raw_dataset = raw_dataset.shuffle(buffer_size=10000)
+    raw_dataset = raw_dataset.batch(100)
     
-    print(f'We split dataset >{DATASET_SIZE}< into train >{train_size}< val >{val_size}< test >{test_size}<')
-    
-    train_dataset = raw_dataset.take(train_size)
-    remaining = raw_dataset.skip(train_size)
-    test_dataset = remaining.take(test_size)
-    val_dataset = remaining.skip(test_size)
-    
-    ###worked
-    train_dataset = train_dataset.batch(100, drop_remainder=False)
-    val_dataset = val_dataset.batch(100, drop_remainder=False)
-    test_dataset = test_dataset.batch(100, drop_remainder=False)
-    
-    print(f'train_ds element_spec-2 >{train_dataset.element_spec}<')
-    
-    print(f'train_dataset element_spec >{train_dataset.element_spec}<')
-    
-    print(f'train_dataset size >{tf.data.experimental.cardinality(train_dataset).numpy()}<')
-    print(f'test_dataset size >{tf.data.experimental.cardinality(test_dataset).numpy()}<')
-    print(f'val_dataset size >{tf.data.experimental.cardinality(val_dataset).numpy()}<')
-    
-    print('----\n')  ###for nicer output
-    
-    text_batch, label_batch = next(iter(train_dataset))
-    first_review, first_label = text_batch, label_batch
-    print("Text", first_review)
-    print("Label", first_label)
-    #print("Vectorized review", vectorize_text(first_review, first_label))
-    
+
     ### vec text
-    train_ds = train_dataset.map(vectorize_text)
-    val_ds = val_dataset.map(vectorize_text)
-    test_ds = test_dataset.map(vectorize_text)
+    train_ds = raw_dataset.map(vectorize_text)
+#     val_ds = val_dataset.map(vectorize_text)
+#     test_ds = test_dataset.map(vectorize_text)
     
     print(f'train_ds element_spec >{train_ds.element_spec}<')
     
-    text_batch, label_batch = next(iter(train_ds))
-    first_review, first_label = text_batch, label_batch
-    print("Text", first_review)
-    print("Label", first_label)
+#     text_batch, label_batch = next(iter(train_ds))
+#     first_review, first_label = text_batch, label_batch
+#     print("Text", first_review)
+#     print("Label", first_label)
     #print("Vectorized review", vectorize_text(first_review, first_label))
     
-    print('----\n')  ###for nicer output
+#     print('----\n')  ###for nicer output
     
-#     train_ds = train_ds.batch(50, drop_remainder=False)
-#     val_ds = val_ds.batch(50, drop_remainder=False)
-#     test_ds = test_ds.batch(50, drop_remainder=False)
 
     ### config for performance
     AUTOTUNE = tf.data.experimental.AUTOTUNE
     #AUTOTUNE = 50
     print(f'AUTOTUNE value for prefetch >{AUTOTUNE}<')
 
-#     train_ds = train_ds.cache().prefetch(buffer_size=AUTOTUNE)
-#     val_ds = val_ds.cache().prefetch(buffer_size=AUTOTUNE)
-#     test_ds = test_ds.cache().prefetch(buffer_size=AUTOTUNE)
     train_ds = train_ds.prefetch(buffer_size=AUTOTUNE)
-    val_ds = val_ds.prefetch(buffer_size=AUTOTUNE)
-    test_ds = test_ds.prefetch(buffer_size=AUTOTUNE)
+#     val_ds = val_ds.prefetch(buffer_size=AUTOTUNE)
+#     test_ds = test_ds.prefetch(buffer_size=AUTOTUNE)
     
     ## build model
     embedding_dim = 8
     
     print(f'Check if we got a model saved from a previous run')
-    if os.path.isdir(checkpoint_filepath):
+    if os.path.isdir(config['checkpoint_dir']):
         print(f'Found checkpoint path, think there is a model')
-        model = tf.keras.models.load_model(checkpoint_filepath)
+        model = tf.keras.models.load_model(config['checkpoint_dir'])
     else:
         print(f'No checkpoint path, so i think no model, we create one')
         model = tf.keras.Sequential([tf.keras.layers.Embedding(int(vocab_size)+2, embedding_dim, mask_zero=True),
@@ -581,13 +526,16 @@ def main():
 
     
     model_checkpoint_callback = tf.keras.callbacks.ModelCheckpoint(
-        filepath=checkpoint_filepath,
+        filepath=config['checkpoint_dir'],
         save_weights_only=False,
         monitor='accuracy',
         mode='max',
         save_best_only=True)
-
-    print(f'Storing tf checkpoint files to: {checkpoint_filepath}')
+    
+    d = config['checkpoint_dir']
+    print(f'Storing tf checkpoint files to: {d}')
+    
+    exit()
     
     model.compile(loss=tf.keras.losses.SparseCategoricalCrossentropy(from_logits=True), 
                 optimizer='adam', 
