@@ -284,10 +284,17 @@ def main():
     os.mkdir(config['tf_record_dir'] + 'test')
     
     ## move files to extra dirs
-    counter = 0
+    counter = 1
     for file in files:
-        
-        
+        if counter <= train_size:
+            os.rename(config['tf_record_dir'] + file, config['tf_record_dir'] + 'train/' + file)
+            counter += 1
+        elif counter <= (train_size + val_size):
+            os.rename(config['tf_record_dir'] + file, config['tf_record_dir'] + 'val/' + file)
+            counter += 1
+        else:
+            os.rename(config['tf_record_dir'] + file, config['tf_record_dir'] + 'test/' + file)
+            
     
 
 if __name__ == "__main__":
