@@ -374,14 +374,10 @@ def main():
     else:
         ### we got tfrecord files, so create dataset
         d = config['tf_record_dir']
-        print(f'Reading tfrecord files from directory >{d}<')
-        tf_record_files = list()
-        files = os.listdir(config['tf_record_dir'])
-        for f in files:
-            if f.endswith(".tfrecord"):
-                tf_record_files.append(config['tf_record_dir'] + f)
-                
-        raw_dataset = tf.data.TFRecordDataset(tf_record_files)
+        print(f'Build dataset with tfrecord files from directory >{d}<')
+
+        tfrecord_files_dataset = tf.data.Dataset.list_files(config['tf_record_dir'] + '*.tfrecord')
+        raw_dataset = tf.data.TFRecordDataset(tfrecord_files_dataset)
       
     print('----\n')  ###for nicer output
     
