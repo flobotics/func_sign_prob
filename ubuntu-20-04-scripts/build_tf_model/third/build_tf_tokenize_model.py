@@ -11,6 +11,8 @@ import numpy as np
 import getopt
 import sys
 from itertools import repeat
+import re
+import string
 
 nr_of_cpus = 16
 
@@ -53,14 +55,18 @@ sequence_length = get_sequence_length(full_path_seq_file)
 
 
 def custom_standardization(input_data):
-    return tf.strings.lower(input_data)
+  lowercase = tf.strings.lower(input_data)
+  #stripped_html = tf.strings.regex_replace(lowercase, '<br />', ' ')
+  stripped_html = tf.strings.regex_replace(lowercase, '\t', ' ')
+  return tf.strings.regex_replace(stripped_html,
+                                  '[%s]' % re.escape(string.punctuation), '')
 
 
 ### add 2   UNK and empty
-vectorize_layer = TextVectorization(standardize=None,
+vectorize_layer = TextVectorization(standardize=custom_standardization,
                                         max_tokens=None,
                                         output_mode='int',
-                                        output_sequence_length=None)
+                                        output_sequence_length=int(sequence_length))
 
 # vectorize_layer = TextVectorization(standardize=None,
 #                                         max_tokens=755+2,
@@ -228,12 +234,19 @@ def generator():
 def _parse_function(example_proto):
     # Create a description of the features.
     feature_description = {
-        'caller_callee': tf.io.FixedLenFeature([], tf.string, default_value=''),
-        'label_int': tf.io.FixedLenFeature([], tf.int64, default_value=0),
+        'features': tf.io.FixedLenFeature([], tf.string, default_value=''),
+        'label': tf.io.FixedLenFeature([], tf.int64, default_value=0),
     }
     # Parse the input `tf.train.Example` proto using the dictionary above.
-    return tf.io.parse_single_example(example_proto, feature_description)
-
+    
+    ex = tf.io.parse_single_example(example_proto, feature_description)
+    e = ex['features']
+    #e = ex.features.feature['features'].bytes_list.value[0]
+    print(f'\n\n example parse >{e}<')
+    
+    #return tf.io.parse_single_example(example_proto, feature_description)
+    
+    return ex['features'], ex['label']
 
 
 def main():
@@ -406,17 +419,26 @@ def main():
     a = next(iter(raw_dataset))
     print(f'proto-string >{a.numpy}<')
     
+#     for raw_record in raw_dataset.take(1):
+#         print(repr(raw_record))
     for raw_record in raw_dataset.take(1):
-        print(repr(raw_record))
+        example = tf.train.Example()
+        example.ParseFromString(raw_record.numpy())
+        print(f'One example: >{example}<')
+
 
     print(f'tf.data.Dataset element_spec >{raw_dataset.element_spec}<')
     
     nr = tf.data.experimental.cardinality(raw_dataset).numpy()
     print(f'Number of item in ds >{nr}<')
     
-    raw_dataset = raw_dataset.map(_parse_function)
+    raw_dataset = raw_dataset.map(_parse_function, num_parallel_calls=nr_of_cpus)
     raw_dataset
     
+    for text,label in raw_dataset.take(1):
+        print(f'text: >{text}<  label >{label}<')
+        
+
     nr = tf.data.experimental.cardinality(raw_dataset).numpy()
     print(f'Number of item in ds >{nr}<')
     
@@ -435,7 +457,6 @@ def main():
         print(f'text_ds element_spec >{text_ds.element_spec}<')
         print(f'Adapt our text to tf TextVectorization layer, this could take some time (+17min on 8vcpu,tesla-p100-gpu)')
         vectorize_layer.adapt(text_ds.batch(64))
-    
     
     
     
