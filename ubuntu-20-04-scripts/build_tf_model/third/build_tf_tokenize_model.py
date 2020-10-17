@@ -58,9 +58,9 @@ def custom_standardization(input_data):
 
 ### add 2   UNK and empty
 vectorize_layer = TextVectorization(standardize=None,
-                                        max_tokens=int(vocab_size)+2,
+                                        max_tokens=None,
                                         output_mode='int',
-                                        output_sequence_length=int(sequence_length))
+                                        output_sequence_length=None)
 
 # vectorize_layer = TextVectorization(standardize=None,
 #                                         max_tokens=755+2,
@@ -224,6 +224,17 @@ def generator():
     for features in raw_dataset:
         yield serialize_example(*features)
     
+    
+def _parse_function(example_proto):
+    # Create a description of the features.
+    feature_description = {
+        'caller_callee': tf.io.FixedLenFeature([], tf.string, default_value=''),
+        'label_int': tf.io.FixedLenFeature([], tf.int64, default_value=0),
+    }
+    # Parse the input `tf.train.Example` proto using the dictionary above.
+    return tf.io.parse_single_example(example_proto, feature_description)
+
+
 
 def main():
     global vectorize_layer
@@ -255,11 +266,11 @@ def main():
     
     print('----\n')  ###for nicer output
     if config['vocab_file']:
-        does_file_exist(vocab_file)
+        does_file_exist(config['vocab_file'])
     if config['vocab_size_file']:
-        does_file_exist(vocab_size_file)
+        does_file_exist(config['vocab_size_file'])
     if config['seq_length_file']:
-        does_file_exist(full_path_seq_file)
+        does_file_exist(config['seq_length_file'])
     does_file_exist(path_to_return_type_dict_file)
     print('----\n')  ###for nicer output
     
@@ -275,7 +286,7 @@ def main():
     ### get vocabulary, to feed into textvectorization.set_vocabulary() , much faster than .adapt()
     if config['vocab_file']:
         print(f'We got a vocabulary file, so we use it')
-        vocab_ret1 = get_pickle_file_content(vocab_file)
+        vocab_ret1 = get_pickle_file_content(config['vocab_file'])
         vocab_word_list = list()
         c = 0
         vocab_ret = list(vocab_ret1)
@@ -394,9 +405,25 @@ def main():
 #         break
     a = next(iter(raw_dataset))
     print(f'proto-string >{a.numpy}<')
+    
+    for raw_record in raw_dataset.take(1):
+        print(repr(raw_record))
+
     print(f'tf.data.Dataset element_spec >{raw_dataset.element_spec}<')
     
-    exit()
+    nr = tf.data.experimental.cardinality(raw_dataset).numpy()
+    print(f'Number of item in ds >{nr}<')
+    
+    raw_dataset = raw_dataset.map(_parse_function)
+    raw_dataset
+    
+    nr = tf.data.experimental.cardinality(raw_dataset).numpy()
+    print(f'Number of item in ds >{nr}<')
+    
+    for raw_record in raw_dataset.take(1):
+        print(repr(raw_record))
+    
+    #exit()
     
     print('----\n')  ###for nicer output
     
