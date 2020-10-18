@@ -163,6 +163,14 @@ def vectorize_text(text, label):
     text = tf.expand_dims(text, -1)
     return vectorize_layer(text), label
 
+def configure_for_performance(ds):
+  ds = ds.cache()
+  ds = ds.shuffle(buffer_size=1000)
+  ds = ds.batch(batch_size)
+  ds = ds.prefetch(buffer_size=AUTOTUNE)
+  return ds
+  
+
 sequence_length = get_sequence_length('/tmp/sequence_length.txt')
 ### add 2   UNK and empty
 vectorize_layer = TextVectorization(standardize=custom_standardization,
@@ -194,10 +202,13 @@ def main():
     
     print(f'tf.data.Dataset element_spec of train_dataset >{train_dataset.element_spec}<')
     
+    AUTOTUNE = tf.data.experimental.AUTOTUNE
+    print(f'AUTOTUNE value for prefetch >{AUTOTUNE}<')
+    
     ## map all elements to string,int for model.fit
-    train_dataset = train_dataset.map(_parse_function, num_parallel_calls=nr_of_cpus)
-    val_dataset = val_dataset.map(_parse_function, num_parallel_calls=nr_of_cpus)
-    test_dataset = test_dataset.map(_parse_function, num_parallel_calls=nr_of_cpus)
+    train_dataset = train_dataset.map(_parse_function, num_parallel_calls=AUTOTUNE)
+    val_dataset = val_dataset.map(_parse_function, num_parallel_calls=AUTOTUNE)
+    test_dataset = test_dataset.map(_parse_function, num_parallel_calls=AUTOTUNE)
     train_dataset
 
     for text, label in train_dataset.take(1):
@@ -228,12 +239,16 @@ def main():
     print_vocab_info(vectorize_layer)
     
     ### optimize
-    train_dataset = train_dataset.shuffle(buffer_size=10000)
-    train_dataset = train_dataset.batch(100)
-    val_dataset = val_dataset.shuffle(buffer_size=10000)
-    val_dataset = val_dataset.batch(100)
-    test_dataset = test_dataset.shuffle(buffer_size=10000)
-    test_dataset = test_dataset.batch(100)
+    configure_for_performance(train_dataset)
+    configure_for_performance(val_dataset)
+    configure_for_performance(test_dataset)
+    
+#     train_dataset = train_dataset.shuffle(buffer_size=10000)
+#     train_dataset = train_dataset.batch(100)
+#     val_dataset = val_dataset.shuffle(buffer_size=10000)
+#     val_dataset = val_dataset.batch(100)
+#     test_dataset = test_dataset.shuffle(buffer_size=10000)
+#     test_dataset = test_dataset.batch(100)
     
     
     ### vec text
@@ -242,9 +257,7 @@ def main():
     test_dataset = test_dataset.map(vectorize_text)
     
     ### optimize
-    AUTOTUNE = tf.data.experimental.AUTOTUNE
-    print(f'AUTOTUNE value for prefetch >{AUTOTUNE}<')
-    train_dataset = train_dataset.prefetch(buffer_size=AUTOTUNE)
+    #train_dataset = train_dataset.prefetch(buffer_size=AUTOTUNE)
     
     
     ### the model
@@ -260,6 +273,9 @@ def main():
         print(f'No checkpoint path, so i think no model, we create one')
         vocab_size = get_vocab_size(config['vocab_size_file'])
         ret_type_dict = get_pickle_file_content(config['ret_type_dict_file'])
+        
+        #tf.keras.Input(shape=(1,), dtype=tf.string)
+        #vectorize_layer
         
         model = tf.keras.Sequential([tf.keras.layers.Embedding(int(vocab_size)+2, embedding_dim, mask_zero=True),
                                         tf.keras.layers.Dropout(0.2),
