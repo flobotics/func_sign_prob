@@ -298,6 +298,7 @@ def main():
     print("Accuracy: ", accuracy)
 
     ### save trained word embeddings
+    print(f'Saving trained word embeddings (meta.tsv,vecs.tsv) (usable in tensorboard->Projector)')
     save_trained_word_embeddings(model) 
         
         
