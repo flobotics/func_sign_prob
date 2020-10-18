@@ -7,6 +7,7 @@ import string
 from tensorflow.keras import Model, Sequential
 from tensorflow.keras.layers import Activation, Dense, Embedding, GlobalAveragePooling1D
 from tensorflow.keras.layers.experimental.preprocessing import TextVectorization
+import os
 
 
 def get_pickle_file_content(full_path_pickle_file):
@@ -17,9 +18,17 @@ def get_pickle_file_content(full_path_pickle_file):
     return pickle_list
 
 
+def get_vocab_size(vocab_size_file):
+    file = open(vocab_size_file,'r')
+    ret = file.read()
+    file.close()
+    return ret
+
+
 def parseArgs():
-    short_opts = 'ht:v:e:f:s:'
-    long_opts = ['tfrecord-train-dir=', 'tfrecord-val-dir=', 'tfrecord-test-dir=', 'vocab-file=', 'seq-length-file=']
+    short_opts = 'ht:v:e:f:s:c:t:r:l:'
+    long_opts = ['tfrecord-train-dir=', 'tfrecord-val-dir=', 'tfrecord-test-dir=', 'vocab-file=', 'seq-length-file=',
+                 'checkpoint-dir=', 'vocab-size-file=', 'ret-type-dict-file=', 'tensorboard-log-dir=']
     config = dict()
     
     config['tfrecord_train_dir'] = '/tmp/tf_record_dir/train/'
@@ -27,6 +36,10 @@ def parseArgs():
     config['tfrecord_test_dir'] = '/tmp/tf_record_dir/test/'
     config['vocab_file'] = '/tmp/vocab.pickle'
     config['seq_length_file'] = "/tmp/sequence_length.txt"
+    config['checkpoint_dir'] = '/tmp/logs/checkpoint'
+    config['vocab_size_file'] = "/tmp/vocab_size.txt"
+    config['ret_type_dict_file'] = "/tmp/ret_type_dict.pickle"
+    config['tensorboard_log_dir'] = '/tmp/logs'
     
     
     try:
@@ -47,6 +60,14 @@ def parseArgs():
             config['vocab_file'] = option_value[1:]
         elif option_key in ('-s', '--seq-length-file'):
             config['seq_length_file'] = option_value[1:]
+        elif option_key in ('-c', '--checkpoint-dir'):
+            config['checkpoint_dir'] = option_value[1:]
+        elif option_key in ('-t', '--vocab-size-file'):
+            config['vocab_size_file'] = option_value[1:]
+        elif option_key in ('-r', '--ret-type-dict-file'):
+            config['ret_type_dict_file'] = option_value[1:]
+        elif option_key in ('-l', '--tensorboard-log-dir'):
+            config['tensorboard_log_dir'] = option_value[1:]
         elif option_key in ('-h'):
             print(f'<optional> -p or --pickle-dir The directory with disassemblies,etc. Default: /tmp/save_dir')
            
@@ -142,6 +163,12 @@ def vectorize_text(text, label):
     text = tf.expand_dims(text, -1)
     return vectorize_layer(text), label
 
+sequence_length = get_sequence_length('/tmp/sequence_length.txt')
+### add 2   UNK and empty
+vectorize_layer = TextVectorization(standardize=custom_standardization,
+                                    max_tokens=None,
+                                    output_mode='int',
+                                    output_sequence_length=int(sequence_length))
 
 def main():
     nr_of_cpus = 16
@@ -176,12 +203,8 @@ def main():
     for text, label in train_dataset.take(1):
         print(f'One example from train_dataset:\nText: >{text}<\n Label: >{label}<')
         
-    sequence_length = get_sequence_length(config['seq_length_file'])
-    ### add 2   UNK and empty
-    vectorize_layer = TextVectorization(standardize=custom_standardization,
-                                        max_tokens=None,
-                                        output_mode='int',
-                                        output_sequence_length=int(sequence_length))
+
+    
 
     ## check if vocab file is there
     if config['vocab_file']:
@@ -235,6 +258,9 @@ def main():
         model = tf.keras.models.load_model(config['checkpoint_dir'])
     else:
         print(f'No checkpoint path, so i think no model, we create one')
+        vocab_size = get_vocab_size(config['vocab_size_file'])
+        ret_type_dict = get_pickle_file_content(config['ret_type_dict_file'])
+        
         model = tf.keras.Sequential([tf.keras.layers.Embedding(int(vocab_size)+2, embedding_dim, mask_zero=True),
                                         tf.keras.layers.Dropout(0.2),
                                         tf.keras.layers.GlobalAveragePooling1D(),
@@ -244,7 +270,7 @@ def main():
     model.summary()
 
     ## callbacks to save tensorboard-files and model
-    tensorboard_callback = tf.keras.callbacks.TensorBoard(log_dir=tensorboard_logdir, 
+    tensorboard_callback = tf.keras.callbacks.TensorBoard(log_dir=config['tensorboard_log_dir'], 
                                                             histogram_freq=1, 
                                                             write_graph=False, 
                                                             write_images=True)
