@@ -166,8 +166,8 @@ def vectorize_text(text, label):
 def configure_for_performance(ds):
   ds = ds.cache()
   ds = ds.shuffle(buffer_size=1000)
-  ds = ds.batch(batch_size)
-  ds = ds.prefetch(buffer_size=AUTOTUNE)
+  ds = ds.batch(100)
+  ds = ds.prefetch(buffer_size=tf.data.experimental.AUTOTUNE)
   return ds
   
 
@@ -239,9 +239,9 @@ def main():
     print_vocab_info(vectorize_layer)
     
     ### optimize
-    configure_for_performance(train_dataset)
-    configure_for_performance(val_dataset)
-    configure_for_performance(test_dataset)
+    train_dataset = configure_for_performance(train_dataset)
+    val_dataset = configure_for_performance(val_dataset)
+    test_dataset = configure_for_performance(test_dataset)
     
 #     train_dataset = train_dataset.shuffle(buffer_size=10000)
 #     train_dataset = train_dataset.batch(100)
