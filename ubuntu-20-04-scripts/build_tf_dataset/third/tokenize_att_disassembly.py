@@ -284,7 +284,77 @@ def get_raw_return_type_from_gdb_ptype(gdb_ptype):
     else:
         print(f'No gdb ptype found')
         return 'unknown'
+ 
+ 
+def dis_split(dis):
+    dis_list = list()
+        
+    for line in dis.split('\t'):
+        #print(f'One line-----------')
+        #print(f'line: >{line}<')
+        
+        line = line.replace('(', ' ( ')
+        line = line.replace(')', ' ) ')
+        line = line.replace('%', ' % ')
+        line = line.replace(',', ' , ')
+        line = line.replace('$', ' $ ')
+        line = line.replace('*', ' * ')
+        line = line.replace('<', ' < ')
+        line = line.replace('>', ' > ')
+        line = line.replace('+', ' + ')
+        #print(f'line after giving space: >{line}<')
+        
+        new_line = ''
+        for item in line.split():
+            #print(f'One item of one line >{item}<')
+            ## check if we got a hex nr with chars
+            new_item = ''
+            if (len(item) >= 2) and item[0] == '0' and item[1] == 'x':
+                #print(f'Found Hex >{item}<, split it into single numbers and chars')
+                for c in item:
+                    new_item = new_item + c + ' '
+                    
+                #print(f'Split hex to >{new_item}<')
+            else:
+                #print(f'No hex found, check for nr')
+                length = len(item)
+                #print(f'length >{length}<')
+                if length > 1:
+                    for c in item:
+                        if str.isnumeric(c):
+                            new_item = new_item + c + ' '
+                        else:
+                            new_item = new_item + c
+                    
+#                         for i in range(length):
+#                             if isnumeric(item[i]):
+#                                 c = item[i]
+#                                 new_item = new_item + c + ' '
+#                                 #print(f'Found number >{item[i]}< new_item >{new_item}<')
+#                             else:
+#                                 new_item = new_item + c
+#                                 #print(f'No number >{item[i]}<  new_item >{new_item}<')
+                else:
+                    new_item = item
+        
+            if not new_item.endswith(' '):
+                new_item = new_item + ' '
+            #print(f'old item >{item}< new_item: >{new_item}<')        
+            
+            
+            new_line = new_line + new_item
+         
+        #print(f'new_line >{new_line}<')   
+               
+
+        #exit()         
+        dis_list.append(new_line)
     
+    
+    #print(f'Full disas: >{dis_list}<')
+    dis_str = ' '.join(dis_list)   
+    
+    return dis_str
     
  
 def proc_build(pickle_file, work_dir, save_dir):
@@ -374,6 +444,10 @@ def proc_build(pickle_file, work_dir, save_dir):
                                             
                                         dis1_str = ' '.join(att_dis)
                                         dis2_str = ' '.join(elem2[4])
+                                        
+                                        dis1_str = dis_split(dis1_str)
+                                        dis2_str = dis_split(dis2_str)
+                                        
                                         dis_str = dis1_str + dis2_str
                                             
                                         #print(f'dis_str >{dis_str}<')
