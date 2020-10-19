@@ -36,7 +36,7 @@ def parseArgs():
     config['tfrecord_test_dir'] = '/tmp/tf_record_dir/test/'
     config['vocab_file'] = '/tmp/vocab.pickle'
     config['seq_length_file'] = "/tmp/sequence_length.txt"
-    config['checkpoint_dir'] = '/tmp/logs/checkpoint'
+    config['checkpoint_dir'] = '/tmp/logs/checkpoint.ckpt'
     config['vocab_size_file'] = "/tmp/vocab_size.txt"
     config['ret_type_dict_file'] = "/tmp/ret_type_dict.pickle"
     config['tensorboard_log_dir'] = '/tmp/logs'
@@ -173,7 +173,7 @@ def configure_for_performance(ds):
 
 sequence_length = get_sequence_length('/tmp/sequence_length.txt')
 ### add 2   UNK and empty
-vectorize_layer = TextVectorization(standardize=custom_standardization,
+vectorize_layer = TextVectorization(standardize=None,
                                     max_tokens=None,
                                     output_mode='int',
                                     output_sequence_length=int(sequence_length))
@@ -271,13 +271,14 @@ def main():
         model = tf.keras.models.load_model(config['checkpoint_dir'])
     else:
         print(f'No checkpoint path, so i think no model, we create one')
-        vocab_size = get_vocab_size(config['vocab_size_file'])
         ret_type_dict = get_pickle_file_content(config['ret_type_dict_file'])
         
         #tf.keras.Input(shape=(1,), dtype=tf.string)
         #vectorize_layer
         
-        model = tf.keras.Sequential([tf.keras.layers.Embedding(int(vocab_size)+2, embedding_dim, mask_zero=True),
+        vocab_size = len(vectorize_layer.get_vocabulary())
+        
+        model = tf.keras.Sequential([tf.keras.layers.Embedding(int(vocab_size), embedding_dim, mask_zero=True),
                                         tf.keras.layers.Dropout(0.2),
                                         tf.keras.layers.GlobalAveragePooling1D(),
                                         tf.keras.layers.Dropout(0.2),
@@ -289,15 +290,20 @@ def main():
     tensorboard_callback = tf.keras.callbacks.TensorBoard(log_dir=config['tensorboard_log_dir'], 
                                                             histogram_freq=1, 
                                                             write_graph=False, 
-                                                            write_images=True)
+                                                            write_images=False)
                                                             
 
     model_checkpoint_callback = tf.keras.callbacks.ModelCheckpoint(filepath=config['checkpoint_dir'],
-                                                                    save_weights_only=False,
+                                                                    save_weights_only=True,
                                                                     monitor='accuracy',
                                                                     mode='max',
                                                                     save_best_only=True)
     
+    model_checkpoint_callback2 = tf.keras.callbacks.ModelCheckpoint(filepath='/tmp/logs/SaveModel',
+                                                                    save_weights_only=False,
+                                                                    monitor='accuracy',
+                                                                    mode='max',
+                                                                    save_best_only=True)
        
     model.compile(loss=tf.keras.losses.SparseCategoricalCrossentropy(from_logits=True), 
                 optimizer='adam', 
@@ -306,7 +312,7 @@ def main():
     history = model.fit(train_dataset,
                         validation_data=val_dataset,
                         epochs=2,
-                        callbacks=[tensorboard_callback, model_checkpoint_callback])
+                        callbacks=[tensorboard_callback, model_checkpoint_callback, model_checkpoint_callback2])
 
     ### evaluate the model
     loss, accuracy = model.evaluate(test_dataset)
