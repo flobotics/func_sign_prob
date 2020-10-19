@@ -139,11 +139,15 @@ def save_trained_word_embeddings(model):
     print(f'len vocab-- >{len(vocab)}<')
     
     for num, word in enumerate(vocab):
-      if num == 0: continue # skip padding token from vocab
-      vec = weights[num]
-      #print(f'vec >{vec}<  word >{word}<')
-      out_m.write(word + "\n")
-      out_v.write('\t'.join([str(x) for x in vec]) + "\n")
+        if word == '':
+            print(f'woooord found')
+            word = 'PAD'  
+        #if num == 0: continue # skip padding token from vocab
+        vec = weights[num]
+        #print(f'vec >{vec}<  word >{word}<')
+        out_m.write(word + "\n")
+        out_v.write('\t'.join([str(x) for x in vec]) + "\n")
+        #break
     out_v.close()
     out_m.close()
 
@@ -173,11 +177,19 @@ def configure_for_performance(ds):
   ds = ds.prefetch(buffer_size=tf.data.experimental.AUTOTUNE)
   return ds
   
+def get_vocab_size(vocab_size_file):
+    file = open(vocab_size_file,'r')
+    ret = file.read()
+    file.close()
+    return ret
 
+vocab_size_file = "/tmp/vocab_size.txt"
+vocab_size = get_vocab_size(vocab_size_file)
+print(f'vocab-size from file >{vocab_size}<')
 sequence_length = get_sequence_length('/tmp/sequence_length.txt')
 ### add 2   UNK and empty
 vectorize_layer = TextVectorization(standardize=None,
-                                    max_tokens=None,
+                                    max_tokens=int(vocab_size)+2,
                                     output_mode='int',
                                     output_sequence_length=int(sequence_length))
 
@@ -218,12 +230,16 @@ def main():
         print(f'One example from train_dataset:\nText: >{text}<\n Label: >{label}<')
         
 
-    
+#     vectorize_layer = TextVectorization(standardize=None,
+#                                     max_tokens=None,
+#                                     output_mode='int',
+#                                     output_sequence_length=int(sequence_length))
 
     ## check if vocab file is there
     if config['vocab_file']:
         print(f'Set own vocabulary to TextVectorization layer')
         vocab_word_list = get_vocab(config)
+        print(f'len vocab_word_list >{len(vocab_word_list)}<')
         vectorize_layer.set_vocabulary(vocab_word_list)
     else:
         print(f'No vocab file. Adapt our text to tf TextVectorization layer, \
@@ -280,12 +296,15 @@ def main():
         #vectorize_layer
         
         vocab_size = len(vectorize_layer.get_vocabulary())
+        print(f'vocab_size >{vocab_size}<')
         
-        model = tf.keras.Sequential([tf.keras.layers.Embedding(int(vocab_size), embedding_dim, mask_zero=True),
-                                        tf.keras.layers.Dropout(0.2),
-                                        tf.keras.layers.GlobalAveragePooling1D(),
-                                        tf.keras.layers.Dropout(0.2),
-                                        tf.keras.layers.Dense(len(ret_type_dict))])
+        ##tensors 74   lines in metadata 71
+        
+        model = tf.keras.Sequential([tf.keras.layers.Embedding(int(vocab_size), embedding_dim, mask_zero=False),
+                                    tf.keras.layers.Dropout(0.2),
+                                    tf.keras.layers.GlobalAveragePooling1D(),
+                                    tf.keras.layers.Dropout(0.2),
+                                    tf.keras.layers.Dense(len(ret_type_dict))])
         
     model.summary()
 

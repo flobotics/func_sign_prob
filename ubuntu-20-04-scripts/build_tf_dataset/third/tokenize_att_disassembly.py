@@ -314,6 +314,9 @@ def dis_split(dis):
             if (len(item) >= 2) and item[0] == '0' and item[1] == 'x':
                 #print(f'Found Hex >{item}<, split it into single numbers and chars')
                 for c in item:
+                    ### replace '0' with 'null'  ,for textVectorize where '0' is masked-value
+                    if c == '0':
+                        c = 'null'
                     new_item = new_item + c + ' '
                     
                 #print(f'Split hex to >{new_item}<')
@@ -324,6 +327,9 @@ def dis_split(dis):
                 if length > 1:
                     for c in item:
                         if str.isnumeric(c):
+                            ### replace '0' with 'null'  ,for textVectorize where '0' is masked-value
+                            if c == '0':
+                                c = 'null'
                             new_item = new_item + c + ' '
                         else:
                             new_item = new_item + c
@@ -339,6 +345,7 @@ def dis_split(dis):
                 else:
                     new_item = item
         
+            ### add ' ' ,so that in next line it got a space between the strings for new_line
             if not new_item.endswith(' '):
                 new_item = new_item + ' '
             #print(f'old item >{item}< new_item: >{new_item}<')        

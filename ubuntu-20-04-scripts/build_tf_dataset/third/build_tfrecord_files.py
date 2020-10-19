@@ -61,7 +61,7 @@ def proc_build_list_with_label_ints(file, save_dir, ret_type_dict):
     cont = get_pickle_file_content(file)
     for dis,ret in cont:
         
-        ret_type_int = ret_type_dict[ret] -1
+        ret_type_int = ret_type_dict[ret]
         
         #ret_list.append( (dis, ret_type_int) )
         ret_list.append( (dis.encode('utf-8'), ret_type_int) )
