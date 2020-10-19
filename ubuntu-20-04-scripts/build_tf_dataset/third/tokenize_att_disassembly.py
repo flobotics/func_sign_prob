@@ -302,6 +302,8 @@ def dis_split(dis):
         line = line.replace('<', ' < ')
         line = line.replace('>', ' > ')
         line = line.replace('+', ' + ')
+        line = line.replace('@', ' @ ')
+        line = line.replace(':', ' : ')
         #print(f'line after giving space: >{line}<')
         
         new_line = ''

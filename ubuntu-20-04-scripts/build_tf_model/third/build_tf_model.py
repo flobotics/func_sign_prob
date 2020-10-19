@@ -36,7 +36,7 @@ def parseArgs():
     config['tfrecord_test_dir'] = '/tmp/tf_record_dir/test/'
     config['vocab_file'] = '/tmp/vocab.pickle'
     config['seq_length_file'] = "/tmp/sequence_length.txt"
-    config['checkpoint_dir'] = '/tmp/logs/checkpoint.ckpt'
+    config['checkpoint_dir'] = '/tmp/logs/checkpoint.ckpt'  ##need to be in base-dir for projector to work
     config['vocab_size_file'] = "/tmp/vocab_size.txt"
     config['ret_type_dict_file'] = "/tmp/ret_type_dict.pickle"
     config['tensorboard_log_dir'] = '/tmp/logs'
@@ -136,9 +136,12 @@ def save_trained_word_embeddings(model):
     out_v = open(vecs_filename, 'w+')
     out_m = open(meta_filename, 'w+')
     
+    print(f'len vocab-- >{len(vocab)}<')
+    
     for num, word in enumerate(vocab):
       if num == 0: continue # skip padding token from vocab
       vec = weights[num]
+      #print(f'vec >{vec}<  word >{word}<')
       out_m.write(word + "\n")
       out_v.write('\t'.join([str(x) for x in vec]) + "\n")
     out_v.close()
