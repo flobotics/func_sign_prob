@@ -139,10 +139,7 @@ def save_trained_word_embeddings(model):
     print(f'len vocab-- >{len(vocab)}<')
     
     for num, word in enumerate(vocab):
-        if word == '':
-            print(f'woooord found')
-            word = 'PAD'  
-        #if num == 0: continue # skip padding token from vocab
+        if num == 0: continue # skip padding token from vocab
         vec = weights[num]
         #print(f'vec >{vec}<  word >{word}<')
         out_m.write(word + "\n")
@@ -296,11 +293,11 @@ def main():
         #vectorize_layer
         
         vocab_size = len(vectorize_layer.get_vocabulary())
-        print(f'vocab_size >{vocab_size}<')
+        print(f'vocab_size >{vocab_size}< for model')
         
         ##tensors 74   lines in metadata 71
         
-        model = tf.keras.Sequential([tf.keras.layers.Embedding(int(vocab_size), embedding_dim, mask_zero=False),
+        model = tf.keras.Sequential([tf.keras.layers.Embedding(int(vocab_size), embedding_dim, mask_zero=True),
                                     tf.keras.layers.Dropout(0.2),
                                     tf.keras.layers.GlobalAveragePooling1D(),
                                     tf.keras.layers.Dropout(0.2),
