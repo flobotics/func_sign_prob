@@ -259,10 +259,10 @@ def main():
     print(f'train_dataset element_spec >{train_dataset.element_spec}<')    
 
     ### get unique return types from dataset and map string to int
-    label_ds = train_dataset.map(lambda x, y: y)
-    tmp_ds = val_dataset.map(lambda x, y: y)
+    label_ds = train_dataset.map(lambda x, y: y, num_parallel_calls=AUTOTUNE)
+    tmp_ds = val_dataset.map(lambda x, y: y, num_parallel_calls=AUTOTUNE)
     label_ds = label_ds.concatenate(tmp_ds)
-    tmp_ds = test_dataset.map(lambda x, y: y)
+    tmp_ds = test_dataset.map(lambda x, y: y, num_parallel_calls=AUTOTUNE)
     label_ds = label_ds.concatenate(tmp_ds)
     
     label_ds = label_ds.apply(tf.data.experimental.unique())
@@ -281,16 +281,16 @@ def main():
     
     global_ret_type_dict = ret_type_dict
     
-    train_dataset = train_dataset.map(map_label_to_int_wrapper)
-    val_dataset = val_dataset.map(map_label_to_int_wrapper)
-    test_dataset = test_dataset.map(map_label_to_int_wrapper)
+    train_dataset = train_dataset.map(map_label_to_int_wrapper, num_parallel_calls=AUTOTUNE)
+    val_dataset = val_dataset.map(map_label_to_int_wrapper, num_parallel_calls=AUTOTUNE)
+    test_dataset = test_dataset.map(map_label_to_int_wrapper, num_parallel_calls=AUTOTUNE)
     
     print(f'train_dataset3 element_spec >{train_dataset.element_spec}<')  
     
     ### the shape is getting lost with tf.numpy_function(), so we set it again
-    train_dataset = train_dataset.map(set_lost_shapes)
-    val_dataset = val_dataset.map(set_lost_shapes)
-    test_dataset = test_dataset.map(set_lost_shapes)
+    train_dataset = train_dataset.map(set_lost_shapes, num_parallel_calls=AUTOTUNE)
+    val_dataset = val_dataset.map(set_lost_shapes, num_parallel_calls=AUTOTUNE)
+    test_dataset = test_dataset.map(set_lost_shapes, num_parallel_calls=AUTOTUNE)
     
     print(f'train_dataset4 element_spec >{train_dataset.element_spec}<')  
     
@@ -315,10 +315,10 @@ def main():
         print(f'No vocab file. Adapt our text to tf TextVectorization layer, \
                 this could take some time ')
         ## add all three datasets together to build a vocab from all
-        text_ds = train_dataset.map(lambda x, y: x)
-        tmp_ds = val_dataset.map(lambda x, y: x)
+        text_ds = train_dataset.map(lambda x, y: x, num_parallel_calls=AUTOTUNE)
+        tmp_ds = val_dataset.map(lambda x, y: x, num_parallel_calls=AUTOTUNE)
         text_ds = text_ds.concatenate(tmp_ds)
-        tmp_ds = test_dataset.map(lambda x, y: x)
+        tmp_ds = test_dataset.map(lambda x, y: x, num_parallel_calls=AUTOTUNE)
         text_ds = text_ds.concatenate(tmp_ds)
         print(f'text_ds element_spec >{text_ds.element_spec}<')
         
@@ -342,9 +342,9 @@ def main():
     
     
     ### vec text
-    train_dataset = train_dataset.map(vectorize_text)
-    val_dataset = val_dataset.map(vectorize_text)
-    test_dataset = test_dataset.map(vectorize_text)
+    train_dataset = train_dataset.map(vectorize_text, num_parallel_calls=AUTOTUNE)
+    val_dataset = val_dataset.map(vectorize_text, num_parallel_calls=AUTOTUNE)
+    test_dataset = test_dataset.map(vectorize_text, num_parallel_calls=AUTOTUNE)
     
     ### optimize
     #train_dataset = train_dataset.prefetch(buffer_size=AUTOTUNE)
@@ -371,7 +371,7 @@ def main():
         
         ##tensors 74   lines in metadata 71
         
-        exit()
+        #exit()
         
         model = tf.keras.Sequential([tf.keras.layers.Embedding(int(vocab_size), embedding_dim, mask_zero=True),
                                     tf.keras.layers.Dropout(0.2),
