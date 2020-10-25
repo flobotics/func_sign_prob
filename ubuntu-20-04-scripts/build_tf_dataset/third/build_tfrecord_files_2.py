@@ -200,7 +200,7 @@ def proc_build_tfrecord(file, tf_record_dir):
     cont = get_pickle_file_content(file)
     
 
-    print(f'From file >{file}<', end='\r')
+    print(f'From file >{file}<')
 
     
     for dis,ret in cont:
@@ -213,7 +213,7 @@ def proc_build_tfrecord(file, tf_record_dir):
     ##raw_dataset = tf.data.Dataset.from_tensor_slices(cont)
       
     #ds_counter += 1
-    
+
     serialized_features_dataset = raw_dataset.map(tf_serialize_example)
 #             serialized_features_dataset = tf.data.Dataset.from_generator(
 #                                                 generator, output_types=tf.string, output_shapes=())
@@ -264,51 +264,51 @@ def main():
     pickle_files_int = get_all_pickle_filenames(config["pickle_dir"])
     nr_of_pickle_files = len(pickle_files_int)
     
-    p = Pool(nr_of_cpus)
-    
-    
-    pickle_files = [config["pickle_dir"] + "/" + f for f in pickle_files_int]
-    star_list = zip(pickle_files, repeat(config['tf_record_dir']))
-    all_ret_types = p.starmap(proc_build_tfrecord, star_list)
-    p.close()
-    p.join()
+#     p = Pool(nr_of_cpus)
+#     
+#     
+#     pickle_files = [config["pickle_dir"] + "/" + f for f in pickle_files_int]
+#     star_list = zip(pickle_files, repeat(config['tf_record_dir']))
+#     all_ret_types = p.starmap(proc_build_tfrecord, star_list)
+#     p.close()
+#     p.join()
     
     
     #for counter in all_ret_types:
         
         
     
-#    for file in pickle_files_int:
-#         dis_list.clear()
-#         ret_list.clear()
-#         
-#         cont = get_pickle_file_content(config['pickle_dir'] + '/' + file)
-#         
-#         if (ds_counter+1) >= nr_of_pickle_files:
-#             print(f'From file >{config["pickle_dir"] + file}< nr >{ds_counter+1}/{nr_of_pickle_files}<', end='\n')
-#         else:
-#             print(f'From file >{config["pickle_dir"] + file}< nr >{ds_counter+1}/{nr_of_pickle_files}<', end='\r')
-#     
-#         
-#         for dis,ret in cont:
-#             dis_list.append(dis)
-#             ret_list.append(ret)
-#              
-#         raw_dataset = tf.data.Dataset.from_tensor_slices( (dis_list, ret_list ))
-# 
-#         ## ValueError: Can't convert Python sequence with mixed types to Tensor.
-#         ##raw_dataset = tf.data.Dataset.from_tensor_slices(cont)
-#           
-#         ds_counter += 1
-#         
-#         serialized_features_dataset = raw_dataset.map(tf_serialize_example)
-# #             serialized_features_dataset = tf.data.Dataset.from_generator(
-# #                                                 generator, output_types=tf.string, output_shapes=())
-#         
-# 
-#         filename = config['tf_record_dir'] + file.replace('.pickle','') + '.tfrecord'
-#         writer = tf.data.experimental.TFRecordWriter(filename)
-#         writer.write(serialized_features_dataset)
+    for file in pickle_files_int:
+        dis_list.clear()
+        ret_list.clear()
+         
+        cont = get_pickle_file_content(config['pickle_dir'] + '/' + file)
+         
+        if (ds_counter+1) >= nr_of_pickle_files:
+            print(f'From file >{config["pickle_dir"] + file}< nr >{ds_counter+1}/{nr_of_pickle_files}<', end='\n')
+        else:
+            print(f'From file >{config["pickle_dir"] + file}< nr >{ds_counter+1}/{nr_of_pickle_files}<', end='\r')
+     
+         
+        for dis,ret in cont:
+            dis_list.append(dis)
+            ret_list.append(ret)
+              
+        raw_dataset = tf.data.Dataset.from_tensor_slices( (dis_list, ret_list ))
+ 
+        ## ValueError: Can't convert Python sequence with mixed types to Tensor.
+        ##raw_dataset = tf.data.Dataset.from_tensor_slices(cont)
+           
+        ds_counter += 1
+         
+        serialized_features_dataset = raw_dataset.map(tf_serialize_example)
+#             serialized_features_dataset = tf.data.Dataset.from_generator(
+#                                                 generator, output_types=tf.string, output_shapes=())
+         
+ 
+        filename = config['tf_record_dir'] + file.replace('.pickle','') + '.tfrecord'
+        writer = tf.data.experimental.TFRecordWriter(filename)
+        writer.write(serialized_features_dataset)
 
 
     ## now get number of tfrecord files, and split numbers
