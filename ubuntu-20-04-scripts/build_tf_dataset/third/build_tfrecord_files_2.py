@@ -196,7 +196,6 @@ def proc_build_tfrecord(file, tf_record_dir):
     dis_list = list()
     ret_list = list()
 
-    
     #cont = get_pickle_file_content(config['pickle_dir'] + '/' + file)
     cont = get_pickle_file_content(file)
     
@@ -213,7 +212,7 @@ def proc_build_tfrecord(file, tf_record_dir):
     ## ValueError: Can't convert Python sequence with mixed types to Tensor.
     ##raw_dataset = tf.data.Dataset.from_tensor_slices(cont)
       
-    ds_counter += 1
+    #ds_counter += 1
     
     serialized_features_dataset = raw_dataset.map(tf_serialize_example)
 #             serialized_features_dataset = tf.data.Dataset.from_generator(
