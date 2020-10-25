@@ -48,12 +48,38 @@ def save_vocab(full_path_vocabfile, unique_vocab):
     pickle.dump(unique_vocab, pickle_file)
     pickle_file.close()
     
+ 
+def parseArgs():
+    short_opts = 'hp:'
+    long_opts = ['pickle-dir=']
+    config = dict()
+    
+    config['pickle_dir'] = '/tmp/save_dir'
+ 
+    try:
+        args, rest = getopt.getopt(sys.argv[1:], short_opts, long_opts)
+    except getopt.GetoptError as msg:
+        print(msg)
+        print(f'Call with argument -h to see help')
+        exit()
+    
+    for option_key, option_value in args:
+        if option_key in ('-p', '--pickle-dir'):
+            print(f'found p')
+            config['pickle_dir'] = option_value[1:]
+        elif option_key in ('-h'):
+            print(f'<optional> -p or --pickle-dir The directory with disassemblies,etc. Default: /tmp/save_dir')
+            
+            
+    return config
     
 
 def main():
     start=datetime.now()
     
-    bag_styled_file_dir = "/tmp/save_dir"
+    config = parseArgs()
+    
+    bag_styled_file_dir = config['pickle_dir']
     full_path_vocab_file = "/tmp/vocab_size.txt"
     full_path_seq_file = "/tmp/sequence_length.txt"
     full_path_vocabfile = "/tmp/vocab.pickle"
