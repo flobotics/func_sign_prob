@@ -228,7 +228,7 @@ def main():
     config = parseArgs()
     
     print(f'Build tf.data.dataset with tfrecord files from directory >{config["tfrecord_train_dir"]}< \
-            >{config["tfrecord_train_dir"]}< >{config["tfrecord_train_dir"]}<')
+            >{config["tfrecord_val_dir"]}< >{config["tfrecord_test_dir"]}<')
 
     tfrecord_train_dataset = tf.data.Dataset.list_files(config['tfrecord_train_dir'] + '*.tfrecord')
     train_dataset = tf.data.TFRecordDataset(tfrecord_train_dataset)
