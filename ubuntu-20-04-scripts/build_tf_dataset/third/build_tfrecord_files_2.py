@@ -4,6 +4,7 @@ import os
 import pickle
 from multiprocessing import Pool
 from itertools import repeat
+import tensorflow as tf
 
 
 nr_of_cpus = 16
@@ -192,7 +193,7 @@ def get_vocab(config):
                  
             
 def proc_build_tfrecord(file, tf_record_dir):
-    import tensorflow as tf
+    
     dis_list = list()
     ret_list = list()
 
