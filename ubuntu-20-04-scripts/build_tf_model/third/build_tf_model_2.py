@@ -184,12 +184,14 @@ global_ret_type_dict = dict()
 
 ### wrapper to convert tensor to eagerTensor for .numpy
 def map_label_to_int_wrapper(text, label):
-    return tf.numpy_function(func=map_label_to_int, inp=[text,label], Tout=[tf.string, tf.int64])
+    return tf.numpy_function(func=map_label_to_int, 
+                             inp=[text,label], 
+                             Tout=[tf.string, tf.int64])
 
 def map_label_to_int(text, label):
     global global_ret_type_dict
     
-    #text = bytes.decode(text)
+    text = bytes.decode(text)
     label = bytes.decode(label)
     #print(f'text >{text}< \nlabel >{label}<')
     
@@ -197,8 +199,15 @@ def map_label_to_int(text, label):
     #global_ret_type_dict_int = global_ret_type_dict[label.encode('utf-8')]
     #print(f'global_ret_type_dict_int >{global_ret_type_dict_int}<')
     
-    return tf.expand_dims(text, -1), global_ret_type_dict[label.encode('utf-8')]
+    #tf.expand_dims(text, -1)
+    return text, global_ret_type_dict[label.encode('utf-8')]
 
+
+def set_lost_shapes(text, label):
+    text.set_shape([])
+    label.set_shape([])
+    
+    return text, label
 
 #vocab_size_file = "/tmp/vocab_size.txt"
 #vocab_size = get_vocab_size(vocab_size_file)
@@ -247,7 +256,7 @@ def main():
 
     #for text, label in train_dataset.take(1):
     #    print(f'One example from train_dataset with label-as-string:\nText: >{text}<\n Label: >{label}<')
-        
+    print(f'train_dataset element_spec >{train_dataset.element_spec}<')    
 
     ### get unique return types from dataset and map string to int
     label_ds = train_dataset.map(lambda x, y: y)
@@ -259,11 +268,13 @@ def main():
     label_ds = label_ds.apply(tf.data.experimental.unique())
     #for label in label_ds.take(1):
     #    print(f'One example from text_ds_dataset: Label: >{label}<')
+    
+    print(f'train_dataset2 element_spec >{train_dataset.element_spec}<')  
         
     ret_type_dict = dict()
     label_counter = 0
     for x in label_ds:
-        print(f'label_ds x >{x.numpy()}< nr >{label_counter}<')
+        #print(f'label_ds x >{x.numpy()}< nr >{label_counter}<')
         ret_type_dict[x.numpy()] = label_counter
         label_counter += 1
         
@@ -274,6 +285,14 @@ def main():
     val_dataset = val_dataset.map(map_label_to_int_wrapper)
     test_dataset = test_dataset.map(map_label_to_int_wrapper)
     
+    print(f'train_dataset3 element_spec >{train_dataset.element_spec}<')  
+    
+    ### the shape is getting lost with tf.numpy_function(), so we set it again
+    train_dataset = train_dataset.map(set_lost_shapes)
+    val_dataset = val_dataset.map(set_lost_shapes)
+    test_dataset = test_dataset.map(set_lost_shapes)
+    
+    print(f'train_dataset4 element_spec >{train_dataset.element_spec}<')  
     
     for text, label in train_dataset.take(1):
         print(f'One example from train_dataset with int-as-label:\nText: >{text}<\n Label: >{label}<')
