@@ -276,7 +276,8 @@ def main():
     
     #for counter in all_ret_types:
         
-        
+    dis_list = list()
+    ret_list = list()   
     
     for file in pickle_files_int:
         dis_list.clear()
