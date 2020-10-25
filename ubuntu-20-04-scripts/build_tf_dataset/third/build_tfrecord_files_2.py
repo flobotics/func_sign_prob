@@ -199,10 +199,8 @@ def proc_build_tfrecord(file, tf_record_dir):
     #cont = get_pickle_file_content(config['pickle_dir'] + '/' + file)
     cont = get_pickle_file_content(file)
     
-    if (ds_counter+1) >= nr_of_pickle_files:
-        print(f'From file >{file}< nr >{ds_counter+1}/{nr_of_pickle_files}<', end='\n')
-    else:
-        print(f'From file >{file}< nr >{ds_counter+1}/{nr_of_pickle_files}<', end='\r')
+
+    print(f'From file >{file}<', end='\r')
 
     
     for dis,ret in cont:
