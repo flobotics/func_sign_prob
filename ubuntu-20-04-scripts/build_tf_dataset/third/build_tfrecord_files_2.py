@@ -192,8 +192,9 @@ def get_vocab(config):
                  
             
 def proc_build_tfrecord(file, tf_record_dir):
-    dis_list.clear()
-    ret_list.clear()
+    dis_list = list()
+    ret_list = list()
+
     
     #cont = get_pickle_file_content(config['pickle_dir'] + '/' + file)
     cont = get_pickle_file_content(file)
@@ -260,8 +261,7 @@ def main():
     ds_counter = 0
     
     print(f'Build tf dataset now')
-    dis_list = list()
-    ret_list = list()
+    
     
     pickle_files_int = get_all_pickle_filenames(config["pickle_dir"])
     nr_of_pickle_files = len(pickle_files_int)
