@@ -200,6 +200,7 @@ def map_label_to_int(text, label):
     #print(f'global_ret_type_dict_int >{global_ret_type_dict_int}<')
     
     #tf.expand_dims(text, -1)
+    #tf.reshape(tf_string, ())
     return text, global_ret_type_dict[label.encode('utf-8')]
 
 
