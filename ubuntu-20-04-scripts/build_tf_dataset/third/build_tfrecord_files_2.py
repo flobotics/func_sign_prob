@@ -32,9 +32,10 @@ def serialize_example(feature0, feature1):
     # Create a dictionary mapping the feature name to the tf.train.Example-compatible
     # data type.
     feature0 = feature0.numpy()
+    feature1 = feature1.numpy()
     feature = {
               'caller_callee': tf.train.Feature(bytes_list=tf.train.BytesList(value=[feature0])),
-              'label_int': tf.train.Feature(int64_list=tf.train.Int64List(value=[feature1])),
+              'label': tf.train.Feature(bytes_list=tf.train.BytesList(value=[feature1])),
     }
     
     # Create a Features message using tf.train.Example.
@@ -149,7 +150,7 @@ def check_if_dir_exists(dir):
 def check_dir_and_files_exists(config):
     ### check, else exit and inform user
     check_if_dir_exists(config['pickle_dir'])
-    check_if_dir_exists(config['label_ints_dir'])
+    #check_if_dir_exists(config['label_ints_dir'])
     check_if_dir_exists(config['tf_record_dir'])
     
     if config['vocab_file']:
@@ -158,8 +159,8 @@ def check_dir_and_files_exists(config):
         does_file_exist(config['vocab_size_file'])
     if config['seq_length_file']:
         does_file_exist(config['seq_length_file'])
-    if config['ret_type_dict_file']:
-        does_file_exist(config['ret_type_dict_file'])
+    #if config['ret_type_dict_file']:
+    #    does_file_exist(config['ret_type_dict_file'])
         
 
 def print_info(config):
@@ -234,7 +235,7 @@ def main():
         dis_list.clear()
         ret_list.clear()
         
-        cont = get_pickle_file_content(config['pickle_dir'] + file)
+        cont = get_pickle_file_content(config['pickle_dir'] + '/' + file)
         
         if (ds_counter+1) >= nr_of_pickle_files:
             print(f'From file >{config["pickle_dir"] + file}< nr >{ds_counter+1}/{nr_of_pickle_files}<', end='\n')
