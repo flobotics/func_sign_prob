@@ -109,7 +109,8 @@ def main():
         for disas,ret_type in content:
             #print(f'len disas >{len(disas)}<')
             ### we filter out some
-            if (len(disas) <= longest_disas) and ( len(disas) >= shortest_disas):
+            #if (len(disas) <= longest_disas) and ( len(disas) >= shortest_disas):
+            if (len(disas) >= shortest_disas):
                 for disas_item in disas.split():
                     unique_vocab.add(disas_item)
                 
