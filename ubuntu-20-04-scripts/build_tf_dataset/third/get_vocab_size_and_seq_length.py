@@ -2,6 +2,7 @@ import pickle
 import os
 from datetime import datetime
 import getopt
+import sys
 
 
 def get_pickle_file_content(full_path_pickle_file):
