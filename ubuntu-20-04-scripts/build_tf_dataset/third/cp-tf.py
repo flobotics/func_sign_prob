@@ -16,7 +16,7 @@ def main():
         print(f'file >{file}<')
         src_file = "/home/infloflo/backup/save_dir/" + file.replace('.tfrecord', '.pickle')
         print(f'src_file >{src_file}<')
-        dst_file = "/home/infloflo/backup/tmpstore/" + file
+        dst_file = "/home/infloflo/backup/tmpstore/" + file.replace('.tfrecord', '.pickle')
         print(f'dst_file >{dst_file}<')
         if os.path.isfile(src_file):
             os.rename(src_file, dst_file)
