@@ -18,8 +18,9 @@ def main():
         print(f'src_file >{src_file}<')
         dst_file = "/home/infloflo/backup/tmpstore/" + file
         print(f'dst_file >{dst_file}<')
-        #os.rename(src_file, dst_file)
-        exit()
+        if os.path.isfile(src_file):
+            os.rename(src_file, dst_file)
+        #exit()
     
 
 
