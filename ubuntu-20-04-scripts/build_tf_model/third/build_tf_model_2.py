@@ -331,6 +331,7 @@ def main():
                 #print(f'txt-part >{txt_part}<')
                 vocab_word_list_set.add(txt_part)
         
+        vocab_word_list = list(vocab_word_list_set)
         vectorize_layer.set_vocabulary(vocab_word_list)
         
         
