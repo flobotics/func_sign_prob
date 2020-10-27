@@ -328,12 +328,13 @@ def main():
         text_ds = text_ds.apply(tf.data.experimental.unique())
         for txt in text_ds:
             for txt_part in txt.numpy().split():
-                print(f'txt-part >{txt_part}<')
+                #print(f'txt-part >{txt_part}<')
                 vocab_word_list_set.add(txt_part)
         
         vectorize_layer.set_vocabulary(vocab_word_list)
         
-        print("ho")
+        
+        print(f'vocab_size >{len(vectorize_layer.get_vocabulary())}< for model')
         exit()
         #vectorize_layer.adapt(text_ds.batch(64))
         
