@@ -306,6 +306,8 @@ def main():
 #                                     output_sequence_length=int(sequence_length))
 
 
+    vocab_word_list_set = set()
+    
     ## check if vocab file is there
     if config['vocab_file']:
         print(f'Set own vocabulary to TextVectorization layer')
@@ -327,9 +329,13 @@ def main():
         for txt in text_ds:
             for txt_part in txt.numpy().split():
                 print(f'txt-part >{txt_part}<')
+                vocab_word_list_set.add(txt_part)
         
+        vectorize_layer.set_vocabulary(vocab_word_list)
+        
+        print("ho")
         exit()
-        vectorize_layer.adapt(text_ds.batch(64))
+        #vectorize_layer.adapt(text_ds.batch(64))
         
     ## print info about vocabulary
     print_vocab_info(vectorize_layer)
