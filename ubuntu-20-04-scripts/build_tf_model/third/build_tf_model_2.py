@@ -323,6 +323,11 @@ def main():
         text_ds = text_ds.concatenate(tmp_ds)
         print(f'text_ds element_spec >{text_ds.element_spec}<')
         
+        text_ds = text_ds.apply(tf.data.experimental.unique())
+        for txt in text_ds:
+            print(f'txt-ds >{txt}<')
+        
+        exit()
         vectorize_layer.adapt(text_ds.batch(64))
         
     ## print info about vocabulary
