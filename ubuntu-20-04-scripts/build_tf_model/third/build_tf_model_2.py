@@ -335,8 +335,8 @@ def main():
         vectorize_layer.set_vocabulary(vocab_word_list)
         
         
-        print(f'vocab_size >{len(vectorize_layer.get_vocabulary())}< for model')
-        exit()
+        #print(f'vocab_size >{len(vectorize_layer.get_vocabulary())}< for model')
+        #exit()
         #vectorize_layer.adapt(text_ds.batch(64))
         
     ## print info about vocabulary
