@@ -325,7 +325,8 @@ def main():
         
         text_ds = text_ds.apply(tf.data.experimental.unique())
         for txt in text_ds:
-            print(f'txt-ds >{txt}<')
+            for txt_part in txt.split():
+                print(f'txt-part >{txt_part}<')
         
         exit()
         vectorize_layer.adapt(text_ds.batch(64))
