@@ -325,7 +325,7 @@ def main():
         
         text_ds = text_ds.apply(tf.data.experimental.unique())
         for txt in text_ds:
-            for txt_part in txt.split():
+            for txt_part in txt.numpy().split():
                 print(f'txt-part >{txt_part}<')
         
         exit()
