@@ -34,7 +34,7 @@ def parseArgs():
     config['tfrecord_train_dir'] = '/tmp/tf_record_dir/train/'
     config['tfrecord_val_dir'] = '/tmp/tf_record_dir/val/'
     config['tfrecord_test_dir'] = '/tmp/tf_record_dir/test/'
-    config['vocab_file'] = ''
+    config['vocab_file'] = '/tmp/vocab.pickle'
     config['seq_length_file'] = "/tmp/sequence_length.txt"
     config['checkpoint_dir'] = '/tmp/logs/checkpoint.ckpt'  ##need to be in base-dir for projector to work
     config['vocab_size_file'] = "/tmp/vocab_size.txt"
@@ -92,7 +92,7 @@ def get_vocab(config):
     vocab_word_list = list()
     
     ### get vocabulary, to feed into textvectorization.set_vocabulary() , much faster than .adapt()
-    if config['vocab_file']:
+    if os.path.isfile(config['vocab_file']):
         print(f'We got a vocabulary file, so we use it')
         vocab_ret1 = get_pickle_file_content(config['vocab_file'])
         
@@ -104,6 +104,8 @@ def get_vocab(config):
                 print(f'vocab key >{key}<')
                 c += 1
             vocab_word_list.append(str(key))
+    else:
+        print(f'No vocabulary file found, we build it now')
             
     return vocab_word_list
 
@@ -220,6 +222,13 @@ vectorize_layer = TextVectorization(standardize=None,
                                     output_mode='int',
                                     output_sequence_length=None)
 
+def save_vocab_word_list(vocab_word_list, file):
+    ret_file = open(file, 'wb+')
+    pickle_list = pickle.dump(vocab_word_list, ret_file)
+    ret_file.close()
+    
+    
+
 def main():
     global global_ret_type_dict
     
@@ -309,7 +318,7 @@ def main():
     vocab_word_list_set = set()
     
     ## check if vocab file is there
-    if config['vocab_file']:
+    if os.path.isfile(config['vocab_file']):
         print(f'Set own vocabulary to TextVectorization layer')
         vocab_word_list = get_vocab(config)
         print(f'len vocab_word_list >{len(vocab_word_list)}<')
@@ -332,6 +341,14 @@ def main():
                 vocab_word_list_set.add(txt_part)
         
         vocab_word_list = list(vocab_word_list_set)
+        
+        if config['vocab_file']:
+            print(f'Save vocab-word-list to file >{config["vocab_file"]}<')
+            save_vocab_word_list(vocab_word_list, config['vocab_file'])
+        else:
+            print(f'Save vocab-word-list to file >/tmp/vocab.pickle<')
+            save_vocab_word_list(vocab_word_list, "/tmp/vocab.pickle")
+            
         vectorize_layer.set_vocabulary(vocab_word_list)
         
         
