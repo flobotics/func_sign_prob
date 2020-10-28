@@ -8,6 +8,7 @@ from tensorflow.keras import Model, Sequential
 from tensorflow.keras.layers import Activation, Dense, Embedding, GlobalAveragePooling1D
 from tensorflow.keras.layers.experimental.preprocessing import TextVectorization
 import os
+from datetime import datetime
 
 
 def get_pickle_file_content(full_path_pickle_file):
@@ -258,15 +259,22 @@ def main():
     AUTOTUNE = tf.data.experimental.AUTOTUNE
     print(f'AUTOTUNE value for prefetch >{AUTOTUNE}<')
     
+    start1 = datetime.now()
+    
     ## map all elements to string,string 
     train_dataset = train_dataset.map(_parse_function, num_parallel_calls=AUTOTUNE)
     val_dataset = val_dataset.map(_parse_function, num_parallel_calls=AUTOTUNE)
     test_dataset = test_dataset.map(_parse_function, num_parallel_calls=AUTOTUNE)
-    train_dataset
+    #train_dataset
+
+    end1 = datetime.now()
+    print(f'mapping-1 took >{end1 - start1}<  Hour:Min:Sec')
 
     #for text, label in train_dataset.take(1):
     #    print(f'One example from train_dataset with label-as-string:\nText: >{text}<\n Label: >{label}<')
     print(f'train_dataset element_spec >{train_dataset.element_spec}<')    
+
+    start1 = datetime.now()
 
     ### get unique return types from dataset and map string to int
     label_ds = train_dataset.map(lambda x, y: y, num_parallel_calls=AUTOTUNE)
@@ -291,16 +299,29 @@ def main():
     
     global_ret_type_dict = ret_type_dict
     
+    end1 = datetime.now()
+    print(f'Getting all return-types took >{end1 - start1}< Hour:Min:Sec')
+    
+    start1 = datetime.now()
+    
     train_dataset = train_dataset.map(map_label_to_int_wrapper, num_parallel_calls=AUTOTUNE)
     val_dataset = val_dataset.map(map_label_to_int_wrapper, num_parallel_calls=AUTOTUNE)
     test_dataset = test_dataset.map(map_label_to_int_wrapper, num_parallel_calls=AUTOTUNE)
     
+    end1 = datetime.now()
+    print(f'mapping labels to ints took >{end1 - start1}< Hour:Min:Sec')
+    
     print(f'train_dataset3 element_spec >{train_dataset.element_spec}<')  
+    
+    start1 = datetime.now()
     
     ### the shape is getting lost with tf.numpy_function(), so we set it again
     train_dataset = train_dataset.map(set_lost_shapes, num_parallel_calls=AUTOTUNE)
     val_dataset = val_dataset.map(set_lost_shapes, num_parallel_calls=AUTOTUNE)
     test_dataset = test_dataset.map(set_lost_shapes, num_parallel_calls=AUTOTUNE)
+    
+    end1 = datetime.now()
+    print(f'mapping back lost shapes took >{end1 - start1}< Hour:Min:Sec')
     
     print(f'train_dataset4 element_spec >{train_dataset.element_spec}<')  
     
@@ -319,11 +340,18 @@ def main():
     
     ## check if vocab file is there
     if os.path.isfile(config['vocab_file']):
+        start1 = datetime.now()
+        
         print(f'Set own vocabulary to TextVectorization layer')
         vocab_word_list = get_vocab(config)
         print(f'len vocab_word_list >{len(vocab_word_list)}<')
         vectorize_layer.set_vocabulary(vocab_word_list)
+        
+        end1 = datetime.now()
+        print(f'Setting vocab took >{end1 - start1}< Hour:Min:Sec')
     else:
+        start1 = datetime.now()
+        
         print(f'No vocab file. Adapt our text to tf TextVectorization layer, \
                 this could take some time ')
         ## add all three datasets together to build a vocab from all
@@ -351,6 +379,8 @@ def main():
             
         vectorize_layer.set_vocabulary(vocab_word_list)
         
+        end1 = datetime.now()
+        print(f'Building vocabulary,saving and setting it to layer took >{end1 - start1}< Hour:Min:Sec')
         
         #print(f'vocab_size >{len(vectorize_layer.get_vocabulary())}< for model')
         #exit()
@@ -372,12 +402,15 @@ def main():
 #     test_dataset = test_dataset.shuffle(buffer_size=10000)
 #     test_dataset = test_dataset.batch(100)
     
+    start1 = datetime.now()
     
     ### vec text
     train_dataset = train_dataset.map(vectorize_text, num_parallel_calls=AUTOTUNE)
     val_dataset = val_dataset.map(vectorize_text, num_parallel_calls=AUTOTUNE)
     test_dataset = test_dataset.map(vectorize_text, num_parallel_calls=AUTOTUNE)
     
+    end1 = datetime.now()
+    print(f'mapping to vectors took >{end1 - start1}< Hour:Min:Sec')
     ### optimize
     #train_dataset = train_dataset.prefetch(buffer_size=AUTOTUNE)
     
