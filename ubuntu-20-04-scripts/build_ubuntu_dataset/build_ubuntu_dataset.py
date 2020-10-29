@@ -23,12 +23,64 @@ config_dir = "ubuntu-20-04-config/"
 pickles_dir = "ubuntu-20-04-pickles/"
 
 ### if aws or gcp is used
-gcloud = True
+gcloud = False
 
 ###aws c5d.x12large
 nr_of_cpus = 48
 ###virtualbox
 #nr_of_cpus = 2
+
+def parseArgs():
+    short_opts = 'hw:u:p:t:c:b:'
+    long_opts = ['work-dir=', 'git-user=', 'git-pwd=', 'tfrecord-save-dir=', 'config-dir=', 'ubuntu-pwd=']
+    
+    config = dict()
+    
+    config['work_dir'] = '/tmp/work/'
+    config['tfrecord_save_dir'] = '/tmp/work/tfrecord_files/'
+    config['config_dir'] = '/tmp/work/config-files/'
+    config['git_user'] = ''
+    config['git_pwd'] = ''
+    config['ubuntu_pwd'] = ''
+    ###check little down for more configs
+    
+    try:
+        args, rest = getopt.getopt(sys.argv[1:], short_opts, long_opts)
+    except getopt.GetoptError as msg:
+        print(msg)
+        print(f'Call with argument -h to see help')
+        exit()
+    
+    for option_key, option_value in args:
+        if option_key in ('-w', '--work-dir'):
+            config['work_dir'] = option_value[1:]
+        elif option_key in ('-u', '--git-user'):
+            config['git_user'] = option_value[1:]
+        elif option_key in ('-p', '--git-pwd'):
+            config['git_pwd'] = option_value[1:]
+        elif option_key in ('-t', '--tfrecord-save-dir'):
+            config['tfrecord_save_dir'] = option_value[1:]
+        elif option_key in ('-c', '--config-dir'):
+            config['config_dir'] = option_value[1:]
+        elif option_key in ('-b', '--ubuntu-pwd'):
+            config['ubuntu_pwd'] = option_value[1:]
+        elif option_key in ('-h'):
+            print(f'<optional> -w or --work-dir The directory where all work is done. Default: /tmp/work')
+            print(f'<optional> -u or --git-user  The username for github repo')
+            print(f'<optional> -p or --git-pwd  The password for github repo')
+            print(f'<optional> -c or --config-dir  The directory to save config files to run this script twice or more, without \
+                    doing the same packages again')
+            print(f'<optional> -b or --ubuntu-pwd The ubuntu user password to install packages with apt')
+     
+     
+    ###configs without argument, but perhaps depend on configs-with-arguments
+    config['filtered_out_config_file'] = config['config_dir'] + 'package-filtered-out.txt'
+    config['package_all_config_file'] = config['config_dir'] + 'package-all.txt'
+    config['package_work_config_file'] = config['config_dir'] + 'package-work.txt'
+    config['package_dont_work_config_file'] = config['config_dir'] + 'package-dont-work.txt'
+    config['package_binaries_config_file'] = config['config_dir'] + 'package-binaries.txt'
+           
+    return config   
 
 
 ### get a list with all packages with ending -dbgsym
@@ -60,7 +112,7 @@ def get_all_ubuntu_dbgsym_packages(verbose=False):
 
 
 
-def filter_dbgsym_package_list(dbgsym_list, verbose=False):
+def filter_dbgsym_package_list(dbgsym_list, config, verbose=False):
     new_list = list()
     
     
@@ -92,9 +144,11 @@ def filter_dbgsym_package_list(dbgsym_list, verbose=False):
             
         ### for later inspection what packages we filtered out
         if filtered_out:
-            file = open(base_path + config_dir + "package-filtered-out.txt", "a+")
+            #file = open(base_path + config_dir + "package-filtered-out.txt", "a+")
+            file = open(config['filtered_out_config_file'], "a+")
+            
             if verbose:
-                print(f"Write to package-filtered-out.txt file: {subItem}")
+                print(f"Write to >{config['filtered_out_config_file']}< file: {subItem}")
             file.write(str(subItem) + '\n')
             file.close()
     
@@ -106,7 +160,7 @@ def filter_dbgsym_package_list(dbgsym_list, verbose=False):
 
 
         
-def get_binaries_in_package(package, verbose=False):
+def get_binaries_in_package(package, config, verbose=False):
     new_binaries_in_package = list()
     package_work = list()
     c = 0
@@ -116,8 +170,10 @@ def get_binaries_in_package(package, verbose=False):
     f_without_dbgsym = package.replace('-dbgsym', '')
     already_done = False
 
-    #check if we got this package already 
-    file = open(base_path + config_dir + "package-all.txt", "r+")
+    #check if we got this package already
+    print(f"Check in file >{config['package_all_config_file']}< if we already processed this package")
+    file = open(config['package_all_config_file'], "r+")
+    
     for pack in file:
         #print(f'pack:{pack}  f_without_dbgsym:{f_without_dbgsym}')
         if f_without_dbgsym in pack:
@@ -127,23 +183,23 @@ def get_binaries_in_package(package, verbose=False):
             break
         
     if verbose and not already_done:
-        print(f"Package >{f_without_dbgsym}< not in package-all.txt file")
+        print(f"Package >{f_without_dbgsym}< not in >{config['package_all_config_file']}< file")
     file.close()
 
     if not already_done:
         ###we write the package name into package-all.txt to know that we got it already
-        file = open(base_path + config_dir + "package-all.txt", "a+")
+        file = open(config['package_all_config_file'], "a+")
         if verbose:
-            print(f"Write to package-all.txt file: {f_without_dbgsym}")
+            print(f"Write to >{config['package_all_config_file']}< : {f_without_dbgsym}")
         file.write(str(f_without_dbgsym) + '\n')
         file.close()
 
         ###install the package
         child = pexpect.spawn('sudo DEBIAN_FRONTEND=noninteractive apt install -y {0}'.format(f_without_dbgsym), timeout=None)
         if not gcloud:
-            child.expect('ubu:', timeout=None)
+            child.expect(':', timeout=None)
             # enter the password
-            child.sendline('ubu\n')
+            child.sendline(config['ubuntu_pwd'] + '\n')
         #print(child.read())
         tmp = child.read()
 
@@ -168,9 +224,9 @@ def get_binaries_in_package(package, verbose=False):
             child = pexpect.spawn('sudo DEBIAN_FRONTEND=noninteractive apt install -y {0}'.format(package), timeout=None)
             ### if you run in google cloud, it directly installs the pkg
             if not gcloud:
-                child.expect('ubu:', timeout=None)
+                child.expect(':', timeout=None)
                 ### enter the password
-                child.sendline('ubu\n')
+                child.sendline(config['ubuntu_pwd'] + '\n')
             #print(child.read())
             tmp = child.read()
 
@@ -193,16 +249,16 @@ def get_binaries_in_package(package, verbose=False):
 
         ###Write package to package-work.txt, to know that this package got binaries
         if len(real_binaries_in_package) > 0:
-            file = open(base_path + config_dir + "package-work.txt", "a+")
+            file = open(config['package_work_config_file'], "a+")
             if verbose:
-                print(f"Write to package-work.txt file: {f_without_dbgsym}")
+                print(f"Write to >{config['package_work_config_file']}<: {f_without_dbgsym}")
             file.write(str(f_without_dbgsym) + '\n')
             file.close()
         ###Write package to package-dontwork.txt, to know that this package got NO binaries
         else:
-            file = open(base_path + config_dir + "package-dontwork.txt", "a+")
+            file = open(config['package_dont_work_config_file'], "a+")
             if verbose:
-                print(f"Write to package-dontwork.txt file: {f_without_dbgsym}")
+                print(f"Write to >{config['package_dont_work_config_file']}< : {f_without_dbgsym}")
             file.write(str(f_without_dbgsym) + '\n')
             file.close()
 
@@ -212,7 +268,7 @@ def get_binaries_in_package(package, verbose=False):
         found_bin = False
 
         if len(real_binaries_in_package) > 0:
-            file = open(base_path + config_dir + "package-binaries.txt", "r+")
+            file = open(config['package_binaries_config_file'], "r+")
             #check if binary is still in the file, if not ,put it into new list  
             for b in real_binaries_in_package:
                 #print(f'b:{b}')
@@ -233,16 +289,16 @@ def get_binaries_in_package(package, verbose=False):
             file.close()
 
             if len(new_binaries_in_package) > 0:
-                file = open(base_path + config_dir + "package-binaries.txt", "a+")
+                file = open(config['package_binaries_config_file'], "a+")
                 if verbose:
-                    print(f"Write to package-binaries.txt file: {new_binaries_in_package}")
+                    print(f"Write to >{config['package_binaries_config_file']}< : {new_binaries_in_package}")
                     
                 for b in new_binaries_in_package:
                     file.write(str(b) + '\n')
                 file.close()
             else:
                 if verbose:
-                    print("No binaries to write to package-binaries.txt file")
+                    print(f"No binaries to write to >{config['package_binaries_config_file']}<")
                 pass
 
 
@@ -714,8 +770,6 @@ def save_list_to_pickle(ds_list, package_name):
 
    
 def push_pickle_to_github(package_name):
-    global git_user
-    global git_pwd
     
     git_out = subprocess.run(["git", "add", "."], capture_output=True, universal_newlines=True)
     out = git_out.stdout
@@ -728,125 +782,168 @@ def push_pickle_to_github(package_name):
     if '/' in git_pwd:
         git_pwd = git_pwd.replace('/', '%2F')
     
-    url = "https://" + git_user + ":" + git_pwd + "@github.com/flobotics/func_sign_prob.git"
+    url = "https://" + config['git_user'] + ":" + config['git_pwd'] + "@github.com/flobotics/func_sign_prob.git"
     git_out = subprocess.run(["git", "push", url, "--all"], capture_output=True, universal_newlines=True)
     out = git_out.stdout
     #print(f'out3: {out}')
     
+  
+def check_config(config): 
+    if config['ubuntu_pwd'] == '':
+        print(f'Forgot ubuntu password as argument, try -h for help')
+        exit()
         
-    
+    if os.path.isdir(config['work_dir']):
+        print(f'Found work-dir >{config["work_dir"]}<')
+    else:
+        print(f'Create work-dir >{config["work_dir"]}<')
+        os.mkdir(config['work_dir'])
         
+    if os.path.isdir(config['tfrecord_save_dir']):
+        print(f'Found tfrecord_save_dir >{config["tfrecord_save_dir"]}<')
+    else:
+        print(f'Create tfrecord_save_dir >{config["tfrecord_save_dir"]}<')
+        os.mkdir(config['tfrecord_save_dir'])
         
-git_user = ''
-git_pwd = ''
+    if os.path.isdir(config['config_dir']):
+        print(f'Found config_dir >{config["config_dir"]}<')
+    else:
+        print(f'Create config_dir >{config["config_dir"]}<')
+        os.mkdir(config['config_dir'])
         
-opts, args = getopt.getopt(sys.argv[1:], "ho:v", ["help", "git-user=", "git-pwd="])
-
-for o, a in opts:
-    if o == "--git-user":
-        git_user = a
-    elif o == '--git-pwd':
-        git_pwd = a
+    if os.path.isfile(config['filtered_out_config_file']):
+        print(f"Found filtered_out_config_file >{config['filtered_out_config_file']}<")
+    else:
+        print(f"Create filtered_out_config_file >{config['filtered_out_config_file']}<")
+        open(config['filtered_out_config_file'], 'a').close()
         
-if git_user == '' or git_pwd == '':
-    print("You forgot git credentials")
-    exit()
-else:
-    print(f"git-user:{git_user}  git-pwd:{git_pwd}")
-
-###get all packages with -dbgsym at the end
-pkgs_with_dbgsym = get_all_ubuntu_dbgsym_packages(False)
-
-###filter out some packages, e.g. which start with firmware
-filtered_pkgs_with_dbgsym = filter_dbgsym_package_list(pkgs_with_dbgsym, False)
-
-
-
-c = 0
-
-#filtered_pkgs_with_dbgsym = ["tree-dbgsym"]
-
-disassembly_att = list()
-disassembly_intel = list()
-ds_list = list()
-
-###we loop through all packages with -dbgsym at the end
-for package in filtered_pkgs_with_dbgsym:
-    c += 1
-    print(f'Package-nr:{c} of {len(filtered_pkgs_with_dbgsym)}, Name:{package}')
-    
-    ###get all binaries that are inside this package (without -dbgsym)
-    all_binaries_in_package = get_binaries_in_package(package, True)  
-    print(all_binaries_in_package)
-    #if c == 2:
-        #sys.exit(0)
+    if os.path.isfile(config['package_all_config_file']):
+        print(f"Found package_all_config_file >{config['package_all_config_file']}<")
+    else:
+        print(f"Create package_all_config_file >{config['package_all_config_file']}<")
+        open(config['package_all_config_file'], 'a').close()
         
+    if os.path.isfile(config['package_work_config_file']):
+        print(f"Found package_work_config_file >{config['package_work_config_file']}<")
+    else:
+        print(f"Create package_work_config_file >{config['package_work_config_file']}<")
+        open(config['package_work_config_file'], 'a').close()
         
-    ds_list.clear()
-
-    for binary_name in all_binaries_in_package:
-
-        #print(f'Get function signature and return type from binary: {binary_name}')
-        func_sign_and_ret_types = get_function_signatures_and_ret_types(binary_name)
-        #print(f'func_sign_and_ret_types: {func_sign_and_ret_types}')
+    if os.path.isfile(config['package_dont_work_config_file']):
+        print(f"Found package_dont_work_config_file >{config['package_dont_work_config_file']}<")
+    else:
+        print(f"Create package_dont_work_config_file >{config['package_dont_work_config_file']}<")
+        open(config['package_dont_work_config_file'], 'a').close()
         
-        if not func_sign_and_ret_types:
-            #print("NO func_sign_and_ret_types")
-            break
-        
-        #print(f'Get return-types from names we dont know')
-        extended_func_and_ret_types = get_types_from_names(func_sign_and_ret_types, binary_name, False)
-        #print(f'extended_func_and_ret_types: {extended_func_and_ret_types}')
-
-        if not extended_func_and_ret_types:
-            #print("NO extended_func_and_ret_types")
-            break
-
-        #print(f'Get disassembly')
-        ##disassemble_out = get_disassemble(extended_func_and_ret_types, binary_name)
-        disassembly_att.clear()
-        disassembly_att = get_disassemble_att(extended_func_and_ret_types, binary_name)
-        
-        disassembly_intel.clear()
-        disassembly_intel = get_disassemble_intel(extended_func_and_ret_types, binary_name)
-        
-        if disassembly_att and disassembly_intel:
-            ###save everything to a list to store it later
-            if len(disassembly_att) != len(disassembly_intel):
-                print(f'Number of att and intel disassembly is different')
-            elif len(disassembly_att) != len(extended_func_and_ret_types):
-                print(f'Number of att and functions is different')
-            else:
-                disas_len = len(disassembly_att)
-                i = 0
-                while i < disas_len:
-                     ds_list.append((extended_func_and_ret_types[i][0], 
-                                     extended_func_and_ret_types[i][1], 
-                                     extended_func_and_ret_types[i][2], 
-                                     extended_func_and_ret_types[i][3], 
-                                     disassembly_att[i],
-                                     disassembly_intel[i], 
-                                     package.replace('-dbgsym', ''), 
-                                     binary_name))
-                     i += 1
-            
-            
-            
-        else:
-             print(f'NO disassembly_att or disassembly intel')          
-             pass
-
-
-    if len(ds_list) > 0:
-        print(f'Write pickle file')
-        #save_list_to_pickle(ds_list, package.replace('-dbgsym', ''))
-        
-        #push_pickle_to_github(package.replace('-dbgsym', ''))
-    
-        #package_dataset = build_tf_dataset(ds_list)
-
-        save_list_to_tfrecord(ds_list, "/tmp/ubuntu_tfrecord_dir/" + package.replace('-dbgsym', '.tfrecord'))       
+    if os.path.isfile(config['package_binaries_config_file']):
+        print(f"Found package_binaries_config_file >{config['package_binaries_config_file']}<")
+    else:
+        print(f"Create package_binaries_config_file >{config['package_binaries_config_file']}<")
+        open(config['package_binaries_config_file'], 'a').close()
      
-    exit()   
-    
 
+    
+def main():  
+    config = parseArgs()
+            
+    check_config(config)
+    
+    ###get all packages with -dbgsym at the end
+    pkgs_with_dbgsym = get_all_ubuntu_dbgsym_packages(False)
+    
+    ###filter out some packages, e.g. which start with firmware
+    filtered_pkgs_with_dbgsym = filter_dbgsym_package_list(pkgs_with_dbgsym, config, False)
+    
+    
+    
+    c = 0
+    
+    #filtered_pkgs_with_dbgsym = ["tree-dbgsym"]
+    
+    disassembly_att = list()
+    disassembly_intel = list()
+    ds_list = list()
+    
+    ###we loop through all packages with -dbgsym at the end
+    for package in filtered_pkgs_with_dbgsym:
+        c += 1
+        print(f'Package-nr:{c} of {len(filtered_pkgs_with_dbgsym)}, Name:{package}')
+        
+        ###get all binaries that are inside this package (without -dbgsym)
+        all_binaries_in_package = get_binaries_in_package(package, config, True)  
+        print(all_binaries_in_package)
+        #if c == 2:
+            #sys.exit(0)
+            
+            
+        ds_list.clear()
+    
+        for binary_name in all_binaries_in_package:
+    
+            #print(f'Get function signature and return type from binary: {binary_name}')
+            func_sign_and_ret_types = get_function_signatures_and_ret_types(binary_name)
+            #print(f'func_sign_and_ret_types: {func_sign_and_ret_types}')
+            
+            if not func_sign_and_ret_types:
+                #print("NO func_sign_and_ret_types")
+                break
+            
+            #print(f'Get return-types from names we dont know')
+            extended_func_and_ret_types = get_types_from_names(func_sign_and_ret_types, binary_name, False)
+            #print(f'extended_func_and_ret_types: {extended_func_and_ret_types}')
+    
+            if not extended_func_and_ret_types:
+                #print("NO extended_func_and_ret_types")
+                break
+    
+            #print(f'Get disassembly')
+            ##disassemble_out = get_disassemble(extended_func_and_ret_types, binary_name)
+            disassembly_att.clear()
+            disassembly_att = get_disassemble_att(extended_func_and_ret_types, binary_name)
+            
+            disassembly_intel.clear()
+            disassembly_intel = get_disassemble_intel(extended_func_and_ret_types, binary_name)
+            
+            if disassembly_att and disassembly_intel:
+                ###save everything to a list to store it later
+                if len(disassembly_att) != len(disassembly_intel):
+                    print(f'Number of att and intel disassembly is different')
+                elif len(disassembly_att) != len(extended_func_and_ret_types):
+                    print(f'Number of att and functions is different')
+                else:
+                    disas_len = len(disassembly_att)
+                    i = 0
+                    while i < disas_len:
+                         ds_list.append((extended_func_and_ret_types[i][0], 
+                                         extended_func_and_ret_types[i][1], 
+                                         extended_func_and_ret_types[i][2], 
+                                         extended_func_and_ret_types[i][3], 
+                                         disassembly_att[i],
+                                         disassembly_intel[i], 
+                                         package.replace('-dbgsym', ''), 
+                                         binary_name))
+                         i += 1
+                
+                
+                
+            else:
+                 print(f'NO disassembly_att or disassembly intel')          
+                 pass
+    
+    
+        if len(ds_list) > 0:
+            print(f'Write pickle file')
+            #save_list_to_pickle(ds_list, package.replace('-dbgsym', ''))
+            
+            #push_pickle_to_github(package.replace('-dbgsym', ''))
+        
+            #package_dataset = build_tf_dataset(ds_list)
+    
+            save_list_to_tfrecord(ds_list, "/tmp/ubuntu_tfrecord_dir/" + package.replace('-dbgsym', '.tfrecord'))       
+         
+        exit()   
+        
+ 
+ 
+if __name__ == "__main__":
+    main()   
