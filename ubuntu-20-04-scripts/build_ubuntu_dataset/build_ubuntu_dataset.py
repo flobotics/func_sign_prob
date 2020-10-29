@@ -31,8 +31,8 @@ nr_of_cpus = 48
 #nr_of_cpus = 2
 
 def parseArgs():
-    short_opts = 'hw:u:p:t:c:b:'
-    long_opts = ['work-dir=', 'git-user=', 'git-pwd=', 'tfrecord-save-dir=', 'config-dir=', 'ubuntu-pwd=']
+    short_opts = 'hw:u:p:t:c:b:v:'
+    long_opts = ['work-dir=', 'git-user=', 'git-pwd=', 'tfrecord-save-dir=', 'config-dir=', 'ubuntu-pwd=', 'verbose=']
     
     config = dict()
     
@@ -42,6 +42,7 @@ def parseArgs():
     config['git_user'] = ''
     config['git_pwd'] = ''
     config['ubuntu_pwd'] = ''
+    config['verbose'] = True
     ###check little down for more configs
     
     try:
@@ -64,6 +65,11 @@ def parseArgs():
             config['config_dir'] = option_value[1:]
         elif option_key in ('-b', '--ubuntu-pwd'):
             config['ubuntu_pwd'] = option_value[1:]
+        elif option_key in ('-v', '--verbose'):
+            if option_value[1:] == 'False':
+                config['verbose'] = False
+            else:
+                config['verbose'] = True
         elif option_key in ('-h'):
             print(f'<optional> -w or --work-dir The directory where all work is done. Default: /tmp/work')
             print(f'<optional> -u or --git-user  The username for github repo')
@@ -79,6 +85,7 @@ def parseArgs():
     config['package_work_config_file'] = config['config_dir'] + 'package-work.txt'
     config['package_dont_work_config_file'] = config['config_dir'] + 'package-dont-work.txt'
     config['package_binaries_config_file'] = config['config_dir'] + 'package-binaries.txt'
+    
            
     return config   
 
@@ -107,6 +114,7 @@ def get_all_ubuntu_dbgsym_packages(verbose=False):
         
     if len(pack_dbgsym_list) == 0:
         print("Install ubuntu debug symbol packages")
+        exit()
         
     return pack_dbgsym_list
 
@@ -171,7 +179,8 @@ def get_binaries_in_package(package, config, verbose=False):
     already_done = False
 
     #check if we got this package already
-    print(f"Check in file >{config['package_all_config_file']}< if we already processed this package")
+    if verbose:
+        print(f"Check in file >{config['package_all_config_file']}< if we already processed this package")
     file = open(config['package_all_config_file'], "r+")
     
     for pack in file:
@@ -195,7 +204,8 @@ def get_binaries_in_package(package, config, verbose=False):
         file.close()
 
         ###install the package
-        print(f'Installing >{f_without_dbgsym}< with apt')
+        if verbose:
+            print(f'Installing >{f_without_dbgsym}< with apt')
         child = pexpect.spawn('sudo DEBIAN_FRONTEND=noninteractive apt install -y {0}'.format(f_without_dbgsym), timeout=None)
         if not gcloud:
             child.expect(':', timeout=None)
@@ -222,7 +232,8 @@ def get_binaries_in_package(package, config, verbose=False):
 
         ###if we found some binaries in package, we install the -dbgsym package
         if len(binaries_in_package) > 0:
-            print(f'Found binaries in package, install >{package}< with apt now')
+            if verbose:
+                print(f'Found binaries in package, install >{package}< with apt now')
             child = pexpect.spawn('sudo DEBIAN_FRONTEND=noninteractive apt install -y {0}'.format(package), timeout=None)
             ### if you run in google cloud, it directly installs the pkg
             if not gcloud:
@@ -313,6 +324,8 @@ def get_function_signatures_and_ret_types(binaryName, verbose=False):
     ret_types = set()
     baseFileName = ''
 
+    if verbose:
+        print(f'Get function-signatures and return-types with "gdb info functions" from >{binaryName}<')
     gdb_output = subprocess.run(["gdb",  "-batch", "-ex", "file {}".format(binaryName), "-ex", "info functions"], capture_output=True, universal_newlines=True)
 
     out = gdb_output.stdout
@@ -727,21 +740,21 @@ def save_list_to_tfrecord(ds_list, file):
             #print(f'ds_list_item:{item}')
             #print(f'ds_list_item[0]:{item[0]}')
             if not isinstance(item[0], str):
-                print(f'type >{type(item[0])}<')
+                print(f'type 1 >{type(item[0])}<')
             if not isinstance(item[1], str):
-                print(f'type >{type(item[1])}<')
+                print(f'type 2 >{type(item[1])}<')
             if not isinstance(item[2], str):
-                print(f'type >{type(item[2])}<')
+                print(f'type 3 >{type(item[2])}<')
             if not isinstance(item[3], str):
-                print(f'type >{type(item[3])}<')
+                print(f'type 4 >{type(item[3])}<')
             if not isinstance(item[4], str):
-                print(f'type >{type(item[4])}<')
+                print(f'type 5 >{type(item[4])}<')
             if not isinstance(item[5], str):
-                print(f'type >{type(item[5])}<')
+                print(f'type 6 >{type(item[5])}<')
             if not isinstance(item[6], str):
-                print(f'type >{type(item[6])}<')
+                print(f'type 7 >{type(item[6])}<')
             if not isinstance(item[7], str):
-                print(f'type >{type(item[7])}<')
+                print(f'type 8 >{type(item[7])}<')
             item0_list.append(item[0])
             item1_list.append(item[1])
             item2_list.append(item[2])
@@ -869,10 +882,10 @@ def main():
     check_config(config)
     
     ###get all packages with -dbgsym at the end
-    pkgs_with_dbgsym = get_all_ubuntu_dbgsym_packages(False)
+    pkgs_with_dbgsym = get_all_ubuntu_dbgsym_packages(config['verbose'])
     
     ###filter out some packages, e.g. which start with firmware
-    filtered_pkgs_with_dbgsym = filter_dbgsym_package_list(pkgs_with_dbgsym, config, False)
+    filtered_pkgs_with_dbgsym = filter_dbgsym_package_list(pkgs_with_dbgsym, config, config['verbose'])
     
     
     
@@ -890,8 +903,7 @@ def main():
         print(f'Package-nr:{c} of {len(filtered_pkgs_with_dbgsym)}, Name:{package}')
         
         ###get all binaries that are inside this package (without -dbgsym)
-        all_binaries_in_package = get_binaries_in_package(package, config, True)  
-        print(all_binaries_in_package)
+        all_binaries_in_package = get_binaries_in_package(package, config, True)
         #if c == 2:
             #sys.exit(0)
             
