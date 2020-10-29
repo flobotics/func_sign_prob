@@ -35,15 +35,15 @@ def parseArgs():
     long_opts = ['work-dir=', 'git-user=', 'git-pwd=', 'tfrecord-save-dir=', 'config-dir=', 'ubuntu-pwd=', 'verbose=']
     
     config = dict()
-    
-    config['work_dir'] = '/tmp/work/'
-    config['tfrecord_save_dir'] = '/tmp/work/tfrecord_files/'
-    config['config_dir'] = '/tmp/work/config-files/'
+    config['work_dir'] = ''
+    config['tfrecord_save_dir'] = ''
+    config['config_dir'] = ''
     config['git_user'] = ''
     config['git_pwd'] = ''
     config['ubuntu_pwd'] = ''
-    config['verbose'] = True
-    ###check little down for more configs
+    config['verbose'] = ''
+    
+    
     
     try:
         args, rest = getopt.getopt(sys.argv[1:], short_opts, long_opts)
@@ -66,7 +66,7 @@ def parseArgs():
         elif option_key in ('-b', '--ubuntu-pwd'):
             config['ubuntu_pwd'] = option_value[1:]
         elif option_key in ('-v', '--verbose'):
-            if option_value[1:] == 'False':
+            if option_value[1:] in 'False':
                 config['verbose'] = False
             else:
                 config['verbose'] = True
@@ -78,7 +78,22 @@ def parseArgs():
                     doing the same packages again')
             print(f'<optional> -b or --ubuntu-pwd The ubuntu user password to install packages with apt')
      
-     
+    if config['work_dir'] == '':
+        config['work_dir'] = '/tmp/work/'
+    if config['tfrecord_save_dir'] == '':
+        config['tfrecord_save_dir'] = config['work_dir'] + 'tfrecord_files/'
+    if config['config_dir'] == '':
+        config['config_dir'] = config['work_dir'] + 'config-files/'
+    if config['git_user'] == '':
+        config['git_user'] = ''
+    if config['git_pwd'] == '':
+        config['git_pwd'] = ''
+    if config['ubuntu_pwd'] == '':
+        config['ubuntu_pwd'] = ''
+    if config['verbose'] == '':
+        config['verbose'] = True
+    ###check little down for more configs
+    
     ###configs without argument, but perhaps depend on configs-with-arguments
     config['filtered_out_config_file'] = config['config_dir'] + 'package-filtered-out.txt'
     config['package_all_config_file'] = config['config_dir'] + 'package-all.txt'

@@ -10,13 +10,13 @@ def parseArgs():
     
     config = dict()
     
-    config['work_dir'] = '/tmp/work/'
-    config['tfrecord_save_dir'] = '/tmp/work/tfrecord_files/'
-    config['config_dir'] = '/tmp/work/config-files/'
+    config['work_dir'] = ''
+    config['tfrecord_save_dir'] = ''
+    config['config_dir'] = ''
     config['git_user'] = ''
     config['git_pwd'] = ''
     config['ubuntu_pwd'] = ''
-    config['verbose'] = True
+    config['verbose'] = ''
     ###check little down for more configs
     
     try:
@@ -53,6 +53,21 @@ def parseArgs():
             print(f'<optional> -b or --ubuntu-pwd The ubuntu user password to install packages with apt')
      
      
+    if config['work_dir'] == '':
+        config['work_dir'] = '/tmp/work/'
+    if config['tfrecord_save_dir'] == '':
+        config['tfrecord_save_dir'] = config['work_dir'] + 'tfrecord_files/'
+    if config['config_dir'] == '':
+        config['config_dir'] = config['work_dir'] + 'config-files/'
+    if config['git_user'] == '':
+        config['git_user'] = ''
+    if config['git_pwd'] == '':
+        config['git_pwd'] = ''
+    if config['ubuntu_pwd'] == '':
+        config['ubuntu_pwd'] = ''
+    if config['verbose'] == '':
+        config['verbose'] = True
+    
     ###configs without argument, but perhaps depend on configs-with-arguments
     config['filtered_out_config_file'] = config['config_dir'] + 'package-filtered-out.txt'
     config['package_all_config_file'] = config['config_dir'] + 'package-all.txt'
