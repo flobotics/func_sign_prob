@@ -1,4 +1,8 @@
-def delete_strange_return_types(raw_gdb_ptype):
+def delete_strange_return_types(gdb_ptype):
+    
+    new_gdb_ptype = gdb_ptype.replace('type =', '')
+    raw_gdb_ptype = new_gdb_ptype.strip()
+    
     ### delete some strange return-types
     if raw_gdb_ptype == 'unsigned char (*)[16]':
         return 'delete'
@@ -26,7 +30,10 @@ def delete_strange_return_types(raw_gdb_ptype):
     
     
     
-def pattern_based_find_return_type(raw_gdb_ptype):
+def pattern_based_find_return_type(gdb_ptype):
+    
+    new_gdb_ptype = gdb_ptype.replace('type =', '')
+    raw_gdb_ptype = new_gdb_ptype.strip()
     
     return_type_list = ['bool', 'bool *', 'const bool',
                         'void', 'void *', 'void **', 'void (*)(void *)', 'void * const',
@@ -76,11 +83,15 @@ def pattern_based_find_return_type(raw_gdb_ptype):
             return 'delete'   ### dont know if its signed,or unsigned or ????
         elif raw_gdb_ptype == 'ushort':
             return "unsigned short"
-        else:
-            return 'process_further'
+
+    
+    return 'process_further'
     
     
-def find_class_return_type(raw_gdb_ptype):
+def find_class_return_type(gdb_ptype):
+    new_gdb_ptype = gdb_ptype.replace('type =', '')
+    raw_gdb_ptype = new_gdb_ptype.strip()
+        
     ### check if { is there
     idx = 0
     if '{' in raw_gdb_ptype:
@@ -119,7 +130,10 @@ def find_class_return_type(raw_gdb_ptype):
     
     
   
-def find_struct_return_type(raw_gdb_ptype):
+def find_struct_return_type(gdb_ptype):
+    new_gdb_ptype = gdb_ptype.replace('type =', '')
+    raw_gdb_ptype = new_gdb_ptype.strip()
+        
     ### check if { is there
     idx = 0
     if '{' in raw_gdb_ptype:
@@ -150,7 +164,10 @@ def find_struct_return_type(raw_gdb_ptype):
         return 'process_further'
     
     
-def find_enum_return_type(raw_gdb_ptype):   
+def find_enum_return_type(gdb_ptype):
+    new_gdb_ptype = gdb_ptype.replace('type =', '')
+    raw_gdb_ptype = new_gdb_ptype.strip()
+        
     ### check if { is there
     idx = 0
     if '{' in raw_gdb_ptype:
@@ -174,7 +191,10 @@ def find_enum_return_type(raw_gdb_ptype):
         return 'process_further'   
         
         
-def find_union_return_type(raw_gdb_ptype):
+def find_union_return_type(gdb_ptype):
+    new_gdb_ptype = gdb_ptype.replace('type =', '')
+    raw_gdb_ptype = new_gdb_ptype.strip()
+       
     ### check if { is there
     idx = 0
     if '{' in raw_gdb_ptype:
@@ -197,5 +217,75 @@ def find_union_return_type(raw_gdb_ptype):
             return 'process_further'    
     else:
         return 'process_further' 
+         
+         
+def get_return_type_from_gdb_ptype(gdb_ptype):
+    
+    if "type =" in gdb_ptype:
+        
+        #################
+        ret = delete_strange_return_types(gdb_ptype)
+        if not (ret == 'process_further'):
+            return ret
+
+        ret = pattern_based_find_return_type(gdb_ptype)
+        if not (ret == 'process_further'):
+            return ret
+        ##################
             
+        ### check if { is there
+        idx = 0
+        if '{' in gdb_ptype:
+            ret = find_class_return_type(gdb_ptype)
+            if not (ret == 'process_further'):
+                return ret
+            
+            ret = find_struct_return_type(gdb_ptype)
+            if not (ret == 'process_further'):
+                return ret  
+             
+            ret = find_enum_return_type(gdb_ptype)
+            if not (ret == 'process_further'):
+                return ret
+            
+            ret = find_union_return_type(gdb_ptype)
+            if not (ret == 'process_further'):
+                return ret   
+            
+            print(f'---No return type found with braket-sign in it')
+            print(f'front_str: {front_str}')
+            return 'unknown'
+        
+            
+        elif (gdb_ptype.count('(') == 2) and (gdb_ptype.count(')') == 2):
+            #print(f'Found func-pointer as return-type, delete till now')
+            return 'delete'
+        elif 'substitution' in gdb_ptype:
+            #print(f'Found substituion-string, dont know, delete it')
+            return 'delete'
+        else:
+            #print(f'------no gdb ptype-match for: >{gdb_ptype}<')
+            return 'unknown'
+    else:
+        print(f'No gdb ptype found')
+        return 'unknown'
+ 
+ 
+ 
+def get_return_type_from_function_signature(function_signature):
+    return_type = ''
+    
+    ### find ( which marks the function-names end
+    fn_end_idx = function_signature.index('(')
+    
+    ### now step one char left, till * , &, or ' ' is found
+    c = -1
+    for char in function_signature[fn_end_idx::-1]:
+        if char == '*' or char == ' ' or char == '&':
+            #print(f'return-type: {function_signature[:fn_end_idx-c]}')
+            return_type = function_signature[:fn_end_idx-c].strip()
+            break
+        c += 1
+                  
+    return return_type    
       

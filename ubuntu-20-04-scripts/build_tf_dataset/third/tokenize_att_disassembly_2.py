@@ -9,36 +9,13 @@ import getopt
 from itertools import repeat
 sys.path.append('../../lib/')
 import return_type_lib
+import common_stuff_lib
+import tarbz2_lib
+import pickle_lib
+import disassembly_lib
 
 nr_of_cpus = 16
 
-def get_all_tar_filenames(tar_file_dir):
-    tar_files = list()
-    
-    ### check if dir exists
-    if not os.path.isdir(tar_file_dir):
-        return tar_files
-    
-    files = os.listdir(tar_file_dir)
-    
-    for f in files:
-        if f.endswith(".tar.bz2"):
-            tar_files.append(f)
-    
-    return tar_files
-
-def untar_one_pickle_file(full_path_tar_file, work_dir):
-    tar = tarfile.open(full_path_tar_file, "r:bz2")  
-    tar.extractall(work_dir)
-    tar.close()
-    
-    
-def get_pickle_file_content(full_path_pickle_file):
-    pickle_file = open(full_path_pickle_file,'rb')
-    pickle_list = pickle.load(pickle_file, encoding='latin1')
-    pickle_file.close()
-    
-    return pickle_list
 
 
 def print_one_pickle_list_item(pickle_file_content):
@@ -101,90 +78,7 @@ def print_5_pickle_files(pickle_files, config):
         if c > 5:
             break
         
-        
-def get_string_before_function_name(function_signature):
-    return_type = ''
-    
-    ### find ( which marks the function-names end
-    fn_end_idx = function_signature.index('(')
-    
-    ### now step one char left, till * , &, or ' ' is found
-    c = -1
-    for char in function_signature[fn_end_idx::-1]:
-        if char == '*' or char == ' ' or char == '&':
-            #print(f'return-type: {function_signature[:fn_end_idx-c]}')
-            return_type = function_signature[:fn_end_idx-c].strip()
-            break
-        c += 1
-                  
-    return return_type
- 
- 
-def get_function_return_type(string_before_func_name, gdb_ptype):
-    ### get raw return type, e.g. "void" or "struct" instead of "struct timeval" from gdb-ptype
-    raw_gdb_return_type = get_raw_return_type_from_gdb_ptype(gdb_ptype)
-    
-    if raw_gdb_return_type == 'unknown':
-        print(f'string_before_func_name: {string_before_func_name}')
-    
-    return raw_gdb_return_type
-
-
-def get_raw_return_type_from_gdb_ptype(gdb_ptype):
-    
-    if "type =" in gdb_ptype:
-        ### pattern based
-        new_gdb_ptype = gdb_ptype.replace('type =', '')
-        raw_gdb_ptype = new_gdb_ptype.strip()
-        
-        #################
-        ret = return_type_lib.delete_strange_return_types(raw_gdb_ptype)
-        if ret == 'delete':
-            return ret
-
-        ret = return_type_lib.pattern_based_find_return_type(raw_gdb_ptype)
-        if not (ret == 'process_further'):
-            return ret
-        ##################
-            
-        ### check if { is there
-        idx = 0
-        if '{' in raw_gdb_ptype:
-            ret = return_type_lib.find_class_return_type(raw_gdb_ptype)
-            if not (ret == 'process_further'):
-                return ret
-            
-            ret = return_type_lib.find_struct_return_type(raw_gdb_ptype)
-            if not (ret == 'process_further'):
-                return ret  
-             
-            ret = return_type_lib.find_enum_return_type(raw_gdb_ptype)
-            if not (ret == 'process_further'):
-                return ret
-            
-            ret = return_type_lib.find_union_return_type(raw_gdb_ptype)
-            if not (ret == 'process_further'):
-                return ret   
-            
-            print(f'---No return type found with braket-sign in it')
-            print(f'front_str: {front_str}')
-            return 'unknown'
-        
-            
-        elif (raw_gdb_ptype.count('(') == 2) and (raw_gdb_ptype.count(')') == 2):
-            #print(f'Found func-pointer as return-type, delete till now')
-            return 'delete'
-        elif 'substitution' in raw_gdb_ptype:
-            #print(f'Found substituion-string, dont know, delete it')
-            return 'delete'
-        else:
-            #print(f'------no gdb ptype-match for: >{raw_gdb_ptype}<')
-            return 'unknown'
-    else:
-        print(f'No gdb ptype found')
-        return 'unknown'
- 
- 
+   
 def dis_split(dis):
     dis_list = list()
         
@@ -265,10 +159,14 @@ def dis_split(dis):
     return dis_str
     
  
-def proc_build(pickle_file, work_dir, save_dir):
-    untar_one_pickle_file(pickle_file, work_dir)
-        
-    pickle_file_content = get_pickle_file_content(work_dir + os.path.basename(pickle_file).replace('.tar.bz2', ''))
+def proc_build(tarbz2_file, work_dir, save_dir):
+    
+    tarbz2_lib.untar_file_to_path(tarbz2_file, work_dir)
+    #untar_one_pickle_file(tarbz2_file, work_dir)
+     
+    pickle_file = work_dir + os.path.basename(tarbz2_file).replace('.tar.bz2', '')
+    pickle_file_content = pickle_lib.get_pickle_file_content(pickle_file)   
+    #pickle_file_content = get_pickle_file_content(work_dir + os.path.basename(pickle_file).replace('.tar.bz2', ''))
     
     binaries = set()
     functions = set()
@@ -295,34 +193,33 @@ def proc_build(pickle_file, work_dir, save_dir):
     ##11. check if ....
     for bin in binaries:
         for func in functions:
+            ## search for bin and func
             for elem in pickle_file_content:
+                ### if we found bin and func
                 if elem[7] == bin and elem[2] == func:
+                    ## get att disassembly
                     att_dis = elem[4]
+                    ## check every line if there is a call
                     for item in att_dis:
-                        if 'call' in item and not '@plt' in item and not 'std::' in item:
-                            #print(f'caller >{item}<')
-                            ## get callee name
-                            callee_name = ''
-                            item_split = item.split()
-                            callee_name = item_split[len(item_split)-1]
-                            callee_name = callee_name.replace('<', '')
-                            callee_name = callee_name.replace('>', '')
-                                
-                                    
-                                    
+                        ## find call in disas
+                        if disassembly_lib.find_call_in_disassembly_line(item):
+                            ## if found, get callee name
+                            callee_name = disassembly_lib.get_callee_name_from_disassembly_line(item)
+                                                                   
                             #print(f'callee_name >{callee_name}<')
                             
+                            ## search for same bin, but callee func
                             for elem2 in pickle_file_content:
+                                ### if we found it, get return type and disassembly
                                 if elem2[7] == bin and elem2[2] == callee_name:
-                                    #print(f'caller >{item}<')
-                                    #print(f'callee_name >{callee_name}<')
-                                    #print(f'dis-of-callee >{elem2[4]}<')
                                     
-                                    string_before_func_name = get_string_before_function_name(elem2[0])
-                                    #print(f'string_before_func_name: >{string_before_func_name}<')
-                                    return_type = get_function_return_type(string_before_func_name, elem2[1])
+                                    return_type_func_sign = return_type_lib.get_return_type_from_function_signature(elem2[0])
+                                    return_type = return_type_lib.get_return_type_from_gdb_ptype(elem2[1])
+                                    
+                                    ###for debugging, what string is still unknown ?? should show nothing
+                                    if return_type == 'unknown':
+                                        print(f'string_before_func_name: {string_before_func_name}')
                                      
-                                    #print(f'return_type: >{return_type}<')
                                     if return_type == 'unknown':
                                         #print('unknown found')
                                         #breaker = True
@@ -333,28 +230,12 @@ def proc_build(pickle_file, work_dir, save_dir):
                                         ### no return type found, so delete this item
                                         pass
                                     else:
-                                        #unique_return_types.add(return_type)
-                                        ### remove addr and stuff
-                                        #cleaned_att_disassembly = clean_att_disassembly(item[4])
-                                        #bag_of_words_style_assembly = build_bag_of_words_style_assembly(cleaned_att_disassembly)
-                                        #dis_str = ' '.join(bag_of_words_style_assembly)
-                                    
-                                        ##save caller-disassembly, callee-disassembly, callee-func-sign, callee-gdb-ptype
-                                        
-#                                         print(f'att_dis >{att_dis}<')
-#                                         print(f'elem2[4] >{elem2[4]}<')
-#                                         print(f'return_type >{return_type}<')
-                                        #dis_combined = list()
-                                        #dis_combined.clear()
-                                        #dis_combined = att_dis
-                                        #for elem3 in elem2[4]:
-                                        #    dis_combined.append(elem3)
                                             
                                         dis1_str = ' '.join(att_dis)
                                         dis2_str = ' '.join(elem2[4])
                                         
-                                        dis1_str = dis_split(dis1_str)
-                                        dis2_str = dis_split(dis2_str)
+                                        #dis1_str = dis_split(dis1_str)
+                                        #dis2_str = dis_split(dis2_str)
                                         
                                         dis_str = dis1_str + dis2_str
                                             
@@ -389,8 +270,8 @@ def main():
     
      
     ### get all pickle files
-    pickle_files = get_all_tar_filenames(config['pickle_dir'])
-    
+    #pickle_files = get_all_tar_filenames(config['pickle_dir'])
+    pickle_files = common_stuff_lib.get_all_filenames_of_type(config['pickle_dir'], '.tar.bz2')
     ### print 5 files, check and debug
     print_5_pickle_files(pickle_files, config)
     
