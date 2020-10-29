@@ -593,8 +593,10 @@ def proc_disas_raw(funcName, binary_name, disas_flavor, verbose=False):
                 print(f"Mostly empty line or SOMETHING WRONG:{out_list_item}")
             pass        
         
-    #print(f'disaslist:{disas_list}')     
-    return disas_list 
+    #print(f'disaslist:{disas_list}')
+    disas_str = ' '.join(disas_list)
+    return disas_str
+    #return disas_list 
 
 
         
@@ -740,21 +742,21 @@ def save_list_to_tfrecord(ds_list, file):
             #print(f'ds_list_item:{item}')
             #print(f'ds_list_item[0]:{item[0]}')
             if not isinstance(item[0], str):
-                print(f'type 1 >{type(item[0])}<')
+                print(f'type 0 >{type(item[0])}<')
             if not isinstance(item[1], str):
-                print(f'type 2 >{type(item[1])}<')
+                print(f'type 1 >{type(item[1])}<')
             if not isinstance(item[2], str):
-                print(f'type 3 >{type(item[2])}<')
+                print(f'type 2 >{type(item[2])}<')
             if not isinstance(item[3], str):
-                print(f'type 4 >{type(item[3])}<')
+                print(f'type 3 >{type(item[3])}<')
             if not isinstance(item[4], str):
-                print(f'type 5 >{type(item[4])}<')
+                print(f'type 4 >{type(item[4])}<')
             if not isinstance(item[5], str):
-                print(f'type 6 >{type(item[5])}<')
+                print(f'type 5 >{type(item[5])}<')
             if not isinstance(item[6], str):
-                print(f'type 7 >{type(item[6])}<')
+                print(f'type 6 >{type(item[6])}<')
             if not isinstance(item[7], str):
-                print(f'type 8 >{type(item[7])}<')
+                print(f'type 7 >{type(item[7])}<')
             item0_list.append(item[0])
             item1_list.append(item[1])
             item2_list.append(item[2])
@@ -971,7 +973,7 @@ def main():
         
             #package_dataset = build_tf_dataset(ds_list)
     
-            save_list_to_tfrecord(ds_list, "/tmp/ubuntu_tfrecord_dir/" + package.replace('-dbgsym', '.tfrecord'))       
+            save_list_to_tfrecord(ds_list, config['tfrecord_save_dir'] + package.replace('-dbgsym', '.tfrecord'))       
          
         exit()   
         
