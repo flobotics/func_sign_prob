@@ -93,14 +93,14 @@ def print_raw_record(raw_record):
     
     ex = tf.io.parse_single_example(raw_record, feature_description)
     
-    print(f"func-signature >{ex['func-signature']}<")
-    print(f"func-return-type >{ex['func-return-type']}<")
-    print(f"func-name >{ex['func-name']}<")
-    print(f"func-file-name >{ex['func-file-name']}<")
-    print(f"func-att-disas >{ex['func-att-disas']}<")
-    print(f"func-intel-disas >{ex['func-intel-disas']}<")
-    print(f"ubuntu-package-name >{ex['ubuntu-package-name']}<")
-    print(f"ubuntu-package-binary >{ex['ubuntu-package-binary']}<")
+    print(f"func-signature\t---------->\n{ex['func-signature']}<")
+    print(f"func-return-type\t---------->\n{ex['func-return-type']}<")
+    print(f"func-name\t---------->\n{ex['func-name']}<")
+    print(f"func-file-name\t---------->\n{ex['func-file-name']}<")
+    print(f"func-att-disas\t---------->\n{ex['func-att-disas']}<")
+    print(f"func-intel-disas\t---------->\n{ex['func-intel-disas']}<")
+    print(f"ubuntu-package-name\t---------->\n{ex['ubuntu-package-name']}<")
+    print(f"ubuntu-package-binary\t---------->\n{ex['ubuntu-package-binary']}<")
     
     
     #return ex['caller_callee'], ex['label']
