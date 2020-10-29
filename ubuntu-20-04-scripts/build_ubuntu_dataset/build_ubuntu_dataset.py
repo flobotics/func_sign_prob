@@ -1,6 +1,6 @@
 import subprocess
 import os
-#import tensorflow as tf
+import tensorflow as tf
 #from tensorflow import keras
 #from tensorflow.keras.preprocessing.text import Tokenizer
 import pexpect
@@ -195,6 +195,7 @@ def get_binaries_in_package(package, config, verbose=False):
         file.close()
 
         ###install the package
+        print(f'Installing >{f_without_dbgsym}< with apt')
         child = pexpect.spawn('sudo DEBIAN_FRONTEND=noninteractive apt install -y {0}'.format(f_without_dbgsym), timeout=None)
         if not gcloud:
             child.expect(':', timeout=None)
@@ -221,6 +222,7 @@ def get_binaries_in_package(package, config, verbose=False):
 
         ###if we found some binaries in package, we install the -dbgsym package
         if len(binaries_in_package) > 0:
+            print(f'Found binaries in package, install >{package}< with apt now')
             child = pexpect.spawn('sudo DEBIAN_FRONTEND=noninteractive apt install -y {0}'.format(package), timeout=None)
             ### if you run in google cloud, it directly installs the pkg
             if not gcloud:
@@ -722,14 +724,32 @@ def save_list_to_tfrecord(ds_list, file):
     
     if len(ds_list) > 0:
         for item in ds_list:
-            item0_list.append(item[0].encode('utf-8'))
-            item1_list.append(item[1].encode('utf-8'))
-            item2_list.append(item[2].encode('utf-8'))
-            item3_list.append(item[3].encode('utf-8'))
-            item4_list.append(item[4].encode('utf-8'))
-            item5_list.append(item[5].encode('utf-8'))
-            item6_list.append(item[6].encode('utf-8'))
-            item7_list.append(item[7].encode('utf-8'))
+            #print(f'ds_list_item:{item}')
+            #print(f'ds_list_item[0]:{item[0]}')
+            if not isinstance(item[0], str):
+                print(f'type >{type(item[0])}<')
+            if not isinstance(item[1], str):
+                print(f'type >{type(item[1])}<')
+            if not isinstance(item[2], str):
+                print(f'type >{type(item[2])}<')
+            if not isinstance(item[3], str):
+                print(f'type >{type(item[3])}<')
+            if not isinstance(item[4], str):
+                print(f'type >{type(item[4])}<')
+            if not isinstance(item[5], str):
+                print(f'type >{type(item[5])}<')
+            if not isinstance(item[6], str):
+                print(f'type >{type(item[6])}<')
+            if not isinstance(item[7], str):
+                print(f'type >{type(item[7])}<')
+            item0_list.append(item[0])
+            item1_list.append(item[1])
+            item2_list.append(item[2])
+            item3_list.append(item[3])
+            item4_list.append(item[4])
+            item5_list.append(item[5])
+            item6_list.append(item[6])
+            item7_list.append(item[7])
             
     tfrecord_dataset = tf.data.Dataset.from_tensor_slices( (item0_list, 
                                                        item1_list,  
