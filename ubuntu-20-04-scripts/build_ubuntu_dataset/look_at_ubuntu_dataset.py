@@ -118,7 +118,7 @@ def main():
         for raw_record in dataset.take(3):
             example = tf.train.Example()
             example.ParseFromString(raw_record.numpy())
-            #print(f'Example >{example}<')
+            print(f'Example >{example}<')
             
             print_raw_record(raw_record)
         exit()
