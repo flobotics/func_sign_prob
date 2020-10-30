@@ -180,14 +180,7 @@ def main():
     
     ###load vocabulary list
     vocabulary = pickle_lib.get_pickle_file_content(config['vocabulary_file'])
-    for v in vocabulary:
-        if v == '1':
-            print(v)
-        if v == '2':
-            print(v)
-    
-    
-    
+
     vectorize_layer = TextVectorization(standardize=None,
                                     max_tokens=len(vocabulary)+2,
                                     output_mode='int',
@@ -198,7 +191,7 @@ def main():
     vocab = vectorize_layer.get_vocabulary()
     print(f'10 vocab words >{vocab[:10]}<')
     
-    exit()
+    
     
     train_dataset = configure_for_performance(train_dataset)
     val_dataset = configure_for_performance(val_dataset)
