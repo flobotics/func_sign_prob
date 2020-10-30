@@ -287,6 +287,8 @@ def proc_build(tarbz2_file, work_dir, save_dir, config):
                                         dis1_str = ' '.join(att_dis)
                                         dis2_str = ' '.join(elem2[4])
                                         
+                                        dis1_str = disassembly_lib.split_disassembly(dis1_str)
+                                        dis2_str = disassembly_lib.split_disassembly(dis2_str)
                                         #dis1_str = dis_split(dis1_str)
                                         #dis2_str = dis_split(dis2_str)
                                         

@@ -177,14 +177,6 @@ def find_struct_return_type(gdb_ptype):
             star_count = front_str.count('*')
             if star_count == 0:
                 return 'struct'
-#         elif 'std::' in front_str:
-#             return 'delete'
-#         elif 'QPair' in front_str:
-#             return 'delete'
-#         elif 'ts::Rv' in front_str: ##strange stuff from a package,dont know,delete
-#             return 'delete'
-#         elif 'fMPI' in front_str: #strange
-#             return 'delete'
         else:
             #print(f'Error star_count struct >{star_count}< front_str >{front_str}<')
             return 'process_further'

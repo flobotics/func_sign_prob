@@ -68,7 +68,7 @@ def save_caller_callee_to_tfrecord(ds_list, tfrecord_file):
  
 def split_to_train_val_test(tfrecord_dir):
     ## now get number of tfrecord files, and split numbers
-    files = os.listdir(tfrecord_dir)
+    files = get_all_tfrecord_filenames(tfrecord_dir)
     nr_of_files = len(files)
     
     print(f'We got >{nr_of_files}< tfrecord files')
