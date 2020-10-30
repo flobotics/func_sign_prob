@@ -201,9 +201,16 @@ def main():
     
     embedding_dim = 8
     
-    model = tf.keras.Sequential([tf.keras.Input(shape=(1,), dtype=tf.string),
-                                 vectorize_layer,
-                                 tf.keras.layers.Embedding(len(vocabulary)+2, embedding_dim, mask_zero=True,
+#     model = tf.keras.Sequential([tf.keras.Input(shape=(1,), dtype=tf.string),
+#                                  vectorize_layer,
+#                                  tf.keras.layers.Embedding(len(vocabulary)+2, embedding_dim, mask_zero=True,
+#                                     name='embedding'),
+#                                     tf.keras.layers.Dropout(0.2),
+#                                     tf.keras.layers.GlobalAveragePooling1D(),
+#                                     tf.keras.layers.Dropout(0.2),
+#                                     tf.keras.layers.Dense(len(return_type_dict))])
+
+    model = tf.keras.Sequential([ tf.keras.layers.Embedding(len(vocabulary)+2, embedding_dim, mask_zero=True,
                                     name='embedding'),
                                     tf.keras.layers.Dropout(0.2),
                                     tf.keras.layers.GlobalAveragePooling1D(),
@@ -238,8 +245,7 @@ def main():
     history = model.fit(train_dataset,
                         validation_data=val_dataset,
                         epochs=2,
-                        )
-                        #callbacks=[tensorboard_callback, model_checkpoint_callback, model_checkpoint_callback2])
+                        callbacks=[tensorboard_callback, model_checkpoint_callback, model_checkpoint_callback2])
 
     ### evaluate the model
     loss, accuracy = model.evaluate(test_dataset)
