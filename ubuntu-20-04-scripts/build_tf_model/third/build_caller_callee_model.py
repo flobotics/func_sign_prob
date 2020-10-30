@@ -144,8 +144,15 @@ def save_trained_word_embeddings(model, trained_word_embeddings_dir, vectorize_l
     out_v.close()
     out_m.close()
 
+vectorize_layer = ''
+
+def vectorize_text(text, label):
+    text = tf.expand_dims(text, -1)
+    return vectorize_layer(text), label
+
 
 def main():
+    global vectorize_layer
     
     AUTOTUNE = tf.data.experimental.AUTOTUNE
     
@@ -182,10 +189,10 @@ def main():
     ###load vocabulary list
     vocabulary = pickle_lib.get_pickle_file_content(config['vocabulary_file'])
 
-    vectorize_layer = TextVectorization(standardize=None,
-                                    max_tokens=len(vocabulary)+2,
-                                    output_mode='int',
-                                    output_sequence_length=max_seq_length)
+#     vectorize_layer = TextVectorization(standardize=None,
+#                                     max_tokens=len(vocabulary)+2,
+#                                     output_mode='int',
+#                                     output_sequence_length=max_seq_length)
     
     vectorize_layer.set_vocabulary(vocabulary)
     
@@ -203,7 +210,10 @@ def main():
     #text_ds = text_ds.apply(tf.data.experimental.unique())
     vectorize_layer.adapt(text_ds.batch(64))
     
-    
+    ### vec text
+    train_dataset = train_dataset.map(vectorize_text, num_parallel_calls=AUTOTUNE)
+    val_dataset = val_dataset.map(vectorize_text, num_parallel_calls=AUTOTUNE)
+    test_dataset = test_dataset.map(vectorize_text, num_parallel_calls=AUTOTUNE)
     
     train_dataset = configure_for_performance(train_dataset)
     val_dataset = configure_for_performance(val_dataset)
@@ -221,8 +231,7 @@ def main():
 #                                     tf.keras.layers.Dropout(0.2),
 #                                     tf.keras.layers.Dense(len(return_type_dict))])
 
-    model = tf.keras.Sequential([ tf.keras.layers.Embedding(len(vocabulary)+2, embedding_dim, mask_zero=True,
-                                    name='embedding'),
+    model = tf.keras.Sequential([ tf.keras.layers.Embedding(len(vocabulary)+2, embedding_dim, mask_zero=True),
                                     tf.keras.layers.Dropout(0.2),
                                     tf.keras.layers.GlobalAveragePooling1D(),
                                     tf.keras.layers.Dropout(0.2),
