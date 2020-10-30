@@ -13,6 +13,7 @@ import common_stuff_lib
 import tarbz2_lib
 import pickle_lib
 import disassembly_lib
+import tfrecord_lib
 
 nr_of_cpus = 16
 
@@ -34,8 +35,9 @@ def print_one_pickle_list_item(pickle_file_content):
 
         
 def parseArgs():
-    short_opts = 'hp:s:w:t:r:m:'
-    long_opts = ['pickle-dir=', 'work-dir=', 'save-dir=', 'save-file-type=', 'return-type-dict-file', 'max-seq-length-file=']
+    short_opts = 'hp:s:w:t:r:m:v:f:'
+    long_opts = ['pickle-dir=', 'work-dir=', 'save-dir=', 'save-file-type=', 
+                 'return-type-dict-file', 'max-seq-length-file=', 'vocab-file=', 'tfrecord-save-dir=']
     config = dict()
     
     config['pickle_dir'] = ''
@@ -44,6 +46,8 @@ def parseArgs():
     config['save_file_type'] = ''
     config['return_type_dict_file'] = ''
     config['max_seq_length_file'] = ''
+    config['vocabulary_file'] = ''
+    config['tfrecord_save_dir'] = ''
  
     try:
         args, rest = getopt.getopt(sys.argv[1:], short_opts, long_opts)
@@ -66,6 +70,10 @@ def parseArgs():
             config['return_type_dict_file'] = option_value[1:]
         elif option_key in ('-m', '--max-seq-length-file'):
             config['max_seq_length_file'] = option_value[1:]
+        elif option_key in ('-v', '--vocab-file'):
+            config['vocabulary_file'] = option_value[1:]
+        elif option_key in ('-f', '--tfrecord-save-dir'):
+            config['tfrecord_save_dir'] = option_value[1:]
         elif option_key in ('-h'):
             print(f'<optional> -p or --pickle-dir The directory with disassemblies,etc. Default: ubuntu-20-04-pickles')
             print(f'<optional> -w or --work-dir   The directory where we e.g. untar,etc. Default: /tmp/work_dir/')
@@ -83,23 +91,14 @@ def parseArgs():
         config['return_type_dict_file'] = '/tmp/return_type_dict.pickle'
     if config['max_seq_length_file'] == '':
         config['max_seq_length_file'] = '/tmp/max_seq_length.pickle'
+    if config['vocabulary_file'] == '':
+        config['vocabulary_file'] = '/tmp/vocabulary_list.pickle'
+    if config['tfrecord_save_dir'] == '':
+        config['tfrecord_save_dir'] = config['save_dir'] + 'tfrecord/'
     
             
     return config
     
-
-def print_5_pickle_files(pickle_files, config):
-    if len(pickle_files) == 0:
-        print(f'Pickle dir is empty')
-        exit()
-        
-    print(f'Five files from dir >{config["pickle_dir"]}<')
-    c = 0
-    for file in pickle_files:
-        print(f'file >{file}<')
-        c += 1
-        if c > 5:
-            break
         
    
 def dis_split(dis):
@@ -340,13 +339,14 @@ def main():
     check_if_dir_exists(config['pickle_dir'])
     check_if_dir_exists(config['work_dir'])
     check_if_dir_exists(config['save_dir'])
+    check_if_dir_exists(config['tfrecord_save_dir'])
     
      
     ### get all pickle files
     #pickle_files = get_all_tar_filenames(config['pickle_dir'])
     pickle_files = common_stuff_lib.get_all_filenames_of_type(config['pickle_dir'], '.tar.bz2')
     ### print 5 files, check and debug
-    print_5_pickle_files(pickle_files, config)
+    pickle_lib.print_X_pickle_filenames(pickle_files, 5)
     
     
     ### build
@@ -359,32 +359,58 @@ def main():
     p.close()
     p.join()
     
-    ## build return type dict-file and max-seq-length-file
+    
+    
+    ## build return type dict-file and max-seq-length-file and vocabulary
     pickle_files = common_stuff_lib.get_all_filenames_of_type(config['save_dir'], '.pickle')
     print(f'pickle-files >{pickle_files}<')
     
     ret_set = set()
+    vocab = set()
     seq_length = 0
     for file in pickle_files:
         cont = pickle_lib.get_pickle_file_content(config['save_dir'] + file)
         for item in cont:
             #print(f'item-1 >{item[1]}<')
+            ## build ret-type-dict
             ret_set.add(item[1])
+            
+            ##build max-seq-length
             if len(item[0]) > seq_length:
                 seq_length = len(item[0])
-    
+                
+            ## build vocabulary
+            for word in item[0]:
+                vocab.add(word)
+                
+    ## build ret-type-dict and save
     ret_type_dict = dict()
     counter = 0
     for elem in ret_set:
         ret_type_dict[elem] = counter
-        counter += 1 
+        counter += 1
     
     pickle_lib.save_to_pickle_file(ret_type_dict, config['return_type_dict_file'])
+        
+    ## build vocabulary list from set and save
+    vocab_list = list(vocab)
+    pickle_lib.save_to_pickle_file(vocab_list, config['vocabulary_file'])
     
+    ## save max-seq-length
     pickle_lib.save_to_pickle_file(seq_length, config['max_seq_length_file'])
     
     ### transform dataset ret-types to ints
+    trans_ds = list()
+    for file in pickle_files:
+        cont = pickle_lib.get_pickle_file_content(config['save_dir'] + file)
+        for item in cont:
+            trans_ds.append( (item[0], ret_type_dict[item[1]]) )
+            
+        tfrecord_lib.save_caller_callee_to_tfrecord(trans_ds, config['tfrecord_save_dir'] + file.replace('.pickle', '.tfrecord'))
     
+    
+    
+    tfrecord_lib.split_to_train_val_test(config['tfrecord_save_dir'])
     
     
     

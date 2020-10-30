@@ -20,3 +20,21 @@ def save_to_pickle_file(data, file):
     ret_file = open(file, 'wb+')
     pickle.dump(data, ret_file)
     ret_file.close()
+    
+    
+def print_X_pickle_filenames(pickle_files, number):
+    if len(pickle_files) == 0:
+        print(f'Pickle dir is empty')
+        return
+        
+    print(f'Print >{number}< pickle files')
+    c = 0
+    for file in pickle_files:
+        print(f'file >{file}<')
+        c += 1
+        if c > (number-1):
+            break
+        
+        
+        
+        
