@@ -146,10 +146,10 @@ def save_trained_word_embeddings(model, trained_word_embeddings_dir, vectorize_l
 
 
 ###load vocabulary list
-vocabulary = pickle_lib.get_pickle_file_content(config['vocabulary_file'])
+vocabulary = pickle_lib.get_pickle_file_content('/tmp/save_dir/' + 'tfrecord/' + 'vocabulary_list.pickle')
 
 ###load max-sequence-length 
-max_seq_length = pickle_lib.get_pickle_file_content(config['max_seq_length_file'])
+max_seq_length = pickle_lib.get_pickle_file_content('/tmp/save_dir/' + 'tfrecord/' + 'max_seq_length.pickle')
 
 vectorize_layer = TextVectorization(standardize=None,
                                     max_tokens=len(vocabulary)+2,
