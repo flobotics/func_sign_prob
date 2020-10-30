@@ -78,13 +78,17 @@ def split_to_train_val_test(tfrecord_dir):
     print(f'We split to train >{train_size}< val >{val_size}< test >{test_size}<')
     
     ## create train,val,test dir
-    os.mkdir(tfrecord_dir + 'train')
-    os.mkdir(tfrecord_dir + 'val')
-    os.mkdir(tfrecord_dir + 'test')
+    if not os.path.isdir(tfrecord_dir + 'train'):
+        os.mkdir(tfrecord_dir + 'train')
+    if not os.path.isdir(tfrecord_dir + 'val'):
+        os.mkdir(tfrecord_dir + 'val')
+    if not os.path.isdir(tfrecord_dir + 'test'):
+        os.mkdir(tfrecord_dir + 'test')
     
     ## move files to extra dirs
     counter = 1
     for file in files:
+        print(f'----file >{file}<   >{tfrecord_dir}<')
         if counter <= train_size:
             os.rename(tfrecord_dir + file, tfrecord_dir + 'train/' + file)
             counter += 1

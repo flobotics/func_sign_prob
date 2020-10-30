@@ -86,7 +86,35 @@ def pattern_based_find_return_type(gdb_ptype):
 
     
     return 'process_further'
+
+
+def find_strange_return_type(gdb_ptype):
+    new_gdb_ptype = gdb_ptype.replace('type =', '')
+    raw_gdb_ptype = new_gdb_ptype.strip()
     
+    ### check if { is there
+    idx = 0
+    if '{' in raw_gdb_ptype:
+        idx = raw_gdb_ptype.index('{')
+        
+    if idx == 0:
+        return 'process_further'
+        
+    front_str = raw_gdb_ptype[:idx]
+    front_str = front_str.strip()
+        
+    if 'std::' in front_str:
+        return 'delete'
+    elif 'QPair' in front_str:
+        return 'delete'
+    elif 'ts::Rv' in front_str: ##strange stuff from a package,dont know,delete
+        return 'delete'
+    elif 'fMPI' in front_str: #strange
+        return 'delete'
+        
+    return 'process_further'
+
+     
     
 def find_class_return_type(gdb_ptype):
     new_gdb_ptype = gdb_ptype.replace('type =', '')
@@ -144,21 +172,22 @@ def find_struct_return_type(gdb_ptype):
         front_str = raw_gdb_ptype[:idx]
         front_str = front_str.strip()
         #print(f'front_str: {front_str}')
+        star_count = -1
         if 'struct' in front_str:
             star_count = front_str.count('*')
-        if star_count == 0:
-            return 'struct'
-        elif 'std::' in front_str:
-            return 'delete'
-        elif 'QPair' in front_str:
-            return 'delete'
-        elif 'ts::Rv' in front_str: ##strange stuff from a package,dont know,delete
-            return 'delete'
-        elif 'fMPI' in front_str: #strange
-            return 'delete'
+            if star_count == 0:
+                return 'struct'
+#         elif 'std::' in front_str:
+#             return 'delete'
+#         elif 'QPair' in front_str:
+#             return 'delete'
+#         elif 'ts::Rv' in front_str: ##strange stuff from a package,dont know,delete
+#             return 'delete'
+#         elif 'fMPI' in front_str: #strange
+#             return 'delete'
         else:
-            print(f'Error star_count struct >{star_count}< front_str >{front_str}<')
-            return 'unknown'
+            #print(f'Error star_count struct >{star_count}< front_str >{front_str}<')
+            return 'process_further'
     
     else:
         return 'process_further'
@@ -236,6 +265,10 @@ def get_return_type_from_gdb_ptype(gdb_ptype):
         ### check if { is there
         idx = 0
         if '{' in gdb_ptype:
+            ret = find_strange_return_type(gdb_ptype)
+            if not (ret == 'process_further'):
+                return ret
+            
             ret = find_class_return_type(gdb_ptype)
             if not (ret == 'process_further'):
                 return ret
