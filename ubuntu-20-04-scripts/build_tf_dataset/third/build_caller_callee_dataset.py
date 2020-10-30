@@ -349,6 +349,26 @@ def main():
     p.close()
     p.join()
     
+    ## build return type dict
+    pickle_files = common_stuff_lib.get_all_filenames_of_type(config['save_dir'], '.pickle')
+    print(f'pickle-files >{pickle_files}<')
+    
+    ret_set = set()
+    for file in pickle_files:
+        cont = pickle_lib.get_pickle_file_content(config['save_dir'] + file)
+        for item in cont:
+            #print(f'item-1 >{item[1]}<')
+            ret_set.add(item[1])
+    
+    ret_type_dict = dict()
+    counter = 0
+    for elem in ret_set:
+        ret_type_dict[elem] = counter
+        counter += 1 
+    
+    
+    
+    ## transform disas
     
     for counter in all_ret_types:
         if counter > 0:

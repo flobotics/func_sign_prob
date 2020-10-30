@@ -2,6 +2,13 @@
 
 user => your username in the system
 
+Hints for running on cloud instances (gcp or aws). If your ssh connection crashes, the script runs on, re-connect and
+tail -f nohup.out  to watch what the script is doing. python3 -u prints all python-print functions without buffering, else you 
+would see no output directly with tail -f nohup.out
+
+
+nohup python3 -u xx.py  & disown $!
+
 Create directory /home/user/git
 mkdir -p /home/user/git
 
