@@ -181,10 +181,7 @@ def main():
     ###load vocabulary list
     vocabulary = pickle_lib.get_pickle_file_content(config['vocabulary_file'])
     
-    vocab = vectorize_layer.get_vocabulary()
-    print(f'10 vocab words >{vocab[:10]}<')
     
-    exit()
     
     vectorize_layer = TextVectorization(standardize=None,
                                     max_tokens=len(vocabulary)+2,
@@ -193,6 +190,10 @@ def main():
     
     vectorize_layer.set_vocabulary(vocabulary)
     
+    vocab = vectorize_layer.get_vocabulary()
+    print(f'10 vocab words >{vocab[:10]}<')
+    
+    exit()
     
     train_dataset = configure_for_performance(train_dataset)
     val_dataset = configure_for_performance(val_dataset)
