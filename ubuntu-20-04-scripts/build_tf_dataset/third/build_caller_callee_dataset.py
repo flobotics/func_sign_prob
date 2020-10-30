@@ -382,7 +382,7 @@ def main():
                 seq_length = len(item[0])
                 
             ## build vocabulary
-            for word in item[0]:
+            for word in item[0].split():
                 vocab.add(word)
                 
     ## build ret-type-dict and save
