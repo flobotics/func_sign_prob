@@ -2,7 +2,7 @@ import tarfile
 import os
 import sys
 import pickle
-#import tensorflow as tf
+import tensorflow as tf
 from datetime import datetime
 from multiprocessing import Pool
 import getopt
@@ -31,15 +31,17 @@ def print_one_pickle_list_item(pickle_file_content):
         print(f'binary-name: {item[7]}')
     else:
         print('Error item[0]')
+
         
 def parseArgs():
-    short_opts = 'hp:s:w:'
-    long_opts = ['pickle-dir=', 'work-dir=', 'save-dir=']
+    short_opts = 'hp:s:w:t:'
+    long_opts = ['pickle-dir=', 'work-dir=', 'save-dir=', 'save-file-type=']
     config = dict()
     
-    config['pickle_dir'] = '../../../ubuntu-20-04-pickles'
-    config['work_dir'] = '/tmp/work_dir/'
-    config['save_dir'] = '/tmp/save_dir'
+    config['pickle_dir'] = ''
+    config['work_dir'] = ''
+    config['save_dir'] = ''
+    config['save_file_type'] = ''
  
     try:
         args, rest = getopt.getopt(sys.argv[1:], short_opts, long_opts)
@@ -56,11 +58,22 @@ def parseArgs():
             config['work_dir'] = option_value[1:]
         elif option_key in ('-s', '--save-dir'):
             config['save_dir'] = option_value[1:]
+        elif option_key in ('-t', '--save-file-type'):
+            config['save_file_type'] = option_value[1:]
         elif option_key in ('-h'):
             print(f'<optional> -p or --pickle-dir The directory with disassemblies,etc. Default: ubuntu-20-04-pickles')
             print(f'<optional> -w or --work-dir   The directory where we e.g. untar,etc. Default: /tmp/work_dir/')
             print(f'<optional> -s or --save-dir   The directory where we save dataset.  Default: /tmp/save_dir')
             
+    if config['pickle_dir'] == '':
+        config['pickle_dir'] = '../../../ubuntu-20-04-pickles'
+    if config['work_dir'] == '':
+        config['work_dir'] = '/tmp/work_dir/'
+    if config['save_dir'] == '':
+        config['save_dir'] = '/tmp/save_dir/'
+    if config['save_file_type'] == '':
+        config['save_file_type'] = 'pickle'     
+    
             
     return config
     
@@ -157,9 +170,38 @@ def dis_split(dis):
     dis_str = ' '.join(dis_list)   
     
     return dis_str
+
+
+def serialize_example(feature0, feature1):
+    """
+    Creates a tf.train.Example message ready to be written to a file.
+    """
+    # Create a dictionary mapping the feature name to the tf.train.Example-compatible
+    # data type.
+    feature0 = feature0.numpy()
+    feature1 = feature1.numpy()
+    feature = {
+              'caller_callee': tf.train.Feature(bytes_list=tf.train.BytesList(value=[feature0])),
+              'label': tf.train.Feature(bytes_list=tf.train.BytesList(value=[feature1])),
+    }
     
+    # Create a Features message using tf.train.Example.
+    
+    example_proto = tf.train.Example(features=tf.train.Features(feature=feature))
+    return example_proto.SerializeToString()  
+
+    
+    
+def tf_serialize_example(f0,f1):
+    tf_string = tf.py_function(
+      serialize_example,
+      (f0,f1),  # pass these args to the above function.
+      tf.string)      # the return type is `tf.string`.
+    return tf.reshape(tf_string, ()) # The result is a scalar  
+
+
  
-def proc_build(tarbz2_file, work_dir, save_dir):
+def proc_build(tarbz2_file, work_dir, save_dir, config):
     
     tarbz2_lib.untar_file_to_path(tarbz2_file, work_dir)
     #untar_one_pickle_file(tarbz2_file, work_dir)
@@ -229,6 +271,8 @@ def proc_build(tarbz2_file, work_dir, save_dir):
                                         #print('delete found')
                                         ### no return type found, so delete this item
                                         pass
+                                    elif return_type == 'process_further':
+                                        print(f'ERRROOOORRRR---------------')
                                     else:
                                             
                                         dis1_str = ' '.join(att_dis)
@@ -246,10 +290,37 @@ def proc_build(tarbz2_file, work_dir, save_dir):
                                         break
                   
            
-    if dataset_list:       
-        ret_file = open(save_dir + '/' + os.path.basename(pickle_file).replace('.tar.bz2', ''), 'wb+')
-        pickle_list = pickle.dump(dataset_list, ret_file)
-        ret_file.close()
+    if dataset_list:
+        if config['save_file_type'] == 'pickle':     
+            ret_file = open(config['save_dir'] + os.path.basename(pickle_file).replace('.tar.bz2', ''), 'wb+')
+            pickle_list = pickle.dump(dataset_list, ret_file)
+            ret_file.close()
+        else:
+            dis_list = list()
+            ret_list = list()
+            
+            for item in dataset_list:
+                #print(f'item-0 >{item[0]}< item-1 >{item[1]}<')
+                #exit()
+                dis_list.append(item[0])
+                ret_list.append(item[1])
+                
+            ## save as tfrecord
+            raw_dataset = tf.data.Dataset.from_tensor_slices( (dis_list, ret_list ))
+
+            ## ValueError: Can't convert Python sequence with mixed types to Tensor.
+            ##raw_dataset = tf.data.Dataset.from_tensor_slices(cont)
+              
+            #ds_counter += 1
+        
+            serialized_features_dataset = raw_dataset.map(tf_serialize_example)
+            
+            filename = config['save_dir']  + os.path.basename(tarbz2_file).replace('.pickle.tar.bz2','') + '.tfrecord'
+            print(f'filename-------------- >{filename}<')
+            writer = tf.data.experimental.TFRecordWriter(filename)
+            writer.write(serialized_features_dataset)
+    
+    
                   
     return counter
     
@@ -281,7 +352,7 @@ def main():
     
     
     pickle_files = [config["pickle_dir"] + "/" + f for f in pickle_files]
-    star_list = zip(pickle_files, repeat(config['work_dir']), repeat(config['save_dir']))
+    star_list = zip(pickle_files, repeat(config['work_dir']), repeat(config['save_dir']), repeat(config))
     all_ret_types = p.starmap(proc_build, star_list)
     p.close()
     p.join()
