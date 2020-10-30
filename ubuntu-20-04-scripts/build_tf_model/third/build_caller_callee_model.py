@@ -193,6 +193,17 @@ def main():
     print(f'10 vocab words >{vocab[:10]}<')
     
     
+    text_ds = train_dataset.map(lambda x, y: x, num_parallel_calls=AUTOTUNE)
+    tmp_ds = val_dataset.map(lambda x, y: x, num_parallel_calls=AUTOTUNE)
+    text_ds = text_ds.concatenate(tmp_ds)
+    tmp_ds = test_dataset.map(lambda x, y: x, num_parallel_calls=AUTOTUNE)
+    text_ds = text_ds.concatenate(tmp_ds)
+    print(f'text_ds element_spec >{text_ds.element_spec}<')
+    
+    text_ds = text_ds.apply(tf.data.experimental.unique())
+    vectorize_layer.adapt(text_ds.batch(64))
+    
+    
     
     train_dataset = configure_for_performance(train_dataset)
     val_dataset = configure_for_performance(val_dataset)
