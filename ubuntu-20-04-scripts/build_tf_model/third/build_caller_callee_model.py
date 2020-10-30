@@ -220,14 +220,16 @@ def main():
     #text_ds = text_ds.apply(tf.data.experimental.unique())
     vectorize_layer.adapt(text_ds.batch(64))
     
+    train_dataset = configure_for_performance(train_dataset)
+    val_dataset = configure_for_performance(val_dataset)
+    test_dataset = configure_for_performance(test_dataset)
+    
     ### vec text
     train_dataset = train_dataset.map(vectorize_text, num_parallel_calls=AUTOTUNE)
     val_dataset = val_dataset.map(vectorize_text, num_parallel_calls=AUTOTUNE)
     test_dataset = test_dataset.map(vectorize_text, num_parallel_calls=AUTOTUNE)
     
-    train_dataset = configure_for_performance(train_dataset)
-    val_dataset = configure_for_performance(val_dataset)
-    test_dataset = configure_for_performance(test_dataset)
+
     
     
     embedding_dim = 8
