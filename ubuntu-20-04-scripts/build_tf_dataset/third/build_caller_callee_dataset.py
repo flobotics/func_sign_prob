@@ -34,14 +34,16 @@ def print_one_pickle_list_item(pickle_file_content):
 
         
 def parseArgs():
-    short_opts = 'hp:s:w:t:'
-    long_opts = ['pickle-dir=', 'work-dir=', 'save-dir=', 'save-file-type=']
+    short_opts = 'hp:s:w:t:r:m:'
+    long_opts = ['pickle-dir=', 'work-dir=', 'save-dir=', 'save-file-type=', 'return-type-dict-file', 'max-seq-length-file=']
     config = dict()
     
     config['pickle_dir'] = ''
     config['work_dir'] = ''
     config['save_dir'] = ''
     config['save_file_type'] = ''
+    config['return_type_dict_file'] = ''
+    config['max_seq_length_file'] = ''
  
     try:
         args, rest = getopt.getopt(sys.argv[1:], short_opts, long_opts)
@@ -60,6 +62,10 @@ def parseArgs():
             config['save_dir'] = option_value[1:]
         elif option_key in ('-t', '--save-file-type'):
             config['save_file_type'] = option_value[1:]
+        elif option_key in ('-r', '--return-type-dict-file'):
+            config['return_type_dict_file'] = option_value[1:]
+        elif option_key in ('-m', '--max-seq-length-file'):
+            config['max_seq_length_file'] = option_value[1:]
         elif option_key in ('-h'):
             print(f'<optional> -p or --pickle-dir The directory with disassemblies,etc. Default: ubuntu-20-04-pickles')
             print(f'<optional> -w or --work-dir   The directory where we e.g. untar,etc. Default: /tmp/work_dir/')
@@ -72,7 +78,11 @@ def parseArgs():
     if config['save_dir'] == '':
         config['save_dir'] = '/tmp/save_dir/'
     if config['save_file_type'] == '':
-        config['save_file_type'] = 'pickle'     
+        config['save_file_type'] = 'pickle'
+    if config['return_type_dict_file'] == '':
+        config['return_type_dict_file'] = '/tmp/return_type_dict.pickle'
+    if config['max_seq_length_file'] == '':
+        config['max_seq_length_file'] = '/tmp/max_seq_length.pickle'
     
             
     return config
@@ -349,16 +359,19 @@ def main():
     p.close()
     p.join()
     
-    ## build return type dict
+    ## build return type dict-file and max-seq-length-file
     pickle_files = common_stuff_lib.get_all_filenames_of_type(config['save_dir'], '.pickle')
     print(f'pickle-files >{pickle_files}<')
     
     ret_set = set()
+    seq_length = 0
     for file in pickle_files:
         cont = pickle_lib.get_pickle_file_content(config['save_dir'] + file)
         for item in cont:
             #print(f'item-1 >{item[1]}<')
             ret_set.add(item[1])
+            if len(item[0]) > seq_length:
+                seq_length = len(item[0])
     
     ret_type_dict = dict()
     counter = 0
@@ -366,9 +379,14 @@ def main():
         ret_type_dict[elem] = counter
         counter += 1 
     
+    pickle_lib.save_to_pickle_file(ret_type_dict, config['return_type_dict_file'])
+    
+    pickle_lib.save_to_pickle_file(seq_length, config['max_seq_length_file'])
+    
+    ### transform dataset ret-types to ints
     
     
-    ## transform disas
+    
     
     for counter in all_ret_types:
         if counter > 0:
