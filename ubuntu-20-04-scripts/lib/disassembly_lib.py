@@ -52,13 +52,32 @@ def check_for_hex_string(item):
     
 
 def check_for_numbers(item):
-    if not isnumeric(item[0]):
-        return 'process_further'
     
-    ## check if every single char is numeric
-    for char in item:
-        if not isnumeric(char):
-            print(f'found char not number-----------')
+    if item[0] == '-':
+        if not isnumeric(item[1]):
+            return 'process_further'
+        
+    if item[0] == '+':
+        if not isnumeric(item[1]):
+            return 'process_further'
+        
+    if isnumeric(item[0]):
+        if len(item) > 1:
+            if not isnumeric(item[1]):
+                return 'process_further'
+    
+    ##if first is + or -
+    if not isnumeric(item[0]):
+        if len(item) > 1:
+            if not isnumeric(item[1]):
+                return 'process_further'
+            
+#             ## check if every single char is numeric
+#         for char in item:
+#             if not isnumeric(char):
+#                 print(f'found char not number-----------')
+#                 return 'process_further'
+    
             
     item_len = len(item)
     counter = 0
