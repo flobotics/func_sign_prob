@@ -296,27 +296,19 @@ def proc_build(tarbz2_file, work_dir, save_dir, config):
             pickle_list = pickle.dump(dataset_list, ret_file)
             ret_file.close()
         else:
+            ## save as tfrecord
             dis_list = list()
             ret_list = list()
             
             for item in dataset_list:
-                #print(f'item-0 >{item[0]}< item-1 >{item[1]}<')
-                #exit()
                 dis_list.append(item[0])
                 ret_list.append(item[1])
                 
-            ## save as tfrecord
             raw_dataset = tf.data.Dataset.from_tensor_slices( (dis_list, ret_list ))
-
-            ## ValueError: Can't convert Python sequence with mixed types to Tensor.
-            ##raw_dataset = tf.data.Dataset.from_tensor_slices(cont)
-              
-            #ds_counter += 1
         
             serialized_features_dataset = raw_dataset.map(tf_serialize_example)
             
             filename = config['save_dir']  + os.path.basename(tarbz2_file).replace('.pickle.tar.bz2','') + '.tfrecord'
-            print(f'filename-------------- >{filename}<')
             writer = tf.data.experimental.TFRecordWriter(filename)
             writer.write(serialized_features_dataset)
     
