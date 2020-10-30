@@ -54,12 +54,14 @@ def check_for_hex_string(item):
 def check_for_numbers(item):
     
     if item[0] == '-':
-        if not isnumeric(item[1]):
-            return 'process_further'
+        if len(item) > 1:
+            if not isnumeric(item[1]):
+                return 'process_further'
         
     if item[0] == '+':
-        if not isnumeric(item[1]):
-            return 'process_further'
+        if len(item) > 1:
+            if not isnumeric(item[1]):
+                return 'process_further'
         
     if isnumeric(item[0]):
         if len(item) > 1:
