@@ -200,7 +200,7 @@ def main():
     text_ds = text_ds.concatenate(tmp_ds)
     print(f'text_ds element_spec >{text_ds.element_spec}<')
     
-    text_ds = text_ds.apply(tf.data.experimental.unique())
+    #text_ds = text_ds.apply(tf.data.experimental.unique())
     vectorize_layer.adapt(text_ds.batch(64))
     
     
