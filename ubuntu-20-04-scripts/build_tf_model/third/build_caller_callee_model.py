@@ -116,7 +116,7 @@ def configure_for_performance(ds):
   return ds
   
 
-def save_trained_word_embeddings(model, trained_word_embeddings_dir):
+def save_trained_word_embeddings(model, trained_word_embeddings_dir, vectorize_layer):
     vecs_filename = trained_word_embeddings_dir + "vecs.tsv"
     meta_filename = trained_word_embeddings_dir + "meta.tsv"
     
@@ -243,7 +243,7 @@ def main():
 
     ### save trained word embeddings
     print(f'Saving trained word embeddings (meta.tsv,vecs.tsv) (usable in tensorboard->Projector)')
-    save_trained_word_embeddings(model, config['trained_word_embeddings_dir']) 
+    save_trained_word_embeddings(model, config['trained_word_embeddings_dir'], vectorize_layer) 
     
     
     
