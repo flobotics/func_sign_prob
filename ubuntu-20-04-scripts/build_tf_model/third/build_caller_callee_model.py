@@ -184,7 +184,8 @@ def main():
     vectorize_layer = TextVectorization(standardize=None,
                                     max_tokens=len(vocabulary)+2,
                                     output_mode='int',
-                                    output_sequence_length=max_seq_length)
+                                    output_sequence_length=max_seq_length,
+                                    name='embedding')
     
     vectorize_layer.set_vocabulary(vocabulary)
     
