@@ -184,8 +184,7 @@ def main():
     vectorize_layer = TextVectorization(standardize=None,
                                     max_tokens=len(vocabulary)+2,
                                     output_mode='int',
-                                    output_sequence_length=max_seq_length,
-                                    name='embedding')
+                                    output_sequence_length=max_seq_length)
     
     vectorize_layer.set_vocabulary(vocabulary)
     
@@ -199,7 +198,8 @@ def main():
     
     model = tf.keras.Sequential([tf.keras.Input(shape=(1,), dtype=tf.string),
                                  vectorize_layer,
-                                 tf.keras.layers.Embedding(len(vocabulary)+2, embedding_dim, mask_zero=True),
+                                 tf.keras.layers.Embedding(len(vocabulary)+2, embedding_dim, mask_zero=True,
+                                    name='embedding'),
                                     tf.keras.layers.Dropout(0.2),
                                     tf.keras.layers.GlobalAveragePooling1D(),
                                     tf.keras.layers.Dropout(0.2),
