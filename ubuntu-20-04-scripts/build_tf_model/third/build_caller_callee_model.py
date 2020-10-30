@@ -144,7 +144,17 @@ def save_trained_word_embeddings(model, trained_word_embeddings_dir, vectorize_l
     out_v.close()
     out_m.close()
 
-vectorize_layer = ''
+
+###load vocabulary list
+vocabulary = pickle_lib.get_pickle_file_content(config['vocabulary_file'])
+
+###load max-sequence-length 
+max_seq_length = pickle_lib.get_pickle_file_content(config['max_seq_length_file'])
+
+vectorize_layer = TextVectorization(standardize=None,
+                                    max_tokens=len(vocabulary)+2,
+                                    output_mode='int',
+                                    output_sequence_length=max_seq_length)
 
 def vectorize_text(text, label):
     text = tf.expand_dims(text, -1)
@@ -182,7 +192,7 @@ def main():
         
     ###load return-type-dict
     return_type_dict = pickle_lib.get_pickle_file_content(config['return_type_dict_file'])
-    
+     
     ###load max-sequence-length 
     max_seq_length = pickle_lib.get_pickle_file_content(config['max_seq_length_file'])
     
