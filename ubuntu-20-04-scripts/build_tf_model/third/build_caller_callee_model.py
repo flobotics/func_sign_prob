@@ -127,7 +127,8 @@ def save_trained_word_embeddings(model, trained_word_embeddings_dir, vectorize_l
     weights = model.get_layer('embedding').get_weights()[0]
     print(f'Shape of the weigths >{weights.shape}<') 
     
-    os.mkdir(trained_word_embeddings_dir)
+    if not os.path.isdir(trained_word_embeddings_dir):
+        os.mkdir(trained_word_embeddings_dir)
     out_v = open(vecs_filename, 'w+')
     out_m = open(meta_filename, 'w+')
     
