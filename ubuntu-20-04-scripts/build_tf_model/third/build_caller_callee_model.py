@@ -180,7 +180,11 @@ def main():
     
     ###load vocabulary list
     vocabulary = pickle_lib.get_pickle_file_content(config['vocabulary_file'])
-    print(vocabulary)
+    for v in vocabulary:
+        if v == '1':
+            print(v)
+        if v == '2':
+            print(v)
     
     
     
