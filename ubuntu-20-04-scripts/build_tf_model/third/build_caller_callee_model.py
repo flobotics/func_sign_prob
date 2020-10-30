@@ -1,8 +1,12 @@
 import getopt
 import tensorflow as tf
+from tensorflow.keras import Model, Sequential
+from tensorflow.keras.layers import Activation, Dense, Embedding, GlobalAveragePooling1D
+from tensorflow.keras.layers.experimental.preprocessing import TextVectorization
 import sys
 import os
-
+sys.path.append('../../lib/')
+import pickle_lib
 
 
 def parseArgs():
@@ -18,6 +22,11 @@ def parseArgs():
     config['max_seq_length_file'] = ''
     config['vocabulary_file'] = ''
     config['tfrecord_dir'] = ''
+    config['tensorboard_log_dir'] = ''
+    config['checkpoint_dir'] = '' ##need to be in base-dir for projector to work
+    config['save_model_dir'] = ''
+    config['trained_word_embeddings_dir'] = ''
+    
  
     try:
         args, rest = getopt.getopt(sys.argv[1:], short_opts, long_opts)
@@ -53,14 +62,21 @@ def parseArgs():
     if config['save_file_type'] == '':
         config['save_file_type'] = 'pickle'
     if config['return_type_dict_file'] == '':
-        config['return_type_dict_file'] = '/tmp/return_type_dict.pickle'
+        config['return_type_dict_file'] = config['save_dir'] + 'tfrecord/' + 'return_type_dict.pickle'
     if config['max_seq_length_file'] == '':
-        config['max_seq_length_file'] = '/tmp/max_seq_length.pickle'
+        config['max_seq_length_file'] = config['save_dir'] + 'tfrecord/' + 'max_seq_length.pickle'
     if config['vocabulary_file'] == '':
-        config['vocabulary_file'] = '/tmp/vocabulary_list.pickle'
+        config['vocabulary_file'] = config['save_dir'] + 'tfrecord/' + 'vocabulary_list.pickle'
     if config['tfrecord_dir'] == '':
         config['tfrecord_dir'] = config['save_dir'] + 'tfrecord/'
-    
+    if config['tensorboard_log_dir'] == '':
+        config['tensorboard_log_dir'] = config['save_dir'] + 'tensorboard_logs/'
+    if config['checkpoint_dir'] == '':
+        config['checkpoint_dir'] = config['tensorboard_log_dir'] + 'checkpoint/' ##need to be in base-dir for projector to work
+    if config['save_model_dir'] == '':
+        config['save_model_dir'] = config['tensorboard_log_dir'] +  'saved_model/'
+    if config['trained_word_embeddings_dir'] == '':
+        config['trained_word_embeddings_dir'] = config['tensorboard_log_dir'] +  'trained_word_embeddings/'
             
     return config
 
@@ -92,6 +108,41 @@ def _parse_function(example_proto):
     return ex['caller_callee_disassembly'], ex['callee_return_type_int']
 
 
+def configure_for_performance(ds):
+  ds = ds.cache()
+  ds = ds.shuffle(buffer_size=1000)
+  ds = ds.batch(100)
+  ds = ds.prefetch(buffer_size=tf.data.experimental.AUTOTUNE)
+  return ds
+  
+
+def save_trained_word_embeddings(model, trained_word_embeddings_dir):
+    vecs_filename = trained_word_embeddings_dir + "vecs.tsv"
+    meta_filename = trained_word_embeddings_dir + "meta.tsv"
+    
+    vocab = vectorize_layer.get_vocabulary()
+    print(f'10 vocab words >{vocab[:10]}<')
+    
+    # Get weights matrix of layer named 'embedding'
+    weights = model.get_layer('embedding').get_weights()[0]
+    print(f'Shape of the weigths >{weights.shape}<') 
+    
+    os.mkdir(trained_word_embeddings_dir)
+    out_v = open(vecs_filename, 'w+')
+    out_m = open(meta_filename, 'w+')
+    
+    print(f'len vocab-- >{len(vocab)}<')
+    
+    for num, word in enumerate(vocab):
+        if num == 0: continue # skip padding token from vocab
+        vec = weights[num]
+        #print(f'vec >{vec}<  word >{word}<')
+        out_m.write(word + "\n")
+        out_v.write('\t'.join([str(x) for x in vec]) + "\n")
+        #break
+    out_v.close()
+    out_m.close()
+
 
 def main():
     
@@ -121,6 +172,78 @@ def main():
     for text, label in train_dataset.take(1):
         print(f'One example from train_dataset with int-as-label:\nText: >{text}<\n Label: >{label}<')
         
+    ###load return-type-dict
+    return_type_dict = pickle_lib.get_pickle_file_content(config['return_type_dict_file'])
+    
+    ###load max-sequence-length 
+    max_seq_length = pickle_lib.get_pickle_file_content(config['max_seq_length_file'])
+    
+    ###load vocabulary list
+    vocabulary = pickle_lib.get_pickle_file_content(config['vocabulary_file'])
+    
+    vectorize_layer = TextVectorization(standardize=None,
+                                    max_tokens=len(vocabulary)+2,
+                                    output_mode='int',
+                                    output_sequence_length=max_seq_length)
+    
+    vectorize_layer.set_vocabulary(vocabulary)
+    
+    
+    train_dataset = configure_for_performance(train_dataset)
+    val_dataset = configure_for_performance(val_dataset)
+    test_dataset = configure_for_performance(test_dataset)
+    
+    
+    embedding_dim = 8
+    
+    model = tf.keras.Sequential([tf.keras.Input(shape=(1,), dtype=tf.string),
+                                 vectorize_layer,
+                                 tf.keras.layers.Embedding(len(vocabulary)+2, embedding_dim, mask_zero=True),
+                                    tf.keras.layers.Dropout(0.2),
+                                    tf.keras.layers.GlobalAveragePooling1D(),
+                                    tf.keras.layers.Dropout(0.2),
+                                    tf.keras.layers.Dense(len(return_type_dict))])
+    
+    model.summary()
+    
+    ## callbacks to save tensorboard-files and model
+    tensorboard_callback = tf.keras.callbacks.TensorBoard(log_dir=config['tensorboard_log_dir'], 
+                                                            histogram_freq=1, 
+                                                            write_graph=False, 
+                                                            write_images=False)
+                                                            
+
+    model_checkpoint_callback = tf.keras.callbacks.ModelCheckpoint(filepath=config['checkpoint_dir'],
+                                                                    save_weights_only=True,
+                                                                    monitor='accuracy',
+                                                                    mode='max',
+                                                                    save_best_only=True)
+    
+    model_checkpoint_callback2 = tf.keras.callbacks.ModelCheckpoint(filepath=config['save_model_dir'],
+                                                                    save_weights_only=False,
+                                                                    monitor='accuracy',
+                                                                    mode='max',
+                                                                    save_best_only=True)
+       
+    model.compile(loss=tf.keras.losses.SparseCategoricalCrossentropy(from_logits=True), 
+                optimizer='adam', 
+                metrics=['accuracy'])
+
+    history = model.fit(train_dataset,
+                        validation_data=val_dataset,
+                        epochs=2,
+                        callbacks=[tensorboard_callback, model_checkpoint_callback, model_checkpoint_callback2])
+
+    ### evaluate the model
+    loss, accuracy = model.evaluate(test_dataset)
+    print("Loss: ", loss)
+    print("Accuracy: ", accuracy)
+
+    ### save trained word embeddings
+    print(f'Saving trained word embeddings (meta.tsv,vecs.tsv) (usable in tensorboard->Projector)')
+    save_trained_word_embeddings(model, config['trained_word_embeddings_dir']) 
+    
+    
     
     
 

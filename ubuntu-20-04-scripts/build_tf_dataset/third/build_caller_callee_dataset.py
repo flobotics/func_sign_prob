@@ -88,11 +88,11 @@ def parseArgs():
     if config['save_file_type'] == '':
         config['save_file_type'] = 'pickle'
     if config['return_type_dict_file'] == '':
-        config['return_type_dict_file'] = '/tmp/return_type_dict.pickle'
+        config['return_type_dict_file'] = config['save_dir'] + 'tfrecord/' + 'return_type_dict.pickle'
     if config['max_seq_length_file'] == '':
-        config['max_seq_length_file'] = '/tmp/max_seq_length.pickle'
+        config['max_seq_length_file'] = config['save_dir'] + 'tfrecord/' + 'max_seq_length.pickle'
     if config['vocabulary_file'] == '':
-        config['vocabulary_file'] = '/tmp/vocabulary_list.pickle'
+        config['vocabulary_file'] = config['save_dir'] + 'tfrecord/' + 'vocabulary_list.pickle'
     if config['tfrecord_save_dir'] == '':
         config['tfrecord_save_dir'] = config['save_dir'] + 'tfrecord/'
     
