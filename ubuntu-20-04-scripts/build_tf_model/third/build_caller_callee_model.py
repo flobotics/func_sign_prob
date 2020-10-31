@@ -170,6 +170,8 @@ def main():
     
     check_config(config)
     
+    print(f'tensorflow version running now >{tf.__version__}<')
+    
     print(f"Build tf.data.dataset with tfrecord files from directory >{config['tfrecord_dir'] + 'train/'}< \
             >{config['tfrecord_dir'] + 'val/'}< >{config['tfrecord_dir'] + 'test/'}<")
 
