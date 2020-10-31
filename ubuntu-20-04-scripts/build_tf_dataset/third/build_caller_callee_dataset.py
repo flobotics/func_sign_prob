@@ -371,7 +371,12 @@ def main():
     ret_set = set()
     vocab = set()
     seq_length = 0
+    counter = 1
+    pickle_count = len(pickle_files)
+    
     for file in pickle_files:
+        print(f'File >{counter}/{pickle_count}<', end='\r')
+        counter += 1
         cont = pickle_lib.get_pickle_file_content(config['save_dir'] + file)
         for item in cont:
             #print(f'item-1 >{item[1]}<')
@@ -408,7 +413,10 @@ def main():
     ### transform dataset ret-types to ints
     print(f"Transform return-type to int and save to >{config['tfrecord_save_dir']}<")
     trans_ds = list()
+    counter = 1
     for file in pickle_files:
+        print(f'File >{counter}/{pickle_count}<', end='\r')
+        counter += 1
         cont = pickle_lib.get_pickle_file_content(config['save_dir'] + file)
         for item in cont:
             trans_ds.append( (item[0], ret_type_dict[item[1]]) )
