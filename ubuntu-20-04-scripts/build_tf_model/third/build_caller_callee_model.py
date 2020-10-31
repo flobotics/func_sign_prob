@@ -186,7 +186,7 @@ def main():
     tfrecord_test_dataset = tf.data.Dataset.list_files(config['tfrecord_dir'] + 'test/' + '*.tfrecord')
     test_dataset = tf.data.TFRecordDataset(tfrecord_test_dataset)
     
-    
+    ###de-serialize tfrecord examples to tensors
     train_dataset = train_dataset.map(_parse_function, num_parallel_calls=AUTOTUNE)
     val_dataset = val_dataset.map(_parse_function, num_parallel_calls=AUTOTUNE)
     test_dataset = test_dataset.map(_parse_function, num_parallel_calls=AUTOTUNE)

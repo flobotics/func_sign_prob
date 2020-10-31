@@ -105,7 +105,7 @@ def proc_build(file, ret_type_dict, config):
     
     cont = pickle_lib.get_pickle_file_content(file)
     for item in cont:
-        print(f"item >{item[0]}<  item-1 >{item[1]}< >{ret_type_dict}<")
+        #print(f"item >{item[0]}<  item-1 >{item[1]}< >{ret_type_dict}<")
         trans_ds.append( (item[0], ret_type_dict[item[1]]) )
         
     tfrecord_lib.save_caller_callee_to_tfrecord(trans_ds, config['tfrecord_save_dir'] + os.path.basename(file).replace('.pickle', '.tfrecord'))
@@ -146,19 +146,7 @@ def main():
     p.close()
     p.join()
     
-    
-    
-#     trans_ds = list()
-    counter = 1
-#    for file in pickle_files:
-#         print(f'Transform File >{file}< >{counter}/{pickle_count}<', end='\r')
-#         counter += 1
-#         cont = pickle_lib.get_pickle_file_content(config['save_dir'] + file)
-#         for item in cont:
-#             trans_ds.append( (item[0], ret_type_dict[item[1]]) )
-#             
-#         tfrecord_lib.save_caller_callee_to_tfrecord(trans_ds, config['tfrecord_save_dir'] + file.replace('.pickle', '.tfrecord'))
-#     
+       
 
     print("Done. Run split_dataset_to_train_val_test.py next")
 
