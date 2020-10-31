@@ -367,6 +367,7 @@ def main():
     pickle_files = common_stuff_lib.get_all_filenames_of_type(config['save_dir'], '.pickle')
     print(f'pickle-files >{pickle_files}<')
     
+    print(f'Building return-type dict, vocabulary and max-squenece-length')
     ret_set = set()
     vocab = set()
     seq_length = 0
@@ -384,7 +385,8 @@ def main():
             ## build vocabulary
             for word in item[0].split():
                 vocab.add(word)
-                
+        
+    print(f"Build return-type dict and save it to >{config['return_type_dict_file']}<")        
     ## build ret-type-dict and save
     ret_type_dict = dict()
     counter = 0
@@ -394,14 +396,17 @@ def main():
     
     pickle_lib.save_to_pickle_file(ret_type_dict, config['return_type_dict_file'])
         
+    print(f"Build vocabulary and save it to >{config['vocabulary_file']}<")
     ## build vocabulary list from set and save
     vocab_list = list(vocab)
     pickle_lib.save_to_pickle_file(vocab_list, config['vocabulary_file'])
     
     ## save max-seq-length
+    print(f"Saving max-sequence-length to >{config['max_seq_length_file']}<")
     pickle_lib.save_to_pickle_file(seq_length, config['max_seq_length_file'])
     
     ### transform dataset ret-types to ints
+    print(f"Transform return-type to int and save to >{config['tfrecord_save_dir']}<")
     trans_ds = list()
     for file in pickle_files:
         cont = pickle_lib.get_pickle_file_content(config['save_dir'] + file)
@@ -412,14 +417,15 @@ def main():
     
     
     
+    print("Splitting dataset to train,val,test")
     tfrecord_lib.split_to_train_val_test(config['tfrecord_save_dir'])
     
     
-    
-    for counter in all_ret_types:
-        if counter > 0:
-            print(f'disassemblies saved >{counter}<')
-            break
+    print("Done. Run build_caller_callee_model.py now")
+#     for counter in all_ret_types:
+#         if counter > 0:
+#             print(f'disassemblies saved >{counter}<')
+#             break
     
     
 if __name__ == "__main__":
