@@ -375,7 +375,7 @@ def main():
     pickle_count = len(pickle_files)
     
     for file in pickle_files:
-        print(f'File >{counter}/{pickle_count}<', end='\r')
+        print(f'File >{file}< >{counter}/{pickle_count}<', end='\r')
         counter += 1
         cont = pickle_lib.get_pickle_file_content(config['save_dir'] + file)
         for item in cont:
@@ -415,7 +415,7 @@ def main():
     trans_ds = list()
     counter = 1
     for file in pickle_files:
-        print(f'File >{counter}/{pickle_count}<', end='\r')
+        print(f'File >{file}< >{counter}/{pickle_count}<', end='\r')
         counter += 1
         cont = pickle_lib.get_pickle_file_content(config['save_dir'] + file)
         for item in cont:
