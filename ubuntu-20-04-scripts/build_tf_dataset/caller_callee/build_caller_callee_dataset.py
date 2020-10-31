@@ -7,6 +7,9 @@ from datetime import datetime
 from multiprocessing import Pool
 import getopt
 from itertools import repeat
+import psutil
+
+
 sys.path.append('../../lib/')
 import return_type_lib
 import common_stuff_lib
@@ -15,7 +18,6 @@ import pickle_lib
 import disassembly_lib
 #import tfrecord_lib
 
-nr_of_cpus = 16
 
 
 
@@ -343,7 +345,9 @@ def main():
     check_if_dir_exists(config['save_dir'])
     check_if_dir_exists(config['tfrecord_save_dir'])
     
-     
+    nr_of_cpus = psutil.cpu_count(logical=True)
+    print(f'We got nr_of_cpus >{nr_of_cpus}<')
+    
     ### get all pickle files
     #pickle_files = get_all_tar_filenames(config['pickle_dir'])
     pickle_files = common_stuff_lib.get_all_filenames_of_type(config['pickle_dir'], '.tar.bz2')

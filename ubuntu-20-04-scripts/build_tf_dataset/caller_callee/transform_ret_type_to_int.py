@@ -7,6 +7,9 @@ from datetime import datetime
 from multiprocessing import Pool
 import getopt
 from itertools import repeat
+import psutil
+
+
 sys.path.append('../../lib/')
 import return_type_lib
 import common_stuff_lib
@@ -113,7 +116,7 @@ def check_config(config):
         print(f"No ret-type-dict file >{config['return_type_dict_file']}<")
         exit()
          
-nr_of_cpus = 16
+
 
 def main():
     config = parseArgs()
@@ -121,6 +124,9 @@ def main():
     check_config(config)
     
     print(f'config >{config}<')
+    
+    nr_of_cpus = psutil.cpu_count(logical=True)
+    print(f'We got nr_of_cpus >{nr_of_cpus}<')
 
     ##load ret-type dict
     ret_type_dict = pickle_lib.get_pickle_file_content(config['return_type_dict_file'])
