@@ -6,6 +6,8 @@ Dont forget / after paths
 
 3. transform_ret_type_to_int.py -s=/home/user/save_dir/
 
-4. split_dataset_to_train_val_test.py
+4. split_dataset_to_train_val_test.py -s=/home/user/save_dir/
 
-5. build_caller_callee_model.py
+
+##modify path in file till now
+5. build_caller_callee_model.py -s=/home/user/save_dir/
