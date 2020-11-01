@@ -271,7 +271,7 @@ def proc_build(tarbz2_file, work_dir, save_dir, config):
                                     
                                     ###for debugging, what string is still unknown ?? should show nothing
                                     if return_type == 'unknown':
-                                        print(f'string_before_func_name: {string_before_func_name}')
+                                        print(f'string_before_func_name: {return_type_func_sign}')
                                      
                                     if return_type == 'unknown':
                                         #print('unknown found')
