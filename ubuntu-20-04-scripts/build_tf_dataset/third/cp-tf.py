@@ -13,7 +13,7 @@ def main():
     files = os.listdir("/home/infloflo/test/save_dir/")
     
     for file in files:
-        os.remove("/home/infloflo/tmptest/" + file)
+        os.remove("/home/infloflo/tmptest/" + file.replace('.pickle', '.pickle.tar.bz2'))
         print(f'file >{file}<')
 #         src_file = "/home/infloflo/test/save_dir/" + file.replace('.tfrecord', '.pickle')
 #         print(f'src_file >{src_file}<')
