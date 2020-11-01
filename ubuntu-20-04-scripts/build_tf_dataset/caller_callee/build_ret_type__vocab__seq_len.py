@@ -20,13 +20,11 @@ import disassembly_lib
 
 
 def parseArgs():
-    short_opts = 'hp:s:w:t:r:m:v:f:'
-    long_opts = ['pickle-dir=', 'work-dir=', 'save-dir=', 'save-file-type=', 
+    short_opts = 'hs:t:r:m:v:f:'
+    long_opts = ['save-dir=', 'save-file-type=', 
                  'return-type-dict-file', 'max-seq-length-file=', 'vocab-file=', 'tfrecord-save-dir=']
     config = dict()
-    
-    config['pickle_dir'] = ''
-    config['work_dir'] = ''
+
     config['save_dir'] = ''
     config['save_file_type'] = ''
     config['return_type_dict_file'] = ''
@@ -42,12 +40,7 @@ def parseArgs():
         exit()
     
     for option_key, option_value in args:
-        if option_key in ('-p', '--pickle-dir'):
-            print(f'found p')
-            config['pickle_dir'] = option_value[1:]
-        elif option_key in ('-w', '--work-dir'):
-            config['work_dir'] = option_value[1:]
-        elif option_key in ('-s', '--save-dir'):
+        if option_key in ('-s', '--save-dir'):
             config['save_dir'] = option_value[1:]
         elif option_key in ('-t', '--save-file-type'):
             config['save_file_type'] = option_value[1:]
@@ -60,14 +53,9 @@ def parseArgs():
         elif option_key in ('-f', '--tfrecord-save-dir'):
             config['tfrecord_save_dir'] = option_value[1:]
         elif option_key in ('-h'):
-            print(f'<optional> -p or --pickle-dir The directory with disassemblies,etc. Default: ubuntu-20-04-pickles')
-            print(f'<optional> -w or --work-dir   The directory where we e.g. untar,etc. Default: /tmp/work_dir/')
-            print(f'<optional> -s or --save-dir   The directory where we save dataset.  Default: /tmp/save_dir')
+            print(f'<optional> -s or --save-dir   The directory where we get the dataset from.  Default: /tmp/save_dir')
             
-    if config['pickle_dir'] == '':
-        config['pickle_dir'] = '../../../ubuntu-20-04-pickles'
-    if config['work_dir'] == '':
-        config['work_dir'] = '/tmp/work_dir/'
+
     if config['save_dir'] == '':
         config['save_dir'] = '/tmp/save_dir/'
     if config['save_file_type'] == '':

@@ -368,81 +368,10 @@ def main():
     all_ret_types = p.starmap(proc_build, star_list)
     p.close()
     p.join()
-    
-    
-    
-#     ## build return type dict-file and max-seq-length-file and vocabulary
-#     pickle_files = common_stuff_lib.get_all_filenames_of_type(config['save_dir'], '.pickle')
-#     print(f'pickle-files >{pickle_files}<')
-#     
-#     print(f'Building return-type dict, vocabulary and max-squenece-length')
-#     ret_set = set()
-#     vocab = set()
-#     seq_length = 0
-#     counter = 1
-#     pickle_count = len(pickle_files)
-#     
-#     for file in pickle_files:
-#         print(f'File >{file}< >{counter}/{pickle_count}<', end='\r')
-#         counter += 1
-#         cont = pickle_lib.get_pickle_file_content(config['save_dir'] + file)
-#         for item in cont:
-#             #print(f'item-1 >{item[1]}<')
-#             ## build ret-type-dict
-#             ret_set.add(item[1])
-#             
-#             ##build max-seq-length
-#             if len(item[0]) > seq_length:
-#                 seq_length = len(item[0])
-#                 
-#             ## build vocabulary
-#             for word in item[0].split():
-#                 vocab.add(word)
-#         
-#     print(f"Build return-type dict and save it to >{config['return_type_dict_file']}<")        
-#     ## build ret-type-dict and save
-#     ret_type_dict = dict()
-#     counter = 0
-#     for elem in ret_set:
-#         ret_type_dict[elem] = counter
-#         counter += 1
-#     
-#     pickle_lib.save_to_pickle_file(ret_type_dict, config['return_type_dict_file'])
-#         
-#     print(f"Build vocabulary and save it to >{config['vocabulary_file']}<")
-#     ## build vocabulary list from set and save
-#     vocab_list = list(vocab)
-#     pickle_lib.save_to_pickle_file(vocab_list, config['vocabulary_file'])
-#     
-#     ## save max-seq-length
-#     print(f"Saving max-sequence-length to >{config['max_seq_length_file']}<")
-#     pickle_lib.save_to_pickle_file(seq_length, config['max_seq_length_file'])
-    
-#     ### transform dataset ret-types to ints
-#     print(f"Transform return-type to int and save to >{config['tfrecord_save_dir']}<")
-#     trans_ds = list()
-#     counter = 1
-#     for file in pickle_files:
-#         print(f'Transform File >{file}< >{counter}/{pickle_count}<', end='\r')
-#         counter += 1
-#         cont = pickle_lib.get_pickle_file_content(config['save_dir'] + file)
-#         for item in cont:
-#             trans_ds.append( (item[0], ret_type_dict[item[1]]) )
-#             
-#         tfrecord_lib.save_caller_callee_to_tfrecord(trans_ds, config['tfrecord_save_dir'] + file.replace('.pickle', '.tfrecord'))
-#     
-    
-    
-#     print("Splitting dataset to train,val,test")
-#     tfrecord_lib.split_to_train_val_test(config['tfrecord_save_dir'])
-    
+      
     
     print("Done. Run build_ret_type__vocab__seq_len.py next")
-#     for counter in all_ret_types:
-#         if counter > 0:
-#             print(f'disassemblies saved >{counter}<')
-#             break
-    
+
     
 if __name__ == "__main__":
     main()
