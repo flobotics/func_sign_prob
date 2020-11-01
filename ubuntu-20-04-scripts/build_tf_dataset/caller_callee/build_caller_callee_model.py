@@ -219,6 +219,7 @@ def main():
     text_ds = text_ds.concatenate(tmp_ds)
     print(f'text_ds element_spec >{text_ds.element_spec}<')
     
+    print(f'Adapt text to TextVectorization layer, this takes time :(')
     #text_ds = text_ds.apply(tf.data.experimental.unique())
     vectorize_layer.adapt(text_ds.batch(64))
     
