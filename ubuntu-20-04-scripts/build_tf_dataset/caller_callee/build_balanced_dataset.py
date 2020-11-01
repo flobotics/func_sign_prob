@@ -122,8 +122,8 @@ def main():
     p = Pool(nr_of_cpus)
     
     
-    pickle_files = [config['save_dir'] + "/" + f for f in pickle_files]
-    star_list = zip(pickle_files, repeat(ret_type_dict), repeat(config))
+    pickle_files_save_dir = [config['save_dir'] + "/" + f for f in pickle_files]
+    star_list = zip(pickle_files_save_dir, repeat(ret_type_dict), repeat(config))
     all_ret_types = p.starmap(proc_count, star_list)
     p.close()
     p.join()
@@ -140,7 +140,21 @@ def main():
             #print(f"counts_dict[counts_dict_key] >{counts_dict[counts_dict_key]}<")
             ret_type_counter[counts_dict_key]  += counts_dict[counts_dict_key]
         
-    print(f"All counts >{ret_type_counter}<")
+    print(f"The counts of every return type >{ret_type_counter}<")
+    
+    ### filter all that >= 10
+    minimum_ret_type_count = 10
+    ret_type_counter_filtered = dict()
+    for key in ret_type_dict:
+        if ret_type_counter[key] >= minimum_ret_type_count:
+            ret_type_counter_filtered[key] = ret_type_counter[key]
+            
+    print(f"The filtered counts of every return type >{ret_type_counter_filtered}<")
+    
+    ### now select minimum_ret_type_count disassemblies,labels from 
+    ### every return type that is possible (got so many minimum_ret_type_count)
+    for file in pickle_files:
+        cont = pickle_lib.get_pickle_file_content(file)
     
     
     
