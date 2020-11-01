@@ -16,7 +16,8 @@ def main():
     files = common_stuff_lib.get_all_filenames_of_type("/home/infloflo/test/save_dir/", '.pickle')
     
     for file in files:
-        os.remove("/home/infloflo/tmptest/" + file.replace('.pickle', '.pickle.tar.bz2'))
+        if os.path.isfile("/home/infloflo/tmptest/" + file.replace('.pickle', '.pickle.tar.bz2')):
+            os.remove("/home/infloflo/tmptest/" + file.replace('.pickle', '.pickle.tar.bz2'))
         print(f'file >{file}<')
 #         src_file = "/home/infloflo/test/save_dir/" + file.replace('.tfrecord', '.pickle')
 #         print(f'src_file >{src_file}<')
