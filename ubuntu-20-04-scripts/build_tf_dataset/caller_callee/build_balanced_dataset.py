@@ -90,19 +90,29 @@ def parseArgs():
     
 
 def proc_count(file, ret_type_dict, config):
-    ret_type_set = dict()
+    #ret_type_dict => 'char' = 0   'int' = 1
     
+    ## build count dict
+    ret_type_count = dict()
+    nr = 0
+    for key in ret_type_dict:
+        ret_type_count[key] = 0
+        
+    ##count
     cont = pickle_lib.get_pickle_file_content(file)
     for item in cont:
-        if not ret_type_set[item[1]]:
-            ret_type_set[item[1]] = 0
-        else:
-            ret_type_set[item[1]] = 0
+        ret_type_count[item[1]] = ret_type_count[item[1]] + 1
             
-            
+    #print(f"Counter >{ret_type_count}<")
+    
+    return ret_type_count
+      
 
 def main():
     config = parseArgs()
+    
+    nr_of_cpus = psutil.cpu_count(logical=True)
+    print(f'We got nr_of_cpus >{nr_of_cpus}<')
     
     ret_type_dict = pickle_lib.get_pickle_file_content(config['return_type_dict_file'])
     
@@ -117,6 +127,20 @@ def main():
     all_ret_types = p.starmap(proc_count, star_list)
     p.close()
     p.join()
+    
+    ## build count dict
+    ret_type_counter = dict()
+    nr = 0
+    for key in ret_type_dict:
+        ret_type_counter[key] = 0
+        
+    for counts_dict in all_ret_types:
+        #print(f"counts_dict >{counts_dict}<")
+        for counts_dict_key in counts_dict:
+            #print(f"counts_dict[counts_dict_key] >{counts_dict[counts_dict_key]}<")
+            ret_type_counter[counts_dict_key]  += counts_dict[counts_dict_key]
+        
+    print(f"All counts >{ret_type_counter}<")
     
     
     
