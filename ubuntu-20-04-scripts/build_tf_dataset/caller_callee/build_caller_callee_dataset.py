@@ -103,84 +103,84 @@ def parseArgs():
     
         
    
-def dis_split(dis):
-    dis_list = list()
-        
-    for line in dis.split('\t'):
-        #print(f'One line-----------')
-        #print(f'line: >{line}<')
-        
-        line = line.replace('(', ' ( ')
-        line = line.replace(')', ' ) ')
-        line = line.replace('%', ' % ')
-        line = line.replace(',', ' , ')
-        line = line.replace('$', ' $ ')
-        line = line.replace('*', ' * ')
-        line = line.replace('<', ' < ')
-        line = line.replace('>', ' > ')
-        line = line.replace('+', ' + ')
-        line = line.replace('@', ' @ ')
-        line = line.replace(':', ' : ')
-        #print(f'line after giving space: >{line}<')
-        
-        new_line = ''
-        for item in line.split():
-            #print(f'One item of one line >{item}<')
-            ## check if we got a hex nr with chars
-            new_item = ''
-            if (len(item) >= 2) and item[0] == '0' and item[1] == 'x':
-                #print(f'Found Hex >{item}<, split it into single numbers and chars')
-                for c in item:
-                    ### replace '0' with 'null'  ,for textVectorize where '0' is masked-value
-                    if c == '0':
-                        c = 'null'
-                    new_item = new_item + c + ' '
-                    
-                #print(f'Split hex to >{new_item}<')
-            else:
-                #print(f'No hex found, check for nr')
-                length = len(item)
-                #print(f'length >{length}<')
-                if length > 1:
-                    for c in item:
-                        if str.isnumeric(c):
-                            ### replace '0' with 'null'  ,for textVectorize where '0' is masked-value
-                            if c == '0':
-                                c = 'null'
-                            new_item = new_item + c + ' '
-                        else:
-                            new_item = new_item + c
-                    
-#                         for i in range(length):
-#                             if isnumeric(item[i]):
-#                                 c = item[i]
-#                                 new_item = new_item + c + ' '
-#                                 #print(f'Found number >{item[i]}< new_item >{new_item}<')
-#                             else:
-#                                 new_item = new_item + c
-#                                 #print(f'No number >{item[i]}<  new_item >{new_item}<')
-                else:
-                    new_item = item
-        
-            ### add ' ' ,so that in next line it got a space between the strings for new_line
-            if not new_item.endswith(' '):
-                new_item = new_item + ' '
-            #print(f'old item >{item}< new_item: >{new_item}<')        
-            
-            
-            new_line = new_line + new_item
-         
-        #print(f'new_line >{new_line}<')   
-               
-
-        #exit()         
-        dis_list.append(new_line)
-    
-    
-    #print(f'Full disas: >{dis_list}<')
-    dis_str = ' '.join(dis_list)   
-    
-    return dis_str
+# def dis_split(dis):
+#     dis_list = list()
+#         
+#     for line in dis.split('\t'):
+#         #print(f'One line-----------')
+#         #print(f'line: >{line}<')
+#         
+#         line = line.replace('(', ' ( ')
+#         line = line.replace(')', ' ) ')
+#         line = line.replace('%', ' % ')
+#         line = line.replace(',', ' , ')
+#         line = line.replace('$', ' $ ')
+#         line = line.replace('*', ' * ')
+#         line = line.replace('<', ' < ')
+#         line = line.replace('>', ' > ')
+#         line = line.replace('+', ' + ')
+#         line = line.replace('@', ' @ ')
+#         line = line.replace(':', ' : ')
+#         #print(f'line after giving space: >{line}<')
+#         
+#         new_line = ''
+#         for item in line.split():
+#             #print(f'One item of one line >{item}<')
+#             ## check if we got a hex nr with chars
+#             new_item = ''
+#             if (len(item) >= 2) and item[0] == '0' and item[1] == 'x':
+#                 #print(f'Found Hex >{item}<, split it into single numbers and chars')
+#                 for c in item:
+#                     ### replace '0' with 'null'  ,for textVectorize where '0' is masked-value
+#                     if c == '0':
+#                         c = 'null'
+#                     new_item = new_item + c + ' '
+#                     
+#                 #print(f'Split hex to >{new_item}<')
+#             else:
+#                 #print(f'No hex found, check for nr')
+#                 length = len(item)
+#                 #print(f'length >{length}<')
+#                 if length > 1:
+#                     for c in item:
+#                         if str.isnumeric(c):
+#                             ### replace '0' with 'null'  ,for textVectorize where '0' is masked-value
+#                             if c == '0':
+#                                 c = 'null'
+#                             new_item = new_item + c + ' '
+#                         else:
+#                             new_item = new_item + c
+#                     
+# #                         for i in range(length):
+# #                             if isnumeric(item[i]):
+# #                                 c = item[i]
+# #                                 new_item = new_item + c + ' '
+# #                                 #print(f'Found number >{item[i]}< new_item >{new_item}<')
+# #                             else:
+# #                                 new_item = new_item + c
+# #                                 #print(f'No number >{item[i]}<  new_item >{new_item}<')
+#                 else:
+#                     new_item = item
+#         
+#             ### add ' ' ,so that in next line it got a space between the strings for new_line
+#             if not new_item.endswith(' '):
+#                 new_item = new_item + ' '
+#             #print(f'old item >{item}< new_item: >{new_item}<')        
+#             
+#             
+#             new_line = new_line + new_item
+#          
+#         #print(f'new_line >{new_line}<')   
+#                
+# 
+#         #exit()         
+#         dis_list.append(new_line)
+#     
+#     
+#     #print(f'Full disas: >{dis_list}<')
+#     dis_str = ' '.join(dis_list)   
+#     
+#     return dis_str
 
 
 def serialize_example(feature0, feature1):

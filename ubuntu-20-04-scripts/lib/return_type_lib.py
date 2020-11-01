@@ -278,7 +278,7 @@ def get_return_type_from_gdb_ptype(gdb_ptype):
                 return ret   
             
             print(f'---No return type found with braket-sign in it')
-            print(f'front_str: {front_str}')
+            #print(f'front_str: {front_str}')
             return 'unknown'
         
             
