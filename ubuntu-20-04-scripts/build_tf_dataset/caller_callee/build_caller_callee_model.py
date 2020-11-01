@@ -209,7 +209,7 @@ def main():
     #vectorize_layer.set_vocabulary(vocabulary)
     
     #vocab = vectorize_layer.get_vocabulary()
-    print(f'10 vocab words >{vocab[:10]}<')
+    #print(f'10 vocab words >{vocab[:10]}<')
     
     
     text_ds = train_dataset.map(lambda x, y: x, num_parallel_calls=AUTOTUNE)
