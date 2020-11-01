@@ -143,15 +143,18 @@ def split_disassembly(dis):
 def clean_att_disassembly_from_comment(att_disassembly):
     cleaned = list()
     
+    #print(f"length disassembly >{len(att_disassembly)}<")
+    #print(att_disassembly)
+    
     for dis_line in att_disassembly:
         #if 'ako' in dis_line:
-        #    print(f'dis_line:{dis_line}')
+        #print(f'dis_line >{dis_line}<')
+        
         dis_line_parts = dis_line.split('\t')
-        if len(dis_line_parts) != 2:
-            print(f'len:{len(dis_line_parts)}')
-        #if 'ako' in dis_line:
-        #   print(f'dis_line_parts:{dis_line_parts}')
-            
+        if len(dis_line_parts) < 2:
+            #print(f'len:{len(dis_line_parts)} dis_line_parts >{dis_line_parts}<')
+            return cleaned
+             
         dis_line_front = dis_line_parts[1]
             
         
