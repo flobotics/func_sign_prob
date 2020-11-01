@@ -10,7 +10,8 @@ from itertools import repeat
 
 
 def main():
-    files = os.listdir("/home/infloflo/test/save_dir/")
+    #files = os.listdir("/home/infloflo/test/save_dir/")
+    files = get_all_filenames_of_type("/home/infloflo/test/save_dir/", '.pickle'):
     
     for file in files:
         os.remove("/home/infloflo/tmptest/" + file.replace('.pickle', '.pickle.tar.bz2'))
