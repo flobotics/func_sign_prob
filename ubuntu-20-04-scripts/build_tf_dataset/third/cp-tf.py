@@ -8,10 +8,12 @@ from multiprocessing import Pool
 import getopt
 from itertools import repeat
 
+sys.path.append('../../lib/')
+import common_stuff_lib
 
 def main():
     #files = os.listdir("/home/infloflo/test/save_dir/")
-    files = get_all_filenames_of_type("/home/infloflo/test/save_dir/", '.pickle'):
+    files = get_all_filenames_of_type("/home/infloflo/test/save_dir/", '.pickle')
     
     for file in files:
         os.remove("/home/infloflo/tmptest/" + file.replace('.pickle', '.pickle.tar.bz2'))
