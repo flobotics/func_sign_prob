@@ -206,9 +206,9 @@ def main():
 #                                     output_mode='int',
 #                                     output_sequence_length=max_seq_length)
     
-    vectorize_layer.set_vocabulary(vocabulary)
+    #vectorize_layer.set_vocabulary(vocabulary)
     
-    vocab = vectorize_layer.get_vocabulary()
+    #vocab = vectorize_layer.get_vocabulary()
     print(f'10 vocab words >{vocab[:10]}<')
     
     
