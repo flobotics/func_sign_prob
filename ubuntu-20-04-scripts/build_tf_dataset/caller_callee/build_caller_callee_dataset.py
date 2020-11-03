@@ -252,7 +252,7 @@ def proc_build(tarbz2_file, work_dir, save_dir, config):
                 if elem[7] == bin and elem[2] == func:
                     ## get att disassembly
                     att_dis = elem[4]
-                    print(f'att-dis >{att_dis}<')
+                    #print(f'att-dis >{att_dis}<')
                     ## check every line if there is a call
                     for item in att_dis:
                         ## find call in disas
@@ -286,7 +286,7 @@ def proc_build(tarbz2_file, work_dir, save_dir, config):
                                     elif return_type == 'process_further':
                                         print(f'ERRROOOORRRR---------------')
                                     else:
-                                            
+                                        print(f'att-dis >{att_dis}<')   
                                         att_dis = disassembly_lib.clean_att_disassembly_from_comment(att_dis)
                                         callee_dis = disassembly_lib.clean_att_disassembly_from_comment(elem2[4])
                                         
