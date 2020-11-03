@@ -286,10 +286,10 @@ def proc_build(tarbz2_file, work_dir, save_dir, config):
                                     elif return_type == 'process_further':
                                         print(f'ERRROOOORRRR---------------')
                                     else:
-                                        print(f'att-dis >{att_dis}<')   
+                                           
                                         att_dis = disassembly_lib.clean_att_disassembly_from_comment(att_dis)
                                         callee_dis = disassembly_lib.clean_att_disassembly_from_comment(elem2[4])
-                                        
+                                        print(f'att-dis >{att_dis}<')
                                         
                                         dis1_str = ' '.join(att_dis)
                                         #dis2_str = ' '.join(elem2[4])
