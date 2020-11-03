@@ -90,7 +90,7 @@ def main():
     print("Splitting dataset to train,val,test")
     tfrecord_lib.split_to_train_val_test(config['tfrecord_save_dir']) 
     
-    print("Done. Run build_caller_callee_model.py next")
+    print("Done. Run train_caller_callee_model.py next")
     
     
 
