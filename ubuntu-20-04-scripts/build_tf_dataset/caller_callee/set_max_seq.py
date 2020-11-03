@@ -18,4 +18,4 @@ import disassembly_lib
 #import tfrecord_lib
 
 a = 100000
-pickle_lib.save_to_pickle_file(a,"/home/infloflo/test/save_dir2/tfrecord/max_sequence_length.pickle")
+pickle_lib.save_to_pickle_file(a,"/home/infloflo/test2/save_dir/tfrecord/max_seq_length.pickle")
