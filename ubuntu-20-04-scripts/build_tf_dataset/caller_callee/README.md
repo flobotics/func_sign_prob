@@ -10,4 +10,4 @@ Dont forget / after paths
 
 
 ##modify path in file till now
-5. build_caller_callee_model.py -s=/home/user/save_dir/
+5. train_caller_callee_model.py -s=/home/user/save_dir/
