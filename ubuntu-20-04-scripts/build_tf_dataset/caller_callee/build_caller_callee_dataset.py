@@ -287,10 +287,10 @@ def proc_build(tarbz2_file, work_dir, save_dir, config):
                                         print(f'ERRROOOORRRR---------------')
                                     else:
                                         tmp_att_dis = att_dis
-                                        print(f'len att-dis 1 >{len(tmp_att_dis)}<')
+                                        #print(f'len att-dis 1 >{len(tmp_att_dis)}<')
                                         tmp_att_dis = disassembly_lib.clean_att_disassembly_from_comment(tmp_att_dis)
                                         callee_dis = disassembly_lib.clean_att_disassembly_from_comment(elem2[4])
-                                        print(f'len att-dis 1 >{len(tmp_att_dis)}<')
+                                        #print(f'len att-dis 1 >{len(tmp_att_dis)}<')
                                         #print(f'att-dis >{tmp_att_dis}<')
                                         
                                         dis1_str = ' '.join(tmp_att_dis)
@@ -302,7 +302,7 @@ def proc_build(tarbz2_file, work_dir, save_dir, config):
                                         #dis1_str = dis_split(dis1_str)
                                         #dis2_str = dis_split(dis2_str)
                                         
-                                        if (len(dis1_str) > 100000) or (len(dis2_str) > 100000) or (len(dis1_str) < 10) or (len(dis2_str) < 10):
+                                        if (len(dis1_str) > 100000) or (len(dis2_str) > 100000) or (len(dis1_str) < 1) or (len(dis2_str) < 1):
                                             print(f'dis1_str >{len(dis1_str)}<')
                                             print(f'dis2_str >{len(dis2_str)}<')
                                             
