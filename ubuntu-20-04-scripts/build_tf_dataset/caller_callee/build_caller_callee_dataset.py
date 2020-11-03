@@ -302,13 +302,15 @@ def proc_build(tarbz2_file, work_dir, save_dir, config):
                                         if (len(dis1_str) > 100000) or (len(dis2_str) > 100000):
                                             print(f'dis1_str >{len(dis1_str)}<')
                                             print(f'dis2_str >{len(dis2_str)}<')
-                                        
-                                        dis_str = dis1_str + dis2_str
                                             
-                                        #print(f'dis_str >{dis_str}<')
-                                    
-                                        dataset_list.append((dis_str, return_type))
-                                        counter += 1
+                                        else:
+                                            dis_str = dis1_str + dis2_str
+                                                
+                                            #print(f'dis_str >{dis_str}<')
+                                        
+                                            dataset_list.append((dis_str, return_type))
+                                            counter += 1
+                                            
                                         break
                   
            
