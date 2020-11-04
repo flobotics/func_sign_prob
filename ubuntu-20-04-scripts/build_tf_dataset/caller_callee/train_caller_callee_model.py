@@ -72,7 +72,7 @@ def parseArgs():
     if config['tensorboard_log_dir'] == '':
         config['tensorboard_log_dir'] = config['save_dir'] + 'tensorboard_logs/'
     if config['checkpoint_dir'] == '':
-        config['checkpoint_dir'] = config['tensorboard_log_dir'] + 'checkpoint/' ##need to be in base-dir for projector to work
+        config['checkpoint_dir'] = config['tensorboard_log_dir'] + 'caller_callee_checkpoint' ##need to be in base-dir for projector to work
     if config['save_model_dir'] == '':
         config['save_model_dir'] = config['tensorboard_log_dir'] +  'saved_model/'
     if config['trained_word_embeddings_dir'] == '':
