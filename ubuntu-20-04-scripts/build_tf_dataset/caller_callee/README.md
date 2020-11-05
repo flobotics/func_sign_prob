@@ -26,3 +26,9 @@ Accuracy:  0.4544600546360016
 Saving trained word embeddings (meta.tsv,vecs.tsv) (usable in tensorboard->Projector)
 10 vocab words >['', '[UNK]', '%', 'null', ',', 'x', '1', '(', ')', 'mov']<
 Shape of the weigths >(1464, 8)<
+
+
+![scalars](../../pictures/caller_callee/tb_scalars.png)
+![histograms](../../pictures/caller_callee/tb_histograms.png)
+![distributions](../../pictures/caller_callee/tb_distributions.png)
+![projector](../../pictures/caller_callee/tb_projector.png)

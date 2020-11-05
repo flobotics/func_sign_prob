@@ -116,7 +116,7 @@ def configure_for_performance(ds):
   return ds
   
 
-def save_trained_word_embeddings(model, trained_word_embeddings_dir, vectorize_layer):
+def save_trained_word_embeddings(model, trained_word_embeddings_dir, vectorize_layer, embedding_dim):
     vecs_filename = trained_word_embeddings_dir + "vectors.tsv"
     meta_filename = trained_word_embeddings_dir + "metadata.tsv"
     
@@ -125,29 +125,47 @@ def save_trained_word_embeddings(model, trained_word_embeddings_dir, vectorize_l
     
     # Get weights matrix of layer named 'embedding'
     weights = model.get_layer('embedding').get_weights()[0]
-    print(f'Shape of the weigths >{weights.shape}<') 
+    #print(f'Shape of the weigths >{weights.shape}<') 
     
     if not os.path.isdir(trained_word_embeddings_dir):
         os.mkdir(trained_word_embeddings_dir)
     out_v = open(vecs_filename, 'w+', encoding='utf-8')
     out_m = open(meta_filename, 'w+', encoding='utf-8')
     
-    print(f'len vocab of vectorize_layer.get_vocabulary() >{len(vocab)}<')
+    #print(f'len vocab of vectorize_layer.get_vocabulary() >{len(vocab)}<')
     
-    print(f'Building vectors.tsv file')
+    
+    ###error 2 lines to less for nr-of-tensors
+#     for index, word in enumerate(vocab):
+#         if index == 0: continue # skip 0, it's padding.
+#         vec = weights[index] 
+#         out_v.write('\t'.join([str(x) for x in vec]) + "\n")
+#         out_m.write(word + "\n")
+#             
+#     out_v.close()
+#     out_m.close()
+
+    
+    
+    print(f'Building vectors.tsv file, use tensorboard->projector with chromium-browser')
     out_m.write('unknown1\n')
     for num, word in enumerate(vocab):
         if num == 0: continue # skip padding token from vocab
         out_m.write(word + "\n")
-    
-    #out_m.write('unknown #2' + "\n")
-    #out_m.write('unknown #3' + "\n")
-        
-    
-    print(f'len weights >{len(weights)}<')
-    print(f'Building metadata.tsv file')
+         
+     
+    #print(f'len weights >{len(weights)}<')
+    print(f'Building metadata.tsv file, use tensorboard->projector with chromium-browser')
     ##write header ?
-    out_v.write('weight1\tweight2\tweight3\tweigth4\tweigth5\tweigth6\tweigth7\tweigth8\n')
+    out_str = ''
+    for dim in range(embedding_dim):
+        if dim == (embedding_dim - 1):
+            out_str += 'weight' + str(dim) + '\n'
+        else:
+            out_str += 'weight' + str(dim) + '\t'
+        
+    out_v.write(out_str)
+    #out_v.write('weight1\tweight2\tweight3\tweigth4\tweigth5\tweigth6\tweigth7\tweigth8\n')
     #out_v.write('\t\n')
     n = 1
     for vec in weights:
@@ -155,7 +173,7 @@ def save_trained_word_embeddings(model, trained_word_embeddings_dir, vectorize_l
             n = 1
         else:
             out_v.write('\t'.join([str(x) for x in vec]) + "\n")
-        
+         
     out_v.close()
     out_m.close()
 
@@ -167,7 +185,7 @@ vocabulary = pickle_lib.get_pickle_file_content('/tmp/save_dir/' + 'tfrecord/' +
 max_seq_length = pickle_lib.get_pickle_file_content('/tmp/save_dir/' + 'tfrecord/' + 'max_seq_length.pickle')
 print(f'len-vocab-from-file >{len(vocabulary)}<')
 vectorize_layer = TextVectorization(standardize=None,
-                                    max_tokens=len(vocabulary)+1,
+                                    max_tokens=len(vocabulary)+2,
                                     output_mode='int',
                                     output_sequence_length=max_seq_length)
 
@@ -261,7 +279,7 @@ def main():
 #                                     tf.keras.layers.Dropout(0.2),
 #                                     tf.keras.layers.Dense(len(return_type_dict))])
 
-    model = tf.keras.Sequential([ tf.keras.layers.Embedding(len(vocabulary)+1, embedding_dim, mask_zero=True),
+    model = tf.keras.Sequential([ tf.keras.layers.Embedding(len(vocabulary)+2, embedding_dim, mask_zero=True),
                                     tf.keras.layers.Dropout(0.2),
                                     tf.keras.layers.GlobalAveragePooling1D(),
                                     tf.keras.layers.Dropout(0.2),
@@ -273,7 +291,8 @@ def main():
     tensorboard_callback = tf.keras.callbacks.TensorBoard(log_dir=config['tensorboard_log_dir'], 
                                                             histogram_freq=1, 
                                                             write_graph=False, 
-                                                            write_images=False)
+                                                            write_images=False,
+                                                            profile_batch='1,2')
                                                             
 
     model_checkpoint_callback = tf.keras.callbacks.ModelCheckpoint(filepath=config['checkpoint_dir'],
@@ -303,8 +322,9 @@ def main():
     print("Accuracy: ", accuracy)
 
     ### save trained word embeddings
-    print(f'Saving trained word embeddings (meta.tsv,vecs.tsv) (usable in tensorboard->Projector)')
-    save_trained_word_embeddings(model, config['trained_word_embeddings_dir'], vectorize_layer) 
+    print(f'Saving trained word embeddings (meta.tsv,vecs.tsv) \
+            (usable in tensorboard->Projector, use chromium-browser to see it correctly,firefox does not always work)')
+    save_trained_word_embeddings(model, config['trained_word_embeddings_dir'], vectorize_layer, embedding_dim) 
     
     
     
