@@ -117,8 +117,8 @@ def configure_for_performance(ds):
   
 
 def save_trained_word_embeddings(model, trained_word_embeddings_dir, vectorize_layer):
-    vecs_filename = trained_word_embeddings_dir + "vecs.tsv"
-    meta_filename = trained_word_embeddings_dir + "meta.tsv"
+    vecs_filename = trained_word_embeddings_dir + "vectors.tsv"
+    meta_filename = trained_word_embeddings_dir + "metadata.tsv"
     
     vocab = vectorize_layer.get_vocabulary()
     print(f'10 vocab words >{vocab[:10]}<')
@@ -129,26 +129,32 @@ def save_trained_word_embeddings(model, trained_word_embeddings_dir, vectorize_l
     
     if not os.path.isdir(trained_word_embeddings_dir):
         os.mkdir(trained_word_embeddings_dir)
-    out_v = open(vecs_filename, 'w+')
-    out_m = open(meta_filename, 'w+')
+    out_v = open(vecs_filename, 'w+', encoding='utf-8')
+    out_m = open(meta_filename, 'w+', encoding='utf-8')
     
     print(f'len vocab of vectorize_layer.get_vocabulary() >{len(vocab)}<')
     
-    print(f'Building vecs.tsv file')
+    print(f'Building vectors.tsv file')
+    out_m.write('unknown1\n')
     for num, word in enumerate(vocab):
         if num == 0: continue # skip padding token from vocab
         out_m.write(word + "\n")
-    out_m.write('unknown #1' + "\n")
+    
     #out_m.write('unknown #2' + "\n")
     #out_m.write('unknown #3' + "\n")
         
     
     print(f'len weights >{len(weights)}<')
-    print(f'Building meta.tsv file')
+    print(f'Building metadata.tsv file')
     ##write header ?
     out_v.write('weight1\tweight2\tweight3\tweigth4\tweigth5\tweigth6\tweigth7\tweigth8\n')
+    #out_v.write('\t\n')
+    n = 1
     for vec in weights:
-        out_v.write('\t'.join([str(x) for x in vec]) + "\n")
+        if n == 0:
+            n = 1
+        else:
+            out_v.write('\t'.join([str(x) for x in vec]) + "\n")
         
     out_v.close()
     out_m.close()
@@ -161,7 +167,7 @@ vocabulary = pickle_lib.get_pickle_file_content('/tmp/save_dir/' + 'tfrecord/' +
 max_seq_length = pickle_lib.get_pickle_file_content('/tmp/save_dir/' + 'tfrecord/' + 'max_seq_length.pickle')
 print(f'len-vocab-from-file >{len(vocabulary)}<')
 vectorize_layer = TextVectorization(standardize=None,
-                                    max_tokens=len(vocabulary)+2,
+                                    max_tokens=len(vocabulary)+1,
                                     output_mode='int',
                                     output_sequence_length=max_seq_length)
 
@@ -255,7 +261,7 @@ def main():
 #                                     tf.keras.layers.Dropout(0.2),
 #                                     tf.keras.layers.Dense(len(return_type_dict))])
 
-    model = tf.keras.Sequential([ tf.keras.layers.Embedding(len(vocabulary)+2, embedding_dim, mask_zero=True),
+    model = tf.keras.Sequential([ tf.keras.layers.Embedding(len(vocabulary)+1, embedding_dim, mask_zero=True),
                                     tf.keras.layers.Dropout(0.2),
                                     tf.keras.layers.GlobalAveragePooling1D(),
                                     tf.keras.layers.Dropout(0.2),
