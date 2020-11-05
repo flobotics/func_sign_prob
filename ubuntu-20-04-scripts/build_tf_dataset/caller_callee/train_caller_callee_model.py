@@ -132,15 +132,24 @@ def save_trained_word_embeddings(model, trained_word_embeddings_dir, vectorize_l
     out_v = open(vecs_filename, 'w+')
     out_m = open(meta_filename, 'w+')
     
-    print(f'len vocab-- >{len(vocab)}<')
+    print(f'len vocab of vectorize_layer.get_vocabulary() >{len(vocab)}<')
     
+    print(f'Building vecs.tsv file')
     for num, word in enumerate(vocab):
         if num == 0: continue # skip padding token from vocab
-        vec = weights[num]
-        #print(f'vec >{vec}<  word >{word}<')
         out_m.write(word + "\n")
+    out_m.write('unknown #1' + "\n")
+    #out_m.write('unknown #2' + "\n")
+    #out_m.write('unknown #3' + "\n")
+        
+    
+    print(f'len weights >{len(weights)}<')
+    print(f'Building meta.tsv file')
+    ##write header ?
+    out_v.write('weight1\tweight2\tweight3\tweigth4\tweigth5\tweigth6\tweigth7\tweigth8\n')
+    for vec in weights:
         out_v.write('\t'.join([str(x) for x in vec]) + "\n")
-        #break
+        
     out_v.close()
     out_m.close()
 
@@ -150,7 +159,7 @@ vocabulary = pickle_lib.get_pickle_file_content('/tmp/save_dir/' + 'tfrecord/' +
 
 ###load max-sequence-length 
 max_seq_length = pickle_lib.get_pickle_file_content('/tmp/save_dir/' + 'tfrecord/' + 'max_seq_length.pickle')
-
+print(f'len-vocab-from-file >{len(vocabulary)}<')
 vectorize_layer = TextVectorization(standardize=None,
                                     max_tokens=len(vocabulary)+2,
                                     output_mode='int',
