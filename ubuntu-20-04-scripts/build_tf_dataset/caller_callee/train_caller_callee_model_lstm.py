@@ -268,7 +268,7 @@ def main():
 
     
     
-    embedding_dim = 8
+    embedding_dim = 64
     
 #     model = tf.keras.Sequential([tf.keras.Input(shape=(1,), dtype=tf.string),
 #                                  vectorize_layer,
@@ -280,8 +280,8 @@ def main():
 #                                     tf.keras.layers.Dense(len(return_type_dict))])
 
     model = tf.keras.Sequential([ tf.keras.layers.Embedding(len(vocabulary)+2, embedding_dim, mask_zero=True),
-                                    tf.keras.layers.LSTM(embedding_dim, return_sequences=True),
-                                    tf.keras.layers.Dense(embedding_dim),
+                                    tf.keras.layers.LSTM(32, return_sequences=True),
+                                    tf.keras.layers.Dense(16),
                                     tf.keras.layers.Dense(len(return_type_dict))])
     
     model.summary()
