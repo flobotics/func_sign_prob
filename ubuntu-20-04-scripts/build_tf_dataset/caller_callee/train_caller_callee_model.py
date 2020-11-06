@@ -283,7 +283,7 @@ def main():
                                     tf.keras.layers.Dropout(0.2),
                                     tf.keras.layers.GlobalAveragePooling1D(),
                                     tf.keras.layers.Dropout(0.2),
-                                    tf.keras.layers.Dense(len(return_type_dict))])
+                                    tf.keras.layers.Dense(len(return_type_dict), activation='softmax')])
     
     model.summary()
     
