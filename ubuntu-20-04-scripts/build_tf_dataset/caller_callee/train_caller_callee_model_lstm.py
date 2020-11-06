@@ -281,7 +281,7 @@ def main():
 
     model = tf.keras.Sequential([ tf.keras.layers.Embedding(len(vocabulary)+2, embedding_dim, mask_zero=True),
                                     tf.keras.layers.LSTM(32, return_sequences=True),
-                                    tf.keras.layers.Dense(16),
+                                    tf.keras.layers.Dense(32),
                                     tf.keras.layers.Dense(len(return_type_dict))])
     
     model.summary()
