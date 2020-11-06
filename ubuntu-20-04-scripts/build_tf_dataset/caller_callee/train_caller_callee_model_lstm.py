@@ -280,7 +280,7 @@ def main():
 #                                     tf.keras.layers.Dense(len(return_type_dict))])
 
     model = tf.keras.Sequential([ tf.keras.layers.Embedding(len(vocabulary)+2, embedding_dim, mask_zero=True),
-                                    tf.keras.layers.Bidirectional(tf.keras.layers.LSTM(embedding_dim, return_sequences=True)),
+                                    tf.keras.layers.LSTM(embedding_dim),
                                     tf.keras.layers.Dropout(0.2),
                                     tf.keras.layers.GlobalAveragePooling1D(),
                                     tf.keras.layers.Dropout(0.2),
