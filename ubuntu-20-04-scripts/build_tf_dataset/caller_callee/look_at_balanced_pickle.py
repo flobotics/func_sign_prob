@@ -8,7 +8,6 @@ from multiprocessing import Pool
 import getopt
 from itertools import repeat
 import psutil
-from rsa import key
 
 
 sys.path.append('../../lib/')
@@ -18,9 +17,6 @@ import tarbz2_lib
 import pickle_lib
 import disassembly_lib
 #import tfrecord_lib
-
-
-
 
 
 
@@ -88,26 +84,10 @@ def parseArgs():
     
             
     return config
-    
 
-def proc_count(file, ret_type_dict, config):
-    #ret_type_dict => 'char' = 0   'int' = 1
-    
-    ## build count dict
-    ret_type_count = dict()
-    nr = 0
-    for key in ret_type_dict:
-        ret_type_count[key] = 0
-        
-    ##count
-    cont = pickle_lib.get_pickle_file_content(file)
-    for item in cont:
-        ret_type_count[item[1]] = ret_type_count[item[1]] + 1
-            
-    #print(f"Counter >{ret_type_count}<")
-    
-    return ret_type_count
-      
+
+
+
 
 def main():
     config = parseArgs()
@@ -115,69 +95,14 @@ def main():
     nr_of_cpus = psutil.cpu_count(logical=True)
     print(f'We got nr_of_cpus >{nr_of_cpus}<')
     
-    ret_type_dict = pickle_lib.get_pickle_file_content(config['return_type_dict_file'])
-    
-    ## get number of different return types
-    pickle_files = common_stuff_lib.get_all_filenames_of_type(config['save_dir'], '.pickle')
-    
-    p = Pool(nr_of_cpus)
-    
-    
-    pickle_files_save_dir = [config['save_dir'] + "/" + f for f in pickle_files]
-    star_list = zip(pickle_files_save_dir, repeat(ret_type_dict), repeat(config))
-    all_ret_types = p.starmap(proc_count, star_list)
-    p.close()
-    p.join()
-    
-    ## build count dict
-    ret_type_counter = dict()
-    nr = 0
-    for key in ret_type_dict:
-        ret_type_counter[key] = 0
-        
-    for counts_dict in all_ret_types:
-        #print(f"counts_dict >{counts_dict}<")
-        for counts_dict_key in counts_dict:
-            #print(f"counts_dict[counts_dict_key] >{counts_dict[counts_dict_key]}<")
-            ret_type_counter[counts_dict_key]  += counts_dict[counts_dict_key]
-        
-    print(f"The counts of every return type >{ret_type_counter}<")
-    
-    ### filter all that >= 10
-    minimum_ret_type_count = 10
-    ret_type_counter_filtered = dict()
-    for key in ret_type_dict:
-        if ret_type_counter[key] >= minimum_ret_type_count:
-            ret_type_counter_filtered[key] = ret_type_counter[key]
-            
-    print(f"The filtered counts (>10) of every return type >{ret_type_counter_filtered}<")
-    
-    ### now select minimum_ret_type_count disassemblies,labels from 
-    ### every return type that is possible (got so many minimum_ret_type_count)
-    ret_type_0 = list()
-    ret_type_dict = dict()
-    ## get first key, 
-    key0 = ''
-    for key in ret_type_counter_filtered:
-        print(f'key >{key}<')
-        key0 = key
-        ret_type_dict[key.replace(' ', '_')] = ''
-        break
-    
-    key0_counter = 0
-    for file in pickle_files:
-        cont = pickle_lib.get_pickle_file_content(config['save_dir'] + file)
-        for item in cont:
-            ## is the ret-type we found in our filtered list?
-            if ret_type_dictkey0 == item[1]:
-                print(f'got filtered ret-type')
-                if key0_counter < minimum_ret_type_count:
-                    ret_type_0.append( (item[0], item[1]) )
-                    key0_counter += 1
-    
-    ### save them
-    print(f'Save balanced dataset')
-    pickle_lib.save_to_pickle_file(ret_type_0, config['save_dir'] + '/balanced/' + 'ret_type_0.pickle')
+    cont = pickle_lib.get_pickle_file_content("/tmp/save_dir/balanced/ret_type_0.pickle")
+    for item in cont:
+        #print(f'item[0] >{item[0]}<  item[1] >{item[1]}<')
+        print(f'item[1] >{item[1]}<')
+
+
+
+
     
 if __name__ == "__main__":
     main()
