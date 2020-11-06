@@ -179,10 +179,10 @@ def save_trained_word_embeddings(model, trained_word_embeddings_dir, vectorize_l
 
 
 ###load vocabulary list
-vocabulary = pickle_lib.get_pickle_file_content('/home/infloflo/backup2/save_dir/' + 'tfrecord/' + 'vocabulary_list.pickle')
+vocabulary = pickle_lib.get_pickle_file_content('/tmp/save_dir/' + 'tfrecord/' + 'vocabulary_list.pickle')
 
 ###load max-sequence-length 
-max_seq_length = pickle_lib.get_pickle_file_content('/home/infloflo/backup2/save_dir/' + 'tfrecord/' + 'max_seq_length.pickle')
+max_seq_length = pickle_lib.get_pickle_file_content('/tmp/save_dir/' + 'tfrecord/' + 'max_seq_length.pickle')
 print(f'len-vocab-from-file >{len(vocabulary)}<')
 vectorize_layer = TextVectorization(standardize=None,
                                     max_tokens=len(vocabulary)+2,
@@ -281,8 +281,7 @@ def main():
 
     model = tf.keras.Sequential([ tf.keras.layers.Embedding(len(vocabulary)+2, embedding_dim, mask_zero=True),
                                     tf.keras.layers.LSTM(embedding_dim, return_sequences=True),
-                                    tf.keras.layers.GlobalAveragePooling1D(),
-                                    tf.keras.layers.Dropout(0.2),
+                                    tf.keras.layers.Dense(embedding_dim),
                                     tf.keras.layers.Dense(len(return_type_dict))])
     
     model.summary()
