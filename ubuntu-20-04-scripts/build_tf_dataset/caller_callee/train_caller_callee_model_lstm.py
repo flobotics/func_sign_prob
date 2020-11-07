@@ -297,8 +297,7 @@ def main():
     tensorboard_callback = tf.keras.callbacks.TensorBoard(log_dir=config['tensorboard_log_dir'], 
                                                             histogram_freq=1, 
                                                             write_graph=False, 
-                                                            write_images=False,
-                                                            profile_batch='1,2')
+                                                            write_images=False)
                                                             
 
     model_checkpoint_callback = tf.keras.callbacks.ModelCheckpoint(filepath=config['checkpoint_dir'],
