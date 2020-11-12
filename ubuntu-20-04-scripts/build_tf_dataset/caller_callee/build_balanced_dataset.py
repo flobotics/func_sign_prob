@@ -214,6 +214,8 @@ def main():
         print(f'build balanced with key >{key}<')
         t = Thread(target=proc_build_balanced, args=(pickle_files_save_dir, key, int(config['minimum_nr_of_return_types']), config, ))
         t.start()
+        
+    print(f'Run transform_ret_type_to_int.py next')
 
     
 if __name__ == "__main__":
