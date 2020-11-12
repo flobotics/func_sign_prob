@@ -9,7 +9,7 @@ Dont forget / after paths
 4. python3 split_dataset_to_train_val_test.py -s=/home/user/save_dir/
 
 
-### build balanced dataset
+### train with balanced dataset
 1. python3 build_caller_callee_dataset.py -p=/home/user/test -s=/home/user/save_dir/ -w=/home/user/work_dir/
 
 2. python3 build_ret_type__vocab__seq_len.py -s=/home/user/save_dir/

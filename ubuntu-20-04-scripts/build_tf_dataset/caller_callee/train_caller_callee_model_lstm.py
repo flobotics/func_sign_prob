@@ -82,17 +82,18 @@ def parseArgs():
 
 
 def check_config(config):
-    if not os.path.isdir(config['tfrecord_dir'] + 'train/'):
-        print(f"Directory with train tfrecord files >{config['tfrecord_dir'] + 'train/'}< does not exist")
-        exit()
-        
-    if not os.path.isdir(config['tfrecord_dir'] + 'val/'):
-        print(f"Directory with train tfrecord files >{config['tfrecord_dir'] + 'val/'}< does not exist")
-        exit()
-        
-    if not os.path.isdir(config['tfrecord_dir'] + 'test/'):
-        print(f"Directory with train tfrecord files >{config['tfrecord_dir'] + 'test/'}< does not exist")
-        exit()
+#     if not os.path.isdir(config['tfrecord_dir'] + 'train/'):
+#         print(f"Directory with train tfrecord files >{config['tfrecord_dir'] + 'train/'}< does not exist")
+#         exit()
+#         
+#     if not os.path.isdir(config['tfrecord_dir'] + 'val/'):
+#         print(f"Directory with train tfrecord files >{config['tfrecord_dir'] + 'val/'}< does not exist")
+#         exit()
+#         
+#     if not os.path.isdir(config['tfrecord_dir'] + 'test/'):
+#         print(f"Directory with train tfrecord files >{config['tfrecord_dir'] + 'test/'}< does not exist")
+#         exit()
+    pass
 
 
 def _parse_function(example_proto):
@@ -179,10 +180,10 @@ def save_trained_word_embeddings(model, trained_word_embeddings_dir, vectorize_l
 
 
 ###load vocabulary list
-vocabulary = pickle_lib.get_pickle_file_content('/home/infloflo/base/save_dir/' + 'tfrecord/' + 'vocabulary_list.pickle')
+vocabulary = pickle_lib.get_pickle_file_content('/home/ubu/save_dir/' + 'tfrecord/' + 'vocabulary_list.pickle')
 
 ###load max-sequence-length 
-max_seq_length = pickle_lib.get_pickle_file_content('/home/infloflo/base/save_dir/' + 'tfrecord/' + 'max_seq_length.pickle')
+max_seq_length = pickle_lib.get_pickle_file_content('/home/ubu/save_dir/' + 'tfrecord/' + 'max_seq_length.pickle')
 print(f'len-vocab-from-file >{len(vocabulary)}<')
 vectorize_layer = TextVectorization(standardize=None,
                                     max_tokens=len(vocabulary)+2,
@@ -208,14 +209,36 @@ def main():
     print(f"Build tf.data.dataset with tfrecord files from directory >{config['tfrecord_dir'] + 'train/'}< \
             >{config['tfrecord_dir'] + 'val/'}< >{config['tfrecord_dir'] + 'test/'}<")
 
-    tfrecord_train_dataset = tf.data.Dataset.list_files(config['tfrecord_dir'] + 'train/' + '*.tfrecord')
-    train_dataset = tf.data.TFRecordDataset(tfrecord_train_dataset)
+#     tfrecord_train_dataset = tf.data.Dataset.list_files(config['tfrecord_dir'] + 'train/' + '*.tfrecord')
+#     train_dataset = tf.data.TFRecordDataset(tfrecord_train_dataset)
+#     
+#     tfrecord_val_dataset = tf.data.Dataset.list_files(config['tfrecord_dir'] + 'val/' + '*.tfrecord')
+#     val_dataset = tf.data.TFRecordDataset(tfrecord_val_dataset)
+#     
+#     tfrecord_test_dataset = tf.data.Dataset.list_files(config['tfrecord_dir'] + 'test/' + '*.tfrecord')
+#     test_dataset = tf.data.TFRecordDataset(tfrecord_test_dataset)
+
+    tfrecord_all_dataset = tf.data.Dataset.list_files(config['tfrecord_dir']  + '*.tfrecord')
+    full_dataset = tf.data.TFRecordDataset(tfrecord_all_dataset)
     
-    tfrecord_val_dataset = tf.data.Dataset.list_files(config['tfrecord_dir'] + 'val/' + '*.tfrecord')
-    val_dataset = tf.data.TFRecordDataset(tfrecord_val_dataset)
+    #DATASET_SIZE = full_dataset.cardinality().numpy()
+    for num, _ in enumerate(full_dataset):
+        pass
+    DATASET_SIZE = num
+    print(f'DATASET_SIZE >{DATASET_SIZE}<')
     
-    tfrecord_test_dataset = tf.data.Dataset.list_files(config['tfrecord_dir'] + 'test/' + '*.tfrecord')
-    test_dataset = tf.data.TFRecordDataset(tfrecord_test_dataset)
+    train_size = int(0.7 * DATASET_SIZE)
+    val_size = int(0.15 * DATASET_SIZE)
+    test_size = int(0.15 * DATASET_SIZE)
+    
+    print(f'Split to train_size >{train_size}< val_size >{val_size}< test_size >{test_size}<')
+    
+    #full_dataset = tf.data.TFRecordDataset(FLAGS.input_file)
+    full_dataset = full_dataset.shuffle(1000)
+    train_dataset = full_dataset.take(train_size)
+    test_dataset = full_dataset.skip(train_size)
+    val_dataset = test_dataset.skip(val_size)
+    test_dataset = test_dataset.take(test_size)
     
     
     train_dataset = train_dataset.map(_parse_function, num_parallel_calls=AUTOTUNE)
