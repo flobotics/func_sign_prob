@@ -197,7 +197,7 @@ def main():
         
     print(f"The counts of every return type >{ret_type_counter}<")
     
-    config['minimum_nr_of_return_types'] = input('Put in minimum nr of return types to build balanced dataset')
+    config['minimum_nr_of_return_types'] = input('Put in minimum nr of return types to build balanced dataset:')
     
     ### filter all that >= int(config['minimum_nr_of_return_types'])
     ret_type_counter_filtered = dict()
