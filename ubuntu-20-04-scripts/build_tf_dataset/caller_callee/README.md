@@ -18,11 +18,11 @@ Dont forget / after paths
 
 4. python3 transform_ret_type_to_int.py -s=/home/user/save_dir/balanced/ -f=/home/user/save_dir/tfrecord/ -r=/home/user/save_dir/tfrecord/return_type_dict.pickle -m=/home/user/save_dir/tfrecord/max_seq_length.pickle -v=/home/user/save_dir/tfrecord/vocabulary_list.pickle
 
-5. python3 split_dataset_to_train_val_test.py -s=/home/user/save_dir/
+5. Dont split dataset (remove train/test/val dir in tfrecord dir, if exist)
 
 
 ##modify path in file till now
-5. train_caller_callee_model.py -s=/home/user/save_dir/
+5. python3 train_caller_callee_model.py -s=/home/user/save_dir/
 
 
 # Run with n1-standard-16(16vCPUs,60GB RAM)  8xV100 Tesla GPU
