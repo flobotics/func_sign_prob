@@ -44,3 +44,35 @@ Shape of the weigths >(1464, 8)<
 ![histograms](../../pictures/caller_callee/tb_histograms.png)
 ![distributions](../../pictures/caller_callee/tb_distributions.png)
 ![projector](../../pictures/caller_callee/tb_projector.png)
+
+
+## run with balanced dataset
+Epoch 65/70
+8/8 [==============================] - 1s 171ms/step - loss: 0.6529 - accuracy: 0.8142 - val_loss: 0.4815 - val_accuracy: 0.8204
+Epoch 66/70
+8/8 [==============================] - 1s 171ms/step - loss: 0.6731 - accuracy: 0.8091 - val_loss: 0.4308 - val_accuracy: 0.8802
+Epoch 67/70
+8/8 [==============================] - 1s 171ms/step - loss: 0.6122 - accuracy: 0.8299 - val_loss: 0.4139 - val_accuracy: 0.8862
+Epoch 68/70
+8/8 [==============================] - 1s 170ms/step - loss: 0.6227 - accuracy: 0.8352 - val_loss: 0.4392 - val_accuracy: 0.8743
+Epoch 69/70
+8/8 [==============================] - 1s 171ms/step - loss: 0.5487 - accuracy: 0.8544 - val_loss: 0.3485 - val_accuracy: 0.8982
+WARNING:absl:Found untraced functions such as forward_lstm_layer_call_fn, forward_lstm_layer_call_and_return_conditional_losses, backward_lstm_layer_call_fn, backward
+_lstm_layer_call_and_return_conditional_losses, forward_lstm_1_layer_call_fn while saving (showing 5 of 40). These functions will not be directly callable after loadi
+ng.
+Epoch 70/70
+8/8 [==============================] - 1s 171ms/step - loss: 0.5683 - accuracy: 0.8518 - val_loss: 0.5517 - val_accuracy: 0.8563
+WARNING:absl:Found untraced functions such as forward_lstm_layer_call_fn, forward_lstm_layer_call_and_return_conditional_losses, backward_lstm_layer_call_fn, backward
+_lstm_layer_call_and_return_conditional_losses, forward_lstm_1_layer_call_fn while saving (showing 5 of 40). These functions will not be directly callable after loadi
+ng.
+2/2 [==============================] - 0s 53ms/step - loss: 0.4126 - accuracy: 0.8598
+Loss:  0.41262561082839966
+Accuracy:  0.8597561120986938
+Saving trained word embeddings (meta.tsv,vecs.tsv)             (usable in tensorboard->Projector, use chromium-browser to see it correctly,firefox does not always wor
+k)
+10 vocab words >['', '[UNK]', '%', 'null', ',', 'x', 'mov', '1', ')', '(']<
+Building vectors.tsv file, use tensorboard->projector with chromium-browser
+Building metadata.tsv file, use tensorboard->projector with chromium-browser
+
+
+![balanced_scalas](../../pictures/caller_callee/balanced/balanced_scalars.png)
