@@ -158,9 +158,9 @@ def check_config(config):
         print(f"Balanced dataset save dir >{config['balanced_dataset_dir']}< does not exist. Create it.")
         exit()
         
-    if not int(config['minimum_nr_of_return_types']) > 0:
-        print(f'Please give minimum_nr_of_return_types. Try -n, -h for help')
-        exit()
+#     if not int(config['minimum_nr_of_return_types']) > 0:
+#         print(f'Please give minimum_nr_of_return_types. Try -n, -h for help')
+#         exit()
 
 def main():
     config = parseArgs()
@@ -196,6 +196,8 @@ def main():
             ret_type_counter[counts_dict_key]  += counts_dict[counts_dict_key]
         
     print(f"The counts of every return type >{ret_type_counter}<")
+    
+    config['minimum_nr_of_return_types'] = input('Put in minimum nr of return types to build balanced dataset')
     
     ### filter all that >= int(config['minimum_nr_of_return_types'])
     ret_type_counter_filtered = dict()

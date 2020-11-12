@@ -23,7 +23,8 @@ import disassembly_lib
 def parseArgs():
     short_opts = 'hp:s:w:t:r:m:v:f:'
     long_opts = ['pickle-dir=', 'work-dir=', 'save-dir=', 'save-file-type=', 
-                 'return-type-dict-file', 'max-seq-length-file=', 'vocab-file=', 'tfrecord-save-dir=']
+                 'return-type-dict-file', 'max-seq-length-file=', 'vocab-file=', 'tfrecord-save-dir=',
+                 'balanced-dataset-dir=']
     config = dict()
     
     config['pickle_dir'] = ''
@@ -34,6 +35,7 @@ def parseArgs():
     config['max_seq_length_file'] = ''
     config['vocabulary_file'] = ''
     config['tfrecord_save_dir'] = ''
+    config['balanced_dataset_dir'] = ''
  
     try:
         args, rest = getopt.getopt(sys.argv[1:], short_opts, long_opts)
@@ -60,10 +62,13 @@ def parseArgs():
             config['vocabulary_file'] = option_value[1:]
         elif option_key in ('-f', '--tfrecord-save-dir'):
             config['tfrecord_save_dir'] = option_value[1:]
+        elif option_key in ('-b', '--balanced-dataset-dir'):
+            config['balanced_dataset_dir'] = option_value[1:]
         elif option_key in ('-h'):
             print(f'<optional> -p or --pickle-dir The directory with disassemblies,etc. Default: ubuntu-20-04-pickles')
             print(f'<optional> -w or --work-dir   The directory where we e.g. untar,etc. Default: /tmp/work_dir/')
             print(f'<optional> -s or --save-dir   The directory where we save dataset.  Default: /tmp/save_dir')
+            print(f'<optional> -b or --balanced-dataset-dir  The directory where we save the balanced dataset. Default: /tmp/save_dir/balanced/')
             
     if config['pickle_dir'] == '':
         config['pickle_dir'] = '../../../ubuntu-20-04-pickles'
@@ -81,6 +86,8 @@ def parseArgs():
         config['vocabulary_file'] = config['save_dir'] + 'tfrecord/' + 'vocabulary_list.pickle'
     if config['tfrecord_save_dir'] == '':
         config['tfrecord_save_dir'] = config['save_dir'] + 'tfrecord/'
+    if config['balanced_dataset_dir'] == '':
+        config['balanced_dataset_dir'] = config['save_dir'] + 'balanced/'
     
             
     return config
@@ -95,10 +102,20 @@ def main():
     nr_of_cpus = psutil.cpu_count(logical=True)
     print(f'We got nr_of_cpus >{nr_of_cpus}<')
     
-    cont = pickle_lib.get_pickle_file_content("/tmp/save_dir/balanced/ret_type_0.pickle")
-    for item in cont:
-        #print(f'item[0] >{item[0]}<  item[1] >{item[1]}<')
-        print(f'item[1] >{item[1]}<')
+    pickle_files = common_stuff_lib.get_all_filenames_of_type(config['balanced_dataset_dir'], '.pickle')
+    
+    for file in pickle_files:
+        cont = pickle_lib.get_pickle_file_content(config['balanced_dataset_dir'] + file)
+        counter = 0
+        
+        for item in cont:
+            #print(f'item[0] >{item[0]}<  item[1] >{item[1]}<')
+            if counter < 1:
+                print(f"return type >{item[1]}< from file >{config['balanced_dataset_dir'] + file}<")
+            counter += 1
+            
+        print(f'Counted >{counter}< text,label elements')
+        print()
 
 
 
