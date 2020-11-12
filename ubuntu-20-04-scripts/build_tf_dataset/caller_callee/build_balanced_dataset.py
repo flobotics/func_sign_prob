@@ -8,7 +8,7 @@ from multiprocessing import Pool
 import getopt
 from itertools import repeat
 import psutil
-from rsa import key
+from threading import Thread
 
 
 sys.path.append('../../lib/')
@@ -25,9 +25,10 @@ import disassembly_lib
 
 
 def parseArgs():
-    short_opts = 'hp:s:w:t:r:m:v:f:'
+    short_opts = 'hp:s:w:t:r:m:v:f:b:n:'
     long_opts = ['pickle-dir=', 'work-dir=', 'save-dir=', 'save-file-type=', 
-                 'return-type-dict-file', 'max-seq-length-file=', 'vocab-file=', 'tfrecord-save-dir=']
+                 'return-type-dict-file', 'max-seq-length-file=', 'vocab-file=', 'tfrecord-save-dir=',
+                 'balanced-dataset-dir=', 'minimum-nr-of-return-types=']
     config = dict()
     
     config['pickle_dir'] = ''
@@ -38,6 +39,8 @@ def parseArgs():
     config['max_seq_length_file'] = ''
     config['vocabulary_file'] = ''
     config['tfrecord_save_dir'] = ''
+    config['balanced_dataset_dir'] = ''
+    config['minimum_nr_of_return_types'] = '0'
  
     try:
         args, rest = getopt.getopt(sys.argv[1:], short_opts, long_opts)
@@ -64,10 +67,16 @@ def parseArgs():
             config['vocabulary_file'] = option_value[1:]
         elif option_key in ('-f', '--tfrecord-save-dir'):
             config['tfrecord_save_dir'] = option_value[1:]
+        elif option_key in ('-b', '--balanced-dataset-dir'):
+            config['balanced_dataset_dir'] = option_value[1:]
+        elif option_key in ('-n', '--minimum-nr-of-return-types'):
+            config['minimum_nr_of_return_types'] = option_value[1:]
         elif option_key in ('-h'):
             print(f'<optional> -p or --pickle-dir The directory with disassemblies,etc. Default: ubuntu-20-04-pickles')
             print(f'<optional> -w or --work-dir   The directory where we e.g. untar,etc. Default: /tmp/work_dir/')
-            print(f'<optional> -s or --save-dir   The directory where we save dataset.  Default: /tmp/save_dir')
+            print(f'<optional> -s or --save-dir   The directory where we save dataset.  Default: /tmp/save_dir/')
+            print(f'<optional> -b or --balanced-dataset-dir  The directory where we save the balanced dataset. Default: /tmp/save_dir/balanced/')
+            print(f'<optional> -n or --minimum-nr-of-return-types  The minimum nr of return types. ')
             
     if config['pickle_dir'] == '':
         config['pickle_dir'] = '../../../ubuntu-20-04-pickles'
@@ -85,6 +94,8 @@ def parseArgs():
         config['vocabulary_file'] = config['save_dir'] + 'tfrecord/' + 'vocabulary_list.pickle'
     if config['tfrecord_save_dir'] == '':
         config['tfrecord_save_dir'] = config['save_dir'] + 'tfrecord/'
+    if config['balanced_dataset_dir'] == '':
+        config['balanced_dataset_dir'] = config['save_dir'] + 'balanced/'
     
             
     return config
@@ -108,9 +119,53 @@ def proc_count(file, ret_type_dict, config):
     
     return ret_type_count
       
+      
+def proc_build_balanced(pickle_files, key, minimum_ret_type_count, config):
+    #print(f'build balanced')
+    ### filter and store to dict the usable text,label pairs
+    
+    ## a dict that counts how many text,labels from one key-type we got
+    ret_type_count_watcher = 1
+#     nr = 0
+#     for key in ret_type_counter_filtered:
+#         ret_type_count_watcher[key] = 0
+        
+    ret_type_0 = list()    
+    for file in pickle_files:
+        cont = pickle_lib.get_pickle_file_content(file)
+        for item in cont:
+            ## is the ret-type we found in our filtered list?
+            #for key in ret_type_counter_filtered:
+            if key == item[1]:
+                #print(f'got filtered ret-type')
+                if ret_type_count_watcher <= minimum_ret_type_count:
+                    ret_type_0.append( (item[0], item[1]) )
+                    ret_type_count_watcher += 1
+                    if ret_type_count_watcher > minimum_ret_type_count:
+                        break
+        
+        if ret_type_count_watcher > minimum_ret_type_count:
+            break
+    
+    ### save them
+    #print(f'Save balanced dataset')
+    pickle_lib.save_to_pickle_file(ret_type_0, config['balanced_dataset_dir'] + key.replace(' ', '_') + '.pickle')
+    
+    
+      
+def check_config(config):
+    if not os.path.isdir(config['balanced_dataset_dir']):
+        print(f"Balanced dataset save dir >{config['balanced_dataset_dir']}< does not exist. Create it.")
+        exit()
+        
+    if not int(config['minimum_nr_of_return_types']) > 0:
+        print(f'Please give minimum_nr_of_return_types. Try -n, -h for help')
+        exit()
 
 def main():
     config = parseArgs()
+    
+    check_config(config)
     
     nr_of_cpus = psutil.cpu_count(logical=True)
     print(f'We got nr_of_cpus >{nr_of_cpus}<')
@@ -121,7 +176,6 @@ def main():
     pickle_files = common_stuff_lib.get_all_filenames_of_type(config['save_dir'], '.pickle')
     
     p = Pool(nr_of_cpus)
-    
     
     pickle_files_save_dir = [config['save_dir'] + "/" + f for f in pickle_files]
     star_list = zip(pickle_files_save_dir, repeat(ret_type_dict), repeat(config))
@@ -143,41 +197,22 @@ def main():
         
     print(f"The counts of every return type >{ret_type_counter}<")
     
-    ### filter all that >= 10
-    minimum_ret_type_count = 10
+    ### filter all that >= int(config['minimum_nr_of_return_types'])
     ret_type_counter_filtered = dict()
     for key in ret_type_dict:
-        if ret_type_counter[key] >= minimum_ret_type_count:
+        if ret_type_counter[key] >= int(config['minimum_nr_of_return_types']):
             ret_type_counter_filtered[key] = ret_type_counter[key]
             
-    print(f"The filtered counts (>10) of every return type >{ret_type_counter_filtered}<")
+    print(f"The filtered counts (>{int(config['minimum_nr_of_return_types'])}) of every return type >{ret_type_counter_filtered}<")
     
-    ### now select minimum_ret_type_count disassemblies,labels from 
-    ### every return type that is possible (got so many minimum_ret_type_count)
-    ret_type_0 = list()
-    ret_type_dict = dict()
-    ## get first key, 
-    key0 = ''
+    ### now select int(config['minimum_nr_of_return_types']) disassemblies,labels from 
+    ### filter and store to dict the usable text,label pairs
+    
     for key in ret_type_counter_filtered:
-        print(f'key >{key}<')
-        key0 = key
-        ret_type_dict[key.replace(' ', '_')] = ''
-        break
-    
-    key0_counter = 0
-    for file in pickle_files:
-        cont = pickle_lib.get_pickle_file_content(config['save_dir'] + file)
-        for item in cont:
-            ## is the ret-type we found in our filtered list?
-            if ret_type_dictkey0 == item[1]:
-                print(f'got filtered ret-type')
-                if key0_counter < minimum_ret_type_count:
-                    ret_type_0.append( (item[0], item[1]) )
-                    key0_counter += 1
-    
-    ### save them
-    print(f'Save balanced dataset')
-    pickle_lib.save_to_pickle_file(ret_type_0, config['save_dir'] + '/balanced/' + 'ret_type_0.pickle')
+        print(f'build balanced with key >{key}<')
+        t = Thread(target=proc_build_balanced, args=(pickle_files_save_dir, key, int(config['minimum_nr_of_return_types']), config, ))
+        t.start()
+
     
 if __name__ == "__main__":
     main()
