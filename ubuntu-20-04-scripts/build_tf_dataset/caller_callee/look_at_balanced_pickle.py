@@ -102,6 +102,8 @@ def main():
     nr_of_cpus = psutil.cpu_count(logical=True)
     print(f'We got nr_of_cpus >{nr_of_cpus}<')
     
+    print(f"Using files in directory >{config['balanced_dataset_dir']}<")
+    
     pickle_files = common_stuff_lib.get_all_filenames_of_type(config['balanced_dataset_dir'], '.pickle')
     
     for file in pickle_files:
