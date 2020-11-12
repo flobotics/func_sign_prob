@@ -195,7 +195,9 @@ def main():
             #print(f"counts_dict[counts_dict_key] >{counts_dict[counts_dict_key]}<")
             ret_type_counter[counts_dict_key]  += counts_dict[counts_dict_key]
         
-    print(f"The counts of every return type >{ret_type_counter}<")
+    print(f"The counts of every return type :")
+    for key in ret_type_counter:
+        print(f"ret-type >{key}< exists\t\t\t>{ret_type_counter[key]}<")
     
     config['minimum_nr_of_return_types'] = input('Put in minimum nr of return types to build balanced dataset:')
     
