@@ -300,7 +300,7 @@ def get_return_type_from_gdb_ptype(gdb_ptype):
 def get_return_type_from_function_signature(function_signature):
     return_type = ''
     
-    ### find ( which marks the function-names end
+    ### find ( which marks the function-names start
     fn_end_idx = function_signature.index('(')
     
     ### now step one char left, till * , &, or ' ' is found
@@ -332,5 +332,23 @@ def get_nr_of_args_from_function_signature(function_signature):
     return comma_count+1
     
     
+def get_arg_one_name_from_function_signature(function_signature):
+    ### find ( which marks the function-names start
+    fn_end_idx = function_signature.index('(')
+    
+    ##check how many args are there
+    nr_args = get_nr_of_args_from_function_signature(function_signature)
+    
+    ##if more than one arg, filter till first comma
+    if nr_args > 1:
+        first_comma = function_signature.index(',')
+        arg_one = function_signature[fn_end_idx+1:first_comma:]
+    else:
+        first_par = function_signature.index(')')
+        arg_one = function_signature[fn_end_idx+1:first_par:]
+        
+    print(f'arg_one >{arg_one}<')
+    
+    return arg_one
     
       
