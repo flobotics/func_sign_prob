@@ -312,5 +312,25 @@ def get_return_type_from_function_signature(function_signature):
             break
         c += 1
                   
-    return return_type    
+    return return_type
+
+
+
+def get_nr_of_args_from_function_signature(function_signature):
+    ### find ( which marks the function-names start
+    fn_end_idx = function_signature.index('(')
+    
+    ##get str till end
+    args_string = function_signature[fn_end_idx::]
+    #print(f'args_string >{args_string}<')
+    
+    ## count commas, commas+1=args  (bad is ...  argument, or?)
+    ## there is also (void) or () ?
+    comma_count = args_string.count(',')
+    #print(f'nr_of_args >{comma_count+1}<')
+    
+    return comma_count+1
+    
+    
+    
       
