@@ -226,12 +226,19 @@ def main():
          
         tfrecord_test_dataset = tf.data.Dataset.list_files(config['tfrecord_dir'] + 'test/' + '*.tfrecord')
         test_dataset = tf.data.TFRecordDataset(tfrecord_test_dataset)
+        
+        train_dataset = train_dataset.map(_parse_function, num_parallel_calls=AUTOTUNE)
+        val_dataset = val_dataset.map(_parse_function, num_parallel_calls=AUTOTUNE)
+        test_dataset = test_dataset.map(_parse_function, num_parallel_calls=AUTOTUNE)
+        
     else:
         print(f"Not found directory >{config['tfrecord_dir'] + 'train/'}<")
         print(f"We will use balanced dataset from directory >{config['tfrecord_dir']}<")
         
         tfrecord_all_dataset = tf.data.Dataset.list_files(config['tfrecord_dir']  + '*.tfrecord')
         full_dataset = tf.data.TFRecordDataset(tfrecord_all_dataset)
+        
+        full_dataset = full_dataset.map(_parse_function, num_parallel_calls=AUTOTUNE)
         
         #DATASET_SIZE = full_dataset.cardinality().numpy()
         for num, _ in enumerate(full_dataset):
@@ -252,10 +259,6 @@ def main():
         val_dataset = test_dataset.skip(val_size)
         test_dataset = test_dataset.take(test_size)
     
-    
-    train_dataset = train_dataset.map(_parse_function, num_parallel_calls=AUTOTUNE)
-    val_dataset = val_dataset.map(_parse_function, num_parallel_calls=AUTOTUNE)
-    test_dataset = test_dataset.map(_parse_function, num_parallel_calls=AUTOTUNE)
     
     for text, label in train_dataset.take(1):
         print(f'One example from train_dataset with int-as-label:\nText: >{text}<\n Label: >{label}<')

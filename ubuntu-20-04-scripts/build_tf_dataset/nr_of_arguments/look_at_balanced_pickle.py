@@ -2,7 +2,7 @@ import tarfile
 import os
 import sys
 import pickle
-import tensorflow as tf
+#import tensorflow as tf
 from datetime import datetime
 from multiprocessing import Pool
 import getopt
@@ -16,17 +16,19 @@ import common_stuff_lib
 import tarbz2_lib
 import pickle_lib
 import disassembly_lib
-import tfrecord_lib
+#import tfrecord_lib
 
 
 
 def parseArgs():
-    short_opts = 'hp:s:t:r:m:v:f:b:'
-    long_opts = ['pickle-dir=', 'save-dir=', 'save-file-type=', 'balanced-dataset-dir=',
-                 'return-type-dict-file', 'max-seq-length-file=', 'vocab-file=', 'tfrecord-save-dir=']
+    short_opts = 'hp:s:w:t:r:m:v:f:'
+    long_opts = ['pickle-dir=', 'work-dir=', 'save-dir=', 'save-file-type=', 
+                 'return-type-dict-file', 'max-seq-length-file=', 'vocab-file=', 'tfrecord-save-dir=',
+                 'balanced-dataset-dir=']
     config = dict()
     
     config['pickle_dir'] = ''
+    config['work_dir'] = ''
     config['save_dir'] = ''
     config['save_file_type'] = ''
     config['return_type_dict_file'] = ''
@@ -43,7 +45,12 @@ def parseArgs():
         exit()
     
     for option_key, option_value in args:
-        if option_key in ('-s', '--save-dir'):
+        if option_key in ('-p', '--pickle-dir'):
+            print(f'found p')
+            config['pickle_dir'] = option_value[1:]
+        elif option_key in ('-w', '--work-dir'):
+            config['work_dir'] = option_value[1:]
+        elif option_key in ('-s', '--save-dir'):
             config['save_dir'] = option_value[1:]
         elif option_key in ('-t', '--save-file-type'):
             config['save_file_type'] = option_value[1:]
@@ -58,10 +65,15 @@ def parseArgs():
         elif option_key in ('-b', '--balanced-dataset-dir'):
             config['balanced_dataset_dir'] = option_value[1:]
         elif option_key in ('-h'):
-            print(f'<optional> -s or --save-dir   The directory where we get the dataset from.  Default: /tmp/save_dir')
+            print(f'<optional> -p or --pickle-dir The directory with disassemblies,etc. Default: ubuntu-20-04-pickles')
+            print(f'<optional> -w or --work-dir   The directory where we e.g. untar,etc. Default: /tmp/work_dir/')
+            print(f'<optional> -s or --save-dir   The directory where we save dataset.  Default: /tmp/save_dir')
             print(f'<optional> -b or --balanced-dataset-dir  The directory where we save the balanced dataset. Default: /tmp/save_dir/balanced/')
             
-    
+    if config['pickle_dir'] == '':
+        config['pickle_dir'] = '../../../ubuntu-20-04-pickles'
+    if config['work_dir'] == '':
+        config['work_dir'] = '/tmp/work_dir/'
     if config['save_dir'] == '':
         config['save_dir'] = '/tmp/save_dir/'
     if config['save_file_type'] == '':
@@ -76,72 +88,42 @@ def parseArgs():
         config['tfrecord_save_dir'] = config['save_dir'] + 'tfrecord/'
     if config['balanced_dataset_dir'] == '':
         config['balanced_dataset_dir'] = config['save_dir'] + 'balanced/'
+    
             
     return config
 
 
 
-def check_config(config):
-    if not os.path.isdir(config['save_dir']):
-        print(f"Directory >{config['save_dir']}< does not exist")
-        exit()
-        
-    if not os.path.isdir(config['tfrecord_save_dir']):
-        print(f"Directory >{config['tfrecord_save_dir']}< does not exist. Create it.")
-        exit()
-        
- 
-def proc_build(file, ret_type_dict, config):
-    trans_ds = list()
-    
-    print(f'Transform File >{file}<')
-    
-    cont = pickle_lib.get_pickle_file_content(file)
-    for item in cont:
-        print(f"item >{item[0]}<  item-1 >{item[1]}< >{ret_type_dict[item[1]]}<")
-        trans_ds.append( (item[0], ret_type_dict[item[1]]) )
-        
-    tfrecord_lib.save_caller_callee_to_tfrecord(trans_ds, config['tfrecord_save_dir'] + os.path.basename(file).replace('.pickle', '.tfrecord'))
-
-
-def check_config(config):
-    if not os.path.isfile(config['return_type_dict_file']):
-        print(f"No ret-type-dict file >{config['return_type_dict_file']}<")
-        exit()
-         
 
 
 def main():
     config = parseArgs()
     
-    check_config(config)
-    
-    print(f'config >{config}<')
-    
     nr_of_cpus = psutil.cpu_count(logical=True)
     print(f'We got nr_of_cpus >{nr_of_cpus}<')
-
-    ##load ret-type dict
-    ret_type_dict = pickle_lib.get_pickle_file_content(config['return_type_dict_file'])
-    print(f"ret-type-dict >{ret_type_dict}<")
+    
+    print(f"Using files in directory >{config['balanced_dataset_dir']}<")
     
     pickle_files = common_stuff_lib.get_all_filenames_of_type(config['balanced_dataset_dir'], '.pickle')
     
-    ### transform dataset ret-types to ints
-    print(f"Transform return-type to int and save to >{config['tfrecord_save_dir']}<")
-    p = Pool(nr_of_cpus)
-    
-    pickle_files = [config['balanced_dataset_dir'] + "/" + f for f in pickle_files]
-    
-    star_list = zip(pickle_files, repeat(ret_type_dict), repeat(config))
-    
-    all_ret_types = p.starmap(proc_build, star_list)
-    p.close()
-    p.join()
-    
-       
+    for file in pickle_files:
+        cont = pickle_lib.get_pickle_file_content(config['balanced_dataset_dir'] + file)
+        counter = 0
+        
+        for item in cont:
+            if len(item[0]) > 10:
+                print(f'item[0] >{item[0]}<  item[1] >{item[1]}<')
+                
+            if counter < 1:
+                print(f"return type >{item[1]}< from file >{config['balanced_dataset_dir'] + file}<")
+            counter += 1
+            
+        print(f'Counted >{counter}< text,label elements')
+        print()
 
-    print("Done. Run train_nr_of_args_model_lstm.py next")
 
+
+
+    
 if __name__ == "__main__":
     main()

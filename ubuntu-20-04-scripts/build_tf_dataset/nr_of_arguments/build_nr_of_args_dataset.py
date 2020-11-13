@@ -249,7 +249,7 @@ def main():
     p.close()
     p.join()
     
-    
+    print(f'Run build_ret_type__vocab__seq_len.py next')
 
 if __name__ == "__main__":
     main()
