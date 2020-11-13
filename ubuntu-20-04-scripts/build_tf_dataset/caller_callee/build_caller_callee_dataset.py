@@ -306,6 +306,8 @@ def proc_build(tarbz2_file, work_dir, save_dir, config):
                                         if (len(dis1_str) > 10000) or (len(dis2_str) > 10000) or (len(dis1_str) < 1) or (len(dis2_str) < 1):
                                             print(f'dis1_str >{len(dis1_str)}<')
                                             print(f'dis2_str >{len(dis2_str)}<')
+                                            #print(f"package >{elem[2]}< bin >{elem[3]}< file >{elem[6]}< func >{elem[7]}<")
+                                            #print(f"package >{elem2[2]}< bin >{elem2[3]}< file >{elem2[6]}< func >{elem2[7]}<")
                                             
                                         else:
                                             dis_str = dis1_str + dis2_str
