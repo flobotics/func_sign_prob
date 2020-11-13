@@ -149,28 +149,15 @@ def proc_build(tarbz2_file, work_dir, save_dir, config):
                                     arg_nr_we_want = 1
                                     if nr_of_args < arg_nr_we_want:
                                         print(f'func got to less args for us')
+                                        break
                                         
                                     arg_one = return_type_lib.get_arg_one_name_from_function_signature(elem2[0])
                                     
                                     result = common_stuff_lib.is_type_known(arg_one)
                                     
-                                    ###for debugging, what string is still unknown ?? should show nothing
-#                                     if return_type == 'unknown':
-#                                         print(f'string_before_func_name: {return_type_func_sign}')
-#                                      
-#                                     if return_type == 'unknown':
-#                                         #print('unknown found')
-#                                         #breaker = True
-#                                         #break
-#                                         pass
-#                                     elif return_type == 'delete':
-#                                         #print('delete found')
-#                                         ### no return type found, so delete this item
-#                                         pass
-#                                     elif return_type == 'process_further':
-#                                         print(f'ERRROOOORRRR---------------')
-                                    if nr_of_args == -1:
-                                        print(f'Error nr_of_args')
+  
+                                    if result == False:
+                                        print(f'Error arg_one')
                                     else:
                                         tmp_att_dis = att_dis
                                         #print(f'len att-dis 1 >{len(tmp_att_dis)}<')
@@ -189,7 +176,7 @@ def proc_build(tarbz2_file, work_dir, save_dir, config):
                                         #dis2_str = dis_split(dis2_str)
                                         
                                         ##the max-seq-length blows memory (>160GB ram) with model.fit() if e.g. over 6million
-                                        if (len(dis1_str) > 10000) or (len(dis2_str) > 10000) or (len(dis1_str) < 1) or (len(dis2_str) < 1):
+                                        if (len(dis1_str) > 300) or (len(dis2_str) > 300) or (len(dis1_str) < 1) or (len(dis2_str) < 1):
                                             print(f'dis1_str >{len(dis1_str)}<')
                                             print(f'dis2_str >{len(dis2_str)}<')
                                             #print(f"package >{elem[2]}< bin >{elem[3]}< file >{elem[6]}< func >{elem[7]}<")
@@ -200,7 +187,7 @@ def proc_build(tarbz2_file, work_dir, save_dir, config):
                                                 
                                             #print(f'dis_str >{dis_str}<')
                                         
-                                            dataset_list.append((dis_str, nr_of_args))
+                                            dataset_list.append((dis_str, arg_one))
                                             counter += 1
                                             
                                         break
