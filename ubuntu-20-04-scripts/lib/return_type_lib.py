@@ -35,6 +35,7 @@ def pattern_based_find_return_type(gdb_ptype):
     new_gdb_ptype = gdb_ptype.replace('type =', '')
     raw_gdb_ptype = new_gdb_ptype.strip()
     
+    ###also in common_stuff_lib.py, if change, there also
     return_type_list = ['bool', 'bool *', 'const bool',
                         'void', 'void *', 'void **', 'void (*)(void *)', 'void * const',
                         'char', 'char *', 'unsigned char *', 'char **', 'const char *', 'signed char',

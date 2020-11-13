@@ -152,6 +152,8 @@ def proc_build(tarbz2_file, work_dir, save_dir, config):
                                         
                                     arg_one = return_type_lib.get_arg_one_name_from_function_signature(elem2[0])
                                     
+                                    result = common_stuff_lib.is_type_known(arg_one)
+                                    
                                     ###for debugging, what string is still unknown ?? should show nothing
 #                                     if return_type == 'unknown':
 #                                         print(f'string_before_func_name: {return_type_func_sign}')
