@@ -21,8 +21,8 @@ import tfrecord_lib
 
 
 def parseArgs():
-    short_opts = 'hp:s:t:r:m:v:f:'
-    long_opts = ['pickle-dir=', 'save-dir=', 'save-file-type=', 
+    short_opts = 'hp:s:t:r:m:v:f:b:'
+    long_opts = ['pickle-dir=', 'save-dir=', 'save-file-type=', 'balanced-dataset-dir=',
                  'return-type-dict-file', 'max-seq-length-file=', 'vocab-file=', 'tfrecord-save-dir=']
     config = dict()
     
@@ -33,6 +33,7 @@ def parseArgs():
     config['max_seq_length_file'] = ''
     config['vocabulary_file'] = ''
     config['tfrecord_save_dir'] = ''
+    config['balanced_dataset_dir'] = ''
  
     try:
         args, rest = getopt.getopt(sys.argv[1:], short_opts, long_opts)
@@ -54,8 +55,11 @@ def parseArgs():
             config['vocabulary_file'] = option_value[1:]
         elif option_key in ('-f', '--tfrecord-save-dir'):
             config['tfrecord_save_dir'] = option_value[1:]
+        elif option_key in ('-b', '--balanced-dataset-dir'):
+            config['balanced_dataset_dir'] = option_value[1:]
         elif option_key in ('-h'):
             print(f'<optional> -s or --save-dir   The directory where we get the dataset from.  Default: /tmp/save_dir')
+            print(f'<optional> -b or --balanced-dataset-dir  The directory where we save the balanced dataset. Default: /tmp/save_dir/balanced/')
             
     
     if config['save_dir'] == '':
@@ -70,7 +74,8 @@ def parseArgs():
         config['vocabulary_file'] = config['save_dir'] + 'tfrecord/' + 'vocabulary_list.pickle'
     if config['tfrecord_save_dir'] == '':
         config['tfrecord_save_dir'] = config['save_dir'] + 'tfrecord/'
-    
+    if config['balanced_dataset_dir'] == '':
+        config['balanced_dataset_dir'] = config['save_dir'] + 'balanced/'
             
     return config
 
@@ -87,7 +92,6 @@ def check_config(config):
         
  
 def proc_build(file, ret_type_dict, config):
-    
     trans_ds = list()
     
     print(f'Transform File >{file}<')
@@ -121,13 +125,13 @@ def main():
     ret_type_dict = pickle_lib.get_pickle_file_content(config['return_type_dict_file'])
     print(f"ret-type-dict >{ret_type_dict}<")
     
-    pickle_files = common_stuff_lib.get_all_filenames_of_type(config['save_dir'], '.pickle')
+    pickle_files = common_stuff_lib.get_all_filenames_of_type(config['balanced_dataset_dir'], '.pickle')
     
     ### transform dataset ret-types to ints
     print(f"Transform return-type to int and save to >{config['tfrecord_save_dir']}<")
     p = Pool(nr_of_cpus)
     
-    pickle_files = [config['save_dir'] + "/" + f for f in pickle_files]
+    pickle_files = [config['balanced_dataset_dir'] + "/" + f for f in pickle_files]
     
     star_list = zip(pickle_files, repeat(ret_type_dict), repeat(config))
     

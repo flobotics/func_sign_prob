@@ -10,8 +10,8 @@ import pickle_lib
 
 
 def parseArgs():
-    short_opts = 'hs:w:t:r:m:v:f:'
-    long_opts = ['work-dir=', 'save-dir=', 'save-file-type=', 
+    short_opts = 'hs:w:t:r:m:v:f:b:'
+    long_opts = ['work-dir=', 'save-dir=', 'save-file-type=', 'balanced-dataset-dir=',
                  'return-type-dict-file', 'max-seq-length-file=', 'vocab-file=', 'tfrecord-dir=']
     config = dict()
     
@@ -26,6 +26,7 @@ def parseArgs():
     config['checkpoint_dir'] = '' ##need to be in base-dir for projector to work
     config['save_model_dir'] = ''
     config['trained_word_embeddings_dir'] = ''
+    config['balanced_dataset_dir'] = ''
     
  
     try:
@@ -50,10 +51,13 @@ def parseArgs():
             config['vocabulary_file'] = option_value[1:]
         elif option_key in ('-f', '--tfrecord-dir'):
             config['tfrecord_dir'] = option_value[1:]
+        elif option_key in ('-b', '--balanced-dataset-dir'):
+            config['balanced_dataset_dir'] = option_value[1:]
         elif option_key in ('-h'):
             print(f'<optional> -p or --pickle-dir The directory with disassemblies,etc. Default: ubuntu-20-04-pickles')
             print(f'<optional> -w or --work-dir   The directory where we e.g. untar,etc. Default: /tmp/work_dir/')
             print(f'<optional> -s or --save-dir   The directory where we save dataset.  Default: /tmp/save_dir')
+            print(f'<optional> -b or --balanced-dataset-dir  The directory where we save the balanced dataset. Default: /tmp/save_dir/balanced/')
             
     if config['work_dir'] == '':
         config['work_dir'] = '/tmp/work_dir/'
@@ -77,6 +81,8 @@ def parseArgs():
         config['save_model_dir'] = config['tensorboard_log_dir'] +  'saved_model/'
     if config['trained_word_embeddings_dir'] == '':
         config['trained_word_embeddings_dir'] = config['tensorboard_log_dir'] +  'trained_word_embeddings/'
+    if config['balanced_dataset_dir'] == '':
+        config['balanced_dataset_dir'] = config['save_dir'] + 'balanced/'
             
     return config
 
@@ -180,10 +186,10 @@ def save_trained_word_embeddings(model, trained_word_embeddings_dir, vectorize_l
 
 
 ###load vocabulary list
-vocabulary = pickle_lib.get_pickle_file_content('/home/infloflo/base/save_dir/' + 'tfrecord/' + 'vocabulary_list.pickle')
+vocabulary = pickle_lib.get_pickle_file_content('/home/infloflo/ebase/nr_save_dir/' + 'tfrecord/' + 'vocabulary_list.pickle')
 
 ###load max-sequence-length 
-max_seq_length = pickle_lib.get_pickle_file_content('/home/infloflo/base/save_dir/' + 'tfrecord/' + 'max_seq_length.pickle')
+max_seq_length = pickle_lib.get_pickle_file_content('/home/infloflo/ebase/nr_save_dir/' + 'tfrecord/' + 'max_seq_length.pickle')
 print(f'len-vocab-from-file >{len(vocabulary)}<')
 vectorize_layer = TextVectorization(standardize=None,
                                     max_tokens=len(vocabulary)+2,
@@ -294,7 +300,7 @@ def main():
     val_dataset = val_dataset.map(vectorize_text, num_parallel_calls=AUTOTUNE)
     test_dataset = test_dataset.map(vectorize_text, num_parallel_calls=AUTOTUNE)
     
-    
+    #exit()
     embedding_dim = 64
     
 #     model = tf.keras.Sequential([tf.keras.Input(shape=(1,), dtype=tf.string),

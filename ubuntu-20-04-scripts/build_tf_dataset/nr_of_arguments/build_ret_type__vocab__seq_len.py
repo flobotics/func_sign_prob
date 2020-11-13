@@ -183,7 +183,10 @@ def main():
         ret_type_dict[elem] = counter
         counter += 1
     
-    print(f"ret-type-dict >{ret_type_dict}<")
+    print(f"ret-type-dict :")
+    for key in ret_type_dict:
+        print(f"key >{key}<  value >{ret_type_dict[key]}<")
+        
     pickle_lib.save_to_pickle_file(ret_type_dict, config['return_type_dict_file'])
         
     print(f"Saving vocabulary to >{config['vocabulary_file']}<")
