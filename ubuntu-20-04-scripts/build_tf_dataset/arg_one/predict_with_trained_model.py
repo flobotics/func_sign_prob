@@ -67,10 +67,15 @@ def main():
 
     export_model = tf.keras.Sequential([vectorize_layer,
                                           model,
-                                          tf.keras.layers.Activation('sigmoid')
+                                          tf.keras.layers.Activation('softmax')
                                         ])
 
-    ret = export_model.predict('0x00 mov')
+#     export_model = tf.keras.Sequential([vectorize_layer,
+#                                           model
+#                                         ])
+
+    examples = ['null x null 1 mov']
+    ret = export_model.predict(examples)
     print(f"Prediction: >{ret}<")
     
     
