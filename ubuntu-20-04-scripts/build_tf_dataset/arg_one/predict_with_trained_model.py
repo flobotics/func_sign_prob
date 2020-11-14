@@ -78,6 +78,13 @@ def main():
     ret = export_model.predict(examples)
     print(f"Prediction: >{ret}<")
     
+    result = 0
+    for item in ret:
+        for i in item:
+            #print(f'item >{i}<')
+            result += i
+    
+    print(f'Does all count together to 1 ? Result: >{result}<')
     
 
 if __name__ == "__main__":
