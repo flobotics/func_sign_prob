@@ -16,12 +16,21 @@ class MyDockWidget(cutter.CutterDockWidget):
         self.update_contents()
 
     def update_contents(self):
-        disasm = cutter.cmd("pd 1").strip()
-
-        instruction = cutter.cmdj("pdj 1")
-        size = instruction[0]["size"]
-
-        self._label.setText("Current disassembly:\n{}\nwith size {}".format(disasm, size))
+        #disasm1 = cutter.cmd("pd").strip()
+        
+        offset = cutter.cmd("s").strip()
+        self._label.setText("current offset:\n{}".format(offset))
+        
+        disasm = cutter.cmd("pdf @ " + offset).strip()
+        
+        
+        
+        #instruction = cutter.cmdj("pdj 1")
+        #size = instruction[0]["size"]
+# 
+        self._label.setText("disassembly:\n{}".format(disasm))
+#         
+#         self._label.setText("disassembly1:\n{}".format(disasm1))
 
 
 class MyCutterPlugin(cutter.CutterPlugin):
