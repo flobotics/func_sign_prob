@@ -78,13 +78,28 @@ def main():
     ret = export_model.predict(examples)
     print(f"Prediction: >{ret}<")
     
-    result = 0
+    ret_type_dict = pickle_lib.get_pickle_file_content('/home/ubu/Documents/gcp-caller-callee/arg_one/' + 'return_type_dict.pickle')
+    
     for item in ret:
+        result = 0
+        biggest = 0
+        biggest_count = 0
+        counter = 0
         for i in item:
+            if i > biggest:
+                biggest = i
+                biggest_count = counter
+            counter += 1
             #print(f'item >{i}<')
             result += i
+        for ret in ret_type_dict:
+            if ret_type_dict[ret] == biggest_count:
+                print(f'argument one is of type >{ret}<')
     
-    print(f'Does all count together to 1 ? Result: >{result}<')
+    print(f'Does last count together to 1 ? Result: >{result}<')
+    
+    
+    
     
 
 if __name__ == "__main__":
