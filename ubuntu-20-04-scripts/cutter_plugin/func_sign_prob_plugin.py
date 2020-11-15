@@ -2,6 +2,7 @@ import cutter
 
 from PySide2.QtCore import QObject, SIGNAL
 from PySide2.QtWidgets import QAction, QLabel
+from dis import dis
 
 class MyDockWidget(cutter.CutterDockWidget):
     def __init__(self, parent, action):
@@ -16,21 +17,19 @@ class MyDockWidget(cutter.CutterDockWidget):
         self.update_contents()
 
     def update_contents(self):
-        #disasm1 = cutter.cmd("pd").strip()
         
         offset = cutter.cmd("s").strip()
         self._label.setText("current offset:\n{}".format(offset))
         
+        ###get disas of currently selected function
         disasm = cutter.cmd("pdf @ " + offset).strip()
         
+        ###get XREFS, then get disas of XREFs
+        for elem in disasm.split('\n'):
+            if elem in 'XREF':
+                self._label.setText("XREF:{}".format(elem))
         
-        
-        #instruction = cutter.cmdj("pdj 1")
-        #size = instruction[0]["size"]
-# 
-        self._label.setText("disassembly:\n{}".format(disasm))
-#         
-#         self._label.setText("disassembly1:\n{}".format(disasm1))
+        #self._label.setText("current offset:{}\ndisassembly:{}".format(offset, disasm))
 
 
 class MyCutterPlugin(cutter.CutterPlugin):
