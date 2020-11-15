@@ -26,6 +26,7 @@ class MyDockWidget(cutter.CutterDockWidget):
         
         ###get XREFS, then get disas of XREFs
         for elem in disasm.split('\n'):
+            print(f'elem >{elem}<')
             if elem in 'XREF':
                 self._label.setText("XREF:{}".format(elem))
         
