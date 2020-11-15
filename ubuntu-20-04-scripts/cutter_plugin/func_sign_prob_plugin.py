@@ -19,18 +19,34 @@ class MyDockWidget(cutter.CutterDockWidget):
     def update_contents(self):
         
         offset = cutter.cmd("s").strip()
-        self._label.setText("current offset:\n{}".format(offset))
+        #self._label.setText("current offset:\n{}".format(offset))
         
         ###get disas of currently selected function
-        disasm = cutter.cmd("pdf @ " + offset).strip()
+        disasm_callee = cutter.cmd("pdf @ " + offset).strip()
         
         ###get XREFS, then get disas of XREFs
-        for elem in disasm.split('\n'):
-            print(f'elem >{elem}<')
-            if elem in 'XREF':
-                self._label.setText("XREF:{}".format(elem))
+        xrefs_addr_list = list()
+        xrefs_list = list()
         
-        #self._label.setText("current offset:{}\ndisassembly:{}".format(offset, disasm))
+        for elem in disasm_callee.split('\n'):
+            #print(f'elem >{elem}<')
+            if 'CALL XREF' in elem:
+                xrefs_list.append(elem)
+                for word in elem.split():
+                    print(f'word >{word}<')
+                    if '0x' in word:
+                        xrefs_addr_list.append(word)
+                
+        #self._label.setText("xrefs_addr_list:{}\n xrefs_list:{}".format(xrefs_addr_list, xrefs_list))
+        
+        ### get disas of caller function
+        ##if there are more call-xrefs ?
+        for a in xrefs_addr_list:
+            addr = a
+        disasm_caller = cutter.cmd("pdf @ " + addr).strip()
+        
+        self._label.setText("xrefs_addr_list:{}\n xrefs_list:{}\n disasm_caller:{}".format(xrefs_addr_list, xrefs_list, disasm_caller))
+        
 
 
 class MyCutterPlugin(cutter.CutterPlugin):
