@@ -27,21 +27,30 @@ class MyDockWidget(cutter.CutterDockWidget):
         asm_xrefs = cutter.cmd("e asm.xrefs")
         
         
-        ## get header of current function with $F
+        ## find data/code references to this address with $F
         current_func_header = cutter.cmdj("axtj $F")
         
         ## get addr of callee
+        callee_addr = 0
         for item_dicts in current_func_header:
             #print(f'item_dicts >{item_dicts}<')
             for elem in item_dicts:
                 if elem == 'from':
+                    callee_addr = item_dicts[elem]
                     print(f'address of callee >{item_dicts[elem]}<')
                 
         
         ## get disassembly of current function
         disasm_callee = cutter.cmd("pdf @ $F").strip()
         print(disasm_callee)
-        self._label.setText("disasm_callee:\n{}".format(disasm_callee))
+        
+        ## get disas of caller function
+        disasm_caller = cutter.cmd("pdf @ " + str(callee_addr))
+        print(disasm_caller)
+        
+        self._label.setText("disasm_caller:\n{}\ndisasm_callee:\n{}".format(disasm_caller, disasm_callee))
+        
+        
         
         file = open("/tmp/out.txt", 'w+')
         file.write("asm_syntax----------------\n")
@@ -50,8 +59,11 @@ class MyDockWidget(cutter.CutterDockWidget):
         file.write(asm_arch)
         file.write("asm_xrefs-----------------\n")
         file.write(asm_xrefs)
+        file.write("\ndisasm_caller-----------\n")
+        file.write(disasm_caller)
         file.write("\ndisasm_callee-----------\n")
         file.write(disasm_callee)
+        file.close()
         
         
         
