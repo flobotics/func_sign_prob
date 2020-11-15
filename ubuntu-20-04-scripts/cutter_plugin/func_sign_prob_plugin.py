@@ -18,10 +18,21 @@ class MyDockWidget(cutter.CutterDockWidget):
 
     def update_contents(self):
         
+        ### setup stuff
+        cutter.cmd("e asm.syntax=att")
+        asm_syntax = cutter.cmd("e asm.syntax")
+        cutter.cmd("e asm.arch=x86")
+        asm_arch = cutter.cmd("e asm.arch")
+        cutter.cmd("e asm.xrefs=true")
+        asm_xrefs = cutter.cmd("e asm.xrefs")
+        
+        
         offset = cutter.cmd("s").strip()
         #self._label.setText("current offset:\n{}".format(offset))
         
         ###get disas of currently selected function
+        ## e asm.arch=    asm.assembler=  asm.syntax=att
+        ## e? asm
         disasm_callee = cutter.cmd("pdf @ " + offset).strip()
         
         ###get XREFS, then get disas of XREFs
@@ -46,11 +57,24 @@ class MyDockWidget(cutter.CutterDockWidget):
             addr = a
         if addr != 0:
             disasm_caller = cutter.cmd("pdf @ " + addr).strip()
+        else:
+            disasm_caller = ''
         
         self._label.setText("xrefs_addr_list:{}\n xrefs_list:{}\n disasm_caller:{}\n disas_callee:{}".format(xrefs_addr_list, xrefs_list, disasm_caller, disasm_callee))
         
+        ## get a gdb-like disas output
+        cutter.cmd("e asm.xrefs=false")
+        disasm_callee = cutter.cmd("pdf @ " + offset).strip()
+        disasm_caller = cutter.cmd("pdf @ " + addr).strip()
+        
         file = open("/tmp/out.txt", 'w+')
-        file.write("xrefs_addr_list-----------\n")
+        file.write("asm_syntax----------------\n")
+        file.write(asm_syntax)
+        file.write("asm_arch------------------\n")
+        file.write(asm_arch)
+        file.write("asm_xrefs-----------------\n")
+        file.write(asm_xrefs)
+        file.write("\nxrefs_addr_list-----------\n")
         file.write(''.join(xrefs_addr_list))
         file.write("\nxrefs_list----------------\n")
         file.write(''.join(xrefs_list))
