@@ -105,6 +105,8 @@ def main():
 #                                         ])
 
     examples = ['null x null 1 mov']
+    print(f'Example we predict >{examples}<')
+    
     ret = export_model.predict(examples)
     print(f"Prediction: >{ret}<")
     print()  ##just a newline
