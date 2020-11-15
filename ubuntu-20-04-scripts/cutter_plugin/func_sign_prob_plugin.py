@@ -41,17 +41,24 @@ class MyDockWidget(cutter.CutterDockWidget):
         
         ### get disas of caller function
         ##if there are more call-xrefs ?
+        addr = 0
         for a in xrefs_addr_list:
             addr = a
-        disasm_caller = cutter.cmd("pdf @ " + addr).strip()
+        if addr != 0:
+            disasm_caller = cutter.cmd("pdf @ " + addr).strip()
         
         self._label.setText("xrefs_addr_list:{}\n xrefs_list:{}\n disasm_caller:{}\n disas_callee:{}".format(xrefs_addr_list, xrefs_list, disasm_caller, disasm_callee))
         
         file = open("/tmp/out.txt", 'w+')
+        file.write("xrefs_addr_list-----------\n")
         file.write(''.join(xrefs_addr_list))
+        file.write("\nxrefs_list----------------\n")
         file.write(''.join(xrefs_list))
+        file.write("\ndisasm_caller-------------\n")
         file.write(''.join(disasm_caller))
+        file.write("\ndisasm_callee-------------\n")
         file.write(''.join(disasm_callee))
+        file.write("\n--------------------------")
         file.close()
 
 
