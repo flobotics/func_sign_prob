@@ -2,7 +2,7 @@ import cutter
 
 from PySide2.QtCore import QObject, SIGNAL
 from PySide2.QtWidgets import QAction, QLabel
-from dis import dis
+#from dis import dis
 
 class MyDockWidget(cutter.CutterDockWidget):
     def __init__(self, parent, action):
@@ -45,8 +45,14 @@ class MyDockWidget(cutter.CutterDockWidget):
             addr = a
         disasm_caller = cutter.cmd("pdf @ " + addr).strip()
         
-        self._label.setText("xrefs_addr_list:{}\n xrefs_list:{}\n disasm_caller:{}".format(xrefs_addr_list, xrefs_list, disasm_caller))
+        self._label.setText("xrefs_addr_list:{}\n xrefs_list:{}\n disasm_caller:{}\n disas_callee:{}".format(xrefs_addr_list, xrefs_list, disasm_caller, disasm_callee))
         
+        file = open("/tmp/out.txt", 'w+')
+        file.write(''.join(xrefs_addr_list))
+        file.write(''.join(xrefs_list))
+        file.write(''.join(disasm_caller))
+        file.write(''.join(disasm_callee))
+        file.close()
 
 
 class MyCutterPlugin(cutter.CutterPlugin):
