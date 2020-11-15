@@ -38,9 +38,22 @@ class MyDockWidget(cutter.CutterDockWidget):
                     print(f'address of callee >{item_dicts[elem]}<')
                 
         
+        ## get disassembly of current function
         disasm_callee = cutter.cmd("pdf @ $F").strip()
         print(disasm_callee)
-        self._label.setText("current offset:\n{}".format(disasm_callee))
+        self._label.setText("disasm_callee:\n{}".format(disasm_callee))
+        
+        file = open("/tmp/out.txt", 'w+')
+        file.write("asm_syntax----------------\n")
+        file.write(asm_syntax)
+        file.write("asm_arch------------------\n")
+        file.write(asm_arch)
+        file.write("asm_xrefs-----------------\n")
+        file.write(asm_xrefs)
+        file.write("\ndisasm_callee-----------\n")
+        file.write(disasm_callee)
+        
+        
         
         
 #         offset = cutter.cmd("s").strip()
