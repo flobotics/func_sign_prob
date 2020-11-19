@@ -29,6 +29,8 @@ class MyDockWidget(cutter.CutterDockWidget):
         cutter.cmd("e asm.bytes=false")
         asm_bytes = cutter.cmd("e asm.bytes")
         
+        ### get actual loaded bin-filename
+        ### cmdj('ij').get('Core').get('file')   or something like that
         
         ## find data/code references to this address with $F
         current_func_header = cutter.cmdj("axtj $F")
@@ -70,7 +72,9 @@ class MyDockWidget(cutter.CutterDockWidget):
         
         self._label.setText("disasm after {}".format(gdb_info_functions))
         
-        ##
+        ##search if function is available
+        seek = cutter.cmd('s')
+        
         
         
         
