@@ -1,6 +1,7 @@
 import cutter
+import subprocess
 
-from PySide2.QtCore import QObject, SIGNAL
+from PySide2.QtCore import QObject, SIGNAL, QProcess
 from PySide2.QtWidgets import QAction, QLabel
 #from dis import dis
 
@@ -50,11 +51,34 @@ class MyDockWidget(cutter.CutterDockWidget):
         disasm_caller = cutter.cmd("pdf @ " + str(callee_addr))
         print(disasm_caller)
         
-        self._label.setText("disasm_caller:\n{}\ndisasm_callee:\n{}".format(disasm_caller, disasm_callee))
+        #self._label.setText("disasm_caller:\n{}\ndisasm_callee:\n{}".format(disasm_caller, disasm_callee))
+        self._label.setText("disasm before")
+        
+        ### get disas from gdb
+        gdb_process = QProcess()
+        
+        binn = '/tmp/testapp'
+        bin = "file " + binn
+        
+        gdb_process.start("/usr/bin/gdb",
+                            ['-batch',  '-ex', bin, '-ex', 'info functions'])
+        
+        gdb_process.waitForFinished()
+        gdb_result = gdb_process.readAll()
+        
+        gdb_info_functions = str(gdb_result, 'utf-8')
+        
+        self._label.setText("disasm after {}".format(gdb_info_functions))
+        
+        ##
         
         
         
-        file = open("/tmp/out.txt", 'w+')
+        #out_list = out.split('\n')
+        
+        file = open("/tmp/cutter-disas.txt", 'w+')
+        file.write("gdb-info-func-------------\n")
+        #file.write(''.join(gdb_result))
         file.write("asm_syntax----------------\n")
         file.write(asm_syntax)
         
@@ -80,7 +104,7 @@ class MyDockWidget(cutter.CutterDockWidget):
 class MyCutterPlugin(cutter.CutterPlugin):
     name = "func_sign_prob plugin"
     description = "func_sign_prob plugin"
-    version = "1.0"
+    version = "0.1"
     author = "flo"
 
     def setupPlugin(self):
