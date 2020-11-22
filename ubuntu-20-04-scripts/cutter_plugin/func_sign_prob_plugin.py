@@ -2,7 +2,7 @@ import cutter
 import subprocess
 
 from PySide2.QtCore import QObject, SIGNAL, QProcess
-from PySide2.QtWidgets import QAction, QLabel
+from PySide2.QtWidgets import QAction, QLabel, QPlainTextEdit
 #from dis import dis
 
 class MyDockWidget(cutter.CutterDockWidget):
@@ -11,8 +11,10 @@ class MyDockWidget(cutter.CutterDockWidget):
         self.setObjectName("func_sign_probDockWidget")
         self.setWindowTitle("func_sign_prob DockWidget")
 
-        self._label = QLabel(self)
-        self.setWidget(self._label)
+        #self._label = QLabel(self)
+        self._disasTextEdit = QPlainTextEdit(self)
+        #self.setWidget(self._label)
+        self.setWidget(self._disasTextEdit)
 
         QObject.connect(cutter.core(), SIGNAL("seekChanged(RVA)"), self.update_contents)
         self.update_contents()
@@ -28,6 +30,14 @@ class MyDockWidget(cutter.CutterDockWidget):
         asm_xrefs = cutter.cmd("e asm.xrefs")
         cutter.cmd("e asm.bytes=false")
         asm_bytes = cutter.cmd("e asm.bytes")
+        cutter.cmd("e asm.demangle=false")
+        cutter.cmd("e asm.var.sub=false")
+        cutter.cmd("e asm.sub.rel=false")
+        cutter.cmd("e asm.calls=false")
+        cutter.cmd("e asm.comments=false")
+        cutter.cmd("e asm.reloff=true")
+        cutter.cmd("e scr.color=3")
+        cutter.cmd("e asm.noisy=false")
         
         ### get actual loaded bin-filename
         ### cmdj('ij').get('Core').get('file')   or something like that
@@ -53,27 +63,32 @@ class MyDockWidget(cutter.CutterDockWidget):
         disasm_caller = cutter.cmd("pdf @ " + str(callee_addr))
         print(disasm_caller)
         
+        for line in disasm_caller.split('\n'):
+            print(f'line >{line}<')
+        
+        self._disasTextEdit.setPlainText("disasm_caller:\n{}\ndisasm_callee:\n{}".format(disasm_caller, disasm_callee))
+        
         #self._label.setText("disasm_caller:\n{}\ndisasm_callee:\n{}".format(disasm_caller, disasm_callee))
-        self._label.setText("disasm before")
+        #self._label.setText("disasm before")
         
-        ### get disas from gdb
-        gdb_process = QProcess()
-        
-        binn = '/tmp/testapp'
-        bin = "file " + binn
-        
-        gdb_process.start("/usr/bin/gdb",
-                            ['-batch',  '-ex', bin, '-ex', 'info functions'])
-        
-        gdb_process.waitForFinished()
-        gdb_result = gdb_process.readAll()
-        
-        gdb_info_functions = str(gdb_result, 'utf-8')
-        
-        self._label.setText("disasm after {}".format(gdb_info_functions))
+#         ### get disas from gdb
+#         gdb_process = QProcess()
+#         
+#         binn = '/tmp/testapp'
+#         bin = "file " + binn
+#         
+#         gdb_process.start("/usr/bin/gdb",
+#                             ['-batch',  '-ex', bin, '-ex', 'info functions'])
+#         
+#         gdb_process.waitForFinished()
+#         gdb_result = gdb_process.readAll()
+#         
+#         gdb_info_functions = str(gdb_result, 'utf-8')
+#         
+#         self._label.setText("disasm after {}".format(gdb_info_functions))
         
         ##search if function is available
-        seek = cutter.cmd('s')
+        #seek = cutter.cmd('s')
         
         
         
