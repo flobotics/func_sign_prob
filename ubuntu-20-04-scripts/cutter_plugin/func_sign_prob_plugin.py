@@ -32,12 +32,15 @@ class MyDockWidget(cutter.CutterDockWidget):
         asm_bytes = cutter.cmd("e asm.bytes")
         cutter.cmd("e asm.demangle=false")
         cutter.cmd("e asm.var.sub=false")
+        cutter.cmd("e asm.var=false")     ##vars in head-part
         cutter.cmd("e asm.sub.rel=false")
         cutter.cmd("e asm.calls=false")
         cutter.cmd("e asm.comments=false")
         cutter.cmd("e asm.reloff=true")
         cutter.cmd("e scr.color=3")
         cutter.cmd("e asm.noisy=false")
+        cutter.cmd("e asm.xrefs=false")   ##part in head-part
+        cutter.cmd("e asm.functions=false")   ##part in head-part
         
         ### get actual loaded bin-filename
         ### cmdj('ij').get('Core').get('file')   or something like that
@@ -63,8 +66,6 @@ class MyDockWidget(cutter.CutterDockWidget):
         disasm_caller = cutter.cmd("pdf @ " + str(callee_addr))
         print(disasm_caller)
         
-        for line in disasm_caller.split('\n'):
-            print(f'line >{line}<')
         
         self._disasTextEdit.setPlainText("disasm_caller:\n{}\ndisasm_callee:\n{}".format(disasm_caller, disasm_callee))
         
