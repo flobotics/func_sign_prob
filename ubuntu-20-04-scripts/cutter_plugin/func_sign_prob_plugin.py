@@ -66,6 +66,33 @@ class MyDockWidget(cutter.CutterDockWidget):
         disasm_caller = cutter.cmd("pdf @ " + str(callee_addr))
         print(disasm_caller)
         
+        modified_disasm_caller = list()
+        
+        for line in disasm_callee.split('\n'):
+            #print(f'line >{line}<')
+            for word in line.split():
+                if word.strip().startswith('fcn.'):
+                    print(f'word starts with fcn.')
+                    ##fcn.00001289+0x4  to  0x0000000000001289 <+0x4>:
+                    if not word.contains('+'):  ##first line
+                        print(f'word NOT contains +, think its first line')
+                        idx1 = word.index('.')
+                        addr = word[idx1+1:]
+                        l = len(addr)
+                        addr = '0x' + '0'*(16-l) + addr
+                        modified_disasm_caller.append(addr + ' <+0>:')
+                    else:  ### other lines
+                        print(f'word seemed not to contain +, think its other lines')
+                        idx1 = word.index('.')
+                        idx2 = word.index('+')
+                        addr = word[idx1+1:idx2]
+                        off = word[idx2:]
+                        modified_disasm_caller.append('0x' + addr + ' <' + off + '>:')
+                else:
+                    print(f'Nothing found >{word}<')
+                    modified_disasm_caller.append(word)       
+         
+        disasm_callee = ' '.join(modified_disasm_caller)               
         
         self._disasTextEdit.setPlainText("disasm_caller:\n{}\ndisasm_callee:\n{}".format(disasm_caller, disasm_callee))
         
