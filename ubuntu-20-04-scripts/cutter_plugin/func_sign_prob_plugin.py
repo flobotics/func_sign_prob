@@ -125,7 +125,7 @@ class MyDockWidget(cutter.CutterDockWidget):
 
         print(f'aflj_dict >{aflj_dict}<')
                                         
-                    
+        return aflj_dict    
                      
         
     def update_contents(self):
@@ -157,14 +157,7 @@ class MyDockWidget(cutter.CutterDockWidget):
         
         ## get sym functions and its address
         aflj_output = cutter.cmdj("aflj")
-        self.modify_aflj_output(aflj_output)
-        
-        
-        
-#         for elem in aflj_output:
-#             for key in elem:
-#                 if key == 'signature':
-#                     print(f"item >{key}<  sign >{elem[key]}<  addr >{elem['offset']}<")
+        aflj_dict = self.modify_aflj_output(aflj_output)
         
         
         modified_disasm_caller = list()
@@ -221,30 +214,11 @@ class MyDockWidget(cutter.CutterDockWidget):
                         print(f'main offset/addr modified >{main_addr}<')
                         modified_disasm_caller.append(main_addr + ' <+0>:')
                 elif 'sym.' in word:
-                    print(f'word >{word}< got sym in it, replace with addr')
+                    #print(f'word >{word}< got sym in it, replace with addr')
                     found = False
-                    for elem in aflj_output:
-                        #print(f"elem-sig >{elem['signature']}<")
-                        sign = elem['signature']
-                        #print(f'sign >{sign}<')
-                        if '(' in sign:
-                            idx = sign.index('(')
-                            sign = sign[:idx]
-                            sign = sign.strip()
-                            
-                        if 'sym.' in sign:
-                            idx = sign.index('sym.')
-                            sign = sign[idx:]
-                            
-                            
-                        if sign == word:
-                            #print(f"found sign >{sign}<  addr >{elem['offset']}<")
-                            
-                            ## translate int-addr to hex without leading zeros only e.g. 0x7 not 0x07
-                            hex_addr = int(elem['offset'])
-                            hex_addr = hex(hex_addr)
-                            #print(f"hex-addr >{hex_addr}<")
-                            modified_disasm_caller.append(hex_addr)
+                    for key in aflj_dict:
+                        if key == word:
+                            modified_disasm_caller.append(aflj_dict[key])
                             found = True
                             
                     if found == False:
@@ -253,9 +227,11 @@ class MyDockWidget(cutter.CutterDockWidget):
                     
                 elif 'loc.' in word:
                     print(f'word >{word}< got loc. in it, replace with addr')
+                    ## loc.00001376
+                    modified_disasm_caller.append(word.replace('loc.', '0x'))
                     
                 else:
-                    print(f'Nothing found >{word}<')
+                    #print(f'Nothing found >{word}<')
                     modified_disasm_caller.append(word)
                     
             modified_disasm_caller.append('\n')       
