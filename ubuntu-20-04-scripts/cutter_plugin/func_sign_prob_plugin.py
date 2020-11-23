@@ -185,7 +185,7 @@ class MyDockWidget(cutter.CutterDockWidget):
                         main_addr = '0x00000000' + main_addr[2:]
                         print(f'main offset/addr modified >{main_addr}<')
                         modified_disasm_caller.append(main_addr + ' <+0>:')
-                elif 'sym' in word:
+                elif 'sym.' in word:
                     print(f'word >{word}< got sym in it, replace with addr')
                     found = False
                     for elem in aflj_output:
@@ -202,15 +202,16 @@ class MyDockWidget(cutter.CutterDockWidget):
                             sign = sign[idx:]
                             
                             
-                            if sign == word:
-                                #print(f"found sign >{sign}<  addr >{elem['offset']}<")
-                                
-                                ## translate int-addr to hex without leading zeros only e.g. 0x7 not 0x07
-                                hex_addr = int(elem['offset'])
-                                hex_addr = hex(hex_addr)
-                                #print(f"hex-addr >{hex_addr}<")
-                                modified_disasm_caller.append(hex_addr)
-                                found = True
+                        if sign == word:
+                            #print(f"found sign >{sign}<  addr >{elem['offset']}<")
+                            
+                            ## translate int-addr to hex without leading zeros only e.g. 0x7 not 0x07
+                            hex_addr = int(elem['offset'])
+                            hex_addr = hex(hex_addr)
+                            #print(f"hex-addr >{hex_addr}<")
+                            modified_disasm_caller.append(hex_addr)
+                            found = True
+                            
                     if found == False:
                         print(f"no signature found >{word}<")
                         
