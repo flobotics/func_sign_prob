@@ -129,10 +129,10 @@ class MyDockWidget(cutter.CutterDockWidget):
         
         for line in disasm_callee.split('\n'):
             #print(f'line >{line}<')
-            for word1 in line.split():
-                word = word1.encode('ascii', errors='ignore').decode()
+            for word in line.split():
+                #word = word1.encode('ascii', errors='ignore').decode()
                 if word.startswith('fcn.'):  ##remove color codes, radare2 e scr.color=0 removes stuff
-                    print(f'word starts with fcn.')
+                    print(f'word >{word}< starts with fcn.')
                     ##fcn.00001289+0x4  to  0x0000000000001289 <+0x4>:
                     if not word.contains('+'):  ##first line
                         print(f'word NOT contains +, think its first line')
@@ -159,14 +159,14 @@ class MyDockWidget(cutter.CutterDockWidget):
                         main_addr = cutter.cmd('afi main~offset')
                         print(f'main offset/addr >{main_addr}<')
                         main_addr = '0x00000000' + main_addr[2:]
-                        print(f'main offset/addr >{main_addr}<')
+                        print(f'main offset/addr modified >{main_addr}<')
                         modified_disasm_caller.append('0x' + main_addr + ' <' + off + '>:')
                     else:
                         print(f'word main is first line, or?')
                         main_addr = cutter.cmd('afi main~offset')
                         print(f'main offset/addr >{main_addr}<')
                         main_addr = '0x00000000' + main_addr[2:]
-                        print(f'main offset/addr >{main_addr}<')
+                        print(f'main offset/addr modified >{main_addr}<')
                         modified_disasm_caller.append(main_addr + ' <+0>:')
                 else:
                     print(f'Nothing found >{word}<')
