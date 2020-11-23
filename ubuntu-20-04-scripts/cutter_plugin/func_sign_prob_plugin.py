@@ -155,14 +155,13 @@ class MyDockWidget(cutter.CutterDockWidget):
         disasm_caller = cutter.cmd("pdf @ " + str(callee_addr))
         print(disasm_caller)
         
-        ## get sym functions and its address
+        ## get sym. functions and its addresses
         aflj_output = cutter.cmdj("aflj")
         aflj_dict = self.modify_aflj_output(aflj_output)
         
         
         modified_disasm_caller = list()
         
-        ## find loc. and replace
         new_str = ''
         #for char in disasm_callee:
         #new_char = re.sub(u'\u001b\[.*?[@-~]', '', disasm_callee)
