@@ -72,30 +72,30 @@ class MyDockWidget(cutter.CutterDockWidget):
         cutter.cmd("e asm.functions=false")   ##part in head-part
         
         
+    
+    def todo_placeholder(self):
+        pass
+        #         ### get disas from gdb
+#         gdb_process = QProcess()
+#         
+#         binn = '/tmp/testapp'
+#         bin = "file " + binn
+#         
+#         gdb_process.start("/usr/bin/gdb",
+#                             ['-batch',  '-ex', bin, '-ex', 'info functions'])
+#         
+#         gdb_process.waitForFinished()
+#         gdb_result = gdb_process.readAll()
+#         
+#         gdb_info_functions = str(gdb_result, 'utf-8')
+#         
+#         self._label.setText("disasm after {}".format(gdb_info_functions))
+        
+        ##search if function is available
+        #seek = cutter.cmd('s')
+        
         
     def update_contents(self):
-        
-#         ### setup stuff to get gdb-style disassembly
-#         cutter.cmd("e asm.syntax=att")
-#         asm_syntax = cutter.cmd("e asm.syntax")
-#         cutter.cmd("e asm.arch=x86")
-#         asm_arch = cutter.cmd("e asm.arch")
-#         cutter.cmd("e asm.xrefs=false")
-#         asm_xrefs = cutter.cmd("e asm.xrefs")
-#         cutter.cmd("e asm.bytes=false")
-#         asm_bytes = cutter.cmd("e asm.bytes")
-#         cutter.cmd("e asm.demangle=false")
-#         cutter.cmd("e asm.var.sub=false")
-#         cutter.cmd("e asm.var=false")     ##vars in head-part
-#         cutter.cmd("e asm.sub.rel=false")
-#         cutter.cmd("e asm.calls=false")
-#         cutter.cmd("e asm.comments=false")
-#         cutter.cmd("e asm.reloff=true")
-#         cutter.cmd("e scr.color=3")
-#         cutter.cmd("e asm.noisy=false")
-#         cutter.cmd("e asm.xrefs=false")   ##part in head-part
-#         cutter.cmd("e asm.functions=false")   ##part in head-part
-        
         ### get actual loaded bin-filename
         ### cmdj('ij').get('Core').get('file')   or something like that
         
@@ -178,44 +178,8 @@ class MyDockWidget(cutter.CutterDockWidget):
         #self._label.setText("disasm_caller:\n{}\ndisasm_callee:\n{}".format(disasm_caller, disasm_callee))
         #self._label.setText("disasm before")
         
-#         ### get disas from gdb
-#         gdb_process = QProcess()
-#         
-#         binn = '/tmp/testapp'
-#         bin = "file " + binn
-#         
-#         gdb_process.start("/usr/bin/gdb",
-#                             ['-batch',  '-ex', bin, '-ex', 'info functions'])
-#         
-#         gdb_process.waitForFinished()
-#         gdb_result = gdb_process.readAll()
-#         
-#         gdb_info_functions = str(gdb_result, 'utf-8')
-#         
-#         self._label.setText("disasm after {}".format(gdb_info_functions))
-        
-        ##search if function is available
-        #seek = cutter.cmd('s')
-        
-        
-        
-        
-        #out_list = out.split('\n')
         
         file = open("/tmp/cutter-disas.txt", 'w+')
-        #file.write("gdb-info-func-------------\n")
-        #file.write(''.join(gdb_result))
-        #file.write("asm_syntax----------------\n")
-        #file.write(asm_syntax)
-        
-        #file.write("asm_arch------------------\n")
-        #file.write(asm_arch)
-        
-        #file.write("asm_xrefs-----------------\n")
-        #file.write(asm_xrefs)
-        
-        #file.write("asm_bytes-----------------\n")
-        #file.write(asm_bytes)
         
         file.write("\ndisasm_caller-----------\n")
         file.write(disasm_caller)
@@ -224,8 +188,10 @@ class MyDockWidget(cutter.CutterDockWidget):
         file.write(disasm_callee)
         file.close()
         
-       
         self.set_old_radare2_e()
+        
+        
+        
 
 class MyCutterPlugin(cutter.CutterPlugin):
     name = "func_sign_prob plugin"
