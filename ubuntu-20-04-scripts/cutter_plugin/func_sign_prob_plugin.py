@@ -1,5 +1,6 @@
 import cutter
 import subprocess
+import re
 
 from PySide2.QtCore import QObject, SIGNAL, QProcess
 from PySide2.QtWidgets import QAction, QLabel, QPlainTextEdit
@@ -48,7 +49,7 @@ class MyDockWidget(cutter.CutterDockWidget):
         cutter.cmd("e asm.calls=false")
         cutter.cmd("e asm.comments=false")
         cutter.cmd("e asm.reloff=true")
-        cutter.cmd("e scr.color=3")
+        cutter.cmd("e scr.color=0")
         cutter.cmd("e asm.noisy=false")
         cutter.cmd("e asm.xrefs=false")   ##part in head-part
         cutter.cmd("e asm.functions=false")   ##part in head-part
@@ -123,18 +124,34 @@ class MyDockWidget(cutter.CutterDockWidget):
         disasm_caller = cutter.cmd("pdf @ " + str(callee_addr))
         print(disasm_caller)
         
+        ## get sym functions and its address
+        aflj_output = cutter.cmdj("aflj")
+        for elem in aflj_output:
+            for key in elem:
+                if key == 'signature':
+                    print(f"item >{key}<  sign >{elem[key]}<  addr >{elem['offset']}<")
+        
+        
         modified_disasm_caller = list()
         
         ## find loc. and replace
+        new_str = ''
+        #for char in disasm_callee:
+        #new_char = re.sub(u'\u001b\[.*?[@-~]', '', disasm_callee)
+        #new_str = new_str + str(char)
+        
+        #disasm_callee = new_char
         
         for line in disasm_callee.split('\n'):
             #print(f'line >{line}<')
+            #line = re.sub(u'\u001b\[.*?[@-~]', '', line)
+            #line = str(line)
             for word in line.split():
                 #word = word1.encode('ascii', errors='ignore').decode()
                 if word.startswith('fcn.'):  ##remove color codes, radare2 e scr.color=0 removes stuff
                     print(f'word >{word}< starts with fcn.')
                     ##fcn.00001289+0x4  to  0x0000000000001289 <+0x4>:
-                    if not word.contains('+'):  ##first line
+                    if not '+' in word:  ##first line
                         print(f'word NOT contains +, think its first line')
                         idx1 = word.index('.')
                         addr = word[idx1+1:]
@@ -149,8 +166,8 @@ class MyDockWidget(cutter.CutterDockWidget):
                         off = word[idx2:]
                         modified_disasm_caller.append('0x' + addr + ' <' + off + '>:')
                 elif word.startswith('main'):
-                    print(f'word starts with main')
-                    if word.contains('+0x'):
+                    print(f'word >{word}< starts with main')
+                    if '+0x' in word:
                         print(f'word contains +0x')
                         idx1 = word.index('+')
                         off = word[idx1+1:]
@@ -168,9 +185,44 @@ class MyDockWidget(cutter.CutterDockWidget):
                         main_addr = '0x00000000' + main_addr[2:]
                         print(f'main offset/addr modified >{main_addr}<')
                         modified_disasm_caller.append(main_addr + ' <+0>:')
+                elif 'sym' in word:
+                    print(f'word >{word}< got sym in it, replace with addr')
+                    found = False
+                    for elem in aflj_output:
+                        #print(f"elem-sig >{elem['signature']}<")
+                        sign = elem['signature']
+                        #print(f'sign >{sign}<')
+                        if '(' in sign:
+                            idx = sign.index('(')
+                            sign = sign[:idx]
+                            sign = sign.strip()
+                            
+                        if 'sym.' in sign:
+                            idx = sign.index('sym.')
+                            sign = sign[idx:]
+                            
+                            
+                            if sign == word:
+                                #print(f"found sign >{sign}<  addr >{elem['offset']}<")
+                                
+                                ## translate int-addr to hex without leading zeros only e.g. 0x7 not 0x07
+                                hex_addr = int(elem['offset'])
+                                hex_addr = hex(hex_addr)
+                                #print(f"hex-addr >{hex_addr}<")
+                                modified_disasm_caller.append(hex_addr)
+                                found = True
+                    if found == False:
+                        print(f"no signature found >{word}<")
+                        
+                    
+                elif 'loc.' in word:
+                    print(f'word >{word}< got loc. in it, replace with addr')
+                    
                 else:
                     print(f'Nothing found >{word}<')
-                    modified_disasm_caller.append(word)       
+                    modified_disasm_caller.append(word)
+                    
+            modified_disasm_caller.append('\n')       
          
         disasm_callee = ' '.join(modified_disasm_caller)               
         
