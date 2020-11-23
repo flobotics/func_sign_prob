@@ -56,7 +56,7 @@ class MyDockWidget(cutter.CutterDockWidget):
         
         
         
-    def set_old_radare2_e(self):
+    def set_stored_radare2_e(self):
         cutter.cmd("e asm.syntax=" + self.asm_syntax)
         cutter.cmd("e asm.arch=" + self.asm_arch)
         cutter.cmd("e asm.bytes=" + self.asm_bytes)
@@ -189,7 +189,7 @@ class MyDockWidget(cutter.CutterDockWidget):
         file.write(disasm_callee)
         file.close()
         
-        self.set_old_radare2_e()
+        self.set_stored_radare2_e()
         
         
         
