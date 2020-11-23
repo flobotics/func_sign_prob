@@ -18,18 +18,47 @@ class MyDockWidget(cutter.CutterDockWidget):
 
         QObject.connect(cutter.core(), SIGNAL("seekChanged(RVA)"), self.update_contents)
         self.update_contents()
+        
 
-    def update_contents(self):
+    def set_new_radare2_e(self):
+        ##store values we modify
+        self.asm_syntax = cutter.cmd("e asm.syntax")
+        self.asm_arch = cutter.cmd("e asm.arch")
+        self.asm_xrefs = cutter.cmd("e asm.xrefs")
+        self.asm_bytes = cutter.cmd("e asm.bytes")
+        self.asm_demangle = cutter.cmd("e asm.demangle")
+        self.asm_var_sub = cutter.cmd("e asm.var.sub")
+        self.asm_var = cutter.cmd("e asm.var")
+        self.asm_sub_rel = cutter.cmd("e asm.sub.rel")
+        self.asm_calls = cutter.cmd("e asm.calls")
+        self.asm_comments = cutter.cmd("e asm.comments")
+        self.asm_reloff = cutter.cmd("e asm.reloff")
+        self.scr_color = cutter.cmd("e scr.color")
+        self.asm_noisy = cutter.cmd("e asm.noisy")
+        self.asm_functions = cutter.cmd("e asm.functions")
         
         ### setup stuff to get gdb-style disassembly
+        cutter.cmd("e asm.syntax=" + self.asm_syntax)
+        cutter.cmd("e asm.arch=" + self.asm_arch)
+        cutter.cmd("e asm.bytes=" + self.asm_bytes)
+        cutter.cmd("e asm.demangle=" + self.asm_demangle)
+        cutter.cmd("e asm.var.sub=" + self.asm_var_sub)
+        cutter.cmd("e asm.var=" + self.asm_var)     ##vars in head-part
+        cutter.cmd("e asm.sub.rel=" + self.asm_sub_rel)
+        cutter.cmd("e asm.calls=" + self.asm_calls)
+        cutter.cmd("e asm.comments=" + self.asm_comments)
+        cutter.cmd("e asm.reloff=" + self.asm_reloff)
+        cutter.cmd("e scr.color=" + self.scr_color)
+        cutter.cmd("e asm.noisy=" + self.asm_noisy)
+        cutter.cmd("e asm.xrefs=" + self.asm_xrefs)   ##part in head-part
+        cutter.cmd("e asm.functions=" + self.asm_functions)   ##part in head-part
+        
+        
+        
+    def set_old_radare2_e(self):
         cutter.cmd("e asm.syntax=att")
-        asm_syntax = cutter.cmd("e asm.syntax")
         cutter.cmd("e asm.arch=x86")
-        asm_arch = cutter.cmd("e asm.arch")
-        cutter.cmd("e asm.xrefs=false")
-        asm_xrefs = cutter.cmd("e asm.xrefs")
         cutter.cmd("e asm.bytes=false")
-        asm_bytes = cutter.cmd("e asm.bytes")
         cutter.cmd("e asm.demangle=false")
         cutter.cmd("e asm.var.sub=false")
         cutter.cmd("e asm.var=false")     ##vars in head-part
@@ -42,8 +71,35 @@ class MyDockWidget(cutter.CutterDockWidget):
         cutter.cmd("e asm.xrefs=false")   ##part in head-part
         cutter.cmd("e asm.functions=false")   ##part in head-part
         
+        
+        
+    def update_contents(self):
+        
+#         ### setup stuff to get gdb-style disassembly
+#         cutter.cmd("e asm.syntax=att")
+#         asm_syntax = cutter.cmd("e asm.syntax")
+#         cutter.cmd("e asm.arch=x86")
+#         asm_arch = cutter.cmd("e asm.arch")
+#         cutter.cmd("e asm.xrefs=false")
+#         asm_xrefs = cutter.cmd("e asm.xrefs")
+#         cutter.cmd("e asm.bytes=false")
+#         asm_bytes = cutter.cmd("e asm.bytes")
+#         cutter.cmd("e asm.demangle=false")
+#         cutter.cmd("e asm.var.sub=false")
+#         cutter.cmd("e asm.var=false")     ##vars in head-part
+#         cutter.cmd("e asm.sub.rel=false")
+#         cutter.cmd("e asm.calls=false")
+#         cutter.cmd("e asm.comments=false")
+#         cutter.cmd("e asm.reloff=true")
+#         cutter.cmd("e scr.color=3")
+#         cutter.cmd("e asm.noisy=false")
+#         cutter.cmd("e asm.xrefs=false")   ##part in head-part
+#         cutter.cmd("e asm.functions=false")   ##part in head-part
+        
         ### get actual loaded bin-filename
         ### cmdj('ij').get('Core').get('file')   or something like that
+        
+        self.set_new_radare2_e()
         
         ## find data/code references to this address with $F
         current_func_header = cutter.cmdj("axtj $F")
@@ -68,10 +124,13 @@ class MyDockWidget(cutter.CutterDockWidget):
         
         modified_disasm_caller = list()
         
+        ## find loc. and replace
+        
         for line in disasm_callee.split('\n'):
             #print(f'line >{line}<')
-            for word in line.split():
-                if word.strip().startswith('fcn.'):
+            for word1 in line.split():
+                word = word1.encode('ascii', errors='ignore').decode()
+                if word.startswith('fcn.'):  ##remove color codes, radare2 e scr.color=0 removes stuff
                     print(f'word starts with fcn.')
                     ##fcn.00001289+0x4  to  0x0000000000001289 <+0x4>:
                     if not word.contains('+'):  ##first line
@@ -88,6 +147,26 @@ class MyDockWidget(cutter.CutterDockWidget):
                         addr = word[idx1+1:idx2]
                         off = word[idx2:]
                         modified_disasm_caller.append('0x' + addr + ' <' + off + '>:')
+                elif word.startswith('main'):
+                    print(f'word starts with main')
+                    if word.contains('+0x'):
+                        print(f'word contains +0x')
+                        idx1 = word.index('+')
+                        off = word[idx1+1:]
+                        ###main must be replaced with an address ??
+                        #get addr of main()
+                        main_addr = cutter.cmd('afi main~offset')
+                        print(f'main offset/addr >{main_addr}<')
+                        main_addr = '0x00000000' + main_addr[2:]
+                        print(f'main offset/addr >{main_addr}<')
+                        modified_disasm_caller.append('0x' + main_addr + ' <' + off + '>:')
+                    else:
+                        print(f'word main is first line, or?')
+                        main_addr = cutter.cmd('afi main~offset')
+                        print(f'main offset/addr >{main_addr}<')
+                        main_addr = '0x00000000' + main_addr[2:]
+                        print(f'main offset/addr >{main_addr}<')
+                        modified_disasm_caller.append(main_addr + ' <+0>:')
                 else:
                     print(f'Nothing found >{word}<')
                     modified_disasm_caller.append(word)       
@@ -124,19 +203,19 @@ class MyDockWidget(cutter.CutterDockWidget):
         #out_list = out.split('\n')
         
         file = open("/tmp/cutter-disas.txt", 'w+')
-        file.write("gdb-info-func-------------\n")
+        #file.write("gdb-info-func-------------\n")
         #file.write(''.join(gdb_result))
-        file.write("asm_syntax----------------\n")
-        file.write(asm_syntax)
+        #file.write("asm_syntax----------------\n")
+        #file.write(asm_syntax)
         
-        file.write("asm_arch------------------\n")
-        file.write(asm_arch)
+        #file.write("asm_arch------------------\n")
+        #file.write(asm_arch)
         
-        file.write("asm_xrefs-----------------\n")
-        file.write(asm_xrefs)
+        #file.write("asm_xrefs-----------------\n")
+        #file.write(asm_xrefs)
         
-        file.write("asm_bytes-----------------\n")
-        file.write(asm_bytes)
+        #file.write("asm_bytes-----------------\n")
+        #file.write(asm_bytes)
         
         file.write("\ndisasm_caller-----------\n")
         file.write(disasm_caller)
@@ -146,7 +225,7 @@ class MyDockWidget(cutter.CutterDockWidget):
         file.close()
         
        
-
+        self.set_old_radare2_e()
 
 class MyCutterPlugin(cutter.CutterPlugin):
     name = "func_sign_prob plugin"
