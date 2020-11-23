@@ -38,24 +38,6 @@ class MyDockWidget(cutter.CutterDockWidget):
         self.asm_functions = cutter.cmd("e asm.functions")
         
         ### setup stuff to get gdb-style disassembly
-        cutter.cmd("e asm.syntax=" + self.asm_syntax)
-        cutter.cmd("e asm.arch=" + self.asm_arch)
-        cutter.cmd("e asm.bytes=" + self.asm_bytes)
-        cutter.cmd("e asm.demangle=" + self.asm_demangle)
-        cutter.cmd("e asm.var.sub=" + self.asm_var_sub)
-        cutter.cmd("e asm.var=" + self.asm_var)     ##vars in head-part
-        cutter.cmd("e asm.sub.rel=" + self.asm_sub_rel)
-        cutter.cmd("e asm.calls=" + self.asm_calls)
-        cutter.cmd("e asm.comments=" + self.asm_comments)
-        cutter.cmd("e asm.reloff=" + self.asm_reloff)
-        cutter.cmd("e scr.color=" + self.scr_color)
-        cutter.cmd("e asm.noisy=" + self.asm_noisy)
-        cutter.cmd("e asm.xrefs=" + self.asm_xrefs)   ##part in head-part
-        cutter.cmd("e asm.functions=" + self.asm_functions)   ##part in head-part
-        
-        
-        
-    def set_old_radare2_e(self):
         cutter.cmd("e asm.syntax=att")
         cutter.cmd("e asm.arch=x86")
         cutter.cmd("e asm.bytes=false")
@@ -70,6 +52,25 @@ class MyDockWidget(cutter.CutterDockWidget):
         cutter.cmd("e asm.noisy=false")
         cutter.cmd("e asm.xrefs=false")   ##part in head-part
         cutter.cmd("e asm.functions=false")   ##part in head-part
+        
+        
+        
+        
+    def set_old_radare2_e(self):
+        cutter.cmd("e asm.syntax=" + self.asm_syntax)
+        cutter.cmd("e asm.arch=" + self.asm_arch)
+        cutter.cmd("e asm.bytes=" + self.asm_bytes)
+        cutter.cmd("e asm.demangle=" + self.asm_demangle)
+        cutter.cmd("e asm.var.sub=" + self.asm_var_sub)
+        cutter.cmd("e asm.var=" + self.asm_var)     ##vars in head-part
+        cutter.cmd("e asm.sub.rel=" + self.asm_sub_rel)
+        cutter.cmd("e asm.calls=" + self.asm_calls)
+        cutter.cmd("e asm.comments=" + self.asm_comments)
+        cutter.cmd("e asm.reloff=" + self.asm_reloff)
+        cutter.cmd("e scr.color=" + self.scr_color)
+        cutter.cmd("e asm.noisy=" + self.asm_noisy)
+        cutter.cmd("e asm.xrefs=" + self.asm_xrefs)   ##part in head-part
+        cutter.cmd("e asm.functions=" + self.asm_functions)   ##part in head-part
         
         
     
