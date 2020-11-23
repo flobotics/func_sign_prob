@@ -95,7 +95,38 @@ class MyDockWidget(cutter.CutterDockWidget):
         
         ##search if function is available
         #seek = cutter.cmd('s')
+     
+    def modify_aflj_output(self, aflj_output):
+        aflj_dict = dict()
         
+        for elem in aflj_output:
+            sign = elem['signature']
+            
+            if '(' in sign:
+                idx = sign.index('(')
+                sign = sign[:idx]
+                sign = sign.strip()
+            else:
+                print(f'Error modify')
+                 
+            if ' ' in sign:
+                idx = sign[::-1].index(' ')
+                sign = sign[len(sign)-idx:]
+                
+                if sign[0] == '*':
+                    sign = sign[1:]
+                 
+                print(f'sign >{sign}<')
+             
+            int_addr = int(elem['offset'])
+            hex_addr = hex(int_addr)
+                 
+            aflj_dict[sign] = hex_addr
+
+        print(f'aflj_dict >{aflj_dict}<')
+                                        
+                    
+                     
         
     def update_contents(self):
         ### get actual loaded bin-filename
@@ -126,10 +157,14 @@ class MyDockWidget(cutter.CutterDockWidget):
         
         ## get sym functions and its address
         aflj_output = cutter.cmdj("aflj")
-        for elem in aflj_output:
-            for key in elem:
-                if key == 'signature':
-                    print(f"item >{key}<  sign >{elem[key]}<  addr >{elem['offset']}<")
+        self.modify_aflj_output(aflj_output)
+        
+        
+        
+#         for elem in aflj_output:
+#             for key in elem:
+#                 if key == 'signature':
+#                     print(f"item >{key}<  sign >{elem[key]}<  addr >{elem['offset']}<")
         
         
         modified_disasm_caller = list()
