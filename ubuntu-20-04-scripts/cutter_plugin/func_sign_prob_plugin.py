@@ -152,9 +152,12 @@ class MyDockWidget(cutter.CutterDockWidget):
                         print(f'word NOT contains +, think its first line')
                         idx1 = word.index('.')
                         addr = word[idx1+1:]
-                        l = len(addr)
-                        addr = '0x' + '0'*(16-l) + addr
-                        modified_disassembly.append(addr + ' <+0>:')
+                        addr_int = int(addr, 16)
+                        modified_disassembly.append(f"{addr_int:#0{18}x}" + ' <+0>:')
+                        
+#                         l = len(addr)
+#                         addr = '0x' + '0'*(16-l) + addr
+#                         modified_disassembly.append(addr + ' <+0>:')
                     else:  ### other lines
                         print(f'word seemed to contain +, think its other lines')
                         ## fcn.00001289+0xcb
@@ -181,22 +184,13 @@ class MyDockWidget(cutter.CutterDockWidget):
                                 addr_int = int(addr, 16)
                                 idx2 = word.index('+')
                                 off = word[idx2:]
-                                modified_disassembly.append(f"{addr_int:#0{18}x}" + ' <+' + str(int(off, 0)) + '>:')
+                                addr2 = int(addr, 16) + int(off, 16)
+                                modified_disassembly.append(f"{addr2:#0{18}x}" + ' <+' + str(int(off, 0)) + '>:')
                                 found = True
                             
                         if found == False:
                             print(f"no signature main found >{word}<")
-                        
-                        
-#                         idx1 = word.index('+')
-#                         off = word[idx1+1:]
-#                         ###main must be replaced with an address ??
-#                         #get addr of main()
-#                         main_addr = cutter.cmd('afi main~offset')
-#                         print(f'main offset/addr >{main_addr}<')
-#                         main_addr = '0x00000000' + main_addr[2:]
-#                         print(f'main offset/addr modified >{main_addr}<')
-#                         modified_disassembly.append('0x' + main_addr + ' <' + off + '>:')
+
                     else:
                         print(f'word main is first line, or?')
                         found = False
@@ -209,14 +203,7 @@ class MyDockWidget(cutter.CutterDockWidget):
                             
                         if found == False:
                             print(f"no signature main-2 found >{word}<")
-                        
-                        
-                        
-#                         main_addr = cutter.cmd('afi main~offset')
-#                         print(f'main2 offset/addr >{main_addr}<')
-#                         main_addr = '0x00000000' + main_addr[2:]
-#                         print(f'main2 offset/addr modified >{main_addr}<')
-#                         modified_disassembly.append(main_addr + ' <+0>:')
+
                 elif word.startswith('entry0'):
                     #print(f'found entry0')
                     if '+0x'  in word:
@@ -229,8 +216,9 @@ class MyDockWidget(cutter.CutterDockWidget):
                                 addr_int = int(addr, 16)
                                 idx2 = word.index('+')
                                 off = word[idx2:]
-                        
-                                modified_disassembly.append(f"{addr_int:#0{18}x}" + ' <+' + str(int(off, 0)) + '>:')
+                                addr2 = int(addr, 16) + int(off, 16)
+                                
+                                modified_disassembly.append(f"{addr2:#0{18}x}" + ' <+' + str(int(off, 0)) + '>:')
                                 found = True
                             
                         if found == False:
