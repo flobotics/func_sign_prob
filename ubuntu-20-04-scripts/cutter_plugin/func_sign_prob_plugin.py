@@ -130,6 +130,67 @@ class MyDockWidget(cutter.CutterDockWidget):
         print(f'modified aflj_dict >{aflj_dict}<')
                                         
         return aflj_dict    
+             
+             
+    def modify_first_part_of_r2_disas_line(self, word, aflj_dict):
+        ## fcn.00001289+0x4  to  0x0000000000001289 <+0x4>:
+        ## main+0x4
+        if not '+' in word:  ##first line
+            if '.' in word:  ##got e.g. fcn.
+                idx1 = word.index('.')
+                addr = word[idx1+1:]
+                addr_int = int(addr, 16)
+                
+                return f"{addr_int:#0{18}x}" + ' <+0>:'
+            else:  ## got e.g. main
+                #idx2 = word.index('+')
+                #stripped_word = word[:idx2]
+                found = False
+                for key in aflj_dict:
+                    if key == word:
+                        addr = aflj_dict[key]
+                        addr_int = int(addr, 16)
+                        #idx2 = word.index('+')
+                        #off = word[idx2:]
+                        #addr2 = int(addr, 16) + int(off, 16)
+                        return f"{addr_int:#0{18}x}" + ' <+0x0>:'
+                        #modified_disassembly.append(f"{addr_int:#0{18}x}" + ' <+' + str(int(off, 0)) + '>:')
+                        #found = True
+                     
+                if found == False:
+                    print(f"no signature main found >{word}<")
+                
+            
+        else:  ### other lines
+            #print(f'word seemed to contain +, think its not first lines')
+            if '.' in word:  ##got e.g. fcn.
+                idx1 = word.index('.')
+                idx2 = word.index('+')
+                addr = word[idx1+1:idx2]
+                off = word[idx2:]
+                addr2 = int(addr, 16) + int(off, 16)
+                #print(f'addr >{addr}<  off >{off}<')
+                #modified_disassembly.append(f"{addr2:#0{18}x}" + ' <+' + str(int(off, 0)) + '>:')
+                return f"{addr2:#0{18}x}" + ' <+' + str(int(off, 0)) + '>:'
+            else:   ### e.g. main+0x1d
+                idx2 = word.index('+')
+                stripped_word = word[:idx2]
+                found = False
+                for key in aflj_dict:
+                    if key == stripped_word:
+                        addr = aflj_dict[key]
+                        addr_int = int(addr, 16)
+                        idx2 = word.index('+')
+                        off = word[idx2:]
+                        addr2 = int(addr, 16) + int(off, 16)
+                        return f"{addr2:#0{18}x}" + ' <+' + str(int(off, 0)) + '>:'
+                        #modified_disassembly.append(f"{addr_int:#0{18}x}" + ' <+' + str(int(off, 0)) + '>:')
+                        #found = True
+                     
+                if found == False:
+                    print(f"no signature-2 main found >{word}<")
+                
+
                      
         
     def modify_radare2_disassembly(self, disassembly, aflj_dict):
@@ -138,104 +199,29 @@ class MyDockWidget(cutter.CutterDockWidget):
         ## modify radare2 disassembly to be like gdb disassembly
         for line in disassembly.split('\n'):
             #print(f'line >{line}<')
-            #line = re.sub(u'\u001b\[.*?[@-~]', '', line)
-            #line = str(line)
             first_word = True
             
             for word in line.split():
                 #word = word1.encode('ascii', errors='ignore').decode()
                 
-                if word.startswith('fcn.') and first_word:  ##remove color codes, radare2 e scr.color=0 removes stuff
+                if word.startswith('fcn.') and first_word:
                     print(f'word >{word}< starts with fcn.')
-                    ##fcn.00001289+0x4  to  0x0000000000001289 <+0x4>:
-                    if not '+' in word:  ##first line
-                        print(f'word NOT contains +, think its first line')
-                        idx1 = word.index('.')
-                        addr = word[idx1+1:]
-                        addr_int = int(addr, 16)
-                        modified_disassembly.append(f"{addr_int:#0{18}x}" + ' <+0>:')
-                        
-#                         l = len(addr)
-#                         addr = '0x' + '0'*(16-l) + addr
-#                         modified_disassembly.append(addr + ' <+0>:')
-                    else:  ### other lines
-                        print(f'word seemed to contain +, think its other lines')
-                        ## fcn.00001289+0xcb
-                        idx1 = word.index('.')
-                        idx2 = word.index('+')
-                        addr = word[idx1+1:idx2]
-                        off = word[idx2:]
-                        addr2 = int(addr, 16) + int(off, 16)
-                        print(f'addr >{addr}<  off >{off}<')
-                        modified_disassembly.append(f"{addr2:#0{18}x}" + ' <+' + str(int(off, 0)) + '>:')
+                    ret = self.modify_first_part_of_r2_disas_line(word, aflj_dict)
+                    modified_disassembly.append(ret)
+                    
                 elif word.startswith('fcn.') and not first_word:
                     ##fcn.00001289    the fcn. in the disas, not at start-of-line
                     modified_disassembly.append(word.replace('fcn.', '0x'))
-                elif word.startswith('main'):
+                    
+                elif word.startswith('main') and first_word:
                     print(f'word >{word}< starts with main')
-                    if '+0x' in word:
-                        print(f'word contains +0x')
-                        idx2 = word.index('+')
-                        stripped_word = word[:idx2]
-                        found = False
-                        for key in aflj_dict:
-                            if key == stripped_word:
-                                addr = aflj_dict[key]
-                                addr_int = int(addr, 16)
-                                idx2 = word.index('+')
-                                off = word[idx2:]
-                                addr2 = int(addr, 16) + int(off, 16)
-                                modified_disassembly.append(f"{addr2:#0{18}x}" + ' <+' + str(int(off, 0)) + '>:')
-                                found = True
-                            
-                        if found == False:
-                            print(f"no signature main found >{word}<")
+                    ret = self.modify_first_part_of_r2_disas_line(word, aflj_dict)
+                    modified_disassembly.append(ret)
 
-                    else:
-                        print(f'word main is first line, or?')
-                        found = False
-                        for key in aflj_dict:
-                            if key == word:
-                                addr = aflj_dict[key]
-                                addr_int = int(addr, 16)
-                                modified_disassembly.append(f"{addr_int:#0{18}x}" + ' <+0>:')
-                                found = True
-                            
-                        if found == False:
-                            print(f"no signature main-2 found >{word}<")
-
-                elif word.startswith('entry0'):
+                elif word.startswith('entry0') and first_word:
                     #print(f'found entry0')
-                    if '+0x'  in word:
-                        idx2 = word.index('+')
-                        stripped_word = word[:idx2]
-                        found = False
-                        for key in aflj_dict:
-                            if key == stripped_word:
-                                addr = aflj_dict[key]
-                                addr_int = int(addr, 16)
-                                idx2 = word.index('+')
-                                off = word[idx2:]
-                                addr2 = int(addr, 16) + int(off, 16)
-                                
-                                modified_disassembly.append(f"{addr2:#0{18}x}" + ' <+' + str(int(off, 0)) + '>:')
-                                found = True
-                            
-                        if found == False:
-                            print(f"no signature entry0 found >{word}<")
-                            
-                    else:
-                        ##its the first line
-                        found = False
-                        for key in aflj_dict:
-                            if key == word:
-                                addr = aflj_dict[key]
-                                addr_int = int(addr, 16)
-                                modified_disassembly.append(f"{addr_int:#0{18}x}" + ' <+0>:')
-                                found = True
-                            
-                        if found == False:
-                            print(f"no signature entry0-2 found >{word}<")
+                    ret = self.modify_first_part_of_r2_disas_line(word, aflj_dict)
+                    modified_disassembly.append(ret)
                     
                 elif 'sym.' in word:
                     #print(f'word >{word}< got sym in it, replace with addr')
