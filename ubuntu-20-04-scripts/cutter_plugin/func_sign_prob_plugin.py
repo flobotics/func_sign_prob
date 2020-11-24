@@ -199,26 +199,26 @@ class MyDockWidget(cutter.CutterDockWidget):
         ## modify radare2 disassembly to be like gdb disassembly
         for line in disassembly.split('\n'):
             #print(f'line >{line}<')
-            first_word = True
+            is_first_word = True
             
             for word in line.split():
                 #word = word1.encode('ascii', errors='ignore').decode()
                 
-                if word.startswith('fcn.') and first_word:
+                if word.startswith('fcn.') and is_first_word:
                     print(f'word >{word}< starts with fcn.')
                     ret = self.modify_first_part_of_r2_disas_line(word, aflj_dict)
                     modified_disassembly.append(ret)
                     
-                elif word.startswith('fcn.') and not first_word:
+                elif word.startswith('fcn.') and not is_first_word:
                     ##fcn.00001289    the fcn. in the disas, not at start-of-line
                     modified_disassembly.append(word.replace('fcn.', '0x'))
                     
-                elif word.startswith('main') and first_word:
+                elif word.startswith('main') and is_first_word:
                     print(f'word >{word}< starts with main')
                     ret = self.modify_first_part_of_r2_disas_line(word, aflj_dict)
                     modified_disassembly.append(ret)
 
-                elif word.startswith('entry0') and first_word:
+                elif word.startswith('entry0') and is_first_word:
                     #print(f'found entry0')
                     ret = self.modify_first_part_of_r2_disas_line(word, aflj_dict)
                     modified_disassembly.append(ret)
@@ -244,7 +244,7 @@ class MyDockWidget(cutter.CutterDockWidget):
                     #print(f'Nothing found >{word}<')
                     modified_disassembly.append(word)
                     
-                first_word = False
+                is_first_word = False
                     
             modified_disassembly.append('\n')       
          
