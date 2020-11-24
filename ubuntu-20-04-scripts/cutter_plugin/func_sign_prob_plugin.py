@@ -147,12 +147,6 @@ class MyDockWidget(cutter.CutterDockWidget):
              
     def modify_first_part_of_r2_disas_line(self, word, aflj_dict):
         
-        ### hack, radare2 pdf output prints sometimes some lines at the beginning,delete
-        if 'section..text' in word:
-            return ''
-        if 'rip' in word:
-            return ''
-        
         ## fcn.00001289+0x4  to  0x0000000000001289 <+0x4>:
         ## main+0x4
         if not '+' in word:  ##first line
@@ -225,6 +219,12 @@ class MyDockWidget(cutter.CutterDockWidget):
                 #word = word1.encode('ascii', errors='ignore').decode()
                 
                 if is_first_word:
+                    ### hack, radare2 pdf output prints sometimes some lines at the beginning,delete
+                    if 'section..text' == line.strip():
+                        continue
+                    if 'rip' == line.strip():
+                        continue
+        
                     ret = self.modify_first_part_of_r2_disas_line(word, aflj_dict)
                     modified_disassembly.append(ret)
                 
