@@ -50,7 +50,7 @@ class MyDockWidget(cutter.CutterDockWidget):
         cutter.cmd("e asm.calls=false")
         cutter.cmd("e asm.comments=false")
         cutter.cmd("e asm.reloff=true")
-        cutter.cmd("e scr.color=0")
+        cutter.cmd("e scr.color=3")
         cutter.cmd("e asm.noisy=false")
         cutter.cmd("e asm.xrefs=false")   ##part in head-part
         cutter.cmd("e asm.functions=false")   ##part in head-part
@@ -215,6 +215,17 @@ class MyDockWidget(cutter.CutterDockWidget):
         return modified_disassembly_str
         
         
+    def trim_ansi(self, a):
+        ESC = r'\x1b'
+        CSI = ESC + r'\['
+        OSC = ESC + r'\]'
+        CMD = '[@-~]'
+        ST = ESC + r'\\'
+        BEL = r'\x07'
+        pattern = '(' + CSI + '.*?' + CMD + '|' + OSC + '.*?' + '(' + ST + '|' + BEL + ')' + ')'
+        return re.sub(pattern, '', a)
+    
+        
     def update_contents(self):
         ### get actual loaded bin-filename
         ### cmdj('ij').get('Core').get('file')   or something like that
@@ -237,10 +248,12 @@ class MyDockWidget(cutter.CutterDockWidget):
         ## get disassembly of current function
         disasm_callee = cutter.cmd("pdf @ $F").strip()
         print(disasm_callee)
+        disasm_callee = self.trim_ansi(disasm_callee)
         
         ## get disas of caller function
         disasm_caller = cutter.cmd("pdf @ " + str(callee_addr))
         print(disasm_caller)
+        disasm_caller = self.trim_ansi(disasm_caller)
         
         ## get sym. functions and its addresses
         aflj_output = cutter.cmdj("aflj")
