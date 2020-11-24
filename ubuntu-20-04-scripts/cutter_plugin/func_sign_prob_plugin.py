@@ -156,12 +156,15 @@ class MyDockWidget(cutter.CutterDockWidget):
                         addr = '0x' + '0'*(16-l) + addr
                         modified_disassembly.append(addr + ' <+0>:')
                     else:  ### other lines
-                        print(f'word seemed not to contain +, think its other lines')
+                        print(f'word seemed to contain +, think its other lines')
+                        ## fcn.00001289+0xcb
                         idx1 = word.index('.')
                         idx2 = word.index('+')
                         addr = word[idx1+1:idx2]
                         off = word[idx2:]
-                        modified_disassembly.append('0x' + addr + ' <' + off + '>:')
+                        addr2 = int(addr, 16) + int(off, 16)
+                        print(f'addr >{addr}<  off >{off}<')
+                        modified_disassembly.append(f"{addr2:#0{18}x}" + ' <+' + str(int(off, 0)) + '>:')
                 elif word.startswith('fcn.') and not first_word:
                     ##fcn.00001289    the fcn. in the disas, not at start-of-line
                     modified_disassembly.append(word.replace('fcn.', '0x'))
