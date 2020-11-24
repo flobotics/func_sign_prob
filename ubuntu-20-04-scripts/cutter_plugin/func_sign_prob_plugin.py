@@ -163,7 +163,7 @@ class MyDockWidget(cutter.CutterDockWidget):
                         off = word[idx2:]
                         modified_disassembly.append('0x' + addr + ' <' + off + '>:')
                 elif word.startswith('fcn.') and not first_word:
-                    ##fcn.00001289
+                    ##fcn.00001289    the fcn. in the disas, not at start-of-line
                     modified_disassembly.append(word.replace('fcn.', '0x'))
                 elif word.startswith('main'):
                     print(f'word >{word}< starts with main')
