@@ -127,7 +127,7 @@ class MyDockWidget(cutter.CutterDockWidget):
                  
             aflj_dict[sign] = hex_addr
 
-        #print(f'aflj_dict >{aflj_dict}<')
+        print(f'modified aflj_dict >{aflj_dict}<')
                                         
         return aflj_dict    
                      
@@ -172,22 +172,83 @@ class MyDockWidget(cutter.CutterDockWidget):
                     print(f'word >{word}< starts with main')
                     if '+0x' in word:
                         print(f'word contains +0x')
-                        idx1 = word.index('+')
-                        off = word[idx1+1:]
-                        ###main must be replaced with an address ??
-                        #get addr of main()
-                        main_addr = cutter.cmd('afi main~offset')
-                        print(f'main offset/addr >{main_addr}<')
-                        main_addr = '0x00000000' + main_addr[2:]
-                        print(f'main offset/addr modified >{main_addr}<')
-                        modified_disassembly.append('0x' + main_addr + ' <' + off + '>:')
+                        idx2 = word.index('+')
+                        stripped_word = word[:idx2]
+                        found = False
+                        for key in aflj_dict:
+                            if key == stripped_word:
+                                addr = aflj_dict[key]
+                                addr_int = int(addr, 16)
+                                idx2 = word.index('+')
+                                off = word[idx2:]
+                                modified_disassembly.append(f"{addr_int:#0{18}x}" + ' <+' + str(int(off, 0)) + '>:')
+                                found = True
+                            
+                        if found == False:
+                            print(f"no signature main found >{word}<")
+                        
+                        
+#                         idx1 = word.index('+')
+#                         off = word[idx1+1:]
+#                         ###main must be replaced with an address ??
+#                         #get addr of main()
+#                         main_addr = cutter.cmd('afi main~offset')
+#                         print(f'main offset/addr >{main_addr}<')
+#                         main_addr = '0x00000000' + main_addr[2:]
+#                         print(f'main offset/addr modified >{main_addr}<')
+#                         modified_disassembly.append('0x' + main_addr + ' <' + off + '>:')
                     else:
                         print(f'word main is first line, or?')
-                        main_addr = cutter.cmd('afi main~offset')
-                        print(f'main2 offset/addr >{main_addr}<')
-                        main_addr = '0x00000000' + main_addr[2:]
-                        print(f'main2 offset/addr modified >{main_addr}<')
-                        modified_disassembly.append(main_addr + ' <+0>:')
+                        found = False
+                        for key in aflj_dict:
+                            if key == word:
+                                addr = aflj_dict[key]
+                                addr_int = int(addr, 16)
+                                modified_disassembly.append(f"{addr_int:#0{18}x}" + ' <+0>:')
+                                found = True
+                            
+                        if found == False:
+                            print(f"no signature main-2 found >{word}<")
+                        
+                        
+                        
+#                         main_addr = cutter.cmd('afi main~offset')
+#                         print(f'main2 offset/addr >{main_addr}<')
+#                         main_addr = '0x00000000' + main_addr[2:]
+#                         print(f'main2 offset/addr modified >{main_addr}<')
+#                         modified_disassembly.append(main_addr + ' <+0>:')
+                elif word.startswith('entry0'):
+                    #print(f'found entry0')
+                    if '+0x'  in word:
+                        idx2 = word.index('+')
+                        stripped_word = word[:idx2]
+                        found = False
+                        for key in aflj_dict:
+                            if key == stripped_word:
+                                addr = aflj_dict[key]
+                                addr_int = int(addr, 16)
+                                idx2 = word.index('+')
+                                off = word[idx2:]
+                        
+                                modified_disassembly.append(f"{addr_int:#0{18}x}" + ' <+' + str(int(off, 0)) + '>:')
+                                found = True
+                            
+                        if found == False:
+                            print(f"no signature entry0 found >{word}<")
+                            
+                    else:
+                        ##its the first line
+                        found = False
+                        for key in aflj_dict:
+                            if key == word:
+                                addr = aflj_dict[key]
+                                addr_int = int(addr, 16)
+                                modified_disassembly.append(f"{addr_int:#0{18}x}" + ' <+0>:')
+                                found = True
+                            
+                        if found == False:
+                            print(f"no signature entry0-2 found >{word}<")
+                    
                 elif 'sym.' in word:
                     #print(f'word >{word}< got sym in it, replace with addr')
                     found = False
