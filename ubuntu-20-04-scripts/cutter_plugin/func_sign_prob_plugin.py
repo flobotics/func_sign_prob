@@ -215,7 +215,7 @@ class MyDockWidget(cutter.CutterDockWidget):
         return modified_disassembly_str
         
         
-    def trim_ansi(self, a):
+    def trim_terminal_color_codes(self, a):
         ESC = r'\x1b'
         CSI = ESC + r'\['
         OSC = ESC + r'\]'
@@ -248,12 +248,12 @@ class MyDockWidget(cutter.CutterDockWidget):
         ## get disassembly of current function
         disasm_callee = cutter.cmd("pdf @ $F").strip()
         print(disasm_callee)
-        disasm_callee = self.trim_ansi(disasm_callee)
+        disasm_callee = self.trim_terminal_color_codes(disasm_callee)
         
         ## get disas of caller function
         disasm_caller = cutter.cmd("pdf @ " + str(callee_addr))
         print(disasm_caller)
-        disasm_caller = self.trim_ansi(disasm_caller)
+        disasm_caller = self.trim_terminal_color_codes(disasm_caller)
         
         ## get sym. functions and its addresses
         aflj_output = cutter.cmdj("aflj")
