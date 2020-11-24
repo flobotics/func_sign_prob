@@ -184,9 +184,9 @@ class MyDockWidget(cutter.CutterDockWidget):
                     else:
                         print(f'word main is first line, or?')
                         main_addr = cutter.cmd('afi main~offset')
-                        print(f'main offset/addr >{main_addr}<')
+                        print(f'main2 offset/addr >{main_addr}<')
                         main_addr = '0x00000000' + main_addr[2:]
-                        print(f'main offset/addr modified >{main_addr}<')
+                        print(f'main2 offset/addr modified >{main_addr}<')
                         modified_disassembly.append(main_addr + ' <+0>:')
                 elif 'sym.' in word:
                     #print(f'word >{word}< got sym in it, replace with addr')
