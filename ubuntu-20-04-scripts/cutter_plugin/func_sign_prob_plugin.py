@@ -147,45 +147,40 @@ class MyDockWidget(cutter.CutterDockWidget):
              
     def modify_first_part_of_r2_disas_line(self, word, aflj_dict):
         
-        ## fcn.00001289+0x4  to  0x0000000000001289 <+0x4>:
-        ## main+0x4
-        if not '+' in word:  ##first line
-            if '.' in word:  ##got e.g. fcn.
+        ## fcn.00001289      --> fcn.00001289+0x4  to  0x0000000000001289 <+0x4>:
+        ## main              --> main+0x4
+        ## entry.init1       --> entry.init1+0x4  -->got dot,but no addr
+        
+        ### this is for the first line only
+        if not '+' in word:  ##first line got no offset
+            if '.' in word and word.startswith('fcn.'):  ##got e.g. fcn.00001289
                 idx1 = word.index('.')
                 addr = word[idx1+1:]
                 addr_int = int(addr, 16)
-                
                 return f"{addr_int:#0{18}x}" + ' <+0>:'
+                
             else:  ## got e.g. main
-                #idx2 = word.index('+')
-                #stripped_word = word[:idx2]
                 found = False
                 for key in aflj_dict:
                     if key == word:
                         addr = aflj_dict[key]
                         addr_int = int(addr, 16)
-                        #idx2 = word.index('+')
-                        #off = word[idx2:]
-                        #addr2 = int(addr, 16) + int(off, 16)
                         return f"{addr_int:#0{18}x}" + ' <+0x0>:'
-                        #modified_disassembly.append(f"{addr_int:#0{18}x}" + ' <+' + str(int(off, 0)) + '>:')
-                        #found = True
                      
                 if found == False:
-                    print(f"no signature main found >{word}<")
+                    print(f"no signature, no addr found-1 >{word}<")
                 
-            
-        else:  ### other lines
+        ### this is for all following lines, after line one
+        else:
             #print(f'word seemed to contain +, think its not first lines')
-            if '.' in word:  ##got e.g. fcn.
+            if '.' in word and word.startswith('fcn.'):  ##got e.g. fcn.00001289+0x4
                 idx1 = word.index('.')
                 idx2 = word.index('+')
                 addr = word[idx1+1:idx2]
                 off = word[idx2:]
                 addr2 = int(addr, 16) + int(off, 16)
-                #print(f'addr >{addr}<  off >{off}<')
-                #modified_disassembly.append(f"{addr2:#0{18}x}" + ' <+' + str(int(off, 0)) + '>:')
                 return f"{addr2:#0{18}x}" + ' <+' + str(int(off, 0)) + '>:'
+                
             else:   ### e.g. main+0x1d
                 idx2 = word.index('+')
                 stripped_word = word[:idx2]
@@ -198,11 +193,9 @@ class MyDockWidget(cutter.CutterDockWidget):
                         off = word[idx2:]
                         addr2 = int(addr, 16) + int(off, 16)
                         return f"{addr2:#0{18}x}" + ' <+' + str(int(off, 0)) + '>:'
-                        #modified_disassembly.append(f"{addr_int:#0{18}x}" + ' <+' + str(int(off, 0)) + '>:')
-                        #found = True
                      
                 if found == False:
-                    print(f"no signature-2 main found >{word}<")
+                    print(f"no signature, no addr found-2 >{word}<")
                 
 
                      
