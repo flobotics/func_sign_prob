@@ -38,6 +38,10 @@ class MyDockWidget(cutter.CutterDockWidget):
         self.scr_color = cutter.cmd("e scr.color")
         self.asm_noisy = cutter.cmd("e asm.noisy")
         self.asm_functions = cutter.cmd("e asm.functions")
+        self.asm_sub_section = cutter.cmd("e asm.sub.section")
+        self.asm_filter = cutter.cmd("e asm.filter") ## replace numeric with sym.
+        self.asm_lines = cutter.cmd("e asm.lines")
+        self.asm_meta = cutter.cmd("e asm.meta")
         
         ### setup stuff to get gdb-style disassembly
         cutter.cmd("e asm.syntax=att")
@@ -54,6 +58,11 @@ class MyDockWidget(cutter.CutterDockWidget):
         cutter.cmd("e asm.noisy=false")
         cutter.cmd("e asm.xrefs=false")   ##part in head-part
         cutter.cmd("e asm.functions=false")   ##part in head-part
+        cutter.cmd("e asm.sub.section=false")
+        cutter.cmd("e asm.filter=false") ## replace numeric with sym.
+        cutter.cmd("e asm.lines=false")
+        cutter.cmd("e asm.meta=false")
+        #cutter.cmd("e asm.tabs=false") and other tabs
         
         
         
@@ -73,6 +82,10 @@ class MyDockWidget(cutter.CutterDockWidget):
         cutter.cmd("e asm.noisy=" + self.asm_noisy)
         cutter.cmd("e asm.xrefs=" + self.asm_xrefs)   ##part in head-part
         cutter.cmd("e asm.functions=" + self.asm_functions)   ##part in head-part
+        cutter.cmd("e asm.sub.section=" + self.asm_sub_section)
+        cutter.cmd("e asm.filter=" + self.asm_filter) ## replace numeric with sym.
+        cutter.cmd("e asm.lines=" + self.asm_lines)
+        cutter.cmd("e asm.meta=" + self.asm_meta)
         
         
     
@@ -204,24 +217,28 @@ class MyDockWidget(cutter.CutterDockWidget):
             for word in line.split():
                 #word = word1.encode('ascii', errors='ignore').decode()
                 
-                if word.startswith('fcn.') and is_first_word:
-                    print(f'word >{word}< starts with fcn.')
+                if is_first_word:
                     ret = self.modify_first_part_of_r2_disas_line(word, aflj_dict)
                     modified_disassembly.append(ret)
+                
+#                 if word.startswith('fcn.') and is_first_word:
+#                     print(f'word >{word}< starts with fcn.')
+#                     ret = self.modify_first_part_of_r2_disas_line(word, aflj_dict)
+#                     modified_disassembly.append(ret)
+#                  
+#                 elif word.startswith('main') and is_first_word:
+#                     print(f'word >{word}< starts with main')
+#                     ret = self.modify_first_part_of_r2_disas_line(word, aflj_dict)
+#                     modified_disassembly.append(ret)
+# 
+#                 elif word.startswith('entry0') and is_first_word:
+#                     #print(f'found entry0')
+#                     ret = self.modify_first_part_of_r2_disas_line(word, aflj_dict)
+#                     modified_disassembly.append(ret)
                     
                 elif word.startswith('fcn.') and not is_first_word:
                     ##fcn.00001289    the fcn. in the disas, not at start-of-line
                     modified_disassembly.append(word.replace('fcn.', '0x'))
-                    
-                elif word.startswith('main') and is_first_word:
-                    print(f'word >{word}< starts with main')
-                    ret = self.modify_first_part_of_r2_disas_line(word, aflj_dict)
-                    modified_disassembly.append(ret)
-
-                elif word.startswith('entry0') and is_first_word:
-                    #print(f'found entry0')
-                    ret = self.modify_first_part_of_r2_disas_line(word, aflj_dict)
-                    modified_disassembly.append(ret)
                     
                 elif 'sym.' in word:
                     #print(f'word >{word}< got sym in it, replace with addr')
