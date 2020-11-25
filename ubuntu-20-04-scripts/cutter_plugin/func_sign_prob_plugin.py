@@ -2,7 +2,7 @@ import cutter
 import subprocess
 import re
 #import tensorflow as tf
-import sys
+
 
 from PySide2.QtCore import QObject, SIGNAL, QProcess
 from PySide2.QtWidgets import QAction, QLabel, QPlainTextEdit
@@ -325,8 +325,6 @@ class MyDockWidget(cutter.CutterDockWidget):
         
         #self._label.setText("disasm_caller:\n{}\ndisasm_callee:\n{}".format(disasm_caller, disasm_callee))
         #self._label.setText("disasm before")
-        
-        #self._disasTextEdit.setPlainText(sys.version)  ##3.6.4 ?????
         
         
         file = open("/tmp/cutter-disas.txt", 'w+')
