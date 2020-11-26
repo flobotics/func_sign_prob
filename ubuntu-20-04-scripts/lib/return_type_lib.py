@@ -371,13 +371,13 @@ def get_arg_two_name_from_function_signature(function_signature):
         
         first_comma = function_signature.index(',')
         second_comma = function_signature.index(',')
-        arg_two = function_signature[first_comma+1:second_comma]
+        arg_two = function_signature[first_comma+1:second_comma:]
         
         print(f'arg-two-nr >2 >{arg_two}<')
     else:
         first_comma = function_signature.index(',')
         last_par = function_signature[::-1].index(')')
-        arg_two = function_signature[first_comma+1:last_par]
+        arg_two = function_signature[first_comma+1:last_par:]
         print(f'arg-two-nr else >{arg_two}<')
         
     print(f'arg_two >{arg_two}<')
