@@ -368,7 +368,7 @@ def get_arg_two_name_from_function_signature(function_signature):
     
     if nr_args > 2:
         first_comma = function_signature.index(',')
-        second_comma = function_signature[first_comma+1].index(',')
+        second_comma = function_signature.index(',')
         
         arg_two = function_signature[first_comma+1:second_comma]
     else:
