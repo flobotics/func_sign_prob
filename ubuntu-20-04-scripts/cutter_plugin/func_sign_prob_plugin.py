@@ -206,76 +206,17 @@ class FuncSignProbDockWidget(cutter.CutterDockWidget):
                     #print(f'address of caller >{item_dicts[elem]}<')
                 
         
-        ## get disassembly of current function
+        ## get disassembly of current/callee function
         address = cutter.cmd('s').strip()
-        print(f'address >{address}<')
+        #print(f'address >{address}<')
         disasm_callee_str = self.get_disassembly_of(address)
-        
-        
-        
-#         disasm_callee = cutter.cmdj("pdrj @ $F")
-#         disasm_callee_str = ''
-#         offset = ''
-#         fcn_addr = ''
-#         opcode = ''
-#         size = ''
-#         oldsize = 0
-#         
-#         for dis_dict in disasm_callee:
-#             for key in dis_dict:
-#                 if key == 'offset':
-#                     offset = dis_dict['offset']
-#                 elif key == 'fcn_addr':
-#                     fcn_addr = dis_dict['fcn_addr']
-#                 elif key == 'size':
-#                     size = dis_dict['size']
-#                 elif key == 'opcode':
-#                     opcode = dis_dict['opcode']
-#                     
-#             if offset and fcn_addr and opcode and size:
-#                 disasm_callee_str = disasm_callee_str + f"{offset:#0{18}x}" + ' <+' + str(oldsize) + '>: ' + opcode + '\n'
-#                 oldsize += size
-#             
-#             offset = ''
-#             fcn_addr = ''
-#             opcode = ''
-#             size = ''   
-                   
-                   
-        #######
-        print(f'caller-addr >{str(caller_addr)}<')
+    
+        ### get disassembly of caller function
+        #print(f'caller-addr >{str(caller_addr)}<')
         disasm_caller_str = self.get_disassembly_of(caller_addr)
         
-        
-#         disasm_caller = cutter.cmdj("pdrj @ " + str(caller_addr))
-#         disasm_caller_str = ''
-#         offset = ''
-#         fcn_addr = ''
-#         opcode = ''
-#         size = ''
-#         oldsize = 0
-#         
-#         for dis_dict in disasm_caller:
-#             for key in dis_dict:
-#                 if key == 'offset':
-#                     offset = dis_dict['offset']
-#                 elif key == 'fcn_addr':
-#                     fcn_addr = dis_dict['fcn_addr']
-#                 elif key == 'size':
-#                     size = dis_dict['size']
-#                 elif key == 'opcode':
-#                     opcode = dis_dict['opcode']
-#                     
-#             if offset and fcn_addr and opcode and size:
-#                 disasm_caller_str = disasm_caller_str + f"{offset:#0{18}x}" + ' <+' + str(oldsize) + '>: ' + opcode + '\n'
-#                 oldsize += size
-#             
-#             offset = ''
-#             fcn_addr = ''
-#             opcode = ''
-#             size = ''   
-             
-             
+ 
+        ### split disas for the tf-model     
         disasm_caller_str = disassembly_lib.split_disassembly(disasm_caller_str)
         disasm_callee_str = disassembly_lib.split_disassembly(disasm_callee_str)
         
@@ -283,6 +224,7 @@ class FuncSignProbDockWidget(cutter.CutterDockWidget):
         
         ##check if we got caller and callee disassembly
         if (len(disasm_caller_str) == 0) or (len(disasm_callee_str) == 0):
+            print(f'Not found callee and caller disassembly.')
             return
         
         ###predict now
