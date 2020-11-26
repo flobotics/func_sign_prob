@@ -1,4 +1,8 @@
-ln -s orig-file-in-eclipse-workspace /home/user/.local/share/RadareOrg/Cutter/plugins/python/func_sign_prob_plugin.py
+ln -s /home/user/git/func_sign_prob/ubuntu-20-04-scripts/cutter_plugin/func_sign_prob_plugin.py  /home/user/.local/share/RadareOrg/Cutter/plugins/python/func_sign_prob_plugin.py
+
+
+ln -s /home/user/git/func_sign_prob/ubuntu-20-04-scripts/lib/disassembly_lib.py /home/user/.local/share/RadareOrg/Cutter/plugins/python/disassembly_lib.py
+
 
 /home/user/.local/share/RadareOrg/Cutter/plugins/python/func_sign_prob_plugin.py
 

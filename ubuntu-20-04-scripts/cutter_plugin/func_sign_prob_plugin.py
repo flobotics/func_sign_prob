@@ -3,11 +3,13 @@ import subprocess
 import re
 import tensorflow as tf
 
-
 from PySide2.QtCore import QObject, SIGNAL, QProcess
 from PySide2.QtWidgets import QAction, QLabel, QPlainTextEdit
 
-#from dis import dis
+#sys.path.append('./')
+import disassembly_lib
+
+
 
 class MyDockWidget(cutter.CutterDockWidget):
     def __init__(self, parent, action):
@@ -229,6 +231,10 @@ class MyDockWidget(cutter.CutterDockWidget):
             opcode = ''
             size = ''   
              
+             
+        disasm_caller_str = disassembly_lib.split_disassembly(disasm_caller_str)
+        disasm_callee_str = disassembly_lib.split_disassembly(disasm_callee_str)
+        
         self._disasTextEdit.setPlainText("disasm_caller_callee:\n{}".format(disasm_caller_str + disasm_callee_str))   
 
         
