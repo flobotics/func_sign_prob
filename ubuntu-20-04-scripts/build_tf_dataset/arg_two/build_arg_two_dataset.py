@@ -151,13 +151,13 @@ def proc_build(tarbz2_file, work_dir, save_dir, config):
                                         print(f'func got to less args for us')
                                         break
                                         
-                                    arg_one = return_type_lib.get_arg_two_name_from_function_signature(elem2[0])
+                                    arg_two = return_type_lib.get_arg_two_name_from_function_signature(elem2[0])
                                     
-                                    result = common_stuff_lib.is_type_known(arg_one)
+                                    result = common_stuff_lib.is_type_known(arg_two)
                                     
   
                                     if result == False:
-                                        print(f'Error arg_one')
+                                        print(f'arg_two not a known type')
                                     else:
                                         tmp_att_dis = att_dis
                                         #print(f'len att-dis 1 >{len(tmp_att_dis)}<')
@@ -187,7 +187,7 @@ def proc_build(tarbz2_file, work_dir, save_dir, config):
                                                 
                                             #print(f'dis_str >{dis_str}<')
                                         
-                                            dataset_list.append((dis_str, arg_one))
+                                            dataset_list.append((dis_str, arg_two))
                                             counter += 1
                                             
                                         break
