@@ -301,6 +301,8 @@ class FuncSignProbDockWidget(cutter.CutterDockWidget):
             counter += 1
         
         arg_one_prediction_summary = []
+        arg_one_prediction_summary.append('\n')
+        
         
         for item in ret:
             result = 0
@@ -312,7 +314,7 @@ class FuncSignProbDockWidget(cutter.CutterDockWidget):
                     biggest = i
                     biggest_count = counter
                 
-                tmp_str = f'ret-type >{reverse_ret_type_dict[counter] : <{30}}< got probability of >{i}<\n'
+                tmp_str = f'Type >{reverse_ret_type_dict[counter] : <{30}}< has a probability of >{i}<\n'
                 #print(tmp_str)
                 arg_one_prediction_summary.append(tmp_str)
                 counter += 1
@@ -322,7 +324,7 @@ class FuncSignProbDockWidget(cutter.CutterDockWidget):
                 if ret_type_dict[ret] == biggest_count:
                     #print()
                     #print(f'argument one is of type >{ret}<')
-                    arg_one_prediction_summary.append(f'\nArgument one is of type >{ret}<\n')
+                    arg_one_prediction_summary.append(f'\nArgument one is of type >{ret}< with prob >{biggest}<\n\n')
         
         #print()
         #print(f'Does last count together to 1 ? Result: >{result}<')
