@@ -15,9 +15,7 @@ class MyDockWidget(cutter.CutterDockWidget):
         self.setObjectName("func_sign_probDockWidget")
         self.setWindowTitle("func_sign_prob DockWidget")
 
-        #self._label = QLabel(self)
         self._disasTextEdit = QPlainTextEdit(self)
-        #self.setWidget(self._label)
         self.setWidget(self._disasTextEdit)
 
         QObject.connect(cutter.core(), SIGNAL("seekChanged(RVA)"), self.update_contents)
@@ -146,141 +144,6 @@ class MyDockWidget(cutter.CutterDockWidget):
                                         
         return aflj_dict    
              
-             
-#     def modify_first_part_of_r2_disas_line(self, word, aflj_dict):
-#         
-#         ## fcn.00001289      --> fcn.00001289+0x4  to  0x0000000000001289 <+0x4>:
-#         ## main              --> main+0x4
-#         ## entry.init1       --> entry.init1+0x4  -->got dot,but no addr
-#         
-#         ### this is for the first line only
-#         if not '+' in word:  ##first line got no offset
-#             if '.' in word and word.startswith('fcn.'):  ##got e.g. fcn.00001289
-#                 idx1 = word.index('.')
-#                 addr = word[idx1+1:]
-#                 addr_int = int(addr, 16)
-#                 return f"{addr_int:#0{18}x}" + ' <+0>:'
-#                 
-#             else:  ## got e.g. main
-#                 found = False
-#                 for key in aflj_dict:
-#                     if key == word:
-#                         addr = aflj_dict[key]
-#                         addr_int = int(addr, 16)
-#                         return f"{addr_int:#0{18}x}" + ' <+0x0>:'
-#                      
-#                 if found == False:
-#                     print(f"no signature, no addr found-1 >{word}<")
-#                 
-#         ### this is for all following lines, after line one
-#         else:
-#             #print(f'word seemed to contain +, think its not first lines')
-#             if '.' in word and word.startswith('fcn.'):  ##got e.g. fcn.00001289+0x4
-#                 idx1 = word.index('.')
-#                 idx2 = word.index('+')
-#                 addr = word[idx1+1:idx2]
-#                 off = word[idx2:]
-#                 addr2 = int(addr, 16) + int(off, 16)
-#                 return f"{addr2:#0{18}x}" + ' <+' + str(int(off, 0)) + '>:'
-#                 
-#             else:   ### e.g. main+0x1d
-#                 idx2 = word.index('+')
-#                 stripped_word = word[:idx2]
-#                 found = False
-#                 for key in aflj_dict:
-#                     if key == stripped_word:
-#                         addr = aflj_dict[key]
-#                         addr_int = int(addr, 16)
-#                         idx2 = word.index('+')
-#                         off = word[idx2:]
-#                         addr2 = int(addr, 16) + int(off, 16)
-#                         return f"{addr2:#0{18}x}" + ' <+' + str(int(off, 0)) + '>:'
-#                      
-#                 if found == False:
-#                     print(f"no signature, no addr found-2 >{word}<")
-#                 
-# 
-#                      
-#         
-#     def modify_radare2_disassembly(self, disassembly, aflj_dict):
-#         modified_disassembly = list()
-#         
-#         ## modify radare2 disassembly to be like gdb disassembly
-#         for line in disassembly.split('\n'):
-#             #print(f'line >{line}<')
-#             is_first_word = True
-#             
-#             for word in line.split():
-#                 #word = word1.encode('ascii', errors='ignore').decode()
-#                 
-#                 if is_first_word:
-#                     ### hack, radare2 pdf output prints sometimes some lines at the beginning,delete
-#                     if 'section..text' == line.strip():
-#                         continue
-#                     if 'rip' == line.strip():
-#                         continue
-#         
-#                     ret = self.modify_first_part_of_r2_disas_line(word, aflj_dict)
-#                     modified_disassembly.append(ret)
-#                 
-# #                 if word.startswith('fcn.') and is_first_word:
-# #                     print(f'word >{word}< starts with fcn.')
-# #                     ret = self.modify_first_part_of_r2_disas_line(word, aflj_dict)
-# #                     modified_disassembly.append(ret)
-# #                  
-# #                 elif word.startswith('main') and is_first_word:
-# #                     print(f'word >{word}< starts with main')
-# #                     ret = self.modify_first_part_of_r2_disas_line(word, aflj_dict)
-# #                     modified_disassembly.append(ret)
-# # 
-# #                 elif word.startswith('entry0') and is_first_word:
-# #                     #print(f'found entry0')
-# #                     ret = self.modify_first_part_of_r2_disas_line(word, aflj_dict)
-# #                     modified_disassembly.append(ret)
-#                     
-#                 elif word.startswith('fcn.') and not is_first_word:
-#                     ##fcn.00001289    the fcn. in the disas, not at start-of-line
-#                     modified_disassembly.append(word.replace('fcn.', '0x'))
-#                     
-#                 elif 'sym.' in word:
-#                     #print(f'word >{word}< got sym in it, replace with addr')
-#                     found = False
-#                     for key in aflj_dict:
-#                         if key == word:
-#                             modified_disassembly.append(aflj_dict[key])
-#                             found = True
-#                             
-#                     if found == False:
-#                         print(f"no signature found >{word}<")
-#                         
-#                     
-#                 elif 'loc.' in word:
-#                     #print(f'word >{word}< got loc. in it, replace with addr')
-#                     ## loc.00001376
-#                     modified_disassembly.append(word.replace('loc.', '0x'))
-#                     
-#                 else:
-#                     #print(f'Nothing found >{word}<')
-#                     modified_disassembly.append(word)
-#                     
-#                 is_first_word = False
-#                     
-#             modified_disassembly.append('\n')       
-#          
-#         modified_disassembly_str = ' '.join(modified_disassembly)
-#         
-#         return modified_disassembly_str
-#         
-#         
-#     def trim_terminal_color_codes(self, a):
-#         ESC = r'\x1b'
-#         CSI = ESC + r'\['
-#         OSC = ESC + r'\]'
-#         CMD = '[@-~]'
-#         ST = ESC + r'\\'
-#         BEL = r'\x07'
-#         pattern = '(' + CSI + '.*?' + CMD + '|' + OSC + '.*?' + '(' + ST + '|' + BEL + ')' + ')'
-#         return re.sub(pattern, '', a)
     
         
     def update_contents(self):
@@ -369,12 +232,10 @@ class MyDockWidget(cutter.CutterDockWidget):
         self._disasTextEdit.setPlainText("disasm_caller_callee:\n{}".format(disasm_caller_str + disasm_callee_str))   
 
         
-        
+        ##for debug
         file = open("/tmp/cutter-disas.txt", 'w+')
-        
         file.write("\ndisasm_caller_callee-----------\n")
-        file.write(disasm_caller_str + disasm_callee_str)
-        
+        file.write(disasm_caller_str + disasm_callee_str)      
         file.close()
         
         self.set_stored_radare2_e()
