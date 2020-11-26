@@ -2,6 +2,9 @@ import cutter
 import subprocess
 import re
 import tensorflow as tf
+from tensorflow import keras
+from tensorflow.keras.layers.experimental.preprocessing import TextVectorization
+from tensorflow.keras.layers import Activation, Dense, Embedding, GlobalAveragePooling1D
 
 from PySide2.QtCore import QObject, SIGNAL, QProcess
 from PySide2.QtWidgets import QAction, QLabel, QPlainTextEdit
