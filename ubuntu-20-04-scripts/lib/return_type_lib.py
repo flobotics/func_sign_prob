@@ -352,4 +352,34 @@ def get_arg_one_name_from_function_signature(function_signature):
     
     return arg_one
     
+    
+    
+def get_arg_two_name_from_function_signature(function_signature):
+    ### find ( which marks the function-names start
+    fn_end_idx = function_signature.index('(')
+    
+    ##check how many args are there
+    nr_args = get_nr_of_args_from_function_signature(function_signature)
+    
+    if nr_args < 2:
+        return 'not-found'
+    ##if more than one arg, filter till first comma
+    
+    
+    if nr_args > 2:
+        first_comma = function_signature.index(',')
+        second_comma = function_signature[first_comma+1].index(',')
+        
+        arg_two = function_signature[first_comma+1:second_comma]
+    else:
+        first_comma = function_signature.index(',')
+        last_par = function_signature[::-1].index(')')
+        arg_two = function_signature[first_comma+1:last_par]
+        
+    print(f'arg_two >{arg_two}<')
+    
+    return arg_two
+
+
+
       
