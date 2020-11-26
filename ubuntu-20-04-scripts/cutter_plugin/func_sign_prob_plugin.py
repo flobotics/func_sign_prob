@@ -182,6 +182,78 @@ class FuncSignProbDockWidget(cutter.CutterDockWidget):
             
         return disassembly_str
     
+    
+    def predict(self, model_path, vocab_len, max_seq_len, disas):
+                            
+        model = tf.keras.models.load_model(model_path)
+
+        ##summary_str = str(model.to_json())
+        stringlist = []
+        model.summary(print_fn=lambda x: stringlist.append(x))
+        self.summary_str = "\n".join(stringlist)
+        
+        vectorize_layer = TextVectorization(standardize=None,
+                                            max_tokens=vocab_len+2,
+                                            output_mode='int',
+                                            output_sequence_length=max_seq_len)
+
+        export_model = tf.keras.Sequential([vectorize_layer,
+                                          model,
+                                          tf.keras.layers.Activation('softmax')
+                                        ])
+        
+        example = [disas]
+        ret = export_model.predict(example)
+        #print(f"Prediction: >{ret}<")
+        #print()  ##just a newline 
+        
+        return ret
+    
+    
+    def get_prediction_summary(self, ret_type_dict, ret):
+        
+        reverse_ret_type_dict = dict()
+        counter = 0
+        for key in ret_type_dict:
+            reverse_ret_type_dict[counter] = key
+            counter += 1
+        
+        arg_one_prediction_summary = []
+        arg_one_prediction_summary.append('\n')
+        
+        
+        for item in ret:
+            result = 0
+            biggest = 0
+            biggest_count = 0
+            counter = 0
+            for i in item:
+                if i > biggest:
+                    biggest = i
+                    biggest_count = counter
+                
+                tmp_str = f'Type >{reverse_ret_type_dict[counter] : <{30}}< has a probability of >{i}<\n'
+                #print(tmp_str)
+                arg_one_prediction_summary.append(tmp_str)
+                counter += 1
+                
+                result += i
+            for ret in ret_type_dict:
+                if ret_type_dict[ret] == biggest_count:
+                    #print()
+                    #print(f'argument one is of type >{ret}<')
+                    arg_one_prediction_summary.append(f'\nArgument one is of type >{ret}< with prob >{biggest}<\n\n')
+        
+        #print()
+        #print(f'Does last count together to 1 ? Result: >{result}<')
+        arg_one_prediction_summary.append(f'Does last count together to 1 ? Result: >{result}<')
+
+        arg_one_prediction_summary_str = ''.join(arg_one_prediction_summary)
+        
+        return arg_one_prediction_summary_str
+    
+    
+    
         
     def update_contents(self):
         ### get actual loaded bin-filename
@@ -228,24 +300,15 @@ class FuncSignProbDockWidget(cutter.CutterDockWidget):
             return
         
         ###predict now
-        func_sign_prob_git_path = "/home/ubu/git/func_sign_prob/"
-        
+        func_sign_prob_git_path = "/home/ubu/git/func_sign_prob/"      
         arg_one_model_path = func_sign_prob_git_path + \
                             "ubuntu-20-04-scripts/trained_models/arg_one/saved_model/"
-                            
-        model = tf.keras.models.load_model(arg_one_model_path)
-
-        ##summary_str = str(model.to_json())
-        stringlist = []
-        model.summary(print_fn=lambda x: stringlist.append(x))
-        summary_str = "\n".join(stringlist)
-        #self._disasTextEdit.setPlainText("tf model summary:\n{}".format(summary_str))
          
         ###load vocabulary list
         arg_one_vocab_file = func_sign_prob_git_path + \
                             "ubuntu-20-04-scripts/trained_models/arg_one/" + \
                             'vocabulary_list.pickle'
-                            
+                                                    
         vocabulary = pickle_lib.get_pickle_file_content(arg_one_vocab_file)
         
         ###load max-sequence-length
@@ -254,75 +317,27 @@ class FuncSignProbDockWidget(cutter.CutterDockWidget):
                             'max_seq_length.pickle'
                             
         max_seq_length = pickle_lib.get_pickle_file_content(arg_one_max_seq_len_file)
-        print(f'len-vocab-from-file >{len(vocabulary)}<')
+        #print(f'len-vocab-from-file >{len(vocabulary)}<')
         
-        vectorize_layer = TextVectorization(standardize=None,
-                                            max_tokens=len(vocabulary)+2,
-                                            output_mode='int',
-                                            output_sequence_length=max_seq_length)
-
-        export_model = tf.keras.Sequential([vectorize_layer,
-                                          model,
-                                          tf.keras.layers.Activation('softmax')
-                                        ])
+        ret = self.predict(arg_one_model_path, len(vocabulary), max_seq_length, disasm_caller_str + disasm_callee_str)
         
-        example = [disasm_caller_str + disasm_callee_str]
-        ret = export_model.predict(example)
-        #print(f"Prediction: >{ret}<")
-        #print()  ##just a newline 
         
+        ## get strings for ints, with ret_type_dict
         arg_one_ret_type_dict_file = func_sign_prob_git_path + \
                                     "ubuntu-20-04-scripts/trained_models/arg_one/" + \
                                     'return_type_dict.pickle'
                             
         ret_type_dict = pickle_lib.get_pickle_file_content(arg_one_ret_type_dict_file)
-    
-        reverse_ret_type_dict = dict()
-        counter = 0
-        for key in ret_type_dict:
-            reverse_ret_type_dict[counter] = key
-            counter += 1
         
-        arg_one_prediction_summary = []
-        arg_one_prediction_summary.append('\n')
+        ### get human-readable output
+        arg_one_prediction_summary_str = self.get_prediction_summary(ret_type_dict, ret)
         
         
-        for item in ret:
-            result = 0
-            biggest = 0
-            biggest_count = 0
-            counter = 0
-            for i in item:
-                if i > biggest:
-                    biggest = i
-                    biggest_count = counter
-                
-                tmp_str = f'Type >{reverse_ret_type_dict[counter] : <{30}}< has a probability of >{i}<\n'
-                #print(tmp_str)
-                arg_one_prediction_summary.append(tmp_str)
-                counter += 1
-                
-                result += i
-            for ret in ret_type_dict:
-                if ret_type_dict[ret] == biggest_count:
-                    #print()
-                    #print(f'argument one is of type >{ret}<')
-                    arg_one_prediction_summary.append(f'\nArgument one is of type >{ret}< with prob >{biggest}<\n\n')
-        
-        #print()
-        #print(f'Does last count together to 1 ? Result: >{result}<')
-        arg_one_prediction_summary.append(f'Does last count together to 1 ? Result: >{result}<')
-
-        arg_one_prediction_summary_str = ''.join(arg_one_prediction_summary)
-        self._disasTextEdit.setPlainText(f"tf model summary:\n{summary_str}\n \
+        self._disasTextEdit.setPlainText(f"tf model summary:\n{self.summary_str}\n \
                                         {arg_one_prediction_summary_str}")
         
+        #for debug
         print('over')
-        ##for debug
-#         file = open("/tmp/cutter-disas.txt", 'w+')
-#         file.write("\ndisasm_caller_callee-----------\n")
-#         file.write(disasm_caller_str + disasm_callee_str)      
-#         file.close()
         
         self.set_stored_radare2_e()
         
