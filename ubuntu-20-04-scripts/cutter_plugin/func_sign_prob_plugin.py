@@ -242,10 +242,11 @@ class FuncSignProbDockWidget(cutter.CutterDockWidget):
                 if ret_type_dict[ret] == biggest_count:
                     #print()
                     #print(f'argument one is of type >{ret}<')
-                    arg_one_prediction_summary.append(f'\nArgument one is of type >{ret}< with prob >{biggest}<\n\n')
-        
-        #print()
-        #print(f'Does last count together to 1 ? Result: >{result}<')
+                    arg_one_prediction_summary.append(f'\nBiggest Probability type >{ret}< with prob >{biggest}<\n\n')
+                    
+                    self.biggest_prob = biggest
+                    self.biggest_prob_type = ret
+                    
         arg_one_prediction_summary.append(f'Does last count together to 1 ? Result: >{result}<')
 
         arg_one_prediction_summary_str = ''.join(arg_one_prediction_summary)
@@ -253,6 +254,45 @@ class FuncSignProbDockWidget(cutter.CutterDockWidget):
         return arg_one_prediction_summary_str
     
     
+    
+    def get_prediction(self, model, disasm_caller_callee_str, func_sign_prob_git_path):
+        ### predict now    
+        model_path = func_sign_prob_git_path + \
+                            "ubuntu-20-04-scripts/trained_models/" + model + "/saved_model/"
+                            
+        ###load vocabulary list
+        vocab_file = func_sign_prob_git_path + \
+                            "ubuntu-20-04-scripts/trained_models/" + model + "/" + \
+                            'vocabulary_list.pickle'
+        
+                                                    
+        vocabulary = pickle_lib.get_pickle_file_content(vocab_file)
+        
+        ###load max-sequence-length
+        max_seq_len_file = func_sign_prob_git_path + \
+                            "ubuntu-20-04-scripts/trained_models/" + model + "/" + \
+                            'max_seq_length.pickle'
+                            
+        max_seq_length = pickle_lib.get_pickle_file_content(max_seq_len_file)
+        
+        ret = self.predict(model_path, len(vocabulary), max_seq_length, disasm_caller_callee_str)
+        
+        ## get strings for ints, with ret_type_dict
+        ret_type_dict_file = func_sign_prob_git_path + \
+                                    "ubuntu-20-04-scripts/trained_models/" + model + "/" + \
+                                    'return_type_dict.pickle'
+                            
+        ret_type_dict = pickle_lib.get_pickle_file_content(ret_type_dict_file)
+        
+        ### get human-readable output
+        prediction_summary_str = self.get_prediction_summary(ret_type_dict, ret)
+       
+        ## store for later
+#         nr_of_args_model_summary_str = self.model_summary_str
+#         self._disasTextEdit.setPlainText(f"tf model summary:\n{self.model_summary_str}\n \
+#                                         {nr_of_args_model_summary_str}")
+       
+        return prediction_summary_str
     
         
     def update_contents(self):
@@ -299,94 +339,40 @@ class FuncSignProbDockWidget(cutter.CutterDockWidget):
             print(f'Not found callee and caller disassembly.')
             return
         
+        ### the path were we cloned git repo to
         func_sign_prob_git_path = "/home/ubu/git/func_sign_prob/"
         
-        ### predict now nr_of_args    
-        nr_of_args_model_path = func_sign_prob_git_path + \
-                            "ubuntu-20-04-scripts/trained_models/nr_of_args/saved_model/"
-                            
-        ###load vocabulary list
-        nr_of_args_vocab_file = func_sign_prob_git_path + \
-                            "ubuntu-20-04-scripts/trained_models/nr_of_args/" + \
-                            'vocabulary_list.pickle'
-        
-                                                    
-        nr_of_args_vocabulary = pickle_lib.get_pickle_file_content(nr_of_args_vocab_file)
-        
-        ###load max-sequence-length
-        nr_of_args_max_seq_len_file = func_sign_prob_git_path + \
-                            "ubuntu-20-04-scripts/trained_models/nr_of_args/" + \
-                            'max_seq_length.pickle'
-                            
-        nr_of_args_max_seq_length = pickle_lib.get_pickle_file_content(nr_of_args_max_seq_len_file)
-        
-        nr_of_args_ret = self.predict(nr_of_args_model_path, len(nr_of_args_vocabulary), nr_of_args_max_seq_length, disasm_caller_str + disasm_callee_str)
-        
-        ## get strings for ints, with ret_type_dict
-        nr_of_args_ret_type_dict_file = func_sign_prob_git_path + \
-                                    "ubuntu-20-04-scripts/trained_models/nr_of_args/" + \
-                                    'return_type_dict.pickle'
-                            
-        nr_of_args_ret_type_dict = pickle_lib.get_pickle_file_content(nr_of_args_ret_type_dict_file)
-        
-        ### get human-readable output
-        nr_of_args_prediction_summary_str = self.get_prediction_summary(nr_of_args_ret_type_dict, nr_of_args_ret)
-       
+        ### predict now nr_of_args
+        nr_of_args_prediction_summary_str = self.get_prediction('nr_of_args', 
+                                                                disasm_caller_str + disasm_callee_str, 
+                                                                func_sign_prob_git_path)
+                 
         ## store for later
         nr_of_args_model_summary_str = self.model_summary_str
-        self._disasTextEdit.setPlainText(f"tf model summary:\n{self.model_summary_str}\n \
-                                        {nr_of_args_model_summary_str}")
+        nr_of_args_biggest_prob = self.biggest_prob
+        nr_of_args_biggest_prob_type = self.biggest_prob_type
+#         self._disasTextEdit.setPlainText(f"tf model summary:\n{self.model_summary_str}\n \
+#                                         {nr_of_args_model_summary_str}")
        
-       
-       
-       
-       
-       
-       
-       
-       
-       
-       
-       
-       
-       
+
         
-        ###predict now arg_one    
-        arg_one_model_path = func_sign_prob_git_path + \
-                            "ubuntu-20-04-scripts/trained_models/arg_one/saved_model/"
-         
-        ###load vocabulary list
-        arg_one_vocab_file = func_sign_prob_git_path + \
-                            "ubuntu-20-04-scripts/trained_models/arg_one/" + \
-                            'vocabulary_list.pickle'
-                                                    
-        vocabulary = pickle_lib.get_pickle_file_content(arg_one_vocab_file)
+        ###predict now arg_one
+        arg_one_prediction_summary_str = self.get_prediction('arg_one', 
+                                                                disasm_caller_str + disasm_callee_str, 
+                                                                func_sign_prob_git_path)
         
-        ###load max-sequence-length
-        arg_one_max_seq_len_file = func_sign_prob_git_path + \
-                            "ubuntu-20-04-scripts/trained_models/arg_one/" + \
-                            'max_seq_length.pickle'
-                            
-        max_seq_length = pickle_lib.get_pickle_file_content(arg_one_max_seq_len_file)
-        #print(f'len-vocab-from-file >{len(vocabulary)}<')
-        
-        ret = self.predict(arg_one_model_path, len(vocabulary), max_seq_length, disasm_caller_str + disasm_callee_str)
-        
-        
-        ## get strings for ints, with ret_type_dict
-        arg_one_ret_type_dict_file = func_sign_prob_git_path + \
-                                    "ubuntu-20-04-scripts/trained_models/arg_one/" + \
-                                    'return_type_dict.pickle'
-                            
-        ret_type_dict = pickle_lib.get_pickle_file_content(arg_one_ret_type_dict_file)
-        
-        ### get human-readable output
-        arg_one_prediction_summary_str = self.get_prediction_summary(ret_type_dict, ret)
-        
+
+        ## store for later
         arg_one_model_summary_str = self.model_summary_str
-        self._disasTextEdit.setPlainText(f"tf nr_of_args model summary:\n \
+        arg_one_biggest_prob = self.biggest_prob
+        arg_one_biggest_prob_type = self.biggest_prob_type
+        
+        
+        self._disasTextEdit.setPlainText(f"nr-of-args >{nr_of_args_biggest_prob_type}<\n \
+                                        arg_one >{arg_one_biggest_prob_type}<\n \
+                                        tf nr_of_args model summary:\n \
                                         {nr_of_args_model_summary_str}\n \
-                                        {nr_of_args_prediction_summary_str} \n \
+                                        {nr_of_args_prediction_summary_str}\n \
                                         tf arg_one model summary:\n \
                                         {self.model_summary_str}\n \
                                         {arg_one_prediction_summary_str}")
