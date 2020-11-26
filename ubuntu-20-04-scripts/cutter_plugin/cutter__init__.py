@@ -7,4 +7,4 @@ import func_sign_prob_plugin
 print(f'sys-path >{sys.path}<')
 
 def create_cutter_plugin():
-    return func_sign_prob_plugin.MyCutterPlugin()
+    return func_sign_prob_plugin.FuncSignProbCutterPlugin()

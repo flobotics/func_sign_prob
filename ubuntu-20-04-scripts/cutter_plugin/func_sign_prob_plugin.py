@@ -14,9 +14,9 @@ import disassembly_lib
 import pickle_lib
 
 
-class MyDockWidget(cutter.CutterDockWidget):
+class FuncSignProbDockWidget(cutter.CutterDockWidget):
     def __init__(self, parent, action):
-        super(MyDockWidget, self).__init__(parent, action)
+        super(FuncSignProbDockWidget, self).__init__(parent, action)
         self.setObjectName("func_sign_probDockWidget")
         self.setWindowTitle("func_sign_prob DockWidget")
 
@@ -238,7 +238,7 @@ class MyDockWidget(cutter.CutterDockWidget):
         disasm_caller_str = disassembly_lib.split_disassembly(disasm_caller_str)
         disasm_callee_str = disassembly_lib.split_disassembly(disasm_callee_str)
         
-        self._disasTextEdit.setPlainText("disasm_caller_callee:\n{}".format(disasm_caller_str + disasm_callee_str))
+        #self._disasTextEdit.setPlainText("disasm_caller_callee:\n{}".format(disasm_caller_str + disasm_callee_str))
         
         ##check if we got caller and callee disassembly
         if (len(disasm_caller_str) == 0) or (len(disasm_callee_str) == 0):
@@ -252,7 +252,11 @@ class MyDockWidget(cutter.CutterDockWidget):
                             
         model = tf.keras.models.load_model(arg_one_model_path)
 
-        model.summary()
+        ##summary_str = str(model.to_json())
+        stringlist = []
+        model.summary(print_fn=lambda x: stringlist.append(x))
+        summary_str = "\n".join(stringlist)
+        #self._disasTextEdit.setPlainText("tf model summary:\n{}".format(summary_str))
          
         ###load vocabulary list
         arg_one_vocab_file = func_sign_prob_git_path + \
@@ -281,8 +285,8 @@ class MyDockWidget(cutter.CutterDockWidget):
         
         example = [disasm_caller_str + disasm_callee_str]
         ret = export_model.predict(example)
-        print(f"Prediction: >{ret}<")
-        print()  ##just a newline 
+        #print(f"Prediction: >{ret}<")
+        #print()  ##just a newline 
         
         arg_one_ret_type_dict_file = func_sign_prob_git_path + \
                                     "ubuntu-20-04-scripts/trained_models/arg_one/" + \
@@ -296,6 +300,8 @@ class MyDockWidget(cutter.CutterDockWidget):
             reverse_ret_type_dict[counter] = key
             counter += 1
         
+        arg_one_prediction_summary = []
+        
         for item in ret:
             result = 0
             biggest = 0
@@ -306,19 +312,27 @@ class MyDockWidget(cutter.CutterDockWidget):
                     biggest = i
                     biggest_count = counter
                 
-                print(f'ret-type >{reverse_ret_type_dict[counter] : <{30}}< got probability of >{i}<')
+                tmp_str = f'ret-type >{reverse_ret_type_dict[counter] : <{30}}< got probability of >{i}<\n'
+                #print(tmp_str)
+                arg_one_prediction_summary.append(tmp_str)
                 counter += 1
                 
                 result += i
             for ret in ret_type_dict:
                 if ret_type_dict[ret] == biggest_count:
-                    print()
-                    print(f'argument one is of type >{ret}<')
+                    #print()
+                    #print(f'argument one is of type >{ret}<')
+                    arg_one_prediction_summary.append(f'\nArgument one is of type >{ret}<\n')
         
-        print()
-        print(f'Does last count together to 1 ? Result: >{result}<')
+        #print()
+        #print(f'Does last count together to 1 ? Result: >{result}<')
+        arg_one_prediction_summary.append(f'Does last count together to 1 ? Result: >{result}<')
 
+        arg_one_prediction_summary_str = ''.join(arg_one_prediction_summary)
+        self._disasTextEdit.setPlainText(f"tf model summary:\n{summary_str}\n \
+                                        {arg_one_prediction_summary_str}")
         
+        print('over')
         ##for debug
 #         file = open("/tmp/cutter-disas.txt", 'w+')
 #         file.write("\ndisasm_caller_callee-----------\n")
@@ -330,7 +344,7 @@ class MyDockWidget(cutter.CutterDockWidget):
         
         
 
-class MyCutterPlugin(cutter.CutterPlugin):
+class FuncSignProbCutterPlugin(cutter.CutterPlugin):
     name = "func_sign_prob plugin"
     description = "func_sign_prob plugin"
     version = "0.1"
@@ -342,11 +356,11 @@ class MyCutterPlugin(cutter.CutterPlugin):
     def setupInterface(self, main):
         action = QAction("func_sign_prob Plugin", main)
         action.setCheckable(True)
-        widget = MyDockWidget(main, action)
+        widget = FuncSignProbDockWidget(main, action)
         main.addPluginDockWidget(widget, action)
 
     def terminate(self):
         pass
 
 # def create_cutter_plugin():
-#     return MyCutterPlugin()
+#     return FuncSignProbCutterPlugin()
