@@ -8,7 +8,7 @@ from PySide2.QtWidgets import QAction, QLabel, QPlainTextEdit
 
 #sys.path.append('./')
 import disassembly_lib
-
+import pickle_lib
 
 
 class MyDockWidget(cutter.CutterDockWidget):
@@ -237,11 +237,40 @@ class MyDockWidget(cutter.CutterDockWidget):
         
         self._disasTextEdit.setPlainText("disasm_caller_callee:\n{}".format(disasm_caller_str + disasm_callee_str))
         
+        ##check if we got caller and callee disassembly
+        if (len(disasm_caller_str) == 0) or (len(disasm_callee_str) == 0):
+            return
+        
         ###predict now
-        model = tf.keras.models.load_model(config['checkpoint_dir'] + 'saved_model/')
+        func_sign_prob_git_path = "/home/ubu/git/func_sign_prob/"
+        
+        arg_one_model_path = func_sign_prob_git_path + \
+                            "ubuntu-20-04-scripts/trained_models/arg_one/saved_model/"
+                            
+        model = tf.keras.models.load_model(arg_one_model_path)
 
         model.summary()
          
+        ###load vocabulary list
+        arg_one_vocab_file = func_sign_prob_git_path + \
+                            "ubuntu-20-04-scripts/trained_models/arg_one/" + \
+                            'vocabulary_list.pickle'
+                            
+        vocabulary = pickle_lib.get_pickle_file_content(arg_one_vocab_file)
+        
+        ###load max-sequence-length
+        arg_one_max_seq_len_file = func_sign_prob_git_path + \
+                            "ubuntu-20-04-scripts/trained_models/arg_one/" + \
+                            'max_seq_length.pickle'
+                            
+        max_seq_length = pickle_lib.get_pickle_file_content(arg_one_max_seq_len_file)
+        print(f'len-vocab-from-file >{len(vocabulary)}<')
+        
+        vectorize_layer = TextVectorization(standardize=None,
+                                            max_tokens=len(vocabulary)+2,
+                                            output_mode='int',
+                                            output_sequence_length=max_seq_length)
+
         export_model = tf.keras.Sequential([vectorize_layer,
                                           model,
                                           tf.keras.layers.Activation('softmax')
@@ -252,7 +281,11 @@ class MyDockWidget(cutter.CutterDockWidget):
         print(f"Prediction: >{ret}<")
         print()  ##just a newline 
         
-        ret_type_dict = pickle_lib.get_pickle_file_content('/home/ubu/Documents/gcp-caller-callee/arg_one/' + 'return_type_dict.pickle')
+        arg_one_ret_type_dict_file = func_sign_prob_git_path + \
+                                    "ubuntu-20-04-scripts/trained_models/arg_one/" + \
+                                    'return_type_dict.pickle'
+                            
+        ret_type_dict = pickle_lib.get_pickle_file_content(arg_one_ret_type_dict_file)
     
         reverse_ret_type_dict = dict()
         counter = 0
@@ -312,5 +345,5 @@ class MyCutterPlugin(cutter.CutterPlugin):
     def terminate(self):
         pass
 
-def create_cutter_plugin():
-    return MyCutterPlugin()
+# def create_cutter_plugin():
+#     return MyCutterPlugin()
