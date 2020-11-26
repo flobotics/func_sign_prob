@@ -383,7 +383,7 @@ class FuncSignProbDockWidget(cutter.CutterDockWidget):
         ### get human-readable output
         arg_one_prediction_summary_str = self.get_prediction_summary(ret_type_dict, ret)
         
-        arg_one_model_summary_str = self.summary_str
+        arg_one_model_summary_str = self.model_summary_str
         self._disasTextEdit.setPlainText(f"tf nr_of_args model summary:\n{nr_of_args_model_summary_str}\n \
                                         {nr_of_args_model_summary_str}\n \
                                         tf arg_one model summary:\n{self.summary_str}\n \
