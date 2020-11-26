@@ -388,12 +388,10 @@ class FuncSignProbDockWidget(cutter.CutterDockWidget):
         if nr_of_args_biggest_prob_type == 1:
             func_sign = f"{ret_type_biggest_prob_type} {current_func_name}({arg_one_biggest_prob_type})"
         else:
-            func_sign = f"Need more args"
+            #func_sign = f"Need more args"
+            func_sign = f"{ret_type_biggest_prob_type} {current_func_name}({arg_one_biggest_prob_type})"
             
         self._disasTextEdit.setPlainText(f"{func_sign}\n \
-                                        ret-type >{ret_type_biggest_prob_type}<\n \
-                                        nr-of-args >{nr_of_args_biggest_prob_type}<\n \
-                                        arg_one >{arg_one_biggest_prob_type}<\n \
                                         tf nr_of_args model summary:\n \
                                         {nr_of_args_model_summary_str}\n \
                                         {nr_of_args_prediction_summary_str}\n \
