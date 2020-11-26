@@ -235,14 +235,59 @@ class MyDockWidget(cutter.CutterDockWidget):
         disasm_caller_str = disassembly_lib.split_disassembly(disasm_caller_str)
         disasm_callee_str = disassembly_lib.split_disassembly(disasm_callee_str)
         
-        self._disasTextEdit.setPlainText("disasm_caller_callee:\n{}".format(disasm_caller_str + disasm_callee_str))   
+        self._disasTextEdit.setPlainText("disasm_caller_callee:\n{}".format(disasm_caller_str + disasm_callee_str))
+        
+        ###predict now
+        model = tf.keras.models.load_model(config['checkpoint_dir'] + 'saved_model/')
+
+        model.summary()
+         
+        export_model = tf.keras.Sequential([vectorize_layer,
+                                          model,
+                                          tf.keras.layers.Activation('softmax')
+                                        ])
+        
+        example = [disasm_caller_str + disasm_callee_str]
+        ret = export_model.predict(example)
+        print(f"Prediction: >{ret}<")
+        print()  ##just a newline 
+        
+        ret_type_dict = pickle_lib.get_pickle_file_content('/home/ubu/Documents/gcp-caller-callee/arg_one/' + 'return_type_dict.pickle')
+    
+        reverse_ret_type_dict = dict()
+        counter = 0
+        for key in ret_type_dict:
+            reverse_ret_type_dict[counter] = key
+            counter += 1
+        
+        for item in ret:
+            result = 0
+            biggest = 0
+            biggest_count = 0
+            counter = 0
+            for i in item:
+                if i > biggest:
+                    biggest = i
+                    biggest_count = counter
+                
+                print(f'ret-type >{reverse_ret_type_dict[counter] : <{30}}< got probability of >{i}<')
+                counter += 1
+                
+                result += i
+            for ret in ret_type_dict:
+                if ret_type_dict[ret] == biggest_count:
+                    print()
+                    print(f'argument one is of type >{ret}<')
+        
+        print()
+        print(f'Does last count together to 1 ? Result: >{result}<')
 
         
         ##for debug
-        file = open("/tmp/cutter-disas.txt", 'w+')
-        file.write("\ndisasm_caller_callee-----------\n")
-        file.write(disasm_caller_str + disasm_callee_str)      
-        file.close()
+#         file = open("/tmp/cutter-disas.txt", 'w+')
+#         file.write("\ndisasm_caller_callee-----------\n")
+#         file.write(disasm_caller_str + disasm_callee_str)      
+#         file.close()
         
         self.set_stored_radare2_e()
         
