@@ -149,6 +149,38 @@ class FuncSignProbDockWidget(cutter.CutterDockWidget):
                                         
         return aflj_dict    
              
+             
+    def get_disassembly_of(self, address):
+        #disasm_callee = cutter.cmdj("pdrj @ $F")
+        disassembly = cutter.cmdj("pdrj @ " + str(address))
+        disassembly_str = ''
+        offset = ''
+        fcn_addr = ''
+        opcode = ''
+        size = ''
+        oldsize = 0
+        
+        for dis_dict in disassembly:
+            for key in dis_dict:
+                if key == 'offset':
+                    offset = dis_dict['offset']
+                elif key == 'fcn_addr':
+                    fcn_addr = dis_dict['fcn_addr']
+                elif key == 'size':
+                    size = dis_dict['size']
+                elif key == 'opcode':
+                    opcode = dis_dict['opcode']
+                    
+            if offset and fcn_addr and opcode and size:
+                disassembly_str = disassembly_str + f"{offset:#0{18}x}" + ' <+' + str(oldsize) + '>: ' + opcode + '\n'
+                oldsize += size
+            
+            offset = ''
+            fcn_addr = ''
+            opcode = ''
+            size = ''
+            
+        return disassembly_str
     
         
     def update_contents(self):
@@ -175,64 +207,73 @@ class FuncSignProbDockWidget(cutter.CutterDockWidget):
                 
         
         ## get disassembly of current function
-        disasm_callee = cutter.cmdj("pdrj @ $F")
-        disasm_callee_str = ''
-        offset = ''
-        fcn_addr = ''
-        opcode = ''
-        size = ''
-        oldsize = 0
+        address = cutter.cmd('s').strip()
+        print(f'address >{address}<')
+        disasm_callee_str = self.get_disassembly_of(address)
         
-        for dis_dict in disasm_callee:
-            for key in dis_dict:
-                if key == 'offset':
-                    offset = dis_dict['offset']
-                elif key == 'fcn_addr':
-                    fcn_addr = dis_dict['fcn_addr']
-                elif key == 'size':
-                    size = dis_dict['size']
-                elif key == 'opcode':
-                    opcode = dis_dict['opcode']
-                    
-            if offset and fcn_addr and opcode and size:
-                disasm_callee_str = disasm_callee_str + f"{offset:#0{18}x}" + ' <+' + str(oldsize) + '>: ' + opcode + '\n'
-                oldsize += size
-            
-            offset = ''
-            fcn_addr = ''
-            opcode = ''
-            size = ''   
+        
+        
+#         disasm_callee = cutter.cmdj("pdrj @ $F")
+#         disasm_callee_str = ''
+#         offset = ''
+#         fcn_addr = ''
+#         opcode = ''
+#         size = ''
+#         oldsize = 0
+#         
+#         for dis_dict in disasm_callee:
+#             for key in dis_dict:
+#                 if key == 'offset':
+#                     offset = dis_dict['offset']
+#                 elif key == 'fcn_addr':
+#                     fcn_addr = dis_dict['fcn_addr']
+#                 elif key == 'size':
+#                     size = dis_dict['size']
+#                 elif key == 'opcode':
+#                     opcode = dis_dict['opcode']
+#                     
+#             if offset and fcn_addr and opcode and size:
+#                 disasm_callee_str = disasm_callee_str + f"{offset:#0{18}x}" + ' <+' + str(oldsize) + '>: ' + opcode + '\n'
+#                 oldsize += size
+#             
+#             offset = ''
+#             fcn_addr = ''
+#             opcode = ''
+#             size = ''   
                    
                    
         #######
         print(f'caller-addr >{str(caller_addr)}<')
-        disasm_caller = cutter.cmdj("pdrj @ " + str(caller_addr))
-        disasm_caller_str = ''
-        offset = ''
-        fcn_addr = ''
-        opcode = ''
-        size = ''
-        oldsize = 0
+        disasm_caller_str = self.get_disassembly_of(caller_addr)
         
-        for dis_dict in disasm_caller:
-            for key in dis_dict:
-                if key == 'offset':
-                    offset = dis_dict['offset']
-                elif key == 'fcn_addr':
-                    fcn_addr = dis_dict['fcn_addr']
-                elif key == 'size':
-                    size = dis_dict['size']
-                elif key == 'opcode':
-                    opcode = dis_dict['opcode']
-                    
-            if offset and fcn_addr and opcode and size:
-                disasm_caller_str = disasm_caller_str + f"{offset:#0{18}x}" + ' <+' + str(oldsize) + '>: ' + opcode + '\n'
-                oldsize += size
-            
-            offset = ''
-            fcn_addr = ''
-            opcode = ''
-            size = ''   
+        
+#         disasm_caller = cutter.cmdj("pdrj @ " + str(caller_addr))
+#         disasm_caller_str = ''
+#         offset = ''
+#         fcn_addr = ''
+#         opcode = ''
+#         size = ''
+#         oldsize = 0
+#         
+#         for dis_dict in disasm_caller:
+#             for key in dis_dict:
+#                 if key == 'offset':
+#                     offset = dis_dict['offset']
+#                 elif key == 'fcn_addr':
+#                     fcn_addr = dis_dict['fcn_addr']
+#                 elif key == 'size':
+#                     size = dis_dict['size']
+#                 elif key == 'opcode':
+#                     opcode = dis_dict['opcode']
+#                     
+#             if offset and fcn_addr and opcode and size:
+#                 disasm_caller_str = disasm_caller_str + f"{offset:#0{18}x}" + ' <+' + str(oldsize) + '>: ' + opcode + '\n'
+#                 oldsize += size
+#             
+#             offset = ''
+#             fcn_addr = ''
+#             opcode = ''
+#             size = ''   
              
              
         disasm_caller_str = disassembly_lib.split_disassembly(disasm_caller_str)
