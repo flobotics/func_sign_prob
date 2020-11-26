@@ -342,12 +342,23 @@ class FuncSignProbDockWidget(cutter.CutterDockWidget):
         ### the path were we cloned git repo to
         func_sign_prob_git_path = "/home/ubu/git/func_sign_prob/"
         
+        ### predict now ret-type
+        ret_type_prediction_summary_str = self.get_prediction('return_type', 
+                                                                disasm_caller_str + disasm_callee_str, 
+                                                                func_sign_prob_git_path)
+        
+        ## store for later, will be overridden
+        ret_type_model_summary_str = self.model_summary_str
+        ret_type_biggest_prob = self.biggest_prob
+        ret_type_biggest_prob_type = self.biggest_prob_type
+        
+        
         ### predict now nr_of_args
         nr_of_args_prediction_summary_str = self.get_prediction('nr_of_args', 
                                                                 disasm_caller_str + disasm_callee_str, 
                                                                 func_sign_prob_git_path)
                  
-        ## store for later
+        ## store for later, will be overridden
         nr_of_args_model_summary_str = self.model_summary_str
         nr_of_args_biggest_prob = self.biggest_prob
         nr_of_args_biggest_prob_type = self.biggest_prob_type
@@ -362,13 +373,14 @@ class FuncSignProbDockWidget(cutter.CutterDockWidget):
                                                                 func_sign_prob_git_path)
         
 
-        ## store for later
+        ## store for later, will be overridden
         arg_one_model_summary_str = self.model_summary_str
         arg_one_biggest_prob = self.biggest_prob
         arg_one_biggest_prob_type = self.biggest_prob_type
         
         
-        self._disasTextEdit.setPlainText(f"nr-of-args >{nr_of_args_biggest_prob_type}<\n \
+        self._disasTextEdit.setPlainText(f"ret-type >{ret_type_biggest_prob_type}<\n \
+                                        nr-of-args >{nr_of_args_biggest_prob_type}<\n \
                                         arg_one >{arg_one_biggest_prob_type}<\n \
                                         tf nr_of_args model summary:\n \
                                         {nr_of_args_model_summary_str}\n \
