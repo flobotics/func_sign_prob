@@ -305,6 +305,11 @@ class FuncSignProbDockWidget(cutter.CutterDockWidget):
         
         self.set_new_radare2_e()
         
+        ### get name of current function
+        current_func_name = cutter.cmdj("afdj $F").get('name')
+        
+        print(f'current_func_name >{current_func_name}<')
+        
         ## find data/code references to this address with $F
         current_func_header = cutter.cmdj("axtj $F")
         
@@ -352,34 +357,41 @@ class FuncSignProbDockWidget(cutter.CutterDockWidget):
         ret_type_biggest_prob = self.biggest_prob
         ret_type_biggest_prob_type = self.biggest_prob_type
         
+#         self._disasTextEdit.setPlainText(f"ret-type >{ret_type_biggest_prob_type}<\n")
+        
         
         ### predict now nr_of_args
         nr_of_args_prediction_summary_str = self.get_prediction('nr_of_args', 
                                                                 disasm_caller_str + disasm_callee_str, 
                                                                 func_sign_prob_git_path)
-                 
+                  
         ## store for later, will be overridden
         nr_of_args_model_summary_str = self.model_summary_str
         nr_of_args_biggest_prob = self.biggest_prob
         nr_of_args_biggest_prob_type = self.biggest_prob_type
 #         self._disasTextEdit.setPlainText(f"tf model summary:\n{self.model_summary_str}\n \
 #                                         {nr_of_args_model_summary_str}")
-       
-
         
+ 
+         
         ###predict now arg_one
         arg_one_prediction_summary_str = self.get_prediction('arg_one', 
                                                                 disasm_caller_str + disasm_callee_str, 
                                                                 func_sign_prob_git_path)
-        
-
+         
+ 
         ## store for later, will be overridden
         arg_one_model_summary_str = self.model_summary_str
         arg_one_biggest_prob = self.biggest_prob
         arg_one_biggest_prob_type = self.biggest_prob_type
-        
-        
-        self._disasTextEdit.setPlainText(f"ret-type >{ret_type_biggest_prob_type}<\n \
+         
+        if nr_of_args_biggest_prob_type == 1:
+            func_sign = f"{ret_type_biggest_prob_type} {current_func_name}({arg_one_biggest_prob_type})"
+        else:
+            func_sign = f"Need more args"
+            
+        self._disasTextEdit.setPlainText(f"{func_sign}\n \
+                                        ret-type >{ret_type_biggest_prob_type}<\n \
                                         nr-of-args >{nr_of_args_biggest_prob_type}<\n \
                                         arg_one >{arg_one_biggest_prob_type}<\n \
                                         tf nr_of_args model summary:\n \
