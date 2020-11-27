@@ -195,11 +195,11 @@ def main():
             #print(f"counts_dict[counts_dict_key] >{counts_dict[counts_dict_key]}<")
             ret_type_counter[counts_dict_key]  += counts_dict[counts_dict_key]
         
-    print(f"The counts of every nr_of_arguments :")
+    print(f"The counts of every arg_two :")
     for key in ret_type_counter:
-        print(f"nr_of_args >{key}< exists\t\t\t>{ret_type_counter[key]}< \ttimes")
+        print(f"arg_two type >{key}< exists\t\t\t>{ret_type_counter[key]}< \ttimes")
     
-    config['minimum_nr_of_return_types'] = input('Put in minimum nr of nr_of_args to build balanced dataset:')
+    config['minimum_nr_of_return_types'] = input('Put in minimum nr of arg_two to build balanced dataset:')
     
     ### filter all that >= int(config['minimum_nr_of_return_types'])
     ret_type_counter_filtered = dict()
@@ -207,7 +207,7 @@ def main():
         if ret_type_counter[key] >= int(config['minimum_nr_of_return_types']):
             ret_type_counter_filtered[key] = ret_type_counter[key]
             
-    print(f"The filtered counts (>={int(config['minimum_nr_of_return_types'])}) of every return type >{ret_type_counter_filtered}<")
+    print(f"The filtered counts (>={int(config['minimum_nr_of_return_types'])}) of every type >{ret_type_counter_filtered}<")
     
     ### now select int(config['minimum_nr_of_return_types']) disassemblies,labels from 
     ### filter and store to dict the usable text,label pairs
