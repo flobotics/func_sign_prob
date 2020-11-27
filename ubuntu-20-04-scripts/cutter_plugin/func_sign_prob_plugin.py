@@ -371,9 +371,10 @@ class FuncSignProbDockWidget(cutter.CutterDockWidget):
         ret_type_biggest_prob_percent = 100 * ret_type_biggest_prob
         
         #self._funcSignLabel.setText('{ret_type_biggest_prob_type}<span style=\"background-color:red;\">{ret_type_biggest_prob}</span> </font> func-sign(void heeh)')
-        self._funcSignLabel.setText(f'{ret_type_biggest_prob_type} \
-            <span style=\"background-color:red;\">({ret_type_biggest_prob_percent:3.1f}%)</span> \
-            func-sign(void heeh)') 
+#         self._funcSignLabel.setText(f'{ret_type_biggest_prob_type} \
+#             <span style=\"background-color:red;\">({ret_type_biggest_prob_percent:3.1f}%)</span> \
+#             func-sign(void heeh)') 
+        
 #         self._disasTextEdit.setPlainText(f"ret-type >{ret_type_biggest_prob_type}<\n")
 #         
 #         
@@ -401,6 +402,7 @@ class FuncSignProbDockWidget(cutter.CutterDockWidget):
 #         arg_one_model_summary_str = self.model_summary_str
 #         arg_one_biggest_prob = self.biggest_prob
 #         arg_one_biggest_prob_type = self.biggest_prob_type
+#             arg_one_biggest_prob_percent = 100 * arg_one_biggest_prob
 #          
 #         if nr_of_args_biggest_prob_type == 1:
 #             func_sign = f"{ret_type_biggest_prob_type} {current_func_name}({arg_one_biggest_prob_type})"
@@ -413,7 +415,11 @@ class FuncSignProbDockWidget(cutter.CutterDockWidget):
 #                                         {self.model_summary_str}\n \
 #                                         {arg_one_prediction_summary_str}")
 
-#             self._funcSignLabel.setText(func_sign)
+#             self._funcSignLabel.setText(f'{ret_type_biggest_prob_type} \
+#                 <span style=\"background-color:red;\">({ret_type_biggest_prob_percent:3.1f}%)</span> \
+#                 {current_func_name} ( \
+#                 <span style=\"background-color:red;\">({arg_one_biggest_prob_percent:3.1f}%)</span> \
+#                 {arg_one_biggest_prob_type})') 
 #             
 #             self.set_stored_radare2_e()
 #             return
@@ -430,6 +436,7 @@ class FuncSignProbDockWidget(cutter.CutterDockWidget):
 #         arg_two_model_summary_str = self.model_summary_str
 #         arg_two_biggest_prob = self.biggest_prob
 #         arg_two_biggest_prob_type = self.biggest_prob_type
+#         arg_two_biggest_prob_percent = 100 * arg_two_biggest_prob
 #         
 #         
 #         if nr_of_args_biggest_prob_type == 2:
@@ -446,7 +453,14 @@ class FuncSignProbDockWidget(cutter.CutterDockWidget):
 #                                         {arg_two_model_summary_str}\n \
 #                                         {arg_two_prediction_summary_str}")
 
-#                 self._funcSignLabel.setText(func_sign)
+#             self._funcSignLabel.setText(f'{ret_type_biggest_prob_type} \
+#                 <span style=\"background-color:red;\">({ret_type_biggest_prob_percent:3.1f}%)</span> \
+#                 {current_func_name} ( \
+#                 <span style=\"background-color:red;\">({arg_one_biggest_prob_percent:3.1f}%)</span> \
+#                 {arg_one_biggest_prob_type}, \
+#                 <span style=\"background-color:red;\">({arg_two_biggest_prob_percent:3.1f}%)</span> \
+#                 {arg_two_biggest_prob_type} \
+#                 )') 
 #             
 #             self.set_stored_radare2_e()
 #             return
@@ -463,7 +477,7 @@ class FuncSignProbDockWidget(cutter.CutterDockWidget):
         arg_three_model_summary_str = self.model_summary_str
         arg_three_biggest_prob = self.biggest_prob
         arg_three_biggest_prob_type = self.biggest_prob_type
-        
+        arg_three_biggest_prob_percent = 100 * arg_three_biggest_prob
         
         
         
@@ -489,7 +503,16 @@ class FuncSignProbDockWidget(cutter.CutterDockWidget):
 #                                         {arg_three_model_summary_str}\n \
 #                                         {arg_three_prediction_summary_str}")
 
-#                 self._funcSignLabel.setText(func_sign)
+#             self._funcSignLabel.setText(f'{ret_type_biggest_prob_type} \
+#                 <span style=\"background-color:red;\">({ret_type_biggest_prob_percent:3.1f}%)</span> \
+#                 {current_func_name} ( \
+#                 <span style=\"background-color:red;\">({arg_one_biggest_prob_percent:3.1f}%)</span> \
+#                 {arg_one_biggest_prob_type}, \
+#                 <span style=\"background-color:red;\">({arg_two_biggest_prob_percent:3.1f}%)</span> \
+#                 {arg_two_biggest_prob_type} \
+#                 <span style=\"background-color:red;\">({arg_three_biggest_prob_percent:3.1f}%)</span> \
+#                 {arg_three_biggest_prob_type} \
+#                 )') 
 #             
 #             self.set_stored_radare2_e()
 #             return
