@@ -41,3 +41,7 @@ sudo apt install qtdeclarative5-dev    ###Qtqml/qqml.h no such file or directory
 cmake -DCMAKE_EXE_LINKER_FLAGS="-Wl,--disable-new-dtags" -B build -DCUTTER_ENABLE_PYTHON=ON -DCUTTER_ENABLE_PYTHON_BINDINGS=ON -DCUTTER_USE_BUNDLED_RADARE2=ON  ../src/
 
 cmake --build build
+
+
+
+![cutter_plugin](../pictures/cutter_plugin/cutter_func_sign_prob_plugin.png)

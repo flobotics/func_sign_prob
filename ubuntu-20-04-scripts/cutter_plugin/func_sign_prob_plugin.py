@@ -426,7 +426,7 @@ class FuncSignProbDockWidget(cutter.CutterDockWidget):
         arg_two_biggest_prob_type = self.biggest_prob_type
         arg_two_biggest_prob_percent = 100 * arg_two_biggest_prob
          
-         
+        nr_of_args_biggest_prob_type == 2 
         if nr_of_args_biggest_prob_type == 2:
             
             self._disasTextEdit.setPlainText(f"tf nr_of_args model summary:\n \
