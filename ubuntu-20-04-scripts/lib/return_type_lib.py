@@ -1,3 +1,4 @@
+from tensorflow.python.eager.backprop import function
 def delete_strange_return_types(gdb_ptype):
     
     new_gdb_ptype = gdb_ptype.replace('type =', '')
@@ -389,6 +390,43 @@ def get_arg_two_name_from_function_signature(function_signature):
     
     return arg_two
 
+
+def get_arg_three_name_from_function_signature(function_signature):
+    #print(f'function_signature >{function_signature}<')
+    ### find ( which marks the function-names start
+    fn_end_idx = function_signature.index('(')
+    
+    ##check how many args are there
+    nr_args = get_nr_of_args_from_function_signature(function_signature)
+    
+    if nr_args < 3:
+        #print(f'no second arg >{nr_args}<')
+        return 'not-found'
+    ##if more than one arg, filter till first comma
+    
+    
+    if nr_args > 3:
+        
+        first_comma = function_signature.index(',')
+        second_comma = function_signature[first_comma+1:].index(',')
+        third_comma = function_signature[second_comma+1:].index(',')
+        #print(f'first_comma >{first_comma}< second_comma >{second_comma}< >{first_comma+second_comma}')
+        fs = first_comma + second_comma + third_comma + 1
+        arg_three = function_signature[second_comma+1:fs:].strip()
+        
+        print(f'arg-three-nr >3 >{arg_three}<')
+    else:
+        first_comma = function_signature.index(',')
+        second_comma = function_signature[first_comma+1:].index(',')
+        last_par = function_signature[::-1].index(')')
+        #print(f'first_comma >{first_comma}<  last_par >{last_par}<')
+        lp = len(function_signature) - last_par
+        arg_three = function_signature[second_comma+1:lp:]
+        print(f'arg-three-nr =3 >{arg_three}<')
+        
+    #print(f'arg_three >{arg_three}<')
+    
+    return arg_three
 
 
       

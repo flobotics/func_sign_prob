@@ -141,7 +141,7 @@ def main():
     
        
 
-    print("Done. Run train_arg_two_model_lstm.py next")
+    print("Done. Run train_arg_three_model_lstm.py next")
 
 if __name__ == "__main__":
     main()
