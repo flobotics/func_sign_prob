@@ -7,7 +7,7 @@ from tensorflow.keras.layers.experimental.preprocessing import TextVectorization
 from tensorflow.keras.layers import Activation, Dense, Embedding, GlobalAveragePooling1D
 
 from PySide2.QtCore import QObject, SIGNAL, QProcess
-from PySide2.QtWidgets import QAction, QLabel, QPlainTextEdit
+from PySide2.QtWidgets import QAction, QLabel, QPlainTextEdit, QWidget, QVBoxLayout
 
 #sys.path.append('./')
 import disassembly_lib
@@ -20,8 +20,20 @@ class FuncSignProbDockWidget(cutter.CutterDockWidget):
         self.setObjectName("func_sign_probDockWidget")
         self.setWindowTitle("func_sign_prob DockWidget")
 
+        self._multiWidget = QWidget()
+        self._layout = QVBoxLayout()
+        
+        self._funcSignLabel = QLabel(self)
         self._disasTextEdit = QPlainTextEdit(self)
-        self.setWidget(self._disasTextEdit)
+        
+        self._layout.addWidget(self._funcSignLabel)
+        self._layout.addWidget(self._disasTextEdit)
+        
+        self._multiWidget.setLayout(self._layout);
+        self.setWidget(self._multiWidget);
+        
+#         self.setWidget(self._disasTextEdit)
+#         self._funcSignLabel.setText('first')
 
         QObject.connect(cutter.core(), SIGNAL("seekChanged(RVA)"), self.update_contents)
         self.update_contents()
@@ -351,84 +363,93 @@ class FuncSignProbDockWidget(cutter.CutterDockWidget):
         ret_type_prediction_summary_str = self.get_prediction('return_type', 
                                                                 disasm_caller_str + disasm_callee_str, 
                                                                 func_sign_prob_git_path)
-        
+         
         ## store for later, will be overridden
         ret_type_model_summary_str = self.model_summary_str
         ret_type_biggest_prob = self.biggest_prob
         ret_type_biggest_prob_type = self.biggest_prob_type
+        ret_type_biggest_prob_percent = 100 * ret_type_biggest_prob
         
+        #self._funcSignLabel.setText('{ret_type_biggest_prob_type}<span style=\"background-color:red;\">{ret_type_biggest_prob}</span> </font> func-sign(void heeh)')
+        self._funcSignLabel.setText(f'{ret_type_biggest_prob_type} \
+            <span style=\"background-color:red;\">({ret_type_biggest_prob_percent:3.1f}%)</span> \
+            func-sign(void heeh)') 
 #         self._disasTextEdit.setPlainText(f"ret-type >{ret_type_biggest_prob_type}<\n")
-        
-        
-        ### predict now nr_of_args
-        nr_of_args_prediction_summary_str = self.get_prediction('nr_of_args', 
-                                                                disasm_caller_str + disasm_callee_str, 
-                                                                func_sign_prob_git_path)
-                  
-        ## store for later, will be overridden
-        nr_of_args_model_summary_str = self.model_summary_str
-        nr_of_args_biggest_prob = self.biggest_prob
-        nr_of_args_biggest_prob_type = self.biggest_prob_type
-#         self._disasTextEdit.setPlainText(f"tf model summary:\n{self.model_summary_str}\n \
-#                                         {nr_of_args_model_summary_str}")
-        
- 
-         
-        ###predict now arg_one
-        arg_one_prediction_summary_str = self.get_prediction('arg_one', 
-                                                                disasm_caller_str + disasm_callee_str, 
-                                                                func_sign_prob_git_path)
-         
- 
-        ## store for later, will be overridden
-        arg_one_model_summary_str = self.model_summary_str
-        arg_one_biggest_prob = self.biggest_prob
-        arg_one_biggest_prob_type = self.biggest_prob_type
-         
-        if nr_of_args_biggest_prob_type == 1:
-            func_sign = f"{ret_type_biggest_prob_type} {current_func_name}({arg_one_biggest_prob_type})"
-            
-            self._disasTextEdit.setPlainText(f"{func_sign}\n \
-                                        tf nr_of_args model summary:\n \
-                                        {nr_of_args_model_summary_str}\n \
-                                        {nr_of_args_prediction_summary_str}\n \
-                                        tf arg_one model summary:\n \
-                                        {self.model_summary_str}\n \
-                                        {arg_one_prediction_summary_str}")
-            
-            self.set_stored_radare2_e()
-            return
-            
-            
-        ###if more one args
-        ###predict now arg_two
-        arg_two_prediction_summary_str = self.get_prediction('arg_two', 
-                                                                disasm_caller_str + disasm_callee_str, 
-                                                                func_sign_prob_git_path)
-         
- 
-        ## store for later, will be overridden
-        arg_two_model_summary_str = self.model_summary_str
-        arg_two_biggest_prob = self.biggest_prob
-        arg_two_biggest_prob_type = self.biggest_prob_type
-        
-        
-        if nr_of_args_biggest_prob_type == 2:
-            func_sign = f"{ret_type_biggest_prob_type} {current_func_name}({arg_one_biggest_prob_type}, {arg_two_biggest_prob_type})"
-            
-            self._disasTextEdit.setPlainText(f"{func_sign}\n \
-                                        tf nr_of_args model summary:\n \
-                                        {nr_of_args_model_summary_str}\n \
-                                        {nr_of_args_prediction_summary_str}\n \
-                                        tf arg_one model summary:\n \
-                                        {arg_one_model_summary_str}\n \
-                                        {arg_one_prediction_summary_str}\n \
-                                        tf arg_two model summary:\n \
-                                        {arg_two_model_summary_str}\n \
-                                        {arg_two_prediction_summary_str}")
-            
-            self.set_stored_radare2_e()
-            return
+#         
+#         
+#         ### predict now nr_of_args
+#         nr_of_args_prediction_summary_str = self.get_prediction('nr_of_args', 
+#                                                                 disasm_caller_str + disasm_callee_str, 
+#                                                                 func_sign_prob_git_path)
+#                   
+#         ## store for later, will be overridden
+#         nr_of_args_model_summary_str = self.model_summary_str
+#         nr_of_args_biggest_prob = self.biggest_prob
+#         nr_of_args_biggest_prob_type = self.biggest_prob_type
+# #         self._disasTextEdit.setPlainText(f"tf model summary:\n{self.model_summary_str}\n \
+# #                                         {nr_of_args_model_summary_str}")
+#         
+#  
+#          
+#         ###predict now arg_one
+#         arg_one_prediction_summary_str = self.get_prediction('arg_one', 
+#                                                                 disasm_caller_str + disasm_callee_str, 
+#                                                                 func_sign_prob_git_path)
+#          
+#  
+#         ## store for later, will be overridden
+#         arg_one_model_summary_str = self.model_summary_str
+#         arg_one_biggest_prob = self.biggest_prob
+#         arg_one_biggest_prob_type = self.biggest_prob_type
+#          
+#         if nr_of_args_biggest_prob_type == 1:
+#             func_sign = f"{ret_type_biggest_prob_type} {current_func_name}({arg_one_biggest_prob_type})"
+#             
+#             self._disasTextEdit.setPlainText(f"{func_sign}\n \
+#                                         tf nr_of_args model summary:\n \
+#                                         {nr_of_args_model_summary_str}\n \
+#                                         {nr_of_args_prediction_summary_str}\n \
+#                                         tf arg_one model summary:\n \
+#                                         {self.model_summary_str}\n \
+#                                         {arg_one_prediction_summary_str}")
+
+#             self._funcSignLabel.setText(func_sign)
+#             
+#             self.set_stored_radare2_e()
+#             return
+#             
+#             
+#         ###if more one args
+#         ###predict now arg_two
+#         arg_two_prediction_summary_str = self.get_prediction('arg_two', 
+#                                                                 disasm_caller_str + disasm_callee_str, 
+#                                                                 func_sign_prob_git_path)
+#          
+#  
+#         ## store for later, will be overridden
+#         arg_two_model_summary_str = self.model_summary_str
+#         arg_two_biggest_prob = self.biggest_prob
+#         arg_two_biggest_prob_type = self.biggest_prob_type
+#         
+#         
+#         if nr_of_args_biggest_prob_type == 2:
+#             func_sign = f"{ret_type_biggest_prob_type} {current_func_name}({arg_one_biggest_prob_type}, {arg_two_biggest_prob_type})"
+#             
+#             self._disasTextEdit.setPlainText(f"{func_sign}\n \
+#                                         tf nr_of_args model summary:\n \
+#                                         {nr_of_args_model_summary_str}\n \
+#                                         {nr_of_args_prediction_summary_str}\n \
+#                                         tf arg_one model summary:\n \
+#                                         {arg_one_model_summary_str}\n \
+#                                         {arg_one_prediction_summary_str}\n \
+#                                         tf arg_two model summary:\n \
+#                                         {arg_two_model_summary_str}\n \
+#                                         {arg_two_prediction_summary_str}")
+
+#                 self._funcSignLabel.setText(func_sign)
+#             
+#             self.set_stored_radare2_e()
+#             return
         
         
         ###if more than two args
@@ -443,28 +464,35 @@ class FuncSignProbDockWidget(cutter.CutterDockWidget):
         arg_three_biggest_prob = self.biggest_prob
         arg_three_biggest_prob_type = self.biggest_prob_type
         
+        
+        
+        
+        self._disasTextEdit.setPlainText(f"arg_three_model_summary_str >{arg_three_model_summary_str}< >{arg_three_biggest_prob}< >{arg_three_biggest_prob_type}<")
+                                            
         ##if nr_of_args_biggest_prob_type == 3:
-        if nr_of_args_biggest_prob_type >= 3:   #hack, if more args
-            func_sign = f"{ret_type_biggest_prob_type} \
-                        {current_func_name}(\
-                        {arg_one_biggest_prob_type}, {arg_two_biggest_prob_type}, {arg_three_biggest_prob_type})"
-            
-            self._disasTextEdit.setPlainText(f"{func_sign}\n \
-                                        tf nr_of_args model summary:\n \
-                                        {nr_of_args_model_summary_str}\n \
-                                        {nr_of_args_prediction_summary_str}\n \
-                                        tf arg_one model summary:\n \
-                                        {arg_one_model_summary_str}\n \
-                                        {arg_one_prediction_summary_str}\n \
-                                        tf arg_two model summary:\n \
-                                        {arg_two_model_summary_str}\n \
-                                        {arg_two_prediction_summary_str}\n \
-                                        tf arg_three model summary:\n \
-                                        {arg_three_model_summary_str}\n \
-                                        {arg_three_prediction_summary_str}")
-            
-            self.set_stored_radare2_e()
-            return
+#         if nr_of_args_biggest_prob_type >= 3:   #hack, if more args
+#             func_sign = f"{ret_type_biggest_prob_type} \
+#                         {current_func_name}(\
+#                         {arg_one_biggest_prob_type}, {arg_two_biggest_prob_type}, {arg_three_biggest_prob_type})"
+#             
+#             self._disasTextEdit.setPlainText(f"{func_sign}\n \
+#                                         tf nr_of_args model summary:\n \
+#                                         {nr_of_args_model_summary_str}\n \
+#                                         {nr_of_args_prediction_summary_str}\n \
+#                                         tf arg_one model summary:\n \
+#                                         {arg_one_model_summary_str}\n \
+#                                         {arg_one_prediction_summary_str}\n \
+#                                         tf arg_two model summary:\n \
+#                                         {arg_two_model_summary_str}\n \
+#                                         {arg_two_prediction_summary_str}\n \
+#                                         tf arg_three model summary:\n \
+#                                         {arg_three_model_summary_str}\n \
+#                                         {arg_three_prediction_summary_str}")
+
+#                 self._funcSignLabel.setText(func_sign)
+#             
+#             self.set_stored_radare2_e()
+#             return
         
         
         #for debug
