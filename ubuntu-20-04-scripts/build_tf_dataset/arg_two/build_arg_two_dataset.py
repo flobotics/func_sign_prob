@@ -146,9 +146,9 @@ def proc_build(tarbz2_file, work_dir, save_dir, config):
                                     #return_type_func_sign = return_type_lib.get_return_type_from_function_signature(elem2[0])
                                     #return_type = return_type_lib.get_return_type_from_gdb_ptype(elem2[1])
                                     nr_of_args = return_type_lib.get_nr_of_args_from_function_signature(elem2[0])
-                                    arg_nr_we_want = 1
+                                    arg_nr_we_want = 2
                                     if nr_of_args < arg_nr_we_want:
-                                        print(f'func got to less args for us')
+                                        #print(f'func got to less args for us')
                                         break
                                         
                                     arg_two = return_type_lib.get_arg_two_name_from_function_signature(elem2[0])
@@ -157,7 +157,8 @@ def proc_build(tarbz2_file, work_dir, save_dir, config):
                                     
   
                                     if result == False:
-                                        print(f'arg_two not a known type')
+                                        #print(f'arg_two not a known type')
+                                        pass
                                     else:
                                         tmp_att_dis = att_dis
                                         #print(f'len att-dis 1 >{len(tmp_att_dis)}<')

@@ -355,7 +355,7 @@ def get_arg_one_name_from_function_signature(function_signature):
     
     
 def get_arg_two_name_from_function_signature(function_signature):
-    print(f'function_signature >{function_signature}<')
+    #print(f'function_signature >{function_signature}<')
     ### find ( which marks the function-names start
     fn_end_idx = function_signature.index('(')
     
@@ -363,7 +363,7 @@ def get_arg_two_name_from_function_signature(function_signature):
     nr_args = get_nr_of_args_from_function_signature(function_signature)
     
     if nr_args < 2:
-        print(f'no second arg >{nr_args}<')
+        #print(f'no second arg >{nr_args}<')
         return 'not-found'
     ##if more than one arg, filter till first comma
     
