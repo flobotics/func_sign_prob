@@ -378,51 +378,48 @@ class FuncSignProbDockWidget(cutter.CutterDockWidget):
 #         self._disasTextEdit.setPlainText(f"ret-type >{ret_type_biggest_prob_type}<\n")
 #         
 #         
-#         ### predict now nr_of_args
-#         nr_of_args_prediction_summary_str = self.get_prediction('nr_of_args', 
-#                                                                 disasm_caller_str + disasm_callee_str, 
-#                                                                 func_sign_prob_git_path)
-#                   
-#         ## store for later, will be overridden
-#         nr_of_args_model_summary_str = self.model_summary_str
-#         nr_of_args_biggest_prob = self.biggest_prob
-#         nr_of_args_biggest_prob_type = self.biggest_prob_type
-# #         self._disasTextEdit.setPlainText(f"tf model summary:\n{self.model_summary_str}\n \
-# #                                         {nr_of_args_model_summary_str}")
-#         
-#  
-#          
-#         ###predict now arg_one
-#         arg_one_prediction_summary_str = self.get_prediction('arg_one', 
-#                                                                 disasm_caller_str + disasm_callee_str, 
-#                                                                 func_sign_prob_git_path)
-#          
-#  
-#         ## store for later, will be overridden
-#         arg_one_model_summary_str = self.model_summary_str
-#         arg_one_biggest_prob = self.biggest_prob
-#         arg_one_biggest_prob_type = self.biggest_prob_type
-#             arg_one_biggest_prob_percent = 100 * arg_one_biggest_prob
-#          
-#         if nr_of_args_biggest_prob_type == 1:
-#             func_sign = f"{ret_type_biggest_prob_type} {current_func_name}({arg_one_biggest_prob_type})"
-#             
-#             self._disasTextEdit.setPlainText(f"{func_sign}\n \
-#                                         tf nr_of_args model summary:\n \
-#                                         {nr_of_args_model_summary_str}\n \
-#                                         {nr_of_args_prediction_summary_str}\n \
-#                                         tf arg_one model summary:\n \
-#                                         {self.model_summary_str}\n \
-#                                         {arg_one_prediction_summary_str}")
-
-#             self._funcSignLabel.setText(f'{ret_type_biggest_prob_type} \
-#                 <span style=\"background-color:red;\">({ret_type_biggest_prob_percent:3.1f}%)</span> \
-#                 {current_func_name} ( \
-#                 <span style=\"background-color:red;\">({arg_one_biggest_prob_percent:3.1f}%)</span> \
-#                 {arg_one_biggest_prob_type})') 
-#             
-#             self.set_stored_radare2_e()
-#             return
+         ### predict now nr_of_args
+        nr_of_args_prediction_summary_str = self.get_prediction('nr_of_args', 
+                                                                disasm_caller_str + disasm_callee_str, 
+                                                                func_sign_prob_git_path)
+                   
+        ## store for later, will be overridden
+        nr_of_args_model_summary_str = self.model_summary_str
+        nr_of_args_biggest_prob = self.biggest_prob
+        nr_of_args_biggest_prob_type = self.biggest_prob_type
+         
+        ###predict now arg_one
+        arg_one_prediction_summary_str = self.get_prediction('arg_one', 
+                                                                disasm_caller_str + disasm_callee_str, 
+                                                                func_sign_prob_git_path)
+          
+  
+        ## store for later, will be overridden
+        arg_one_model_summary_str = self.model_summary_str
+        arg_one_biggest_prob = self.biggest_prob
+        arg_one_biggest_prob_type = self.biggest_prob_type
+        arg_one_biggest_prob_percent = 100 * arg_one_biggest_prob
+          
+        nr_of_args_biggest_prob_type = 1
+        if nr_of_args_biggest_prob_type == 1:
+            func_sign = f"{ret_type_biggest_prob_type} {current_func_name}({arg_one_biggest_prob_type})"
+             
+            self._disasTextEdit.setPlainText(f"{func_sign}\n \
+                                         tf nr_of_args model summary:\n \
+                                         {nr_of_args_model_summary_str}\n \
+                                         {nr_of_args_prediction_summary_str}\n \
+                                         tf arg_one model summary:\n \
+                                         {self.model_summary_str}\n \
+                                         {arg_one_prediction_summary_str}")
+     
+            self._funcSignLabel.setText(f'{ret_type_biggest_prob_type} \
+                 <span style=\"background-color:red;\">({ret_type_biggest_prob_percent:3.1f}%)</span> \
+                 {current_func_name} ( \
+                 <span style=\"background-color:red;\">({arg_one_biggest_prob_percent:3.1f}%)</span> \
+                 {arg_one_biggest_prob_type})') 
+             
+            self.set_stored_radare2_e()
+            return
 #             
 #             
 #         ###if more one args
