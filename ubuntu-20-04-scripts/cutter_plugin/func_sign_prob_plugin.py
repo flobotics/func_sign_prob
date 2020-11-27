@@ -369,15 +369,7 @@ class FuncSignProbDockWidget(cutter.CutterDockWidget):
         ret_type_biggest_prob = self.biggest_prob
         ret_type_biggest_prob_type = self.biggest_prob_type
         ret_type_biggest_prob_percent = 100 * ret_type_biggest_prob
-        
-        #self._funcSignLabel.setText('{ret_type_biggest_prob_type}<span style=\"background-color:red;\">{ret_type_biggest_prob}</span> </font> func-sign(void heeh)')
-#         self._funcSignLabel.setText(f'{ret_type_biggest_prob_type} \
-#             <span style=\"background-color:red;\">({ret_type_biggest_prob_percent:3.1f}%)</span> \
-#             func-sign(void heeh)') 
-        
-#         self._disasTextEdit.setPlainText(f"ret-type >{ret_type_biggest_prob_type}<\n")
-#         
-#         
+                
          ### predict now nr_of_args
         nr_of_args_prediction_summary_str = self.get_prediction('nr_of_args', 
                                                                 disasm_caller_str + disasm_callee_str, 
@@ -402,10 +394,8 @@ class FuncSignProbDockWidget(cutter.CutterDockWidget):
           
         nr_of_args_biggest_prob_type = 1
         if nr_of_args_biggest_prob_type == 1:
-            func_sign = f"{ret_type_biggest_prob_type} {current_func_name}({arg_one_biggest_prob_type})"
-             
-            self._disasTextEdit.setPlainText(f"{func_sign}\n \
-                                         tf nr_of_args model summary:\n \
+            
+            self._disasTextEdit.setPlainText(f"tf nr_of_args model summary:\n \
                                          {nr_of_args_model_summary_str}\n \
                                          {nr_of_args_prediction_summary_str}\n \
                                          tf arg_one model summary:\n \
@@ -438,10 +428,8 @@ class FuncSignProbDockWidget(cutter.CutterDockWidget):
          
          
         if nr_of_args_biggest_prob_type == 2:
-            func_sign = f"{ret_type_biggest_prob_type} {current_func_name}({arg_one_biggest_prob_type}, {arg_two_biggest_prob_type})"
-             
-            self._disasTextEdit.setPlainText(f"{func_sign}\n \
-                                        tf nr_of_args model summary:\n \
+            
+            self._disasTextEdit.setPlainText(f"tf nr_of_args model summary:\n \
                                         {nr_of_args_model_summary_str}\n \
                                         {nr_of_args_prediction_summary_str}\n \
                                         tf arg_one model summary:\n \
@@ -483,12 +471,8 @@ class FuncSignProbDockWidget(cutter.CutterDockWidget):
                                             
         ##if nr_of_args_biggest_prob_type == 3:
         if nr_of_args_biggest_prob_type >= 3:   #hack, if more args
-            func_sign = f"{ret_type_biggest_prob_type} \
-                        {current_func_name}(\
-                        {arg_one_biggest_prob_type}, {arg_two_biggest_prob_type}, {arg_three_biggest_prob_type})"
              
-            self._disasTextEdit.setPlainText(f"{func_sign}\n \
-                                        tf nr_of_args model summary:\n \
+            self._disasTextEdit.setPlainText(f"tf nr_of_args model summary:\n \
                                         {nr_of_args_model_summary_str}\n \
                                         {nr_of_args_prediction_summary_str}\n \
                                         tf arg_one model summary:\n \
