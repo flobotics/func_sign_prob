@@ -294,6 +294,8 @@ def main():
     val_dataset = val_dataset.map(vectorize_text, num_parallel_calls=AUTOTUNE)
     test_dataset = test_dataset.map(vectorize_text, num_parallel_calls=AUTOTUNE)
     
+    embedding_dim = 64
+    
     ## check if we got a model, and train it more
     print(f"save_model_dir-dir >{config['save_model_dir']}<")
     
@@ -304,7 +306,7 @@ def main():
         model.summary()
     else:   
         print(f'No trained model found, train for first time')
-        embedding_dim = 64
+        
     
         model = tf.keras.Sequential([tf.keras.layers.Embedding(len(vocabulary)+2, embedding_dim, mask_zero=True),
                                      tf.keras.layers.Bidirectional(tf.keras.layers.LSTM(64, return_sequences=True)),
