@@ -118,7 +118,7 @@ def _parse_function(example_proto):
 def configure_for_performance(ds):
   #ds = ds.cache()
   ds = ds.shuffle(buffer_size=1000)
-  ds = ds.batch(20)
+  ds = ds.batch(15)
   ds = ds.prefetch(buffer_size=tf.data.experimental.AUTOTUNE)
   return ds
   
