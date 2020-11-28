@@ -94,11 +94,11 @@ def check_config(config):
 def proc_build(file, ret_type_dict, config):
     trans_ds = list()
     
-    print(f'Transform File >{file}<')
+    #print(f'Transform File >{file}<')
     
     cont = pickle_lib.get_pickle_file_content(file)
     for item in cont:
-        print(f"item >{item[0]}<  item-1 >{item[1]}< >{ret_type_dict[item[1]]}<")
+        #print(f"item >{item[0]}<  item-1 >{item[1]}< >{ret_type_dict[item[1]]}<")
         trans_ds.append( (item[0], ret_type_dict[item[1]]) )
         
     tfrecord_lib.save_caller_callee_to_tfrecord(trans_ds, config['tfrecord_save_dir'] + os.path.basename(file).replace('.pickle', '.tfrecord'))
