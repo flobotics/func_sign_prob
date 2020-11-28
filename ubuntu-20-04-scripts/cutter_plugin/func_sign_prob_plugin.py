@@ -357,7 +357,7 @@ class FuncSignProbDockWidget(cutter.CutterDockWidget):
             return
         
         ### the path were we cloned git repo to
-        func_sign_prob_git_path = "/home/ubu/git/func_sign_prob/"
+        func_sign_prob_git_path = "/home/infloflo/git/func_sign_prob/"
         
         ### predict now ret-type
         ret_type_prediction_summary_str = self.get_prediction('return_type', 
@@ -443,7 +443,7 @@ class FuncSignProbDockWidget(cutter.CutterDockWidget):
                 <span style=\"background-color:red;\">({ret_type_biggest_prob_percent:3.1f}%)</span> \
                 {current_func_name} ( \
                 {arg_one_biggest_prob_type} \
-                <span style=\"background-color:red;\">({arg_one_biggest_prob_percent:3.1f}%)</span> \
+                <span style=\"background-color:red;\">({arg_one_biggest_prob_percent:3.1f}%)</span> , \
                 {arg_two_biggest_prob_type} \
                 <span style=\"background-color:red;\">({arg_two_biggest_prob_percent:3.1f}%)</span> \
                 )') 
@@ -488,10 +488,10 @@ class FuncSignProbDockWidget(cutter.CutterDockWidget):
             self._funcSignLabel.setText(f'{ret_type_biggest_prob_type} \
                 <span style=\"background-color:red;\">({ret_type_biggest_prob_percent:3.1f}%)</span> \
                 {current_func_name} ( \
-                {arg_one_biggest_prob_type}, \
-                <span style=\"background-color:red;\">({arg_one_biggest_prob_percent:3.1f}%)</span> \
+                {arg_one_biggest_prob_type} \
+                <span style=\"background-color:red;\">({arg_one_biggest_prob_percent:3.1f}%)</span> , \
                 {arg_two_biggest_prob_type} \
-                <span style=\"background-color:red;\">({arg_two_biggest_prob_percent:3.1f}%)</span> \
+                <span style=\"background-color:red;\">({arg_two_biggest_prob_percent:3.1f}%)</span> , \
                 {arg_three_biggest_prob_type} \
                 <span style=\"background-color:red;\">({arg_three_biggest_prob_percent:3.1f}%)</span> \
                 )') 
