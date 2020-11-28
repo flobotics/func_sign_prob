@@ -296,14 +296,16 @@ def main():
     
     ## check if we got a model, and train it more
     print(f"save_model_dir-dir >{config['save_model_dir']}<")
-    exit()
-    if os.path.isfile(config['checkpoint_dir']):
+    
+    if os.path.isdir(config['save_model_dir']):
         latest_checkpoint = tf.train.latest_checkpoint(config['checkpoint_dir'])
         print(f'Checkpoint >{latest_checkpoint}<, train this model')
-        model = tf.keras.models.load_model(latest_checkpoint)
+        model = tf.keras.models.load_model(config['save_model_dir'])
         model.summary()
+        exit()
     else:   
         print(f'No trained model found, train for first time')
+        exit()
         embedding_dim = 64
     
         model = tf.keras.Sequential([tf.keras.layers.Embedding(len(vocabulary)+2, embedding_dim, mask_zero=True),
