@@ -302,10 +302,8 @@ def main():
         print(f'Checkpoint >{latest_checkpoint}<, train this model')
         model = tf.keras.models.load_model(config['save_model_dir'])
         model.summary()
-        exit()
     else:   
         print(f'No trained model found, train for first time')
-        exit()
         embedding_dim = 64
     
         model = tf.keras.Sequential([tf.keras.layers.Embedding(len(vocabulary)+2, embedding_dim, mask_zero=True),
