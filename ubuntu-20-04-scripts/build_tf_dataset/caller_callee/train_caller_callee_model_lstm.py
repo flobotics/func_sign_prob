@@ -295,6 +295,8 @@ def main():
     test_dataset = test_dataset.map(vectorize_text, num_parallel_calls=AUTOTUNE)
     
     ## check if we got a model, and train it more
+    print(f"checkpoint-dir >{config['checkpoint_dir']}<")
+    exit()
     if os.path.isfile(config['checkpoint_dir']):
         latest_checkpoint = tf.train.latest_checkpoint(config['checkpoint_dir'])
         print(f'Checkpoint >{latest_checkpoint}<, train this model')
