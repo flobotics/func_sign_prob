@@ -118,7 +118,7 @@ def _parse_function(example_proto):
 def configure_for_performance(ds):
   #ds = ds.cache()
   ds = ds.shuffle(buffer_size=1000)
-  ds = ds.batch(100)
+  ds = ds.batch(20)
   ds = ds.prefetch(buffer_size=tf.data.experimental.AUTOTUNE)
   return ds
   
@@ -303,31 +303,28 @@ def main():
     val_dataset = val_dataset.map(vectorize_text, num_parallel_calls=AUTOTUNE)
     test_dataset = test_dataset.map(vectorize_text, num_parallel_calls=AUTOTUNE)
     
-    #exit()
     embedding_dim = 64
     
-#     model = tf.keras.Sequential([tf.keras.Input(shape=(1,), dtype=tf.string),
-#                                  vectorize_layer,
-#                                  tf.keras.layers.Embedding(len(vocabulary)+2, embedding_dim, mask_zero=True,
-#                                     name='embedding'),
-#                                     tf.keras.layers.Dropout(0.2),
-#                                     tf.keras.layers.GlobalAveragePooling1D(),
-#                                     tf.keras.layers.Dropout(0.2),
-#                                     tf.keras.layers.Dense(len(return_type_dict))])
-
-    model = tf.keras.Sequential([tf.keras.layers.Embedding(len(vocabulary)+2, embedding_dim, mask_zero=True),
-                                 tf.keras.layers.Bidirectional(tf.keras.layers.LSTM(64, return_sequences=True)),
-                                 tf.keras.layers.Bidirectional(tf.keras.layers.LSTM(32)),
-                                 tf.keras.layers.Dense(64, activation='relu'),
-                                 tf.keras.layers.Dropout(0.5),
-                                 tf.keras.layers.Dense(len(return_type_dict))])
-
-#     model = tf.keras.Sequential([tf.keras.layers.Embedding(len(vocabulary)+2, embedding_dim, mask_zero=True),
-#                                  tf.keras.layers.LSTM(64),
-#                                  tf.keras.layers.Dense(64),
-#                                  tf.keras.layers.Dense(len(return_type_dict))])
+    ## check if we got a model, and train it more
+    print(f"save_model_dir-dir >{config['save_model_dir']}<")
     
-    model.summary()
+    if os.path.isdir(config['save_model_dir']):
+        latest_checkpoint = tf.train.latest_checkpoint(config['checkpoint_dir'])
+        print(f'Checkpoint >{latest_checkpoint}<, train this model')
+        model = tf.keras.models.load_model(config['save_model_dir'])
+        model.summary()
+    else:   
+        print(f'No trained model found, train for first time')
+
+        model = tf.keras.Sequential([tf.keras.layers.Embedding(len(vocabulary)+2, embedding_dim, mask_zero=True),
+                                     tf.keras.layers.Bidirectional(tf.keras.layers.LSTM(64, return_sequences=True)),
+                                     tf.keras.layers.Bidirectional(tf.keras.layers.LSTM(32)),
+                                     tf.keras.layers.Dense(64, activation='relu'),
+                                     tf.keras.layers.Dropout(0.5),
+                                     tf.keras.layers.Dense(len(return_type_dict))])
+    
+        
+        model.summary()
     
     ## callbacks to save tensorboard-files and model
     tensorboard_callback = tf.keras.callbacks.TensorBoard(log_dir=config['tensorboard_log_dir'], 
