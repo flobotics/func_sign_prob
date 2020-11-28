@@ -16,6 +16,9 @@ ln -s /home/user/git/func_sign_prob/ubuntu-20-04-scripts/cutter_plugin/cutter__i
 /home/user/.local/share/RadareOrg/Cutter/plugins/python/func_sign_prob_plugin.py
 
 
+/// need to modify path in func_sign_prob_plugin.py
+
+
 // appImage includes no tensorflow, build from source
 -->on ubuntu-20.04   https://cutter.re/docs/building.html
 
@@ -48,6 +51,7 @@ cmake --build build
 
 
 // build on gcp ubuntu-image 20.04
+
 sudo apt install python3-pip shiboken2 python3-pyside2.qtwidgets python3-pyside2.qtqml libpyside2-dev libpyside2-py3-5.14 libshiboken2-dev libshiboken2-py3-5.14 shiboken2 libkf5syntaxhighlighting-dev python3-graphviz graphviz libgraphviz-dev python3-pkgconfig qtdeclarative5-dev python3-pyqt5 qt5-default python3-qtpy python3-clang
 
 
