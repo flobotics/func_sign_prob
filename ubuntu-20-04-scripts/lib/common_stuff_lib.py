@@ -49,7 +49,7 @@ def is_type_known(arg_one):
     
     for a in return_type_list:
         if a == arg_one:
-            print(f'Found arg_one in return_type_list')
+            #print(f'Found arg_one in return_type_list')
             return True
         
     return False

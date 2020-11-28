@@ -157,7 +157,8 @@ def proc_build(tarbz2_file, work_dir, save_dir, config):
                                     
   
                                     if result == False:
-                                        print(f'Error arg_one')
+                                        #print(f'Error arg_one')
+                                        pass
                                     else:
                                         tmp_att_dis = att_dis
                                         #print(f'len att-dis 1 >{len(tmp_att_dis)}<')
