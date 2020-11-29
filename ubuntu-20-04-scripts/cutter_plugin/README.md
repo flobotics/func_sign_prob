@@ -1,6 +1,11 @@
 ![cutter_plugin](../pictures/cutter_plugin/func_sign_prob_plugin.png)
 
 
+# Install
+
+git clone into /home/user/git
+
+<pre><code>
 
 ln -s /home/user/git/func_sign_prob/ubuntu-20-04-scripts/cutter_plugin/func_sign_prob_plugin.py  /home/user/.local/share/RadareOrg/Cutter/plugins/python/func_sign_prob_plugin.py
 
@@ -13,45 +18,37 @@ ln -s /home/user/git/func_sign_prob/ubuntu-20-04-scripts/lib/pickle_lib.py /home
 
 ln -s /home/user/git/func_sign_prob/ubuntu-20-04-scripts/cutter_plugin/cutter__init__.py /home/user/.local/share/RadareOrg/Cutter/plugins/python/func_sign_prob/__init__.py
 
-/home/user/.local/share/RadareOrg/Cutter/plugins/python/func_sign_prob_plugin.py
+</code></pre>
 
 
-/// need to modify path in func_sign_prob_plugin.py
+# Build Cutter from source
+-->on ubuntu-20.04
 
+appImage includes no tensorflow, build from source</br>
+https://cutter.re/docs/building.html
 
-// appImage includes no tensorflow, build from source
--->on ubuntu-20.04   https://cutter.re/docs/building.html
+remove python2 if installed</br>
+apt list --installed|grep python</br>
+apt remove --purge python2.7</br>
 
-// remove python2 if installed
-apt list --installed|grep python
-apt remove --purge python2.7
+if installed, remove pip3 installed stuff, use ubuntu-stuff</br>
+pip3 uninstall pyside2</br>
+pip3 uninstall shiboken2</br>
 
-//if installed, remove pip3 installed stuff, use ubuntu-stuff
-pip3 uninstall pyside2
-pip3 uninstall shiboken2
+<pre><code>
+sudo apt-get install python-is-python3 python3-pyside2.qtcore python3-pyside2.qtwidgets
+python3-pyside2.qtqml libpyside2-dev libpyside2-py3-5.14 libshiboken2-dev libshiboken2-py3-5.14 shiboken2 qtdeclarative5-dev
+</code></pre>
 
-
-sudo apt-get install python-is-python3
-sudo apt install python3-pyside2.qtcore
-sudo apt install python3-pyside2.qtwidgets
-sudo apt install python3-pyside2.qtqml    ###dont know really, was because qqml.h error
-sudo apt install libpyside2-dev
-sudo apt install libpyside2-py3-5.14
-sudo apt install libshiboken2-dev
-sudo apt install libshiboken2-py3-5.14
-sudo apt install shiboken2
-
-sudo apt install qtdeclarative5-dev    ###Qtqml/qqml.h no such file or directory
-
-// -DCMAKE_EXE_LINKER_FLAGS="-Wl,--disable-new-dtags"
-
+<pre><code>
 cmake -DCMAKE_EXE_LINKER_FLAGS="-Wl,--disable-new-dtags" -B build -DCUTTER_ENABLE_PYTHON=ON -DCUTTER_ENABLE_PYTHON_BINDINGS=ON -DCUTTER_USE_BUNDLED_RADARE2=ON  ../src/
 
 cmake --build build
+</code></pre>
 
+// build on gcp with gpu ubuntu-image 20.04
 
-// build on gcp ubuntu-image 20.04
-
+<pre><code>
 sudo apt install python3-pip shiboken2 python3-pyside2.qtwidgets python3-pyside2.qtqml libpyside2-dev libpyside2-py3-5.14 libshiboken2-dev libshiboken2-py3-5.14 shiboken2 libkf5syntaxhighlighting-dev python3-graphviz graphviz libgraphviz-dev python3-pkgconfig qtdeclarative5-dev python3-pyqt5 qt5-default python3-qtpy python3-clang
-
+</code></pre>
 
