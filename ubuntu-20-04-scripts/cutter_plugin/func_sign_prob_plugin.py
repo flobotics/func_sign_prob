@@ -10,9 +10,22 @@ from tensorflow.keras.layers import Activation, Dense, Embedding, GlobalAverageP
 from PySide2.QtCore import QObject, SIGNAL, QProcess
 from PySide2.QtWidgets import QAction, QLabel, QPlainTextEdit, QWidget, QVBoxLayout
 
+##from PyQt5.QtCore import QThread, QObject, pyqtSignal, pyqtSlot
+
 #sys.path.append('./')
 import disassembly_lib
 import pickle_lib
+
+
+class Worker(QObject):
+    resultReady = pyqtSignal()
+
+    @pyqtSlot()
+    def doWork(parameter):
+#         /* ... here is the expensive or blocking operation ... */
+        self.resultReady.emit()
+
+
 
 
 class FuncSignProbDockWidget(cutter.CutterDockWidget):

@@ -2,6 +2,9 @@
 
 
 
+# alpha/beta status
+
+That means, the models are not trained on the full dataset, the creation of the datasets could be "wrong", the creation of the gdb-like disassembly output of radare2 is not correct, etc.
 
 First build Cutter from source, then install plugin.
 
