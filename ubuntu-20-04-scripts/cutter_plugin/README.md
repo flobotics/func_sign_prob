@@ -1,4 +1,4 @@
-![cutter_plugin](../pictures/cutter_plugin/cutter_func_sign_prob_plugin.png)
+![cutter_plugin](../pictures/cutter_plugin/func_sign_prob_plugin.png)
 
 
 
