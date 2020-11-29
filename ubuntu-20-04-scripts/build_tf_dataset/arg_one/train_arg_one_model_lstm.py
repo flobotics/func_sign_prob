@@ -186,10 +186,11 @@ def save_trained_word_embeddings(model, trained_word_embeddings_dir, vectorize_l
 
 
 ###load vocabulary list
-vocabulary = pickle_lib.get_pickle_file_content('/home/infloflo/arg_one_save_dir/' + 'tfrecord/' + 'vocabulary_list.pickle')
+user_home_path = os.path.expanduser('~')
+vocabulary = pickle_lib.get_pickle_file_content(user_home_path + '/arg_one_save_dir/' + 'tfrecord/' + 'vocabulary_list.pickle')
 
 ###load max-sequence-length 
-max_seq_length = pickle_lib.get_pickle_file_content('/home/infloflo/arg_one_save_dir/' + 'tfrecord/' + 'max_seq_length.pickle')
+max_seq_length = pickle_lib.get_pickle_file_content(user_home_path + '/arg_one_save_dir/' + 'tfrecord/' + 'max_seq_length.pickle')
 print(f'len-vocab-from-file >{len(vocabulary)}<')
 vectorize_layer = TextVectorization(standardize=None,
                                     max_tokens=len(vocabulary)+2,

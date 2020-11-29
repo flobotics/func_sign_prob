@@ -6,7 +6,7 @@
 
 4. python3 transform_ret_type_to_int.py -s=/home/user/nr_save_dir/
 
-4. python3 train_nr_of_args_model_lstm.py -s=/home/ubu/nr_save_dir/ -m=/home/ubu/nr_save_dir/tfrecord/ -r=/home/ubu/nr_save_dir/tfrecord/ -v=/home/ubu/nr_save_dir/tfrecord/
+4. python3 train_nr_of_args_model_lstm.py -s=/home/user/nr_save_dir/ -m=/home/user/nr_save_dir/tfrecord/ -r=/home/user/nr_save_dir/tfrecord/ -v=/home/user/nr_save_dir/tfrecord/
 
 
 Epoch 39/40

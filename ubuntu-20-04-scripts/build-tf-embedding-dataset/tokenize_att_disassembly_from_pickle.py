@@ -373,7 +373,8 @@ def save_new_pickle(full_path_pickle_file, pickle_content):
 
 start=datetime.now()
 
-#tar_file_dir = "/home/ubu/jupyter-notebooks/build-tf-ds-from-pickle"
+user_home_path = os.path.expanduser('~')
+#tar_file_dir = user_home_path + "/jupyter-notebooks/build-tf-ds-from-pickle"
 tar_file_dir = "/tmp/testtars"   ##dir where .pickle.tar.bz2 files are
 #tar_file_dir = os.getcwd() + '/../ubuntu-20-04-pickles'
 print(f'Directory with pickle.tar.bz2 files is >{tar_file_dir}<')

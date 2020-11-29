@@ -11,11 +11,12 @@ import sys
 from multiprocessing import Pool
 
 ### amazon cloud aws path
-base_path = "/home/ubuntu/git/func_sign_prob/"
+user_home_path = os.path.expanduser('~')
+base_path = user_home_path + "/git/func_sign_prob/"
 ### google cloud gcp path
-#base_path = "/home/infloflo/git/func_sign_prob/"
+#base_path = user_home_path + "/git/func_sign_prob/"
 ### virtualbox path
-#base_path = "/home/ubu/git/test2/func_sign_prob/"
+#base_path = user_home_path + "/git/test2/func_sign_prob/"
 
 ### dir where packages-* files are located
 config_dir = "ubuntu-20-04-config/"

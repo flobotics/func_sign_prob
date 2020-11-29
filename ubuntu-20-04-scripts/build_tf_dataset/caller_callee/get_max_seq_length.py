@@ -17,7 +17,7 @@ import pickle_lib
 import disassembly_lib
 #import tfrecord_lib
 
-
-ret = pickle_lib.get_pickle_file_content("/home/infloflo/backup/save_dir/tfrecord/max_seq_length.pickle")
+user_home_path = os.path.expanduser('~')
+ret = pickle_lib.get_pickle_file_content(user_home_path + "/backup/save_dir/tfrecord/max_seq_length.pickle")
 
 print(f'max-seq-length >{ret}<')

@@ -140,7 +140,8 @@ def main():
     date_str = datetime.now().strftime("%Y%m%d-%H%M%S")
     
     #pre_savedir_path = ""
-    pre_savedir_path = "/home/infloflo"
+    #user_home_path = os.path.expanduser('~')
+    pre_savedir_path = os.path.expanduser('~')
 
     checkpoint_filepath = pre_savedir_path + '/tmp/logs/' + date_str + '/checkpoint'
     tensorboard_logdir = pre_savedir_path + "/tmp/logs/" + date_str

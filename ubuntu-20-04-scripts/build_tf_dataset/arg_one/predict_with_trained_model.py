@@ -73,10 +73,11 @@ def check_config(config):
     
 
 ###load vocabulary list
-vocabulary = pickle_lib.get_pickle_file_content('/home/ubu/Documents/gcp-caller-callee/arg_one/' + 'vocabulary_list.pickle')
+user_home_path = os.path.expanduser('~')
+vocabulary = pickle_lib.get_pickle_file_content(user_home_path + '/Documents/gcp-caller-callee/arg_one/' + 'vocabulary_list.pickle')
 
 ###load max-sequence-length 
-max_seq_length = pickle_lib.get_pickle_file_content('/home/ubu/Documents/gcp-caller-callee/arg_one/' + 'max_seq_length.pickle')
+max_seq_length = pickle_lib.get_pickle_file_content(user_home_path + '/Documents/gcp-caller-callee/arg_one/' + 'max_seq_length.pickle')
 print(f'len-vocab-from-file >{len(vocabulary)}<')
 vectorize_layer = TextVectorization(standardize=None,
                                     max_tokens=len(vocabulary)+2,
@@ -111,7 +112,8 @@ def main():
     print(f"Prediction: >{ret}<")
     print()  ##just a newline
     
-    ret_type_dict = pickle_lib.get_pickle_file_content('/home/ubu/Documents/gcp-caller-callee/arg_one/' + 'return_type_dict.pickle')
+    user_home_path = os.path.expanduser('~')
+    ret_type_dict = pickle_lib.get_pickle_file_content(user_home_path + '/Documents/gcp-caller-callee/arg_one/' + 'return_type_dict.pickle')
     
     reverse_ret_type_dict = dict()
     counter = 0
