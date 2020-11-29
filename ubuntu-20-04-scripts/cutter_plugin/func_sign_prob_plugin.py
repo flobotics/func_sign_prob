@@ -1,6 +1,7 @@
 import cutter
 import subprocess
 import re
+import os
 import tensorflow as tf
 from tensorflow import keras
 from tensorflow.keras.layers.experimental.preprocessing import TextVectorization
@@ -32,8 +33,8 @@ class FuncSignProbDockWidget(cutter.CutterDockWidget):
         self._multiWidget.setLayout(self._layout);
         self.setWidget(self._multiWidget);
         
-#         self.setWidget(self._disasTextEdit)
-#         self._funcSignLabel.setText('first')
+        self._userHomePath = os.path.expanduser('~')
+        #print(f'user-home-path >{self._userHomePath}<')
 
         QObject.connect(cutter.core(), SIGNAL("seekChanged(RVA)"), self.update_contents)
         self.update_contents()
@@ -357,7 +358,7 @@ class FuncSignProbDockWidget(cutter.CutterDockWidget):
             return
         
         ### the path were we cloned git repo to
-        func_sign_prob_git_path = "/home/infloflo/git/func_sign_prob/"
+        func_sign_prob_git_path = self._userHomePath + "/git/func_sign_prob/"
         
         ### predict now ret-type
         ret_type_prediction_summary_str = self.get_prediction('return_type/words_100000', 
