@@ -9,13 +9,15 @@ git clone into /home/user/git</br>
 
 <pre><code>
 
-ln -s /home/user/git/func_sign_prob/ubuntu-20-04-scripts/cutter_plugin/func_sign_prob_plugin.py  /home/user/.local/share/RadareOrg/Cutter/plugins/python/func_sign_prob_plugin.py
+mkdir -p /home/user/.local/share/RadareOrg/Cutter/plugins/python/func_sign_prob/
+
+ln -s /home/user/git/func_sign_prob/ubuntu-20-04-scripts/cutter_plugin/func_sign_prob_plugin.py  /home/user/.local/share/RadareOrg/Cutter/plugins/python/func_sign_prob/func_sign_prob_plugin.py
 
 
-ln -s /home/user/git/func_sign_prob/ubuntu-20-04-scripts/lib/disassembly_lib.py /home/user/.local/share/RadareOrg/Cutter/plugins/python/disassembly_lib.py
+ln -s /home/user/git/func_sign_prob/ubuntu-20-04-scripts/lib/disassembly_lib.py /home/user/.local/share/RadareOrg/Cutter/plugins/python/func_sign_prob/disassembly_lib.py
 
 
-ln -s /home/user/git/func_sign_prob/ubuntu-20-04-scripts/lib/pickle_lib.py /home/user/.local/share/RadareOrg/Cutter/plugins/python/pickle_lib.py
+ln -s /home/user/git/func_sign_prob/ubuntu-20-04-scripts/lib/pickle_lib.py /home/user/.local/share/RadareOrg/Cutter/plugins/python/func_sign_prob/pickle_lib.py
 
 
 ln -s /home/user/git/func_sign_prob/ubuntu-20-04-scripts/cutter_plugin/cutter__init__.py /home/user/.local/share/RadareOrg/Cutter/plugins/python/func_sign_prob/__init__.py
