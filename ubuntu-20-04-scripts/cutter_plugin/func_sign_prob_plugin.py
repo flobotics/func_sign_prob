@@ -196,9 +196,24 @@ class FuncSignProbDockWidget(cutter.CutterDockWidget):
                     size = dis_dict['size']
                 elif key == 'opcode':
                     opcode = dis_dict['opcode']
+                elif key == 'disasm':
+                    disasm = dis_dict['disasm']
                     
+                    
+            ## 0x0000000000001394 <+18>:    callq  0x1289 <my_function(int, char)>
+            ## 0x00001394      call fcn.00001289
+            
+            ##{"offset":5012,"esil":"4745,rip,8,rsp,-=,rsp,=[],rip,=","refptr":false,"fcn_addr":4994,
+            ##"fcn_last":5019,"size":5,"opcode":"call 0x1289","disasm":"call fcn.00001289","bytes":"e8f0feffff",
+            ##"family":"cpu","type":"call","reloc":false,"type_num":3,"type2_num":0,"jump":4745,"fail":5017,
+            ##"refs":[{"addr":4745,"type":"CALL"}]}
+            
+            comment_str = ''
+            if disasm.startswith('call '):
+                comment_str = '<' + disasm.split()[1] + '>'
+                
             if offset and fcn_addr and opcode and size:
-                disassembly_str = disassembly_str + f"{offset:#0{18}x}" + ' <+' + str(oldsize) + '>: ' + opcode + '\n'
+                disassembly_str = disassembly_str + f"{offset:#0{18}x}" + ' <+' + str(oldsize) + '>: ' + opcode + ' ' + comment_str + '\n'
                 oldsize += size
             
             offset = ''
