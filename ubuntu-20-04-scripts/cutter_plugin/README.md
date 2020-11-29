@@ -26,7 +26,7 @@ ln -s /home/user/git/func_sign_prob/ubuntu-20-04-scripts/cutter_plugin/cutter__i
 # Build Cutter from source
 -->on ubuntu-20.04
 
-appImage includes no tensorflow, build from source</br>
+Cutter appImage v1.12.0 includes no tensorflow, build from source</br>
 https://cutter.re/docs/building.html
 
 remove python2 if installed</br>
