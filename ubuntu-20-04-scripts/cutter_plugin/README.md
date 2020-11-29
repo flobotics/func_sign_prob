@@ -5,7 +5,7 @@
 
 git clone into /home/user/git</br>
 
-Hint: 'user' is your username
+
 
 <pre><code>
 
