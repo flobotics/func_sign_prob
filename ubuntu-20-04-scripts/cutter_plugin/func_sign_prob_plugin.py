@@ -17,13 +17,13 @@ import disassembly_lib
 import pickle_lib
 
 
-class Worker(QObject):
-    resultReady = pyqtSignal()
-
-    @pyqtSlot()
-    def doWork(parameter):
-#         /* ... here is the expensive or blocking operation ... */
-        self.resultReady.emit()
+# class Worker(QObject):
+#     resultReady = pyqtSignal()
+# 
+#     @pyqtSlot()
+#     def doWork(parameter):
+# #         /* ... here is the expensive or blocking operation ... */
+#         self.resultReady.emit()
 
 
 
