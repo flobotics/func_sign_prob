@@ -35,6 +35,31 @@ def print_X_pickle_filenames(pickle_files, number):
         if c > (number-1):
             break
         
+def get_binary_and_its_functions(pickle_file):
+    
+    bin_and_funcs = dict()
+    
+    pickle_file_content = get_pickle_file_content(pickle_file)   
+    
+    binaries = set()
+    functions = set()
+    found = False
+    for elem in pickle_file_content:
+        found = False
+        for key in bin_and_funcs:
+            if key == elem[7]:
+                bin_and_funcs[elem[7]].append(elem[2])
+                found = True
+                
+        if not found:
+            bin_and_funcs[elem[7]] = [elem[2]]
         
+        
+#         binaries.add(elem[7])
+#         functions.add(elem[2])
+    
+    return bin_and_funcs
+    
+         
         
         

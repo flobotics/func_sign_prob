@@ -97,6 +97,22 @@ def proc_build(tarbz2_file, work_dir, save_dir, config):
     pickle_file_content = pickle_lib.get_pickle_file_content(pickle_file)   
     #pickle_file_content = get_pickle_file_content(work_dir + os.path.basename(pickle_file).replace('.tar.bz2', ''))
     
+    
+    ### try to make it faster
+#     bin_and_funcs = pickle_lib.get_binary_and_its_functions(pickle_file)
+#         
+#     for bin in bin_and_funcs:
+#         for func in bin_and_funcs[bin]:
+#             print(f'bin >{bin}< functions >{func}<')
+#             
+#     for bin in bin_and_funcs:
+#         for func in bin_and_funcs[bin]:
+#             ## get att dis
+#             for elem in pickle_file_content:
+#             print(f'bin >{bin}< functions >{func}<')
+#         
+#     exit()
+    
     binaries = set()
     functions = set()
     for elem in pickle_file_content:
@@ -143,6 +159,11 @@ def proc_build(tarbz2_file, work_dir, save_dir, config):
                                 ### if we found it, get return type and disassembly
                                 if elem2[7] == bin and elem2[2] == callee_name:
                                     
+#                                     print(f'binary >{bin}<\n\
+#                                             func >{func}<\n\
+#                                             call-disas-line >{item}<\n\
+#                                             callee-name >{callee_name}<\n\
+#                                             ')
                                     #return_type_func_sign = return_type_lib.get_return_type_from_function_signature(elem2[0])
                                     #return_type = return_type_lib.get_return_type_from_gdb_ptype(elem2[1])
                                     nr_of_args = return_type_lib.get_nr_of_args_from_function_signature(elem2[0])
