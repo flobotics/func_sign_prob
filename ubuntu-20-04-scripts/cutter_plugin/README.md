@@ -1,29 +1,9 @@
 ![cutter_plugin](../pictures/cutter_plugin/func_sign_prob_plugin.png)
 
 
-# Install
-
-git clone into /home/user/git</br>
 
 
-
-<pre><code>
-
-mkdir -p /home/user/.local/share/RadareOrg/Cutter/plugins/python/func_sign_prob/
-
-ln -s /home/user/git/func_sign_prob/ubuntu-20-04-scripts/cutter_plugin/func_sign_prob_plugin.py  /home/user/.local/share/RadareOrg/Cutter/plugins/python/func_sign_prob/func_sign_prob_plugin.py
-
-
-ln -s /home/user/git/func_sign_prob/ubuntu-20-04-scripts/lib/disassembly_lib.py /home/user/.local/share/RadareOrg/Cutter/plugins/python/func_sign_prob/disassembly_lib.py
-
-
-ln -s /home/user/git/func_sign_prob/ubuntu-20-04-scripts/lib/pickle_lib.py /home/user/.local/share/RadareOrg/Cutter/plugins/python/func_sign_prob/pickle_lib.py
-
-
-ln -s /home/user/git/func_sign_prob/ubuntu-20-04-scripts/cutter_plugin/cutter__init__.py /home/user/.local/share/RadareOrg/Cutter/plugins/python/func_sign_prob/__init__.py
-
-</code></pre>
-
+First build Cutter from source, then install plugin.
 
 # Build Cutter from source
 -->on ubuntu-20.04
@@ -68,4 +48,28 @@ cmake --build build
 sudo apt install python3-pip shiboken2 python3-pyside2.qtwidgets python3-pyside2.qtqml libpyside2-dev libpyside2-py3-5.14 libshiboken2-dev libshiboken2-py3-5.14 shiboken2 libkf5syntaxhighlighting-dev python3-graphviz graphviz libgraphviz-dev python3-pkgconfig qtdeclarative5-dev python3-pyqt5 qt5-default python3-qtpy python3-clang
 
 </code></pre>
+
+
+# Install plugin
+
+git clone into /home/user/git</br>
+
+<pre><code>
+
+mkdir -p /home/user/.local/share/RadareOrg/Cutter/plugins/python/func_sign_prob/
+
+ln -s /home/user/git/func_sign_prob/ubuntu-20-04-scripts/cutter_plugin/func_sign_prob_plugin.py  /home/user/.local/share/RadareOrg/Cutter/plugins/python/func_sign_prob/func_sign_prob_plugin.py
+
+
+ln -s /home/user/git/func_sign_prob/ubuntu-20-04-scripts/lib/disassembly_lib.py /home/user/.local/share/RadareOrg/Cutter/plugins/python/func_sign_prob/disassembly_lib.py
+
+
+ln -s /home/user/git/func_sign_prob/ubuntu-20-04-scripts/lib/pickle_lib.py /home/user/.local/share/RadareOrg/Cutter/plugins/python/func_sign_prob/pickle_lib.py
+
+
+ln -s /home/user/git/func_sign_prob/ubuntu-20-04-scripts/cutter_plugin/cutter__init__.py /home/user/.local/share/RadareOrg/Cutter/plugins/python/func_sign_prob/__init__.py
+
+</code></pre>
+
+
 
