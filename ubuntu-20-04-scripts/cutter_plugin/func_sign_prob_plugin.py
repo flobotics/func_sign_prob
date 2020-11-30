@@ -208,12 +208,9 @@ class FuncSignProbDockWidget(cutter.CutterDockWidget):
             ##"family":"cpu","type":"call","reloc":false,"type_num":3,"type2_num":0,"jump":4745,"fail":5017,
             ##"refs":[{"addr":4745,"type":"CALL"}]}
             
-            comment_str = ''
-            if disasm.startswith('call '):
-                comment_str = '<' + disasm.split()[1] + '>'
                 
             if offset and fcn_addr and opcode and size:
-                disassembly_str = disassembly_str + f"{offset:#0{18}x}" + ' <+' + str(oldsize) + '>: ' + opcode + ' ' + comment_str + '\n'
+                disassembly_str = disassembly_str + f"{offset:#0{18}x}" + ' <+' + str(oldsize) + '>: ' + opcode + '\n'
                 oldsize += size
             
             offset = ''
@@ -368,11 +365,16 @@ class FuncSignProbDockWidget(cutter.CutterDockWidget):
         address = cutter.cmd('s').strip()
         #print(f'address >{address}<')
         disasm_callee_str = self.get_disassembly_of(address)
+        
+        print(f'disasm_callee_str >{disasm_callee_str}<')
     
         ### get disassembly of caller function
         #print(f'caller-addr >{str(caller_addr)}<')
         disasm_caller_str = self.get_disassembly_of(caller_addr)
         
+        print(f'disasm_caller_str >{disasm_caller_str}<')
+        
+        return
  
         ### split disas for the tf-model     
         disasm_caller_str = disassembly_lib.split_disassembly(disasm_caller_str)
