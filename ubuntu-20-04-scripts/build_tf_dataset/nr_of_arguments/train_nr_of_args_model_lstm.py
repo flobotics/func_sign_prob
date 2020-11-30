@@ -355,7 +355,7 @@ def main():
 
     history = model.fit(train_dataset,
                         validation_data=val_dataset,
-                        epochs=2,
+                        epochs=15,
                         callbacks=[tensorboard_callback, model_checkpoint_callback, model_checkpoint_callback2])
 
     ### evaluate the model
