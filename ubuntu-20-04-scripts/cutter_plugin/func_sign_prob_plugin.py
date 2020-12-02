@@ -392,6 +392,8 @@ class FuncSignProbDockWidget(cutter.CutterDockWidget):
         func_sign_prob_git_path = self._userHomePath + "/git/func_sign_prob/"
         
         ### predict now ret-type
+        self._funcSignLabel.setText(f'plugin freeze cutter gui, wait some minutes, or wait longer till threading is implemented.\n \
+                                    Predict return type now.')
         ret_type_prediction_summary_str = self.get_prediction('return_type/words_100000', 
                                                                 disasm_caller_str + disasm_callee_str, 
                                                                 func_sign_prob_git_path)
@@ -403,6 +405,8 @@ class FuncSignProbDockWidget(cutter.CutterDockWidget):
         ret_type_biggest_prob_percent = 100 * ret_type_biggest_prob
                 
          ### predict now nr_of_args
+        self._funcSignLabel.setText(f'plugin freeze cutter gui, wait some minutes, or wait longer till threading is implemented.\n \
+                                    Predict number of arguments now.')
         nr_of_args_prediction_summary_str = self.get_prediction('nr_of_args', 
                                                                 disasm_caller_str + disasm_callee_str, 
                                                                 func_sign_prob_git_path)
@@ -413,6 +417,8 @@ class FuncSignProbDockWidget(cutter.CutterDockWidget):
         nr_of_args_biggest_prob_type = self.biggest_prob_type
          
         ###predict now arg_one
+        self._funcSignLabel.setText(f'plugin freeze cutter gui, wait some minutes, or wait longer till threading is implemented.\n \
+                                    Predict argument one now.')
         arg_one_prediction_summary_str = self.get_prediction('arg_one', 
                                                                 disasm_caller_str + disasm_callee_str, 
                                                                 func_sign_prob_git_path)
@@ -450,6 +456,8 @@ class FuncSignProbDockWidget(cutter.CutterDockWidget):
              
         ###if more one args
         ###predict now arg_two
+        self._funcSignLabel.setText(f'plugin freeze cutter gui, wait some minutes, or wait longer till threading is implemented.\n \
+                                    Predict argument two now.')
         arg_two_prediction_summary_str = self.get_prediction('arg_two', 
                                                                 disasm_caller_str + disasm_callee_str, 
                                                                 func_sign_prob_git_path)
@@ -492,6 +500,8 @@ class FuncSignProbDockWidget(cutter.CutterDockWidget):
         
         ###if more than two args
         ###predict now arg_three
+        self._funcSignLabel.setText(f'plugin freeze cutter gui, wait some minutes, or wait longer till threading is implemented.\n \
+                                    Predict argument three now.')
         arg_three_prediction_summary_str = self.get_prediction('arg_three', 
                                                                 disasm_caller_str + disasm_callee_str, 
                                                                 func_sign_prob_git_path)
