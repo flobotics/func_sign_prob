@@ -424,10 +424,13 @@ class FuncSignProbDockWidget(cutter.CutterDockWidget):
         arg_one_biggest_prob_type = self.biggest_prob_type
         arg_one_biggest_prob_percent = 100 * arg_one_biggest_prob
           
-        nr_of_args_biggest_prob_type = 1
+        #nr_of_args_biggest_prob_type = 1
         if nr_of_args_biggest_prob_type == 1:
             
-            self._disasTextEdit.setPlainText(f"tf nr_of_args model summary:\n \
+            self._disasTextEdit.setPlainText(f"tf return type model summary:\n \
+                                        {ret_type_model_summary_str}\n \
+                                        {ret_type_prediction_summary_str}\n \
+                                        tf nr_of_args model summary:\n \
                                          {nr_of_args_model_summary_str}\n \
                                          {nr_of_args_prediction_summary_str}\n \
                                          tf arg_one model summary:\n \
@@ -458,10 +461,13 @@ class FuncSignProbDockWidget(cutter.CutterDockWidget):
         arg_two_biggest_prob_type = self.biggest_prob_type
         arg_two_biggest_prob_percent = 100 * arg_two_biggest_prob
          
-        nr_of_args_biggest_prob_type == 2 
+        #nr_of_args_biggest_prob_type = 2 
         if nr_of_args_biggest_prob_type == 2:
             
-            self._disasTextEdit.setPlainText(f"tf nr_of_args model summary:\n \
+            self._disasTextEdit.setPlainText(f"tf return type model summary:\n \
+                                        {ret_type_model_summary_str}\n \
+                                        {ret_type_prediction_summary_str}\n \
+                                        tf nr_of_args model summary:\n \
                                         {nr_of_args_model_summary_str}\n \
                                         {nr_of_args_prediction_summary_str}\n \
                                         tf arg_one model summary:\n \
@@ -504,7 +510,10 @@ class FuncSignProbDockWidget(cutter.CutterDockWidget):
         ##if nr_of_args_biggest_prob_type == 3:
         if nr_of_args_biggest_prob_type >= 3:   #hack, if more args
              
-            self._disasTextEdit.setPlainText(f"tf nr_of_args model summary:\n \
+            self._disasTextEdit.setPlainText(f"tf return type model summary:\n \
+                                        {ret_type_model_summary_str}\n \
+                                        {ret_type_prediction_summary_str}\n \
+                                        tf nr_of_args model summary:\n \
                                         {nr_of_args_model_summary_str}\n \
                                         {nr_of_args_prediction_summary_str}\n \
                                         tf arg_one model summary:\n \
