@@ -210,7 +210,8 @@ class FuncSignProbDockWidget(cutter.CutterDockWidget):
             
                 
             if offset and fcn_addr and opcode and size:
-                disassembly_str = disassembly_str + f"{offset:#0{18}x}" + ' <+' + str(oldsize) + '>: ' + opcode + '\n'
+                #disassembly_str = disassembly_str + f"{offset:#0{18}x}" + ' <+' + str(oldsize) + '>: ' + opcode + '\n'
+                disassembly_str = disassembly_str + opcode + '\n'
                 oldsize += size
             
             offset = ''
@@ -374,7 +375,7 @@ class FuncSignProbDockWidget(cutter.CutterDockWidget):
         
         print(f'disasm_caller_str >{disasm_caller_str}<')
         
-        return
+        #return
  
         ### split disas for the tf-model     
         disasm_caller_str = disassembly_lib.split_disassembly(disasm_caller_str)
