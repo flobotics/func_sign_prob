@@ -422,9 +422,9 @@ class FuncSignProbDockWidget(cutter.CutterDockWidget):
 #         ###predict now arg_one
 #         self._funcSignLabel.setText(f'plugin freeze cutter gui, wait some minutes, or wait longer till threading is implemented.\n \
 #                                     Predict argument one now.')
-        arg_one_prediction_summary_str = self.get_prediction('arg_one', 
-                                                                disasm_caller_str + disasm_callee_str, 
-                                                                func_sign_prob_git_path)
+#         arg_one_prediction_summary_str = self.get_prediction('arg_one', 
+#                                                                 disasm_caller_str + disasm_callee_str, 
+#                                                                 func_sign_prob_git_path)
            
    
         ## store for later, will be overridden
