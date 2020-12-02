@@ -405,12 +405,12 @@ class FuncSignProbDockWidget(cutter.CutterDockWidget):
 #         ret_type_biggest_prob_percent = 100 * ret_type_biggest_prob
 #                 
 #          ### predict now nr_of_args
-#         self._funcSignLabel.setText(f'plugin freeze cutter gui, wait some minutes, or wait longer till threading is implemented.\n \
-#                                     Predict number of arguments now.')
-#         nr_of_args_prediction_summary_str = self.get_prediction('nr_of_args', 
-#                                                                 disasm_caller_str + disasm_callee_str, 
-#                                                                 func_sign_prob_git_path)
-#                    
+        self._funcSignLabel.setText(f'plugin freeze cutter gui, wait some minutes, or wait longer till threading is implemented.\n \
+                                    Predict number of arguments now.')
+        nr_of_args_prediction_summary_str = self.get_prediction('nr_of_args', 
+                                                                disasm_caller_str + disasm_callee_str, 
+                                                                func_sign_prob_git_path)
+                    
 #         ## store for later, will be overridden
 #         nr_of_args_model_summary_str = self.model_summary_str
 #         nr_of_args_biggest_prob = self.biggest_prob
