@@ -392,67 +392,67 @@ class FuncSignProbDockWidget(cutter.CutterDockWidget):
         func_sign_prob_git_path = self._userHomePath + "/git/func_sign_prob/"
         
         ### predict now ret-type
-        self._funcSignLabel.setText(f'plugin freeze cutter gui, wait some minutes, or wait longer till threading is implemented.\n \
-                                    Predict return type now.')
-        ret_type_prediction_summary_str = self.get_prediction('return_type/words_100000', 
-                                                                disasm_caller_str + disasm_callee_str, 
-                                                                func_sign_prob_git_path)
-         
-        ## store for later, will be overridden
-        ret_type_model_summary_str = self.model_summary_str
-        ret_type_biggest_prob = self.biggest_prob
-        ret_type_biggest_prob_type = self.biggest_prob_type
-        ret_type_biggest_prob_percent = 100 * ret_type_biggest_prob
-                
-         ### predict now nr_of_args
-        self._funcSignLabel.setText(f'plugin freeze cutter gui, wait some minutes, or wait longer till threading is implemented.\n \
-                                    Predict number of arguments now.')
-        nr_of_args_prediction_summary_str = self.get_prediction('nr_of_args', 
-                                                                disasm_caller_str + disasm_callee_str, 
-                                                                func_sign_prob_git_path)
-                   
-        ## store for later, will be overridden
-        nr_of_args_model_summary_str = self.model_summary_str
-        nr_of_args_biggest_prob = self.biggest_prob
-        nr_of_args_biggest_prob_type = self.biggest_prob_type
-         
-        ###predict now arg_one
-        self._funcSignLabel.setText(f'plugin freeze cutter gui, wait some minutes, or wait longer till threading is implemented.\n \
-                                    Predict argument one now.')
-        arg_one_prediction_summary_str = self.get_prediction('arg_one', 
-                                                                disasm_caller_str + disasm_callee_str, 
-                                                                func_sign_prob_git_path)
-          
-  
-        ## store for later, will be overridden
-        arg_one_model_summary_str = self.model_summary_str
-        arg_one_biggest_prob = self.biggest_prob
-        arg_one_biggest_prob_type = self.biggest_prob_type
-        arg_one_biggest_prob_percent = 100 * arg_one_biggest_prob
-          
-        #nr_of_args_biggest_prob_type = 1
-        if nr_of_args_biggest_prob_type == 1:
-            
-            self._disasTextEdit.setPlainText(f"tf return type model summary:\n \
-                                        {ret_type_model_summary_str}\n \
-                                        {ret_type_prediction_summary_str}\n \
-                                        tf nr_of_args model summary:\n \
-                                         {nr_of_args_model_summary_str}\n \
-                                         {nr_of_args_prediction_summary_str}\n \
-                                         tf arg_one model summary:\n \
-                                         {self.model_summary_str}\n \
-                                         {arg_one_prediction_summary_str}")
-     
-            self._funcSignLabel.setText(f'{ret_type_biggest_prob_type} \
-                 <span style=\"background-color:red;\">({ret_type_biggest_prob_percent:3.1f}%)</span> \
-                 {current_func_name} ( \
-                 {arg_one_biggest_prob_type} \
-                 <span style=\"background-color:red;\">({arg_one_biggest_prob_percent:3.1f}%)</span> \
-                 )') 
-             
-            self.set_stored_radare2_e()
-            return
-             
+#         self._funcSignLabel.setText(f'plugin freeze cutter gui, wait some minutes, or wait longer till threading is implemented.\n \
+#                                     Predict return type now.')
+#         ret_type_prediction_summary_str = self.get_prediction('return_type/words_100000', 
+#                                                                 disasm_caller_str + disasm_callee_str, 
+#                                                                 func_sign_prob_git_path)
+#          
+#         ## store for later, will be overridden
+#         ret_type_model_summary_str = self.model_summary_str
+#         ret_type_biggest_prob = self.biggest_prob
+#         ret_type_biggest_prob_type = self.biggest_prob_type
+#         ret_type_biggest_prob_percent = 100 * ret_type_biggest_prob
+#                 
+#          ### predict now nr_of_args
+#         self._funcSignLabel.setText(f'plugin freeze cutter gui, wait some minutes, or wait longer till threading is implemented.\n \
+#                                     Predict number of arguments now.')
+#         nr_of_args_prediction_summary_str = self.get_prediction('nr_of_args', 
+#                                                                 disasm_caller_str + disasm_callee_str, 
+#                                                                 func_sign_prob_git_path)
+#                    
+#         ## store for later, will be overridden
+#         nr_of_args_model_summary_str = self.model_summary_str
+#         nr_of_args_biggest_prob = self.biggest_prob
+#         nr_of_args_biggest_prob_type = self.biggest_prob_type
+#          
+#         ###predict now arg_one
+#         self._funcSignLabel.setText(f'plugin freeze cutter gui, wait some minutes, or wait longer till threading is implemented.\n \
+#                                     Predict argument one now.')
+#         arg_one_prediction_summary_str = self.get_prediction('arg_one', 
+#                                                                 disasm_caller_str + disasm_callee_str, 
+#                                                                 func_sign_prob_git_path)
+#           
+#   
+#         ## store for later, will be overridden
+#         arg_one_model_summary_str = self.model_summary_str
+#         arg_one_biggest_prob = self.biggest_prob
+#         arg_one_biggest_prob_type = self.biggest_prob_type
+#         arg_one_biggest_prob_percent = 100 * arg_one_biggest_prob
+#           
+#         #nr_of_args_biggest_prob_type = 1
+#         if nr_of_args_biggest_prob_type == 1:
+#             
+#             self._disasTextEdit.setPlainText(f"tf return type model summary:\n \
+#                                         {ret_type_model_summary_str}\n \
+#                                         {ret_type_prediction_summary_str}\n \
+#                                         tf nr_of_args model summary:\n \
+#                                          {nr_of_args_model_summary_str}\n \
+#                                          {nr_of_args_prediction_summary_str}\n \
+#                                          tf arg_one model summary:\n \
+#                                          {self.model_summary_str}\n \
+#                                          {arg_one_prediction_summary_str}")
+#      
+#             self._funcSignLabel.setText(f'{ret_type_biggest_prob_type} \
+#                  <span style=\"background-color:red;\">({ret_type_biggest_prob_percent:3.1f}%)</span> \
+#                  {current_func_name} ( \
+#                  {arg_one_biggest_prob_type} \
+#                  <span style=\"background-color:red;\">({arg_one_biggest_prob_percent:3.1f}%)</span> \
+#                  )') 
+#              
+#             self.set_stored_radare2_e()
+#             return
+#              
              
         ###if more one args
         ###predict now arg_two
