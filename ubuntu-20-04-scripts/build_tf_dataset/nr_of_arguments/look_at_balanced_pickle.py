@@ -106,21 +106,22 @@ def main():
     
     pickle_files = common_stuff_lib.get_all_filenames_of_type(config['balanced_dataset_dir'], '.pickle')
     
+    all_ret_types_list = set()
+    
     for file in pickle_files:
         cont = pickle_lib.get_pickle_file_content(config['balanced_dataset_dir'] + file)
         counter = 0
         
         for item in cont:
-            if len(item[0]) > 10:
-                print(f'item[0] >{item[0]}<  item[1] >{item[1]}<')
-                
+            all_ret_types_list.add(item[1])
             if counter < 1:
                 print(f"return type >{item[1]}< from file >{config['balanced_dataset_dir'] + file}<")
+                print(f'item[0] >{item[0]}<  item[1] >{item[1]}<')
             counter += 1
             
         print(f'Counted >{counter}< text,label elements')
         print()
-
+        print(f'all_ret_types_list >{all_ret_types_list}<')
 
 
 
