@@ -392,11 +392,11 @@ class FuncSignProbDockWidget(cutter.CutterDockWidget):
         func_sign_prob_git_path = self._userHomePath + "/git/func_sign_prob/"
         
         ### predict now ret-type
-#         self._funcSignLabel.setText(f'plugin freeze cutter gui, wait some minutes, or wait longer till threading is implemented.\n \
-#                                     Predict return type now.')
-#         ret_type_prediction_summary_str = self.get_prediction('return_type/words_100000', 
-#                                                                 disasm_caller_str + disasm_callee_str, 
-#                                                                 func_sign_prob_git_path)
+        self._funcSignLabel.setText(f'plugin freeze cutter gui, wait some minutes, or wait longer till threading is implemented.\n \
+                                    Predict return type now.')
+        ret_type_prediction_summary_str = self.get_prediction('return_type/words_100000', 
+                                                                disasm_caller_str + disasm_callee_str, 
+                                                                func_sign_prob_git_path)
 #          
 #         ## store for later, will be overridden
 #         ret_type_model_summary_str = self.model_summary_str
