@@ -12,6 +12,8 @@ from PySide2.QtWidgets import QAction, QLabel, QPlainTextEdit, QWidget, QVBoxLay
 
 ##from PyQt5.QtCore import QThread, QObject, pyqtSignal, pyqtSlot
 
+import time
+
 #sys.path.append('./')
 import disassembly_lib
 import pickle_lib
@@ -410,7 +412,8 @@ class FuncSignProbDockWidget(cutter.CutterDockWidget):
         nr_of_args_prediction_summary_str = self.get_prediction('nr_of_args', 
                                                                 disasm_caller_str + disasm_callee_str, 
                                                                 func_sign_prob_git_path)
-                    
+                  
+        time.sleep(1)  
 #         ## store for later, will be overridden
 #         nr_of_args_model_summary_str = self.model_summary_str
 #         nr_of_args_biggest_prob = self.biggest_prob
@@ -424,6 +427,8 @@ class FuncSignProbDockWidget(cutter.CutterDockWidget):
                                                                 func_sign_prob_git_path)
            
    
+        time.sleep(1)
+        
         ## store for later, will be overridden
         arg_one_model_summary_str = self.model_summary_str
         arg_one_biggest_prob = self.biggest_prob
@@ -463,6 +468,8 @@ class FuncSignProbDockWidget(cutter.CutterDockWidget):
                                                                 func_sign_prob_git_path)
           
   
+        time.sleep(1)
+        
         ## store for later, will be overridden
         arg_two_model_summary_str = self.model_summary_str
         arg_two_biggest_prob = self.biggest_prob
@@ -510,7 +517,8 @@ class FuncSignProbDockWidget(cutter.CutterDockWidget):
                                                                 disasm_caller_str + disasm_callee_str, 
                                                                 func_sign_prob_git_path)
          
- 
+        time.sleep(1)
+        
         ## store for later, will be overridden
         arg_three_model_summary_str = self.model_summary_str
         arg_three_biggest_prob = self.biggest_prob
