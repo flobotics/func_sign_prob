@@ -472,27 +472,31 @@ class FuncSignProbDockWidget(cutter.CutterDockWidget):
         nr_of_args_biggest_prob_type = 2 
         if nr_of_args_biggest_prob_type == 2:
             
-            self._disasTextEdit.setPlainText(f"tf return type model summary:\n \
-                                        {ret_type_model_summary_str}\n \
-                                        {ret_type_prediction_summary_str}\n \
-                                        tf nr_of_args model summary:\n \
-                                        {nr_of_args_model_summary_str}\n \
-                                        {nr_of_args_prediction_summary_str}\n \
-                                        tf arg_one model summary:\n \
-                                        {arg_one_model_summary_str}\n \
-                                        {arg_one_prediction_summary_str}\n \
-                                        tf arg_two model summary:\n \
-                                        {arg_two_model_summary_str}\n \
-                                        {arg_two_prediction_summary_str}")
-
-            self._funcSignLabel.setText(f'{ret_type_biggest_prob_type} \
-                <span style=\"background-color:red;\">({ret_type_biggest_prob_percent:3.1f}%)</span> \
-                {current_func_name} ( \
-                {arg_one_biggest_prob_type} \
-                <span style=\"background-color:red;\">({arg_one_biggest_prob_percent:3.1f}%)</span> , \
-                {arg_two_biggest_prob_type} \
-                <span style=\"background-color:red;\">({arg_two_biggest_prob_percent:3.1f}%)</span> \
-                )') 
+            self._disasTextEdit.setPlainText(f"tf two type model summary:\n \
+                                         {arg_two_model_summary_str}\n \
+                                         {arg_two_prediction_summary_str}")    
+            
+#             self._disasTextEdit.setPlainText(f"tf return type model summary:\n \
+#                                         {ret_type_model_summary_str}\n \
+#                                         {ret_type_prediction_summary_str}\n \
+#                                         tf nr_of_args model summary:\n \
+#                                         {nr_of_args_model_summary_str}\n \
+#                                         {nr_of_args_prediction_summary_str}\n \
+#                                         tf arg_one model summary:\n \
+#                                         {arg_one_model_summary_str}\n \
+#                                         {arg_one_prediction_summary_str}\n \
+#                                         tf arg_two model summary:\n \
+#                                         {arg_two_model_summary_str}\n \
+#                                         {arg_two_prediction_summary_str}")
+# 
+#             self._funcSignLabel.setText(f'{ret_type_biggest_prob_type} \
+#                 <span style=\"background-color:red;\">({ret_type_biggest_prob_percent:3.1f}%)</span> \
+#                 {current_func_name} ( \
+#                 {arg_one_biggest_prob_type} \
+#                 <span style=\"background-color:red;\">({arg_one_biggest_prob_percent:3.1f}%)</span> , \
+#                 {arg_two_biggest_prob_type} \
+#                 <span style=\"background-color:red;\">({arg_two_biggest_prob_percent:3.1f}%)</span> \
+#                 )') 
              
             self.set_stored_radare2_e()
             return
