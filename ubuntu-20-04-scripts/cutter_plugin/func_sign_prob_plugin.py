@@ -23,8 +23,8 @@ class Worker(QObject, QThread):
     #resultReady = pyqtSignal()
     #resultReady = Signal()
     
-    #def __init__(self):
-        #self.resultReady = Signal()
+    def __init__(self, parent=None):
+        QThread.__init__(self, parent)
  
     ##@pyqtSlot()
     @Slot
