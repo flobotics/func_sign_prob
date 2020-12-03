@@ -13,6 +13,9 @@ class threadClass(QObject):
     def runSomethingInThread(self):
         ## you see print only on console if you start cutter from console
         print('send from thread')
+        
+        ### next line freeze cutter, not everytime for the first time,
+        ### sometimes it runs 2,3 times ,then freezes
         curr_pos = cutter.cmd('s')
         self.resultReady.emit()
         
@@ -35,10 +38,10 @@ class MyDockWidget(cutter.CutterDockWidget):
         self.threadClass = threadClass()
         self.runSomethingInThreadThread = QThread()
         self.threadClass.moveToThread(self.runSomethingInThreadThread)
-        
+         
         self.threadClass.resultReady.connect(self.showResultFromThread)
         self.startRunSomethingInThreadSignal.connect(self.threadClass.runSomethingInThread)
-        #self.runSomethingInThreadThread.start()
+        self.runSomethingInThreadThread.start()
         
     @Slot()
     def showResultFromThread(self):
@@ -47,7 +50,7 @@ class MyDockWidget(cutter.CutterDockWidget):
             
 
     def update_contents(self):
-        self.runSomethingInThreadThread.start()
+
         self.startRunSomethingInThreadSignal.emit()
 #         disasm = cutter.cmd("pd 1").strip()
 # 
