@@ -7,7 +7,7 @@ from tensorflow import keras
 from tensorflow.keras.layers.experimental.preprocessing import TextVectorization
 from tensorflow.keras.layers import Activation, Dense, Embedding, GlobalAveragePooling1D
 
-from PySide2.QtCore import QObject, SIGNAL, QProcess, QThread, pyqtSignal
+from PySide2.QtCore import QObject, SIGNAL, QProcess, QThread, Signal
 from PySide2.QtWidgets import QAction, QLabel, QPlainTextEdit, QWidget, QVBoxLayout
 
 ##from PyQt5.QtCore import QThread, QObject, pyqtSignal, pyqtSlot
@@ -20,9 +20,11 @@ import pickle_lib
 
 
 class Worker(QThread):
-    resultReady = pyqtSignal()
+    #resultReady = pyqtSignal()
+    resultReady = Signal()
  
-    @pyqtSlot()
+    ##@pyqtSlot()
+    @Slot
     def run(self):
         ### get actual loaded bin-filename
         ### cmdj('ij').get('Core').get('file')   or something like that
