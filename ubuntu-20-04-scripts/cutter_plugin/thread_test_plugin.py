@@ -17,6 +17,8 @@ class threadClass(QObject):
         ### next line freeze cutter, not everytime for the first time,
         ### sometimes it runs 2,3 times ,then freezes
         curr_pos = cutter.cmd('s')
+        
+        
         self.resultReady.emit()
         
 
