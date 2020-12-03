@@ -9,26 +9,25 @@ from PySide2.QtWidgets import QAction, QLabel, QPlainTextEdit
 from tensorflow.python.distribute.device_util import current
 from dis import dis
 
-import time
+# import time
 
-class InferenceClass(QObject):
-    resultReady = Signal()
-   
-    @Slot()
-    def runInference(self):
-        print(f'Inference')
-        afl = cutter.cmd('afl')
-        time.sleep(5)
-        print(f'after 5 seconds')
-        
-        self.resultReady.emit()
+# class InferenceClass(QObject):
+#     resultReady = Signal()
+#    
+#     @Slot()
+#     def runInference(self):
+#         print(f'Inference')
+#         afl = cutter.cmd('afl')
+#         time.sleep(5)
+#         print(f'after 5 seconds')
+#         
+#         self.resultReady.emit()
 
 
 class CheckOptionsDockWidget(cutter.CutterDockWidget):
-    #doInferenceSignal = Signal()
-    inferenceClass = InferenceClass()
-    inferenceThread = QThread()
-    startInferenceSignal = Signal()
+#     inferenceClass = InferenceClass()
+#     inferenceThread = QThread()
+#     startInferenceSignal = Signal()
     
     def __init__(self, parent, action):
         super(CheckOptionsDockWidget, self).__init__(parent, action)
@@ -44,26 +43,24 @@ class CheckOptionsDockWidget(cutter.CutterDockWidget):
         cutter.core().seekChanged.connect(self.update_contents)
         self.update_contents()
         
-        #self.inferenceThread = QThread()
-        self.inferenceClass.moveToThread(self.inferenceThread)
-    
-        self.inferenceClass.resultReady.connect(self.showInferenceResult)
-        self.startInferenceSignal.connect(self.inferenceClass.runInference)
-        
-        #self.inferenceThread.started.connect(self.doInference.runInference)
-        self.inferenceThread.start()
+#         self.inferenceClass.moveToThread(self.inferenceThread)
+#     
+#         self.inferenceClass.resultReady.connect(self.showInferenceResult)
+#         self.startInferenceSignal.connect(self.inferenceClass.runInference)
+#         
+#         self.inferenceThread.start()
         
 
-    @Slot()
-    def showInferenceResult(self):
-        print(f'showInferenceResult')
-        #time.sleep(5)
-        #print(f'after 5 seconds')
-        self._disasTextEdit.setPlainText("showInferenceResult")
-    
-    def update_contents(self):
-        print('update-contents')
-        self.startInferenceSignal.emit()
+#     @Slot()
+#     def showInferenceResult(self):
+#         print(f'showInferenceResult')
+#         #time.sleep(5)
+#         #print(f'after 5 seconds')
+#         self._disasTextEdit.setPlainText("showInferenceResult")
+#     
+#     def update_contents(self):
+#         print('update-contents')
+#         self.startInferenceSignal.emit()
         
     def set_new_radare2_e(self):
         ##store values we modify
@@ -326,7 +323,7 @@ class CheckOptionsDockWidget(cutter.CutterDockWidget):
       
 
           
-    def old_update_contents(self):
+    def update_contents(self):
         ### get actual loaded bin-filename
         ### cmdj('ij').get('Core').get('file')   or something like that
         
