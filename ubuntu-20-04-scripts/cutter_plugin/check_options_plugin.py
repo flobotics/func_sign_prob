@@ -4,14 +4,35 @@ import re
 import tensorflow as tf
 
 
-from PySide2.QtCore import QObject, SIGNAL, QProcess
+from PySide2.QtCore import QObject,  Signal, Slot, QProcess, QThread   
 from PySide2.QtWidgets import QAction, QLabel, QPlainTextEdit
 from tensorflow.python.distribute.device_util import current
 from dis import dis
 
-#from dis import dis
+import time
+
+class Worker(QThread):
+    #resultReady = pyqtSignal()
+    resultReady = Signal()
+      
+    def __init__(self, parent=None):
+        QThread.__init__(self, parent)
+        
+        #self.resultReady.connect(CheckOptionsDockWidget.showInferenceResult)
+   
+    ###@Slot()
+    def run(self):
+        print(f'Inference')
+        time.sleep(5)
+        print(f'after 5 seconds')
+        
+        #resultReady.emit()
+
 
 class CheckOptionsDockWidget(cutter.CutterDockWidget):
+    #doInferenceSignal = Signal()
+    workerThread = Worker()
+    
     def __init__(self, parent, action):
         super(CheckOptionsDockWidget, self).__init__(parent, action)
         self.setObjectName("check_optionsDockWidget")
@@ -22,10 +43,22 @@ class CheckOptionsDockWidget(cutter.CutterDockWidget):
         #self.setWidget(self._label)
         self.setWidget(self._disasTextEdit)
 
-        QObject.connect(cutter.core(), SIGNAL("seekChanged(RVA)"), self.update_contents)
+        #QObject.connect(cutter.core(), SIGNAL("seekChanged(RVA)"), self.update_contents)
+        cutter.core().seekChanged.connect(self.update_contents)
         self.update_contents()
         
+        
+        #self.doInferenceSignal.connect(self.doInference)
+        #self.workerThread = Worker()
+        
 
+    @Slot()
+    def showInferenceResult(self):
+        print(f'showInferenceResult')
+        #time.sleep(5)
+        #print(f'after 5 seconds')
+        self._disasTextEdit.setPlainText("showInferenceResult")
+    
     def set_new_radare2_e(self):
         ##store values we modify
         self.asm_syntax = cutter.cmd("e asm.syntax")
@@ -284,8 +317,11 @@ class CheckOptionsDockWidget(cutter.CutterDockWidget):
         pattern = '(' + CSI + '.*?' + CMD + '|' + OSC + '.*?' + '(' + ST + '|' + BEL + ')' + ')'
         return re.sub(pattern, '', a)
     
-        
+      
     def update_contents(self):
+        self.workerThread.start()
+          
+    def old_update_contents(self):
         ### get actual loaded bin-filename
         ### cmdj('ij').get('Core').get('file')   or something like that
         
