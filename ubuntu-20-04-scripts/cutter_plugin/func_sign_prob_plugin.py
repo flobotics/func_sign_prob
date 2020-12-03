@@ -19,7 +19,7 @@ import disassembly_lib
 import pickle_lib
 
 
-class Worker(QThread):
+class Worker(self, QThread):
     #resultReady = pyqtSignal()
     self.resultReady = Signal()
  
