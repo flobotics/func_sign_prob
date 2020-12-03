@@ -21,7 +21,10 @@ import pickle_lib
 
 class Worker(QObject, QThread):
     #resultReady = pyqtSignal()
-    resultReady = Signal()
+    #resultReady = Signal()
+    
+    def __init__(self):
+        self.resultReady = Signal()
  
     ##@pyqtSlot()
     @Slot
