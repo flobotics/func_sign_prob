@@ -19,9 +19,9 @@ import disassembly_lib
 import pickle_lib
 
 
-class Worker(self, QThread):
+class Worker(QObject, QThread):
     #resultReady = pyqtSignal()
-    self.resultReady = Signal()
+    resultReady = Signal()
  
     ##@pyqtSlot()
     @Slot
