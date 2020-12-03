@@ -11,27 +11,24 @@ from dis import dis
 
 import time
 
-class Worker(QThread):
-    #resultReady = pyqtSignal()
+class InferenceClass(QObject):
     resultReady = Signal()
-      
-    def __init__(self, parent=None):
-        QThread.__init__(self, parent)
-        
-        #self.resultReady.connect(CheckOptionsDockWidget.showInferenceResult)
    
-    ###@Slot()
-    def run(self):
+    @Slot()
+    def runInference(self):
         print(f'Inference')
+        afl = cutter.cmd('afl')
         time.sleep(5)
         print(f'after 5 seconds')
         
-        #resultReady.emit()
+        self.resultReady.emit()
 
 
 class CheckOptionsDockWidget(cutter.CutterDockWidget):
     #doInferenceSignal = Signal()
-    workerThread = Worker()
+    inferenceClass = InferenceClass()
+    inferenceThread = QThread()
+    startInferenceSignal = Signal()
     
     def __init__(self, parent, action):
         super(CheckOptionsDockWidget, self).__init__(parent, action)
@@ -47,9 +44,14 @@ class CheckOptionsDockWidget(cutter.CutterDockWidget):
         cutter.core().seekChanged.connect(self.update_contents)
         self.update_contents()
         
+        #self.inferenceThread = QThread()
+        self.inferenceClass.moveToThread(self.inferenceThread)
+    
+        self.inferenceClass.resultReady.connect(self.showInferenceResult)
+        self.startInferenceSignal.connect(self.inferenceClass.runInference)
         
-        #self.doInferenceSignal.connect(self.doInference)
-        #self.workerThread = Worker()
+        #self.inferenceThread.started.connect(self.doInference.runInference)
+        self.inferenceThread.start()
         
 
     @Slot()
@@ -59,6 +61,10 @@ class CheckOptionsDockWidget(cutter.CutterDockWidget):
         #print(f'after 5 seconds')
         self._disasTextEdit.setPlainText("showInferenceResult")
     
+    def update_contents(self):
+        print('update-contents')
+        self.startInferenceSignal.emit()
+        
     def set_new_radare2_e(self):
         ##store values we modify
         self.asm_syntax = cutter.cmd("e asm.syntax")
@@ -318,8 +324,7 @@ class CheckOptionsDockWidget(cutter.CutterDockWidget):
         return re.sub(pattern, '', a)
     
       
-    def update_contents(self):
-        self.workerThread.start()
+
           
     def old_update_contents(self):
         ### get actual loaded bin-filename
