@@ -561,11 +561,11 @@ class FuncSignProbDockWidget(cutter.CutterDockWidget):
        
         return prediction_summary_str
     
-    def update_contents(self):
+    def test_update_contents(self):
         self.myWorker = Worker()
         self.myWorker.start()
         
-    def old_update_contents(self):
+    def update_contents(self):
         ### get actual loaded bin-filename
         ### cmdj('ij').get('Core').get('file')   or something like that
         
