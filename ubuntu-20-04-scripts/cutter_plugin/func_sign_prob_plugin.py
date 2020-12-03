@@ -20,8 +20,10 @@ import pickle_lib
 
 
 class InferenceClass(QObject):
-    resultReady = Signal()
-    
+    resultReady = Signal()    
+        
+    def __init__(self):
+        QObject.__init__(self)
         
     def set_new_radare2_e(self):
         ##store values we modify
@@ -283,11 +285,13 @@ class InferenceClass(QObject):
         
         
     @Slot()
-    def oldrunInference(self):
+    def runInference(self):
         print('runInference---test')
+        curr_pos = cutter.cmd('s')
+        self.resultReady.emit()
   
     @Slot()
-    def runInference(self):
+    def oldrunInference(self):
         print('runInference')
         curr_pos = cutter.cmd('s')
         if curr_pos.strip() == '0x0':
@@ -532,13 +536,14 @@ class InferenceClass(QObject):
 
 
 class FuncSignProbDockWidget(cutter.CutterDockWidget):
-    inferenceClass = InferenceClass()
-    inferenceThread = QThread()
+#     inferenceClass = InferenceClass()
+#     inferenceThread = QThread()
     startInferenceSignal = Signal()
-    counter = 0
+#     counter = 0
     
     def __init__(self, parent, action):
         super(FuncSignProbDockWidget, self).__init__(parent, action)
+        
         self.setObjectName("func_sign_probDockWidget")
         self.setWindowTitle("func_sign_prob DockWidget")
 
@@ -560,6 +565,15 @@ class FuncSignProbDockWidget(cutter.CutterDockWidget):
         #QObject.connect(cutter.core(), SIGNAL("seekChanged(RVA)"), self.update_contents)
         cutter.core().seekChanged.connect(self.update_contents)
         #self.update_contents()
+        
+        
+        
+        self.inferenceClass = InferenceClass()
+        self.inferenceThread = QThread()
+        #self.startInferenceSignal = Signal()
+        self.counter = 0
+        
+#         self.inferenceClass = InferenceClass()
         
         self.inferenceClass.moveToThread(self.inferenceThread)
         self.inferenceClass.resultReady.connect(self.showInferenceResult)
@@ -651,8 +665,8 @@ class FuncSignProbDockWidget(cutter.CutterDockWidget):
 #         
 #         
     
-    def todo_placeholder(self):
-        pass
+#     def todo_placeholder(self):
+#         pass
         #         ### get disas from gdb
 #         gdb_process = QProcess()
 #         
