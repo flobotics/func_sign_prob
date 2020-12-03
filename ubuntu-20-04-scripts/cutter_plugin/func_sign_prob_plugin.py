@@ -251,7 +251,7 @@ class Worker(QObject, QThread):
         
         self.set_stored_radare2_e()
 #         /* ... here is the expensive or blocking operation ... */
-        self.resultReady.emit()
+        #self.resultReady.emit()
 
 
 
