@@ -19,13 +19,234 @@ import disassembly_lib
 import pickle_lib
 
 
-# class Worker(QObject):
-#     resultReady = pyqtSignal()
-# 
-#     @pyqtSlot()
-#     def doWork(parameter):
-# #         /* ... here is the expensive or blocking operation ... */
-#         self.resultReady.emit()
+class Worker(QtCore.QThread):
+    resultReady = pyqtSignal()
+ 
+    @pyqtSlot()
+    def run(self):
+        ### get actual loaded bin-filename
+        ### cmdj('ij').get('Core').get('file')   or something like that
+        
+        curr_pos = cutter.cmd('s')
+        if curr_pos.strip() == '0x0':
+            return
+        
+        self.set_new_radare2_e()
+        
+        ### get name of current function
+        current_func_name = cutter.cmdj("afdj $F").get('name')
+        
+        print(f'current_func_name >{current_func_name}<')
+        
+        ## find data/code references to this address with $F
+        current_func_header = cutter.cmdj("axtj $F")
+        
+        ## get addr of callee
+        caller_addr = 0
+        for item_dicts in current_func_header:
+            #print(f'item_dicts >{item_dicts}<')
+            for elem in item_dicts:
+                if elem == 'from':
+                    caller_addr = item_dicts[elem]
+                    #print(f'address of caller >{item_dicts[elem]}<')
+                
+        
+        ## get disassembly of current/callee function
+        address = cutter.cmd('s').strip()
+        #print(f'address >{address}<')
+        disasm_callee_str = self.get_disassembly_of(address)
+        
+        print(f'disasm_callee_str >{disasm_callee_str}<')
+    
+        ### get disassembly of caller function
+        #print(f'caller-addr >{str(caller_addr)}<')
+        disasm_caller_str = self.get_disassembly_of(caller_addr)
+        
+        print(f'disasm_caller_str >{disasm_caller_str}<')
+        
+        #return
+ 
+        ### split disas for the tf-model     
+        disasm_caller_str = disassembly_lib.split_disassembly(disasm_caller_str)
+        disasm_callee_str = disassembly_lib.split_disassembly(disasm_callee_str)
+        
+        #self._disasTextEdit.setPlainText("disasm_caller_callee:\n{}".format(disasm_caller_str + disasm_callee_str))
+        
+        ##check if we got caller and callee disassembly
+        if (len(disasm_caller_str) == 0) or (len(disasm_callee_str) == 0):
+            print(f'Not found callee and caller disassembly.')
+            return
+        
+        ### the path were we cloned git repo to
+        func_sign_prob_git_path = self._userHomePath + "/git/func_sign_prob/"
+        
+        ### predict now ret-type
+#         self._funcSignLabel.setText(f'plugin freeze cutter gui, wait some minutes, or wait longer till threading is implemented.\n \
+#                                     Predict return type now.')
+        ret_type_prediction_summary_str = self.get_prediction('return_type/words_100000', 
+                                                                disasm_caller_str + disasm_callee_str, 
+                                                                func_sign_prob_git_path)
+          
+        ## store for later, will be overridden
+        ret_type_model_summary_str = self.model_summary_str
+        ret_type_biggest_prob = self.biggest_prob
+        ret_type_biggest_prob_type = self.biggest_prob_type
+        ret_type_biggest_prob_percent = 100 * ret_type_biggest_prob
+                 
+         ### predict now nr_of_args
+        self._funcSignLabel.setText(f'plugin freeze cutter gui, wait some minutes, or wait longer till threading is implemented.\n \
+                                    Predict number of arguments now.')
+        nr_of_args_prediction_summary_str = self.get_prediction('nr_of_args', 
+                                                                disasm_caller_str + disasm_callee_str, 
+                                                                func_sign_prob_git_path)
+                  
+              
+        ## store for later, will be overridden
+        nr_of_args_model_summary_str = self.model_summary_str
+        nr_of_args_biggest_prob = self.biggest_prob
+        nr_of_args_biggest_prob_type = self.biggest_prob_type
+          
+        ###predict now arg_one
+        self._funcSignLabel.setText(f'plugin freeze cutter gui, wait some minutes, or wait longer till threading is implemented.\n \
+                                    Predict argument one now.')
+        arg_one_prediction_summary_str = self.get_prediction('arg_one', 
+                                                                disasm_caller_str + disasm_callee_str, 
+                                                                func_sign_prob_git_path)
+           
+   
+        ## store for later, will be overridden
+        arg_one_model_summary_str = self.model_summary_str
+        arg_one_biggest_prob = self.biggest_prob
+        arg_one_biggest_prob_type = self.biggest_prob_type
+        arg_one_biggest_prob_percent = 100 * arg_one_biggest_prob
+           
+        nr_of_args_biggest_prob_type = 1
+        if nr_of_args_biggest_prob_type == 1:
+             
+            self._disasTextEdit.setPlainText(f"tf return type model summary:\n \
+                                        {ret_type_model_summary_str}\n \
+                                        {ret_type_prediction_summary_str}\n \
+                                        tf nr_of_args model summary:\n \
+                                         {nr_of_args_model_summary_str}\n \
+                                         {nr_of_args_prediction_summary_str}\n \
+                                         tf arg_one model summary:\n \
+                                         {self.model_summary_str}\n \
+                                         {arg_one_prediction_summary_str}")
+      
+            self._funcSignLabel.setText(f'{ret_type_biggest_prob_type} \
+                 <span style=\"background-color:red;\">({ret_type_biggest_prob_percent:3.1f}%)</span> \
+                 {current_func_name} ( \
+                 {arg_one_biggest_prob_type} \
+                 <span style=\"background-color:red;\">({arg_one_biggest_prob_percent:3.1f}%)</span> \
+                 )') 
+              
+            self.set_stored_radare2_e()
+            return
+              
+             
+        ###if more one args
+        ###predict now arg_two
+#         self._funcSignLabel.setText(f'plugin freeze cutter gui, wait some minutes, or wait longer till threading is implemented.\n \
+#                                     Predict argument two now.')
+        arg_two_prediction_summary_str = self.get_prediction('arg_two', 
+                                                                disasm_caller_str + disasm_callee_str, 
+                                                                func_sign_prob_git_path)
+          
+  
+        ## store for later, will be overridden
+        arg_two_model_summary_str = self.model_summary_str
+        arg_two_biggest_prob = self.biggest_prob
+        arg_two_biggest_prob_type = self.biggest_prob_type
+        arg_two_biggest_prob_percent = 100 * arg_two_biggest_prob
+         
+        nr_of_args_biggest_prob_type = 2 
+        if nr_of_args_biggest_prob_type == 2:
+         
+            self._disasTextEdit.setPlainText(f"tf return type model summary:\n \
+                                        {ret_type_model_summary_str}\n \
+                                        {ret_type_prediction_summary_str}\n \
+                                        tf nr_of_args model summary:\n \
+                                        {nr_of_args_model_summary_str}\n \
+                                        {nr_of_args_prediction_summary_str}\n \
+                                        tf arg_one model summary:\n \
+                                        {arg_one_model_summary_str}\n \
+                                        {arg_one_prediction_summary_str}\n \
+                                        tf arg_two model summary:\n \
+                                        {arg_two_model_summary_str}\n \
+                                        {arg_two_prediction_summary_str}")
+ 
+            self._funcSignLabel.setText(f'{ret_type_biggest_prob_type} \
+                <span style=\"background-color:red;\">({ret_type_biggest_prob_percent:3.1f}%)</span> \
+                {current_func_name} ( \
+                {arg_one_biggest_prob_type} \
+                <span style=\"background-color:red;\">({arg_one_biggest_prob_percent:3.1f}%)</span> , \
+                {arg_two_biggest_prob_type} \
+                <span style=\"background-color:red;\">({arg_two_biggest_prob_percent:3.1f}%)</span> \
+                )') 
+             
+            self.set_stored_radare2_e()
+            return
+        
+        
+        ###if more than two args
+        ###predict now arg_three
+        self._funcSignLabel.setText(f'plugin freeze cutter gui, wait some minutes, or wait longer till threading is implemented.\n \
+                                    Predict argument three now.')
+        arg_three_prediction_summary_str = self.get_prediction('arg_three', 
+                                                                disasm_caller_str + disasm_callee_str, 
+                                                                func_sign_prob_git_path)
+         
+ 
+        ## store for later, will be overridden
+        arg_three_model_summary_str = self.model_summary_str
+        arg_three_biggest_prob = self.biggest_prob
+        arg_three_biggest_prob_type = self.biggest_prob_type
+        arg_three_biggest_prob_percent = 100 * arg_three_biggest_prob
+        
+        
+        
+        self._disasTextEdit.setPlainText(f"arg_three_model_summary_str >{arg_three_model_summary_str}< >{arg_three_biggest_prob}< >{arg_three_biggest_prob_type}<")
+                                            
+        ##if nr_of_args_biggest_prob_type == 3:
+        if nr_of_args_biggest_prob_type >= 3:   #hack, if more args
+             
+            self._disasTextEdit.setPlainText(f"tf return type model summary:\n \
+                                        {ret_type_model_summary_str}\n \
+                                        {ret_type_prediction_summary_str}\n \
+                                        tf nr_of_args model summary:\n \
+                                        {nr_of_args_model_summary_str}\n \
+                                        {nr_of_args_prediction_summary_str}\n \
+                                        tf arg_one model summary:\n \
+                                        {arg_one_model_summary_str}\n \
+                                        {arg_one_prediction_summary_str}\n \
+                                        tf arg_two model summary:\n \
+                                        {arg_two_model_summary_str}\n \
+                                        {arg_two_prediction_summary_str}\n \
+                                        tf arg_three model summary:\n \
+                                        {arg_three_model_summary_str}\n \
+                                        {arg_three_prediction_summary_str}")
+
+            self._funcSignLabel.setText(f'{ret_type_biggest_prob_type} \
+                <span style=\"background-color:red;\">({ret_type_biggest_prob_percent:3.1f}%)</span> \
+                {current_func_name} ( \
+                {arg_one_biggest_prob_type} \
+                <span style=\"background-color:red;\">({arg_one_biggest_prob_percent:3.1f}%)</span> , \
+                {arg_two_biggest_prob_type} \
+                <span style=\"background-color:red;\">({arg_two_biggest_prob_percent:3.1f}%)</span> , \
+                {arg_three_biggest_prob_type} \
+                <span style=\"background-color:red;\">({arg_three_biggest_prob_percent:3.1f}%)</span> \
+                )') 
+             
+            self.set_stored_radare2_e()
+            return
+        
+        
+        #for debug
+        print('over')
+        
+        self.set_stored_radare2_e()
+#         /* ... here is the expensive or blocking operation ... */
+        self.resultReady.emit()
 
 
 
@@ -335,8 +556,11 @@ class FuncSignProbDockWidget(cutter.CutterDockWidget):
        
         return prediction_summary_str
     
-        
     def update_contents(self):
+        self.myWorker = Worker()
+        self.myWorker.start()
+        
+    def old_update_contents(self):
         ### get actual loaded bin-filename
         ### cmdj('ij').get('Core').get('file')   or something like that
         
