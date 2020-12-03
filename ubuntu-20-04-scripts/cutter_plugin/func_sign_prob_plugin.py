@@ -7,7 +7,7 @@ from tensorflow import keras
 from tensorflow.keras.layers.experimental.preprocessing import TextVectorization
 from tensorflow.keras.layers import Activation, Dense, Embedding, GlobalAveragePooling1D
 
-from PySide2.QtCore import QObject, QProcess, QThread, Signal, Slot
+from PySide2.QtCore import QObject, SIGNAL, QProcess, QThread, Signal, Slot
 from PySide2.QtWidgets import QAction, QLabel, QPlainTextEdit, QWidget, QVBoxLayout
 
 ##from PyQt5.QtCore import QThread, QObject, pyqtSignal, pyqtSlot
