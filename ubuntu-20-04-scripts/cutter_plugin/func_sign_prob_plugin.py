@@ -561,9 +561,9 @@ class FuncSignProbDockWidget(cutter.CutterDockWidget):
        
         return prediction_summary_str
     
-    def test_update_contents(self):
-        self.myWorker = Worker()
-        self.myWorker.start()
+#     def test_update_contents(self):
+#         self.myWorker = Worker()
+#         self.myWorker.start()
         
     def update_contents(self):
         ### get actual loaded bin-filename
