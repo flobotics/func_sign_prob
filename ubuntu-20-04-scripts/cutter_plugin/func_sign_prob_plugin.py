@@ -128,6 +128,9 @@ class InferenceClass(QThread):
              
     def get_disassembly_of(self, address):
         #disasm_callee = cutter.cmdj("pdrj @ $F")
+        if address == '0x0':
+            return ''
+        
         disassembly = cutter.cmdj("pdrj @ " + str(address))
         disassembly_str = ''
         offset = ''
