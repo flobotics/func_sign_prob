@@ -22,8 +22,8 @@ import pickle_lib
 class InferenceClass(QThread):
     resultReady = Signal(str)    
         
-    def __init__(self):
-        super().__init__()
+    def __init__(self, parent):
+        super().__init__(parent)
         
     def set_new_radare2_e(self):
         ##store values we modify
@@ -591,7 +591,7 @@ class FuncSignProbDockWidget(cutter.CutterDockWidget):
 #         self.inferenceThread.start()
 #         self.counter = 0
 
-        self.inferenceClass = InferenceClass()
+        self.inferenceClass = InferenceClass(parent)
         self.inferenceClass.resultReady.connect(self.showInferenceResult)
         
 
