@@ -176,6 +176,8 @@ class InferenceClass(QThread):
     
     
     def predict(self, model_path, vocab_len, max_seq_len, disas):
+        
+        tf.keras.backend.clear_session()
                             
         model = tf.keras.models.load_model(model_path)
 
@@ -310,12 +312,11 @@ class InferenceClass(QThread):
          
         print(f'current_func_name >{current_func_name}<')
         
-        self.resultReady.emit('yo1')
-        return
+        
     
         ## find data/code references to this address with $F
         current_func_header = cutter.cmdj("axtj $F")
-         
+        
         ## get addr of callee
         caller_addr = 0
         for item_dicts in current_func_header:
@@ -336,18 +337,19 @@ class InferenceClass(QThread):
         disasm_callee_str = self.get_disassembly_of(address)
          
         print(f'disasm_callee_str >{disasm_callee_str}<')
-     
+        
         ### get disassembly of caller function
         #print(f'caller-addr >{str(caller_addr)}<')
         disasm_caller_str = self.get_disassembly_of(caller_addr)
          
         print(f'disasm_caller_str >{disasm_caller_str}<')
-         
+          
         #return
   
         ### split disas for the tf-model     
         disasm_caller_str = disassembly_lib.split_disassembly(disasm_caller_str)
         print('runInference 4')
+        
         disasm_callee_str = disassembly_lib.split_disassembly(disasm_callee_str)
         print('runInference 5')
          
@@ -363,6 +365,7 @@ class InferenceClass(QThread):
         ### the path were we cloned git repo to
         self._userHomePath = os.path.expanduser('~')
         print(f'userHomePath >{self._userHomePath}<')
+        
         func_sign_prob_git_path = self._userHomePath + "/git/func_sign_prob/"
          
         ### predict now ret-type
@@ -373,7 +376,8 @@ class InferenceClass(QThread):
                                                                 func_sign_prob_git_path)
         
         print('runInference 5')
-           
+        self.resultReady.emit('yo1')
+        return   
         ## store for later, will be overridden
         ret_type_model_summary_str = self.model_summary_str
         ret_type_biggest_prob = self.biggest_prob
