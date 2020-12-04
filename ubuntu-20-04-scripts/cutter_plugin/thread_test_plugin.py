@@ -3,7 +3,8 @@ import cutter
 from PySide2.QtCore import QObject, Signal, Slot, QThread
 from PySide2.QtWidgets import QAction, QLabel
 
-class threadClass(QObject):
+##this one freeze cutter
+class oldthreadClass(QObject):
     resultReady = Signal()
     
     def __init__(self):
@@ -17,8 +18,25 @@ class threadClass(QObject):
         
         ### next line freeze cutter, not everytime for the first time,
         ### sometimes it runs 2,3 times ,then freezes
-        #curr_pos = cutter.cmd('s')
+        curr_pos = cutter.cmd('s')
         
+        
+        self.resultReady.emit()
+        
+        
+class threadClass(QThread):
+    resultReady = Signal()
+    
+    def __init__(self):
+        super().__init__()
+    
+    def run(self):
+        ## you see print only on console if you start cutter from console
+        print('send from thread')
+        
+        ### next line freeze cutter, not everytime for the first time,
+        ### sometimes it runs 2,3 times ,then freezes
+        curr_pos = cutter.cmd('s')
         
         self.resultReady.emit()
         
@@ -34,17 +52,20 @@ class MyDockWidget(cutter.CutterDockWidget):
         self._label = QLabel(self)
         self.setWidget(self._label)
 
-        #QObject.connect(cutter.core(), SIGNAL("seekChanged(RVA)"), self.update_contents)
         cutter.core().seekChanged.connect(self.update_contents)
-        #self.update_contents()
-        
+
+        ##this will freeze cutter gui
+#         self.threadClass = threadClass()
+#         self.runSomethingInThreadThread = QThread()
+#         self.runSomethingInThreadThread.start()
+#         self.threadClass.moveToThread(self.runSomethingInThreadThread)
+#          
+#         self.threadClass.resultReady.connect(self.showResultFromThread)
+#         self.startRunSomethingInThreadSignal.connect(self.threadClass.runSomethingInThread)
+
         self.threadClass = threadClass()
-        self.runSomethingInThreadThread = QThread()
-        self.threadClass.moveToThread(self.runSomethingInThreadThread)
-         
         self.threadClass.resultReady.connect(self.showResultFromThread)
-        self.startRunSomethingInThreadSignal.connect(self.threadClass.runSomethingInThread)
-        self.runSomethingInThreadThread.start()
+        
         
     @Slot()
     def showResultFromThread(self):
@@ -54,7 +75,11 @@ class MyDockWidget(cutter.CutterDockWidget):
 
     def update_contents(self):
 
-        self.startRunSomethingInThreadSignal.emit()
+        #self.startRunSomethingInThreadSignal.emit()
+        
+        self.threadClass.start()
+        
+        
 #         disasm = cutter.cmd("pd 1").strip()
 # 
 #         instruction = cutter.cmdj("pdj 1")

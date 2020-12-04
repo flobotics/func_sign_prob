@@ -19,11 +19,11 @@ import disassembly_lib
 import pickle_lib
 
 
-class InferenceClass(QObject):
+class InferenceClass(QThread):
     resultReady = Signal()    
         
     def __init__(self):
-        QObject.__init__(self)
+        super().__init__()
         
     def set_new_radare2_e(self):
         ##store values we modify
@@ -284,13 +284,13 @@ class InferenceClass(QObject):
         return prediction_summary_str   
         
         
-    @Slot()
-    def runInference(self):
+    #@Slot()
+    def run(self):
         print('runInference---test')
         curr_pos = cutter.cmd('s')
         self.resultReady.emit()
   
-    @Slot()
+    ##@Slot()
     def oldrunInference(self):
         print('runInference')
         curr_pos = cutter.cmd('s')
@@ -568,18 +568,23 @@ class FuncSignProbDockWidget(cutter.CutterDockWidget):
         
         
         
-        self.inferenceClass = InferenceClass()
-        self.inferenceThread = QThread()
-        #self.startInferenceSignal = Signal()
-        self.counter = 0
-        
 #         self.inferenceClass = InferenceClass()
-        
-        self.inferenceClass.moveToThread(self.inferenceThread)
+#         self.inferenceThread = QThread()
+#         #self.startInferenceSignal = Signal()
+#         self.counter = 0
+#         
+# #         self.inferenceClass = InferenceClass()
+#         
+#         self.inferenceClass.moveToThread(self.inferenceThread)
+#         self.inferenceClass.resultReady.connect(self.showInferenceResult)
+#         self.startInferenceSignal.connect(self.inferenceClass.runInference)
+#         self.inferenceThread.start()
+#         self.counter = 0
+
+        self.inferenceClass = InferenceClass()
         self.inferenceClass.resultReady.connect(self.showInferenceResult)
-        self.startInferenceSignal.connect(self.inferenceClass.runInference)
-        self.inferenceThread.start()
-        self.counter = 0
+        
+
         
     @Slot()
     def showInferenceResult(self):
@@ -590,12 +595,7 @@ class FuncSignProbDockWidget(cutter.CutterDockWidget):
         
     def update_contents(self):
         print('update-contents func')
-        if self.counter > 0:
-            print('update-contents func >0')
-            self.startInferenceSignal.emit()
-        else:
-            print('update-contents func else')
-            self.counter += 1
+        self.inferenceClass.start()
             
             
 #     def set_new_radare2_e(self):
