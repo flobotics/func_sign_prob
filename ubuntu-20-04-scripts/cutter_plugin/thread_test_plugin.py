@@ -42,7 +42,7 @@ class threadClass(QThread):
         ### sometimes it runs 2,3 times ,then freezes
         curr_pos = cutter.cmd('s')
         
-        time.sleep(20)
+        time.sleep(1)
         curr_pos = cutter.cmd('s')
     
         print('send from thread after time')
