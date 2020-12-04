@@ -20,7 +20,8 @@ import pickle_lib
 
 
 class InferenceClass(QThread):
-    resultReady = Signal(str)    
+    resultReady = Signal(str)
+    summaryReady = Signal(str)   
         
     def __init__(self, parent):
         super().__init__(parent)
@@ -376,8 +377,7 @@ class InferenceClass(QThread):
                                                                 func_sign_prob_git_path)
         
         print('runInference 5')
-        self.resultReady.emit('yo1')
-        return   
+          
         ## store for later, will be overridden
         ret_type_model_summary_str = self.model_summary_str
         ret_type_biggest_prob = self.biggest_prob
@@ -391,7 +391,7 @@ class InferenceClass(QThread):
                                                                 disasm_caller_str + disasm_callee_str, 
                                                                 func_sign_prob_git_path)
                    
-               
+                
         ## store for later, will be overridden
         nr_of_args_model_summary_str = self.model_summary_str
         nr_of_args_biggest_prob = self.biggest_prob
@@ -404,7 +404,8 @@ class InferenceClass(QThread):
                                                                 disasm_caller_str + disasm_callee_str, 
                                                                 func_sign_prob_git_path)
             
-    
+#         self.resultReady.emit('yo1')
+#         return
         ## store for later, will be overridden
         arg_one_model_summary_str = self.model_summary_str
         arg_one_biggest_prob = self.biggest_prob
@@ -414,15 +415,15 @@ class InferenceClass(QThread):
         nr_of_args_biggest_prob_type = 1
         if nr_of_args_biggest_prob_type == 1:
               
-            self._disasTextEdit.setPlainText(f"tf return type model summary:\n \
-                                        {ret_type_model_summary_str}\n \
-                                        {ret_type_prediction_summary_str}\n \
-                                        tf nr_of_args model summary:\n \
-                                         {nr_of_args_model_summary_str}\n \
-                                         {nr_of_args_prediction_summary_str}\n \
-                                         tf arg_one model summary:\n \
-                                         {self.model_summary_str}\n \
-                                         {arg_one_prediction_summary_str}")
+#             self._disasTextEdit.setPlainText(f"tf return type model summary:\n \
+#                                         {ret_type_model_summary_str}\n \
+#                                         {ret_type_prediction_summary_str}\n \
+#                                         tf nr_of_args model summary:\n \
+#                                          {nr_of_args_model_summary_str}\n \
+#                                          {nr_of_args_prediction_summary_str}\n \
+#                                          tf arg_one model summary:\n \
+#                                          {self.model_summary_str}\n \
+#                                          {arg_one_prediction_summary_str}")
        
 #             self._funcSignLabel.setText(f'{ret_type_biggest_prob_type} \
 #                  <span style=\"background-color:red;\">({ret_type_biggest_prob_percent:3.1f}%)</span> \
@@ -431,6 +432,18 @@ class InferenceClass(QThread):
 #                  <span style=\"background-color:red;\">({arg_one_biggest_prob_percent:3.1f}%)</span> \
 #                  )') 
 
+            self.set_stored_radare2_e()
+            
+            self.summaryReady.emit(f"tf return type model summary:\n \
+                                        {ret_type_model_summary_str}\n \
+                                        {ret_type_prediction_summary_str}\n \
+                                        tf nr_of_args model summary:\n \
+                                         {nr_of_args_model_summary_str}\n \
+                                         {nr_of_args_prediction_summary_str}\n \
+                                         tf arg_one model summary:\n \
+                                         {self.model_summary_str}\n \
+                                         {arg_one_prediction_summary_str}")
+
             self.resultReady.emit(f'{ret_type_biggest_prob_type} \
                  <span style=\"background-color:red;\">({ret_type_biggest_prob_percent:3.1f}%)</span> \
                  {current_func_name} ( \
@@ -438,7 +451,7 @@ class InferenceClass(QThread):
                  <span style=\"background-color:red;\">({arg_one_biggest_prob_percent:3.1f}%)</span> \
                  )')
                
-            self.set_stored_radare2_e()
+            
             return
                
               
@@ -597,16 +610,22 @@ class FuncSignProbDockWidget(cutter.CutterDockWidget):
 
         self.inferenceClass = InferenceClass(parent)
         self.inferenceClass.resultReady.connect(self.showInferenceResult)
+        self.inferenceClass.summaryReady.connect(self.showInferenceResultSummary)
         
-
+        
+        
+    @Slot()
+    def showInferenceResultSummary(self, result):
+        self._disasTextEdit.setPlainText(result) 
+        
         
     @Slot()
     def showInferenceResult(self, result):
-        print(f'showInferenceResult >{result}<')
+        #print(f'showInferenceResult >{result}<')
         #time.sleep(5)
         #print(f'after 5 seconds')
         self._funcSignLabel.setText(result)
-        self._disasTextEdit.setPlainText("showInferenceResult-func")    
+           
         
     def update_contents(self):
         print('update-contents func')
