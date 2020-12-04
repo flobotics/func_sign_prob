@@ -20,7 +20,7 @@ import pickle_lib
 
 
 class InferenceClass(QThread):
-    resultReady = Signal()    
+    resultReady = Signal(str)    
         
     def __init__(self):
         super().__init__()
@@ -285,13 +285,13 @@ class InferenceClass(QThread):
         
         
     #@Slot()
-    def run(self):
+    def oldrun(self):
         print('runInference---test')
         curr_pos = cutter.cmd('s')
         self.resultReady.emit()
   
     ##@Slot()
-    def oldrunInference(self):
+    def run(self):
         print('runInference')
         curr_pos = cutter.cmd('s')
         if curr_pos.strip() == '0x0':
@@ -307,8 +307,8 @@ class InferenceClass(QThread):
          
         print(f'current_func_name >{current_func_name}<')
         
-        self.resultReady.emit()
-        return
+#         self.resultReady.emit()
+#         return
     
         ## find data/code references to this address with $F
         current_func_header = cutter.cmdj("axtj $F")
@@ -378,8 +378,8 @@ class InferenceClass(QThread):
         ret_type_biggest_prob_percent = 100 * ret_type_biggest_prob
                   
          ### predict now nr_of_args
-        self._funcSignLabel.setText(f'plugin freeze cutter gui, wait some minutes, or wait longer till threading is implemented.\n \
-                                    Predict number of arguments now.')
+#         self._funcSignLabel.setText(f'plugin freeze cutter gui, wait some minutes, or wait longer till threading is implemented.\n \
+#                                     Predict number of arguments now.')
         nr_of_args_prediction_summary_str = self.get_prediction('nr_of_args', 
                                                                 disasm_caller_str + disasm_callee_str, 
                                                                 func_sign_prob_git_path)
@@ -391,8 +391,8 @@ class InferenceClass(QThread):
         nr_of_args_biggest_prob_type = self.biggest_prob_type
            
         ###predict now arg_one
-        self._funcSignLabel.setText(f'plugin freeze cutter gui, wait some minutes, or wait longer till threading is implemented.\n \
-                                    Predict argument one now.')
+#         self._funcSignLabel.setText(f'plugin freeze cutter gui, wait some minutes, or wait longer till threading is implemented.\n \
+#                                     Predict argument one now.')
         arg_one_prediction_summary_str = self.get_prediction('arg_one', 
                                                                 disasm_caller_str + disasm_callee_str, 
                                                                 func_sign_prob_git_path)
@@ -417,12 +417,19 @@ class InferenceClass(QThread):
                                          {self.model_summary_str}\n \
                                          {arg_one_prediction_summary_str}")
        
-            self._funcSignLabel.setText(f'{ret_type_biggest_prob_type} \
+#             self._funcSignLabel.setText(f'{ret_type_biggest_prob_type} \
+#                  <span style=\"background-color:red;\">({ret_type_biggest_prob_percent:3.1f}%)</span> \
+#                  {current_func_name} ( \
+#                  {arg_one_biggest_prob_type} \
+#                  <span style=\"background-color:red;\">({arg_one_biggest_prob_percent:3.1f}%)</span> \
+#                  )') 
+
+            self.resultReady.emit(f'{ret_type_biggest_prob_type} \
                  <span style=\"background-color:red;\">({ret_type_biggest_prob_percent:3.1f}%)</span> \
                  {current_func_name} ( \
                  {arg_one_biggest_prob_type} \
                  <span style=\"background-color:red;\">({arg_one_biggest_prob_percent:3.1f}%)</span> \
-                 )') 
+                 )')
                
             self.set_stored_radare2_e()
             return
@@ -587,10 +594,11 @@ class FuncSignProbDockWidget(cutter.CutterDockWidget):
 
         
     @Slot()
-    def showInferenceResult(self):
-        print(f'showInferenceResult')
+    def showInferenceResult(self, result):
+        print(f'showInferenceResult >{result}<')
         #time.sleep(5)
         #print(f'after 5 seconds')
+        self._funcSignLabel.setText(result)
         self._disasTextEdit.setPlainText("showInferenceResult-func")    
         
     def update_contents(self):
