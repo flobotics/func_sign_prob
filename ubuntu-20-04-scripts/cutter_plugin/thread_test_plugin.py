@@ -7,7 +7,8 @@ class threadClass(QObject):
     resultReady = Signal()
     
     def __init__(self):
-        QObject.__init__(self)
+        super().__init__()
+        #QObject.__init__(self)
     
     @Slot()
     def runSomethingInThread(self):
@@ -16,7 +17,7 @@ class threadClass(QObject):
         
         ### next line freeze cutter, not everytime for the first time,
         ### sometimes it runs 2,3 times ,then freezes
-        curr_pos = cutter.cmd('s')
+        #curr_pos = cutter.cmd('s')
         
         
         self.resultReady.emit()
