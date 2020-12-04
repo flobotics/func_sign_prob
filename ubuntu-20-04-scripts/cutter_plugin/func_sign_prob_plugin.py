@@ -310,8 +310,8 @@ class InferenceClass(QThread):
          
         print(f'current_func_name >{current_func_name}<')
         
-#         self.resultReady.emit()
-#         return
+        self.resultReady.emit('yo1')
+        return
     
         ## find data/code references to this address with $F
         current_func_header = cutter.cmdj("axtj $F")

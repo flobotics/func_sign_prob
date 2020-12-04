@@ -1,4 +1,5 @@
 import cutter
+import time
 
 from PySide2.QtCore import QObject, Signal, Slot, QThread
 from PySide2.QtWidgets import QAction, QLabel
@@ -14,13 +15,16 @@ class oldthreadClass(QObject):
     @Slot()
     def runSomethingInThread(self):
         ## you see print only on console if you start cutter from console
-        print('send from thread')
+        print('send from threadd')
         
         ### next line freeze cutter, not everytime for the first time,
         ### sometimes it runs 2,3 times ,then freezes
         curr_pos = cutter.cmd('s')
         
-        
+        time.sleep(5)
+        curr_pos = cutter.cmd('s')
+    
+        print('send from thread after time')
         self.resultReady.emit()
         
         
@@ -37,6 +41,11 @@ class threadClass(QThread):
         ### next line freeze cutter, not everytime for the first time,
         ### sometimes it runs 2,3 times ,then freezes
         curr_pos = cutter.cmd('s')
+        
+        time.sleep(20)
+        curr_pos = cutter.cmd('s')
+    
+        print('send from thread after time')
         
         self.resultReady.emit()
         
