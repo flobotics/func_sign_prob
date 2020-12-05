@@ -403,7 +403,7 @@ class InferenceClass(QThread):
         arg_one_biggest_prob_percent = 100 * arg_one_biggest_prob
         
             
-        nr_of_args_biggest_prob_type = 1
+        #nr_of_args_biggest_prob_type = 1
         if nr_of_args_biggest_prob_type == 1:
             
             self.set_stored_radare2_e()
@@ -446,7 +446,7 @@ class InferenceClass(QThread):
         arg_two_biggest_prob_percent = 100 * arg_two_biggest_prob
         
           
-        nr_of_args_biggest_prob_type = 2 
+        #nr_of_args_biggest_prob_type = 2 
         if nr_of_args_biggest_prob_type == 2:
             
             self.updateProgressBar.emit(100)
@@ -492,12 +492,9 @@ class InferenceClass(QThread):
         arg_three_biggest_prob_type = self.biggest_prob_type
         arg_three_biggest_prob_percent = 100 * arg_three_biggest_prob
          
-         
-         
-        self._disasTextEdit.setPlainText(f"arg_three_model_summary_str >{arg_three_model_summary_str}< >{arg_three_biggest_prob}< >{arg_three_biggest_prob_type}<")
-                                             
-        ##if nr_of_args_biggest_prob_type == 3:
-        if nr_of_args_biggest_prob_type >= 3:   #hack, if more args
+                                              
+        #nr_of_args_biggest_prob_type = 3
+        if nr_of_args_biggest_prob_type >= 3:   #hack, if more args, need more models
               
             self.updateProgressBar.emit(100)
             
