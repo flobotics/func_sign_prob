@@ -178,7 +178,8 @@ def main():
     ## build ret-type-dict and save
     ret_type_dict = dict()
     counter = 0
-    for elem in ret_set:
+    ret_set_list = sorted(ret_set)
+    for elem in ret_set_list:
         ret_type_dict[elem] = counter
         counter += 1
     
