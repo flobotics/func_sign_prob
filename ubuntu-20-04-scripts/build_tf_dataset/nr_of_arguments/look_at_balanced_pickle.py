@@ -110,10 +110,12 @@ def main():
     
     all_ret_types_list = set()
     counter = 0
+    max_seq_len = 0
     
     for file in pickle_files:
         cont = pickle_lib.get_pickle_file_content(config['balanced_dataset_dir'] + file)
         counter = 0
+        max_seq_len = 0
         
         for item in cont:
             all_ret_types_list.add(item[1])
@@ -121,10 +123,14 @@ def main():
                 print(f"return type >{item[1]}< from file >{config['balanced_dataset_dir'] + file}<")
                 print()
                 print(f'text >{item[0]}<\nlabel >{item[1]}<')
+            
+            if len(item[0]) > max_seq_len:
+                max_seq_len = len(item[0])
                 
             counter += 1
             
         print(f'Counted >{counter}< text,label elements')
+        print(f'longest disassembly got >{max_seq_len}< words')
         print('----------------------------------------')
         print()
         
