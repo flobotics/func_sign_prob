@@ -299,6 +299,8 @@ class InferenceClass(QThread):
   
     ##@Slot()
     def run(self):
+        self.updateProgressBar.emit(1)
+        
         curr_pos = cutter.cmd('s')
         if curr_pos.strip() == '0x0':
             print('runInference not from addr 0x0')
@@ -335,22 +337,16 @@ class InferenceClass(QThread):
             return
         
         disasm_callee_str = self.get_disassembly_of(address)
-         
         #print(f'disasm_callee_str >{disasm_callee_str}<')
         
         ### get disassembly of caller function
-        #print(f'caller-addr >{str(caller_addr)}<')
         disasm_caller_str = self.get_disassembly_of(caller_addr)
-         
         #print(f'disasm_caller_str >{disasm_caller_str}<')
   
         ### split disas for the tf-model     
         disasm_caller_str = disassembly_lib.split_disassembly(disasm_caller_str)
-        
         disasm_callee_str = disassembly_lib.split_disassembly(disasm_callee_str)
 
-        #self._disasTextEdit.setPlainText("disasm_caller_callee:\n{}".format(disasm_caller_str + disasm_callee_str))
-         
         ##check if we got caller and callee disassembly
         if (len(disasm_caller_str) == 0) or (len(disasm_callee_str) == 0):
             self.updateProgressBar.emit(100)
@@ -367,8 +363,6 @@ class InferenceClass(QThread):
         func_sign_prob_git_path = self._userHomePath + "/git/func_sign_prob/"
          
         ### predict now ret-type
-#         self._funcSignLabel.setText(f'plugin freeze cutter gui, wait some minutes, or wait longer till threading is implemented.\n \
-#                                     Predict return type now.')
         ret_type_prediction_summary_str = self.get_prediction('return_type/words_100000', 
                                                                 disasm_caller_str + disasm_callee_str, 
                                                                 func_sign_prob_git_path)
@@ -382,9 +376,7 @@ class InferenceClass(QThread):
         ret_type_biggest_prob_percent = 100 * ret_type_biggest_prob
         self.updateProgressBar.emit(10)
                   
-         ### predict now nr_of_args
-#         self._funcSignLabel.setText(f'plugin freeze cutter gui, wait some minutes, or wait longer till threading is implemented.\n \
-#                                     Predict number of arguments now.')
+        ### predict now nr_of_args
         nr_of_args_prediction_summary_str = self.get_prediction('nr_of_args', 
                                                                 disasm_caller_str + disasm_callee_str, 
                                                                 func_sign_prob_git_path)
@@ -397,14 +389,11 @@ class InferenceClass(QThread):
         self.updateProgressBar.emit(20)
            
         ###predict now arg_one
-#         self._funcSignLabel.setText(f'plugin freeze cutter gui, wait some minutes, or wait longer till threading is implemented.\n \
-#                                     Predict argument one now.')
         arg_one_prediction_summary_str = self.get_prediction('arg_one', 
                                                                 disasm_caller_str + disasm_callee_str, 
                                                                 func_sign_prob_git_path)
             
-#         self.resultReady.emit('yo1')
-#         return
+
         ## store for later, will be overridden
         arg_one_model_summary_str = self.model_summary_str
         arg_one_biggest_prob = self.biggest_prob
@@ -438,12 +427,11 @@ class InferenceClass(QThread):
                
             
             return
-               
+        else:
+            self.updateProgressBar.emit(30)   
               
         ###if more one args
         ###predict now arg_two
-#         self._funcSignLabel.setText(f'plugin freeze cutter gui, wait some minutes, or wait longer till threading is implemented.\n \
-#                                     Predict argument two now.')
         arg_two_prediction_summary_str = self.get_prediction('arg_two', 
                                                                 disasm_caller_str + disasm_callee_str, 
                                                                 func_sign_prob_git_path)
@@ -454,11 +442,14 @@ class InferenceClass(QThread):
         arg_two_biggest_prob = self.biggest_prob
         arg_two_biggest_prob_type = self.biggest_prob_type
         arg_two_biggest_prob_percent = 100 * arg_two_biggest_prob
+        
           
         nr_of_args_biggest_prob_type = 2 
         if nr_of_args_biggest_prob_type == 2:
-          
-            self._disasTextEdit.setPlainText(f"tf return type model summary:\n \
+            
+            self.updateProgressBar.emit(100)
+            
+            self.summaryReady.emit(f"tf return type model summary:\n \
                                         {ret_type_model_summary_str}\n \
                                         {ret_type_prediction_summary_str}\n \
                                         tf nr_of_args model summary:\n \
@@ -470,24 +461,46 @@ class InferenceClass(QThread):
                                         tf arg_two model summary:\n \
                                         {arg_two_model_summary_str}\n \
                                         {arg_two_prediction_summary_str}")
-  
-            self._funcSignLabel.setText(f'{ret_type_biggest_prob_type} \
+
+            self.resultReady.emit(f'{ret_type_biggest_prob_type} \
                 <span style=\"background-color:red;\">({ret_type_biggest_prob_percent:3.1f}%)</span> \
                 {current_func_name} ( \
                 {arg_one_biggest_prob_type} \
                 <span style=\"background-color:red;\">({arg_one_biggest_prob_percent:3.1f}%)</span> , \
                 {arg_two_biggest_prob_type} \
                 <span style=\"background-color:red;\">({arg_two_biggest_prob_percent:3.1f}%)</span> \
-                )') 
+                )')
+            
+            
+#             self._disasTextEdit.setPlainText(f"tf return type model summary:\n \
+#                                         {ret_type_model_summary_str}\n \
+#                                         {ret_type_prediction_summary_str}\n \
+#                                         tf nr_of_args model summary:\n \
+#                                         {nr_of_args_model_summary_str}\n \
+#                                         {nr_of_args_prediction_summary_str}\n \
+#                                         tf arg_one model summary:\n \
+#                                         {arg_one_model_summary_str}\n \
+#                                         {arg_one_prediction_summary_str}\n \
+#                                         tf arg_two model summary:\n \
+#                                         {arg_two_model_summary_str}\n \
+#                                         {arg_two_prediction_summary_str}")
+#   
+#             self._funcSignLabel.setText(f'{ret_type_biggest_prob_type} \
+#                 <span style=\"background-color:red;\">({ret_type_biggest_prob_percent:3.1f}%)</span> \
+#                 {current_func_name} ( \
+#                 {arg_one_biggest_prob_type} \
+#                 <span style=\"background-color:red;\">({arg_one_biggest_prob_percent:3.1f}%)</span> , \
+#                 {arg_two_biggest_prob_type} \
+#                 <span style=\"background-color:red;\">({arg_two_biggest_prob_percent:3.1f}%)</span> \
+#                 )') 
               
             self.set_stored_radare2_e()
             return
-         
+        else:
+            self.updateProgressBar.emit(40)
          
         ###if more than two args
         ###predict now arg_three
-        self._funcSignLabel.setText(f'plugin freeze cutter gui, wait some minutes, or wait longer till threading is implemented.\n \
-                                    Predict argument three now.')
         arg_three_prediction_summary_str = self.get_prediction('arg_three', 
                                                                 disasm_caller_str + disasm_callee_str, 
                                                                 func_sign_prob_git_path)
@@ -506,7 +519,9 @@ class InferenceClass(QThread):
         ##if nr_of_args_biggest_prob_type == 3:
         if nr_of_args_biggest_prob_type >= 3:   #hack, if more args
               
-            self._disasTextEdit.setPlainText(f"tf return type model summary:\n \
+            self.updateProgressBar.emit(100)
+            
+            self.summaryReady.emit(f"tf return type model summary:\n \
                                         {ret_type_model_summary_str}\n \
                                         {ret_type_prediction_summary_str}\n \
                                         tf nr_of_args model summary:\n \
@@ -521,8 +536,8 @@ class InferenceClass(QThread):
                                         tf arg_three model summary:\n \
                                         {arg_three_model_summary_str}\n \
                                         {arg_three_prediction_summary_str}")
- 
-            self._funcSignLabel.setText(f'{ret_type_biggest_prob_type} \
+
+            self.resultReady.emit(f'{ret_type_biggest_prob_type} \
                 <span style=\"background-color:red;\">({ret_type_biggest_prob_percent:3.1f}%)</span> \
                 {current_func_name} ( \
                 {arg_one_biggest_prob_type} \
@@ -531,18 +546,47 @@ class InferenceClass(QThread):
                 <span style=\"background-color:red;\">({arg_two_biggest_prob_percent:3.1f}%)</span> , \
                 {arg_three_biggest_prob_type} \
                 <span style=\"background-color:red;\">({arg_three_biggest_prob_percent:3.1f}%)</span> \
-                )') 
+                )')
+            
+            
+#             self._disasTextEdit.setPlainText(f"tf return type model summary:\n \
+#                                         {ret_type_model_summary_str}\n \
+#                                         {ret_type_prediction_summary_str}\n \
+#                                         tf nr_of_args model summary:\n \
+#                                         {nr_of_args_model_summary_str}\n \
+#                                         {nr_of_args_prediction_summary_str}\n \
+#                                         tf arg_one model summary:\n \
+#                                         {arg_one_model_summary_str}\n \
+#                                         {arg_one_prediction_summary_str}\n \
+#                                         tf arg_two model summary:\n \
+#                                         {arg_two_model_summary_str}\n \
+#                                         {arg_two_prediction_summary_str}\n \
+#                                         tf arg_three model summary:\n \
+#                                         {arg_three_model_summary_str}\n \
+#                                         {arg_three_prediction_summary_str}")
+#  
+#             self._funcSignLabel.setText(f'{ret_type_biggest_prob_type} \
+#                 <span style=\"background-color:red;\">({ret_type_biggest_prob_percent:3.1f}%)</span> \
+#                 {current_func_name} ( \
+#                 {arg_one_biggest_prob_type} \
+#                 <span style=\"background-color:red;\">({arg_one_biggest_prob_percent:3.1f}%)</span> , \
+#                 {arg_two_biggest_prob_type} \
+#                 <span style=\"background-color:red;\">({arg_two_biggest_prob_percent:3.1f}%)</span> , \
+#                 {arg_three_biggest_prob_type} \
+#                 <span style=\"background-color:red;\">({arg_three_biggest_prob_percent:3.1f}%)</span> \
+#                 )') 
               
             self.set_stored_radare2_e()
             return
-         
+        else:
+            self.updateProgressBar.emit(50)
          
         #for debug
         print('over')
          
         self.set_stored_radare2_e()
 #         /* ... here is the expensive or blocking operation ... */
-        self.resultReady.emit()
+        self.resultReady.emit('')
 
 
 
