@@ -15,7 +15,7 @@ import return_type_lib
 import common_stuff_lib
 import tarbz2_lib
 import pickle_lib
-import disassembly_lib
+#import disassembly_lib
 #import tfrecord_lib
 
 
@@ -101,28 +101,29 @@ def main():
     
     nr_of_cpus = psutil.cpu_count(logical=True)
     print(f'We got nr_of_cpus >{nr_of_cpus}<')
-    
-    print(f"Using files in directory >{config['balanced_dataset_dir']}<")
-    
-    pickle_files = common_stuff_lib.get_all_filenames_of_type(config['balanced_dataset_dir'], '.pickle')
-    
-    all_ret_types_list = set()
-    counter = 0
-    
-    for file in pickle_files:
-        cont = pickle_lib.get_pickle_file_content(config['balanced_dataset_dir'] + file)
-        
-        for item in cont:
-            all_ret_types_list.add(item[1])
-            if counter < 1:
-                print(f"return type >{item[1]}< from file >{config['balanced_dataset_dir'] + file}<")
-                print(f'item[0] >{item[0]}<  item[1] >{item[1]}<')
-            counter += 1
-            
-    print(f'Counted >{counter}< text,label elements')
     print()
-    print(f'all_ret_types_list >{all_ret_types_list}<')
-
+    
+    print(f"Using files in directory >{config['tfrecord_save_dir']}<")
+    print()
+    
+    return_type_dict = pickle_lib.get_pickle_file_content(config['tfrecord_save_dir'] + 'return_type_dict.pickle')
+    
+    print(f'return_type_dict value >{return_type_dict}<')
+    print()
+    
+    vocabulary_list= pickle_lib.get_pickle_file_content(config['tfrecord_save_dir'] + 'vocabulary_list.pickle')
+    
+    print(f'vocabulary_list >{vocabulary_list}<')
+    print()
+    
+    print(f'vocabulary_list length >{len(vocabulary_list)}<')
+    print()
+    
+    max_seq_length = pickle_lib.get_pickle_file_content(config['tfrecord_save_dir'] + 'max_seq_length.pickle')
+    
+    print(f'max_seq_length >{max_seq_length}<')
+    
+ 
 
 
     
