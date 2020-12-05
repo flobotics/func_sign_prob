@@ -121,7 +121,8 @@ def main():
     
     ## build return type dict-file and max-seq-length-file and vocabulary
     pickle_files = common_stuff_lib.get_all_filenames_of_type(config['save_dir'], '.pickle')
-    print(f'pickle-files we use to build >{pickle_files}<')
+    #print(f'pickle-files we use to build >{pickle_files}<')
+    pickle_lib.print_X_pickle_filenames(pickle_files, 5)
     
     print(f'Building return-type dict, vocabulary and max-squenece-length')
     
