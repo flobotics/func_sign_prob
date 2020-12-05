@@ -217,7 +217,7 @@ def main():
         t = Thread(target=proc_build_balanced, args=(pickle_files_save_dir, key, int(config['minimum_nr_of_return_types']), config, ))
         t.start()
         
-    print(f'Run transform_ret_type_to_int.py next')
+    print(f'Run build_balanced_ret_type__vocab__seq_len.py next')
 
     
 if __name__ == "__main__":

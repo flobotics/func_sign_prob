@@ -202,7 +202,7 @@ def main():
     pickle_lib.save_to_pickle_file(seq_length, config['max_seq_length_file'])
     
     
-    print("Done. Run build_balanced_dataset.py next")
+    print("Done. Run transform_ret_type_to_int.py next")
     
     
 
