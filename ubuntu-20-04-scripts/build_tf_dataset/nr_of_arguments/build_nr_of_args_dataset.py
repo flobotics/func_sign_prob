@@ -166,6 +166,8 @@ def proc_build(tarbz2_file, work_dir, save_dir, config):
                                     if nr_of_args == -1:
                                         print(f'Error nr_of_args')
                                     else:
+                                        print(f'nr_of_args >{nr_of_args}<')
+                                        
                                         tmp_att_dis = att_dis
                                         #print(f'len att-dis 1 >{len(tmp_att_dis)}<')
                                         tmp_att_dis = disassembly_lib.clean_att_disassembly_from_comment(tmp_att_dis)
