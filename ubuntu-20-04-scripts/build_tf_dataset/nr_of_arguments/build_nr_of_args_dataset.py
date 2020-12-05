@@ -173,7 +173,7 @@ def proc_build(tarbz2_file, work_dir, save_dir, config):
                                         tmp_att_dis = disassembly_lib.clean_att_disassembly_from_comment(tmp_att_dis)
                                         callee_dis = disassembly_lib.clean_att_disassembly_from_comment(elem2[4])
                                         #print(f'len att-dis 1 >{len(tmp_att_dis)}<')
-                                        print(f'att-dis >{tmp_att_dis}<')
+                                        #print(f'att-dis >{tmp_att_dis}<')
                                         
                                         dis1_str = ' '.join(tmp_att_dis)
                                         #dis2_str = ' '.join(elem2[4])
@@ -183,7 +183,7 @@ def proc_build(tarbz2_file, work_dir, save_dir, config):
                                         dis2_str = disassembly_lib.split_disassembly(dis2_str)
                                         #dis1_str = dis_split(dis1_str)
                                         #dis2_str = dis_split(dis2_str)
-                                        print(f'dis1_str >{dis1_str}<')
+                                        #print(f'dis1_str >{dis1_str}<')
                                         
                                         ##the max-seq-length blows memory (>160GB ram) with model.fit() if e.g. over 6million
                                         if (len(dis1_str) > 100000) or (len(dis2_str) > 100000) or (len(dis1_str) < 1) or (len(dis2_str) < 1):
@@ -195,7 +195,7 @@ def proc_build(tarbz2_file, work_dir, save_dir, config):
                                         else:
                                             dis_str = dis1_str + dis2_str
                                                 
-                                            print(f'dis_str >{dis_str}<')
+                                            #print(f'dis_str >{dis_str}<')
                                         
                                             dataset_list.append((dis_str, nr_of_args))
                                             counter += 1
