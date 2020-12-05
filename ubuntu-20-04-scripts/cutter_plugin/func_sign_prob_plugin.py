@@ -22,7 +22,7 @@ import pickle_lib
 class InferenceClass(QThread):
     resultReady = Signal(str)
     summaryReady = Signal(str)
-    updateProgressBar = Signal(str)
+    updateProgressBar = Signal(int)
         
     def __init__(self, parent):
         super().__init__(parent)
@@ -586,7 +586,7 @@ class FuncSignProbDockWidget(cutter.CutterDockWidget):
     
     @Slot()
     def updateProgressBar(self, value):
-        self._progressBar.setValue(value)   
+        self._progressBar.setValue(int(value))   
         
     @Slot()
     def showInferenceResultSummary(self, result):
