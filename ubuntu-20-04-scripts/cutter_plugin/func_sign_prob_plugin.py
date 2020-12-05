@@ -361,6 +361,8 @@ class InferenceClass(QThread):
         #print(f'userHomePath >{self._userHomePath}<')
         
         func_sign_prob_git_path = self._userHomePath + "/git/func_sign_prob/"
+        
+        self.updateProgressBar.emit(9)
          
         ### predict now ret-type
         ret_type_prediction_summary_str = self.get_prediction('return_type/words_100000', 
