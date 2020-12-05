@@ -322,7 +322,7 @@ def main():
                                  tf.keras.layers.Bidirectional(tf.keras.layers.LSTM(64)),
                                  tf.keras.layers.Dense(64, activation='relu'),
                                  tf.keras.layers.Dropout(0.2),
-                                 tf.keras.layers.GlobalAveragePooling1D(64),
+                                 tf.keras.layers.Dense(32, activation='relu'),
                                  tf.keras.layers.Dropout(0.2),
                                  tf.keras.layers.Dense(len(return_type_dict))])
 
