@@ -21,7 +21,8 @@ import pickle_lib
 
 class InferenceClass(QThread):
     resultReady = Signal(str)
-    summaryReady = Signal(str)   
+    summaryReady = Signal(str)
+    updateProgressBar = Signal(str)
         
     def __init__(self, parent):
         super().__init__(parent)
@@ -298,23 +299,18 @@ class InferenceClass(QThread):
   
     ##@Slot()
     def run(self):
-        print('runInference')
         curr_pos = cutter.cmd('s')
         if curr_pos.strip() == '0x0':
             print('runInference not from addr 0x0')
             return
          
-        print('runInference 2')
         self.set_new_radare2_e()
-        print('runInference 3')
         
         ### get name of current function
         current_func_name = cutter.cmdj("afdj $F").get('name')
          
-        print(f'current_func_name >{current_func_name}<')
+        #print(f'current_func_name >{current_func_name}<')
         
-        
-    
         ## find data/code references to this address with $F
         current_func_header = cutter.cmdj("axtj $F")
         
@@ -330,42 +326,43 @@ class InferenceClass(QThread):
          
         ## get disassembly of current/callee function
         address = cutter.cmd('s').strip()
-        print(f'address >{address}<')
+        #print(f'address >{address}<')
         if address == '0x0':
-            print(f'address kicked >{address}<')
+            self.updateProgressBar.emit(100)
+            self.resultReady.emit('')
+            self.summaryReady.emit('Current address is 0x0, choose other function')
+            #print(f'address kicked >{address}<')
             return
         
         disasm_callee_str = self.get_disassembly_of(address)
          
-        print(f'disasm_callee_str >{disasm_callee_str}<')
+        #print(f'disasm_callee_str >{disasm_callee_str}<')
         
         ### get disassembly of caller function
         #print(f'caller-addr >{str(caller_addr)}<')
         disasm_caller_str = self.get_disassembly_of(caller_addr)
          
-        print(f'disasm_caller_str >{disasm_caller_str}<')
-          
-        #return
+        #print(f'disasm_caller_str >{disasm_caller_str}<')
   
         ### split disas for the tf-model     
         disasm_caller_str = disassembly_lib.split_disassembly(disasm_caller_str)
-        print('runInference 4')
         
         disasm_callee_str = disassembly_lib.split_disassembly(disasm_callee_str)
-        print('runInference 5')
-         
-        
-        
+
         #self._disasTextEdit.setPlainText("disasm_caller_callee:\n{}".format(disasm_caller_str + disasm_callee_str))
          
         ##check if we got caller and callee disassembly
         if (len(disasm_caller_str) == 0) or (len(disasm_callee_str) == 0):
-            print(f'Not found callee and caller disassembly.')
+            self.updateProgressBar.emit(100)
+            self.resultReady.emit('')
+            self.summaryReady.emit('No caller disassembly found, choose other function')
+            
+            #print(f'Not found callee and caller disassembly.')
             return
          
         ### the path were we cloned git repo to
         self._userHomePath = os.path.expanduser('~')
-        print(f'userHomePath >{self._userHomePath}<')
+        #print(f'userHomePath >{self._userHomePath}<')
         
         func_sign_prob_git_path = self._userHomePath + "/git/func_sign_prob/"
          
@@ -376,13 +373,14 @@ class InferenceClass(QThread):
                                                                 disasm_caller_str + disasm_callee_str, 
                                                                 func_sign_prob_git_path)
         
-        print('runInference 5')
+        
           
         ## store for later, will be overridden
         ret_type_model_summary_str = self.model_summary_str
         ret_type_biggest_prob = self.biggest_prob
         ret_type_biggest_prob_type = self.biggest_prob_type
         ret_type_biggest_prob_percent = 100 * ret_type_biggest_prob
+        self.updateProgressBar.emit(10)
                   
          ### predict now nr_of_args
 #         self._funcSignLabel.setText(f'plugin freeze cutter gui, wait some minutes, or wait longer till threading is implemented.\n \
@@ -396,6 +394,7 @@ class InferenceClass(QThread):
         nr_of_args_model_summary_str = self.model_summary_str
         nr_of_args_biggest_prob = self.biggest_prob
         nr_of_args_biggest_prob_type = self.biggest_prob_type
+        self.updateProgressBar.emit(20)
            
         ###predict now arg_one
 #         self._funcSignLabel.setText(f'plugin freeze cutter gui, wait some minutes, or wait longer till threading is implemented.\n \
@@ -411,28 +410,14 @@ class InferenceClass(QThread):
         arg_one_biggest_prob = self.biggest_prob
         arg_one_biggest_prob_type = self.biggest_prob_type
         arg_one_biggest_prob_percent = 100 * arg_one_biggest_prob
+        
             
         nr_of_args_biggest_prob_type = 1
         if nr_of_args_biggest_prob_type == 1:
-              
-#             self._disasTextEdit.setPlainText(f"tf return type model summary:\n \
-#                                         {ret_type_model_summary_str}\n \
-#                                         {ret_type_prediction_summary_str}\n \
-#                                         tf nr_of_args model summary:\n \
-#                                          {nr_of_args_model_summary_str}\n \
-#                                          {nr_of_args_prediction_summary_str}\n \
-#                                          tf arg_one model summary:\n \
-#                                          {self.model_summary_str}\n \
-#                                          {arg_one_prediction_summary_str}")
-       
-#             self._funcSignLabel.setText(f'{ret_type_biggest_prob_type} \
-#                  <span style=\"background-color:red;\">({ret_type_biggest_prob_percent:3.1f}%)</span> \
-#                  {current_func_name} ( \
-#                  {arg_one_biggest_prob_type} \
-#                  <span style=\"background-color:red;\">({arg_one_biggest_prob_percent:3.1f}%)</span> \
-#                  )') 
-
+            
             self.set_stored_radare2_e()
+            
+            self.updateProgressBar.emit(100)
             
             self.summaryReady.emit(f"tf return type model summary:\n \
                                         {ret_type_model_summary_str}\n \
@@ -596,8 +581,12 @@ class FuncSignProbDockWidget(cutter.CutterDockWidget):
         self.inferenceClass = InferenceClass(parent)
         self.inferenceClass.resultReady.connect(self.showInferenceResult)
         self.inferenceClass.summaryReady.connect(self.showInferenceResultSummary)
+        self.inferenceClass.updateProgressBar.connect(self.updateProgressBar)
         
-        
+    
+    @Slot()
+    def updateProgressBar(self, value):
+        self._progressBar.setValue(value)   
         
     @Slot()
     def showInferenceResultSummary(self, result):
@@ -611,7 +600,7 @@ class FuncSignProbDockWidget(cutter.CutterDockWidget):
         
     def update_contents(self):
         self._funcSignLabel.setText('Please wait ...')
-        self._progressBar.setValue(50)
+        self._progressBar.setValue(0)
         
         self.inferenceClass.start()
             
