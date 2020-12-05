@@ -31,6 +31,7 @@ def parseArgs():
     config['max_seq_length_file'] = ''
     config['vocabulary_file'] = ''
     config['tfrecord_save_dir'] = ''
+    config['balanced_dataset_dir'] = ''
  
     try:
         args, rest = getopt.getopt(sys.argv[1:], short_opts, long_opts)
@@ -68,6 +69,8 @@ def parseArgs():
         config['vocabulary_file'] = config['save_dir'] + 'tfrecord/' + 'vocabulary_list.pickle'
     if config['tfrecord_save_dir'] == '':
         config['tfrecord_save_dir'] = config['save_dir'] + 'tfrecord/'
+    if config['balanced_dataset_dir'] == '':
+        config['balanced_dataset_dir'] = config['save_dir'] + 'balanced/'
     
             
     return config
@@ -120,7 +123,7 @@ def main():
     print(f'We got nr_of_cpus >{nr_of_cpus}<')
     
     ## build return type dict-file and max-seq-length-file and vocabulary
-    pickle_files = common_stuff_lib.get_all_filenames_of_type(config['save_dir'], '.pickle')
+    pickle_files = common_stuff_lib.get_all_filenames_of_type(config['balanced_dataset_dir'], '.pickle')
     #print(f'pickle-files we use to build >{pickle_files}<')
     pickle_lib.print_X_pickle_filenames(pickle_files, 5)
     
@@ -128,7 +131,7 @@ def main():
     
     p = Pool(nr_of_cpus)
     
-    pickle_files = [config['save_dir'] + "/" + f for f in pickle_files]
+    pickle_files = [config['balanced_dataset_dir'] + "/" + f for f in pickle_files]
     
     star_list = zip(pickle_files, repeat(config))
     
