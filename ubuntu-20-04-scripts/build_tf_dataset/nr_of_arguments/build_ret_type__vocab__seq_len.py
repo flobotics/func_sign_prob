@@ -90,7 +90,7 @@ def proc_build(file, config):
     vocab = set()
     seq_length = 0
     
-    print(f'File >{file}<')
+    print(f'Parsing file >{file}<\t\t\t\t', end='\r')
     
     cont = pickle_lib.get_pickle_file_content(file)
     for item in cont:
