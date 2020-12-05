@@ -195,11 +195,11 @@ def main():
             #print(f"counts_dict[counts_dict_key] >{counts_dict[counts_dict_key]}<")
             ret_type_counter[counts_dict_key]  += counts_dict[counts_dict_key]
         
-    print(f"The counts of every nr_of_arguments :")
+    print(f"The counts of every argument one type:")
     for key in ret_type_counter:
-        print(f"nr_of_args >{key}< exists\t\t\t>{ret_type_counter[key]}< \ttimes")
+        print(f"arg one type >{key}< exists\t\t\t>{ret_type_counter[key]}< \ttimes")
     
-    config['minimum_nr_of_return_types'] = input('Put in minimum nr of nr_of_args to build balanced dataset:')
+    config['minimum_nr_of_return_types'] = input('Put in minimum nr of arg_one to build balanced dataset:')
     
     ### filter all that >= int(config['minimum_nr_of_return_types'])
     ret_type_counter_filtered = dict()
@@ -213,11 +213,11 @@ def main():
     ### filter and store to dict the usable text,label pairs
     
     for key in ret_type_counter_filtered:
-        print(f'build balanced with key >{key}<')
+        print(f'build balanced with arg one type >{key}<')
         t = Thread(target=proc_build_balanced, args=(pickle_files_save_dir, key, int(config['minimum_nr_of_return_types']), config, ))
         t.start()
         
-    print(f'Run transform_ret_type_to_int.py next')
+    print(f'Run build_balanced_ret_type__vocab__seq_len.py next')
 
     
 if __name__ == "__main__":
