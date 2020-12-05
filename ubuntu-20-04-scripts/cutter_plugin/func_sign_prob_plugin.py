@@ -379,7 +379,7 @@ class InferenceClass(QThread):
         self.updateProgressBar.emit(10)
                   
         ### predict now nr_of_args
-        nr_of_args_prediction_summary_str = self.get_prediction('nr_of_args', 
+        nr_of_args_prediction_summary_str = self.get_prediction('nr_of_args/words_100000', 
                                                                 disasm_caller_str + disasm_callee_str, 
                                                                 func_sign_prob_git_path)
                    
