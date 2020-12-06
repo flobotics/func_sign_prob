@@ -1,5 +1,7 @@
 In every folder is a complete trainable model.
 
+For training use tf-nightly2.5 
+
 In directory caller_callee you can train a model with</br> text:caller_callee_disassembly</br>
 label:function-return-type</br>
 
