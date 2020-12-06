@@ -21,6 +21,52 @@ import disassembly_lib
 
 
 
+
+def print_one_pickle_list_item(pickle_file_content):
+    item = next(iter(pickle_file_content))
+    if item:
+        print(f'function-signature: {item[0]}')
+        print(f'gdb-ptype: {item[1]}')
+        print(f'function-name: {item[2]}')
+        print(f'function-file-name: {item[3]}')
+        print(f'disassembly-att: {item[4]}')
+        print(f'disassembly-intel: {item[5]}')
+        print(f'package-name: {item[6]}')
+        print(f'binary-name: {item[7]}')
+    else:
+        print('Error item[0]')
+
+
+
+def serialize_example(feature0, feature1):
+    """
+    Creates a tf.train.Example message ready to be written to a file.
+    """
+    # Create a dictionary mapping the feature name to the tf.train.Example-compatible
+    # data type.
+    feature0 = feature0.numpy()
+    feature1 = feature1.numpy()
+    feature = {
+              'caller_callee': tf.train.Feature(bytes_list=tf.train.BytesList(value=[feature0])),
+              'label': tf.train.Feature(bytes_list=tf.train.BytesList(value=[feature1])),
+    }
+    
+    # Create a Features message using tf.train.Example.
+    
+    example_proto = tf.train.Example(features=tf.train.Features(feature=feature))
+    return example_proto.SerializeToString()  
+
+    
+    
+def tf_serialize_example(f0,f1):
+    tf_string = tf.py_function(
+      serialize_example,
+      (f0,f1),  # pass these args to the above function.
+      tf.string)      # the return type is `tf.string`.
+    return tf.reshape(tf_string, ()) # The result is a scalar  
+
+
+ 
 def proc_build(tarbz2_file, work_dir, save_dir, config):
     
     tarbz2_lib.untar_file_to_path(tarbz2_file, work_dir)
@@ -47,7 +93,7 @@ def proc_build(tarbz2_file, work_dir, save_dir, config):
     ## 4. check if this disassembly calls another function
     ## 4.1 filter @plt
     ## 5. if yes: get disassembly of caller function
-    ## 6. save caller, callee, nr_of_args
+    ## 6. save caller, callee, func_signature
     ## 7. check again, if it calls another function
     ## 8. if yes: get disassembly of caller function
     ## 9. save caller, calle, func_signature
@@ -76,31 +122,25 @@ def proc_build(tarbz2_file, work_dir, save_dir, config):
                                 ### if we found it, get return type and disassembly
                                 if elem2[7] == bin and elem2[2] == callee_name:
                                     
-                                    #return_type_func_sign = return_type_lib.get_return_type_from_function_signature(elem2[0])
-                                    #return_type = return_type_lib.get_return_type_from_gdb_ptype(elem2[1])
-                                    
-                                    nr_of_args = return_type_lib.get_nr_of_args_from_function_signature(elem2[0])
+                                    return_type_func_sign = return_type_lib.get_return_type_from_function_signature(elem2[0])
+                                    return_type = return_type_lib.get_return_type_from_gdb_ptype(elem2[1])
                                     
                                     ###for debugging, what string is still unknown ?? should show nothing
-#                                     if return_type == 'unknown':
-#                                         print(f'string_before_func_name: {return_type_func_sign}')
-#                                      
-#                                     if return_type == 'unknown':
-#                                         #print('unknown found')
-#                                         #breaker = True
-#                                         #break
-#                                         pass
-#                                     elif return_type == 'delete':
-#                                         #print('delete found')
-#                                         ### no return type found, so delete this item
-#                                         pass
-#                                     elif return_type == 'process_further':
-#                                         print(f'ERRROOOORRRR---------------')
-                                    if nr_of_args == -1:
-                                        print(f'Error nr_of_args')
+                                    if return_type == 'unknown':
+                                        print(f'string_before_func_name: {return_type_func_sign}')
+                                     
+                                    if return_type == 'unknown':
+                                        #print('unknown found')
+                                        #breaker = True
+                                        #break
+                                        pass
+                                    elif return_type == 'delete':
+                                        #print('delete found')
+                                        ### no return type found, so delete this item
+                                        pass
+                                    elif return_type == 'process_further':
+                                        print(f'ERRROOOORRRR---------------')
                                     else:
-                                        print(f'nr_of_args >{nr_of_args}<', end='\r')
-                                        
                                         tmp_att_dis = att_dis
                                         #print(f'len att-dis 1 >{len(tmp_att_dis)}<')
                                         tmp_att_dis = disassembly_lib.clean_att_disassembly_from_comment(tmp_att_dis)
@@ -116,7 +156,6 @@ def proc_build(tarbz2_file, work_dir, save_dir, config):
                                         dis2_str = disassembly_lib.split_disassembly(dis2_str)
                                         #dis1_str = dis_split(dis1_str)
                                         #dis2_str = dis_split(dis2_str)
-                                        #print(f'dis1_str >{dis1_str}<')
                                         
                                         ##the max-seq-length blows memory (>160GB ram) with model.fit() if e.g. over 6million
                                         if (len(dis1_str) > 100000) or (len(dis2_str) > 100000) or (len(dis1_str) < 1) or (len(dis2_str) < 1):
@@ -130,7 +169,7 @@ def proc_build(tarbz2_file, work_dir, save_dir, config):
                                                 
                                             #print(f'dis_str >{dis_str}<')
                                         
-                                            dataset_list.append((dis_str, nr_of_args))
+                                            dataset_list.append((dis_str, return_type))
                                             counter += 1
                                             
                                         break
@@ -190,8 +229,8 @@ def check_config(config):
         
     print(f'config >{config}<')
     print() 
-        
-
+  
+  
 def copy_files_to_build_dataset(config):
     pickle_files = common_stuff_lib.get_all_filenames_of_type(config['pickle_dir'], '.tar.bz2')
     if len(pickle_files) > 0:
@@ -227,7 +266,7 @@ def copy_files_to_build_dataset(config):
     print()
 
     
-
+      
 def main():
     config = common_stuff_lib.parseArgs()
     check_config(config)
@@ -237,11 +276,15 @@ def main():
     print()
     
     copy_files_to_build_dataset(config)
+    
+    ### get all pickle files
+    #pickle_files = get_all_tar_filenames(config['pickle_dir'])
     pickle_files = common_stuff_lib.get_all_filenames_of_type(config['pickle_dir'], '.tar.bz2')
     ### print 5 files, check and debug
     pickle_lib.print_X_pickle_filenames(pickle_files, 5)
     
-     ### build
+    
+    ### build
     p = Pool(nr_of_cpus)
     
     
@@ -250,13 +293,12 @@ def main():
     all_ret_types = p.starmap(proc_build, star_list)
     p.close()
     p.join()
+      
     
-    print(f"Saved modified files to >{config['save_dir']}<")
-    print()
-    
-    print(f'Run build_ret_type__vocab__seq_len.py next')
+    print("Done. Run build_ret_type__vocab__seq_len.py next")
 
+    
 if __name__ == "__main__":
     main()
-    
+
     

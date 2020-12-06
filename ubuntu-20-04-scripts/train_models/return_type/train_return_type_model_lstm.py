@@ -18,6 +18,17 @@ def check_config(config):
         print(f'Please specify a base-dir (-b or --base-dir) , where all work is done. Check -h for help.')
         print()
         exit()
+        
+    if not os.path.isdir(config['tfrecord_save_dir']):
+        print(f"Directory >{config['tfrecord_save_dir']}< does not exist. Create it.")
+        exit()
+        
+    if not os.path.isdir(config['balanced_dataset_dir']):
+        print(f"Directory >{config['balanced_dataset_dir']}< does not exist. Create it.")
+        exit()
+        
+    print(f'config >{config}<')
+    print()
 
 
 def _parse_function(example_proto):
@@ -36,7 +47,7 @@ def _parse_function(example_proto):
 def configure_for_performance(ds):
   #ds = ds.cache()
   ds = ds.shuffle(buffer_size=1000)
-  ds = ds.batch(100)
+  ds = ds.batch(20)    ### if train needs to much memory, make smaller
   ds = ds.prefetch(buffer_size=tf.data.experimental.AUTOTUNE)
   return ds
   
@@ -114,7 +125,7 @@ print()
 print()
 #user_home_path = os.path.expanduser('~')
 #base_dir_tfrecord_path = user_home_path + "/change-this-dir/tfrecord/"
-base_dir_tfrecord_path = "/tmp/test/tfrecord/"
+base_dir_tfrecord_path = "/tmp/ret-type/tfrecord/"
 
 vocabulary = pickle_lib.get_pickle_file_content(base_dir_tfrecord_path + 'vocabulary_list.pickle')
 
@@ -134,25 +145,17 @@ def vectorize_text(text, label):
 
 def main():
     global vectorize_layer
-    global base_dir_tfrecord_path
     
     AUTOTUNE = tf.data.experimental.AUTOTUNE
     
     config = common_stuff_lib.parseArgs()
-    print(f'config >{config}<')
-    print()
     check_config(config)
     
     nr_of_cpus = psutil.cpu_count(logical=True)
     print(f'We got >{nr_of_cpus}< CPUs for threading')
     print()
     
-    print(f'tensorflow version running now >{tf.__version__}<, tested with tf-nightly2.5')
-    print()
-    
-    print(f"Build tf.data.dataset with tfrecord files from directory >{config['tfrecord_save_dir'] + 'train/'}< \
-            >{config['tfrecord_save_dir'] + 'val/'}< >{config['tfrecord_save_dir'] + 'test/'}<")
-    print()
+    print(f'tensorflow version running now >{tf.__version__}<')
 
     if os.path.isdir(config['tfrecord_save_dir'] + 'train/'):
         print(f"Found directory >{config['tfrecord_save_dir'] + 'train/'}< , so we dont use balanced dataset")
@@ -165,19 +168,12 @@ def main():
          
         tfrecord_test_dataset = tf.data.Dataset.list_files(config['tfrecord_save_dir'] + 'test/' + '*.tfrecord')
         test_dataset = tf.data.TFRecordDataset(tfrecord_test_dataset)
-        
-        train_dataset = train_dataset.map(_parse_function, num_parallel_calls=AUTOTUNE)
-        val_dataset = val_dataset.map(_parse_function, num_parallel_calls=AUTOTUNE)
-        test_dataset = test_dataset.map(_parse_function, num_parallel_calls=AUTOTUNE)
-        
     else:
         print(f"Not found directory >{config['tfrecord_save_dir'] + 'train/'}<")
         print(f"We will use balanced dataset from directory >{config['tfrecord_save_dir']}<")
         
         tfrecord_all_dataset = tf.data.Dataset.list_files(config['tfrecord_save_dir']  + '*.tfrecord')
         full_dataset = tf.data.TFRecordDataset(tfrecord_all_dataset)
-        
-        full_dataset = full_dataset.map(_parse_function, num_parallel_calls=AUTOTUNE)
         
         #DATASET_SIZE = full_dataset.cardinality().numpy()
         for num, _ in enumerate(full_dataset):
@@ -198,6 +194,10 @@ def main():
         val_dataset = test_dataset.skip(val_size)
         test_dataset = test_dataset.take(test_size)
     
+    
+    train_dataset = train_dataset.map(_parse_function, num_parallel_calls=AUTOTUNE)
+    val_dataset = val_dataset.map(_parse_function, num_parallel_calls=AUTOTUNE)
+    test_dataset = test_dataset.map(_parse_function, num_parallel_calls=AUTOTUNE)
     
     for text, label in train_dataset.take(1):
         print(f'One example from train_dataset with int-as-label:\nText: >{text}<\n Label: >{label}<')
@@ -242,31 +242,28 @@ def main():
     val_dataset = val_dataset.map(vectorize_text, num_parallel_calls=AUTOTUNE)
     test_dataset = test_dataset.map(vectorize_text, num_parallel_calls=AUTOTUNE)
     
-    #exit()
-    #embedding_dim = 64
-    embedding_dim = 128
+    embedding_dim = 64
     
-
-
-    model = tf.keras.Sequential([tf.keras.layers.Embedding(len(vocabulary)+2, embedding_dim, mask_zero=True),
-                                 tf.keras.layers.Bidirectional(tf.keras.layers.LSTM(64, return_sequences=True)),
-                                 tf.keras.layers.Bidirectional(tf.keras.layers.LSTM(32)),
-                                 tf.keras.layers.Dense(64, activation='relu'),
-                                 tf.keras.layers.Dropout(0.5),
-                                 tf.keras.layers.Dense(len(return_type_dict))])
+    ## check if we got a model, and train it more
+    print(f"save_model_dir-dir >{config['save_model_dir']}<")
     
-#     model = tf.keras.Sequential([tf.keras.layers.Embedding(len(vocabulary)+2, embedding_dim, mask_zero=True),
-#                                  tf.keras.layers.Bidirectional(tf.keras.layers.LSTM(128, return_sequences=True)),
-#                                  tf.keras.layers.Bidirectional(tf.keras.layers.LSTM(64)),
-#                                  tf.keras.layers.Dense(64, activation='relu'),
-#                                  tf.keras.layers.Dropout(0.2),
-#                                  tf.keras.layers.Dense(32, activation='relu'),
-#                                  tf.keras.layers.Dropout(0.2),
-#                                  tf.keras.layers.Dense(len(return_type_dict))])
-
-
+    if os.path.isdir(config['save_model_dir']):
+        latest_checkpoint = tf.train.latest_checkpoint(config['checkpoint_dir'])
+        print(f'Checkpoint >{latest_checkpoint}<, train this model')
+        model = tf.keras.models.load_model(config['save_model_dir'])
+        model.summary()
+    else:   
+        print(f'No trained model found, train for first time')
+        
     
-    model.summary()
+        model = tf.keras.Sequential([tf.keras.layers.Embedding(len(vocabulary)+2, embedding_dim, mask_zero=True),
+                                     tf.keras.layers.Bidirectional(tf.keras.layers.LSTM(64, return_sequences=True)),
+                                     tf.keras.layers.Bidirectional(tf.keras.layers.LSTM(32)),
+                                     tf.keras.layers.Dense(64, activation='relu'),
+                                     tf.keras.layers.Dropout(0.5),
+                                     tf.keras.layers.Dense(len(return_type_dict))])
+        
+        model.summary()
     
     ## callbacks to save tensorboard-files and model
     tensorboard_callback = tf.keras.callbacks.TensorBoard(log_dir=config['tensorboard_log_dir'], 
@@ -293,7 +290,7 @@ def main():
 
     history = model.fit(train_dataset,
                         validation_data=val_dataset,
-                        epochs=15,
+                        epochs=2,
                         callbacks=[tensorboard_callback, model_checkpoint_callback, model_checkpoint_callback2])
 
     ### evaluate the model
