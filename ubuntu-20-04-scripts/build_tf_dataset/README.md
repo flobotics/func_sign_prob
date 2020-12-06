@@ -1,5 +1,10 @@
 In every folder is a complete trainable model.
 
+</br>
+Check out ubuntu-20-04-scripts/train_models directory for newer/cleaner code.
+</br>
+
+
 For training use tf-nightly2.5 
 
 In directory caller_callee you can train a model with</br> text:caller_callee_disassembly</br>
