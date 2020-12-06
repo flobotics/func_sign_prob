@@ -338,6 +338,9 @@ def main():
     p.close()
     p.join()
     
+    print(f"Saved modified files to >{config['save_dir']}<")
+    print()
+    
     print(f'Run build_ret_type__vocab__seq_len.py next')
 
 if __name__ == "__main__":
