@@ -195,8 +195,9 @@ print(f"Sorry, you need to modify this script before running. Dont know now how 
         Just change the path at around line 193 (base_dir_tfrecord_path) to your base-dir path")
 print()
 print()
-user_home_path = os.path.expanduser('~')
-base_dir_tfrecord_path = user_home_path + "/change-this-dir/tfrecord/"
+#user_home_path = os.path.expanduser('~')
+#base_dir_tfrecord_path = user_home_path + "/change-this-dir/tfrecord/"
+base_dir_tfrecord_path = "/tmp/test/tfrecord/"
 
 vocabulary = pickle_lib.get_pickle_file_content(base_dir_tfrecord_path + 'vocabulary_list.pickle')
 
@@ -228,20 +229,20 @@ def main():
     print(f'tensorflow version running now >{tf.__version__}<, tested with tf-nightly2.5')
     print()
     
-    print(f"Build tf.data.dataset with tfrecord files from directory >{config['tfrecord_dir'] + 'train/'}< \
-            >{config['tfrecord_dir'] + 'val/'}< >{config['tfrecord_dir'] + 'test/'}<")
+    print(f"Build tf.data.dataset with tfrecord files from directory >{config['tfrecord_save_dir'] + 'train/'}< \
+            >{config['tfrecord_save_dir'] + 'val/'}< >{config['tfrecord_save_dir'] + 'test/'}<")
     print()
 
-    if os.path.isdir(config['tfrecord_dir'] + 'train/'):
-        print(f"Found directory >{config['tfrecord_dir'] + 'train/'}< , so we dont use balanced dataset")
+    if os.path.isdir(config['tfrecord_save_dir'] + 'train/'):
+        print(f"Found directory >{config['tfrecord_save_dir'] + 'train/'}< , so we dont use balanced dataset")
         
-        tfrecord_train_dataset = tf.data.Dataset.list_files(config['tfrecord_dir'] + 'train/' + '*.tfrecord')
+        tfrecord_train_dataset = tf.data.Dataset.list_files(config['tfrecord_save_dir'] + 'train/' + '*.tfrecord')
         train_dataset = tf.data.TFRecordDataset(tfrecord_train_dataset)
          
-        tfrecord_val_dataset = tf.data.Dataset.list_files(config['tfrecord_dir'] + 'val/' + '*.tfrecord')
+        tfrecord_val_dataset = tf.data.Dataset.list_files(config['tfrecord_save_dir'] + 'val/' + '*.tfrecord')
         val_dataset = tf.data.TFRecordDataset(tfrecord_val_dataset)
          
-        tfrecord_test_dataset = tf.data.Dataset.list_files(config['tfrecord_dir'] + 'test/' + '*.tfrecord')
+        tfrecord_test_dataset = tf.data.Dataset.list_files(config['tfrecord_save_dir'] + 'test/' + '*.tfrecord')
         test_dataset = tf.data.TFRecordDataset(tfrecord_test_dataset)
         
         train_dataset = train_dataset.map(_parse_function, num_parallel_calls=AUTOTUNE)
@@ -249,10 +250,10 @@ def main():
         test_dataset = test_dataset.map(_parse_function, num_parallel_calls=AUTOTUNE)
         
     else:
-        print(f"Not found directory >{config['tfrecord_dir'] + 'train/'}<")
-        print(f"We will use balanced dataset from directory >{config['tfrecord_dir']}<")
+        print(f"Not found directory >{config['tfrecord_save_dir'] + 'train/'}<")
+        print(f"We will use balanced dataset from directory >{config['tfrecord_save_dir']}<")
         
-        tfrecord_all_dataset = tf.data.Dataset.list_files(config['tfrecord_dir']  + '*.tfrecord')
+        tfrecord_all_dataset = tf.data.Dataset.list_files(config['tfrecord_save_dir']  + '*.tfrecord')
         full_dataset = tf.data.TFRecordDataset(tfrecord_all_dataset)
         
         full_dataset = full_dataset.map(_parse_function, num_parallel_calls=AUTOTUNE)

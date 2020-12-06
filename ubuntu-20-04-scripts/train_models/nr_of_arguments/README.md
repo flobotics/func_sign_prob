@@ -1,16 +1,35 @@
 clone the rep into /home/user/git
 
 
+<pre><code>
+python3 build_nr_of_args_dataset.py -b=/home/user/nr_of_args_basedir
+</code></pre>
+</br>
 
-1. python3 build_nr_of_args_dataset.py -b=/home/user/nr_of_args_basedir
+<pre><code>
+python3 build_ret_type__vocab_seq_len.py -b=/home/user/nr_of_args_basedir
+</code></pre>
+</br>
 
-2. python3 build_ret_type__vocab_seq_len.py -s=/home/user/nr_save_dir/
+<pre><code>
+python3 build_balanced_dataset.py -b=/home/user/nr_of_args_basedir
+</code></pre>
+</br>
 
-3. python3 build_balanced_dataset.py -s=/home/user/nr_save_dir/
+<pre><code>
+python3 build_balanced_ret_type__vocab_seq_len.py -b=/home/user/nr_of_args_basedir
+</code></pre>
+</br>
 
-4. python3 transform_ret_type_to_int.py -s=/home/user/nr_save_dir/
+<pre><code>
+python3 transform_ret_type_to_int.py -b=/home/user/nr_of_args_basedir
+</code></pre>
+</br>
 
-4. python3 train_nr_of_args_model_lstm.py -s=/home/user/nr_save_dir/ -m=/home/user/nr_save_dir/tfrecord/ -r=/home/user/nr_save_dir/tfrecord/ -v=/home/user/nr_save_dir/tfrecord/
+<pre><code>
+python3 train_nr_of_args_model_lstm.py -b=/home/user/nr_of_args_basedir
+</code></pre>
+</br>
 
 
 Epoch 39/40
