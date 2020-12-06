@@ -1,4 +1,8 @@
 clone the rep into /home/user/git
+</br>
+Then run these commands, and you got a trained model.
+</br>
+All done with tf-nightly2.5
 
 
 <pre><code>
