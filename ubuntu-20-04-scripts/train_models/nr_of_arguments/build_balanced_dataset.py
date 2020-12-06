@@ -25,12 +25,13 @@ import disassembly_lib
 
 
 def parseArgs():
-    short_opts = 'hp:s:w:t:r:m:v:f:b:n:'
-    long_opts = ['pickle-dir=', 'work-dir=', 'save-dir=', 'save-file-type=', 
+    short_opts = 'hp:s:w:t:r:m:v:f:d:n:b:'
+    long_opts = ['pickle-dir=', 'work-dir=', 'save-dir=', 'save-file-type=', 'base-dir=',
                  'return-type-dict-file', 'max-seq-length-file=', 'vocab-file=', 'tfrecord-save-dir=',
                  'balanced-dataset-dir=', 'minimum-nr-of-return-types=']
     config = dict()
     
+    config['base_dir'] = ''
     config['pickle_dir'] = ''
     config['work_dir'] = ''
     config['save_dir'] = ''
@@ -67,35 +68,50 @@ def parseArgs():
             config['vocabulary_file'] = option_value[1:]
         elif option_key in ('-f', '--tfrecord-save-dir'):
             config['tfrecord_save_dir'] = option_value[1:]
-        elif option_key in ('-b', '--balanced-dataset-dir'):
+        elif option_key in ('-d', '--balanced-dataset-dir'):
             config['balanced_dataset_dir'] = option_value[1:]
         elif option_key in ('-n', '--minimum-nr-of-return-types'):
             config['minimum_nr_of_return_types'] = option_value[1:]
+        elif option_key in ('-b', '--base-dir'):
+            config['base_dir'] = option_value[1:]
         elif option_key in ('-h'):
+            print(f'<optional> -b or --base-dir The directory where all work is done')
             print(f'<optional> -p or --pickle-dir The directory with disassemblies,etc. Default: ubuntu-20-04-pickles')
             print(f'<optional> -w or --work-dir   The directory where we e.g. untar,etc. Default: /tmp/work_dir/')
             print(f'<optional> -s or --save-dir   The directory where we save dataset.  Default: /tmp/save_dir/')
-            print(f'<optional> -b or --balanced-dataset-dir  The directory where we save the balanced dataset. Default: /tmp/save_dir/balanced/')
+            print(f'<optional> -d or --balanced-dataset-dir  The directory where we save the balanced dataset. Default: /tmp/save_dir/balanced/')
             print(f'<optional> -n or --minimum-nr-of-return-types  The minimum nr of return types. ')
             
-    if config['pickle_dir'] == '':
-        config['pickle_dir'] = '../../../ubuntu-20-04-pickles'
-    if config['work_dir'] == '':
-        config['work_dir'] = '/tmp/work_dir/'
-    if config['save_dir'] == '':
-        config['save_dir'] = '/tmp/save_dir/'
-    if config['save_file_type'] == '':
-        config['save_file_type'] = 'pickle'
-    if config['return_type_dict_file'] == '':
-        config['return_type_dict_file'] = config['save_dir'] + 'tfrecord/' + 'return_type_dict.pickle'
-    if config['max_seq_length_file'] == '':
-        config['max_seq_length_file'] = config['save_dir'] + 'tfrecord/' + 'max_seq_length.pickle'
-    if config['vocabulary_file'] == '':
-        config['vocabulary_file'] = config['save_dir'] + 'tfrecord/' + 'vocabulary_list.pickle'
-    if config['tfrecord_save_dir'] == '':
-        config['tfrecord_save_dir'] = config['save_dir'] + 'tfrecord/'
-    if config['balanced_dataset_dir'] == '':
-        config['balanced_dataset_dir'] = config['save_dir'] + 'balanced/'
+    
+    if not config['base_dir'] == '':
+        config['base_dir'] = common_stuff_lib.check_trailing_slash_in_path(config['base_dir'])
+                
+        if config['pickle_dir'] == '':
+            config['pickle_dir'] = config['base_dir'] + 'pickles_for_dataset/'
+            
+        if config['work_dir'] == '':
+            config['work_dir'] = config['base_dir'] + 'work_dir/'
+            
+        if config['save_dir'] == '':
+            config['save_dir'] = config['base_dir'] + 'save_dir/'
+            
+        if config['save_file_type'] == '':
+            config['save_file_type'] = 'pickle'
+            
+        if config['tfrecord_save_dir'] == '':
+            config['tfrecord_save_dir'] = config['base_dir'] + 'tfrecord/'
+            
+        if config['return_type_dict_file'] == '':
+            config['return_type_dict_file'] = config['tfrecord_save_dir'] + 'return_type_dict.pickle'
+            
+        if config['max_seq_length_file'] == '':
+            config['max_seq_length_file'] = config['tfrecord_save_dir'] + 'max_seq_length.pickle'
+            
+        if config['vocabulary_file'] == '':
+            config['vocabulary_file'] = config['tfrecord_save_dir'] + 'vocabulary_list.pickle'
+                
+        if config['balanced_dataset_dir'] == '':
+            config['balanced_dataset_dir'] = config['base_dir'] + 'balanced_dataset/'
     
             
     return config
@@ -154,27 +170,55 @@ def proc_build_balanced(pickle_files, key, minimum_ret_type_count, config):
     
       
 def check_config(config):
-    if not os.path.isdir(config['balanced_dataset_dir']):
-        print(f"Balanced dataset save dir >{config['balanced_dataset_dir']}< does not exist. Create it.")
+    if config['base_dir'] == '':
+        print(f'Please specify a base-dir (-b or --base-dir) , where all work is done. Check -h for help.')
+        print()
         exit()
         
-#     if not int(config['minimum_nr_of_return_types']) > 0:
-#         print(f'Please give minimum_nr_of_return_types. Try -n, -h for help')
-#         exit()
+        
+    if not os.path.isdir(config['balanced_dataset_dir']):
+        os.mkdir(config['balanced_dataset_dir'])
+        
 
+def check_if_balanced_dir_is_empty(config):
+    pickle_files = common_stuff_lib.get_all_filenames_of_type(config['balanced_dataset_dir'], '.pickle')
+    
+    if len(pickle_files) > 0:
+        decision = 'z'
+        while( (decision != 'y') and (decision != 'n' ) ):
+            decision = input(f"There are still files in >{config['balanced_dataset_dir']}< . Do you want to use them: Type in (y/n):")
+    
+        print()
+        if decision == 'y':
+            print(f'Using files still there')
+            print()
+            return
+        
+        print(f"Deleting files in >{config['balanced_dataset_dir']}<")
+        print()
+        for file in pickle_files:
+            os.remove(config['balanced_dataset_dir'] + file)
+        
+        
+    
 def main():
     config = parseArgs()
     
     check_config(config)
     
     nr_of_cpus = psutil.cpu_count(logical=True)
-    print(f'We got nr_of_cpus >{nr_of_cpus}<')
+    print(f'We got >{nr_of_cpus}< CPUs for threading')
+    print()
+    
+    check_if_balanced_dir_is_empty(config)
     
     ret_type_dict = pickle_lib.get_pickle_file_content(config['return_type_dict_file'])
     
     ## get number of different return types
     pickle_files = common_stuff_lib.get_all_filenames_of_type(config['save_dir'], '.pickle')
     
+    print(f'Building balanced dataset now')
+    print()
     p = Pool(nr_of_cpus)
     
     pickle_files_save_dir = [config['save_dir'] + "/" + f for f in pickle_files]
@@ -197,7 +241,7 @@ def main():
         
     print(f"The counts of every nr_of_arguments :")
     for key in ret_type_counter:
-        print(f"nr_of_args >{key}< exists\t\t\t>{ret_type_counter[key]}< \ttimes")
+        print(f"Functions with >{key}< argument(s) exists\t\t\t>{ret_type_counter[key]}< \ttimes")
     
     config['minimum_nr_of_return_types'] = input('Put in minimum nr of nr_of_args to build balanced dataset:')
     

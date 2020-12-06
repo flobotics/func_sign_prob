@@ -54,5 +54,10 @@ def is_type_known(arg_one):
         
     return False
      
-    
+     
+def check_trailing_slash_in_path(path):
+    if not path.endswith('/'):
+        path = path + '/'
+        
+    return path    
     

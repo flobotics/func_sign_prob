@@ -18,12 +18,6 @@ import disassembly_lib
 #import tfrecord_lib
 
 
-def check_trailing_slash_in_path(path):
-    if not path.endswith('/'):
-        path = path + '/'
-        
-    return path
-
 
 def parseArgs():
     short_opts = 'hs:t:r:m:v:f:b:'
@@ -62,12 +56,13 @@ def parseArgs():
         elif option_key in ('-b', '--base-dir'):
             config['base_dir'] = option_value[1:]
         elif option_key in ('-h'):
+            print(f'<optional> -b or --base-dir   The directory where all work is done')
             print(f'<optional> -s or --save-dir   The directory where we get the dataset from.  Default: /tmp/save_dir')
             
 
     ##if base-dir is specified, check for trailing slash
     if not config['base_dir'] == '':
-        config['base_dir'] = check_trailing_slash_in_path(config['base_dir'])
+        config['base_dir'] = common_stuff_lib.check_trailing_slash_in_path(config['base_dir'])
         
         if config['save_dir'] == '':
             config['save_dir'] = config['base_dir'] + 'save_dir/'
