@@ -1,3 +1,18 @@
+clone the rep into /home/user/git
+
+To train only a part of the dataset, which is much faster for testing.
+
+Create directory /home/user/test</br>
+Create directory /home/user/nr_save_dir</br>
+Create directory /home/user/nr_work_dir</br>
+</br>
+Then copy only some files to /home/user/test dir
+</br>
+cp /home/user/git/func_sign_prob/ubuntu-20-04-pickles/a* /home/user/test
+</br>
+
+
+
 Dont forget / after paths
 
 1. python3 build_caller_callee_dataset.py -p=/home/user/test -s=/home/user/save_dir/ -w=/home/user/work_dir/

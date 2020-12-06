@@ -1,13 +1,27 @@
+clone the rep into /home/user/git
+
+To train only a part of the dataset, which is much faster for testing.
+
+Create directory /home/user/nr_test</br>
+Create directory /home/user/nr_save_dir</br>
+Create directory /home/user/nr_work_dir</br>
+</br>
+Then copy only some files to /home/user/nr_test dir
+</br>
+cp /home/user/git/func_sign_prob/ubuntu-20-04-pickles/a* /home/user/nr_test
+</br>
+
+
 1. python3 build_arg_one_dataset.py -p=/home/user/nr_test/ -s=/home/user/nr_save_dir/ -w=/home/user/nr_work_dir/
-
+</br>
 2. python3 build_ret_type__vocab_seq_len.py -s=/home/user/nr_save_dir/
-
+</br>
 3. python3 build_balanced_dataset.py -s=/home/user/nr_save_dir/
-
+</br>
 4. python3 transform_ret_type_to_int.py -s=/home/user/nr_save_dir/
-
+</br>
 4. python3 train_arg_one_model_lstm.py -s=/home/user/nr_save_dir/ -m=/home/user/nr_save_dir/tfrecord/ -r=/home/user/nr_save_dir/tfrecord/ -v=/home/user/nr_save_dir/tfrecord/
-
+</br>
 5. python3 predict_with_trained_model.py -c=/home/user/nr_save_dir/tensorboard_logs/
 
 
