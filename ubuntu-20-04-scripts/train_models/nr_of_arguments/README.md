@@ -3,6 +3,10 @@ clone the rep into /home/user/git
 Then run these commands, and you got a trained model.
 </br>
 All done with tf-nightly2.5
+</br>
+
+The "/home/user/nr_of_args_basedir" directory you can choose by yourself, it will be
+created if not exist.
 
 
 <pre><code>
