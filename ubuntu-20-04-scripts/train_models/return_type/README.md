@@ -1,43 +1,45 @@
+This model is trained with text=caller-callee-disassembly and label=function-return-type
+
 clone the rep into /home/user/git
-
-To train only a part of the dataset, which is much faster for testing.
-
-Create directory /home/user/test</br>
-Create directory /home/user/nr_save_dir</br>
-Create directory /home/user/nr_work_dir</br>
 </br>
-Then copy only some files to /home/user/test dir
+Then run these commands, and you got a trained model.
 </br>
-cp /home/user/git/func_sign_prob/ubuntu-20-04-pickles/a* /home/user/test
+All done with tf-nightly2.5
 </br>
 
+The "/home/user/ret_type_basedir" directory you can choose by yourself, it will be
+created if not exist.
 
 
-Dont forget / after paths
+<pre><code>
+python3 build_return_type_dataset.py -b=/home/user/ret_type_basedir
+</code></pre>
+</br>
 
-1. python3 build_caller_callee_dataset.py -p=/home/user/test -s=/home/user/save_dir/ -w=/home/user/work_dir/
+<pre><code>
+python3 build_ret_type__vocab_seq_len.py -b=/home/user/ret_type_basedir
+</code></pre>
+</br>
 
-2. python3 build_ret_type__vocab__seq_len.py -s=/home/user/save_dir/
+<pre><code>
+python3 build_balanced_dataset.py -b=/home/user/ret_type_basedir
+</code></pre>
+</br>
 
-3. python3 transform_ret_type_to_int.py -s=/home/user/save_dir/
+<pre><code>
+python3 build_balanced_ret_type__vocab_seq_len.py -b=/home/user/ret_type_basedir
+</code></pre>
+</br>
 
-4. python3 split_dataset_to_train_val_test.py -s=/home/user/save_dir/
+<pre><code>
+python3 transform_ret_type_to_int.py -b=/home/user/ret_type_basedir
+</code></pre>
+</br>
 
-
-### train with balanced dataset
-1. python3 build_caller_callee_dataset.py -p=/home/user/test -s=/home/user/save_dir/ -w=/home/user/work_dir/
-
-2. python3 build_ret_type__vocab__seq_len.py -s=/home/user/save_dir/
-
-3. python3 build_balanced_dataset.py -s=/home/user/save_dir/
-
-4. python3 transform_ret_type_to_int.py -s=/home/user/save_dir/balanced/ -f=/home/user/save_dir/tfrecord/ -r=/home/user/save_dir/tfrecord/return_type_dict.pickle -m=/home/user/save_dir/tfrecord/max_seq_length.pickle -v=/home/user/save_dir/tfrecord/vocabulary_list.pickle
-
-5. Dont split dataset (remove train/test/val dir in tfrecord dir, if exist)
-
-
-##modify path in file till now
-5. python3 train_caller_callee_model.py -s=/home/user/save_dir/
+<pre><code>
+python3 train_return_type_model_lstm.py -b=/home/user/ret_type_basedir
+</code></pre>
+</br>
 
 
 # Run with n1-standard-16(16vCPUs,60GB RAM)  8xV100 Tesla GPU
