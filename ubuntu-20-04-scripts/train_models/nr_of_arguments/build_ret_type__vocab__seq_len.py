@@ -19,77 +19,6 @@ import disassembly_lib
 
 
 
-def parseArgs():
-    short_opts = 'hs:t:r:m:v:f:b:'
-    long_opts = ['save-dir=', 'save-file-type=', 'base-dir=',
-                 'return-type-dict-file', 'max-seq-length-file=', 'vocab-file=', 'tfrecord-save-dir=']
-    config = dict()
-
-    config['base_dir'] = ''
-    config['save_dir'] = ''
-    config['save_file_type'] = ''
-    config['return_type_dict_file'] = ''
-    config['max_seq_length_file'] = ''
-    config['vocabulary_file'] = ''
-    config['tfrecord_save_dir'] = ''
- 
-    try:
-        args, rest = getopt.getopt(sys.argv[1:], short_opts, long_opts)
-    except getopt.GetoptError as msg:
-        print(msg)
-        print(f'Call with argument -h to see help')
-        exit()
-    
-    for option_key, option_value in args:
-        if option_key in ('-s', '--save-dir'):
-            config['save_dir'] = option_value[1:]
-        elif option_key in ('-t', '--save-file-type'):
-            config['save_file_type'] = option_value[1:]
-        elif option_key in ('-r', '--return-type-dict-file'):
-            config['return_type_dict_file'] = option_value[1:]
-        elif option_key in ('-m', '--max-seq-length-file'):
-            config['max_seq_length_file'] = option_value[1:]
-        elif option_key in ('-v', '--vocab-file'):
-            config['vocabulary_file'] = option_value[1:]
-        elif option_key in ('-f', '--tfrecord-save-dir'):
-            config['tfrecord_save_dir'] = option_value[1:]
-        elif option_key in ('-b', '--base-dir'):
-            config['base_dir'] = option_value[1:]
-        elif option_key in ('-h'):
-            print(f'<optional> -b or --base-dir   The directory where all work is done')
-            print(f'<optional> -s or --save-dir   The directory where we get the dataset from.  Default: /tmp/save_dir')
-            
-
-    ##if base-dir is specified, check for trailing slash
-    if not config['base_dir'] == '':
-        config['base_dir'] = common_stuff_lib.check_trailing_slash_in_path(config['base_dir'])
-        
-        if config['save_dir'] == '':
-            config['save_dir'] = config['base_dir'] + 'save_dir/'
-            
-        if config['save_file_type'] == '':
-            config['save_file_type'] = 'pickle'
-            
-        if config['tfrecord_save_dir'] == '':
-            config['tfrecord_save_dir'] = config['base_dir'] + 'tfrecord/'
-            
-        if config['return_type_dict_file'] == '':
-            config['return_type_dict_file'] = config['tfrecord_save_dir'] + 'return_type_dict.pickle'
-            
-        if config['max_seq_length_file'] == '':
-            config['max_seq_length_file'] = config['tfrecord_save_dir'] + 'max_seq_length.pickle'
-            
-        if config['vocabulary_file'] == '':
-            config['vocabulary_file'] = config['tfrecord_save_dir'] + 'vocabulary_list.pickle'
-        
-       
-    return config
-
-
-
-
-
-
 def proc_build(file, config):
     
     ret_set = set()
@@ -130,7 +59,7 @@ def check_config(config):
         
 
 def main():
-    config = parseArgs()
+    config = common_stuff_lib.parseArgs()
     print(f'config >{config}<')
     print()
     check_config(config)
