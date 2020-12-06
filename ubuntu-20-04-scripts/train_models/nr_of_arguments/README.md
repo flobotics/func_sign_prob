@@ -1,3 +1,5 @@
+This model is trained with text=caller-callee-disassembly and label=number-of-function-arguments
+
 clone the rep into /home/user/git
 </br>
 Then run these commands, and you got a trained model.
