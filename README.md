@@ -1,5 +1,7 @@
 # func_sign_prob
 
+# Check out ubuntu-20-04-scripts/train_models
+
 user => your username in the system
 
 Hints for running on cloud instances (gcp or aws). If your ssh connection crashes, the script runs on, re-connect and
