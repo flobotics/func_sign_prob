@@ -7,84 +7,85 @@ import sys
 import os
 sys.path.append('../../lib/')
 import pickle_lib
+import common_stuff_lib
 
 
-def parseArgs():
-    short_opts = 'hs:w:t:r:m:v:f:b:'
-    long_opts = ['work-dir=', 'save-dir=', 'save-file-type=', 'balanced-dataset-dir=',
-                 'return-type-dict-file', 'max-seq-length-file=', 'vocab-file=', 'tfrecord-dir=']
-    config = dict()
-    
-    config['work_dir'] = ''
-    config['save_dir'] = ''
-    config['save_file_type'] = ''
-    config['return_type_dict_file'] = ''
-    config['max_seq_length_file'] = ''
-    config['vocabulary_file'] = ''
-    config['tfrecord_dir'] = ''
-    config['tensorboard_log_dir'] = ''
-    config['checkpoint_dir'] = '' ##need to be in base-dir for projector to work
-    config['save_model_dir'] = ''
-    config['trained_word_embeddings_dir'] = ''
-    config['balanced_dataset_dir'] = ''
-    
- 
-    try:
-        args, rest = getopt.getopt(sys.argv[1:], short_opts, long_opts)
-    except getopt.GetoptError as msg:
-        print(msg)
-        print(f'Call with argument -h to see help')
-        exit()
-    
-    for option_key, option_value in args:
-        if option_key in ('-w', '--work-dir'):
-            config['work_dir'] = option_value[1:]
-        elif option_key in ('-s', '--save-dir'):
-            config['save_dir'] = option_value[1:]
-        elif option_key in ('-t', '--save-file-type'):
-            config['save_file_type'] = option_value[1:]
-        elif option_key in ('-r', '--return-type-dict-file'):
-            config['return_type_dict_file'] = option_value[1:]
-        elif option_key in ('-m', '--max-seq-length-file'):
-            config['max_seq_length_file'] = option_value[1:]
-        elif option_key in ('-v', '--vocab-file'):
-            config['vocabulary_file'] = option_value[1:]
-        elif option_key in ('-f', '--tfrecord-dir'):
-            config['tfrecord_dir'] = option_value[1:]
-        elif option_key in ('-b', '--balanced-dataset-dir'):
-            config['balanced_dataset_dir'] = option_value[1:]
-        elif option_key in ('-h'):
-            print(f'<optional> -p or --pickle-dir The directory with disassemblies,etc. Default: ubuntu-20-04-pickles')
-            print(f'<optional> -w or --work-dir   The directory where we e.g. untar,etc. Default: /tmp/work_dir/')
-            print(f'<optional> -s or --save-dir   The directory where we save dataset.  Default: /tmp/save_dir')
-            print(f'<optional> -b or --balanced-dataset-dir  The directory where we save the balanced dataset. Default: /tmp/save_dir/balanced/')
-            
-    if config['work_dir'] == '':
-        config['work_dir'] = '/tmp/work_dir/'
-    if config['save_dir'] == '':
-        config['save_dir'] = '/tmp/save_dir/'
-    if config['save_file_type'] == '':
-        config['save_file_type'] = 'pickle'
-    if config['return_type_dict_file'] == '':
-        config['return_type_dict_file'] = config['save_dir'] + 'tfrecord/' + 'return_type_dict.pickle'
-    if config['max_seq_length_file'] == '':
-        config['max_seq_length_file'] = config['save_dir'] + 'tfrecord/' + 'max_seq_length.pickle'
-    if config['vocabulary_file'] == '':
-        config['vocabulary_file'] = config['save_dir'] + 'tfrecord/' + 'vocabulary_list.pickle'
-    if config['tfrecord_dir'] == '':
-        config['tfrecord_dir'] = config['save_dir'] + 'tfrecord/'
-    if config['tensorboard_log_dir'] == '':
-        config['tensorboard_log_dir'] = config['save_dir'] + 'tensorboard_logs/'
-    if config['checkpoint_dir'] == '':
-        config['checkpoint_dir'] = config['tensorboard_log_dir'] + 'caller_callee_checkpoint' ##need to be in base-dir for projector to work
-    if config['save_model_dir'] == '':
-        config['save_model_dir'] = config['tensorboard_log_dir'] +  'saved_model/'
-    if config['trained_word_embeddings_dir'] == '':
-        config['trained_word_embeddings_dir'] = config['tensorboard_log_dir'] +  'trained_word_embeddings/'
-    if config['balanced_dataset_dir'] == '':
-        config['balanced_dataset_dir'] = config['save_dir'] + 'balanced/'
-            
-    return config
+# def parseArgs():
+#     short_opts = 'hs:w:t:r:m:v:f:b:'
+#     long_opts = ['work-dir=', 'save-dir=', 'save-file-type=', 'balanced-dataset-dir=',
+#                  'return-type-dict-file', 'max-seq-length-file=', 'vocab-file=', 'tfrecord-dir=']
+#     config = dict()
+#     
+#     config['work_dir'] = ''
+#     config['save_dir'] = ''
+#     config['save_file_type'] = ''
+#     config['return_type_dict_file'] = ''
+#     config['max_seq_length_file'] = ''
+#     config['vocabulary_file'] = ''
+#     config['tfrecord_dir'] = ''
+#     config['tensorboard_log_dir'] = ''
+#     config['checkpoint_dir'] = '' ##need to be in base-dir for projector to work
+#     config['save_model_dir'] = ''
+#     config['trained_word_embeddings_dir'] = ''
+#     config['balanced_dataset_dir'] = ''
+#     
+#  
+#     try:
+#         args, rest = getopt.getopt(sys.argv[1:], short_opts, long_opts)
+#     except getopt.GetoptError as msg:
+#         print(msg)
+#         print(f'Call with argument -h to see help')
+#         exit()
+#     
+#     for option_key, option_value in args:
+#         if option_key in ('-w', '--work-dir'):
+#             config['work_dir'] = option_value[1:]
+#         elif option_key in ('-s', '--save-dir'):
+#             config['save_dir'] = option_value[1:]
+#         elif option_key in ('-t', '--save-file-type'):
+#             config['save_file_type'] = option_value[1:]
+#         elif option_key in ('-r', '--return-type-dict-file'):
+#             config['return_type_dict_file'] = option_value[1:]
+#         elif option_key in ('-m', '--max-seq-length-file'):
+#             config['max_seq_length_file'] = option_value[1:]
+#         elif option_key in ('-v', '--vocab-file'):
+#             config['vocabulary_file'] = option_value[1:]
+#         elif option_key in ('-f', '--tfrecord-dir'):
+#             config['tfrecord_dir'] = option_value[1:]
+#         elif option_key in ('-b', '--balanced-dataset-dir'):
+#             config['balanced_dataset_dir'] = option_value[1:]
+#         elif option_key in ('-h'):
+#             print(f'<optional> -p or --pickle-dir The directory with disassemblies,etc. Default: ubuntu-20-04-pickles')
+#             print(f'<optional> -w or --work-dir   The directory where we e.g. untar,etc. Default: /tmp/work_dir/')
+#             print(f'<optional> -s or --save-dir   The directory where we save dataset.  Default: /tmp/save_dir')
+#             print(f'<optional> -b or --balanced-dataset-dir  The directory where we save the balanced dataset. Default: /tmp/save_dir/balanced/')
+#             
+#     if config['work_dir'] == '':
+#         config['work_dir'] = '/tmp/work_dir/'
+#     if config['save_dir'] == '':
+#         config['save_dir'] = '/tmp/save_dir/'
+#     if config['save_file_type'] == '':
+#         config['save_file_type'] = 'pickle'
+#     if config['return_type_dict_file'] == '':
+#         config['return_type_dict_file'] = config['save_dir'] + 'tfrecord/' + 'return_type_dict.pickle'
+#     if config['max_seq_length_file'] == '':
+#         config['max_seq_length_file'] = config['save_dir'] + 'tfrecord/' + 'max_seq_length.pickle'
+#     if config['vocabulary_file'] == '':
+#         config['vocabulary_file'] = config['save_dir'] + 'tfrecord/' + 'vocabulary_list.pickle'
+#     if config['tfrecord_dir'] == '':
+#         config['tfrecord_dir'] = config['save_dir'] + 'tfrecord/'
+#     if config['tensorboard_log_dir'] == '':
+#         config['tensorboard_log_dir'] = config['save_dir'] + 'tensorboard_logs/'
+#     if config['checkpoint_dir'] == '':
+#         config['checkpoint_dir'] = config['tensorboard_log_dir'] + 'caller_callee_checkpoint' ##need to be in base-dir for projector to work
+#     if config['save_model_dir'] == '':
+#         config['save_model_dir'] = config['tensorboard_log_dir'] +  'saved_model/'
+#     if config['trained_word_embeddings_dir'] == '':
+#         config['trained_word_embeddings_dir'] = config['tensorboard_log_dir'] +  'trained_word_embeddings/'
+#     if config['balanced_dataset_dir'] == '':
+#         config['balanced_dataset_dir'] = config['save_dir'] + 'balanced/'
+#             
+#     return config
 
 
 def check_config(config):
@@ -186,11 +187,22 @@ def save_trained_word_embeddings(model, trained_word_embeddings_dir, vectorize_l
 
 
 ###load vocabulary list
+###   HERE HERE
+### this path (base_dir_tfrecord_path) needs to be modified to your path  ##################
+print()
+print()
+print(f"Sorry, you need to modify this script before running. Dont know now how to handle it else. \
+        Just change the path at around line 193 (base_dir_tfrecord_path) to your base-dir path")
+print()
+print()
 user_home_path = os.path.expanduser('~')
-vocabulary = pickle_lib.get_pickle_file_content(user_home_path + '/ebase/nr_save_dir/' + 'tfrecord/' + 'vocabulary_list.pickle')
+base_dir_tfrecord_path = user_home_path + "/change-this-dir/tfrecord/"
+
+vocabulary = pickle_lib.get_pickle_file_content(base_dir_tfrecord_path + 'vocabulary_list.pickle')
 
 ###load max-sequence-length 
-max_seq_length = pickle_lib.get_pickle_file_content(user_home_path + '/ebase/nr_save_dir/' + 'tfrecord/' + 'max_seq_length.pickle')
+max_seq_length = pickle_lib.get_pickle_file_content(base_dir_tfrecord_path + 'max_seq_length.pickle')
+
 print(f'len-vocab-from-file >{len(vocabulary)}<')
 vectorize_layer = TextVectorization(standardize=None,
                                     max_tokens=len(vocabulary)+2,
@@ -204,17 +216,21 @@ def vectorize_text(text, label):
 
 def main():
     global vectorize_layer
+    global base_dir_tfrecord_path
     
     AUTOTUNE = tf.data.experimental.AUTOTUNE
     
-    config = parseArgs()
-    
+    config = common_stuff_lib.parseArgs()
+    print(f'config >{config}<')
+    print()
     check_config(config)
     
-    print(f'tensorflow version running now >{tf.__version__}<')
+    print(f'tensorflow version running now >{tf.__version__}<, tested with tf-nightly2.5')
+    print()
     
     print(f"Build tf.data.dataset with tfrecord files from directory >{config['tfrecord_dir'] + 'train/'}< \
             >{config['tfrecord_dir'] + 'val/'}< >{config['tfrecord_dir'] + 'test/'}<")
+    print()
 
     if os.path.isdir(config['tfrecord_dir'] + 'train/'):
         print(f"Found directory >{config['tfrecord_dir'] + 'train/'}< , so we dont use balanced dataset")

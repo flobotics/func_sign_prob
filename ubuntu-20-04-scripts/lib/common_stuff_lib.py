@@ -83,6 +83,10 @@ def parseArgs():
     config['tfrecord_save_dir'] = ''
     config['balanced_dataset_dir'] = ''
     config['minimum_nr_of_return_types'] = '0'
+    config['tensorboard_log_dir'] = ''
+    config['checkpoint_dir'] = '' ##need to be in base-dir for projector to work
+    config['save_model_dir'] = ''
+    config['trained_word_embeddings_dir'] = ''
  
     try:
         args, rest = getopt.getopt(sys.argv[1:], short_opts, long_opts)
@@ -153,7 +157,20 @@ def parseArgs():
                 
         if config['balanced_dataset_dir'] == '':
             config['balanced_dataset_dir'] = config['base_dir'] + 'balanced_dataset/'
-    
+      
+        if config['tensorboard_log_dir'] == '':
+            config['tensorboard_log_dir'] = config['base_dir'] + 'tensorboard_logs/'
+        
+        if config['checkpoint_dir'] == '':
+            config['checkpoint_dir'] = config['tensorboard_logs'] +  'caller_callee_checkpoint.ckpt' ##need to be in base-dir for projector to work
+        
+        if config['save_model_dir'] == '':
+            config['save_model_dir'] = config['tensorboard_log_dir'] +  'saved_model/'
+            
+        if config['trained_word_embeddings_dir'] == '':
+            config['trained_word_embeddings_dir'] = config['tensorboard_log_dir'] +  'trained_word_embeddings/'
+         
+         
             
     return config
     

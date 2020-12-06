@@ -20,65 +20,6 @@ import tfrecord_lib
 
 
 
-def parseArgs():
-    short_opts = 'hp:s:t:r:m:v:f:b:'
-    long_opts = ['pickle-dir=', 'save-dir=', 'save-file-type=', 'balanced-dataset-dir=',
-                 'return-type-dict-file', 'max-seq-length-file=', 'vocab-file=', 'tfrecord-save-dir=']
-    config = dict()
-    
-    config['pickle_dir'] = ''
-    config['save_dir'] = ''
-    config['save_file_type'] = ''
-    config['return_type_dict_file'] = ''
-    config['max_seq_length_file'] = ''
-    config['vocabulary_file'] = ''
-    config['tfrecord_save_dir'] = ''
-    config['balanced_dataset_dir'] = ''
- 
-    try:
-        args, rest = getopt.getopt(sys.argv[1:], short_opts, long_opts)
-    except getopt.GetoptError as msg:
-        print(msg)
-        print(f'Call with argument -h to see help')
-        exit()
-    
-    for option_key, option_value in args:
-        if option_key in ('-s', '--save-dir'):
-            config['save_dir'] = option_value[1:]
-        elif option_key in ('-t', '--save-file-type'):
-            config['save_file_type'] = option_value[1:]
-        elif option_key in ('-r', '--return-type-dict-file'):
-            config['return_type_dict_file'] = option_value[1:]
-        elif option_key in ('-m', '--max-seq-length-file'):
-            config['max_seq_length_file'] = option_value[1:]
-        elif option_key in ('-v', '--vocab-file'):
-            config['vocabulary_file'] = option_value[1:]
-        elif option_key in ('-f', '--tfrecord-save-dir'):
-            config['tfrecord_save_dir'] = option_value[1:]
-        elif option_key in ('-b', '--balanced-dataset-dir'):
-            config['balanced_dataset_dir'] = option_value[1:]
-        elif option_key in ('-h'):
-            print(f'<optional> -s or --save-dir   The directory where we get the dataset from.  Default: /tmp/save_dir')
-            print(f'<optional> -b or --balanced-dataset-dir  The directory where we save the balanced dataset. Default: /tmp/save_dir/balanced/')
-            
-    
-    if config['save_dir'] == '':
-        config['save_dir'] = '/tmp/save_dir/'
-    if config['save_file_type'] == '':
-        config['save_file_type'] = 'pickle'
-    if config['return_type_dict_file'] == '':
-        config['return_type_dict_file'] = config['save_dir'] + 'tfrecord/' + 'return_type_dict.pickle'
-    if config['max_seq_length_file'] == '':
-        config['max_seq_length_file'] = config['save_dir'] + 'tfrecord/' + 'max_seq_length.pickle'
-    if config['vocabulary_file'] == '':
-        config['vocabulary_file'] = config['save_dir'] + 'tfrecord/' + 'vocabulary_list.pickle'
-    if config['tfrecord_save_dir'] == '':
-        config['tfrecord_save_dir'] = config['save_dir'] + 'tfrecord/'
-    if config['balanced_dataset_dir'] == '':
-        config['balanced_dataset_dir'] = config['save_dir'] + 'balanced/'
-            
-    return config
-
 
 
 def check_config(config):
@@ -105,30 +46,41 @@ def proc_build(file, ret_type_dict, config):
 
 
 def check_config(config):
-    if not os.path.isfile(config['return_type_dict_file']):
-        print(f"No ret-type-dict file >{config['return_type_dict_file']}<")
+    if config['base_dir'] == '':
+        print(f'Please specify a base-dir (-b or --base-dir) , where all work is done. Check -h for help.')
+        print()
+        exit()
+        
+    if not os.path.isdir(config['tfrecord_save_dir']):
+        print(f"Directory >{config['tfrecord_save_dir']}< does not exist.")
+        exit()
+        
+    if not os.path.isdir(config['balanced_dataset_dir']):
+        print(f"Directory >{config['balanced_dataset_dir']}< does not exist.")
         exit()
          
 
 
 def main():
-    config = parseArgs()
-    
+    config = common_stuff_lib.parseArgs()
+    print(f'config >{config}<')
+    print()
     check_config(config)
     
-    print(f'config >{config}<')
-    
     nr_of_cpus = psutil.cpu_count(logical=True)
-    print(f'We got nr_of_cpus >{nr_of_cpus}<')
+    print(f'We got >{nr_of_cpus}< CPUs for threading')
+    print()
 
     ##load ret-type dict
     ret_type_dict = pickle_lib.get_pickle_file_content(config['return_type_dict_file'])
     print(f"ret-type-dict >{ret_type_dict}<")
+    print()
     
     pickle_files = common_stuff_lib.get_all_filenames_of_type(config['balanced_dataset_dir'], '.pickle')
     
     ### transform dataset ret-types to ints
     print(f"Transform return-type to int and save to >{config['tfrecord_save_dir']}<")
+    print()
     p = Pool(nr_of_cpus)
     
     pickle_files = [config['balanced_dataset_dir'] + "/" + f for f in pickle_files]
