@@ -189,7 +189,7 @@ def proc_build(tarbz2_file, work_dir, save_dir, config):
                                     if nr_of_args == -1:
                                         print(f'Error nr_of_args')
                                     else:
-                                        print(f'nr_of_args >{nr_of_args}<')
+                                        print(f'nr_of_args >{nr_of_args}<', end='\r')
                                         
                                         tmp_att_dis = att_dis
                                         #print(f'len att-dis 1 >{len(tmp_att_dis)}<')
@@ -279,6 +279,16 @@ def check_config(config):
         
 
 def copy_files_to_build_dataset(config):
+    pickle_files = common_stuff_lib.get_all_filenames_of_type(config['pickle_dir'], '.tar.bz2')
+    if len(pickle_files) > 0:
+        decision = 'z'
+        while( (decision != 'y') and (decision != 'n' ) ):
+            decision = input(f"There are still files in >{config['pickle_dir']}< . Do you want to use them: Type in (y/n):")
+    
+    if decision == 'y':
+        print(f'Using files still there')
+        return
+        
     user_home_path = os.path.expanduser('~')
     pickle_path = user_home_path + '/git/func_sign_prob/ubuntu-20-04-pickles/'
     
@@ -317,8 +327,6 @@ def main():
     pickle_files = common_stuff_lib.get_all_filenames_of_type(config['pickle_dir'], '.tar.bz2')
     ### print 5 files, check and debug
     pickle_lib.print_X_pickle_filenames(pickle_files, 5)
-    
-    exit()
     
      ### build
     p = Pool(nr_of_cpus)
