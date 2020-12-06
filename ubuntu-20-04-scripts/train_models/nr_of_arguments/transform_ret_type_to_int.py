@@ -18,18 +18,6 @@ import pickle_lib
 import disassembly_lib
 import tfrecord_lib
 
-
-
-
-
-def check_config(config):
-    if not os.path.isdir(config['save_dir']):
-        print(f"Directory >{config['save_dir']}< does not exist")
-        exit()
-        
-    if not os.path.isdir(config['tfrecord_save_dir']):
-        print(f"Directory >{config['tfrecord_save_dir']}< does not exist. Create it.")
-        exit()
         
  
 def proc_build(file, ret_type_dict, config):
