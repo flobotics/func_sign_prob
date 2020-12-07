@@ -239,9 +239,10 @@ tmp_ds = test_dataset.map(lambda x, y: x, num_parallel_calls=AUTOTUNE)
 text_ds = text_ds.concatenate(tmp_ds)
 print(f'text_ds element_spec >{text_ds.element_spec}<')
 
-print(f'Adapt text to TextVectorization layer, this takes time :(  ~1hour-15min-->8xV100')
+#print(f'Adapt text to TextVectorization layer, this takes time :(  ~1hour-15min-->8xV100')
 #text_ds = text_ds.apply(tf.data.experimental.unique())
 #vectorize_layer.adapt(text_ds.batch(64))
+print(f'Set vocabulary to TextVectorization layer')
 vectorize_layer.set_vocabulary(vocabulary)
 
 train_dataset = configure_for_performance(train_dataset)
