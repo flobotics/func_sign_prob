@@ -181,6 +181,7 @@ vocabulary = pickle_lib.get_pickle_file_content(config['vocabulary_file'])
 max_seq_length = pickle_lib.get_pickle_file_content(config['max_seq_length_file'])
 
 print(f'len-vocab-from-file >{len(vocabulary)}<')
+print(f'max_seq_length >{max_seq_length}<')
 
 vectorize_layer = TextVectorization(standardize=None,
                                     max_tokens=len(vocabulary)+2,
