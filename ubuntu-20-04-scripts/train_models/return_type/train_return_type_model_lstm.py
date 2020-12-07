@@ -307,7 +307,7 @@ model.compile(loss=tf.keras.losses.SparseCategoricalCrossentropy(from_logits=Tru
 
 history = model.fit(train_dataset,
                     validation_data=val_dataset,
-                    epochs=1,
+                    epochs=int(config['model_fit_epochs']),
                     callbacks=[tensorboard_callback, model_checkpoint_callback, model_checkpoint_callback2])
 
 ### evaluate the model
