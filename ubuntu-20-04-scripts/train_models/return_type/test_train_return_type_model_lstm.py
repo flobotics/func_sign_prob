@@ -279,6 +279,8 @@ embedding_dim = 64
 ## check if we got a model, and train it more
 print(f"save_model_dir-dir >{config['save_model_dir']}<")
 
+tf.keras.backend.clear_session()
+
 if os.path.isdir(config['save_model_dir']):
     latest_checkpoint = tf.train.latest_checkpoint(config['checkpoint_dir'])
     print(f'Checkpoint >{latest_checkpoint}<, train this model')
