@@ -44,12 +44,7 @@ def _parse_function(example_proto):
     return ex['caller_callee_disassembly'], ex['callee_return_type_int']
 
 
-def configure_for_performance(ds):
-  #ds = ds.cache()
-  ds = ds.shuffle(buffer_size=1000)
-  ds = ds.batch(20)    ### if train needs to much memory, make smaller
-  ds = ds.prefetch(buffer_size=tf.data.experimental.AUTOTUNE)
-  return ds
+
   
 
 def save_trained_word_embeddings(model, trained_word_embeddings_dir, vectorize_layer, embedding_dim):
@@ -145,7 +140,13 @@ def vectorize_text(text, label):
 #                                     output_sequence_length=max_seq_length)
 
 
-
+def configure_for_performance(ds):
+  #ds = ds.cache()
+  ds = ds.shuffle(buffer_size=1000)
+  ds = ds.batch(20)    ### if train needs to much memory, make smaller
+  ds = ds.prefetch(buffer_size=tf.data.experimental.AUTOTUNE)
+  return ds
+  
 
 #def main():
 # global vectorize_layer
@@ -287,7 +288,7 @@ else:
     print(f'No trained model found, train for first time')
     
 
-    model = tf.keras.Sequential([tf.keras.layers.Embedding(len(vocabulary)+2, embedding_dim, mask_zero=True),
+    model = tf.keras.Sequential([tf.keras.layers.Embedding(len(vocabulary)+2, embedding_dim, mask_zero=True, input_length=max_seq_length),
                                  tf.keras.layers.Bidirectional(tf.keras.layers.LSTM(64, return_sequences=True)),
                                  tf.keras.layers.Bidirectional(tf.keras.layers.LSTM(32)),
                                  tf.keras.layers.Dense(64, activation='relu'),
