@@ -204,16 +204,6 @@ max_seq_length = pickle_lib.get_pickle_file_content(config['max_seq_length_file'
 ###load vocabulary list
 vocabulary = pickle_lib.get_pickle_file_content(config['vocabulary_file'])
 
-#     vectorize_layer = TextVectorization(standardize=None,
-#                                     max_tokens=len(vocabulary)+2,
-#                                     output_mode='int',
-#                                     output_sequence_length=max_seq_length)
-
-#vectorize_layer.set_vocabulary(vocabulary)
-
-#vocab = vectorize_layer.get_vocabulary()
-#print(f'10 vocab words >{vocab[:10]}<')
-
 
 text_ds = train_dataset.map(lambda x, y: x, num_parallel_calls=AUTOTUNE)
 tmp_ds = val_dataset.map(lambda x, y: x, num_parallel_calls=AUTOTUNE)
@@ -224,7 +214,8 @@ print(f'text_ds element_spec >{text_ds.element_spec}<')
 
 print(f'Adapt text to TextVectorization layer, this takes time :(  ~1hour-15min-->8xV100')
 #text_ds = text_ds.apply(tf.data.experimental.unique())
-vectorize_layer.adapt(text_ds.batch(64))
+#vectorize_layer.adapt(text_ds.batch(64))
+vectorize_layer.set_vocabulary(vocabulary)
 
 train_dataset = configure_for_performance(train_dataset)
 val_dataset = configure_for_performance(val_dataset)
