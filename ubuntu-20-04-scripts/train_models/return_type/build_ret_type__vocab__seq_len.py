@@ -44,8 +44,6 @@ def proc_build(file, config):
         
         ##build max-seq-length
         if len(item[0]) > seq_length:
-            if len(item[0]) > 100000:
-                print(f'len-bigger 100.000')
             seq_length = len(item[0])
             
         ## build vocabulary
