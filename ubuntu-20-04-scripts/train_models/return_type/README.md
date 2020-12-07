@@ -12,7 +12,13 @@ created if not exist.
 
 
 <pre><code>
-python3 build_return_type_dataset.py -b=/home/user/ret_type_basedir
+-l=1000   The output text will be maximum this value, bigger ones will be discarded. This option is for smaller GPU setups. If you got e.g. CPU-only use ~300-1000,  for e.g. 8xV100 use 200000
+</code></pre>
+</br>
+
+
+<pre><code>
+python3 build_return_type_dataset.py -b=/home/user/ret_type_basedir -l=1000
 </code></pre>
 </br>
 
