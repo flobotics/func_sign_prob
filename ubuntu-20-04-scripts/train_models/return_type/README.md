@@ -12,7 +12,9 @@ created if not exist.
 
 
 <pre><code>
--l=1000   The output text will be maximum this value, bigger ones will be discarded. This option is for smaller GPU setups. If you got e.g. CPU-only use ~300-1000,  for e.g. 8xV100 use 200000
+-l=1000   The output text will be maximum this value, bigger ones will be discarded. <br/>
+			This option is for smaller GPU setups. If you got e.g. CPU-only use ~300-1000,  for e.g. 8xV100 use 200000.</br>
+			Default is 200000
 </code></pre>
 </br>
 
