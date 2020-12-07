@@ -14,7 +14,8 @@ created if not exist.
 <pre><code>
 -l=1000   The output text will be maximum this value, bigger ones will be discarded. <br/>
 			This option is for smaller GPU setups. If you got e.g. CPU-only use ~300-1000,  for e.g. 8xV100 use 200000.</br>
-			Default is 200000
+			Default is 200000</br>
+-e=2	  The number of epochs it should train. Default: 1
 </code></pre>
 </br>
 
@@ -45,7 +46,7 @@ python3 transform_ret_type_to_int.py -b=/home/user/ret_type_basedir
 </br>
 
 <pre><code>
-python3 train_return_type_model_lstm.py -b=/home/user/ret_type_basedir
+python3 train_return_type_model_lstm.py -b=/home/user/ret_type_basedir -e=2
 </code></pre>
 </br>
 
