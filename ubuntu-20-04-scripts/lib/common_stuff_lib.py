@@ -66,10 +66,11 @@ def check_trailing_slash_in_path(path):
 
 
 def parseArgs():
-    short_opts = 'hp:s:w:t:r:m:v:f:d:n:b:e:'
+    short_opts = 'hp:s:w:t:r:m:v:f:d:n:b:e:l:'
     long_opts = ['pickle-dir=', 'work-dir=', 'save-dir=', 'save-file-type=', 'base-dir=',
                  'return-type-dict-file', 'max-seq-length-file=', 'vocab-file=', 'tfrecord-save-dir=',
-                 'balanced-dataset-dir=', 'minimum-nr-of-return-types=', 'model-fit-epochs=']
+                 'balanced-dataset-dir=', 'minimum-nr-of-return-types=', 'model-fit-epochs=',
+                 'tokenized-disassembly-length=']
     config = dict()
     
     config['base_dir'] = ''
@@ -88,6 +89,7 @@ def parseArgs():
     config['save_model_dir'] = ''
     config['trained_word_embeddings_dir'] = ''
     config['model_fit_epochs'] = '1'
+    config['tokenized_disassembly_length'] = '200000'   ##this needs alot gpu-mem, its dis1 + dis2
  
     try:
         args, rest = getopt.getopt(sys.argv[1:], short_opts, long_opts)
@@ -122,14 +124,17 @@ def parseArgs():
             config['base_dir'] = option_value[1:]
         elif option_key in ('-e', '--model-fit-epochs'):
             config['model_fit_epochs'] = option_value[1:]
+        elif option_key in ('-l', '--tokenized-disassembly-length'):
+            config['tokenized_disassembly_length'] = option_value[1:]
         elif option_key in ('-h'):
-            print(f'<optional> -b or --base-dir The directory where all work is done')
-            print(f'<optional> -p or --pickle-dir The directory with disassemblies,etc. Default: ubuntu-20-04-pickles')
-            print(f'<optional> -w or --work-dir   The directory where we e.g. untar,etc. Default: /tmp/work_dir/')
-            print(f'<optional> -s or --save-dir   The directory where we save dataset.  Default: /tmp/save_dir/')
-            print(f'<optional> -d or --balanced-dataset-dir  The directory where we save the balanced dataset. Default: /tmp/save_dir/balanced/')
+            print(f'<Needed>   -b or --base-dir The directory where all work is done')
+            print(f'<optional> -p or --pickle-dir The directory with disassemblies,etc. Default: base-dir + pickles_for_dataset')
+            print(f'<optional> -w or --work-dir   The directory where we e.g. untar,etc. Default: base-dir + work_dir/')
+            print(f'<optional> -s or --save-dir   The directory where we save dataset.  Default: base-dir + save_dir/')
+            print(f'<optional> -d or --balanced-dataset-dir  The directory where we save the balanced dataset. Default: base-dir + balanced/')
             print(f'<optional> -n or --minimum-nr-of-return-types  The minimum nr of return types. ')
-            print(f'<optional> -e or --model-fit-epochs  The number of epochs to train ( model.fit() ). ')
+            print(f'<optional> -e or --model-fit-epochs  The number of epochs to train ( model.fit() ). Default: 1')
+            print(f'<optional> -l or --tokenized-disassembly-length  The length of the resulting disassembly (text). Default: 200000')
             
     
     if not config['base_dir'] == '':
