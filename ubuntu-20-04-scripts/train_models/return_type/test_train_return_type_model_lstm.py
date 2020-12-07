@@ -163,18 +163,6 @@ print()
 print(f'tensorflow version running now >{tf.__version__}<')
 
 ###load vocabulary list
-###   HERE HERE
-### this path (base_dir_tfrecord_path) needs to be modified to your path  ##################
-#print()
-#print()
-#print(f"Sorry, you need to modify this script before running. Dont know now how to handle it else. \
-#        Just change the path at around line 193 (base_dir_tfrecord_path) to your base-dir path")
-#print()
-#print()
-#user_home_path = os.path.expanduser('~')
-#base_dir_tfrecord_path = user_home_path + "/change-this-dir/tfrecord/"
-#base_dir_tfrecord_path = "/tmp/ret-type/tfrecord/"
-
 vocabulary = pickle_lib.get_pickle_file_content(config['vocabulary_file'])
 
 ###load max-sequence-length 
@@ -238,21 +226,11 @@ for text, label in train_dataset.take(1):
 ###load return-type-dict
 return_type_dict = pickle_lib.get_pickle_file_content(config['return_type_dict_file'])
  
-###load max-sequence-length 
-max_seq_length = pickle_lib.get_pickle_file_content(config['max_seq_length_file'])
-
-###load vocabulary list
-vocabulary = pickle_lib.get_pickle_file_content(config['vocabulary_file'])
-
-#     vectorize_layer = TextVectorization(standardize=None,
-#                                     max_tokens=len(vocabulary)+2,
-#                                     output_mode='int',
-#                                     output_sequence_length=max_seq_length)
-
-#vectorize_layer.set_vocabulary(vocabulary)
-
-#vocab = vectorize_layer.get_vocabulary()
-#print(f'10 vocab words >{vocab[:10]}<')
+# ###load max-sequence-length 
+# max_seq_length = pickle_lib.get_pickle_file_content(config['max_seq_length_file'])
+# 
+# ###load vocabulary list
+# vocabulary = pickle_lib.get_pickle_file_content(config['vocabulary_file'])
 
 
 text_ds = train_dataset.map(lambda x, y: x, num_parallel_calls=AUTOTUNE)
@@ -264,7 +242,8 @@ print(f'text_ds element_spec >{text_ds.element_spec}<')
 
 print(f'Adapt text to TextVectorization layer, this takes time :(  ~1hour-15min-->8xV100')
 #text_ds = text_ds.apply(tf.data.experimental.unique())
-vectorize_layer.adapt(text_ds.batch(64))
+#vectorize_layer.adapt(text_ds.batch(64))
+vectorize_layer.set_vocabulary(vocabulary)
 
 train_dataset = configure_for_performance(train_dataset)
 val_dataset = configure_for_performance(val_dataset)
