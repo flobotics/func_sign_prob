@@ -120,29 +120,29 @@ def vectorize_text(text, label):
     return vectorize_layer(text), label
 
 
-###load vocabulary list
-###   HERE HERE
-### this path (base_dir_tfrecord_path) needs to be modified to your path  ##################
-print()
-print()
-print(f"Sorry, you need to modify this script before running. Dont know now how to handle it else. \
-        Just change the path at around line 193 (base_dir_tfrecord_path) to your base-dir path")
-print()
-print()
-#user_home_path = os.path.expanduser('~')
-#base_dir_tfrecord_path = user_home_path + "/change-this-dir/tfrecord/"
-base_dir_tfrecord_path = "/tmp/ret-type/tfrecord/"
-
-vocabulary = pickle_lib.get_pickle_file_content(base_dir_tfrecord_path + 'vocabulary_list.pickle')
-
-###load max-sequence-length 
-max_seq_length = pickle_lib.get_pickle_file_content(base_dir_tfrecord_path + 'max_seq_length.pickle')
-
-print(f'len-vocab-from-file >{len(vocabulary)}<')
-vectorize_layer = TextVectorization(standardize=None,
-                                    max_tokens=len(vocabulary)+2,
-                                    output_mode='int',
-                                    output_sequence_length=max_seq_length)
+# ###load vocabulary list
+# ###   HERE HERE
+# ### this path (base_dir_tfrecord_path) needs to be modified to your path  ##################
+# print()
+# print()
+# print(f"Sorry, you need to modify this script before running. Dont know now how to handle it else. \
+#         Just change the path at around line 193 (base_dir_tfrecord_path) to your base-dir path")
+# print()
+# print()
+# #user_home_path = os.path.expanduser('~')
+# #base_dir_tfrecord_path = user_home_path + "/change-this-dir/tfrecord/"
+# base_dir_tfrecord_path = "/tmp/ret-type/tfrecord/"
+# 
+# vocabulary = pickle_lib.get_pickle_file_content(base_dir_tfrecord_path + 'vocabulary_list.pickle')
+# 
+# ###load max-sequence-length 
+# max_seq_length = pickle_lib.get_pickle_file_content(base_dir_tfrecord_path + 'max_seq_length.pickle')
+# 
+# print(f'len-vocab-from-file >{len(vocabulary)}<')
+# vectorize_layer = TextVectorization(standardize=None,
+#                                     max_tokens=len(vocabulary)+2,
+#                                     output_mode='int',
+#                                     output_sequence_length=max_seq_length)
 
 
 
@@ -160,6 +160,33 @@ print(f'We got >{nr_of_cpus}< CPUs for threading')
 print()
 
 print(f'tensorflow version running now >{tf.__version__}<')
+
+###load vocabulary list
+###   HERE HERE
+### this path (base_dir_tfrecord_path) needs to be modified to your path  ##################
+#print()
+#print()
+#print(f"Sorry, you need to modify this script before running. Dont know now how to handle it else. \
+#        Just change the path at around line 193 (base_dir_tfrecord_path) to your base-dir path")
+#print()
+#print()
+#user_home_path = os.path.expanduser('~')
+#base_dir_tfrecord_path = user_home_path + "/change-this-dir/tfrecord/"
+#base_dir_tfrecord_path = "/tmp/ret-type/tfrecord/"
+
+vocabulary = pickle_lib.get_pickle_file_content(config['vocabulary_file'])
+
+###load max-sequence-length 
+max_seq_length = pickle_lib.get_pickle_file_content(config['max_seq_length_file'])
+
+print(f'len-vocab-from-file >{len(vocabulary)}<')
+
+vectorize_layer = TextVectorization(standardize=None,
+                                    max_tokens=len(vocabulary)+2,
+                                    output_mode='int',
+                                    output_sequence_length=max_seq_length)
+
+
 
 if os.path.isdir(config['tfrecord_save_dir'] + 'train/'):
     print(f"Found directory >{config['tfrecord_save_dir'] + 'train/'}< , so we dont use balanced dataset")
