@@ -10,11 +10,15 @@ All done with tf-nightly2.5
 The "/home/user/arg_one_basedir" directory you can choose by yourself, it will be
 created if not exist.
 
+
+</br>
+If you want/need to change somethings. Check -h for help
 <pre><code>
 -l=1000   The output text will be maximum this value, bigger ones will be discarded. <br/>
 			This option is for smaller GPU setups. If you got e.g. CPU-only use ~300-1000,  for e.g. 8xV100 use 200000.</br>
 			Default is 200000</br>
--e=2	  The number of epochs it should train. Default: 1
+-e=2	  The number of epochs it should train. Default: 1</br>
+-g=/my/git-repo-path	The path were you cloned the func_sign_prob repo to. Default: /home/$USER/git/func_sign_prob</br>
 </code></pre>
 </br>
 
