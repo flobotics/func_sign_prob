@@ -122,7 +122,7 @@ def proc_build(tarbz2_file, work_dir, save_dir, config):
                                 ### if we found it, get return type and disassembly
                                 if elem2[7] == bin and elem2[2] == callee_name:
                                     
-                                    if (len(elem2[4]) > (int(config['tokenized_disassembly_length'])/2)) or (len(att_dis) > (int(config['tokenized_disassembly_length'])/2)) or (len(dis1_str) < 1) or (len(dis2_str) < 1):
+                                    if (len(elem2[4]) > (int(config['tokenized_disassembly_length'])/2)) or (len(att_dis) > (int(config['tokenized_disassembly_length'])/2)) or (len(elem2[4]) < 1) or (len(att_dis) < 1):
                                         continue
                                     
                                     return_type_func_sign = return_type_lib.get_return_type_from_function_signature(elem2[0])
