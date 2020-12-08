@@ -26,15 +26,16 @@ def main():
 #     work_dir = "/tmp/work_dir"
 #     for tarbz2_file in tarbz2_files:
 #         tarbz2_lib.untar_file_to_path('/tmp/test/' + tarbz2_file, work_dir)
-    
-    pickle_files = common_stuff_lib.get_all_filenames_of_type("/tmp/work_dir", '.pickle')
+    user_home_path = os.path.expanduser('~')
+    path = user_home_path + "/ret-type/work_dir/"
+    pickle_files = common_stuff_lib.get_all_filenames_of_type(path, '.pickle')
     
     for file in pickle_files:
-        cont = pickle_lib.get_pickle_file_content("/tmp/work_dir/" + file)
+        cont = pickle_lib.get_pickle_file_content(path + file)
         
         for elem in cont:
-            #print(f'elem >{elem}<')
-            if len(elem[4]) > 10000:
+            print(f'elem >{elem}<')
+#             if len(elem[4]) > 10000:
 #                 print(f'filename >{elem[3]}<')
 #                 print(f'funcname >{elem[2]}<')
 #                 print(f'binary >{elem[7]}<')
@@ -42,8 +43,8 @@ def main():
 #                 print(f'att >{elem[4]}<')
                 #print(f'intel >{elem[5]}<')
                 
-                for item in elem[4]:
-                    print(f'{item}')
+#                 for item in elem[4]:
+#                     print(f'{item}')
 
 
 if __name__ == "__main__":
