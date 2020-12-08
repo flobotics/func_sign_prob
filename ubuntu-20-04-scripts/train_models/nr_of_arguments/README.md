@@ -50,6 +50,16 @@ python3 train_nr_of_args_model_lstm.py -b=/home/user/nr_of_args_basedir -e=2
 </br>
 
 
+# Tensorboard
+Run in console
+<pre><code>
+tensorboard --logdir=/home/user/nr_of_args_basedir/tensorboard_logs
+</code></pre>
+</br>
+
+For tensorboard projector load files from /home/user/nr_of_args_basedir/tensorboard_logs/trained_word_embeddings
+
+
 Epoch 39/40
 8/8 [==============================] - 1s 163ms/step - loss: 0.3191 - accuracy: 0.9047 - val_loss: 0.1858 - val_accuracy: 0.9542
 Epoch 40/40

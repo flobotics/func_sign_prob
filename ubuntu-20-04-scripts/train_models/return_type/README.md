@@ -51,6 +51,15 @@ python3 train_return_type_model_lstm.py -b=/home/user/ret_type_basedir -e=2
 </br>
 
 
+# Tensorboard
+Run in console
+<pre><code>
+tensorboard --logdir=/home/user/ret_type_basedir/tensorboard_logs
+</code></pre>
+</br>
+
+For tensorboard projector load files from /home/user/ret_type_basedir/tensorboard_logs/trained_word_embeddings
+
 # Run with n1-standard-16(16vCPUs,60GB RAM)  8xV100 Tesla GPU
 Adapting to TextVectorization takes ~1hour-15minutes
 

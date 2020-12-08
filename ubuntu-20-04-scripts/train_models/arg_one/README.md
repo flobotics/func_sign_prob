@@ -51,6 +51,17 @@ python3 train_arg_one_model_lstm.py -b=/home/user/arg_one_basedir -e=2
 
 
 
+# Tensorboard
+Run in console
+<pre><code>
+tensorboard --logdir=/home/user/arg_one_basedir/tensorboard_logs
+</code></pre>
+</br>
+
+For tensorboard projector load files from /home/user/arg_one_basedir/tensorboard_logs/trained_word_embeddings
+</br>
+
+
 Epoch 97/100
 3/3 [==============================] - 1s 217ms/step - loss: 0.3789 - accuracy: 0.8856 - val_loss: 0.2986 - val_accuracy: 0.8776
 Epoch 98/100

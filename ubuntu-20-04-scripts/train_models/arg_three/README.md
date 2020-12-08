@@ -48,3 +48,14 @@ python3 transform_ret_type_to_int.py -b=/home/user/arg_three_basedir
 python3 train_arg_three_model_lstm.py -b=/home/user/arg_three_basedir -e=2
 </code></pre>
 </br>
+
+
+
+# Tensorboard
+Run in console
+<pre><code>
+tensorboard --logdir=/home/user/arg_three_basedir/tensorboard_logs
+</code></pre>
+</br>
+
+For tensorboard projector load files from /home/user/arg_three_basedir/tensorboard_logs/trained_word_embeddings
