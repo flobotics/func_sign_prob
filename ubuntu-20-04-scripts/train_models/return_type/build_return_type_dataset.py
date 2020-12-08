@@ -207,6 +207,10 @@ def check_config(config):
         print(f'Please specify a base-dir (-b or --base-dir) , where all work is done. Check -h for help.')
         exit()
         
+    if not os.path.isdir(config['git_repo_path']):
+        print(f"There is no git repo at >{config['git_repo_path']}<")
+        exit()
+        
     if not os.path.isdir(config['base_dir']):
         print(f"Creating >{config['base_dir']}<")
         os.mkdir(config['base_dir'])
@@ -242,8 +246,7 @@ def copy_files_to_build_dataset(config):
             print(f'Using files still there')
             return
             
-    user_home_path = os.path.expanduser('~')
-    pickle_path = user_home_path + '/git/func_sign_prob/ubuntu-20-04-pickles/'
+    pickle_path = config['git_repo_path'] + '/ubuntu-20-04-pickles/'
     
     pickle_files = common_stuff_lib.get_all_filenames_of_type(pickle_path, '.tar.bz2')
     counter = 0

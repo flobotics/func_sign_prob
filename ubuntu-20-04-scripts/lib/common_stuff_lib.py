@@ -66,11 +66,11 @@ def check_trailing_slash_in_path(path):
 
 
 def parseArgs():
-    short_opts = 'hp:s:w:t:r:m:v:f:d:n:b:e:l:'
+    short_opts = 'hp:s:w:t:r:m:v:f:d:n:b:e:l:g:'
     long_opts = ['pickle-dir=', 'work-dir=', 'save-dir=', 'save-file-type=', 'base-dir=',
                  'return-type-dict-file', 'max-seq-length-file=', 'vocab-file=', 'tfrecord-save-dir=',
                  'balanced-dataset-dir=', 'minimum-nr-of-return-types=', 'model-fit-epochs=',
-                 'tokenized-disassembly-length=']
+                 'tokenized-disassembly-length=', 'git-repo-path=']
     config = dict()
     
     config['base_dir'] = ''
@@ -90,6 +90,7 @@ def parseArgs():
     config['trained_word_embeddings_dir'] = ''
     config['model_fit_epochs'] = '1'
     config['tokenized_disassembly_length'] = '200000'   ##this needs alot gpu-mem, its dis1 + dis2
+    config['git_repo_path'] = ''
  
     try:
         args, rest = getopt.getopt(sys.argv[1:], short_opts, long_opts)
@@ -126,6 +127,8 @@ def parseArgs():
             config['model_fit_epochs'] = option_value[1:]
         elif option_key in ('-l', '--tokenized-disassembly-length'):
             config['tokenized_disassembly_length'] = option_value[1:]
+        elif option_key in ('-g', '--git-repo-path'):
+            config['git_repo_path'] = option_value[1:]
         elif option_key in ('-h'):
             print(f'<Needed>   -b or --base-dir The directory where all work is done')
             print(f'<optional> -p or --pickle-dir The directory with disassemblies,etc. Default: base-dir + pickles_for_dataset')
@@ -135,7 +138,7 @@ def parseArgs():
             print(f'<optional> -n or --minimum-nr-of-return-types  The minimum nr of return types. ')
             print(f'<optional> -e or --model-fit-epochs  The number of epochs to train ( model.fit() ). Default: 1')
             print(f'<optional> -l or --tokenized-disassembly-length  The length of the resulting disassembly (text). Default: 200000')
-            
+            print(f'<optional> -g or --git-repo-path  The path to the cloned git repo. Default: /home/$USER/git/func_sign_prob')
     
     if not config['base_dir'] == '':
         config['base_dir'] = check_trailing_slash_in_path(config['base_dir'])
@@ -178,6 +181,10 @@ def parseArgs():
             
         if config['trained_word_embeddings_dir'] == '':
             config['trained_word_embeddings_dir'] = config['tensorboard_log_dir'] +  'trained_word_embeddings/'
+            
+        if config['git_repo_path'] == '':
+            user_home_path = os.path.expanduser('~')
+            config['git_repo_path'] = user_home_path + '/git/func_sign_prob/'
          
          
             
