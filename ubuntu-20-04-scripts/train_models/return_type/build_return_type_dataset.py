@@ -293,8 +293,8 @@ def main():
     
     
     ### build
-    #p = Pool(nr_of_cpus)
-    p = Pool(len(pickle_files))
+    p = Pool(nr_of_cpus)
+    #p = Pool(len(pickle_files))
      
      
     pickle_files = [config["pickle_dir"] + "/" + f for f in pickle_files]
