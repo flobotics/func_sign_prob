@@ -7,7 +7,8 @@ import pickle
 #import tensorflow as tf
 from datetime import datetime
 from multiprocessing import Pool
-from multiprocessing import Process
+#from multiprocessing import Process
+import multiprocessing as mp
 import getopt
 from itertools import repeat
 import psutil
@@ -277,6 +278,8 @@ def copy_files_to_build_dataset(config):
 
       
 def main():
+    mp.set_start_method("spawn")
+    
     config = common_stuff_lib.parseArgs()
     check_config(config)
     
@@ -300,17 +303,17 @@ def main():
      
     pickle_files = [config["pickle_dir"] + "/" + f for f in pickle_files]
     star_list = zip(pickle_files, repeat(config['work_dir']), repeat(config['save_dir']), repeat(config))
-    process_list = list()
-    for i in star_list:
-        p = Process(target=proc_build, args=i)
-        process_list.append(p)
-        p.start()
-        p.join()
+#     process_list = list()
+#     for i in star_list:
+#         p = Process(target=proc_build, args=i)
+#         process_list.append(p)
+#         p.start()
+#         p.join()
     
     
-#     all_ret_types = p.starmap_async(proc_build, star_list)
-#     p.close()
-#     p.join()
+    all_ret_types = p.starmap(proc_build, star_list)
+    p.close()
+    p.join()
       
     
     print("Done. Run build_ret_type__vocab__seq_len.py next")
