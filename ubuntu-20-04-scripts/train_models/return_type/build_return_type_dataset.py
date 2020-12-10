@@ -1,5 +1,5 @@
-from multiprocessing import set_start_method
-set_start_method("spawn")
+# from multiprocessing import set_start_method
+# set_start_method("spawn")
 import tarfile
 import os
 import sys
@@ -293,7 +293,8 @@ def main():
     
     
     ### build
-    p = Pool(nr_of_cpus)
+    #p = Pool(nr_of_cpus)
+    p = Pool(len(pickle_files))
      
      
     pickle_files = [config["pickle_dir"] + "/" + f for f in pickle_files]
