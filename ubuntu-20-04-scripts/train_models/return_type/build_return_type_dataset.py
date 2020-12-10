@@ -299,7 +299,7 @@ def main():
      
     pickle_files = [config["pickle_dir"] + "/" + f for f in pickle_files]
     star_list = zip(pickle_files, repeat(config['work_dir']), repeat(config['save_dir']), repeat(config))
-    all_ret_types = p.starmap(proc_build, star_list)
+    all_ret_types = p.starmap_async(proc_build, star_list)
     p.close()
     p.join()
       
