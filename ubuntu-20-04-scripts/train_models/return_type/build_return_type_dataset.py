@@ -303,17 +303,17 @@ def main():
      
     pickle_files = [config["pickle_dir"] + "/" + f for f in pickle_files]
     star_list = zip(pickle_files, repeat(config['work_dir']), repeat(config['save_dir']), repeat(config))
-#     process_list = list()
-#     for i in star_list:
-#         p = Process(target=proc_build, args=i)
-#         process_list.append(p)
-#         p.start()
-#         p.join()
+    process_list = list()
+    for file in pickle_files:
+        p = Process(target=proc_build, args=(file, config['work_dir'], config['save_dir'], config) )
+        #process_list.append(p)
+        p.start()
+        p.join()
     
-    
-    all_ret_types = p.starmap(proc_build, star_list)
-    p.close()
-    p.join()
+#     
+#     all_ret_types = p.starmap(proc_build, star_list)
+#     p.close()
+#     p.join()
       
     
     print("Done. Run build_ret_type__vocab__seq_len.py next")
