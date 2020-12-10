@@ -164,11 +164,11 @@ def proc_build(tarbz2_file, work_dir, save_dir, config):
                                         
                                         ##the max-seq-length blows memory (>160GB ram) with model.fit() if e.g. over 6million
                                         if (len(dis1_str) > (int(config['tokenized_disassembly_length'])/2)) or (len(dis2_str) > (int(config['tokenized_disassembly_length'])/2)) or (len(dis1_str) < 1) or (len(dis2_str) < 1):
-                                            print(f'tokenized_disassembly_length caller >{len(dis1_str)}<')
-                                            print(f'tokenized_disassembly_length callee >{len(dis2_str)}<')
+                                            #print(f'tokenized_disassembly_length caller >{len(dis1_str)}<')
+                                            #print(f'tokenized_disassembly_length callee >{len(dis2_str)}<')
                                             #print(f"package >{elem[2]}< bin >{elem[3]}< file >{elem[6]}< func >{elem[7]}<")
                                             #print(f"package >{elem2[2]}< bin >{elem2[3]}< file >{elem2[6]}< func >{elem2[7]}<")
-                                            
+                                            pass
                                         else:
                                             dis_str = dis1_str + dis2_str
                                                 
