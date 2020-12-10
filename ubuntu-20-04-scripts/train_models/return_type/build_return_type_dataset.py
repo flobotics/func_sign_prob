@@ -304,7 +304,7 @@ def main():
     for i in star_list:
         p = Process(target=proc_build, args=i)
         process_list.append(p)
-        p.close()
+        p.start()
         p.join()
     
     
