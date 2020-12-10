@@ -7,7 +7,7 @@ import pickle
 #import tensorflow as tf
 from datetime import datetime
 from multiprocessing import Pool
-#from multiprocessing import Process
+from multiprocessing import Process
 import multiprocessing as mp
 import getopt
 from itertools import repeat
