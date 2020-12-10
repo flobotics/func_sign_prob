@@ -204,7 +204,7 @@ def proc_build(tarbz2_file, work_dir, save_dir, config):
     
     
                   
-    return counter
+    #return counter
     
     
 def check_config(config):
