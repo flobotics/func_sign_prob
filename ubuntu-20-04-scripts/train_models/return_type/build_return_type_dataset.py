@@ -297,7 +297,7 @@ def main():
     
     
     ### build
-    p = Pool(nr_of_cpus)
+    #p = Pool(nr_of_cpus)
     #p = Pool(len(pickle_files))
      
      
