@@ -303,14 +303,14 @@ def main():
      
     pickle_files = [config["pickle_dir"] + "/" + f for f in pickle_files]
     star_list = zip(pickle_files, repeat(config['work_dir']), repeat(config['save_dir']), repeat(config))
-    p = list(len(pickle_files))
-    i = 0
+    #p = list(len(pickle_files))
+    #i = 0
     for file in pickle_files:
-        p[i] = Process(target=proc_build, args=(file, config['work_dir'], config['save_dir'], config) )
+        p = Process(target=proc_build, args=(file, config['work_dir'], config['save_dir'], config) )
         #process_list.append(p)
-        p[i].start()
-        p[i].join()
-        i += 1
+        p.start()
+        #p.join()
+    
     
 #     
 #     all_ret_types = p.starmap(proc_build, star_list)
