@@ -277,8 +277,14 @@ def copy_files_to_build_dataset(config):
 
 
       
-def main():
+# def main():
     
+    
+    
+
+    
+if __name__ == "__main__":
+    mp.set_start_method("spawn")
     
     config = common_stuff_lib.parseArgs()
     check_config(config)
@@ -320,10 +326,6 @@ def main():
       
     
     print("Done. Run build_ret_type__vocab__seq_len.py next")
-
-    
-if __name__ == "__main__":
-    mp.set_start_method("fork")
-    main()
+#     main()
 
     
