@@ -284,7 +284,7 @@ def copy_files_to_build_dataset(config):
 
     
 if __name__ == "__main__":
-    mp.set_start_method("fork")
+    mp.set_start_method("forkserver")
     
     config = common_stuff_lib.parseArgs()
     check_config(config)
