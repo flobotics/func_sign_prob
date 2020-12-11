@@ -278,7 +278,7 @@ def copy_files_to_build_dataset(config):
 
       
 def main():
-    mp.set_start_method("spawn")
+    
     
     config = common_stuff_lib.parseArgs()
     check_config(config)
@@ -305,11 +305,12 @@ def main():
     star_list = zip(pickle_files, repeat(config['work_dir']), repeat(config['save_dir']), repeat(config))
     #p = list(len(pickle_files))
     #i = 0
+    process_list = list()
     for file in pickle_files:
         p = Process(target=proc_build, args=(file, config['work_dir'], config['save_dir'], config) )
-        #process_list.append(p)
+        process_list.append(p)
         p.start()
-        #p.join()
+        p.join()
     
     
 #     
@@ -322,6 +323,7 @@ def main():
 
     
 if __name__ == "__main__":
+    mp.set_start_method("spawn")
     main()
 
     
