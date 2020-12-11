@@ -277,15 +277,7 @@ def copy_files_to_build_dataset(config):
 
 
       
-# def main():
-    
-    
-    
-
-    
-if __name__ == "__main__":
-    mp.set_start_method("forkserver")
-    
+def main():
     config = common_stuff_lib.parseArgs()
     check_config(config)
     
@@ -303,7 +295,7 @@ if __name__ == "__main__":
     
     
     ### build
-    #p = Pool(nr_of_cpus)
+    p = Pool(nr_of_cpus)
     #p = Pool(len(pickle_files))
      
      
@@ -311,21 +303,27 @@ if __name__ == "__main__":
     star_list = zip(pickle_files, repeat(config['work_dir']), repeat(config['save_dir']), repeat(config))
     #p = list(len(pickle_files))
     #i = 0
-    process_list = list()
-    for file in pickle_files:
-        p = Process(target=proc_build, args=(file, config['work_dir'], config['save_dir'], config) )
-        process_list.append(p)
-        p.start()
-        #p.join()
+#     process_list = list()
+#     for file in pickle_files:
+#         p = Process(target=proc_build, args=(file, config['work_dir'], config['save_dir'], config) )
+#         process_list.append(p)
+#         p.start()
+#         #p.join()
     
     
 #     
-#     all_ret_types = p.starmap(proc_build, star_list)
-#     p.close()
-#     p.join()
+    all_ret_types = p.starmap(proc_build, star_list)
+    p.close()
+    p.join()
       
     
     print("Done. Run build_ret_type__vocab__seq_len.py next")
-#     main()
+    
+    
+
+    
+if __name__ == "__main__":
+#     mp.set_start_method("forkserver")
+    main()
 
     
