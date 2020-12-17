@@ -172,7 +172,7 @@ def proc_build(tarbz2_file, work_dir, save_dir, config):
                                             #print(f"package >{elem2[2]}< bin >{elem2[3]}< file >{elem2[6]}< func >{elem2[7]}<")
                                             pass
                                         else:
-                                            dis_str = dis1_str + 'caller_callee_separator\n' + dis2_str
+                                            dis_str = dis1_str + ' caller_callee_separator ' + dis2_str
                                                 
                                             #print(f'dis_str >{dis_str}<')
                                         
