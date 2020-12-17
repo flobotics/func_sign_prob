@@ -364,9 +364,10 @@ class InferenceClass(QThread):
         
         self.updateProgressBar.emit(9)
          
+        disasm_caller_callee_predict_str = disasm_caller_str + ' caller_callee_separator ' + disasm_callee_str
         ### predict now ret-type
         ret_type_prediction_summary_str = self.get_prediction('return_type/words_100000', 
-                                                                disasm_caller_str + disasm_callee_str, 
+                                                                disasm_caller_callee_predict_str, 
                                                                 func_sign_prob_git_path)
         
         
@@ -380,7 +381,7 @@ class InferenceClass(QThread):
                   
         ### predict now nr_of_args
         nr_of_args_prediction_summary_str = self.get_prediction('nr_of_args/words_100000', 
-                                                                disasm_caller_str + disasm_callee_str, 
+                                                                disasm_caller_callee_predict_str, 
                                                                 func_sign_prob_git_path)
                    
                 
@@ -392,7 +393,7 @@ class InferenceClass(QThread):
            
         ###predict now arg_one
         arg_one_prediction_summary_str = self.get_prediction('arg_one', 
-                                                                disasm_caller_str + disasm_callee_str, 
+                                                                disasm_caller_callee_predict_str, 
                                                                 func_sign_prob_git_path)
             
 
@@ -435,7 +436,7 @@ class InferenceClass(QThread):
         ###if more one args
         ###predict now arg_two
         arg_two_prediction_summary_str = self.get_prediction('arg_two', 
-                                                                disasm_caller_str + disasm_callee_str, 
+                                                                disasm_caller_callee_predict_str, 
                                                                 func_sign_prob_git_path)
            
    
@@ -482,7 +483,7 @@ class InferenceClass(QThread):
         ###if more than two args
         ###predict now arg_three
         arg_three_prediction_summary_str = self.get_prediction('arg_three', 
-                                                                disasm_caller_str + disasm_callee_str, 
+                                                                disasm_caller_callee_predict_str, 
                                                                 func_sign_prob_git_path)
           
   
