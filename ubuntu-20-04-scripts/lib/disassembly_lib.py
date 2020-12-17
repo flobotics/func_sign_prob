@@ -173,7 +173,8 @@ def clean_att_disassembly_from_comment(att_disassembly):
             
             if 'ako' in clean_dis:
                 print(f"Error here---1---------{clean_dis}")
-            cleaned.append(dis_line_parts[0] + ' ' + clean_dis)
+            #cleaned.append(dis_line_parts[0] + ' ' + clean_dis)
+            cleaned.append(clean_dis)
         elif '<' in dis_line_front:
             #print(f'dis_line:{dis_line_front}')
             ### get index of <
@@ -191,11 +192,13 @@ def clean_att_disassembly_from_comment(att_disassembly):
             
             if 'ako' in clean_dis:
                 print("Error here---2---------")
-            cleaned.append(dis_line_parts[0] + ' ' + clean_dis)
+            #cleaned.append(dis_line_parts[0] + ' ' + clean_dis)
+            cleaned.append(clean_dis)
         else:
             if 'ako' in dis_line_front:
                 print("Error herer---3------")
-            cleaned.append(dis_line_parts[0] + ' ' + dis_line_front)
+            #cleaned.append(dis_line_parts[0] + ' ' + dis_line_front)
+            cleaned.append(dis_line_front)
             
         
     for i in cleaned:
