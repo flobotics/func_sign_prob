@@ -319,7 +319,7 @@ class InferenceClass(QThread):
         ## get addr of callee
         caller_addr = 0
         for item_dicts in current_func_header:
-            #print(f'item_dicts >{item_dicts}<')
+            print(f'item_dicts >{item_dicts}<')
             for elem in item_dicts:
                 if elem == 'from':
                     caller_addr = item_dicts[elem]
@@ -364,7 +364,9 @@ class InferenceClass(QThread):
         
         self.updateProgressBar.emit(9)
          
-        disasm_caller_callee_predict_str = disasm_caller_str + ' caller_callee_separator ' + disasm_callee_str
+        callee_addr_split = [char if char is not '0' else 'null' for char in address]
+        
+        disasm_caller_callee_predict_str = disasm_caller_str + ' caller_callee_separator ' + callee_addr_split + ' ' + disasm_callee_str
         ### predict now ret-type
         ret_type_prediction_summary_str = self.get_prediction('return_type/words_100000', 
                                                                 disasm_caller_callee_predict_str, 
