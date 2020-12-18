@@ -117,6 +117,7 @@ def proc_build(tarbz2_file, work_dir, save_dir, config):
                         ## find call in disas
                         if disassembly_lib.find_call_in_disassembly_line(item):
                             ## if found, get callee name
+                            callee_addr = ''
                             callee_name = disassembly_lib.get_callee_name_from_disassembly_line(item)
                             callee_addr = disassembly_lib.get_callee_addr_from_disassembly_line(item)
                                                              
