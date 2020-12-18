@@ -118,8 +118,11 @@ def proc_build(tarbz2_file, work_dir, save_dir, config):
                         if disassembly_lib.find_call_in_disassembly_line(item):
                             ## if found, get callee name
                             callee_name = disassembly_lib.get_callee_name_from_disassembly_line(item)
-                                                                   
-                            #print(f'callee_name >{callee_name}<')
+                            callee_addr = disassembly_lib.get_callee_addr_from_disassembly_line(item)
+                                                             
+#                             print(f'item >{item}<')
+#                             print(f'callee_addr >{callee_addr}<')      
+#                             print(f'callee_name >{callee_name}<')
                             
                             ## search for same bin, but callee func
                             for elem2 in pickle_file_content:
@@ -172,7 +175,9 @@ def proc_build(tarbz2_file, work_dir, save_dir, config):
                                             #print(f"package >{elem2[2]}< bin >{elem2[3]}< file >{elem2[6]}< func >{elem2[7]}<")
                                             pass
                                         else:
-                                            dis_str = dis1_str + ' caller_callee_separator ' + dis2_str
+                                            ##callee_addr is for NLP, so that it knows which of all the calls in caller
+                                            ##disassembly is the right one
+                                            dis_str = dis1_str + ' caller_callee_separator ' + callee_addr + ' ' + dis2_str
                                                 
                                             #print(f'dis_str >{dis_str}<')
                                         

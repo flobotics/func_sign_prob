@@ -22,6 +22,14 @@ def get_callee_name_from_disassembly_line(disassembly_line):
     return callee_name
 
 
+def get_callee_addr_from_disassembly_line(disassembly_line):
+    callee_addr = ''
+    disassembly_line_split = disassembly_line.split()
+    callee_addr = disassembly_line_split[len(disassembly_line_split)-2]
+    
+    return callee_addr
+
+
 def check_for_hex_string(item):
     new_item = ''
     #print(f'item--> >{item}<')
