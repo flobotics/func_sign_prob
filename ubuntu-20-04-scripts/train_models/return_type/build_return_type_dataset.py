@@ -178,6 +178,9 @@ def proc_build(tarbz2_file, work_dir, save_dir, config):
                                         else:
                                             ##callee_addr is for NLP, so that it knows which of all the calls in caller
                                             ##disassembly is the right one
+                                            callee_addr_split = [char for char in callee_addr]
+                                            callee_addr = ' '.join(callee_addr_split)
+                                            #print(f'callee_addr >{callee_addr}<')
                                             dis_str = dis1_str + ' caller_callee_separator ' + callee_addr + ' ' + dis2_str
                                                 
                                             #print(f'dis_str >{dis_str}<')
