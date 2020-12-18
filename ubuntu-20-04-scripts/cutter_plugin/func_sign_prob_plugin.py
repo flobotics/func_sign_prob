@@ -406,7 +406,7 @@ class InferenceClass(QThread):
         arg_one_biggest_prob_percent = 100 * arg_one_biggest_prob
         
             
-        nr_of_args_biggest_prob_type = 1
+        #nr_of_args_biggest_prob_type = 1
         if nr_of_args_biggest_prob_type == 1:
             
             self.set_stored_radare2_e()
