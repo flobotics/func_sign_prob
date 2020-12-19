@@ -1,4 +1,5 @@
-from tensorflow.python.eager.backprop import function
+
+
 def delete_strange_return_types(gdb_ptype):
     
     new_gdb_ptype = gdb_ptype.replace('type =', '')

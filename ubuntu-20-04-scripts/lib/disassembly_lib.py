@@ -1,4 +1,5 @@
 from numpy.core.defchararray import isnumeric
+
 def find_call_in_disassembly_line(disassembly_line):
     if 'call' in disassembly_line:
         if '@plt' in disassembly_line:

@@ -8,11 +8,12 @@ import pickle
 from datetime import datetime
 from multiprocessing import Pool
 from multiprocessing import Process
-import multiprocessing as mp
+import multiprocessing
 import getopt
 from itertools import repeat
 import psutil
 from shutil import copyfile
+import joblib
 
 
 sys.path.append('../../lib/')
@@ -178,7 +179,7 @@ def proc_build(tarbz2_file, work_dir, save_dir, config):
                                         else:
                                             ##callee_addr is for NLP, so that it knows which of all the calls in caller
                                             ##disassembly is the right one
-                                            callee_addr_split = [char if char is not '0' else 'null' for char in callee_addr]
+                                            callee_addr_split = [char if char != '0' else 'null' for char in callee_addr]
                                             callee_addr = ' '.join(callee_addr_split)
                                             #print(f'callee_addr >{callee_addr}<')
                                             dis_str = dis1_str + ' caller_callee_separator ' + callee_addr + ' ' + dis2_str
@@ -304,26 +305,17 @@ def main():
     
     
     ### build
-    p = Pool(nr_of_cpus)
-    #p = Pool(len(pickle_files))
-     
-     
+#     p = Pool(nr_of_cpus)
+#     #p = Pool(len(pickle_files))
+#         
     pickle_files = [config["pickle_dir"] + "/" + f for f in pickle_files]
     star_list = zip(pickle_files, repeat(config['work_dir']), repeat(config['save_dir']), repeat(config))
-    #p = list(len(pickle_files))
-    #i = 0
-#     process_list = list()
-#     for file in pickle_files:
-#         p = Process(target=proc_build, args=(file, config['work_dir'], config['save_dir'], config) )
-#         process_list.append(p)
-#         p.start()
-#         #p.join()
-    
-    
-#     
-    all_ret_types = p.starmap(proc_build, star_list)
-    p.close()
-    p.join()
+#    
+#     all_ret_types = p.starmap(proc_build, star_list)
+#     p.close()
+#     p.join()
+
+    test = joblib.Parallel(n_jobs=-1)(joblib.delayed(proc_build)(a, b, c, d) for a,b,c,d in star_list)
       
     
     print("Done. Run build_ret_type__vocab__seq_len.py next")
