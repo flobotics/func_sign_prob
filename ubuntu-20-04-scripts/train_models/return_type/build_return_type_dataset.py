@@ -315,7 +315,7 @@ def main():
 #     p.close()
 #     p.join()
 
-    test = joblib.Parallel(n_jobs=-1)(joblib.delayed(proc_build)(a, b, c, d) for a,b,c,d in star_list)
+    test = joblib.Parallel(n_jobs=-1, prefer="processes")(joblib.delayed(proc_build)(a, b, c, d) for a,b,c,d in star_list)
       
     
     print("Done. Run build_ret_type__vocab__seq_len.py next")
