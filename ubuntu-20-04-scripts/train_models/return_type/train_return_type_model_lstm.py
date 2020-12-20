@@ -208,7 +208,7 @@ else:
     print(f'Split to train_size >{train_size}< val_size >{val_size}< test_size >{test_size}<')
     
     #full_dataset = tf.data.TFRecordDataset(FLAGS.input_file)
-    full_dataset = full_dataset.shuffle(20000)
+    full_dataset = full_dataset.shuffle(1000)
     train_dataset = full_dataset.take(train_size)
     test_dataset = full_dataset.skip(train_size)
     val_dataset = test_dataset.skip(val_size)
