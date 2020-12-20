@@ -142,7 +142,7 @@ def vectorize_text(text, label):
 
 def configure_for_performance(ds):
   ds = ds.cache()
-  ds = ds.shuffle(buffer_size=1000)
+  ds = ds.shuffle(buffer_size=100000)
   ds = ds.batch(10)    ### if train needs to much memory, make smaller
   ds = ds.prefetch(buffer_size=tf.data.experimental.AUTOTUNE)
   return ds
@@ -208,7 +208,7 @@ else:
     print(f'Split to train_size >{train_size}< val_size >{val_size}< test_size >{test_size}<')
     
     #full_dataset = tf.data.TFRecordDataset(FLAGS.input_file)
-    full_dataset = full_dataset.shuffle(1000)
+    full_dataset = full_dataset.shuffle(100000)
     train_dataset = full_dataset.take(train_size)
     test_dataset = full_dataset.skip(train_size)
     val_dataset = test_dataset.skip(val_size)
