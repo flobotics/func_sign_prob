@@ -140,9 +140,9 @@ def vectorize_text(text, label):
 #                                     output_sequence_length=max_seq_length)
 
 
-def configure_for_performance(ds):
+def configure_for_performance(ds, dataset_size):
   ds = ds.cache()
-  ds = ds.shuffle(buffer_size=100000)
+  ds = ds.shuffle(buffer_size=dataset_size)
   ds = ds.batch(8)    ### if train needs to much memory, make smaller
   ds = ds.prefetch(buffer_size=tf.data.experimental.AUTOTUNE)
   return ds
@@ -208,7 +208,7 @@ else:
     print(f'Split to train_size >{train_size}< val_size >{val_size}< test_size >{test_size}<')
     
     #full_dataset = tf.data.TFRecordDataset(FLAGS.input_file)
-    full_dataset = full_dataset.shuffle(100000)
+    full_dataset = full_dataset.shuffle(DATASET_SIZE)
     train_dataset = full_dataset.take(train_size)
     test_dataset = full_dataset.skip(train_size)
     val_dataset = test_dataset.skip(val_size)
@@ -245,9 +245,12 @@ print(f'text_ds element_spec >{text_ds.element_spec}<')
 print(f'Set vocabulary to TextVectorization layer')
 vectorize_layer.set_vocabulary(vocabulary)
 
-train_dataset = configure_for_performance(train_dataset)
-val_dataset = configure_for_performance(val_dataset)
-test_dataset = configure_for_performance(test_dataset)
+#print(f'DATASET_SIZE-test >{DATASET_SIZE}<')
+train_dataset = configure_for_performance(train_dataset, DATASET_SIZE)
+val_dataset = configure_for_performance(val_dataset, DATASET_SIZE)
+test_dataset = configure_for_performance(test_dataset, DATASET_SIZE)
+
+exit()
 
 ### vec text
 train_dataset = train_dataset.map(vectorize_text, num_parallel_calls=AUTOTUNE)
