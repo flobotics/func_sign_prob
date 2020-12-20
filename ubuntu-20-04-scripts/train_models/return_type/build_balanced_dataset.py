@@ -119,8 +119,14 @@ def main():
             ret_type_counter[counts_dict_key]  += counts_dict[counts_dict_key]
         
     print(f"The counts of every return type :")
-    for key in ret_type_counter:
-        print(f"ret-type >{key}< exists\t\t\t>{ret_type_counter[key]}<")
+    
+    ret_type_counter_sorted = sorted(ret_type_counter.items(), key=lambda x: x[1], reverse=True)
+    #print(f'ret_type_counter_sorted >{ret_type_counter_sorted}<')
+    for key,val in ret_type_counter_sorted:
+        print(f"ret-type >{key}< exists\t\t\t>{val}<")
+    
+#     for key in ret_type_counter:
+#         print(f"ret-type >{key}< exists\t\t\t>{ret_type_counter[key]}<")
     
     config['minimum_nr_of_return_types'] = input('Put in minimum nr of return types to build balanced dataset:')
     
