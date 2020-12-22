@@ -62,6 +62,19 @@ tensorboard --logdir=/home/user/ret_type_basedir/tensorboard_logs
 
 For tensorboard projector load files from /home/user/ret_type_basedir/tensorboard_logs/trained_word_embeddings
 
+# Run with n1-standard-32(32vCPUs, 120GB RAM) 8xV100 Tesla GPU
+
+<pre><code>
+11375/11375 [==============================] - 30202s 3s/step - loss: 1.9522 - accuracy: 0.3448 - val_loss: 1.0332 - val_accuracy: 0.6724</br>
+2438/2438 [==============================] - 2921s 1s/step - loss: 1.0264 - accuracy: 0.6713</br>
+Loss:  1.0263516902923584</br>
+Accuracy:  0.6713165044784546</br>
+Saving trained word embeddings (meta.tsv,vecs.tsv)         (usable in tensorboard->Projector, use chromium-browser to see it correctly,firefox does not always work)</br>
+10 vocab words >['', '[UNK]', 'bt', 'mulsd', 'subl', 'notq', 'pandn', 'movzbl', '*', 'shl']<</br>
+Building vectors.tsv file, use tensorboard->projector with chromium-browser</br>
+Building metadata.tsv file, use tensorboard->projector with chromium-browser</br>
+</pre><code>
+
 # Run with n1-standard-16(16vCPUs,60GB RAM)  8xV100 Tesla GPU
 Adapting to TextVectorization takes ~1hour-15minutes
 
