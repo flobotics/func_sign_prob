@@ -6,6 +6,12 @@ import pickle
 import glob
 import os
 import pexpect
+import sys
+import psutil
+from shutil import copyfile
+
+sys.path.append('../lib/')
+import common_stuff_lib
 
 gcloud = False
 
@@ -124,10 +130,10 @@ def get_source_code(src_file, func_name, gdb_func_sign):
     print(f'func_name:{func_name}')
     print(f'gdb_func_sign:{gdb_func_sign}')
     idx = gdb_func_sign.index('(')
-        if idx:
-            print('found gdb (')
-            gdb_func_sign_ret_type = gdb_func_sign[:idx]
-            print(f'gdb_func_sign_ret_type:{gdb_func_sign_ret_type}')
+    if idx:
+        print('found gdb (')
+        gdb_func_sign_ret_type = gdb_func_sign[:idx]
+        print(f'gdb_func_sign_ret_type:{gdb_func_sign_ret_type}')
             
     
     start_end_lines = list()
@@ -317,110 +323,179 @@ def unpack_second_src(pickle_file_name):
     
 #unpack_second_src("bash")
 
+def copy_files_to_build_dataset(config):
+    pickle_files = common_stuff_lib.get_all_filenames_of_type(config['pickle_dir'], '.tar.bz2')
+    if len(pickle_files) > 0:
+        decision = 'z'
+        while( (decision != 'y') and (decision != 'n' ) ):
+            decision = input(f"There are still files in >{config['pickle_dir']}< . Do you want to use them: Type in (y/n):")
+    
+        if decision == 'y':
+            print(f'Using files still there')
+            return
+            
+    pickle_path = config['git_repo_path'] + '/ubuntu-20-04-pickles/'
+    
+    pickle_files = common_stuff_lib.get_all_filenames_of_type(pickle_path, '.tar.bz2')
+    counter = 0
+    for file in pickle_files:
+        counter += 1
+      
+    nr_files = 'z'
+    while( not nr_files.isdecimal()):
+        nr_files = input(f'In directory >{pickle_path}< are >{counter}< files.\nHow many files to use for dataset? Type in:')
+    
+    counter = 0
+    for file in pickle_files:
+        print(f'Copy file >{file}<                 ', end='\r')
+        copyfile(pickle_path + file, config['pickle_dir'] + file)
+        counter += 1
+        if counter >= int(nr_files):
+            break
+        
+    print(f'Copied >{nr_files}< files')
+    print()
+
+
+
+def check_config(config):
+    if config['base_dir'] == '':
+        print(f'Please specify a base-dir (-b or --base-dir) , where all work is done. Check -h for help.')
+        exit()
+        
+    if not os.path.isdir(config['base_dir']):
+        print(f"Creating >{config['base_dir']}<")
+        os.mkdir(config['base_dir'])
+        
+    if not os.path.isdir(config['pickle_dir']):
+        print(f"Creating >{config['pickle_dir']}<")
+        os.mkdir(config['pickle_dir']) 
+    
 
 ##### main
-pickle_path = "/home/ubu/git/test2/func_sign_prob/ubuntu-20-04-pickles/"
-
-#pickle_list = get_pickle_list(pickle_path)
-#print(pickle_list)
-
-
-pickle_list = ["/home/ubu/git/test2/func_sign_prob/ubuntu-20-04-pickles/slapd.pickle.tar.bz2"]
-
-###loop through all pickle.tar.bz2 files
-for pickle_file in pickle_list:
-    print(f'Untar pickle-file:{pickle_file}')
+def main():
+    config = common_stuff_lib.parseArgs()
+    check_config(config)
     
-    ###untar
-    out = subprocess.run(["tar", 
-                          "xjf",
-                          pickle_file,
-                          "-C",
-                          pickle_path,
-                          ], capture_output=True, universal_newlines=True)
-    tar_out = out.stdout
+    nr_of_cpus = psutil.cpu_count(logical=True)
+    print(f'We got >{nr_of_cpus}< CPUs for threading\n')
+    print()
+    
+    copy_files_to_build_dataset(config)
+    
+    exit()
     
     
     
-    ###install source-package of pickle-file-content
-    pickle_file_name = os.path.basename(pickle_file)
-    pickle_file_name = pickle_file_name.replace('.pickle.tar.bz2', '')
-    print(f'Install src pkg of:{pickle_file_name}')
     
-    install_source_package(pickle_file_name)
     
-    ###check with gdb (list cmd) if the sources are newer/older than binary
-    ## warning: Source file is more recent than executable.
-    ###get dir name
-    dir_name = ''  
-    dir_name = get_dirname_of_src(pickle_file_name)
-    print(f'Dir with src is:{dir_name}')
-    res = check_if_src_match_binary(pickle_file_name, dir_name)
+    pickle_path = "/home/ubu/git/test2/func_sign_prob/ubuntu-20-04-pickles/"
     
-    ##src and binary dont match, unpack the second src in the dir
-    if not res:
-        unpack_second_src(pickle_file_name)
+    #pickle_list = get_pickle_list(pickle_path)
+    #print(pickle_list)
+    
+    
+    pickle_list = ["/home/ubu/git/test2/func_sign_prob/ubuntu-20-04-pickles/slapd.pickle.tar.bz2"]
+    
+    ###loop through all pickle.tar.bz2 files
+    for pickle_file in pickle_list:
+        print(f'Untar pickle-file:{pickle_file}')
+        
+        ###untar
+        out = subprocess.run(["tar", 
+                              "xjf",
+                              pickle_file,
+                              "-C",
+                              pickle_path,
+                              ], capture_output=True, universal_newlines=True)
+        tar_out = out.stdout
+        
+        
+        exit()
+        
+        ###install source-package of pickle-file-content
+        pickle_file_name = os.path.basename(pickle_file)
+        pickle_file_name = pickle_file_name.replace('.pickle.tar.bz2', '')
+        print(f'Install src pkg of:{pickle_file_name}')
+        
+        install_source_package(pickle_file_name)
+        
+        ###check with gdb (list cmd) if the sources are newer/older than binary
+        ## warning: Source file is more recent than executable.
+        ###get dir name
+        dir_name = ''  
+        dir_name = get_dirname_of_src(pickle_file_name)
+        print(f'Dir with src is:{dir_name}')
         res = check_if_src_match_binary(pickle_file_name, dir_name)
-        print(f'res of second src dir: {res}')
-    else:
-        print(f'src match binary')
-    
-    #break
-    
-    ###open the pickle
-    print('Open untarred pickle file:{pickle_file}')
-    pickle_content = open_pickle(pickle_file.replace('.tar.bz2', ''))
-    
-    fcn = ''
-    fl = ''
-    bina = ''
-    gdb_func_sign = ''
-    ### loop through the pickle-file and get source-code from function
-    #print(f'pickle-content: {next(iter(pickle_content))}')
-    for funcSign, gdb_ret_type, func_name, file_name, disas_att, disas_intel, package_name, binary in pickle_content:
-        print(f'funcSign: {funcSign}')
-        #print(f'gdb_ret_type: {gdb_ret_type}')
-        print(f'func_name: {func_name}')
-        print(f'file_name: {file_name}')
-        #print(f'disas_att: {disas_att}')
-        #print(f'disas_intel: {disas_intel}')
-        print(f'package_name: {package_name}')
-        print(f'binary: {binary}')
-        fcn = func_name
-        fl = file_name
-        bina = binary
-        gdb_func_sign = funcSign
-        #break
-    
-        ### get source code of function
-        pkg_name = pickle_file.replace('.pickle.tar.bz2', '')
-        pkg_name = os.path.basename(pkg_name)
-        print(f'pkg_name:{pkg_name}')
-
-        pkg_src_name = "/tmp/" + pkg_name + "/" + dir_name
-        print(f'pkg_src_name:{pkg_src_name}')
-
-        full_path = get_full_path(pkg_src_name, fl)
-        print(f'full-path:{full_path}')
-
-        len_full_path = len(full_path)
-        nr_of_empty_src_code = 0
-
-        ### ctags does not get return-type if its located lines above func_name
-        ### gdb funcSign got it, we need to check if we need more lines than ctags tells us
-        for f in full_path:
-            src_code = get_source_code(f, fcn, gdb_func_sign)
-            if src_code:
-                print(f'src-code:{src_code}')
-            else:
-                print(f'no src-code found')
-                nr_of_empty_src_code += 1
-
-        print(f'nr_of_empty_src_code:{nr_of_empty_src_code}   len_full_path:{len_full_path}')
-        if len_full_path == nr_of_empty_src_code+1:
-            print('only found one source code, thats good')
+        
+        ##src and binary dont match, unpack the second src in the dir
+        if not res:
+            unpack_second_src(pickle_file_name)
+            res = check_if_src_match_binary(pickle_file_name, dir_name)
+            print(f'res of second src dir: {res}')
         else:
-            print('ERROR found more than one source code for a function')
-            break
+            print(f'src match binary')
+        
+        #break
+        
+        ###open the pickle
+        print('Open untarred pickle file:{pickle_file}')
+        pickle_content = open_pickle(pickle_file.replace('.tar.bz2', ''))
+        
+        fcn = ''
+        fl = ''
+        bina = ''
+        gdb_func_sign = ''
+        ### loop through the pickle-file and get source-code from function
+        #print(f'pickle-content: {next(iter(pickle_content))}')
+        for funcSign, gdb_ret_type, func_name, file_name, disas_att, disas_intel, package_name, binary in pickle_content:
+            print(f'funcSign: {funcSign}')
+            #print(f'gdb_ret_type: {gdb_ret_type}')
+            print(f'func_name: {func_name}')
+            print(f'file_name: {file_name}')
+            #print(f'disas_att: {disas_att}')
+            #print(f'disas_intel: {disas_intel}')
+            print(f'package_name: {package_name}')
+            print(f'binary: {binary}')
+            fcn = func_name
+            fl = file_name
+            bina = binary
+            gdb_func_sign = funcSign
+            #break
+        
+            ### get source code of function
+            pkg_name = pickle_file.replace('.pickle.tar.bz2', '')
+            pkg_name = os.path.basename(pkg_name)
+            print(f'pkg_name:{pkg_name}')
+    
+            pkg_src_name = "/tmp/" + pkg_name + "/" + dir_name
+            print(f'pkg_src_name:{pkg_src_name}')
+    
+            full_path = get_full_path(pkg_src_name, fl)
+            print(f'full-path:{full_path}')
+    
+            len_full_path = len(full_path)
+            nr_of_empty_src_code = 0
+    
+            ### ctags does not get return-type if its located lines above func_name
+            ### gdb funcSign got it, we need to check if we need more lines than ctags tells us
+            for f in full_path:
+                src_code = get_source_code(f, fcn, gdb_func_sign)
+                if src_code:
+                    print(f'src-code:{src_code}')
+                else:
+                    print(f'no src-code found')
+                    nr_of_empty_src_code += 1
+    
+            print(f'nr_of_empty_src_code:{nr_of_empty_src_code}   len_full_path:{len_full_path}')
+            if len_full_path == nr_of_empty_src_code+1:
+                print('only found one source code, thats good')
+            else:
+                print('ERROR found more than one source code for a function')
+                break
+    
+        break
 
-    break
+
+if __name__ == "__main__":
+    main()
