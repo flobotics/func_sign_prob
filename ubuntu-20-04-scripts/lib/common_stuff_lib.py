@@ -91,6 +91,7 @@ def parseArgs():
     config['model_fit_epochs'] = '1'
     config['tokenized_disassembly_length'] = '200000'   ##this needs alot gpu-mem, its dis1 + dis2
     config['git_repo_path'] = ''
+    config['ubuntu_src_pkgs'] = ''
  
     try:
         args, rest = getopt.getopt(sys.argv[1:], short_opts, long_opts)
@@ -185,6 +186,9 @@ def parseArgs():
         if config['git_repo_path'] == '':
             user_home_path = os.path.expanduser('~')
             config['git_repo_path'] = user_home_path + '/git/func_sign_prob/'
+            
+        if config['ubuntu_src_pkgs'] == '':
+            config['ubuntu_src_pkgs'] = config['base_dir'] + '/ubuntu_src_pkgs/'
          
          
             

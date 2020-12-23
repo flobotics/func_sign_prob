@@ -12,6 +12,7 @@ from shutil import copyfile
 
 sys.path.append('../lib/')
 import common_stuff_lib
+import pickle_lib
 
 gcloud = False
 
@@ -178,16 +179,16 @@ def get_source_code(src_file, func_name, gdb_func_sign):
     return src_code
 
 
-def install_source_package(src_package):
+def install_source_package(src_package, config):
     print(f'install_source_package: {src_package}')
     try:
-        os.mkdir("/tmp/" + src_package)
+        os.mkdir(config['ubuntu_src_pkgs'] + src_package)
     except OSError:
-        print (f"Creation of the directory /tmp/{src_package} failed")
+        print (f"Creation of the directory {config['ubuntu_src_pkgs']}{src_package} failed")
     else:
-        print (f"Successfully created the directory /tmp/{src_package}")
+        print (f"Successfully created the directory {config['ubuntu_src_pkgs']}{src_package}")
     
-        os.chdir("/tmp/" + src_package)
+        os.chdir(config['ubuntu_src_pkgs'] + src_package)
 
         ###install the package
         #child = pexpect.spawn('apt source -y {0}'.format(src_package), timeout=None)
@@ -369,8 +370,13 @@ def check_config(config):
         
     if not os.path.isdir(config['pickle_dir']):
         print(f"Creating >{config['pickle_dir']}<")
-        os.mkdir(config['pickle_dir']) 
+        os.mkdir(config['pickle_dir'])
+        
+    if not os.path.isdir(config['ubuntu_src_pkgs']):
+        print(f"Creating >{config['ubuntu_src_pkgs']}<")
+        os.mkdir(config['ubuntu_src_pkgs'])  
     
+
 
 ##### main
 def main():
@@ -383,42 +389,43 @@ def main():
     
     copy_files_to_build_dataset(config)
     
-    exit()
+    pickle_files = common_stuff_lib.get_all_filenames_of_type(config['pickle_dir'], '.tar.bz2')
+    ### print 5 files, check and debug
+    pickle_lib.print_X_pickle_filenames(pickle_files, 5)
     
-    
-    
-    
-    
-    pickle_path = "/home/ubu/git/test2/func_sign_prob/ubuntu-20-04-pickles/"
+
+    #pickle_path = "/home/ubu/git/test2/func_sign_prob/ubuntu-20-04-pickles/"
     
     #pickle_list = get_pickle_list(pickle_path)
     #print(pickle_list)
     
     
-    pickle_list = ["/home/ubu/git/test2/func_sign_prob/ubuntu-20-04-pickles/slapd.pickle.tar.bz2"]
+    #pickle_list = ["/home/ubu/git/test2/func_sign_prob/ubuntu-20-04-pickles/slapd.pickle.tar.bz2"]
     
     ###loop through all pickle.tar.bz2 files
-    for pickle_file in pickle_list:
+    for pickle_file in pickle_files:
         print(f'Untar pickle-file:{pickle_file}')
         
         ###untar
-        out = subprocess.run(["tar", 
-                              "xjf",
-                              pickle_file,
-                              "-C",
-                              pickle_path,
-                              ], capture_output=True, universal_newlines=True)
-        tar_out = out.stdout
+#         out = subprocess.run(["tar", 
+#                               "xjf",
+#                               pickle_file,
+#                               "-C",
+#                               pickle_path,
+#                               ], capture_output=True, universal_newlines=True)
+#         tar_out = out.stdout
         
         
-        exit()
+        
         
         ###install source-package of pickle-file-content
         pickle_file_name = os.path.basename(pickle_file)
         pickle_file_name = pickle_file_name.replace('.pickle.tar.bz2', '')
         print(f'Install src pkg of:{pickle_file_name}')
         
-        install_source_package(pickle_file_name)
+        install_source_package(pickle_file_name, config)
+        
+        exit()
         
         ###check with gdb (list cmd) if the sources are newer/older than binary
         ## warning: Source file is more recent than executable.
