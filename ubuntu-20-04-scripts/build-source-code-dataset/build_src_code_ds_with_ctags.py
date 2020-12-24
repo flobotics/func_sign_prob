@@ -180,7 +180,7 @@ def get_source_code(src_file, func_name, gdb_func_sign):
 
 
 def install_source_package(src_package, config):
-    print(f'install_source_package: {src_package}')
+    print(f"We install with apt-source the source-package of package: {src_package} into : {config['ubuntu_src_pkgs']}{src_package}")
     try:
         os.mkdir(config['ubuntu_src_pkgs'] + src_package)
     except OSError:
@@ -207,17 +207,17 @@ def install_source_package(src_package, config):
         gdb_out = out.stdout
         
         
-def get_dirname_of_src(pickle_file_name):
-    #print(f'get_dirname_of_src: {pickle_file_name}')
-    src_dir_name = ''
-    
-    for file_ in os.listdir("/tmp/" + pickle_file_name):
-        #print(f'file:{file_}')
-        if os.path.isdir("/tmp/" + pickle_file_name + '/' + file_):
-            #print(f'dir:{file_}')
-            src_dir_name = file_
-            
-    return src_dir_name
+# def get_dirname_of_src(pickle_file_name):
+#     print(f'get_dirname_of_src: {pickle_file_name}')
+#     src_dir_name = ''
+#     
+#     for file_ in os.listdir("/tmp/" + pickle_file_name):
+#         #print(f'file:{file_}')
+#         if os.path.isdir("/tmp/" + pickle_file_name + '/' + file_):
+#             #print(f'dir:{file_}')
+#             src_dir_name = file_
+#             
+#     return src_dir_name
 
 
 def check_if_src_match_binary(pickle_file_name, dir_name):
@@ -421,19 +421,21 @@ def main():
         ###install source-package of pickle-file-content
         pickle_file_name = os.path.basename(pickle_file)
         pickle_file_name = pickle_file_name.replace('.pickle.tar.bz2', '')
-        print(f'Install src pkg of:{pickle_file_name}')
         
         install_source_package(pickle_file_name, config)
         
-        exit()
+        
         
         ###check with gdb (list cmd) if the sources are newer/older than binary
         ## warning: Source file is more recent than executable.
         ###get dir name
-        dir_name = ''  
-        dir_name = get_dirname_of_src(pickle_file_name)
+        
+        dir_name = config['ubuntu_src_pkgs'] + pickle_file_name
+        ##dir_name = get_dirname_of_src(pickle_file_name)
         print(f'Dir with src is:{dir_name}')
         res = check_if_src_match_binary(pickle_file_name, dir_name)
+        
+        exit()
         
         ##src and binary dont match, unpack the second src in the dir
         if not res:
