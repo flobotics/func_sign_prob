@@ -220,10 +220,11 @@ def install_source_package(src_package, config):
 #     return src_dir_name
 
 
-def check_if_src_match_binary(pickle_file_name, dir_name):
+def check_if_src_match_binary(pickle_file_name, dir_name, config):
             
+    print(f'pickle_file_name >{pickle_file_name}< dir_name >{dir_name}< ')
     ###get inside src dir and exec gdb
-    os.chdir("/tmp/" + pickle_file_name + '/' + dir_name)
+    os.chdir(dir_name + pickle_file_name)
     out = subprocess.run(["gdb", 
                           "-ex",
                           "file {}".format(pickle_file_name),
@@ -232,7 +233,7 @@ def check_if_src_match_binary(pickle_file_name, dir_name):
                           capture_output=True, 
                           universal_newlines=True)
     gdb_out = out.stdout
-    #print(f'gdb_out:{gdb_out}') 
+    print(f'gdb_out:{gdb_out}') 
     
     ### select the first file
     src_file = ''
@@ -430,10 +431,10 @@ def main():
         ## warning: Source file is more recent than executable.
         ###get dir name
         
-        dir_name = config['ubuntu_src_pkgs'] + pickle_file_name
+        dir_name = config['ubuntu_src_pkgs']
         ##dir_name = get_dirname_of_src(pickle_file_name)
         print(f'Dir with src is:{dir_name}')
-        res = check_if_src_match_binary(pickle_file_name, dir_name)
+        res = check_if_src_match_binary(pickle_file_name, dir_name, config)
         
         exit()
         
