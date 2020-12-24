@@ -221,6 +221,9 @@ def install_source_package(src_package, config):
 
 
 def check_if_src_match_binary(pickle_file_name, dir_name, config):
+    
+    print(f'Need to "apt install" and "apt install x-dbgsym" to work .hmmm')
+    exit()
             
     print(f'pickle_file_name >{pickle_file_name}< dir_name >{dir_name}< ')
     ###get inside src dir and exec gdb
