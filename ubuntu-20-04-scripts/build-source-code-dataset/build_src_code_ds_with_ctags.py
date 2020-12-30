@@ -207,27 +207,31 @@ def install_source_package(src_package, config):
         gdb_out = out.stdout
         
         
-# def get_dirname_of_src(pickle_file_name):
-#     print(f'get_dirname_of_src: {pickle_file_name}')
-#     src_dir_name = ''
-#     
-#     for file_ in os.listdir("/tmp/" + pickle_file_name):
-#         #print(f'file:{file_}')
-#         if os.path.isdir("/tmp/" + pickle_file_name + '/' + file_):
-#             #print(f'dir:{file_}')
-#             src_dir_name = file_
-#             
-#     return src_dir_name
+def get_dirname_of_src(pickle_file_name):
+    print(f'get_dirname_of_src: {pickle_file_name}')
+    src_dir_name = ''
+     
+    for file_ in os.listdir(pickle_file_name):
+        #print(f'file:{file_}')
+        if os.path.isdir(pickle_file_name + '/' + file_):
+            print(f'dir:{file_}')
+            src_dir_name = file_
+             
+    return src_dir_name
 
 
 def check_if_src_match_binary(pickle_file_name, dir_name, config):
     
     print(f'Need to "apt install" and "apt install x-dbgsym" to work .hmmm')
-    exit()
+    
             
     print(f'pickle_file_name >{pickle_file_name}< dir_name >{dir_name}< ')
     ###get inside src dir and exec gdb
-    os.chdir(dir_name + pickle_file_name)
+    src_dir_name = get_dirname_of_src(dir_name + pickle_file_name)
+    os.chdir(dir_name + pickle_file_name + '/' + src_dir_name)
+    
+    
+    
     out = subprocess.run(["gdb", 
                           "-ex",
                           "file {}".format(pickle_file_name),
@@ -237,6 +241,7 @@ def check_if_src_match_binary(pickle_file_name, dir_name, config):
                           universal_newlines=True)
     gdb_out = out.stdout
     print(f'gdb_out:{gdb_out}') 
+    exit()
     
     ### select the first file
     src_file = ''
