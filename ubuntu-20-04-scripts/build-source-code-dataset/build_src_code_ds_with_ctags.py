@@ -501,7 +501,9 @@ def main():
             pkg_name = os.path.basename(pkg_name)
             print(f'pkg_name:{pkg_name}')
     
-            pkg_src_name = "/tmp/" + pkg_name + "/" + dir_name
+            #pkg_src_name = "/tmp/" + pkg_name + "/" + dir_name
+            pkg_src_name = config['ubuntu_src_pkgs']
+            
             print(f'pkg_src_name:{pkg_src_name}')
     
             full_path = get_full_path(pkg_src_name, fl)
