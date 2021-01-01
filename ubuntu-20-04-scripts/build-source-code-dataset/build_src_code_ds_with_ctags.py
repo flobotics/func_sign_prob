@@ -13,6 +13,7 @@ from shutil import copyfile
 sys.path.append('../lib/')
 import common_stuff_lib
 import pickle_lib
+import tarbz2_lib
 
 gcloud = False
 
@@ -385,7 +386,11 @@ def check_config(config):
         
     if not os.path.isdir(config['ubuntu_src_pkgs']):
         print(f"Creating >{config['ubuntu_src_pkgs']}<")
-        os.mkdir(config['ubuntu_src_pkgs'])  
+        os.mkdir(config['ubuntu_src_pkgs'])
+        
+    if not os.path.isdir(config['work_dir']):
+        print(f"Creating >{config['work_dir']}<")
+        os.mkdir(config['work_dir'])
     
 
 
@@ -417,6 +422,8 @@ def main():
     for pickle_file in pickle_files:
         print(f'Untar pickle-file:{pickle_file}')
         
+        tarbz2_lib.untar_file_to_path(config['pickle_dir'] + pickle_file, config['work_dir'])
+        
         ###untar
 #         out = subprocess.run(["tar", 
 #                               "xjf",
@@ -446,7 +453,7 @@ def main():
         print(f'Dir with src is:{dir_name}')
         res = check_if_src_match_binary(pickle_file_name, dir_name, config)
         
-        exit()
+        
         
         ##src and binary dont match, unpack the second src in the dir
         if not res:
@@ -458,9 +465,15 @@ def main():
         
         #break
         
+        
         ###open the pickle
-        print('Open untarred pickle file:{pickle_file}')
-        pickle_content = open_pickle(pickle_file.replace('.tar.bz2', ''))
+        print(f"Open untarred pickle file: >{config['work_dir'] + pickle_file}<")
+        pickle_content = open_pickle(config['work_dir'] + pickle_file.replace('.tar.bz2', ''))
+        
+        print(f'pickle_content >{pickle_content}<')
+        
+        
+        exit()
         
         fcn = ''
         fl = ''
