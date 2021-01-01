@@ -140,7 +140,7 @@ def get_source_code(src_file, func_name, gdb_func_sign):
     
     start_end_lines = list()
     
-    start, end = get_start_end_line_of_func(src_file, func_name, False)
+    start, end = get_start_end_line_of_func(src_file, func_name, verbose=True)
     print(f'source-file: {src_file} func-name: {func_name} start:{start}   end:{end}')
     start_end_lines.append((src_file, func_name, start, end))
 
