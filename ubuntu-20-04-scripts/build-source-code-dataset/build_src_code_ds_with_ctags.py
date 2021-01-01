@@ -232,15 +232,16 @@ def check_if_src_match_binary(pickle_file_name, dir_name, config):
     
     
     
-    out = subprocess.run(["gdb", 
+    out = subprocess.run(["gdb",
+                          "-batch",
                           "-ex",
                           "file {}".format(pickle_file_name),
                           "-ex",
                           "info functions"],
                           capture_output=True, 
                           universal_newlines=True)
-    gdb_out = out.stdout
-    print(f'gdb_out:{gdb_out}') 
+#     gdb_out = out.stdout
+    print(f'gdb_out:{out.stdout}') 
     exit()
     
     ### select the first file

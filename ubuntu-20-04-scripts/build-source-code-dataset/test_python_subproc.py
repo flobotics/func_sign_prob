@@ -20,20 +20,28 @@ print(f'start')
 # print(f'gdb_out:{gdb_out}')
 
 
-proc = subprocess.Popen(["gdb", 
-                        "-ex",
-                        "file {}".format(pickle_file_name),
-                        "-ex",
-                        "info functions"], 
-                         stdout=subprocess.PIPE, 
-                         stderr=subprocess.PIPE, 
-                         encoding='utf-8',
-                         errors='replace', 
-                         universal_newlines=True )
+# proc = subprocess.Popen(["gdb",
+#                         "-batch"
+#                         "-ex",
+#                         "file {}".format(pickle_file_name),
+#                         "-ex",
+#                         "info functions"], 
+#                          stdout=subprocess.PIPE, 
+#                          stderr=subprocess.PIPE, 
+#                          encoding='utf-8',
+#                          errors='replace', 
+#                          universal_newlines=True )
 
-while proc.poll() is None:
-    line = proc.stdout.readline()
-    print(f'>{line}<')
+gdb_output = subprocess.run(["gdb",  "-batch", "-ex", "file {}".format(pickle_file_name), "-ex", "info functions"],
+                             capture_output=True, 
+                             universal_newlines=True)
+
+
+print(f'out >{gdb_output.stdout}<')
+
+# while proc.poll() is None:
+#     line = proc.stdout.readline()
+#     print(f'>{line}<')
 
 
 print(f'end')
