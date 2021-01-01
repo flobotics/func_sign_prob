@@ -470,7 +470,7 @@ def main():
         print(f"Open untarred pickle file: >{config['work_dir'] + pickle_file}<")
         pickle_content = open_pickle(config['work_dir'] + pickle_file.replace('.tar.bz2', ''))
         
-        print(f'pickle_content >{pickle_content}<')
+        #print(f'pickle_content >{pickle_content}<')
         
         
         #exit()
