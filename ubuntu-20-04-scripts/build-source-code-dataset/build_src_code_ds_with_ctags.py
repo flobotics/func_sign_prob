@@ -440,8 +440,7 @@ def main():
         ##dir_name = get_dirname_of_src(pickle_file_name)
         print(f'Dir with src is:{dir_name}')
         res = check_if_src_match_binary(pickle_file_name, dir_name, config)
-        
-        
+               
         
         ##src and binary dont match, unpack the second src in the dir
         if not res:
