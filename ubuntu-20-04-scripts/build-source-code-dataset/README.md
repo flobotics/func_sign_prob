@@ -14,3 +14,8 @@ Exuberant Ctags 5.9~svn20110310, Copyright (C) 1996-2009 Darren Hiebert<br/>
   Addresses: <dhiebert@users.sourceforge.net>, http://ctags.sourceforge.net<br/>
   Optional compiled features: +wildcards, +regex<br/>
 </code></pre>
+
+
+Idea:</br>
+1. Untar pickle file of package</br>
+2. We apt-source package</br>

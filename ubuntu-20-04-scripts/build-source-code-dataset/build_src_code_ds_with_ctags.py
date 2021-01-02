@@ -14,6 +14,7 @@ sys.path.append('../lib/')
 import common_stuff_lib
 import pickle_lib
 import tarbz2_lib
+import gdb_lib
 
 gcloud = False
 
@@ -180,33 +181,33 @@ def get_source_code(src_file, func_name, gdb_func_sign):
     return src_code
 
 
-def install_source_package(src_package, config):
-    print(f"We install with apt-source the source-package of package: {src_package} into : {config['ubuntu_src_pkgs']}{src_package}")
-    try:
-        os.mkdir(config['ubuntu_src_pkgs'] + src_package)
-    except OSError:
-        print (f"Creation of the directory {config['ubuntu_src_pkgs']}{src_package} failed")
-    else:
-        print (f"Successfully created the directory {config['ubuntu_src_pkgs']}{src_package}")
-    
-        os.chdir(config['ubuntu_src_pkgs'] + src_package)
-
-        ###install the package
-        #child = pexpect.spawn('apt source -y {0}'.format(src_package), timeout=None)
-        #if not gcloud:
-        #    child.expect('ubu:', timeout=None)
-            # enter the password
-       #    child.sendline('ubu\n')
-        #print(child.read())
-        #tmp = child.read()
-        
-        out = subprocess.run(["apt", 
-                          "source",
-                          src_package],
-                          capture_output=True, 
-                          universal_newlines=True)
-        gdb_out = out.stdout
-        
+# def install_source_package(src_package, config):
+#     print(f"We install with apt-source the source-package of package: {src_package} into : {config['ubuntu_src_pkgs']}{src_package}")
+#     try:
+#         os.mkdir(config['ubuntu_src_pkgs'] + src_package)
+#     except OSError:
+#         print (f"Creation of the directory {config['ubuntu_src_pkgs']}{src_package} failed")
+#     else:
+#         print (f"Successfully created the directory {config['ubuntu_src_pkgs']}{src_package}")
+#     
+#         os.chdir(config['ubuntu_src_pkgs'] + src_package)
+# 
+#         ###install the package
+#         #child = pexpect.spawn('apt source -y {0}'.format(src_package), timeout=None)
+#         #if not gcloud:
+#         #    child.expect('ubu:', timeout=None)
+#             # enter the password
+#        #    child.sendline('ubu\n')
+#         #print(child.read())
+#         #tmp = child.read()
+#         
+#         out = subprocess.run(["apt", 
+#                           "source",
+#                           src_package],
+#                           capture_output=True, 
+#                           universal_newlines=True)
+#         gdb_out = out.stdout
+#         
         
 def get_dirname_of_src(pickle_file_name):
     print(f'get_dirname_of_src: {pickle_file_name}')
@@ -223,10 +224,10 @@ def get_dirname_of_src(pickle_file_name):
 
 def check_if_src_match_binary(pickle_file_name, dir_name, config):
     
-    print(f'Need to "apt install" and "apt install x-dbgsym" to work .hmmm')
+    #print(f'Need to "apt install" and "apt install x-dbgsym" to work .hmmm')
     
             
-    print(f'pickle_file_name >{pickle_file_name}< dir_name >{dir_name}< ')
+    print(f'Checking with gdb which functions exist in pickle_file_name >{pickle_file_name}<')
     ###get inside src dir and exec gdb
     src_dir_name = get_dirname_of_src(dir_name + pickle_file_name)
     os.chdir(dir_name + pickle_file_name + '/' + src_dir_name)
@@ -250,12 +251,18 @@ def check_if_src_match_binary(pickle_file_name, dir_name, config):
     for line in gdb_out.split('\n'):
         linesplit = line.split()
         if (len(linesplit) >= 2) and linesplit[0] == 'File':
-            print(f'found file: {linesplit[1]}')
+            #print(f'found file: {linesplit[1]}')
             src_file = linesplit[1]
             break
         
+    print(f'Found source filename >{src_file}<')
+    
+    #exit()
+    
+    nr_tokens = 0
+    
     ## check how many times ../ tokens are there
-    if src_file:
+    if len(src_file) > 0:
         nr_tokens = src_file.count('../')
         print(f'found ../ >{nr_tokens}< times')
         
@@ -409,38 +416,19 @@ def main():
     ### print 5 files, check and debug
     pickle_lib.print_X_pickle_filenames(pickle_files, 5)
     
-
-    #pickle_path = "/home/ubu/git/test2/func_sign_prob/ubuntu-20-04-pickles/"
-    
-    #pickle_list = get_pickle_list(pickle_path)
-    #print(pickle_list)
-    
-    
-    #pickle_list = ["/home/ubu/git/test2/func_sign_prob/ubuntu-20-04-pickles/slapd.pickle.tar.bz2"]
     
     ###loop through all pickle.tar.bz2 files
     for pickle_file in pickle_files:
-        print(f'Untar pickle-file:{pickle_file}')
+        print(f"Untar pickle-file >{pickle_file}< to >{config['work_dir']}<")
         
         tarbz2_lib.untar_file_to_path(config['pickle_dir'] + pickle_file, config['work_dir'])
-        
-        ###untar
-#         out = subprocess.run(["tar", 
-#                               "xjf",
-#                               pickle_file,
-#                               "-C",
-#                               pickle_path,
-#                               ], capture_output=True, universal_newlines=True)
-#         tar_out = out.stdout
-        
-        
         
         
         ###install source-package of pickle-file-content
         pickle_file_name = os.path.basename(pickle_file)
         pickle_file_name = pickle_file_name.replace('.pickle.tar.bz2', '')
         
-        install_source_package(pickle_file_name, config)
+        gdb_lib.install_source_package(pickle_file_name, config)
         
         
         
@@ -529,7 +517,7 @@ def main():
                 print('ERROR found more than one source code for a function')
                 break
     
-        break
+        #break
 
 
 if __name__ == "__main__":
